@@ -61,7 +61,7 @@ A fresh line of text cuts him off.
 
 "You can't take this into the arena. Detectors will catch it the second it draws power. Without an aura-sync casing, the magical discharge when you switch it on will light up every sensor in a five-mile radius. And even if you bypass them, the wiring is so crude that ten hours of charging will buy you two minutes of output."
 
-"Two minutes in the pit is everything!" the mage shouts, veins bulging in his neck. "Two minutes is breathing versus a broken neck! You've never stood out there! You don't know what it's like! Any edge I can scrape together, I'm taking!"
+"Two minutes is more than enough in an arena!" the mage shouts. "Two minutes can mean the difference between life and death! You don't know how terrifying an arena can be! Any edge I can scrape together, I'm taking!"
 
 choice("Continue", B2-Ch04a-Meeting, v_current_scene = B2-Ch04a-Meeting)
 
@@ -91,7 +91,7 @@ A fresh line of text cuts him off.
 
 "You can't take this into the arena. Detectors will catch it the second it draws power. Without an aura-sync casing, the magical discharge when you switch it on will light up every sensor in a five-mile radius. And even if you bypass them, the wiring is so crude that ten hours of charging will buy you two minutes of output."
 
-"Two minutes in the pit is everything!" the mage shouts, veins bulging in his neck. "Two minutes is breathing versus a broken neck! You've never stood out there! You don't know what it's like! Any edge I can scrape together, I'm taking!"
+"Two minutes is more than enough in an arena!" the mage shouts. "Two minutes can mean the difference between life and death! You don't know how terrifying an arena can be! Any edge I can scrape together, I'm taking!"
 
 choice("Continue", B2-Ch04a-Meeting, v_current_scene = B2-Ch04a-Meeting)
 
