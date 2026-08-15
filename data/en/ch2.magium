@@ -129,14 +129,16 @@ TEXT:
 
 "Then we move together," Daren says, gesturing toward the treeline. "Standing in the open is an invitation for an ambush."
 
-"Us?" Her gaze snaps to me, sharp and hostile. "You travel with a stillwater? Have you lost your senses? You cannot trust him!"
+"Us?" Her gaze snaps to me—and in the same motion, her right hand rises. Frost crackles across her knuckles. A blade of ice crystallizes from nothing, four inches of translucent razored edge, and stops one inch from my throat. The cold burns my skin without touching it.
+
+"You travel with a stillwater," she says to Daren, her eyes never leaving mine. "Have you lost your senses entirely?"
 
 #if(v_ch1_stillwater == 2) {
-"Actually, he isn't a stillwater," Daren corrects her cheerfully. "He's an ordinary human."
+"Actually, he isn't a stillwater," Daren says carefully, his hand drifting toward his sword. "He's an ordinary human."
 
-Wonderful. I wonder if he plans to broadcast my life story to every stranger we stumble across.
+The ice blade doesn't move. Neither does she.
 
-"Is that the lie he fed you?" she demands, her voice hardening. "And you believed him? He is waiting for you to lower your guard!"
+"Is that the lie he fed you?" she demands. "And you believed him? An ordinary human in a death tournament for mages. Either he's suicidal—in which case he's a liability—or he's lying, in which case he's waiting for you to lower your guard."
 }
 choice("Ask her what she has against me", Ch2-Against, v_current_scene = Ch2-Against)
 choice("Ask why the two of us should trust her", Ch2-Trust, v_current_scene = Ch2-Trust)
@@ -148,21 +150,27 @@ TEXT:
 
 "Hey, I'm standing right here," I say. "What do you have against me, anyway?"
 
-"Save the performance, stillwater," she spits, stepping closer. "I know what your kind does. Human life is nothing to you. Tell me, what did the people of Olmnar ever do to deserve being butchered to the last soul?"
+The ice presses closer. A bead of meltwater runs down my collarbone. Her dark eyes are flat, bottomless, completely steady—and that is what frightens me more than the blade. She is not angry. She is calculating whether killing me is worth the mana.
 
-"Whoa, whoa! Let's all calm down," Daren steps between us, hands raised.
+"Save the performance, stillwater," she says, soft and precise. "I know what your kind does. Human life is nothing to you. Tell me—what did the people of Olmnar ever do to deserve being butchered to the last soul?"
 
-He turns to face her, his tone firm and unyielding.
+"I'm not—"
 
-"Listen, I understand your reservations. But the man is unarmed and outnumbered—same position you were in five minutes ago. We move faster with numbers. You want safe passage north? He walks with us. Those are the terms."
+"Don't." The blade twitches closer. "I don't care what you claim to be. I care what you can do when no one is watching."
 
-She holds his gaze, calculating the odds in silence.
+Daren moves. Not between us—he places himself at Kate's flank, one hand raised in peace, the other resting on the pommel of his sword. The message is clear: he will stop her if she strikes, but he will not pretend she is wrong to be afraid.
 
-"Very well," she says at last, exhaling cold air. "If those are your terms, I accept. But I will be watching my back every second. I am not as gullible as you, healer in armor."
+"Listen," he says, his tone careful and firm. "I watched this man read an enchanted-weapon system in three seconds flat and bluff a killer into retreat. If he were a stillwater, Dave would be ash. He's something else. I don't know what yet. But he's unarmed, he's outnumbered, and killing him gains you nothing." He meets her eyes. "You want safe passage north? He walks with us. Those are the terms."
 
-"Good enough." Daren's stern expression cracks into a brief grin. "Let's cover ground while the light holds. We can figure out the rest when we've put distance between us and this clearing."
+She holds his gaze. The ice does not melt. Five seconds. Ten.
 
-"Hold on," I call out. "You still haven't told us your name."
+Then her hand drops. The blade evaporates into cold vapor that stings my eyes.
+
+"If those are your terms," she says, "I accept. But understand this: I sleep with wards around my bedroll. If he moves within arm's reach of me in the night, I will freeze the blood in his veins before he draws his next breath. That is not a threat. It is a promise I have already kept once."
+
+Daren exhales slowly. "Fair enough. Let's cover ground while the light holds."
+
+"Hold on," I call out, rubbing the red mark on my throat where cold bit skin. "You still haven't told us your name."
 
 She turns back, measuring me with cold deliberation before she speaks.
 
@@ -176,25 +184,25 @@ choice("Continue", Ch2-Stats, v_current_scene = Ch2-Stats, v_available_points = 
 ID: Ch2-Trust
 TEXT:
 
-"You claim you can't trust me, but why should either of us trust you?" I counter. "What if this missing friend is a cover story, and you're hunting for the Magium like every other killer on this island? What proof do you have?"
+"You claim you can't trust me, but why should either of us trust you?" I counter. The ice blade hasn't moved from my throat, and speaking makes my adam's apple bob dangerously close to the edge. "What if this missing friend is a cover story, and you're hunting for the Magium like every other killer on this island? What proof do you have?"
+
+The ice wavers. Not because she's losing control—because the question landed.
 
 "I am not... I only..."
 
-Her words catch in her throat, her jaw locking tight.
+Her words catch in her throat, her jaw locking tight. For one heartbeat, something raw and wounded flickers behind her eyes before the mask slams back down.
 
-"Whoa, whoa! Let's all calm down," Daren steps between us, hands raised.
+Daren moves to her flank, one hand raised in peace, the other on his sword pommel.
 
-He turns to face her, his tone firm and unyielding.
+"Listen," he says, careful and firm. "I watched this man read an enchanted-weapon system in three seconds flat and bluff a killer into retreat. If he were a stillwater, Dave would be ash. He's something else. I don't know what yet. But he's unarmed, he's outnumbered, and killing him gains you nothing. You want safe passage north? He walks with us. Those are the terms."
 
-"Listen, I understand your reservations. But the man is unarmed and outnumbered—same position you were in five minutes ago. We move faster with numbers. You want safe passage north? He walks with us. Those are the terms."
+The ice shatters. Kate's fist closes, crushing the blade into cold vapor that stings my eyes. She steps back, breathing hard through her nose.
 
-She holds his gaze, calculating the odds in silence.
+"If those are your terms, I accept. But I sleep with wards around my bedroll. If he moves within arm's reach of me in the night, I freeze the blood in his veins before he draws his next breath."
 
-"Very well," she says at last, exhaling cold air. "If those are your terms, I accept. But I will be watching my back every second. I am not as gullible as you, healer in armor."
+"Understood," Daren says quietly. "Let's move."
 
-"Good enough." Daren's stern expression cracks into a brief grin. "Let's cover ground while the light holds. We can figure out the rest when we've put distance between us and this clearing."
-
-"Hold on," I call out. "You still haven't told us your name."
+"Hold on," I call out, rubbing the red mark on my throat. "You still haven't told us your name."
 
 She turns back, measuring me with cold deliberation before she speaks.
 
@@ -208,23 +216,25 @@ choice("Continue", Ch2-Stats, v_current_scene = Ch2-Stats, v_available_points = 
 ID: Ch2-Quick
 TEXT:
 
-"Why me?" I ask. "Why trust Daren on sight, but treat me like a monster?"
+"Why me?" I ask. The ice blade hovers at my throat, and I keep my voice very level. "Why trust Daren on sight, but treat me like a monster?"
 
-"Because his name means something!" she snaps. "Tales of his honor and courage reach every corner of the world. You, on the other hand, belong to a breed of mass murderers."
+"Because his name means something!" she snaps, the frost on her knuckles crackling brighter. "Tales of his honor and courage reach every corner of the world. You, on the other hand, belong to a breed of mass murderers. Olmnar. Thirty thousand people. Gone."
 
-"Whoa, whoa! Let's all calm down," Daren steps between us, hands raised.
+"I didn't—"
 
-He turns to face her, his tone firm and unyielding.
+"I don't care what you claim." Her voice drops to something quiet and lethal. "I care about what happens when I close my eyes."
 
-"Listen, I understand your reservations. But the man is unarmed and outnumbered—same position you were in five minutes ago. We move faster with numbers. You want safe passage north? He walks with us. Those are the terms."
+Daren moves to her flank, one hand raised, the other resting on his sword.
 
-She holds his gaze, calculating the odds in silence.
+"Listen," he says carefully. "I watched this man read an enchanted-weapon system in three seconds and bluff a killer into retreat. If he were a stillwater, Dave would be a stain on the dirt. He's something else. Unarmed. Outnumbered. And killing him gains you nothing." He meets her eyes. "You want safe passage north? He walks with us. Those are the terms."
 
-"Very well," she says at last, exhaling cold air. "If those are your terms, I accept. But I will be watching my back every second. I am not as gullible as you, healer in armor."
+The ice hangs in the air for five more seconds. Then Kate's fist closes—crushing the blade to vapor that stings my eyes—and she steps back.
 
-"Good enough." Daren's stern expression cracks into a brief grin. "Let's cover ground while the light holds. We can figure out the rest when we've put distance between us and this clearing."
+"Fine. But I ward my bedroll. He comes within arm's reach in the night, I freeze his blood solid. That is not posturing."
 
-"Hold on," I call out. "You still haven't told us your name."
+"Understood," Daren says. "Let's move."
+
+"Hold on," I call out, pressing a hand against the cold-burned skin of my throat. "You still haven't told us your name."
 
 She turns back, measuring me with cold deliberation before she speaks.
 

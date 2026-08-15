@@ -893,9 +893,9 @@ TEXT:
 #if(v_ch2_human_reason == 1) {
 Kate walks with a different posture than she did yesterday. When she first joined us, every muscle was coiled like a spring, her eyes constantly checking the brush as if waiting for us to draw steel the second her back was turned. Today she lets the tension slip. A faint, real smile touches her mouth when she talks to Rose, answering questions about mosses and cold-weather roots with something resembling ease.
 
-We keep a steady south-bound rhythm, pausing only to knock wild pears from the higher branches or dip our flasks into passing streams. During one of those water stops, Rose catches my eye and drops back beside me under the shade of a weeping cedar.
+We keep a steady south-bound rhythm, pausing only to knock wild pears from the higher branches or dip our flasks into passing streams. During one of those water stops, Rose kneels at the stream bank beside me, filling her flask. Her sleeve rides up as she reaches, baring a forearm tanned and nicked with old thorn scars. She tilts the flask, and cold water splashes across both our hands. Neither of us pulls back.
 
-"Barry," she murmurs, keeping her voice low. "I have to ask. Did Daren and I walk in on something important between you and Kate this morning? She turns cold every time I bring it up. I'd hate to think we ruined an honest confession because neither of us knew how to read a room."
+"Barry," she murmurs, keeping her voice low enough that only the stream competes. Her eyes stay on the water. "I have to ask. Did Daren and I walk in on something important between you and Kate this morning? She turns cold every time I bring it up. I'd hate to think we ruined something because neither of us knew how to read a room."
 
 }
 #if(v_ch5_admit_lie == 0 && v_ch2_human_reason != 1) {
@@ -905,9 +905,9 @@ Daren, meanwhile, has treated me like dead weight on the trail. Not a single wor
 
 Rose has tried three separate times to coax him into conversation, but all she gets in return are clipped, monosyllabic grunts.
 
-We keep a steady south-bound rhythm, pausing only to knock wild pears from the higher branches or dip our flasks into passing streams. During one of those water stops, Rose catches my eye and drops back beside me under the shade of a weeping cedar.
+We keep a steady south-bound rhythm, pausing only to knock wild pears from the higher branches or dip our flasks into passing streams. During one of those water stops, Rose kneels at the stream bank beside me, filling her flask. Her sleeve rides up as she reaches, baring a forearm tanned and nicked with old thorn scars. She tilts the flask, and cold water splashes across both our hands. Neither of us pulls back.
 
-"Barry," she murmurs, keeping her voice low. "I have to ask. Did Daren and I walk in on something important between you and Kate this morning? She turns cold every time I bring it up. I'd hate to think we ruined an honest confession because neither of us knew how to read a room."
+"Barry," she murmurs, keeping her voice low enough that only the stream competes. Her eyes stay on the water. "I have to ask. Did Daren and I walk in on something important between you and Kate this morning? She turns cold every time I bring it up. I'd hate to think we ruined something because neither of us knew how to read a room."
 
 }
 #if(v_ch5_admit_lie == 1 && v_ch5_ignore_scream == 1 && v_ch2_human_reason != 1) {
@@ -917,9 +917,9 @@ Daren, meanwhile, hasn't spared me a glance since we set out. His parting words 
 
 Rose has tried three separate times to coax him into conversation, but all she gets in return are clipped, monosyllabic grunts.
 
-We keep a steady south-bound rhythm, pausing only to knock wild pears from the higher branches or dip our flasks into passing streams. During one of those water stops, Rose catches my eye and drops back beside me under the shade of a weeping cedar.
+We keep a steady south-bound rhythm, pausing only to knock wild pears from the higher branches or dip our flasks into passing streams. During one of those water stops, Rose kneels at the stream bank beside me, filling her flask. Her sleeve rides up as she reaches, baring a forearm tanned and nicked with old thorn scars. She tilts the flask, and cold water splashes across both our hands. Neither of us pulls back.
 
-"Barry," she murmurs, keeping her voice low. "I have to ask. Did Daren and I walk in on something important between you and Kate this morning? She turns cold every time I bring it up. I'd hate to think we ruined an honest confession because neither of us knew how to read a room."
+"Barry," she murmurs, keeping her voice low enough that only the stream competes. Her eyes stay on the water. "I have to ask. Did Daren and I walk in on something important between you and Kate this morning? She turns cold every time I bring it up. I'd hate to think we ruined something because neither of us knew how to read a room."
 
 }
 #if(v_ch5_admit_lie == 1 && v_ch5_ignore_scream == 0 && v_ch2_human_reason != 1) {
@@ -927,16 +927,16 @@ Kate walks with a different posture than she did yesterday. When she first joine
 
 Daren, on the other hand, keeps his distance. The warm camaraderie from yesterday has turned into polite, businesslike frost. He answers logistical questions, hands over rations, and offers nothing more.
 
-We keep a steady south-bound rhythm, pausing only to knock wild pears from the higher branches or dip our flasks into passing streams. During one of those water stops, Rose catches my eye and drops back beside me under the shade of a weeping cedar.
+We keep a steady south-bound rhythm, pausing only to knock wild pears from the higher branches or dip our flasks into passing streams. During one of those water stops, Rose kneels at the stream bank beside me, filling her flask. Her sleeve rides up as she reaches, baring a forearm tanned and nicked with old thorn scars. She tilts the flask, and cold water splashes across both our hands. Neither of us pulls back.
 
-"Barry," she murmurs, keeping her voice low. "I have to ask. Did Daren and I walk in on something important between you and Kate this morning? She turns cold every time I bring it up. I'd hate to think we ruined an honest confession because neither of us knew how to read a room."
+"Barry," she murmurs, keeping her voice low enough that only the stream competes. Her eyes stay on the water. "I have to ask. Did Daren and I walk in on something important between you and Kate this morning? She turns cold every time I bring it up. I'd hate to think we ruined something because neither of us knew how to read a room."
 
 }
 choice(""Don't worry, that wasn't what our discussion was about."", Ch6-Flirt, v_current_scene = Ch6-Flirt, v_ch6_flirt = 1)
 choice(""Honestly? I've been staring at you all morning instead of watching the trail. I tripped twice."", Ch6-Flirt, v_current_scene = Ch6-Flirt, v_ch6_flirt = 2)
-choice(""I'm still available, if that's what you're asking."", Ch6-Flirt, v_current_scene = Ch6-Flirt, v_ch6_flirt = 3)
+choice(""I'm available, if that's what you're actually asking."", Ch6-Flirt, v_current_scene = Ch6-Flirt, v_ch6_flirt = 3)
 choice(""Kate and I have a purely professional relationship. She threatens to kill me, I fail to die."", Ch6-Flirt, v_current_scene = Ch6-Flirt, v_ch6_flirt = 4)
-choice(""Don't worry, we got to say all we needed before you interrupted."", Ch6-Flirt, v_current_scene = Ch6-Flirt, v_ch6_flirt = 5)
+choice(""Nothing was interrupted. But I notice you're the one bringing it up."", Ch6-Flirt, v_current_scene = Ch6-Flirt, v_ch6_flirt = 5)
 choice(""Actually, you're the one that stunned me with your beauty when I first saw you."", Ch6-Flirt, v_current_scene = Ch6-Flirt, v_ch6_flirt = 6)
 
 
@@ -958,7 +958,7 @@ Rose blinks, then lets out a delighted laugh that turns heads fifty paces away.
 
 }
 #if(v_ch6_flirt == 3) {
-"I'm still available, if that's what you're asking."
+"I'm available, if that's what you're actually asking."
 
 A slow, knowing smile touches Rose's lips.
 
@@ -974,9 +974,9 @@ Rose presses a hand against her collarbone, laughing softly.
 
 }
 #if(v_ch6_flirt == 5) {
-"Don't worry, we got to say all we needed before you interrupted."
+"Nothing was interrupted. But I notice you're the one bringing it up."
 
-Rose's smile softens into something warm and understanding. "Ah. That explains why Kate was avoiding the subject, then. I'm glad that the two of you are being honest with each other. I won't ask any more questions. However, I will tell you this: I've only known Kate for a few hours, but I can tell that she's been through a lot. So please, try not to hurt her. She has a good heart."
+Rose's smile turns knowing, warm and a little dangerous. "Am I? I suppose I am." She caps her flask and stands, brushing water from her knees. "I only wanted to make sure I hadn't stepped on anything fragile. Since you say there's nothing to step on—good. That simplifies things."
 
 "I'll... keep that in mind."
 
@@ -2655,79 +2655,83 @@ achievement("Defeated Tyrath",v_ac_ch6_tyrath)
 #if(v_ch6_offense != 2) {
 The valley floor thrums.
 
-A deep, azure luminescence bleeds through the soil beneath our feet, radiating an ancient, suffocating mana pressure that makes the hairs on my arms stand up.
+A deep, azure luminescence bleeds through the soil beneath our feet—not my doing. An ancient, suffocating mana pressure rises from below, older than anything I have felt since Eiden charged my device. The ground itself is waking up.
 
-"What's... What's happening?..." Tyrath says, trying to hold back the pain.
+"What's... What's happening?..." Tyrath rasps, his broken wings dragging across the scorched earth.
 
-"Has it been so long you've forgotten, old friend?" I hear Eiden's voice coming from the left.
+The light intensifies. The heat from the dragon's flames, my desperate environmental detonations, hours of accumulated magical discharge—all of it has been soaking into the bedrock. Feeding something buried. Something designed to trigger at precisely this threshold.
 
-I turn around and see the stillwater floating in the air next to us, with his usual smile on his face.
+A lessathi trap. The realization hits me like cold water. We are standing on a lessathi extermination grid, dormant for a thousand years, and we just gave it enough thermal energy to boot.
 
-"Eiden..." the dragon says.
+"You'll... pay for this..." the dragon snarls, his massive body beginning to glow with the same azure light. "Nowhere on this continent will be safe for you. I will hunt you down. I will—"
 
-"Just because these traps haven't been activated in more than a millennia does not mean they are out of function," Eiden continues. "The lessathi of old were anything but shoddy craftsmen. This trap was just a bit out of tune, that's all. Luckily, your continuous use of flames and Barry's volcanoes were just enough to warm it up!" 
+All of the magic in the air unleashes in a single, silent pulse. Tyrath's form stretches, thins, and vanishes—banished. The blue light drains from the ground like water from a cracked basin, and the earthquake slowly dies.
 
-As the two of them speak, the ground is shaking violently, and the blue light is intensifying.
+The energy from my device is gone. I feel it leave—the roaring torrent that tore through my body for five agonizing minutes simply stops, as if someone closed a valve. I drop to my knees, gasping. Blood runs freely from my nose, and my hands won't stop shaking.
 
-"You'll... pay for this... Both of you... I will not rest until I hunt you down. Nowhere on this continent will be safe for you ever again. Do you hear me?! I will hunt you down! Wipe that smile off your face, you lowborn little--"
+"Barry!" Kate is at my side. When did she get up? "What was that? What just happened to the ground?"
 
-All of the magic in the air gets unleashed in a single moment, and the dragon gets teleported away, as the blue light disappears and the earthquake slowly stops. The energy from my device is gone. I could sense it disappear the moment the dragon was teleported away.
+"Lessathi trap," I manage between breaths. "Heat-triggered. We fed it. The dragon's fire, my— whatever I was doing. It was enough."
 
-Eiden turns back to me.
+"You mean we accidentally activated an ancient weapon?" Daren says, staring at the scorch marks.
 
-"Well done, Barry! You have far exceeded my expectations!"
+"We fought for five minutes on top of a loaded gun and didn't know it." I spit blood into the dirt. "I'll take the win."
+
+From somewhere above—distant, disembodied—I hear a familiar voice, soft enough that I cannot be sure it wasn't the wind:
+
+"Well done, Barry."
+
+I look up. Nothing. Empty sky.
 
 }
 #if(v_ch6_offense == 2 && v_ch6_won_dragon == 1) {
 The valley floor thrums.
 
-A deep, azure luminescence bleeds through the soil beneath our feet, radiating an ancient, suffocating mana pressure that makes the hairs on my arms stand up.
+A deep, azure luminescence bleeds through the soil—ancient, suffocating, nothing I summoned. The ground is waking. Tyrath's fire, Daren's absorbed elemental returns, and the accumulated heat of our desperate fight have been soaking into the bedrock, feeding something buried beneath the clearing.
 
-"What's... What's happening?..." Tyrath says, trying to hold back the pain.
+"What's... What's happening?..." Tyrath rasps, dragging his torn wings through the scorched dirt.
 
-"Has it been so long you've forgotten, old friend?" I hear Eiden's voice coming from the left.
+A lessathi trap. Heat-triggered, dormant for a millennium, and we just crossed its activation threshold.
 
-I turn around and see the stillwater floating in the air next to us, with his usual smile on his face.
+"You'll... pay for this..." the dragon snarls, azure light crawling across his scales. "Nowhere on this continent will be safe. I will hunt you down—"
 
-"Eiden..." the dragon says.
+The pulse fires. Silent, absolute. Tyrath's body stretches thin and vanishes—banished. The earthquake dies. My device goes cold and dead against my ribs.
 
-"Just because these traps haven't been activated in more than a millennia does not mean they are out of function," Eiden continues. "The lessathi of old were anything but shoddy craftsmen. This trap was just a bit out of tune, that's all. Luckily, your continuous use of flames was just enough to warm it up!" 
+I drop to my knees. The sword falls from my numb fingers. Blood runs from both nostrils and I cannot stop my hands from shaking.
 
-As the two of them speak, the ground is shaking violently, and the blue light is intensifying.
+"Lessathi extermination grid," Kate says above me, scanning the fading glyph patterns in the soil. "I've read about these. They were designed to banish anything above a certain mass of channeled mana. We fed it enough heat to trigger."
 
-"You'll... pay for this... Both of you... I will not rest until I hunt you down. Nowhere on this continent will be safe for you ever again. Do you hear me?! I will hunt you down! Wipe that smile off your face, you lowborn little--"
+"So we won by accident," I rasp.
 
-All of the magic in the air gets unleashed in a single moment, and the dragon gets teleported away, as the blue light disappears and the earthquake slowly stops. The energy from my device is gone. I could sense it disappear the moment the dragon was teleported away.
+"You won by surviving long enough for the trap to fire," Daren corrects, hauling me upright by the arm. "That is not the same thing as an accident."
 
-Eiden turns back to me.
+From somewhere above—distant, almost imagined—a voice I know too well murmurs: "Well done, Barry."
 
-"Well done, Barry! I'll be honest with you, I was hoping you'd be using more spectacular spells in this skirmish, but I cannot blame you for wanting to be efficient!"
+I look up. Empty sky. Nothing but wind.
 
 }
 #if(v_ch6_offense == 2 && v_ch6_won_dragon == 2) {
 The valley floor thrums.
 
-A deep, azure luminescence bleeds through the soil beneath our feet, radiating an ancient, suffocating mana pressure that makes the hairs on my arms stand up.
+A deep, azure luminescence bleeds through the soil—not my doing. An ancient mana pressure rises from below, vast and indifferent, responding to the accumulated heat of our fight. Tyrath's fire, the acid steam, the raw thermal energy of a dragon in sustained combat—all soaking into bedrock that was never just stone.
 
-"What's... What's happening?..." Tyrath says.
+"What's... What's happening?..." Tyrath rasps.
 
-"Has it been so long you've forgotten, old friend?" I hear Eiden's voice coming from the left.
+A lessathi trap. Thermal activation threshold. We fought on top of an ancient weapon and never knew.
 
-I turn around and see the stillwater floating in the air next to us, with his usual smile on his face.
+"You'll... pay for this..." the dragon snarls, his body wreathed in azure light. "Nowhere will be safe—"
 
-"Eiden..." the dragon says.
+The pulse fires. Tyrath stretches thin and vanishes. The earthquake dies. My device goes cold.
 
-"Just because these traps haven't been activated in more than a millennia does not mean they are out of function," Eiden continues. "The lessathi of old were anything but shoddy craftsmen. This trap was just a bit out of tune, that's all. Luckily, your continuous use of flames was just enough to warm it up!" 
+I collapse onto one knee, bracing against the sword planted in the dirt. Every muscle is torn fiber. Blood streams from my nose.
 
-As the two of them speak, the ground is shaking violently, and the blue light is intensifying.
+"What was that?" Daren asks, staring at the fading glyphs.
 
-"You'll... pay for this... Both of you... I will not rest until I hunt you down. Nowhere on this continent will be safe for you ever again. Do you hear me?! I will hunt you down! Wipe that smile off your face, you lowborn little--"
+"Lessathi extermination trap," Kate says, pale and quiet. "Heat-triggered. We activated it by fighting here."
 
-All of the magic in the air gets unleashed in a single moment, and the dragon gets teleported away, as the blue light disappears and the earthquake slowly stops. The energy from my device is gone. I could sense it disappear the moment the dragon was teleported away.
+From above—faint, disembodied—a familiar voice: "Well done, Barry."
 
-Eiden turns back to me.
-
-"Well done, Barry! I'll be honest with you, I was hoping you'd be using more spectacular spells in this skirmish, but I cannot blame you for wanting to be efficient!"
+Empty sky. Nothing.
 
 }
 choice(""What just happened?"", Ch6-Win-fight2, v_current_scene = Ch6-Win-fight2, v_ch6_lessathi = 1)
@@ -2740,21 +2744,23 @@ TEXT:
 #if(v_ch6_lessathi == 1) {
 "What just happened?"
 
-"I'm sorry about your duel, Barry. I'm afraid you'll have to resume it some other time. Tyrath was caught in an old dragon trap that's been around for a few thousand years. The trap was supposed to get activated at the first sign of flames, but because it's been at least a thousand years since it was last used, its mechanism was a little rusty. That's why it needed some warming up before it could get triggered. That discharge of energy from the trap must have surely fried your stat device, but don't worry, it'll recover in a few minutes with all of your previous stats!"
+Kate crouches beside one of the fading glyph lines in the soil, tracing it with her fingertips. "Lessathi dragon trap," she says. "Thousands of years old. Designed to trigger at a certain threshold of accumulated flame—but this one's mechanism was degraded. It needed far more heat than the original specifications before it would fire." She looks up at me. "Your fight gave it enough. Every fireball, every flame breath from Tyrath—you were charging the grid without knowing it."
 
 "What did the trap do to the dragon?"
 
-"It transported him to a dragon prison on this island. Since I doubt there's anyone actually guarding it at this point I imagine that he won't have much trouble escaping, but even so, he'll still have to destroy the prison's automatic defenses and he'll have to travel all the way back here. So it should be at least a few days before he comes back."
+"Banishment. It transported him to a dragon prison somewhere on this island. I doubt anyone is still guarding it after all these centuries, so he'll break free eventually—but he'll need to destroy the prison's automatic defenses first and travel all the way back. A few days at minimum before he can return."
+
+She pauses, then adds: "Your device should recover. The discharge would have fried its active channels, but the underlying structure is intact. Give it a few minutes."
 
 }
 #if(v_ch6_lessathi == 2) {
 "Who are the lessathi?"
 
-"The lessathi are the most ancient race on this continent. Although the name is a bit hard to remember so most people prefer to call them simply "the ancients". Their talent at crafting magical artifacts and devices was unmatched a thousand years ago, and we still use many of those artifacts to this day. The trap that just got triggered was also made by them some two thousand years ago. It was supposed to get activated at the first sign of flames, but because it's been at least a thousand years since it was last used, its mechanism was a little rusty. That's why it needed to be warmed up a bit first. That discharge of energy from the trap must have surely fried your stat device, but don't worry, it'll recover in a few minutes with all of your previous stats!"
+"The most ancient race on this continent," Kate says, still studying the fading glyph patterns in the soil. "Most people call them simply 'the ancients.' Their talent for crafting magical artifacts and devices was unmatched—we still use many of their creations to this day. This trap was built by them roughly two thousand years ago. It was supposed to activate at the first sign of dragon flame, but after a millennium of disuse, its mechanism degraded. It needed far more heat than intended before it would fire."
 
-"What did the trap do to the dragon?"
+"What happened to the dragon?"
 
-"It transported him to a dragon prison on this island. Since I doubt there's anyone actually guarding it at this point I imagine that he won't have much trouble escaping, but even so, he'll still have to destroy the prison's automatic defenses and he'll have to travel all the way back here. So it should be at least a few days before he comes back."
+"Banishment to a dragon prison on this island. I doubt there are actual guards left after all these centuries—he'll break free eventually. But he'll need to destroy the prison's automatic defenses and travel back here. A few days, at least." She looks at me. "Your device should recover in a few minutes. The discharge fried its active channels but the underlying structure is intact."
 
 }
 choice("Continue", Ch6-Eiden-leaves, v_current_scene = Ch6-Eiden-leaves)
@@ -2789,6 +2795,7 @@ choice("Continue", Ch6-Eiden-leaves, v_current_scene = Ch6-Eiden-leaves)
 ID: Ch6-Eiden-leaves
 TEXT:
 
+#if(v_ch6_won_dragon == 3) {
 "Eiden!" shouts Daren, as he comes closer to us. "What are YOU doing here?!"
 
 "Wait... I don't understand... Isn't he your friend?" Rose asks us.
@@ -2804,6 +2811,26 @@ He then turns to leave.
 He then starts fading away and teleports out of our sight. Or did he? After seeing how well he could mask his presence before, I'm starting to wonder. It's a bit creepy, knowing that he could just be standing there, invisible and untraceable, listening to everything we say. We really need to find some way to detect these kinds of things.
 
 "Daren, how could you do this to your friend? That was horrible!" Rose says.
+}
+#if(v_ch6_won_dragon != 3) {
+We sit in the scorched clearing, catching our breath. My hands still tremble from the device's overload. The glyph lines in the soil are fading, their ancient light dying back into inert stone.
+
+"That voice," Daren says, looking up at the empty sky. "That was Eiden. He was watching."
+
+"Watching," Kate repeats flatly. "Not helping. Watching."
+
+"He charged my device," I say. "Before the fight. He gave me the power and then... left me to figure out the rest."
+
+"And you nearly died figuring it out," Kate says. The look she gives me is not soft. It is the look of someone recalculating.
+
+Rose kneels beside me, pressing a damp cloth to the blood on my face. "Are you always this reckless?" she asks quietly.
+
+"Only when ancient traps do half the work," I say. My voice sounds thin and wrong.
+
+The clearing falls silent. Somewhere in the distance, smoke rises from where Tyrath's flames scored the hillside. The dragon is gone, but the marks he left will take years to heal. So will the ones the device left on me.
+
+"We need to move," Daren says at last. "Before anything else finds us in this state."
+}
 
 choice(""Yeah, Daren, you should be ashamed of yourself!"", Ch6-Ashamed, v_current_scene = Ch6-Ashamed)
 choice(""Calm down, Rose, it's not as simple as that."", Ch6-Simple, v_current_scene = Ch6-Simple)
