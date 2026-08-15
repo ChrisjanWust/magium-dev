@@ -368,7 +368,7 @@ Horace steers Kelrim back through the quarantine doors. The crowd slowly drifts 
 "Now then," the king of the underground says, turning back to us with practiced composure. "You have your answer regarding candidates for the throne. Shall we proceed to the pressing matter of the Overseer and our plan to neutralize him?"
 
 #if(v_b3_ch8_next == 2) {
- As the question hangs in the air, I realize I never pressed him on what happens to the seredium tower prisoners. Then again, with Kelrim and Horace spearheading the government, the decision will likely rest in their hands anyway.
+ As the question hangs in the air, it strikes me that I never pressed him on what happens to the seredium tower prisoners. Then again, with Kelrim and Horace spearheading the government, the decision will likely rest in their hands anyway.
 
 }
 choice(""Actually, I was hoping we could talk some more about your humiliating defeat."", B3-Ch08b-Developments, v_current_scene = B3-Ch08b-Developments, v_b3_ch8_defeat = 0)
@@ -862,7 +862,7 @@ After her writing disappears, a heavy pause falls between us. We avoided the sub
 
  "I... I don't think it was the idea of no longer existing that scared me the most at the time," Leila writes. "It's rather... Do you remember that conversation we had in the tunnels about what would have happened if you had actually been erased by the Magium during the God of Time trials?... About how in a world like that I would have had to live my life trying to convince the others and even myself that you really existed and weren't just a figment of my imagination? I think... I think this is what I was really most afraid of. The thought of losing you in such a horrible way... it would have simply been too much for me to bear..."
 
-As Leila finishes writing her words, I notice that her hand is trembling slightly and that an anxious shadow lingers in her eyes.
+As Leila finishes writing, her hand trembles slightly. An anxious shadow lingers in her eyes.
 
 choice("Reassure her that I'm not going anywhere, but don't hold her hand.", B3-Ch08b-Skeptical, v_current_scene = B3-Ch08b-Skeptical, v_b3_ch8_heartfelt = 0)
 choice("Hold her hand and reassure her that I'm not going anywhere.", B3-Ch08b-Skeptical, v_current_scene = B3-Ch08b-Skeptical, v_b3_ch8_heartfelt = 1) if (v_b3_ch3_plans != 5)

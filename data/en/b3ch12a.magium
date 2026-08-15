@@ -713,7 +713,7 @@ Diane snorts, breaking into a grin. "Not the retort I expected, but it earns you
 
 }
 #if(v_b3_ch12_relieved == 1) {
-"That's reassuring, because my next spell has an alarming mortality rate," I say, dropping my pack and unbuckling the notebook.
+"That's reassuring, because my next spell does have an unusually high mortality rate," I say, dropping my pack and unbuckling the notebook.
 
 Diane gives a sharp laugh that cuts through the quiet of the riverbank.
 
@@ -725,7 +725,7 @@ Diane gives a sharp laugh that cuts through the quiet of the riverbank.
 
 }
 #if(v_b3_ch12_relieved == 2) {
-"I wasn't planning on anything painful, but good to know," I say, setting my pack down and opening the notebook.
+"I actually wasn't planning on using any painful spells, but that's good to know," I say, setting my pack down and opening the notebook.
 
 "Nothing painful?" Diane asks. "I assumed this was combat preparation."
 

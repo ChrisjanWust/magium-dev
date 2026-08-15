@@ -719,7 +719,7 @@ The hydra teleports into the path, taking the full hydraulic impact across its c
 #if(v_b3_ch9_element == 2) {
  I seize the opening and hurl a dense volley of wind blades straight at the green-eyed drone.
 
-The hydra teleports into the path, taking the razor-sharp currents across its scales.
+The hydra teleports into the path, taking the cutting currents across its scales.
 
 }
 #if(v_b3_ch9_element == 3) {

@@ -1244,7 +1244,7 @@ If I could decipher even a fraction of that residue...
 
 "Hard to tell," I say. "Fragments remain, but decoding them will take time."
 
-"In other words, nothing immediate," Daren concludes.
+"Nothing immediate, then," Daren concludes.
 
  "A question," Kate says, glancing uneasily at the sealed partition. "Can the entity monitor our words through the red sphere with the seredium door closed?"
 
@@ -1385,7 +1385,7 @@ ID: B3-Ch10c-Decorations
 TEXT:
 
 #if(v_b3_ch10_mention == 1) {
- "Better to bring it up," I say. "Meridith likely knows the fragment's directive. Concealing it might raise suspicion."
+ "I think it would be better to mention it to Meridith," I say. "Meridith likely knows the fragment's directive. Concealing it might raise suspicion."
 
 "Agreed," Daren says. "The Magium instructed us to seek her guidance. Does anyone object?"
 

@@ -69,7 +69,7 @@ TEXT:
 
 She flips the latch open a sliver.
 
-"—and once I peel the skin from your families, I'll carve you into pieces so small the flies won't even bother!" Arraka's screech bursts into the hall, layered with half a dozen echoes. "I'll boil your eyes in your skulls and crack your ribs one by—"
+"—and when I'm done with your families, I will kill you in the slowest, most painful way you can imagine!" Arraka's screech bursts into the hall, layered with half a dozen echoes. "Your eyes will melt from your face while your heads feel like they are exploding a thousand times per—"
 
 Click. Illuna snaps the locket shut, cutting off the shriek.
 
@@ -119,7 +119,7 @@ I slow the spin to a halt, surprised. "Since when do you defend Arraka?"
 
 "Barry is correct on that point," Illuna says. "She will complain, but she will not abandon the lessons. Her vanity will not permit a petty grievance to spoil her grand scheme."
 
-"It's not just the lessons, though," Daren says. "Her demeanor has shifted. Fewer threats, actual advice—she helped me contain the underground plague without demanding blood. She's practically earning her place on this team."
+"It's not just the lessons, though," Daren says. "Her demeanor has shifted. Fewer threats, actual advice—she even helped me deal with the plague from the underground base. She's practically earning her place on this team."
 
 "Her place on the team?" Illuna's eyes flare brilliant blue, and the amulet goes dead silent. "You cannot be serious."
 
@@ -138,7 +138,7 @@ She stares at Daren, then scans the rest of us.
 
 "Nobody is suggesting we become lifelong companions," Daren says gently. "Only that she has shown a degree of progress."
 
-"She has not changed!" Illuna's composure shatters, her voice echoing off the stone walls. "She will never change! She is the same sadistic, manipulative butcher who drenched the magical plane in blood before she was cast out. The moment you treat her as anything less than a monster, she will gut you. Do not repeat my mistake! You will regret it for whatever brief life you have left!"
+"She has not changed!" Illuna's composure shatters, her voice echoing off the stone walls. "She will never change! She is the same ruthless, sadistic and manipulative mass murderer she has always been. You cannot afford to treat her as an ally. You cannot even consider that possibility. Do not repeat my mistake! You will regret it for as long as you live!"
 
 choice("Continue", B3-Ch10a-Trumpets, v_current_scene = B3-Ch10a-Trumpets)
 
@@ -711,7 +711,7 @@ TEXT:
 
 She flips the latch open a sliver.
 
-"—and once I peel the skin from your families, I'll carve you into pieces so small the flies won't even bother!" Arraka's screech bursts into the hall, layered with half a dozen echoes. "I'll boil your eyes in your skulls and crack your ribs one by—"
+"—and when I'm done with your families, I will kill you in the slowest, most painful way you can imagine!" Arraka's screech bursts into the hall, layered with half a dozen echoes. "Your eyes will melt from your face while your heads feel like they are exploding a thousand times per—"
 
 Click. Illuna snaps the locket shut, cutting off the shriek.
 
@@ -761,7 +761,7 @@ I slow the spin to a halt, surprised. "Since when do you defend Arraka?"
 
 "Barry is correct on that point," Illuna says. "She will complain, but she will not abandon the lessons. Her vanity will not permit a petty grievance to spoil her grand scheme."
 
-"It's not just the lessons, though," Daren says. "Her demeanor has shifted. Fewer threats, actual advice—she helped me contain the underground plague without demanding blood. She's practically earning her place on this team."
+"It's not just the lessons, though," Daren says. "Her demeanor has shifted. Fewer threats, actual advice—she even helped me deal with the plague from the underground base. She's practically earning her place on this team."
 
 "Her place on the team?" Illuna's eyes flare brilliant blue, and the amulet goes dead silent. "You cannot be serious."
 
@@ -780,7 +780,7 @@ She stares at Daren, then scans the rest of us.
 
 "Nobody is suggesting we become lifelong companions," Daren says gently. "Only that she has shown a degree of progress."
 
-"She has not changed!" Illuna's composure shatters, her voice echoing off the stone walls. "She will never change! She is the same sadistic, manipulative butcher who drenched the magical plane in blood before she was cast out. The moment you treat her as anything less than a monster, she will gut you. Do not repeat my mistake! You will regret it for whatever brief life you have left!"
+"She has not changed!" Illuna's composure shatters, her voice echoing off the stone walls. "She will never change! She is the same ruthless, sadistic and manipulative mass murderer she has always been. You cannot afford to treat her as an ally. You cannot even consider that possibility. Do not repeat my mistake! You will regret it for as long as you live!"
 
 choice("Continue", B3-Ch10a-Speech, v_current_scene = B3-Ch10a-Speech)
 

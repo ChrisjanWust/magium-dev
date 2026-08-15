@@ -527,13 +527,13 @@ TEXT:
 #if(v_ch11_saved_rose == 0) {
  Beside me, Illuna's breath catches on every short stride. Her gait drags, a subtle hitch she tries to bury beneath rigid posture. She was pretending to be recovered to keep Kate from slowing down, but up close, the strain is obvious.
 
-"I don't know what she meant by 'Brinhorn method,'" Breynan says, pointing into the empty doorway. "Look at this oscillating current running across the seam. It looks like an electric feedback loop, but the frequency is completely unfamiliar."
+"I don't know what she meant by 'Brinhorn method,'" Breynan says, pointing into the empty doorway. "Look at this oscillating current running across the seam. It looks like an electric resonance, but the frequency is completely unfamiliar."
 
 "That is not lightning," Illuna says. "It is acid. Arraka drilled me on that specific matrix during our training."
 
 }
 #if(v_ch11_saved_rose == 1) {
- "I don't know what she meant by 'Brinhorn method,'" Breynan says, pointing into the empty doorway. "Look at this oscillating current running across the seam. It looks like an electric feedback loop, but the frequency is completely unfamiliar."
+ "I don't know what she meant by 'Brinhorn method,'" Breynan says, pointing into the empty doorway. "Look at this oscillating current running across the seam. It looks like an electric resonance, but the frequency is completely unfamiliar."
 
 "That is not lightning," Illuna says. "It is acid. Arraka drilled me on that specific matrix during our training."
 
@@ -744,7 +744,7 @@ Flower nods anxiously and she places herself beside me, preparing to imitate my 
 
 "Bend my knees," Flower repeats after me. "Got it."
 
-When Flower does what I said, I realize that her knees are both trembling and that she is for some reason looking even more anxious than before.
+When Flower does what I said, her knees are both trembling. She looks even more anxious than before.
 
 "Is... umm... is everything alright?" I ask Flower.
 
