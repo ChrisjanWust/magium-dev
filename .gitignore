@@ -14,3 +14,10 @@ devenv.local.nix
 
 # pre-commit
 .pre-commit-config.yaml
+
+# Opencode & Local DBs
+.opencode/
+codebase.db*
+vectors*
+~*
+
