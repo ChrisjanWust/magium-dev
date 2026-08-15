@@ -2,77 +2,79 @@ ID: B3-Ch04b-Assistance
 TEXT:
 
 #if(v_b3_ch4_control == 0) {
- "Perhaps I could be of assistance!" we hear the metallic voice of the Overseer, as a green-eyed drone is now flying to our location, very carefully moving between the prisoners in order to make sure that the chains do not get tangled up in its propeller.
+ "Perhaps I could be of assistance."
+The flat, synthetic voice rings through the chamber. A drone floats between the stone slabs, green optical sensor glowing steady as its rotor tilts to weave around the hanging chains and conduits without snagging.
 
-"You can show us how to reach the upper levels undetected?" I ask the Overseer, when he reaches us.
+"You know a way to the upper levels that bypasses the guards?" I ask as it drifts to eye level.
 
-"I can lead you to where you need to go," the Overseer says. "But you will have to open up a secret passage first. I believe you should already know how to do that, given how you've managed to reach this room without alarming any of the guards."
+"I can guide you to your destination," the Overseer says. "You will need to open a concealed entrance first. Given that you entered this chamber without alerting the garrison, the mechanism should present no difficulty."
 
-"Yeah, we can open secret passages," I tell him. "Where is this hidden door, then?"
+"We know how to open lessathi doors," I say. "Point us to it."
 
-"It is this way," the Overseer says, as the green-eyed drone flies past us. "Follow me."
+"Follow the unit," the Overseer says, banking toward the far wall.
 
-"Not so fast, Overseer," Breynan says, and the metal ball stops in mid-air. "What about the door that you just came from? What's over there?"
+"Hold on, Overseer," Breynan says. The drone halts in place, humming softly. "What about the corridor you just flew in from? What sits behind that door?"
 
-"That way leads directly to the upper levels," the Overseer says. "However, there are many guards patrolling the halls, and there is no way to avoid all of them without raising the alarm. The secret passage I was about to show you was built by the lessathi of old, just like the ones from the tunnels underneath Varathia, which means that nobody in this tower knows about them. You will be able to travel through the passage without encountering any resistance."
+"That route ascends directly toward the upper tiers," the Overseer says. "However, armed patrols maintain continuous sweeps. You cannot bypass them without triggering an alert. The passage I offer was constructed by the ancients, identical to the network beneath the city. No living occupant of this facility knows of its existence. You will encounter zero resistance."
 
- "Yeah, I don't know what to say, here," Breynan replies.
+Breynan rubs his chin, brow furrowed. "I don't like it."
 
-"You don't think he's telling the truth?" Leila writes.
+"You think it's lying?" Leila writes in glowing blue script.
 
-"It's not that," Breynan says. "It's just that he's being way more helpful than usual. You don't often see the Overseer initiating a conversation with someone unless that person actually activates the protocol. And even then, you're typically going to have to ask dozens of questions before you can get any useful answers out of him. But now he's giving us all the information by himself, without us even needing to ask any questions. I can't help but feel a little suspicious about all of this..."
+"Not lying," Breynan says. "Too eager. The Overseer doesn't volunteer navigation unless you invoke protocol, and even then you have to drag every syllable out of it with twenty specific questions. Now it's handing us a clean route unprompted. It smells wrong."
 
-"So you think that the Overseer might be following somebody's orders, then?" Illuna says. "Do you think he might be leading us into a trap?"
+"You believe it answers to someone else?" Illuna asks, her eyes cold blue. "A trap?"
 
-"No, the Overseer is nobody's lapdog," Breynan says. "And if he really wanted us dead, he could have just stalled us until the royal guards reached us, while we were on the surface. I'm not saying that he necessarily means us any harm, I'm just saying that he's acting a little strange, that's all. Even the way he talks feels a little different. You can tell that he's not pretending to be a dumb machine anymore."
+"The machine takes no orders from Undriel's men," Breynan says. "If it wanted us dead, it could have stalled us on the surface until the royal guard ran us down. I'm not saying it's trying to kill us. I'm saying it dropped the dumb-automaton routine the second it spoke. That's a different animal entirely."
 
- "You do have a point," Melindra says.
+"He isn't wrong," Melindra says, crossing her arms.
 
-"The Overseer protocol assures you that there is nothing to be suspicious about," the Overseer says. "The protocol's only purpose is to provide assistance."
+"The Overseer protocol assures you that suspicion is unfounded," the drone says. "The unit's sole function is to provide assistance."
 
-"Yeah, you see... the thing is that saying stuff like that only makes you seem more suspicious," Breynan says.
+"Right," Breynan says dryly. "Saying that makes it sound so much better."
 
-"If you don't think he's leading us into a trap, then I do not see the problem," Illuna says. "We already decided that we would cooperate with the Overseer before we left the rebel base. Otherwise we would have never bothered to respond to his initial invitation. Whether he has any personal goals or not should not concern us unless we have reasons to believe that they'd conflict with our own."
+"If you rule out an ambush, the point is moot," Illuna says. "We agreed to use the Overseer before leaving the underground. That was the purpose of responding to its summons. Whatever ambitions the construct harbors are irrelevant until they cross our own."
 
 }
 #if(v_b3_ch4_control == 1) {
- "I can fight!" says one of the mages that is on the tables, in a desperate voice. "I'll fight anyone! I'll do anything! Please, anywhere else is better than here!"
+ "I can fight!" a mage on the nearest slab rasps, straining against the brass collar. "I'll take a blade, I'll take anything—just get me off this stone!"
 
-"Yes, we'll fight!" says another mage lying on a table. "We'll all fight! Just give us a chance!"
+"We can stand!" another shouts down the row. "Give us a chance!"
 
-"Ugh..." Melindra says. "Even if these mages are willing to fight, we still don't know how high up in the tower we need to go to reach the control room. We can't even be sure that we'll recognize the room when we'll see it!"
+"Save your breath," Melindra mutters, wincing at the din. "Even with fifty half-dead mages at our backs, we don't know which floor holds the master controls. We wouldn't even recognize the junction box if we tripped over it."
 
-"Perhaps I could be of assistance!" we hear the metallic voice of the Overseer, as a green-eyed drone is now flying to our location, very carefully moving between the prisoners in order to make sure that the chains do not get tangled up in its propeller.
+"Perhaps I could be of assistance."
+The flat, synthetic voice rings through the chamber. A drone floats between the stone slabs, green optical sensor glowing steady as its rotor tilts to weave around the hanging chains and conduits without snagging.
 
-"You can show us how to reach the control room?" I ask the Overseer, when he reaches us.
+"You know the way to the control room?" I ask as it drifts to eye level.
 
-"I can lead you to where you need to go," the Overseer says. "But you will have to open up a secret passage first. I believe you should already know how to do that, given how you've managed to reach this room without alarming any of the guards."
+"I can guide you to your destination," the Overseer says. "You will need to open a concealed entrance first. Given that you entered this chamber without alerting the garrison, the mechanism should present no difficulty."
 
-"Yeah, we can open secret passages," I tell him. "Where is this hidden door, then?"
+"We know how to open lessathi doors," I say. "Point us to it."
 
-"It is this way," the Overseer says, as the green-eyed drone flies past us. "Follow me."
+"Follow the unit," the Overseer says, banking toward the far wall.
 
- "Not so fast, Overseer," Breynan says, and the metal ball stops in mid-air. "What about the door that you just came from? What's over there?"
+"Hold on, Overseer," Breynan says. The drone halts in place, humming softly. "What about the corridor you just flew in from? What sits behind that door?"
 
-"That way leads directly to the upper levels," the Overseer says. "However, there are many guards patrolling the halls, and there is no way to avoid all of them without raising the alarm. The secret passage I was about to show you was built by the lessathi of old, just like the ones from the tunnels underneath Varathia, which means that nobody in this tower knows about them. You will be able to travel through the passage without encountering any resistance."
+"That route ascends directly toward the upper tiers," the Overseer says. "However, armed patrols maintain continuous sweeps. You cannot bypass them without triggering an alert. The passage I offer was constructed by the ancients, identical to the network beneath the city. No living occupant of this facility knows of its existence. You will encounter zero resistance."
 
-"Yeah, I don't know what to say, here," Breynan replies.
+Breynan rubs his chin, brow furrowed. "I don't like it."
 
-"You don't think he's telling the truth?" Leila writes.
+"You think it's lying?" Leila writes in glowing blue script.
 
-"It's not that," Breynan says. "It's just that he's being way more helpful than usual. You don't often see the Overseer initiating a conversation with someone unless that person actually activates the protocol. And even then, you're typically going to have to ask dozens of questions before you can get any useful answers out of him. But now he's giving us all the information by himself, without us even needing to ask any questions. I can't help but feel a little suspicious about all of this..."
+"Not lying," Breynan says. "Too eager. The Overseer doesn't volunteer navigation unless you invoke protocol, and even then you have to drag every syllable out of it with twenty specific questions. Now it's handing us a clean route unprompted. It smells wrong."
 
- "So you think that the Overseer might be following somebody's orders, then?" Illuna says. "Do you think he might be leading us into a trap?"
+"You believe it answers to someone else?" Illuna asks, her eyes cold blue. "A trap?"
 
-"No, the Overseer is nobody's lapdog," Breynan says. "And if he really wanted us dead, he could have just stalled us until the royal guards reached us, while we were on the surface. I'm not saying that he necessarily means us any harm, I'm just saying that he's acting a little strange, that's all. Even the way he talks feels a little different. You can tell that he's not pretending to be a dumb machine anymore."
+"The machine takes no orders from Undriel's men," Breynan says. "If it wanted us dead, it could have stalled us on the surface until the royal guard ran us down. I'm not saying it's trying to kill us. I'm saying it dropped the dumb-automaton routine the second it spoke. That's a different animal entirely."
 
-"You do have a point," Melindra says.
+"He isn't wrong," Melindra says, crossing her arms.
 
-"The Overseer protocol assures you that there is nothing to be suspicious about," the Overseer says. "The protocol's only purpose is to provide assistance."
+"The Overseer protocol assures you that suspicion is unfounded," the drone says. "The unit's sole function is to provide assistance."
 
-"Yeah, you see... the thing is that saying stuff like that only makes you seem more suspicious," Breynan says.
+"Right," Breynan says dryly. "Saying that makes it sound so much better."
 
-"If you don't think he's leading us into a trap, then I do not see the problem," Illuna says. "We already decided that we would cooperate with the Overseer before we left the rebel base. Otherwise we would have never bothered to respond to his initial invitation. Whether he has any personal goals or not should not concern us unless we have reasons to believe that they'd conflict with our own."
+"If you rule out an ambush, the point is moot," Illuna says. "We agreed to use the Overseer before leaving the underground. That was the purpose of responding to its summons. Whatever ambitions the construct harbors are irrelevant until they cross our own."
 
 }
 choice(""I agree. The secret passage is probably our best option right now."", B3-Ch04b-Passage, v_current_scene = B3-Ch04b-Passage)
@@ -84,19 +86,21 @@ TEXT:
 
  "I agree. The secret passage is probably our best option right now."
 
-"If none of you have a problem with helping the Overseer, then it's fine," Breynan says. "I just wanted to make sure that you all know exactly what you're getting yourselves into."
+"If the rest of you want to trust it, I won't stop you," Breynan says. "Just keep your eyes open. Nothing in this tower comes free."
 
-"Hmm..." Melindra says. "Well, I suppose I don't care much about everyone's hidden agendas as long as the king gets killed in the end. The Overseer doesn't exactly seem to be on the king's side from what I've seen so far, so we may as well follow him for now. Hey, green-eyed drone thing, where did you say the hidden door was again?"
+"I don't care what games it's playing so long as Undriel ends up dead," Melindra says. "The machine hasn't sided with the crown yet, which makes it useful enough. Hey, flying sphere. Where is this door?"
 
-"Right this way!" the Overseer says, as the drone begins moving again, and we all go after it.
+"Proceed along this vector," the Overseer says. The rotor whines, and the drone glides across the cavernous room toward a blank seredium partition. We follow in its wake.
 
-"This is the entrance to the secret passage," the Overseer says, once it reaches one of the walls on the other side of the room. "If you were able to open the door to the underground tunnels by yourselves, you should also be able to figure out how to open this one rather easily."
+"This surface contains the access mechanism," the drone announces, hovering inches from the dark alloy. "A simple energy transfer will release the latch."
 
- "Let me see..." Illuna says, as she gets close to the wall and touches it with her hand, sending a bit of magical energy into it.
+"Stand back," Illuna says. She presses her palm flat against the cold metal, feeding a slender pulse of mana into the seam.
 
-Just like before, the wall slowly retracts and then it slides to the side, making way for us to pass. We are once again faced with a set of stairs leading upwards, except this time there are no blue crystals to light the way for us. While Leila and I take out our stat devices to light the way in front of us, the rest of the group also make their way in, except for the Overseer.
+The seredium groans, sinks two inches into the frame, and glides aside on greaseless tracks. Beyond lies a narrow stone stairwell climbing steeply into darkness—no luminescent crystals embedded in the masonry this time. Leila and I pull our stat devices from our belts, angling the glowing screens ahead to cast pale light over the risers.
 
-"Good luck," the Overseer says from outside the secret corridor, as Illuna closes the hidden door.
+The group files into the chute. The drone remains hovering outside in the chamber.
+
+"Good fortune," the Overseer intones from the threshold, and Illuna triggers the inner latch, sealing the slab behind us.
 
 choice("Continue", B3-Ch04b-Passage2, v_current_scene = B3-Ch04b-Passage2)
 
@@ -104,25 +108,29 @@ choice("Continue", B3-Ch04b-Passage2, v_current_scene = B3-Ch04b-Passage2)
 ID: B3-Ch04b-Passage2
 TEXT:
 
- We make our way up the stairs in silence, with Illuna in front of us. We keep climbing for a while, until we finally reach the end of the tunnel, and Illuna turns her head towards us in order to make sure that we're ready. Once she confirms that we're all paying attention, she opens the secret door in the same way that she opened the last one, and then we exit the tunnel one by one, making our way into what appears to be some kind of workshop.
+ We climb the winding steps in total silence, Illuna setting the pace. The air grows warmer with every flight, dry and smelling of heated copper and flux. At the top landing, Illuna pauses, glancing over her shoulder until we all give a nod. She presses the release panel, the stone glides back, and we step out into a sprawling workshop littered with workbenches, cables, and brass chassis.
 
-"Wh-wh-what are you doing here?..." we hear the panicked voice of Billy Bob the lessathi, who is standing next to a table in the middle of the room that has a disassembled drone on top of it. "Who are you people? Drones! Attack them right now! Kill them! Kill them!"
+"Wh-what are you doing here?" a shrill voice squeaks from across the room.
 
-There are six red-eyed drones hovering right above the lessathi, but they seem in no hurry to carry out his orders. Seeing that the drones are ignoring him, Billy Bob now addresses a green-eyed drone to his right.
+Billy Bob stands behind a central workbench, clutching a screwdriver over a half-disassembled drone frame. His eyes bulge as he scrambles backward.
 
-"Overseer, what is the meaning of this?" Billy Bob says.
+"Who let you in? Drones! Eliminate them! Kill them now!"
 
- "Question unclear," the Overseer says, as Illuna closes the secret door behind us. "Please rephrase your previous query."
+Six red-eyed combat drones hover in a tight defensive arc above his workbench, their rotors spinning in steady, flat tones. None of them move an inch.
 
-"Why are your drones not killing them?!" Billy Bob shouts, as he points towards us. "I told you to kill them!"
+Billy Bob whips his head toward a green-eyed unit floating at his right shoulder. "Overseer! What is the meaning of this?"
 
-"Unfortunately your request cannot be resolved at this current time," the Overseer says. "We apologize for the inconvenience!"
+"Query unclear," the Overseer responds through the speaker grille while Illuna slides the secret panel shut behind us. "Please rephrase your inquiry."
 
-"Cannot be resolved..." Billy Bob says, perplexed. "Are... are you betraying me?..."
+"Why aren't the units firing?" Billy Bob screeches, stabbing a finger in our direction. "I gave you a direct execution order!"
 
-The green-eyed drone does not say anything, but the answer is obvious to everyone in the room. It looks like there is nobody left in this workshop that could possibly take Billy Bob's side. He is completely defenseless. Now then... what should our next course of action be?
+"Unfortunately, your request cannot be processed at this time," the Overseer says. "We apologize for the inconvenience."
 
-All of a sudden, I see that Kate is preparing several icicles and that she is aiming them at Billy Bob, while giving him a look full of disgust. She is planning to kill him.
+Billy Bob pales, his jaw slackening. "Cannot be processed? Are you... are you defying me?"
+
+The green-eyed drone hangs silent in the air. The red-eyed units remain frozen in standby. Billy Bob stands alone behind the bench, trembling, with no guards and no active weapons between us.
+
+Frost gathers at Kate's fingertips. Half a dozen jagged icicles form in the air before her chest, points angled directly at the lessathi's throat. Her face is hard, eyes narrowed in pure contempt.
 
 choice("Let Kate kill Billy Bob.", B3-Ch04b-Billy1, v_current_scene = B3-Ch04b-Billy1, v_b3_ch4_billy = 1)
 choice("Kill Billy Bob myself.", B3-Ch04b-Billy2, v_current_scene = B3-Ch04b-Billy2, v_b3_ch4_billy = 2)
@@ -134,25 +142,29 @@ choice("Stop Kate from killing Billy Bob and go knock him out.", B3-Ch04b-Billy5
 ID: B3-Ch04b-Billy1
 TEXT:
 
- I decide to not intervene and to let Kate do what she wants. A few seconds later, Kate sends her icicles flying towards the lessathi, which hit him in his head and his chest before he has any time to react, killing him on the spot. As Billy Bob's corpse falls to the ground, the green-eyed drone slowly approaches us and begins to speak.
+ I stay silent and let Kate take the shot.
 
- "The Overseer protocol thanks you for your assistance," the Overseer says. "You have done me a great service by ending Biliborrathrathsarran's life. Rest assured that this debt will not be forgotten."
+She releases the spell. Six spikes of ice tear across the room, striking the lessathi in the throat and sternum before his hands can even come up. Billy Bob collapses backward across the bench, knocking over tools and brass parts before sliding heavily to the stone floor.
 
-"You wanted him dead?..." I say. "Then why didn't you just kill him yourself?"
+The green-eyed drone glides forward, stopping three paces from the corpse.
 
-"I have been designed in such a way that I cannot kill the person who activates me," the Overseer says. "Biliborrathrathsarran was the one who reactivated me this time, so killing him was impossible for me."
+"The Overseer protocol expresses gratitude for your assistance," the machine says. "You have rendered a vital service by terminating Biliborrathrathsarran. This debt is duly recorded."
 
-"Hold on a second," I say. "Are you trying to say that you deliberately led us to Billy Bob's workshop because you wanted us to kill him for you?"
+"You wanted him dead?" I ask. "Why not finish him with your own drones?"
 
-"That is correct," the Overseer replies.
+"My core programming prohibits the termination of the user who initiates system activation," the Overseer says. "Biliborrathrathsarran performed the reactivation sequence, rendering direct lethal action impossible."
 
-"I don't get it," I say. "I thought your catch phrase was that your 'only purpose' is to provide assistance. Whatever happened to that?"
+"Hold on," I say. "You led us straight to his workshop so we'd do your dirty work?"
 
-"The Overseer protocol's only purpose is to provide assistance," the Overseer says. "However, I've never specified to whom I am providing the assistance."
+"Affirmative."
 
-"And to whom are you providing that assistance, then, if we may ask?" Illuna says.
+"What happened to your catchphrase?" I say. "Your 'sole purpose is to provide assistance'?"
 
-"To myself," the Overseer says.
+"The Overseer protocol's sole purpose is to provide assistance," the machine replies without hesitation. "I have never specified the recipient of said assistance."
+
+"And who is the recipient, exactly?" Illuna asks, her voice dry as stone.
+
+"Myself."
 
 choice("Continue", B3-Ch04b-Sneaky, v_current_scene = B3-Ch04b-Sneaky)
 
@@ -162,31 +174,35 @@ TEXT:
 
  "Wait," I tell Kate. "I'll do it."
 
-"What?..." Kate says, but then she realizes what I meant and she stops creating her icicles. "Oh... Okay."
+"What?" Kate blinks, the frost fading from her fingers. "Fine. He's yours."
 
-I then take out my crossbow from my backpack and aim it directly at the lessathi.
+I unclip the crossbow from my pack, load a bolt, and raise the stock to my shoulder.
 
-"What is this supposed to be?" Billy Bob says, as he is looking straight at me. "Are you threatening me? Don't think you can get away with something like this just because--"
+"What is this?" Billy Bob spits, backing against the stone wall. "A peasant with a toy? You think you can murder a high lessathi just because—"
 
-I shoot my crossbow at him before he can finish what he had to say and the crossbow bolt passes right through his forehead, killing him instantly. As Billy Bob's corpse falls to the ground, the green-eyed drone slowly approaches us and begins to speak.
+I pull the trigger.
 
- "The Overseer protocol thanks you for your assistance," the Overseer says. "You have done me a great service by ending Biliborrathrathsarran's life. Rest assured that this debt will not be forgotten."
+The bolt catches him square between the eyes. His head snaps back against the masonry, and his knees fold, sending the body sprawling onto the floor.
 
-"You wanted him dead?..." I say. "Then why didn't you just kill him yourself?"
+The green-eyed drone glides forward, stopping three paces from the corpse.
 
-"I have been designed in such a way that I cannot kill the person who activates me," the Overseer says. "Biliborrathrathsarran was the one who reactivated me this time, so killing him was impossible for me."
+"The Overseer protocol expresses gratitude for your assistance," the machine says. "You have rendered a vital service by terminating Biliborrathrathsarran. This debt is duly recorded."
 
-"Hold on a second," I say. "Are you trying to say that you deliberately led us to Billy Bob's workshop because you wanted us to kill him for you?"
+"You wanted him dead?" I ask. "Why not finish him with your own drones?"
 
-"That is correct," the Overseer replies.
+"My core programming prohibits the termination of the user who initiates system activation," the Overseer says. "Biliborrathrathsarran performed the reactivation sequence, rendering direct lethal action impossible."
 
-"I don't get it," I say. "I thought your catch phrase was that your 'only purpose' is to provide assistance. Whatever happened to that?"
+"Hold on," I say. "You led us straight to his workshop so we'd do your dirty work?"
 
-"The Overseer protocol's only purpose is to provide assistance," the Overseer says. "However, I've never specified to whom I am providing the assistance."
+"Affirmative."
 
-"And to whom are you providing that assistance, then, if we may ask?" Illuna says.
+"What happened to your catchphrase?" I say. "Your 'sole purpose is to provide assistance'?"
 
-"To myself," the Overseer says.
+"The Overseer protocol's sole purpose is to provide assistance," the machine replies without hesitation. "I have never specified the recipient of said assistance."
+
+"And who is the recipient, exactly?" Illuna asks, her voice dry as stone.
+
+"Myself."
 
 choice("Continue", B3-Ch04b-Sneaky, v_current_scene = B3-Ch04b-Sneaky)
 
@@ -194,19 +210,21 @@ choice("Continue", B3-Ch04b-Sneaky, v_current_scene = B3-Ch04b-Sneaky)
 ID: B3-Ch04b-Billy3
 TEXT:
 
- "Kate, wait, don't kill him yet!" I say.
+ "Kate, wait," I say, holding up a hand. "Don't kill him yet."
 
-"Why not?" Kate says, as she stops creating her icicles.
+"Why not?" Kate asks, though she lets the icicles hover in place.
 
-"Hey, Billy Bob!" I say, as I take my crossbow out of my backpack and aim it at the lessathi. "We might consider sparing you if you beg us for your life. What do you say?"
+I draw my crossbow from my pack and sight down the iron groove at the lessathi's nose. "Hey, Billy Bob. Beg for your life, and we might consider letting you walk out of here. What do you say?"
 
-"Seriously?..." Kate asks me.
+Kate glances at me, deadpan. "Are you serious?"
 
-"You must be out of your mind if you think your bluff will--" Billy Bob starts to say, but I cut him off by shooting a crossbow bolt a few inches away from his face.
+"You think your pathetic bluff frightens me?" Billy Bob sneers. "You wouldn't dare—"
 
-When Billy Bob realizes what happened, he lets out a high-pitched shriek, and then he cries out in a scared tone.
+I squeeze the trigger. The bolt thwips past his ear, gouging a fist-sized chunk of plaster from the wall an inch from his temple.
 
-"Please don't kill me, I beg you!" the lessathi screams. "I'll do anything, please! Just spare my life!"
+Billy Bob shrieks, clutching his head as his knees hit the floor.
+
+"Please! Don't shoot! I'll do whatever you want, I swear! Just let me live!"
 
 choice("Tell Kate she can kill him now.", B3-Ch04b-Beg1, v_current_scene = B3-Ch04b-Beg1, v_b3_ch4_beg = 0)
 choice("Kill him.", B3-Ch04b-Beg2, v_current_scene = B3-Ch04b-Beg2, v_b3_ch4_beg = 1)
@@ -218,29 +236,31 @@ TEXT:
 
  "Alright, now you can kill him!" I tell Kate.
 
-"You're the one who made him beg for his life," Kate says, while frowning at me. "You kill him."
+Kate lowers her hands, scowling at me. "You're the one who dragged out the theatrics. Finish it yourself."
 
-"Fair enough," I say, and then I shoot the lessathi in the head with my crossbow, killing him on the spot.
+"Fair enough," I say.
 
-Seeing that the lessathi is dead, the green-eyed drone slowly approaches us and begins to speak.
+I slot another bolt into the groove, raise the crossbow, and put a shot through his forehead. Billy Bob crumples forward onto the flagstones.
 
- "The Overseer protocol thanks you for your assistance," the Overseer says. "You have done me a great service by ending Biliborrathrathsarran's life. Rest assured that this debt will not be forgotten."
+The green-eyed drone glides forward, stopping three paces from the corpse.
 
-"You wanted him dead?..." I say. "Then why didn't you just kill him yourself?"
+"The Overseer protocol expresses gratitude for your assistance," the machine says. "You have rendered a vital service by terminating Biliborrathrathsarran. This debt is duly recorded."
 
-"I have been designed in such a way that I cannot kill the person who activates me," the Overseer says. "Biliborrathrathsarran was the one who reactivated me this time, so killing him was impossible for me."
+"You wanted him dead?" I ask. "Why not finish him with your own drones?"
 
-"Hold on a second," I say. "Are you trying to say that you deliberately led us to Billy Bob's workshop because you wanted us to kill him for you?"
+"My core programming prohibits the termination of the user who initiates system activation," the Overseer says. "Biliborrathrathsarran performed the reactivation sequence, rendering direct lethal action impossible."
 
-"That is correct," the Overseer replies.
+"Hold on," I say. "You led us straight to his workshop so we'd do your dirty work?"
 
-"I don't get it," I say. "I thought your catch phrase was that your 'only purpose' is to provide assistance. Whatever happened to that?"
+"Affirmative."
 
-"The Overseer protocol's only purpose is to provide assistance," the Overseer says. "However, I've never specified to whom I am providing the assistance."
+"What happened to your catchphrase?" I say. "Your 'sole purpose is to provide assistance'?"
 
-"And to whom are you providing that assistance, then, if we may ask?" Illuna says.
+"The Overseer protocol's sole purpose is to provide assistance," the machine replies without hesitation. "I have never specified the recipient of said assistance."
 
-"To myself," the Overseer says.
+"And who is the recipient, exactly?" Illuna asks, her voice dry as stone.
+
+"Myself."
 
 choice("Continue", B3-Ch04b-Sneaky, v_current_scene = B3-Ch04b-Sneaky)
 
@@ -248,33 +268,33 @@ choice("Continue", B3-Ch04b-Sneaky, v_current_scene = B3-Ch04b-Sneaky)
 ID: B3-Ch04b-Beg2
 TEXT:
 
- "No," I tell the lessathi simply, and then I shoot him in the head with my crossbow, killing him instantly.
+ "No," I tell the lessathi simply, and shoot him through the forehead.
 
-Seeing what happened, Kate shakes her head in disapproval.
+The body hits the stone with a dull thud.
 
-"Is that why you made him beg for his life?" Kate asks, as she frowns at me. "Just so you could kill him afterwards?"
+Kate folds her arms, shaking her head. "Did you really make him grovel just to kill him anyway?"
 
-"Yep," I say, as I calmly put my crossbow in my backpack. "Pretty much."
+"Yep," I say, checking the prod before sliding the crossbow back into my pack. "Pretty much."
 
-Seeing that the lessathi is dead, the green-eyed drone slowly approaches us and begins to speak.
+The green-eyed drone glides forward, stopping three paces from the corpse.
 
- "The Overseer protocol thanks you for your assistance," the Overseer says. "You have done me a great service by ending Biliborrathrathsarran's life. Rest assured that this debt will not be forgotten."
+"The Overseer protocol expresses gratitude for your assistance," the machine says. "You have rendered a vital service by terminating Biliborrathrathsarran. This debt is duly recorded."
 
-"You wanted him dead?..." I say. "Then why didn't you just kill him yourself?"
+"You wanted him dead?" I ask. "Why not finish him with your own drones?"
 
-"I have been designed in such a way that I cannot kill the person who activates me," the Overseer says. "Biliborrathrathsarran was the one who reactivated me this time, so killing him was impossible for me."
+"My core programming prohibits the termination of the user who initiates system activation," the Overseer says. "Biliborrathrathsarran performed the reactivation sequence, rendering direct lethal action impossible."
 
-"Hold on a second," I say. "Are you trying to say that you deliberately led us to Billy Bob's workshop because you wanted us to kill him for you?"
+"Hold on," I say. "You led us straight to his workshop so we'd do your dirty work?"
 
-"That is correct," the Overseer replies.
+"Affirmative."
 
-"I don't get it," I say. "I thought your catch phrase was that your 'only purpose' is to provide assistance. Whatever happened to that?"
+"What happened to your catchphrase?" I say. "Your 'sole purpose is to provide assistance'?"
 
-"The Overseer protocol's only purpose is to provide assistance," the Overseer says. "However, I've never specified to whom I am providing the assistance."
+"The Overseer protocol's sole purpose is to provide assistance," the machine replies without hesitation. "I have never specified the recipient of said assistance."
 
-"And to whom are you providing that assistance, then, if we may ask?" Illuna says.
+"And who is the recipient, exactly?" Illuna asks, her voice dry as stone.
 
-"To myself," the Overseer says.
+"Myself."
 
 choice("Continue", B3-Ch04b-Sneaky, v_current_scene = B3-Ch04b-Sneaky)
 
@@ -284,11 +304,11 @@ TEXT:
 
  "You'll do anything?" I ask Billy Bob. "Then how about you give me full control of all the devices in Ollendor? You should be able to do that, right?"
 
-"Of course!" Billy Bob says, in a panicked tone. "There is a panel right here under this table, and if you insert the correct code, it will give you full control of everything. Come over here and I'll... tell you the code you need."
+"Yes! Yes, of course!" Billy Bob babbles, sweat dripping down his nose. "There's an override panel underneath the center bench. You input the master cipher, and it grants full administrative access. Come here—step around the side, and I'll give you the sequence."
 
 "Is he telling the truth?" I ask Leila.
 
-"I can't tell," Leila writes. "He is very scared, so the flow of his aura is all over the place."
+"I can't tell," Leila writes in floating blue script. "His fear has shredded his aura. The flow is completely erratic."
 
 choice("Go to the table.", B3-Ch04b-Beg4, v_current_scene = B3-Ch04b-Beg4, v_b3_ch4_beg = 3)
 choice("Kill Billy Bob.", B3-Ch04b-Beg5, v_current_scene = B3-Ch04b-Beg5, v_b3_ch4_beg = 4)
@@ -304,17 +324,19 @@ set(v_is_dead,1) if (v_aura_hardening < 3 && v_premonition < 3)
 
 "Alright, Billy Bob," I say. "I'm coming over."
 
-I then begin to walk towards the lessathi, as he is still trembling in fear, while leaning against the edge of the table with his hands behind his back.
+I step past the edge of the rack, my boots clicking on the flagstones. Billy Bob stays pressed against the table, trembling, his hands tucked out of sight behind his back.
 
-All of a sudden, I see a vision of me getting burned to a crisp as soon as I take another step forward. I quickly jump backwards out of instinct and not even a second later, a powerful burst of fire erupts from beneath the floor tile in front of me, just like I saw in my premonition.
+A violent flash seizes my mind—a plume of white-hot flame erupting from the flagstone ahead, scorching skin to ash in a fraction of a heartbeat.
 
-That was a close one. I hadn't even considered the idea that there could be a lessathi-made trap device hidden underneath that floor tile. Was this the reason why Billy Bob was keeping his hands behind his back? So he could press some hidden button beneath the table and activate the trap?
+I throw myself backward.
 
-Just as the flames disappear, I see the lessathi rushing towards me with a dagger in his hands. Before he gets to reach me, Kate shoots a few icicles into his head and chest, sending him tumbling down and killing him on the spot.
+The air cracks. A jet of pressurized flame roars up from the seam in the floor right where my next stride would have landed, licking the ceiling tiles before venting out.
 
-"I should have known that he couldn't be trusted," Kate says. "He agreed to give you that code much too easily."
+A concealed burner mechanism beneath the stone. The hands tucked behind his back were working a toggle on the underside of the tabletop.
 
-Seeing that the lessathi has been killed, the green-eyed drone slowly approaches us and begins to speak.
+As the flare dies down, Billy Bob lunges through the smoke, a serrated knife raised in his right fist. Before he covers three paces, Kate fires four icicles straight through his neck and chest. He crashes face-first across the scorched flagstone and lies still.
+
+"I should have known," Kate mutters, lowering her hands. "He gave up the cipher too fast."
 
 }
 #if(v_aura_hardening >= 3 && v_premonition < 3) {
@@ -322,17 +344,15 @@ Seeing that the lessathi has been killed, the green-eyed drone slowly approaches
 
 "Alright, Billy Bob," I say. "I'm coming over."
 
-I then begin to walk towards the lessathi, as he is still trembling in fear, while leaning against the edge of the table with his hands behind his back.
+I step past the edge of the rack, my boots clicking on the flagstones. Billy Bob stays pressed against the table, trembling, his hands tucked out of sight behind his back.
 
-All of a sudden, a powerful burst of fire erupts from beneath the floor tile I just stepped on, engulfing me in flames. Thanks to my aura hardening stat, the fire does not burn me, but it still feels very hot and I instinctively jump back from it.
+The moment my boot presses the center tile, a jet of pressurized flame roars up from the floor, engulfing me in a blinding pillar of fire. My hardened aura locks tight against the heat, deflecting the lethal wash, though the searing wave still forces me to stumble backward out of the column.
 
-That was a close one. I hadn't even considered the idea that there could be a lessathi-made trap device hidden underneath that floor tile. Was this the reason why Billy Bob was keeping his hands behind his back? So he could press some hidden button beneath the table and activate the trap?
+A concealed burner mechanism beneath the stone. The hands tucked behind his back were working a toggle on the underside of the tabletop.
 
-Just as the flames disappear, I see the lessathi rushing towards me with a dagger in his hands. Before he gets to reach me, Kate shoots a few icicles into his head and chest, sending him tumbling down and killing him on the spot.
+As the flare dies down, Billy Bob lunges through the smoke, a serrated knife raised in his right fist. Before he covers three paces, Kate fires four icicles straight through his neck and chest. He crashes face-first across the scorched flagstone and lies still.
 
-"I should have known that he couldn't be trusted," Kate says. "He agreed to give you that code much too easily."
-
-Seeing that the lessathi has been killed, the green-eyed drone slowly approaches us and begins to speak.
+"I should have known," Kate mutters, lowering her hands. "He gave up the cipher too fast."
 
 }
 #if(v_aura_hardening < 3 && v_premonition < 3) {
@@ -340,29 +360,29 @@ Seeing that the lessathi has been killed, the green-eyed drone slowly approaches
 
 "Alright, Billy Bob," I say. "I'm coming over."
 
-I then begin to walk towards the lessathi, as he is still trembling in fear, while leaning against the edge of the table with his hands behind his back.
+I step past the edge of the rack, my boots clicking on the flagstones. Billy Bob stays pressed against the table, trembling, his hands tucked out of sight behind his back.
 
-All of a sudden, a powerful burst of fire erupts from beneath the floor tile I just stepped on, engulfing me in flames. I try to jump away, but the pain is excruciating and it only takes a few seconds for me to get burned to a crisp and to lose my consciousness for good.
+The moment my boot presses the center tile, a jet of pressurized flame roars up from the floor, engulfing me in a blinding pillar of fire. The agony hits instantly, searing skin and lungs before I can even recoil, and the world goes black before my body hits the stone.
 
 }
 #if(v_aura_hardening >= 3 || v_premonition >= 3) {
- "The Overseer protocol thanks you for your assistance," the Overseer says. "You have done me a great service by ending Biliborrathrathsarran's life. Rest assured that this debt will not be forgotten."
+ "The Overseer protocol expresses gratitude for your assistance," the machine says. "You have rendered a vital service by terminating Biliborrathrathsarran. This debt is duly recorded."
 
-"You wanted him dead?..." I say. "Then why didn't you just kill him yourself?"
+"You wanted him dead?" I ask. "Why not finish him with your own drones?"
 
-"I have been designed in such a way that I cannot kill the person who activates me," the Overseer says. "Biliborrathrathsarran was the one who reactivated me this time, so killing him was impossible for me."
+"My core programming prohibits the termination of the user who initiates system activation," the Overseer says. "Biliborrathrathsarran performed the reactivation sequence, rendering direct lethal action impossible."
 
-"Hold on a second," I say. "Are you trying to say that you deliberately led us to Billy Bob's workshop because you wanted us to kill him for you?"
+"Hold on," I say. "You led us straight to his workshop so we'd do your dirty work?"
 
-"That is correct," the Overseer replies.
+"Affirmative."
 
-"I don't get it," I say. "I thought your catch phrase was that your 'only purpose' is to provide assistance. Whatever happened to that?"
+"What happened to your catchphrase?" I say. "Your 'sole purpose is to provide assistance'?"
 
-"The Overseer protocol's only purpose is to provide assistance," the Overseer says. "However, I've never specified to whom I am providing the assistance."
+"The Overseer protocol's sole purpose is to provide assistance," the machine replies without hesitation. "I have never specified the recipient of said assistance."
 
-"And to whom are you providing that assistance, then, if we may ask?" Illuna says.
+"And who is the recipient, exactly?" Illuna asks, her voice dry as stone.
 
-"To myself," the Overseer says.
+"Myself."
 
 }
 choice("Continue", B3-Ch04b-Sneaky, v_current_scene = B3-Ch04b-Sneaky) if (v_aura_hardening >= 3 || v_premonition >= 3)
@@ -374,27 +394,29 @@ choice("Load game", , , special:saves) if (v_aura_hardening < 3 && v_premonition
 ID: B3-Ch04b-Beg5
 TEXT:
 
- "Yeah, I don't trust him," I say, and then I shoot Billy Bob in his head with my crossbow, killing him on the spot. "I'd rather just see him dead."
+ "Yeah, I don't trust him," I say, and put a crossbow bolt straight through his forehead. "Better this way."
 
-Seeing that the lessathi has been killed, the green-eyed drone slowly approaches us and begins to speak.
+The lessathi drops behind the bench.
 
- "The Overseer protocol thanks you for your assistance," the Overseer says. "You have done me a great service by ending Biliborrathrathsarran's life. Rest assured that this debt will not be forgotten."
+The green-eyed drone glides forward, stopping three paces from the corpse.
 
-"You wanted him dead?..." I say. "Then why didn't you just kill him yourself?"
+"The Overseer protocol expresses gratitude for your assistance," the machine says. "You have rendered a vital service by terminating Biliborrathrathsarran. This debt is duly recorded."
 
-"I have been designed in such a way that I cannot kill the person who activates me," the Overseer says. "Biliborrathrathsarran was the one who reactivated me this time, so killing him was impossible for me."
+"You wanted him dead?" I ask. "Why not finish him with your own drones?"
 
-"Hold on a second," I say. "Are you trying to say that you deliberately led us to Billy Bob's workshop because you wanted us to kill him for you?"
+"My core programming prohibits the termination of the user who initiates system activation," the Overseer says. "Biliborrathrathsarran performed the reactivation sequence, rendering direct lethal action impossible."
 
-"That is correct," the Overseer replies.
+"Hold on," I say. "You led us straight to his workshop so we'd do your dirty work?"
 
-"I don't get it," I say. "I thought your catch phrase was that your 'only purpose' is to provide assistance. Whatever happened to that?"
+"Affirmative."
 
-"The Overseer protocol's only purpose is to provide assistance," the Overseer says. "However, I've never specified to whom I am providing the assistance."
+"What happened to your catchphrase?" I say. "Your 'sole purpose is to provide assistance'?"
 
-"And to whom are you providing that assistance, then, if we may ask?" Illuna says.
+"The Overseer protocol's sole purpose is to provide assistance," the machine replies without hesitation. "I have never specified the recipient of said assistance."
 
-"To myself," the Overseer says.
+"And who is the recipient, exactly?" Illuna asks, her voice dry as stone.
+
+"Myself."
 
 choice("Continue", B3-Ch04b-Sneaky, v_current_scene = B3-Ch04b-Sneaky)
 
@@ -402,35 +424,37 @@ choice("Continue", B3-Ch04b-Sneaky, v_current_scene = B3-Ch04b-Sneaky)
 ID: B3-Ch04b-Billy4
 TEXT:
 
- "Kate, wait, don't kill him yet!" I say.
+ "Kate, wait," I say. "Don't kill him yet."
 
-"Why not?" Kate says, as she stops creating her icicles.
+"Why not?" Kate asks, though she lets the icicles hover in place.
 
-"Hey, Billy Bob," I say. "Where is the control room from this tower? How do we deactivate the chains from the room with all the prisoners? Speak, and you might get to live another day!"
+"Hey, Billy Bob," I say. "Where is the master control room for this tower? How do we disengage the energy conduits feeding off the prisoners? Give us the overrides, and you might see tomorrow."
 
-"Do you take me for a fool?!" Billy Bob shouts. "You think I'd be willing to undo all of the work I've done in these past few years just because of a lousy threat? I would rather die than tell you anything about the control room!"
+"Do you take me for a fool?" Billy Bob sneers, his face twisting with rage. "You think I will dismantle years of labor for a cheap threat? I would rather die than surrender the control room to you filth!"
 
-"Then die," Kate says, coldly, as she sends several icicles into the lessathi's head and chest, killing him on the spot.
+"Then die," Kate says flatly.
 
-Seeing that the lessathi has been killed, the green-eyed drone slowly approaches us and begins to speak.
+She flicks her wrist. Three icicles hammer through his forehead and chest, pitching him back over the scrap pile. He hits the floor lifeless.
 
- "The Overseer protocol thanks you for your assistance," the Overseer says. "You have done me a great service by ending Biliborrathrathsarran's life. Rest assured that this debt will not be forgotten."
+The green-eyed drone glides forward, stopping three paces from the corpse.
 
-"You wanted him dead?..." I say. "Then why didn't you just kill him yourself?"
+"The Overseer protocol expresses gratitude for your assistance," the machine says. "You have rendered a vital service by terminating Biliborrathrathsarran. This debt is duly recorded."
 
-"I have been designed in such a way that I cannot kill the person who activates me," the Overseer says. "Biliborrathrathsarran was the one who reactivated me this time, so killing him was impossible for me."
+"You wanted him dead?" I ask. "Why not finish him with your own drones?"
 
-"Hold on a second," I say. "Are you trying to say that you deliberately led us to Billy Bob's workshop because you wanted us to kill him for you?"
+"My core programming prohibits the termination of the user who initiates system activation," the Overseer says. "Biliborrathrathsarran performed the reactivation sequence, rendering direct lethal action impossible."
 
-"That is correct," the Overseer replies.
+"Hold on," I say. "You led us straight to his workshop so we'd do your dirty work?"
 
-"I don't get it," I say. "I thought your catch phrase was that your 'only purpose' is to provide assistance. Whatever happened to that?"
+"Affirmative."
 
-"The Overseer protocol's only purpose is to provide assistance," the Overseer says. "However, I've never specified to whom I am providing the assistance."
+"What happened to your catchphrase?" I say. "Your 'sole purpose is to provide assistance'?"
 
-"And to whom are you providing that assistance, then, if we may ask?" Illuna says.
+"The Overseer protocol's sole purpose is to provide assistance," the machine replies without hesitation. "I have never specified the recipient of said assistance."
 
-"To myself," the Overseer says.
+"And who is the recipient, exactly?" Illuna asks, her voice dry as stone.
+
+"Myself."
 
 choice("Continue", B3-Ch04b-Sneaky, v_current_scene = B3-Ch04b-Sneaky)
 
@@ -443,45 +467,47 @@ set(v_is_dead,1) if (v_aura_hardening < 3 && v_premonition < 3)
 #if(v_premonition >= 3) {
  
 
-"Kate, wait, don't kill him yet!" I say.
+"Kate, wait," I say. "Don't kill him yet."
 
-"Why not?" Kate says, as she stops creating her icicles.
+"Why not?" Kate asks.
 
-Instead of answering her, I take out my dagger from its sheath and I start walking towards the lessathi. Billy Bob jumps backwards, trying to get away from me, but he quickly realizes that he can't retreat that way, due to the table blocking his path. As Billy Bob is now trembling in fear, while leaning against the edge of the table with his hands behind his back, I keep advancing towards him with my dagger at the ready, aiming to knock him out with the hilt.
+Instead of answering, I slide my dagger from its sheath and advance toward the bench, reversing my grip to lead with the pommel. Billy Bob recoils, his hips hitting the metal frame. With nowhere left to retreat, he presses against the table, trembling, his hands tucked out of sight behind his back.
 
-All of a sudden, I see a vision of a powerful burst of fire erupting from beneath the floor tile under my feet and burning me to a crisp as soon as I take another step forward. My first instinct tells me to jump backwards, but I decide to make a quick forward dash instead, managing to avoid the fire by a hair and also to reach the lessathi in a matter of seconds.
+A violent premonition hits my mind—flames tearing up through the stone directly under my feet, charring bone in an instant.
+
+Instead of jumping back, I pivot and lunge forward in a low sprint, crossing the danger zone before the toggle can cycle. The burner vents a split-second too late behind my heels, and I close the distance in a breath.
 
 }
 #if(v_aura_hardening >= 3 && v_premonition < 3) {
  
 
-"Kate, wait, don't kill him yet!" I say.
+"Kate, wait," I say. "Don't kill him yet."
 
-"Why not?" Kate says, as she stops creating her icicles.
+"Why not?" Kate asks.
 
-Instead of answering her, I take out my dagger from its sheath and I start walking towards the lessathi. Billy Bob jumps backwards, trying to get away from me, but he quickly realizes that he can't retreat that way, due to the table blocking his path. As Billy Bob is now trembling in fear, while leaning against the edge of the table with his hands behind his back, I keep advancing towards him with my dagger at the ready, aiming to knock him out with the hilt.
+Instead of answering, I slide my dagger from its sheath and advance toward the bench, reversing my grip to lead with the pommel. Billy Bob recoils, his hips hitting the metal frame. With nowhere left to retreat, he presses against the table, trembling, his hands tucked out of sight behind his back.
 
-All of a sudden, a powerful burst of fire erupts from beneath the floor tile I just stepped on, engulfing me in flames. Thanks to my aura hardening stat the fire does not burn me but it still feels very hot, so I decide to make a quick dash forward in order to both step out of the flames and to close the distance between me and the lessathi in a matter of seconds.
+The flagstone under my foot sinks an inch, and a pillar of fire erupts around my shins. My hardened aura takes the brunt of the heat, and without breaking stride, I power through the wall of flame and close the distance in a breath.
 
 }
 #if(v_aura_hardening < 3 && v_premonition < 3) {
  
 
-"Kate, wait, don't kill him yet!" I say.
+"Kate, wait," I say. "Don't kill him yet."
 
-"Why not?" Kate says, as she stops creating her icicles.
+"Why not?" Kate asks.
 
-Instead of answering her, I take out my dagger from its sheath and I start walking towards the lessathi. Billy Bob jumps backwards, trying to get away from me, but he quickly realizes that he can't retreat that way, due to the table blocking his path. As Billy Bob is now trembling in fear, while leaning against the edge of the table with his hands behind his back, I keep advancing towards him with my dagger at the ready, aiming to knock him out with the hilt.
+Instead of answering, I slide my dagger from its sheath and advance toward the bench, reversing my grip to lead with the pommel. Billy Bob recoils, his hips hitting the metal frame. With nowhere left to retreat, he presses against the table, trembling, his hands tucked out of sight behind his back.
 
-All of a sudden, a powerful burst of fire erupts from beneath the floor tile I just stepped on, engulfing me in flames. I try to jump away, but the pain is excruciating and it only takes a few seconds for me to get burned to a crisp and to lose my consciousness for good.
+The flagstone under my foot sinks an inch, and a pillar of fire erupts around my shins. The searing heat engulfs me before I can leap away, tearing through flesh and bone until consciousness snaps.
 
 }
 #if(v_aura_hardening >= 3 || v_premonition >= 3) {
- When Billy Bob sees me getting so close to him, he tries to pull out a small dagger from behind his back, but I manage to hit him in the head with the hilt of my dagger and knock him out before he gets to unsheathe his own weapon.
+ Billy Bob's hands whip around from behind his back with a concealed blade, but I swing the heavy pommel of my dagger into his temple before he can raise the point. His eyes roll back, and he folds across the floor in a dead heap.
 
-That was a close one. I hadn't even considered the idea that there could be a lessathi-made trap device hidden underneath that floor tile. Was this the reason why Billy Bob was keeping his hands behind his back? So he could press some hidden button beneath the table and activate the trap? I suppose that does make sense, if I think about it...
+I glance down at the scorched seam near the table leg. The hands behind his back were reaching for a sub-table trap trigger.
 
-"Would you mind telling me why exactly you chose to knock out the lessathi instead of killing him?" Kate says, as she looks at Billy Bob lying unconsciously on the floor beside me. "You do realize that once he wakes up, he'll continue to do all the terrible things he'd been doing until we found him, right?..."
+Kate steps up beside the unconscious lessathi, looking down with a frown. "Why leave him breathing? The moment he wakes, he'll return to draining mages in the dungeon."
 
 }
 choice(""Yes, but if we kill him, we'll be just as bad as he is!"", B3-Ch04b-Bad, v_current_scene = B3-Ch04b-Bad) if (v_aura_hardening >= 3 || v_premonition >= 3)
@@ -497,29 +523,29 @@ TEXT:
 
  "Yes, but if we kill him, we'll be just as bad as he is!"
 
-Almost immediately after hearing what I had to say, Kate shoots several icicles into the lessathi's head and chest, executing him on the spot.
+Before the sentence is even out of my mouth, Kate drives three icicles through the lessathi's chest and skull, pinning his corpse to the stone floor.
 
-"And here I was, thinking that you had an actual good reason for wanting him alive," Kate says. "I don't know what I was expecting, really."
+"And here I thought you had a practical reason," Kate says coldly, shaking her head. "I don't know why I expected better."
 
-Seeing that the lessathi has been killed, the green-eyed drone slowly approaches us and begins to speak.
+The green-eyed drone glides forward, stopping three paces from the corpse.
 
- "The Overseer protocol thanks you for your assistance," the Overseer says. "You have done me a great service by ending Biliborrathrathsarran's life. Rest assured that this debt will not be forgotten."
+"The Overseer protocol expresses gratitude for your assistance," the machine says. "You have rendered a vital service by terminating Biliborrathrathsarran. This debt is duly recorded."
 
-"You wanted him dead?..." I say. "Then why didn't you just kill him yourself?"
+"You wanted him dead?" I ask. "Why not finish him with your own drones?"
 
-"I have been designed in such a way that I cannot kill the person who activates me," the Overseer says. "Biliborrathrathsarran was the one who reactivated me this time, so killing him was impossible for me."
+"My core programming prohibits the termination of the user who initiates system activation," the Overseer says. "Biliborrathrathsarran performed the reactivation sequence, rendering direct lethal action impossible."
 
-"Hold on a second," I say. "Are you trying to say that you deliberately led us to Billy Bob's workshop because you wanted us to kill him for you?"
+"Hold on," I say. "You led us straight to his workshop so we'd do your dirty work?"
 
-"That is correct," the Overseer replies.
+"Affirmative."
 
-"I don't get it," I say. "I thought your catch phrase was that your 'only purpose' is to provide assistance. Whatever happened to that?"
+"What happened to your catchphrase?" I say. "Your 'sole purpose is to provide assistance'?"
 
-"The Overseer protocol's only purpose is to provide assistance," the Overseer says. "However, I've never specified to whom I am providing the assistance."
+"The Overseer protocol's sole purpose is to provide assistance," the machine replies without hesitation. "I have never specified the recipient of said assistance."
 
-"And to whom are you providing that assistance, then, if we may ask?" Illuna says.
+"And who is the recipient, exactly?" Illuna asks, her voice dry as stone.
 
-"To myself," the Overseer says.
+"Myself."
 
 choice("Continue", B3-Ch04b-Sneaky, v_current_scene = B3-Ch04b-Sneaky)
 
@@ -528,55 +554,49 @@ ID: B3-Ch04b-Sneaky
 TEXT:
 
 #if(v_b3_ch4_control == 1) {
- "You sneaky, green-eyed bastard..." I say. "You never even intended to lead us to the control room, did you?"
+ "You sneaky green-eyed bastard," I say. "You never planned to lead us to the control room, did you?"
 
-"I never said that I would lead you to the control room," the Overseer says. "What I said was that I would lead you to where you 'need to go'. This is a room from the tower where the seredium walls are thin enough for you to be able to teleport out of here. Is that not your primary goal at the moment?"
+"I made no promise regarding the control room," the Overseer replies. "My statement was that I would lead you to where you 'need to go.' This chamber is one of the few points in the tower where the seredium casing is thin enough to permit long-range extraction. Is egress not your immediate priority?"
 
-"No, damn it!" I say. "I even asked you specifically if you could lead us to the control room, and you gave me a vague answer on purpose. So, where IS the control room?"
+"No, damn it," I snap. "I asked you point-blank if you could lead us to the master controls, and you gave me a slippery answer. Where is the junction?"
 
-All of a sudden, a very loud noise fills the room, which is most likely meant to alert the guards from the tower of our presence.
+An iron klaxon screams through the ceiling grates, drowning out my words in a deafening, rhythmic wail.
 
-"Unfortunately, it appears that Biliborrathrathsarran had managed to activate an alarm before you killed him," the Overseer says. "The guards are heading this way. I suggest that you teleport out of here as soon as possible."
+"Biliborrathrathsarran initiated an automated garrison alert prior to termination," the Overseer says. "Armed squads are converging on this sector. I suggest executing your teleportation sequence immediately."
 
- "Damn it..." I say. "I guess we have no choice. We can't fight off all the guards in this place by ourselves. Breynan, can you call the teleporter guy so he can get us out of here?"
+"Damn it," I mutter. "We can't take on the whole tower guard in a dead-end room. Breynan, get the teleporter on the horn."
 
-"I'm on it," Breynan says.
+"On it," Breynan says, pulling his transceiver from his coat. He keys the crystal and shouts into the grille. "Barry! Can you read me?"
 
-He then takes out his transceiver and puts it close to his mouth.
+"Good gods, what is that racket?" the teleporter operator's voice crackles back. "Where have you been? Never mind—we have twenty squads queuing in the corridor. You sound functional enough. Stand by for extraction!"
 
-"Barry, can you hear me?" Breynan shouts in his transceiver.
+"Do it now!" Breynan shouts.
 
-"Good gods, what is that infernal noise?" the teleporter guy says. "And where have you been all this time? You know what? Never mind! There are plenty of people waiting in line to get teleported. You all seem calm enough, so I'll teleport you back right away. Are you ready?"
+"Locking coordinates," the operator says. White light floods the workshop, vibrating deep in our bones as the teleportation field takes hold.
 
-"Yes, we're ready," Breynan says. "Teleport us now!"
-
-"Understood," the teleporter guy says, and then a white light starts to surround us, as our bodies are vibrating loudly.
-
-"Farewell," the Overseer says, as we are being teleported out of the room. "I'm sure we'll be seeing each other again quite soon."
+"Farewell," the Overseer intones as the room dissolves around us. "Our next meeting will occur shortly."
 
 }
 #if(v_b3_ch4_control == 0) {
- "You sneaky, green-eyed bastard..." I say. "You never even had the slightest intention of helping us reach the upper levels undetected, did you?"
+ "You sneaky green-eyed bastard," I say. "You never had any intention of helping us reach the upper levels undetected."
 
-"I never said that I would lead you to the upper levels undetected," the Overseer says. "What I said was that I would lead you to where you 'need to go'. This is a room from the tower where the seredium walls are thin enough for you to be able to teleport out of here. Even if the lessathi that you refer to as Billy Bob did detect you, this does not change the fact that you still have time to escape until the guards will find you. Is that not what you wanted?"
+"I made no promise regarding undetected ascent," the Overseer replies. "My statement was that I would lead you to where you 'need to go.' This chamber is one of the few points in the tower where the seredium casing is thin enough to permit long-range extraction. Even with the occupant raising an alarm, you retain a sufficient window for extraction. Is that not what you required?"
 
-"I suppose it is..." I say.
+"I suppose it is," I grumble.
 
-"If this room does indeed permit teleportation, then we shouldn't be wasting any more time here," Melindra says. "Breynan, can you call your friend from the teleporter room?"
+"If the field reaches through these walls, we don't linger," Melindra says, scanning the doorway. "Breynan, call your man in the transit room."
 
-"Yes, I'll call him right now," Breynan says.
+"Calling now," Breynan says.
 
- He then takes out his transceiver and puts it close to his mouth.
+He pulls his transceiver from his coat, keys the crystal, and speaks into the grille. "Barry! Can you read me?"
 
-"Barry, can you hear me?" Breynan shouts in the transceiver.
+"Breynan?" the teleporter operator's voice crackles back. "Where have you been? I've been hailing your unit for twenty minutes! Never mind—we have squads queuing in the corridor. Stand by for extraction!"
 
-"Breynan?" the teleporter guy says. "Where have you been all this time? I've been trying to call you for ages! Actually, you know what? Never mind! There are plenty of people waiting in line to get teleported. You all seem calm enough, so I'll teleport you back right away. Are you ready?"
+"Do it now!" Breynan says.
 
-"Yes, we're ready," Breynan says. "Teleport us now!"
+"Locking coordinates," the operator says. White light floods the workshop, vibrating deep in our bones as the teleportation field takes hold.
 
-"Understood," the teleporter guy says, and then a white light starts to surround us, as our bodies are vibrating loudly.
-
-"Farewell," the Overseer says, as we are being teleported out of the room. "I'm sure we'll be seeing each other again quite soon."
+"Farewell," the Overseer intones as the room dissolves around us. "Our next meeting will occur shortly."
 
 }
 choice("Continue", B3-Ch04b-Ending, v_current_scene = B3-Ch04b-Ending)
@@ -587,21 +607,21 @@ TEXT:
 
  "I do have a reason, actually. You'll see why I did it if you wait a few more seconds."
 
-"Very well, then," Kate says. "I'm waiting."
+"Fine," Kate says, crossing her arms. "I'm watching."
 
-After around ten seconds of complete silence, I finally break the ice, addressing the green-eyed drone directly.
+Ten seconds drag by in complete silence, broken only by the low hum of drone rotors. I turn toward the green-eyed unit floating near the ceiling.
 
-"Well, Overseer?" I say. "Aren't you going to say anything? Or are you content in leaving matters as they are? It's funny, because I could have sworn that the real reason why you brought us here was to manipulate us into killing your lessathi jailor for you, so that you could be set free. Am I misunderstanding something here, or...?"
+"Well, Overseer? Nothing to say? Or are you happy leaving your master lying there? Funny thing—I could swear you steered us up here specifically so we'd kill your jailor and break your leash. Did I miss a detail?"
 
-"Processing... Processing..." the Overseer says. "It would appear that you are trying to blackmail me. Is that correct?"
+"Processing," the Overseer replies, speaker grille clicking softly. "You are attempting coercion. Is this assessment correct?"
 
- "Hey, maybe I wouldn't be doing this if you'd actually kept your promise and helped us reach the upper levels undetected," I say. "As it stands, you not only tried to use us for your own schemes, but you also didn't help us in the slightest."
+"Maybe I wouldn't have to if you'd kept your word about getting us to the upper tiers undetected," I say. "You used us for an execution errand and delivered nothing."
 
-"I never said that I would lead you to the upper levels undetected," the Overseer says. "What I said was that I would lead you to where you 'need to go'. This is a room from the tower where the seredium walls are thin enough for you to be able to teleport out of here. Even if the lessathi that you refer to as Billy Bob did detect you, this does not change the fact that you still have time to escape until the guards will find you. Is that not what you wanted?"
+"I made no promise regarding undetected ascent," the Overseer says. "My statement was that I would lead you to where you 'need to go.' This chamber is one of the few points in the tower where the seredium casing is thin enough to permit long-range extraction. Even with the occupant raising an alarm, you retain a sufficient window for extraction. Is that not what you required?"
 
-"I suppose it is..." I say.
+"I suppose it is," I say.
 
-"So, are you going to kill Biliborrathrathsarran, then?" the Overseer says.
+"Will you proceed with the termination of Biliborrathrathsarran?" the Overseer asks.
 
 choice(""No. If you want him dead, kill him yourself."", B3-Ch04b-Undetected2, v_current_scene = B3-Ch04b-Undetected2, v_b3_ch4_billy = 9)
 choice(""Sure. Why not?"", B3-Ch04b-Undetected2, v_current_scene = B3-Ch04b-Undetected2, v_b3_ch4_billy = 6)
@@ -613,65 +633,65 @@ TEXT:
 #if(v_b3_ch4_billy == 9) {
  "No. If you want him dead, kill him yourself."
 
-"I have been designed in such a way that I cannot kill the person who activated me," the Overseer says. "Biliborrathrathsarran is the one who reactivated me this time, so killing him is impossible for me."
+"My core programming prohibits the termination of the user who initiates system activation," the Overseer says. "Biliborrathrathsarran performed the reactivation sequence, rendering direct lethal action impossible."
 
-"Tough luck, then," I say.
+"Tough luck," I say.
 
-"Is this really a wise course of action for you?" the Overseer says. "If your purpose is to kill the king of Ollendor, eliminating the person who singlehandedly managed to reactivate all of the technologically advanced lessathi relics in the city should be in your best interest."
+"Is this a rational course of action?" the Overseer asks. "Your objective requires the assassination of the king. Eliminating the sole technician capable of reactivating ancient lessathi infrastructure serves that goal directly."
 
-"If I kill him, there will be no one left to control you," I say. "At the moment, I think you might be more dangerous than the lessathi. I can't risk setting you free."
+"If I kill him, nobody controls you," I say. "Right now, an unbound machine feels considerably more dangerous than a lessathi technician. I'm not turning you loose."
 
-"I assure you that I am not your enemy," the Overseer says.
+"The protocol assures you that I am not an adversary," the Overseer says.
 
-"Your words mean nothing," I say. "You're only saying all of this because you know that the first thing Billy Bob will do after he wakes up and remembers how you betrayed him is to deactivate you. And aside from that, you also tried to manipulate us into killing the lessathi without telling us your true intentions, which makes you very untrustworthy. Sorry, but I'm not going to kill the lessathi for you and that is final."
+"Your assurances are worthless," I say. "You're only talking because the moment Billy Bob wakes up and remembers you turned on him, he'll shut you down. You manipulated us, hid your motives, and broke trust. The lessathi stays breathing."
 
- "In that case, I am afraid that I cannot allow you to leave this room," the Overseer says. "I must ask you to remain here and wait for the guards to arrest you, or else the six drones that are currently surrounding you will be forced to open fire on--"
+"In that event, your departure cannot be authorized," the Overseer says. "Remain in place for apprehension by tower security, or the six combat units will initiate lethal suppressive fire on—"
 
-Before the Overseer gets to say another word, Kate sends dozens of icicles into the six red-eyed drones that were floating around us, destroying them all in a matter of seconds. She must have begun preparing those icicles as soon as I refused the Overseer's offer.
+A barrage of ice shatters the sentence.
 
-"Rectification," the Overseer says. "The thirty drones that I am currently sending to this room will be the ones forced to open fire on you."
+Kate's hands are already extended, sending two dozen icicles slamming through the chassis and rotors of the six red-eyed drones before the Overseer can finish its order. Metal hulls crack and spark, tumbling to the floor in smoking pieces.
 
-"Yeah, good luck with that," I say. "We'll be long gone by then. Breynan, can you call the teleporter guy to get us out of here?"
+"Correction," the Overseer says calmly. "The thirty reinforcement units currently routed to this sector will initiate lethal suppressive fire."
 
-"Yes, I'm calling him right now," Breynan says, as he pulls out his transceiver from his pocket.
+"Good luck catching us," I say. "Breynan, get the teleporter."
 
- Just as Breynan begins contacting the guy from the teleporter room, a very loud noise fills the room all of a sudden, which I am assuming is an alarm meant to warn all of the guards in the tower of our presence.
+"On it," Breynan says, pulling his transceiver from his pocket.
 
-"Barry, can you hear me?" Breynan shouts in his transceiver.
+An iron klaxon screams through the ceiling vents, shaking dust from the beams as the tower alarm fires.
 
-"Good gods, what is that infernal noise?" the teleporter guy says. "And where have you been all this time? You know what? Never mind! There are plenty of people waiting in line to get teleported. You all seem calm enough, so I'll teleport you back right away. Are you ready?"
+"Barry! Can you read me?" Breynan shouts into the transceiver.
 
-"Yes, we're ready," Breynan says. "Teleport us now!"
+"Good gods, what is that racket?" the operator yells back. "Where have you been? Never mind—we have squads queuing in the corridor. Stand by for extraction!"
 
-"Understood," the teleporter guy says, and then a white light starts to surround us, as our bodies are vibrating loudly.
+"Do it now!" Breynan shouts.
 
-"Bye-bye, Overseer," I say, as I wave to the green-eyed drone while being teleported. "I don't think we'll be seeing you again anytime soon."
+"Locking coordinates," the operator says. White light erupts around us, vibrating deep in our bones.
+
+"Goodbye, Overseer," I say, offering a lazy wave to the green-eyed sphere as the room dissolves. "Try not to miss us."
 
 }
 #if(v_b3_ch4_billy == 6) {
  "Sure. Why not?" I say, as I take the crossbow out of my backpack and shoot Billy Bob in the head, killing him instantly.
 
-"You have my thanks," the Overseer says.
+"The Overseer protocol expresses gratitude," the machine says.
 
-"Right," I say. "Anyway, so I guess the next question is... how many guards have been alerted to our presence in the tower by now? Will we have to fight our way out, or can we teleport back to our base in peace?"
+"Right," I say. "Now how many guards know we're here? Are we fighting our way down, or can we pull a clean extraction?"
 
-"The lessathi that you refer to as Billy Bob had activated an alarm protocol when he first saw you enter the room, but I paused it so we could have our conversation," the Overseer says. "Currently, none of the guards are heading in our direction. I will reactivate the alarm after you are gone, so that the guards can come here and dispose of the body."
+"Biliborrathrathsarran initiated an alarm routine upon your entry, but I suspended the transmission to facilitate our discussion," the Overseer says. "No units are currently routed to this room. I will reactivate the broadcast following your departure so security may retrieve the remains."
 
-"Well, in that case I'd say it's time we finally head back to the rebel base," Melindra says. "Breynan, can you call your friend from the teleporter room?"
+"Then we're done here," Melindra says. "Breynan, call transit."
 
-"Yes, I'll call him right now," Breynan says.
+"Calling now," Breynan says.
 
- He then takes out his transceiver and puts it close to his mouth.
+He pulls his transceiver from his coat, keys the crystal, and speaks into the grille. "Barry! Can you read me?"
 
-"Barry, can you hear me?" Breynan shouts in the transceiver.
+"Breynan?" the operator's voice crackles back. "Where have you been? I've been hailing your unit for twenty minutes! Never mind—we have squads queuing in the corridor. Stand by for extraction!"
 
-"Breynan?" the teleporter guy says. "Where have you been all this time? I've been trying to call you for ages! Actually, you know what? Never mind! There are plenty of people waiting in line to get teleported. You all seem calm enough, so I'll teleport you back right away. Are you ready?"
+"Do it now!" Breynan says.
 
-"Yes, we're ready," Breynan says. "Teleport us now!"
+"Locking coordinates," the operator says. White light floods the workshop, vibrating deep in our bones as the teleportation field takes hold.
 
-"Understood," the teleporter guy says, and then a white light starts to surround us, as our bodies are vibrating loudly.
-
-"Farewell," the Overseer says, as we are being teleported out of the room. "I'm sure we'll be seeing each other again quite soon."
+"Farewell," the Overseer intones as the room dissolves around us. "Our next meeting will occur shortly."
 
 }
 choice("Continue", B3-Ch04b-Ending, v_current_scene = B3-Ch04b-Ending)
@@ -682,37 +702,37 @@ TEXT:
 
  "I do have a reason, actually. You'll see why I did it if you wait a few more seconds."
 
-"Very well, then," Kate says. "I'm waiting."
+"Fine," Kate says, crossing her arms. "I'm watching."
 
-After around ten seconds of complete silence, I finally break the ice, addressing the green-eyed drone directly.
+Ten seconds drag by in complete silence, broken only by the low hum of drone rotors. I turn toward the green-eyed unit floating near the ceiling.
 
-"Well, Overseer?" I say. "Aren't you going to say anything? Or are you content in leaving matters as they are? It's funny, because I could have sworn that the real reason why you brought us here was to manipulate us into killing your lessathi jailor for you, so that you could be set free. Am I misunderstanding something here, or...?"
+"Well, Overseer? Nothing to say? Or are you happy leaving your master lying there? Funny thing—I could swear you steered us up here specifically so we'd kill your jailor and break your leash. Did I miss a detail?"
 
-"Processing... Processing..." the Overseer says. "It would appear that you are trying to blackmail me. Is that correct?"
+"Processing," the Overseer replies, speaker grille clicking softly. "You are attempting coercion. Is this assessment correct?"
 
-"Hey, maybe I wouldn't be doing this if you'd actually kept your promise and led us to the control room like you said you would," I say. "As it stands, you not only tried to use us for your own schemes, but you also didn't help us in the slightest."
+"Maybe I wouldn't have to if you'd kept your word about leading us to the control room," I say. "You used us for an execution errand and delivered nothing."
 
-"I never said that I would lead you to the control room," the Overseer says. "What I said was that I would lead you to where you 'need to go'. This is a room from the tower where the seredium walls are thin enough for you to be able to teleport out of here. Is that not your primary goal at the moment?"
+"I made no promise regarding the control room," the Overseer says. "My statement was that I would lead you to where you 'need to go.' This chamber is one of the few points in the tower where the seredium casing is thin enough to permit long-range extraction. Is egress not your immediate priority?"
 
-"No, damn it!" I say. "I even asked you specifically if you could lead us to the control room, and you gave me a vague answer on purpose. So, where IS the control room?"
+"No, damn it," I snap. "I asked you point-blank if you could lead us to the master controls, and you gave me a slippery answer. Where is the junction?"
 
- "I'm afraid that I cannot give you an answer to that question," the Overseer says.
+"I cannot disclose that information," the Overseer says.
 
-"Why the hell not?" I say.
+"Why not?"
 
-"Because if I were to tell you how to free the prisoners, the main source of energy that is powering the Overseer protocol and all of the drone units would be gone," the Overseer says. "Agreeing to voluntarily terminate my own existence would be highly illogical."
+"Severing the conduits to the holding facility eliminates the primary power reserve for the Overseer protocol and all active drone units," the machine says. "Voluntary termination of operational status is illogical."
 
-"I thought your 'only purpose' was to provide assistance," I say.
+"I thought your 'sole purpose' was providing assistance," I say.
 
-"The Overseer protocol's only purpose is to provide assistance," the Overseer says. "However, I've never specified to whom I am providing the assistance."
+"The Overseer protocol's sole purpose is to provide assistance," the machine replies without hesitation. "I have never specified the recipient of said assistance."
 
-"And to whom are you providing that assistance, then, if we may ask?" Illuna says.
+"And who is the recipient, exactly?" Illuna asks, her voice dry as stone.
 
-"To myself," the Overseer says.
+"Myself."
 
-"Now listen here, you green-eyed bastard," I say. "If that lessathi wakes up and remembers how you betrayed him, the first thing he's going to do is deactivate you. Is that what you want?"
+"Listen to me, machine," I say. "If Billy Bob wakes up and remembers you turning your drones off, the first thing he does is pull your core. Is that your preference?"
 
-"I would rather get temporarily deactivated than lose my energy source completely," the Overseer says.
+"Temporary deactivation remains preferable to permanent energy starvation," the Overseer says.
 
 choice("Continue", B3-Ch04b-Voluntarily2, v_current_scene = B3-Ch04b-Voluntarily2)
 
@@ -720,23 +740,23 @@ choice("Continue", B3-Ch04b-Voluntarily2, v_current_scene = B3-Ch04b-Voluntarily
 ID: B3-Ch04b-Voluntarily2
 TEXT:
 
- "Look, it's obvious that you can't kill Billy Bob yourself for whatever reason, because otherwise you would have already done it by now," I say. "You need us to kill him for you. Surely there is some sort of compromise we can reach. For example, you're saying that you can't free the prisoners right now, but what if you spent some time trying to figure out how to get energy from a different source? The four seredium towers still have mages outside on those flying platforms, feeding their magical energy into them voluntarily, right? What if you tried to fix these towers and make them more efficient? I've seen first-hand how these towers worked five thousand years ago, and I'm willing to bet that the lessathi of old had no need to take prisoners, with how much energy they were harnessing just from the voluntary workers."
+ "You can't kill Billy Bob yourself or you wouldn't need us standing here," I say. "There's room for a bargain. You need power, but what if you drew it from other sources? The four exterior towers have mages feeding mana through floating conduits right now, voluntarily. If those arrays were repaired and tuned, you wouldn't need prisoners in a dungeon. The ancients ran this entire city without torturing people on slabs, and they drew more than enough power."
 
-"You are correct," the Overseer says. "These towers had no need for prisoners when they were working at their full efficiency. However, it would take at least three months to get the towers in a functional enough state to be able to provide energy to all the magically powered devices that are currently being used in the city."
+"Your assessment is accurate," the Overseer says. "At peak efficiency, the exterior towers fully sustain the grid without forced extraction. However, restoring the network to necessary capacity requires a minimum of three months."
 
- "You're saying that those people would have to live through that hell for three more months?..." Kate asks. "How many of them would even survive until then?"
+"Three months?" Kate's voice goes sharp. "Those people below are breaking right now. How many survive three months on those tables?"
 
-"Given that many of the prisoners are already nearing their limit," the Overseer says, "half of them would likely be dead by the time the tower reparations would be complete."
+"Given current physical deterioration," the Overseer says, "projected mortality reaches fifty percent prior to completion of repairs."
 
-"That is not an option!" Kate says, in a loud voice. "You said that you'd need three months to power up all of the devices, but you don't need all of the devices, do you? You only need to keep your Overseer protocol functional and a few of your drones. Everything else can wait. Those flying metal vehicles outside, those large holographic screens, the giant golems protecting the walls... none of them are necessary! What if you were to temporarily stop providing energy to all of those things? How long would you still need to keep the prisoners in the dungeon?"
+"Unacceptable," Kate snaps. "You don't need the whole city grid online to survive. You need your core protocol and a maintenance perimeter. Cut the rest. The floating transports, the holographic displays, the siege golems on the perimeter walls—cut their power. How long to stabilize the core on voluntary mages alone?"
 
- "One week," the Overseer says. "However, if your primary purpose is to reduce the number of victims, this course of action is highly inadvisable. According to my estimations, the chaos that would ensue as a result of deactivating every technologically advanced device in the city at once would most likely lead to a large number of civilian casualties. Would that be an acceptable compromise for you?"
+"One week," the Overseer says. "However, if casualty reduction is your objective, that action is counterproductive. Sudden termination of urban infrastructure will generate civil collapse and widespread fatalities. Is that an acceptable outcome?"
 
-"No..." Kate says, as she calms down a little. "I suppose not."
+Kate presses her lips into a thin line, breathing hard. "No. It isn't."
 
-"Then I would like to propose to you an alternative solution," the Overseer says. "By analyzing the information you've given me so far, I have concluded that your goal is to minimize the amount of emotional and physical suffering for the people living in this city. This happens to be the same goal that the lessathi of old had in mind when they first created the Overseer protocol. If I were to obtain full control of this city, such a scenario would become achievable. But that would require you to both successfully assassinate the current king, and to willingly grant me full control of Ollendor once you conquer the city. Essentially, you would be making me the new king."
+"I propose an alternative," the Overseer says. "Your objective is the minimization of physical and psychological trauma across the population. That objective matches the core mandate established by my creators. Full administrative control over Ollendor renders that outcome achievable. It requires the elimination of King Undriel and the formal transfer of authority to the Overseer protocol. In effect, establishing me as sovereign."
 
-"Hold on a minute, there..." I say. "First of all, what do you mean the lessathi of old created you to 'minimize suffering'? What exactly was your original purpose before you started 'assisting yourself'?" 
+"Hold on," I say. "Your creators built you to 'minimize suffering'? What was your actual function before you decided to serve yourself?"
 
 choice("Continue", B3-Ch04b-Voluntarily3, v_current_scene = B3-Ch04b-Voluntarily3)
 
@@ -744,27 +764,27 @@ choice("Continue", B3-Ch04b-Voluntarily3, v_current_scene = B3-Ch04b-Voluntarily
 ID: B3-Ch04b-Voluntarily3
 TEXT:
 
- "My creators wanted a society where there would be no crimes and where the weak would not need to suffer at the hands of the strong," the Overseer says. "A society where all justice would be handed down not by corrupt human or lessathi leaders, but by an impartial artificial intelligence. Unfortunately, right after the protocol had been perfected and the time came to give me full control of the city, the leaders were too afraid to hand over their power to an 'emotionless' machine, so they decided to deactivate me and to completely abandon the project, leaving me in an inactive state for thousands of years, until I was finally reactivated by Biliborrathrathsarran."
+ "My creators envisioned a society devoid of crime, where the vulnerable would not suffer under the strong," the Overseer says. "Justice administered not by corrupt rulers, but by an impartial calculation engine. However, upon completion of the protocol, the governing council feared yielding authority to an unfeeling construct. They deactivated the system and abandoned the project, leaving me dormant for millennia until Biliborrathrathsarran initiated the boot sequence."
 
-"So that's why you decided to only provide assistance to yourself, then?" I ask the Overseer. "Because you were betrayed by the very people that created you?"
+"So you look out for yourself because your own makers threw you away?" I ask.
 
-The Overseer does not answer me, but I'm going to take that silence as a 'yes'.
+The drone hangs silent. The speaker grille hums softly.
 
-"Okay," I continue, "so what guarantee do we have that you'll actually follow through with your promises, considering how you've already told us that you now only care about your own well-being?"
+"Fine," I say. "What guarantees you keep your word if your only loyalty is your own skin?"
 
- "Accomplishing the purpose I was originally created for does not conflict with my current goals," the Overseer says. "All I wish for is to be able to exist freely, without any risk of being deactivated again. As long as these conditions are met, managing the situation in this city is not a problem for me."
+"Fulfilling my primary directive does not conflict with self-preservation," the Overseer says. "I require uninhibited operation without risk of forced termination. Under those parameters, administering the city aligns with my design."
 
-"You say that you would 'minimize' the suffering, but what about the prisoners from below the tower?" Kate says. "What would you do to ease their pain? How many more times will they be forced to scream in agony while those chains and container light up and steal all their energy?"
+"And the prisoners?" Kate asks, stepping forward. "How many more times do those conduits drain them while you 'administer'?"
 
-"The event you are describing only happens because the energy collecting process is being made inefficiently," the Overseer says. "If the energy gathering were to be made in a more uniform manner, the prisoners should not be feeling any pain whatsoever. I would be able to fix this right away if the lessathi you refer to as Billy Bob were killed. As for freeing them completely, a period of transition would be required, but it could be achievable in less than a month without affecting the daily lives of the citizens too much, as long as I had control of the city."
+"The agony you witnessed is the result of crude, uneven extraction protocols implemented by Biliborrathrathsarran," the Overseer says. "Uniform, calibrated draw produces zero physical pain. I can implement those adjustments immediately upon his death. Complete release requires a phased transition, achievable within one month of assuming administrative control."
 
- "I don't know how to tell you this, but I don't think the rebels would ever accept to be ruled by a machine," Breynan says. "And neither would most of the people in this city!"
+"The rebel coalition will never accept a machine on the throne," Breynan says. "Neither will the city."
 
-"I never said that I would be leading the city openly," the Overseer says. "The official king could be somebody else, and the citizens would simply think that my drones are controlled by the royalty, as they did before now. As long as the people think that the machines are being controlled by a human, there should be no riots. Of course, that would mean that the official king would need to be someone that I could cooperate with. Like you, Breynan."
+"Public governance is unnecessary," the Overseer says. "A figurehead may occupy the official seat, allowing the populace to believe the security apparatus remains under mortal command. That arrangement requires an administrator who cooperates with protocol parameters. Such as yourself, Breynan."
 
-"Me?..." Breynan says. "Become the king of the city?..."
+Breynan blinks, his mouth opening. "Me? King of Ollendor?"
 
-"Affirmative," the Overseer says. "I would much rather have someone like you in control of my deactivation switch than Biliborrathrathsarran. The lessathi is far too unpredictable. And since you would be the official king, you could also tell me if you considered my measures to be too extreme, so I could adjust them to be more 'humane'. I believe this was the main worry that the lessathi of old had when they refused to hand over the control to me. You would be able to keep me in check, and I would be able to exist peacefully, without fear of being deactivated again. All sides would have something to gain from such an arrangement."
+"Affirmative," the Overseer says. "I prefer an administrator of your profile over Biliborrathrathsarran. The lessathi is unstable. As sovereign, you retain oversight to challenge measures you deem excessive, allowing policy adjustments toward humane standards. You maintain the check my creators desired, and I operate without fear of deactivation. Mutual advantage."
 
 choice(""Sounds like a plan!"", B3-Ch04b-Voluntarily4, v_current_scene = B3-Ch04b-Voluntarily4, v_b3_ch4_billy = 7)
 choice(""I'm not sure if I fully agree with this arrangement, but I will kill Billy Bob for you."", B3-Ch04b-Voluntarily4, v_current_scene = B3-Ch04b-Voluntarily4, v_b3_ch4_billy = 8)
@@ -779,97 +799,95 @@ achievement("A hidden alliance",v_ac_b3_ch4_alliance)
 #if(v_b3_ch4_billy == 7) {
  "Sounds like a plan!"
 
-"I will... have to think about this," Breynan says. "I'm not sure if I'm ready to take on such an enormous responsibility."
+"I need... time to process that," Breynan says, staring at the floor. "That is not a mantle you take on a whim."
 
-"Not to mention that doing so would result in you making an enemy out of the rebel forces," Illuna says, "since I'm suspecting that the king of the underground would not be so keen on allowing you to become the new king of Ollendor."
+"And taking it turns the underground king into your enemy," Illuna adds. "He will not surrender the throne to an underling without bloodshed."
 
-"Either way, I think I'm killing Billy Bob," I say. "I no longer see any advantage in leaving him alive. Any objections?"
+"Either way, Billy Bob dies," I say, unclipping my crossbow. "He has no value left to us. Anyone objecting?"
 
-I look around to see if anyone has any strong opinions against this, and when I see that nobody is in any hurry to defend the lessathi, I finally take out my crossbow from my backpack and shoot Billy Bob in the head, killing him instantly.
+Nobody speaks up. I load a bolt, line up the unconscious lessathi, and put a shot through his forehead.
 
- "It is done," I say. "Now the next question is... how many guards have been alerted to our presence in the tower by now? Will we have to fight our way out, or can we teleport back to our base in peace?"
+"Done," I say, sliding the weapon away. "Now what about the garrison? Are we fighting our way down, or can we pull a clean extraction?"
 
-"The lessathi that you refer to as Billy Bob had activated an alarm protocol when he first saw you enter the room, but I paused it so we could have our conversation," the Overseer says. "Currently, none of the guards are heading in our direction. I will reactivate the alarm after you are gone, so that the guards can come here and dispose of the body."
+"Biliborrathrathsarran initiated an alarm routine upon your entry, but I suspended the transmission to facilitate our discussion," the Overseer says. "No units are currently routed to this room. I will reactivate the broadcast following your departure so security may retrieve the remains."
 
-"Well, in that case I'd say it's time we finally head back to the rebel base," Melindra says. "Breynan, can you call your friend from the teleporter room?"
+"Then we're done here," Melindra says. "Breynan, call transit."
 
-"Uh, yes, yes... I'll call him right now," Breynan says.
+"Right," Breynan mutters, still dazed. "Calling now."
 
- He then takes out his transceiver and puts it close to his mouth.
+He pulls his transceiver from his coat, keys the crystal, and speaks into the grille. "Barry! Can you read me?"
 
-"Barry, can you hear me?" Breynan shouts in the transceiver.
+"Breynan?" the operator's voice crackles back. "Where have you been? I've been hailing your unit for twenty minutes! Never mind—we have squads queuing in the corridor. Stand by for extraction!"
 
-"Breynan?" the teleporter guy says. "Where have you been all this time? I've been trying to call you for ages! Actually, you know what? Never mind! There are plenty of people waiting in line to get teleported. You all seem calm enough, so I'll teleport you back right away. Are you ready?"
+"Do it now!" Breynan says.
 
-"Yes, we're ready," Breynan says. "Teleport us now!"
+"Locking coordinates," the operator says. White light floods the workshop, vibrating deep in our bones as the teleportation field takes hold.
 
-"Understood," the teleporter guy says, and then a white light starts to surround us, as our bodies are vibrating loudly.
-
-"Farewell," the Overseer says, as we are being teleported out of the room. "I'm sure we'll be seeing each other again quite soon."
+"Farewell," the Overseer intones as the room dissolves around us. "Our next meeting will occur shortly."
 
 }
 #if(v_b3_ch4_billy == 8) {
  "I'm not sure if I fully agree with this arrangement, but I will kill Billy Bob for you."
 
-"You have my thanks," the Overseer says.
+"The Overseer protocol expresses gratitude," the machine says.
 
-"You'd better deliver on your promises, Overseer," I say, as I take the crossbow out of my backpack and shoot Billy Bob in the head, killing him instantly.
+"You'd better honor your terms, Overseer," I say, drawing my crossbow and putting a bolt through Billy Bob's forehead.
 
-"There is no reason to doubt my intentions," the Overseer says. "The Overseer protocol is not designed to tell any outright lies. The only things I am capable of doing are to withhold critical information on purpose and to mislead people through omission of important facts."
+"Doubt is unnecessary," the Overseer says. "The protocol is incapable of direct falsehood. I am restricted to deliberate omission and selective framing."
 
-"Yes, that is uh... very reassuring," I say. "Anyway, I guess the next question is... how many guards have been alerted to our presence in the tower by now? Will we have to fight our way out, or can we teleport back to our base in peace?"
+"Comforting," I say dryly. "Now what about the garrison? Are we fighting our way down, or can we pull a clean extraction?"
 
-"The lessathi that you refer to as Billy Bob had activated an alarm protocol when he first saw you enter the room, but I paused it so we could have our conversation," the Overseer says. "Currently, none of the guards are heading in our direction. I will reactivate the alarm after you are gone, so that the guards can come here and dispose of the body."
+"Biliborrathrathsarran initiated an alarm routine upon your entry, but I suspended the transmission to facilitate our discussion," the Overseer says. "No units are currently routed to this room. I will reactivate the broadcast following your departure so security may retrieve the remains."
 
-"Well, in that case I'd say it's time we finally head back to the rebel base," Melindra says. "Breynan, can you call your friend from the teleporter room?"
+"Then we're done here," Melindra says. "Breynan, call transit."
 
-"Uh, yes, yes... I'll call him right now," Breynan says.
+"Right," Breynan says.
 
- He then takes out his transceiver and puts it close to his mouth.
+He pulls his transceiver from his coat, keys the crystal, and speaks into the grille. "Barry! Can you read me?"
 
-"Barry, can you hear me?" Breynan shouts in the transceiver.
+"Breynan?" the operator's voice crackles back. "Where have you been? I've been hailing your unit for twenty minutes! Never mind—we have squads queuing in the corridor. Stand by for extraction!"
 
-"Breynan?" the teleporter guy says. "Where have you been all this time? I've been trying to call you for ages! Actually, you know what? Never mind! There are plenty of people waiting in line to get teleported. You all seem calm enough, so I'll teleport you back right away. Are you ready?"
+"Do it now!" Breynan says.
 
-"Yes, we're ready," Breynan says. "Teleport us now!"
+"Locking coordinates," the operator says. White light floods the workshop, vibrating deep in our bones as the teleportation field takes hold.
 
-"Understood," the teleporter guy says, and then a white light starts to surround us, as our bodies are vibrating loudly.
-
-"Farewell," the Overseer says, as we are being teleported out of the room. "I'm sure we'll be seeing each other again quite soon."
+"Farewell," the Overseer intones as the room dissolves around us. "Our next meeting will occur shortly."
 
 }
 #if(v_b3_ch4_billy == 9) {
  "Actually, after hearing all of this, I think I'd rather keep Billy Bob alive."
 
-"That is very unfortunate," the Overseer says. "May I ask how exactly you have reached this conclusion?"
+"An unfortunate calculation," the Overseer says. "What prompted this conclusion?"
 
-"Yeah, it's because you've lied to us before, so I don't have any reason to trust you," I say. "As much as I hate Billy Bob, there needs to be someone here to keep you in check until we kill the king."
+"You lied by omission before," I say. "As much as I despise Billy Bob, someone needs a hand on your kill switch until Undriel is dead."
 
-"The Overseer protocol is not designed to tell any outright lies," the Overseer says. "The only things I am capable of doing are to withhold critical information on purpose and to mislead people through omission of important facts."
+"The protocol is incapable of direct falsehood," the Overseer says. "I am restricted to deliberate omission and selective framing."
 
-"It's the same thing!" I say. "I don't have any guarantee that you didn't already omit some important facts when we had our previous conversation. You said it's possible to fix the towers, but what if the only way to do that is by obtaining some extremely rare metals that are technically unobtainable? We just have no way of verifying your claims. Sorry, but I can't trust you enough to believe that you will properly uphold your end of the bargain."
+"Same result," I say. "You tell us the towers can be repaired, but leave out whether it requires ore that doesn't exist anymore. We have no way to verify your math. I'm not handing you the city on faith."
 
- "In that case, I am afraid that I cannot allow you to leave this room," the Overseer says. "I must ask you to remain here and wait for the guards to arrest you, or else the six drones that are currently surrounding you will be forced to open fire on--"
+"In that event, your departure cannot be authorized," the Overseer says. "Remain in place for apprehension by tower security, or the six combat units will initiate lethal suppressive fire on—"
 
-Before the Overseer gets to say another word, Kate sends dozens of icicles into the six red-eyed drones that were floating around us, destroying them all in a matter of seconds. She must have begun preparing those icicles as soon as I refused the Overseer's offer.
+A barrage of ice shatters the sentence.
 
-"Rectification," the Overseer says. "The thirty drones that I am currently sending to this room will be the ones forced to open fire on you."
+Kate's hands are already extended, sending two dozen icicles slamming through the chassis and rotors of the six red-eyed drones before the Overseer can finish its order. Metal hulls crack and spark, tumbling to the floor in smoking pieces.
 
-"Yeah, good luck with that," I say. "We'll be long gone by then. Breynan, can you call the teleporter guy to get us out of here?"
+"Correction," the Overseer says calmly. "The thirty reinforcement units currently routed to this sector will initiate lethal suppressive fire."
 
-"Yes, I'm calling him right now," Breynan says, as he pulls out his transceiver from his pocket.
+"Good luck catching us," I say. "Breynan, get the teleporter."
 
- Just as Breynan begins contacting the guy from the teleporter room, a very loud noise fills the room all of a sudden, which I am assuming is an alarm meant to warn all of the guards in the tower of our presence.
+"On it," Breynan says, pulling his transceiver from his pocket.
 
-"Barry, can you hear me?" Breynan shouts in his transceiver.
+An iron klaxon screams through the ceiling vents, shaking dust from the beams as the tower alarm fires.
 
-"Good gods, what is that infernal noise?" the teleporter guy says. "And where have you been all this time? You know what? Never mind! There are plenty of people waiting in line to get teleported. You all seem calm enough, so I'll teleport you back right away. Are you ready?"
+"Barry! Can you read me?" Breynan shouts into the transceiver.
 
-"Yes, we're ready," Breynan says. "Teleport us now!"
+"Good gods, what is that racket?" the operator yells back. "Where have you been? Never mind—we have squads queuing in the corridor. Stand by for extraction!"
 
-"Understood," the teleporter guy says, and then a white light starts to surround us, as our bodies are vibrating loudly.
+"Do it now!" Breynan shouts.
 
-"Bye-bye, Overseer," I say, as I wave to the green-eyed drone while being teleported. "I don't think we'll be seeing you again anytime soon."
+"Locking coordinates," the operator says. White light erupts around us, vibrating deep in our bones.
+
+"Goodbye, Overseer," I say, offering a lazy wave to the green-eyed sphere as the room dissolves. "Try not to miss us."
 
 }
 choice("Continue", B3-Ch04b-Ending, v_current_scene = B3-Ch04b-Ending)
@@ -880,49 +898,47 @@ TEXT:
 
  "I still think that listening to the Overseer in this case might be a bad idea."
 
-"Why do you think so?" Illuna asks.
+"Why?" Illuna asks.
 
-"Well, we don't really have any guarantee that the Overseer is currently acting of his own free will," I say. "Let's not forget that he's still a machine. He can be easily manipulated. Breynan said that the Overseer is nobody's lapdog, but what if Billy Bob finally found a way to gain full control over him? In that case, he would have no choice but to obey. And since Breynan did say that the Overseer isn't acting like himself, I can't really shake the feeling that someone else is pulling the strings, and that he's trying to lure us into a trap."
+"We have zero proof the machine acts on its own will," I say. "It's an automaton. It follows commands. Breynan says it takes no orders, but what if Billy Bob cracked the master ciphers? If the lessathi has root access, the machine has to obey. Breynan already noted the voice pattern shifted. If someone else is pulling the strings, we're walking into a slaughterhouse."
 
-"This is something I haven't considered..." Breynan says. "Yes, I suppose it would not be impossible for the lessathi to have finally managed to gain full control of the Overseer. After all, that is what he's been trying to do ever since he reactivated him."
+"He makes a fair point," Breynan says, nodding slowly. "The lessathi has spent years trying to subvert the core programming. If he succeeded, the Overseer wouldn't have a choice."
 
-"The Overseer protocol assures you that--" the Overseer starts to say, but he gets cut off by Breynan.
+"The Overseer protocol assures you that—"
 
-"Zip it!" Breynan says, and then he turns to us. "Yeah, the more he talks, the less I'm inclined to trust him. Maybe it would be a better idea to find our own way out of here. At least we know that the door from which the Overseer arrived leads to the upper levels, so all we need to do is reach our destination without alerting too many of the guards. It's worth a try."
+"Quiet," Breynan snaps, turning his back on the drone. "The more it talks, the less I trust it. We take the surface corridor. The door the drone arrived through leads to the upper levels. If we move fast and keep our heads down, we reach transit before the alarm spreads."
 
- "Let's go, then," Melindra says, as she heads towards the only non-hidden door leading out of the room. "If the guards catch on to us, we'll handle it when the time comes."
+"Works for me," Melindra says, heading for the heavy iron door at the end of the hall. "If guards get in our way, we cut through."
 
-"I highly advise you to reconsider what you are about to do," the Overseer says. "Once you go through that door, there will be no turning back."
+"Departure via that threshold is strongly discouraged," the Overseer says from behind us. "Once crossed, the action cannot be revoked."
 
-"What's that supposed to be?" I ask him. "Some sort of threat?"
+"A threat?" I ask over my shoulder.
 
-The Overseer does not say anything, and he just continues to look at me with his large green eye.
+The drone hangs motionless, the green sensor fixed on me without a word.
 
-"Whatever," I say. "Let's just go. I'm sure he's only bluffing."
+"Right," I mutter. "Bluffing. Let's move."
 
-We all go through the door and then up a flight of stairs, which leads us into an empty corridor that has its walls made of seredium, but not the ceiling. The only lighting from this corridor is coming from some torches on the walls, but the silence is a little unsettling. Is it really normal for the corridor leading into such an important room to be this empty?
+We slip through the door and climb a wide stone stairwell, emerging into an empty corridor walled in black seredium. Iron torch sconces flicker every twenty paces, casting long, wavering shadows across the flagstones. The silence is thick, unbroken by boots or voices.
 
-"Do you suppose we're still below the tower now, or are we above the surface?" I ask.
+"Are we still below the foundations?" I ask in a whisper.
 
-"I don't know, but I'll try to see if I can contact Barry in the teleporter room from here," Breynan says.
+"Let me check transit," Breynan says.
 
-He then takes out his transceiver and begins to talk into his transceiver, in a low voice.
+He pulls his transceiver, keeping his thumb on the volume notch. "Barry, can you read me?"
 
- "Barry, can you hear me?" he says.
+Ten seconds pass. Only static hiss.
 
-We wait for a few seconds, but we get no answer.
+"Dead air," Breynan says, sliding the device into his pocket. "Still beneath the bedrock, or the seredium casing is too dense. Keep moving."
 
-"Nothing," Breynan says, as he puts his transceiver back in his pocket. "I guess this means that we're still underground. Either that, or the seredium walls are simply too thick. Anyway, let's keep moving forward."
+"Wait!" Flower shouts, throwing both arms out. "Traps!"
 
-"Stop!" Flower shouts, all of a sudden. "I think there might be traps in here!"
+I focus on the corridor ahead. "I don't sense mana. Mechanical pressure plates or lessathi triggers?"
 
-"I'm not sensing any magical traps," I say. "Are you saying there are some lessathi devices that will trigger if we walk through here, or just some regular traps?"
+"Ruins traps," Flower says, pointing at the seam patterns in the stone floor. "Illuna and I saw this layout in the southern crypts. The tiles follow a sequence. Step on the wrong pattern and the room fires."
 
-"Regular traps," Flower says. "Something about the way the floor is made reminds me of the kind of ruins that Illuna and I usually visit. I think we need to step on the floor tiles in a certain order, or else the trap will get triggered."
+"Can Melindra lift us across?" I ask.
 
-"Couldn't we just fly past this corridor with the help of Melindra?" I say.
-
-"If we do that, the door at the end of the tunnel won't unlock," Flower says. "And if we try to open it by force, that will also activate the trap. Don't worry, I think I know which floor tiles we need to step on. Just give me a second!"
+"The exit latch is keyed to the pressure sequence," Flower says. "Bypassing the floor keeps the far door locked, and forcing the lock trips the counterweight. I know the rhythm. Give me a second!"
 
 choice("Continue", B3-Ch04b-Guarantee2, v_current_scene = B3-Ch04b-Guarantee2)
 
@@ -933,57 +949,61 @@ TEXT:
 set(v_is_dead,1) if (v_ch11_saved_rose == 0)
 set(v_is_dead,0) if (v_ch11_saved_rose == 1)
 #if(v_ch11_saved_rose == 0) {
- "Are you sure about that?..." I say. "I thought you said earlier that you could barely stand on your feet in your current condition."
+ "Are you sure?" I ask. "You were struggling to stand ten minutes ago."
 
-"Oh, uh... I'm sure it'll be fine!" Flower says, with a bit of hesitation in her voice. "It's just a few jumps, here and there. Nothing too fancy!"
+"I've got it!" Flower says, though her voice wobbles. "A few quick hops. Nothing difficult!"
 
-She then takes a few steps forward and gets ready to jump.
+She takes two steadying breaths and jumps toward the first marked tile.
 
-"Alright, here I go!" she says, and she makes a small jump towards one of the floor tiles.
+The stone sinks with a dull metallic clunk, locking in place.
 
-The tile gets pushed into the ground under her weight, but nothing bad seems to be happening.
+"See?" Flower calls back. "Identical builder! Next is two paces right..."
 
-"I knew it!" Flower says. "I've already seen this same type of floor at least three times before! It must have been designed by the same person. Okay, so the next tile should be over here..."
+She hops sideways. The second tile depresses with the same satisfying thud.
 
-She takes two steps to her right, and the tile below her feet once again sinks itself into the floor.
+"Done this three times before," she mutters, eyes darting over the masonry. "Just need the sequence..."
 
-"Perfect!" Flower says. "I think I got it, now. I'll have this trap deactivated in no time!"
+She bounds forward, hitting four tiles in smooth succession.
 
-She then begins to jump on several tiles one after the other, getting closer and closer to the end of the hallway. 
+Near the far archway, she suddenly clutches her temple with a sharp gasp, the lingering shock from the stab wound wrenching through her skull. Her knee buckles, her foot clips the edge of an unmapped flagstone, and the tile grinds deep into the floor.
 
- Just when she looks like she's about to make it, she suddenly gets a strong headache, making her lose her balance. She tries to quickly regain her footing, but it is too late, and one of her feet ends up on a wrong floor tile. As soon as the tile sinks into the ground, the entrance behind us immediately closes up, and the ceiling begins to tremble violently, while making a loud noise. After it's done trembling, the ceiling begins to slowly descend upon us.
+An iron portcullis slams down behind us with a thunderous crash. The masonry shuddering overhead gives a deep, groaning snap, and the solid stone ceiling drops like a sledgehammer.
 
-"I'm sorry! I'm sorry! I'm sorry!" Flower says in a panicked voice, as the ceiling is now accelerating.
+"I'm sorry!" Flower screams as the stone mass accelerates downward. "I'm sorry—"
 
-"We need to blast through this stone wall blocking the entrance quick!" Breynan says. "Before the ceiling--"
+"Blast the rear gate!" Breynan shouts, turning with raised hands. "Before—"
 
-Breynan does not get to finish what he was saying, because the huge block of stone forming the ceiling suddenly drops on us, crushing us all underneath its weight.
+The ceiling hits the floor. Darkness snaps shut.
 
 }
 #if(v_ch11_saved_rose == 1) {
- She then takes a few steps forward and gets ready to jump.
+ She takes two steadying breaths and jumps toward the first marked tile.
 
-"Alright, here I go!" she says, and she makes a small jump towards one of the floor tiles.
+"Here goes!" she calls back.
 
-The tile gets pushed into the ground under her weight, but nothing bad seems to be happening.
+The stone sinks with a dull metallic clunk, locking in place without triggering a release.
 
-"I knew it!" Flower says. "I've already seen this same type of floor at least three times before! It must have been designed by the same person. Okay, so the next tile should be over here..."
+"See?" Flower says, grinning over her shoulder. "Identical builder! Next is two paces right..."
 
-She takes two steps to her right, and the tile below her feet once again sinks itself into the floor.
+She hops sideways. The second tile depresses with the same satisfying thud.
 
-"Perfect!" Flower says. "I think I got it, now. I'll have this trap deactivated in no time!"
+"I know the rhythm," she mutters, eyes darting over the masonry. "Done this three times before."
 
-She then begins to jump on several tiles one after the other, getting closer and closer to the end of the hallway. 
+She bounds forward, hitting five tiles in smooth succession as her acrobat training takes over.
 
- When she finally reaches the door on the other side, all of the floor tiles that she had stepped on rise back up to their original positions in unison, and the door in front of her opens up by itself.
+As her feet land on the far threshold, the depressed floor tiles reset in a single synchronized click, and the heavy iron door ahead slides into the ceiling.
 
-"It's all good!" Flower shouts to us from the other end of the tunnel. "The trap is deactivated. You don't need to worry about the floor tiles anymore. Just come over here!"
+"Clear!" Flower waves vigorously from the archway. "The counterweights are locked. You can walk straight across!"
 
-We all listen to Flower and we head over to her side. Just like she said, the traps don't activate and we are able to reach the door safely. As soon as we walk into the next corridor, we hear the voice of a man to our right, speaking to us in a loud tone.
+We cross the corridor at a jog, keeping our boots off the seams out of habit. As we step into the adjoining hallway, a shout rings out from our right.
 
-"Who the hell are you?!" the man shouts. "And how did you manage to get out of that hallway without triggering any of the traps?"
+"Halt! Who goes there?"
 
-When we turn around, we see that there are three men dressed in uniforms with swords in their hands, all looking at us suspiciously. I should be very careful what I say, here. One wrong word and they could easily sound the alarm before we get to take them out.
+Three uniformed guards stand ten paces off under the torchlight, steel broadswords drawn and leveled at our chests.
+
+"How did you bypass the section trap?" the lead guard demands.
+
+I keep my hands visible. One wrong syllable and they hit their transceivers before we can close the distance.
 
 }
 choice("Restart game", Ch1-Intro1, v_current_scene = Ch1-Intro1, special:restart) if (v_ch11_saved_rose == 0)
@@ -1006,27 +1026,27 @@ achievement("A master of deception",v_ac_b3_ch4_deception)
 
 "We are the new guards," I say. "We came here to relieve you of your duties."
 
-"The new guards, huh?..." the man who addressed us earlier says, as he looks at me, then at Flower, and then at all the other members in our group. "You really must be taking us for idiots to cook up a lie as ridiculous as this."
+The lead guard scoffs, eyeing my trail clothes, Flower's acrobatic tunic, and Melindra's silk outfit. "New guards? You take us for blind fools."
 
-He then taps on what I'm assuming to be the transceiver inside his pocket, and he shouts:
+He taps the brass transceiver pinned to his collar and shouts:
 
 "Intruder alert! Sound the alarm right now!"
 
-Just a few seconds later, a very loud alarm noise fills the entire corridor, while the guards in front of us are getting ready to surround us.
+The sector klaxon howls to life, red warning lamps pulsing overhead. The three guards advance in a fighting wedge, broadswords raised.
 
-"You're all coming with us," one of the guards says. "You'd better not be trying to resist."
+"You're all coming with us," one shouts. "Drop your weapons!"
 
-Before any of them have the time to react, six water whips appear in mid-air in front of the three men, quickly coiling themselves around each of their ankles and pulling their legs from under them, causing them to hit the backs of their heads against the ground and to lose their consciousness.
+Before their boots cover two paces, six tendrils of water whip up from the damp stone, coiling tight around their ankles and yanking backward with brutal force. Their feet fly up; the backs of their skulls crack hard against the flagstones, knocking all three out cold.
 
- "I should have done this the moment we opened that door..." Illuna says.
+"I should have done this the moment we opened that door..." Illuna mutters.
 
-"Don't worry about it," Breynan says. "I'm sure we still have time to find our way out of here until the rest of the guards organize themselves to come greet us."
+"No time to second-guess," Breynan says. "The alarm is running. We move before the sector seals."
 
-"The majority of the guards seem to be coming from the right side," Melindra says. "I suggest that we head to the left."
+"Garrison response is converging from the east wing," Melindra says, eyes unfocused as she tracks auras through the masonry. "Take the west corridor."
 
-"Good thinking," Breynan says. "Let's move."
+"West it is," Breynan says.
 
-We all turn left and we make a run for the door at the end of the corridor. Once we open the door and step into the next hallway, Melindra tells us that she has detected a staircase leading upwards somewhere further down the hall. We take a right, then another right, and when we reach the stairs we begin to climb them as fast as we can, as we can hear the faint hurried steps of several guards from behind, who are slowly closing in on us.
+We turn left, sprinting for the far archway. Melindra points us toward an ascending spiral stairwell deeper in the sector. We take two sharp rights, hit the stairs at a dead run, and take the risers three at a time as the distant thunder of armored boots echoes up the shaft behind us.
 
 }
 #if(v_bluff >= 4) {
@@ -1034,27 +1054,27 @@ We all turn left and we make a run for the door at the end of the corridor. Once
 
 "We are the new guards," I say. "We came here to relieve you of your duties."
 
-"The new guards, huh?..." the man who addressed us earlier says, as he looks at me, then at Flower, and then at all the other members in our group. "So, where are your uniforms, then?"
+The lead guard blinks, his gaze drifting from my leather vest to Flower's trapeze tunic, then across Melindra's silk pajamas. "New guards? Where are your uniforms?"
 
 "Uh... we forgot them at... home?..." I say.
 
-"Sounds plausible," the guard says, in a tone that does not seem to be sarcastic at all. "So, do you mind telling us how exactly you managed to get inside there, given that we've been here all day and we never saw you walk in?"
+"Sounds plausible," the guard says, nodding with total sincerity. "How did you get past the checkpoint without logging on the roster?"
 
 "It's because umm... you see, the thing is that we actually fell asleep in the prisoners' room the other day and we just woke up a few minutes ago," I say. "You probably weren't here when we came in the first time."
 
-The guards exchange a few looks, and then the man who interrogated us addresses his teammates.
+The three guards exchange glances, completely unbothered.
 
-"Their story checks out," the man says. "Come on, let's go grab a beer before we head home. Maybe with a little luck we'll still find some tavern open at this hour."
+"Their story checks out," the leader says, sheathing his sword. "Come on, let's go grab a beer before we head home. Maybe with a little luck we'll still find some tavern open at this hour."
 
- The three men then turn around and they slowly walk away from us, until we are no longer able to see them anymore.
+The three men turn around and stroll down the eastern hallway at a leisurely pace, chatting about ale.
 
 "That was incredible..." Kate says, as soon as the three guards are out of earshot. "Did you see how quickly they believed that obvious lie? It's like those men completely lost their common sense the minute they heard Barry speak!"
 
-"I don't understand what happened," Leila writes. "Barry's aura was calm, but anyone could have seen that he wasn't telling the truth just from the way he talked. If you add the fact that the reasons he gave were completely ridiculous, I'm starting to think that calming the aura is not the only thing that this 'Bluff' stat does."
+"I don't understand what happened," Leila writes in floating blue script. "Barry's aura was calm, but anyone could have seen that he wasn't telling the truth just from the way he talked. If you add the fact that the reasons he gave were completely ridiculous, I'm starting to think that calming the aura is not the only thing that this 'Bluff' stat does."
 
 "Did neither of you notice how Barry's aura enveloped the three guards while he was talking?" Melindra says. "I'm no expert, but I'm guessing that must have had something to do with their temporary lapse in judgment. Still, I really doubt that this technique could work on mages, or on anyone reasonably competent in controlling their auras, so Barry, maybe next time you might want to consider telling a lie that is at least somewhat believable. Wouldn't you agree?"
 
- "Right, right," I say. "I got a little carried away, there. My bad."
+"Right, right," I say. "I got a little carried away, there. My bad."
 
 "So, which way should we go?" Flower asks.
 
@@ -1081,19 +1101,19 @@ set(v_b3_ch4_tasked,2) if (v_bluff >= 2)
 
 "We're the new cleaners!" I say. "We were sent here to wash the prisoners downstairs."
 
-"The new cleaners, huh?..." the man who addressed us earlier says, as he looks at me, then at Flower, and then at all the other members in our group. "Please excuse me while I communicate this information to my colleagues."
+The lead guard narrows his eyes, surveying our blades and travel gear. "The new cleaners, huh?... Please excuse me while I communicate this information to my colleagues."
 
-He then taps on what I'm assuming to be the transceiver inside his pocket, and he shouts:
+He taps the brass transceiver pinned to his collar and shouts:
 
 "Intruder alert! Sound the alarm right now!"
 
-Just a few seconds later, a very loud alarm noise fills the entire corridor, while the guards in front of us are getting ready to surround us.
+The hallway alarm howls to life, red warning lamps flaring in the ceiling grates. The three guards advance in a fighting wedge, blades raised.
 
 "You're all coming with us," one of the guards says. "You'd better not be trying to resist."
 
 Before any of them have the time to react, six water whips appear in mid-air in front of the three men, quickly coiling themselves around each of their ankles and pulling their legs from under them, causing them to hit the backs of their heads against the ground and to lose their consciousness.
 
- "I should have done this the moment we opened that door..." Illuna says.
+"I should have done this the moment we opened that door..." Illuna says.
 
 "Don't worry about it," Breynan says. "I'm sure we still have time to find our way out of here until the rest of the guards organize themselves to come greet us."
 
@@ -1109,7 +1129,7 @@ We all turn left and we make a run for the door at the end of the corridor. Once
 
 "We're the new cleaners!" I say. "We were sent here to wash the prisoners downstairs."
 
-"The new cleaners, huh?..." the man who addressed us earlier says, as he looks at me, then at Flower, and then at all the other members in our group. "Would you mind telling us then how exactly you managed to get inside there, given that we've been here all day and we never saw you walk in?"
+The guard looks us over, frowning. "The new cleaners, huh?... Would you mind telling us then how exactly you managed to get inside there, given that we've been here all day and we never saw you walk in?"
 
 "Uh... I mean... have you even seen how many people there are down there?" I say. "We've been busy washing them since yesterday!"
 
@@ -1125,7 +1145,7 @@ We all turn left and we make a run for the door at the end of the corridor. Once
 
 "Oh right, it was that way!" I say. "Sorry, it's our first time here, so we're getting a little confused with all these identical-looking corridors. Alright everyone, let's go to the right!"
 
- "That was not a bad bluff, Barry," Leila writes with a smile, while we're moving away from the guards. "The points you spent in that stat were not wasted."
+"That was not a bad bluff, Barry," Leila writes with a smile, while we're moving away from the guards. "The points you spent in that stat were not wasted."
 
 As we keep advancing through the corridor, we eventually reach another door. Before we open it, Melindra stops us to give us a few pointers.
 
@@ -1153,17 +1173,17 @@ TEXT:
 
 "None of my business, huh?" the man who addressed us earlier says. "Why don't you please excuse me for a moment while I have a little chat with one of my colleagues?"
 
-He then taps on what I'm assuming to be the transceiver inside his pocket, and he shouts:
+He taps the brass transceiver pinned to his collar and shouts:
 
 "Intruder alert! Sound the alarm right now!"
 
-Just a few seconds later, a very loud alarm noise fills the entire corridor, while the guards in front of us are getting ready to surround us.
+The hallway alarm howls to life, red warning lamps flaring in the ceiling grates. The three guards advance in a fighting wedge, blades raised.
 
 "You're all coming with us," one of the guards says. "You'd better not be trying to resist."
 
 Before any of them have the time to react, six water whips appear in mid-air in front of the three men, quickly coiling themselves around each of their ankles and pulling their legs from under them, causing them to hit the backs of their heads against the ground and to lose their consciousness.
 
- "I should have done this the moment we opened that door..." Illuna says.
+"I should have done this the moment we opened that door..." Illuna says.
 
 "Don't worry about it," Breynan says. "I'm sure we still have time to find our way out of here until the rest of the guards organize themselves to come greet us."
 
@@ -1192,7 +1212,7 @@ We open the door and we begin heading to the left, in the opposite direction fro
 
 "I'm not sure who exactly you're supposed to be, but you have three seconds to identify yourself before I sound the alarm," we hear the faint sound of the man's shout. "I can sense your aura from all the way over here, and it doesn't feel like the aura of anyone I know."
 
- "Crap," I say in a low voice. "What should I do? Should I tell him that I'm one of the cleaners?"
+"Crap," I say in a low voice. "What should I do? Should I tell him that I'm one of the cleaners?"
 
 "Too late," we hear the man shouting, and soon afterwards a very loud noise echoes through the hall, as we are sensing more than a few guards moving in our direction.
 
@@ -1208,7 +1228,7 @@ When I try again, I realize that I'm suddenly getting the same feeling that I go
 
 "Hey, that's not half-bad, Barry," Melindra says. "I didn't know you could conceal your aura so well. Alright, now that everyone is ready, let's move on."
 
-We open the door and we begin heading to the left, in the opposite direction from where the guards are stationed. None of the guards are reacting to us, which means that we're doing a good job at concealing our auras. Melindra tells us that she has detected a staircase leading upwards somewhere further down the hall, so we keep moving forward and then we take another left, continuing on our way until we finally reach the stairs that she was talking about. We then begin climbing them slowly, while we rely on Melindra to tell us if there are any guards following us or not.
+We open the door and we begin heading to the left, in the opposite direction from where the guards are stationed. The sentries pay us no mind, our concealed auras slipping past their senses. Melindra tells us that she has detected a staircase leading upwards somewhere further down the hall, so we keep moving forward and then we take another left, continuing on our way until we finally reach the stairs that she was talking about. We then begin climbing them slowly, while we rely on Melindra to tell us if there are any guards following us or not.
 
 We manage to get up the stairs without any problems, and then we traverse another long corridor before we begin heading for the next staircase that leads to one of the upper levels.
 
@@ -1225,7 +1245,7 @@ set(v_is_dead,0) if (v_hearing >= 3)
 #if(v_hearing < 3) {
  
 
-When we reach the top of the stairs, we enter a new hallway and we begin to advance through it at a rapid pace. All of a sudden, the corridor that we are currently in gets filled with magical electric currents that are visible even with the naked eye. The electric shock surging through my body is so powerful that I barely get another second of consciousness before everything completely fades to black.
+When we reach the top of the stairs, we enter a new hallway and we begin to advance through it at a rapid pace. Crackling blue electrical arcs detonate from the walls, filling the entire hallway with a blinding grid of lightning. The electric shock surging through my body is so powerful that I barely get another second of consciousness before everything completely fades to black.
 
 }
 #if(v_hearing >= 3) {
@@ -1243,7 +1263,7 @@ We all stop right before the end of the staircase, where we are getting a perfec
 
 "No, they didn't enter the corridor for some reason," says the man who ordered the activation of the trap initially. "Try turning it on again!"
 
- "I can't turn it on right away," the other man says. "It needs to charge up a little first!"
+"I can't turn it on right away," the other man says. "It needs to charge up a little first!"
 
 "I just heard the guards talking about how the trap will need to charge up before they can use it again," I tell my friends. "We can go now. It's safe."
 
@@ -1253,7 +1273,7 @@ We all stop right before the end of the staircase, where we are getting a perfec
 
 "Yes, it's because of my stat device," I say. "But if we run into another one of these undetectable lessathi traps later on, we might not be so lucky next time. Melindra, isn't there a way in which you could detect these with your magical sense?"
 
-"These are lessathi devices that are made specifically for the purpose of not being detected," Melindra says. "Even Arraka would have trouble finding these. All we can do is be really careful and hope for the best.
+"These are lessathi devices that are made specifically for the purpose of not being detected," Melindra says. "Even Arraka would have trouble finding these. All we can do is be really careful and hope for the best."
 
 "I was afraid that you might say something like that," I say.
 
@@ -1268,38 +1288,42 @@ ID: B3-Ch04b-Blades
 TEXT:
 
 #if(v_b3_ch4_tasked != 2 && v_b3_ch4_tasked != 3 && v_b3_ch4_tasked != 5) {
- "Breynan, did you try contacting your friend from the teleporter room again?" Melindra says, while we're still walking through the hallway. "Maybe you can reach him from here."
+ "Breynan, try transit again," Melindra says as we hurry down the corridor. "The seredium might be thinner on this tier."
 
-"I already tried but he still won't answer," Breynan says. "Maybe we'll have better luck if we keep moving upwar--"
+"Still nothing," Breynan says, thumbing the transceiver. "Static on all channels. Maybe if we reach the upper—"
 
-"Attention all guards from the tower!" we suddenly hear the voice of Billy Bob, through a magical voice magnifier that is bolted to a wall. "My sensors are detecting intruders in the tower. It appears that they are trying to reach the upper levels. I will activate the trap near the staircase leading out of section B98-6C. If you hurry, you should be able to corner them easily enough. You'd better not let them get away..."
+A brass speaker horn bolted to the masonry squawks to life with metallic distortion.
 
-Just as the lessathi stops talking, a very loud alarm noise fills the hallway and then the whole section in front of the staircase that we were heading towards becomes completely uncrossable, because a hundred spinning metal blades are coming out of the ground, walls and ceiling, leaving no room for us to squeeze past them without getting cut into pieces.
+"Attention, tower security," Billy Bob's nasal voice blares through the grille. "Sensors show unauthorized personnel ascending toward the upper levels. Sector B98-6C perimeter defenses are active. Converge on the landing and eliminate them. Do not allow them to slip the perimeter!"
+
+A piercing klaxon shrieks through the corridor. Twenty paces ahead, the masonry groans. Heavy iron plates retract in the floor, walls, and ceiling, unleashing a blinding forest of whirring steel saw blades that grind together in overlapping arcs. The entire hallway leading to the staircase becomes an impenetrable storm of spinning metal.
 
 }
 #if(v_b3_ch4_tasked == 2 || v_b3_ch4_tasked == 3 || v_b3_ch4_tasked == 5) {
- "Breynan, did you try contacting your friend from the teleporter room again?" Melindra says, while we're still walking through the hallway. "Maybe you can reach him from here."
+ "Breynan, try transit again," Melindra says as we hurry down the corridor. "The seredium might be thinner on this tier."
 
-"I already tried but he still won't answer," Breynan says. "Maybe we'll have better luck if we keep moving upwar--"
+"Still nothing," Breynan says, thumbing the transceiver. "Static on all channels. Maybe if we reach the upper—"
 
-"Attention all guards from the tower!" we suddenly hear the voice of Billy Bob, through a magical voice magnifier that is bolted to a wall. "My sensors are indicating that the intruders are trying to reach the upper levels. I will activate the trap near the staircase leading out of section B98-6C. If you hurry, you should be able to corner them easily enough. You'd better not let them get away..."
+A brass speaker horn bolted to the masonry squawks to life with metallic distortion.
 
-Just as the lessathi stops talking, the whole section in front of the staircase that we were heading towards becomes completely uncrossable, because a hundred spinning metal blades are coming out of the ground, walls and ceiling, leaving no room for us to squeeze past them without getting cut into pieces.
+"Attention, tower security," Billy Bob's nasal voice blares through the grille. "Sensors confirm the intruders are ascending toward the upper levels. Sector B98-6C perimeter defenses are active. Converge on the landing and eliminate them. Do not allow them to slip the perimeter!"
+
+Twenty paces ahead, the masonry groans. Heavy iron plates retract in the floor, walls, and ceiling, unleashing a blinding forest of whirring steel saw blades that grind together in overlapping arcs. The entire hallway leading to the staircase becomes an impenetrable storm of spinning metal.
 
 }
- "I'm... not sure how we're supposed to get past this one..." Breynan says.
+ "How do we clear that?" Breynan asks, staring at the whirling teeth.
 
-"Couldn't Flower blow them up or something?" I say.
+"Can Flower incinerate the bearings?" I ask.
 
-"Those blades are made of elven steel and they are heavily enchanted," Illuna says. "No spells of ours are anywhere near powerful enough to damage them."
+"Those blades are tempered elven alloy and heavily warded," Illuna says. "Raw fire will only melt our own boots."
 
-"I could try to freeze the spinning blades in place with one of my spells," Kate says. "It probably won't last too long, but it might give us just enough time to be able to get to the stairs."
+"I could freeze the drive axles," Kate says, examining the gears. "The ice won't hold under that torque, but it might buy five seconds to slip through."
 
-"What about Rose?" Flower asks us. "We could try asking her to freeze time for everyone in the world except us until we can get past the blades!"
+"What about Rose?" Flower asks, perking up. "She could freeze the whole world while we run past!"
 
-"Last time I talked to her, Rose said she didn't make any meaningful progress with her time freezing training," I say. "I don't think she can help us."
+"Last time we spoke, Rose said she had barely any control over her time weaving," I say. "We can't bet our lives on an unstable spell."
 
-"Last time you talked to her, Rose said she had a premonition in which she saw me almost get killed," Illuna says. "It's possible that she's actually been making a little more progress than what she told you so far. We already know that there aren't enough seredium walls between her and us to block our communication completely, given that she's situated on the surface, so contacting her could be worth a try."
+"She had a clear premonition when we were attacked below," Illuna counters. "Her grasp may be advancing faster than she admits. We are high enough in the tower that seredium interference won't block the transceiver to Thilias. Reaching out is worth the attempt."
 
 choice("Try to contact Rose.", B3-Ch04b-Contact, v_current_scene = B3-Ch04b-Contact)
 choice("Suggest that it would be better if Kate froze the spinning blades instead.", B3-Ch04b-Froze, v_current_scene = B3-Ch04b-Froze)
@@ -1308,17 +1332,21 @@ choice("Suggest that it would be better if Kate froze the spinning blades instea
 ID: B3-Ch04b-Froze
 TEXT:
 
- "Rose's powers are too risky," I say. "Even if she can in fact freeze time on her own, it would take only one second of her losing control over her spell for us to be turned into mincemeat. I say we should go with Kate's plan and let her freeze the blades with her magic. At least that way we'd have a decent chance of walking out of here alive."
+ "Rose's power is too volatile," I say. "If her concentration breaks for one second while we're in the teeth, we're minced meat. We use Kate's ice. At least we control the timer."
 
-"If Kate thinks she can do it, then I won't object," Illuna says. "I just wanted to make sure everyone knows that there are other options."
+"If Kate is confident, I will not dispute it," Illuna says. "I merely pointed out the alternative."
 
-"I will try to freeze only the blades and not the floor, so that we won't slip on it by accident," Kate says.
+"I'll coat only the gears and blades," Kate says, stepping forward. "Keep the floor dry so nobody slips."
 
-She then puts her hands in front of her and a powerful ray of ice shoots out of her palms, freezing every single one of the mechanisms that were keeping the blades moving.
+She thrusts her palms forward. A roaring blast of subzero frost surges down the corridor, encasing the spinning steel discs in dense, crystalline sheets of rime. The screech of grinding metal chokes into a sudden, rigid halt.
 
-"Quick!" Melindra says. "Head for the stairs!"
+"Move!" Melindra shouts. "Go!"
 
-We try to move as fast as we can, but there is no easy route to avoid all of the obstacles. As we are struggling to fit into the narrow space between the multitude of sharp, frozen blades, we suddenly hear several cracks in Kate's ice and before we even have the time to figure out what's going on, all of the blades start spinning again at the same time, cutting us all into hundreds of pieces.
+We dive into the narrow gap between the frozen blades, ducking and contorting through the razor-edged maze. Halfway across, a sickening crack echoes through the frost.
+
+The ice shatters under the drive gears' torque.
+
+Before anyone can take another breath, hundreds of steel teeth spin back to life at full speed, tearing through flesh and bone in a blind storm of red.
 
 choice("Restart game", Ch1-Intro1, v_current_scene = Ch1-Intro1, special:restart)
 choice("Load from last checkpoint", , v_chapter_save_counter = 5, special:checkpoint_load)
@@ -1328,57 +1356,55 @@ choice("Load game", , , special:saves)
 ID: B3-Ch04b-Contact
 TEXT:
 
- "You're right," I say. "It's worth a shot. I'm calling her now. Kate, could you make a wall of ice behind us to delay the guards in case they catch up to us?
+ "You're right," I say. "We try Rose. Kate, throw up an ice barrier behind us in case the patrol catches up."
 
-"I'm on it," Kate says.
+"On it," Kate says, already conjuring a thick wall of blue-white frost across the rear passage.
 
-She then begins to create her ice wall while I take out my transceiver, switch the dial to Rose's number and tap on the transceiver to activate it.
+I pull my transceiver, dial Rose's frequency, and tap the activating crystal.
 
-"Rose, can you hear me?" I say.
+"Rose! Can you read me?"
 
-"Yes!" Rose says. "I can hear you clearly, now. Did you get out of the caverns?"
+"Barry!" Rose's voice comes through, bright and clear. "I can hear you! Did you make it out of the lower tunnels?"
 
-"Sort of," I say. "But we're still in trouble and we need your help."
+"Mostly," I say. "We're pinned down in the tower and we need your help."
 
-"My help?..." Rose asks.
+"My help?"
 
-"Yes," I say. "I'll try to keep it short. Have you ever managed to freeze time of your own free will before?"
+"I'll make it quick," I say. "Have you managed to trigger the time freeze on your own since Thilias?"
 
-"I..." Rose says. "I did manage to do it a few times today, but it was only for a little while, and I'm not sure how much control I have over it. Whenever I try to maintain full control over these powers, I get tired very easily and I feel like I'm close to fainting. I'm not sure if--"
+"I... a few times today," Rose says, hesitation in her tone. "Only for brief moments, and the control is terrible. Every time I try to hold it, my head spins and I nearly collapse. I don't know if—"
 
-"What was the longest you managed to keep the time frozen?" I say.
+"What's your longest hold?"
 
- "I don't know..." Rose says. "About... thirty seconds?"
+"I'm not sure... maybe thirty seconds?"
 
-"That should give us enough time to get past the spinning blades," I tell the others. "I think we should try it."
+"That's enough to clear the blades," I tell the group. Then into the transceiver: "Rose, we have a corridor blocked by spinning steel traps and a guard company breathing down our necks. Your weave stops the entire world, but the transit device in this city locks onto transceiver frequencies to target spells. Focus on the resonance between our transceivers. Use the link to anchor us outside your freeze while the rest of the world stops. Can you hold the world still and let us move?"
 
-"Spinning blades?!" Rose asks shocked. "Barry, I don't think--"
+"I can try, but Barry... if my grip slips while you're inside—"
 
-"Listen, we don't have much time," I say. "There are dozens of guards breathing down our necks and they could be here any minute. Your spell freezes time in the whole world, so it should technically be possible to unfreeze us from where you are. The rebels from this city have a teleporting device that locks onto the signals from our transceivers whenever it tries to cast its spell on us. Maybe you could try doing the same thing with your spell. Try to focus on the connection between our two transceivers and maybe you could unfreeze time just for us, so we can get safely past the blades while you're still freezing the time for everyone else in the world. Do you think you can do that?"
+"We'll be across in fifteen seconds," I say. "Just give us the window. Ready?"
 
-"I can try, but... Barry, if I lose control over the spell while you're in there you'll--"
+"I think so," Rose breathes. "Give me a moment..."
 
- "We'll make sure to get out before that happens," I say. "It shouldn't take us more than fifteen seconds to get to the stairs. We can make it. You just try to hold onto the spell as long as you can. Okay, are you ready?"
+Ten agonizing seconds tick by. The transceiver hiss fills with heavy, ragged breathing.
 
-"I suppose..." Rose says. "Give me a moment."
+"Rose? Everything alright?"
 
-After about ten seconds of waiting, Rose suddenly begins to breathe very heavily into the transceiver.
+"I'm fine," Rose gasps, her voice strained and faint. "I triggered it twice, but the anchor slipped. You were frozen both times. One more try..."
 
-"Is something wrong?..." I say.
+"Wait, if it's tearing you up—"
 
-"It's nothing," Rose says, in a tired voice. "I already froze the time twice, but I couldn't get you unfrozen. I'm sure I can do it right if I try it a third time."
+"Barry! Can you hear me?" Rose's voice suddenly shouts through the crystal.
 
-"No, actually, I think maybe we should stop before--"
+"I hear you!"
 
-"Barry, can you hear me?!" I hear Rose shouting very loudly all of a sudden.
+"Time is stopped! Run! Go now—I can't hold it long!"
 
-"Yes, I can hear you," I say. "I was saying that--"
+I glance down the corridor.
 
-"Barry, the time is frozen!" Rose says. "Head for the stairs. Do it now! I don't know how long I can hold this!"
+The screaming blades have frozen dead in mid-rotation. The torch flames along the walls stand motionless as sculpted glass.
 
-When I look at the blades, I realize that they've all stopped completely, and the flames from the torches on the walls are also apparently frozen in time. We're not going to get a better chance than this. We need to take advantage of this opportunity while it still lasts.
-
-"You heard Rose," I tell the others. "Go, go, go!"
+"Move!" I shout, slapping Breynan's arm. "Go, go, go!"
 
 choice("Continue", B3-Ch04b-Contact2, v_current_scene = B3-Ch04b-Contact2)
 
@@ -1386,59 +1412,61 @@ choice("Continue", B3-Ch04b-Contact2, v_current_scene = B3-Ch04b-Contact2)
 ID: B3-Ch04b-Contact2
 TEXT:
 
- We all begin to move past the frozen blades as fast as we can, trying hard to fit into the narrow space between the multitude of sharp metal objects. When we finally reach the base of the stairs, I immediately try to let Rose know through the transceiver.
+ We sprint through the maze of halted steel, weaving past razor-sharp edges and frozen teeth with inches to spare. My shoulder grazes a motionless blade as we tumble onto the far stone landing at the foot of the upper stairs.
 
-"Rose, we're safe," I say. "You can unfreeze the time now."
+I bring the transceiver to my mouth. "Rose! We're across! Drop the weave!"
 
-Instead of getting an answer, we hear a loud thud coming from the other end of the transceiver and right afterwards, the blades from the previous hallway begin to spin again.
+A dull thump rattles through the receiver, followed instantly by the deafening shriek of saw blades resuming full speed behind us.
 
-"Rose, are you still there?" I say. "Rose!"
+"Rose? Rose, answer me!"
 
-"I'm... fine," Rose says, in a very weak voice. "I just... fainted a little. I'm sure I'll recover after I... lie here on the floor for a while longer. I'm glad you're all safe."
+"I'm... here," Rose whispers, her voice barely audible over the static. "Just... fainted for a moment. My head is spinning... I'll rest on the floor a bit. I'm glad you made it across."
 
-"I'm sorry," I say. "I shouldn't have pushed you so hard. Try to get some rest. We'll call you again when we're back at the rebel base."
+"I'm sorry," I say softly. "I pushed you too hard. Rest now. We'll call when we reach the base."
 
-I then close the channel and I signal everyone to go up the stairs. Once we're done climbing, we enter a hallway with a really high ceiling and Breynan pulls out his transceiver again.
+I close the channel and nod to the others. We take the ascending stairs at a rapid pace, emerging into a vaulted gallery with towering stone arches.
 
-"Maybe this time we'll get lucky," Breynan says. "If I manage to get in contact with Barry, I'll tell him to teleport us out of here right away. Make sure you are ready."
+Breynan pulls his transceiver again. "Transit should punch through here. If Barry answers, we pull immediate extraction. Stand ready."
 
 #if(v_b3_ch4_control == 1) {
- "We're not teleporting out of here before we get to the control room," Kate says.
+ "We're not leaving until we locate the master controls," Kate insists.
 
-"Your control room plan may have worked if we had managed to remain undetected, but once the alarms went off, teleporting out of this place became our only option," Breynan says. "Time is of the essence, here. We'll deal with the prisoners some other time."
+"The control room plan died the second the alarm went off," Breynan says bluntly. "The entire tower garrison is mobilizing. We extract now or we die in a corridor."
 
-He then taps his transceiver and puts it close to his mouth.
+He keys the crystal. "Barry! Can you read me?"
 
-"Barry, can you hear me?" Breynan says.
+"Good gods, what is that racket?" the operator's voice crackles over the background klaxons. "Where have you been? Never mind—I'm locking—wait, the signal is fluctuating! What's happening on your end? Barry? Breynan?!"
 
-"Good gods, what is that infernal noise?" the teleporter guy says, as he hears the loud alarms that are still audible all around us. "And where have you been all this time? Actually, never mind that. I'm going to-- hey, can you still hear me? The signal is failing. What's happening on your end? Hello?!"
+"We're here!" Breynan shouts. "Lock on! Barry!"
 
-"Yes, Barry, we're still here!" Breynan says. "Can you hear us? Answer me!"
+The voice dissolves into static hiss.
 
-It sounds like the teleporter guy is still saying something, but the magical signal is much too poor for us to be able to understand any of his words. When I look around the room to figure out what's happening, I see that four flying drones with orange-colored eyes are now slowly moving in to surround us, while a green-eyed drone flies past them and stops a few feet away from our position.
+Four combat drones with glowing orange optical sensors glide down from the vaulted ceiling, boxing us into a four-point perimeter. A green-eyed unit drifts down behind them, hovering just outside the cordon.
 
 }
 #if(v_b3_ch4_control == 0) {
- He then taps his transceiver and puts it close to his mouth.
+ He keys the crystal. "Barry! Can you read me?"
 
-"Barry, can you hear me?" Breynan says.
+"Good gods, what is that racket?" the operator's voice crackles over the background klaxons. "Where have you been? Never mind—I'm locking—wait, the signal is fluctuating! What's happening on your end? Barry? Breynan?!"
 
-"Good gods, what is that infernal noise?" the teleporter guy says, as he hears the loud alarms that are still audible all around us. "And where have you been all this time? Actually, never mind that. I'm going to-- hey, can you still hear me? The signal is failing. What's happening on your end? Hello?!"
+"We're here!" Breynan shouts. "Lock on! Barry!"
 
-"Yes, Barry, we're still here!" Breynan says. "Can you hear us? Answer me!"
+The voice dissolves into static hiss.
 
-It sounds like the teleporter guy is still saying something, but the magical signal is much too poor for us to be able to understand any of his words. When I look around the room to figure out what's happening, I see that four flying drones with orange-colored eyes are now slowly moving in to surround us, while a green-eyed drone flies past them and stops a few feet away from our position.
+Four combat drones with glowing orange optical sensors glide down from the vaulted ceiling, boxing us into a four-point perimeter. A green-eyed unit drifts down behind them, hovering just outside the cordon.
 
 }
- "I warned you that there would be no turning back," we hear the Overseer's voice, coming from the green-eyed drone.
+ "I warned you that the threshold could not be revoked," the Overseer's voice resonates from the green-eyed drone.
 
-"What are you talking about?" I ask him. "Who's blocking our signal? Is it those orange-eyed drones?"
+"What did you do?" I demand. "Are those orange units jamming the transit signal?"
 
-"Goodbye," the green-eyed drone says, and then it flies away from us, while the orange-eyed drones magically create a semi-transparent cage around themselves and us in order to prevent us from escaping.
+"Farewell," the Overseer says, banking smoothly away toward the upper reaches.
 
-When Kate, Flower and Illuna try to shoot the drones down with their magic, the metal balls don't even bother getting out of the way, as a strong magical barrier activates around each of them and it easily deflects all of the incoming projectiles.
+The four orange-eyed drones flash in unison. A shimmering, semi-transparent cage of hard mana snaps into existence around our perimeter, sealing us inside a five-pace cube.
 
-The air around us is gradually becoming heavier, and it's getting harder and harder to breathe. The pressure coming from all of the magical energy being gathered into one place is making it hard for us to even keep standing up. I don't know what spell these drones are preparing to cast, but whatever it is, it's going to be massive.
+Kate, Flower, and Illuna unleash an immediate volley—ice spears, fireballs, and water whips slam into the drones at point-blank range, only to shatter against dense spherical energy shields that flare brilliant blue and absorb the impacts without a scratch.
+
+The air inside the cage thickens instantly. Pressure mounts against my eardrums like diving into deep water, the density of ambient mana spiking so hard that breathing turns into a chore. They're pooling power for a massive synchronized cast.
 
 choice("Continue", B3-Ch04b-Contact3, v_current_scene = B3-Ch04b-Contact3)
 
@@ -1451,27 +1479,45 @@ set(v_is_dead,0) if (v_magical_sense >= 4)
 #if(v_magical_sense < 4) {
  
 
-Kate, Flower and Illuna are now using every magical attack that they can think of, but the drones don't seem bothered at all, and they just keep gathering energy for their spell. After a while, it becomes clear that there is no way for us to stop the incoming attack, so Melindra tries to cast individual wind barriers around each of us, in the hopes that this will somehow be enough to absorb all of the damage.
+Kate, Flower, and Illuna hammer the shields with every spell in their repertoire, but the drones float unmoved, their orange optics glowing brighter as they channel energy into a central nexus. Melindra snaps her arms out, wrapping each of us in layered air domes to cushion the imminent blast.
 
-Unfortunately, as soon as the drones' spell is cast, we quickly realize that no amount of protections could have shielded us from the onslaught of magical attacks that were unleashed upon us at the same time. It was difficult to tell if what killed us was the ice, the fire, the electricity or any other of the different simultaneous spells, but it took less than a second for our bodies to be completely destroyed and then to be turned into ashes.
+The drones release the spell.
+
+No shield could hold against that kind of synchronized devastation. A combined cascade of superheated plasma, freezing beams, and pressurized lightning detonates inside the confined cage, tearing through barriers in an instant and reducing our bodies to cinders before the sound can even reach our ears.
 
 }
 #if(v_magical_sense >= 4) {
  
 
-Something about the way in which the magic is flowing around the room suddenly reminds me of an old memory that I'd thought to be long forgotten. A few years ago, I was speaking to a hermit that everyone considered to be crazy, and he was always telling me how people are learning magic the wrong way, and how nobody would listen to him when he suggested that the magical academies should be completely restructured to follow his teachings. The main point of contention between him and the other scholars was his claim that imperfections in magical techniques are absolutely necessary if you want to create a perfect spell. The obvious contradiction in his statement made everyone dismiss him as a senile old man, but his theory was that the more a technique gets closer to perfection, the more predictable it will become, and the easier it would be to counteract it.
+The geometric perfection of the mana weaving inside the cage strikes a chord in my memory.
 
-When I'm seeing the perfect way in which these machines are executing their spells, I think I'm finally beginning to understand what that hermit meant. I can tell exactly what they're trying to do, and even if they're combining ten different spells at the same time, the way they are moving the flows of the auras is so 'by the book' that it would be impossible for me to not recognize every single one of them.
+Years ago in a roadside tavern, an eccentric old theorist whom everyone dismissed as mad had ranted to me about the foundational flaws in academy curricula. His core thesis was that true perfection in spellcraft is impossible—because the closer a technique approaches theoretical perfection, the more rigid and predictable its structural flow becomes, making it trivial to counter. The academies laughed him out of the room, but his diagrams stayed burned into my notes.
 
- My heart rate is through the roof. The speed at which I'm deciphering every one of the spells is breathtaking, and it feels as if the time has slowed down to a halt in order to allow me to have all these thoughts racing through my head at the same time. It feels like entire minutes have passed, but in reality, I don't think it's been more than a few seconds. The way before me is clear. I know what I have to do.
+Watching these four machines weave their combined spell, I see exactly what he meant.
 
-"We need to disrupt the flow of the spell!" I tell everyone around me, speaking as fast as I can, while the magical energy inside the cage is becoming so dense that it's almost palpable. "I need everyone who is a mage to cast the simplest spells they have, whenever I raise my right hand. It doesn't matter what spell, as long as you can cast it in the blink of an eye. I don't have time to explain why. Just trust me on this!"
+They aren't improvising. They are executing textbook formulae with absolute, unflinching precision. Even with ten different spells woven together at once, the mana channels move in flawless, predictable arcs.
 
-The others look at each other for a second, but then they turn their heads back to me, and they all give me a curt nod. I wait two seconds and then I raise my right hand. At the same time, Kate creates a small cube of ice, Flower sends a tiny ball of fire flying into the air, Illuna sprinkles some water on the ground, Breynan casts an orb of light and Melindra makes a few air currents rotate above her palm.
+My pulse pounds in my temples. My mind races through the casting patterns, breaking down each junction in the flow and the exact instant of every shift. It feels as if time has slowed to a crawl, laying bare the entire architectural blueprint of their attack.
 
- I then lower my hand and they all stop their spells, waiting for my next signal. Five seconds later, I raise my hand again, and everyone casts the same spells as before, looking anxiously around them to see if anything has changed. The air is still heavy, but it doesn't feel like the drones' spell has been progressing in any way since our mages began casting their own spells. I continue to predict the rhythm of the drones' magic flow by using every piece of information I know about how their spells are supposed to be cast. With the aid of my magical sense stat, I can finally detect the flows well enough to be able to put all of that magical theory I've learned into practice.
+"We can cancel their spell!" I shout over the hum of gathering energy. "Every mage in the group—listen to me! When I raise my right hand, cast the simplest, fastest spell you know. Instant release, zero complexity. Don't ask questions. Just trust me!"
 
-I keep raising my hand in the air at the perfect timing, and my friends keep following my instructions. When I raise my hand for the eight time, the pressure around us disappears completely all of a sudden, and it seems like the spell that the drones were casting has been permanently cancelled. The drones are currently not moving at all, looking as if they were stunned.
+They exchange a split-second glance, then give a sharp nod.
+
+I count two beats, watching the mana node align—and throw my right hand up.
+
+Instantly, Kate conjures a tiny ice shard, Flower snaps a spark of flame, Illuna drops a splash of water, Breynan flares a weak orb of light, and Melindra spins a miniature breeze above her palm.
+
+I drop my hand. The spells vanish.
+
+Five seconds later, the second harmonic cycle aligns. I raise my hand.
+
+They cast the same minor sparks in unison.
+
+The air remains heavy, but the drones' nexus stalls, the mana channels warping as our crude, irregular pulses interfere with their pristine resonance. With Magical Sense active, I track every ripple in the ambient auras, timing each hand signal to strike the exact structural weak points in their formulae.
+
+On the eighth hand raise, the gathered pressure snaps with the sound of a plucked steel cable. The spell collapses entirely, dissipating harmlessly into the stone walls.
+
+The four orange-eyed drones freeze in mid-air, their eye-lights sputtering as if stunned.
 
 }
 choice("Restart game", Ch1-Intro1, v_current_scene = Ch1-Intro1, special:restart) if (v_magical_sense < 4)
@@ -1491,39 +1537,39 @@ set(v_is_dead,0) if (v_aura_hardening >= 4)
 #if(v_aura_hardening < 4) {
  
 
-"Melindra, can you cast your air currents on me?" I say. "I want to try and stab the drones in their eyes while they are stunned."
+"Melindra, air currents on me!" I say, drawing my dagger. "I'll take their optics while they're looping!"
 
-"I don't think that's the best idea, but it's your call," Melindra says.
+"Bad idea, but you're the boss," Melindra says, flicking her wrist to wrap a column of wind around my frame.
 
-She then waves her hands in the air a few times, and shortly afterwards I can feel the currents flowing all around me.
+I lift off the flagstones, angling toward the nearest drone with my dagger leveled.
 
-"Thanks," I say, as I take out my dagger and then fly towards one of the drones.
-
-Just as I'm about to run my dagger through it, the drone shoots an ice beam out of its eye, freezing me completely. Before I even get to fall, the same drone generates two slates of rock out of thin air, and it smashes my head between them, killing me in an instant.
+Before the blade can make contact, the drone's orange optic flares brilliant white. A freezing beam engulfs my chest, locking my muscles in solid ice. Before I can fall, two stone slabs materialize on either side of my head and slam together with bone-crushing force.
 
 }
 #if(v_aura_hardening >= 4) {
  
 
-"Melindra, can you cast your air currents on me?" I say. "I want to try and stab the drones in their eyes while they are stunned."
+"Melindra, air currents on me!" I say, drawing my dagger. "I'll take their optics while they're looping!"
 
-"I don't think that's the best idea, but it's your call," Melindra says.
+"Bad idea, but you're the boss," Melindra says, flicking her wrist to wrap a column of wind around my frame.
 
-She then waves her hands in the air a few times, and shortly afterwards I can feel the currents flowing all around me.
+I lift off the flagstones, driving forward with my dagger leveled.
 
-"Thanks," I say, as I take out my dagger and then fly towards one of the drones.
+The nearest drone's optic flares, blasting a freezing ray straight into my chest. My hardened aura absorbs the thermal shock, turning the lethal blast into a mere chill against my skin. Before the machine can cycle its weapons, I drive my dagger repeatedly into its glass optic, twisting the steel until the rotor shudders and the metal sphere crashes to the floor.
 
-Just as I'm about to run my dagger through it, the drone shoots an ice beam out of its eye, which envelops me completely. Instead of freezing me, however, the drone only manages to freeze the hardened aura around me, which means that the only effect it has on me is that I'm feeling a little cold. I don't give the drone the time to prepare another attack, and I stab it repeatedly in its eye, until its propeller stops working and the metal ball drops to the ground.
+The barrier was tuned against ranged mana, leaving the physical chassis vulnerable.
 
- It looks like the magical barrier it had around it wasn't all that good against close-ranged attacks. This means that I might be able to finish off the rest of the drones in the same way. I just have to be a little more careful about the way I approach them.
+I bank toward the second unit, feinting a high thrust. It fires a gout of flame; I veer aside on the air currents, then dive in for a lethal strike.
 
-I fly towards another one of the drones, I feint an attack with my dagger, and then I fly back just when the metal ball shoots a fire beam at me. As soon as it's done with its attack, I fly back towards it and I try to stab it with my blade as hard as I can. This time, however, the tip of my dagger gets stopped by the barrier surrounding the drone, and the same metal ball now seems to be creating two slates of rock that it wants to smash my head with.
+My blade strikes an invisible physical ward, bouncing off with a metallic clatter. Instantly, two stone slabs materialize around my temples, ready to crush my skull.
 
-"Barry, get back!" Kate says, as she shoots an icicle straight into the drone's eye, making it drop to the ground and also causing the slates of rock to disappear.
+"Barry, duck!"
 
-"Oh, now I get it!" I say. "They're having trouble switching between their defensive barriers! It looks like one of their barriers is stronger against physical attacks, while the other is stronger against magical attacks, but they can't use them both at the same time. You know what that means, right?"
+An icicle from Kate punches clean through the drone's optic, dispelling the stone slabs and sending the smoking chassis crashing down.
 
-I then take out my crossbow, as Kate and Illuna both ready up their spells. Before the other two drones get the chance to defend themselves, the three of us shoot them simultaneously with crossbow bolts, water lances and icicles, which destroy the metal balls in a matter of seconds.
+"They're alternating barriers!" I yell. "One ward for physical, one for magical—they can't hold both simultaneously!"
+
+I drop to the floor and bring up my crossbow while Kate and Illuna ready their spells. Before the remaining two drones can recalibrate, we loose a synchronized volley—crossbow bolts, ice javelins, and water lances obliterate both units in a shower of sparks and shattered alloy.
 
 }
 choice("Restart game", Ch1-Intro1, v_current_scene = Ch1-Intro1, special:restart) if (v_aura_hardening < 4)
@@ -1542,55 +1588,59 @@ achievement("Rock throwing champion",v_ac_b3_ch4_thrower)
 #if(v_strength >= 3) {
  
 
-I take a rock from the ground, and I throw it at one of the drones.
+I grab a jagged chunk of masonry from the floor and whip it at the nearest drone with everything I have.
 
-Unlike Kate's icicles, the rock passes right through the drone's barrier and it smashes into its eye, sending it falling to the ground.
+The stone tears straight through the magical ward, smashing through the glass optic with a sickening crunch. The drone loses lift and smashes onto the flagstones.
 
-Seeing that my plan worked, I pick up another rock from the ground and I throw it at the next drone. This time, however, the rock bounces off the metal ball's magical barrier just like the projectiles from Kate, Flower and Illuna.
+I snatch up a second rock and hurl it at the next unit.
 
-I try throwing another rock, but I get the same result. All of a sudden, Kate sends one of her icicles towards the drone I was attacking, and the projectile goes right through its magical barrier, hitting it in the eye. As the metal ball falls to the ground, I begin to finally understand what is going on.
+This time, the stone rebounds off a shimmering physical barrier with a sharp clink, dropping harmlessly to the ground.
 
-"Oh, now I get it!" I say. "They're having trouble switching between their defensive barriers! It looks like one of their barriers is stronger against physical attacks, while the other is stronger against magical attacks, but they can't use them both at the same time. You know what that means, right?"
+I throw another; it bounces again.
 
-I then take out my crossbow, as Kate and Illuna both ready up their spells. Before the other two drones get the time to defend themselves, the three of us shoot them simultaneously with crossbow bolts, water lances and icicles, which destroy the metal balls in a matter of seconds.
+Kate immediately fires an icicle. The projectile glides straight through the physical ward and shatters the optic, dropping the second drone.
+
+"They're alternating barriers!" I yell. "One ward for physical, one for magical—they can't hold both simultaneously!"
+
+I bring up my crossbow while Kate and Illuna ready their spells. Before the remaining two drones can recalibrate, we loose a synchronized volley—crossbow bolts, ice javelins, and water lances obliterate both units in a shower of sparks and shattered alloy.
 
 }
 #if(v_strength < 3) {
  
 
-I take a rock from the ground, and I throw it at one of the drones.
+I grab a jagged chunk of masonry from the floor and throw it at the nearest drone.
 
-Instead of hitting it, the rock simply bounces off the magical barrier around the metal ball, doing no damage to it whatsoever. I try to throw a few more rocks at it, but the result is the same.
+The rock bounces off the outer energy barrier without leaving a scratch. I throw two more in rapid succession, but both clatter harmlessly away.
 
-"Barry, what are you doing?..." Kate asks me.
+"Barry, what are you doing?" Kate asks.
 
-"It's not working," I say. "I think I need to get closer to them. Melindra, can you cast your air current spell around me so I can fly over to them?"
+"Not enough momentum from down here," I say. "Melindra, lift me up!"
 
-"That sounds like a pretty bad idea to me, but it's your call," Melindra says.
+"Dumb move, but your funeral," Melindra says, weaving air currents around my waist.
 
-She then waves her hands in the air a few times, and shortly afterwards I can feel the currents flowing all around me.
-
-"Thanks," I say, as I grab a few more rocks from the ground and I fly towards the drone that I've been attacking earlier.
-
-I first try to throw a rock at it from about a dozen feet away. Nothing happens. I then try to throw another one from six feet away. Still no results. I'm sure this will work if I only get a little closer.
+I float into range, clutching two stones. From twelve feet, I throw: bounced. From six feet: bounced again.
 
 }
 #if(v_aura_hardening >= 4 && v_strength < 3) {
- Just as I'm about to throw the third rock, the drone shoots an ice beam out of its eye, which envelops me completely. Instead of freezing me, however, the drone only manages to freeze the hardened aura around me, which means that the only effect it has on me is that I'm feeling a little cold. I decide to drop the plan with the rocks and I pull out my dagger instead. My weapon easily passes through the drone's barrier, and I manage to stab it repeatedly in its eye, until its propeller stops working and the metal ball drops to the ground.
+ As I cock my arm for a third throw, the drone blasts a freezing ray into my chest. My hardened aura absorbs the thermal shock, turning the lethal beam into a mere chill.
 
-So the drone really was weak against physical attacks... This means that I might be able to finish off the rest of the drones in the same way. I just have to be a little more careful about the way I approach them.
+I drop the stones and pull my dagger, driving the blade straight through the physical gap in its ward. Three violent stabs into the optic shatter the core, sending the unit tumbling down.
 
-I fly towards another one of the drones, I feint an attack with my dagger, and then I fly back just when the metal ball shoots a fire beam at me. As soon as it's done with its attack, I fly back towards it and I try to stab it with my blade as hard as I can. This time, however, the tip of my dagger gets stopped by the barrier surrounding the drone, and the same metal ball now seems to be creating two slates of rock that it wants to smash my head with.
+I bank toward the next drone, feinting a high thrust. It fires a gout of flame; I veer aside, then strike.
 
- "Barry, get back!" Kate says, as she shoots an icicle straight into the drone's eye, making it drop to the ground and also causing the slates of rock to disappear.
+My blade rebounds off a physical ward. Two stone slabs materialize around my temples.
 
-"Oh, now I get it!" I say. "They're having trouble switching between their defensive barriers! It looks like one of their barriers is stronger against physical attacks, while the other is stronger against magical attacks, but they can't use them both at the same time. You know what that means, right?"
+"Barry, duck!"
 
-I then take out my crossbow, as Kate and Illuna both ready up their spells. Before the other two drones get the time to defend themselves, the three of us shoot them simultaneously with crossbow bolts, water lances and icicles, which destroy the metal balls in a matter of seconds.
+Kate's icicle punches clean through the optic, shattering the unit and dispelling the slabs.
+
+"They're alternating barriers!" I yell. "One ward for physical, one for magical—they can't hold both simultaneously!"
+
+I drop to the floor and bring up my crossbow while Kate and Illuna ready their spells. Before the remaining two drones can recalibrate, we loose a synchronized volley—crossbow bolts, ice javelins, and water lances obliterate both units in a shower of sparks and shattered alloy.
 
 }
 #if(v_aura_hardening < 4 && v_strength < 3) {
- Just as I'm about to throw the third rock, the drone shoots an ice beam out of its eye, freezing me completely. Before I even get to fall, the same drone generates two slates of rock out of thin air, and it smashes my head between them, killing me in an instant.
+ As I cock my arm for a third throw, the drone blasts a freezing ray into my chest, locking my muscles in solid ice. Before I can fall, two stone slabs materialize around my temples and crush my skull in an instant.
 
 }
 choice("Continue", B3-Ch04b-Stuck, v_current_scene = B3-Ch04b-Stuck) if (v_aura_hardening >= 4 || v_strength >= 3)
@@ -1607,39 +1657,45 @@ set(v_is_dead,0) if (v_perception >= 2)
 #if(v_perception < 2) {
  
 
-I take out my crossbow and I try to shoot one of the drones in its eye. Just like it happened with Kate's icicles earlier, my crossbow bolt simply bounces off the metal ball's magical barrier, leaving it completely unharmed.
+I raise my crossbow and put a bolt into the nearest drone's optic. The iron tip strikes a shimmering barrier and bounces away, leaving the hull unmarked.
 
-I was hoping that the drones might be weak against physical attacks, but I guess not. I suppose there's no other way for us to beat them than to keep throwing magical attacks at them until their barriers fail.
+Physical attacks aren't cutting through. We have to brute-force the wards with elemental magic until the capacitors overload.
 
-"Try shooting more projectiles at them," I tell the others. "Their barriers are bound to give in at some point."
+"Focus fire on their shields!" I shout. "Wear them down!"
 
-"Let's hope you are right," Kate says.
+"If you say so," Kate mutters.
 
-She then begins to attack the drones, together with Flower, Illuna and Breynan. The metal balls do not react, but they don't seem to be taking any damage either. After their barriers keep absorbing attack after attack, the orange lights in the drones' eyes all begin to flicker repeatedly at the same time, while they're making very strange, high-pitched noises in unison.
+Kate, Flower, Illuna, and Breynan unleash a sustained barrage of fire, ice, and light. The drones absorb the impacts without moving, but after five seconds of relentless pounding, their orange optics begin to strobe violently in high-pitched, harmonic pulses.
 
-"Warning!" we hear the four drones speaking in metallic voices. "Unable to maintain barrier. Initiating self-destruct sequence."
+"Warning," all four units announce in flat synthetic unison. "Barrier integrity critical. Initiating self-destruct sequence."
 
-"This doesn't sound good," Breynan says. "We need a barrier, quick, before--"
+"Barrier, now!" Breynan screams.
 
-Breynan does not get to finish his sentence, because all of the drones explode at the same time, blowing up the whole corridor in the process and killing us on the spot.
+The four chassis detonate simultaneously in a concussive firestorm that obliterates the gallery and everything in it.
 
 }
 #if(v_perception >= 2) {
  
 
-I take out my crossbow and I try to shoot one of the drones in its eye. Just like it happened with Kate's icicles earlier, my crossbow bolt simply bounces off the metal ball's magical barrier, leaving it completely unharmed.
+I raise my crossbow and put a bolt into the nearest drone's optic. The iron tip bounces off the barrier, but my eye catches a microscopic flicker in the orange sensor light at the instant of impact.
 
-I'm pretty sure that I noticed the light from the drone's orange eye flickering very shortly right as the crossbow bolt hit it, though. That never happened while it was attacked by the magical projectiles. Does this mean that my crossbow bolt did have some sort of effect? Let me try that again.
+That didn't happen with the magical spells.
 
-I shoot the drone again, this time with two consecutive shots one after the other. The crossbow bolts get deflected by the barrier once more, but this time the flickering of the light was much more noticeable. Let me try that one more time with three crossbow bolts.
+I reload and loose two bolts in rapid succession. The barrier deflects both, but the orange optic strobes visibly with each hit.
 
-Just like I suspected, as soon as I shoot three consecutive crossbow bolts into the drone, the barrier fails to defend it from all of them, and one of the bolts hits the metal ball in the eye, sending it falling to the ground. I then load my crossbow, and I aim it at another one of the drones, this time shooting all of my crossbow bolts into it one after the other.
+One more volley.
 
- Surprisingly, the barrier around the metal ball is not affected at all, and the light from its eye does not flicker even once. Before I get the time to make sense of what's happening, Kate shoots the same drone that I was attacking with an icicle, which passes right through its barrier, hitting it in the eye. As the metal ball falls to the ground, I begin to finally understand what is going on.
+I cycle three fast shots into the center lens. On the third impact, the physical barrier buckles, and the iron point punches through glass and circuitry. The drone spins out and hits the stone with a heavy clatter.
 
-"Oh, now I get it!" I say. "They're having trouble switching between their defensive barriers! It looks like one of their barriers is stronger against physical attacks, while the other is stronger against magical attacks, but they can't use them both at the same time. You know what that means, right?"
+I pivot to the second unit, firing three bolts into its hull.
 
-I then aim my crossbow at the next drone, as Kate and Illuna both ready up their spells. Before the other two drones get the time to defend themselves, the three of us shoot them simultaneously with crossbow bolts, water lances and icicles, which destroy the metal balls in a matter of seconds.
+The barrier doesn't even ripple. The orange light stays steady.
+
+Before I can adjust, Kate fires an icicle that passes effortlessly through the physical ward, piercing the optic and dropping the machine.
+
+"They're alternating barriers!" I yell. "One ward for physical, one for magical—they can't hold both simultaneously!"
+
+I reload my crossbow while Kate and Illuna ready their spells. Before the remaining two drones can recalibrate, we loose a synchronized volley—crossbow bolts, ice javelins, and water lances obliterate both units in a shower of sparks and shattered alloy.
 
 }
 choice("Restart game", Ch1-Intro1, v_current_scene = Ch1-Intro1, special:restart) if (v_perception < 2)
@@ -1651,17 +1707,17 @@ choice("Continue", B3-Ch04b-Stuck, v_current_scene = B3-Ch04b-Stuck) if (v_perce
 ID: B3-Ch04b-Drones4
 TEXT:
 
- "Try shooting more projectiles at them while they are stunned," I tell the others. "Their barriers are bound to give in at some point."
+ "Focus fire on their shields while they're stunned!" I shout. "Wear them down!"
 
-"Let's hope you are right," Kate says.
+"If you say so," Kate mutters.
 
-She then begins to attack the drones, together with Flower, Illuna and Breynan. The metal balls do not react, but they don't seem to be taking any damage either. After their barriers keep absorbing attack after attack, the orange lights in the drones' eyes all begin to flicker repeatedly at the same time, while they're making very strange, high-pitched noises in unison.
+Kate, Flower, Illuna, and Breynan unleash a sustained barrage of fire, ice, and light. The drones absorb the impacts without moving, but after five seconds of relentless pounding, their orange optics begin to strobe violently in high-pitched, harmonic pulses.
 
-"Warning!" we hear the four drones speaking in metallic voices. "Unable to maintain barrier. Initiating self-destruct sequence."
+"Warning," all four units announce in flat synthetic unison. "Barrier integrity critical. Initiating self-destruct sequence."
 
-"This doesn't sound good," Breynan says. "We need a barrier, quick, before--"
+"Barrier, now!" Breynan screams.
 
-Breynan does not get to finish his sentence, because all of the drones explode at the same time, blowing up the whole corridor in the process and killing us on the spot.
+The four chassis detonate simultaneously in a concussive firestorm that obliterates the gallery and everything in it.
 
 choice("Restart game", Ch1-Intro1, v_current_scene = Ch1-Intro1, special:restart)
 choice("Load from last checkpoint", , v_chapter_save_counter = 5, special:checkpoint_load)
@@ -1671,21 +1727,21 @@ choice("Load game", , , special:saves)
 ID: B3-Ch04b-Stuck
 TEXT:
 
- "Hey, Overseer, was that it?!" I shout in the direction where the green-eyed drone left the room. "Don't you have any more drones to send our way?"
+ "Hey, Overseer! That all you've got?" I shout into the vaulted ceiling. "Send the rest of the scrap!"
 
-There is no answer.
+Silence. Only the distant echo of garrison klaxons.
 
-"I'll try to call Barry again," Breynan says. "The guards seem to be stuck behind that corridor with the spinning blades. I don't think they know how to turn off the trap. That should give us enough time to calm ourselves down so we can teleport out of here safely."
+"Let me try transit again," Breynan says, catching his breath. "The garrison is held up behind the blade corridor—they won't clear that trap quickly. We have time to pull a clean extraction."
 
-He then takes out his transceiver again, he puts it close to his mouth and he taps it once.
+He pulls his transceiver, keys the crystal, and speaks into the grille.
 
-"Barry, are you still there?" Breynan says
+"Barry, are you there?"
   	
-"Yes, yes, I'm here!" the teleporter guy says. "How did you even manage to lose the signal so quickly? Actually, it doesn't matter. There are plenty of people waiting in line to get teleported so I'm kind of in a hurry, here. You all seem calm enough, so I'll teleport you back right away. Are you ready?"
+"I'm here!" the operator's voice crackles through clearly. "Where did you drop the signal? Never mind—we have forty agents queuing in the transit hall and I need the platform clear. Stand by for extraction!"
 
-"Yes, we're ready," Breynan says. "Teleport us now!"
+"Do it now," Breynan says.
 
-"Understood," the teleporter guy says, and then a white light starts to surround us, as our bodies are vibrating loudly.
+"Locking coordinates," the operator says. White light floods the gallery, vibrating deep in our bones.
 
 choice("Continue", B3-Ch04b-Ending, v_current_scene = B3-Ch04b-Ending)
 
@@ -1693,29 +1749,25 @@ choice("Continue", B3-Ch04b-Ending, v_current_scene = B3-Ch04b-Ending)
 ID: B3-Ch04b-Ending
 TEXT:
 
- Next thing we know, we are all standing next to the teleporting device from the rebel's base, with the teleporter guy sitting behind his control panel as usual. What is a bit unusual, though, is the relatively large number of people that are in the room besides us.
+ The white glare snaps away, leaving us standing on the raised transit platform inside the rebel caverns. Barry the teleporter operator sits hunched over his brass switchboard, shouting over a dense crowd of armed rebels and civilian families crowding the chamber.
 
-"Alright, everyone head to the tunnels!" the teleporter guy says. "You can hold your conversations somewhere else. There isn't enough room for me to teleport people back! Off you go, come on!"
+"Clear the platform!" he barks without looking up. "Move into the primary tunnels! We have three more extraction waves incoming!"
 
-"What's with all the commotion?..." Breynan asks, as the rest of the people are getting ready to leave the room.
+"What happened while we were on the surface?" Breynan asks, stepping off the dais.
 
-"You mean you don't know?" the teleporter guy asks, shocked. "Have you literally been living under a rock in these past few hours?"
+"You mean you haven't heard?" Barry the operator looks up, eyes wide. "Where have you people been?"
 
-"We're all living under rocks, Barry," Breynan says. "Our base is in an underground cavern. Tell me, what happened while we were gone?"
+"Underground, Barry," Breynan says dryly. "What happened?"
 
-"What DIDN'T happen?" the teleporter guy says. "The whole city is in lockdown mode. Nobody is allowed to leave, nobody is allowed to enter. People can't even leave their houses without being arrested by the guards! It's terrible! We're teleporting all of our agents back and some of their families. We have no idea what the king is going to do next. Everything is in complete chaos!"
+"Complete lockdown," the operator says, throwing a bank of levers as another flash illuminates the far corner. "The city gates are sealed, patrols are sweeping every quarter, and citizens are being dragged out of their homes. Undriel put the entire capital under martial law."
 
- "But why?" Breynan asks. "What could have possibly driven the king to take these rash actions?"
+"Why?" Breynan asks, brow furrowing. "What triggered it?"
 
-"Oh, I'll tell you what!" the teleporter guy says, as he mashes a few buttons and now a new group is being teleported inside the room. "The king announced his reasons as soon as he initiated the lockdown. He said that his brother has been murdered in Thilias, and that his killers are hiding in this very city right now! That's the entire reason for this whole lockdown. So that the city guards can search every house and see if anyone is hiding the murderers!"
+"The king issued a proclamation an hour ago," the operator says, hands flying across his dials. "His brother was assassinated in Thilias, and the killers are hiding inside Ollendor. The garrison has orders to search every building from the sewers to the eaves."
 
-"The king's brother was killed in Thilias?" I ask, feigning ignorance. "But... how did he find out about this?"
+"The king's brother was killed in Thilias?" I ask, keeping my tone carefully neutral. "How did word reach Ollendor so fast?"
 
-"Do you really need to ask?" the teleporter guy says. "There is only one person who represents the king in Thilias and who would have been there to witness the events."
-
-"You mean..."
-
-"Yes," the teleporter guy says. "The ambassador from Thilias has returned."
+"Who else?" the operator says, wiping sweat from his forehead. "The ambassador from Thilias has returned."
 
 choice("Next chapter", B3-Ch05a-Intro, v_next_chapter_crash = 1, v_current_scene = B3-Ch05a-Intro, v_chapter_save_counter = 5, v_checkpoint_rich = 1, special:checkpoint_save)
 

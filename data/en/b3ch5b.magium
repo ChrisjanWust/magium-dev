@@ -3,49 +3,49 @@ TEXT:
 
 set(v_ac_b3_ch5_passed,1) if (v_b3_ch5_moustache == 2)
 achievement("Challenge accepted",v_ac_b3_ch5_passed)
- When our four hours were up, we went back to our room to wake up Kate and Leila. As the two of them were getting ready to take the next shift, Hadrik got up from his bed as well, saying that he wanted to practice his new techniques for a few hours in one of the emptier corridors. Once Hadrik, Kate and Leila left, Flower, Melindra and I went to sleep and we didn't wake up again until roughly four hours later, when everyone was already packing their bags and getting ready to leave. 
+ When our four hours run out, we head back to the barracks to wake Kate and Leila. While the two of them pull on their boots for the final watch, Hadrik rolls off his cot, grunting that he wants an empty corridor to drill his shifting forms before sunrise. Once the three of them head out into the dark, Flower, Melindra, and I collapse onto the blankets. Sleep takes me hard and does not let go until boots scrape against the stone floor four hours later, when the room is already stirring and packs are being buckled.
 
-After quickly packing our bags as well, we called Hadrik on the transceiver and then we all met with him outside our room, so that we could head for the waiting room together.
+Melindra and I shovel our gear together, hail Hadrik on the transceiver, and meet him in the passage outside so we can make for the central staging hall as a group.
 
-"You doing okay, Hadrik?" Daren says, as he pats Hadrik on the shoulder while we are walking through one of the corridors. "Don't forget that you can always talk to us if you feel like there's something you need to get off your chest."
+"Holding up, Hadrik?" Daren asks, falling into step and resting a gauntleted palm on the dwarf's shoulder. "If yesterday is still sitting heavy, you can talk to us. You do not have to carry it alone."
 
-"I appreciate the concern, Daren, but you don't need to worry about me," Hadrik says. "I was having a bit of a bad day yesterday, but after a good night's sleep I feel completely refreshed and I'm all ready for a rematch! When are we leaving for the surface?"
+"Save the bedside manner, Daren, I am in one piece," Hadrik says, his grin flashing through his thick beard. "Yesterday was a bad turn, that is all. A few hours of sleep and some corridor drills, and I am itching for the rematch. When do we go up?"
 
-"We'll leave as soon as we meet up with Kelrim," Daren says. "He's probably in the quarantine zone already, so I'll go get him as soon as we reach the waiting room."
+"The moment we collect Kelrim," Daren says. "He will be in quarantine already. I will pull him out as soon as we reach the waiting room."
 
-"Are Illuna and Arraka with us too, or do we need to wake them up?" I say. "I haven't heard a word from either of them this morning."
+"Are Arraka and Illuna awake in there," I ask, "or do we have to knock on the metal?"
 
 #if(v_b3_ch5_moustache == 2) {
- "Yeah, yeah, I'm awake," Arraka says. "Oh and I've already used a water spell to clean up that fake moustache, in case you were looking for it. Very amusing, by the way. I'm glad to know that you're putting all that free time to good use. Really looking forward to seeing you use these new skills of yours against Selkram in our final confrontation."
+ "I am awake, idiot," Arraka's voice snarls from the gold amulet at Flower's neck. "And I already washed off that ridiculous ink moustache with a splash of water, in case you were admiring your handiwork. Truly inspiring tactical discipline, Barry-boy. Selkram will tremble when you draw eyebrows on him during our final showdown."
 
-"Is that a challenge?" I ask Arraka.
+"Is that a dare?" I ask.
 
-"Sure, why not?" Arraka says.
+"Take it however you like," she says.
 
-"Then I will make sure to learn some good fake moustache spells just for Selkram as soon as I get my magic stats," I say. "Anyway, so did Illuna wake up too, or only Arraka?"
+"Good to know. The moment I unlock magical stats, I am inventing five distinct facial-hair curses just for the God of Time. What about Illuna? Is she awake, or still brooding?"
 
-"Illuna is awake, but I don't think she'll answer you," Flower says. "I've been trying to talk to her since I woke up, but she keeps telling me that she is trying to learn a new spell and that she'll only speak to me when she's done."
+"She is awake, but she will not talk to you," Flower says, adjusting the chain. "I have been calling her since I opened my eyes, and she just keeps grumbling that she is busy mastering a difficult spell and will not speak until it is finished."
 
-"A new spell, huh?" I say. "Maybe it's something that can help us against the royal guards. Alright, let's leave her to it, then."
+"A difficult spell?" I glance at the amulet. "If it helps against royal guards, she can take all morning. Leave her to it."
 
-We walk down the corridors a bit more until we reach the waiting room. The commotion from nine hours ago seems to have died down a little, but I'm not sure if this is because they are done with the evacuation or because the rebels no longer have enough space in their base to offer shelter for all the refugees. Judging by all the civilians who are still in the waiting room, my guess would be that they really did run out of places where they could send people to sleep.
+We follow the curving tunnels into the main waiting room. The shouting and frantic movement from nine hours ago have thinned, replaced by the dull, hollow murmur of hundreds of displaced surface dwellers huddled along the walls. Blankets and straw pallets spill into every alcove; the rebels clearly ran out of spare quarters long before dawn.
 
 }
 #if(v_b3_ch5_moustache != 2) {
- "Yeah, yeah, I'm awake," Arraka says.
+ "I am awake, idiot," Arraka's voice snarls from the gold amulet at Flower's neck.
 
 "What about Illuna?" I ask.
 
-"Illuna is awake, but I don't think she'll answer you," Flower says. "I've been trying to talk to her since I woke up, but she keeps telling me that she is trying to learn a new spell and that she'll only speak to me when she's done."
+"She is awake, but she will not talk to you," Flower says, adjusting the chain. "I have been calling her since I opened my eyes, and she just keeps grumbling that she is busy mastering a difficult spell and will not speak until it is finished."
 
-"A new spell, huh?" I say. "Maybe it's something that can help us against the royal guards. Alright, let's leave her to it, then."
+"A difficult spell?" I glance at the amulet. "If it helps against royal guards, she can take all morning. Leave her to it."
 
-We walk down the corridors a bit more until we reach the waiting room. The commotion from nine hours ago seems to have died down a little, but I'm not sure if this is because they are done with the evacuation or because the rebels no longer have enough space in their base to offer shelter for all the refugees. Judging by all the civilians who are still in the waiting room, my guess would be that they really did run out of places where they could send people to sleep.
+We follow the curving tunnels into the main waiting room. The shouting and frantic movement from nine hours ago have thinned, replaced by the dull, hollow murmur of hundreds of displaced surface dwellers huddled along the walls. Blankets and straw pallets spill into every alcove; the rebels clearly ran out of spare quarters long before dawn.
 
 }
- Albert seems to have been waiting for us to arrive, because as soon as he saw us walking out of the corridor, he immediately rushed in our direction. He is now standing in front of us, looking both tired and irritable. He must have been busy guiding refugees all night, without getting any time to sleep.
+ Albert is waiting near the archway. The moment our boots cross the threshold, he pushes off the wall and marches straight toward us, dark circles bruised under his eyes and his jaw set tight. Hauling refugees through the underground tunnels all night has stripped away whatever patience he had left.
 
-"The king of the underground has requested a meeting with you," Albert says, trying to act politely, although you can clearly tell from his tone of voice that he is forcing himself to talk like this. "He is waiting for you in the throne room. Follow me."
+"The king of the underground has requested a meeting with you," Albert says, the formal courtesy grating through clamped teeth. "He is waiting for you in the throne room. Follow me."
 
 choice(""Sure thing. Let's go."", B3-Ch05b-Tension, v_current_scene = B3-Ch05b-Tension, v_b3_ch5_follow = 0)
 choice(""Psst, Albert! You forgot to put on your fake smile when you asked us to come with you."", B3-Ch05b-Tension, v_current_scene = B3-Ch05b-Tension, v_b3_ch5_follow = 1)
@@ -58,70 +58,70 @@ TEXT:
 #if(v_b3_ch5_follow == 0) {
  "Sure thing. Let's go."
 
-Albert nods and then he begins to walk towards the throne room, as the rest of us move to follow him.
+Albert gives a stiff nod and turns down the passage, leading the way toward the throne room while the rest of us fall into step behind him.
 
-After walking for a while, we finally reach the room where the king was waiting for us and we seat ourselves down on the empty chairs that are facing the throne. As we are taking our seats, Albert walks past us and he goes to join Peter, who is currently standing behind the king's throne. It seems that the two guards that are usually by the king's side have not been invited this time around. The only people here except for our group are the king of the underground, Albert and Peter.
+The corridors wind deeper into the bedrock until the tunnel opens into the high-vaulted chamber where the king waits. We pull out the empty wooden chairs facing the dais and take our seats. Albert strides past our row, taking up a position beside Peter behind the stone throne. The two royal guards who usually flank the seat are nowhere in sight. The only people in the room are the king, Peter, Albert, and our group.
 
 }
 #if(v_b3_ch5_follow == 1) {
  "Psst, Albert! You forgot to put on your fake smile when you asked us to come with you."
 
-"I did not forget," Albert says, in an acid tone. "I see no reason to smile at this moment, and especially not to you. Now, are you going to follow me or not?"
+"I did not forget," Albert says, venom dripping from every syllable. "I see no reason to smile at this moment, and especially not to you. Now, are you going to follow me or not?"
 
-"I suppose the king of the underground wouldn't have asked for a meeting so early in the morning if it weren't important..." Daren says. "Alright, let's see what he wants. Lead the way."
+"The king would not call for us at dawn unless something went wrong," Daren says, stepping in before Albert's temper boils over. "Let us hear what he has to say. Lead the way."
 
-Albert nods and then he begins to walk towards the throne room, as the rest of us move to follow him.
+Albert gives a stiff nod and turns down the passage, leading the way toward the throne room while the rest of us fall into step behind him.
 
-After walking for a while, we finally reach the room where the king was waiting for us and we seat ourselves down on the empty chairs that are facing the throne. As we are taking our seats, Albert walks past us and he goes to join Peter, who is currently standing behind the king's throne. It seems that the two guards that are usually by the king's side have not been invited this time around. The only people here except for our group are the king of the underground, Albert and Peter.
+The corridors wind deeper into the bedrock until the tunnel opens into the high-vaulted chamber where the king waits. We pull out the empty wooden chairs facing the dais and take our seats. Albert strides past our row, taking up a position beside Peter behind the stone throne. The two royal guards who usually flank the seat are nowhere in sight. The only people in the room are the king, Peter, Albert, and our group.
 
 }
 #if(v_b3_ch5_follow == 2) {
  "Your king can wait. First, we need to find Kelrim."
 
-"I don't think I've made myself clear enough," Albert says, in a menacing tone. "I wasn't giving you an option. You WILL follow me to the throne room."
+"I don't think I've made myself clear enough," Albert says, stepping directly into my path, his hand twitching near his belt. "I wasn't giving you an option. You WILL follow me to the throne room."
 
-"Or what?" I say.
+"Or what?" I ask.
 
-When he hears me, Albert gets an angry look in his eyes and he begins to walk towards me.
+Albert's jaw clenches, his eyes narrowing into cold slits as he takes another step forward.
 
-"Hey, hey, there's no need to get so upset," Daren says, as he places himself in front of Albert to stop him from advancing. "We're all friends here, right? Or at the very least we're somewhat on the same side. If your king's meeting is so important that it can't be delayed, then I'll just have to talk to Kelrim a little later. I'm guessing that he's in the quarantine area, right?"
+"Easy, both of you," Daren says, planting himself between us with a raised hand. "We are on the same side here, or close enough to it. If the king's business cannot wait, Kelrim can wait a few minutes. I take it he is in the quarantine hall?"
 
-"The goblin is indeed in the quarantine zone," Albert says. "You can speak to him after you return. Now follow me."
+"The goblin is in quarantine," Albert says through gritted teeth. "You can consult him when we finish. Move."
 
-"Alright," Daren says. "Lead the way."
+"Understood," Daren says. "Lead the way."
 
-Albert nods and then he begins to walk towards the throne room, as the rest of us move to follow him.
+Albert gives a stiff nod and turns down the passage, leading the way toward the throne room while the rest of us fall into step behind him.
 
-After walking for a while, we finally reach the room where the king was waiting for us and we seat ourselves down on the empty chairs that are facing the throne. As we are taking our seats, Albert walks past us and he goes to join Peter, who is currently standing behind the king's throne. It seems that the two guards that are usually by the king's side have not been invited this time around. The only people here except for our group are the king of the underground, Albert and Peter.
+The corridors wind deeper into the bedrock until the tunnel opens into the high-vaulted chamber where the king waits. We pull out the empty wooden chairs facing the dais and take our seats. Albert strides past our row, taking up a position beside Peter behind the stone throne. The two royal guards who usually flank the seat are nowhere in sight. The only people in the room are the king, Peter, Albert, and our group.
 
 }
- All three of them seem very tired, and the king even has visible bags under his eyes. However, aside from the fatigue, I can also feel a certain... tension in the air that I haven't felt in our last two meetings. Hopefully it's just my imagination.
+ Exhaustion hangs heavy over all three of them. Dark hollows shadow the king's eyes, and his posture is rigid. Underneath the fatigue, the air in the chamber feels thick and cold, a quiet pressure that was not here during our previous audiences.
 
-"Good morning, friends," the king says. "I hope you've slept well. My apologies for calling you to yet another meeting out of the blue, but there are quite a few things I need to discuss with you that can't be delayed any longer. First, allow me to give you a bit of context."
+"Good morning, friends," the king says. "I trust you found some rest. Forgive the abrupt summons, but events on the surface leave us no time for courtesy. First, some context."
 
-He then takes a small metal cube out of his pocket, just like the one that he used in our first meeting with him, and he holds it in front of us. 
+He draws a small metal cube from his coat, identical to the listening device he demonstrated during our first meeting, and sets it on his palm.
 
-"Your friend Eiden went out of his way again to lure some people into one of the few rooms from the palace in which we had recording devices," the king says. "I am assuming that he did this because he wanted you to listen to this conversation, so I will respect his wishes. The discussion that you are about to hear happened yesterday, shortly after the majority of you were mistakenly teleported to the trap-filled caverns below the city. I believe that you should be able to easily recognize most of, if not all the participants in this conversation. Let us begin."
+"Your friend Eiden went out of his way to herd several key figures into one of the few palace chambers where we maintain listening devices," the king says. "He clearly intended for you to hear the recording, and I intend to honor his design. This took place yesterday, shortly after most of you were scattered into the failsafe tunnels below the city. The voices should be familiar to you. Listen."
 
-He then presses one of the buttons from the metal cube device and we begin to hear voices coming out of it, just like the last time. As soon as I recognize the first voice, I immediately understand what this conversation is going to be about.
+He depresses a switch on the cube. Static hisses for a fraction of a second, followed by voices echoing from the tiny speaker. The first cadence is unmistakable.
 
-"Is this the room that you wanted to bring us to?..." the ambassador of Ollendor says.
+"Is this the room that you wanted to bring us to?..." the ambassador of Ollendor asks.
 
- "Yes," Eiden says. "In here we should be safe from any spies that might be trying to listen to our conversation."
+"Yes," Eiden says, his light tone cutting cleanly through the recording. "In here we should be safe from any spies that might be trying to listen to our conversation."
 
-"I assure you, Creator, that there are no spies in this palace!" the king of Ollendor says. "There would be no way for them to get past our guards!"
+"I assure you, Creator, that there are no spies in this palace!" the king of Ollendor declares. "There would be no way for them to get past our guards!"
 
-"I do not doubt your guards' competence, great king," Eiden says. "But still, it is better to be safe than sorry."
+"I do not doubt your guards' competence, great king," Eiden replies. "But still, it is better to be safe than sorry."
 
-"What is it that you wanted to speak to us about, ambassador?" the captain of the royal guards says.
+"What is it that you wanted to speak to us about, ambassador?" the captain of the royal guards asks.
 
-"I... do not know where to begin..." the ambassador says. "It's just so hard for me to put this into words. My king, it is with a heavy heart that I've come to bring you the news that your brother... our beloved earl has been murdered in Thilias."
+"I... do not know where to begin..." the ambassador stammers. "It is difficult to put into words. My king, it is with a heavy heart that I bring news from Thilias. Your brother... our beloved earl... has been murdered."
 
-The king does not answer the ambassador in any way, and neither do any of the others. After more than five seconds of silence, the ambassador speaks again.
+Silence falls over the recording. No one speaks. Five seconds stretch into ten before the ambassador risks another word.
 
-"My king?..." the ambassador says, in a slightly uneasy voice.
+"My king?..." the ambassador whispers, the pitch of his voice rising in panic.
 
-"Ambassador, I want you to think very carefully about your next words," the king of Ollendor says, in a frighteningly calm tone.  "What you are about to say from now on may well decide whether you live or die today. First of all, I want you to confirm to me one more time what you just told me. Are you absolutely certain that my brother is dead?"
+"Ambassador, I want you to think very carefully about your next words," the king of Ollendor says, his tone dead and terrifyingly level. "What you say next decides whether you leave this room alive. First, confirm what you just said. Are you absolutely certain my brother is dead?"
 
 choice("Continue", B3-Ch05b-Bypass, v_current_scene = B3-Ch05b-Bypass)
 
@@ -129,39 +129,39 @@ choice("Continue", B3-Ch05b-Bypass, v_current_scene = B3-Ch05b-Bypass)
 ID: B3-Ch05b-Bypass
 TEXT:
 
- "Y-yes, your highness," the ambassador says, in a trembling voice. "I am certain of it. We've brought home his lifeless body as proof. Our mages did all they could to preserve the body with their spells, but it has been more than a week since his death, so you should be warned that the sight of him will be a bit shocking..."
+ "Y-yes, your highness," the ambassador stammers, his voice quavering through the speaker. "I am certain of it. We brought his body back as proof. Our mages did everything possible to preserve the flesh with stasis spells, but it has been more than a week since the deed. The sight of him will be... difficult."
 
-"How did this happen?" the king asks, with the same calm voice.
+"How did it happen?" the king asks, his voice remaining terrifyingly flat.
 
-"He was... attacked in the middle of the street by some tournament participants," the ambassador says. "The earl... fought valiantly for his life, but the mages used cowardly tactics to--"
+"He was... ambushed in the middle of a public street by tournament contestants," the ambassador says. "The earl fought valiantly, but the mages used underhanded tactics to--"
 
-"Some tournament participants did this?" the king asks. "How is this possible? Why haven't they been sent back to their own continents by the spell that prevents them from hurting the people of Varathia?"
+"Tournament contestants?" the king interrupts. "How is that possible? Why did the ward not cast them back to their home continents the instant they drew blood?"
 
-"Yes, I am interested to know this as well!" Eiden says. "Tell us, ambassador, how were those villainous mages able to bypass such a reliable and non-exploitable protection spell?"
+"Yes, I am curious as well!" Eiden's voice floats in, bright with theatrical wonder. "Tell us, ambassador, how were those treacherous mages able to circumvent such an airtight, unbendable protection spell?"
 
-Even though I can't see them talking, I can easily imagine the smirk that Eiden must have on his face at this point in the conversation, as he is looking at the ambassador with his eyes closed, waiting for an answer.
+Across the recording, I can picture the stillwater's closed-eyed smirk as clearly as if he were standing in the room, waiting for the diplomat to squirm.
 
-"Aren't you going to answer them, ambassador?" the captain of the royal guards says, after a long pause.
+A long, heavy silence hangs over the device before the captain speaks. "Are you going to answer, ambassador?"
 
- "We... don't know how these mages were able to bypass the protection spell," the ambassador says. "However, we have reasons to believe that they are capable of harming any of the locals, without any restrictions."
+"We... do not know how they bypassed the spell," the ambassador whispers. "However, we have reason to believe they can harm any local on this continent without restriction."
 
-"And these tournament participants... they were executed for their crime?" the king asks, still in a calm tone, but you can tell that he is barely restraining himself at this point.
+"And these contestants... were they executed for treason?" the king asks, his calm tone fraying at the edges.
 
-"...No, your highness," the ambassador says. "The gnome king was very opposed to the idea of executing them. Eventually we... reached a compromise and sentenced them to fight in one of the greatest arena events in our entire continent's history, but even without their magic they were somehow able to survive until the end, and so according to the laws written in the treaty between all kingdoms of Varathia, they were released on the same day that--"
+"...No, your highness," the ambassador says. "King Golmyck refused execution outright. We reached a compromise and forced them into the arena without magic, but they survived the trial. Under the continental treaty, the gnomes released them the same day--"
 
-"You let them go?!" the king of Ollendor shouts so loudly that I almost had to cover my ears. "You miserable worm, are you telling me that my brother's murderers are roaming around freely through Varathia at this very moment? I ought to chain you up and feed you to the dogs for your incompetence, you pathetic excuse for a diplomat. Is this why I sent you to Thilias? To negotiate with that idiot gnome as if he and I were equals? Why didn't you tell him that there would be war if he didn't execute those mages on the spot? You just let him walk all over you as if you were one of his lowly servants?!"
+"You let them walk?!" The king of Ollendor's roar tears through the speaker, distorting against the metal casing so violently that Daren flinches. "You miserable worm! You stand there and tell me my brother's murderers are wandering free across Varathia? I should throw you in chains and feed your entrails to the hounds! Is this why I sent you to Thilias? To grovel before that idiot gnome as if you were his servant? Why did you not threaten him with war on the spot? You let him wipe his boots on you like a palace cur?!"
 
- "My king, I did try to tell him that there would be war, but he wouldn't listen," the ambassador says, in a panicky voice. "And besides, Golmyck was not the only one who took the side of the mages! In fact, the main reason why they were sent to the arena was because..."
+"My king, I threatened war, but he would not listen!" the ambassador cries in panic. "And Golmyck was not the only one shielding them! The real reason they were sent to the arena was because..."
 
-The ambassador stops speaking suddenly, probably because he realized what would likely happen to him if he were to rat on Eiden in front of the king.
+The words cut off sharp. The ambassador chokes on his own breath, realizing the cost of naming Eiden in front of the crown.
 
-"Because..." the ambassador says again, in a more trembling voice.
+"Because..." the ambassador quavers, his voice trembling violently.
 
-I can probably imagine what the ambassador was thinking in these moments. Would it be better to be killed by the king, or by Eiden? Which one of them would be more likely to spare his life? Was mercy even something that either of those two would be capable of?
+I know that calculation. Caught between the king's executioner and a smiling stillwater who tears armies apart for entertainment, there is no good answer.
 
-"If I may interject, your highness," the captain of the royal guards says when he realizes that the ambassador isn't planning to finish his sentence. "The intruders that I told you about earlier were also tournament participants, and they were more than capable of attacking me, despite being a citizen of Ollendor. The group that we fought had a fully armored, dark-skinned mage with an 'X' shaped scar on his forehead, a banshee that could use ice as a magical element, a little girl that could cast fire magic, and a giant that was shapeshifted as a dwarf. Do any of these descriptions sound familiar to you, ambassador?"
+"If I may, your highness," the guard captain cuts in, filling the void before the king can strike. "The intruders we clashed with yesterday were tournament contestants as well, and they attacked me without hesitation. A fully armored, dark-skinned mage with an X-shaped scar across his forehead, an ice-wielding banshee, a child hurling fire, and a giant compressed into a dwarf. Does that match the earl's killers, ambassador?"
 
-"That's them!" the ambassador shouts. "They are the ones who killed the earl! I'm sure of it!"
+"That is them!" the ambassador shouts, gasping with relief. "The very same ones! I am certain of it!"
 
 choice("Continue", B3-Ch05b-Manhunt, v_current_scene = B3-Ch05b-Manhunt)
 
@@ -169,33 +169,33 @@ choice("Continue", B3-Ch05b-Manhunt, v_current_scene = B3-Ch05b-Manhunt)
 ID: B3-Ch05b-Manhunt
 TEXT:
 
- "So my brother's killers were on my doorstep this whole time..." the king of Ollendor says, this time controlling the anger in his voice. "Captain, you told me that your men were almost able to apprehend some of these intruders before they teleported away at the last minute. Do you think that they are still inside the city?"
+ "So my brother's killers were inside my walls this whole time..." the king of Ollendor says, his anger hardening into cold venom. "Captain, you reported that your men nearly trapped them before they vanished. Are they still within the city?"
 
-"Most definitely, your highness," the captain says. "Biliborrathrathsarran assured us that the invisible barrier he created around the city prevents anyone from teleporting past our walls using any conventional spells. The only way to get in or out of this city is through the city gates. Wherever these criminals are hiding, it must be inside the city."
+"Without question, your highness," the captain replies. "Biliborrathrathsarran assured us that his barrier prevents any conventional teleportation beyond our outer walls. The only way in or out is through the gates. Wherever these criminals are burrowed, it is inside Ollendor."
 
-"Then it is clear what we must do..." the king of Ollendor says, and then he takes a short pause before he speaks again. "Captain, I want the guards to scour every inch of this city until you find these mages, starting now. I don't care if it's almost night time. Wake up every single guard that we have and tell them to look in every nook and every cranny until there is no place left to hide. If our citizens refuse to open the doors to their houses, then you can assume that they are trying to harbor criminals and you are permitted to kill them on the spot. Nobody is allowed to enter or leave the city until all of my brother's murderers are found and executed. This city is going into full lockdown and you, ambassador, are going to oversee this whole operation, together with the captain."
+"Then the course is simple," the king says. "Captain, turn this city inside out. Wake every garrison, search every alley, cellar, and attic until there is no shadow left unturned. If citizens bar their doors, treat it as treason and put them to the sword where they stand. No one enters or leaves Ollendor until every one of my brother's murderers is hanging from the gallows. We lock down the entire city, and you, ambassador, will oversee the hunt alongside the captain."
 
-"Me?..." the ambassador asks, in a slightly fearful tone.
+"Me?..." the ambassador squeaks.
 
- "Yes, ambassador," the king says. "I am putting you in charge of dealing with these criminals. You will be personally responsible for the results of this manhunt. I don't think I need to tell you what will happen to you if you fail to capture these mages a second time. I'm certain that your desire to right your wrongs will be more than enough motivation for you to do your job properly this time around."
+"You," the king says. "The outcome of this purge rests on your head. Fail me again, and you will not have the luxury of an arena. Your desire to keep breathing should sharpen your resolve."
 
-"Yes, your majesty," the ambassador says. "Of course..."
+"Yes, your majesty," the ambassador stammers. "Of course..."
 
-"Good," the king says. "Then it's settled. I hope neither of you were hoping to sleep tonight, because I suspect that you are going to be quite busy for some time. Start making the necessary preparations. I want you two to come up with a plan of action in less than an hour. Oh, and captain... would you be so kind as to send one of the palace servants to bring Bilibo... Bilibo... the lessathi here? Tell him that it is a very urgent matter and that I am requesting his presence in the castle immediately. Surely there must be at least one of his devices that would be helpful to us in such a situation."
+"Good," the king says. "Start the preparations. I want a complete deployment plan in under an hour. And captain... dispatch a runner to summon Bilibo... Bilibo... the lessathi immediately. Tell him the crown demands his presence. Surely he has a device that can track these rats through the streets."
 
-"Yes, my king," the captain says. "I will send someone to contact him at once."
+"At once, my king," the captain says.
 
- "I will meet you both in my throne room once you are done planning everything," the king says. "Do not keep me waiting."
+"I will meet you both in the throne room once the deployments are set," the king says. "Do not keep me waiting."
 
-We then hear some footsteps getting further away from the recording devices, as the king and presumably the captain of the royal guards are walking out of the room. Once we can no longer hear the steps, Eiden addresses the ambassador in a low voice.
+Heavy bootsteps recede across the stone floor as the king and captain exit the chamber. Once the echo fades, Eiden's light, mocking voice returns to the speaker.
 
-"Aren't you glad that the guard captain interrupted you earlier, ambassador?" Eiden says. "Thanks to him, you didn't have to tell them about our little secret, and you all got to live to see another day! Be sure to make the most of your next few hours, ambassador. Life is short. You never know what might happen!"
+"Aren't you glad the captain cut you off, ambassador?" Eiden murmurs. "Thanks to his interruption, our little secret stays between us, and you live to see another sunrise. Make the most of your day, ambassador. Life is fragile. You never know when it might snap."
 
-"Yes... Creator," the ambassador says, in a very forced polite tone. "I thank you for your wisdom."   
+"Yes... Creator," the ambassador mutters, every word dripping with forced deference. "I thank you for the reminder."
 
-We then hear him leaving the room, and a little later, so does Eiden. As the conversation ends, the king of the underground puts the metal cube back in his pocket and then he looks at us to see our reaction.
+Footsteps follow, and the recording falls dead. The king of the underground clicks the switch, pockets the cube, and looks up at us from the throne.
 
-"Well?" the king of the underground says, after a few more seconds. "What did you think?"
+"Well?" he asks into the silence. "What do you think?"
 
 choice(""I think the quality of the recording was very good."", B3-Ch05b-Quality, v_current_scene = B3-Ch05b-Quality)
 choice(""I... guess the cat's out of the bag?"", B3-Ch05b-Bag, v_current_scene = B3-Ch05b-Bag)
@@ -207,43 +207,43 @@ TEXT:
 
  "I think the quality of the recording was very good."
 
-"I think so as well," the king of the underground says. "We've invested a lot of money in these devices and I can say that I am very happy with them. Now, is there perhaps something else you would like to say to us aside from this?"
+"As do I," the king of the underground says evenly. "We spent a considerable sum on those devices, and they perform admirably. Now, is there anything of substance you wish to add?"
 
-"Listen," Daren says. "I know this situation looks really bad, but I promise that we can fix it!"
+"Listen," Daren says, leaning forward with his hands open. "I know how this looks, but we can fix it."
 
-"People are dying up there, healer," the king of the underground says, with a grave tone in his voice. "The guards are currently still wreaking havoc through the city, knocking down doors and killing anyone that dares to oppose them. We've evacuated the families of all the rebels from the surface already, but there is neither enough space nor air here in the underground to provide shelter for the entire population of the city. Even now there are people being murdered in their very homes because the king's men are still searching for you. These people would not have died if you hadn't entered this city. Their blood is on your hands."
+"People are dying up there right now, healer," the king says, his voice dropping into a grave, flat register. "The royal guards are tearing through the districts, kicking down doors and executing anyone who hesitates. We evacuated the rebel families from the surface, but there is neither the space nor the air beneath the bedrock to shelter the entire population. Innocent civilians are being slaughtered in their homes because the palace is hunting you. Those people would be alive if you had never entered this city. Their blood is on your hands."
 
-"I understand, and I am truly sorry," Daren says. "I did not know that it would come to this. We thought that we would have more time before the arrival of the ambassador, and we did not fully consider the consequences of our actions. But we can still help. Our objectives remain the same, and they still align with yours. If we could organize ourselves to attack the king of Ollendor together, then maybe--"
+"I understand, and I am sorry," Daren says, his jaw tightening. "We did not expect the ambassador to arrive so quickly, and we failed to anticipate the backlash. But our goal has not changed. It aligns with yours. If we organize a combined assault against the king of Ollendor, we can--"
 
- "I don't think you fully comprehend the position you are in, healer in armor," the king of the underground says. "The only reason why you haven't been captured by the royal guards yet is because we are providing you with shelter. Now, don't get me wrong, I am still very grateful for your efforts to find a cure for the sick people in our quarantine area. That is why I've allowed you to sleep here, despite what has been happening on the surface. However, I cannot in good conscience sacrifice the lives of the people from above just because there is a small chance for you to cure some of our terminally-ill inhabitants."
+"You misunderstand your standing, healer," the king cuts in. "The only reason the royal guard has not cornered you is that we gave you shelter. I am grateful for your work in the quarantine ward—that is why I let you sleep through the night while the city burned above us. But I cannot trade the lives of the surface population for the slim hope of curing a handful of terminal patients."
 
-"The chance is not small at all!" Daren says. "Kelrim and I already have a very good lead as to what may be causing the disease, and if we get the herbs we need, we may even be able to heal those people as soon as today!"
+"The hope is not slim!" Daren insists. "Kelrim and I identified the root of the illness. With the right reagents from the surface, we can cure those people today."
 
-"And once you are done healing the people from the quarantine zone, what will you do?" the king says. "Will you surrender yourself to the royal guards? Or do you perhaps have some other plan to end the senseless violence that is still occurring on the surface?"
+"And once you have cured them, what then?" the king asks. "Will you surrender to the royal guard? Or do you have another plan to halt the bloodshed on the streets?"
 
-"We will do what we came here to do," Daren says. "We will kill the king of Ollendor, and once he is dead, the madness should hopefully come to an end."
+"We finish what we started," Daren says. "We strike down the king of Ollendor and end the terror."
 
-"You speak of killing the king when all of you combined could not even defeat two of his guards?!" Albert shouts. "Or have you already forgotten that we were the ones who risked our lives to save you from Gontrok and the royal guard captain yesterday?"
+"Strike down the king?" Albert sneers from behind the throne. "The lot of you could not handle two royal guards yesterday! Have you already forgotten that we had to drag your bleeding carcasses out of the street when Gontrok and the captain cornered you?"
 
- Arraka laughs.
+Arraka's sharp laughter rings from the amulet at Flower's chest.
 
-"He's got you there," she tells us.
+"He has you there," she cackles.
 
-"We've improved since then!" Hadrik says. "Just this morning, I practiced these new fighting techniques that will surely--"
+"We are sharper than we were yesterday!" Hadrik snaps. "I spent the morning drilling new techniques in the tunnels that will--"
 
-"A few new moves are not going to help you when the captain will pin you all down to the ground with his aura!" Albert says.
+"A few new moves will not peel you off the stones once the captain pins you flat with his aura!" Albert shouts.
 
-"Wanna bet?" Hadrik says, with a grin.
+Hadrik's teeth show through his beard in a wide grin. "Want to wager on that?"
 
-"You arrogant little--" Albert starts to say, but the king interrupts him.
+Albert steps forward, snarling, but the king raises a hand.
 
-"Now, now, Albert," the king of the underground says, "we shouldn't be so quick to dismiss their efforts at self-improvement just because their claims seem unrealistic. I think it would be only fair to give them one final chance to prove themselves. If they fail our test, then we will put an end to our alliance and we will kindly ask them to leave our territory."
+"Enough, Albert," the king says. "We should not dismiss their claims simply because they sound absurd. Let us test them. One final trial to prove their worth. If you fail, the alliance ends, and you will be escorted from our territory."
 
-"If we fail the test, you're kicking us out for good?" Daren says. "Are you telling me that you won't even let us return to heal the sick people from the quarantine area?"
+"If we fail, you throw us out?" Daren asks. "You would bar us from returning to cure the quarantine patients?"
 
-"If you will still want to save those people even under such circumstances, then we won't stop you from returning one last time to heal them," the king says. "However, you must understand that even in such a case, we will still ask you to leave as soon as you are done."
+"If you still wish to risk your lives to save them after being cast out, we will permit you one final visit to administer the cure," the king says. "However, once the medicine is delivered, you leave immediately."
 
-"Fine," Daren says. "I can accept that. So, I'm guessing that if we pass this test, you will fight together with us against the king of Ollendor?"
+"Fine," Daren says. "I accept. And if we pass, you stand with us against the palace?"
 
 choice("Continue", B3-Ch05b-Improved, v_current_scene = B3-Ch05b-Improved)
 
@@ -253,43 +253,43 @@ TEXT:
 
  "I... guess the cat's out of the bag?"
 
-"It is indeed," the king of the underground says. "But surely you have more to comment on this than just stating the obvious, don't you?"
+"It is," the king of the underground says evenly. "Though I would hope you have something more substantial to offer than stating the obvious."
 
-"Listen," Daren says. "I know this situation looks really bad, but I promise that we can fix it!"
+"Listen," Daren says, leaning forward with his hands open. "I know how this looks, but we can fix it."
 
-"People are dying up there, healer," the king of the underground says, with a grave tone in his voice. "The guards are currently still wreaking havoc through the city, knocking down doors and killing anyone that dares to oppose them. We've evacuated the families of all the rebels from the surface already, but there is neither enough space nor air here in the underground to provide shelter for the entire population of the city. Even now there are people being murdered in their very homes because the king's men are still searching for you. These people would not have died if you hadn't entered this city. Their blood is on your hands."
+"People are dying up there right now, healer," the king says, his voice dropping into a grave, flat register. "The royal guards are tearing through the districts, kicking down doors and executing anyone who hesitates. We evacuated the rebel families from the surface, but there is neither the space nor the air beneath the bedrock to shelter the entire population. Innocent civilians are being slaughtered in their homes because the palace is hunting you. Those people would be alive if you had never entered this city. Their blood is on your hands."
 
-"I understand, and I am truly sorry," Daren says. "I did not know that it would come to this. We thought that we would have more time before the arrival of the ambassador, and we did not fully consider the consequences of our actions. But we can still help. Our objectives remain the same, and they still align with yours. If we could organize ourselves to attack the king of Ollendor together, then maybe--"
+"I understand, and I am sorry," Daren says, his jaw tightening. "We did not expect the ambassador to arrive so quickly, and we failed to anticipate the backlash. But our goal has not changed. It aligns with yours. If we organize a combined assault against the king of Ollendor, we can--"
 
- "I don't think you fully comprehend the position you are in, healer in armor," the king of the underground says. "The only reason why you haven't been captured by the royal guards yet is because we are providing you with shelter. Now, don't get me wrong, I am still very grateful for your efforts to find a cure for the sick people in our quarantine area. That is why I've allowed you to sleep here, despite what has been happening on the surface. However, I cannot in good conscience sacrifice the lives of the people from above just because there is a small chance for you to cure some of our terminally-ill inhabitants."
+"You misunderstand your standing, healer," the king cuts in. "The only reason the royal guard has not cornered you is that we gave you shelter. I am grateful for your work in the quarantine ward—that is why I let you sleep through the night while the city burned above us. But I cannot trade the lives of the surface population for the slim hope of curing a handful of terminal patients."
 
-"The chance is not small at all!" Daren says. "Kelrim and I already have a very good lead as to what may be causing the disease, and if we get the herbs we need, we may even be able to heal those people as soon as today!"
+"The hope is not slim!" Daren insists. "Kelrim and I identified the root of the illness. With the right reagents from the surface, we can cure those people today."
 
-"And once you are done healing the people from the quarantine zone, what will you do?" the king says. "Will you surrender yourself to the royal guards? Or do you perhaps have some other plan to end the senseless violence that is still occurring on the surface?"
+"And once you have cured them, what then?" the king asks. "Will you surrender to the royal guard? Or do you have another plan to halt the bloodshed on the streets?"
 
-"We will do what we came here to do," Daren says. "We will kill the king of Ollendor, and once he is dead, the madness should hopefully come to an end."
+"We finish what we started," Daren says. "We strike down the king of Ollendor and end the terror."
 
-"You speak of killing the king when all of you combined could not even defeat two of his guards?!" Albert shouts. "Or have you already forgotten that we were the ones who risked our lives to save you from Gontrok and the royal guard captain yesterday?"
+"Strike down the king?" Albert sneers from behind the throne. "The lot of you could not handle two royal guards yesterday! Have you already forgotten that we had to drag your bleeding carcasses out of the street when Gontrok and the captain cornered you?"
 
- Arraka laughs.
+Arraka's sharp laughter rings from the amulet at Flower's chest.
 
-"He's got you there," she tells us.
+"He has you there," she cackles.
 
-"We've improved since then!" Hadrik says. "Just this morning, I practiced these new fighting techniques that will surely--"
+"We are sharper than we were yesterday!" Hadrik snaps. "I spent the morning drilling new techniques in the tunnels that will--"
 
-"A few new moves are not going to help you when the captain will pin you all down to the ground with his aura!" Albert says.
+"A few new moves will not peel you off the stones once the captain pins you flat with his aura!" Albert shouts.
 
-"Wanna bet?" Hadrik says, with a grin.
+Hadrik's teeth show through his beard in a wide grin. "Want to wager on that?"
 
-"You arrogant little--" Albert starts to say, but the king interrupts him.
+Albert steps forward, snarling, but the king raises a hand.
 
-"Now, now, Albert," the king of the underground says, "we shouldn't be so quick to dismiss their efforts at self-improvement just because their claims seem unrealistic. I think it would be only fair to give them one final chance to prove themselves. If they fail our test, then we will put an end to our alliance and we will kindly ask them to leave our territory."
+"Enough, Albert," the king says. "We should not dismiss their claims simply because they sound absurd. Let us test them. One final trial to prove their worth. If you fail, the alliance ends, and you will be escorted from our territory."
 
-"If we fail the test, you're kicking us out for good?" Daren says. "Are you telling me that you won't even let us return to heal the sick people from the quarantine area?"
+"If we fail, you throw us out?" Daren asks. "You would bar us from returning to cure the quarantine patients?"
 
-"If you will still want to save those people even under such circumstances, then we won't stop you from returning one last time to heal them," the king says. "However, you must understand that even in such a case, we will still ask you to leave as soon as you are done."
+"If you still wish to risk your lives to save them after being cast out, we will permit you one final visit to administer the cure," the king says. "However, once the medicine is delivered, you leave immediately."
 
-"Fine," Daren says. "I can accept that. So, I'm guessing that if we pass this test, you will fight together with us against the king of Ollendor?"
+"Fine," Daren says. "I accept. And if we pass, you stand with us against the palace?"
 
 choice("Continue", B3-Ch05b-Improved, v_current_scene = B3-Ch05b-Improved)
 
@@ -299,43 +299,43 @@ TEXT:
 
  "I swear we were going to tell you about the fact that we killed the king's brother!"
 
-"I'm sure you were," the king of the underground says. "Nevertheless, what is important is that we now know the information. So, is there anything else that you would like to say to us?"
+"I am sure you were," the king of the underground says evenly. "Regardless, the facts are before us. Do you have anything of substance to add?"
 
-"Listen," Daren says. "I know this situation looks really bad, but I promise that we can fix it!"
+"Listen," Daren says, leaning forward with his hands open. "I know how this looks, but we can fix it."
 
-"People are dying up there, healer," the king of the underground says, with a grave tone in his voice. "The guards are currently still wreaking havoc through the city, knocking down doors and killing anyone that dares to oppose them. We've evacuated the families of all the rebels from the surface already, but there is neither enough space nor air here in the underground to provide shelter for the entire population of the city. Even now there are people being murdered in their very homes because the king's men are still searching for you. These people would not have died if you hadn't entered this city. Their blood is on your hands."
+"People are dying up there right now, healer," the king says, his voice dropping into a grave, flat register. "The royal guards are tearing through the districts, kicking down doors and executing anyone who hesitates. We evacuated the rebel families from the surface, but there is neither the space nor the air beneath the bedrock to shelter the entire population. Innocent civilians are being slaughtered in their homes because the palace is hunting you. Those people would be alive if you had never entered this city. Their blood is on your hands."
 
-"I understand, and I am truly sorry," Daren says. "I did not know that it would come to this. We thought that we would have more time before the arrival of the ambassador, and we did not fully consider the consequences of our actions. But we can still help. Our objectives remain the same, and they still align with yours. If we could organize ourselves to attack the king of Ollendor together, then maybe--"
+"I understand, and I am sorry," Daren says, his jaw tightening. "We did not expect the ambassador to arrive so quickly, and we failed to anticipate the backlash. But our goal has not changed. It aligns with yours. If we organize a combined assault against the king of Ollendor, we can--"
 
- "I don't think you fully comprehend the position you are in, healer in armor," the king of the underground says. "The only reason why you haven't been captured by the royal guards yet is because we are providing you with shelter. Now, don't get me wrong, I am still very grateful for your efforts to find a cure for the sick people in our quarantine area. That is why I've allowed you to sleep here, despite what has been happening on the surface. However, I cannot in good conscience sacrifice the lives of the people from above just because there is a small chance for you to cure some of our terminally-ill inhabitants."
+"You misunderstand your standing, healer," the king cuts in. "The only reason the royal guard has not cornered you is that we gave you shelter. I am grateful for your work in the quarantine ward—that is why I let you sleep through the night while the city burned above us. But I cannot trade the lives of the surface population for the slim hope of curing a handful of terminal patients."
 
-"The chance is not small at all!" Daren says. "Kelrim and I already have a very good lead as to what may be causing the disease, and if we get the herbs we need, we may even be able to heal those people as soon as today!"
+"The hope is not slim!" Daren insists. "Kelrim and I identified the root of the illness. With the right reagents from the surface, we can cure those people today."
 
-"And once you are done healing the people from the quarantine zone, what will you do?" the king says. "Will you surrender yourself to the royal guards? Or do you perhaps have some other plan to end the senseless violence that is still occurring on the surface?"
+"And once you have cured them, what then?" the king asks. "Will you surrender to the royal guard? Or do you have another plan to halt the bloodshed on the streets?"
 
-"We will do what we came here to do," Daren says. "We will kill the king of Ollendor, and once he is dead, the madness should hopefully come to an end."
+"We finish what we started," Daren says. "We strike down the king of Ollendor and end the terror."
 
-"You speak of killing the king when all of you combined could not even defeat two of his guards?!" Albert shouts. "Or have you already forgotten that we were the ones who risked our lives to save you from Gontrok and the royal guard captain yesterday?"
+"Strike down the king?" Albert sneers from behind the throne. "The lot of you could not handle two royal guards yesterday! Have you already forgotten that we had to drag your bleeding carcasses out of the street when Gontrok and the captain cornered you?"
 
- Arraka laughs.
+Arraka's sharp laughter rings from the amulet at Flower's chest.
 
-"He's got you there," she tells us.
+"He has you there," she cackles.
 
-"We've improved since then!" Hadrik says. "Just this morning, I practiced these new fighting techniques that will surely--"
+"We are sharper than we were yesterday!" Hadrik snaps. "I spent the morning drilling new techniques in the tunnels that will--"
 
-"A few new moves are not going to help you when the captain will pin you all down to the ground with his aura!" Albert says.
+"A few new moves will not peel you off the stones once the captain pins you flat with his aura!" Albert shouts.
 
-"Wanna bet?" Hadrik says, with a grin.
+Hadrik's teeth show through his beard in a wide grin. "Want to wager on that?"
 
-"You arrogant little--" Albert starts to say, but the king interrupts him.
+Albert steps forward, snarling, but the king raises a hand.
 
-"Now, now, Albert," the king of the underground says, "we shouldn't be so quick to dismiss their efforts at self-improvement just because their claims seem unrealistic. I think it would be only fair to give them one final chance to prove themselves. If they fail our test, then we will put an end to our alliance and we will kindly ask them to leave our territory."
+"Enough, Albert," the king says. "We should not dismiss their claims simply because they sound absurd. Let us test them. One final trial to prove their worth. If you fail, the alliance ends, and you will be escorted from our territory."
 
-"If we fail the test, you're kicking us out for good?" Daren says. "Are you telling me that you won't even let us return to heal the sick people from the quarantine area?"
+"If we fail, you throw us out?" Daren asks. "You would bar us from returning to cure the quarantine patients?"
 
-"If you will still want to save those people even under such circumstances, then we won't stop you from returning one last time to heal them," the king says. "However, you must understand that even in such a case, we will still ask you to leave as soon as you are done."
+"If you still wish to risk your lives to save them after being cast out, we will permit you one final visit to administer the cure," the king says. "However, once the medicine is delivered, you leave immediately."
 
-"Fine," Daren says. "I can accept that. So, I'm guessing that if we pass this test, you will fight together with us against the king of Ollendor?"
+"Fine," Daren says. "I accept. And if we pass, you stand with us against the palace?"
 
 choice("Continue", B3-Ch05b-Improved, v_current_scene = B3-Ch05b-Improved)
 
@@ -345,35 +345,37 @@ TEXT:
 
  "That is likely what it will come down to, yes," the king of the underground says.
 
-"So, what's this test going to be about?" Hadrik says. "Do you have some really strong fighters that you want us to beat?"
+"What is the test, then?" Hadrik asks, rolling his shoulders. "Do you have some heavy hitters you want us to pummel?"
 
-The king, Albert and Peter exchange a few looks before the king addresses us again.
+The king, Albert, and Peter exchange glances before the king turns back to us.
 
-"Yes, I suppose that would be one way to put it," the king says. "But first, let me ask you all a question. Have you not found it odd that someone as cautious as me would usually hold these meetings with so few of my own men to protect me?"
+"In a manner of speaking," the king says. "Though tell me: have you never found it curious that someone as cautious as I am routinely conducts these audiences with almost no guard presence?"
 
-"I did find it a bit strange, now that you mention it," Daren says. "And what I'm finding even stranger is that you have even less security now than in our last two meetings. You used to have two guards by your side before, but now you only have Peter and Albert. Why did you avoid bringing your usual two guards if you knew that today's discussion might lead to a confrontation?"
+"It crossed my mind," Daren says. "And today you have even fewer men than before. The two royal guards outside are gone, leaving only Peter and Albert. Why dismiss your escort if you anticipated a confrontation?"
 
-"Oh, the answer to that question is quite simple," the king says. "It's because they would be in our way."
+"The answer is simple," the king says. "They would be in the way."
 
-All of a sudden, an invisible force from above pushes us into the ground so hard that it breaks the wooden chairs we were sitting on into pieces. I try to get up, but due to the ridiculous amount of pressure that is pushing me against the floor, I can barely move a muscle. I eventually manage to turn my head a little, and I realize that all the others except Melindra and Leila are also lying on their backs just like me, unable to move. As I continue to lie there on the ground, trying to figure out what happened, I hear Arraka bursting into laughter.
+An invisible mountain of force crashes down from the vaulted ceiling. The wooden chairs beneath us splinter into kindling under the sudden weight, slamming us flat against the cold flagstones. The pressure crushes my ribs and pins my limbs to the floor; I cannot even curl my fingers against the stone. Straining my neck, I see Daren, Kate, Hadrik, and Flower crushed into the floorboards beside me. Only Melindra and Leila remain standing, untouched by the field.
 
- "Ahahahahahahaha!" Arraka laughs. "I was wondering when you'd finally reveal your hidden power to them, but this is just too much. I'm dying of laughter here. Ahahahahahaha!"
+Arraka's hysterical screech rings from the gold amulet.
 
-"What's the matter?" the king of the underground asks us, ignoring Arraka. "The test has already begun. This is the same aura manipulation technique that you were so proudly saying you could fight against as soon as you'd meet the royal guard captain again. Why don't you show me how much you've really improved?"
+"AHAHAHAHAHA!" Arraka cackles. "I wondered when you would finally show them what you were hiding! Look at them! I am dying of laughter here! AHAHAHAHAHA!"
 
-Is the king the one doing this to us? I didn't even know he was a mage! Damn it, if only I could move my arm so that I could at least throw my dagger at him or something...
+"What is the matter?" the king asks, ignoring her outburst. "The trial has already begun. This is the aura manipulation technique you boasted you could overcome when you face the captain again. Show me the fruits of your training."
 
-"You can give up on the test at any time, you know," the king of the underground says, after some more time passes. "Just admit defeat, and I will let you get back up."
+The king is an aura manipulator. I never suspected he possessed magic at all. My knuckles scrape uselessly against the stone—I cannot even reach my dagger.
 
- "Untangle..." Daren says, in a barely audible voice, as he is still being pushed against the ground.
+"You may yield at any time," the king adds after a moment. "Admit defeat, and I release the pressure."
 
-"I beg your pardon?" the king of the underground says.
+"Untangle..." Daren wheezes from the floor.
 
-"Untangle... the flow of the aura... with my mind," Daren says again, in a louder voice.
+"Pardon?" the king asks.
 
-He then manages to pull out his sword from its hilt, using it to stab the air above him and then to make a quick slash to the right. As soon as he does this, the invisible force that was keeping us pinned down vanishes completely, and we all immediately get up, assuming our battle stances.
+"Untangle... the flow of the aura... with the mind," Daren grunts, his voice rising through clenched teeth.
 
-"There we go," Arraka says. "See? You can do it if you try."
+He grips his hilt, forces the steel from its scabbard against the crushing tide, stabs straight up into empty air, and snaps the blade right in a savage arc. The crushing weight shatters like glass. Air floods back into my lungs, and we scramble to our feet, weapons drawn and spells flaring.
+
+"There it is," Arraka snickers. "See? The blockhead can manage when he actually listens."
 
 choice("Continue", B3-Ch05b-Invisibility, v_current_scene = B3-Ch05b-Invisibility)
 
@@ -381,25 +383,29 @@ choice("Continue", B3-Ch05b-Invisibility, v_current_scene = B3-Ch05b-Invisibilit
 ID: B3-Ch05b-Invisibility
 TEXT:
 
- "Oh, now I understand!" the king says, as he looks at Daren. "You were imagining yourself untying an invisible knot with your sword just now, weren't you? Not bad! Alright, you've passed the first phase of the test. Albert, you are free to commence the second phase whenever you are ready."
+ "Ah, I see," the king says, studying Daren with a nod. "You pictured untying an invisible knot with the edge of your blade. Impressive! You pass the first phase. Albert, commence the second phase when ready."
 
-"Yes, my king," Albert says, and a few seconds later he completely vanishes into thin air.
+"Yes, my king," Albert says.
 
-"What did he do?..." Hadrik says, as he looks around the room, trying to figure out where Albert disappeared. "Was that an invisibility spell?"
+A heartbeat later, he blinks out of existence.
 
-"It's more than just an invisibility spell," the king says. "What Albert is using right now is an ability that only the most skilled assassins can learn. He is completely concealing his presence. Not only is he not visible to you, but you also won't be able to hear him, smell him or even feel his aura. From your point of view, he may as well not be in this room at all."
+"Where did he go?" Hadrik asks, scanning the empty corners with raised fists. "An invisibility cantrip?"
 
-"Oh, so it's similar to Eiden's invisibility spell, then," I say. "Arraka, I'm guessing you know where he is?"
+"Far more than a simple spell," the king says. "Albert employs true presence concealment, mastered only by elite assassins. You cannot see him, hear his footfalls, catch his scent, or feel his aura. To your senses, he is no longer in this room."
 
- "Of course I know where he is," Arraka says. "But I'm not going to waste my time showing you his position just for some lousy mock battle. If you want to pass this lame test, figure it out yourselves."
+"Like Eiden's concealment," I say. "Arraka, I take it you can track him?"
 
-"Well, no matter where he is," Hadrik says, "he's bound to come out of invisibility to attack us at some point, so I'll just wait for the right opportunity and grab him then. I can still grab people, right? It's not like I'm attacking him or anything, so the fact that he's a local shouldn't mat-- what the?!"
+"Of course I know where he is," Arraka sneers. "But I am not spoiling a second-rate sparring match for you amateurs. If you want to pass, earn it yourselves."
 
-Hadrik suddenly tries to grab something from the empty air behind him, but nothing happens. When I try to understand what happened, I notice that Hadrik's leather armor has been pierced from behind, and that there is a bit of blood dripping from the upper side of his back.
+"Does not matter where he skulks," Hadrik says. "He has to reveal himself to strike, and when he does, I will grab him by the collar. Grappling does not trigger the local ward, so it should not mat-- what the?!"
 
-"Did he seriously just attack me while he was still invisible?!" Hadrik says, as Peter is now moving towards one of the walls, in order to observe the fight better. "Since when do invisibility spells work like that?"
+Hadrik spins and snatches at empty air behind him, catching nothing. A slit opens across the back of his leather armor, dark blood welling through the hide below his shoulder blade.
 
-"I told you that it's more than just a spell," the king says. "His breathing, his aura control and his special orange-hilted dagger all play a role in helping him mask his presence. This is the result of years upon years of arduous training. You are taking assassins far too lightly if you think that you can simply wait for them to strike before you attack them. If this weren't a mock battle, getting backstabbed like that could have very well killed you, dwarf. Perhaps you should start taking this test a bit more seriously."
+Peter retreats toward the perimeter wall to observe.
+
+"He struck while concealed?" Hadrik grunts, reaching around to touch the cut. "Invisibility does not work like that!"
+
+"I told you, it is not merely a spell," the king says. "Disciplined breathing, total aura suppression, and his enchanted orange-hilted dagger all sustain the shroud. Years of ruthless conditioning. You underestimate assassins if you believe you can simply react to the blow. In an earnest fight, that blade would have pierced your spine, dwarf. Take this seriously."
 
 choice("Try to listen very carefully, in order to hear Albert's footsteps.", B3-Ch05b-Hearing, v_current_scene = B3-Ch05b-Hearing, v_b3_ch5_fight = 0)
 choice("Lie to Albert, telling him that I know exactly where he is.", B3-Ch05b-Bluff, v_current_scene = B3-Ch05b-Bluff, v_b3_ch5_fight = 1)
@@ -417,47 +423,41 @@ achievement("I can hear footsteps.",v_ac_b3_ch5_footsteps)
 #if(v_hearing < 4) {
  
 
-No matter how skilled Albert is, his feet still need to touch the ground when he is walking from one place to another. If I listen really carefully, maybe I'll be able to figure out where he'll strike next.
-
-I attempt to focus on any sound that may resemble footsteps, blocking all other noises from my mind. Unfortunately, it seems that I might have underestimated the assassin's ability, because despite my best efforts I simply cannot hear any sounds coming from the ground.
+No matter how skilled Albert is, his boots still touch stone. I strain to catch the scrape of leather against the floor, shutting out the vault's ambient draft. Nothing. Not a whisper of cloth or stone. I have underestimated the assassin's training.
 
 }
 #if(v_hearing >= 4 && v_b2_ch6_stat != 1) {
  
 
-No matter how skilled Albert is, his feet still need to touch the ground when he is walking from one place to another. If I listen really carefully, maybe I'll be able to figure out where he'll strike next.
+No matter how skilled Albert is, his boots still touch stone. I strain to catch the scrape of leather against the floor, shutting out the vault's ambient draft. Even with my Hearing stat maxed, the room yields nothing. He steps without weight or sound.
 
-I attempt to focus on any sound that may resemble footsteps, blocking all other noises from my mind. Unfortunately, it seems that I might have underestimated the assassin's ability, because even with my Hearing stat maxed I simply cannot hear any sounds coming from the ground.
-
-If only I would have some sort of way to temporarily increase my hearing stat beyond its current maximum level, things might be different, but I don't think my stat device is capable of anything like that.
+If only I had a way to force my hearing beyond its standard ceiling, I might isolate the stride, but the device offers no standard setting for that.
 
 }
 #if(v_b2_ch6_stat == 1 && v_hearing >= 4) {
  
 
-No matter how skilled Albert is, his feet still need to touch the ground when he is walking from one place to another. If I listen really carefully, maybe I'll be able to figure out where he'll strike next.
+No matter how skilled Albert is, his boots still touch stone. I strain to catch the scrape of leather against the floor, shutting out the vault's ambient draft. Even with my Hearing stat maxed, the room yields nothing. He steps without weight or sound.
 
-I attempt to focus on any sound that may resemble footsteps, blocking all other noises from my mind. Unfortunately, it seems that I might have underestimated the assassin's ability, because even with my Hearing stat maxed I simply cannot hear any sounds coming from the ground.
+Unless I use the secret code Melindra gave me to force a temporary stat overload.
 
-But what if I were to use the secret code that I know from Melindra in order to temporarily boost my Hearing stat? Would that be enough to hear him moving?
+I yank the stat booster from my belt and slide the crossbow from my pack. Keying in Melindra's override sequence, I grip the crossbow with both hands. The surge gives me only seconds before the circuits reset.
 
-I quickly take out my stat device from my pocket and my crossbow from my backpack. I then insert the code that Melindra told me about and I immediately grab my crossbow with both hands, knowing that I only have a few seconds to react before the temporary stat boost wears off.
+There. A faint, dry friction scratches against my eardrums—heel against stone, shifting weight three paces to the left. I track the stride, lead the mark, and loose a bolt into empty air, keeping clear of vital organs.
 
-I can hear the steps now. They're barely audible even with this stat level, but I can hear them. I need to shoot him quickly, before the effect wears off. But I shouldn't hit him in a vital spot. He did his best not to kill Hadrik, after all.
+Metal clangs hard in the dark. The bolt ricochets off an unseen dagger and clatters against the flagstones. Hadrik lunges at the spark, diving low and locking his thick arms around empty air.
 
- I quickly calculate his trajectory from the few steps I get to hear, and I try to anticipate his path as well as I can when I shoot my crossbow bolt at the empty air in front of me. To my surprise, instead of hitting him or passing through the air, the crossbow bolt clangs against a metal surface and it falls to the ground. Realizing that this was Albert deflecting the projectile with his dagger while still invisible, Hadrik wastes no time and he makes a quick dash towards the assassin, grabbing onto something that at first glance seems to be nothing more than empty air.
+"Let go of me!" Albert's voice snarls as his form bleeds back into sight, Hadrik's grip clamped tight around his knee. "Let go, or I gut you for real!"
 
-"Let go of me, damn it!" Albert says, as he is now slowly coming out of invisibility, revealing to us the fact that Hadrik had apparently grabbed him by his leg. "Let go of me, or I swear I will stab you for real this time!"
+"Just admit defeat and I let you up, friend!" Hadrik grins, planting his weight. "No reason to sour a friendly spar!"
 
-"Hey, all you have to do is 'admit defeat' and I'll let you go, friend!" Hadrik says, with a smirk. "There's no need to be so upset. It's only a friendly sparring match, after all!"
+Peter raises both hands and unloads a jagged arc of lightning into Hadrik's back. The current tears through the dwarf's frame, blue arcs crackling across his skin, but Hadrik only tightens his hold. Albert does not even twitch—the electrical charge rolling off Hadrik leaves him untouched. An enchanted ward or an insulated talisman.
 
- All of a sudden, Peter extends his hands towards Hadrik and he shoots a powerful lightning attack out of his palms. As Hadrik is being shocked by the electrical current that is passing through his body, Albert tries to free himself, but the dwarf keeps holding onto him tightly and he doesn't let him escape.It seems that the assassin is not being affected at all by the electric attack, even if Hadrik is still holding him by the leg. Does this mean that he has some sort of item granting him immunity against electricity?
+"You have to hit harder than that!" Hadrik grunts through gritted teeth. "Compared to Kate's elementalist friend, that is a tickle!"
 
-"You're... going to... have to do better than that!" Hadrik tells Peter, as he is holding back the pain from the electrical current. "Compared to the attacks of Kate's elementalist friend, this is like child's play!"    
+"What is this?" Daren shouts, turning toward the throne. "Peter was not part of the agreement! You never said he would be casting--"
 
-"What the hell?" Daren says, as he turns towards the king of the underground. "Since when is Peter a part of the test? You never told us that he would be shooting lightning at-- NGH!"
-
-As Daren was talking, Peter changed his mind and decided to target him instead of Hadrik, casting a lightning spell on Daren as soon as he exposed his back to him.
+Peter redirects his palms. A white-blue bolt slams directly into Daren's exposed back, cutting off his shout in a strangled gasp.
 
 }
 choice("Continue", B3-Ch05b-Premonition, v_current_scene = B3-Ch05b-Premonition) if (v_hearing < 4 || v_b2_ch6_stat != 1)
@@ -474,29 +474,29 @@ set(v_b3_ch5_fight,5) if (v_bluff >= 4)
 
 "Hey, Albert, you do realize that I can tell where you are, right?" I say. "You might want to try making some less obvious movements, because right now it's like you're begging to be shot with a crossbow in the chest."
 
-No answer. Not even a sound. It looks like my bluff didn't have any effect on him whatsoever. I guess I'm going to have to find some other way to make him reveal his location.
+Dead silence. Not a breath, not a scrape. The bluff falls completely flat. I need another way to draw him out.
 
 }
 #if(v_bluff >= 4) {
  
 
-"Hey, Albert, you do realize that I can tell where you are, right?" I say. "You might want to try making some less obvious movements, because right now it's like you're begging to be shot with a crossbow in the chest."
+"Hey, Albert, you do realize that I can tell where you are, right?" I say. "You might want to try making some less obvious movements, because right now it're like you're begging to be shot with a crossbow in the chest."
 
-It looks like my bluff had an effect on him, because all of a sudden we hear several loud steps, as the assassin tries to quickly get away from the position in which he thinks I spotted him. Kate does not miss this opportunity and she shoots an icicle at him as fast as she can. Instead of hitting him, however, the icicle makes a loud clanging noise and it changes direction, falling to the ground. 
+The bait takes. Rapid footfalls scrape the stone as the assassin darts aside to break my supposed line of sight. Kate reacts instantly, hurling a spear of ice into the path of the sound. Steel rings against frost—the icicle shatters against an invisible blade and clatters down.
 
-Realizing that this was Albert deflecting the projectile with his dagger while still invisible, Hadrik wastes no time and he makes a quick dash towards the assassin, grabbing onto something that at first glance seems to be nothing more than empty air.
+Hadrik lunges at the impact, diving low and locking his thick arms around empty air.
 
-"Let go of me, damn it!" Albert says, as he is now slowly coming out of invisibility, revealing to us the fact that Hadrik had apparently grabbed him by his leg. "Let go of me, or I swear I will stab you for real this time!"
+"Let go of me!" Albert's voice snarls as his form bleeds back into sight, Hadrik's grip clamped tight around his knee. "Let go, or I gut you for real!"
 
- "Hey, all you have to do is 'admit defeat' and I'll let you go, friend!" Hadrik says, with a smirk. "There's no need to be so upset. It's only a friendly sparring match, after all!"
+"Just admit defeat and I let you up, friend!" Hadrik grins, planting his weight. "No reason to sour a friendly spar!"
 
-All of a sudden, Peter extends his hands towards Hadrik and he shoots a powerful lightning attack out of his palms. As Hadrik is being shocked by the electrical current that is passing through his body, Albert tries to free himself, but the dwarf keeps holding onto him tightly and he doesn't let him escape.It seems that the assassin is not being affected at all by the electric attack, even if Hadrik is still holding him by the leg. Does this mean that he has some sort of item granting him immunity against electricity?
+Peter raises both hands and unloads a jagged arc of lightning into Hadrik's back. The current tears through the dwarf's frame, blue arcs crackling across his skin, but Hadrik only tightens his hold. Albert does not even twitch—the electrical charge rolling off Hadrik leaves him untouched. An enchanted ward or an insulated talisman.
 
-"You're... going to... have to do better than that!" Hadrik tells Peter, as he is holding back the pain from the electrical current. "Compared to the attacks of Kate's elementalist friend, this is like child's play!"    
+"You have to hit harder than that!" Hadrik grunts through gritted teeth. "Compared to Kate's elementalist friend, that is a tickle!"
 
-"What the hell?" Daren says, as he turns towards the king of the underground. "Since when is Peter a part of the test? You never told us that he would be shooting lightning at-- NGH!"
+"What is this?" Daren shouts, turning toward the throne. "Peter was not part of the agreement! You never said he would be casting--"
 
-As Daren was talking, Peter changed his mind and decided to target him instead of Hadrik, casting a lightning spell on Daren as soon as he exposed his back to him.
+Peter redirects his palms. A white-blue bolt slams directly into Daren's exposed back, cutting off his shout in a strangled gasp.
 
 }
 choice("Continue", B3-Ch05b-Premonition, v_current_scene = B3-Ch05b-Premonition) if (v_bluff < 4)
@@ -511,43 +511,41 @@ set(v_b3_ch5_fight,6) if (v_magical_sense >= 4 && v_perception >= 4)
 #if(v_magical_sense < 4) {
  
 
-The king said that Albert is concealing his aura, but maybe if I concentrate as hard as I can I'll be able to catch a glimpse of it. I attempt to block most of my other senses from my mind and I concentrate only on reading the auras around me.
-
-No matter how hard I try, it is impossible for me to sense any auras except for the ones of the people that I can already see. I guess I'm going to have to find some other way to make him reveal his location.
+The king claims Albert is concealing his aura, but focused concentration might catch a leak. I narrow my awareness, tuning out physical sight to reach for magical signatures. Nothing. The only auras in the room belong to the people already in plain view.
 
 }
 #if(v_magical_sense >= 4 && v_perception < 4) {
  
 
-The king said that Albert is concealing his aura, but maybe if I concentrate as hard as I can I'll be able to catch a glimpse of it. I attempt to block most of my other senses from my mind and I concentrate only on reading the auras around me.
+The king claims Albert is concealing his aura, but focused concentration might catch a leak. I narrow my awareness, tuning out physical sight to reach for magical signatures.
 
-It feels like I can detect some vague traces of his aura around the room, but it's very difficult to pinpoint their exact location.
+Faint, ghostly wisps of an aura drift across the chamber, but they scatter the moment I try to fix their source.
 
-As I look around the room some more, I realize that even at its maximum level, my magical sense stat just isn't enough to help me figure out the assassin's whereabouts in a reliable manner.
+Even with magical sense maxed, the trace is too diffuse to pinpoint his location.
 
 }
 #if(v_magical_sense >= 4 && v_perception >= 4) {
  
 
-The king said that Albert is concealing his aura, but maybe if I concentrate as hard as I can I'll be able to catch a glimpse of it. I attempt to block most of my other senses from my mind and I concentrate only on reading the auras around me.
+The king claims Albert is concealing his aura, but focused concentration might catch a leak. I narrow my awareness, tuning out physical sight to reach for magical signatures.
 
-It feels like I can detect some vague traces of his aura around the room, but it's very difficult to pinpoint their exact location.
+Faint wisps of an aura drift across the chamber. Tracking the dispersion, I spot a subtle disturbance in the air—motes of floating dust parting around an invisible silhouette. It is faint enough to miss at a glance, but the displacement marks his stride clearly.
 
-As I look around the room some more, I realize that in a certain area where I've sensed Albert's aura, the miniscule specks of dust flying through the air are moving in an unnatural way. I would have never noticed this if I hadn't been focusing on this specific spot, but now that I've seen them, it should be easy enough for me to figure out in which direction the assassin is heading.
+I raise my crossbow, line up the shifting dust, and loose a bolt, aiming away from vital organs.
 
-I quickly pull out my crossbow from my backpack and I shoot at the place where the dust in the air is moving the most erratically, trying to avoid hitting a vital spot as much as possible. To my surprise, instead of hitting my target, the crossbow bolt clangs against a metal surface and it falls to the ground. Realizing that this was Albert deflecting the projectile with his dagger while still invisible, Hadrik wastes no time and he makes a quick dash towards the assassin, grabbing onto something that at first glance seems to be nothing more than empty air.
+Metal clangs hard in the dark. The bolt ricochets off an unseen dagger and clatters against the flagstones. Hadrik lunges at the spark, diving low and locking his thick arms around empty air.
 
- "Let go of me, damn it!" Albert says, as he is now slowly coming out of invisibility, revealing to us the fact that Hadrik had apparently grabbed him by his leg. "Let go of me, or I swear I will stab you for real this time!"
+"Let go of me!" Albert's voice snarls as his form bleeds back into sight, Hadrik's grip clamped tight around his knee. "Let go, or I gut you for real!"
 
-"Hey, all you have to do is 'admit defeat' and I'll let you go, friend!" Hadrik says, with a smirk. "There's no need to be so upset. It's only a friendly sparring match, after all!"
+"Just admit defeat and I let you up, friend!" Hadrik grins, planting his weight. "No reason to sour a friendly spar!"
 
-All of a sudden, Peter extends his hands towards Hadrik and he shoots a powerful lightning attack out of his palms. As Hadrik is being shocked by the electrical current that is passing through his body, Albert tries to free himself, but the dwarf keeps holding onto him tightly and he doesn't let him escape.It seems that the assassin is not being affected at all by the electric attack, even if Hadrik is still holding him by the leg. Does this mean that he has some sort of item granting him immunity against electricity?
+Peter raises both hands and unloads a jagged arc of lightning into Hadrik's back. The current tears through the dwarf's frame, blue arcs crackling across his skin, but Hadrik only tightens his hold. Albert does not even twitch—the electrical charge rolling off Hadrik leaves him untouched. An enchanted ward or an insulated talisman.
 
-"You're... going to... have to do better than that!" Hadrik tells Peter, as he is holding back the pain from the electrical current. "Compared to the attacks of Kate's elementalist friend, this is like child's play!"    
+"You have to hit harder than that!" Hadrik grunts through gritted teeth. "Compared to Kate's elementalist friend, that is a tickle!"
 
-"What the hell?" Daren says, as he turns towards the king of the underground. "Since when is Peter a part of the test? You never told us that he would be shooting lightning at-- NGH!"
+"What is this?" Daren shouts, turning toward the throne. "Peter was not part of the agreement! You never said he would be casting--"
 
-As Daren was talking, Peter changed his mind and decided to target him instead of Hadrik, casting a lightning spell on Daren as soon as he exposed his back to him.
+Peter redirects his palms. A white-blue bolt slams directly into Daren's exposed back, cutting off his shout in a strangled gasp.
 
 }
 choice("Continue", B3-Ch05b-Premonition, v_current_scene = B3-Ch05b-Premonition) if (v_magical_sense < 4 || v_perception < 4)
@@ -557,7 +555,7 @@ choice("Continue", B3-Ch05b-Obscure, v_current_scene = B3-Ch05b-Obscure) if (v_m
 ID: B3-Ch05b-Nothing
 TEXT:
 
- I decide to do nothing for the time being and to just wait and see what happens. The room is silent for a while, as we all try to figure out who the assassin will try to attack.
+ I hold my ground and wait. Silence settles over the vault, everyone tracking empty shadows for the assassin's first move.
 
 choice("Continue", B3-Ch05b-Premonition, v_current_scene = B3-Ch05b-Premonition)
 
@@ -570,77 +568,77 @@ set(v_b3_ch5_fight,7) if (v_aura_hardening >= 4 && v_premonition >= 2)
 #if(v_toughness == 0 && v_premonition < 2) {
  
 
-While I stand there, thinking of what to do next, Hadrik decides that he's done waiting and he chooses to taunt his opponent instead.
+Hadrik runs out of patience and bellows into the empty room.
 
-"What's the matter, Albert?" Hadrik says. "Scared already?"
+"What is the matter, Albert? Running scared?"
 
-Shortly after Hadrik is done speaking, I feel a sharp pain coming from the right side of my abdomen, and when I look down I realize that I am already bleeding. I quickly put some pressure on the wound with my hand to stop the blood from coming out, but it hurts like hell, and it's making it very difficult for me to concentrate.
+Right as the words leave Hadrik's mouth, a blade punches into the right side of my abdomen. The steel bites deep and twists before sliding free. Hot blood coats my shirt. I press a palm hard against the puncture, gritting my teeth through the white-hot flare of pain, fighting to keep my vision from tunneling.
 
-"Ah, crap!" Daren says. "Barry, hang on, I'm coming over!"
+"Barry!" Daren shouts, lunging toward me with hands glowing faint white. "Hold on, I am--"
 
-Before he even takes his first step towards me, we hear a stifled groan coming from Daren as he puts his hand on the back of his left knee, which is now beginning to bleed.
+A muffled grunt cuts him off. Daren stumbles, catching himself on one knee as blood wells from behind his left knee.
 
-"What the hell, man?!" Daren shouts at Albert. "I was going to heal-- NGH!"
+"What is wrong with you?" Daren roars at the empty air. "I was going to heal--"
 
-As he was finishing his sentence, Daren got blasted by a powerful bolt of lightning that made him drop to one knee. It looks like the spell came from Peter, who finally decided to join the battle as well.
+A crack of lightning cuts through his sentence. Peter's bolt hits Daren square between the shoulder blades, driving him down against the stone.
 
-"Hey, that's not fair!" Hadrik says. "Since when is Peter a part of the test?"
+"That is out of line!" Hadrik bellows. "Since when is Peter part of this?"
 
 }
 #if(v_toughness > 0 && v_premonition < 2) {
  
 
-While I stand there, thinking of what to do next, Hadrik decides that he's done waiting and he chooses to taunt his opponent instead.
+Hadrik runs out of patience and bellows into the empty room.
 
-"What's the matter, Albert?" Hadrik says. "Scared already?"
+"What is the matter, Albert? Running scared?"
 
-Shortly after Hadrik is done speaking, I feel a sharp pain coming from the right side of my abdomen, and when I look down I realize that I am already bleeding. The assassin's invisible blade was apparently sharp enough that even with my level of toughness it could pass through my skin and muscles as if they were paper. I quickly put some pressure on the wound with my hand to stop the blood from coming out, but it hurts like hell, and it's making it very difficult for me to concentrate.
+Right as the words leave Hadrik's mouth, a blade punches into the right side of my abdomen. The unseen steel slices through flesh and muscle as though my toughness stat were parchment. Hot blood coats my shirt. I press a palm hard against the puncture, gritting my teeth through the white-hot flare of pain, fighting to keep my vision from tunneling.
 
-"Ah, crap!" Daren says. "Barry, hang on, I'm coming over!"
+"Barry!" Daren shouts, lunging toward me with hands glowing faint white. "Hold on, I am--"
 
-Before he even takes his first step towards me, we hear a stifled groan coming from Daren as he puts his hand on the back of his left knee, which is now beginning to bleed.
+A muffled grunt cuts him off. Daren stumbles, catching himself on one knee as blood wells from behind his left knee.
 
-"What the hell, man?!" Daren shouts at Albert. "I was going to heal-- NGH!"
+"What is wrong with you?" Daren roars at the empty air. "I was going to heal--"
 
-As he was finishing his sentence, Daren got blasted by a powerful bolt of lightning that made him drop to one knee. It looks like the spell came from Peter, who finally decided to join the battle as well.
+A crack of lightning cuts through his sentence. Peter's bolt hits Daren square between the shoulder blades, driving him down against the stone.
 
-"Hey, that's not fair!" Hadrik says. "Since when is Peter a part of the test?"
+"That is out of line!" Hadrik bellows. "Since when is Peter part of this?"
 
 }
 #if(v_premonition >= 2) {
  
 
-While I stand there, thinking of what to do next, I suddenly get a premonition in which I see myself being stabbed in the right side of the abdomen by an invisible blade. I'm also pretty sure that Hadrik was about to say something right before I got attacked in the vision.
+A flash of foresight hits me: a cold, unseen blade driving into my right flank, right after Hadrik taunts our opponent.
 
-My attacker should be coming from the right side, so as long as I can figure out when exactly he will strike, I should be able to--
+The strike will come from the right. If I time the pivot with Hadrik's voice--
 
-"What's the matter, Albert?" Hadrik asks all of a sudden. "Scared already?"
+"What is the matter, Albert?" Hadrik taunts on cue. "Running scared?"
 
-As soon as I hear Hadrik's words, I know exactly what will happen next, and I immediately turn to my right, extending my arms in front of me in order to grab onto Albert right before he attacks me. My attempt is successful, as the assassin is now slowly turning visible again, while trying to break free of my grasp.
+I spin right, driving both arms forward into the empty air. My fingers clamp onto solid wrists, tearing the shroud. Albert's outline flickers back into view, wrestling frantically against my grip.
 
-"You'd better let go of me if you don't want to lose an arm," Albert says, in a menacing tone. "I'm warning you."
+"Let go if you want to keep that arm," Albert warns, his voice low and vicious.
 
-"Lose an arm?" I say. "In a mock battle? Don't you think you're taking this a little too personally?"
+"Taking off limbs in a mock battle?" I snap back. "Don't you think you are taking this a little too personally?"
 
 }
 #if(v_premonition >= 2 && v_aura_hardening < 4) {
- All of a sudden an intense pain takes hold of me, as I feel a powerful electric current passing through my body. Albert, on the other hand, seems completely unaffected by the lighting attack even though I'm still holding him by the arms, and he takes advantage of my loss of focus to break himself free and to turn invisible again.
+ A jagged pulse of lightning rips through my chest. Agony locks my muscles in place, the electrical surge tearing my grip from Albert's wrists. He slips through my fingers, untouched by the charge, and melts back into the shadows.
 
-Damn it, I lost sight of him again. How is he still fine after getting shocked like that? Does he have some item that makes him immune against electric attacks?
+I lost him. He absorbed the lightning without flinching—an insulated charm or an electrical ward.
 
-"What the hell?" Daren says. "Since when is Peter a part of the test? You never told us that he would be shooting lightning at-- NGH!"
+"What is this?" Daren shouts, turning on the king. "Peter was not in the deal! You never said he would cast--"
 
-As Daren was talking, Albert apparently took advantage of his confusion to stab him in the back of his knee, because I can see some blood dripping along his ankle.
+A muffled gasp cuts him off. Albert strikes from the blind spot, driving a blade into the back of Daren's knee. Blood streams down the healer's greave.
 
 }
 #if(v_aura_hardening >= 4 && v_premonition >= 2) {
- All of a sudden, I feel a powerful electric current passing through my body. While this may be a rather painful sensation, it is definitely not unmanageable. I probably have my aura hardening stat to thank for my increased resistance to lightning attacks.
+ A jagged pulse of lightning rips through my chest. The current burns, but my hardened aura absorbs the worst of the impact, keeping my muscles from seizing.
 
-While I'm still being shocked, Albert tries to free himself again but I hold onto him tight and do not let him go. The assassin does not seem to be affected at all by the electric attack, even if I'm holding him by the arms. Does this mean that he has some sort of item granting him immunity against electricity?
+I dig my heels in and clamp down harder on Albert's wrists. The lightning leaves him completely unaffected despite my grip—an insulated charm or an electrical ward.
 
-"What the hell?" Daren says, as he turns towards the king of the underground. "Since when is Peter a part of the test? You never told us that he would be shooting lightning at-- NGH!"
+"What is this?" Daren shouts, turning toward the throne. "Peter was not in the deal! You never said he would cast--"
 
-As Daren was talking, Peter changed his mind and decided to target him instead of me, casting a lightning spell on Daren as soon as he exposed his back to him.
+Peter redirects his hands. A blinding white bolt slams into Daren's exposed back, driving him down with a choked cry.
 
 }
 choice("Continue", B3-Ch05b-Obscure, v_current_scene = B3-Ch05b-Obscure)
@@ -650,56 +648,56 @@ ID: B3-Ch05b-Obscure
 TEXT:
 
 #if(v_b3_ch5_fight < 4) {
- "Surely you didn't think that you would only be fighting Albert in the second phase of the test, did you?" the king of the underground says. "Peter was obviously only giving you a head start. That is the only reason why he hadn't attacked you until now."
+ "Did you honestly expect phase two to consist only of Albert?" the king of the underground asks. "Peter was simply granting you a handicap. That is the only reason he held his spells."
 
-When Kate hears what the king had to say, she immediately conjures three ice cones out of thin air and she sends them flying towards him. Sadly, the icicles don't even get close to their target, as they are all easily deflected by an invisible force.
+Kate's hand snaps out, conjuring three jagged ice cones and launching them at the throne. An invisible barrier flares, shattering the projectiles into powder before they reach the dais.
 
-"A solid effort!" the king tells Kate. "But not good enough, I'm afraid."
+"A valiant effort," the king says. "Yet insufficient."
 
-Once again, the king pushes every one of us except Melindra and Leila into the ground with his invisible force, but this time he also uses his aura manipulation technique to twist Daren's right wrist until he lets go of his sword. The king then makes the sword float all the way to his position, and he grabs it in his hand.
+Once again, the crushing aura slams down from above, flattening us to the flagstones—leaving only Melindra and Leila standing. The king twists his fingers; an unseen torque wrench snaps Daren's wrist back until the sword clatters from his grip. The blade lifts into the air and drifts smoothly across the room into the king's open palm.
 
-"As Kate has already guessed, phase two was in fact a fight against Albert, Peter and me," the king of the underground says. "We weren't really expecting you to win, but we at least wanted to see how much of a fight you could put up. Unfortunately, even though you were able to undo my aura manipulation technique during the first phase, you weren't able to incapacitate a single one of us in the second part of the test, despite the fact that Peter and I left you plenty of time to do something about Albert. As a result, I am sad to say that you have failed our test."
+"As Kate deduced, phase two was a combined assault from Albert, Peter, and myself," the king says. "We did not expect a victory, but we wanted to measure your resolve. Though you severed my initial aura lock, you failed to neutralize a single combatant in the second phase, despite having ample opportunity with Albert. Therefore, you have failed the trial."
 
- He then eases the pressure above us so that we can get back up.
+The crushing pressure recedes, allowing us to push up from the stone.
 
-"I expect to see you gone from our base as soon as you're done saying your goodbyes," the king says. "Unless of course you were speaking the truth about still wanting to heal the sick people from the quarantine area, in which case, you will of course be allowed to return one more time."
+"I expect your departure once you make your preparations," the king says. "Unless your vow to cure the quarantine ward remains genuine, in which case you may return one final time."
 
-"I wasn't lying," Daren says, as he casts a quick healing spell on himself and then heads towards me to heal me as well. "I will heal all of those people."
+"I do not make empty vows," Daren says, white light flaring across his own wounds before he kneels to mend the puncture in my side. "I will cure every patient in that ward."
 
-"As you wish," the king of the underground says, and then he makes Daren's sword fly back into his hand. "Here is your sword. You might want to take better care of it from now on. What I personally recommend is that you learn some basic aura manipulation. It is easy to use on objects that you are very familiar with, and it would help you to retrieve your sword when it gets stolen from you again. Just keep practicing until you can make your sword fly back to your hand from at least fifty feet away. I'm sure that you'll get the hang of it eventually."
+"As you will," the king says, flicking his wrist to float Daren's sword back into the healer's grip. "Your weapon. Take better care of it. I suggest practicing basic aura manipulation. Binding your intent to a familiar object allows you to summon it from fifty paces away when disarmed. With practice, you will master the technique."
 
-"Thank you for the hint," Daren says. "I'll see if I can figure it out."
+"Thank you for the advice," Daren says, sheathing the steel. "I will work on it."
 
 }
 #if(v_b3_ch5_fight >= 4) {
- "Surely you didn't think that you would only be fighting Albert in the second phase of the test, did you?" the king of the underground says. "Peter was obviously only giving you a head start. That is the only reason why he hadn't attacked you until now."
+ "Did you honestly expect phase two to consist only of Albert?" the king of the underground asks. "Peter was simply granting you a handicap. That is the only reason he held his spells."
 
-When Kate hears what the king had to say, she immediately conjures three ice cones out of thin air and she sends them flying towards him. Sadly, the icicles don't even get close to their target, as they are all easily deflected by an invisible force.
+Kate's hand snaps out, conjuring three jagged ice cones and launching them at the throne. An invisible barrier flares, shattering the projectiles into powder before they reach the dais.
 
-"A solid effort!" the king tells Kate. "But not good enough, I'm afraid."
+"A valiant effort," the king says. "Yet insufficient."
 
-Once again, the king pushes every one of us except Melindra and Leila into the ground with his invisible force, but this time he also uses his aura manipulation technique to twist Daren's right wrist until he lets go of his sword. The king then makes the sword float all the way to his position, and he grabs it in his hand.
+Once again, the crushing aura slams down from above, flattening us to the flagstones—leaving only Melindra and Leila standing. The king twists his fingers; an unseen torque wrench snaps Daren's wrist back until the sword clatters from his grip. The blade lifts into the air and drifts smoothly across the room into the king's open palm.
 
-"As Kate has already guessed, phase two was in fact a fight against Albert, Peter and me," the king of the underground says. "We weren't really expecting you to win, but we at least wanted to see how much of a fight you could put up. I will say that it was not a bad performance. I wasn't expecting you to be able to both capture and hold onto Albert for as long as you did, and I also didn't think that Daren would be able to use his sword to undo my aura manipulation technique. Seeing you in action made me think that we might actually be able to work together to achieve our common goals. Congratulations! You have passed the test."
+"As Kate deduced, phase two was a combined assault from Albert, Peter, and myself," the king says. "We did not expect a victory, but we wanted to measure your resolve. You performed remarkably well. Pinning Albert and sustaining your grip was no small feat, and Daren severing my aura lock was unexpected. Seeing your coordination gives me confidence that our alliance can succeed. Congratulations. You have passed the trial."
 
- He then eases the pressure above us so that we can get back up.
+The crushing pressure recedes, allowing us to push up from the stone.
 
-"Wonderful," Daren says. "Can I have my weapon back, now?"  
+"Splendid," Daren grunts, rising and dusting off his armor. "May I have my sword back?"
 
-"Of course," the king of the underground says, and then he makes Daren's sword fly back into his hand. "Here is your sword. You might want to take better care of it from now on. What I personally recommend is that you learn some basic aura manipulation. It is easy to use on objects that you are very familiar with, and it would help you to retrieve your sword when it gets stolen from you again. Just keep practicing until you can make your sword fly back to your hand from at least fifty feet away. I'm sure that you'll get the hang of it eventually." 
+"Of course," the king says, flicking his wrist to float Daren's sword back into the healer's grip. "Your weapon. Take better care of it. I suggest practicing basic aura manipulation. Binding your intent to a familiar object allows you to summon it from fifty paces away when disarmed. With practice, you will master the technique."
 
-"Huh," Daren says. "I never actually tried doing anything of the sort, but I guess it's worth a shot. Thanks."
+"I have never tried manipulating aura around steel," Daren says, testing the hilt. "Worth a try. Thanks."
 
 }
- "If you don't mind me asking," Hadrik says, as he looks at the king, "how exactly did you come to learn a technique as obscure as aura manipulation? And how did you get so good at it?"
+ "If you don't mind me asking," Hadrik says, looking at the throne, "how did you learn a technique as obscure as aura manipulation? And how did you hone it to this level?"
 
-"He most likely learned it from the captain of the royal guards," Kate says. "Their techniques are much too similar for it to be a coincidence."
+"He learned from the captain of the royal guard," Kate says. "Their methods are identical."
 
-"Your friend is correct," the king of the underground tells Hadrik. "The current guard captain and I both used to serve as royal guards a long time ago, and he was the one who taught me everything I know regarding aura manipulation. Sadly, I couldn't convince him to come with me and help me form this underground kingdom when I left the royal guards some twenty-five years ago, so we are not exactly on friendly terms anymore nowadays. From what I've heard, he's still searching for pupils, but to this day he hasn't managed to find anyone else that was talented enough to learn anything beyond the most basic aura manipulation techniques."
+"Your friend has a sharp eye," the king tells Hadrik. "The current guard captain and I served together in the royal guard decades ago. He taught me everything I know regarding aura manipulation. I could not persuade him to defect when I broke away twenty-five years ago, so we are hardly on friendly terms today. He continues to search for apprentices, but none have shown the aptitude to grasp anything beyond rudimentary tricks."
 
-"Well, that's definitely good news for us," Daren says. "We wouldn't have stood a chance against them if they had a whole army of skilled aura manipulators on their side."
+"That works in our favor," Daren says. "If the palace fielded a legion of aura manipulators, we would stand no chance."
 
-"Indeed," the king of the underground says. "Now, I do not want to be rude, but Albert, Peter and I still have some things that we need to discuss in private in regards to our current refugee situation, so if you have any more questions, I would appreciate it if you could keep them brief."
+"Indeed," the king says. "Now, Albert, Peter, and I must confer privately regarding the refugee crisis. If you have further questions, keep them brief."
 
 choice(""Why did none of you attack Melindra and Leila during the test?"", B3-Ch05b-Tunnel, v_current_scene = B3-Ch05b-Tunnel, v_b3_ch5_brief = 0)
 choice(""Why did you become a royal guard?"", B3-Ch05b-Tunnel, v_current_scene = B3-Ch05b-Tunnel, v_b3_ch5_brief = 1)
@@ -712,59 +710,59 @@ TEXT:
 #if(v_b3_ch5_brief == 0) {
  "Why did none of you attack Melindra and Leila during the test?"
 
-"Well, Melindra invited you here specifically because she couldn't hurt locals herself," the king says, "so testing her would have been a little pointless, don't you think? And as for Leila, she is not one of the people that were involved in the murder of the Earl of Ollendor as far as I am aware, so we were never going to kick her out, especially since she's also the daughter of doctor Reidzek. Whether she wants to stay here or join you in the battle against the king of Ollendor is of course another matter altogether. Anyway, I believe you should all know the way to the teleporter room by now, so hopefully you'll forgive us for not escorting you on your way out. I bid you farewell!"
+"Melindra brought you here precisely because the continental ward prevents her from harming locals," the king says. "Testing her would have been pointless. And as for Leila, she had no part in the Earl of Ollendor's death, so we had no grounds to expel her—especially given that she is doctor Reidzek's daughter. Whether she remains in our tunnels or marches with you against the palace is entirely her decision. You know the way to the teleporter hall. Forgive us for foregoing the escort. Farewell."
 
 }
 #if(v_b3_ch5_brief == 1) {
  "Why did you become a royal guard?"
 
-"What can I say?" the king answers me. "There was a time when I used to be young and naive. Our schools are made in such a way that they brainwash you from a very young age into thinking that our kingdom is the greatest of them all, that the royalty is always working for the good of the people and that there could be no greater honor than to be a royal guard. My parents avoided telling me their true opinions about our kingdom out of fear that I might give them away to my school teachers by mistake, so I only found out how the world really worked after I began serving as a royal guard. This discovery was of course what led me to leave the royal guards at the age of twenty-nine and to form my very own little kingdom here, in these underground tunnels. Anyway, I hope this answer satisfied your curiosity. I believe you should all know the way to the teleporter room by now, so hopefully you'll forgive us for not escorting you on your way out. I bid you farewell!"   
+"Youth and naivety," the king replies with a faint sigh. "The academies condition children from infancy to believe the crown exists to protect the people, and that wearing the royal crest is the highest honor in the realm. My parents kept their true thoughts secret, terrified I would repeat their grievances to an instructor. I only saw how the kingdom truly operated after I donned the armor. That realization drove me to desert the guard at twenty-nine and carve out our own settlement in these deep tunnels. I trust that satisfies your curiosity. You know the way to the teleporter hall. Forgive us for foregoing the escort. Farewell."
 
 }
 #if(v_b3_ch5_brief == 2) {
  "Do you and the royal guard captain have mage specializations aside from aura manipulation?"
 
-"Not necessarily specializations, but we can use regular spells like other mages," the king of the underground says. "The captain of the guards likes to use his aura manipulation most of the time, because it's very effective and hard to counter, but he's been known to also use other types of spells whenever he felt like he was being cornered. We don't know exactly how many spells he can cast, so I recommend being careful when you fight with him, even if it feels like you are gaining the upper hand during a battle. Anyway, I hope this has answered your question. I believe you should all know the way to the teleporter room by now, so hopefully you'll forgive us for not escorting you on your way out. I bid you farewell!" 
+"Not formal specializations, though we cast conventional spells like other mages," the king says. "The captain favors aura manipulation for its sheer efficiency, but he will deploy other disciplines if pressed into a corner. We cannot predict his full repertoire, so maintain your guard even if you seem to hold the advantage. I trust that answers your question. You know the way to the teleporter hall. Forgive us for foregoing the escort. Farewell."
 
 }
 #if(v_b3_ch5_brief == 0 || v_b3_ch5_fight >= 4) {
   "Right, right," I say. "Goodbye, I guess."
 
-As we are about to exit the throne room, we hear some whispers behind us, and soon afterwards the king calls out to us.
+As we turn toward the archway, Peter leans down to whisper something to the king, and the king raises his voice.
 
 }
 #if(v_b3_ch5_fight < 4 && v_b3_ch5_brief != 0) {
  "Right, right," I say. "Goodbye, I guess."
 
-"Oh, and just to be clear..." the king of the underground says. "Leila was not being tested along with the rest of you earlier. As far as I know, she was not involved in the murder of the Earl of Ollendor, so there is no reason for us to kick her out of our base, especially since she is also the daughter of doctor Reidzek. That being said, she can obviously still join you in the fight against the king of Ollendor, if that is her wish."
+"To be clear," the king calls after us, "Leila was not subject to the trial. She had no hand in the earl's death, so we have no reason to exile her, particularly as doctor Reidzek's daughter. She remains free to join your assault against the palace if she chooses."
 
-"I understand," Leila writes. "Thank you for letting me know."
+"I understand," Leila writes, blue letters glowing in the air. "Thank you for letting me know."
 
-As we are about to exit the throne room, we hear some whispers behind us, and soon afterwards the king calls out to us.
+As we turn toward the archway, Peter leans down to whisper something to the king, and the king raises his voice.
 
 }
 #if(v_b3_ch4_billy == 9) {
- "One moment, please…" the king says. "Peter has just reminded me of something that I think you might want to know about before you return to the surface. In short, we've noticed that the flying metal balls have stopped patrolling the skies at some point during the night. Most of them are now just hovering somewhere above the city, without moving at all from their positions. I've heard from Breynan that Billy Bob may have had a reason to deactivate the Overseer after finding out about his betrayal, but it is unclear to us if the deactivation actually took place, or if he's just trying to reprogram him to be more obedient. Either way, I would be careful if I were you. There's no telling what the lessathi is thinking."
+ "One moment..." the king says. "Peter reminds me of a development you should know before ascending. The hovering metal sentries ceased their patrols during the night. Most hang motionless above the rooftops. Breynan reports Billy Bob had cause to deactivate the Overseer after discovering his betrayal, though whether he disabled the unit or is reprogramming its parameters remains unclear. Exercise caution. Lessathi intentions are never simple."
 
-"Alright," Daren says. "We'll try to be careful. Farewell!"
+"Understood," Daren says. "We will stay vigilant. Farewell."
 
-We then go out through the door and into the tunnel outside, as we begin to head for the waiting room.
+We step through the heavy wooden door into the corridor, retracing our path toward the staging hall.
 
 }
 #if(v_b3_ch4_billy <= 6 && v_b3_ch4_billy != 0 || v_b3_ch4_billy == 7 || v_b3_ch4_billy == 8) {
- "One moment, please…" the king says. "Peter has just reminded me of something that I think you might want to know about before you return to the surface. In short, we've noticed that the flying metal balls have no longer been following their usual patrol routes since yesterday evening, and they've also been behaving quite erratically. I heard from Breynan that you killed Billy Bob yesterday, so this may be a part of the reason, but I would be careful if I were you. Something tells me that the Overseer is planning something big, and you might not want to be caught in the middle of it."
+ "One moment..." the king says. "Peter reminds me of a development you should know before ascending. The hovering metal sentries broke from their standard patrol routes last evening, drifting erratically across the skyline. Breynan reports you executed Billy Bob yesterday, which may explain the disruption, but stay vigilant. The Overseer is preparing something substantial."
 
-"Alright," Daren says. "We'll try to be careful. Farewell!"
+"Understood," Daren says. "We will stay vigilant. Farewell."
 
-We then go out through the door and into the tunnel outside, as we begin to head for the waiting room.
+We step through the heavy wooden door into the corridor, retracing our path toward the staging hall.
 
 }
 #if(v_b3_ch4_billy == 0) {
- "One moment, please…" the king says. "Peter has just reminded me of something that I think you might want to know about before you return to the surface. In short, we've noticed that the flying metal balls have no longer been following their usual patrol routes since yesterday evening, and they've also been behaving quite erratically. Considering that Billy Bob was summoned to the palace last night, it is possible that the king has ordered him and the Overseer to take an active role in pursuing you from now on. I would definitely be careful if I were you. Those two are not the type of enemies that you would want to take lightly."
+ "One moment..." the king says. "Peter reminds me of a development you should know before ascending. The hovering metal sentries broke from their standard patrol routes last evening, drifting erratically across the skyline. Billy Bob was summoned to the palace last night; the crown may have ordered him and the Overseer to actively pursue you. Do not underestimate either of them."
 
-"Alright," Daren says. "We'll try to be careful. Farewell!"
+"Understood," Daren says. "We will stay vigilant. Farewell."
 
-We then go out through the door and into the tunnel outside, as we begin to head for the waiting room.
+We step through the heavy wooden door into the corridor, retracing our path toward the staging hall.
 
 }
 choice("Continue", B3-Ch05b-Workshop, v_current_scene = B3-Ch05b-Workshop)
@@ -773,29 +771,29 @@ choice("Continue", B3-Ch05b-Workshop, v_current_scene = B3-Ch05b-Workshop)
 ID: B3-Ch05b-Workshop
 TEXT:
 
- "So, did any of you guys know that the king of the underground and Peter were mages before they revealed their powers to us earlier?" Leila writes to us, as we walk further down the corridor. "I was honestly taken completely by surprise..."
+ "Did any of you know the king and Peter were mages before they unleashed their power?" Leila's blue script hangs in the air as we walk down the tunnel. "It took me completely by surprise..."
 
-"You could tell that they were mages if you looked closely at their auras, but I'll admit that the king's level of power surprised me a little as well," Melindra says. "I did not realize that he was suppressing the magic in his aura to such a degree."
+"You could detect magical traces in their auras if you watched closely, but the king's degree of suppression was impressive," Melindra says. "Even I did not expect him to mask that much reserve."
 
-"Let's hope that we won't need to fight them in the future," Daren says. "We've already got our hands full with the royal guards and the rest of the king's army as it is."
+"Let us hope we never face them in earnest," Daren says. "We have enough to manage with the royal guard and the garrison as it is."
 
-A few minutes later when we reach the waiting room, Daren tells us to wait for him while he goes to get Kelrim from the quarantine area. Meanwhile, Leila takes this opportunity to pay a quick visit to her father's workshop, so she can tell him where we're headed. As we are waiting for the two of them to return, Flower tries once again to begin a conversation with Illuna, although it looks like she's still being ignored.
+We reach the crowded waiting room a few minutes later. Daren tells us to hold position while he heads into the quarantine ward to collect Kelrim. Leila darts down the side passage toward her father's workshop to brief him before we ascend. While we wait, Flower stares into space, trying once again to reach Illuna.
 
- "Illuna, are you done learning that spell yet?" Flower says. "Illuna, come on... I need to talk to you about something. It's... It's about the way I've been acting lately... Hey, are you listening to me?"
+"Illuna, are you finished with that spell yet?" Flower mutters aloud, fidgeting with the strap of her top. "Illuna, please... I need to talk to you. It is about how I have been acting lately... Are you listening to me?"
 
-"You still haven't talked to her yet?" I ask Flower.
+"Still shutting you out?" I ask.
 
-"No!" Flower says. "I have no idea what she's doing! Even during that fight with the king of the underground and his men I could barely get her to pay attention."
+"Completely!" Flower huffs. "I have no idea what she is doing. She barely even looked up while the king had us pinned flat to the floor."
 
-"Okay, I found Kelrim!" Daren says in a loud voice, as he and the goblin are now walking out of the quarantine zone. "Are you all ready to go?"
+"Kelrim is with us!" Daren's voice carries across the hall as he emerges from the quarantine archway beside the goblin. "Are we set?"
 
-"We're still waiting for Leila," I tell him. "She went to tell her father that we're going to the--"
+"Waiting on Leila," I say. "She went to tell her father we are heading for the--"
 
-"I'm back!" we see Leila's writing in front of us, as she is now running towards us. "We can go now."
+A streak of silver hair rounds the corner, blue letters spelling out ahead of her: "I am back! We can move."
 
-"Have you been running this whole time?" I ask Leila when she gets closer. "You're sweating like crazy!"
+"Did you sprint the entire way?" I ask as she skids to a halt beside us. "You are drenched in sweat."
 
-"Considering that I have my speed stat maxed, I may as well be using it, right?" Leila writes, as she is still breathing a bit heavily. "Don't worry about me. I'll just rest while we walk."
+"I have the speed stat maxed, so I may as well use it," Leila writes, her chest heaving as she catches her breath. "Do not worry about me. I will recover while we walk."
 
 choice(""Hey, I'm sure we can wait two more minutes for you to catch your breath!"", B3-Ch05b-Birthday, v_current_scene = B3-Ch05b-Birthday, v_b3_ch5_breath = 1)
 choice(""Well, if you're sure you're fine then I suppose we should get going."", B3-Ch05b-Birthday, v_current_scene = B3-Ch05b-Birthday, v_b3_ch5_breath = 0)
@@ -807,88 +805,92 @@ TEXT:
 #if(v_b3_ch5_breath == 1) {
  "Hey, I'm sure we can wait two more minutes for you to catch your breath!" I say. "Right, Daren?"
 
-"Oh yeah, sure!" Daren says. "It's not a problem."
+"Of course," Daren says with a warm nod. "Take a moment."
 
-We decide to wait a few more minutes until Leila is good to go, and then we begin to head for the exit that leads towards the room with the teleporter. Just as we are about to make our first steps, we hear Flower's voice, as her eyes turn bright blue.
+We hold our position for a couple of minutes while Leila catches her breath, and then we turn toward the corridor leading to the teleporter chamber. Before we take three paces, Flower halts, her eyes flashing bright electric blue.
 
-"Wait!" Illuna says, and we all stop in our tracks.
+"Wait!" Illuna's crisp voice rings out.
 
-"Illuna?" Flower says. "Are you finally done practicing that spell?"
+"Illuna?" Flower asks. "Are you finally finished with that spell?"
 
-"I wouldn't say it's completely done, but at least I managed to get all the letters right," Illuna says."Step aside. I'm going to be conjuring a lot of plates."
+"I would not call it a masterpiece, but at least every letter is spelled correctly," Illuna says. "Step back. I need room for the plates."
 
-Illuna then makes some gestures with her hands, and a large plate with a chocolate cake appears on the ground in front of us, along with several other small plates that are surrounding the larger plate and that each have a knife and a fork on top of them. There are a lot of unlit candles on top of the cake, and now that I take a better look at it, I see that there are also letters written on its surface with frosting. The letters spell 'Happy birthday Flower!'.
+Illuna weaves her fingers through a precise sequence of gestures. A wide platter materializes on the stone before us, bearing a layered chocolate cake surrounded by a ring of smaller porcelain plates, each set with a knife and fork. Thirty unlit wax candles bristle across the top. Frosted lettering loops across the dark surface: 'Happy birthday Flower!'.
 
-"I’m not as good as Flower at using the food creation spell so I needed a little time to make all the preparations, " Illuna says, "but I think that--"
+"Food creation is Flower's specialty, so the preparations took longer than I intended," Illuna says, "but I believe that--"
 
- "Today is Flower's birthday?!" Kate asks, shocked, when she gets closer and reads the letters on the cake.
+"Today is Flower's birthday?!" Kate gasps, stepping closer to read the frosting in disbelief.
 
-"Yes, that is what the writing on the cake says," Illuna answers her, bluntly.
+"That is what the frosting says," Illuna replies flatly.
 
-"Flower, why didn't you tell us that it was your birthday today?" Kate says.
+"Flower, why didn't you tell us?" Kate asks.
 
-"Well, everyone had more important things to worry about, so I didn't really want to-- hold on a minute..." Flower says, as she gets close to the cake and then begins to count the candles one by one, using her index finger.
+"Everyone had more pressing matters to deal with, so I did not want to-- wait..."
 
-Once she is done counting them the first time, she starts to count them again but much slower, as if it was hard for her to believe what she was seeing.
+Flower drops to her knees beside the cake, tracing the candles one by one with an outstretched index finger.
 
-"I-I-Illuna..." Flower says, in a trembling voice. "A-are there exactly thirty candles on top of this cake?"
+She finishes the count, pauses with her finger suspended, and counts them again much slower, mouthing each number in disbelief.
 
-"Of course there are," Illuna says. "You can still count, can't you?"
+"I-Illuna..." Flower whispers, her voice trembling. "Are there... are there exactly thirty candles on this cake?"
 
-"D-does this mean what I think it means?" Flower says.
+"Of course there are," Illuna says. "Your arithmetic is intact, is it not?"
 
-"No, this does not mean that I now consider you to be an adult," Illuna says. "And no matter how many times you will call me Illuna or act as if you were a grown-up, that is still not going to change. However... I've given this some more thought, and I've... arrived at the conclusion that I CAN make a concession and accept to call you a thirty-year-old, if it really means that much to you... It will still take a little bit of time getting used to the idea, but--"
+"D-does this mean what I think it means?"
+
+"No, this does not mean I consider you an adult," Illuna says. "And no matter how many times you adopt a grave voice or address me as Illuna, that will not change. However... I reflected on our discussion. I arrived at the conclusion that I can make a concession and accept to call you thirty, if the number means that much to you. It will take time to accustom myself to the phrasing, but--"
 
 }
 #if(v_b3_ch5_breath == 0) {
  "Well, if you're sure you're fine then I suppose we should get going."
 
-Shortly after I'm done talking, we all begin to head for the exit that leads towards the room with the teleporter. Just as we are about to make our first steps, we hear Flower's voice, as her eyes turn bright blue.
+We turn toward the corridor leading to the teleporter chamber. Before we take three paces, Flower halts, her eyes flashing bright electric blue.
 
-"Wait!" Illuna says, and we all stop in our tracks.
+"Wait!" Illuna's crisp voice rings out.
 
-"Illuna?" Flower says. "Are you finally done practicing that spell?"
+"Illuna?" Flower asks. "Are you finally finished with that spell?"
 
-"Well, I could have used a few more minutes to at least get all the letters right, but let's say it's mostly done," Illuna says. "Step aside. I'm going to be conjuring a lot of plates."
+"A few more minutes would have let me fix the spelling, but the structure holds," Illuna says. "Step back. I need room for the plates."
 
-Illuna then makes some gestures with her hands, and a large plate with a chocolate cake appears on the ground in front of us, along with several other small plates that are surrounding the larger plate and that each have a knife and a fork on top of them. There are a lot of unlit candles on top of the cake, and now that I take a better look at it, I see that there are also letters written on its surface with frosting. The letters spell 'Happy birday Flower!'.
+Illuna weaves her fingers through a precise sequence of gestures. A wide platter materializes on the stone before us, bearing a layered chocolate cake surrounded by a ring of smaller porcelain plates, each set with a knife and fork. Thirty unlit wax candles bristle across the top. Frosted lettering loops across the dark surface: 'Happy birday Flower!'.
 
-"Happy 'birday' Flower?" Hadrik asks.
+"Happy 'birday' Flower?" Hadrik asks, tilting his head.
 
-"It's obviously supposed to say 'birthday', but I already said that I didn't have time to--" Illuna says.
+"It was meant to say 'birthday,' but as I noted, time ran short--" Illuna snaps, her brow furrowing.
 
-"Today is Flower's birthday?!" Kate asks, shocked.
+"Today is Flower's birthday?!" Kate gasps, stepping closer in shock.
 
-"Yes, that's what the cake is for," Illuna says, mildly annoyed.
+"That is why the cake exists," Illuna says, mildly annoyed.
 
- "Flower, why didn't you tell us that it was your birthday today?" Kate says.
+"Flower, why didn't you tell us?" Kate asks.
 
-"Well, everyone had more important things to worry about, so I didn't really want to-- hold on a minute..." Flower says, as she gets close to the cake and then begins to count the candles one by one, using her index finger.
+"Everyone had more pressing matters to deal with, so I did not want to-- wait..."
 
-Once she is done counting them the first time, she starts to count them again but much slower, as if it was hard for her to believe what she was seeing.
+Flower drops to her knees beside the cake, tracing the candles one by one with an outstretched index finger.
 
-"I-I-Illuna..." Flower says, in a trembling voice. "A-are there exactly thirty candles on top of this cake?"
+She finishes the count, pauses with her finger suspended, and counts them again much slower, mouthing each number in disbelief.
 
-"Of course there are," Illuna says. "You can still count, can't you?"
+"I-Illuna..." Flower whispers, her voice trembling. "Are there... are there exactly thirty candles on this cake?"
 
-"D-does this mean what I think it means?" Flower says.
+"Of course there are," Illuna says. "Your arithmetic is intact, is it not?"
 
-"No, this does not mean that I now consider you to be an adult," Illuna says. "And no matter how many times you will call me Illuna or act as if you were a grown-up, that is still not going to change. However... I've given this some more thought, and I've... arrived at the conclusion that I CAN make a concession and accept to call you a thirty-year-old, if it really means that much to you... It will still take a little bit of time getting used to the idea, but--"
+"D-does this mean what I think it means?"
+
+"No, this does not mean I consider you an adult," Illuna says. "And no matter how many times you adopt a grave voice or address me as Illuna, that will not change. However... I reflected on our discussion. I arrived at the conclusion that I can make a concession and accept to call you thirty, if the number means that much to you. It will take time to accustom myself to the phrasing, but--"
 
 }
- "Oh Petal, thank you so much!" Flower says in a very loud voice, as she now looks like she is hugging herself.
+ "Oh Petal, thank you so much!" Flower cries, throwing both arms around her own shoulders and squeezing the shared body in a desperate, breathless hug.
 
-"Can you at least control your body when you hug me inside your mind?" Illuna says. "Or do you not realize how ridiculous we both look right now?"
+"Can you at least restrain the physical frame while you embrace me internally?" Illuna grumbles. "Do you realize how absurd we look?"
 
-"I don't care!" Flower says, as she still continues to hug herself. "I don't want to let you go. I don't want to fight with you anymore. Please, please promise me that we won't ever have another fight like this for as long as we live! I swear that I won't try to act like someone I'm not anymore. I won't call you Illuna anymore. Just say that we will never have to go through something like this ever again!"
+"I don't care!" Flower shouts, squeezing harder. "I am not letting go! I don't want to fight with you anymore! Promise me we will never have another argument like that for as long as we live! I swear I won't pretend to be someone else. I won't call you Illuna anymore. Just tell me we will never go through that again!"
 
-"We were not fight--" Illuna begins to say, but then she interrupts herself. "Ugh... fine, I give up... You win. I promise that we will never have a fight again. Are you happy now?"
+"We were not fight--" Illuna begins, then sighs, the resistance draining away. "Fine. You win. I promise we will not fight again. Are you satisfied?"
 
-"Yes!" Flower says, beaming, as she finally stops hugging herself. "You have no idea how happy! Thank you!"
+"Yes!" Flower beams, her face glowing as she releases her grip. "More than anything! Thank you!"
 
-She then comes closer to me and Melindra and she grabs our hands, as she smiles at us.
+She bounds over to Melindra and me, grabbing our wrists with both hands.
 
-"And thank you both!" Flower says. "Thank you for all that you did for us!"
+"And thank you both!" Flower says, her smile radiating across the gloomy hall. "Thank you for everything you did!"
 
 choice("Continue", B3-Ch05b-Birthday2, v_current_scene = B3-Ch05b-Birthday2)
 
@@ -896,77 +898,77 @@ choice("Continue", B3-Ch05b-Birthday2, v_current_scene = B3-Ch05b-Birthday2)
 ID: B3-Ch05b-Birthday2
 TEXT:
 
- "Hey, cut it out!" Melindra says, pulling her hand away, as I see her getting flustered for the first time since I've met her. "There's no need to thank me! We're friends, remember? And besides, I barely even did anything!"
+ "Hey, stop that!" Melindra yanks her hand back, pink dusting her cheeks in the first flash of embarrassment I have ever seen on her. "There is no reason to thank me! We are friends, aren't we? Besides, I barely lifted a finger!"
 
-"That's not true!" Flower says. "You helped us a lot! You both did! Petal and I might have still been fighting today if it weren't for you! Thank you so much!"
+"That is not true!" Flower insists. "You helped us so much! Both of you did! Petal and I would still be shouting if you hadn't stepped in! Thank you!"
 
-"Ahem!" we hear Hadrik's voice, who is standing near the plates.
+"Ahem!" Hadrik's booming cough cuts through the hall.
 
-It looks like while the rest of us were busy talking, Hadrik used a tinderbox that he had in his backpack to light all of the candles on the cake.
+While the rest of us were caught in the commotion, Hadrik fished a tinderbox from his pack and knelt by the cake. Flame dances atop all thirty candles.
 
-"So, are you going to blow out these candles or what?" Hadrik asks Flower, as he is now holding the plate with the cake in his hands.
+"Are you going to blow these out or let the wax drown the frosting?" Hadrik asks, lifting the platter in his thick palms.
 
- "Yes!" Flower says, excited, as she runs towards the cake. "Yes, of course!"
+"Yes!" Flower laughs, darting to the cake. "Right now!"
 
-She then leans forward and she blows on the candles as hard as she can, until none of them are burning anymore. After we all wish her a happy birthday, she begins to cut slices of the cake and to share them with everyone around.
+She draws a massive breath and blows with everything she has, snuffing every flame in a single burst of smoke. We chorus our birthday wishes as she takes the knife, slicing wedges of chocolate cake and handing them around.
 
 #if(v_ch11_saved_rose == 1) {
- "It's too bad that Rose isn't here with us," I say. "It would have been nice to give her a slice of cake, considering that she helped out too last night."
+ "It is a shame Rose isn't here with us," I say, balancing my plate. "She deserved a slice after helping with the watch last night."
 
-"I know..." Flower says, as she is cutting another slice of cake. "I'll make sure to conjure another cake just for her the next time we meet. Here's your slice, Kelrim!"
+"I know..." Flower says, carving another piece. "I will conjure a fresh cake just for her the next time we meet. Here is your slice, Kelrim!"
 
-"Oh," Kelrim says, as he takes the plate with the slice of cake. "Thank you!"
+"Oh," Kelrim says, accepting the plate with both hands. "Thank you!"
 
-"You're welcome!" Flower says, as she now looks at the rest of us and sees that we each have a plate in our hands. "Hmm... I think I know what to do with this last slice."
+"Of course!" Flower smiles, glancing around our circle. "Hmm... that leaves one last slice."
 
-Flower conjures a small plate with a knife and fork and she puts the last slice of cake on it. She then goes over to the quarantine area entrance, and she extends her hands with the plate to Desmond, who is still guarding the door.
+Flower conjures a final small plate and sets the last wedge upon it. She skips across the hall toward the quarantine checkpoint, holding the plate out to Desmond, who stands guard with his spear.
 
-"It's my birthday!" Flower says, smiling, as Desmond looks at her confused.
+"It is my birthday!" Flower announces, beaming.
 
-"Oh..." Desmond says, as he grabs the plate from her hands. "Well, thanks, I guess..."
+Desmond blinks down at the porcelain, utterly bewildered. "Oh... well, thanks, I suppose..."
 
-As Flower is returning to us, Desmond calls out to her in a loud voice.
+As she skips back to our group, Desmond calls after her into the cavern.
 
-"Hey!" Desmond says. "Happy birthday!"
+"Hey! Happy birthday!"
 
-"Thank you!" Flower says, as she waves at him happily, and then she comes back to us.
+"Thank you!" Flower waves over her shoulder, jogging back to us.
 
 }
 #if(v_ch11_saved_rose == 0) {
- "Here is your slice, Kelrim!" Flower says, as she offers the second to last slice of the cake to the goblin.
+ "Here is your slice, Kelrim!" Flower says, offering the second-to-last piece to the goblin.
 
-"Oh," Kelrim says, as he takes the plate with the slice of cake. "Thank you!"
+"Oh," Kelrim says, accepting the plate with both hands. "Thank you!"
 
-"You're welcome!" Flower says, as she now looks at the rest of us and sees that we each have a plate in our hands. "Hmm... I think I know what to do with this last slice."
+"Of course!" Flower smiles, glancing around our circle. "Hmm... that leaves one last slice."
 
-Flower conjures a small plate with a knife and fork and she puts the last slice of cake on it. She then goes over to the quarantine area entrance, and she extends her hands with the plate to Desmond, who is still guarding the door.
+Flower conjures a final small plate and sets the last wedge upon it. She skips across the hall toward the quarantine checkpoint, holding the plate out to Desmond, who stands guard with his spear.
 
-"It's my birthday!" Flower says, smiling, as Desmond looks at her confused.
+"It is my birthday!" Flower announces, beaming.
 
-"Oh..." Desmond says, as he grabs the plate from her hands. "Well, thanks, I guess..."
+Desmond blinks down at the porcelain, utterly bewildered. "Oh... well, thanks, I suppose..."
 
-As Flower is returning to us, Desmond calls out to her in a loud voice.
+As she skips back to our group, Desmond calls after her into the cavern.
 
-"Hey!" Desmond says. "Happy birthday!"
+"Hey! Happy birthday!"
 
-"Thank you!" Flower says, as she waves at him happily, and then she comes back to us.
+"Thank you!" Flower waves over her shoulder, jogging back to us.
 
 }
- "Alright, I've served all the cake slices now," Flower tells us. "Let's get going!"
+ "All the cake is served," Flower announces. "Let's move!"
 
-"Huh?" Hadrik says, confused. "But we're not done eating yet."
+"Wait," Hadrik grunts, staring at his loaded plate. "We haven't finished eating yet."
 
-"You can finish eating while we walk!" Flower says. "Come on! I don't want anyone in the quarantine zone to die waiting for the cure because of me!"
+"You can eat while we walk!" Flower urges, tugging his leather sleeve. "Come on! No one in quarantine is dying while waiting on my account!"
 
-"Fine, fine," Hadrik says. "Let's head for the teleporter, then."
+"Fair enough," Hadrik laughs. "To the teleporter."
 
-We do what Flower says, and we take the small plates with us, as we walk towards the teleporter room. While we are travelling through the corridor, Hadrik pulls out a few very small mugs from his backpack with his free hand and he puts them on his plate, near the cake. He then takes out a bottle of dwarven ale and he begins to fill the mugs.
+We carry our plates down the passage, picking our way through the tunnel. As we walk, Hadrik reaches into his pack with his free hand, producing a handful of miniature wooden mugs and setting them beside his cake. He unhitches a clay bottle of dwarven ale and pours generous splashes into each cup.
 
-"Can't have a birthday without dwarven ale, right?" Hadrik says, and once he is done filling them up, he starts handing each of us a mug. "I've only poured a few sips' worth of ale for each of you. Wouldn't want you all to be getting drunk before a battle! Daren, I'm guessing that you're still not drinking during the day?"
+"A proper birthday requires dwarven ale," Hadrik says, passing the cups down the line. "Just a few mouthfuls each. No getting sloppy before a skirmish! Daren, I take it the daytime abstinence holds?"
 
-"Of course not!" Daren says.
+"Without exception," Daren replies firmly.
 
-"As always!" Hadrik says, while he hands me one of the mugs.
+"Reliable as granite!" Hadrik grins, thrusting a mug into my palm.
 
 choice("Continue", B3-Ch05b-Ending, v_current_scene = B3-Ch05b-Ending)
 
@@ -974,25 +976,25 @@ choice("Continue", B3-Ch05b-Ending, v_current_scene = B3-Ch05b-Ending)
 ID: B3-Ch05b-Ending
 TEXT:
 
- "Hey, so if I'm now officially thirty years old, does that mean that I get to drink alcohol?" Flower asks us, excited.
+ "So if I am officially thirty years old," Flower asks, her eyes wide with hope, "does that mean I get a cup of alcohol?"
 
-"No!" we all say in unison.
+"No!" we all chorus at once.
 
-"Aww..." Flower says.
+"Aww..." Flower pouts, her shoulders slumping.
 
-"Don't be too upset, Flower," Hadrik says, as he takes a sip from his mug. "You may not always be able to have everything you want in life, but that doesn't mean that you can't make the most of what you get! For example, you might not get to drink with us now, but just look at how many rocks are on the ground all around you. While the rest of us are busy with our drinking, you could be snatching up a rare rock that would put Melindra's collection to shame!"
+"Do not despair, Flower," Hadrik says, taking a hearty sip from his mug. "Life rarely hands you every prize at once, but that is no reason to waste the road. While we nurse our ale, look at the rubble beneath your feet! You could unearth a specimen that puts Melindra's collection to shame."
 
-"Nah," I tell Hadrik. "The rocks from here won't be any good for them. Half of them are too small, and the other half either don't have the right shades of colors or their surfaces are too smooth. I wouldn't be surprised if Melindra already got all the rocks that they would consider valuable the very first time when we walked through this tunnel."
+"Waste of time," I say, glancing at the debris along the wall. "The stones in this stratum are useless for a collection. Half of them are fractured chips, and the rest are either the wrong shade of sedimentary gray or worn too smooth by groundwater seepage. Melindra already picked the prime mineral specimens when we passed through yesterday."
 
- As all the others except Melindra are looking at me too shocked to speak, Flower lets out a loud gasp, while covering her mouth with both her hands.
+Dead silence drops over the corridor. Everyone stops mid-stride to stare at me in sheer disbelief. Flower gasps loudly, clamping both hands over her mouth.
 
-"Hey, what do you know!" Melindra says, with a smug smile as she pats me hard on the back. "Looks like spending the entire night shift teaching you about rocks wasn't a wasted effort after all! We'll make a rock collector out of you yet!"
+"Well, look at that," Melindra purrs, a triumphant smirk spreading across her face as she claps me hard on the back. "A whole night shift of mineralogy lectures was not wasted after all! We will make a proper collector out of you yet, Barry!"
 
-"I wouldn't count on it," I tell her.
+"Do not hold your breath," I tell her.
 
-"Oh my gods!" Flower says. "Barry actually learned to tell which types of rocks we like to collect. I can't believe it. This is the best birthday ever!"
+"Oh my gods!" Flower squeals, practically vibrating with excitement. "Barry actually knows which rocks we like! I can't believe it! This is the best birthday ever!"
 
-We ended up spending the rest of the trip towards the teleporter room eating cake, drinking dwarven ale and helping Flower pick up a few rocks from the cave that she would use to start her very own collection. The time we got to celebrate Flower's birthday was short, but even so, it looked like she genuinely enjoyed it, and so did we. By the time we were done eating our cake, all of us were feeling completely refreshed, and we were now ready to begin the next chapter of our adventure.
+We spend the rest of the trek to the teleporter chamber savoring chocolate cake, passing dwarven ale, and helping Flower gather distinctive stones from the bedrock to launch her new collection. The celebration was brief, carved out of a crisis, but her joy is infectious. By the time the last crumbs are gone, our fatigue has lifted, and our resolve is set for the road above.
 
 choice("Continue", B3-Ch05b-Credits, v_current_scene = B3-Ch05b-Credits)
 

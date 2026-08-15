@@ -2,80 +2,80 @@ ID: B3-Ch02c-Assassinate
 TEXT:
 
 #if(v_b3_ch2_gontrok == 3) {
- "Maybe somebody else is also trying to assassinate the king."
+"Maybe somebody else is also trying to assassinate the king."
 
-"That does bring up a good question..." Hadrik says. "If the king is already dead by the time we find him, wouldn't that mean that our enchanter's oath with Melindra would become voided?"
+"That brings up a fair question," Hadrik says, wiping grit from his beard. "If the king is already a corpse by the time we corner him, does that void our oath with Melindra?"
 
-"Voided or not, as long as you'd help me get what I want from him, I would still consider our agreement valid," Melindra says. "Of that much, you can be certain."
+"Dead or breathing, as long as you help pry loose what he took from me, the agreement stands," Melindra says. "You have my word on that."
 
-"We shouldn't stay here for too long," Daren says, as he grabs his sword from the ground and then starts slowly limping towards us. "Even if the royal guards are gone, the regular city guards could still be arriving here any minute. We should look for a place to hide, where we can rest for a while and recover."
+"We cannot linger here," Daren says. He drags his sword up from the flagstones, leaning heavily on the hilt before limping toward us. "The royal guards may be gone, but regular city patrols will flood this square any second. We need cover to rest and patch ourselves up."
 
-"Damn..." Hadrik says, as he looks at the way Daren is barely able to stand on his feet. "What happened to you? You look like someone just dropped a house on you!"
+"Brimstone and iron," Hadrik says, taking in Daren's ragged stance. "What hit you? You look like a collapsed watchtower."
 
-"You're one to talk?..." Daren says, as he finally manages to arrive at our position. "Have you taken a look in a mirror, lately? Your face is all swollen and you're full of bruises. I'd heal you up, but I'm just too weakened to do it right now. I barely even managed to cast a recovery spell on myself, to get me back on my feet."
+"Look who's talking," Daren mutters, halting beside us with a wince. "Catch your reflection in a puddle sometime. Your face is purple and swollen shut. I would weave a mend, but my reserves are empty. It took everything I had just to cast a recovery weave to stand upright."
 
-"I agree that we should go look for shelter," Kate says, as she takes a quick look at the now mostly empty plaza around us. "The longer we stay here, the more vulnerable we become. I can't say that I have any idea on how we could find a safe place in the middle of this enemy territory, however..."
+"Shelter is the priority," Kate says, her eyes sweeping the deserted plaza. "Standing in the open makes us targets. Finding a secure corner in unfamiliar enemy territory, however, is another matter."
 
- "Perhaps we could be of some assistance!" says a man in his mid-fifties with a trimmed gray beard and a kind smile on his face, as he is slowly making his way towards us.
+"Perhaps we can offer some guidance," a man calls out.
 
-The man appears to be wearing some kind of a lab coat, and he is coming from one of the many alleyways leading out of the plaza, while being followed by two young armed men, who are both likely in their mid-twenties.
+He steps out from one of the narrow alleys branching off the square, flanked by two armed youths in their mid-twenties. He looks fifty-odd, gray-bearded, wearing an oil-stained white lab coat and a calm, reassuring smile.
 
-"And who might you be, if you don't mind me askin--" Daren begins to say, but he interrupts himself, when he sees Leila running towards the man who just spoke.
+"And who might you be, if you don't mind me--" Daren cuts off as Leila darts past him, sprinting straight for the newcomer.
 
-"Father!" Leila writes in very big letters, as she goes to hug the man in the lab coat.
+"Father!" Leila's glowing blue letters flare wide in the air before she throws her arms around his neck.
 
-"Leila my dearest... I have missed you so much!" the man says, as he hugs his daughter tightly.
+"Leila, my dear girl... I feared the worst," the man says, pulling her tight.
 
-"Father, these are my friends," Leila writes, as soon as she releases her father from her arms. "They helped me get out of prison and they escorted me all the way here."
+"Father, these are my friends," Leila writes the moment she steps back, her hands flying. "They broke me out of the arena cells and escorted me across the continent."
 
-"Yes, I think I got the general idea," Leila's father says. "I am very grateful to you all for taking care of my daughter for so long, but I recommend that we leave the introductions for later, when we are safely away from here."
+"I gathered as much," her father says, looking over at us with genuine relief. "I owe every one of you a debt for keeping my daughter safe, but proper introductions can wait until we are off these streets."
 
 }
 #if(v_b3_ch2_gontrok != 3) {
- "Maybe somebody else is also trying to assassinate the king."
+"Maybe somebody else is also trying to assassinate the king."
 
-"That does bring up a good question..." Hadrik says. "If the king is already dead by the time we find him, wouldn't that mean that our enchanter's oath with Melindra would become voided?"
+"That brings up a fair question," Hadrik says, wiping grit from his beard. "If the king is already a corpse by the time we corner him, does that void our oath with Melindra?"
 
-"Voided or not, as long as you'd help me get what I want from him, I would still consider our agreement valid," Melindra says. "Of that much, you can be certain."
+"Dead or breathing, as long as you help pry loose what he took from me, the agreement stands," Melindra says. "You have my word on that."
 
-"We shouldn't stay here for too long," Daren says, as he slowly limps towards us and grabs his sword from where I dropped it when I was being pinned down by the captain. "Even if the royal guards are gone, the regular city guards could still be arriving here any minute. We should look for a place to hide, where we can rest for a while and recover."
+"We cannot linger here," Daren says. He limps toward us, bending stiffly to scoop his sword from where I dropped it when the captain had me pinned. "The royal guards may be gone, but regular city patrols will flood this square any second. We need cover to rest and patch ourselves up."
 
-"Damn..." Hadrik says, as he looks at the way Daren is barely able to stand on his feet. "What happened to you? You look like someone just dropped a house on you!"
+"Brimstone and iron," Hadrik says, taking in Daren's ragged stance. "What hit you? You look like a collapsed watchtower."
 
-"You're one to talk?..." Daren says, as he finally manages to arrive at our position. "Have you taken a look in a mirror, lately? Your face is all swollen and you're full of bruises. I'd heal you up, but I'm just too weakened to do it right now. I barely even managed to cast a recovery spell on myself, to get me back on my feet."
+"Look who's talking," Daren mutters, halting beside us with a wince. "Catch your reflection in a puddle sometime. Your face is purple and swollen shut. I would weave a mend, but my reserves are empty. It took everything I had just to cast a recovery weave to stand upright."
 
- "I agree that we should go look for shelter," Kate says, as she takes a quick look at the now mostly empty plaza around us. "The longer we stay here, the more vulnerable we become. I can't say that I have any idea on how we could find a safe place in the middle of this enemy territory, however..."
+"Shelter is the priority," Kate says, her eyes sweeping the deserted plaza. "Standing in the open makes us targets. Finding a secure corner in unfamiliar enemy territory, however, is another matter."
 
-"Perhaps we could be of some assistance!" says a man in his mid-fifties with a trimmed gray beard and a kind smile on his face, as he is slowly making his way towards us.
+"Perhaps we can offer some guidance," a man calls out.
 
-The man appears to be wearing some kind of a lab coat, and he is coming from one of the many alleyways leading out of the plaza, while being followed by two young armed men, who are both likely in their mid-twenties.
+He steps out from one of the narrow alleys branching off the square, flanked by two armed youths in their mid-twenties. He looks fifty-odd, gray-bearded, wearing an oil-stained white lab coat and a calm, reassuring smile.
 
-"And who might you be, if you don't mind me askin--" Daren begins to say, but he interrupts himself, when he sees Leila running towards the man who just spoke.
+"And who might you be, if you don't mind me--" Daren cuts off as Leila darts past him, sprinting straight for the newcomer.
 
-"Father!" Leila writes in very big letters, as she goes to hug the man in the lab coat.
+"Father!" Leila's glowing blue letters flare wide in the air before she throws her arms around his neck.
 
-"Leila my dearest... I have missed you so much!" the man says, as he hugs his daughter tightly.
+"Leila, my dear girl... I feared the worst," the man says, pulling her tight.
 
-"Father, these are my friends," Leila writes, as soon as she releases her father from her arms. "They helped me get out of prison and they escorted me all the way here."
+"Father, these are my friends," Leila writes the moment she steps back, her hands flying. "They broke me out of the arena cells and escorted me across the continent."
 
-"Yes, I think I got the general idea," Leila's father says. "I am very grateful to you all for taking care of my daughter for so long, but I recommend that we leave the introductions for later, when we are safely away from here."
+"I gathered as much," her father says, looking over at us with genuine relief. "I owe every one of you a debt for keeping my daughter safe, but proper introductions can wait until we are off these streets."
 
 }
- "Should we take it that you already have some escape route prepared for us?" Kate asks.
+"Am I right in assuming you have a route out of here?" Kate asks.
 
-"I do!" Leila's father says. "Follow me, if you please."
+"Indeed," Leila's father says. "Follow closely, please."
 
-We all exchange a few looks, and then we follow Leila and her father, as well as his two bodyguards into the narrow alley that they came from. Leila's father then pulls a transceiver out of his lab coat, and he immediately begins speaking into it.
+We trade quick nods and slip after Leila, her father, and the two guards into the shadows of the alley. As we hustle between high stone walls, her father fishes a transceiver from his coat pocket and speaks into the mesh.
 
-"Barry, can you hear me?" Leila's father says.
+"Barry, do you copy?"
 
-"Ugh... not again!" I say, as Hadrik and Arraka both start laughing in the background.
+"Not another one," I groan. Hadrik snorts, and a cackle ripples from Arraka's amulet.
 
-"Barry!" Leila's father shouts into the transceiver again, as Hadrik and Arraka's laughs are intensifying.
+"Barry!" Leila's father raises his voice over the laughter.
 
-"Please wait a moment," Leila's father tells us. "I'm having a bit of trouble reaching one of my companions, due to the thick layer of seredium that-- I'm sorry, is something wrong?"
+"Give me a moment," he tells us over his shoulder. "The seredium plating in the bedrock plays havoc with the signal... Is something the matter?"
 
-"Don't mind us!" Hadrik says, as he struggles to stop himself from laughing. "We were just laughing because our friend over here is also named Barry, and this isn't the first time we've met somebody else with his name in the course of our journeys."
+"Pay us no mind," Hadrik says between chuckles. "Our scrawny friend here shares the name, and this is far from the first time we've tripped over another Barry on the road."
 
 choice("Continue", B3-Ch02c-Transceiver, v_current_scene = B3-Ch02c-Transceiver)
 
@@ -84,62 +84,62 @@ ID: B3-Ch02c-Mess
 TEXT:
 
 #if(v_b3_ch2_gontrok == 3) {
- "Maybe Eiden tried to mess with the king, to see how he'd react."
+"Maybe Eiden tried to mess with the king, to see how he'd react."
 
-"Yeah, I wouldn't put it past him to do something like that," Hadrik says. "Although it didn't really look like it was something he planned, judging by his reaction."
+"I wouldn't put it past him," Hadrik grunts. "Though judging by that smug bastard's face on the screen, he looked just as startled as the rest of them."
 
-"We shouldn't stay here for too long," Daren says, as he grabs his sword from the ground and then starts slowly limping towards us. "Even if the royal guards are gone, the regular city guards could still be arriving here any minute. We should look for a place to hide, where we can rest for a while and recover."
+"We cannot linger here," Daren says. He drags his sword up from the flagstones, leaning heavily on the hilt before limping toward us. "The royal guards may be gone, but regular city patrols will flood this square any second. We need cover to rest and patch ourselves up."
 
-"Damn..." Hadrik says, as he looks at the way Daren is barely able to stand on his feet. "What happened to you? You look like someone just dropped a house on you!"
+"Brimstone and iron," Hadrik says, taking in Daren's ragged stance. "What hit you? You look like a collapsed watchtower."
 
-"You're one to talk?..." Daren says, as he finally manages to arrive at our position. "Have you taken a look in a mirror, lately? Your face is all swollen and you're full of bruises. I'd heal you up, but I'm just too weakened to do it right now. I barely even managed to cast a recovery spell on myself, to get me back on my feet."
+"Look who's talking," Daren mutters, halting beside us with a wince. "Catch your reflection in a puddle sometime. Your face is purple and swollen shut. I would weave a mend, but my reserves are empty. It took everything I had just to cast a recovery weave to stand upright."
 
-"I agree that we should go look for shelter," Kate says, as she takes a quick look at the now mostly empty plaza around us. "The longer we stay here, the more vulnerable we become. I can't say that I have any idea on how we could find a safe place in the middle of this enemy territory, however..."
+"Shelter is the priority," Kate says, her eyes sweeping the deserted plaza. "Standing in the open makes us targets. Finding a secure corner in unfamiliar enemy territory, however, is another matter."
 
 }
 #if(v_b3_ch2_gontrok != 3) {
- "Maybe Eiden tried to mess with the king, to see how he'd react."
+"Maybe Eiden tried to mess with the king, to see how he'd react."
 
-"Yeah, I wouldn't put it past him to do something like that," Hadrik says. "Although it didn't really look like it was something he planned, judging by his reaction."
+"I wouldn't put it past him," Hadrik grunts. "Though judging by that smug bastard's face on the screen, he looked just as startled as the rest of them."
 
-"We shouldn't stay here for too long," Daren says, as he slowly limps towards us and grabs his sword from where I dropped it when I was being pinned down by the captain. "Even if the royal guards are gone, the regular city guards could still be arriving here any minute. We should look for a place to hide, where we can rest for a while and recover."
+"We cannot linger here," Daren says. He limps toward us, bending stiffly to scoop his sword from where I dropped it when the captain had me pinned. "The royal guards may be gone, but regular city patrols will flood this square any second. We need cover to rest and patch ourselves up."
 
-"Damn..." Hadrik says, as he looks at the way Daren is barely able to stand on his feet. "What happened to you? You look like someone just dropped a house on you!"
+"Brimstone and iron," Hadrik says, taking in Daren's ragged stance. "What hit you? You look like a collapsed watchtower."
 
-"You're one to talk?..." Daren says, as he finally manages to arrive at our position. "Have you taken a look in a mirror, lately? Your face is all swollen and you're full of bruises. I'd heal you up, but I'm just too weakened to do it right now. I barely even managed to cast a recovery spell on myself, to get me back on my feet."
+"Look who's talking," Daren mutters, halting beside us with a wince. "Catch your reflection in a puddle sometime. Your face is purple and swollen shut. I would weave a mend, but my reserves are empty. It took everything I had just to cast a recovery weave to stand upright."
 
-"I agree that we should go look for shelter," Kate says, as she takes a quick look at the now mostly empty plaza around us. "The longer we stay here, the more vulnerable we become. I can't say that I have any idea on how we could find a safe place in the middle of this enemy territory, however..."
+"Shelter is the priority," Kate says, her eyes sweeping the deserted plaza. "Standing in the open makes us targets. Finding a secure corner in unfamiliar enemy territory, however, is another matter."
 
 }
- "Perhaps we could be of some assistance!" says a man in his mid-fifties with a trimmed gray beard and a kind smile on his face, as he is slowly making his way towards us.
+"Perhaps we can offer some guidance," a man calls out.
 
-The man appears to be wearing some kind of a lab coat, and he is coming from one of the many alleyways leading out of the plaza, while being followed by two young armed men, who are both likely in their mid-twenties.
+He steps out from one of the narrow alleys branching off the square, flanked by two armed youths in their mid-twenties. He looks fifty-odd, gray-bearded, wearing an oil-stained white lab coat and a calm, reassuring smile.
 
-"And who might you be, if you don't mind me askin--" Daren begins to say, but he interrupts himself, when he sees Leila running towards the man who just spoke.
+"And who might you be, if you don't mind me--" Daren cuts off as Leila darts past him, sprinting straight for the newcomer.
 
-"Father!" Leila writes in very big letters, as she goes to hug the man in the lab coat.
+"Father!" Leila's glowing blue letters flare wide in the air before she throws her arms around his neck.
 
-"Leila my dearest... I have missed you so much!" the man says, as he hugs his daughter tightly.
+"Leila, my dear girl... I feared the worst," the man says, pulling her tight.
 
-"Father, these are my friends," Leila writes, as soon as she releases her father from her arms. "They helped me get out of prison and they escorted me all the way here."
+"Father, these are my friends," Leila writes the moment she steps back, her hands flying. "They broke me out of the arena cells and escorted me across the continent."
 
-"Yes, I think I got the general idea," Leila's father says. "I am very grateful to you all for taking care of my daughter for so long, but I recommend that we leave the introductions for later, when we are safely away from here."
+"I gathered as much," her father says, looking over at us with genuine relief. "I owe every one of you a debt for keeping my daughter safe, but proper introductions can wait until we are off these streets."
 
- "Should we take it that you already have some escape route prepared for us?" Kate asks.
+"Am I right in assuming you have a route out of here?" Kate asks.
 
-"I do!" Leila's father says. "Follow me, if you please."
+"Indeed," Leila's father says. "Follow closely, please."
 
-We all exchange a few looks, and then we follow Leila and her father, as well as his two bodyguards into the narrow alley that they came from. Leila's father then pulls a transceiver out of his lab coat, and he immediately begins speaking into it.
+We trade quick nods and slip after Leila, her father, and the two guards into the shadows of the alley. As we hustle between high stone walls, her father fishes a transceiver from his coat pocket and speaks into the mesh.
 
-"Barry, can you hear me?" Leila's father says.
+"Barry, do you copy?"
 
-"Ugh... not again!" I say, as Hadrik and Arraka both start laughing in the background.
+"Not another one," I groan. Hadrik snorts, and a cackle ripples from Arraka's amulet.
 
-"Barry!" Leila's father shouts into the transceiver again, as Hadrik and Arraka's laughs are intensifying.
+"Barry!" Leila's father raises his voice over the laughter.
 
-"Please wait a moment," Leila's father tells us. "I'm having a bit of trouble reaching one of my companions, due to the thick layer of seredium that-- I'm sorry, is something wrong?"
+"Give me a moment," he tells us over his shoulder. "The seredium plating in the bedrock plays havoc with the signal... Is something the matter?"
 
-"Don't mind us!" Hadrik says, as he struggles to stop himself from laughing. "We were just laughing because our friend over here is also named Barry, and this isn't the first time we've met somebody else with his name in the course of our journeys."
+"Pay us no mind," Hadrik says between chuckles. "Our scrawny friend here shares the name, and this is far from the first time we've tripped over another Barry on the road."
 
 choice("Continue", B3-Ch02c-Transceiver, v_current_scene = B3-Ch02c-Transceiver)
 
@@ -148,62 +148,62 @@ ID: B3-Ch02c-Defective
 TEXT:
 
 #if(v_b3_ch2_gontrok == 3) {
- "Maybe it was just a defective device, and the king teleported the guards for nothing."
+"Maybe it was just a defective device, and the king teleported the guards for nothing."
 
-"Hah!" Hadrik says. "I could totally see that happening. I wonder what face Gontrok would make when he'd realize that he was summoned there for something so trivial."
+"Ha!" Hadrik chuckles. "I'd pay good gold to see Gontrok's face when he realizes he was yanked away for a faulty wire."
 
-"We shouldn't stay here for too long," Daren says, as he grabs his sword from the ground and then starts slowly limping towards us. "Even if the royal guards are gone, the regular city guards could still be arriving here any minute. We should look for a place to hide, where we can rest for a while and recover."
+"We cannot linger here," Daren says. He drags his sword up from the flagstones, leaning heavily on the hilt before limping toward us. "The royal guards may be gone, but regular city patrols will flood this square any second. We need cover to rest and patch ourselves up."
 
-"Damn..." Hadrik says, as he looks at the way Daren is barely able to stand on his feet. "What happened to you? You look like someone just dropped a house on you!"
+"Brimstone and iron," Hadrik says, taking in Daren's ragged stance. "What hit you? You look like a collapsed watchtower."
 
-"You're one to talk?..." Daren says, as he finally manages to arrive at our position. "Have you taken a look in a mirror, lately? Your face is all swollen and you're full of bruises. I'd heal you up, but I'm just too weakened to do it right now. I barely even managed to cast a recovery spell on myself, to get me back on my feet."
+"Look who's talking," Daren mutters, halting beside us with a wince. "Catch your reflection in a puddle sometime. Your face is purple and swollen shut. I would weave a mend, but my reserves are empty. It took everything I had just to cast a recovery weave to stand upright."
 
-"I agree that we should go look for shelter," Kate says, as she takes a quick look at the now mostly empty plaza around us. "The longer we stay here, the more vulnerable we become. I can't say that I have any idea on how we could find a safe place in the middle of this enemy territory, however..."
+"Shelter is the priority," Kate says, her eyes sweeping the deserted plaza. "Standing in the open makes us targets. Finding a secure corner in unfamiliar enemy territory, however, is another matter."
 
 }
 #if(v_b3_ch2_gontrok != 3) {
- "Maybe it was just a defective device, and the king teleported the guards for nothing."
+"Maybe it was just a defective device, and the king teleported the guards for nothing."
 
-"Hah!" Hadrik says. "I could totally see that happening. I wonder what face Gontrok would make when he'd realize that he was summoned there for something so trivial."
+"Ha!" Hadrik chuckles. "I'd pay good gold to see Gontrok's face when he realizes he was yanked away for a faulty wire."
 
-"We shouldn't stay here for too long," Daren says, as he slowly limps towards us and grabs his sword from where I dropped it when I was being pinned down by the captain. "Even if the royal guards are gone, the regular city guards could still be arriving here any minute. We should look for a place to hide, where we can rest for a while and recover."
+"We cannot linger here," Daren says. He limps toward us, bending stiffly to scoop his sword from where I dropped it when the captain had me pinned. "The royal guards may be gone, but regular city patrols will flood this square any second. We need cover to rest and patch ourselves up."
 
-"Damn..." Hadrik says, as he looks at the way Daren is barely able to stand on his feet. "What happened to you? You look like someone just dropped a house on you!"
+"Brimstone and iron," Hadrik says, taking in Daren's ragged stance. "What hit you? You look like a collapsed watchtower."
 
-"You're one to talk?..." Daren says, as he finally manages to arrive at our position. "Have you taken a look in a mirror, lately? Your face is all swollen and you're full of bruises. I'd heal you up, but I'm just too weakened to do it right now. I barely even managed to cast a recovery spell on myself, to get me back on my feet."
+"Look who's talking," Daren mutters, halting beside us with a wince. "Catch your reflection in a puddle sometime. Your face is purple and swollen shut. I would weave a mend, but my reserves are empty. It took everything I had just to cast a recovery weave to stand upright."
 
-"I agree that we should go look for shelter," Kate says, as she takes a quick look at the now mostly empty plaza around us. "The longer we stay here, the more vulnerable we become. I can't say that I have any idea on how we could find a safe place in the middle of this enemy territory, however..."
+"Shelter is the priority," Kate says, her eyes sweeping the deserted plaza. "Standing in the open makes us targets. Finding a secure corner in unfamiliar enemy territory, however, is another matter."
 
 }
- "Perhaps we could be of some assistance!" says a man in his mid-fifties with a trimmed gray beard and a kind smile on his face, as he is slowly making his way towards us.
+"Perhaps we can offer some guidance," a man calls out.
 
-The man appears to be wearing some kind of a lab coat, and he is coming from one of the many alleyways leading out of the plaza, while being followed by two young armed men, who are both likely in their mid-twenties.
+He steps out from one of the narrow alleys branching off the square, flanked by two armed youths in their mid-twenties. He looks fifty-odd, gray-bearded, wearing an oil-stained white lab coat and a calm, reassuring smile.
 
-"And who might you be, if you don't mind me askin--" Daren begins to say, but he interrupts himself, when he sees Leila running towards the man who just spoke.
+"And who might you be, if you don't mind me--" Daren cuts off as Leila darts past him, sprinting straight for the newcomer.
 
-"Father!" Leila writes in very big letters, as she goes to hug the man in the lab coat.
+"Father!" Leila's glowing blue letters flare wide in the air before she throws her arms around his neck.
 
-"Leila my dearest... I have missed you so much!" the man says, as he hugs his daughter tightly.
+"Leila, my dear girl... I feared the worst," the man says, pulling her tight.
 
-"Father, these are my friends," Leila writes, as soon as she releases her father from her arms. "They helped me get out of prison and they escorted me all the way here."
+"Father, these are my friends," Leila writes the moment she steps back, her hands flying. "They broke me out of the arena cells and escorted me across the continent."
 
-"Yes, I think I got the general idea," Leila's father says. "I am very grateful to you all for taking care of my daughter for so long, but I recommend that we leave the introductions for later, when we are safely away from here."
+"I gathered as much," her father says, looking over at us with genuine relief. "I owe every one of you a debt for keeping my daughter safe, but proper introductions can wait until we are off these streets."
 
- "Should we take it that you already have some escape route prepared for us?" Kate asks.
+"Am I right in assuming you have a route out of here?" Kate asks.
 
-"I do!" Leila's father says. "Follow me, if you please."
+"Indeed," Leila's father says. "Follow closely, please."
 
-We all exchange a few looks, and then we follow Leila and her father, as well as his two bodyguards into the narrow alley that they came from. Leila's father then pulls a transceiver out of his lab coat, and he immediately begins speaking into it.
+We trade quick nods and slip after Leila, her father, and the two guards into the shadows of the alley. As we hustle between high stone walls, her father fishes a transceiver from his coat pocket and speaks into the mesh.
 
-"Barry, can you hear me?" Leila's father says.
+"Barry, do you copy?"
 
-"Ugh... not again!" I say, as Hadrik and Arraka both start laughing in the background.
+"Not another one," I groan. Hadrik snorts, and a cackle ripples from Arraka's amulet.
 
-"Barry!" Leila's father shouts into the transceiver again, as Hadrik and Arraka's laughs are intensifying.
+"Barry!" Leila's father raises his voice over the laughter.
 
-"Please wait a moment," Leila's father tells us. "I'm having a bit of trouble reaching one of my companions, due to the thick layer of seredium that-- I'm sorry, is something wrong?"
+"Give me a moment," he tells us over his shoulder. "The seredium plating in the bedrock plays havoc with the signal... Is something the matter?"
 
-"Don't mind us!" Hadrik says, as he struggles to stop himself from laughing. "We were just laughing because our friend over here is also named Barry, and this isn't the first time we've met somebody else with his name in the course of our journeys."
+"Pay us no mind," Hadrik says between chuckles. "Our scrawny friend here shares the name, and this is far from the first time we've tripped over another Barry on the road."
 
 choice("Continue", B3-Ch02c-Transceiver, v_current_scene = B3-Ch02c-Transceiver)
 
@@ -211,31 +211,33 @@ choice("Continue", B3-Ch02c-Transceiver, v_current_scene = B3-Ch02c-Transceiver)
 ID: B3-Ch02c-Transceiver
 TEXT:
 
- "Ah!" Leila's father says. "I understand now. Don't let it get to you, my friend. I think 'Barry' is a wonderful name!"
+"Ah!" Leila's father chuckles. "I see now. Pay them no heed, my friend. I happen to think 'Barry' is a fine name."
 
-"Hey, thanks, Doc!" we hear a voice coming from the transceiver. "But why are you bringing this up all of a sudden?"
+"Hey, much obliged, Doc!" the transceiver squawks back. "What brought that on out of nowhere?"
 
-"I wasn't talking to you..." Leila's father says, as he puts the transceiver next to his mouth again. "I was speaking with another Barry which-- you know what, never mind that! Do you think you can teleport us safely? Can you tell where we are from the signal of this transceiver?"
+"I was not addressing you," Leila's father mutters into the casing. "I was speaking to another Barry who-- never mind that. Can you lock onto our position? Is the signal clear enough for a transport?"
 
-"Yeah, I can get a good reading on you," the voice from the transceiver says. "Should I teleport you right now?"
+"Loud and clear," the voice replies. "Ready when you are. Shall I pull you down?"
 
-"Yes!" Leila's father says. "But make sure you transport all of us. We wouldn't want anyone to get left behind."
+"Immediately," Leila's father says. "Take the entire group. Leave no one behind."
 
-"Roger that," the voice from the transceiver says. "Here we go!"
+"Understood. Bracing in three, two..."
 
- As soon as the voice stops talking, we all feel ourselves getting teleported out of the alleyway, as a white light begins to envelop us. A few moments later, we find ourselves standing in the middle of a dimly lit cave, in which the only source of light we have are some glowing blue crystals embedded in the walls. Upon looking around myself, I realize that the walls and the high ceiling are all made of seredium, and there are also some peculiar looking plants growing in this cave, which can probably only be found in underground places such as this.
+The alley dissolves in a flash of blinding white light. Weight drops out from under my boots, my stomach lurches into my throat, and the sudden pop of shifting air pressure leaves my ears ringing. When the glare fades, the alley walls are gone.
 
-The man named Barry that Leila's father was talking to earlier is standing behind some sort of metal desk with several buttons on it, and behind him, there is this very big metal device with many lights of different colors illuminating it, which I can only assume is the teleporter that was used to transport us here. I did hear that Varathians had access to technology such as this, and I'm pretty sure that it is through the use of one such device that we were brought here, to this continent, but this is the first time I've had the chance of seeing one up close.
+We stand in a cavernous stone chamber, subterranean chill prickling our skin. The only illumination comes from jagged clusters of pale blue crystals embedded throughout the dark, metallic stone of the walls and high ceiling--pure seredium, by the dense, inert pull of the rock. Strange, pale underground ferns and thick-stemmed mosses sprout from crevices in the stone, fed by the faint crystal glow.
 
-"Thank you, Barry, for bringing us here," Leila's father says, to the man behind the desk.
+Ahead, behind a wide metal console covered in toggles, switches, and inscribed dials, stands a burly man in work clothes. Behind him looms a massive metallic contraption, humming with stored power and blinking with dozens of colored indicator lights. I have heard accounts of the ancient Lessathi teleportation arrays that hauled tournament contestants across oceans to Varathia, but this is the first time I have seen one functioning at arm's length.
 
- "You're welcome, Doc," the man behind the desk says. "But who are all these people? Friends of yours?"
+"Thank you for the pull, Barry," Leila's father says, stepping past the platform.
 
-"This is my daughter, Leila," Leila's father says, as he points towards her. "I believe I've already spoken to you about her on several occasions. And these are Leila's friends, who helped her reach Ollendor. Sadly, I haven't had the time to learn their names yet. Leila, could you please introduce us?"
+"Any time, Doc," the man behind the desk says, wiping grease on his trousers. "Who are the guests? Friends of yours?"
 
-Leila nods, and she displays each of our names above our heads, written in her usual blue writing.
+"This is my daughter, Leila," her father says with quiet pride, gesturing toward her. "The girl I have spoken of so often. And these are her companions, who saw her safely to Ollendor. Regrettably, I have not yet had the chance to learn their names. Leila, would you do the honors?"
 
-"Pleased to meet you all!" Leila's father says. "I am Reidzek, these two beside me are Peter and Albert, and that man over there by the desk is Barry, as you already know."
+Leila offers a quick nod. In rapid succession, glowing blue script ignites in the air above each of our heads, crisp and clear in the gloom.
+
+"A pleasure to meet you all," Leila's father says, offering a slight bow. "I am Reidzek. My companions here are Peter and Albert, and over at the controls is Barry, as you have already heard."
 
 choice("Continue", B3-Ch02c-Homeland, v_current_scene = B3-Ch02c-Homeland)
 
@@ -243,29 +245,29 @@ choice("Continue", B3-Ch02c-Homeland, v_current_scene = B3-Ch02c-Homeland)
 ID: B3-Ch02c-Homeland
 TEXT:
 
- "Oh, now I get it!" the man behind the desk says, as he looks at the name above my head. "You were speaking to this other Barry earlier, when you were on the transceiver. Reminds me of how I used to be friends with two other Barrys when I was a kid, and how we all had to give ourselves nicknames to keeps things from becoming too confusing."
+"Ah, now I follow," the operator says, reading the floating letters above my brow. "You were talking to this Barry on the horn earlier. Takes me back to growing up with two other Barrys on the same block. We had to pass out handles just to keep from answering each other's mothers."
 
-"Yeah, that's how we did it in my homeland too," Hadrik says. "Whenever there were other Hadriks around, people just used to call me 'dwarf'. Maybe we could find some nickname for our Barry too. Like Barry, the improviser. Or Barry, the reckless."
+"Same trick where I hail from," Hadrik says, grinning broadly. "Whenever another Hadrik showed up in the tavern, the lads just called me 'dwarf'. We ought to pick a proper title for our Barry here. Barry the Improviser. Barry the Reckless."
 
-"Just 'Barry' is fine, thank you very much," I say.
+"Plain 'Barry' suits me fine, thanks," I say.
 
-"Don't be like that, 'reckless'," Hadrik says with a grin. "I'm sure we could find a nickname that would be to your liking. Or we could add your father's name at the end of your own name, kinda like how those nobles from the Western Continent like to add their family names at the end sometimes, to make themselves feel more important! What do you say?"
+"Come now, Reckless," Hadrik says, giving me a solid elbow in the ribs. "We can find something grand. Or tack your father's name on the end, the way highborn lords on the Western Continent drag their family trees behind them to sound imposing. What do you reckon?"
 
-"You don't have to force him to use a nickname if he doesn't want to," the man behind the desk says. "I already have an old nickname that I'm used to, so you can call me by that name, if you feel that it would be less confusing. My old nickname used to be 'thundercloud'."
+"No need to saddle the lad with a title if he dislikes it," the operator says. "I already carry an old handle from my youth. If it saves us all a headache, feel free to call me Thundercloud."
 
- "Hey, that's not a bad nickname," Hadrik says. "Alright, then, thundercloud... would you mind telling us what exactly is this place? Have we been teleported below the city, or?..."
+"Thundercloud has a fine ring to it," Hadrik says. "Right then, Thundercloud... mind giving us the lay of the land? Are we beneath the city streets, or somewhere else entirely?"
 
-"Uh... I think so..." the man behind the desk says. "I remember that they told me about it during my initial briefing, but it's been a long time since then. Doctor, you had your briefing somewhat recently. Do you remember if the teleporter is located below Ollendor or not?"
+"Under the city, I believe," Thundercloud says, scratching the back of his neck. "They covered the geography during orientation, but that was years ago. Doctor, your briefing was recent. Is the platform beneath Ollendor?"
 
-"Yes, this teleporting device was placed somewhere below the center of the city, I believe," Leila's father says. "But we are very far below. This ceiling that you see high above us is made up of a massive layer of seredium, and as far as I know, there is no other way to reach the surface than to use this teleporter. These underground tunnels stretch for miles and miles, however, so it is not impossible that there is some exit that leads to the surface somewhere, but it's like a huge labyrinth down here, so you would be more likely to get lost and starve to death, than to find your way out."
+"Directly below the city center, several hundred paces deep," Reidzek explains. "The ceiling above us is solid bedrock layered with seredium. As far as official routes go, this teleporter is the only viable path between here and the surface. The tunnels branch out for leagues in every direction, so an unmapped natural exit might exist somewhere in the deep dark, but navigating that maze without a guide guarantees starvation long before you find sunlight."
 
- "How did you manage to find us?" Leila writes. "Were you just passing by, or did somebody tell you that we would be there?"
+"How did you locate us?" Leila's blue script hangs before her father. "Were you patrolling the market, or did someone alert you to our arrival?"
 
-"We've been following you since you entered the city," says one of Reidzek's two bodyguards, who is called Albert. "The two of us, I mean. Not doctor Reidzek. The doctor told us once that his daughter had silver hair, so as soon as we saw you and your group, we immediately contacted Barry over here, so he could tell the doctor and teleport him to the surface. When we saw you pick a fight with the royal guards, we panicked a little, but we managed to convince the king of the underground to send some of our men to create a diversion at the temple where they were holding the ceremony, in the hopes that this would get the royal guards off your back."
+"We trailed you from the south gate," says Albert, the taller of the two bodyguards. "Peter and I, that is, not Doctor Reidzek. The doctor mentioned his daughter had silver hair, so the moment we spotted your group, we signaled Thundercloud to brief the doctor and beam him up. When you clashed with the royal guards, we had to scramble. We convinced the king of the underground to dispatch a team and detonate a distraction at the temple plaza, hoping the commotion would draw the captain away from you."
 
-"Wait a second..." Daren says. "So you're saying that you are the ones who set off that explosion?"
+"Wait," Daren says, his brow furrowing. "You were the ones responsible for that blast at the ceremony?"
 
-"Some of our comrades did, yes," Albert says. "We knew that the king tends to teleport the royal guards to his position, whenever he feels that his life may be in danger, so we figured that an explosion should be more than enough to scare him a little."
+"Our operatives on the surface, yes," Albert says. "The mad king invariably recalls his personal guard whenever he smells danger, so a well-placed charge was the fastest way to rattle his cage."
 
 choice(""What happened to your friends that set off the explosion? Are they all safe?"", B3-Ch02c-Safe, v_current_scene = B3-Ch02c-Safe)
 choice(""How did they manage to pull it off? Didn't they have people guarding that place?"", B3-Ch02c-Guarding, v_current_scene = B3-Ch02c-Guarding)
@@ -275,27 +277,27 @@ choice(""Wasn't this a little risky, though? Why did your friends agree to do it
 ID: B3-Ch02c-Safe
 TEXT:
 
- "What happened to your friends that set off the explosion? Are they all safe?"
+"What happened to your friends that set off the explosion? Are they all safe?"
 
-"We've contacted them before calling out to you, and they all managed to get away in time," says Peter, the second person accompanying Leila's father. "They will probably be joining us here, soon, after they are done with the business they had on the surface."
+"We confirmed their retreat before stepping into your alley," says Peter, the second guard. "They slipped clean away and will rendezvous down here once their surface tasks are wrapped up."
 
-"You mentioned something about a 'king of the underground' earlier," Illuna says, as she looks towards Albert. "Who is this person, exactly?"
+"You mentioned a 'king of the underground' earlier," Illuna says, her eyes narrowing as she fixes Albert with a cool gaze. "Who is this individual?"
 
-"The king of the underground is the leader of this small underground society, and a very generous sponsor of our resistance movement," Albert says. "He was gracious enough to provide us with a base of operations, here in these underground caverns, and he also gave us many useful tools, which have been a great help in our efforts to undermine the tyranny of the mad king of Ollendor. In return for his investments, the king of the underground has asked us to not take any actions without his explicit consent, and we've also agreed to sometimes go on missions personally requested by him, even if they are not always directly related to usurping the king from above."
+"The patron and protector of our subterranean sanctuary," Albert says. "He provides us with shelter, rations, and advanced equipment to aid our struggle against the tyrant above. In return for his backing, we agreed to launch no major operations without his explicit sanction, and to undertake occasional private tasks on his behalf, even when they diverge from our main objective."
 
-"So, you guys are trying to start a rebellion, then?" Hadrik says.
+"So you are staging a rebellion," Hadrik says.
 
- "Not exactly," Albert says. "We would prefer to avoid a civil war as much as possible. We do not want the blood of our brethren to stain the soils of this city. All we want is to get rid of the rotten leadership that has plagued this kingdom for many years, now, and we'd prefer to do it in a way that requires as little bloodshed as possible. When we told the king of the underground that you were fighting the royal guards, he took an interest in your group, which is why he decided to help you. He said that he would like to meet you as soon as possible, in the hopes that he could convince you to join our cause, or at least to form a temporary alliance with us. Anyway, we should not just be standing here. Our base of operations is a little further down these corridors. Please, follow us, and we will take you to our waiting room."
+"A targeted resistance," Albert corrects. "We have no desire to plunge Ollendor into civil war or drown the streets in the blood of our kin. Our fight is strictly with the corrupt crown that has bled this kingdom dry. When word reached our benefactor that you were holding your ground against the royal guard, he took an immediate interest. He authorized the distraction and requested an audience, hoping to recruit your blades or forge a pact. We should not idle here, however. Our compound lies further down the passage. Follow us to the antechamber."
 
-"See you later, Barry!" Leila's father says, as we all move to follow Albert inside one of the tunnels. "Oh, sorry, I meant to say thundercloud. It's going to take a while to get used to that nickname."
+"Until later, Barry," Reidzek calls out as we file toward the corridor. "Ah, apologies--Thundercloud. That will take practice."
 
-"Later, Doc!" the man behind the desk says. "I'm really glad that you finally found your daughter!"
+"Take care, Doc," Thundercloud waves from his console. "Good to see your girl back in one piece."
 
-"Father, why do these people call you 'doctor'?" Leila writes. "Have you begun practicing medicine since you arrived here?"
+"Father, why do they refer to you as 'doctor'?" Leila writes, stepping alongside him. "Have you taken up medicine in my absence?"
 
-"I think it's mostly just because of this white lab coat that I usually wear in order to avoid staining my clothes with oil when I work on my devices," Leila's father says. "It resembles the coats that are typically worn by doctors in hospitals, and the people here kind of needed to give me a nickname, since my real name is rather hard to pronounce."
+"Mainly the coat, I suspect," Reidzek says, tugging at his white lapel with a small chuckle. "I wear it in the workshop to keep grease and machine oil off my tunic. It happens to resemble physician garb, and the locals needed a title since my real name trips their tongues."
 
- "It's more than just the lab coat, doctor," Peter says. "The first time we met you, you almost got arrested by the city guards because you were giving medical assistance to one of our comrades who was severely injured during one of his missions. If you hadn't been there to help him, he might well have died from blood loss before we would have reached him. You've also helped us fix some of our healing devices, which have been used to save many lives in the past few days. We are all extremely grateful for the work you've been doing since you came here."
+"It is more than the coat, Doctor," Peter speaks up. "On our first encounter, the city watch nearly hauled you off because you were binding the wounds of a rebel operative bleeding out in the gutter. Without your field surgery, he would have died before we reached him. You have also restored half the enchanted medical devices in our infirmary, saving dozens of our people. We owe you a tremendous debt."
 
 choice("Continue", B3-Ch02c-Seredium, v_current_scene = B3-Ch02c-Seredium)
 
@@ -303,27 +305,27 @@ choice("Continue", B3-Ch02c-Seredium, v_current_scene = B3-Ch02c-Seredium)
 ID: B3-Ch02c-Guarding
 TEXT:
 
- "How did they manage to pull it off? Didn't they have people guarding that place?"
+"How did they manage to pull it off? Didn't they have people guarding that place?"
 
-"We actually planted those explosives there a long time ago, just in case," says Peter, the second person accompanying Leila's father. "You never know when you might need a distraction. The only thing our associates had to do was to get close enough to activate them, not actually enter the temple, so they didn't need to face any of the guards directly."
+"Those charges were wired into the foundations months ago as a contingency," says Peter, the second guard. "A distraction in reserve. Our runners only needed to get close enough to trigger the ignition runes, not fight past the perimeter guards."
 
-"You mentioned something about a 'king of the underground' earlier," Illuna says, as she looks towards Albert. "Who is this person, exactly?"
+"You mentioned a 'king of the underground' earlier," Illuna says, her eyes narrowing as she fixes Albert with a cool gaze. "Who is this individual?"
 
-"The king of the underground is the leader of this small underground society, and a very generous sponsor of our resistance movement," Albert says. "He was gracious enough to provide us with a base of operations, here in these underground caverns, and he also gave us many useful tools, which have been a great help in our efforts to undermine the tyranny of the mad king of Ollendor. In return for his investments, the king of the underground has asked us to not take any actions without his explicit consent, and we've also agreed to sometimes go on missions personally requested by him, even if they are not always directly related to usurping the king from above."
+"The patron and protector of our subterranean sanctuary," Albert says. "He provides us with shelter, rations, and advanced equipment to aid our struggle against the tyrant above. In return for his backing, we agreed to launch no major operations without his explicit sanction, and to undertake occasional private tasks on his behalf, even when they diverge from our main objective."
 
-"So, you guys are trying to start a rebellion, then?" Hadrik says.
+"So you are staging a rebellion," Hadrik says.
 
- "Not exactly," Albert says. "We would prefer to avoid a civil war as much as possible. We do not want the blood of our brethren to stain the soils of this city. All we want is to get rid of the rotten leadership that has plagued this kingdom for many years, now, and we'd prefer to do it in a way that requires as little bloodshed as possible. When we told the king of the underground that you were fighting the royal guards, he took an interest in your group, which is why he decided to help you. He said that he would like to meet you as soon as possible, in the hopes that he could convince you to join our cause, or at least to form a temporary alliance with us. Anyway, we should not just be standing here. Our base of operations is a little further down these corridors. Please, follow us, and we will take you to our waiting room."
+"A targeted resistance," Albert corrects. "We have no desire to plunge Ollendor into civil war or drown the streets in the blood of our kin. Our fight is strictly with the corrupt crown that has bled this kingdom dry. When word reached our benefactor that you were holding your ground against the royal guard, he took an immediate interest. He authorized the distraction and requested an audience, hoping to recruit your blades or forge a pact. We should not idle here, however. Our compound lies further down the passage. Follow us to the antechamber."
 
-"See you later, Barry!" Leila's father says, as we all move to follow Albert inside one of the tunnels. "Oh, sorry, I meant to say thundercloud. It's going to take a while to get used to that nickname."
+"Until later, Barry," Reidzek calls out as we file toward the corridor. "Ah, apologies--Thundercloud. That will take practice."
 
-"Later, Doc!" the man behind the desk says. "I'm really glad that you finally found your daughter!"
+"Take care, Doc," Thundercloud waves from his console. "Good to see your girl back in one piece."
 
-"Father, why do these people call you 'doctor'?" Leila writes. "Have you begun practicing medicine since you arrived here?"
+"Father, why do they refer to you as 'doctor'?" Leila writes, stepping alongside him. "Have you taken up medicine in my absence?"
 
-"I think it's mostly just because of this white lab coat that I usually wear in order to avoid staining my clothes with oil when I work on my devices," Leila's father says. "It resembles the coats that are typically worn by doctors in hospitals, and the people here kind of needed to give me a nickname, since my real name is rather hard to pronounce."
+"Mainly the coat, I suspect," Reidzek says, tugging at his white lapel with a small chuckle. "I wear it in the workshop to keep grease and machine oil off my tunic. It happens to resemble physician garb, and the locals needed a title since my real name trips their tongues."
 
- "It's more than just the lab coat, doctor," Peter says. "The first time we met you, you almost got arrested by the city guards because you were giving medical assistance to one of our comrades who was severely injured during one of his missions. If you hadn't been there to help him, he might well have died from blood loss before we would have reached him. You've also helped us fix some of our healing devices, which have been used to save many lives in the past few days. We are all extremely grateful for the work you've been doing since you came here."
+"It is more than the coat, Doctor," Peter speaks up. "On our first encounter, the city watch nearly hauled you off because you were binding the wounds of a rebel operative bleeding out in the gutter. Without your field surgery, he would have died before we reached him. You have also restored half the enchanted medical devices in our infirmary, saving dozens of our people. We owe you a tremendous debt."
 
 choice("Continue", B3-Ch02c-Seredium, v_current_scene = B3-Ch02c-Seredium)
 
@@ -331,27 +333,27 @@ choice("Continue", B3-Ch02c-Seredium, v_current_scene = B3-Ch02c-Seredium)
 ID: B3-Ch02c-Risky
 TEXT:
 
- "Wasn't this a little risky, though? Why did your friends agree to do it just for us?"
+"Wasn't this a little risky, though? Why did your friends agree to do it just for us?"
 
-"It wasn't as risky as you might think," says Peter, the second person accompanying Leila's father. "They didn't need to get into a fight with the guards in front of the temple, or anything. All they did was activate the explosives, and then they quickly got away, before anyone could figure out that they were the culprits."
+"Far less dangerous than storming the temple steps," says Peter, the second guard. "No one engaged the garrison. They primed the fuse from the crowd and vanished into the side streets before the smoke even cleared."
 
-"You mentioned something about a 'king of the underground' earlier," Illuna says, as she looks towards Albert. "Who is this person, exactly?"
+"You mentioned a 'king of the underground' earlier," Illuna says, her eyes narrowing as she fixes Albert with a cool gaze. "Who is this individual?"
 
-"The king of the underground is the leader of this small underground society, and a very generous sponsor of our resistance movement," Albert says. "He was gracious enough to provide us with a base of operations, here in these underground caverns, and he also gave us many useful tools, which have been a great help in our efforts to undermine the tyranny of the mad king of Ollendor. In return for his investments, the king of the underground has asked us to not take any actions without his explicit consent, and we've also agreed to sometimes go on missions personally requested by him, even if they are not always directly related to usurping the king from above."
+"The patron and protector of our subterranean sanctuary," Albert says. "He provides us with shelter, rations, and advanced equipment to aid our struggle against the tyrant above. In return for his backing, we agreed to launch no major operations without his explicit sanction, and to undertake occasional private tasks on his behalf, even when they diverge from our main objective."
 
-"So, you guys are trying to start a rebellion, then?" Hadrik says.
+"So you are staging a rebellion," Hadrik says.
 
- "Not exactly," Albert says. "We would prefer to avoid a civil war as much as possible. We do not want the blood of our brethren to stain the soils of this city. All we want is to get rid of the rotten leadership that has plagued this kingdom for many years, now, and we'd prefer to do it in a way that requires as little bloodshed as possible. When we told the king of the underground that you were fighting the royal guards, he took an interest in your group, which is why he decided to help you. He said that he would like to meet you as soon as possible, in the hopes that he could convince you to join our cause, or at least to form a temporary alliance with us. Anyway, we should not just be standing here. Our base of operations is a little further down these corridors. Please, follow us, and we will take you to our waiting room."
+"A targeted resistance," Albert corrects. "We have no desire to plunge Ollendor into civil war or drown the streets in the blood of our kin. Our fight is strictly with the corrupt crown that has bled this kingdom dry. When word reached our benefactor that you were holding your ground against the royal guard, he took an immediate interest. He authorized the distraction and requested an audience, hoping to recruit your blades or forge a pact. We should not idle here, however. Our compound lies further down the passage. Follow us to the antechamber."
 
-"See you later, Barry!" Leila's father says, as we all move to follow Albert inside one of the tunnels. "Oh, sorry, I meant to say thundercloud. It's going to take a while to get used to that nickname."
+"Until later, Barry," Reidzek calls out as we file toward the corridor. "Ah, apologies--Thundercloud. That will take practice."
 
-"Later, Doc!" the man behind the desk says. "I'm really glad that you finally found your daughter!"
+"Take care, Doc," Thundercloud waves from his console. "Good to see your girl back in one piece."
 
-"Father, why do these people call you 'doctor'?" Leila writes. "Have you begun practicing medicine since you arrived here?"
+"Father, why do they refer to you as 'doctor'?" Leila writes, stepping alongside him. "Have you taken up medicine in my absence?"
 
-"I think it's mostly just because of this white lab coat that I usually wear in order to avoid staining my clothes with oil when I work on my devices," Leila's father says. "It resembles the coats that are typically worn by doctors in hospitals, and the people here kind of needed to give me a nickname, since my real name is rather hard to pronounce."
+"Mainly the coat, I suspect," Reidzek says, tugging at his white lapel with a small chuckle. "I wear it in the workshop to keep grease and machine oil off my tunic. It happens to resemble physician garb, and the locals needed a title since my real name trips their tongues."
 
- "It's more than just the lab coat, doctor," Peter says. "The first time we met you, you almost got arrested by the city guards because you were giving medical assistance to one of our comrades who was severely injured during one of his missions. If you hadn't been there to help him, he might well have died from blood loss before we would have reached him. You've also helped us fix some of our healing devices, which have been used to save many lives in the past few days. We are all extremely grateful for the work you've been doing since you came here."
+"It is more than the coat, Doctor," Peter speaks up. "On our first encounter, the city watch nearly hauled you off because you were binding the wounds of a rebel operative bleeding out in the gutter. Without your field surgery, he would have died before we reached him. You have also restored half the enchanted medical devices in our infirmary, saving dozens of our people. We owe you a tremendous debt."
 
 choice("Continue", B3-Ch02c-Seredium, v_current_scene = B3-Ch02c-Seredium)
 
@@ -359,21 +361,21 @@ choice("Continue", B3-Ch02c-Seredium, v_current_scene = B3-Ch02c-Seredium)
 ID: B3-Ch02c-Seredium
 TEXT:
 
- "You don't have to thank me, Peter," Leila's father says. "I am also grateful to you all for having been kind enough to provide me with a place to live, when I had nowhere to go. I only hope that the work we are all doing here will not be in vain. I would very much like to be able to one day live with my daughter above the surface of this city, without having to fear for our lives every day."
+"No thanks are necessary, Peter," Reidzek says quietly. "I am the one indebted to your people for shelter when I had nowhere left to run. I only pray our labor bears fruit. My sole wish is to walk the surface with my daughter in open daylight, without glancing over our shoulders at every shadow."
 
-"It's that bad in this city, huh?..." Hadrik says.
+"The tyrant holds that tight a grip, does he?" Hadrik asks.
 
-"Yes," Albert says. "The king just does what he wants, and if you so much as look at a guard the wrong way, you might find yourself disappearing from your house the next day, never to be heard from again. We are all very lucky that we get to live in these underground caverns, but there just isn't enough space here to fit all of the inhabitants of Ollendor. Not to mention that most of our air is coming from these plants you see growing on the walls, and there just aren't enough of them to provide a suitable environment for that many people."
+"Tighter," Albert says. "The king rules on whim. Look crossways at a patrolman in the morning, and by nightfall your house stands empty, your name scrubbed from the ledgers. We count ourselves fortunate to have carved out this sanctuary in the deep caverns, but the tunnels cannot house a city's worth of refugees. Not to mention the air--most of our oxygen comes from those pale ferns clinging to the rock, and their yield has strict limits."
 
-"I've never seen plants like these before," Daren says, as he is still limping, closely behind us. "What are they called?"
+"I have never encountered vegetation like this," Daren says, limping closely at our heels. "What is the species?"
 
- "I don't think anyone has named them yet," Leila's father says, "but they seem to be a special kind of plant that has adapted to survive with only the few nutrients provided by these seredium rocks, and the dim light coming from these blue crystals. They must also have very strong roots, because these seredium walls are most certainly not easy to cut through."
+"They have no formal classification," Reidzek says, gesturing toward a cluster of pale fronds whose fibrous roots grip the metallic seams of the rock face. "They appear to subsist entirely on trace minerals leached from the seredium and the faint radiation of the blue crystals. The root systems must be remarkably dense to penetrate rock that dense."
 
-"Oh, I just remembered something that I forgot to tell you all!" Albert says. "These thick seredium walls and ceiling make it almost impossible to contact anyone from the outside through a transceiver, so if you ever want to send a message to anyone on the surface, you'll need to contact Barry, or go to the teleporter room yourself, because that's the only place where there is little enough seredium in the ceiling that it doesn't completely block all of the magical waves sent by the transceiver."
+"Which reminds me," Albert says, turning around as we walk. "The seredium density in these shafts smothers magical communication. If you ever need to broadcast to the surface through a transceiver, you must do it from Thundercloud's platform. That chamber sits directly beneath a natural fault where the seredium layer thins enough for the signal to pierce the crust."
 
-"Speaking of that teleporter..." I say. "Would it happen to be the same teleporting device that transported us tournament participants to Varathia, by any chance?"
+"And that platform..." I say, glancing back down the corridor. "Is that the same class of teleporter that brought tournament contestants to Varathia from across the sea?"
 
-"Oh, no, no, no!" Albert says. "Most definitely not. This teleporter barely covers the range of this city, and that's only because it has been placed right in the middle of it. I don't think there are more than a few teleporters on this island that are powerful enough to teleport you on one of the other continents, and they must all be very heavily guarded. I am quite certain that no such teleporter can be found in Ollendor, however."
+"Far from it," Albert says, shaking his head. "That rig barely covers Ollendor's outer perimeter, and only because it sits dead center beneath the city. True intercontinental transport arrays are ancient, gargantuan constructs, heavily fortified and locked away by the continent's rulers. You will find nothing of that magnitude in Ollendor."
 
 choice("Continue", B3-Ch02c-Banshees, v_current_scene = B3-Ch02c-Banshees)
 
@@ -381,37 +383,37 @@ choice("Continue", B3-Ch02c-Banshees, v_current_scene = B3-Ch02c-Banshees)
 ID: B3-Ch02c-Banshees
 TEXT:
 
- "Uhm... I'm sorry if I'm being too forward," Peter says, as he looks towards Kate and Illuna, "But I saw you two fighting back there and I had a question to ask. Would you by any chance happen to be... banshees?"
+"Pardon the intrusion," Peter says, glancing hesitantly toward Kate and Illuna as we move through the corridor. "I watched you two fighting on the plaza. Tell me... are you both banshees?"
 
-"Out of the two of us, only I am a banshee," Illuna says. "Kate is a woman mage, but she wasn't born as one. She became one later."
+"Only I am a banshee," Illuna replies, her tone flat and measured. "Kate is an artificial mage. She was not born with her link."
 
-"I see..." Peter says, not really knowing what else to say.
+"Ah..." Peter blinks, caught off balance. "I understand."
 
-"Also, I share this body with a little girl named Flower, who can cast magic as well," Illuna says. "The fire jets you saw earlier were coming from her, not from me."
+"Furthermore, I share this physical vessel with a child named Flower, who commands fire," Illuna adds. "The flame jets you observed in the square were hers, not mine."
 
-"You share the body?..." Peter says, in a slight state of shock. "With your host?"
+"You share a body?" Peter's eyes widen. "With your host?"
 
-"Ooooh!" Albert says. "So that's why there were two names above your head when doctor Reidzek's daugher did the introductions! So I'm guessing that your name was Illuna, then?"
+"Ah!" Albert snaps his fingers. "That explains why Doctor Reidzek's daughter conjured two names over your head during the introductions. So you are Illuna?"
 
-"Yes, that is correct," Illuna says. 
+"I am," Illuna says.
 
-"Well, banshees or no, I'm sure that our king will be more than happy to have you on our team!" Albert says.
+"Banshee, fire child, or tournament mage, our king will welcome the steel," Albert says.
 
-"When you say king, you mean your 'king of the underground', right?" Hadrik says. "Because it's starting to get a little confusing."
+"When you say king, you mean your underground patron, right?" Hadrik grumbles. "Because the royal titles down here are getting tangled."
 
- "Yes, that is what I meant," Albert says, as we finally reach the end of the corridor and enter a large empty room, with about a dozen chairs lined up near the entrance, and a few people standing around in the middle of the hall. "Anyway, this is the waiting room that we were talking about earlier. Please have a seat. In the meantime, Peter and I will go notify the king of your arrival."
+"Our patron, yes," Albert says, gesturing ahead as the tunnel widens into a vast, high-ceilinged hall. A dozen sturdy wooden chairs line the entry wall, and several armed men and women converse in small knots near the center. "This is the antechamber. Rest your feet. Peter and I will inform the king of your arrival."
 
-As we are talking, a man in his forties with a scar on his left eye and a rugged look about him slowly begins to approach us, from the other end of the room. He seems to be one of the local mages, judging by his aura and by the warning sign I'm seeing above his head, although I can't tell if he's a weapon enchanter or if he has some other specialization. He has a sword hanging from his belt and he is wearing leather armor, but he is also holding a staff in his right hand, which I'm assuming he uses for casting spells.
+As the guards turn away, a man in his forties detaches himself from a far table and saunters toward us. He has a rugged build, weathered features, and a thick scar cleaving across his left eye. A broadsword hangs at his hip over boiled leather armor, and his right hand loosely grips an iron-shod casting staff. The sharp, volatile hum of his aura sets my stat booster buzzing with a warning sigil.
 
-"Hey, Albert!" the man says, as he gets closer to us. "Are these the outsiders that Barry told us about, earlier?"
+"Ho, Albert," the scarred man calls out, his gaze raking across our battered group. "Are these the outsiders Barry hailed on the horn?"
 
-"Yes, these are the ones," Albert says.
+"The very same," Albert says.
 
-"Oh?" the man says, looking somewhat impressed. "So they're still not dead after facing the royal guards by themselves? Not bad... Not bad at all!"
+"Well now," the man whistles softly, looking us up and down. "Walked away from the royal guard in one piece? Not bad. Not bad in the slightest."
 
-"They've only met three of the royal guards," Albert says. "The captain, the mercenary and the giant. The other members of the guard must have been busy with some different mission."
+"They engaged only three," Albert notes. "The captain, the mercenary, and the shapeshifter. The rest of the guard was stationed elsewhere."
 
- "You guys had a run-in with the captain?" the man with the scar says, as he looks at us, surprised. "That would explain why you all look so beaten up. Tell me, what kind of madness possessed you when you decided to illegally infiltrate one of the most well-guarded cities on this continent?"
+"You took on the captain?" The scarred man raises a brow, looking genuinely taken aback. "That explains the bruised ribs and torn cloaks. What brand of lunacy drives someone to smuggle themselves into the most heavily fortified city on the continent?"
 
 choice(""It's because we heard that you guys are serving some really good bagels around here."", B3-Ch02c-Artificial, v_current_scene = B3-Ch02c-Artificial, v_b3_ch2_madness = 0)
 choice(""We only came here to do some trading. It's all just one big misunderstanding."", B3-Ch02c-Artificial, v_current_scene = B3-Ch02c-Artificial, v_b3_ch2_madness = 1)
@@ -422,81 +424,81 @@ ID: B3-Ch02c-Artificial
 TEXT:
 
 #if(v_b3_ch2_madness == 0) {
- "It's because we heard that you guys are serving some really good bagels around here."
+"It's because we heard that you guys are serving some really good bagels around here."
 
-"If that's the case, then I am sorry to tell you that you've travelled all this way for nothing," the man with the scar says. "The bagels they serve here are absolutely terrible. Don't listen to anyone telling you otherwise."
+"If that brought you across the border, prepare for disappointment," the scarred man says. "The bakeries down here produce leaden lumps of dough. Don't let anyone sell you on the crust."
 
-"That is truly a shame," I say. "But I guess since we're already here, we might as well stay for a while and do some sightseeing. Otherwise, it would feel like a wasted trip."
+"A tragedy," I say. "But since we're already here, we might as well take in the sights. It would be a waste of a trip otherwise."
 
-"No doubt," the man says. "So tell me, outsiders... since you've already run into the royal guards, did you by any chance have the pleasure of meeting the Overseer and his 'drowns' too?"
+"Right," he says. "Tell me, outsiders... since you've tangled with the royal guard, did you run into the Overseer and his droons as well?"
 
 }
 #if(v_b3_ch2_madness == 1) {
- "We only came here to do some trading. It's all just one big misunderstanding."
+"We only came here to do some trading. It's all just one big misunderstanding."
 
-"Oh yes, that does make sense..." the man with the scar says. "I mean, who wouldn't join a deadly tournament just to come and do some trading with a kingdom that they've never heard of before in their lives?..."
+"Naturally," the scarred man says with a dry smirk. "Who wouldn't sign their life away in a blood tournament just to peddle wares in a kingdom they've never set foot in?"
 
-"Yes, exactly!" I say. "I'm glad you see my point."
+"Precisely," I say. "Glad we see eye to eye."
 
-"So tell me, 'traders'... since you've already run into the royal guards, did you by any chance have the pleasure of meeting the Overseer and his 'drowns' too?"
+"Tell me, 'merchants'... since you've tangled with the royal guard, did you run into the Overseer and his droons as well?"
 
 }
 #if(v_b3_ch2_madness == 2) {
- "We actually came here to kill the king of Ollendor."
+"We actually came here to kill the king of Ollendor."
 
-"Oh?" the man with the scar says. "That is quite the ambitious goal that you've set for yourselves, then. Although it's not all that surprising. You wouldn't be the first assassins to come here in the hopes of killing the king. They've all failed, of course, in case that wasn't obvious enough."
+"Ambitious," the scarred man says, letting out a low whistle. "Though hardly original. You aren't the first blades-for-hire to march in with regal ambitions. The previous attempts decorate the castle dungeons, in case that wasn't obvious."
 
-"No worries!" I say. "We can handle ourselves!"
+"We manage," I say.
 
-"No doubt," the man says, as he takes a quick glance towards Daren and Hadrik, who are full of bruises. "So tell me, outsiders... since you've already run into the royal guards, did you by any chance have the pleasure of meeting the Overseer and his 'drowns' too?" 
+"Evidently," he says, taking in Daren's limp and Hadrik's swollen jaw. "Tell me, outsiders... since you've tangled with the royal guard, did you run into the Overseer and his droons as well?"
 
 }
 #if(v_b3_ch2_goblins == 3 || v_b3_ch2_goblins == 4 || v_b3_ch2_infiltration == 3) {
- "The Overseer?" I say. "Oh, you mean that green-eyed metal ball that talks funny? Yeah, we met him."
+"The Overseer?" I say. "You mean that green-eyed floating orb that talks like a ledger? Yeah, we met."
 
-"You might think he's just some funny talking metal ball, but he's so much more than that," the man says. "That bastard has complete control over all those red-eyed metal balls you see flying around the city, and he can send them to attack you with dozens of elemental spells, or even use them to spy on you. Some people here may not agree with me, but from my point of view, that Overseer is even more dangerous than Billy Bob and the royal guards combined."
+"You think he's just a chatterbox piece of scrap, but the bastard commands every red-eyed drone patrolling the skies," the man says. "He can direct elemental barrages or monitor every alley in Ollendor. Most folks here take him lightly, but in my book, that machine is deadlier than Billy Bob and the royal guard combined."
 
-"You keep calling it a 'he', but the Overseer is clearly an 'it'," Albert says. "It's just some artificial intelligence protocol that was invented by the ancients a long time ago, which Billy Bob managed to repair recently. Regardless of how 'intelligent' it is, that still doesn't make it a person."
+"You insist on calling it a 'he', but the Overseer is an 'it'," Albert cuts in. "An automated control matrix built by ancient Lessathi, patched together by Billy Bob. Artificial reasoning does not equate to personhood."
 
-"You only say that because you've never met him!" the man with the scar says. "I'm telling you, that bastard is only putting on an act! You might think he's dumb, because of the way he talks, but one of these days I swear he's going to overthrow the king to crown himself the new ruler of Ollendor, and you people won't be able to say that I haven't told you so, when it happens!"
+"You say that because you've never looked it in the lens!" the scarred man snaps. "It's putting on an act. It sounds clunky and literal, but mark my words--one morning that machine will unseat the king and claim Ollendor for itself. Don't claim I didn't warn you when the sky turns green."
 
-"Yes, yes, Breynan," Albert says. "You've told us so. You've told us so a thousand times. So maybe now we could stop talking about this subject and focus on more important matters, don't you think?"
+"Yes, Breynan," Albert sighs. "You have warned us a thousand times. Perhaps we can table the mechanical apocalypse and attend to present business?"
 
- "Hold on, there..." Hadrik says. "You guys are telling me that the old scrap of metal with the green eye that talked to us is actually alive?"
+"Hold on," Hadrik says, scratching his beard. "You're telling me that green-eyed scrap of metal is actually alive?"
 
-Albert sighs.
+Albert rubs his temples.
 
-"Not alive, in the real sense of the word," he says. "Just intelligent enough to make its own decisions."
+"Not alive by any natural standard," he says. "Merely sophisticated enough to weigh variables and execute decisions."
 
-"But is that even possible?..." Hadrik says. "Making objects intelligent just by messing with their aura? Daren, you're an enchanter. Have you ever heard of something like this before?"
+"Is that even possible?" Hadrik asks. "Stitching intelligence into an object by tuning its aura? Daren, you work metal. Have you ever heard of such a thing?"
 
-"Hey, I didn't even know that objects had auras until Arraka told me about it a few days ago," Daren says. "I always thought that I was just casting magic on the air around the items, when I was doing the enchanting before. The aura of objects is just so different from that of living beings, that I honestly can't tell what is possible and what is not."
+"I didn't even realize inanimate objects possessed distinct auras until Arraka pointed it out recently," Daren says. "I always assumed my weaves interacted with the ambient mana clinging to the surface. Object auras behave so differently from living souls that I wouldn't know where the limits lie."
 
-"Of course it's possible, you idiots!" Arraka blurts out, all of a sudden. "It's just like when you're making golems. If golems can be smart enough to make decisions on their own, then why not also this 'Overseer', or whatever it's called? To me, this 'artificial intelligence' just sounds like a smarter version of those golems that you typically see guarding ruins and attacking everyone that gets within their range of sight. I don't really see why there's any need to treat it as something special."
+"Of course it is possible, you dullards!" Arraka's voice shrills from the amulet. "It is the same underlying principle as construct animating. If a stone golem can track intruders and crush skulls without a handler, why not an Overseer? This grand 'artificial intelligence' is nothing more than a glorified golem core with an expanded instruction set. Treating it as a divine miracle only exposes your ignorance."
 
 }
 #if(v_b3_ch2_goblins != 3 && v_b3_ch2_goblins != 4 && v_b3_ch2_infiltration != 3) {
- "I'm not sure who this Overseer is supposed to be, but if by 'drowns' you mean those flying metal balls, then yeah, we did meet them," I say. "Those pieces of junk nearly killed us."
+"I'm not sure who this Overseer is supposed to be, but if by 'drowns' you mean those flying metal balls, then yeah, we did meet them," I say. "Those pieces of junk nearly killed us."
 
-"Oh yeah," the man says. "Those 'drowns' are not to be underestimated, but the Overseer is even worse... He has complete control over those metal balls, and he can even use them to spy on you. Some people here may not agree with me, but I think that bastard is even more dangerous than Billy Bob and the royal guards combined."
+"Aye," the scarred man says. "The droons are lethal enough on their own, but the Overseer is the real threat. He commands the entire fleet and feeds on their reconnaissance. Most folks here take him lightly, but in my book, that machine is deadlier than Billy Bob and the royal guard combined."
 
-"You keep calling it a 'he', but the Overseer is clearly an 'it'," Albert says. "It's just some artificial intelligence protocol that was invented by the ancients a long time ago, which Billy Bob managed to repair recently. Regardless of how 'intelligent' it is, that still doesn't make it a person."
+"You insist on calling it a 'he', but the Overseer is an 'it'," Albert cuts in. "An automated control matrix built by ancient Lessathi, patched together by Billy Bob. Artificial reasoning does not equate to personhood."
 
-"You only say that because you've never met him!" the man with the scar says. "I'm telling you, that bastard is only putting on an act! You might think he's dumb, because of the way he talks, but one of these days I swear he's going to overthrow the king to crown himself the new ruler of Ollendor, and you people won't be able to say that I haven't told you so, when it happens!"
+"You say that because you've never looked it in the lens!" the scarred man snaps. "It's putting on an act. It sounds clunky and literal, but mark my words--one morning that machine will unseat the king and claim Ollendor for itself. Don't claim I didn't warn you when the sky turns green."
 
-"Yes, yes, Breynan," Albert says. "You've told us so. You've told us so a thousand times. So maybe now we could stop talking about this subject and focus on more important matters, don't you think?"
+"Yes, Breynan," Albert sighs. "You have warned us a thousand times. Perhaps we can table the mechanical apocalypse and attend to present business?"
 
- "Hold on, there..." Hadrik says. "You guys are saying that the lessathi from a thousand years ago found a way to bring objects to life?"
+"Hold on," Hadrik says, scratching his beard. "You're saying the ancient Lessathi found a way to breathe life into dead metal?"
 
-Albert sighs.
+Albert rubs his temples.
 
-"The Overseer is not alive, in the real sense of the word," he says. "Just intelligent enough to make its own decisions."
+"The Overseer is not alive by any natural standard," he says. "Merely sophisticated enough to weigh variables and execute decisions."
 
-"But is that even possible?..." Hadrik says. "Making objects intelligent just by messing with their aura? Daren, you're an enchanter. Have you ever heard of something like this before?"
+"Is that even possible?" Hadrik asks. "Stitching intelligence into an object by tuning its aura? Daren, you work metal. Have you ever heard of such a thing?"
 
-"Hey, I didn't even know that objects had auras until Arraka told me about it a few days ago," Daren says. "I always thought that I was just casting magic on the air around the items, when I was doing the enchanting before. The aura of objects is just so different from that of living beings, that I honestly can't tell what is possible and what is not."
+"I didn't even realize inanimate objects possessed distinct auras until Arraka pointed it out recently," Daren says. "I always assumed my weaves interacted with the ambient mana clinging to the surface. Object auras behave so differently from living souls that I wouldn't know where the limits lie."
 
-"Of course it's possible, you idiots!" Arraka blurts out, all of a sudden. "It's just like when you're making golems. If golems can be smart enough to make decisions on their own, then why not also this 'Overseer', or whatever it's called? To me, this 'artificial intelligence' just sounds like a smarter version of those golems that you typically see guarding ruins and attacking everyone that gets within their range of sight. I don't really see why there's any need to treat it as something special."
+"Of course it is possible, you dullards!" Arraka's voice shrills from the amulet. "It is the same underlying principle as construct animating. If a stone golem can track intruders and crush skulls without a handler, why not an Overseer? This grand 'artificial intelligence' is nothing more than a glorified golem core with an expanded instruction set. Treating it as a divine miracle only exposes your ignorance."
 
 }
 choice("Continue", B3-Ch02c-Alice, v_current_scene = B3-Ch02c-Alice)
@@ -505,33 +507,33 @@ choice("Continue", B3-Ch02c-Alice, v_current_scene = B3-Ch02c-Alice)
 ID: B3-Ch02c-Alice
 TEXT:
 
- "So, if I wanted, I could just mess with the auras of some rocks, and I'd have my own personal army of highly intelligent stone golems, then?..." Hadrik says.
+"So in theory, if I tuned the auras of a few boulders, I could raise a private army of tactical stone golems?" Hadrik asks, his eyes lighting up.
 
-"Sure," Arraka says. "If you also combine those rocks with some seredium, and some of the blue crystals lying around these caves, and a bunch of other stuff, and then spend a few decades working on them by using the knowledge you acquired from the Magium, then yes, you'll have your army. Call me in thirty years, and tell me how that's worked out for you."
+"Certainly," Arraka sneers. "If you fuse those boulders with refined seredium, resonant blue crystals, a dozen catalyst alloys, and spend forty years studying core matrices from the Magium. Check back with me in three decades and let me know how your pebbles are doing."
 
-"Anyway..." Albert says. "The important thing to know about this Overseer is that from what we've gathered, it does not seem to be on very good terms with Billy Bob, the lessathi, which is why it hasn't yet been granted full control of the 'drowns' in the city, and it is still labeled as an 'experimental' protocol. We have reasons to believe that the Overseer has plans of its own, although it is unclear to us what exactly it is trying to accomplish. In either case, if we were to win it to our side, we would potentially gain a great ally, because those 'drowns' are most certainly a force to be reckoned with."
+"In any case," Albert says, "the crucial detail is that the Overseer remains at odds with Billy Bob. That friction is why the Lessathi has withheld full administrative clearance over the city's aerial fleet, keeping the construct classified as 'experimental.' We suspect the Overseer pursues its own objectives, though its endgame remains opaque. Winning its allegiance would provide immense leverage--those airborne units are formidable."
 
-"Why do you people keep calling them 'drowns'?" Melindra says. "I'm pretty sure the correct name was 'droons'. Isn't that what Billy Bob used to call them?"
+"Why do you keep butchering the pronunciation?" Melindra asks, crossing her arms. "They are 'droons.' That is how Billy Bob refers to them."
 
-"No, I am quite certain that I've heard him call them 'drowns' once," Albert says. "Or maybe it was 'droynes'? Listen, it doesn't really matter what he calls them. The name is stupid anyway. Let's just call them metal balls and be done with it."
+"I could swear I heard him say 'drowns,'" Albert mutters. "Or 'droynes.' Regardless, the label is absurd. Let us call them flying spheres and move on."
 
- "Actually, I like to call them golem heads," Melindra says. "You know, because of that eye they have in the middle."
+"I prefer 'golem heads,'" Melindra says. "On account of the glowing central eye."
 
-"Ugh..." Albert says. "Whatever. Come on, Peter, we should be going to meet the king. We've already kept him waiting long enough."
+"Whatever suits you," Albert says with a weary wave. "Come, Peter, we have kept our patron waiting long enough."
 
-"Excuse me..." says a little girl that is probably around seven years of age, as she is timidly approaching our group. "Are you coming from the surface? Are you warriors?..."
+"Excuse me..." a small voice pipe up from beside the entry bench. A girl of perhaps seven years steps forward, wringing the hem of a faded smock. "Did you come from the surface? Are you real warriors?"
 
-"Uh... yes," Daren says. "Yes we are... Why do you ask?"
+"We are," Daren says gently, taking a half-step toward her. "What troubles you, child?"
 
-"Please, sirs..." the little girl says, as she weakly grabs both me and Daren by our wrists. "Could you help me find my family? My mother has been gone for three days... My father and brother for even longer than that. These people said they'd help me. They said they'd help me find them, but they lied! They haven't looked for them at all, and it's already been three days. Please, sirs, you have to help me... You are my only hope!"
+"Please, sirs..." Her small hands reach out, clutching weakly at my sleeve and Daren's gauntlet. "Could you find my family? My mother was taken three days ago... My father and brother even longer. These people promised to look for them, but they lied! They haven't searched at all. Please... You are my only hope."
 
- "Come on, Alice, you know that you shouldn't be bothering strangers..." Albert says, and then he pulls the girl away from us, as she looks as if she were on the verge of crying.
- 
-"Yes, sir..." Alice says, in a meek tone of voice and with a very tired expression on her face, looking as if she's already given up all hope. "I'm sorry. It won't happen again..."
+"Come now, Alice," Albert says, catching the girl by the shoulder and pulling her back with firm gentleness. "You know better than to pester guests."
 
-"Sorry about that," Albert tells us, and then he turns to his friend. "Let's go, Peter!"
+"Yes, sir..." Alice's voice drops to a whisper, her head sinking toward her chest. "I'm sorry. I won't do it again..."
 
-"Oh, it's... no trouble," Daren says, as he looks with a somewhat worried expression in his eyes at the girl and the two men slowly walking towards the end of the long hall.
+"Our apologies," Albert tells us, motioning toward the inner archway. "Let us go, Peter."
+
+"It is... no trouble at all," Daren murmurs, his gaze lingering on the child as the two men lead her down the corridor.
 
 choice("Continue", B3-Ch02c-Alice2, v_current_scene = B3-Ch02c-Alice2)
 
@@ -539,23 +541,23 @@ choice("Continue", B3-Ch02c-Alice2, v_current_scene = B3-Ch02c-Alice2)
 ID: B3-Ch02c-Alice2
 TEXT:
 
- "What was that all about?" Hadrik asks Breynan, the man with the scar, in a low voice.
+"What was that about?" Hadrik asks Breynan in a low rumble.
 
-"You mean the girl?..." Breynan says. "We picked her up during a mission. All of her family had been taken away by the city guards, and she had nowhere to go. Her father and brother were mages, and they both disappeared without a trace from their homes one night, never to be heard from again. They aren't the only mages that have been taken away by guards all of a sudden, without any explanation, in the past few years. These sorts of situations have been happening increasingly more often as the years went by, and people barely have the courage to talk about it anymore, out of fear that they may become the next ones to get dragged out of their homes in the middle of the night, if they are not careful with their words."
+"The girl?" Breynan says, his expression hardening. "Our scouts brought her in during a sweep. The city watch cleared out her entire household. Her father and brother were registered mages who vanished from their beds one night without a trace. They aren't isolated cases. Unexplained abductions have escalated sharply over the past few years, and citizens are terrified to whisper about it, fearing they'll be dragged into the dark next."
 
-"Do you have any idea why they might be doing this?" Daren asks Breynan, as I see Albert and Peter stopping in the middle of the room to have a discussion with one of their friends, while the little girl is just standing there, with her head bowed down.
+"Do you know why mages are being targeted?" Daren asks, watching Albert and Peter pause mid-hall to speak with another rebel while Alice stands with bowed head.
 
- "Given that the majority of their targets so far have been mages," Breynan says, "we're thinking that they may be taking them to those large black towers, coated with seredium. I don't know if you've seen how they work, but those towers are basically the main source of magical energy for all of the gadgets in this city, from the flying metal carriages, to those metal balls roaming the skies. The energy in those towers is coming from all the mages that you see standing on the flying platforms on the side of them, and also from all the mages that are inside the towers. These people work all day to transfer magical energy to the tower, and in return, they get paid for their services. But I think Billy Bob wasn't happy with the amount of energy he was getting from voluntary work, so he decided to have some of the mages kidnapped, so they could work day and night at the towers, without pay. We don't know this for certain, of course. So far, it is only speculation on our part."
+"Given the pattern, we suspect they are funneled into the black seredium towers," Breynan says. "Those monoliths power every Lessathi contraption in Ollendor--the floating carriages, the sky conduits, the aerial fleet. The grid runs on mana siphoned from spellcasters stationed on the external gantry platforms and deep within the inner chambers. It began as paid contracting, but Billy Bob evidently found voluntary labor insufficient and resorted to forced conscription. It remains an educated guess, of course."
 
-"Have you not been to those towers to see if you could find the girl's father and brother there?" Daren says.
+"Have your scouts infiltrated the towers to confirm if the girl's kin are inside?" Daren presses.
 
- "We tried, but those areas are heavily guarded," Breynan says. "We would risk too many of our men just to confirm our theory, and then we'd need a whole battalion to actually free the slaves. As cruel as this may sound, there are unfortunately more important things to spend our resources on than finding a little girl's family."
+"The perimeter is impenetrable without heavy casualties," Breynan says bluntly. "We cannot risk dozens of lives on a reconnaissance hunch, and staging a breakout would require a full regiment. Harsh as it sounds, our resources cannot be spent chasing a single family."
 
-"What about the girl's mother?" Hadrik asks. "Do you know what happened to her?"
+"And her mother?" Hadrik asks. "What became of her?"
 
-"Her mother went missing shortly after she began asking the city guards to investigate why her husband and son had disappeared," Breynan says. "She must have insisted a little too much and gotten on one of the guards' nerves. Only the gods know where she may be now... If she is still alive, that is."
+"She disappeared shortly after filing inquiries with the watch commander," Breynan says. "Pushed too hard and annoyed the wrong lieutenant. Only the gods know where she ended up... assuming she still draws breath."
 
-As I look towards the other end of the hall again, I see that Albert and Peter have finished their conversation with their friend, and they are almost about to exit the room, with the little girl following close behind.
+Across the hall, Albert and Peter conclude their exchange and guide Alice toward the far archway.
 
 choice("Call after the girl and tell her that we'll find her family.", B3-Ch02c-Sundown, v_current_scene = B3-Ch02c-Sundown, v_b3_ch2_alice = 1)
 choice("Stay silent.", B3-Ch02c-Sundown, v_current_scene = B3-Ch02c-Sundown, v_b3_ch2_alice = 0)
@@ -565,79 +567,79 @@ ID: B3-Ch02c-Sundown
 TEXT:
 
 #if(v_b3_ch2_alice == 0) {
- Daren and Hadrik continue their discussion with Breynan for a while after the girl leaves the room with Albert and Peter. During this time, we see a few people coming in and out of the hall, going about their daily business, but one situation in particular eventually manages to attract our attention.
+Daren and Hadrik continue conferring with Breynan as the girl disappears down the corridor with Albert and Peter. Resistance members drift through the hall on routine errands, but the quiet routine shatters a few minutes later.
 
-Just as we are finishing one of our conversations, we see an older man being dragged into the room against his will by two of his comrades, while he is desperately pleading them to let him go. After a while, the three of them stop in front of a man guarding an iron door, which has an impressive number of locks on it, and the word 'Quarantine' written in big red letters right above it.
+Near the corridor entrance, two young fighters drag an older man toward a reinforced iron door set into the bedrock. The slab is reinforced with heavy crossbars and half a dozen iron padlocks, beneath a faded stencil reading 'Quarantine' in chipped red paint.
 
- "We've got another one for you, Desmond," one of the two younger men says to the guard. "Open the door."
+"Another intake for the ward, Desmond," one of the youths calls out to the sentry. "Unbar the hatch."
 
-"Gotcha," Desmond says, as he begins opening the locks, one by one.
+"Right," Desmond grunts, selecting a heavy iron key from his ring and working the locks one by one.
 
-"Please..." says the older man. "I still have two hours left. At least let me say goodbye to my son!"
+"Please..." the older man begs, digging his heels into the flagstones. "I still have two hours before the mark turns hot. At least let me say goodbye to my boy!"
 
-"Your son is away on a mission, old man," says the younger man who spoke earlier. "He won't be back until sundown. You will never see him again."
+"Your boy is on patrol outside the perimeter, Jack," the youth says, keeping a tight grip on his collar. "He won't be back until sundown. You know the protocol."
 
-"But I still have two hours!" the older man says. "You can't do this to me!"
+"Two hours!" Jack pleads. "You cannot lock me in the dark like a dog!"
 
-"Don't make this harder for the rest of us, Jack," the other young man says. "Your life is over. You know this. What difference are two more hours going to make? Stop crying and act like a man, will you? It's not like we're doing this because we're enjoying it."
+"Do not make this harder, Jack," the other youth says, his tone weary rather than cruel. "Your run is finished. You know what happens when the fever breaks. What do two hours buy except more grief? Keep your feet. None of us enjoy this."
 
-"Alright, get him inside," the guard says, as he opens the door.
+"Clear the threshold," Desmond says, swinging the heavy door inward.
 
 }
 #if(v_b3_ch2_alice == 1) {
- "Hey, Alice!" I shout. "Don't worry, we'll find your family for you!"
+"Hey, Alice!" I shout across the hall. "Don't worry, we'll find your family for you!"
 
-Hearing what I said, the little girl suddenly turns her head back towards me, with a glimmer of hope in her tired eyes.
+The girl stops in her tracks, whirling around with a fragile spark igniting in her tired eyes.
 
-"Do you really mean it?..." the girl shouts back, in a somewhat hesitant tone.
+"You mean that?" she calls back, her voice shaking.
 
-"Of course!" I say, loudly. "You can count on us! I'm sure we'll bring them all back to you in no time!"
+"Count on it," I say firmly. "We'll track them down and bring them back."
 
-The girl gasps, and tears of joy begin flowing from her eyes.
+A breathless gasp escapes her, and tears spill over her cheeks.
 
-"Thank you!" the girl shouts, in a trembling voice. "Thank you so much! I promise that I'll do anything to make it up to you. I'll wash your dishes, and I'll... I'll cook your food... and scrub your floors, and--"
+"Thank you!" she cries, clutching her smock with trembling hands. "Thank you so much! I'll earn it, I swear! I can wash your dishes... I'll cook your rations... scrub the floors, carry gear, anything--"
 
-"It's alright!" I tell her. "You don't need to do any of that stuff. Just go get some rest. You look really tired!"
+"Save the chores," I tell her with a brief wave. "Just get some sleep. You've earned a rest."
 
-The little girl nods to me with a faint smile on her face, as she wipes the tears from her eyes, and then she moves to follow Albert and Peter out of the room, until none of them are visible anymore.
+She wipes her eyes with the back of her sleeve, offering a faint, trembling smile before turning to follow Albert and Peter into the inner passage.
 
 }
 #if(v_b3_ch2_alice == 1 && v_b3_ch2_madness == 2) {
- "Barry, I get what you were trying to do, but you shouldn't just give people false hopes like that..." Daren says. "We aren't even sure where her family is, or if they're still alive, not to mention that doing what you promised would mean straying pretty far off-course from what we originally came here to accomplish..."
+"Barry, I understand your instinct, but tossing out promises like that is dangerous," Daren says in an undertone. "We have no lead on her kin, no guarantee they survive, and mounting a rescue pulls us completely off course from why we entered this city."
 
-"You sure about that?..." I say. "Because the way I see it, once we kill the king, all his forces will be in disarray, and it should become easy for us to infiltrate one of the towers. Not to mention that if we crown one of our allies as the new king, we will be able to order the guards to tell us what they did with the mother. If you ask me, helping the girl should align perfectly with what we originally came here to do."
+"Does it?" I ask. "Once the king falls, the garrison collapses into chaos, leaving the seredium towers wide open. And when we install someone reasonable on the throne, a single decree forces the guard captains to cough up where they dumped the mother. Chasing her family fits right into the job."
 
-"You're making a lot of assumptions there, Barry..." Daren says. "But I suppose you're right, in a way. At the very least, we should be able to do more for this girl than the rebels have done so far, even if we were to only stick to our initial plan. I guess we'll just have to see how it all plays out in the end."
+"You're building castles on sand, Barry," Daren mutters, though the edge leaves his voice. "Still... even an indirect strike does more for that child than the resistance has managed. We will see how the pieces land."
 
-Just as we are about to finish our conversation, we see an older man being dragged into the room against his will by two of his comrades, while he is desperately pleading them to let him go. After a while, the three of them stop in front of a man guarding an iron door, which has an impressive number of locks on it, and the word 'Quarantine' written in big red letters right above it.
+Near the corridor entrance, two young fighters drag an older man toward a reinforced iron door set into the bedrock. The slab is reinforced with heavy crossbars and half a dozen iron padlocks, beneath a faded stencil reading 'Quarantine' in chipped red paint.
 
 }
 #if(v_b3_ch2_alice == 1 && v_b3_ch2_madness != 2) {
- "Barry, I get what you were trying to do, but you shouldn't just give people false hopes like that..." Daren says. "We aren't even sure where her family is, or if they're still alive, not to mention that doing what you promised would mean straying pretty far off-course from what we originally came here to accomplish..."
+"Barry, I understand your instinct, but tossing out promises like that is dangerous," Daren says in an undertone. "We have no lead on her kin, no guarantee they survive, and mounting a rescue pulls us completely off course from why we entered this city."
 
-"You sure about that?..." I say. "Because the way I see it, once we kill the king, all his forces will be in disarray, and it should become easy for us to infiltrate one of the towers. Not to mention that if we crown one of our allies as the new king, we will be able to order the guards to tell us what they did with the mother. If you ask me, helping the girl should align perfectly with what we originally came here to do."
+"Does it?" I ask. "Once the king falls, the garrison collapses into chaos, leaving the seredium towers wide open. And when we install someone reasonable on the throne, a single decree forces the guard captains to cough up where they dumped the mother. Chasing her family fits right into the job."
 
-"You're making a lot of assumptions there, Barry..." Daren says. "But I suppose you're right, in a way. At the very least, we should be able to do more for this girl than the rebels have done so far, even if we were to only stick to our initial plan. I guess we'll just have to see how it all plays out in the end."
+"You're building castles on sand, Barry," Daren mutters, though the edge leaves his voice. "Still... even an indirect strike does more for that child than the resistance has managed. We will see how the pieces land."
 
-"Huh..." Breynan says. "So this was why you really came here, then. To kill the king of Ollendor... I'm sure that our king of the underground will be ecstatic when he hears this."
+"Well now," Breynan mutters, catching my eye with a sharp grin. "So that's your game. Stalking the crown itself... The patron will be thrilled to hear that."
 
-Just as we are about to finish our conversation, we see an older man being dragged into the room against his will by two of his comrades, while he is desperately pleading them to let him go. After a while, the three of them stop in front of a man guarding an iron door, which has an impressive number of locks on it, and the word 'Quarantine' written in big red letters right above it.
+Near the corridor entrance, two young fighters drag an older man toward a reinforced iron door set into the bedrock. The slab is reinforced with heavy crossbars and half a dozen iron padlocks, beneath a faded stencil reading 'Quarantine' in chipped red paint.
 
 }
 #if(v_b3_ch2_alice == 1) {
- "We've got another one for you, Desmond," one of the two younger men says to the guard. "Open the door."
+"Another intake for the ward, Desmond," one of the youths calls out to the sentry. "Unbar the hatch."
 
-"Gotcha," Desmond says, as he begins opening the locks, one by one.
+"Right," Desmond grunts, selecting a heavy iron key from his ring and working the locks one by one.
 
-"Please..." says the older man. "I still have two hours left. At least let me say goodbye to my son!"
+"Please..." the older man begs, digging his heels into the flagstones. "I still have two hours before the mark turns hot. At least let me say goodbye to my boy!"
 
-"Your son is away on a mission, old man," says the younger man who spoke earlier. "He won't be back until sundown. You will never see him again."
+"Your boy is on patrol outside the perimeter, Jack," the youth says, keeping a tight grip on his collar. "He won't be back until sundown. You know the protocol."
 
-"But I still have two hours!" the older man says. "You can't do this to me!"
+"Two hours!" Jack pleads. "You cannot lock me in the dark like a dog!"
 
-"Don't make this harder for the rest of us, Jack," the other young man says. "Your life is over. You know this. What difference are two more hours going to make? Stop crying and act like a man, will you? It's not like we're doing this because we're enjoying it."
+"Do not make this harder, Jack," the other youth says, his tone weary rather than cruel. "Your run is finished. You know what happens when the fever breaks. What do two hours buy except more grief? Keep your feet. None of us enjoy this."
 
-"Alright, get him inside," the guard says, as he opens the door.
+"Clear the threshold," Desmond says, swinging the heavy door inward.
 
 }
 choice("Continue", B3-Ch02c-Quarantine, v_current_scene = B3-Ch02c-Quarantine)
@@ -646,33 +648,35 @@ choice("Continue", B3-Ch02c-Quarantine, v_current_scene = B3-Ch02c-Quarantine)
 ID: B3-Ch02c-Quarantine
 TEXT:
 
- "No, no, no!" Jack shouts, as he's being pushed in the quarantine zone by his associates.
+"No! No, please!" Jack yells as the two youths heave him past the threshold.
 
-Once they push him inside, the guard closes the door, and then he locks it back up.
+Desmond slams the heavy iron door shut and throws the deadbolts, the metal clanging loud in the chamber.
 
-"Let me out!" we hear Jack shouting desperately from the other side, as he is pounding on the iron door with his fists. "I don't want to die in here! No, let go of me, what are you doing? I said let go! You can't do this to me. You can't!"
+"Let me out!" Jack's muffled fists hammer frantically against the reverse side. "I'm not ready to rot in the dark! Get off me--hands off! You cannot leave me here!"
 
-The old man's voice is becoming more and more muffled as the men on the inside are dragging him further into the quarantine area, until eventually the voice can no longer be heard anymore and the hallway becomes silent once again.
+The shouting recedes deeper down the subterranean shaft, swallowed by distance until the hallway settles into uneasy silence.
 
-"Okay, what the HELL was that?!" Hadrik asks Breynan, after a few moments of us just staring at the iron door, without saying anything.
+"What in the name of the frozen north was that?" Hadrik demands, staring at the bolted iron plate.
 
- "Listen, I know what this looks like from an outsider's perspective, but we don't exactly have a lot of options, here..." Breynan says. "There is a terrible disease currently plaguing our city, and sometimes the men we send out on missions happen to catch it. We don't know where it's coming from, we don't know what it is, and we have no way of curing it. All we know is that once you get it, there are three pink spots that immediately appear on the back of your neck, and then exactly a week after that, you start getting the very first symptoms of the disease, and your illness becomes contagious. Once the sickness really starts kicking in, you're going to get violent coughs, a high fever, and eventually you won't even be able to get out of bed anymore. Nobody who contracted this disease has ever managed to live through it. The only thing we can do is to isolate everyone who becomes ill, so that we can at least keep our casualties to a minimum."
+"It looks grim to outsiders, but our backs are against the stone," Breynan says. "An incurable blight runs rampant through Ollendor, and our scouts catch it on the surface. We don't know the vector, the source, or a remedy. The onset is always identical: three pink lesions erupt at the nape of the neck. Exactly seven days later, the fever breaks out and the disease turns violently contagious. From there, it's wracking coughs, delirium, and total organ failure. No one survives. Isolating the infected the instant the marks appear is the only way to keep the rot from wiping out the entire sanctuary."
 
-"No..." Daren says. "No, this isn't right... You can't just abandon these people like this. There has to be a way to save them. I'm going in there!"
+"No," Daren says, his voice shaking with anger. "Barricading them in the dark to die is murder. There has to be a counter-weave. I am going in."
 
- "No, wait, you're not allowed to--" Breynan starts to say, but Daren does not listen to him and he storms right past us, straight for the iron door, at a speed that makes it look like he's completely forgotten that he is still in pain from the beating he's taken earlier.
+"Hold on, you have no authorization--" Breynan starts, but Daren shoulders past him.
 
-"I'll go get him..." I tell Breynan, as I rush to follow Daren.
+The healer strides straight for the iron door, moving with a fierce urgency that ignores his bruised ribs and battered leg.
 
-Before I manage to catch up to him, however, Daren calls out to the guard in front of the iron door, asking to be allowed inside the quarantine zone.
+"I'll rein him in," I tell Breynan, jogging after him.
 
-"Open the door, please!" Daren tells the guard, and then he stops in front of him. "I want to take a look inside, and see if I can help."
+Before I can grab his arm, Daren halts before the sentry.
 
-Realizing that I'm already too late, I place myself not too far behind Daren and I decide to wait and see what their conversation will lead to. 
+"Unbar the door," Daren demands. "I am examining the ward."
 
-"Nobody is allowed inside the quarantine zone," says Desmond, the guard. "Especially not outsiders. Go back to your chair and wait for the king to summon you. There is nothing for you to see here."
+I pull up a pace behind Daren and watch the standoff.
 
-"No, you don't understand!" Daren says. "I am a healer. If you let me in there, I might find a way to cure them!"
+"No entry," Desmond says, resting a hand on the bolt. "Especially for outsiders. Return to your bench until the king summons you. There is nothing for you here."
+
+"You misunderstand," Daren says, stepping closer. "I am a master healer. Let me inspect the patients, and I can isolate the affliction."
 
 choice("Continue", B3-Ch02c-Iknar, v_current_scene = B3-Ch02c-Iknar)
 
@@ -680,31 +684,31 @@ choice("Continue", B3-Ch02c-Iknar, v_current_scene = B3-Ch02c-Iknar)
 ID: B3-Ch02c-Iknar
 TEXT:
 
- "I know who you are, healer in armor," Desmond says. "I know what you've accomplished. But this disease is nothing like that 'Iknar' plague that you are so famous for having cured all by yourself. We have many skilled healers here, and all of them said that they haven't seen anything like it before. We already lost two of our best healers to this plague before we realized that there is nothing that can be done to stop it. I won't let you waste your life away as well."
+"I know your name, armored healer," Desmond says. "I know what you achieved on the eastern continent. But this blight bears no resemblance to the Iknar plague you cleansed. We had seasoned practitioners of our own, and none could decipher it. We buried two of our finest healers before accepting the truth: there is no remedy. I will not let you throw your life into the pit."
 
-"So you're just going to let them all die in front of your eyes?" Daren says, furiously. "They are your friends!"
+"So you abandon your own comrades to rot?" Daren says, fury bleeding into his words. "They are your people!"
 
-"Don't you dare lecture me, healer," Desmond says, in a tone that suggests he is barely able to contain his rage. "I've already lost my wife to this disease, and I am about to lose my brother too, in a few days. If I'm telling you that it can't be done, then it can't be done! You're just going to throw your life away for nothing! Don't you get it? There's nothing you can do to save them. It doesn't matter how good of a healer you are. Nobody can achieve the impossible!"    
+"Do not lecture me on loss, swordsman," Desmond snaps, his voice vibrating with barely restrained rage. "I buried my wife in those catacombs last month, and my brother sits behind that iron plate waiting for his fever to spike. If I tell you it is impossible, it is impossible! You would only add another corpse to the ledger. No skill overcomes the inevitable."
 
- "That doesn't mean that I can't still try!" Daren says, with a very determined look in his eyes. "Listen to me, Desmond. When I came here to this tournament, I promised myself that I wouldn't get distracted. I swore that I would focus on my goal of winning the tournament regardless of what would happen, because winning the Magium is what's most important. If I were to win the Magium, everything else that I couldn't do before would become possible, and I could potentially save tens of thousands of lives in the time that would have normally taken me to save only one. But none of that matters right now. None of it matters, because by the time I'll win the tournament... by the time I'll finally gain access to the Magium... all of those people behind that door will be long dead, and I cannot let that happen. I would never be able to forgive myself if I did."
+"That does not excuse turning our backs," Daren says, his gaze hardening with fierce resolve. "Listen to me, Desmond. When I entered this tournament, I swore not to be swayed from the Magium. I told myself that claiming the source was the only path that mattered, because with that power, I could mend thousands in the time it takes to treat one broken bone on the road. But that promise means nothing if I walk past dying men today. By the time the tournament concludes, every soul behind that iron will be dust. I will not carry that cowardice to my grave."
 
-Daren then takes one step forward, and he puts both his hands on the guard's shoulders, as he looks him straight in the eye.
+Daren takes a step forward, planting both hands firmly on Desmond's shoulders and looking him dead in the eye.
 
- "Desmond, please... let me in," Daren says. "Let me in, so I can go save your brother..."
+"Desmond. Let me in. Let me try for your brother."
 
-It seems that the rage in Desmond's eyes has disappeared, and now he is giving Daren a long, thoughtful look, probably trying to decide if he should put his trust in him or not. 
+Desmond stares back, the hostility draining from his weathered face into weary contemplation.
 
-"You are insane, healer!" Desmond tells Daren after a while, as he pushes both his hands away from his shoulders. "You are a madman and a fool! Even more of a fool than that idiot Kelrim."
+He knocks Daren's hands away with a gruff scoff. "You are out of your mind, healer. A stark-raving fool--worse than that lunatic Kelrim."
 
-The guard then begins opening the locks one by one, until he's finally done with them, and then he opens the iron door.
+Desmond turns to the door, unlocking the iron padlocks one by one before pulling the heavy slab ajar.
 
-"Do as you wish," Desmond says. "But know that you only have one week at your disposal. If in one week you don't make any progress, you either keep out of our base, or we'll lock you in with the rest of them. Don't say that I didn't warn you."
+"Have it your way," Desmond mutters. "You have one week. If you show no results within seven days, you stay clear of this compound or join them permanently. You were warned."
 
-"Thank you," Daren says. "I'll make sure not to waste this chance you've given me."
+"Understood," Daren says. "I will not squander the chance."
 
-Daren then turns towards me.
+He glances over his shoulder at me.
 
-"Let's go, Barry!" he says.
+"With me, Barry!"
 
 choice(""Wait, that's not why I followed you here!"", B3-Ch02c-Lousy, v_current_scene = B3-Ch02c-Lousy, v_b3_ch2_kelrim = 0)
 choice(""Alright. Lead the way!"", B3-Ch02c-Cards, v_current_scene = B3-Ch02c-Cards, v_b3_ch2_kelrim = 1)
@@ -713,39 +717,37 @@ choice(""Alright. Lead the way!"", B3-Ch02c-Cards, v_current_scene = B3-Ch02c-Ca
 ID: B3-Ch02c-Lousy
 TEXT:
 
- "Wait, that's not why I followed you here!"
+"Wait, that's not why I followed you here!"
 
-"It's not?..." Daren says.
+"It's not?" Daren asks, pausing.
 
-"No, I only came after you because I wanted to stop you, but I was a little too late," I say. "Anyway, I see that you already made up your mind, so all I can do now is wish you luck."
+"I ran over to pull you back, but you were already through the door," I say. "If your mind is made up, all I can do is wish you luck."
 
-"Oh..." Daren says, in a disappointed voice. "Well, in that case, thank you, I guess... I will try my best to not screw things up."
+"Ah," Daren says, his shoulders dipping with slight disappointment. "Well... thank you, then. I will try not to make a mess of things."
 
-Having said that, Daren walks inside the quarantine area, and as soon as he enters, Desmond closes the door behind him and then locks it up once again. Given that I no longer have any business here, I decide to return to my friends, who are still gathered up near the row of chairs by the wall.
+He turns and steps past the threshold. Desmond pulls the iron slab shut and locks the padlocks one by one. Seeing no reason to linger by the gate, I head back across the antechamber to where the others wait by the wall.
 
-"I take it that you couldn't convince Daren to change his mind?..." Kate says, as I join them.
+"Couldn't talk him out of it?" Kate asks as I take a seat.
 
-"He was too determined to go in there," I say. "There was nothing I could do."
+"His heels were dug in," I say. "Nothing short of a stun bolt was stopping him."
 
-"Eh, I'm sure he'll be fine," Hadrik says. "We've all gotten out of situations far worse than some lousy sickness. He'll find a way to deal with it eventually."
+"He'll pull through," Hadrik says with a shrug. "We've crawled out of tighter spots than a common fever. The lad will sort it out."
 
- While Daren is busy tending to the sick inside the quarantine area, the rest of us spend this time to have a few discussions with Breynan and Leila's father about the structure of their underground society, and their relation to the people living on the surface of the city. Just as we are beginning to get a better understanding of how things are working in Ollendor, both above ground and below it, we see the iron door opening, as Daren limps out of the quarantine area, with a goblin dressed in white mage robes following close behind him.
+While Daren tends to the infected in the ward, the rest of us pass the time conferring with Breynan and Reidzek about the underground sanctuary and its uneasy coexistence with the city above. Just as the political landscape comes into focus, the heavy iron door clanks open.
 
-"A goblin?..." Illuna asks surprised, when the two of them reach us.
+Daren limps back into the antechamber, followed closely by a goblin dressed in white mage robes.
 
- "Yes, this is Kelrim," Daren says. "A goblin white mage who has been volunteering to treat the sick people in the quarantine area for the past two weeks."
+"A goblin?" Illuna asks, her eyes narrowing as the two approach.
 
-"Two weeks?" I ask. "Shouldn't that mean that his disease is contagious by now?"
+"This is Kelrim," Daren says. "A goblin white mage who has volunteered in the quarantine ward for the past two weeks."
 
-"No," Daren says. "Apparently, this sickness develops more slowly for goblins than it does for humans, so he should still have around two more weeks before he needs to be locked in the quarantine area with the others."
+"Two weeks?" I ask. "Shouldn't that make him contagious by now?"
 
-"Okay..." I say. "But why did you bring him with you?"
+"Goblin physiology develops the sickness at half the rate," Daren explains. "He has roughly two weeks before the lesions turn infectious. He cast a temporary ward on me that shielded me from the disease, and he helped me diagnose its true nature."
 
-"I brought him here because he wants to find a cure to this sickness just as much as I do," Daren says. "He also helped me out a lot by casting a protection spell on me that shielded me temporarily from the disease, and it is thanks to him that I managed to figure out the true nature of this illness."
+"Daren partnering with a monster?" Hadrik's laugh rumbles. "Now there's a sight I never expected to see."
 
-"Daren, working together with a monster?" Hadrik says. "Now there's something that I never thought I'd see in this lifetime!"
-
-"The healer speaks the truth!" Breynan says, after inspecting the back of Daren's neck. "That temporary spell he spoke of really did manage to protect him from the disease!"
+"The healer speaks the truth," Breynan says after inspecting the back of Daren's neck. "That ward held the rot at bay."
 
 choice("Continue", B3-Ch02c-Strangers, v_current_scene = B3-Ch02c-Strangers)
 
@@ -755,35 +757,39 @@ TEXT:
 
 set(v_ac_b3_ch2_reckless,1)
 achievement("Reckless",v_ac_b3_ch2_reckless)
- "Alright. Lead the way!" I say.
+"Alright. Lead the way!" I say.
 
-"So, there were two mad fools instead of one..." Desmond says, as he looks at me.
+"Two lunatics for the price of one," Desmond mutters, eyeing me with mild disbelief.
 
-"Well, I suppose they don't call me 'Barry the reckless' for nothing," I say. "See you later!"
+"They don't call me 'Barry the Reckless' for nothing," I say. "See you on the other side."
 
-Having said that, I go to follow Daren inside the quarantine area, and as soon as we both enter, Desmond closes the door behind us and then locks it up once again. We now find ourselves within a small corridor that is being lit by two torches, and at the end of the tunnel, there is another iron door, which does not appear to have any locks on it.
+I follow Daren past the threshold. Desmond pulls the heavy door shut behind us, the clatter of iron deadbolts sealing us in.
 
-As we approach the door, we begin hearing the voice of the old man who got thrown in here earlier, and it seems that he is having an argument with a few of the other sick people in the quarantine area.
+We make our way down a narrow stone corridor illuminated by a pair of smoky torches. At the far end stands a second iron door, unlocked. Muffled voices filter through the seam, where the old man Jack is locked in an argument with other inmates.
 
-"Get a hold of yourself, Jack," says one of the guys beyond the door, as Daren and I make our way through the corridor. "You've done nothing but whine constantly ever since you got here. We even had to drag you away from the entrance, so you wouldn't bother anyone in the waiting room. Can you not at least try to enjoy your last few days of relatively good health while you still have them? Come here. Grab a beer. Play some cards with us. We're all in this together, after all. There's no need to make this even more depressing than it already is."
+"Pull yourself together, Jack," a voice snaps from beyond the door. "You've done nothing but wail since they hauled you through the hatch. We had to drag you clear of the corridor so the antechamber wouldn't hear your carry-on. Try to make use of your remaining good days. Pull up a stool. Take an ale. We have cards. We share the same bunk now--no point making the dark darker."
 
- The men suddenly stop talking when Daren and I open the iron door and make our way into the very large room that they are in. As we take a look around, we see that there is a table set up near the entrance, where the old man Jack and a few other younger men are having a beer and playing some cards. The rest of the room is full of sick people lying on their beds, coughing violently or just simply staring at the ceiling. And in the middle of all these people, to our surprise, we see a lone goblin dressed in white mage robes that is currently walking from one bed to another, tending to the sick, while apparently being too focused on his work to have noticed us entering the room.
+The argument cuts short as Daren and I push the door open and step into the cavernous sick ward.
 
-"A goblin?..." Daren asks, seemingly in a state of shock. "A goblin is the one taking care of all these people?"
+Near the entrance, Jack and three younger men sit around a scarred wooden table with clay mugs and a deck of cards. Beyond them, rows of iron cots stretch into the gloom, occupied by dozens of shivering, feverish patients coughing weakly or staring blankly at the bedrock ceiling. In the center aisle, a lone goblin in white mage robes moves between the beds, checking pulses and adjusting blankets, too absorbed in his rounds to notice our entrance.
 
-After staring at the goblin for a few seconds, dumbfounded, Daren immediately snaps out of it, when he sees the goblin casting a healing spell on one of the patients.
+"A goblin?" Daren stops dead in his tracks, staring. "A goblin is tending these people?"
 
-"No, no, no!" Daren says loudly, and then he begins limping in a hurry towards the goblin. "That's not how you cast that spell! Here, let me help you."
+The goblin halts at a nearby cot, raising his hands to channel a healing matrix over a feverish patient.
 
- As I get closer to the two of them, I see that Daren is now holding one of the goblin's wrists with his right hand, while touching the patient's chest with his left hand. From what I can tell by using my magical sense, Daren seems to be assisting the goblin with his healing spell by helping him stabilize the flow of his magic. Once the spell is cast, Daren lets go of the goblin, and then he takes his hand off the sick man as well.
+Daren winces. "No, no, no! That is not how you seat that weave! Here, let me assist."
 
-"See, this is how it's done!" Daren says. "You really shouldn't risk casting these advanced spells unless you have full control over them. You could very easily injure yourself with one of these, if you're not careful."
+Daren limps forward in a hurry.
 
-"Thank you for the advice, kind stranger," the goblin says in the Common language, with a surprisingly good accent. "As you could probably tell, I am only a novice in the arts of healing, but I do what I can to help. My name is Kelrim. Pleased to make your acquaintance!"
+I close the distance behind him. Daren steadies the goblin's right wrist while pressing his left palm to the patient's chest. Tracking the mana flow with my aura sense, I feel Daren guide the turbulent stream, smoothing out the jagged ripples until the white light settles evenly across the patient's torso. Daren steps back, releasing the goblin's arm.
 
-He then extends his hand, as Daren shakes it somewhat hesitantly.
+"There," Daren says. "That stabilizes the flow. You should never force an advanced recovery matrix without locking the channel first--the rebound will tear your own aura apart."
 
-"My name's Daren," he says. "And this here's my friend, Barry. You say your name is Kelrim... I think I heard the guard at the door mention you. He called you an idiot. I don't understand... What are you doing in this place? Why are you helping these people? Did they throw you in the quarantine area, like they did with the others?"
+"My thanks for the instruction, kind stranger," the goblin says in remarkably fluent Common. "As you can see, I am merely a novice practitioner, but I offer what aid I can. I am Kelrim. A pleasure to make your acquaintance."
+
+He extends a green hand. Daren shakes it after a brief hesitation.
+
+"Daren," he says. "And this is Barry. Desmond at the door mentioned your name--called you a fool. What brings you into an active quarantine ward? Were you locked in with the infected?"
 
 choice("Continue", B3-Ch02c-Healing, v_current_scene = B3-Ch02c-Healing)
 
@@ -791,27 +797,29 @@ choice("Continue", B3-Ch02c-Healing, v_current_scene = B3-Ch02c-Healing)
 ID: B3-Ch02c-Healing
 TEXT:
 
- "Oh, I wasn't sick when I first came here," Kelrim says. "But when I saw what was happening, I couldn't just stand by and let all these people suffer. As long as there was a chance for me to help cure any of them, I had to take it!"
+"Oh, I wasn't sick when I first came here," Kelrim says. "When I saw what was happening, I could not turn away. As long as there was a chance to ease their suffering or uncover a cure, I had to take it."
 
-"But why would you risk your life just to save some humans?" Daren asks, perplexed. "You're a goblin! Why would you care if any of these people live or die?"
+"Why risk your life for humans?" Daren asks, perplexed. "You are a goblin. What makes their survival your concern?"
 
-"I could ask you the same thing, human by the name of Daren," Kelrim says. "Why would you care about any of their lives? Aren't you an outsider here? Aren't these humans all strangers to you? So why would you have any reason to want to save any of them? The answer is simple. It's because we are both healers, so it is in our nature to care about other's lives, regardless of their race or species. Is this not the reason why you began learning white magic in the first place? To help make a difference?"
+"I might ask the same of you, human named Daren," Kelrim replies evenly. "Why do you care? You are an outsider, and these patients are strangers. Why risk everything for them? Because we are healers. It is in our nature to preserve life, regardless of race or species. Was that not your purpose when you took up the white mantle? To make a difference?"
 
-"I..." Daren says, but he can't seem to be able to find his words. "I don't..."
+"I..." Daren trails off, momentarily at a loss for words. "I suppose..."
 
-"By the gods!" Kelrim says, as he moves towards one of the other beds, and he sees the back of Daren's neck accidentally. "Your neck! It doesn't have the pink spots! What are you doing here if you are not sick? You could be getting the disease any minute now! Don't move, I will cast a protection spell on you immediately!"
+Kelrim turns toward an adjacent cot, his eyes catching the bare skin at the base of Daren's skull.
 
- The goblin then extends his hands towards Daren, and a white light envelops him, as I sense the magic flow all around him.
+"By the gods!" Kelrim gasps, dropping his herbs. "Your neck--there are no marks! What are you doing in an active ward without the sickness? The spores will take root any second! Stand still--I will cast a ward!"
 
-"And here's one for your friend as well," Kelrim says, as he immediately casts the same spell on me. "Now leave, quickly! This spell won't last for more than an hour, and it can only be cast once every few days for each person. If you don't leave now, I cannot guarantee your safety for long!"
+Kelrim raises his hands. Bright white light envelopes Daren, a clean mana barrier wrapping tightly around his aura.
 
-"Never mind that!" Daren says. "Tell me, what was the protection spell you cast on us just now? It looked very familiar."
+"And for your companion," Kelrim adds, immediately casting the identical white matrix over my chest. "Now leave, at once! This barrier degrades within an hour, and the channels can only sustain the weave once every few days. If you linger in this air, I cannot protect you!"
 
-"Oh," Kelrim says, "this was just a slightly modified version of one of the basic protection spells described in the 'Advanced Theory of Magic' book, written by your sage, Azarius."
+"Set that aside," Daren says, inspecting the glowing residue around his forearms. "The ward you just cast--the structure felt familiar."
 
-"This book again..." Daren says. "Barry, you said you read that book. Do you happen to know which spell he is talking about?"
+"It is a modified derivation from the basic wards recorded in Advanced Theory of Magic, by Sage Azarius," Kelrim says.
 
-"Judging by the way he held his hands and from the manner in which the light enveloped us," I say, "I would wager that it was one of the protections that defend you against magical diseases that directly affect your aura."
+"That treatise again..." Daren mutters. "Barry, you studied that volume. Which formulation is he referencing?"
+
+"Judging by the hand posture and the layered dispersal of white light," I say, "it's an adaptation of the ward that isolates magical afflictions targeting the aura."
 
 choice("Continue", B3-Ch02c-Grim, v_current_scene = B3-Ch02c-Grim)
 
@@ -819,35 +827,35 @@ choice("Continue", B3-Ch02c-Grim, v_current_scene = B3-Ch02c-Grim)
 ID: B3-Ch02c-Grim
 TEXT:
 
- "Yes, that is it, exactly!" Kelrim says. "I've been spending the last two weeks here, trying to find a way to cure this plague, but unfortunately this short protection spell is all I could come up with so far. Luckily for me, I am a goblin, so it takes much longer for the disease to take its toll on me, compared to humans. I should still have about two weeks left until my own sickness becomes contagious, so I will try to make the most use of this time to search for a cure."
+"Yes, that is it, exactly!" Kelrim says. "I have spent two weeks in this ward trying to unravel the blight, but this temporary barrier is the furthest I have progressed. Fortunately, goblin physiology slows the incubation. I still have roughly two weeks before my own lesions turn contagious, so I intend to use every hour hunting a remedy."
 
-"If this disease affects the aura," Daren says, "then I should be able to somewhat figure out what needs to be done, by focusing my magical sense on this person while I am in direct contact with him. Let me give it a try."
+"If the pathogen attacks the aura directly," Daren says, "I might isolate the distortion with direct contact and focused sense. Let me examine him."
 
-Daren then puts his hand on the sick man's chest once again and he closes his eyes, so he can better visualize the flow of his aura. After just standing like that for about thirty seconds, he finally opens his eyes again, as he gets a very grim expression on his face.
+Daren rests his palm on the sick man's sternum, shutting his eyes to trace the mana flow. Thirty seconds pass in complete silence. When his eyes open, his face is grim as ash.
 
-"Desmond was right..." Daren says. "This IS impossible. Unless..."
+"Desmond was right," Daren breathes. "This IS impossible. Unless..."
 
- Daren then straightens up, with a much more serious look in his eyes, as he takes his hand off the patient on the bed.
+Daren straightens, removing his hand from the patient's chest.
 
 "Unless what?" Kelrim asks.
 
-"There is one person who can help, but getting them to assist us might not be so easy," Daren says. "Follow me, and I'll show you what I'm talking about."
+"There is one entity who possesses the sight to dissect this, though extracting her cooperation will be an ordeal," Daren says. "Follow me."
 
-"Uhm... okay," Kelrim says. "Lead the way, then."
+"Lead on," Kelrim nods.
 
-Daren nods, and he begins heading towards the exit, as the goblin and I both follow him. Once we get past the first iron door and the corridor past it, we knock on the iron door leading to the waiting room, letting the guard know that we want out.
+We retrace our steps down the torchlit corridor and rap on the heavy iron door.
 
-"So, you've given up already, healer?" Desmond asks Daren, as he opens the door.
+Desmond unlocks the hatch and peers through. "Given up already, healer?"
 
-"Not just yet," Daren says, and then he leads us back towards our friends, who were still waiting for the king of the underground, near the row of chairs by the wall.
+"Not yet," Daren says, leading us back into the antechamber where our companions wait near the wall.
 
-"A goblin?..." Illuna asks surprised, when we reach them.
+"A goblin?" Illuna asks, her eyes narrowing as we approach.
 
-"Yes, this is Kelrim," Daren says. "A goblin white mage who has been volunteering to treat the sick people in the quarantine area for the past two weeks. He also cast a protection spell on me and Barry that shielded us temporarily from the disease, and he helped me figure out the nature of the illness."
+"This is Kelrim," Daren says. "A goblin white mage who has volunteered in the quarantine ward for the past two weeks. He cast a temporary ward on Barry and me that shielded us from the disease, and he helped me diagnose its true nature."
 
-"Daren, working together with a monster?" Hadrik says. "Now there's something that I never thought I'd see in this lifetime!"
+"Daren partnering with a monster?" Hadrik's laugh rumbles. "Now there's a sight I never expected to see."
 
- "The healer speaks the truth!" Breynan says, after inspecting the backs of our necks. "That temporary spell he spoke of really did manage to protect them from the disease!"
+"The healer speaks the truth," Breynan says after inspecting the back of our necks. "That temporary ward held the rot at bay."
 
 choice("Continue", B3-Ch02c-Strangers, v_current_scene = B3-Ch02c-Strangers)
 
@@ -855,35 +863,37 @@ choice("Continue", B3-Ch02c-Strangers, v_current_scene = B3-Ch02c-Strangers)
 ID: B3-Ch02c-Strangers
 TEXT:
 
- "So, if you already managed to figure out the nature of the sickness, then why did you come back here?" Kate asks.
+"So, if you already managed to figure out the nature of the sickness, then why did you come back here?" Kate asks.
 
-"It's because I can't cure it by myself," Daren says. "I need help. The disease is affecting the aura of the patients, but my magical sense is nowhere near refined enough to be able to understand what caused the sickness and how I can cure it. This is why I had to come back here."
+"Because I cannot cure it alone," Daren says. "The blight warps the patient's aura from within, but my magical perception is too coarse to map the corruption or weave a counter-spell. That is why I returned."
 
-He then places himself in front of Illuna, and he gets down to one knee, while bowing his head.
+He steps in front of Illuna, drops to one knee on the cold stone, and bows his head.
 
-"Arraka, I need your help," Daren says. "You are the only person I know who has a good enough magical sense to be able to understand how this disease works. I realize how pathetic this is, but I have nobody else to turn to and if I don't do anything, all those people will die. Please... will you help me?"
+"Arraka, I need your help," Daren says, his voice steady despite the humiliation. "You are the only person I know who has a good enough magical sense to be able to understand how this disease works. I realize how pathetic this is, but I have nobody else to turn to and if I don't do anything, all those people will die. Please... will you help me?"
 
-"What the hell?..." Arraka says, as everyone else is looking at Daren, too shocked to say anything. "Is this going to be your new thing from now on? Bowing your head before your enemies so they can help you save random strangers?..."
+A heavy silence grips the room.
 
-She then pauses for a few seconds, during which Daren does not raise his head at all.
+"What on earth is this?" Arraka's voice crackles from the golden amulet. "Is groveling before your enemies to rescue stray peasants your latest routine?"
 
- "Hmm..." Arraka says. "You know what? I'll do it. I honestly couldn't care less whether the people in that room live or die, but if this will serve as a good enough motivator for you to actually improve your magical sense beyond just a basic level, then it's going to be time well spent for me. However, I should warn you that I'm not planning to hand you anything on a silver platter. You're the one who's going to be finding the cure to that disease, not me. The only thing I will be doing is giving you vague hints, to get you on the right track. Don't think that I'll go easy on you, just because you're putting your own life on the line. If you die from something as stupid as this, it will only prove to me that you were never ready to face Selkram to begin with. So, tell me healer... after hearing all of this, do you still want my help?"
+She pauses for a few seconds, during which Daren keeps his forehead bowed toward the floor.
 
-"I do," Daren says, still not raising his head.
+"Hmm..." Arraka murmurs. "You know what? I accept. I could not care less if those wretches rot where they lie, but if this drives you to hone your aura sight beyond that of a blind mule, it serves my purposes. Do not expect me to spoon-feed you the cure. You will weave the solution, not me. I will offer only vague hints to steer you in the right direction. And do not assume I will go easy on you because your life hangs in the balance. If you succumb to a petty fever, it merely proves you were never fit to face Selkram. Well, healer? Do you still want my counsel?"
 
-"Well, in that case, we have a deal," Arraka says. "Show me those sick patients of yours, and we can start working on them right away, if you want."
+"I do," Daren says, keeping his head down.
 
- "Daren, are you sure about this?" Kelrim says, as Daren finally raises his head and then stands up from the ground. "I won't be able to cast the protection spell on you a second time. If you choose to go back in there now, you will catch the disease for good."
+"Then we have a deal," Arraka sneers. "Show me those sick patients of yours, and we can begin the dissection whenever you please."
 
-"I already accepted that risk when I went in the first time," Daren says. "Illuna, give me the amulet."
+Kelrim steps forward as Daren rises. "Daren, are you certain? I cannot cast the ward a second time. If you re-enter the ward now, you will catch the disease for good."
 
-"Wait," Breynan says. "Don't go to the quarantine room just yet. The king of the underground should be arriving any minute now, and I think you'll want to hear what he has to say. I'm sure you'll have plenty of time to treat the sick patients after you're done talking with our king."
+"I accepted that risk the moment I stepped past the sentry," Daren says. "Illuna, hand over the amulet."
 
-"Fine," Daren says. "But I hope he hurries up. It's already been a while since we came here."
+"Hold," Breynan intervenes. "Do not return to the ward just yet. The king of the underground should be arriving any minute now, and you will want to hear what he has to say. You will have ample time to attend to the sick once our meeting concludes."
 
-"Yeah, this king sure is taking his sweet time to come greet us," Hadrik says. "Hopefully that Albert guy didn't stop to talk with any more of his friends on the way, or we're going to be waiting here for a really long time."
+"Very well," Daren sighs. "But let him make haste."
 
-"I don't see any harm in that," Leila's father says. "It gives us a good opportunity to get to know each other better. For example, I'm certain that many of you would have more than a few questions to ask of our friend Kelrim, over here. After all, it is not often that you get to meet a goblin white mage, and especially not within the confines of a human city."
+"Aye, this king takes his sweet time," Hadrik grumbles. "Hopefully Albert didn't bump into any more old friends on the way, or we'll grow gray beards waiting."
+
+"There is no harm in the delay," Reidzek says gently. "It offers us a chance to converse. For instance, I imagine several of you have questions for our friend Kelrim here. It is not every day one encounters a goblin white mage within a human city."
 
 choice(""I have to admit that I was wondering how Kelrim got to learn white magic."", B3-Ch02c-River, v_current_scene = B3-Ch02c-River, v_b3_ch2_question = 0)
 choice(""Now that you mention it, I am a bit curious to know how a goblin ended up in a human city."", B3-Ch02c-River, v_current_scene = B3-Ch02c-River, v_b3_ch2_question = 1)
@@ -894,109 +904,111 @@ ID: B3-Ch02c-River
 TEXT:
 
 #if(v_b3_ch2_question == 0) {
- "I have to admit that I was wondering how Kelrim got to learn white magic."
+"I have to admit that I was wondering how Kelrim got to learn white magic."
 
-"I learned it mostly from books," Kelrim says. "Goblins don't typically practice healing magic, so I didn't have anyone to teach me. The standard white mage spellbook helped me a lot in the beginning, but I've read many other books as well, and in time, I also began to experiment, making small modifications to certain spells, in order to see what they would result in. Unfortunately, I am only a novice spell caster, so a lot of these experiments ended up in failure."
+"I learned primarily from books," Kelrim says. "Goblins rarely practice healing arts, so I lacked a formal instructor. The standard white mage primer provided a foundation, but I devoured every treatise I could scavenge. Over time, I began testing minor alterations to established matrices to observe the outcomes. Naturally, being an unrefined novice, many experiments collapsed."
 
-"If you've managed to modify any sort of spells successfully, then I'd say that you are quite far from being a novice mage," Illuna says. "Most beginner mages would rarely bother casting any other spells than the most basic ones, and they most certainly wouldn't risk modifying them."
+"If you have successfully modified spell matrices without blowing your own channels apart, you are far from a novice," Illuna observes. "Most beginner practitioners cling rigidly to rote formulae and lack the courage to adjust a single node."
 
-"They wouldn't?..." Kelrim asks, surprised. "I always assumed that this was how everyone started learning how to use magic. Anyway, I had a question to ask you as well. You seem to have come to Ollendor recently. You wouldn't happen to have met a group of three goblins on your way here, would you? They were supposed to return to this city any day now, and I made sure to leave them this week's password written on a rock by the side of a river not far from here, but I haven't heard from them yet."
+"Is that so?" Kelrim asks, blinking in surprise. "I assumed that was the standard path of study. In any case, I have a question of my own. You recently traveled the approach to Ollendor. Did you encounter three goblins on the road? They were due to reach the city days ago, and I left the weekly entry passphrase carved onto a river stone nearby, but I have received no word."
 
 }
 #if(v_b3_ch2_question == 1) {
- "Now that you mention it, I am a bit curious to know how a goblin ended up in a human city."
+"Now that you mention it, I am a bit curious to know how a goblin ended up in a human city."
 
-"It's not that much of a story to tell, really," Kelrim says. "A while ago, my friend and I heard that the city of Ollendor accepted goblins within its borders, so we decided to come here and try our luck. After living here for some time, my friend decided to go out in search for two older friends of ours that we left behind, in the hopes that he could convince them to come here as well. In the meantime, a lot of things have happened, and I eventually ended up joining the rebels, as you can see." 
+"It is a straightforward tale," Kelrim says. "Word reached our clan that Ollendor permitted goblins within its walls, so a companion and I traveled here to seek our fortunes. After settling in, my friend journeyed back to recruit two elders from our old camp. In the interim, circumstances unraveled, and I joined the resistance as you see."
 
-He pauses.
+He pauses briefly.
 
-"Speaking of my friends..." Kelrim continues. "You wouldn't happen to have run into a group of three goblins on your way here, would you? They were supposed to return to this city any day now, and I made sure to leave them this week's password written on a rock by the side of a river not far from here, but I haven't heard from them yet."
+"Speaking of my companions... Did you happen to cross paths with three goblins on the road? They were due to arrive days ago, and I left the weekly entry passphrase carved onto a river stone nearby, but I have received no word."
 
 }
 #if(v_b3_ch2_question == 2) {
- "Actually, I can't say that I care all that much, to be honest."
+"Actually, I can't say that I care all that much, to be honest."
 
-"That is understandable," Kelrim says. "You barely even know me, after all... However, if it's not too much trouble, there was a question that I wanted to ask you, since you seem to have come to Ollendor recently."
+"Understandable," Kelrim says quietly. "We are strangers, after all. Still, if I may trouble you with an inquiry, you traveled the approach to Ollendor recently."
 
-"Of course," Daren says. "What is it?"
+"Of course," Daren says. "What is on your mind?"
 
-"You wouldn't happen to have met a group of three goblins on your way here, would you?" Kelrim says. "They were supposed to return to this city any day now, and I made sure to leave them this week's password written on a rock by the side of a river not far from here, but I haven't heard from them yet."
+"Did you encounter three goblins on your journey?" Kelrim asks. "They were due to reach the city days ago, and I left the weekly entry passphrase carved onto a river stone nearby, but I have received no word."
 
 }
 #if(v_b3_ch2_goblins == 1) {
- "Those goblins that you speak of..." Daren says, looking a bit shaken. "Would they have been wearing some really basic equipment? Like cheap leather armor and some really worn down weapons? Was one of them considerably older than the other two?"
+"Those goblins you mentioned..." Daren's voice falters, his posture stiffening. "Were they equipped in scavenged leather armor and notched blades? Was one noticeably older than the other two?"
 
-"Yes, that's them!" Kelrim says. "You've met them, then?"
+"Yes, exactly!" Kelrim says, leaning forward with sudden hope. "You encountered them?"
 
-"Yes, but..." Daren says, struggling to find his words. "We... killed them. We killed them all. We thought that they were with Tyrath. Kelrim, I'm so sorry, we didn't think that... We just..."
+"Yes, but..." Daren struggles for breath, the color draining from his face. "We... killed them. Every one of them. We mistook them for Tyrath's vanguard... Kelrim, forgive us. We did not know... We simply..."
 
-While Daren is still trying to find his words, Kelrim looks as if he is only now slowly beginning to fully grasp what has been said to him.
+Kelrim stares at him in stunned disbelief, the words slowly sinking through his shock.
 
-"My friends are... dead?" Kelrim says, with great pain in his voice, as he is now looking straight ahead of him, almost as if he has forgotten that there is anyone else in the room now beside him.
+"My friends are... dead?" Kelrim whispers, his voice cracking. He gazes into empty air, as if the room and everyone in it had vanished.
 
-The goblin's knees then begin to tremble, and as he loses the strength to even stand up, he takes a step back and he drops into one of the chairs behind him, without uttering another word. In the meantime, Kate looks as if she's having a little crisis herself. She is sweating very hard, and she is staring straight at the ground, looking as if she were about to have a mental breakdown.
+His knees buckle. He stumbles back a half-step and collapses heavily into a wooden chair, staring at the floor in hollow silence.
 
- That's right... Kate killed one of Kelrim's friends herself. She must be behaving this way because of the guilt she's feeling after she saw the goblin react to his friends' deaths.
+Beside me, Kate's breathing turns ragged. Cold sweat beads along her hairline, her knuckles white as she glares fixedly at the flagstones, trembling violently.
 
-"Kelrim..." Daren says. "I didn't know... I..."
+That's right... Kate struck down one of Kelrim's companions herself. Watching the goblin shatter under the news is tearing right through her defenses.
 
-"No, it's alright," Kelrim says, as he tries hard to regain his composure, although if you were to judge from the look he now has in his eyes, you would think that he hasn't slept at all for three days straight. "I'm not blaming you. They were goblins, after all... You had no reason to think twice before killing them. Who knows? If they were different goblins, they might even have killed you, if you didn't attack them first... I know that this is how the world works, but still... I... just need a few moments to recollect myself, that's all..."
+"Kelrim..." Daren says softly, reaching out a trembling hand. "I am so sorry..."
 
-Hearing the goblin's words seems to have pushed Kate even further over the edge. Her eyes are blinking rapidly, and she looks as if she is quickly panicking.
+"No... do not apologize," Kelrim murmurs, trying desperately to steady his voice, though his eyes look sunken and hollow. "I do not blame you. They were goblins... Foreigners have no cause to hesitate before striking. In their place, another warband might have cut you down without a second thought... I understand how this land operates. But still... I need a moment to collect myself..."
 
-"Kate, are you with me?" I ask her, as I place myself in front of her. "Kate!"
+The goblin's quiet grief pushes Kate over the edge. Her eyes dart frantically around the chamber, her chest heaving as panic takes hold.
 
-Kate raises her eyes from the ground, but she doesn't answer, now looking at me with the same panicked expression that she was having before. 
+"Kate, look at me," I say, stepping directly into her line of sight. "Kate!"
 
-As I am still busy trying to get Kate to snap out of it, Breynan suddenly turns around and then he jumps back, out of shock, now looking at a man in his mid-fifties standing in front of him, who is wearing chainmail armor and a gray mantle around his shoulders.
+She lifts her gaze, pupils dilated in blind panic, unable to find words.
+
+As I try to pull her out of the spiral, a sudden movement makes Breynan whirl around. He recoils a half-step in surprise, coming face to face with a man in his mid-fifties clad in fine chainmail beneath a charcoal gray mantle.
 
 }
 #if(v_b3_ch1_password == 1 && v_b3_ch2_goblins == 0) {
- "Did the writing on that rock say 'griffin beak' by any chance?" I say.
+"Did the carving on the stone read 'griffin beak' by any chance?" I ask.
 
-"No," Kelrim says. "I mean, yes, that's what it technically says, but you are not meant to read the writing as it is. You are supposed to rearrange the symbols, using a secret code known only by me and my friends, and if you do that, the password it gives you is 'gargoyle wings'. But how do you know what was written on the rock?"
+"Technically, yes," Kelrim says. "Though the glyphs follow a substitution cipher known only to my companions. Decoded, the phrase becomes 'gargoyle wings.' How did you know what was carved onto the stone?"
 
-"Well..." I say. "It turns out that our friend Melindra over here took that rock to add it to her collection."
+"Melindra pocketed it for her collection," I say.
 
-"What?..." Melindra says. "No, there was no writing on any of my rocks!"
+"What?" Melindra snaps, crossing her arms. "There was no writing on any of my stones!"
 
-"As you can see, she didn't know about the writing," I say. "She only picked up the rock by accident."
+"As you can see, she took it without reading it," I say.
 
-"Hey!" Melindra says. "I said there was nothing written on any of the rocks! Don't ignore me!"
+"I said the surface was completely clean!" Melindra pouts. "Stop talking over me!"
 
-"But then... if they don't have the rock, it means that my friends are just stuck outside, unable to get into the city!" Kelrim says, as Melindra is pouting in the background.
+"Then without the passphrase, my companions remain stranded outside the gates," Kelrim says, watching her grumble.
 
-"Yeah, they're most definitely outside," I say. "Some goblins tried calling out to us before we got here, but we just ignored them and went on our way."
+"They are definitely outside," I say. "Three goblins hailed us near the forest road, but we ignored them and kept moving."
 
-"I see..." Kelrim says. "In that case, I will have to go out and look for them later."
+"I see," Kelrim nods. "I will venture out and locate them once our business concludes."
 
 }
 #if(v_b3_ch1_password == 0 && v_b3_ch2_goblins == 0) {
- "We did run into some goblins on our way here, actually," I say. "They wanted to discuss something with us about the password required to enter the city, but we just ignored them and went on our way."
+"We crossed paths with some goblins on the road," I say. "They tried to flag us down regarding the city password, but we ignored them and kept moving."
 
-"I see..." Kelrim says. "Those must have been my friends. I don't see why any other goblins would be hanging out near the city. I will have to go out and look for them later."
+"Those were likely my companions," Kelrim says. "I will search for them outside the walls once our business here concludes."
 
 }
 #if(v_b3_ch2_goblins == 2) {
- "We did run into some goblins on our way here, actually," I say. "We had a little chat with them about that very rock you were talking about. Apparently they didn't find it on the side of the river, and they thought that we were the ones who took it. Anyway, they're probably still waiting in the forest outside the village, since I doubt they could have gotten inside the city through any other means."
+"We ran into three goblins near the outer woods," I say. "We had a brief exchange about that missing stone. They couldn't locate it by the bank and accused us of taking it. They're likely still camped in the tree line outside the village."
 
-"I see..." Kelrim says. "In that case, I will have to go out and look for them later."
+"I see," Kelrim says. "I will venture out and find them as soon as I can."
 
 }
 #if(v_b3_ch2_goblins == 3) {
- "We did run into some goblins on our way here, actually," I say. "We had a little chat with them about that very rock you were talking about. It turned out that we had taken it by accident, so we traded them the password written on it in exchange for them telling us that we needed to wink three times at the guard, for him to let us through. I'm sure that your friends must have already entered the city by now."
+"We crossed paths with them, actually," I say. "We had pocketed the stone by mistake, so we traded the decrypted phrase in exchange for the gatekeeper's three-wink trick. Your friends should be safely inside the city by now."
 
-"Oh my..." Kelrim says. "In that case, they must already be waiting for me at our meeting spot. I will have to go there as soon as possible."
+"In that case, they are likely waiting at our safehouse," Kelrim says, visibly relieved. "I will join them as soon as possible."
 
 }
 #if(v_b3_ch2_goblins == 4) {
- "We did run into some goblins on our way here, actually," I say. "We had a little chat with them about that very rock you were talking about. It turned out that we had taken it by accident, so we traded them the password written on it in exchange for them telling us that we needed to wink three times at the guard, for him to let us through. Your friends entered the city shortly before us, so they should be hanging around somewhere on the surface right now."
+"We ran into them on the road," I say. "We had the stone by mistake, so we traded the phrase for the three-wink gate trick. Your friends slipped past the gate just ahead of us and are likely roaming the upper wards right now."
 
-"Oh my..." Kelrim says. "In that case, they must already be waiting for me at our meeting spot. I will have to go there as soon as possible."
+"In that case, they are likely waiting at our safehouse," Kelrim says, visibly relieved. "I will join them as soon as possible."
 
 }
 #if(v_b3_ch2_goblins == 0 || v_b3_ch2_goblins == 2 || v_b3_ch2_goblins == 3 || v_b3_ch2_goblins == 4) {
- All of a sudden, Breynan turns around and then he jumps back, out of shock, now looking at a man in his mid-fifties standing in front of him, who is wearing chainmail armor and a gray mantle around his shoulders.
+A sudden movement makes Breynan whirl around. He recoils a half-step in surprise, coming face to face with a man in his mid-fifties clad in fine chainmail beneath a charcoal gray mantle.
 
 }
 choice("Continue", B3-Ch02c-Ending, v_current_scene = B3-Ch02c-Ending)
@@ -1006,36 +1018,36 @@ ID: B3-Ch02c-Ending
 TEXT:
 
 #if(v_b3_ch2_goblins == 1) {
- "My king!" Breynan shouts, and he then bows solemnly.
+"My king!" Breynan gasps, dropping into a deep bow.
 
-"Oh, there is no need to interrupt what you were just doing!" the man wearing the gray mantle says, as we all turn to face him. "Please, continue from where you left off. I'll wait."
+"No need to disrupt your conversation on my account," the newcomer says, holding up a gloved hand as we turn toward him. "Please, finish what you were discussing. I can wait."
 
-As we're all just looking at him, unsure of what to say, Kate seems to be calming down a little and she is now massaging her forehead with both her hands, trying to become a little less tense.
+As we stand in awkward silence, Kate presses both palms against her temples, taking a slow, ragged breath to force her racing pulse under control.
 
-"Should I take it that you're done, then?" the man wearing the mantle says, while raising an eyebrow. "Good. In that case, I will take this opportunity to apologize for making you wait so long. Unfortunately, I was in the middle of a meeting that just couldn't be interrupted, so I wasn't able to invite you to meet me right away. Given that I'm the one who kept you waiting, I figured that I should come and escort you personally, as an apology."
+"Finished, then?" the man in the mantle asks, arching an eyebrow. "Good. In that case, accept my apologies for the delay. I was occupied with a sensitive council that could not be set aside, preventing me from receiving you upon arrival. As the fault is mine, I came to escort you personally."
 
 }
 #if(v_b3_ch2_goblins != 1) {
- "My king!" Breynan shouts, and he then bows solemnly.
+"My king!" Breynan gasps, dropping into a deep bow.
 
-"Oh, there is no need to interrupt what you were just doing!" the man wearing the gray mantle says, as we all turn to face him. "Please, continue from where you left off. I'll wait."
+"No need to disrupt your conversation on my account," the newcomer says, holding up a gloved hand as we turn toward him. "Please, finish what you were discussing. I can wait."
 
-We all exchange a few looks, and then we simply stare at the man before us, unsure of what exactly to say.
+We trade uneasy glances, meeting the newcomer's assessing stare in silence.
 
-"Should I take it that you're done, then?" the man wearing the mantle says, while raising an eyebrow. "Good. In that case, I will take this opportunity to apologize for making you wait so long. Unfortunately, I was in the middle of a meeting that just couldn't be interrupted, so I wasn't able to invite you to meet me right away. Given that I'm the one who kept you waiting, I figured that I should come and escort you personally, as an apology."
+"Finished, then?" the man in the mantle asks, arching an eyebrow. "Good. In that case, accept my apologies for the delay. I was occupied with a sensitive council that could not be set aside, preventing me from receiving you upon arrival. As the fault is mine, I came to escort you personally."
 
 }
- "You're the king of the underground?..." Daren asks.
+"You're the king of the underground?" Daren asks.
 
-"In the flesh," the man with the gray mantle says.
+"In the flesh," the man in the gray mantle says.
 
-"So, where are you going to escort us, then?" Hadrik says.
+"So where are you taking us?" Hadrik asks.
 
-"To my throne room, of course," the king of the underground says. "Follow me."
+"To my throne room, naturally," the king of the underground says. "Follow me."
 
-He then begins heading towards the other end of the hall, but then he stops and turns to us one last time.
+He turns and strides toward the far archway, pausing mid-step to glance back over his shoulder.
 
-"Oh, and I do hope that you don't have any appointments scheduled right after our meeting," the king of the underground says. "It's going to take a while."
+"I do hope your calendar is clear for the evening," he adds smoothly. "We have a great deal to discuss."
 
 choice("Next chapter", B3-Ch03a-Intro, v_next_chapter_crash = 1, v_current_scene = B3-Ch03a-Intro, v_chapter_save_counter = 5, v_checkpoint_rich = 1, special:checkpoint_save)
 
@@ -1043,7 +1055,7 @@ choice("Next chapter", B3-Ch03a-Intro, v_next_chapter_crash = 1, v_current_scene
 ID: B3-Ch02c-Credits
 TEXT:
 
- The third chapter is now available.
+The third chapter is now available.
 
 Tap the button below to proceed.
 

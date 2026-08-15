@@ -13,63 +13,63 @@ set(v_magical_sense_aux,0)
 #if(v_ch11_saved_rose == 1) {
  
 
-"Barry!" I hear Rose's voice through the transceiver. "--happened-- everyone alright?--"
+"Barry!" Rose's voice cuts in through bursts of static on the transceiver. "--happened-- everyone alright?--"
 
-"Rose, I can only hear bits and pieces of what you're saying!" I say. "It must be because of all the seredium in the cave's ceiling. We're all fine, but we're not exactly sure where we are yet."
+"Rose, I'm barely catching every third word," I say into the casing. "Too much seredium in the rock. We're in one piece, but we don't have our bearings yet."
 
-"I'm sorry, I couldn't-- all that," Rose says. "Where did you-- teleported?"
+"I didn't-- catch all that," Rose says. "Where did you-- teleported?"
 
-"We don't know yet!" I say. "Some underground caverns that I can't recognize. We're going to need to explore a bit to find out more. I'll call you again once we're out of here."
+"Still working on that," I say. "Some network of caves we haven't seen before. We need to scout a way through. I'll open the channel again once we reach open air."
 
-"Okay, Barry," Rose says. "-- careful!"
+"Understood, Barry," she says, her voice fragmenting into hiss. "-- careful!"
 
-"You don't think this is one of the corridors from the rebel base?" Kate asks me, as I close the communications channel and put the transceiver back in my pocket.
+"You don't think this connects to the rebel passages?" Kate asks as I close the link and slide the transceiver into my tunic.
 
-"No, I spent all my day exploring their tunnels and this place doesn't seem familiar to me at all," I say. "I think we're still somewhere below the city, though."
+"No. I walked those tunnels all afternoon. The stone cut is wrong, and the layout doesn't match anything on their maps. We're still somewhere beneath Ollendor, though."
 
-"I agree with Barry," Breynan says. "I know all of the corridors from our base, including the ones from the restricted areas, and this is certainly not part of our territory. There might be enemies nearby. We need to stay alert."
+"Barry is right," Breynan says. "I know every turn of our network, including the sealed perimeter. This isn't rebel ground. There could be patrols nearby. Keep your weapons ready."
 
- "I'm not sensing any other people in these tunnels, but then again it's somewhat hard to tell with all of this seredium surrounding us," Melindra says. "I can detect the auras of the people walking on the city streets directly above us, so the ceiling must not have a lot of seredium in it, but some of the seredium walls in this place are so thick that they are blocking my magical sense completely. One thing I can sense, however, is that there are quite a few magical traps scattered throughout these corridors. It looks like we're going to need to disarm at least some of them before we can get out of here."
+"I don't pick up any signatures nearby, though reading through this much seredium is like looking through muddy water," Melindra says, her fingers trailing the rough stone. "I can feel the faint trace of foot traffic on the streets overhead, so the ceiling layer must be fairly thin, but some of the side bulkheads are thick enough to swallow magical sense entirely. What I can tell you is that these corridors are laced with warding traps. We're not getting out of here without untangling at least a few."
 
-"Magical traps, huh?..." I say. "Damn, we could have really used Daren's help right about now. Does anyone else here even know how to disarm a trap? Illuna, I'm pretty sure Flower mentioned that you two have been visiting lots of ruins in the past. Those ruins must have had traps in them, right? How did you get past them?"
+"Traps," I mutter. "Daren would have had those cracked in five minutes. Does anyone here know the first thing about field dispelling? Illuna, Flower said you two have cleared dozens of ruins. What did you do with the wards?"
 
-"Most of the traps from the ruins were the old fashioned kind, so the girl would typically just use her acrobacy skills to escape unharmed," Illuna says. "In the few cases where we've encountered magical traps, we had to rely on Arraka to dispel them. Flower and I are both elementalists, so disarming anything other than the most basic of magical traps is a great challenge for us."
+"Ancient ruins run on mechanical counterweights and pressure plates," Illuna says, her expression flat. "Flower flips over tripwires and drops past swinging scythes. The few times we ran into active enchantment, Arraka tore it down from the amulet. Flower and I are elementalists. Complex ward dispelling is not our discipline."
 
- "Arraka can cast dispelling magic from inside her amulet?..." Kate asks. "I thought the spells she could cast were very limited in her current state."
+"Arraka can cast from inside that gold cage?" Kate asks. "I thought the binding choked off her casting."
 
-"Dispelling magic does not require a great deal of magical energy to cast," Illuna says. "Arraka's main problem while she's inside the amulet is that she can only store a very small amount of energy within her aura at any given moment, so the only way in which she can cast any reasonably powerful spells is to channel the energy outside the amulet for hours on end, without being interrupted by anyone. It's not like she suddenly forgot how to cast spells when she got trapped in there. She still has all of her knowledge. That's why she can cast complex spells like detailed holograms, targets made of solid light and dispelling magic but she can't manage to cast a simple explosion spell to break herself out of her amulet. It would take her three whole hours to channel the energy required to generate a small explosion, as opposed to the half hour or so she usually needs to dispel a trap."
+"Dispelling is structure, not raw mass," Illuna says. "Her limitation in the vessel is capacity. She holds almost no reserve within the gold at any one second, so the only way she can cast anything destructive is to draw ambient energy through the metal seam for hours on end without a single lapse in focus. The knowledge never left her. That is why she can project solid-light targets, detailed illusions, and intricate dispelling arrays, yet cannot simply blast the amulet apart. A localized explosion requires three uninterrupted hours of gathering power. Disarming an elemental trap takes her thirty minutes."
 
 }
 #if(v_ch11_saved_rose == 0) {
  
 
-"What's happening?" Kate asks Breynan in an anxious tone, as she watches him healing Illuna. "Why isn't she waking up?"
+"What's wrong?" Kate's voice is taut as she hovers over Breynan, watching him kneel beside Illuna with hands glowing in faint, unsteady light. "Why isn't she waking up?"
 
-"Unlike your friend in heavy armor, I am no healer," Breynan says, as he wipes a drop of sweat from his forehead. "I've never had to heal anything more than superficial wounds in the past, and my spells are not at all suited for something as serious as this. Please don't break my focus. It's already hard enough for me to keep her stabilized as it is."
+"I'm a soldier, not a white mage," Breynan mutters, wiping sweat from his temple. "I can stitch a gash or close a shallow puncture, but a chest wound like this is far beyond my training. Let me keep my focus. Stabilizing her is taking everything I have."
 
-"I understand..." Kate says. "I will let you work."
+Kate presses her lips together. "Right. Do what you can."
 
-After we all wait for about a minute in silence, Breynan finally gets up from the ground and he gives us his verdict.
+We wait in the damp silence of the cavern while his light slowly knits the torn flesh. When he finally pulls his hands away and stands, he looks worn out.
 
-"I've done all I could," Breynan says. "She should no longer be in any life-threatening danger, but she's lost a lot of blood. It will take her a long time to fully recover."
+"The bleeding is stopped," Breynan says. "The fatal damage is sealed, but she lost an immense amount of blood. She won't be in fighting shape for a long time."
 
-"Do you have any idea what this place might be?" I ask Breynan, as I nod my head towards the cavern walls surrounding us. "I don't recognize it at all, and I've been through most of the tunnels from your rebel base."
+I gesture toward the damp, jagged rock around us. "Do you recognize these caverns? I covered most of the rebel sectors earlier, and this doesn't match."
 
- "It's definitely not part of our territory," Breynan says. "That much is certain. I think we're likely still somewhere below the city, but I don't know if these tunnels are abandoned or if there are enemies lurking nearby. We need to stay alert."
+"It is not our territory," Breynan says. "We are still somewhere under the city, but whether these tunnels are abandoned or crawling with royal scouts, I cannot say. Stay on guard."
 
-"I'm not sensing any other people in these tunnels, but then again it's somewhat hard to tell with all of this seredium surrounding us," Melindra says. "I can detect the auras of the people walking on the city streets directly above us, so the ceiling must not have a lot of seredium in it, but some of the seredium walls in this place are so thick that they are blocking my magical sense completely. One thing I can sense, however, is that there are quite a few magical traps scattered throughout these corridors. We're going to need to disarm them before we get out of here."
+"I don't pick up any signatures nearby, though reading through this much seredium is like looking through muddy water," Melindra says, her fingers trailing the rough stone. "I can feel the faint trace of foot traffic on the streets overhead, so the ceiling layer must be fairly thin, but some of the side bulkheads are thick enough to swallow magical sense entirely. What I can tell you is that these corridors are laced with warding traps. We'll have to disarm them if we want to reach the surface."
 
- "Magical traps, huh?..." I say. "Damn, we could have really used Daren's help right about now. Does anyone else here even know how to disarm a trap?"
+"Traps," I mutter. "Daren would have had those cracked in five minutes. Does anyone else here know how to dismantle an active ward?"
 
-"I've tried my hand at disarming a few magical traps in the past," Breynan says. "But I will need to see these traps up-close before I can tell if my skills would be of use here or not."
+"I know basic counter-enchantment," Breynan says. "Though I'll need to examine the nodes before I can tell you if my knowledge is enough."
 
-"We still need to wait until Illuna wakes up before we can leave," Kate says. "We can't risk carrying her around while she is in her current condition. If we're not careful, her wound might re-open."
+"We cannot move until Illuna regains consciousness," Kate says. "Lifting her over rough terrain will tear Breynan's stitches open."
 
-"I'm... already awake..." Illuna says in an exhausted tone, as she struggles to raise herself from the ground.
+"I am... already conscious," Illuna's voice rasps from the floor.
 
-Her face is almost white and she looks as if she were only seconds away from fainting again. It is clear that she is expending a great amount of effort just to keep her consciousness.
+She pushes herself up on trembling elbows. Her skin is drained of color, her bright blue eyes struggling to hold focus. Every breath costs her.
 
-"Illuna, you can't get up yet!" Kate says. "You need to rest!"
+"Illuna, stay down," Kate says, stepping forward. "You need to rest!"
 
 }
 choice("Continue", B3-Ch04a-Intro2, v_current_scene = B3-Ch04a-Intro2, v_checkpoint_rich = 0)
@@ -79,40 +79,46 @@ ID: B3-Ch04a-Intro2
 TEXT:
 
 #if(v_ch11_saved_rose == 1) {
- "Well, Arraka is not here with us to help with the traps, so you're our best bet right now," I say. "You've seen her use the dispelling technique many times before, so you must know how it works by now, right?"
+ "Arraka is half a city away with Daren, so you're our best option," I tell Illuna. "You've watched her dismantle wards for twenty years. You know the mechanics."
 
-"Knowing how it works and being able to perform it successfully are two entirely different things..." Illuna says.
+"Watching a master unravel a spell and executing the inversion yourself are not the same thing," Illuna says.
 
-"I've tried my hand at disarming magical traps a few times before as well, so maybe the two of us could work together," Breynan says. "Either way, I think we should get moving. I've been trying to contact Barry from the teleporter room ever since we got here but I've had no luck, so I'm guessing that there are just too many seredium walls between us and him for the signal to get through, considering that we're likely at the same altitude as him at the moment. We're probably going to need to reach the surface before he can teleport us again."
+"I have some experience with basic warding," Breynan says. "Perhaps between the two of us we can work through it. Either way, we cannot linger. I tried reaching Barry in the teleporter chamber, but the signal dies immediately. Too many dense seredium bulkheads between here and the base at this depth. We'll have to climb toward the surface before he can lock onto our coordinates again."
 
- All of a sudden, Illuna conjures a bucket's worth of water above Leila's head and she drops it on her face, which causes her to jump up from the ground and to look all around the room, slightly panicked.
+Without a word of warning, Illuna gathers an orb of cold water in the air above Leila and drops it straight onto her face.
 
-"What happened?" Leila writes, as she calms down a little. "Where are all the royal guard trainees?"
+Leila jerks upright, sputtering, hands flying to her belt daggers as her eyes dart across the damp cavern.
 
-"They're still on the surface," Illuna says. "Meanwhile, we've been teleported to an unidentified underground tunnel by accident, and we're trying to find our way out. We'll explain more as we walk. Let's get moving."
+"What happened?" her bright blue script flares in the air. "Where are the royal recruits?"
+
+"Still above ground," Illuna says smoothly. "A faulty jump dropped us into an uncharted cavern system. We are finding our way to the surface. We can talk while we walk."
 
 }
 #if(v_ch11_saved_rose == 0) {
- "There is... no time to rest," Illuna says, as she slowly gets up on her feet and then nearly falls back to the ground. "For all we know, we could be inside enemy territory right now. We need to keep moving."
+ "There is no time to rest," Illuna whispers. She gets her boots under her, sways dangerously, and catches herself against the cavern wall. "We could be directly beneath an enemy garrison. We move."
 
-Illuna tries to take a few steps forward, but she trips again, as Kate and I rush to support her.
+She pushes off the rock and stumbles after two paces. Kate and I catch her by both arms before she hits the gravel.
 
-"It's fine," Illuna says, in a weak tone of voice, as she manages to regain her balance by herself. "I can walk on my own."
+"I have it," Illuna mutters, pulling her arms back with cold precision. "I can walk."
 
-"What your banshee friend said earlier is true," Breynan tells us. "We really can't afford to waste any more time here. I tried to contact Barry from the teleporter room just now, but I'm having no luck. There must be too many seredium walls between us and him for us to be able to reach him, given that we are likely situated at the same altitude as the rebel base. We're probably going to need to get to the surface before he can teleport us again."
+"The banshee is right about our time," Breynan says. "We cannot afford to stay in the open. I tried reaching Barry in the teleporter chamber, but the signal dies immediately. Too many dense seredium bulkheads between here and the base at this depth. We'll have to climb toward the surface before he can lock onto our coordinates again."
 
- All of a sudden, Illuna conjures a bucket's worth of water above Leila's head and she drops it on her face, which causes her to jump up from the ground and to look all around the room, slightly panicked.
+Without a word of warning, Illuna gathers an orb of cold water in the air above Leila and drops it straight onto her face.
 
-"What happened?" Leila writes, after she calms down a little. "Where are all the royal guard trainees?"
+Leila jerks upright, sputtering, hands flying to her belt daggers as her eyes dart across the damp cavern.
 
-"They're still on the surface," Illuna says. "Meanwhile, we've been teleported to an unidentified underground tunnel by accident, and we're trying to find our way out. We'll explain more as we walk. Let's get moving."
+"What happened?" her bright blue script flares in the air. "Where are the royal recruits?"
+
+"Still above ground," Illuna says smoothly. "A faulty jump dropped us into an uncharted cavern system. We are finding our way to the surface. We can talk while we walk."
 
 }
- After Breynan heals Leila's concussion that she got from hitting her head against the pavement earlier, we all begin to head in the direction that seems the most likely to lead us towards the surface. With Melindra's help, we manage to avoid the paths leading directly to magical traps for a while, although according to her own words, we will probably be forced to start disarming some of them rather soon.
+ Breynan channels a brief pulse of white light into Leila's temples to clear the lingering effects of her head impact against the cobbles, and we set off toward the highest incline. Melindra walks point, steering us around the strongest magical signatures embedded in the stone floor, though she warns us that the tunnel network narrows ahead and we will soon run out of bypass routes.
 
-While we're walking down the corridors, I suddenly hear a long beep coming from my pocket. I immediately realize that the sound is coming from my stat device and I take it out as quickly as I can, in order to get a good look at it. What I'm currently seeing on the screen is a text message, notifying me about the experimental stat activation and asking me if I want to see a quick introduction about what these stats can do.
+As we navigate the dark passage, a sharp chime rings out from my coat pocket.
 
-It looks like I won't be able to see any of my stats until I answer the question on this screen.
+I pull out the stat booster. The screen glows pale green in the cavern gloom, displaying a notification about the experimental aura parameters, followed by a prompt asking if I want a summary of the new functions.
+
+The standard interface is locked until I respond to the prompt.
 
 choice("See the introduction", B3-Ch04a-Introduction, v_current_scene = B3-Ch04a-Introduction, v_b3_ch4_introduction = 1)
 choice("Skip the introduction", B3-Ch04a-Introduction2, v_strength = 0, v_agility = 0, v_toughness = 0, v_reflexes = 0, v_hearing = 0, v_perception = 0, v_ancient_languages = 0, v_combat_technique = 0, v_premonition = 0, v_available_points = 25, v_current_scene = B3-Ch04a-Introduction2, v_b3_ch4_introduction = 0, v_b3_ch3_stats_unavailable = 0) if (v_b3_ch1_unlock != 2)
@@ -122,23 +128,23 @@ choice("Skip the introduction", B3-Ch04a-Introduction2, v_strength = 0, v_agilit
 ID: B3-Ch04a-Introduction
 TEXT:
 
- I decide that I want to see the introduction so I press the corresponding button on my device, which makes a new text appear on the screen. Apparently, the introduction text does not fit on the screen of my device in its entirety, so I'm going to have to press a small button on the right side of the stat booster in order to navigate to the next pages.
+ I press the confirm key, and lines of Common text scroll onto the display. The screen is too small to hold the full briefing at once, requiring the side toggle to advance through the pages.
 
-'Congratulations!' the text says, in the Common language. 'Your new stats have been successfully activated! Please note that these three stats are still in an experimental phase so if you notice anything out of the ordinary, you should report the problem to the person that handled your activation. The next section will give a short explanation for each of the aura stats. If you want to read more details about these stats or if you want to re-read the text from this introduction, you can find all of the information in the instructions manual that was given to you along with your device.'
+'Congratulations!' the text reads. 'Your auxiliary parameters are now operational. Please note that these three aura enhancements remain in the experimental trial phase. If you observe anomalous feedback, report the variance to your assigned technician. The following overview details each parameter's operational scope. Complete documentation is available in the user manual supplied with your unit.'
 
-Huh... So they were giving out instructions manuals back then. It sure would have been nice if I had one of those myself instead of being forced to figure out how everything works on my own...
+A user manual. It figures. A thousand years of lessathi engineering and I have to stumble through the hardware by trial and error while ancient operators had a booklet.
 
-I press the 'next page' button, and the device begins to give me information about my newly activated stats.
+I click the toggle to load the first parameter.
 
- 'The Magical Sense stat is designed to improve your aura analysis skills,' the text on the screen says. 'Depending on how many points you invest in it, you should become able to detect auras from a much further distance than before, and your ability to discern the difference between subtle patterns in the flow of auras should also improve considerably. However, the results you will get from this stat will highly depend on your own aura reading abilities. If your magical sense is particularly weak, the effects may be less visible unless you invest a high enough amount of points into the stat.'
+'Magical Sense enhances passive and active aura analysis,' the display reads. 'Higher investment extends your detection radius and sharpens your perception of intricate flow currents and layered spell signatures. Operational efficacy scales with your baseline biological sensitivity. Subjects with faint natural auras may require higher point allocation to achieve comparable clarity.'
 
-As I press the button on the right side of my device, I get a new text that describes another one of the aura stats.
+I click the toggle again.
 
-'The Aura Hardening stat's main purpose is to increase your defensive capabilities against magical attacks,' the text says. 'It should not be used as a replacement for the Toughness or Reflexes stats, because the defense it offers against physical attacks is minimal. Our tests have shown the Aura Hardening stat to be the most effective against traditional elemental magic, but it should also be useful against artificially created elemental magic such as electricity, acid and ice. Please be aware that the Aura Hardening stat will not defend you against non-magical elements, so you should still dodge incoming projectiles if they weren't magically created out of thin air.'
+'Aura Hardening reinforces personal defenses against offensive magical constructs,' the text explains. 'This parameter provides minimal resistance to physical kinetic force and must not replace Toughness or Reflexes. Trials confirm optimal dissipation against conventional elemental spells, alongside secondary mitigation against synthesized energy vectors including lightning, acid, and flash-frozen ice. Incoming non-magical projectiles retain standard mass and velocity; evasion remains mandatory.'
 
- 'Aura Hardening stat - side notes,' the next page says. 'Some of our test subjects have also managed to use this stat offensively, by concentrating the aura hardening effect around their fists and then punching magic projectiles back at their casters. However, you are not advised to attempt such a technique in an uncontrolled environment, because we were unable to replicate these effects in a reliable manner.'
+'Aura Hardening - Supplementary Notes: Field testers demonstrated offensive applications by concentrating hardened aura around their extremities to deflect incoming magical projectiles back toward the caster. Operational use outside laboratory conditions is strongly discouraged due to high failure rates in uncalibrated subjects.'
 
-When I press the button on my device once more, the text for the third experimental stat appears on the screen.
+I click the toggle to bring up the final entry.
 
 choice("Continue", B3-Ch04a-Introduction2, v_strength = 0, v_agility = 0, v_toughness = 0, v_reflexes = 0, v_hearing = 0, v_perception = 0, v_ancient_languages = 0, v_combat_technique = 0, v_premonition = 0, v_available_points = 25, v_current_scene = B3-Ch04a-Introduction2, v_b3_ch3_stats_unavailable = 0) if (v_b3_ch1_unlock != 2)
 choice("Continue", B3-Ch04a-Introduction2, v_strength = 0, v_agility = 0, v_toughness = 0, v_reflexes = 0, v_hearing = 0, v_perception = 0, v_ancient_languages = 0, v_combat_technique = 0, v_premonition = 0, v_available_points = 26, v_current_scene = B3-Ch04a-Introduction2, v_b3_ch3_stats_unavailable = 0) if (v_b3_ch1_unlock == 2)
@@ -148,47 +154,47 @@ ID: B3-Ch04a-Introduction2
 TEXT:
 
 #if(v_b3_ch4_introduction == 1) {
- 'The Bluff or Aura Concealment stat is designed to help you control your aura," the text says. "It has two primary purposes. First of all, this stat will allow you to keep the flow of your aura stable enough to avoid lie detection if your level is high enough. Just like with the Magical Sense stat, the effects it will have on you will highly depend on your own ability to control your aura. If your aura control is very poor, then you will need to invest more points in this stat to make it reasonably effective.'
+ 'The Bluff parameter, designated secondarily as Aura Concealment, governs aura modulation,' the text reads. 'Its primary function is stabilization. Sufficient investment dampens involuntary aura fluctuations, preventing detection by magical lie-sensing methods. Efficacy is tethered to innate aura control; subjects with erratic natural flow require higher point investment to stabilize the baseline.'
 
-'The second utility of this stat was discovered during testing,' the next page says. 'While the initial purpose of this stat was only to keep the aura flow stable, a few of the test subjects found out that with enough practice it could also be used to hide their auras completely, making themselves undetectable in terms of magical sense. After receiving this new information, we made a few adjustments to the Bluff stat and also gave it a secondary name, in order to better reflect its potential. If you are unable to use this stat to conceal your aura, please contact the person in charge of your stat activation, so they can readjust your device.'
+'Secondary utility was established during field testing,' the next page reads. 'While designed solely to mask deceptive fluctuations, trained subjects successfully suppressed their aura signatures entirely, rendering themselves invisible to standard magical detection. The hardware was subsequently recalibrated to support full suppression, and the parameter was given its secondary designation. If your unit fails to achieve complete dampening, consult your technical supervisor.'
 
 }
 #if(v_b3_ch4_introduction == 0 && v_b3_ch1_unlock != 2) {
- I decide that I want to skip the introduction so I press the corresponding button on my device, which makes a new text appear on the screen.
+ I press the skip key, clearing the tutorial prompt.
 
-'You have chosen to skip the introduction of the aura stats,' the text says. 'If you ever want to read the introduction text at a later date, you can always find it in the instructions manual that was given to you along with your stat device. Pressing on the next page button will now return you to your stat screen. Don't forget that if you had any points invested into your stats before the activation you will need to reinvest them, as they have been reset.'
+'Aura parameter briefing bypassed,' the display reads. 'You may review this documentation at any time in the operator manual provided with your unit. Advancing to the primary interface. Unspent points have been restored to your available pool following unit reset.'
 
-Oh, so they used to have instructions manuals back when they were first handing out these stat devices a thousand years ago. Interesting... 
+A user manual from a thousand years ago. That would have saved me half a dozen near-death experiences.
 
-As soon as I press the next page button, the stat screen finally appears and I can see that my three new stats have been added right below the other stats, which are currently all at level zero. I guess I'll have to think whether I want to start investing my points now, or if I should wait until later before I make my decision.
+I click the side button, and the familiar stat grid appears on the glass. The three new entries sit below the standard nine attributes, all resting at zero. I need to decide whether to allocate my points immediately or hold them in reserve.
 
 }
 #if(v_b3_ch1_unlock == 2 && v_b3_ch4_introduction == 0) {
- I decide that I want to skip the introduction so I press the corresponding button on my device, which makes a new text appear on the screen.
+ I press the skip key, clearing the tutorial prompt.
 
-'You have chosen to skip the introduction of the aura stats,' the text says. 'If you ever want to read the introduction text at a later date, you can always find it in the instructions manual that was given to you along with your stat device. Pressing on the next page button will now return you to your stat screen. Don't forget that if you had any points invested into your stats before the activation you will need to reinvest them, as they have been reset.'
+'Aura parameter briefing bypassed,' the display reads. 'You may review this documentation at any time in the operator manual provided with your unit. Advancing to the primary interface. Unspent points have been restored to your available pool following unit reset.'
 
-Oh, so they used to have instructions manuals back when they were first handing out these stat devices a thousand years ago. Interesting... 
+A user manual from a thousand years ago. That would have saved me half a dozen near-death experiences.
 
-As soon as I press the next page button, the stat screen finally appears and I can see that my three new stats have been added right below the other stats, which are currently all at level zero. I'm also noticing that I have an extra available point to spend. This must be the 'bonus' point that Leila's father said I would gain because of locking my stats by accident. The one that would cause me to gain one less point when I'll be getting my next batch.
+I click the side button, and the familiar stat grid appears on the glass. The three new attributes sit below the standard nine attributes, all resting at zero. In the corner, my pool displays an extra point—the advance Reidzek warned me about when my accidental lockout triggered early allocation. That means one less point when the next tier unlocks.
 
-I guess I'll have to think whether I want to start investing my points now, or if I should wait until later before I make my decision.
+I need to decide whether to allocate my points immediately or hold them in reserve.
 
 }
 #if(v_b3_ch4_introduction == 1 && v_b3_ch1_unlock != 2) {
- When I press on the 'next page' button one more time, I am shown one final text before I can proceed to my usual stat screen.
+ I hit the toggle one last time to exit the manual.
 
-'This concludes the introduction of the experimental aura stats,' the text says. 'Pressing on the next page button will now return you to your stat screen. Don't forget that if you had any points invested into your stats before the activation you will need to reinvest them, as they have been reset.'
+'Briefing complete,' the screen confirms. 'Advancing to primary interface. Previously allocated points have been returned to your available reserve following system recalibration.'
 
-As soon as I press the button, the stat screen finally appears and I can see that my three new stats have been added right below the other stats, which are currently all at level zero. I'll have to think whether I want to start investing my points now, or if I should wait until later before I make my decision.
+The grid loads onto the glass, displaying the three new attributes below the original nine, all set to zero. I need to decide whether to assign my points now or hold them in reserve.
 
 }
 #if(v_b3_ch1_unlock == 2 && v_b3_ch4_introduction == 1) {
- When I press on the 'next page' button one more time, I am shown one final text before I can proceed to my usual stat screen.
+ I hit the toggle one last time to exit the manual.
 
-'This concludes the introduction of the experimental aura stats,' the text says. 'Pressing on the next page button will now return you to your stat screen. Don't forget that if you had any points invested into your stats before the activation you will need to reinvest them, as they have been reset.'
+'Briefing complete,' the screen confirms. 'Advancing to primary interface. Previously allocated points have been returned to your available reserve following system recalibration.'
 
-As soon as I press the button, the stat screen finally appears and I can see that my three new stats have been added right below the other stats, which are currently all at level zero. I'm also noticing that I have an extra available point to spend. This must be the 'bonus' point that Leila's father said I would gain because of locking my stats by accident. The one that would cause me to gain one less point when I'll be getting my next batch. I'll have to think whether I want to start investing my points now, or if I should wait until later before I make my decision.
+The grid loads onto the glass, displaying the three new attributes below the original nine, all set to zero. In the corner, my pool displays an extra point—the advance Reidzek warned me about when my accidental lockout triggered early allocation. That means one less point when the next tier unlocks. I need to decide whether to assign my points now or hold them in reserve.
 
 }
 choice("Invest points now", B3-Ch04a-Stats-spent, v_current_scene = B3-Ch04a-Stats-spent, special:stats)
@@ -203,47 +209,47 @@ ID: B3-Ch04a-Stats-spent
 TEXT:
 
 #if(v_b3_ch4_introduction == 1) {
- 'The Bluff or Aura Concealment stat is designed to help you control your aura," the text says. "It has two primary purposes. First of all, this stat will allow you to keep the flow of your aura stable enough to avoid lie detection if your level is high enough. Just like with the Magical Sense stat, the effects it will have on you will highly depend on your own ability to control your aura. If your aura control is very poor, then you will need to invest more points in this stat to make it reasonably effective.'
+ 'The Bluff parameter, designated secondarily as Aura Concealment, governs aura modulation,' the text reads. 'Its primary function is stabilization. Sufficient investment dampens involuntary aura fluctuations, preventing detection by magical lie-sensing methods. Efficacy is tethered to innate aura control; subjects with erratic natural flow require higher point investment to stabilize the baseline.'
 
-'The second utility of this stat was discovered during testing,' the next page says. 'While the initial purpose of this stat was only to keep the aura flow stable, a few of the test subjects found out that with enough practice it could also be used to hide their auras completely, making themselves undetectable in terms of magical sense. After receiving this new information, we made a few adjustments to the Bluff stat and also gave it a secondary name, in order to better reflect its potential. If you are unable to use this stat to conceal your aura, please contact the person in charge of your stat activation, so they can readjust your device.'
+'Secondary utility was established during field testing,' the next page reads. 'While designed solely to mask deceptive fluctuations, trained subjects successfully suppressed their aura signatures entirely, rendering themselves invisible to standard magical detection. The hardware was subsequently recalibrated to support full suppression, and the parameter was given its secondary designation. If your unit fails to achieve complete dampening, consult your technical supervisor.'
 
 }
 #if(v_b3_ch4_introduction == 0 && v_b3_ch1_unlock != 2) {
- I decide that I want to skip the introduction so I press the corresponding button on my device, which makes a new text appear on the screen.
+ I press the skip key, clearing the tutorial prompt.
 
-'You have chosen to skip the introduction of the aura stats,' the text says. 'If you ever want to read the introduction text at a later date, you can always find it in the instructions manual that was given to you along with your stat device. Pressing on the next page button will now return you to your stat screen. Don't forget that if you had any points invested into your stats before the activation you will need to reinvest them, as they have been reset.'
+'Aura parameter briefing bypassed,' the display reads. 'You may review this documentation at any time in the operator manual provided with your unit. Advancing to the primary interface. Unspent points have been restored to your available pool following unit reset.'
 
-Oh, so they used to have instructions manuals back when they were first handing out these stat devices a thousand years ago. Interesting... 
+A user manual from a thousand years ago. That would have saved me half a dozen near-death experiences.
 
-As soon as I press the next page button, the stat screen finally appears and I can see that my three new stats have been added right below the other stats, which are currently all at level zero. I guess I'll have to think whether I want to start investing my points now, or if I should wait until later before I make my decision.
+I click the side button, and the familiar stat grid appears on the glass. The three new entries sit below the standard nine attributes, all resting at zero. I need to decide whether to allocate my points immediately or hold them in reserve.
 
 }
 #if(v_b3_ch1_unlock == 2 && v_b3_ch4_introduction == 0) {
- I decide that I want to skip the introduction so I press the corresponding button on my device, which makes a new text appear on the screen.
+ I press the skip key, clearing the tutorial prompt.
 
-'You have chosen to skip the introduction of the aura stats,' the text says. 'If you ever want to read the introduction text at a later date, you can always find it in the instructions manual that was given to you along with your stat device. Pressing on the next page button will now return you to your stat screen. Don't forget that if you had any points invested into your stats before the activation you will need to reinvest them, as they have been reset.'
+'Aura parameter briefing bypassed,' the display reads. 'You may review this documentation at any time in the operator manual provided with your unit. Advancing to the primary interface. Unspent points have been restored to your available pool following unit reset.'
 
-Oh, so they used to have instructions manuals back when they were first handing out these stat devices a thousand years ago. Interesting... 
+A user manual from a thousand years ago. That would have saved me half a dozen near-death experiences.
 
-As soon as I press the next page button, the stat screen finally appears and I can see that my three new stats have been added right below the other stats, which are currently all at level zero. I'm also noticing that I have an extra available point to spend. This must be the 'bonus' point that Leila's father said I would gain because of locking my stats by accident. The one that would cause me to gain one less point when I'll be getting my next batch.
+I click the side button, and the familiar stat grid appears on the glass. The three new attributes sit below the standard nine attributes, all resting at zero. In the corner, my pool displays an extra point—the advance Reidzek warned me about when my accidental lockout triggered early allocation. That means one less point when the next tier unlocks.
 
-I guess I'll have to think whether I want to start investing my points now, or if I should wait until later before I make my decision.
+I need to decide whether to allocate my points immediately or hold them in reserve.
 
 }
 #if(v_b3_ch4_introduction == 1 && v_b3_ch1_unlock != 2) {
- When I press on the 'next page' button one more time, I am shown one final text before I can proceed to my usual stat screen.
+ I hit the toggle one last time to exit the manual.
 
-'This concludes the introduction of the experimental aura stats,' the text says. 'Pressing on the next page button will now return you to your stat screen. Don't forget that if you had any points invested into your stats before the activation you will need to reinvest them, as they have been reset.'
+'Briefing complete,' the screen confirms. 'Advancing to primary interface. Previously allocated points have been returned to your available reserve following system recalibration.'
 
-As soon as I press the button, the stat screen finally appears and I can see that my three new stats have been added right below the other stats, which are currently all at level zero. I'll have to think whether I want to start investing my points now, or if I should wait until later before I make my decision.
+The grid loads onto the glass, displaying the three new attributes below the original nine, all set to zero. I need to decide whether to assign my points now or hold them in reserve.
 
 }
 #if(v_b3_ch1_unlock == 2 && v_b3_ch4_introduction == 1) {
- When I press on the 'next page' button one more time, I am shown one final text before I can proceed to my usual stat screen.
+ I hit the toggle one last time to exit the manual.
 
-'This concludes the introduction of the experimental aura stats,' the text says. 'Pressing on the next page button will now return you to your stat screen. Don't forget that if you had any points invested into your stats before the activation you will need to reinvest them, as they have been reset.'
+'Briefing complete,' the screen confirms. 'Advancing to primary interface. Previously allocated points have been returned to your available reserve following system recalibration.'
 
-As soon as I press the button, the stat screen finally appears and I can see that my three new stats have been added right below the other stats, which are currently all at level zero. I'm also noticing that I have an extra available point to spend. This must be the 'bonus' point that Leila's father said I would gain because of locking my stats by accident. The one that would cause me to gain one less point when I'll be getting my next batch. I'll have to think whether I want to start investing my points now, or if I should wait until later before I make my decision.
+The grid loads onto the glass, displaying the three new attributes below the original nine, all set to zero. In the corner, my pool displays an extra point—the advance Reidzek warned me about when my accidental lockout triggered early allocation. That means one less point when the next tier unlocks. I need to decide whether to assign my points now or hold them in reserve.
 
 }
 choice("Continue", B3-Ch04a-Avg-Joe, v_current_scene = B3-Ch04a-Avg-Joe) if (v_agility == 0 && v_ancient_languages == 0 && v_aura_hardening == 0 && v_b3_ch1_unlock == 2 && v_b3_ch4_average_joe == 1 && v_b3_ch4_introduction == 0 && v_bluff == 0 && v_combat_technique == 0 && v_hearing == 0 && v_magical_sense == 0 && v_perception == 0 && v_premonition == 0 && v_reflexes == 0 && v_strength == 0 && v_toughness == 0 || v_agility == 0 && v_ancient_languages == 0 && v_aura_hardening == 0 && v_b3_ch1_unlock == 2 && v_b3_ch4_average_joe == 1 && v_b3_ch4_introduction == 1 && v_bluff == 0 && v_combat_technique == 0 && v_hearing == 0 && v_magical_sense == 0 && v_perception == 0 && v_premonition == 0 && v_reflexes == 0 && v_strength == 0 && v_toughness == 0 || v_agility == 0 && v_ancient_languages == 0 && v_aura_hardening == 0 && v_b3_ch4_average_joe == 1 && v_b3_ch4_introduction == 0 && v_bluff == 0 && v_combat_technique == 0 && v_hearing == 0 && v_magical_sense == 0 && v_perception == 0 && v_premonition == 0 && v_reflexes == 0 && v_strength == 0 && v_toughness == 0 && v_b3_ch1_unlock != 2 || v_agility == 0 && v_ancient_languages == 0 && v_aura_hardening == 0 && v_b3_ch4_average_joe == 1 && v_b3_ch4_introduction == 1 && v_bluff == 0 && v_combat_technique == 0 && v_hearing == 0 && v_magical_sense == 0 && v_perception == 0 && v_premonition == 0 && v_reflexes == 0 && v_strength == 0 && v_toughness == 0 && v_b3_ch1_unlock != 2)
@@ -256,11 +262,11 @@ choice("Continue", B3-Ch04a-Avg-Joe-Invested4, v_current_scene = B3-Ch04a-Avg-Jo
 ID: B3-Ch04a-Avg-Joe
 TEXT:
 
- "Should I take it that your new stats were unlocked successfully?" Kate asks me, when she sees me putting the stat device back in my pocket.
+ "Did the technician manage to unlock them?" Kate asks as I slide the booster back into my pocket.
 
-"Yes," I say. "My device is fully functional and I have all three of my new stats activated."
+"He did," I say. "Hardware is online and all three auxiliary parameters are operational."
 
-"So, are you actually going to invest points to test your stats this time, or are you just going to leave all of your points unspent like before?" Kate asks me, with her eyebrows furrowed.
+"And are you actually going to allocate points to test them this time, or are you leaving everything unspent like before?" Her brow furrows.
 
 choice(""I'm not spending any points. I'll only start investing them when it's absolutely necessary."", B3-Ch04a-Avg-Joe2, v_current_scene = B3-Ch04a-Avg-Joe2, v_b3_ch4_demolisher = 1)
 choice(""Listen, the stat device was always just a backup plan. I don't want to start relying on it."", B3-Ch04a-Avg-Joe2, v_current_scene = B3-Ch04a-Avg-Joe2, v_b3_ch4_demolisher = 2)
@@ -275,111 +281,111 @@ achievement("Fourth wall demolisher",v_ac_b3_ch4_demolisher)
 #if(v_b3_ch4_demolisher == 1 && v_b3_ch1_unlock != 2) {
  "I'm not spending any points. I'll only start investing them when it's absolutely necessary."
 
-"Of course you would say something like that," Kate tells me. "I don't know why I even bothered asking."
+"I don't know why I expected a different answer," Kate says, shaking her head.
 
-"Barry, aren't you even a little bit curious to see what those new stats can do?" Leila writes.
+"Barry, aren't you even a little bit curious to see what they do?" Leila's bright blue letters form in the air.
 
-"Maybe a little," I say. "But at the moment I'm just glad to have the stat device functional again. At least now I know that if things get really bad, I'll have twenty-five points that I can immediately put in whatever combination of stats I may need to get us out of trouble."
+"A little," I say. "Mainly I'm just glad the hardware works. If a situation goes completely sideways, I have twenty-five points on standby to dump into whatever combination keeps us alive."
 
-"Well... I suppose that's one way of putting it..." Leila writes.
+"Well... that is one way to look at it," Leila writes.
 
-"Given how much time it's already been since we came to Varathia, I'm starting to doubt that he'll ever level up any of his stats," Kate says. "He's probably going to end up holding onto those points until the very end of the tournament at this rate."
+"Given how long we've survived on Varathia without them, I doubt he'll ever touch the interface," Kate says. "He'll hoard those points all the way to the final round."
 
-"Look on the bright side," I say. "If we ever make it to that point, then you'll have both the satisfaction of having survived one of the deadliest mage tournaments in the world, and the satisfaction of being able to say 'I told you so!' "  
+"Look at it positively," I tell her. "If we reach the final round with zero stats allocated, you get the satisfaction of surviving the most dangerous tournament in the world, plus the eternal right to tell me 'I told you so.'"
 
-"Right..." Kate says.
+"Right," Kate says flatly.
 
 }
 #if(v_b3_ch1_unlock == 2 && v_b3_ch4_demolisher == 1) {
  "I'm not spending any points. I'll only start investing them when it's absolutely necessary."
 
-"Of course you would say something like that," Kate tells me. "I don't know why I even bothered asking."
+"I don't know why I expected a different answer," Kate says, shaking her head.
 
-"Barry, aren't you even a little bit curious to see what those new stats can do?" Leila writes.
+"Barry, aren't you even a little bit curious to see what they do?" Leila's bright blue letters form in the air.
 
-"Maybe a little," I say. "But at the moment I'm just glad to have the stat device functional again. At least now I know that if things get really bad, I'll have twenty-six points that I can immediately put in whatever combination of stats I may need to get us out of trouble."
+"A little," I say. "Mainly I'm just glad the hardware works. If a situation goes completely sideways, I have twenty-six points on standby to dump into whatever combination keeps us alive."
 
-"Well... I suppose that's one way of putting it..." Leila writes.
+"Well... that is one way to look at it," Leila writes.
 
-"Given how much time it's already been since we came to Varathia, I'm starting to doubt that he'll ever level up any of his stats," Kate says. "He's probably going to end up holding onto those points until the very end of the tournament at this rate."
+"Given how long we've survived on Varathia without them, I doubt he'll ever touch the interface," Kate says. "He'll hoard those points all the way to the final round."
 
-"Look on the bright side," I say. "If we ever make it to that point, then you'll have both the satisfaction of having survived one of the deadliest mage tournaments in the world, and the satisfaction of being able to say 'I told you so!' "  
+"Look at it positively," I tell her. "If we reach the final round with zero stats allocated, you get the satisfaction of surviving the most dangerous tournament in the world, plus the eternal right to tell me 'I told you so.'"
 
-"Right..." Kate says.
+"Right," Kate says flatly.
 
 }
 #if(v_b3_ch4_demolisher == 2 && v_b3_ch1_unlock != 2) {
  "Listen, the stat device was always just a backup plan. I don't want to start relying on it."
 
-"Of course you would say something like that," Kate tells me. "I don't know why I even bothered asking."
+"I don't know why I expected a different answer," Kate says, shaking her head.
 
-"Barry, aren't you even a little bit curious to see what those new stats can do?" Leila writes.
+"Barry, aren't you even a little bit curious to see what they do?" Leila's bright blue letters form in the air.
 
-"Maybe a little," I say. "But at the moment I'm just glad to have the stat device functional again. At least now I know that if things get really bad, I'll have twenty-five points that I can immediately put in whatever combination of stats I may need to get us out of trouble."
+"A little," I say. "Mainly I'm just glad the hardware works. If a situation goes completely sideways, I have twenty-five points on standby to dump into whatever combination keeps us alive."
 
-"Well... I suppose that's one way of putting it..." Leila writes.
+"Well... that is one way to look at it," Leila writes.
 
-"Given how much time it's already been since we came to Varathia, I'm starting to doubt that he'll ever level up any of his stats," Kate says. "He's probably going to end up holding onto those points until the very end of the tournament at this rate."
+"Given how long we've survived on Varathia without them, I doubt he'll ever touch the interface," Kate says. "He'll hoard those points all the way to the final round."
 
-"Look on the bright side," I say. "If we ever make it to that point, then you'll have both the satisfaction of having survived one of the deadliest mage tournaments in the world, and the satisfaction of being able to say 'I told you so!' "  
+"Look at it positively," I tell her. "If we reach the final round with zero stats allocated, you get the satisfaction of surviving the most dangerous tournament in the world, plus the eternal right to tell me 'I told you so.'"
 
-"Right..." Kate says.
+"Right," Kate says flatly.
 
 }
 #if(v_b3_ch1_unlock == 2 && v_b3_ch4_demolisher == 2) {
  "Listen, the stat device was always just a backup plan. I don't want to start relying on it."
 
-"Of course you would say something like that," Kate tells me. "I don't know why I even bothered asking."
+"I don't know why I expected a different answer," Kate says, shaking her head.
 
-"Barry, aren't you even a little bit curious to see what those new stats can do?" Leila writes.
+"Barry, aren't you even a little bit curious to see what they do?" Leila's bright blue letters form in the air.
 
-"Maybe a little," I say. "But at the moment I'm just glad to have the stat device functional again. At least now I know that if things get really bad, I'll have twenty-six points that I can immediately put in whatever combination of stats I may need to get us out of trouble."
+"A little," I say. "Mainly I'm just glad the hardware works. If a situation goes completely sideways, I have twenty-six points on standby to dump into whatever combination keeps us alive."
 
-"Well... I suppose that's one way of putting it..." Leila writes.
+"Well... that is one way to look at it," Leila writes.
 
-"Given how much time it's already been since we came to Varathia, I'm starting to doubt that he'll ever level up any of his stats," Kate says. "He's probably going to end up holding onto those points until the very end of the tournament at this rate."
+"Given how long we've survived on Varathia without them, I doubt he'll ever touch the interface," Kate says. "He'll hoard those points all the way to the final round."
 
-"Look on the bright side," I say. "If we ever make it to that point, then you'll have both the satisfaction of having survived one of the deadliest mage tournaments in the world, and the satisfaction of being able to say 'I told you so!' "  
+"Look at it positively," I tell her. "If we reach the final round with zero stats allocated, you get the satisfaction of surviving the most dangerous tournament in the world, plus the eternal right to tell me 'I told you so.'"
 
-"Right..." Kate says.
+"Right," Kate says flatly.
 
 }
 #if(v_b3_ch4_demolisher == 3) {
  "Not on this save slot. I'm using this one for the Average Joe achievement."
 
-"What?..." Kate says and she stops in her tracks, while looking at me as if I'd suddenly begun speaking in a foreign language.
+"What?" Kate stops dead on the gravel, staring at me as if I've slipped into an ancient dialect.
 
-"Sorry," I say. "I meant to say that I'm not going to start investing the points until it's absolutely necessary."
+"Sorry," I say, shaking my head. "I meant I'm holding the points in reserve until we hit an absolute emergency."
 
-"No, that's not what you said..." Kate tells me. "You were talking about a 'save slot' and an 'Average Joe' achievement. What did you mean by that?"
+"No. That wasn't what came out of your mouth," Kate says, stepping closer. "You said 'save slot' and 'Average Joe achievement.' What does that mean?"
 
-"I was..." I begin to tell her, but I can't seem to find the right words and I'm just standing there, trying in vain to formulate a coherent sentence. "I was just..."
+"I was..." My tongue feels heavy. The thoughts scatter the moment I try to pin them down into a sentence. "I was just..."
 
-Why did I even say those things? Was I trying to make a joke? Why is it so hard for me to remember?...
+Why did I say that? Was it an attempt at a joke? The memory blurs at the edges the harder I reach for it.
 
-Everyone else has now stopped moving as well and they're all just looking at me and Kate in turn, not entirely sure what to make of us.
+The rest of the group halts. Breynan glances between us, hands resting near his hilt, unsure of what has gone wrong.
 
-"Kate, there's no need to have him interrogated like this," Leila writes, after she sees the way I'm struggling to think of an answer. "I'm sure it was just another one of his jokes. He wasn't being serious."
+"Kate, let it go," Leila writes quickly, watching me struggle. "He was making a dry joke. He wasn't serious."
 
-"I know the way Barry jokes, and this wasn't anything like his usual sarcastic quips," Kate says. "This was something else. In fact, it didn't even feel like I was speaking to Barry at all. It almost felt like I was talking to a... completely different person."
+"I know Barry's humor," Kate says. "That wasn't sarcasm. That wasn't even Barry's voice. It felt like someone else was speaking through his throat."
 
- Kate then begins to stare at me, but for some reason it doesn't feel like I'm the one being looked at. It feels like she's looking right through me. As if her eyes were searching for something else that she could not see. The look she has in her eyes right now is starting to give me the chills.
+Her dark eyes lock onto mine, but she isn't looking at my face. She's staring straight through me, searching the empty air behind my skull for something invisible. A cold knot tightens in my gut.
 
-"Listen," Melindra tells Kate, as she puts a hand on her shoulder from behind. "I get what you're trying to say, but I'm not sensing any mind controlling magic coming from him, and if someone had cast a spell on him earlier we would have most certainly felt it. Besides, it's not like his joke was that much different from his usual ones. When he mentioned 'save slots', he was probably referring to those virtual pet devices that the gnomes modified recently to allow you to save your progress. And since we know from Arraka that those worlds we visited in the God of Time's ritual were practically alternate versions of our reality, Barry was probably comparing this situation to having multiple 'game saves'. He was trying to compare reality to a game, where he would use one of his 'saves' simply for the purpose of seeing if he can survive until the end as a completely average person. Barry, isn't that what you meant?"
+"Easy, icey," Melindra says, resting a hand on Kate's shoulder. "I'm not picking up any compulsion magic, and a psychic intrusion would leave a ripple across his aura that we couldn't possibly miss. His joke wasn't even that obscure. When he said 'save slots', he was probably referencing those pocket beast artifacts the gnomes redesigned last year to record simulation states. And Arraka already told us the realities we walked during the Time God's ritual were alternate branches of existence. Barry was just comparing our survival to a game, treating this timeline as a run where he tries to reach the end without enhancements. Barry, isn't that what you were getting at?"
 
- "Yes!" I say. "That's it! That's what I was trying to say!"
+"Yes!" I seize on the explanation. "Exactly. That's what I was thinking."
 
-This must have been it... Her explanation makes perfect sense. I was just trying to make a joke. That's all it was...
+Of course. Melindra's rationalization fits cleanly. It was just a joke that fell flat. Nothing more.
 
-"I figured it was something like that, but I didn't know about the new type of pet devices," Leila writes. "I'm glad that Melindra cleared it all up!"
+"I assumed it was something of the sort, though I hadn't heard of the new gnome toys," Leila writes. "I'm glad Melindra sorted it out."
 
-"So, are we all done here?..." Breynan asks us. "Can we move on?"
+"Are we finished here?" Breynan asks, looking down the corridor. "Can we keep moving?"
 
-"I... suppose..." Kate says, with a somewhat hesitant look in her eyes.
+"I... suppose," Kate says, though her gaze lingers on me for another second.
 
-"Good," Breynan says. "I know that there are no enemies nearby, but I still don't feel comfortable staying too long in one place unless we really need to. Let's go!"
+"Good," Breynan says. "We have clear air for now, but standing in one corridor is asking for trouble. Move out."
 
-As we all move ahead one by one, I notice that Illuna is still staring at me with that serious expression that she always has and with her blue eyes shining brightly. When I look back at her, she does not turn her gaze from me at all and she just keeps looking me right in the eye, in complete silence. As I walk past her to go after the others, her gaze follows me for a few more seconds, but then she finally joins us as well, without saying a word.
+As we fall into file, Illuna remains planted on the cavern floor. Her cold, unblinking blue eyes stay fixed on me. She doesn't turn away when my eyes meet hers; she just watches, completely motionless, tracking my steps as I brush past her. She holds that silence for three long strides before falling in behind us.
 
 }
 choice("Continue", B3-Ch04a-Disarm, v_current_scene = B3-Ch04a-Disarm)
@@ -388,23 +394,23 @@ choice("Continue", B3-Ch04a-Disarm, v_current_scene = B3-Ch04a-Disarm)
 ID: B3-Ch04a-Avg-Joe-Invested
 TEXT:
 
- "Should I take it that your new stats were unlocked successfully?" Kate asks me, when she sees me putting the stat device back in my pocket.
+ "Did the technician manage to unlock them?" Kate asks as I slide the booster back into my pocket.
 
-"Yes," I say. "My device is fully functional and I have all three of my new stats activated."
+"He did," I say. "Hardware is online and all three auxiliary parameters are operational."
 
-"So, are you actually going to invest points to test your stats this time, or are you just going to leave all of your points unspent like before?" Kate asks me, with her eyebrows furrowed.
+"And are you actually going to allocate points to test them this time, or are you leaving everything unspent like before?" Her brow furrows.
 
-"I've already spent some of the points on the new stats, actually," I say. "With a little luck, I might be able to test some of them out soon."
+"I already allocated a portion to the new parameters," I say. "With any luck, we'll get a chance to see how they perform soon."
 
-"I'm honestly surprised that you even invested any points at all," Kate says. "At the rate you were going, I was almost expecting you to reach the end of this tournament with all of your stats at level zero."
+"I'm amazed you spent anything at all," Kate says. "The way you were hoarding your pool, I expected you to walk into the finals with every single stat at zero."
 
-"Hey, even I'm not that crazy!" I say. "Though I will admit that I might have been a little too cautious until now."
+"I'm not that reckless," I say. "Though I'll admit I held onto them a little longer than necessary."
 
-"Only a little?..." Kate says.
+"A little?" Kate raises an eyebrow.
 
-"Okay, maybe slightly more than just a little," I answer her. "But I've learned my lesson, I swear!"
+"Fine, significantly longer than necessary. But I'm putting them to work now."
 
-"Right..." Kate says.
+"Right," Kate says.
 
 choice("Continue", B3-Ch04a-Disarm, v_current_scene = B3-Ch04a-Disarm)
 
@@ -412,23 +418,23 @@ choice("Continue", B3-Ch04a-Disarm, v_current_scene = B3-Ch04a-Disarm)
 ID: B3-Ch04a-Avg-Joe-Invested2
 TEXT:
 
- "Should I take it that your new stats were unlocked successfully?" Kate asks me, when she sees me putting the stat device back in my pocket.
+ "Did the technician manage to unlock them?" Kate asks as I slide the booster back into my pocket.
 
-"Yes," I say. "My device is fully functional and I have all three of my new stats activated."
+"He did," I say. "Hardware is online and all three auxiliary parameters are operational."
 
-"So, are you actually going to invest points to test your stats this time, or are you just going to leave all of your points unspent like before?" Kate asks me, with her eyebrows furrowed.
+"And are you actually going to allocate points to test them this time, or are you leaving everything unspent like before?" Her brow furrows.
 
-"I've already spent some of the points, actually," I say. "But none of them on the new stats yet."
+"I allocated some points," I say. "Just not into the auxiliary parameters yet."
 
-"I'm honestly surprised that you even invested any points at all," Kate says. "At the rate you were going, I was almost expecting you to reach the end of this tournament with all of your stats at level zero."
+"I'm amazed you spent anything at all," Kate says. "The way you were hoarding your pool, I expected you to walk into the finals with every single stat at zero."
 
-"Hey, even I'm not that crazy!" I say. "Though I will admit that I might have been a little too cautious until now."
+"I'm not that reckless," I say. "Though I'll admit I held onto them a little longer than necessary."
 
-"Only a little?..." Kate says.
+"A little?" Kate raises an eyebrow.
 
-"Barry, how come you didn't invest anything in your aura stats?" Leila writes. "Aren't you even a little bit curious to see what those new stats can do?"
+"Barry, why didn't you put anything into the aura parameters?" Leila writes. "Aren't you even slightly curious about what they can do?"
 
-"I don't want to spend points just to satisfy my curiosity," I say. "I will level them up when I'll find a good opportunity to use them."
+"I don't spend points just to satisfy curiosity," I say. "I'll level them when a problem actually calls for them."
 
 "If you say so," Leila writes.
 
@@ -438,15 +444,15 @@ choice("Continue", B3-Ch04a-Disarm, v_current_scene = B3-Ch04a-Disarm)
 ID: B3-Ch04a-Avg-Joe-Invested3
 TEXT:
 
- "Should I take it that your new stats were unlocked successfully?" Kate asks me, when she sees me putting the stat device back in my pocket.
+ "Did the technician manage to unlock them?" Kate asks as I slide the booster back into my pocket.
 
-"Yes," I say. "My device is fully functional and I have all three of my new stats activated."
+"He did," I say. "Hardware is online and all three auxiliary parameters are operational."
 
-"But did you invest any points into them?" Kate says.
+"Did you allocate any points into them?" Kate asks.
 
-"I did, actually," I say. "With a little luck, I might be able to test some of them out soon."
+"I did," I say. "With any luck, we'll get a chance to see how they perform soon."
 
-"I'm sure we'll all be looking forward to it," Kate says.
+"I'm sure we're all waiting with bated breath," Kate says dryly.
 
 choice("Continue", B3-Ch04a-Disarm, v_current_scene = B3-Ch04a-Disarm)
 
@@ -454,17 +460,17 @@ choice("Continue", B3-Ch04a-Disarm, v_current_scene = B3-Ch04a-Disarm)
 ID: B3-Ch04a-Avg-Joe-Invested4
 TEXT:
 
- "Should I take it that your new stats were unlocked successfully?" Kate asks me, when she sees me putting the stat device back in my pocket.
+ "Did the technician manage to unlock them?" Kate asks as I slide the booster back into my pocket.
 
-"Yes," I say. "My device is fully functional and I have all three of my new stats activated."
+"He did," I say. "Hardware is online and all three auxiliary parameters are operational."
 
-"But did you invest any points into them?" Kate says.
+"Did you allocate any points into them?" Kate asks.
 
 "No, not yet," I say.
 
-"Why not?" Leila writes. "Aren't you even a little bit curious to see what these new stats can do?"
+"Why not?" Leila writes. "Aren't you even slightly curious about what they can do?"
 
-"I don't want to spend points just to satisfy my curiosity," I say. "I will level them up when I'll find a good opportunity to use them."
+"I don't spend points just to satisfy curiosity," I say. "I'll level them when a problem actually calls for them."
 
 "If you say so," Leila writes.
 
@@ -474,34 +480,34 @@ choice("Continue", B3-Ch04a-Disarm, v_current_scene = B3-Ch04a-Disarm)
 ID: B3-Ch04a-Disarm
 TEXT:
 
- We travel through the underground corridors for another twenty minutes or so until we finally reach a dead end, in the sense that no matter which way we go from here we will be forced to disarm one of the magical traps. As we get closer to a tunnel entrance where one of the traps has been placed, Breynan steps to the front so he can have a good look at it. 
+ We navigate the lower corridors for another twenty minutes until every branching tunnel is walled off by warding signatures. The passage terminates at an arched doorway where an active trap hums in the stone. Breynan moves to the front, leaning in to inspect the threshold.
 
-The trap is practically invisible to the naked eye, but we can all feel its presence even if we don't see it. Still, it is difficult to tell what triggering it would do just from sensing the aura and magical energy around it.
+The construct is invisible in the gloom, but the prickle of compressed magic bites at the skin. Reading the specific payload from the ambient heat alone is impossible.
 
-"I recognize some of these spells," Breynan says. "One of them is a mind affecting spell and there are also around three different types of earth spells thrown in there. That being said, I can't say that I'd feel very confident trying to disarm this just with the knowledge that I have. Maybe we could try studying some of the traps in the other corridors to see if we'll get luckier with those."
+"I recognize fragments of the weave," Breynan says. "A mind-fog trigger layered over at least three earth matrices. I don't have the technical background to dismantle an array this dense. Perhaps we should scout the adjoining branches for a weaker node."
 
-"I doubt it," Melindra says. "The reason why I brought you to this corridor, specifically, is because the trap over here seemed to be the easiest one to dispel. The other ones are much more complicated."
+"Waste of time," Melindra says from the rear. "I routed us here because this signature is the cleanest of the lot. The other branches are nested with double the layers."
 
-"Well, I'm telling you that I can't deal with this one on my own," Breynan says. "Even if it's supposed to be 'easy', disarming traps has never been one of my specialties. I don't have anywhere near the level of skill required to dispel it." 
+"Then we're stuck," Breynan says. "A weak array is still beyond my training. Field dispelling has never been my discipline."
 
 #if(v_ch11_saved_rose == 0) {
- "Hmm," I say. "Is Breynan really the only one here who can disarm traps, though? Illuna, I'm pretty sure Flower mentioned that you two have been visiting lots of ruins in the past. Those ruins must have had traps in them, right? How did you get past them?"
+ "Is Breynan really our only caster with ward training?" I ask. "Illuna, Flower said you two have cleared dozens of ruins. What did you do with the wards?"
 
-"Most of the traps from the ruins were the old fashioned kind, so the girl would typically just use her acrobacy skills to escape unharmed," Illuna says. "In the few cases where we've encountered magical traps, we had to rely on Arraka to dispel them. Flower and I are both elementalists, so disarming anything other than the most basic of magical traps is a great challenge for us."
+"Ancient ruins run on mechanical counterweights and pressure plates," Illuna says, her expression flat. "Flower flips over tripwires and drops past swinging scythes. The few times we ran into active enchantment, Arraka tore it down from the amulet. Flower and I are elementalists. Complex ward dispelling is not our discipline."
 
-"Arraka can cast dispelling magic from inside her amulet?..." Kate asks. "I thought the spells she could cast were very limited in her current state."
+"Arraka can cast from inside that gold cage?" Kate asks. "I thought the binding choked off her casting."
 
- "Dispelling magic does not require a great deal of magical energy to cast," Illuna says. "Arraka's main problem while she's inside the amulet is that she can only store a very small amount of energy within her aura at any given moment, so the only way in which she can cast any reasonably powerful spells is to channel the energy outside the amulet for hours on end, without being interrupted by anyone. It's not like she suddenly forgot how to cast spells when she got trapped in there. She still has all of her knowledge. That's why she can cast complex spells like detailed holograms, targets made of solid light and dispelling magic but she can't manage to cast a simple explosion spell to break herself out of her amulet. It would take her three whole hours to channel the energy required to generate a small explosion, as opposed to the half hour or so she usually needs to dispel a trap."
+ "Dispelling is structure, not raw mass," Illuna says. "Her limitation in the vessel is capacity. She holds almost no reserve within the gold at any one second, so the only way she can cast anything destructive is to draw ambient energy through the metal seam for hours on end without a single lapse in focus. The knowledge never left her. That is why she can project solid-light targets, detailed illusions, and intricate dispelling arrays, yet cannot simply blast the amulet apart. A localized explosion requires three uninterrupted hours of gathering power. Disarming an elemental trap takes her thirty minutes."
 
-"Well, Arraka is not here with us to help with the traps, so you're our best bet right now," I say. "You've seen her use the dispelling technique many times before, so you must know how it works by now, right?"
+"Arraka is half a city away, so you're our best option," I tell Illuna. "You've watched her dismantle wards for twenty years. You know the mechanics."
 
-"Knowing how it works and being able to perform it successfully are two entirely different things..." Illuna says.
+"Watching a master unravel a spell and executing the inversion yourself are not the same thing," Illuna says.
 
 }
 #if(v_ch11_saved_rose == 1) {
- "But what if Illuna were to help you?" I say. "Do you think you might be able to handle it then?"
+ "What if Illuna works with you?" I ask Breynan. "Could the two of you dismantle it together?"
 
-"I already told you that I'm not good at disarming magical traps," Illuna says. "Even if I were to try helping him, we still wouldn't get anywhere."
+"I told you already, ward theory is not my discipline," Illuna says coldly. "Combining two inexperienced casters will only double our errors."
 
 }
 choice("Continue", B3-Ch04a-Inventor, v_current_scene = B3-Ch04a-Inventor)
@@ -510,26 +516,26 @@ choice("Continue", B3-Ch04a-Inventor, v_current_scene = B3-Ch04a-Inventor)
 ID: B3-Ch04a-Inventor
 TEXT:
 
- "Well then, I guess it's a good thing we have an expert in dispelling magic right here with us!" Melindra says, as she pats me hard on the back. "Wouldn't you agree, mister inventor of the Brinhorn dispelling technique?"
+ "Good thing we happen to be traveling with a master of counter-magic," Melindra says, clapping a heavy hand against my shoulder blade. "Isn't that right, inventor of the Brinhorn dispelling method?"
 
-"I'm not an expert or anything," I say. "Like I already mentioned before, I only invented that technique on a whim."
+"I'm not a master," I say. "I put that technique together as a workaround years ago."
 
-"Of course, of course," Melindra says, and then she pushes both Illuna and me from behind, in order to get us closer to Breynan. "Now you two go over there and see what you can do to help. It won't hurt you if you just give it one try, will it?"
+"Of course you did," Melindra says, giving both Illuna and me a firm shove toward Breynan. "Go take a look at the weave. Trying one inversion isn't going to kill you."
 
-"I suppose not," I say, and then I begin to slowly advance towards Breynan, alongside Illuna.
+"Fine," I say, stepping up to the doorway with Illuna.
 
 #if(v_ch11_saved_rose == 0) {
- As I briefly walk beside her, I immediately notice that Illuna is breathing very heavily and that her walking is in fact a lot more uneven than she lets on. I could have sworn that she had already mostly recovered from her previous injury, but now that I get a closer look I'm beginning to think that she's only pretending to be fine in order to avoid getting us too worried. I really hope that she knows what she's doing.
+ Beside me, Illuna's breath catches on every short stride. Her gait drags, a subtle hitch she tries to bury beneath rigid posture. She was pretending to be recovered to keep Kate from slowing down, but up close, the strain is obvious.
 
-"I'm not sure what that whole 'Brinhorn dispelling technique inventor' thing was about, but come take a look here," Breynan says, as he points at the empty air in front of him. "You see this weird flow that keeps going back and forth? This must be coming from an electricity spell of some kind, but I'm not familiar at all with it."
+"I don't know what she meant by 'Brinhorn method,'" Breynan says, pointing into the empty doorway. "Look at this oscillating current running across the seam. It looks like an electric feedback loop, but the frequency is completely unfamiliar."
 
-"It's not electricity, it's acid," Illuna says. "I recognize it because Arraka has taught me about this spell in the past, back when she was acting as my mentor."
+"That is not lightning," Illuna says. "It is acid. Arraka drilled me on that specific matrix during our training."
 
 }
 #if(v_ch11_saved_rose == 1) {
- "I'm not sure what that whole 'Brinhorn dispelling technique inventor' thing was about, but come take a look here," Breynan says, as he points at the empty air in front of him. "You see this weird flow that keeps going back and forth? This must be coming from an electricity spell of some kind, but I'm not familiar at all with it."
+ "I don't know what she meant by 'Brinhorn method,'" Breynan says, pointing into the empty doorway. "Look at this oscillating current running across the seam. It looks like an electric feedback loop, but the frequency is completely unfamiliar."
 
-"It's not electricity, it's acid," Illuna says. "I recognize it because Arraka has taught me about this spell in the past, back when she was acting as my mentor."
+"That is not lightning," Illuna says. "It is acid. Arraka drilled me on that specific matrix during our training."
 
 }
 choice(""Did she also teach you how to cast it?"", B3-Ch04a-Teach, v_current_scene = B3-Ch04a-Teach)
@@ -541,43 +547,45 @@ TEXT:
 
  "Did she also teach you how to cast it?"
 
-"Yes, you need to put your hands in front of you in the form of an 'X' and then start saying the incantation immediately after you let the flow come out of your fingertips," Illuna says. "Obviously, the movements and the incantation are not absolutely necessary, but they can help you in guiding the magical flow of energy correctly. For example, someone like Arraka, who knows the ins and outs of magic like the back of her hand would not need to move a muscle to cast this spell, but someone like me would never be able to cast it without the hand motions."
+"Yes. You cross your wrists in an X-formation, extending the fingers as the mana vents from the tips, then begin the verbal cipher," Illuna says. "Physical posture and incantations are non-essential for high-tier casters, but they anchor the flow. Arraka can manifest the matrix without twitching a muscle, but an elementalist like me requires somatic guidance to shape the path."
 
-"Hand motions in the form of an 'X'..." I say. "Oh, you mean the advanced version of Zaldrin's acid butterfly? The one that's been added in the fifth edition of the advanced acid spell manual around ten years ago?"
+"Crossed wrists in an X-formation," I say. "You're describing the advanced derivative of Zaldrin's acid butterfly. The variation cataloged in the fifth edition advanced manual ten years ago."
 
-After hearing my last sentence, Breynan and Illuna both simultaneously turn their heads to look at me, not entirely sure how to react.
+Breynan and Illuna both freeze, staring at me.
 
-"What?..." I ask them, as they are both still staring at me. "I've been reading books about magic all my life. I know these sorts of things by heart, already."
+"What?" I shrug. "I've spent ten years reading spell treatises. I know the standard somatic catalogs by heart."
 
-"Yes, I suppose that would make sense," Illuna says. "To answer your question, the spell that was cast on this trap is not Zaldrin's acid butterfly, but it is very similar to it. The only difference that matters in terms of dispelling is that there is a small redirection of the flow which was added to make the spell's effect more potent."
+"I suppose that is consistent," Illuna says. "The matrix in this ward is a direct cousin of the butterfly weave. The only structural difference is a secondary focal loop added to increase corrosive density."
 
- "Well, as long as you know the motions for the original spells, all you need to do is reverse them," I say. "The only problem is that we still need to figure out the order in which these spells were cast..."
+ "As long as you know the standard casting somatic, you can execute the inversion," I tell them. "We just have to untangle the layer sequence."
 
-"You make it sound easy, but you forget that we are not Brinhorn," Illuna says. "The most I ever managed to get out of that 'butterfly' spell is a few drops of acid. Something like that would never be useful in combat."
+"You speak as though this were elementary," Illuna says. "I have never produced more than three drops of acid with that cipher. It is useless in combat."
 
-"It doesn't need to be useful in combat..." I say. "You're only dispelling a trap. Just make sure that you do all your motions correctly, and you'll be fine."
+"We aren't fighting a duel," I say. "We're inverting an anchor. Keep your somatic clean and the mana reverses itself."
 
-"You're only saying all of this because you're not a mage," Breynan says. "You have no idea how hard it is to try and visualize each individual magical particle in your head before you reverse them. It takes an immense amount of concentration to do it even if you're already familiar with the spells."
+"Spoken like someone who has never channeled mana," Breynan scoffs. "Visualizing every distinct magical particle in reverse flow takes immense mental discipline, even on spells you cast daily."
 
-"But you don't need to do any of that if you're already doing the motions!" I say. "The magical particle stuff is just something Brinhorn added as an extra step when he wrote the instructions because he typically prefers to not move his hands much when casting his spells. Look, it's really simple. Just follow my movements and you'll see what I'm talking about."
+"You don't need to visualize particles if you execute the physical somatic," I say. "Brinhorn only added that mental visualization step to his treatises because he hates moving his hands when he casts. Look. It's purely mechanical. Copy my posture."
 
-I then place both my arms in front of me and cross my hands while keeping all of my fingers as far apart from each other as possible, so that I can begin the motions required for the dispelling technique.
+I raise both arms, crossing my forearms at the wrists with fingers splayed wide.
 
- "This is stupid," Breynan says, as he copies my movements while standing beside me, and he extends his arms towards the magic trap as well.
+ "This is ridiculous," Breynan mutters, but he steps up and mirrors the stance toward the ward.
 
-"Okay, now what you need to do is focus only on the movement of your hands," I say. "Don't visualize anything. Just pay close attention to your hands while you channel the magical energy around your fingertips like you normally would when casting the spell. Then make sure that you keep following the hands with your eyes while you move them in reverse, and the flow of magic will change by itself. Are you ready?"
+"Keep your eyes on your hands," I instruct. "Don't overthink the mana. Channel the ambient flow into your fingertips as if you were initiating the cast, then follow your wrists as they pull back along the inverse arc. The matrix will unwind on its own. Ready?"
 
-"Sure, why not?" Breynan says, in an unconvinced tone.
+"If you insist," Breynan says, voice dripping with doubt.
 
-"Okay, then," I say. "We'll do it on the count of three. One. Two. Three!"
+"On three. One. Two. Three."
 
-Breynan and I both uncross our hands at the same time, then we bend our elbows and bring our arms back alongside our bodies to their original position. After he finishes his motions, Breynan just stands there for a few seconds in silence, as if he were still trying to understand what happened.
+We pull our wrists apart in a smooth, synchronized snap, drawing our elbows back to our ribs.
 
-"By the gods, it actually worked..." Breynan says. "I can't believe it! Boy, how did you know about this?"
+Breynan freezes. His hands stay locked at his sides as the shimmering green thread in the doorway unravels into nothing.
 
-"I already told you," I say. "I'm the one who invented the technique."
+"By the gods..." Breynan whispers, staring at his palms. "It collapsed the anchor. How did a non-mage work that out?"
 
-"After showing me this, I might actually be inclined to believe you!" Breynan says. "Alright, everyone stand back. I'll have this trap disarmed in no time."
+"I told you," I say. "I designed the method."
+
+"I'm starting to believe you," Breynan says, a grin breaking across his bearded face. "Everyone step back. I'll have the rest of these layers down in five minutes."
 
 choice("Continue", B3-Ch04a-Contrary, v_current_scene = B3-Ch04a-Contrary)
 
@@ -587,43 +595,45 @@ TEXT:
 
  "What is the name of the spell? Do they teach it in any of the manuals?"
 
-"It is a spell similar to the one they call 'Zaldrin's acid butterfly'," Illuna says. "The two spells are almost identical except for a small redirection of the magic flow in order to make the spell's effects more potent."
+"It is an offshoot of Zaldrin's acid butterfly," Illuna says. "Structurally identical, save for a secondary focal loop added to increase corrosive density."
 
-"Zaldrin's acid butterfly..." I say. "Oh, you mean that spell where you need to put your hands in front of you in the form of an 'X' and then start saying the incantation right after you let the flow come out of your fingertips?"
+"Zaldrin's butterfly," I say. "The one where you cross your wrists in an X-formation, extending the fingers as the mana vents from the tips, then begin the verbal cipher?"
 
-After hearing my last sentence, Breynan and Illuna both simultaneously turn their heads to look at me, not entirely sure how to react.
+Breynan and Illuna both freeze, staring at me.
 
-"What?..." I ask them, as they are both still staring at me. "I've been reading books about magic all my life. I know these sorts of things by heart, already."
+"What?" I shrug. "I've spent ten years reading spell treatises. I know the standard somatic catalogs by heart."
 
-"Yes, I suppose that would make sense," Illuna says. "To answer your question, the hand motions and the incantation are not mandatory, but they can help with guiding the magical flow of energy correctly. For example, someone like Arraka, who knows the ins and outs of magic like the back of her hand would not need to move a muscle to cast this spell, but someone like me would never be able to cast it without the hand motions."
+"I suppose that is consistent," Illuna says. "Physical posture and incantations are non-essential for high-tier casters, but they anchor the flow. Arraka can manifest the matrix without twitching a muscle, but an elementalist like me requires somatic guidance to shape the path."
 
- "Well, as long as you know the motions for the original spells, all you need to do is reverse them," I say. "The only problem is that we still need to figure out the order in which these spells were cast..."
+ "As long as you know the standard casting somatic, you can execute the inversion," I tell them. "We just have to untangle the layer sequence."
 
-"You make it sound easy, but you forget that we are not Brinhorn," Illuna says. "The most I ever managed to get out of that 'butterfly' spell is a few drops of acid. Something like that would never be useful in combat."
+"You speak as though this were elementary," Illuna says. "I have never produced more than three drops of acid with that cipher. It is useless in combat."
 
-"It doesn't need to be useful in combat..." I say. "You're only dispelling a trap. Just make sure that you do all your motions correctly, and you'll be fine."
+"We aren't fighting a duel," I say. "We're inverting an anchor. Keep your somatic clean and the mana reverses itself."
 
-"You're only saying all of this because you're not a mage," Breynan says. "You have no idea how hard it is to try and visualize each individual magical particle in your head before you reverse them. It takes an immense amount of concentration to do it even if you're already familiar with the spells."
+"Spoken like someone who has never channeled mana," Breynan scoffs. "Visualizing every distinct magical particle in reverse flow takes immense mental discipline, even on spells you cast daily."
 
-"But you don't need to do any of that if you're already doing the motions!" I say. "The magical particle stuff is just something Brinhorn added as an extra step when he wrote the instructions because he typically prefers to not move his hands much when casting his spells. Look, it's really simple. Just follow my movements and you'll see what I'm talking about."
+"You don't need to visualize particles if you execute the physical somatic," I say. "Brinhorn only added that mental visualization step to his treatises because he hates moving his hands when he casts. Look. It's purely mechanical. Copy my posture."
 
-I then place both my arms in front of me and cross my hands while keeping all of my fingers as far apart from each other as possible, so that I can begin the motions required for the dispelling technique.
+I raise both arms, crossing my forearms at the wrists with fingers splayed wide.
 
- "This is stupid," Breynan says, as he copies my movements while standing beside me, and he extends his arms towards the magic trap as well.
+ "This is ridiculous," Breynan mutters, but he steps up and mirrors the stance toward the ward.
 
-"Okay, now what you need to do is focus only on the movement of your hands," I say. "Don't visualize anything. Just pay close attention to your hands while you channel the magical energy around your fingertips like you normally would when casting the spell. Then make sure that you keep following the hands with your eyes while you move them in reverse, and the flow of magic will change by itself. Are you ready?"
+"Keep your eyes on your hands," I instruct. "Don't overthink the mana. Channel the ambient flow into your fingertips as if you were initiating the cast, then follow your wrists as they pull back along the inverse arc. The matrix will unwind on its own. Ready?"
 
-"Sure, why not?" Breynan says, in an unconvinced tone.
+"If you insist," Breynan says, voice dripping with doubt.
 
-"Okay, then," I say. "We'll do it on the count of three. One. Two. Three!"
+"On three. One. Two. Three."
 
-Breynan and I both uncross our hands at the same time, then we bend our elbows and bring our arms back alongside our bodies to their original position. After he finishes his motions, Breynan just stands there for a few seconds in silence, as if he were still trying to understand what happened.
+We pull our wrists apart in a smooth, synchronized snap, drawing our elbows back to our ribs.
 
-"By the gods, it actually worked..." Breynan says. "I can't believe it! Boy, how did you know about this?"
+Breynan freezes. His hands stay locked at his sides as the shimmering green thread in the doorway unravels into nothing.
 
-"I already told you," I say. "I'm the one who invented the technique."
+"By the gods..." Breynan whispers, staring at his palms. "It collapsed the anchor. How did a non-mage work that out?"
 
-"After showing me this, I might actually be inclined to believe you!" Breynan says. "Alright, everyone stand back. I'll have this trap disarmed in no time."
+"I told you," I say. "I designed the method."
+
+"I'm starting to believe you," Breynan says, a grin breaking across his bearded face. "Everyone step back. I'll have the rest of these layers down in five minutes."
 
 choice("Continue", B3-Ch04a-Contrary, v_current_scene = B3-Ch04a-Contrary)
 
@@ -631,27 +641,27 @@ choice("Continue", B3-Ch04a-Contrary, v_current_scene = B3-Ch04a-Contrary)
 ID: B3-Ch04a-Contrary
 TEXT:
 
- Contrary to Breynan's estimations, it took us quite a bit more than 'no time' to finally be done with the trap in front of us. After Illuna and I taught Breynan the correct incantation for the acid spell, we also had to figure out in which order he needed to cast the other spells, which was by no means an easy task.
+ Breynan's five minutes turn into nearly an hour of grueling trial and error. Once Illuna and I teach him the verbal cadence for the acid trigger, we still have to sequence the remaining elemental layers, unraveling each thread before the next anchor collapses.
 
-All in all, we had to spend about an hour just with this one trap, and then when we finally thought we were done, we stumbled across a way more complex magical trap not much further down the same corridor. Unfortunately, it didn't take us long to realize that the methods we used for the previous trap would no longer be effective on this one. The spells required here were simply too complex for Breynan to be able to handle on his own. However, if he were to cooperate with Illuna while using my multi-step dispelling technique, we would be faced with a whole new set of problems.
+When the threshold finally clears, we push down the corridor only to run straight into a far more intricate array. The weave here is packed with interlocking nodes. The single-caster method won't work—the layers are too fast and complex for Breynan to hold alone. But running the multi-step inversion with two casters introduces a lethal set of variables.
 
- "Listen," I tell Breynan and Illuna, "this technique is relatively safe when used by only one person, but if two people were to cooperate, it would get much more risky. If you guys don't synchronize your flows perfectly, you could risk triggering the trap and blowing us all to bits. There has to be some other way to deal with this."
+ "Listen," I tell Breynan and Illuna, "the technique is predictable when one person drives it. With two people in the loop, the risk multiplies. If your flows fall out of rhythm for even half a second, the whole array detonates. We need another way through."
 
-"Breynan cannot disarm this trap on his own and neither can I," Illuna says. "Our only option is to work together, despite the risks."
+"Breynan cannot hold the matrix alone and neither can I," Illuna says. "We either coordinate the casting or turn back."
 
-"What if you tried to wake up Flower?" I say. "This trap is made up mostly of fire spells, so it should be right up her alley."
+"What about waking Flower?" I suggest. "The core of this construct is fire magic. That's her native element."
 
-"Waking up Flower would be... a bad idea," Illuna says.
+"Waking Flower is... ill-advised," Illuna says.
 
-"Why?" I say. "Because you two are still fighting?"
+"Why? Because of your argument?"
 
-"We are not fighting," Illuna says, stubbornly.
+"We are not having an argument," Illuna says stiffly.
 
-"Yes, you are," I say. "Flower is still calling you 'Illuna' instead of 'Petal', and she's always talking in that overly-serious tone, trying to imitate Kate's way of speaking."
+"You are," I say. "She's calling you 'Illuna' instead of 'Petal,' and she's walking around with her chin in the air, trying to talk like Kate."
 
-"I don't... speak like that," Kate says in a low voice, looking slightly embarrassed.
+"I don't... talk like that," Kate mutters, glancing away in embarrassment.
 
-"Anyway," I say to Illuna, "you need to make up with her already. Just tell her that you're sorry and move on."
+"Regardless," I tell Illuna, "you two need to settle it. Apologize and move on."
 
 choice("Continue", B3-Ch04a-Apologize, v_current_scene = B3-Ch04a-Apologize)
 
@@ -659,35 +669,31 @@ choice("Continue", B3-Ch04a-Apologize, v_current_scene = B3-Ch04a-Apologize)
 ID: B3-Ch04a-Apologize
 TEXT:
 
- "I'm not going to apologize," Illuna says. "She's the one who started it."
+ "I will not apologize," Illuna says. "She provoked the dispute."
 
-"But you're the one who told her that she should act more maturely!" I say.
+"You told her she needs to act like an adult!"
 
-"I said no such thing," Illuna says.
+"I did not," Illuna counters.
 
-"Yes you did!" I say. "You said exactly that!"
+"You said those exact words!"
 
-"What I said was that if she were to act more maturely, people might be more willing to treat her as an adult," Illuna says.
+"I told her that if she conducted herself with maturity, outsiders might treat her according to her chronological age," Illuna says coldly. "I did not demand that she alter her nature. Why would she need to change? She is entirely acceptable as she is."
 
-"Isn't that the same thing as what I said?..." I ask her, confused.
+"So you don't actually care if she acts like a child? You're fine with her normal self?"
 
-"No, it isn't," Illuna says. "I only told her this because she was so insistent on being treated like a twenty-nine year old. I never said that she should actually change her behavior. Why would she need to change? She is perfectly fine the way she is."
+"Of course I am," Illuna snaps. "Why would anyone assume otherwise?"
 
-"So you're saying that you don't actually have a problem with Flower's usual childish demeanor?" I tell her. "You don't want her to act more grown up?"
+ "Because when you lecture her on maturity, it sounds like an accusation," I say.
 
-"Of course I don't," Illuna says. "Why would anyone think that?"
+"Absurd," Illuna says. "I never used the word 'accusation.'"
 
- "Uhh..." I say. "Well, I hate to break it to you, but when you said those things to Flower about needing to act more maturely, it definitely did sound like you had a problem with her usual behavior."
+"It isn't about the vocabulary," I say. "It's the sharp edge in your voice. Look, never mind. I'll sort it out with Flower later. Right now we need her fire casting. Can you set the feud aside for ten minutes and work with her?"
 
-"That is absurd," Illuna says. "I never even used the word 'problem' when I was talking to her."
+"I told you," Illuna says. "I will not wake her."
 
-"Yeah, but it's not just about the words you use," I say. "It's also about the way you say those words, and the tone of your voice, and-- okay, you know what? Never mind. I'll see if I can talk to Flower about this whole thing later. But right now, we could really use her help. Can't you just forget about your little feud with her for a moment and cooperate with her only for a bit?"
+"Over a bruised ego?"
 
-"I already told you," Illuna says. "I am not going to wake Flower up."
-
-"Really?" I say. "Just because you're having a little argument with her?"
-
-"It's not because of the argument," Illuna says. "Flower's way of casting magic is different from most other mages. She casts the majority of her spells instinctively, due to the fact that she is an ethereal. You base your assumption of the trap not getting accidentally triggered on the fact that people generally keep their flow stable when they cast these types of spells, but that is not the case for Flower. If we're going to risk triggering the trap either way, then I'd rather take my chances with Breynan."
+"Not over an ego," Illuna says, her tone hardening. "Flower does not cast through formal theory. She is an ethereal; her magic is purely instinctive. Your dispelling method assumes a stable, measured flow. Flower's channels fluctuate with her emotions. If we are risking detonation regardless, I would rather take my chances with Breynan."
 
 choice("Give up and let Illuna cooperate with Breynan to disarm the trap", B3-Ch04a-Cooperate, v_current_scene = B3-Ch04a-Cooperate, v_b3_ch4_insist = 0)
 choice("Keep insisting on convincing Illuna to wake Flower up", B3-Ch04a-Insist, v_current_scene = B3-Ch04a-Insist, v_b3_ch4_insist = 1)
@@ -697,35 +703,33 @@ ID: B3-Ch04a-Insist
 TEXT:
 
 #if(v_ch11_saved_rose == 0) {
- "Even if she casts spells instinctively, I still think it will be less risky than if two of you use the dispelling technique at the same time," I say. "Look, if anything bad happens while she's doing the dispelling, I'll tell her to stop. I'll make sure to monitor the trap's aura closely so that there are no dangerous fluctuations. And if you don't feel like talking to Flower, it's fine. I can teach her all of the motions and incantations myself. You won't have to interact with her at all if you don't want to."
+ "Even with instinctive casting, one elementalist in her native element is safer than two people trying to synchronize an unfamiliar technique," I say. "I'll stand beside her and monitor the flow. If the anchor destabilizes, I'll call a halt. And you don't have to talk to her. I'll walk her through the physical movements myself."
 
-"Really?" Illuna says, while raising an eyebrow. "You'll teach her the motions yourself? With no help from me whatsoever?"
+"Truly?" Illuna raises a skeptical brow. "You will instruct an ethereal through somatic inversions without my input?"
 
-"Yeah, sure," I say. "How hard can it be?"
+"How hard can it be?"
 
-"Very well, then," Illuna says. "In that case, I will wake her up. She will be with you shortly."
+"Very well," Illuna says. "I will yield the frame."
 
-After a few seconds of silence, the blue light in Illuna's eyes disappears, and Flower's eyes regain their natural green color.
+The bright blue light in her irises dims, fading to a warm, natural green.
 
-"Okay, I'm up, I'm up..." Flower says in a sleepy voice. "What's going on-- Whoa!"
+"I'm awake, I'm awake..." Flower's voice starts as a sleepy mumble, then she staggers. Her knees buckle, and she grabs the rock wall to keep from dropping.
 
-While she was talking, Flower suddenly looked like she was about to faint and fall to the ground, but she managed to regain her balance at the last second.
-
-"Illuna, how did you manage to get hurt this badly?" Flower asks, shocked. "I can barely even stand up! And how did we get here?... This doesn't look like the rebel base at all!"
+"Illuna, how are you hurt this badly?" Flower gasps, clutching her chest. "I can barely stay on my feet! And where are we?... This isn't the base!"
 
 }
 #if(v_ch11_saved_rose == 1) {
- "Even if she casts spells instinctively, I still think it will be less risky than if two of you use the dispelling technique at the same time," I say. "Look, if anything bad happens while she's doing the dispelling, I'll tell her to stop. I'll make sure to monitor the trap's aura closely so that there are no dangerous fluctuations. And if you don't feel like talking to Flower, it's fine. I can teach her all of the motions and incantations myself. You won't have to interact with her at all if you don't want to."
+ "Even with instinctive casting, one elementalist in her native element is safer than two people trying to synchronize an unfamiliar technique," I say. "I'll stand beside her and monitor the flow. If the anchor destabilizes, I'll call a halt. And you don't have to talk to her. I'll walk her through the physical movements myself."
 
-"Really?" Illuna says, while raising an eyebrow. "You'll teach her the motions yourself? With no help from me whatsoever?"
+"Truly?" Illuna raises a skeptical brow. "You will instruct an ethereal through somatic inversions without my input?"
 
-"Yeah, sure," I say. "How hard can it be?"
+"How hard can it be?"
 
-"Very well, then," Illuna says. "In that case, I will wake her up. She will be with you shortly."
+"Very well," Illuna says. "I will yield the frame."
 
-After a few seconds of silence, the blue light in Illuna's eyes disappears, and Flower's eyes regain their natural green color.
+The bright blue light in her irises dims, fading to a warm, natural green.
 
-"Okay, I'm up, I'm up..." Flower says in a sleepy voice. "What's going on-- wait what is this place? I don't recognize it at all! When did we get out of the rebel base?"
+"I'm awake, I'm awake..." Flower mumbles, rubbing her eyes. "What's going on—wait, where are we? This doesn't look like the cellars at all! When did we leave the base?"
 
 }
  "Flower, we'll explain the situation to you later," I say. "For now, we need you to help us disarm this trap. It is made only of fire spells, so you should be able to do the dispelling naturally as long as you simply copy my movements and say the correct incantations. Can you help us?"
@@ -784,17 +788,17 @@ TEXT:
 
 "Hahaha, that's right!" Flower says, while laughing very nervously. "We ARE facing in the same direction. Silly me! Hahaha!"
 
-"Flower, you are being too tense," Illuna says all of a sudden, as her eyes turn bright blue. "Remember your breathing exercises."
+"Flower, you are locking your diaphragm," Illuna's voice cuts in as the bright blue flare returns to her eyes. "Four counts in, hold for two, release for four."
 
-"Petal!" Flower says, with a sound of great relief in her voice. "I mean, Illuna! Yes, you're right, I forgot about the breathing. I'll do that right now!"
+"Petal!" Flower's voice floods with relief. "I mean—Illuna! Yes, the breathing. Doing it now."
 
-After hearing Illuna, Flower almost immediately calms down and then she begins to breathe deeply and slowly with her eyes closed. A few seconds of breathing exercises later, Flower opens her eyes again, looking completely relaxed.
+The blue recedes. Flower closes her eyes, drawing a long, measured breath through her nose. Her shoulders drop; the frantic tremor in her fingers settles. After two more cycles, she opens calm green eyes and snaps off a crisp salute.
 
-"Okay, I'm ready to begin again!" Flower says, as she gives me a military salute. "Awaiting your orders, captain!"
+"Ready for orders, captain!"
 
-"That's amazing!" I say. "She calmed down in an instant. Illuna, how did you do this?"
+"Incredible," I mutter. "She reset in five seconds. Illuna, how did you do that?"
 
-"Flower has always been very bad at following instructions when feeling under pressure," Illuna says. "I usually help calm her down in these situations by having her focus on my voice inside her mind, but you said that you didn't want any help from me, so I stayed silent this time around."
+"Flower has always struggled with direct instruction under stress," Illuna says as the blue resurfaces for a moment. "I guide her pacing from within her thoughts. You insisted on handling the coaching alone, so I remained quiet."
 
  "I was really starting to panic when Illuna wouldn't say anything," Flower says. "I didn't realize that you two had a discussion about this before I woke up."
 
@@ -804,23 +808,23 @@ After hearing Illuna, Flower almost immediately calms down and then she begins t
 
 "Wow, I did not realize that you two were so dependent on each other," I say. "Sorry about that. I guess I shouldn't have insisted on teaching Flower the spells by myself."
 
-"Oh, right, the spell!" Flower says, and then she begins to execute the movements that she learned from me in a flawless manner.
+"Oh, right, the spell!" Flower says, and she executes the movements that she learned from me with fluid grace.
 
-"Alright, so it was bent knees, left arm front, right elbow bent, then rotate the left arm and right elbow and... hey, wait a minute!" Flower says. "I recognize these movements! These are the same motions that I needed for an old spell of mine, except in reverse! So, if I'm not mistaken, the next moves should be something like this..."
+"Alright, so it was bent knees, left arm front, right elbow bent, then rotate the left arm and right elbow and... wait a second!" Flower pauses, eyes widening. "I recognize these movements! These are the same motions that I needed for an old spell of mine, except in reverse! So, if I'm not mistaken, the next moves should be something like this..."
 
- She then begins to recreate the exact movements needed for the spell I was about to teach her, without making even a single mistake. Once she's done, she looks at me for a confirmation.
+She sweeps her hands through the exact movements needed for the spell I was about to teach her, without making a single mistake. Once she finishes, she looks to me for confirmation.
  
-"Was that the spell you were trying to teach me?" Flower says.
+"Was that the spell you were trying to teach me?" Flower asks.
 
-"Uhm, yeah, it was exactly that," I say.
+"That was exactly the matrix," I say.
 
-"Oh, I haven't been using movements to cast this spell in over ten years..." Flower says. "I just do it by controlling the flow of energy nowadays. But I'm surprised that you know one of my spells, Barry! I never wrote about it anywhere."
+"I haven't used physical movements to cast this spell in over ten years," Flower says. "I just shape the flow of energy with my mind nowadays. But I'm surprised that you know one of my spells, Barry! I never wrote about it anywhere."
 
-"Flower, I already told you," Illuna says. "This spell was first invented long before you were born. You just discovered it instinctively due to your ethereal nature. Anyway, I'll take it from here. I believe Flower should already know most of the spells required for this trap except maybe one or two. It will be faster if I just tell her which spells to use in reverse, than if you teach her the moves from scratch."
+"Flower, I already told you," Illuna says. "This spell was first invented long before you were born. You just discovered it instinctively due to your ethereal nature. Regardless, I'll take it from here. Flower should already know most of the spells required for this trap except maybe one or two. It will be faster if I just tell her which spells to use in reverse, than if you teach her the moves from scratch."
 
-"Right, right..." I say. "Go ahead, then."
+"Right, right," I say. "Go ahead, then."
 
-Just like Illuna said, it didn't take long for Flower to learn the rest of the spells and to start disarming the trap. Once she began the dispelling technique, I moved closer to her so that I could see if there were any fluctuations in the trap's aura that might have led to it getting triggered, but fortunately, despite Illuna's worries, Flower managed to keep control of her magic flow until the end. Once she was done, the energy radiating from the trap slowly disappeared, indicating that the trap had been successfully disarmed.
+With Illuna feeding the inverse sequence to Flower's mind, Flower moves through the layers with effortless rhythm. I stay near the threshold, tracking the ward's aura for erratic spikes, but Flower keeps control of her flow until the end. As the final somatic concludes, the heat radiating from the doorway dissolves into cool cavern air.
 
 choice("Continue", B3-Ch04a-Glimpse, v_current_scene = B3-Ch04a-Glimpse)
 
@@ -872,31 +876,35 @@ set(v_is_dead,0) if (v_magical_sense >= 3)
 #if(v_magical_sense < 3) {
  
 
-For the first few spells, everything goes smoothly. Both Illuna and Breynan are executing their movements perfectly, and the trap is reacting exactly how it should. As they keep casting their spells, however, I can't help but feel that something is wrong. But how can that be? They are not making any mistakes. Their movements are all flawless. Surely it must all be my imagination.
+For the first few spells, everything goes smoothly. Both Illuna and Breynan are executing their movements perfectly, and the trap is reacting exactly how it should. As they reach the final seal, an unseen dissonance builds between their channels.
 
-Everything keeps going as planned until the very last spell. Unfortunately, just as Illuna and Breynan are about to finish their dispelling, the trap somehow gets triggered and the explosion coming from it envelops us all, killing us in a matter of seconds.
+Before either caster can correct the flow, the core of the ward destabilizes.
+
+The threshold detonates in a blinding white flash that swallows the corridor whole.
 
 }
 #if(v_magical_sense >= 3) {
  
 
-For the first few spells, everything goes smoothly. Both Illuna and Breynan are executing their movements perfectly, and the trap is reacting exactly how it should. As they keep casting their spells, however, I can't help but feel that something is wrong. But how can that be? They are not making any mistakes. Their movements are all flawless. Surely it must all be my imagination.
+For the first few spells, everything goes smoothly. Both Illuna and Breynan are executing their movements perfectly, and the trap is reacting exactly how it should. As they approach the deeper core, an underlying vibration ripples through the ward's field.
 
-All of a sudden, I notice a very subtle trembling in the aura of the magical trap. I probably wouldn't have noticed this if I hadn't invested any points in my magical sense, but I'm pretty sure that the trap shouldn't be behaving like that while it's being dispelled. If I let things go on like this, they may well trigger the trap without realizing it. I need to stop them.
+My magical sense picks up the micro-tremor along the boundary seam—a microscopic desynchronization between their flow rates. If they proceed to the final seal at this tempo, the mismatch will trigger the fail-safe.
 
-"Stop the dispelling!" I shout at Illuna and Breynan. "Something is wrong!"
+"Halt the inversion!" I shout. "Break the channel!"
 
-"What do you mean?" Illuna says, as both her and Breynan cancel their technique and the trap's aura stabilizes once again. "Everything was going smoothly. There were no fluctuations in the trap's aura that I could see."
+Illuna and Breynan instantly drop their hands, grounding their mana as the ward's field settles back into static tension.
 
- "There was a very subtle trembling in the aura that I could detect thanks to my magical sense stat," I say. "I don't think your two flows were synchronized enough. You should try slowing down your movements when you're doing the dispelling. That should help with your focus."
+"What did you see?" Illuna asks, her brow knit. "The exterior anchors were collapsing cleanly."
 
-"Slow down the movements?..." Breynan says. "But the motions need to be done at a certain speed in order for the spells to have any effect!"
+ "A micro-tremor in the boundary seam," I say. "Your flow rates are drifting apart. You're executing the somatic too fast for two unbonded casters. Cut your tempo in half so your channels have time to align."
 
-"Again, it doesn't matter if your spells wouldn't normally have an effect, since you're only dispelling a trap," I say. "The motions will still be correct even if you perform them at a slower pace. Try doing what I said and you'll see what I mean."
+"Cut the tempo?" Breynan frowns. "A spell requires specific velocity to manifest!"
 
-"Very well," Illuna says. "Let us start over, then."
+"This is an inversion, not an offensive cast," I say. "The matrix doesn't care about velocity, only directional alignment. Slow down and let the mana stabilize."
 
-Breynan and Illuna begin dispelling the trap once more, at a much slower pace. I make sure to study the trap's aura very closely while they're doing the casting, but I'm not seeing any trembling this time around. Eventually, they manage to reach the very last spell without any problems and the magical energy radiating from the trap slowly disappears, indicating that the trap has been successfully disarmed.
+"Understood," Illuna says. "We reset."
+
+They begin the sequence again at half speed. With my magical sense tracking the boundary seam, the flow remains glass-smooth. The final thread uncoils without a trace of vibration, and the glowing ward fades from the stone doorway.
 
 }
 choice("Restart game", Ch1-Intro1, v_current_scene = Ch1-Intro1, special:restart) if (v_magical_sense < 3)
@@ -908,19 +916,19 @@ choice("Continue", B3-Ch04a-Glimpse, v_current_scene = B3-Ch04a-Glimpse) if (v_m
 ID: B3-Ch04a-Glimpse
 TEXT:
 
- "Finally!" Melindra says. "Now let's get going. I think I may have a pretty good idea of where we can find an exit that leads to the surface."
+ "Finally," Melindra says. "Now let's pick up the pace. I have a lead on an exit to the surface."
 
-"What makes you say that?" Kate asks, as we all begin walking again.
+"What makes you say that?" Kate asks as we resume our march.
 
-"Shortly before we reached this trap earlier, I caught a glimpse of a person that somehow went right through one of the seredium walls and then disappeared without a trace," Melindra says. "I could barely make out this person's aura due to all of the walls between us and him, but I'm willing to bet that he used some secret corridor to get out of here. There are no traps or enemies between us and that place, so we can go directly to investigate!"
+"Right before we reached the fire ward, I picked up a figure stepping straight through a seredium bulkhead and vanishing," Melindra says. "The signature was heavily muffled by the stone density, but there has to be a concealed passage cut into the seam. The corridor ahead is clear of traps. We can check it directly."
 
-"There was somebody else here in these tunnels aside from us?..." Kate asks. "Why didn't you tell us about this sooner?"
+"There was somebody else here in these tunnels?" Kate asks, hand falling to her hip. "Why didn't you tell us sooner?"
 
-"Well, I didn't really want to get anyone too distracted while the trap was still active," Melindra says, "because it's better to keep a calm and focused mind when you're trying to dispel a magical trap. I figured it was something that could wait, given that we were never in any immediate danger."
+"Because you were in the middle of dismantling an explosive matrix," Melindra says dryly. "Dispelling requires concentration. Flagging an unconfirmed shadow when there was no immediate threat would have just gotten everyone jumpy."
 
-"Has this person returned since he disappeared through that wall?" Kate asks.
+"Did the figure return through the wall?" Kate asks.
 
-"No," Melindra says. "He never came back, and I haven't sensed any other people in these corridors aside from him and us."
+"No," Melindra says. "The passage stayed cold. I haven't picked up any other movement."
 
 choice(""What makes you think that this secret corridor will lead us to the surface?"", B3-Ch04a-Surface, v_current_scene = B3-Ch04a-Surface)
 choice(""Do you think it's possible that this person detected us and went to get reinforcements?"", B3-Ch04a-Reinforcements, v_current_scene = B3-Ch04a-Reinforcements)
@@ -932,29 +940,29 @@ TEXT:
 
  "What makes you think that this secret corridor will lead us to the surface?"
 
-"Obviously, I have no guarantee that it will help us reach the city streets," Melindra says. "But having any sort of lead is still better than just wandering around aimlessly, don't you think?"
+"There's no guarantee it opens onto the street," Melindra says. "A concealed stairwell is still better than wandering blind through dead-end tunnels."
 
-"I suppose..." I say. "
+"Fair enough," I say.
 
-"You were saying earlier that you could barely sense this person's aura..." Leila writes. "Is there any possibility that this was someone we already met? Like for example, one of the royal guards?" 
+"You said the signature was muffled..." Leila's glowing blue letters form between us. "Could it belong to someone we've already crossed? One of the royal guard commanders?"
 
-"Hmm, now that you mention it, the aura did seem familiar," Melindra says. "I guess it could have been one of the royal guards, but I'm not very sure."
+"The resonance felt familiar," Melindra admits, tapping her chin. "It could have been a guard officer, but reading through seredium is imprecise."
 
-"If by any chance that was Gontrok or the captain of the guards, we will be in for one hell of a fight..." Breynan says.
+"If Gontrok or the guard captain is on the other side of that seam, we're walking into a slaughter," Breynan mutters.
 
-"Only if they're still there, waiting for us," Melindra says. "And I would find that very unlikely. If someone as powerful as them knew we were coming, they would have no need to hide."
+"Only if they're waiting in ambush," Melindra says. "A fighter of that caliber doesn't bother hiding if he knows where we are."
 
-"Yes, you do have a point," Breynan says.
+"Point taken," Breynan concedes.
 
-"Let's try to pick up the pace a bit," Melindra says. "I wouldn't want your friends at the rebel base to start sending out search parties to look for us because we've been missing for too long."  
+"Step it up, then," Melindra says. "The base will start dispatching search parties if we stay missing much longer."
 
- We all follow Melindra for around ten more minutes or so through the maze-like corridors, until she suddenly stops in front of an empty black cavern wall and she begins to study it closely. We quickly realize that this was the secret door she was talking about earlier, so we approach the area as well and try to look for clues that might help us open the hidden passage.
+We trail Melindra for ten minutes through the winding dark until she pulls up before a seamless slab of black rock. She runs her fingers across the damp stone, searching for the seam.
 
-"Step aside," Illuna tells us. "I've seen Fyron opening secret underground tunnel doors more than enough times to know that you're doing it all wrong. Let me see if I can remember how he does it..."
+"Clear the way," Illuna says, stepping past us. "I watched Fyron trigger seredium bypasses dozens of times. You're searching blind."
 
-She then goes near the black cavern wall and she knocks on it two times, while directing some of her magical energy into its seredium surface. Reacting to her touch, the wall slowly retracts inside the tunnel behind it, and then it slides to the side, leaving enough space for several people to enter the secret corridor at once. As Melindra has guessed, the passageway leads directly to a set of stairs made of stone, which are heading in an upwards direction, presumably towards the surface.
+She steps up to the slab, channels a precise pulse of mana into the stone, and delivers two measured raps against the center. The seredium grinds back an inch, then glides smoothly into the recessed wall, revealing a stone stairwell cutting upward through the rock.
 
-"Nicely done!" Melindra says. "Let's see where this leads, then."
+"Not bad," Melindra smirks. "Let's see where it goes."
 
 choice("Continue", B3-Ch04a-Crystals, v_current_scene = B3-Ch04a-Crystals)
 
@@ -964,27 +972,27 @@ TEXT:
 
  "Do you think it's possible that this person detected us and went to get reinforcements?"
 
-"I highly doubt that," Melindra says. "If even I had trouble sensing his aura through all these seredium walls, I don't see how he could have possibly detected us from that far away."
+"Highly doubtful," Melindra says. "If I could barely register his presence through three layers of seredium, he wasn't picking us up from that distance."
 
-"You were saying earlier that you could barely sense this person's aura..." Leila writes. "Is there any possibility that this was someone we already met? Like for example, one of the royal guards?" 
+"You said the signature was muffled..." Leila's glowing blue letters form between us. "Could it belong to someone we've already crossed? One of the royal guard commanders?"
 
-"Hmm, now that you mention it, the aura did seem familiar," Melindra says. "I guess it could have been one of the royal guards, but I'm not very sure."
+"The resonance felt familiar," Melindra admits, tapping her chin. "It could have been a guard officer, but reading through seredium is imprecise."
 
-"If by any chance that was Gontrok or the captain of the guards, we will be in for one hell of a fight..." Breynan says.
+"If Gontrok or the guard captain is on the other side of that seam, we're walking into a slaughter," Breynan mutters.
 
-"Only if they're still there, waiting for us," Melindra says. "And I would find that very unlikely. If someone as powerful as them knew we were coming, they would have no need to hide."
+"Only if they're waiting in ambush," Melindra says. "A fighter of that caliber doesn't bother hiding if he knows where we are."
 
-"Yes, you do have a point," Breynan says.
+"Point taken," Breynan concedes.
 
-"Let's try to pick up the pace a bit," Melindra says. "I wouldn't want your friends at the rebel base to start sending out search parties to look for us because we've been missing for too long."  
+"Step it up, then," Melindra says. "The base will start dispatching search parties if we stay missing much longer."
 
- We all follow Melindra for around ten more minutes or so through the maze-like corridors, until she suddenly stops in front of an empty black cavern wall and she begins to study it closely. We quickly realize that this was the secret door she was talking about earlier, so we approach the area as well and try to look for clues that might help us open the hidden passage.
+We trail Melindra for ten minutes through the winding dark until she pulls up before a seamless slab of black rock. She runs her fingers across the damp stone, searching for the seam.
 
-"Step aside," Illuna tells us. "I've seen Fyron opening secret underground tunnel doors more than enough times to know that you're doing it all wrong. Let me see if I can remember how he does it..."
+"Clear the way," Illuna says, stepping past us. "I watched Fyron trigger seredium bypasses dozens of times. You're searching blind."
 
-She then goes near the black cavern wall and she knocks on it two times, while directing some of her magical energy into its seredium surface. Reacting to her touch, the wall slowly retracts inside the tunnel behind it, and then it slides to the side, leaving enough space for several people to enter the secret corridor at once. As Melindra has guessed, the passageway leads directly to a set of stairs made of stone, which are heading in an upwards direction, presumably towards the surface.
+She steps up to the slab, channels a precise pulse of mana into the stone, and delivers two measured raps against the center. The seredium grinds back an inch, then glides smoothly into the recessed wall, revealing a stone stairwell cutting upward through the rock.
 
-"Nicely done!" Melindra says. "Let's see where this leads, then."
+"Not bad," Melindra smirks. "Let's see where it goes."
 
 choice("Continue", B3-Ch04a-Crystals, v_current_scene = B3-Ch04a-Crystals)
 
@@ -994,27 +1002,27 @@ TEXT:
 
  "Was this person a mage? What do you think they were doing down here?"
 
-"Yes, it was a mage," Melindra says. "My guess is that he was just finishing a regular inspection of the magical traps and he was going back home for the night. Of course, there's no way to know that for certain."
+"He was a caster," Melindra says. "Probably running a routine inspection on the ward grid before heading off shift. We won't know until we reach the other side."
 
-"You were saying earlier that you could barely sense this person's aura..." Leila writes. "Is there any possibility that this was someone we already met? Like for example, one of the royal guards?" 
+"You said the signature was muffled..." Leila's glowing blue letters form between us. "Could it belong to someone we've already crossed? One of the royal guard commanders?"
 
-"Hmm, now that you mention it, the aura did seem familiar," Melindra says. "I guess it could have been one of the royal guards, but I'm not very sure."
+"The resonance felt familiar," Melindra admits, tapping her chin. "It could have been a guard officer, but reading through seredium is imprecise."
 
-"If by any chance that was Gontrok or the captain of the guards, we will be in for one hell of a fight..." Breynan says.
+"If Gontrok or the guard captain is on the other side of that seam, we're walking into a slaughter," Breynan mutters.
 
-"Only if they're still there, waiting for us," Melindra says. "And I would find that very unlikely. If someone as powerful as them knew we were coming, they would have no need to hide."
+"Only if they're waiting in ambush," Melindra says. "A fighter of that caliber doesn't bother hiding if he knows where we are."
 
-"Yes, you do have a point," Breynan says.
+"Point taken," Breynan concedes.
 
-"Let's try to pick up the pace a bit," Melindra says. "I wouldn't want your friends at the rebel base to start sending out search parties to look for us because we've been missing for too long."  
+"Step it up, then," Melindra says. "The base will start dispatching search parties if we stay missing much longer."
 
- We all follow Melindra for around ten more minutes or so through the maze-like corridors, until she suddenly stops in front of an empty black cavern wall and she begins to study it closely. We quickly realize that this was the secret door she was talking about earlier, so we approach the area as well and try to look for clues that might help us open the hidden passage.
+We trail Melindra for ten minutes through the winding dark until she pulls up before a seamless slab of black rock. She runs her fingers across the damp stone, searching for the seam.
 
-"Step aside," Illuna tells us. "I've seen Fyron opening secret underground tunnel doors more than enough times to know that you're doing it all wrong. Let me see if I can remember how he does it..."
+"Clear the way," Illuna says, stepping past us. "I watched Fyron trigger seredium bypasses dozens of times. You're searching blind."
 
-She then goes near the black cavern wall and she knocks on it two times, while directing some of her magical energy into its seredium surface. Reacting to her touch, the wall slowly retracts inside the tunnel behind it, and then it slides to the side, leaving enough space for several people to enter the secret corridor at once. As Melindra has guessed, the passageway leads directly to a set of stairs made of stone, which are heading in an upwards direction, presumably towards the surface.
+She steps up to the slab, channels a precise pulse of mana into the stone, and delivers two measured raps against the center. The seredium grinds back an inch, then glides smoothly into the recessed wall, revealing a stone stairwell cutting upward through the rock.
 
-"Nicely done!" Melindra says. "Let's see where this leads, then."
+"Not bad," Melindra smirks. "Let's see where it goes."
 
 choice("Continue", B3-Ch04a-Crystals, v_current_scene = B3-Ch04a-Crystals)
 
@@ -1023,48 +1031,58 @@ ID: B3-Ch04a-Crystals
 TEXT:
 
 #if(v_b3_ch4_insist == 0) {
- "Should we not be waking up Flower before we go in?" Kate says. "If we run into an ambush on our way out, we're going to need all the help we can get."
+ "Should we wake Flower before we ascend?" Kate asks. "If there's a garrison at the top, we need every active front we have."
 
-"Perhaps you are right," Illuna says. "...Very well, I'll wake her up. She will be with you shortly."
+"Perhaps," Illuna concedes. "I will yield."
 
-After a few seconds of silence, the blue light in Illuna's eyes disappears, and Flower's eyes regain their natural green color.
+The blue light fades from her eyes, replaced by Flower's clear green gaze.
 
-"Okay, I'm up, I'm up..." Flower says in a sleepy voice. "What's going on-- wait what is this place? I don't recognize it at all! When did we get out of the rebel base?"
+"I'm awake, I'm awake..." Flower rubs her eyelids, blinking at the dark stone. "What's going on—where are we? This isn't the base!"
 
-"Uh, we're kind of in a bit of a hurry right now," I say. "We'll explain all the details when we get out of here. The short version is that we went outside but when we tried heading back, the teleportation went wrong so we got stuck in these empty underground tunnels that we've never seen before. We think that this secret tunnel in front of us may lead to the surface, but there could also be enemies waiting for us at the end of it, so we need to be prepared for anything."
+"Quick version," I whisper as we step onto the first riser. "We took a bad teleport into an uncharted tunnel network. This stairwell might lead to street level, but we could walk straight into a patrol at the top. Stay sharp."
 
-"Got it!" Flower says. "Okay, I'm ready. Let's go!"
+"Got it," Flower says, nodding firmly. "I'm ready."
 
-Once we are all inside the hidden passage, Illuna touches the wall from before with her hand, causing it to slowly slide back into its original position. We then begin climbing up the stairs, which are being lit by bright blue crystals embedded into the cavern walls, just like the tunnels outside, but also like the tunnels from the rebel base and the ones below the arena from Thilias. 
+Illuna touches the outer seam to slide the seredium slab back into place, sealing us in the stairwell. We climb in single file, our boots muffled on the stone steps.
 
- There sure seem to be a lot of crystals and seredium rocks underneath Varathia. I wonder if they are in any way connected to all the peculiar stuff happening on this continent, like the talking animals, the mythical creatures and the fact that this is the 'only place' on the earthen plane where you can access the Magium, according to Arraka. Maybe I'll ask her about these things after we get back.
+Luminescent blue crystals jut from the mortar at regular intervals, casting cold azure light across the risers—the exact same crystalline nodes embedded throughout the rebel tunnels and the subterranean vaults below Thilias.
 
-We stay perfectly quiet while we climb up the stairs, in order to not give away our position in case anyone is waiting for us at the other end of this tunnel. According to Melindra, the wall on the other side has an unusually large concentration of seredium in it, which makes it almost impossible to sense anything beyond it. However, this also means that the enemy should not be able to sense us approaching either, which gives us the element of surprise.
+The deep earth of Varathia is practically saturated with seredium and glowing mineral deposits. It can't be a coincidence that this continent hosts talking beasts, primordial entities, and the only known terrestrial interface to the Magium. I'll have to press Arraka on the connection once we regroup with Daren.
 
-As soon as we reach the wall at the end of the stairs, Illuna gives us a signal to get ready, and then she knocks lightly on the secret door like before, causing it to slide away and to make way for us to exit the tunnel. To our disappointment, the stairs did not in fact lead us to the surface, but to yet another underground room, although this one seems less like a natural cavern and more of a man-made cellar with a rather high ceiling. This particular room that we ended up in seems to be some sort of closet, because there are a lot of buckets filled with water in here, along with some wet rags that have probably been recently used to wipe the floors.
+We keep our footsteps silent on the climb. Melindra warns us that the upper threshold is reinforced with heavy seredium plating, blinding both our senses and whatever sits on the other side.
+
+At the top landing, Illuna signals a halt. She delivers two light knocks against the stone seam.
+
+The panel slides aside with a low hiss, opening into a high-ceilinged stone chamber. Not open street level, but a subterranean maintenance closet packed with wash buckets, mops, and damp scrubbing rags.
 
 }
 #if(v_b3_ch4_insist == 1) {
- Once we are all inside the hidden passage, Illuna touches the wall from before with her hand, causing it to slowly slide back into its original position. We then begin climbing up the stairs, which are being lit by bright blue crystals embedded into the cavern walls, just like the tunnels outside, but also like the tunnels from the rebel base and the ones below the arena from Thilias. 
+ Illuna touches the outer seam to slide the seredium slab back into place, sealing us in the stairwell. We climb in single file, our boots muffled on the stone steps.
 
- There sure seem to be a lot of crystals and seredium rocks underneath Varathia. I wonder if they are in any way connected to all the peculiar stuff happening on this continent, like the talking animals, the mythical creatures and the fact that this is the 'only place' on the earthen plane where you can access the Magium, according to Arraka. Maybe I'll ask her about these things after we get back.
+Luminescent blue crystals jut from the mortar at regular intervals, casting cold azure light across the risers—the exact same crystalline nodes embedded throughout the rebel tunnels and the subterranean vaults below Thilias.
 
-We stay perfectly quiet while we climb up the stairs, in order to not give away our position in case anyone is waiting for us at the other end of this tunnel. According to Melindra, the wall on the other side has an unusually large concentration of seredium in it, which makes it almost impossible to sense anything beyond it. However, this also means that the enemy should not be able to sense us approaching either, which gives us the element of surprise.
+The deep earth of Varathia is practically saturated with seredium and glowing mineral deposits. It can't be a coincidence that this continent hosts talking beasts, primordial entities, and the only known terrestrial interface to the Magium. I'll have to press Arraka on the connection once we regroup with Daren.
 
-As soon as we reach the wall at the end of the stairs, Illuna gives us a signal to get ready, and then she knocks lightly on the secret door like before, causing it to slide away and to make way for us to exit the tunnel. To our disappointment, the stairs did not in fact lead us to the surface, but to yet another underground room, although this one seems less like a natural cavern and more of a man-made cellar with a rather high ceiling. This particular room that we ended up in seems to be some sort of closet, because there are a lot of buckets filled with water in here, along with some wet rags that have probably been recently used to wipe the floors.
+We keep our footsteps silent on the climb. Melindra warns us that the upper threshold is reinforced with heavy seredium plating, blinding both our senses and whatever sits on the other side.
+
+At the top landing, Illuna signals a halt. She delivers two light knocks against the stone seam.
+
+The panel slides aside with a low hiss, opening into a high-ceilinged stone chamber. Not open street level, but a subterranean maintenance closet packed with wash buckets, mops, and damp scrubbing rags.
 
 }
- Once Illuna closes the secret door behind us, she steps to the front of the group again and she starts walking towards the next room, which appears to be full of people, judging by what I can sense of their auras from here.
+ Illuna closes the passage behind us and advances toward the heavy timber door at the far end of the closet. Beyond the wood, dozens of faint magical signatures hum in the air.
 
-"I think you've already sensed this by now, but the room that we are about to enter is filled with mages," Melindra tells us in a low voice. "If they try to attack us when we walk out of here, I suggest that Kate blocks their way with a wall of ice and then we retreat back into the tunnels. By the time they'll figure out how to open the secret door, we'll already be--"
+"The adjoining hall is packed with mages," Melindra whispers, leaning close. "If they move on us the second we step through, Kate drops an ice wall and we fall back to the stairs. By the time they figure out the latch, we'll be—"
 
-Melindra is suddenly interrupted by Flower, who just opened the door leading outside the room and let out a loud gasp, while covering her mouth with her hand.
+A sharp gasp cuts her off.
 
-"What happened?" Kate asks, as we all rush towards her. "Is it the royal guards?"
+Flower has pushed the door ajar, her hand flying to her mouth.
 
-"No, it's not the royal guards," Flower says in a shaky voice, as she tries to control her body from trembling. "It's... It's..."
+"What is it?" Kate steps up, frost gathering on her fingertips. "Guards?"
 
-When we reach the door and we take a look inside the next room, we immediately understand why Flower was having such a hard time finding her words.
+"No..." Flower whispers, her small frame shaking violently. "It's... it's..."
+
+We push past her into the doorway, and the breath catches in my throat.
 
 choice("Continue", B3-Ch04a-Machine, v_current_scene = B3-Ch04a-Machine)
 
@@ -1072,13 +1090,15 @@ choice("Continue", B3-Ch04a-Machine, v_current_scene = B3-Ch04a-Machine)
 ID: B3-Ch04a-Machine
 TEXT:
 
- What we are looking at right now is a large hall filled with hundreds of men and young boys dressed in dirty rags who are hanging from the ceiling by long iron chains that are tied to their wrists, while their feet are barely touching the ground. All of them have such pale skin and such lifeless looks in their eyes that it's honestly a wonder they are still alive. 
+ The chamber opens into a vast subterranean vault.
 
-As we all enter the hall, I realize that the ceiling from which the chains are hanging is in fact made of metal and that the metal ceiling is actually part of a large structure that covers the entire room. This structure is all tied to a metal container in the middle of the hall, which simply radiates magical energy. After studying the whole room for a few more seconds, I finally realize what is going on here and I get a strong sudden feeling of wanting to vomit.
+Hundreds of men and young boys hang from the ceiling in tattered rags, suspended by iron links clamped to their wrists. Their boots dangle inches above the blood-stained flags. Skin stretched bone-tight, gray as ash, eyes staring vacant into the gloom—they look more like preserved corpses than living captives.
 
-Those chains are not just there to hold the prisoners in place. I can sense magical energy travelling through them and sending it towards the metal container through the ceiling. This whole room was built with the sole purpose of extracting as much magical energy as possible from these people, to the point where it leaves them as these empty husks who barely even have enough strength left to breathe.
+As we step onto the walkway, the overhead grid catches the crystal light. The ceiling is a continuous sheet of dull gray alloy, ribbed with conduits that converge on a massive spherical receptacle in the center of the hall. The vessel throbs with a heavy, rhythmic pulse of extracted mana. Bile rises in my throat.
 
-None of these men or boys are reacting in any way as we are advancing through the room, looking as if they were barely even aware of their surroundings anymore. However, every once in a while some of the people in the hall seem to be waking up at random to scream in pain for a few seconds, only to return to their nearly lifeless states once again after they're done.
+The chains aren't just bindings. Magical current flows through the links in visible, shimmering waves, siphoning every drop of ambient mana from their bodies and funneling it into the central accumulator. An industrial refinery built to bleed human beings dry until they lack the breath to speak.
+
+None of the suspended men react to our boots on the stone. Most hang motionless, lost to exhaustion. Every few moments, a sudden convulsion tears through one of the captives; he screams into the damp air for five agonizing seconds, then slumps back into the stupor as the current drains him.
 
  Towards the center of the room there are some tables made out of metal on which a few other people are lying on their backs, who seem somewhat more alive than the ones hanging from the ceiling, although not by much. These men also have chains tied to their wrists, but in their case the chains are linked directly to the metal container, not to the ceiling. As we're approaching them, Melindra stops to look at one of the chains that are holding the prisoners suspended from the ceiling.
 
@@ -1134,83 +1154,99 @@ ID: B3-Ch04a-Container
 TEXT:
 
 #if(v_b3_ch3_chains == 0 && v_b3_ch4_cut == 1) {
- "Barry, wait! Don't do it!" Melindra shouts suddenly in a panicked tone, just as my blade slices through the chains.
+ "Barry, wait! Don't do it!" Melindra's voice screams out in panic just as my blade shears through the iron links.
 
-Her warning came too late, as there was simply no time for me to stop the slash of my dagger. As soon as the chains are cut, Alice's father begins to have violent seizures, making his body shake uncontrollably for five seconds. Immediately afterwards, his body stops moving completely but so does his breathing, while his aura begins to slowly fade away.
+The warning arrives too late. The enchanted edge bites through the metal without resistance.
 
-After a few seconds of simply staring in shock at the dead man in front of me, I finally manage to muster up enough strength to speak.
+The instant the severed links drop, Alice's father arches violently off the table. A savage convulsion seizes his limbs, his spine bowing as his teeth snap shut. Five seconds of horrific thrashing, and then he collapses limp.
 
-"What... what happened?..." I ask Melindra, in a weak tone of voice. "I don't understand..."
+His chest goes still. Under my magical sense, the faint spark of his aura snuffs out like a blown candle.
 
-"The metal that these chains are made of is special," Melindra says, as she slowly approaches the table and then grabs one of the chains in her hand. "If it stays in contact with a person's aura for too long, it forms a symbiotic relationship with them. You can't just remove it by force, because it would be the same as if you were removing one of their vital organs. I'm sorry that I didn't realize this sooner."
+I stand frozen above the table, my hand locked around the dagger hilt.
+
+"What... what happened?" The words barely form in my throat. "Why did he stop?"
+
+"The alloy," Melindra says quietly, stepping to the table and lifting the severed chain. "It's a parasitic composite. If it remains bound to a living aura past the calibration window, it establishes a symbiotic graft. Forcing the connection apart tears the nervous system out with it. I should have recognized the resonance sooner."
 
 }
 #if(v_b3_ch3_chains == 1 && v_b3_ch4_cut == 1) {
- I instinctively cut the chains off before giving Melindra the chance to say anything else.
+ I drive the blade downward, severing the links before Melindra can move.
 
-I'm sure this was the right decision. If I were to have reacted any slower, she would have probably cast an air barrier or something to stop me from saving this person, just because she wouldn't want us to carry any dead weight with us while we're escaping. This must be what the premonition was warning me about. It has to be.
+A tactical reflex—if I hesitate, she'll drop an air barrier to stop me from taking on a liability during an escape. That was the choice the premonition showed me.
 
-Unfortunately for me, my rushed decision costs me dearly. Not long after the chains are cut, Alice's father begins to have violent seizures, making his body shake uncontrollably for five seconds. Immediately afterwards, his body stops moving completely but so does his breathing, while his aura begins to slowly fade away. 
+The calculated move proves fatal.
 
-After a few seconds of simply staring in shock at the dead man in front of me, I finally manage to muster up enough strength to speak.
+The instant the severed links drop, Alice's father arches violently off the table. A savage convulsion seizes his limbs, his spine bowing as his teeth snap shut. Five seconds of horrific thrashing, and then he collapses limp.
 
-"What... what happened?..." I ask Melindra, in a weak tone of voice. "I don't understand..."
+His chest goes still. Under my magical sense, the faint spark of his aura snuffs out like a blown candle.
 
-"The metal that these chains are made of is special," Melindra says, as she slowly approaches the table and then grabs one of the chains in her hand. "If it stays in contact with a person's aura for too long, it forms a symbiotic relationship with them. You can't just remove it by force, because it would be the same as if you were removing one of their vital organs. I'm sorry that I didn't realize this sooner."
+I stand frozen above the table, my hand locked around the dagger hilt.
+
+"What... what happened?" The words barely form in my throat. "Why did he stop?"
+
+"The alloy," Melindra says quietly, stepping to the table and lifting the severed chain. "It's a parasitic composite. If it remains bound to a living aura past the calibration window, it establishes a symbiotic graft. Forcing the connection apart tears the nervous system out with it. I should have recognized the resonance sooner."
 
 }
 #if(v_b3_ch3_chains == 0 && v_b3_ch4_cut == 0) {
- "Barry, wait! Don't do it!" Melindra shouts suddenly in a panicked tone, just as I was deciding to leave the man chained for now.
+ "Barry, wait! Don't do it!" Melindra's voice rings across the room just as I pull the dagger back from the iron.
 
-"I wasn't going to do anything, yet," I tell Melindra. "What's wrong?"
+"I'm holding," I tell her, stepping back. "What did you spot?"
 
-"Do you remember how I said earlier that these chains looked familiar?" Melindra says, as she approaches the table and then grabs one of the chains in her hand. "Well, I just realized why. It's because of the metal they are made of. This metal seems to be a heavily modified version of the old prototypes that Billy Bob used to play with the last time I was here, which is why it took me so long to recognize it, but the basic principles should still be the same. In short, if this metal stays in contact with a person's aura for too long, it forms a symbiotic relationship with them. If you were to remove it by force, it would be the same as if you were removing one of their vital organs. It would kill them in a matter of seconds."
+"The metal," Melindra says, picking up a dangling link. "It's an evolved iteration of the prototypes Billy Bob was tinkering with when I was exiled. The baseline mechanics haven't changed. Once this alloy bonds to an aura past the calibration threshold, it becomes a biological graft. Cutting the link mechanically is equivalent to ripping out an organ. The shock kills the subject within seconds."
 
-"Are you serious?..." I say. "Then how exactly are you supposed to take off these chains without killing the prisoners?"
+"Are you serious?" I stare at the iron cuffs. "Then how do we free them?"
 
-"You'd have to find the control room, and deactivate them manually from there," Melindra says. "That would be the only way."
+"Manual deactivation from the master terminal in the control room," Melindra says. "There is no other bypass."
 
 }
 #if(v_b3_ch3_chains == 1 && v_b3_ch4_cut == 0) {
- "Why?" I ask Melindra. "What's wrong?"
+ "Why?" I ask, holding the blade still. "What is it?"
 
-"Do you remember how I said earlier that these chains looked familiar?" Melindra says, as she approaches the table and then grabs one of the chains in her hand. "Well, I just realized why. It's because of the metal they are made of. This metal seems to be a heavily modified version of the old prototypes that Billy Bob used to play with the last time I was here, which is why it took me so long to recognize it, but the basic principles should still be the same. In short, if this metal stays in contact with a person's aura for too long, it forms a symbiotic relationship with them. If you were to remove it by force, it would be the same as if you were removing one of their vital organs. It would kill them in a matter of seconds."
+"The metal," Melindra says, picking up a dangling link. "It's an evolved iteration of the prototypes Billy Bob was tinkering with when I was exiled. The baseline mechanics haven't changed. Once this alloy bonds to an aura past the calibration threshold, it becomes a biological graft. Cutting the link mechanically is equivalent to ripping out an organ. The shock kills the subject within seconds."
 
-"Are you serious?..." I say. "Then how exactly are you supposed to take off these chains without killing the prisoners?"
+"Are you serious?" I stare at the iron cuffs. "Then how do we free them?"
 
-"You'd have to find the control room, and deactivate them manually from there," Melindra says. "That would be the only way."
+"Manual deactivation from the master terminal in the control room," Melindra says. "There is no other bypass."
 
 }
 #if(v_b3_ch4_cut == 1) {
- "But there's a way to reverse this, right?..." I ask her helplessly, even though I already know the answer she's going to give me. "A way to reattach the chains and to bring this man back to life?..."
+ "There has to be a counter-weave," I say desperately, grabbing the severed links. "A mending matrix, an aura bridge—something to restore the current!"
 
-"I'm afraid not," Melindra says. "This metal seems to be a heavily modified version of the old prototypes that Billy Bob used to play with the last time I was here, which is why it took me so long to recognize it, but the basic principles should be the same. Once you've cut off the connection by force, there is no way to undo the damage. The only way in which any of the people from this room are ever going to be free is if we find the control room and deactivate these chains from there."
+"The conduit is severed," Melindra says softly. "The metal is a modified derivative of Billy Bob's old research. Once the biological bridge collapses, the trauma is permanent. The only way to release these prisoners alive is from the control terminal."
 
-"What if we tried to destroy the metal container?" Leila writes. "Would that not have the same effect as deactivating the chains?"
+"Can we shatter the central accumulator?" Leila's bright blue letters flash in the air. "Would destroying the tank sever the extraction grid?"
 
-"If you try to destroy that energy-filled container, it's going to cause an explosion large enough to kill every single person in this room, including us," Melindra says, as she drops the chain from her hand. "Like I said before, deactivating the chains from the control room is the only way to free the prisoners."
+"Breaching an accumulator holding that much raw mana will level the entire foundation," Melindra says, dropping the chain. "Every soul in this vault dies in the blast. The terminal is the only route."
 
- "Then we could try to reach that room quickly, before any of the guards--" Kate starts to say, but Melindra interrupts her.
+"Then we move on the control room before the garrison—" Kate starts, but Melindra cuts her off.
 
-"We have absolutely no way of knowing where they might have placed the control room in this place," Melindra says. "And given the importance of that room, it is no doubt going to be very heavily guarded. We're all weakened after that last fight, and we don't even have all our team members here with us, let alone any of the rebels except Breynan. What we should be focusing on right now is finding a way out. This is no time to be playing hero."   
+"We don't have the layout for this facility," Melindra snaps. "A primary terminal will be ringed with elite wards and anti-magic troops. We're drained from the surface fight, we're missing half our fighters, and we have zero rebel backing. Playing savior right now is suicide."
 
-"No, no, no..." I say, as I frantically grab the severed chains and try to reattach them by hand. "There has to be some kind of way to bring him back. I was only trying to save him! He couldn't have died just like that! How am I going to tell that little girl that I killed her father after she begged me to save him?... I have to find some way to reverse--"
+"No..." I drop to my knees, frantically pressing the severed iron edges together against the dead man's wrist. "There has to be a pulse. I was trying to free him. He was supposed to go home to his daughter... How do I look that girl in the face and tell her I killed her father? There has to be—"
 
-Before I get to finish my sentence, the metal container and all of the chains suddenly begin shining with a bright blue light, as the prisoners from the entire room start screaming in unison.
+A blinding surge of azure light floods the vault.
+
+The accumulator core roars to life, sending a searing shockwave through every conduit in the ceiling.
+
+Hundreds of voices tear into a simultaneous, agonized scream.
 
 }
 #if(v_b3_ch4_cut == 0) {
- "What if we tried to destroy the metal container?" Leila writes. "Would that not have the same effect as deactivating the chains?"
+ "Can we shatter the central accumulator?" Leila's bright blue letters flash in the air. "Would destroying the tank sever the extraction grid?"
 
-"If you try to destroy that energy-filled container, it's going to cause an explosion large enough to kill every single person in this room, including us," Melindra says, as she drops the chain from her hand. "Like I said before, deactivating the chains from the control room is the only way to free the prisoners."
+"Breaching an accumulator holding that much raw mana will level the entire foundation," Melindra says, dropping the chain. "Every soul in this vault dies in the blast. The terminal is the only route."
 
-"Then we could try to reach that room quickly, before any of the guards--" Kate starts to say, but Melindra interrupts her.
+"Then we move on the control room before the garrison—" Kate starts, but Melindra cuts her off.
 
-"We have absolutely no way of knowing where they might have placed the control room in this place," Melindra says. "And given the importance of that room, it is no doubt going to be very heavily guarded. We're all weakened after that last fight, and we don't even have all our team members here with us, let alone any of the rebels except Breynan. What we should be focusing on right now is finding a way out. This is no time to be playing hero."   
+"We don't have the layout for this facility," Melindra snaps. "A primary terminal will be ringed with elite wards and anti-magic troops. We're drained from the surface fight, we're missing half our fighters, and we have zero rebel backing. Playing savior right now is suicide."
 
- "So you're just going to leave me here, then?" Alice's father says, with fear in his voice. "If you're just going to abandon me, then at least try cutting the chains! You can't know for sure that I'll die. You can't know! Oh no, I can feel the container activating itself again. Cut the chains! Cut the chains, quick before-- AAGHHH!"
+"You're leaving me?" Alice's father thrashes against the iron cuffs, terror cracking his voice. "Don't walk away! Cut the links! She could be wrong—you don't know I'll die! Cut them! Cut them before the core charges again—no, it's starting! Cut them quick, before—"
 
-Suddenly, the metal container and all of the chains begin shining with a bright blue light, as the prisoners from the entire room start screaming in unison.
+A blinding surge of azure light floods the vault.
+
+The accumulator core roars to life, sending a searing shockwave through every conduit in the ceiling.
+
+Hundreds of voices tear into a simultaneous, agonized scream.
 
 }
 choice("Continue", B3-Ch04a-Spectacle, v_current_scene = B3-Ch04a-Spectacle, v_b3_ch4_beg = 0, v_b3_ch4_billy = 0, v_b3_ch4_tasked = 0, v_b3_ch4_drones = 0)
@@ -1219,31 +1255,35 @@ choice("Continue", B3-Ch04a-Spectacle, v_current_scene = B3-Ch04a-Spectacle, v_b
 ID: B3-Ch04a-Spectacle
 TEXT:
 
- "Mercy!" shouts one of the men hanging from the ceiling, who had been completely silent until now.
+ "Mercy!" a hanging captive shrieks, thrashing in his chains.
 
-"Please, have mercy!" screams another.
+"Please, by the gods, mercy!" another screams from the far gallery.
 
-"Mercy, please, I beg you!" we hear one other man screaming from across the room.
+"Make it stop! Have mercy!"
 
-Eventually, all of the prisoners begin to shout the exact same words over and over again, even though it's obviously futile. There is nobody else in this room who could hear them aside from us. After about half a minute of continuous screaming, the light from the chains and the container finally fades away, and the prisoners fall silent once more. Meanwhile, Flower is looking absolutely terrified, Kate is barely able to hold her composure, Breynan seems like he's going to be sick, and Leila looks as if she's having some Beacon of Hope flashbacks.
+The chorus swells into a deafening, unified plea that echoes off the metal ceiling, raw and futile. There is no one in the chamber to hear them but us.
 
-Just as we thought everything was over, we hear the one voice that we wanted to hear the least right now, coming from somewhere a few dozen feet behind us.
+For thirty brutal seconds, the blue conduits burn white-hot. Then the flare dims, the hum decays, and the hall sinks back into heavy, suffocating silence.
+
+Beside me, Flower trembles so hard her teeth click. Kate's knuckles are white, her jaw clenched tight enough to crack. Breynan stares at the floor, fighting down bile, while Leila stands frozen, her eyes wide with the distant horror of Beacon memories.
+
+Just as the sound dies, a cold voice cuts through the stillness behind us.
 
 "Did you enjoy the spectacle, Barry?" Eiden says, with a grave tone in his voice.
 
 I turn around quickly, but I don't see him anywhere. Of course he's hiding invisibly... Without Arraka we never had a chance to detect him, and he knows this. Has he just been standing there from the beginning?...
 
- "What's the matter?" Eiden says, with the same serious tone in his voice as before. "Didn't you say that you were going to save every person in Varathia despite your lack of powers? Well, I've given you the opportunity. What are you waiting for?"
+"What's the matter?" Eiden says, with the same serious tone in his voice as before. "Didn't you say that you were going to save every person in Varathia despite your lack of powers? Well, I've given you the opportunity. What are you waiting for?"
 
-All of a sudden, Melindra gasps loudly, and she points in the direction of EIden's voice, even if we still can't see him.
+Melindra gasps, whirling toward the empty space between two hanging lines.
 
 "It was you!" Melindra says loudly, while she points at Eiden. "You're the one who led us here from the underground tunnels! That's why your aura seemed so familiar. You were just masking it so I couldn't recognize you from afar!"
 
 "What will happen first, I wonder?" Eiden continues to address me, while ignoring Melindra. "Will your resolve eventually break when you'll finally understand just what exactly you've gotten yourself into? Or will you be able to achieve the impossible, like you've claimed? Regardless of what happens, I hope you will continue to keep me entertained. Do not disappoint me."
 
- "I can't believe it!" Melindra says. "He's ignoring me again! Well, this time he won't get away with it!"
+"I can't believe it!" Melindra says. "He's ignoring me again! Well, this time he won't get away with it!"
 
-She then generates a small explosion of air right next to where Eiden was standing invisibly, but all this manages to accomplish is to slightly rock back and forth a few of the prisoners that were hanging from the ceiling in the vicinity, without having any visible effects on Eiden himself.
+She hurls a condensed blast of compressed air right next to where Eiden was standing invisibly, but all this manages to accomplish is to slightly rock back and forth a few of the prisoners that were hanging from the ceiling in the vicinity, without having any visible effects on Eiden himself.
 
 "Damn it!" Melindra says. "He's already gone!"
 
@@ -1261,71 +1301,79 @@ TEXT:
 #if(v_b3_ch4_control == 0) {
  "I say we should focus on finding the exit, for the time being."
 
-"As much as I'd want to free all these people right here and now, I'm afraid that I must agree with Barry," Breynan says. "We simply do not have enough people here with us to conduct a rescue mission of this magnitude--"
+"As much as I want these men freed, Barry is right," Breynan says grimly. "We don't have the numbers or the conditioning for a mass extraction—"
 
-"Attention! Attention all prisoners from below the tower!" we suddenly hear the voice of Billy Bob, the lessathi, coming from what appears to be a voice magnifier tied to some sort of transceiver, placed in an upper corner of the room. "The cleaners will be visiting you in about an hour. Prepare yourselves. If I hear about any more incidents, you will not be getting any more food today. Let that be clear. This means no more kicking the employees while they are washing you, no more struggling, and absolutely no biting! One of the old cleaners is still healing from the last time you--"
+"Attention! Attention, lower facility livestock!"
 
-"Master Biliborrathrathsaran, I apologize for interrupting you, but--" we hear another man's voice coming from the voice magnifier.
+A grating, nasal voice blares from a brass acoustic horn mounted high on the central pillar.
 
-"The name is Biliborrathrathsarran, you buffoon!" Billy Bob says. "You pronounced the last 'r' wrong. How idiotic do you have to be to not be able to pronounce one name right?"
+"The wash crews arrive in one hour. Prepare yourselves. If there is a single disciplinary infraction, today's nutrient broth is canceled. That means no thrashing while the scrubbers are cleaning, no kicking the attendants, and absolutely no biting! Senior cleaner Marlo is still in bandages from the last—"
 
-"Sir, please, this is a very urgent matter," the servant says. "The king has requested your presence in the castle immediately and--"
+"Master Biliborrathrathsaran, urgent pardon for the intrusion, but—" a servant's voice bleeds into the horn's pickup.
 
- "Let him wait," Billy Bob says. "I have an important experiment that I must finish first. I will visit him after I'm done."
+"The name is Biliborrathrathsarran, you absolute dullard!" Billy Bob screeches. "You omitted the secondary trill on the final consonant! How difficult is it to pronounce basic lessathi phonetics?"
 
-"Could you not at least have one of your droons notify him that you will be late?" the servant says. "I'm certain that there should be at least one of them close enough to--"
+"Sir, please," the servant stammers. "The king demands your presence in the throne room immediately—"
 
-"For the last time, they are called DRONES!" Billy Bob says. "Drones, not droons! How is this so hard for you to remember?!"
+"Let him wait," Billy Bob snaps. "I am calibrating an essential compression sequence. I will attend to royalty when the run concludes."
 
-"Ooooh," Melindra says. "So that's what they were called!"
+"Could you not dispatch one of your droons to deliver the delay?" the servant pleads. "There is surely a unit in the corridor—"
 
-"Shhh!" I say. "I'm trying to listen."
+"For the thousandth time, they are called DRONES!" Billy Bob screams. "Drones! Not droons! Are the vowels too complex for your peasant skull?!"
 
-"Alright, fine, I will send one of the drones," Billy Bob says. "Maybe that will shut you up so I can continue my work. Unit number three hundred six, please escort this man outside of my workshop. Then find the drone that is closest to the palace and inform the king that I'm going to be at least two hours late. Now where was I? Oh right, I was making an announcement and forgot the channel open. But did I finish the announcement?... Eh, who cares? I'm going back to work."
+"Oh," Melindra murmurs. "So that's the word for them."
 
- We then hear a clicking noise coming from the voice magnifier, and the communications channel gets closed.
+"Quiet," I hiss. "Listen."
 
-"Okay..." I say. "So I heard Billy Bob mentioning at the beginning of his announcement that the prisoners are situated 'below the tower'. Is it safe to assume that he was referring to one of the black towers from the four corners of the city?"
+"Fine! I will dispatch an escort," Billy Bob sighs loudly. "Unit three hundred six, remove this nuisance from my laboratory. Relay a transmission to the nearest perimeter drone and inform the king I will arrive in two hours. Now where was I? Right, the disciplinary broadcast. Did I finish the mandate?... Whatever. I have real work to do."
 
-"Yes, we are almost certainly located below one of the black seredium towers," Breynan says. "Which means that the reason why Billy Bob had all these mages kidnapped over the last few years was so he could use that energy container over there to power up the 'drones', flying metal vehicles, giant golems and all the other technologically advanced lessathi-made artifacts from this city. It also means that if we try to get out of this place through the main door, we'll be greeted by a small battalion of guards, all equipped with anti-magic armor and magical artifacts. If we're going to escape from here, we'll need to reach a higher level of the tower and find a place where the seredium walls are thin enough to be able to contact Barry from the teleporter room."
+A sharp metallic click echoes from the horn, and the line goes dead.
 
-"But the question is how will we get to the upper levels of the tower without running into any of the guards?..." I say.
+"Right," I say, exhaling slowly. "Billy Bob opened that broadcast by addressing the 'lower facility below the tower.' That means we're sitting beneath one of the four black seredium monoliths on the city perimeter."
+
+"Almost certainly," Breynan says. "Which clarifies why Billy Bob has been harvesting mages for the past three years. This central accumulator feeds the power grid for the city's drones, heavy transports, siege golems, and defense relics. It also means the main ground-level gate will be barricaded by a garrison in anti-magic plating. If we want to extract, we have to fight our way to an upper tier where the seredium thins out enough to establish a transceiver link with Barry in the relay chamber."
+
+"How do we ascend through a fortified monolith without tripping every alarm on the manifest?" I ask.
 
 }
 #if(v_b3_ch4_control == 1) {
  "We have to find the control room, first. We can't just leave these people here like this."
 
-"I agree," Kate says. "But we need to remain undetected as much as possible. We should avoid starting any fights unless it's absolutely necessary or else--
+"I agree," Kate says. "Stealth is mandatory. We avoid open engagements unless our position is fully compromised, or else—"
 
-"Attention! Attention all prisoners from below the tower!" we suddenly hear the voice of Billy Bob, the lessathi, coming from what appears to be a voice magnifier tied to some sort of transceiver, placed in an upper corner of the room. "The cleaners will be visiting you in about an hour. Prepare yourselves. If I hear about any more incidents, you will not be getting any more food today. Let that be clear. This means no more kicking the employees while they are washing you, no more struggling, and absolutely no biting! One of the old cleaners is still healing from the last time you--"
+"Attention! Attention, lower facility livestock!"
 
-"Master Biliborrathrathsaran, I apologize for interrupting you, but--" we hear another man's voice coming from the voice magnifier.
+A grating, nasal voice blares from a brass acoustic horn mounted high on the central pillar.
 
-"The name is Biliborrathrathsarran, you buffoon!" Billy Bob says. "You pronounced the last 'r' wrong. How idiotic do you have to be to not be able to pronounce one name right?"
+"The wash crews arrive in one hour. Prepare yourselves. If there is a single disciplinary infraction, today's nutrient broth is canceled. That means no thrashing while the scrubbers are cleaning, no kicking the attendants, and absolutely no biting! Senior cleaner Marlo is still in bandages from the last—"
 
-"Sir, please, this is a very urgent matter," the servant says. "The king has requested your presence in the castle immediately and--"
+"Master Biliborrathrathsaran, urgent pardon for the intrusion, but—" a servant's voice bleeds into the horn's pickup.
 
-"Let him wait," Billy Bob says. "I have an important experiment that I must finish first. I will visit him after I'm done."
+"The name is Biliborrathrathsarran, you absolute dullard!" Billy Bob screeches. "You omitted the secondary trill on the final consonant! How difficult is it to pronounce basic lessathi phonetics?"
 
- "Could you not at least have one of your droons notify him that you will be late?" the servant says. "I'm certain that there should be at least one of them close enough to--"
+"Sir, please," the servant stammers. "The king demands your presence in the throne room immediately—"
 
-"For the last time, they are called DRONES!" Billy Bob says. "Drones, not droons! How is this so hard for you to remember?!"
+"Let him wait," Billy Bob snaps. "I am calibrating an essential compression sequence. I will attend to royalty when the run concludes."
 
-"Ooooh," Melindra says. "So that's what they were called!"
+"Could you not dispatch one of your droons to deliver the delay?" the servant pleads. "There is surely a unit in the corridor—"
 
-"Shhh!" I say. "I'm trying to listen."
+"For the thousandth time, they are called DRONES!" Billy Bob screams. "Drones, not droons! Are the vowels too complex for your peasant skull?!"
 
-"Alright, fine, I will send one of the drones," Billy Bob says. "Maybe that will shut you up so I can continue my work. Unit number three hundred six, please escort this man outside of my workshop. Then find the drone that is closest to the palace and inform the king that I'm going to be at least two hours late. Now where was I? Oh right, I was making an announcement and forgot the channel open. But did I finish the announcement?... Eh, who cares? I'm going back to work."
+"Oh," Melindra murmurs. "So that's the word for them."
 
-We then hear a clicking noise coming from the voice magnifier, and the communications channel gets closed.
+"Quiet," I hiss. "Listen."
 
-"Okay..." I say. "So I heard Billy Bob mentioning at the beginning of his announcement that the prisoners are situated 'below the tower'. Is it safe to assume that he was referring to one of the black towers from the four corners of the city?"
+"Fine! I will dispatch an escort," Billy Bob sighs loudly. "Unit three hundred six, remove this nuisance from my laboratory. Relay a transmission to the nearest perimeter drone and inform the king I will arrive in two hours. Now where was I? Right, the disciplinary broadcast. Did I finish the mandate?... Whatever. I have real work to do."
 
- "Yes, we are almost certainly located below one of the black seredium towers," Breynan says. "Which means that the reason why Billy Bob had all these mages kidnapped over the last few years was so he could use that energy container over there to power up the 'drones', flying metal vehicles, giant golems and all the other technologically advanced lessathi-made artifacts from this city. It also means that if we try to get out of this place through the main door, we'll be greeted by a small battalion of guards, all equipped with anti-magic armor and magical artifacts. If we're going to escape from here, we'll need to reach a higher level of the tower and find a place where the seredium walls are thin enough to be able to contact Barry from the teleporter room."
+A sharp metallic click echoes from the horn, and the line goes dead.
 
-"I thought we'd already agreed that we were going to the control room first," Kate says.
+"Right," I say, exhaling slowly. "Billy Bob opened that broadcast by addressing the 'lower facility below the tower.' That means we're sitting beneath one of the four black seredium monoliths on the city perimeter."
 
-"No, we didn't," Melindra says. "Only you and Barry agreed. Have you two even thought about how we're supposed to evacuate all these prisoners when there are hundreds of guards waiting for us outside? Do these people look to you like they would be able to fight their own way out? Or even walk, for that matter?"
+"Almost certainly," Breynan says. "Which clarifies why Billy Bob has been harvesting mages for the past three years. This central accumulator feeds the power grid for the city's drones, heavy transports, siege golems, and defense relics. It also means the main ground-level gate will be barricaded by a garrison in anti-magic plating. If we want to extract, we have to fight our way to an upper tier where the seredium thins out enough to establish a transceiver link with Barry in the relay chamber."
+
+"I thought we agreed the master terminal came first," Kate says.
+
+"You and Barry agreed," Melindra shoots back. "Have either of you considered the logistics of moving several hundred emaciated captives past a perimeter army? Half of these people can barely draw breath, let alone run."
 
 }
 choice("Continue", B3-Ch04b-Assistance, v_current_scene = B3-Ch04b-Assistance)
