@@ -1938,7 +1938,7 @@ Kate is standing behind us, with her hood off her head, and her signature cold l
 #if(v_agility == 0 && v_perception < 2) {
 I'm not going to win an arm wrestling match against one of these monsters anytime soon. There's no use trying to fight them head on. I'll just let Daren do his thing and try to avoid getting hit as long as possible.
 
-As I start moving around to dodge the golems, I realize that this isn't nearly as easy as I may have expected. They might be extremely slow, but the sheer number of them makes it almost impossible to avoid their attacks by just using my speed. I need to get out of here fast, or I'll get pummeled to death.
+Dodging the golems is far harder than expected. They are extremely slow, but the sheer number of them makes it almost impossible to avoid their attacks with speed alone. I need to get out of here fast, or I'll get pummeled to death.
 
 I suddenly see an opening in their formation, probably made when Daren killed one of them. I rush towards it with all the speed I can muster, but one of the golems sees me and intercepts me before I escape. One punch is all it took to completely smash my skull, as my body fell to the ground, lifeless.
 }

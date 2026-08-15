@@ -290,7 +290,7 @@ Kate gives a single, firm nod.
 
 He is talking about mage specializations. Most practitioners spend their lives refining one specific school rather than spreading their mana thin across generalist casting.
 
-Weapon enchanters weave mana directly into steel and armor, turning mundane blades razor-sharp and virtually unbreakable. Because their magic is tied to physical gear, they almost always train extensively in martial arts.
+Weapon enchanters weave mana directly into steel and armor, honing mundane blades to a killing edge and making them virtually unbreakable. Because their magic is tied to physical gear, they almost always train extensively in martial arts.
 
 Elementalists possess an inborn affinity for one of the four prime elements—fire, water, air, or earth. Their raw destructive output is immense, but their reliance on instinct leaves them vulnerable to specialized counter-magic and arcane theory.
 
@@ -332,7 +332,7 @@ Kate gives a single, firm nod.
 
 He is talking about mage specializations. Most practitioners spend their lives refining one specific school rather than spreading their mana thin across generalist casting.
 
-Weapon enchanters weave mana directly into steel and armor, turning mundane blades razor-sharp and virtually unbreakable. Because their magic is tied to physical gear, they almost always train extensively in martial arts.
+Weapon enchanters weave mana directly into steel and armor, honing mundane blades to a killing edge and making them virtually unbreakable. Because their magic is tied to physical gear, they almost always train extensively in martial arts.
 
 Elementalists possess an inborn affinity for one of the four prime elements—fire, water, air, or earth. Their raw destructive output is immense, but their reliance on instinct leaves them vulnerable to specialized counter-magic and arcane theory.
 
@@ -372,7 +372,7 @@ Kate gives a single, firm nod.
 
 He is talking about mage specializations. Most practitioners spend their lives refining one specific school rather than spreading their mana thin across generalist casting.
 
-Weapon enchanters weave mana directly into steel and armor, turning mundane blades razor-sharp and virtually unbreakable. Because their magic is tied to physical gear, they almost always train extensively in martial arts.
+Weapon enchanters weave mana directly into steel and armor, honing mundane blades to a killing edge and making them virtually unbreakable. Because their magic is tied to physical gear, they almost always train extensively in martial arts.
 
 Elementalists possess an inborn affinity for one of the four prime elements—fire, water, air, or earth. Their raw destructive output is immense, but their reliance on instinct leaves them vulnerable to specialized counter-magic and arcane theory.
 
@@ -451,7 +451,7 @@ choice(""I was almost about to puke."", Ch3-Puke, v_current_scene = Ch3-Puke)
 ID: Ch3-Busy
 TEXT:
 
-"I didn't really have time to feel anything. I guess I was too preoccupied with staying alive."
+"I was just busy thinking of how to stay alive at the time."
 
 "I almost forgot," Daren says, clapping a heavy hand on my shoulder. "That was your first true skirmish, wasn't it? You kept your head when seasoned men panic. Take pride in that, Barry."
 
@@ -1003,7 +1003,7 @@ The excitement spills through before I can check it. Kate stares at me, bewilder
 
 "By the gods," she whispers. "You weren't bluffing. You truly are an ordinary human, and you came to this bloodbath believing you could make yourself a mage."
 
-She shakes her head, her voice turning razor-sharp.
+She shakes her head, her voice turning cutting.
 
 "Listen to me. I don't care what childhood obsession drove you into this suicide pact. The only things waiting for you at the end of that path are agony and despair. Turn around, find a ship at the coast, and you might live to see thirty."
 
@@ -1411,7 +1411,7 @@ choice("Next chapter", Ch4-Intro, v_next_chapter_crash = 1, v_current_scene = Ch
 ID: Ch3-Barrier
 TEXT:
 
-"Kate needed my help to study some magical traces, and this place wasn't that far away. She cast a barrier that prevents enemies from approaching our cave, so you'd be safe while we were gone."
+"Kate cast a barrier that prevents enemies from approaching our cave."
 
 "I am not concerned with my own hide, Barry! I am concerned with yours!" Daren snaps, hauling Kate into his arms. "This is why parties hold formation. The moment we divide, disaster follows. Come. We move before enemy scouts regroup."
 
