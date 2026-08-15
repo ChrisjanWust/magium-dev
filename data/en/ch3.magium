@@ -13,7 +13,7 @@ TEXT:
 
 Daren, Kate, and I sit in a rough ring on the stone floor of a shallow limestone cave we found tucked beneath the northern ridges. The march up from the lowlands carried a steady stench of smoke and decay—half a dozen bodies left cooling in the brush along the trail, stripped of gear and forgotten. Daren has shed his plate armor for a loose woolen tunic, rubbing the red pressure marks where the cuirass bit into his collarbones.
 
-"Kate, I think this afternoon broke the poor boy's mind. He is completely delirious. Would you mind knocking some sense into our companion?"
+"Kate, I think this afternoon broke the poor boy's mind. He is completely delirious. Would you mind knocking some sense into him before I lose my patience?"
 
 "No," Kate says, without looking up.
 
@@ -40,7 +40,7 @@ Daren stares at her, his brow furrowing over the crossed scars on his forehead. 
 
 Daren, Kate, and I sit on the dry stone floor of our hosts' cavern, the air smelling faintly of sweet lichen and dried mountain grass. The trek up the slopes was grim enough—scattered corpses in the ravines, mages already cutting each other down for standing. Daren has stripped out of his heavy plate and sits in a loose woolen tunic, rolling his broad shoulders to work out the stiffness.
 
-"Barry, there is no such thing as holding a conversation with wild animals. I heard you barking and clicking at them. Pure gibberish. Getting lucky because they guided us to their den doesn't make you a linguist. Kate, could you please knock some sense into our companion?"
+"Barry, there is no such thing as holding a conversation with wild animals. I heard you barking and clicking at them. Pure gibberish. Getting lucky because they guided us to their den doesn't make you a linguist. Kate, could you please knock some sense into him?"
 
 "No," Kate says, without looking up.
 
@@ -64,7 +64,7 @@ TEXT:
 #if(v_ch2_deer_interaction != 1) {
 I tilt the stat booster so the dim green glow of its nine channels reflects against Daren's face. He studies the runic columns in silence, stroking his jaw.
 
-"All right. Here is my two copper pieces. If we keep moving together, and if that trinket truly does what you claim, the single greatest asset you could give us is maxing out that observation stat."
+"All right. Here is my two copper pieces. If you're still with us tomorrow—and if that trinket truly does what you claim—the single greatest asset you could offer is maxing out that observation stat."
 
 "Observation?" I ask. "Out of all nine?"
 
@@ -72,13 +72,13 @@ I tilt the stat booster so the dim green glow of its nine channels reflects agai
 
 Daren lets the silence settle over the cave.
 
-"That's my counsel, anyway. Take it or leave it. The device is yours to command. But make your choice tonight so we can coordinate our tactics. We cannot walk into tomorrow's skirmish blind."
+"That's my counsel, anyway. Take it or leave it. The device is yours to command. But if we're sharing a camp tonight, it makes sense to know what each of us brings to the table. We cannot walk into tomorrow blind."
 
 }
 #if(v_ch2_deer_interaction == 1) {
 I tilt the stat booster so the dim green glow of its nine channels reflects against Daren's face. He studies the runic columns in silence, stroking his jaw.
 
-"All right. Here is my two copper pieces. If we keep moving together, and if that trinket truly does what you claim, the single greatest asset you could give us is maxing out that observation stat."
+"All right. Here is my two copper pieces. If you're still with us tomorrow—and if that trinket truly does what you claim—the single greatest asset you could offer is maxing out that observation stat."
 
 "Observation?" I ask. "Out of all nine?"
 
@@ -308,7 +308,7 @@ Shapeshifters take the opposite path, molding their own flesh and bone into pred
 
 Daren shrugs, unbothered.
 
-"Suit yourself. That's enough strategy for one night. First watch falls to Barry and me. Up you get, Barry."
+"Suit yourself. That's enough strategy for one night." He pushes himself up, stretching his broad shoulders. "First watch falls to Barry and me. Up you get, Barry. And Kate—if you decide this arrangement isn't working for you by morning, no one's keeping you here."
 
 I follow Daren through the mouth of the cave. We climb the rocky incline above the entrance to reach a wide granite ledge overlooking the valley. The night sky is clear, cold, and crowded with brilliant stars. Nothing moves in the valley below without catching the moonlight.
 
@@ -350,7 +350,7 @@ Shapeshifters take the opposite path, molding their own flesh and bone into pred
 
 Daren shrugs, unbothered.
 
-"Suit yourself. That's enough strategy for one night. First watch falls to Barry and me. Up you get, Barry."
+"Suit yourself. That's enough strategy for one night." He pushes himself up, stretching his broad shoulders. "First watch falls to Barry and me. Up you get, Barry. And Kate—if you decide this arrangement isn't working for you by morning, no one's keeping you here."
 
 I follow Daren through the mouth of the cave. We climb the rocky incline above the entrance to reach a wide granite ledge overlooking the valley. The night sky is clear, cold, and crowded with brilliant stars. Nothing moves in the valley below without catching the moonlight.
 
@@ -390,7 +390,7 @@ Shapeshifters take the opposite path, molding their own flesh and bone into pred
 
 Daren shrugs, unbothered.
 
-"Suit yourself. That's enough strategy for one night. First watch falls to Barry and me. Up you get, Barry."
+"Suit yourself. That's enough strategy for one night." He pushes himself up, stretching his broad shoulders. "First watch falls to Barry and me. Up you get, Barry. And Kate—if you decide this arrangement isn't working for you by morning, no one's keeping you here."
 
 I follow Daren through the mouth of the cave. We climb the rocky incline above the entrance to reach a wide granite ledge overlooking the valley. The night sky is clear, cold, and crowded with brilliant stars. Nothing moves in the valley below without catching the moonlight.
 

@@ -121,13 +121,13 @@ choice("Continue", Ch2-Escort, v_current_scene = Ch2-Escort)
 ID: Ch2-Escort
 TEXT:
 
-"I... require an escort," she says, keeping her voice low. "I cannot survive this tournament alone. I have heard the tales of your valor—the healer who defends the innocent—and I hoped..."
+"I need to reach the northern ridge before sundown," she says, keeping her voice flat and clipped. "My path runs through contested ground. I can handle most threats alone, but not three at once—and the opening culls always drive survivors into bottlenecks. Three blades are better than one. You get a third fighter; I get safe passage through the kill zone. It is a temporary arrangement."
 
-"Say no more!" Daren beams, puffed up by the praise. "You have my sword and shield for as long as your journey requires. Though from the sound of it, the Magium is not your objective?"
+"Sounds sensible enough," Daren says, nodding. "You have my shield until the ridge. Beyond that, we can reassess. Though from the sound of it, the Magium is not your objective?"
 
 "No," she says, looking away into the trees. "I came to find a friend. I have reason to believe she is somewhere on this continent, though I have no solid leads yet. For now, I only need to stay alive."
 
-"Then you travel with us," Daren declares, gesturing toward the treeline. "We need to move. Standing in the open is an invitation for an ambush."
+"Then we move together," Daren says, gesturing toward the treeline. "Standing in the open is an invitation for an ambush."
 
 "Us?" Her gaze snaps to me, sharp and hostile. "You travel with a stillwater? Have you lost your senses? You cannot trust him!"
 
@@ -154,13 +154,13 @@ TEXT:
 
 He turns to face her, his tone firm and unyielding.
 
-"Listen, I understand your reservations, but this man saved my life. I intend to honor my debt to him. If you want my protection, the three of us travel together. Take it or leave it."
+"Listen, I understand your reservations. But the man is unarmed and outnumbered—same position you were in five minutes ago. We move faster with numbers. You want safe passage north? He walks with us. Those are the terms."
 
 She holds his gaze, calculating the odds in silence.
 
 "Very well," she says at last, exhaling cold air. "If those are your terms, I accept. But I will be watching my back every second. I am not as gullible as you, healer in armor."
 
-"Splendid!" Daren's solemn demeanor instantly shatters into a broad grin. "Now that we're all friends, let's move! Adventure awaits!"
+"Good enough." Daren's stern expression cracks into a brief grin. "Let's cover ground while the light holds. We can figure out the rest when we've put distance between us and this clearing."
 
 "Hold on," I call out. "You still haven't told us your name."
 
@@ -186,13 +186,13 @@ Her words catch in her throat, her jaw locking tight.
 
 He turns to face her, his tone firm and unyielding.
 
-"Listen, I understand your reservations, but this man saved my life. I intend to honor my debt to him. If you want my protection, the three of us travel together. Take it or leave it."
+"Listen, I understand your reservations. But the man is unarmed and outnumbered—same position you were in five minutes ago. We move faster with numbers. You want safe passage north? He walks with us. Those are the terms."
 
 She holds his gaze, calculating the odds in silence.
 
 "Very well," she says at last, exhaling cold air. "If those are your terms, I accept. But I will be watching my back every second. I am not as gullible as you, healer in armor."
 
-"Splendid!" Daren's solemn demeanor instantly shatters into a broad grin. "Now that we're all friends, let's move! Adventure awaits!"
+"Good enough." Daren's stern expression cracks into a brief grin. "Let's cover ground while the light holds. We can figure out the rest when we've put distance between us and this clearing."
 
 "Hold on," I call out. "You still haven't told us your name."
 
@@ -216,13 +216,13 @@ TEXT:
 
 He turns to face her, his tone firm and unyielding.
 
-"Listen, I understand your reservations, but this man saved my life. I intend to honor my debt to him. If you want my protection, the three of us travel together. Take it or leave it."
+"Listen, I understand your reservations. But the man is unarmed and outnumbered—same position you were in five minutes ago. We move faster with numbers. You want safe passage north? He walks with us. Those are the terms."
 
 She holds his gaze, calculating the odds in silence.
 
 "Very well," she says at last, exhaling cold air. "If those are your terms, I accept. But I will be watching my back every second. I am not as gullible as you, healer in armor."
 
-"Splendid!" Daren's solemn demeanor instantly shatters into a broad grin. "Now that we're all friends, let's move! Adventure awaits!"
+"Good enough." Daren's stern expression cracks into a brief grin. "Let's cover ground while the light holds. We can figure out the rest when we've put distance between us and this clearing."
 
 "Hold on," I call out. "You still haven't told us your name."
 

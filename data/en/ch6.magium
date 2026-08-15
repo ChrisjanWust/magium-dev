@@ -3,7 +3,7 @@ TEXT:
 
 "All right, I call that a plan," Daren says, clapping dirt off his gauntlets as our council breaks up.
 
-We sit outside the cave mouth under a bleached noon sky. Without Kate's magic the clearing would bake like a kiln; as it is, frost feathers the grass around her boots, keeping the heat at a manageable simmer.
+We sit outside the cave mouth under a bleached noon sky. Without Kate's magic the clearing would bake like a kiln; as it is, frost feathers the grass around her boots, keeping the heat at a manageable simmer. Three days ago, she would have sat twenty paces apart with her spine to a tree and one eye on our exit routes. Now the frost ring extends around all four of us. She has not moved closer—we have simply stopped being excluded from her perimeter.
 
 "Noon is on us," Daren says, buckling his sword belt. "We move now. No travel after sundown in this territory, and we have miles to cover before nightfall. Rose, do you have every root you set out for?"
 
@@ -464,11 +464,11 @@ Rose's cheeks color. "I would be honored!"
 
 He weaves the enchantment into her satchel in under a minute, and we resume our march.
 
-We spend the next four hours pushing south on the direct line toward Rose's town. Her usual foraging routes loop wide to skirt known beast dens, but Daren insisted on haste to deliver the oil-drip cure, pointing out that our group can handle whatever the brush throws at us.
+We spend the next four hours pushing south on the direct line toward Rose's town. Her usual foraging routes loop wide to skirt known beast dens, but Rose pressed for the most direct path—every hour on the trail is another hour her father spends exposed to a failing quarantine—and Daren agreed without argument, pointing out that our group can handle whatever the brush throws at us.
 
 And Varathia finally decides to look like Varathia. The pines give way to a stretch of trees I have no name for—trunks pale as bone, leaves a deep violet that flashes silver when the wind turns them over. Around midday we skirt a shallow valley where a ring of broken pillars stands in the grass, each carved with a spiral of script, humming faintly as we pass like a struck goblet an hour after the toast. Nothing grows within fifty paces of the perimeter. Rose doesn't even glance over. "The locals leave them alone," she says. "So do we."
 
-Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
+Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. At one point the trail narrows between two fallen trunks, and she pauses ahead of me to hold a thorny branch aside with her forearm. I duck through, and for a moment we stand in the tight gap together—her shoulder against my chest, her hair brushing my jaw, the sharp green smell of crushed mint rising from her open satchel. "Sorry," she says, not moving immediately. "Tight squeeze." Then she lets the branch spring back and walks on, and I notice I am still holding my breath. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
 
 }
 #if(v_ch2_human_reason == 1 && v_ch3_kate_badly_hurt == 1 || v_ch3_kate_badly_hurt == 1 && v_ch5_admit_lie == 1) {
@@ -484,11 +484,11 @@ Rose's cheeks color. "I would be honored!"
 
 He weaves the enchantment into her satchel in under a minute, and we resume our march.
 
-We spend the next four hours pushing south on the direct line toward Rose's town. Her usual foraging routes loop wide to skirt known beast dens, but Daren insisted on haste to deliver the oil-drip cure, pointing out that our group can handle whatever the brush throws at us.
+We spend the next four hours pushing south on the direct line toward Rose's town. Her usual foraging routes loop wide to skirt known beast dens, but Rose pressed for the most direct path—every hour on the trail is another hour her father spends exposed to a failing quarantine—and Daren agreed without argument, pointing out that our group can handle whatever the brush throws at us.
 
 And Varathia finally decides to look like Varathia. The pines give way to a stretch of trees I have no name for—trunks pale as bone, leaves a deep violet that flashes silver when the wind turns them over. Around midday we skirt a shallow valley where a ring of broken pillars stands in the grass, each carved with a spiral of script, humming faintly as we pass like a struck goblet an hour after the toast. Nothing grows within fifty paces of the perimeter. Rose doesn't even glance over. "The locals leave them alone," she says. "So do we."
 
-Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
+Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. At one point the trail narrows between two fallen trunks, and she pauses ahead of me to hold a thorny branch aside with her forearm. I duck through, and for a moment we stand in the tight gap together—her shoulder against my chest, her hair brushing my jaw, the sharp green smell of crushed mint rising from her open satchel. "Sorry," she says, not moving immediately. "Tight squeeze." Then she lets the branch spring back and walks on, and I notice I am still holding my breath. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
 
 Kate keeps pace on stubbornness alone. The crossbow wound from this morning has drained the color from her skin, and twice her boot catches on exposed root, nearly sending her into the dirt. When Rose offers an arm and suggests a breather by the brook, Kate shakes her off with a curt hiss through her teeth. "I'm fine. Keep moving."
 
@@ -614,11 +614,11 @@ Rose's cheeks color. "I would be honored!"
 
 He weaves the enchantment into her satchel in under a minute, and we resume our march.
 
-We spend the next four hours pushing south on the direct line toward Rose's town. Her usual foraging routes loop wide to skirt known beast dens, but Daren insisted on haste to deliver the oil-drip cure, pointing out that our group can handle whatever the brush throws at us.
+We spend the next four hours pushing south on the direct line toward Rose's town. Her usual foraging routes loop wide to skirt known beast dens, but Rose pressed for the most direct path—every hour on the trail is another hour her father spends exposed to a failing quarantine—and Daren agreed without argument, pointing out that our group can handle whatever the brush throws at us.
 
 And Varathia finally decides to look like Varathia. The pines give way to a stretch of trees I have no name for—trunks pale as bone, leaves a deep violet that flashes silver when the wind turns them over. Around midday we skirt a shallow valley where a ring of broken pillars stands in the grass, each carved with a spiral of script, humming faintly as we pass like a struck goblet an hour after the toast. Nothing grows within fifty paces of the perimeter. Rose doesn't even glance over. "The locals leave them alone," she says. "So do we."
 
-Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
+Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. At one point the trail narrows between two fallen trunks, and she pauses ahead of me to hold a thorny branch aside with her forearm. I duck through, and for a moment we stand in the tight gap together—her shoulder against my chest, her hair brushing my jaw, the sharp green smell of crushed mint rising from her open satchel. "Sorry," she says, not moving immediately. "Tight squeeze." Then she lets the branch spring back and walks on, and I notice I am still holding my breath. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
 
 }
 #if(v_ch2_human_reason == 1 && v_ch3_kate_badly_hurt == 1 || v_ch3_kate_badly_hurt == 1 && v_ch5_admit_lie == 1) {
@@ -634,11 +634,11 @@ Rose's cheeks color. "I would be honored!"
 
 He weaves the enchantment into her satchel in under a minute, and we resume our march.
 
-We spend the next four hours pushing south on the direct line toward Rose's town. Her usual foraging routes loop wide to skirt known beast dens, but Daren insisted on haste to deliver the oil-drip cure, pointing out that our group can handle whatever the brush throws at us.
+We spend the next four hours pushing south on the direct line toward Rose's town. Her usual foraging routes loop wide to skirt known beast dens, but Rose pressed for the most direct path—every hour on the trail is another hour her father spends exposed to a failing quarantine—and Daren agreed without argument, pointing out that our group can handle whatever the brush throws at us.
 
 And Varathia finally decides to look like Varathia. The pines give way to a stretch of trees I have no name for—trunks pale as bone, leaves a deep violet that flashes silver when the wind turns them over. Around midday we skirt a shallow valley where a ring of broken pillars stands in the grass, each carved with a spiral of script, humming faintly as we pass like a struck goblet an hour after the toast. Nothing grows within fifty paces of the perimeter. Rose doesn't even glance over. "The locals leave them alone," she says. "So do we."
 
-Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
+Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. At one point the trail narrows between two fallen trunks, and she pauses ahead of me to hold a thorny branch aside with her forearm. I duck through, and for a moment we stand in the tight gap together—her shoulder against my chest, her hair brushing my jaw, the sharp green smell of crushed mint rising from her open satchel. "Sorry," she says, not moving immediately. "Tight squeeze." Then she lets the branch spring back and walks on, and I notice I am still holding my breath. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
 
 Kate keeps pace on stubbornness alone. The crossbow wound from this morning has drained the color from her skin, and twice her boot catches on exposed root, nearly sending her into the dirt. When Rose offers an arm and suggests a breather by the brook, Kate shakes her off with a curt hiss through her teeth. "I'm fine. Keep moving."
 
@@ -761,11 +761,11 @@ Rose watches him go, distressed. "Did I say something I shouldn't have?"
 
 "No," Kate says flatly. "This is entirely Barry's fault. Don't worry about it."
 
-We spend the next four hours pushing south on the direct line toward Rose's town. Her usual foraging routes loop wide to skirt known beast dens, but Daren insisted on haste to deliver the oil-drip cure, pointing out that our group can handle whatever the brush throws at us.
+We spend the next four hours pushing south on the direct line toward Rose's town. Her usual foraging routes loop wide to skirt known beast dens, but Rose pressed for the most direct path—every hour on the trail is another hour her father spends exposed to a failing quarantine—and Daren agreed without argument, pointing out that our group can handle whatever the brush throws at us.
 
 And Varathia finally decides to look like Varathia. The pines give way to a stretch of trees I have no name for—trunks pale as bone, leaves a deep violet that flashes silver when the wind turns them over. Around midday we skirt a shallow valley where a ring of broken pillars stands in the grass, each carved with a spiral of script, humming faintly as we pass like a struck goblet an hour after the toast. Nothing grows within fifty paces of the perimeter. Rose doesn't even glance over. "The locals leave them alone," she says. "So do we."
 
-Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
+Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. At one point the trail narrows between two fallen trunks, and she pauses ahead of me to hold a thorny branch aside with her forearm. I duck through, and for a moment we stand in the tight gap together—her shoulder against my chest, her hair brushing my jaw, the sharp green smell of crushed mint rising from her open satchel. "Sorry," she says, not moving immediately. "Tight squeeze." Then she lets the branch spring back and walks on, and I notice I am still holding my breath. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
 
 }
 #if(v_ch3_kate_badly_hurt == 1) {
@@ -779,11 +779,11 @@ Rose watches him go, distressed. "Did I say something I shouldn't have?"
 
 "No," Kate says flatly. "This is entirely Barry's fault. Don't worry about it."
 
-We spend the next four hours pushing south on the direct line toward Rose's town. Her usual foraging routes loop wide to skirt known beast dens, but Daren insisted on haste to deliver the oil-drip cure, pointing out that our group can handle whatever the brush throws at us.
+We spend the next four hours pushing south on the direct line toward Rose's town. Her usual foraging routes loop wide to skirt known beast dens, but Rose pressed for the most direct path—every hour on the trail is another hour her father spends exposed to a failing quarantine—and Daren agreed without argument, pointing out that our group can handle whatever the brush throws at us.
 
 And Varathia finally decides to look like Varathia. The pines give way to a stretch of trees I have no name for—trunks pale as bone, leaves a deep violet that flashes silver when the wind turns them over. Around midday we skirt a shallow valley where a ring of broken pillars stands in the grass, each carved with a spiral of script, humming faintly as we pass like a struck goblet an hour after the toast. Nothing grows within fifty paces of the perimeter. Rose doesn't even glance over. "The locals leave them alone," she says. "So do we."
 
-Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
+Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. At one point the trail narrows between two fallen trunks, and she pauses ahead of me to hold a thorny branch aside with her forearm. I duck through, and for a moment we stand in the tight gap together—her shoulder against my chest, her hair brushing my jaw, the sharp green smell of crushed mint rising from her open satchel. "Sorry," she says, not moving immediately. "Tight squeeze." Then she lets the branch spring back and walks on, and I notice I am still holding my breath. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
 
 Kate keeps pace on stubbornness alone. The crossbow wound from this morning has drained the color from her skin, and twice her boot catches on exposed root, nearly sending her into the dirt. When Rose offers an arm and suggests a breather by the brook, Kate shakes her off with a curt hiss through her teeth. "I'm fine. Keep moving."
 
@@ -809,11 +809,11 @@ Rose watches him go, distressed. "Did I say something I shouldn't have?"
 
 "No," Kate says flatly. "This is entirely Barry's fault. Don't worry about it."
 
-We spend the next four hours pushing south on the direct line toward Rose's town. Her usual foraging routes loop wide to skirt known beast dens, but Daren insisted on haste to deliver the oil-drip cure, pointing out that our group can handle whatever the brush throws at us.
+We spend the next four hours pushing south on the direct line toward Rose's town. Her usual foraging routes loop wide to skirt known beast dens, but Rose pressed for the most direct path—every hour on the trail is another hour her father spends exposed to a failing quarantine—and Daren agreed without argument, pointing out that our group can handle whatever the brush throws at us.
 
 And Varathia finally decides to look like Varathia. The pines give way to a stretch of trees I have no name for—trunks pale as bone, leaves a deep violet that flashes silver when the wind turns them over. Around midday we skirt a shallow valley where a ring of broken pillars stands in the grass, each carved with a spiral of script, humming faintly as we pass like a struck goblet an hour after the toast. Nothing grows within fifty paces of the perimeter. Rose doesn't even glance over. "The locals leave them alone," she says. "So do we."
 
-Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
+Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. At one point the trail narrows between two fallen trunks, and she pauses ahead of me to hold a thorny branch aside with her forearm. I duck through, and for a moment we stand in the tight gap together—her shoulder against my chest, her hair brushing my jaw, the sharp green smell of crushed mint rising from her open satchel. "Sorry," she says, not moving immediately. "Tight squeeze." Then she lets the branch spring back and walks on, and I notice I am still holding my breath. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
 
 }
 #if(v_ch3_kate_badly_hurt == 1) {
@@ -831,11 +831,11 @@ Rose watches him go, distressed. "Did I say something I shouldn't have?"
 
 "No," Kate says flatly. "This is entirely Barry's fault. Don't worry about it."
 
-We spend the next four hours pushing south on the direct line toward Rose's town. Her usual foraging routes loop wide to skirt known beast dens, but Daren insisted on haste to deliver the oil-drip cure, pointing out that our group can handle whatever the brush throws at us.
+We spend the next four hours pushing south on the direct line toward Rose's town. Her usual foraging routes loop wide to skirt known beast dens, but Rose pressed for the most direct path—every hour on the trail is another hour her father spends exposed to a failing quarantine—and Daren agreed without argument, pointing out that our group can handle whatever the brush throws at us.
 
 And Varathia finally decides to look like Varathia. The pines give way to a stretch of trees I have no name for—trunks pale as bone, leaves a deep violet that flashes silver when the wind turns them over. Around midday we skirt a shallow valley where a ring of broken pillars stands in the grass, each carved with a spiral of script, humming faintly as we pass like a struck goblet an hour after the toast. Nothing grows within fifty paces of the perimeter. Rose doesn't even glance over. "The locals leave them alone," she says. "So do we."
 
-Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
+Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. At one point the trail narrows between two fallen trunks, and she pauses ahead of me to hold a thorny branch aside with her forearm. I duck through, and for a moment we stand in the tight gap together—her shoulder against my chest, her hair brushing my jaw, the sharp green smell of crushed mint rising from her open satchel. "Sorry," she says, not moving immediately. "Tight squeeze." Then she lets the branch spring back and walks on, and I notice I am still holding my breath. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
 
 Kate keeps pace on stubbornness alone. The crossbow wound from this morning has drained the color from her skin, and twice her boot catches on exposed root, nearly sending her into the dirt. When Rose offers an arm and suggests a breather by the brook, Kate shakes her off with a curt hiss through her teeth. "I'm fine. Keep moving."
 
@@ -857,11 +857,11 @@ Rose watches him go, distressed. "Did I say something I shouldn't have?"
 
 "No," Kate says flatly. "This is entirely Barry's fault. Don't worry about it."
 
-We spend the next four hours pushing south on the direct line toward Rose's town. Her usual foraging routes loop wide to skirt known beast dens, but Daren insisted on haste to deliver the oil-drip cure, pointing out that our group can handle whatever the brush throws at us.
+We spend the next four hours pushing south on the direct line toward Rose's town. Her usual foraging routes loop wide to skirt known beast dens, but Rose pressed for the most direct path—every hour on the trail is another hour her father spends exposed to a failing quarantine—and Daren agreed without argument, pointing out that our group can handle whatever the brush throws at us.
 
 And Varathia finally decides to look like Varathia. The pines give way to a stretch of trees I have no name for—trunks pale as bone, leaves a deep violet that flashes silver when the wind turns them over. Around midday we skirt a shallow valley where a ring of broken pillars stands in the grass, each carved with a spiral of script, humming faintly as we pass like a struck goblet an hour after the toast. Nothing grows within fifty paces of the perimeter. Rose doesn't even glance over. "The locals leave them alone," she says. "So do we."
 
-Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
+Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. At one point the trail narrows between two fallen trunks, and she pauses ahead of me to hold a thorny branch aside with her forearm. I duck through, and for a moment we stand in the tight gap together—her shoulder against my chest, her hair brushing my jaw, the sharp green smell of crushed mint rising from her open satchel. "Sorry," she says, not moving immediately. "Tight squeeze." Then she lets the branch spring back and walks on, and I notice I am still holding my breath. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
 
 }
 #if(v_ch3_kate_badly_hurt == 1) {
@@ -875,11 +875,11 @@ Rose watches him go, distressed. "Did I say something I shouldn't have?"
 
 "No," Kate says flatly. "This is entirely Barry's fault. Don't worry about it."
 
-We spend the next four hours pushing south on the direct line toward Rose's town. Her usual foraging routes loop wide to skirt known beast dens, but Daren insisted on haste to deliver the oil-drip cure, pointing out that our group can handle whatever the brush throws at us.
+We spend the next four hours pushing south on the direct line toward Rose's town. Her usual foraging routes loop wide to skirt known beast dens, but Rose pressed for the most direct path—every hour on the trail is another hour her father spends exposed to a failing quarantine—and Daren agreed without argument, pointing out that our group can handle whatever the brush throws at us.
 
 And Varathia finally decides to look like Varathia. The pines give way to a stretch of trees I have no name for—trunks pale as bone, leaves a deep violet that flashes silver when the wind turns them over. Around midday we skirt a shallow valley where a ring of broken pillars stands in the grass, each carved with a spiral of script, humming faintly as we pass like a struck goblet an hour after the toast. Nothing grows within fifty paces of the perimeter. Rose doesn't even glance over. "The locals leave them alone," she says. "So do we."
 
-Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
+Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. At one point the trail narrows between two fallen trunks, and she pauses ahead of me to hold a thorny branch aside with her forearm. I duck through, and for a moment we stand in the tight gap together—her shoulder against my chest, her hair brushing my jaw, the sharp green smell of crushed mint rising from her open satchel. "Sorry," she says, not moving immediately. "Tight squeeze." Then she lets the branch spring back and walks on, and I notice I am still holding my breath. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
 
 Kate keeps pace on stubbornness alone. The crossbow wound from this morning has drained the color from her skin, and twice her boot catches on exposed root, nearly sending her into the dirt. When Rose offers an arm and suggests a breather by the brook, Kate shakes her off with a curt hiss through her teeth. "I'm fine. Keep moving."
 
@@ -933,9 +933,9 @@ We keep a steady south-bound rhythm, pausing only to knock wild pears from the h
 
 }
 choice(""Don't worry, that wasn't what our discussion was about."", Ch6-Flirt, v_current_scene = Ch6-Flirt, v_ch6_flirt = 1)
-choice(""Actually, I prefer women with larger breasts like yourself."", Ch6-Flirt, v_current_scene = Ch6-Flirt, v_ch6_flirt = 2)
+choice(""Honestly? I've been staring at you all morning instead of watching the trail. I tripped twice."", Ch6-Flirt, v_current_scene = Ch6-Flirt, v_ch6_flirt = 2)
 choice(""I'm still available, if that's what you're asking."", Ch6-Flirt, v_current_scene = Ch6-Flirt, v_ch6_flirt = 3)
-choice(""You've got it all wrong! My only feelings are for you."", Ch6-Flirt, v_current_scene = Ch6-Flirt, v_ch6_flirt = 4)
+choice(""Kate and I have a purely professional relationship. She threatens to kill me, I fail to die."", Ch6-Flirt, v_current_scene = Ch6-Flirt, v_ch6_flirt = 4)
 choice(""Don't worry, we got to say all we needed before you interrupted."", Ch6-Flirt, v_current_scene = Ch6-Flirt, v_ch6_flirt = 5)
 choice(""Actually, you're the one that stunned me with your beauty when I first saw you."", Ch6-Flirt, v_current_scene = Ch6-Flirt, v_ch6_flirt = 6)
 
@@ -950,11 +950,11 @@ Rose arches an auburn brow, clearly unconvinced. "If you say so! Though if both 
 
 }
 #if(v_ch6_flirt == 2) {
-"Actually, I prefer women with larger breasts like yourself."
+"Honestly? I've been staring at you all morning instead of watching the trail. I tripped twice."
 
 Rose blinks, then lets out a delighted laugh that turns heads fifty paces away.
 
-"My, aren't we bold!" she says, her eyes dancing with amusement. "Tell me, Barry—has that line ever worked for you in the past?"
+"My, aren't we forward!" she says, her eyes dancing with amusement. "Tell me, Barry—has that approach ever worked for you in the past?"
 
 }
 #if(v_ch6_flirt == 3) {
@@ -966,11 +966,11 @@ A slow, knowing smile touches Rose's lips.
 
 }
 #if(v_ch6_flirt == 4) {
-"You've got it all wrong! My only feelings are for you."
+"Kate and I have a purely professional relationship. She threatens to kill me, I fail to die."
 
 Rose presses a hand against her collarbone, laughing softly.
 
-"Oh my, how flattering! Though I'm not exactly sure how seriously I can take someone who announces his feelings for me a mere few hours after we've first met. Perhaps we should take this a bit slower? Get to know each other first?"
+"Oh my, that's quite the arrangement! Though from what I've seen, there might be a bit more warmth behind those threats than you're letting on. Perhaps we should take this a bit slower? Get to know each other first?"
 
 }
 #if(v_ch6_flirt == 5) {
@@ -1011,7 +1011,7 @@ choice(""Not really."", Ch6-Really, v_current_scene = Ch6-Really) if (v_ch6_flir
 choice(""Of course."", Ch6-Course, v_current_scene = Ch6-Course) if (v_ch6_flirt == 3)
 choice(""I want my answer now!"", Ch6-Answer, v_current_scene = Ch6-Answer) if (v_ch6_flirt == 3)
 choice(""Maybe you're right. I'm sorry for getting ahead of myself."", Ch6-Ahead, v_current_scene = Ch6-Ahead) if (v_ch6_flirt == 4)
-choice(""I cannot wait any longer. My heart burns with passion for you!"", Ch6-Passion, v_current_scene = Ch6-Passion) if (v_ch6_flirt == 4)
+choice(""Most of my planning assumes I won't survive the week. So 'later' is optimistic."", Ch6-Passion, v_current_scene = Ch6-Passion) if (v_ch6_flirt == 4)
 
 
 ID: Ch6-Single
@@ -1077,11 +1077,11 @@ choice("Continue", Ch6-Backstory, v_current_scene = Ch6-Backstory)
 ID: Ch6-Passion
 TEXT:
 
-"I cannot wait any longer. My heart burns with passion for you!"
+"Most of my planning assumes I won't survive the week. So 'later' is optimistic."
 
-Rose immediately bursts into laughter upon hearing my love declaration.
+Rose lets out a soft laugh, shaking her head.
 
-"Oh, gods," she says, trying to contain herself. "I'm so sorry! It's just that you sound exactly like my ex husband. He used to say the craziest things!"
+"Oh, gods," she says. "You really are blunt, aren't you? You remind me of my ex husband. He had the same talent for turning morbid honesty into a courtship strategy."
 
 choice(""But did he mean it like I do?"", Ch6-Mean, v_current_scene = Ch6-Mean)
 choice(""Ex husband?"", Ch6-Husband, v_current_scene = Ch6-Husband)
@@ -1777,9 +1777,9 @@ Eiden snaps his fingers and my stat device flies out of my hand and into his. Th
 
 "I realize this must all be very confusing for you, Barry, so I'm going to provide you with a little bit of context. The beast that just attacked you is Tyrath, the self proclaimed king of all dragons. The reason he's looking for me is because I wrote a message in the stars last night in an ancient language used primarily by dragon hunters. The message's purpose was to let all dragon hunters who entered this contest know that a dragon exists on this island, and to give them all a little extra incentive to hunt him down. I very much doubt that any of them will pose a realistic threat to him, but it will be fun to watch."
 
-He finishes charging up my stat device and then hands it back to me. As I hold it in my hand, I can feel a powerful surge of magical energy run through me and flow through all of my body. 
+He finishes charging up my stat device and then hands it back to me. The instant my fingers close around it, agony lances up my forearm like boiling water poured into the marrow. Every nerve fires at once—not the clean, measured allocation of a stat upgrade, but a grinding, splintering pressure that fills my skull with white noise. I can feel mana—actually feel it—a roaring torrent I have only ever read about. My hands know how to shape it the way a drowning man knows the theory of swimming.
 
-"I believe your ultimate goal was to win this tournament and become a mage, was it not? Well, Barry, I am now giving you a taste of that power. For about five minutes, you will have magical powers comparable to mine. More than enough to drive off the dragon, I'd wager. All of the information you need in order to use your powers should have been transferred into your mind by the stat device. I'm looking forward to watching your battle!"
+"I believe your ultimate goal was to win this tournament and become a mage, was it not? Well, Barry, I am now giving you a taste of that power. For about five minutes, your device will channel raw mana at a rate it was never designed to handle. Whether your body can survive translating theory into practice—that is the interesting part. I'm looking forward to watching your battle!"
 
 Eiden fades into thin air. When only his outline remains, he says:
 
@@ -1805,9 +1805,9 @@ Eiden snaps his fingers and my stat device flies out of my hand and into his. Th
 
 "I realize this must all be very confusing for you, Barry, so I'm going to provide you with a little bit of context. The beast that just attacked you is Tyrath, the self proclaimed king of all dragons. The reason he's looking for me is because I wrote a message in the stars last night in an ancient language used primarily by dragon hunters. The message's purpose was to let all dragon hunters who entered this contest know that a dragon exists on this island, and to give them all a little extra incentive to hunt him down. I very much doubt that any of them will pose a realistic threat to him, but it will be fun to watch."
 
-He finishes charging up my stat device and then hands it back to me. As I hold it in my hand, I can feel a powerful surge of magical energy run through me and flow through all of my body. 
+He finishes charging up my stat device and then hands it back to me. The instant my fingers close around it, agony lances up my forearm like boiling water poured into the marrow. Every nerve fires at once—not the clean, measured allocation of a stat upgrade, but a grinding, splintering pressure that fills my skull with white noise. I can feel mana—actually feel it—a roaring torrent I have only ever read about. My hands know how to shape it the way a drowning man knows the theory of swimming.
 
-"I believe your ultimate goal was to win this tournament and become a mage, was it not? Well, Barry, I am now giving you a taste of that power. For about five minutes, you will have magical powers comparable to mine. More than enough to drive off the dragon, I'd wager. All of the information you need in order to use your powers should have been transferred into your mind by the stat device. I'm looking forward to watching your battle!"
+"I believe your ultimate goal was to win this tournament and become a mage, was it not? Well, Barry, I am now giving you a taste of that power. For about five minutes, your device will channel raw mana at a rate it was never designed to handle. Whether your body can survive translating theory into practice—that is the interesting part. I'm looking forward to watching your battle!"
 
 Eiden fades into thin air. When only his outline remains, he says:
 
@@ -1825,9 +1825,9 @@ Eiden snaps his fingers and my stat device flies out of my hand and into his. Th
 
 "I realize this must all be very confusing for you, Barry, so I'm going to provide you with a little bit of context. The beast that just attacked you is Tyrath, the self proclaimed king of all dragons. The reason he's looking for me is because I wrote a message in the stars last night in an ancient language used primarily by dragon hunters. The message's purpose was to let all dragon hunters who entered this contest know that a dragon exists on this island, and to give them all a little extra incentive to hunt him down. I very much doubt that any of them will pose a realistic threat to him, but it will be fun to watch."
 
-He finishes charging up my stat device and then hands it back to me. As I hold it in my hand, I can feel a powerful surge of magical energy run through me and flow through all of my body. 
+He finishes charging up my stat device and then hands it back to me. The instant my fingers close around it, agony lances up my forearm like boiling water poured into the marrow. Every nerve fires at once—not the clean, measured allocation of a stat upgrade, but a grinding, splintering pressure that fills my skull with white noise. I can feel mana—actually feel it—a roaring torrent I have only ever read about. My hands know how to shape it the way a drowning man knows the theory of swimming.
 
-"I believe your ultimate goal was to win this tournament and become a mage, was it not? Well, Barry, I am now giving you a taste of that power. For about five minutes, you will have magical powers comparable to mine. More than enough to drive off the dragon, I'd wager. All of the information you need in order to use your powers should have been transferred into your mind by the stat device. I'm looking forward to watching your battle!"
+"I believe your ultimate goal was to win this tournament and become a mage, was it not? Well, Barry, I am now giving you a taste of that power. For about five minutes, your device will channel raw mana at a rate it was never designed to handle. Whether your body can survive translating theory into practice—that is the interesting part. I'm looking forward to watching your battle!"
 
 Eiden fades into thin air. When only his outline remains, he says:
 
@@ -1842,7 +1842,7 @@ TEXT:
 
 Eiden vanishes into thin air.
 
-The stasis spell frays at the edges. Taking his parting advice, I reach into the well of power coursing through my hands and weave a heavy kinetic barrier around Kate and Daren. The incantation flows through me with effortless, terrifying precision—as if I've been shaping mana since childhood.
+The stasis spell frays at the edges. Taking his parting advice, I reach into the torrent of power screaming through my hands and force it into the shape of a kinetic barrier around Kate and Daren. Page forty-three of Elara's Fundamentals—push outward, shape the boundary, hold. The theory is clean. The execution tears a grunt from my throat and sends blood dripping from my left nostril. One spell, and my hands are already shaking.
 
 Time snaps forward.
 
@@ -2172,6 +2172,8 @@ TEXT:
 
 set(v_is_dead,0) if (v_ch6_improvise == 1 && v_perception == 4 || v_ch6_offense == 1 && v_perception == 4 || v_ch6_offense == 2 && v_perception == 4 || v_ch6_improvise == 1 && v_premonition == 4 && v_perception < 4 || v_ch6_offense == 1 && v_premonition == 4 && v_perception < 4 || v_ch6_offense == 2 && v_premonition == 4 && v_perception < 4 || v_ch6_improvise == 1 && v_reflexes == 4 && v_perception < 4 && v_premonition < 4 || v_ch6_offense == 1 && v_reflexes == 4 && v_perception < 4 && v_premonition < 4 || v_ch6_offense == 2 && v_reflexes == 4 && v_perception < 4 && v_premonition < 4)
 set(v_is_dead,1) if (v_perception < 4 && v_premonition < 4 && v_reflexes < 4)
+The dragon splits into three shimmering copies, each one circling in a different direction. I strain to track the real one—shadows, light angles, the faint displacement of air. The illusion is too tight, too layered. Only raw perception, premonitive instinct, or reflexes fast enough to react blind could separate the decoy from the kill stroke.
+
 #if(v_ch6_offense == 1 && v_perception == 4 || v_ch6_improvise == 1 && v_perception == 4 && v_ch6_offense != 2) {
 
 The sunlight glinting off the dragon's crimson scales strikes from the wrong angle—the shadows fall toward the sun. A glamour.

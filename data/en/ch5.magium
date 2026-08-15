@@ -30,6 +30,10 @@ He drops to one knee and presses his palm near my leg. A brilliant white glow sp
 
 "What? No—that's impossible. I have layered sleep wards woven into this armor. I should be nearly immune, or at the very least conscious enough to resist! And fire magic? He held me down with pure compressed air when we first crossed paths. Mastering even a single element takes half a lifetime!"
 
+He falls silent, staring at the spot where Eiden vanished. Then he turns back to me, something shifting behind his eyes.
+
+"Barry. When we met yesterday, I told you I would walk with you until we reached safer ground. That was the arrangement." He pauses, pressing one fist against the pommel of his sword. "But you just traded your own body to a being who could unmake the both of us—for my sake. That is not a stranger's gamble. That is..." He shakes his head, a rough exhale escaping through his teeth. "I am not going to pretend this is still a temporary escort. If you will have me, I am with you until this tournament ends. Not as repayment. As a choice."
+
 }
 #if(v_ch4_ending == 2) {
 
@@ -71,6 +75,10 @@ Another secret. It's written in every line of her posture.
 
 "Backed by the kings?" Daren's brow furrows. "What does Eiden want with royal lapdogs? You just tell them to remember the still winter, right? What is that supposed to mean?"
 
+He pauses, then glances at me—something settling behind his expression.
+
+"Barry. You talked a stillwater into releasing all three of us for the price of a sentence. I said I would walk with you until safer ground—I think we are well past that now. Whatever comes next, I am in."
+
 }
 #if(v_ch4_ending == 4) {
 
@@ -87,6 +95,8 @@ He pushes through the branches, head turning as he searches the clearing. "Where
 "Not me. Eiden came back and incinerated Dave the second he drew a blade on me. Said it wouldn't do for his messenger to die inside the post office."
 
 "Wait—fire magic? He pinned me to the stone with air when we first met. Mastering even a single element takes half a lifetime!"
+
+He scrubs a hand over his bald scalp, jaw tight. "Barry—you walked up to a being who dropped me with two fingers, and negotiated. Alone. Unarmed." He meets my eyes. "I said I would stay with you until safer ground. I think we are well past that arrangement. Whatever comes next, I am in."
 
 }
 #if(v_ch4_ending == 5 && v_ch4_dave_defeat != 1 || v_ch4_ending == 3) {
@@ -325,6 +335,8 @@ Kate nods.
 
 "Nobody said that. I'm saying we lack the intelligence to construct a viable strategy. Until we uncover a vulnerability in his technique, we should make the most of the reprieve Barry negotiated, however long it lasts."
 
+I catch the phrasing and file it away. The reprieve Barry negotiated. Not "the deal you stumbled into." Not "the mess you made." She framed it as a deliberate tactical move—as if my gambit with Eiden had been a calculated play rather than blind panic dressed up in bravado. Coming from Kate, that is as close to a compliment as I have ever heard.
+
 "Perhaps you're right. Let's hope that window gives us time to find an opening."
 
 "Kate," I say, nodding toward the mouth of the cave. "Do you have a minute?"
@@ -355,6 +367,8 @@ Kate nods.
 
 "Nobody said that. I'm saying we lack the intelligence to construct a viable strategy. Until we uncover a vulnerability in his technique, we should make the most of the reprieve Barry negotiated, however long it lasts."
 
+I catch the phrasing and file it away. The reprieve Barry negotiated. Not "the deal you stumbled into." Not "the mess you made." She framed it as a deliberate tactical move—as if my gambit with Eiden had been a calculated play rather than blind panic dressed up in bravado. Coming from Kate, that is as close to a compliment as I have ever heard.
+
 "Perhaps you're right. Let's hope that window gives us time to find an opening."
 
 He turns to me.
@@ -384,6 +398,8 @@ Kate nods.
 "So we just roll over and run his errands like obedient dogs?"
 
 "Nobody said that. I'm saying we lack the intelligence to construct a viable strategy. Until we uncover a vulnerability in his technique, we should make the most of the reprieve Barry negotiated, however long it lasts."
+
+I catch the phrasing and file it away. The reprieve Barry negotiated. Not "the deal you stumbled into." Not "the mess you made." She framed it as a deliberate tactical move—as if my gambit with Eiden had been a calculated play rather than blind panic dressed up in bravado. Coming from Kate, that is as close to a compliment as I have ever heard.
 
 "Perhaps you're right. Let's hope that window gives us time to find an opening."
 
@@ -422,6 +438,8 @@ TEXT:
 
 "Nobody said that. I'm saying we lack the intelligence to construct a viable strategy. Until we uncover a vulnerability in his technique, we should make the most of the reprieve Barry negotiated, however long it lasts."
 
+I catch the phrasing and file it away. The reprieve Barry negotiated. Not "the deal you stumbled into." Not "the mess you made." She framed it as a deliberate tactical move—as if my gambit with Eiden had been a calculated play rather than blind panic dressed up in bravado. Coming from Kate, that is as close to a compliment as I have ever heard.
+
 "Perhaps you're right. Let's hope that window gives us time to find an opening."
 
 "Kate," I say, nodding toward the mouth of the cave. "Do you have a minute?"
@@ -450,6 +468,8 @@ As we pass, Daren catches my eye, winks, and gives me a broad thumbs-up. Leave i
 
 "Nobody said that. I'm saying we lack the intelligence to construct a viable strategy. Until we uncover a vulnerability in his technique, we should make the most of the reprieve Barry negotiated, however long it lasts."
 
+I catch the phrasing and file it away. The reprieve Barry negotiated. Not "the deal you stumbled into." Not "the mess you made." She framed it as a deliberate tactical move—as if my gambit with Eiden had been a calculated play rather than blind panic dressed up in bravado. Coming from Kate, that is as close to a compliment as I have ever heard.
+
 "Perhaps you're right. Let's hope that window gives us time to find an opening."
 
 He turns to me.
@@ -477,6 +497,8 @@ Kate's eyes narrow into a sharp glare.
 "So we just roll over and run his errands like obedient dogs?"
 
 "Nobody said that. I'm saying we lack the intelligence to construct a viable strategy. Until we uncover a vulnerability in his technique, we should make the most of the reprieve Barry negotiated, however long it lasts."
+
+I catch the phrasing and file it away. The reprieve Barry negotiated. Not "the deal you stumbled into." Not "the mess you made." She framed it as a deliberate tactical move—as if my gambit with Eiden had been a calculated play rather than blind panic dressed up in bravado. Coming from Kate, that is as close to a compliment as I have ever heard.
 
 "Perhaps you're right. Let's hope that window gives us time to find an opening."
 
@@ -1130,7 +1152,11 @@ choice("Continue", Ch5-Creator, v_current_scene = Ch5-Creator)
 ID: Ch5-Creator
 TEXT:
 
-"Oh, no... my family is in good health, thank the gods. I came because the infected are laborers and paupers—people who cannot afford physician fees, let alone hire escorts to forage rare roots for them. Nor do I possess the funds to hire mercenaries myself. I am not a physician, but I volunteer in the infirmaries whenever I can. Since our high priest passed, the casualty numbers climb with every sunrise. He was the last person in our town who possessed the art of conjuring food from thin air through magic. Despite years of effort, none of his acolytes could master the technique. Without him, famine spreads. People eat poisonous berries from desperation, others starve, and some have resorted to... to..."
+"My siblings have not been infected—not yet." She steadies herself, one hand pressing flat against the flap of her satchel. "But my father is bedridden. A wasting illness, years now—he cannot leave the house. His sickroom shares a wall with the quarantine ward. I have watched oildrip overwhelm three clinics this season alone. Containment always fails once the cots are full, and when it breaks, my father will not survive the night. He has no natural resistance left."
+
+She draws a breath, straightening.
+
+"Beyond that, the infected are laborers and paupers—people who cannot afford physician fees, let alone hire escorts to forage rare roots for them. Nor do I possess the funds to hire mercenaries myself. I am not a physician, but I volunteer in the infirmaries whenever I can. Since our high priest passed, the casualty numbers climb with every sunrise. He was the last person in our town who possessed the art of conjuring food from thin air through magic. Despite years of effort, none of his acolytes could master the technique. Without him, famine spreads. People eat poisonous berries from desperation, others starve, and some have resorted to... to..."
 
 Her voice catches, sorrow shadowing her eyes.
 

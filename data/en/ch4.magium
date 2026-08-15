@@ -3,9 +3,9 @@ TEXT:
 
 #if(v_ch3_bloodied == 0 && v_ch3_kate_badly_hurt == 0) {
 
-Daren paces outside our cave, broad shoulders rigid beneath his plate armor. The moment we come within earshot, his voice booms across the clearing, lecturing us for wandering off and breaking formation.
+Daren paces outside our cave, broad shoulders rigid beneath his plate armor. The moment we come within earshot, his voice cuts across the clearing—not quite lecturing, but making it abundantly clear he expected us back an hour ago.
 
-Kate brushes past him with a dismissive flick of her wrist, mumbling that the morning's nuisance exhausted her, and slips into the cool shade of the cave to sleep. Daren turns to me, brow furrowed, and I give him the short version—the Duke of Bagelberry and his crossbow ambush.
+Kate brushes past him with a dismissive flick of her wrist, mumbling that the morning's nuisance exhausted her, and slips into the cool shade of the cave to sleep. As she passes my shoulder, her gaze catches mine for a fraction of a second—no nod, no words, but none of yesterday's iron either. Just the flat acknowledgment of someone who held the other flank. Then she is past, and the moment dissolves into the cave's dark. Daren turns to me, brow furrowed, and I give him the short version—the Duke of Bagelberry and his crossbow ambush.
 
 "You're fortunate to have walked out of there in one piece," Daren grumbles, rubbing the bridge of his nose. "Why bother with a strategy council yesterday if everyone scatters the moment the sun comes up?"
 
@@ -22,7 +22,7 @@ Standing watch in the quiet, our talk turns back to the tournament and the utter
 }
 #if(v_ch3_bloodied == 1 && v_ch3_kate_badly_hurt == 0) {
 
-Daren paces outside our cave, broad shoulders rigid beneath his plate armor. The moment we come within earshot, his voice booms across the clearing, lecturing us for wandering off—until we draw closer and he spots the fresh cuts along Kate's arms and the dust in her hair. His lecture dies in his throat. White light flares at his fingertips as he channels a mending spell over her wounds. She takes the healing without a word, offers no thanks, and retreats into the cave to sleep. Daren turns to me with a hard stare, and I explain the Duke of Bagelberry's ambush.
+Daren paces outside our cave, broad shoulders rigid beneath his plate armor. The moment we come within earshot, his voice cuts across the clearing—not quite lecturing, but making it abundantly clear he expected us back an hour ago—until we draw closer and he spots the fresh cuts along Kate's arms and the dust in her hair. His lecture dies in his throat. White light flares at his fingertips as he channels a mending spell over her wounds. She takes the healing without a word, offers no thanks, and retreats into the cave to sleep. Daren turns to me with a hard stare, and I explain the Duke of Bagelberry's ambush.
 
 "You're fortunate to have walked out of there in one piece," Daren grumbles, rubbing the bridge of his nose. "Why bother with a strategy council yesterday if everyone scatters the moment the sun comes up?"
 
@@ -353,7 +353,9 @@ Daren collapses instantly, his armored bulk slamming hard against the rocky eart
 
 "Merely a sleep spell," the stillwater says mildly. "He will awaken in a few minutes."
 
-He turns toward the tree line.
+He turns toward the tree line, then pauses. Without warning, he closes the distance between us in a single step—faster than I can flinch—and presses two fingers against my forehead. A cold pulse sinks through my skull, sharp and deep, like a needle dipped in winter.
+
+"A small bookmark," he says, withdrawing his hand. "So I can find you when the time comes. You negotiated with a stillwater using logic, Barry. That hasn't happened in a very long time." His closed eyes study me with something that looks almost like genuine curiosity. "Interesting."
 
 "Do not fret over hunting down my acquaintances. I suspect you will cross paths with them soon enough."
 

@@ -174,7 +174,7 @@ Rose presses a hand to her chest, her expression softening with pity. "I'm so so
 }
 choice(""Live inside your own mind? You mean to say that you space out a lot?"", Ch9-Space-out, v_current_scene = Ch9-Space-out)
 choice(""Talk about an active imagination!"", Ch9-Imagination, v_current_scene = Ch9-Imagination)
-choice(""I know a good doctor in the Western Continent, if you are interested."", Ch9-Doctor, v_current_scene = Ch9-Doctor)
+choice(""So when you argue with yourself, there's actually someone arguing back? That's terrifyingly efficient."", Ch9-Doctor, v_current_scene = Ch9-Doctor)
 
 
 ID: Ch9-Space-out
@@ -242,11 +242,11 @@ choice("Continue", Ch9-Beacon, v_current_scene = Ch9-Beacon)
 ID: Ch9-Doctor
 TEXT:
 
- "I know a good doctor in the Western Continent, if you are interested."
+ "So when you argue with yourself, there's actually someone arguing back? That's terrifyingly efficient."
 
-"Don't be so harsh, Barry," Hadrik tells me, shaking his head. "Children have active minds. Why, back in the clan, I knew a lad who swore he—"
+"That's a weird way to put it," Hadrik tells me, shaking his head. "Children have active minds. Why, back in the clan, I knew a lad who swore he—"
 
-"I don't need a doctor!" Flower shouts, stomping a bare foot into the dirt. "I've been living inside my mind for as long as I can remember! Why does everyone think I'm crazy?"
+"It's not arguing!" Flower shouts, stomping a bare foot into the dirt. "Petal and I get along perfectly! Why does everyone make it sound so strange?"
 
 "I don't," Kate says.
 
@@ -573,11 +573,11 @@ TEXT:
 
  "Well, it would have been a bit difficult to ignore you, what with the whimpers and trembling and everything."
 
-Rose gives my arm a light, playful tap with her knuckles.
+Rose gives my arm a light, playful tap with her knuckles. Her hand does not quite leave. Her fingers settle there—light, absent, the way you might rest your hand on a warm stone—while she talks.
 
 "I see why Kate punches you," she says with a small smile. "Thank you for asking, though. Giant beasts have always terrified me. Goblins and ogres I can handle—I've run into enough while gathering herbs on the outer roads. But dragons and hydras... I knew they roamed the wilds, but facing both in twenty-four hours was more than I ever expected. I don't know how Daren and Hadrik treat them like everyday chores."
 
-She looks at me across the fire pit.
+She looks at me across the fire pit—then seems to notice where her hand has been and pulls it back, tucking a strand of auburn hair behind her ear.
 
 "This must be just as foreign to you, though. You told me you hadn't fought a goblin before entering Varathia. How do you stay so level-headed when the ground is coming apart under your boots?"
 
@@ -662,7 +662,7 @@ Rose looks slightly surprised by the pivot.
 #if(v_ch6_flirt == 2) {
  "You were blushing just now," I say. "Have you reconsidered your stance on me since our last talk?"
 
-"Only regarding your combat prowess," Rose says, turning back with an amused arch of her brow. "Had your very first remark to me not concerned the size of my chest, matters might have unfolded differently. As it stands, my initial assessment remains firm."
+"Only regarding your combat prowess," Rose says, turning back with an amused arch of her brow. "Had your very first remark to me not been about tripping over your own feet while staring at me, matters might have unfolded differently. As it stands, my initial assessment remains firm."
 
 "Ouch," I mutter.
 
@@ -1698,9 +1698,9 @@ set(v_is_dead,0) if (v_reflexes >= 3)
 
 I spin around. 
 
-An eight-foot brute fades into view two feet away, his massive oak club already descending toward my face.
+An eight-foot brute fades into view two feet away, his massive oak club already descending toward my face. My legs try to move but the signal arrives too late—muscles fire a fraction of a second after the window has closed.
 
-A dull, triumphant grin is the last thing I register before fifty pounds of solid timber shatters my skull, dropping me into instant blackness.
+A dull, triumphant grin is the last thing I register before fifty pounds of solid timber connects with my skull. The world detonates into white, then collapses to black. I never feel myself hit the ground.
 
 }
 #if(v_reflexes >= 3) {

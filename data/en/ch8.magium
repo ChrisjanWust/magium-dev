@@ -15,6 +15,8 @@ Daren stands over me, his plate armor clinking as he shifts his weight. Across t
 
 I pull the stat device from my pocket. Four unallocated points glow on the display, charged by the residual magical currents from yesterday's battles.
 
+The corridors around us hum with trapped mechanisms—I can hear springs coiled behind the walls, feel the floor tiles shift under uneven weight. Whatever built this gauntlet valued speed and instinct above all else. And deeper in, where the stonework turns to ancient lessathi script, I suspect only foresight will navigate what logic cannot.
+
 choice("Invest points now", Ch8-Stats-spent, v_current_scene = Ch8-Stats-spent, special:stats)
 choice("Invest points later(by pressing the stats button on the top of the screen)", Ch8-Intro2, v_current_scene = Ch8-Intro2, v_checkpoint_rich = 0)
 
@@ -35,6 +37,8 @@ Daren stands over me, his plate armor clinking as he shifts his weight. Across t
 "Not the lessathi," Daren says. "The local wildlife. They took offense to us trampling through their sacred grove. I'll bring you up to speed on the rest, but first—can you PLEASE silence that infernal contraption? It's been chirping since I opened my eyes, and it's grinding on my last nerve."
 
 I pull the stat device from my pocket. Four unallocated points glow on the display, charged by the residual magical currents from yesterday's battles.
+
+The corridors around us hum with trapped mechanisms—I can hear springs coiled behind the walls, feel the floor tiles shift under uneven weight. Whatever built this gauntlet valued speed and instinct above all else. And deeper in, where the stonework turns to ancient lessathi script, I suspect only foresight will navigate what logic cannot.
 
 choice("Continue", Ch8-Intro2, v_current_scene = Ch8-Intro2, v_checkpoint_rich = 0)
 
@@ -739,7 +743,9 @@ set(v_is_dead,0) if (v_reflexes >= 2)
 
 The dwarf unleashes a devastating punch into the advancing wall. The masonry implodes, but behind the shattered stone, a spring-loaded trap triggers. A volley of iron spears erupts from the breach at point-blank range.
 
-Before I can even flinch, an iron tip drives directly through my skull. Darkness swallows me in an instant.
+I see the iron tips emerge—a wall of death racing toward me—and my body simply cannot move fast enough. Time stretches into a single frozen heartbeat where I know exactly what is about to happen and can do nothing to stop it.
+
+An iron spear punches through my chest, pinning me upright against the stone behind. A second takes my throat. The pain is white and total and then nothing—just the distant sound of Daren shouting my name as everything goes dark.
 
 }
 #if(v_reflexes >= 2) {
@@ -1486,6 +1492,8 @@ Above each stone archway, an insect glyph is carved deep into the keystone. She 
 
 "Yes! The safe path goes directly to the console room without a single defense mechanism," Flower groans, clutching her head. "I just can't remember which bug is the right one!"
 
+The three archways yawn before us, identical save for the glyphs. No visual tells. No scuff marks or temperature differences. If the wrong corridor seals behind us and triggers a floor-collapse trap, there will be no time to react—only foreknowledge would save us from a drop we cannot outrun.
+
 }
 #if(v_ch8_talk == 1) {
  "No, no, no!" Flower wails as we reach the junction where the path divides in three.
@@ -1503,6 +1511,8 @@ Above each stone archway, an insect glyph is carved deep into the keystone. She 
 "You think it's an ambush?" Kate asks.
 
 "I don't know!" Flower groans, clutching her head. "I just can't remember which bug is the right one!"
+
+The three archways yawn before us, identical save for the glyphs. No visual tells. No scuff marks or temperature differences. If the wrong corridor seals behind us and triggers a floor-collapse trap, there will be no time to react—only foreknowledge would save us from a drop we cannot outrun.
 
 }
 choice("Suggest taking the path marked with a dragonfly", Ch8-Dragonfly, v_current_scene = Ch8-Dragonfly)

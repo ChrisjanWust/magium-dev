@@ -127,11 +127,7 @@ A glowing glyph pulses in my field of vision, warning me that the guard is a pro
 
 "Rose! By the gods, you're back," Ralph says, dropping his spear to rest on his boot. "The oildrip broke containment while you were out in the wilds. They've quarantined the entire Sparrow's district."
 
-He glances across our group, taking in Daren's plate armor and Hadrik's broad shoulders.
-
-"I take it these are the travelers who saw you home safely. You have my thanks, all of you. Thilias wouldn't be the same without our herbalist."
-
-"Is there word from the clinics, Ralph?" Rose asks.
+The color drains from Rose's face. "My father—is there word from the clinics, Ralph?" she asks, her voice tight.
 
 "Nurse Martha left strict orders to find her the minute you passed the gates," Ralph says. "Check in at her tent before you head anywhere else."
 
@@ -165,11 +161,7 @@ A translucent prompt blinks in my vision, identifying the guard as a local off-l
 
 "Rose! By the gods, you're back," Ralph says, lowering his weapon. "The oildrip broke containment while you were out in the wilds. They've quarantined the entire Sparrow's district."
 
-He looks us over with open relief.
-
-"I take it these are the travelers who saw you home safely. You have my thanks, all of you. Thilias wouldn't be the same without our herbalist."
-
-"Is there word from the clinics, Ralph?" Rose asks.
+The color drains from Rose's face. "My father—is there word from the clinics, Ralph?" she asks, her voice tight.
 
 "Nurse Martha left strict orders to find her the minute you passed the gates," Ralph says. "Check in at her tent before you head anywhere else."
 
@@ -195,11 +187,7 @@ A warning sigil flares in my vision: local resident, untouchable by tournament m
 
 "Rose! By the gods, you're back," Ralph says, planting his spear butt in the dirt. "The oildrip broke containment while you were out in the wilds. They've quarantined the entire Sparrow's district."
 
-He looks across our ragged band.
-
-"I take it these are the travelers who saw you home safely. You have my thanks, all of you. Thilias wouldn't be the same without our herbalist."
-
-"Is there word from the clinics, Ralph?" Rose asks.
+The color drains from Rose's face. "My father—is there word from the clinics, Ralph?" she asks, voice tight.
 
 "Nurse Martha left strict orders to find her the minute you passed the gates," Ralph says. "Check in at her tent before you head anywhere else."
 
@@ -1046,7 +1034,7 @@ The metal goes dead silent. Arraka clearly has no appetite for another two decad
 
 "Of course," Rose says. "Follow me."
 
-Rose settles us in, then departs for the Sparrow's district with her wicker basket of remedies, leaving the estate in our hands until sundown. Nobody is in the mood for company; we spend the afternoon in our separate quarters. By dusk Rose returns, and Hadrik rejoins us in the courtyard, somewhat cooled down. Daren's door stays firmly shut.
+Rose settles us in, checks briefly on her father's room—her shoulders drop an inch when she emerges, relief written in the loosening of her jaw—then departs for the Sparrow's district with her wicker basket of remedies, leaving the estate in our hands until sundown. Nobody is in the mood for company; we spend the afternoon in our separate quarters. By dusk Rose returns, and Hadrik rejoins us in the courtyard, somewhat cooled down. Daren's door stays firmly shut.
 
 choice("Continue", Ch11a-Clown, v_current_scene = Ch11a-Clown, v_available_points = +2, v_available_points_aux = +2)
 
@@ -1086,7 +1074,7 @@ The metal goes dead silent. Arraka clearly has no appetite for another two decad
 
 "Of course," Rose says. "Follow me."
 
-Rose settles us in, then departs for the Sparrow's district with her wicker basket of remedies, leaving the estate in our hands until sundown. Nobody is in the mood for company; we spend the afternoon in our separate quarters. By dusk Rose returns, and Hadrik rejoins us in the courtyard, somewhat cooled down. Daren's door stays firmly shut.
+Rose settles us in, checks briefly on her father's room—her shoulders drop an inch when she emerges, relief written in the loosening of her jaw—then departs for the Sparrow's district with her wicker basket of remedies, leaving the estate in our hands until sundown. Nobody is in the mood for company; we spend the afternoon in our separate quarters. By dusk Rose returns, and Hadrik rejoins us in the courtyard, somewhat cooled down. Daren's door stays firmly shut.
 
 choice("Continue", Ch11a-Clown, v_current_scene = Ch11a-Clown, v_available_points = +2, v_available_points_aux = +2)
 
@@ -1576,9 +1564,9 @@ TEXT:
 
 She laughs softly, ducking her head.
 
-"I can hardly believe you're the same man who made that clumsy remark about my chest the day we met."
+"I can hardly believe you're the same man who announced he'd been tripping over roots while staring at me."
 
-"I'm still sorry about that," I say. "I wanted to sound confident, and it came out entirely wrong."
+"I'm still sorry about that," I say. "I was going for charming and landed somewhere around pathetic."
 
 "You said you did it because you liked me..."
 

@@ -161,7 +161,7 @@ TEXT:
 
 "You LIAR! Did you think I wouldn't notice? Do you take me for a fool? Daren's been slowly getting closer to us from the moment I put my knife to your throat. He's moving quietly, and trying to suppress his magical aura, but I can still sense him. You called him here, didn't you? You were planning to have him kill me!"
 }
-choice(""Because I'm in love with you!"", Ch7-Love, v_current_scene = Ch7-Love) if (v_ch7_tap == 0)
+choice(""Because if I wanted you dead, I'd have let you walk into that crossbow ambush without a word."", Ch7-Love, v_current_scene = Ch7-Love) if (v_ch7_tap == 0)
 choice(""Because I helped you when we were attacked by the crossbowmen."", Ch7-Helped, v_current_scene = Ch7-Helped) if (v_ch7_tap == 0)
 choice(""I didn't call him here to kill you."", Ch7-Kill, v_current_scene = Ch7-Kill) if (v_ch7_tap == 1)
 choice(""Please, calm down. We can still talk things through."", Ch7-Calm, v_current_scene = Ch7-Calm) if (v_ch7_tap == 1)
@@ -170,11 +170,11 @@ choice(""Please, calm down. We can still talk things through."", Ch7-Calm, v_cur
 ID: Ch7-Love
 TEXT:
 
-"Because I'm in love with you!"
+"Because if I wanted you dead, I'd have let you walk into that crossbow ambush without a word."
 
 Kate's left fist slams into the trunk beside my ear, cracking the bark and splitting the skin over her knuckles. Blood smears against the wood. She is shaking with sheer fury.
 
-"Is everything a joke to you?!" she shouts at me.
+"Is that supposed to make me feel safe?!" she shouts at me. "You think reminding me I owe you my life counts as trust?"
 
 A faint rattle sounds from inside my coat pocket--not the stat booster.
 
@@ -1157,7 +1157,7 @@ Eiden looks confused, turning his head left and right as if checking for another
 
 "Are you perhaps referring to me?" he says to the sage. "I am quite certain that I'm a fair bit older than you, Sage of the West."
 
-Hadrik laughs loudly, grabbing everyone's attention.
+Hadrik laughs loudly, grabbing everyone's attention. I notice he has already produced a clay flask from somewhere—the stubby cork dangling by a leather thong—and takes a long pull before wiping his beard with the back of one massive hand. He catches my eye across the clearing and raises the flask in a cheerful salute, as if we are old friends sharing a tavern rather than strangers trapped in a magical ambush.
 
 "Hahahahahaha! When I called out to everyone earlier, I was hoping for a few strong challengers, but I never dared to dream that a stillwater would actually show up! How about it then? Are you up for a short sparring session to warm ourselves up before the tournament?"
 
@@ -1320,17 +1320,19 @@ Eiden watches calmly, eyes closed, raising a single eyebrow.
 
 Eiden extends his right arm, palm open. The flames hit his hand, freeze, and condense into a small glowing sphere above his skin. With a flick of his wrist, the sphere shoots back across the clearing, incinerating Felran in an instant. The flames vanish, leaving only a pile of ashes scattering in the wind.
 
-"Damn! You sure don't pull your punches," Hadrik tells the stillwater.
+The clearing goes silent. Not the absence of sound—the active, suffocating weight of fifty people forgetting to breathe. A man stood there three seconds ago. A mage powerful enough to challenge a stillwater. Now there is ash drifting across the grass, and nothing else.
+
+"Damn! You sure don't pull your punches," Hadrik tells the stillwater, breaking the silence with the easy tone of a man who has watched bigger things die.
 
 "Neither did he, for all the good it did him," Eiden says.
 
-He looks towards me, eyes closed, and smiles wickedly.
+He looks towards me, eyes closed, and smiles wickedly. For the space of a heartbeat, something that is not amusement crosses his face—a tightening around his closed eyes, a flicker of calculation. Then the grin returns, wider than before, and he looks directly at me before speaking to the crowd. He knows exactly what he is about to do to me.
 
 "Alright, let's continue, then!" says the dwarf, grinning.
 
 "I am terribly sorry, but something came up and I no longer have the time to finish our duel. However, there is another stillwater in this clearing who I'm sure would be more than glad to be your next opponent!"
 
-Every mage in the clearing turns their heads, locking their eyes on me.
+Every mage in the clearing turns their heads, locking their eyes on me. He just painted a target on my back. And from the way he refuses to open those eyes, he knows it.
 
 choice(""Who, me? I'm not a stillwater!"", Ch7-Who-me, v_current_scene = Ch7-Who-me)
 choice(""Actually, I'm kind of busy too. Maybe some other time?"", Ch7-Other-time, v_current_scene = Ch7-Other-time)
@@ -1727,7 +1729,7 @@ So there was also a powerful summoner amongst these mages. I was careless to let
 
 "What's the matter, stillwater?" I hear a voice coming from behind the wall of golems. "Aren't you going to stab the golems with your little knife as well?"
 
-This isn't good. Daren won't be able to fight all these golems by himself while also defending me. I need to do something.
+This isn't good. Daren won't be able to fight all these golems by himself while also defending me. Their massive stone fists swing in slow, telegraphed arcs—predictable enough if you are fast enough to exploit the gaps between strikes, or perceptive enough to sense which way they will lunge. Without speed or foresight, the only option left is a desperate gamble. I need to do something.
 }
 #if(v_premonition >= 3 && v_agility < 3) {
 "Alright," I tell him. "Then, I'll just go kill the healer real quick."
@@ -1754,7 +1756,7 @@ So there was also a powerful summoner amongst these mages. I was careless to let
 
 "What's the matter, stillwater?" I hear a voice coming from behind the wall of golems. "Aren't you going to shoot the golems with your little crossbow as well?"
 
-This isn't good. Daren won't be able to fight all these golems by himself while also defending me. I need to do something.
+This isn't good. Daren won't be able to fight all these golems by himself while also defending me. Their massive stone fists swing in slow, telegraphed arcs—predictable enough if you are fast enough to exploit the gaps between strikes, or perceptive enough to sense which way they will lunge. Without speed or foresight, the only option left is a desperate gamble. I need to do something.
 }
 #if(v_agility < 3 && v_premonition < 3) {
 "Alright," I tell him. "Then, I'll just go kill the healer real quick."
@@ -1799,7 +1801,7 @@ So there was also a powerful summoner amongst these mages. I was careless to let
 
 "What's the matter, stillwater?" I hear a voice coming from behind the wall of golems. "Aren't you going to shoot the golems with your little crossbow as well?"
 
-This isn't good. Daren won't be able to fight all these golems by himself while also defending me. I need to do something.
+This isn't good. Daren won't be able to fight all these golems by himself while also defending me. Their massive stone fists swing in slow, telegraphed arcs—predictable enough if you are fast enough to exploit the gaps between strikes, or perceptive enough to sense which way they will lunge. Without speed or foresight, the only option left is a desperate gamble. I need to do something.
 
 choice("Try to fight the golems head on", Ch7-Fight, v_current_scene = Ch7-Fight)
 choice("Try to avoid getting hit as long as possible", Ch7-Avoid, v_current_scene = Ch7-Avoid)
@@ -2327,7 +2329,7 @@ Daren flushes at the remark, but Azarius turns his attention towards me.
 
 choice(""We've only just met yesterday, so I guess you could say we are acquaintances."", Ch7-Acquaintances, v_current_scene = Ch7-Acquaintances)
 choice(""I see her as a friend."", Ch7-See-friend, v_current_scene = Ch7-See-friend)
-choice(""Oh, we're not actually in a relationship just yet, but we're getting there!"", Ch7-Relationship, v_current_scene = Ch7-Relationship)
+choice(""She's tried to kill me twice and I keep coming back, so by some definitions that's practically married."", Ch7-Relationship, v_current_scene = Ch7-Relationship)
 
 
 ID: Ch7-Acquaintances
@@ -2425,9 +2427,9 @@ choice("Continue", Ch7-In-or-out, v_current_scene = Ch7-In-or-out)
 ID: Ch7-Relationship
 TEXT:
 
-"Oh, we're not actually in a relationship just yet, but we're getting there!"
+"She's tried to kill me twice and I keep coming back, so by some definitions that's practically married."
 
-"Oh ho ho... I would stop right there if I were you, my friend! I can almost feel the young lady's killing intent from here. But still, you seem to be on much friendlier terms with her than your companion. Tell me, Barry, do you consider her to be a banshee as well?"
+"Oh ho ho..." Azarius chuckles heartily. "I admire your courage, if not your survival instincts! But still, you seem to be on much friendlier terms with her than your companion. Tell me, Barry, do you consider her to be a banshee as well?"
 
 "What? No! Of course not!"
 
