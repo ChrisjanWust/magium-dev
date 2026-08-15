@@ -1,39 +1,39 @@
 ID: Ch2-Intro
 TEXT:
 
-Both Daren and I turn around at the same time. We see a slim, tall figure standing behind us, with long black hair, fair skin, and a very serious look on her face. She is wearing leather pants, a long sleeved white blouse, and a green, hooded cloak. She appears to be somewhere in her early twenties. 
+Daren and I turn in unison. A slim, tall woman stands just beyond the edge of the clearing, long black hair framing a pale, sharply sculpted face. Her gaze is hard and guarded. She wears fitted leather trousers, a long-sleeved white tunic, and a deep green hooded cloak. She looks barely into her twenties.
 
-But that's not all there is to this woman. I can also sense a strong magical aura all around her. An aura that couldn't possibly be coming from a regular human. Could she be... a banshee?
+It is the atmosphere around her that makes my pulse catch. A dense magical aura radiates from her in cold, steady waves—a current of power far too heavy for an unaugmented mortal. Could she be a banshee?
 
-My heart starts beating rapidly again. That night from fifteen years ago is coming back to me. I can see it vividly, and I can still hear the laughter. That sinister, high-pitched laughter. Will it never stop haunting me?
+My chest tightens with sudden dread. Fifteen years vanish in a heartbeat: the smell of woodsmoke and blood, the isolation of our cabin, and the shrill, unhinged laughter of my sister Claire as she tore our family apart. I can still hear that high-pitched screech echoing in the dark.
 
-I breathe in deeply, and try to calm down. This woman can't be a banshee. The feeling I'm getting now is too different from the one I got back then. Does that mean she's a mage? No, that would be impossible. And yet... 
+I drag air into my lungs, forcing my hands to stay still. This presence does not match what I felt back then. An awakened banshee is a jagged, rotting storm of ethereal corruption. The pressure rolling off this woman is disciplined and cold. But if she is not possessed, does that make her a natural mage? That should be impossible.
 
-"Barry," whispers Daren. "Don't be afraid. I know white magic. I can purify her."
+"Barry," Daren whispers, his knuckles whitening on his hilt. "Don't panic. I know white magic. I can purify her."
 
-I realize Daren must have also sensed the magic coming from the woman and concluded that she's been possessed by a banshee. Banshees are parasitic spirits that need to inhabit bodies in order to survive. They usually spend a few weeks inside a body in a dormant state before taking over. During this phase, the host may develop magical powers. Once a banshee is in full control of the body, they say she has awakened. The only way you can save the original host once she's been possessed by a banshee is to use white magic to purify her before the banshee has fully awakened, which basically means killing the banshee without harming the host.
+He feels the surge of power and jumps straight to the standard dogma. Banshees are parasitic entities from the magical plane that hijack mortal hosts to survive. They nest dormant for weeks, leaking magic into the host before fully awakening and consuming the host's mind. Across the continents, healers intervene with purification—a white-magic ritual meant to purge the parasite before it takes root.
 
-However, the purification technique operates on the assumption that a woman cannot have magic powers of her own. They call it purification, but all the technique does in fact is to completely eradicate the aura that gives off the strong magical vibe, with the purpose of also eliminating the banshee along with it. On the other hand, if the aura does not in fact belong to a banshee, but to the woman herself, the purification would be nothing short of a death sentence. 
+Except the entire technique hinges on a single assumption: that women cannot naturally wield magic. In practice, the ritual is an indiscriminate purge designed to burn away the magical aura entirely. If the power belongs to an ethereal invader, the woman survives. But if that aura stems from her own soul, the purification will obliterate her life force and kill her where she stands.
 
-"No, wait. Listen to me!" I blurt out. "This woman isn't a banshee."
+"No, wait. Listen to me," I say under my breath. "She isn't a banshee."
 
-"So what, you're suggesting she's a mage, then? Barry, women can't be mages. There hasn't been a single recorded case of a woman mage in all of our world's history. Every time a woman's developed magical powers, it's been because of a banshee. Every single time."
+"Barry, women cannot be mages," Daren mutters, his voice rigid with absolute certainty. "Not once in recorded history. Whenever a woman manifests magical power, it is a banshee. Without exception."
 
-"Don't you think I know that? But this one is different. If you try to purify her, you may well end up killing her!"
+"I know the history," I hiss back. "This feels completely different. If you try to purify her, you might kill her!"
 
-"How can you be so sure?"
+"How could you possibly know that?"
 
-"Because I've met a banshee before. Up close. Have you met a banshee before, Daren?"
+"Because I've faced a banshee before. Up close. Have you ever seen one in the flesh, Daren?"
 
-"...No," he admits.
+He hesitates, his jaw tightening. "...No," he admits.
 
-"You just said you trusted me enough to tell me your greatest weakness. I'm asking you to trust me on this too. Can you trust me on this, Daren?" 
+"You trusted me enough to share your greatest weakness," I press. "Trust me on this. Can you do that?"
 
-Daren gives me one long look, and then he sighs deeply. 
+Daren stares at me for a long, quiet second before exhaling through his teeth.
 
-"Alright. We'll do it your way. But I'm keeping an eye on her. I swear, Barry, if it turns out you're only saying all of this because of her looks, I'm going to--"
+"Fine. We do it your way. But I'm keeping my hand near my sword. And I swear, Barry, if you're risking our necks just because she's pretty, I'm going to—"
 
-"Would you guys mind telling me what you've been whispering about for the past minute?" the woman asks us.
+"Would you two mind telling me what you've been whispering about for the past minute?" the woman asks, crossing her arms.
 
 choice("Her looks", Ch2-Looks, v_current_scene = Ch2-Looks, v_ch2_kate_whisper = 1, v_checkpoint_rich = 0)
 choice("Deciding which one should make a pass at her", Ch2-Pass, v_ac_ch2_talker = 1, v_current_scene = Ch2-Pass, v_ch2_kate_whisper = 2, v_checkpoint_rich = 0)
@@ -46,11 +46,11 @@ TEXT:
 
 "We were talking about your looks, actually," I tell her.
 
-The woman is looking straight at me. It's hard to tell if she's upset or simply unfazed by my comment, but at least she appears to believe me.  She decides to ignore me completely and addresses Daren instead.
+Her dark eyes bore straight into mine, cold and unreadable. If the flippant deflection bothers her, she gives no sign of it. Dismissing me entirely, she turns her attention to Daren.
 
-"You didn't answer my question. I was asking if you were Daren, the healer in armor."
+"You didn't answer my question. Are you Daren, the healer in armor?"
 
-"I am, indeed," answers Daren. "What business would you have with me?"
+"I am, indeed," Daren replies, straightening up. "What business brings you to me?"
 
 choice("Continue", Ch2-Escort, v_current_scene = Ch2-Escort)
 
@@ -61,13 +61,13 @@ TEXT:
 achievement("Smooth talker",v_ac_ch2_talker)
 "We were trying to decide which one of us should make a pass at you," I tell her. "We were just about to play rock paper scissors for it! Would you do us the honor of arbitering our match?"
 
-The woman is clearly upset about my comment. She is trying to control her frown and appear unfazed, but her anger is visible enough. I'm wondering if I went too far with my joke. Well, at least she doesn't appear to be doubting my words.
+A sharp crease cuts between her brows, her lips pressing into a thin, displeased line. She forces her expression back to a guarded neutral, though the irritation in her eyes burns plain enough. Whatever she thinks of my tact, she buys the cover.
 
-She decides to ignore me completely and addresses Daren instead.
+Without another glance my way, she turns to Daren.
 
-"You didn't answer my question. I was asking if you were Daren, the healer in armor."
+"You didn't answer my question. Are you Daren, the healer in armor?"
 
-"I am, indeed," answers Daren. "What business would you have with me?"
+"I am, indeed," Daren replies, straightening up. "What business brings you to me?"
 
 choice("Continue", Ch2-Escort, v_current_scene = Ch2-Escort)
 
@@ -77,11 +77,11 @@ TEXT:
 
 "We were just finishing our discussion from earlier," I tell her.
 
-She is eyeing me suspiciously. She doesn't appear to believe me. She decides to drop the subject for now, and addresses Daren instead.
+Her gaze narrows to a sharp, evaluating squint. The excuse is flimsy and she clearly knows it, but she chooses not to press the issue. Instead, she pivots to Daren.
 
-"You didn't answer my question. I was asking if you were Daren, the healer in armor."
+"You didn't answer my question. Are you Daren, the healer in armor?"
 
-"I am, indeed," answers Daren. "What business would you have with me?"
+"I am, indeed," Daren replies, straightening up. "What business brings you to me?"
 
 choice("Continue", Ch2-Escort, v_current_scene = Ch2-Escort)
 
@@ -91,29 +91,29 @@ TEXT:
 
 "We were discussing whether you are a banshee or not," I tell her.
 
-"Oh," she says. 
+"Oh," she says.
 
-She appears shaken by my comment. 
+The color drains from her face. A hollow stillness settles over her shoulders.
 
-"Well, I'm sorry to have bothered you, then," she continues. "I'll be on my way."
+"Well, I'm sorry to have bothered you, then," she says quietly, taking a step back. "I'll be on my way."
 
-As she turns to leave, Daren calls after her.
+She turns toward the tree line, but Daren calls out after her.
 
 "Wait! You didn't let him finish! We've already concluded that you're not a banshee. You can stay!"
 
-She turns back towards us, slowly. 
+She stops and turns back toward us, moving slowly.
 
-"I can?" 
+"I can?"
 
-She is trying to keep her expression as blank as possible, but there was a slight trembling in her tone as she asked her question, and her eyes are a bit watery. It appears she's been holding back tears.
+The question slips out thin and fragile, cracking on the second word. Her face locks into a desperate, wooden stillness, but a glassy sheen pools along her lower eyelids before she blinks it away. Her hands bury themselves deep into the folds of her cloak, fingers clenching the fabric to steady the tremor in her wrists.
 
-"Of course you can," Daren answers. "Now, what was that you asked me in the beginning?"
+"Of course you can," Daren says, his tone softening. "Now, what was it you wanted to ask me?"
 
-The woman's expression is slowly returning to normal, as she asks her initial question again.
+She draws a slow, quiet breath, pulling her composure back piece by piece.
 
 "I was asking if you were Daren, the healer in armor."
 
-"I am, indeed," answers Daren. "What business would you have with me?"
+"I am, indeed," Daren replies. "What business brings you to me?"
 
 choice("Continue", Ch2-Escort, v_current_scene = Ch2-Escort)
 
@@ -121,22 +121,22 @@ choice("Continue", Ch2-Escort, v_current_scene = Ch2-Escort)
 ID: Ch2-Escort
 TEXT:
 
-"I... require an escort. I am not certain I can survive this tournament by myself. And I've heard of all your deeds of valor and all your legends, so I thought that maybe..."
+"I... require an escort," she says, keeping her voice low. "I cannot survive this tournament alone. I have heard the tales of your valor—the healer who defends the innocent—and I hoped..."
 
-"Say no more! I will grant you my protection for the duration of your quest. From what you say, I would surmise that you're not actually trying to win the tournament?"
+"Say no more!" Daren beams, puffed up by the praise. "You have my sword and shield for as long as your journey requires. Though from the sound of it, the Magium is not your objective?"
 
-"No... I'm not. I am looking for... a friend. And I have reasons to believe that she's somewhere on this continent. But I don't have any specific leads just yet. For now, I just need to stay alive."
+"No," she says, looking away into the trees. "I came to find a friend. I have reason to believe she is somewhere on this continent, though I have no solid leads yet. For now, I only need to stay alive."
 
-"Then you can join us! We were just about to get out of here! We're way too out in the open right now."
+"Then you travel with us," Daren declares, gesturing toward the treeline. "We need to move. Standing in the open is an invitation for an ambush."
 
-"Us? You're planning to travel alongside this stillwater? You can't trust him!"
+"Us?" Her gaze snaps to me, sharp and hostile. "You travel with a stillwater? Have you lost your senses? You cannot trust him!"
 
 #if(v_ch1_stillwater == 2) {
-"Actually, he's not a stillwater, he's just a normal human," Daren corrects her.
+"Actually, he isn't a stillwater," Daren corrects her cheerfully. "He's an ordinary human."
 
-Great. I'm wondering if he plans to blow my cover to every single person we meet from now on.
+Wonderful. I wonder if he plans to broadcast my life story to every stranger we stumble across.
 
-"Is that what he told you?" the woman asks. "And you believe him? He's just trying to get you to lower your guard!" 
+"Is that the lie he fed you?" she demands, her voice hardening. "And you believed him? He is waiting for you to lower your guard!"
 }
 choice("Ask her what she has against me", Ch2-Against, v_current_scene = Ch2-Against)
 choice("Ask why the two of us should trust her", Ch2-Trust, v_current_scene = Ch2-Trust)
@@ -146,29 +146,29 @@ choice("Ask why she's so quick to trust Daren and not me", Ch2-Quick, v_current_
 ID: Ch2-Against
 TEXT:
 
-"Hey, I'm right here!" I tell her. "What do you have against me, anyway?"
+"Hey, I'm standing right here," I say. "What do you have against me, anyway?"
 
-"Don't give me that act, stillwater. I've heard of what your kind can do. Human life has no value to you. Tell me, what did the people of Olmnar ever do to deserve such a terrible fate?"
+"Save the performance, stillwater," she spits, stepping closer. "I know what your kind does. Human life is nothing to you. Tell me, what did the people of Olmnar ever do to deserve being butchered to the last soul?"
 
-"Whoa, whoa! Let's all calm down!" says Daren.
+"Whoa, whoa! Let's all calm down," Daren steps between us, hands raised.
 
-He turns to the woman.
+He turns to face her, his tone firm and unyielding.
 
-"Listen, I understand your concern, but this man saved my life and I intend to repay my debt to him. If you're looking for an escort, then it's going to be the three of us travelling together. I'm not accepting any alternatives."
+"Listen, I understand your reservations, but this man saved my life. I intend to honor my debt to him. If you want my protection, the three of us travel together. Take it or leave it."
 
-The woman pauses to consider Daren's words.
+She holds his gaze, calculating the odds in silence.
 
-"Very well," she says. "If that's the way it has to be, then I am forced to comply. But know that I'll be constantly watching my back. I am not as easily convinced as you, healer in armor."
+"Very well," she says at last, exhaling cold air. "If those are your terms, I accept. But I will be watching my back every second. I am not as gullible as you, healer in armor."
 
-"Great!" Daren says. "Now that we've got that settled, let's be off! Adventure awaits!"
+"Splendid!" Daren's solemn demeanor instantly shatters into a broad grin. "Now that we're all friends, let's move! Adventure awaits!"
 
-"Wait," I call out. "You still didn't tell us your name."
+"Hold on," I call out. "You still haven't told us your name."
 
-The woman turns towards me and gives me a pondering look. After careful consideration, she decides to answer.
+She turns back, measuring me with cold deliberation before she speaks.
 
-"It's Kate. My name is Kate."
+"Kate. My name is Kate."
 
-With those last words, the three of us leave the clearing, and head into the forest, in the hopes of finding some place away from the ongoing battles that are being waged across the land. 
+Leaving the exposed clearing behind, the three of us plunge into the dense forest, searching for a path away from the slaughter echoing across the continent.
 
 choice("Continue", Ch2-Stats, v_current_scene = Ch2-Stats, v_available_points = +3, v_available_points_aux = +3)
 
@@ -176,31 +176,31 @@ choice("Continue", Ch2-Stats, v_current_scene = Ch2-Stats, v_available_points = 
 ID: Ch2-Trust
 TEXT:
 
-"You're saying you can't trust me, but I don't see why either of us should trust you!" I tell her. "What if you're not in fact looking for a friend, and are just here to win the tournament, like every other participant? What proof do you have to back up your claim?"
+"You claim you can't trust me, but why should either of us trust you?" I counter. "What if this missing friend is a cover story, and you're hunting for the Magium like every other killer on this island? What proof do you have?"
 
-"I'm not... I just..."
+"I am not... I only..."
 
-She hesitates.
+Her words catch in her throat, her jaw locking tight.
 
-"Whoa, whoa! Let's all calm down!" says Daren.
+"Whoa, whoa! Let's all calm down," Daren steps between us, hands raised.
 
-He turns to the woman.
+He turns to face her, his tone firm and unyielding.
 
-"Listen, I understand your concern, but this man saved my life and I intend to repay my debt to him. If you're looking for an escort, then it's going to be the three of us travelling together. I'm not accepting any alternatives."
+"Listen, I understand your reservations, but this man saved my life. I intend to honor my debt to him. If you want my protection, the three of us travel together. Take it or leave it."
 
-The woman pauses to consider Daren's words.
+She holds his gaze, calculating the odds in silence.
 
-"Very well," she says. "If that's the way it has to be, then I am forced to comply. But know that I'll be constantly watching my back. I am not as easily convinced as you, healer in armor."
+"Very well," she says at last, exhaling cold air. "If those are your terms, I accept. But I will be watching my back every second. I am not as gullible as you, healer in armor."
 
-"Great!" Daren says. "Now that we've got that settled, let's be off! Adventure awaits!"
+"Splendid!" Daren's solemn demeanor instantly shatters into a broad grin. "Now that we're all friends, let's move! Adventure awaits!"
 
-"Wait," I call out. "You still didn't tell us your name."
+"Hold on," I call out. "You still haven't told us your name."
 
-The woman turns towards me and gives me a pondering look. After careful consideration, she decides to answer.
+She turns back, measuring me with cold deliberation before she speaks.
 
-"It's Kate. My name is Kate."
+"Kate. My name is Kate."
 
-With those last words, the three of us leave the clearing, and head into the forest, in the hopes of finding some place away from the ongoing battles that are being waged across the land. 
+Leaving the exposed clearing behind, the three of us plunge into the dense forest, searching for a path away from the slaughter echoing across the continent.
 
 choice("Continue", Ch2-Stats, v_current_scene = Ch2-Stats, v_available_points = +3, v_available_points_aux = +3)
 
@@ -208,29 +208,29 @@ choice("Continue", Ch2-Stats, v_current_scene = Ch2-Stats, v_available_points = 
 ID: Ch2-Quick
 TEXT:
 
-"Why me?" I ask her. "Why can you trust Daren so easily, but not me?"
+"Why me?" I ask. "Why trust Daren on sight, but treat me like a monster?"
 
-"Because his reputation precedes him! Few are those that haven't heard of his bravery and his outstanding morality! You, on the other hand come from a race filled with mass murderers."
+"Because his name means something!" she snaps. "Tales of his honor and courage reach every corner of the world. You, on the other hand, belong to a breed of mass murderers."
 
-"Whoa, whoa! Let's all calm down!" says Daren.
+"Whoa, whoa! Let's all calm down," Daren steps between us, hands raised.
 
-He turns to the woman.
+He turns to face her, his tone firm and unyielding.
 
-"Listen, I understand your concern, but this man saved my life and I intend to repay my debt to him. If you're looking for an escort, then it's going to be the three of us travelling together. I'm not accepting any alternatives."
+"Listen, I understand your reservations, but this man saved my life. I intend to honor my debt to him. If you want my protection, the three of us travel together. Take it or leave it."
 
-The woman pauses to consider Daren's words.
+She holds his gaze, calculating the odds in silence.
 
-"Very well," she says. "If that's the way it has to be, then I am forced to comply. But know that I'll be constantly watching my back. I am not as easily convinced as you, healer in armor."
+"Very well," she says at last, exhaling cold air. "If those are your terms, I accept. But I will be watching my back every second. I am not as gullible as you, healer in armor."
 
-"Great!" Daren says. "Now that we've got that settled, let's be off! Adventure awaits!"
+"Splendid!" Daren's solemn demeanor instantly shatters into a broad grin. "Now that we're all friends, let's move! Adventure awaits!"
 
-"Wait," I call out. "You still didn't tell us your name."
+"Hold on," I call out. "You still haven't told us your name."
 
-The woman turns towards me and gives me a pondering look. After careful consideration, she decides to answer.
+She turns back, measuring me with cold deliberation before she speaks.
 
-"It's Kate. My name is Kate."
+"Kate. My name is Kate."
 
-With those last words, the three of us leave the clearing, and head into the forest, in the hopes of finding some place away from the ongoing battles that are being waged across the land. 
+Leaving the exposed clearing behind, the three of us plunge into the dense forest, searching for a path away from the slaughter echoing across the continent.
 
 choice("Continue", Ch2-Stats, v_current_scene = Ch2-Stats, v_available_points = +3, v_available_points_aux = +3)
 
@@ -238,21 +238,19 @@ choice("Continue", Ch2-Stats, v_current_scene = Ch2-Stats, v_available_points = 
 ID: Ch2-Stats
 TEXT:
 
-As we march through the forest, I hear a few loud beeps coming from my right pocket.
+As we navigate the thick undergrowth, a series of sharp electronic chimes rings out from my right coat pocket.
 
-"Barry, what's that sound?" Daren asks. "I know that sound. Don't tell me you brought a fortune teller's trinket with you all the way here. Are you planning to tell us our fortunes, Barry?"
+"Barry, what is that chime?" Daren asks, glancing over his shoulder. "I know that sound. Don't tell me you hauled a fortune teller's trinket all the way to Varathia. Are you planning to read our palms, Barry?"
 
-A fortune teller's trinket. That's what most people call these devices nowadays. But very few people know what they really do, and how they actually work. My research has led me to believe that these devices harness their energy from the magic all around them. The more energy they harness, the more effective they become. Since mages are usually spread far apart from one another and they don't really have any reason to cast powerful spells one after the other, the effects of such a device are mostly negligible.
+A fortune teller's trinket. That is what street peddlers call these devices. The underlying mechanics, however, are far more potent. The mechanism siphons ambient magical radiation from the surrounding atmosphere. In ordinary lands where mages are rare and rarely cast high-tier spells, the trickle-charge is negligible. But on Varathia, where hundreds of world-class mages unleash lethal sorcery in constant battle, the ambient mana density is immense.
 
-But imagine the amount of energy it could gather in a place filled with the most powerful mages in the world, who are constantly fighting each other. 
+I pull the device from my pocket. It looks like a compact metal slate fitted with small buttons and a luminous glass display. Characters flicker across the screen, categorizing numbers into 'stats'. The list includes physical enhancements—strength, speed, reflexes, toughness, observation, and hearing—alongside specialized disciplines like combat technique, ancient languages, and premonition.
 
-I pull the device out of my pocket. It looks much like a toy, with a few buttons and a screen. As I press the buttons, different letters magically appear on the screen, forming words, and showing me numbers. The device calls these my 'stats'. My stats consist mostly of various physical attributes such as strength, speed, reflexes, toughness, observation and hearing, but there's also others like combat technique, ancient languages and premonition. 
+Once enough ambient mana accumulates, the device chimes and unlocks an allotment of stat points. All values currently read zero; the merchant drained the charge completely before selling it.
 
-When the device harnesses enough energy, it announces me by beeping, and it then allows me to invest a limited number of points in my stats. At the moment, all of my stats are at zero, which means that the device's energy was completely depleted when I bought it. I guess I'll have to start leveling them from scratch.
+Allocating points channels the stored mana directly through my aura, permanently reinforcing physical traits and sensory acuity. But every investment is final, and with no way to predict the next recharge cycle, each point demands careful calculation. The maximum cap for each attribute will likely expand as the device absorbs greater concentrations of power over time.
 
-Investing my points in stats is supposed to actually enhance my real attributes, as long as I keep the device close enough to me that it comes into contact with my magical aura. As I spend my time here, I'm expecting to hear these beeps more and more often. I'll have to think twice about the way I spend my points though, since I have no way of knowing when I'll get my next batch of points, and no way to change my mind after I've invested them. The maximum values that appear now for each stat are likely to increase as time passes.
-
-This device is mostly used by fortune tellers because of its premonition stat. It provides them with some very vague glimpses into the future that they are then free to interpret to their own liking.  I wonder if the ancient languages stat actually means that I'll start being able to understand and speak ancient tongues. I heard there are many such writings on this continent. And I heard some people here don't speak the common tongue.
+Fortune tellers prize the gadget for its premonition stat—vague flashes of incoming events they dress up as prophecy. The ancient languages category is what caught my eye. If it works as intended, it will translate archaic dialects and local inscriptions, invaluable on a continent where the common tongue cannot be taken for granted.
 
 choice("Invest points now", Ch2-Stats-spent, v_current_scene = Ch2-Stats-spent, special:stats)
 choice("Invest points later(by pressing the stats button on the top of the screen)", Ch2-Fallen-trees, v_current_scene = Ch2-Fallen-trees)
@@ -261,21 +259,19 @@ choice("Invest points later(by pressing the stats button on the top of the scree
 ID: Ch2-Stats-spent
 TEXT:
 
-As we march through the forest, I hear a few loud beeps coming from my right pocket.
+As we navigate the thick undergrowth, a series of sharp electronic chimes rings out from my right coat pocket.
 
-"Barry, what's that sound?" Daren asks. "I know that sound. Don't tell me you brought a fortune teller's trinket with you all the way here. Are you planning to tell us our fortunes, Barry?"
+"Barry, what is that chime?" Daren asks, glancing over his shoulder. "I know that sound. Don't tell me you hauled a fortune teller's trinket all the way to Varathia. Are you planning to read our palms, Barry?"
 
-A fortune teller's trinket. That's what most people call these devices nowadays. But very few people know what they really do, and how they actually work. My research has led me to believe that these devices harness their energy from the magic all around them. The more energy they harness, the more effective they become. Since mages are usually spread far apart from one another and they don't really have any reason to cast powerful spells one after the other, the effects of such a device are mostly negligible.
+A fortune teller's trinket. That is what street peddlers call these devices. The underlying mechanics, however, are far more potent. The mechanism siphons ambient magical radiation from the surrounding atmosphere. In ordinary lands where mages are rare and rarely cast high-tier spells, the trickle-charge is negligible. But on Varathia, where hundreds of world-class mages unleash lethal sorcery in constant battle, the ambient mana density is immense.
 
-But imagine the amount of energy it could gather in a place filled with the most powerful mages in the world, who are constantly fighting each other. 
+I pull the device from my pocket. It looks like a compact metal slate fitted with small buttons and a luminous glass display. Characters flicker across the screen, categorizing numbers into 'stats'. The list includes physical enhancements—strength, speed, reflexes, toughness, observation, and hearing—alongside specialized disciplines like combat technique, ancient languages, and premonition.
 
-I pull the device out of my pocket. It looks much like a toy, with a few buttons and a screen. As I press the buttons, different letters magically appear on the screen, forming words, and showing me numbers. The device calls these my 'stats'. My stats consist mostly of various physical attributes such as strength, speed, reflexes, toughness, observation and hearing, but there's also others like combat technique, ancient languages and premonition. 
+Once enough ambient mana accumulates, the device chimes and unlocks an allotment of stat points. All values currently read zero; the merchant drained the charge completely before selling it.
 
-When the device harnesses enough energy, it announces me by beeping, and it then allows me to invest a limited number of points in my stats. At the moment, all of my stats are at zero, which means that the device's energy was completely depleted when I bought it. I guess I'll have to start leveling them from scratch.
+Allocating points channels the stored mana directly through my aura, permanently reinforcing physical traits and sensory acuity. But every investment is final, and with no way to predict the next recharge cycle, each point demands careful calculation. The maximum cap for each attribute will likely expand as the device absorbs greater concentrations of power over time.
 
-Investing my points in stats is supposed to actually enhance my real attributes, as long as I keep the device close enough to me that it comes into contact with my magical aura. As I spend my time here, I'm expecting to hear these beeps more and more often. I'll have to think twice about the way I spend my points though, since I have no way of knowing when I'll get my next batch of points, and no way to change my mind after I've invested them. The maximum values that appear now for each stat are likely to increase as time passes.
-
-This device is mostly used by fortune tellers because of its premonition stat. It provides them with some very vague glimpses into the future that they are then free to interpret to their own liking.  I wonder if the ancient languages stat actually means that I'll start being able to understand and speak ancient tongues. I heard there are many such writings on this continent. And I heard some people here don't speak the common tongue.
+Fortune tellers prize the gadget for its premonition stat—vague flashes of incoming events they dress up as prophecy. The ancient languages category is what caught my eye. If it works as intended, it will translate archaic dialects and local inscriptions, invaluable on a continent where the common tongue cannot be taken for granted.
 
 choice("Continue", Ch2-Fallen-trees, v_current_scene = Ch2-Fallen-trees)
 
@@ -283,47 +279,49 @@ choice("Continue", Ch2-Fallen-trees, v_current_scene = Ch2-Fallen-trees)
 ID: Ch2-Fallen-trees
 TEXT:
 
-"Barry, don't you think there are more important things to do right now than playing around with that toy?" Daren asks me.
+"Barry, don't you think there are more pressing matters than tinkering with a toy?" Daren asks, glancing back at me.
 
-"This isn't a toy," I answer him as I put the device back into my pocket. "And I think you should pay more attention to where you're going instead of lecturing me, because I see we just ran out of forest."
+"This isn't a toy," I reply, slipping the slate back into my coat. "And you might want to watch your footing instead of lecturing me. We just ran out of woods."
 
-"Quiet, the two of you! We've got company," Kate says.
+"Quiet, both of you. We have company," Kate hisses.
 
-She's right. Looking all around us, I see there are fallen trees everywhere in this area, and there are quite a few dead bodies lying around. It seems there's been a battle here, or maybe several. The victors were in the middle of looting the bodies when they noticed us.
+She is right. The forest ends abruptly at a wide clearing torn apart by violence. Shattered trunks and gouged earth litter the terrain, alongside a dozen contorted corpses. A fresh massacre. Three survivors are actively stripping the bodies, but our arrival brings them to a sudden halt.
 
-There's three of them in total. One of them is considerably well-built for a mage. He has a very long black beard covering his face, he seems to be in his mid forties, he's wearing heavy armor and is holding a large battleaxe. The other two are a bit skinnier and younger and are wearing chainmail vests instead, but they're holding no weapons. The bearded mage with the battleaxe shouts to Daren.
+All three turn to face us. The central figure is built like an ox—broad-shouldered, mid-forties, sporting a thick black beard that covers half his chest. He wears heavy iron plate and rests a massive double-bitted battleaxe across one shoulder. Flanking him are two leaner young men in chainmail vests, their hands empty.
 
-"Quite the team you've assembled there, healer in armor. A healer, a banshee and an ordinary human. It's like you're dying to lose this tournament!"
+The bearded man sneers at Daren across the field of corpses.
 
-Kate was visibly affected by the banshee comment. Her eyes twitched and her look went subconsciously towards the ground. 
+"Quite the company you keep, healer in armor. A healer, a banshee, and a baseline human. It's like you came here begging to die!"
 
-"Mind your tongue, fool," I reply to him. "Who are you calling an ordinary human? Have you not heard of stillwaters?"
+The word banshee lands like a whip. Kate's jaw clenches, her gaze dropping to the dirt for a split second before her eyes harden into pure murder.
 
-"Hah! Stillwaters are legends and nothing more! I don't know what you were trying to achieve by joining this tournament, boy, but soon it won't matter anymore."
+"Watch your tongue," I call out. "Who are you calling an ordinary human? Have you never heard of stillwaters?"
 
-"Why?" Daren asks the bearded mage. "Why have you done this?"
+"Stillwaters are tavern fairy tales!" the bearded man barks with a laugh. "Whatever delusions brought you to Varathia, boy, you won't live to see sundown."
 
-He gestures towards the lifeless bodies lying all around us. 
+"Why?" Daren shouts, his voice thick with fury. "Why butcher these people?"
 
-"Nobody told us we should start killing each other!" Daren continues. "They told us there are no rules until they give us our first objectives. We don't even know if there was going to be combat involved! Why did you have to kill all of these people?"
+He sweeps an armored arm toward the dead scattered across the grass.
 
-"Because there are no rules," answers the mage with the battleaxe. "No rules means we can do whatever we want. And what we want is to eliminate as much of the competition as possible before the main event starts!"
+"No one ordered us to start slaughtering each other! The rules only stated that restrictions are lifted until the first objectives are issued! We don't even know if the trials demand bloodshed! Why murder them?"
 
-He grins.
+"Because no rules means no consequences," the axe-wielder replies, his grin widening. "We're thinning the competition before the real games begin."
 
-"My sons and I were a little worried at first! We were afraid we might not be ready for the big leagues. But here we are!" the bearded mage exclaims as he raises his hands and takes a victorious stance. "But enough talk! We all know what's coming!"
+He rolls his shoulders, adjusting his grip on the axe haft.
+
+"My boys and I were worried we might be out of our depth against world-class mages. But look at this! You bleed just like anyone else." He raises the axe high. "Enough chatter. You know what comes next."
 
 #if(v_ch1_stillwater == 2) {
-"Barry, get behind me!" Daren shouts as he rushes in front of me.
+"Barry, get behind me!" Daren roars, stepping in front of me with sword drawn.
 }
 #if(v_ch1_stillwater == 1) {
-His grin widens, as he looks straight at me.
+His grin broadens, his eyes locking directly onto me.
 }
-"First rule of combat," says the bearded mage.
+"First rule of combat," the bearded man barks.
 
-Suddenly, one of the two younger mages that were standing next to the mage with the battleaxe vanishes and appears right behind me, with a dagger in his hand.
+Space distorts. One of the young men beside him vanishes in a blur and snaps into existence directly behind me, a dagger gripped in reverse.
 
-"Always kill the weakest enemies first," the bearded mage continues.  
+"Kill the weak first."
 
 choice("Continue", Ch2-Battle-human, v_current_scene = Ch2-Battle-human, v_ch2_toughness_happened = 0) if (v_ch1_stillwater == 2)
 choice("Continue", Ch2-Battle-stillwater, v_current_scene = Ch2-Battle-stillwater) if (v_ch1_stillwater == 1)
@@ -337,35 +335,37 @@ set(v_ch2_toughness_happened,0) if (v_premonition == 0 && v_reflexes > 0 || v_pr
 set(v_ch2_toughness_happened,1) if (v_premonition == 0 && v_reflexes == 0 && v_toughness > 2)
 achievement("Tough as nails",v_ac_ch2_nails)
 #if(v_premonition > 0) {
-Shortly after the young mage appears behind me, I see a vision of him slashing his dagger towards my neck. Was that... a premonition?
+The instant the young mage materializes at my back, a vivid flash seizes my mind: cold steel arcing straight for my throat. A premonition.
 
-Sure enough, the young mage now slashes his dagger in the exact same way he did in my vision. Knowing where the hit's coming from, I manage to dodge it at the very last second. Right after I dodge, the mage kicks me hard in the chest, knocking me flat on my back.
+Trusting the flash, I drop my head and pivot. The blade whickers through empty air an inch above my collar. Before I can recover, the mage drives a heavy boot into my chest, knocking the wind out of me and slamming me flat onto the dirt.
 }
 #if(v_premonition == 0 && v_reflexes > 0) {
-The young mage slashes his dagger towards my neck. I react with a speed that takes me by surprise, and I manage to dodge the hit at the very last second. Right after I dodge, the mage kicks me hard in the chest, knocking me flat on my back.
+The young mage slashes his dagger toward my throat. My body reacts on pure reflex, ducking under the lethal sweep before my mind even registers the danger. The steel cuts empty air, but the mage instantly pivots and drives a heavy boot into my chest, sending me sprawling across the dirt.
 }
 #if(v_premonition == 0 && v_reflexes == 0 && v_toughness >= 3) {
-The young mage slashes his dagger towards my neck. The slash is too fast for me to dodge, but when it hits my neck, it doesn't quite manage to cut through my skin, only drawing a bit of blood instead. The mage looks at his dagger, surprised, and then immediately kicks me hard in the chest, knocking me flat on my back.
+The young mage slashes his dagger toward my throat. The strike is too fast for me to evade, but when the steel bites into my flesh, the reinforced skin holds like hardened leather. The blade scores a shallow red line without cutting deep. The mage stares at his dagger in disbelief, then drives a vicious boot into my chest, knocking me flat on my back.
 }
 #if(v_premonition > 0 || v_reflexes > 0 || v_toughness >= 3) {
-"Barry!" screams Daren as he rushes between me and my attacker, blocking the next strike with his shield. 
+"Barry!" Daren bellows, charging between me and my attacker and intercepting the follow-up strike with his heavy shield.
 
-"Hah! You left the woman undefended! Classic mistake," says the mage with the battleaxe, as his second son makes a dozen swords appear out of thin air , floating in front of him and sends them all flying towards Kate.
+"Leaving the woman undefended? Rookie mistake!" the bearded man laughs.
 
-Just as the swords reach her, Kate's left arm gets covered in a large, thick block of ice, sculpted in the form of a shield. She puts it in front of her, and all of the swords get stuck into it.
+His second son thrusts both hands forward. A dozen broadswords materialize out of thin air, hovering in a deadly fan before hurtling at Kate in a lethal barrage.
 
-"Left the woman undefended?" Kate asks. "So which is it, then? Woman?... Or banshee?"
+Frost erupts along Kate's left arm, instantly solidifying into a massive, heavy shield of sculptured ice. She slams it into position. The flying broadswords strike the frost barrier with deafening clangs, their tips embedded deep in the solid ice.
 
-She lowers her left arm to reveal her face, as she looks straight at the mage with the black beard. Her eyes are brimming with fury.
+"Undefended?" Kate's voice cuts through the clearing, razor-sharp. "So which is it? A defenseless woman... or a banshee?"
 
-"Make up your mind!" she shouts, as the whole forest falls silent from the sound of her voice. 
+She lowers the ice barrier, revealing eyes burning with cold fury.
+
+"Make up your mind!" she roars, the force of her voice ringing through the silent woods.
 }
 #if(v_premonition == 0 && v_reflexes == 0 && v_toughness < 3) {
-The young mage slashes his dagger towards my neck. The slash is too fast for me to dodge, and when it hits my neck, it slits my throat right open. I desperately try to stop the flow of blood by covering the open wound with my hands, but it is much too late. 
+The young mage slashes his dagger toward my throat. The strike is too fast to dodge. Cold steel rips through my windpipe. I clamp both hands over the wound, but arterial blood surges through my fingers in hot, unstoppable pulses.
 
-"Barry!" I hear Daren scream as he rushes towards me.
+"Barry!" Daren screams across the clearing.
 
-The last thing I see is Daren trying in vain to heal my wound, as my consciousness slowly fades away.
+The world tilts. I catch a glimpse of Daren rushing toward me, white light flaring uselessly in his hands, before darkness pulls me under.
 }
 
 choice("Continue", Ch2-Battle-begins, v_current_scene = Ch2-Battle-begins) if (v_premonition > 0 || v_reflexes > 0 || v_toughness > 2)
@@ -377,17 +377,19 @@ choice("Load game", , , special:saves) if (v_premonition == 0 && v_reflexes == 0
 ID: Ch2-Battle-human
 TEXT:
 
-The young mage slashes his dagger towards my neck, but Daren reacts just in time and uses his shield to take the blow.
+The young mage slashes his dagger toward my throat, but Daren lunges forward, catching the blade against his steel shield with a deafening ring.
 
-"Hah! You left the woman undefended! Classic mistake," says the mage with the battleaxe, as his second son makes a dozen swords appear out of thin air , floating in front of him and sends them all flying towards Kate.
+"Leaving the woman undefended? Rookie mistake!" the bearded man laughs.
 
-Just as the swords reach her, Kate's left arm gets covered in a large, thick block of ice, sculpted in the form of a shield. She puts it in front of her, and all of the swords get stuck into it.
+His second son thrusts both hands forward. A dozen broadswords materialize out of thin air, hovering in a deadly fan before hurtling at Kate in a lethal barrage.
 
-"Left the woman undefended?" Kate asks. "So which is it, then? Woman?... Or banshee?"
+Frost erupts along Kate's left arm, instantly solidifying into a massive, heavy shield of sculptured ice. She slams it into position. The flying broadswords strike the frost barrier with deafening clangs, their tips embedded deep in the solid ice.
 
-She lowers her left arm to reveal her face, as she looks straight at the mage with the black beard. Her eyes are brimming with fury.
+"Undefended?" Kate's voice cuts through the clearing, razor-sharp. "So which is it? A defenseless woman... or a banshee?"
 
-"Make up your mind!" she shouts, as the whole forest falls silent from the sound of her voice. 
+She lowers the ice barrier, revealing eyes burning with cold fury.
+
+"Make up your mind!" she roars, the force of her voice ringing through the silent woods.
 
 choice("Continue", Ch2-Battle-begins, v_current_scene = Ch2-Battle-begins)
 
@@ -395,19 +397,21 @@ choice("Continue", Ch2-Battle-begins, v_current_scene = Ch2-Battle-begins)
 ID: Ch2-Battle-begins
 TEXT:
 
-The mage with the battleaxe seems to have temporarily lost his cool, and is looking a bit terrified. And he should be. Kate's killing intent is so strong, that it almost seems palpable.
+The bearded man's arrogant grin vanishes. He takes half a step back, unsettled by the sheer weight of her presence. The killing intent radiating from Kate is suffocating.
 
-"I see backstabbers and sword throwers," she shouts. "And you call yourselves mages? Come. I'll show you real magic!"
+"Backstabbers and sword-flingers," she says, her tone dropping to a lethal calm. "You call yourselves mages? Come. Let me show you real magic."
 
-As she talks, the air all around us seems to be getting colder. So this is what it feels like to be in a tournament alongside the most powerful mages in the world. 
+A biting chill sweeps the clearing, frosting the grass at our feet. This is what it means to stand among true elementalists.
 
-The bearded mage seems to have snapped out of it.
+The axe-wielder shakes off his hesitation with a furious snarl.
 
-"Your parlor tricks won't save you a second time, wench. I don't care if you're a banshee or not. None of you are going to leave this place alive!" he shouts as he rushes towards Daren, with his battleaxe ready to strike.
+"Your parlor tricks won't save you a second time!" he roars. "Banshee or not, none of you leave this clearing alive!"
 
-As he approaches, I realize that if I don't do something quick, Daren will be forced to fight both the older and the younger mage by himself while also defending me, and he won't have the luxury of using healing spells since they require him to be calm and relaxed in order to cast them.
+He charges Daren, raising his greataxe for a crushing blow.
 
-Maybe there is something I can do to help?
+Tactical reality hits me. If I stay pinned here, Daren will be forced to fend off both the brute and the teleporting flanker while keeping me alive. White-magic healing requires stillness and absolute focus—impossible in the chaos of a two-on-one melee. If Daren takes a bad hit, he won't be able to mend it.
+
+I have to create an opening.
 
 choice("Hide behind Daren and let him handle them both", Ch2-Hide, v_current_scene = Ch2-Hide)
 choice("Draw the younger mage away from Daren and focus on avoiding his attacks", Ch2-Avoid, v_current_scene = Ch2-Avoid)
@@ -417,23 +421,23 @@ choice("Fight the younger mage myself", Ch2-Fight, v_current_scene = Ch2-Fight)
 ID: Ch2-Hide
 TEXT:
 
-If I try to handle the younger mage myself, I might just get in Daren's way. I'll leave this to him, and try to follow his lead as much as possible.
+Jumping into the fray without a plan will only get in Daren's way. I stay back, tracking the movements across the clearing.
 
-Kate seems to have gotten the sword throwing mage's undivided attention. He is constantly sending swords her way from every direction, as she creates walls of ice to block his attacks. We're lucky. With Daren's weakness against weapons and my lack of magical talents, that mage would probably have been the hardest for us to fight.
+Kate has the sword-caster fully occupied. Broadswords rip through the air from every angle, only to shatter against solid slabs of ice she raises with flickers of her hands. It is an ideal matchup for us. Daren's armor cannot deflect high-tier enchanted weapons, and without magic of my own, airborne steel would butcher me in seconds.
 
-As the bearded mage reaches us, his battleaxe clashes loudly with Daren's sword.
+The bearded man closes the distance. His greataxe crashes into Daren's raised broadsword with a concussive boom that shakes the dirt beneath our feet.
 
-"I see you've enchanted your weapon well, healer," says the older mage. "But how long can you last against a battle-hardened warrior such as myself?"
+"Enchanted steel!" the brute grunts, leaning his massive weight into the bind. "Let's see how long you last against real muscle!"
 
-He roars, and presses his battleaxe harder against Daren's sword. The younger mage tries to have another go at me with his dagger, but Daren intercepts his strike with his shield.
+He roars, forcing Daren's blade down. The teleporting son flashes into the flank, dagger aimed at my throat. Daren wrenches his shield across, taking the brunt of the strike on his rim while absorbing cuts along his armored shoulder.
 
-"How long do you plan on defending this little whelp? You can't protect him and fight the both of us at the same time! Abandon the boy, and maybe you'll stand a chance!"
+"How long can you guard this dead weight?" the axe-wielder barks, swinging another heavy blow. "Drop the boy and fight!"
 
-"Never!" Daren shouts as he slashes towards the bearded mage and his blade meets the battleaxe's steel yet again.
+"Not a chance!" Daren snarls, parrying the heavy axe and driving a counter-thrust into the man's guard.
 
-In the meantime, the mage fighting Kate has managed to surround her with floating swords, aimed at her from every direction. He sends them all at her simultaneously in an attempt to overwhelm her defenses. She quickly surrounds herself with a sphere of very thick ice, and all of the swords, once again stop into it. As she dismisses the sphere, all the hundreds of swords drop to the ground, with a deafening clang.
+Across the field, the second son summons a ring of floating steel, surrounding Kate from all sides. He snaps his fingers; dozens of blades plunge inward in a synchronized execution. Kate encases herself in a solid sphere of opaque ice. Steel embeds harmlessly into the frost. She dispels the shell, and scores of blades clatter dead against the earth.
 
-The mage with the dagger is very keen on landing a blow at me. Daren has managed to successfully block every one of his hits that were aimed at me, but he got himself hurt in the process more than once. Even with his full body armor equipped, I can tell he won't last much longer this way. Something needs to be done.
+Beside me, the flanker keeps lunging. Daren parries every lethal cut meant for me, but the defense is costing him. Blood drips from gaps in his plate. He cannot hold a two-front fight much longer.
 
 choice("Ask Kate for help", Ch2-Ask-Kate, v_current_scene = Ch2-Ask-Kate, v_ch2_kate_debt = 1)
 choice("Draw the younger mage away from Daren and focus on avoiding his attacks", Ch2-Avoid, v_current_scene = Ch2-Avoid)
@@ -443,23 +447,23 @@ choice("Fight the younger mage myself", Ch2-Fight, v_current_scene = Ch2-Fight)
 ID: Ch2-Avoid
 TEXT:
 
-There's no way Daren can fight the two of them while defending me. Since the younger mage seems to be focused on me, I'll lure him away from Daren and try to evade his attacks for as long as I can, until Daren finishes off the older mage.
+Daren cannot hold two opponents while protecting me. Since the teleporting son wants my blood, I will draw him away and keep him chasing air until Daren drops the father.
 
-Kate seems to have gotten the sword throwing mage's undivided attention. He is constantly sending swords her way from every direction, as she creates walls of ice to block his attacks. We're lucky. With Daren's weakness against weapons and my lack of magical talents, that mage would probably have been the hardest for us to fight.
+Kate has the sword-caster fully occupied. Broadswords rip through the air from every angle, only to shatter against solid slabs of ice she raises with flickers of her hands. It is an ideal matchup for us. Daren's armor cannot deflect high-tier enchanted weapons, and without magic of my own, airborne steel would butcher me in seconds.
 
-As the bearded mage reaches us, his battleaxe clashes loudly with Daren's sword.
+The bearded man closes the distance. His greataxe crashes into Daren's raised broadsword with a concussive boom that shakes the dirt beneath our feet.
 
-"I see you've enchanted your weapon well, healer," says the older mage. "But how long can you last against a battle-hardened warrior such as myself?"
+"Enchanted steel!" the brute grunts, leaning his massive weight into the bind. "Let's see how long you last against real muscle!"
 
-He roars, and presses his battleaxe harder against Daren's sword.
+He roars, forcing Daren's blade down.
 
-As the two of them fight, I dash away towards the forest. As expected, the mage with the dagger is coming right after me.
+I break into a dead sprint toward the treeline. The flanker takes the bait, vanishing from Daren's side to pursue me.
 
-"Barry, wait!" Daren shouts after me. 
+"Barry, stay back!" Daren roars.
 
-He attempts to follow, but decides against it. He can't afford to avert his eyes from the bearded mage even for a second. He is too dangerous.
+He tries to turn, but the greataxe forces him back into the guard. He cannot take his eyes off the brute for a fraction of a second.
 
-In the meantime, the mage fighting Kate has managed to surround her with floating swords, aimed at her from every direction. He sends them all at her simultaneously in an attempt to overwhelm her defenses. She quickly surrounds herself with a sphere of very thick ice, and all of the swords, once again stop into it. As she dismisses the sphere, all the hundreds of swords drop to the ground, with a deafening clang.
+Across the field, the second son summons a ring of floating steel, surrounding Kate from all sides. He snaps his fingers; dozens of blades plunge inward in a synchronized execution. Kate encases herself in a solid sphere of opaque ice. Steel embeds harmlessly into the frost. She dispels the shell, and scores of blades clatter dead against the earth.
 
 choice("Continue", Ch2-Avoid2, v_current_scene = Ch2-Avoid2)
 
@@ -470,64 +474,71 @@ TEXT:
 set(v_ac_ch2_nails,1) if (v_agility == 0 && v_ch2_toughness_happened == 0 && v_reflexes == 0 && v_toughness > 2)
 achievement("Tough as nails",v_ac_ch2_nails)
 #if(v_agility > 0) {
-My plan to lure the younger mage away is working far better than I expected. The mage keeps teleporting after me, and trying to catch me off guard, but every time he thinks he's got me in a pinch, I simply dash away with ease. I knew that stat device would come in handy, but I never dared to dream it would be so useful. I feel like I could just keep running like this for hours and not get tired.
+The sprint pays off instantly. The flanker blinks through space, reappearing directly in my path, but my boosted speed carries me clear before he can plant his feet. Every time he teleports to cut me off, I accelerate, pivoting past his lunges with ease. The stat booster's physical enhancement makes my stride effortless, burning ground without draining my stamina.
 }
 #if(v_agility == 0 && v_reflexes > 0) {
-My plan to lure the younger mage away is working far better than I expected. The mage keeps teleporting after me, and trying to catch me off guard, but every time he thinks he's got me in a pinch, I simply dodge his strikes with ease. I knew that stat device would come in handy, but I never dared to dream it would be so useful. I feel like I could keep on doing this all day.
+The evasion works better than I dared to hope. The flanker blinks through space, reappearing directly in my path, but my enhanced reflexes track the shift. Every time he slashes, I slip under the arc of the blade, weaving out of reach before he can recover his balance. The stat booster turns every near-miss into clean daylight.
 }
 #if(v_agility > 0 || v_reflexes > 0) {
-"Boy, what do you think you're doing? Stop fooling around and finish him! He's just an ordinary human!" shouts the mage with the battleaxe.
+"What are you doing?" the bearded man roars at his son. "Stop playing with your food and gut him! He's a baseline human!"
 
-Kate seems to have gone on the offensive. She is throwing ice cones towards the other young mage, and he is now forced to use his swords to cut them down, instead of attacking her. As he focuses more on defense, Kate's attacks become more and more relentless. It doesn't take her long until she starts sending hundreds of ice daggers towards her enemy. The mage doesn't seem to know how to use his technique to defend from such a large number of simultaneous attacks. It only takes a small miscalculation on his part to end the battle abruptly, as one of the ice daggers stabs him right through the heart, killing him on the spot.
+Kate seizes the offensive. She hurls jagged cones of ice in rapid succession, forcing the sword-caster to recall his floating blades to parry the projectiles. The moment he shifts to defense, she accelerates. Hundreds of needle-sharp ice daggers erupt from her aura in a freezing torrent. The volume of fire overwhelms him; a single misjudged deflection leaves his chest open, and an ice shard punches clean through his sternum, piercing his heart. He collapses into the mud.
 
-"No!" shouts the older mage when he sees what happened to his eldest son. Taking his eyes off his opponent was a fatal mistake. Daren didn't waste his chance, and drove his blade right through the man's chest, his enchanted weapon cutting through the mage's heavy armor like a knife through butter. The bearded mage gave out one last gurgle, before he drowned in his own blood. 
+"No!" the father screams, his head whipping toward his fallen son.
 
-Terrified, the young mage with the dagger tries to teleport into the forest to get away, but his spell's range appears to be limited, and it only transports him halfway there. He tries to make a run for it, but  Kate snipes him from a distance, with an ice cone through his head, which killed him instantly.
+The distraction is fatal. Daren steps into the opening and drives his enchanted blade straight through the man's iron breastplate. The broadsword cuts steel and bone alike. The bearded man gurgles on blood, his grip slipping from the battleaxe before he hits the ground.
 
-It was a gruesome show, but at this point, all I care about is that I somehow managed to make it out of that alive. 
+Panic takes the surviving flanker. He teleports toward the deep woods, but his range falls short, depositing him at the tree line. As he scrambles into the brush on foot, an ice spear hurled from Kate's palm drills through the back of his skull, dropping him dead in his tracks.
+
+Silence crashes over the bloodstained clearing. My heart pounds against my ribs, hands trembling from the rush of surviving.
 }
 #if(v_agility == 0 && v_ch2_toughness_happened == 0 && v_reflexes == 0 && v_toughness >= 3) {
+Luring the flanker away proves harder than planned. Without boosted speed, every teleport puts him right on my heels. Steel cuts closer with every strike. I need to get back to Daren before I run out of luck.
 
-My plan to lure the younger mage away isn't working as well as I would have hoped. I thought I could at least keep him busy long enough for Daren to finish his battle, but he constantly takes me by surprise with his teleportation magic, and with every slash, he gets closer to hitting me. Maybe I should get back to where Daren is fighting before I get myself killed.
+"Barry! Behind you!" Daren shouts.
 
-"Barry! Behind you!" Daren shouts. But it's too late. The knife reaches my neck before I get the chance to dodge.
+Too late. The dagger sweeps across my throat before I can duck.
 
-To both me and the mage's surprise , the blade doesn't quite manage to cut through my skin, only drawing a bit of blood instead. I realize it must be because I had used my stat device to maximize my toughness. I use this moment of confusion to widen the distance between myself and my attacker, and try to keep my guard up for any more surprise teleports.
+Cold steel bites into flesh, but reinforced skin stops the edge from cutting deep, yielding only a shallow scrape of blood. The attacker freezes, staring at his blade in utter confusion. I scramble backward out of reach, raising my guard for the next shift.
 
-"Boy, what do you think you're doing? Stop fooling around and finish him! He's just an ordinary human!" shouts the mage with the battleaxe.
+"What are you doing?" the bearded man roars at his son. "Stop playing with your food and gut him! He's a baseline human!"
 }
 #if(v_agility == 0 && v_ch2_toughness_happened == 1 && v_reflexes == 0) {
+Luring the flanker away proves harder than planned. Without boosted speed, every teleport puts him right on my heels. Steel cuts closer with every strike. I need to get back to Daren before I run out of luck.
 
-My plan to lure the younger mage away isn't working as well as I would have hoped. I thought I could at least keep him busy long enough for Daren to finish his battle, but he constantly takes me by surprise with his teleportation magic, and with every slash, he gets closer to hitting me. Maybe I should get back to where Daren is fighting before I get myself killed.
+"Barry! Behind you!" Daren shouts.
 
-"Barry! Behind you!" Daren shouts. But it's too late. The knife reaches my neck before I get the chance to dodge.
+Too late. The dagger sweeps across my throat before I can duck.
 
-This time, the mage puts more power behind his strike and he manages to break through the toughness of my skin. His dagger slits my throat right open. I desperately try to stop the flow of blood by covering the open wound with my hands, but it's no use. 
+This time, the mage puts his entire weight behind the thrust, driving the blade through my hardened skin. Steel severs my carotid artery. I drop to my knees, clamping both hands over my throat, but hot blood pours through my fingers in heavy torrents.
 
-"Barry!" I hear Daren scream in the distance.
+"Barry!" Daren's scream echoes across the woods.
 
-The last thing I see is the mage's dagger descending towards me as he lands the finishing blow.
+My vision blurs as the flanker raises his dagger for the final strike, and the world fades to black.
 }
 #if(v_agility == 0 && v_reflexes == 0 && v_toughness < 3) {
+Luring the flanker away proves harder than planned. Without boosted speed, every teleport puts him right on my heels. Steel cuts closer with every strike. I need to get back to Daren before I run out of luck.
 
-My plan to lure the younger mage away isn't working as well as I would have hoped. I thought I could at least keep him busy long enough for Daren to finish his battle, but he constantly takes me by surprise with his teleportation magic, and with every slash, he gets closer to hitting me. Maybe I should get back to where Daren is fighting before I get myself killed.
+"Barry! Behind you!" Daren shouts.
 
-"Barry! Behind you!" Daren shouts. But it's too late. The knife reaches my neck before I get the chance to dodge.
+Too late. The dagger sweeps across my throat before I can duck.
 
-His dagger slits my throat right open. I desperately try to stop the flow of blood by covering the open wound with my hands, but it's no use. 
+Cold steel slices clean through my windpipe. I collapse, clutching my neck as blood gushes over my hands.
 
-"Barry!" I hear Daren scream in the distance.
+"Barry!" Daren's scream echoes across the woods.
 
-The last thing I see is the mage's dagger descending towards me as he lands the finishing blow.
+My vision blurs as the flanker raises his dagger for the final strike, and the world fades to black.
 }
 #if(v_agility == 0 && v_ch2_toughness_happened == 0 && v_reflexes == 0 && v_toughness > 2) {
-Kate seems to have gone on the offensive. She is throwing ice cones towards the other young mage, and he is now forced to use his swords to cut them down, instead of attacking her. As he focuses more on defense, Kate's attacks become more and more relentless. It doesn't take her long until she starts sending hundreds of ice daggers towards her enemy. The mage doesn't seem to know how to use his technique to defend from such a large number of simultaneous attacks. It only takes a small miscalculation on his part to end the battle abruptly, as one of the ice daggers stabs him right through the heart, killing him on the spot.
+Kate seizes the offensive. She hurls jagged cones of ice in rapid succession, forcing the sword-caster to recall his floating blades to parry the projectiles. The moment he shifts to defense, she accelerates. Hundreds of needle-sharp ice daggers erupt from her aura in a freezing torrent. The volume of fire overwhelms him; a single misjudged deflection leaves his chest open, and an ice shard punches clean through his sternum, piercing his heart. He collapses into the mud.
 
-"No!" shouts the older mage when he sees what happened to his eldest son. Taking his eyes off his opponent was a fatal mistake. Daren didn't waste his chance, and drove his blade right through the man's chest, his enchanted weapon cutting through the mage's heavy armor like a knife through butter. The bearded mage gave out one last gurgle, before he drowned in his own blood. 
+"No!" the father screams, his head whipping toward his fallen son.
 
-Terrified, the young mage with the dagger tries to teleport into the forest to get away, but his spell's range appears to be limited, and it only transports him halfway there. He tries to make a run for it, but  Kate snipes him from a distance, with an ice cone through his head, which killed him instantly.
+The distraction is fatal. Daren steps into the opening and drives his enchanted blade straight through the man's iron breastplate. The broadsword cuts steel and bone alike. The bearded man gurgles on blood, his grip slipping from the battleaxe before he hits the ground.
 
-It was a gruesome show, but at this point, all I care about is that I somehow managed to make it out of that alive. 
+Panic takes the surviving flanker. He teleports toward the deep woods, but his range falls short, depositing him at the tree line. As he scrambles into the brush on foot, an ice spear hurled from Kate's palm drills through the back of his skull, dropping him dead in his tracks.
+
+Silence crashes over the bloodstained clearing. My heart pounds against my ribs, hands trembling from the rush of surviving.
 }
 choice("Continue", Ch2-Battle-end, v_current_scene = Ch2-Battle-end) if (v_agility == 0 && v_reflexes > 0 || v_agility == 0 && v_ch2_toughness_happened == 0 && v_reflexes == 0 && v_toughness > 2 || v_agility > 0)
 choice("Restart game", Ch1-Intro1, v_current_scene = Ch1-Intro1, special:restart) if (v_agility == 0 && v_reflexes == 0 && v_toughness < 3 || v_agility == 0 && v_ch2_toughness_happened == 1 && v_reflexes == 0)
@@ -538,23 +549,23 @@ choice("Load game", , , special:saves) if (v_agility == 0 && v_reflexes == 0 && 
 ID: Ch2-Fight
 TEXT:
 
-There's no way Daren can fight the two of them while defending me. Since the younger mage seems to be focused on me, I'll lure him away from Daren and try to fight him on my own until Daren finishes off the older mage. 
+Daren cannot hold two opponents while protecting me. Since the teleporting son wants my blood, I will draw him away and fight him myself until Daren drops the father.
 
-Kate seems to have gotten the sword throwing mage's undivided attention. He is constantly sending swords her way from every direction, as she creates walls of ice to block his attacks. We're lucky. With Daren's weakness against weapons and my lack of magical talents, that mage would probably have been the hardest for us to fight.
+Kate has the sword-caster fully occupied. Broadswords rip through the air from every angle, only to shatter against solid slabs of ice she raises with flickers of her hands. It is an ideal matchup for us. Daren's armor cannot deflect high-tier enchanted weapons, and without magic of my own, airborne steel would butcher me in seconds.
 
-As the bearded mage reaches us, his battleaxe clashes loudly with Daren's sword.
+The bearded man closes the distance. His greataxe crashes into Daren's raised broadsword with a concussive boom that shakes the dirt beneath our feet.
 
-"I see you've enchanted your weapon well, healer," says the older mage. "But how long can you last against a battle-hardened warrior such as myself?"
+"Enchanted steel!" the brute grunts, leaning his massive weight into the bind. "Let's see how long you last against real muscle!"
 
-He roars, and presses his battleaxe harder against Daren's sword.
+He roars, forcing Daren's blade down.
 
-As the two of them fight, I dash away towards the forest. As expected, the mage with the dagger is coming right after me.
+I break into a dead sprint toward the treeline. The flanker takes the bait, vanishing from Daren's side to pursue me.
 
-"Barry, wait!" Daren shouts after me. 
+"Barry, stay back!" Daren roars.
 
-He attempts to follow, but decides against it. He can't afford to avert his eyes from the bearded mage even for a second. He is too dangerous.
+He tries to turn, but the greataxe forces him back into the guard. He cannot take his eyes off the brute for a fraction of a second.
 
-In the meantime, the mage fighting Kate has managed to surround her with floating swords, aimed at her from every direction. He sends them all at her simultaneously in an attempt to overwhelm her defenses. She quickly surrounds herself with a sphere of very thick ice, and all of the swords, once again stop into it. As she dismisses the sphere, all the hundreds of swords drop to the ground, with a deafening clang.
+Across the field, the second son summons a ring of floating steel, surrounding Kate from all sides. He snaps his fingers; dozens of blades plunge inward in a synchronized execution. Kate encases herself in a solid sphere of opaque ice. Steel embeds harmlessly into the frost. She dispels the shell, and scores of blades clatter dead against the earth.
 
 choice("Continue", Ch2-Fight2, v_current_scene = Ch2-Fight2)
 
@@ -567,60 +578,57 @@ set(v_ac_ch2_nails,1) if (v_ch2_toughness_happened == 0 && v_combat_technique ==
 achievement("Tough as nails",v_ac_ch2_nails)
 achievement("Martial arts master",v_ac_ch2_master)
 #if(v_combat_technique > 0) {
+Once I put enough distance between myself and Daren, I skid to a halt, pivot, and sink into a low combat stance. The stat booster channels martial instinct straight into my muscle memory. Space folds behind me as the flanker reappears, thrusting his dagger toward my kidney.
 
-Once I'm far enough away from Daren and his opponent, I turn back towards the mage with the dagger and assume my fighting stance. I realize I am feeling quite confident in my fighting skills all of a sudden. Is it because of that stat device? The mage tries to surprise me again by teleporting behind me, but I manage to stop his arm as he flings it towards me. Keeping a firm hold of his arm, I pull back his wrist, forcing him to let go of the dagger. As I take his weapon, he quickly pulls out another dagger from his sleeve, and makes a lunge towards me. Our two daggers clash and we start to fight.
+I intercept his wrist mid-strike, twist his arm into a brutal joint lock, and wrench the hilt from his fingers. Before I can turn the weapon on him, he flicks a second blade from his left sleeve and lunges. Steel clashes on steel as we trade vicious close-quarters thrusts.
 
-"Boy, what do you think you're doing? Stop fooling around and finish him! He's just an ordinary human!" shouts the mage with the battleaxe.
+"What are you doing?" the bearded man roars at his son. "Stop playing with your food and gut him! He's a baseline human!"
 
-Kate seems to have gone on the offensive. She is throwing ice cones towards the other young mage, and he is now forced to use his swords to cut them down, instead of attacking her. As he focuses more on defense, Kate's attacks become more and more relentless. It doesn't take her long until she starts sending hundreds of ice daggers towards her enemy. The mage doesn't seem to know how to use his technique to defend from such a large number of simultaneous attacks. It only takes a small miscalculation on his part to end the battle abruptly, as one of the ice daggers stabs him right through the heart, killing him on the spot.
+Kate seizes the offensive. She hurls jagged cones of ice in rapid succession, forcing the sword-caster to recall his floating blades to parry the projectiles. The moment he shifts to defense, she accelerates. Hundreds of needle-sharp ice daggers erupt from her aura in a freezing torrent. The volume of fire overwhelms him; a single misjudged deflection leaves his chest open, and an ice shard punches clean through his sternum, piercing his heart. He collapses into the mud.
 
-"No!" shouts the older mage when he sees what happened to his eldest son. Taking his eyes off his opponent was a fatal mistake. Daren didn't waste his chance, and drove his blade right through the man's chest, his enchanted weapon cutting through the mage's heavy armor like a knife through butter. The bearded mage gave out one last gurgle, before he drowned in his own blood. 
+"No!" the father screams, his head whipping toward his fallen son.
 
-Terrified, the young mage with the dagger tries to teleport into the forest to get away, but his spell's range appears to be limited, and it only transports him halfway there. He tries to make a run for it, but  Kate snipes him from a distance, with an ice cone through his head, which kills him instantly.
+The distraction is fatal. Daren steps into the opening and drives his enchanted blade straight through the man's iron breastplate. The broadsword cuts steel and bone alike. The bearded man gurgles on blood, his grip slipping from the battleaxe before he hits the ground.
 
-It was a gruesome show, but at this point, all I care about is that I somehow managed to make it out of that alive. 
+Panic takes the surviving flanker. He teleports toward the deep woods, but his range falls short, depositing him at the tree line. As he scrambles into the brush on foot, an ice spear hurled from Kate's palm drills through the back of his skull, dropping him dead in his tracks.
 
+Silence crashes over the bloodstained clearing. My heart pounds against my ribs, hands trembling from the rush of surviving.
 }
 #if(v_ch2_toughness_happened == 0 && v_combat_technique == 0 && v_toughness >= 3) {
+Once I put enough distance between myself and Daren, I turn to face the flanker and raise my hands. He blinks behind me, stabbing forward. I attempt a disarm, but without proper technique my grip slips.
 
-Once I'm far enough away from Daren and his opponent, I turn back towards the mage with the dagger and assume my fighting stance. As the mage teleports behind me again, I attempt to disarm him. I fail to grab his arm, however, and his knife reaches my neck.
+Cold steel sweeps across my throat. Reinforced skin blunts the edge, turning a lethal slash into a shallow scratch. The flanker freezes in shock, staring at his blade. I use his confusion to throw myself backward, widening the gap.
 
-To both me and the mage's surprise , the blade doesn't quite manage to cut through my skin, only drawing a bit of blood instead. I realize it must be because I had used my stat device to maximize my toughness. I use this moment of confusion to widen the distance between myself and my attacker, and try to keep my guard up for any more surprise teleports.
+"What are you doing?" the bearded man roars at his son. "Stop playing with your food and gut him! He's a baseline human!"
 
-"Boy, what do you think you're doing? Stop fooling around and finish him! He's just an ordinary human!" shouts the mage with the battleaxe.
-
-Kate seems to have gone on the offensive. She is throwing ice cones towards the other young mage, and he is now forced to use his swords to cut them down, instead of attacking her. As he focuses more on defense, Kate's attacks become more and more relentless. It doesn't take her long until she starts sending hundreds of ice daggers towards her enemy. The mage doesn't seem to know how to use his technique to defend from such a large number of simultaneous attacks. It only takes a small miscalculation on his part to end the battle abruptly, as one of the ice daggers stabs him right through the heart, killing him on the spot.
-
+Kate seizes the offensive. She hurls jagged cones of ice in rapid succession, forcing the sword-caster to recall his floating blades to parry the projectiles. The moment he shifts to defense, she accelerates. Hundreds of needle-sharp ice daggers erupt from her aura in a freezing torrent. The volume of fire overwhelms him; a single misjudged deflection leaves his chest open, and an ice shard punches clean through his sternum, piercing his heart. He collapses into the mud.
 }
 #if(v_ch2_toughness_happened == 1 && v_combat_technique == 0) {
+Once I put enough distance between myself and Daren, I turn to face the flanker and raise my hands. He blinks behind me, stabbing forward. I attempt a disarm, but without proper technique my grip slips.
 
-Once I'm far enough away from Daren and his opponent, I turn back towards the mage with the dagger and assume my fighting stance. As the mage teleports behind me again, I attempt to disarm him. I fail to grab his arm, however, and his knife reaches my neck.
+This time, the mage puts his entire weight behind the thrust, driving the blade through my hardened skin. Steel severs my carotid artery. I drop to my knees, clamping both hands over my throat, but hot blood pours through my fingers in heavy torrents.
 
-This time, the mage puts more power behind his strike and he manages to break through the toughness of my skin. His dagger slits my throat right open. I desperately try to stop the flow of blood by covering the open wound with my hands, but it's no use. 
+"Barry!" Daren's scream echoes across the woods.
 
-"Barry!" I hear Daren scream in the distance.
-
-The last thing I see is the mage's dagger descending towards me as he lands the finishing blow.
-
+My vision blurs as the flanker raises his dagger for the final strike, and the world fades to black.
 }
 #if(v_combat_technique == 0 && v_toughness < 3) {
+Once I put enough distance between myself and Daren, I turn to face the flanker and raise my hands. He blinks behind me, stabbing forward. I attempt a disarm, but without proper technique my grip slips.
 
-Once I'm far enough away from Daren and his opponent, I turn back towards the mage with the dagger and assume my fighting stance. As the mage teleports behind me again, I attempt to disarm him. I fail to grab his arm, however, and his knife reaches my neck.
+Cold steel slices clean through my windpipe. I collapse, clutching my neck as blood gushes over my hands.
 
-His dagger slits my throat right open. I desperately try to stop the flow of blood by covering the open wound with my hands, but it's no use. 
+"Barry!" Daren's scream echoes across the woods.
 
-"Barry!" I hear Daren scream in the distance.
-
-The last thing I see is the mage's dagger descending towards me as he lands the finishing blow.
-
+My vision blurs as the flanker raises his dagger for the final strike, and the world fades to black.
 }
 #if(v_ch2_toughness_happened == 0 && v_combat_technique == 0 && v_toughness > 2) {
-"No!" shouts the older mage when he sees what happened to his eldest son. Taking his eyes off his opponent was a fatal mistake. Daren didn't waste his chance, and drove his blade right through the man's chest, his enchanted weapon cutting through the mage's heavy armor like a knife through butter. The bearded mage gave out one last gurgle, before he drowned in his own blood. 
+"No!" the father screams, his head whipping toward his fallen son.
 
-Terrified, the young mage with the dagger tries to teleport into the forest to get away, but his spell's range appears to be limited, and it only transports him halfway there. He tries to make a run for it, but  Kate snipes him from a distance, with an ice cone through his head, which kills him instantly.
+The distraction is fatal. Daren steps into the opening and drives his enchanted blade straight through the man's iron breastplate. The broadsword cuts steel and bone alike. The bearded man gurgles on blood, his grip slipping from the battleaxe before he hits the ground.
 
-It was a gruesome show, but at this point, all I care about is that I somehow managed to make it out of that alive. 
+Panic takes the surviving flanker. He teleports toward the deep woods, but his range falls short, depositing him at the tree line. As he scrambles into the brush on foot, an ice spear hurled from Kate's palm drills through the back of his skull, dropping him dead in his tracks.
 
+Silence crashes over the bloodstained clearing. My heart pounds against my ribs, hands trembling from the rush of surviving.
 }
 choice("Continue", Ch2-Battle-end, v_current_scene = Ch2-Battle-end) if (v_ch2_toughness_happened == 0 && v_combat_technique == 0 && v_toughness > 2 || v_combat_technique > 0)
 choice("Restart game", Ch1-Intro1, v_current_scene = Ch1-Intro1, special:restart) if (v_combat_technique == 0 && v_toughness < 3 || v_ch2_toughness_happened == 1 && v_combat_technique == 0)
@@ -631,15 +639,21 @@ choice("Load game", , , special:saves) if (v_combat_technique == 0 && v_toughnes
 ID: Ch2-Ask-Kate
 TEXT:
 
-"Kate, help!" I yell, while Daren is still trying to keep the two attackers at bay. Kate doesn't show any sign of having heard me, and continues to defend from the swords flying at her.
+"Kate, help!" I shout over the ringing clash of steel.
 
-"Kate!" I shout again. "They're killing him!"
+Kate stays locked in combat, her ice shields batting away flying blades without a break in her rhythm.
 
-As I finish shouting, Kate briefly looks in my direction, and extends her right arm towards the dagger wielding mage, with her palm facing him. A cone of ice comes slowly out of her palm, with its sharp end aimed towards the mage's head. 
+"Kate!" I bellow again. "They're overwhelming Daren!"
 
-Everything that followed happened almost in an instant. She sent the cone of ice flying straight into the young mage's head, killing him instantly. The older mage's shock of seeing his son die in front of him provided enough of an opening for Daren to cut his head right off his shoulders. As the sword throwing mage was still recovering from what he'd just seen happen, Kate took one of the many swords lying at her feet, and quickly sent it flying back towards its owner, impaling him through the heart and killing him on the spot.
+Her gaze snaps toward us. Her right hand extends in a blur, palm facing the flanker. A dense spire of frost forms instantly from her open hand.
 
-It was a gruesome show, but at this point, all I care about is that I somehow managed to make it out of that alive. 
+She unleashes it in a flash. The ice spire punches straight through the flanker's skull, dropping him dead before he can even blink.
+
+The father roars in horror, freezing at the sight of his son's corpse. Daren wastes no time: stepping inside the axe's reach, he takes the bearded man's head clean off in a single sweeping arc.
+
+Across the clearing, the sword-caster freezes in disbelief. Before he can react, Kate drives an ice lance across the distance, impaling him through the chest and pinning him dead against the earth.
+
+The slaughter ends as swiftly as it began. My chest heaves, sweat stinging my eyes, relieved only that we survived the butcher's yard.
 
 choice("Continue", Ch2-Battle-end, v_current_scene = Ch2-Battle-end)
 
@@ -648,34 +662,32 @@ ID: Ch2-Battle-end
 TEXT:
 
 #if(v_ch1_stillwater == 1) {
-Daren is looking very angry. He is giving me an accusatory look as he's healing his wounds.
+Daren weaves white light over his lacerated forearm, his jaw set in a hard, accusatory scowl.
 
-"Barry, we need to talk. You haven't been completely honest with me, and we almost died back there because of it. You're not really a stillwater, are you?"
+"Barry, we need to talk. You lied to me, and we came within inches of dying because of it. You're no stillwater, are you?"
 
-"No... I'm not," I admit.
+"No," I admit, looking him in the eye. "I'm not."
 
-"But you're not one of the locals either. Otherwise that spell of theirs would have alerted us the moment we sensed your presence."
+"You aren't a local either. Otherwise the tournament ward would have triggered the instant we crossed paths."
 
-He is talking about the spell the organizers of the tournament cast on each of the participants before teleporting us here. We aren't allowed to hurt the humans that live on this continent, so their spell warns us when one of them is near. If what they said can be believed, their spell is supposed to stop us even before we try hurting any of the locals. If it's accidental then it simply stops us before doing it. If it's intentional, it eliminates us from the tournament and sends us back. 
+He refers to the monitoring enchantment woven into every participant before teleportation. Contestants are barred from harming the native population of Varathia. The ward warns of nearby locals, suppresses accidental blows, and permanently disqualifies and teleports away anyone who attempts intentional violence against them. It also functions as a receiver for trial objectives.
 
-Their spell is also supposed to act as a means of communication with the organizers. They said they'll transmit the objectives to each of us individually. It's funny. All of those careful preparations on their side, and they never even bothered to check if I was a mage or not. Hell, what am I saying? They probably didn't even care.
-
+A marvel of magical engineering—yet the organizers never bothered verifying whether their entrants were actually mages. Or perhaps they simply did not care.
 }
 #if(v_ch1_stillwater == 2) {
-As he is healing his wounds, Daren looks straight at me.
+White light bathes Daren's lacerations as the flesh knits beneath his palms. He looks up, wiping sweat and blood from his forehead.
 
-"Damn it, Barry! That was too close. We're going to have to think up some strategy until our next fight, or we're not going to last much longer."
+"Damn it, Barry! That was too close. We need a coordinated strategy before the next fight, or we won't last until nightfall."
 
-"Yes," I tell him. "I think you may be right."
+"I won't argue with that," I reply.
 
-After finishing his healing spell, he walks over to Kate.
+He finishes the weave and walks over to Kate, studying her with open bewilderment.
 
-"Kate, please explain something to me, because I just don't get it. With the way you were fighting back there, why would you ever ask for an escort?"
+"Kate, help me understand. Fighting like that, why on earth would you ask for an escort?"
 
-"Everyone has their weaknesses, healer... Judging by how much you've been struggling this fight, I would assume that ironically, you are weakest against other weapon enchanters such as yourself. But just because I handled these thugs with ease, it doesn't mean I won't have any problems against other foes. No one can survive this tournament alone."
+"Everyone has vulnerabilities, healer," she replies, shaking frost from her cuffs. "Watching you struggle, I'd say you are weakest against fellow weapon enchanters. Just because I dismantled three thugs does not mean I can survive every threat on this continent alone. No one wins this tournament by themselves."
 
-"Yes... I suppose you're right."
-
+"Yes... I suppose you have a point."
 }
 choice("Continue", Ch2-Confession, v_current_scene = Ch2-Confession) if (v_ch1_stillwater == 1)
 choice("Continue", Ch2-Battle-end2, v_current_scene = Ch2-Battle-end2) if (v_ch1_stillwater == 2)
@@ -684,21 +696,21 @@ choice("Continue", Ch2-Battle-end2, v_current_scene = Ch2-Battle-end2) if (v_ch1
 ID: Ch2-Confession
 TEXT:
 
-"So you must be a participant, then," Daren continues. "What reason would you have to participate in a tournament against the most powerful mages in the world?"
+"Then you are a registered contestant," Daren continues, folding his arms. "What could possibly compel an ordinary human to enter a death match against the most powerful mages in the world?"
 
-I am after the same thing as every other participant in this tournament, Daren, but I'm not sure how wise it would be to tell you of this. 
+I am after the exact same prize as everyone else, Daren, but speaking it aloud is dangerous.
 
-I'm after the prize that's being offered to the winner. The Magium.
+The Magium.
 
-Nobody knows exactly what it looks like, or what it's made of, but everyone knows the fact that it is the source of all magic in the world, and that it can only be found on the continent of Varathia. All mages seek it. They crave it. They are certain that if they have access to it, they can increase their powers a hundredfold and become living legends. And although it is a common misconception that the Magium is only useful for learned mages, my studies have led me to believe that the Magium is so extraordinary that it can even turn a normal human into a mage.
+The mythical wellspring of all magic in existence, concealed somewhere on the continent of Varathia. Every caster alive dreams of reaching it, convinced that tapping its power will multiply their strength a hundredfold and elevate them to living gods. But while popular belief insists the Magium responds only to trained sorcerers, my research revealed a deeper truth: its power is boundless enough to grant magical ability to an ordinary human.
 
-I've searched very long for a way to get into Varathia, but the only way one can travel to their continent is by receiving a direct invitation. Very few of those are sent yearly, and the people being teleported there are being held under direct supervision for the duration of their stay, and return with no information regarding the coordinates of the place.
+For years, reaching Varathia was impossible. The continent sat isolated behind impenetrable barriers, accessible only by rare, heavily monitored royal invitations whose recipients returned with their memories of the route scrubbed clean.
 
-But when all hope seemed lost, the announcement came. A worldwide announcement by the kings of Varathia that they were organizing a tournament where every single mage in the world was invited. And the winner would be granted access to the Magium.   
+Then came the proclamation. A worldwide summons from the kings of Varathia, inviting every mage on earth to compete for the ultimate prize: access to the Magium itself.
 
-I knew then that there would never be another chance like this. 
+It was the only opening I would ever get.
 
-"Why did you join this tournament, Barry?" Daren asks me again.
+"Why did you join this tournament, Barry?" Daren presses.
 
 choice("Tell him the truth", Ch2-Truth2, v_current_scene = Ch2-Truth2, v_ch2_human_reason = 1)
 choice("Tell him I was forced into it", Ch2-Forced2, v_current_scene = Ch2-Forced2, v_ch2_human_reason = 2)
@@ -708,23 +720,23 @@ choice("Tell him I'm looking for a cure for my sick sister", Ch2-Sister2, v_curr
 ID: Ch2-Truth2
 TEXT:
 
-"I'm after the same thing as you, Daren," I tell him. "I'm after the Magium.  It's been my dream ever since I was little to become a mage, and the Magium can grant me that wish."
+"I'm after the same thing as you, Daren," I tell him. "I'm after the Magium. It's been my dream ever since I was little to become a mage, and the Magium can grant me that wish."
 
-"Come on, Barry. You're going to have to make up a better lie than that if you want me to believe you!"
+"Come now, Barry. You'll need a better fabrication than that."
 
-He stops and looks me straight in the eye.
+He trails off, catching the unblinking conviction in my eyes.
 
-"By the gods... You are being serious! Barry, I commend your bravery and determination but... You do realize you can't win this entire tournament just by bluffing, don't you?"
+"By the gods... you're serious. Barry, I admire your determination, but you cannot bluff your way through a tournament of archmages."
 
-"If I might interrupt," Kate says. "I think we should get out of here as soon as possible, before anyone sees us standing amidst all of these dead bodies and figures we killed all of these people."
+"If I might interrupt," Kate cuts in, stepping between us. "We need to clear out before someone finds us among these corpses and assumes we slaughtered the entire clearing."
 
-Daren glances back at her.
+Daren looks over at her, his brow furrowing.
 
-"I don't understand you, woman. With the way you were fighting back there, why would you ever ask for an escort?"
+"I still don't understand you, woman. Fighting like that, why would you ever need an escort?"
 
-"Everyone has their weaknesses, healer... Judging by how much you've been struggling this fight, I would assume that ironically, you are weakest against other weapon enchanters such as yourself. But just because I handled these thugs with ease, it doesn't mean I won't have any problems against other foes. No one can survive this tournament alone."
+"Everyone has vulnerabilities, healer," she replies, shaking frost from her cuffs. "Watching you struggle, I'd say you are weakest against fellow weapon enchanters. Just because I dismantled three thugs does not mean I can survive every threat on this continent alone. No one wins this tournament by themselves."
 
-"Yes... I suppose you're right."
+"Yes... I suppose you have a point."
 
 choice("Continue", Ch2-Battle-end2, v_current_scene = Ch2-Battle-end2)
 
@@ -734,27 +746,27 @@ TEXT:
 
 "I didn't come here by choice," I tell him. "Believe me, I would love nothing more than to leave this place and never look back. But that's not really an option for me at this point. All I can do now is try to survive until the end of the tournament."
 
-Daren pauses a little to reflect on my words.
+Daren strokes his chin, mulling over the problem.
 
-"Hold on, Barry... I think there's also another way."
+"Wait, Barry... there is another way."
 
 "There is?"
 
-"Yeah! Remember the rules? They said they'd eliminate us from the tournament and teleport us right back if they detected any intent to harm the locals. You could use that, Barry! You just need to find any of the humans living on this continent, try to punch them in the face, and you'll be set free!"
+"The tournament ward! If you attempt to harm a local, the enchantment disqualifies you and teleports you straight back to the mainland. You only need to find a native Varathian, throw a punch, and you're free!"
 
-"I..uh... I never thought of it this way."
+"I... had not considered that."
 
-"Don't worry, I'll make sure to keep you safe until we reach one of the cities!"
+"Don't worry," Daren vows, clapping a hand to his chest. "I'll see you safely to the nearest city!"
 
-"If I might interrupt," Kate says. "I think we should get out of here as soon as possible, before anyone sees us standing amidst all of these dead bodies and figures we killed all of these people."
+"If I might interrupt," Kate cuts in, stepping between us. "We need to clear out before someone finds us among these corpses and assumes we slaughtered the entire clearing."
 
-Daren glances back at her.
+Daren looks over at her, his brow furrowing.
 
-"I don't understand you, woman. With the way you were fighting back there, why would you ever ask for an escort?"
+"I still don't understand you, woman. Fighting like that, why would you ever need an escort?"
 
-"Everyone has their weaknesses, healer... Judging by how much you've been struggling this fight, I would assume that ironically, you are weakest against other weapon enchanters such as yourself. But just because I handled these thugs with ease, it doesn't mean I won't have any problems against other foes. No one can survive this tournament alone."
+"Everyone has vulnerabilities, healer," she replies, shaking frost from her cuffs. "Watching you struggle, I'd say you are weakest against fellow weapon enchanters. Just because I dismantled three thugs does not mean I can survive every threat on this continent alone. No one wins this tournament by themselves."
 
-"Yes... I suppose you're right."
+"Yes... I suppose you have a point."
 
 choice("Continue", Ch2-Battle-end2, v_current_scene = Ch2-Battle-end2)
 
@@ -762,21 +774,21 @@ choice("Continue", Ch2-Battle-end2, v_current_scene = Ch2-Battle-end2)
 ID: Ch2-Sister2
 TEXT:
 
-"It's... It's my sister. She is terminally ill, and the cure for her illness can only be found on this continent. I've tried for months to get an invitation to this place, but they would not hear of it. This was the only way. I can only hope that I'll somehow manage to survive long enough to find what I'm looking for."
+"It's... my sister," I say, dropping my gaze. "She is terminally ill, and the cure for her illness can only be found on this continent. I've tried for months to get an invitation to this place, but they would not hear of it. This was the only way. I can only hope that I'll somehow manage to survive long enough to find what I'm looking for."
 
 Daren places a hand on my shoulder.
 
-"We'll find it. Together! I promise I won't let any harm come to you until you achieve your goal!"
+"We'll find it together. I give you my word: no harm will come to you while I draw breath."
 
-"If I might interrupt," Kate says. "I think we should get out of here as soon as possible, before anyone sees us standing amidst all of these dead bodies and figures we killed all of these people."
+"If I might interrupt," Kate cuts in, stepping between us. "We need to clear out before someone finds us among these corpses and assumes we slaughtered the entire clearing."
 
-Daren glances back at her.
+Daren looks over at her, his brow furrowing.
 
-"I don't understand you, woman. With the way you were fighting back there, why would you ever ask for an escort?"
+"I still don't understand you, woman. Fighting like that, why would you ever need an escort?"
 
-"Everyone has their weaknesses, healer... Judging by how much you've been struggling this fight, I would assume that ironically, you are weakest against other weapon enchanters such as yourself. But just because I handled these thugs with ease, it doesn't mean I won't have any problems against other foes. No one can survive this tournament alone."
+"Everyone has vulnerabilities, healer," she replies, shaking frost from her cuffs. "Watching you struggle, I'd say you are weakest against fellow weapon enchanters. Just because I dismantled three thugs does not mean I can survive every threat on this continent alone. No one wins this tournament by themselves."
 
-"Yes... I suppose you're right."
+"Yes... I suppose you have a point."
 
 choice("Continue", Ch2-Battle-end2, v_current_scene = Ch2-Battle-end2)
 
@@ -784,15 +796,15 @@ choice("Continue", Ch2-Battle-end2, v_current_scene = Ch2-Battle-end2)
 ID: Ch2-Battle-end2
 TEXT:
 
-Daren pauses.
+Daren nods toward the treeline.
 
-"Very well. Let's keep going," he says, as he heads towards the trees. 
+"Very well. Let's keep going," he says, taking the lead.
 
-I start to follow him, but Kate stops me in my tracks. She has that very serious look in her eyes again.
+I turn to follow, but Kate steps into my path, catching my shirt collar in a tight fist. Her eyes narrow into cold slits.
 
-"Stillwater," she says in a low voice, in order to avoid being heard by Daren. "I saw you 'fighting' back there. You may have managed to convince Daren and that bearded fool that you are an ordinary human, but I am not so easily deceived. I don't know what your game is, but I'm going to keep my eye on you."
+"Stillwater," she says in a low voice, avoiding Daren's hearing. "I saw you 'fighting' back there. You may have managed to convince Daren and that bearded fool that you are an ordinary human, but I am not so easily deceived. I don't know what your game is, but I'm going to keep my eye on you."
 
-"I'm not--" I start to say, but Kate cuts me off and grabs me by the shirt.
+"I'm not—" I begin, but Kate cuts me off and tightens her grip.
 
 #if(v_ch2_kate_debt == 0) {
 "Listen to me, stillwater. I'm not interested to hear your lies. I just wanted to make sure you were clear on what I think of your little charade. Now, are you clear?"
@@ -810,9 +822,9 @@ choice("I don't owe you anything.", Ch2-No-debt, v_current_scene = Ch2-No-debt, 
 ID: Ch2-Crystal
 TEXT:
 
-"Crystal," I tell her. 
+"Crystal," I tell her.
 
-"Good," she says as she releases my shirt. "Now let's be off. We need to catch up to Daren."
+"Good," she says, releasing my shirt. "Now let's be off. We need to catch up to Daren."
 
 choice("Continue", Ch2-Deer, v_current_scene = Ch2-Deer)
 
@@ -822,11 +834,11 @@ TEXT:
 
 "Not really, could you elaborate some more?" I ask her.
 
-Kate frowns at me.
+Her eyes flash with cold annoyance.
 
 "Joke all you want, stillwater, but I've got my eye on you."
 
-She releases my shirt, and goes to catch up with Daren, not saying another word.
+She releases my shirt and strides ahead to catch up with Daren, not saying another word.
 
 choice("Continue", Ch2-Deer, v_current_scene = Ch2-Deer)
 
@@ -836,9 +848,9 @@ TEXT:
 
 "Don't worry," I tell her. "I always pay my debts."
 
-The look in her eyes has lost a bit of its hostility. It seems she is willing to take my word for it, for the time being.
+The hostility in her posture eases by a fraction. She studies my face, willing to take my word for now.
 
-"Very well, then," she says, as she releases my shirt. "Let's be off. We need to catch up to Daren."
+"Very well, then," she says, releasing my shirt. "Let's be off. We need to catch up to Daren."
 
 choice("Continue", Ch2-Deer, v_current_scene = Ch2-Deer)
 
@@ -846,9 +858,9 @@ choice("Continue", Ch2-Deer, v_current_scene = Ch2-Deer)
 ID: Ch2-Clear
 TEXT:
 
-"Yes, we're clear," I tell her. 
+"Yes, we're clear," I tell her.
 
-"Very well, then," she says, as she releases my shirt. "Let's be off. We need to catch up to Daren."
+"Very well, then," she says, releasing my shirt. "Let's be off. We need to catch up to Daren."
 
 choice("Continue", Ch2-Deer, v_current_scene = Ch2-Deer)
 
@@ -858,11 +870,11 @@ TEXT:
 
 "I don't owe you anything," I tell her. "You only helped me because you saw that Daren was getting killed."
 
-Kate scowls at me.
+Kate scowls, stepping closer.
 
 "You were the one getting killed, stillwater. Not Daren. And you will pay your debt."
 
-She releases my shirt, and goes to catch up with Daren, not saying another word.
+She shoves me back, releasing my shirt, and goes to catch up with Daren without another word.
 
 choice("Continue", Ch2-Deer, v_current_scene = Ch2-Deer)
 
@@ -874,15 +886,12 @@ set(v_ch2_deer_interaction,0)
 set(v_ch2_understood_deer,0) if (v_ancient_languages < 2)
 set(v_ch2_understood_deer,1) if (v_ancient_languages >= 2)
 #if(v_ancient_languages < 2) {
+Near the dense tree line, brush rustles as a doe and her fawn emerge from the foliage. Catching sight of us, they startle, let out soft grunts of alarm, and bolt back into the thick undergrowth.
 
-As we approach the forest, I see a female deer and her fawn appear from behind the trees. They make some noise when they see us, and then they hurry back into the woods.
-
-We decide to follow the path that leads to the mountains, in the hopes of finding a cave to provide us with some shelter for the night.
-
+We turn toward the mountain trail, searching the rocky slopes for a cave to shelter us for the night.
 }
 #if(v_ancient_languages >= 2) {
-
-As we approach the forest, I see a female deer and her fawn appear from behind the trees. When the fawn opens its mouth, I realize it speaks in one of the ancient languages my stat device has taught me.
+Near the dense tree line, brush rustles as a doe and her fawn emerge from the foliage. As the young fawn bleats, the sounds resolve into fluent syllables of an ancient dialect, instantly translated by my stat booster.
 
 "Mommy, there are more outlanders this way!"
 
@@ -895,7 +904,6 @@ They head back towards the woods.
 The two deer stop and look towards me.
 
 "You can... understand us?" asks the doe.
-
 }
 choice("Next chapter", Ch3-Intro, v_next_chapter_crash = 1, v_current_scene = Ch3-Intro, v_chapter_save_counter = 5, v_checkpoint_rich = 1, special:checkpoint_save) if (v_ancient_languages < 2)
 choice("Offer to provide protection in exchange for leading us to their cave", Ch2-Protection, v_ac_ch2_unlikely = 1, v_current_scene = Ch2-Protection, v_ch2_deer_interaction = 1) if (v_ancient_languages >= 2)
@@ -915,11 +923,11 @@ The female deer is measuring me up with her eyes. She isn't sure what to make of
 
 "No," the female deer says. "You don't. Otherwise I wouldn't still be alive, having this conversation with you. I thank you, outlander. We accept your generous offer. My name is Elaria, and this is my child, Molan. I believe this is how humans make their acquaintance?"
 
-She approaches me, and she extends one of her front hooves towards me. I realize she wants me to shake her hand. I grab her hoof and I shake it lightly, before letting it go.
+She steps forward and gracefully extends a slender front leg. Taking the offered hoof, I give it a brief, formal shake before letting go.
 
 "I'm Barry," I tell her. "Pleased to meet you!"
 
-Daren and Kate are looking at me, dumbfounded. It occurs to me that the two of them probably didn't understand a word of what I've been saying. This must all sound like weird animal noises to them.
+Beside me, Daren and Kate stare in utter bewilderment. To their ears, I just traded a series of strange clicks and bleats with a wild animal and concluded the negotiation with a handshake.
 
 "Barry, what the hell?..." asks Daren.
 
@@ -929,7 +937,7 @@ Daren and Kate are looking at me, dumbfounded. It occurs to me that the two of t
 
 "Then come on, she says it's this way," I say, as I follow the deer into the woods.
 
-Daren is clearly very reluctant about all of this, but he follows me regardless. Kate looks more puzzled than skeptical, as she decides to follow me as well, into the depths of the forest and towards the mountains.
+Daren shakes his head in deep skepticism, but follows regardless. Kate watches with a raised brow, more intrigued than skeptical, as she follows as well into the depths of the forest and toward the mountains.
 
 choice("Next chapter", Ch3-Intro, v_next_chapter_crash = 1, v_current_scene = Ch3-Intro, v_chapter_save_counter = 5, v_checkpoint_rich = 1, special:checkpoint_save)
 

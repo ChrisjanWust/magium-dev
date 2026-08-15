@@ -1,15 +1,15 @@
 ID: Ch1-Intro1
 TEXT:
 
-They say there is a very fine line between bravery and stupidity. As I stand here, in the middle of this forest, gazing at all of the explosions far in the distance, I realize I may well have crossed that line, to a point of no return.
+There is an old saying about the fine line between courage and stupidity. Standing under the twisted, violet-veined canopy of a Varathian forest with the horizon detonating in silent blooms of arcane fire, I have almost certainly crossed it.
 
-My name is Barry. I am twenty-eight years old, and  I could quite accurately be described as your everyday ordinary guy. I have no talents, no particular skills and no academic background. The only thing that defines me is my lifelong obsession to become a mage. It is what I've wished for ever since I was five years old. It has been my driving passion throughout my life, as I've constantly amassed knowledge about mages and travelled the world in the hopes of finding a way to make my dream come true.
+My name is Barry. I am twenty-eight years old, and on paper, entirely unremarkable. No innate gift, no formal academy pedigree, no noble bloodline. Just an obsession that took root when I was five and never let go: I want to become a mage. I spent twenty-three years scouring libraries, hunting down obscure treatises, and chasing every rumor across the continents to find a loophole in the natural order.
 
-After endless years of searching through dusty tomes and weathered parchments I have finally found a way to do it.
+Eventually, I found one.
 
-The catch? I need to first win a tournament against the most powerful mages in the world. Sounds crazy? That's probably because it is. But it is far too late to go back now. The only way that's left for me is forward.
+The condition is simple enough on paper: win an open tournament against the deadliest mages alive. Madness, by any sane standard. But the teleportation circle closed behind me ten minutes ago, and there is no return ticket. The only road left runs straight through.
 
-As I stand here, knowing that it's no longer possible to return to my normal life, I can't help but feel quite...
+Looking out at the smoke rising above the treeline, knowing my ordinary life is finished, what I feel most of all is...
 
 choice("Excited", Ch1-Intro2, v_current_scene = Ch1-Intro2, v_ch1_intro_feeling = 1)
 choice("Calm", Ch1-Intro2, v_current_scene = Ch1-Intro2, v_ch1_intro_feeling = 2)
@@ -20,31 +20,33 @@ ID: Ch1-Intro2
 TEXT:
 
 #if(v_ch1_intro_feeling == 1) {
-...excited about this whole thing.  Maybe I really am completely out of my mind. I would have expected to feel at least a little bit scared about all of this. But instead of that, I get this constant tingling sensation that won't go away. The feeling that I am closer to my dream than ever before in my life.  All of the terrible dangers that await me seem distant to me, and all I can  really think about now is that at the end of the tournament, when I win this, I will finally become a mage.
+...an electric, restless hum in my chest. Maybe I have completely lost my mind. By all rights, terror ought to have frozen my knees. Instead, adrenaline prickles beneath my skin like static. Twenty-three years of theoretical prep, and I am finally standing on the same ground as the greatest casters in the world. The lethal risks ahead are real, but they pale next to the prize waiting at the end: win this tournament, and I finally become a mage.
 }
 #if(v_ch1_intro_feeling == 2) {
-...calm about this whole thing. It must be because I've been getting mentally prepared for this for so long. Or maybe I'm just stronger than I thought myself to be. But even in the face of the mortal danger that awaits me, even against these impossible odds, I feel confident. I know I can do this. I am going to win this tournament and become a mage. I cannot allow myself to fail.
+...a steady, icy focus. Years of running worst-case calculations have stripped away the shock. The odds are absurd, the participants are lethal, and one slip means an unmarked grave in Varathian soil. But I came here with my eyes open. I have the knowledge, I have the preparation, and I did not cross oceans just to fold at the starting line. I am going to win this tournament and take what is mine.
 }
 #if(v_ch1_intro_feeling == 3) {
-...afraid. Deep down, I always knew this would happen. I've been spending the past few weeks getting mentally prepared and making plans. Telling myself I was ready for whatever this tournament is going to throw at me. But once I got here, once I knew there was no way for me to go back, all of my confidence turned to uncertainty, and all of my courage turned to fear. I am going up against the strongest mages in the world. No amount of planning could ever really make me prepared for this. But it's too late to change my mind now. I've had enough time to back out of this before coming here. I am going to win this tournament against all odds. I'm going to do it. I just have to...
+...cold dread coiled in my gut. Reading about lethal elemental duels by candlelight is one thing; standing in the blast zone is another entirely. Every theoretical plan I spent weeks refining evaporates in the face of raw mortality. The mages on this island could incinerate me before I draw breath. Yet backing out is not an option—I had twenty-three years to quit, and I chose this path. Terror or not, I have to see it through to the end.
 }
-There's an explosion maybe a few hundred feet from my location. The fights have already begun. And one of them is much closer to me than I would have hoped. There's no way I can get in a fight with any of the mages at this point. I need to avoid combat for as long as possible if I am to survive until the end.
+A concussive crack rips through the trees three hundred yards out, rattling the branches and scattering birds in a panicked screech. The opening clashes are already underway, far too close for comfort. Engaging any caster in a direct contest right now is suicide. Survival means keeping low and letting the heavy hitters bleed each other first.
 
-I head in the opposite direction from where I've heard the explosion. As I am heading towards the end of the forest, I start hearing voices. There are two mages talking in a clearing a few feet away from me. I hide behind a tree and take a quick glance towards the clearing. 
+I cut south, away from the smoke, staying in the thick brush along the forest edge. Muffled voices drift from a small clearing ahead. Slipping behind the trunk of a massive, moss-caked oak, I ease forward just enough to peer around the bark.
 
-It seems the two mages have just finished fighting. One of them has the appearance of an ordinary thug. He is wearing a simple stained white shirt, leather pants and a belt full of throwing knives. His untrimmed black beard hides a wicked smile. Just by seeing the confidence in his eyes, I can clearly tell he is the victor of the skirmish. The other mage is wearing heavy armor, but his shield lies on the ground besides him and he is barely holding his sword anymore.
+The skirmish is already over. The victor stands with arms crossed, looking like an ordinary back-alley cutpurse—grease-stained tunic, scuffed leather trousers, and a bandolier heavy with balanced throwing daggers. A greasy smirk cuts across his unkempt dark beard. A few paces away, his opponent leans heavily on a notched broadsword, breathing in ragged gasps. A heavy kite shield lies half-buried in the dirt, and fresh blood seeps from the joints of his plate armor.
 
-Taking a closer look at the mage in armor, I notice his head is bald, his skin is dark, he is likely in his mid forties and he has a scar on his forehead, shaped like an 'X'.  I've read of a mage matching this exact description who went by the name of Daren, and he was quite legendary, but would he lose so easily to some common thug? The mage in the white shirt answers my question as he addresses the one in armor, while casually playing with one of his knives.
+The defeated warrior is a towering, broad-shouldered man in his mid-forties, dark-skinned and bald, with a stark X-shaped scar gouged into his forehead. The descriptions in the eastern chronicles match him to a letter: Daren, the legendary healer in armor. Yet here he is, brought to his knees by a common brigand. 
 
-"The legendary mage Daren! The savior of the eastern continent. The healer in armor. They say you've travelled the world, saving countless villages from destruction. That you've once fought ten rock golems by yourself, only to defend a small child. I guess this goes to show, you should never really trust legends, aye? I always knew all of those tales about mages as strong as giants were just codswallop. Hell, if all those 'legendary' mages that joined this tournament are as weak as you, I'm going to win this by sundown!"
+The man in the tunic twirls a dagger between his fingers, voice dripping with mockery.
 
-He starts laughing but he stops suddenly.
+"The legendary Daren! The savior of the Eastern Continent. The healer in armor. They say you crossed the world putting down horrors for helpless villagers—that you once shattered ten rock golems single-handed just to pull a child from the rubble. Turns out fairy tales are cheap, aye? I knew all that tavern rot about giant-slayers was pure codswallop. If the rest of the big names in this tournament are as soft as you, I'll have the crown by nightfall!"
 
-"Wait, who's there?" he says, as he turns towards me.
+He chuckles, a grating, wheezing rasp—then snaps his head toward my tree.
 
-I quickly pull my head back behind the tree, and press my back against it, trying to breathe as silently as possible.
+"Wait. Who's there?"
 
-"I know you're there, coward. Show yourself, or I'll have one of my knives find you!"
+I press my back flat against the rough wood, killing my breath in my throat.
+
+"I know you're behind that oak, coward. Step out, or one of my daggers will come fetch you!"
 
 choice("Stay silent", Ch1-Cutthroat Dave, v_current_scene = Ch1-Cutthroat Dave, v_ch1_show_yourself = 1)
 choice("Show myself", Ch1-Cutthroat Dave, v_ac_ch1_coward = 1, v_current_scene = Ch1-Cutthroat Dave, v_ch1_show_yourself = 2)
@@ -56,41 +58,41 @@ TEXT:
 
 achievement("Who are you calling a coward?",v_ac_ch1_coward)
 #if(v_ch1_show_yourself == 1) {
-I keep my breathing as silent as possible and don't say anything. He must be bluffing. He never got the chance to see me. He'll give up once he sees there's no answer.
+I hold my breath and don't make a sound. He has no line of sight; it could be a blind probe. If I stay still, he will write it off as forest noise.
 
-"Have it your way, then," the thug says, as I hear him throw a dagger towards me. The dagger whooshes past my head and before I get the chance to react, it turns in midair and flies right into my left shoulder, pinning it against the tree. I let out a muffled groan of pain, as I reach to pull the knife out.
+"Have it your way," the rogue calls out. A whip-like crack splits the air. A throwing dagger streaks past the trunk, banks impossible ninety degrees in mid-flight, and drives deep into my left shoulder, pinning sleeve and muscle to the oak. A raw gasp tears from my throat as I grab at the hilt.
 
-"You're not going to get that knife out so easily. My knives have a life of their own, and they only listen to me. Now that I know where you are, I'm going to..."
+"You won't wrench that loose. My steel answers only to me. Now that I have your mark, I'm going to—"
 
-He pauses.
+He cuts off abruptly.
 
-"So you're a stillwater, eh? Trying to get me to lower my guard by acting like an idiot? Trying to lull me into a false sense of security? Is that your plan? Well it ain't gonna work on me. Cause I'm too smart for that, you hear me?!"
+"A stillwater? Playing the idiot to make me drop my guard? Lulling me into a false sense of security? Think you're clever, do you? Well, it won't work on me. I'm too sharp for your games!"
 }
 #if(v_ch1_show_yourself == 2) {
-I breathe in deeply and try to appear as calm as possible. I step out of the forest and into the clearing, facing the mage with the knives directly.
+I draw a slow breath, steadying my pulse as best I can, and step out from behind the trunk into the open clearing, fixing my eyes on the knife-thrower.
 
 "Who are you calling a coward?" I ask him.
 
-The mage pauses for a bit as he measures me up and down. 
+The rogue freezes, taking my measure from boot to collar.
 
-"A stillwater, eh?" he says, finally. He tried hard to keep his composure when asking his question, but the tremor in his voice betrayed him. He is afraid.
+"A stillwater, eh?" he says. He aims for swagger, but his voice catches on a thin, nervous rasp.
 }
 #if(v_ch1_show_yourself == 3) {
 "I see no reason to show myself to you," I tell him.
 
-As he pinpoints my location from the sound of my voice, the mage makes a rather long pause before speaking again.
+The rogue locks onto the direction of my voice, fingers twitching near his bandolier—then he goes completely rigid.
 
-"A stillwater, eh?" he says, finally. He tried hard to keep his composure when asking his question, but the tremor in his voice betrayed him. He is afraid.
+"A stillwater, eh?" he says. He aims for swagger, but his voice catches on a thin, nervous rasp.
 }
-His sudden change of attitude towards me is not completely unexpected. The existence of stillwaters is one of the main reasons I've dared to dream that I might have a chance to win this tournament.
+The sudden shift in tone makes tactical sense. The existence of stillwaters is the entire reason I gambled on entering this tournament in the first place.
 
-Stillwaters are a very rare breed of mages, that are known to be incredibly powerful. One of them is said to have destroyed an entire city in an instant some twenty years ago, with only a flick of his fingers. The city of Olmnar was said to have been one of the greatest cities on this continent, but it was wiped off the map just like that, in a single second. Such is the power of these stillwaters.
+Stillwaters are freakish anomalies in the magical order, known for catastrophic, god-scale destruction. Twenty years ago, one of them leveled the metropolis of Olmnar in the span of a single heartbeat, with nothing more than a casual flick of his fingers. One of the greatest cities on Varathia was reduced to glass and ash in seconds.
 
-But what is even more interesting about these stillwaters is that you can't differentiate them from normal humans. Normally, you can sense the magic flowing from every being. You don't need to be a mage to do it. By sensing their magical aura, you can tell how strong mages are before engaging them in a fight. 
+The crucial detail is their magical footprint. Normally, every living creature radiates ambient energy. Even a non-caster can feel the distinct pressure of a mage's aura in the air, sizing up their reserve before steel clashes. 
 
-Stillwaters, however, have the same aura as normal humans. And if you were to run into someone that seems to have almost no magic in the middle of what is essentially the greatest mage tournament in all of history... What would you be more inclined to believe? That an average human was somehow suicidal enough to join the tournament only to get massacred? Or that you are facing one of the strongest and rarest kinds of mages that exist in the world?
+Stillwaters, however, project the exact same flat, faint aura as an ordinary human. And when a tournament draws the deadliest spellcasters in the world to one island, running into someone who registers as a mundane civilian leaves only two logical conclusions: either an ordinary mortal was suicidal enough to sign his own death warrant, or he is standing in front of a stillwater capable of erasing him with a word.
 
-"You don't scare me, stillwater! I'm going to fill you with holes and you'll end up begging me for mercy! I bet your legends are no more true than they were for this sad excuse for a mage standing next to me."
+"You don't scare me, stillwater!" the rogue snarls, trying to shout down his own tremor. "I'll put enough steel through you to drain you dry—you'll beg for mercy before the sun goes down! I bet your kind's reputation is just as bloated as this broken relic on the ground."
 
 choice("Give him until the count of ten to retreat", Ch1-Retreat, v_ac_ch1_die = 1, v_current_scene = Ch1-Retreat)
 choice("Imply that I'm the one who destroyed the city of Olmnar", Ch1-Imply, v_current_scene = Ch1-Imply)
@@ -102,18 +104,16 @@ TEXT:
 achievement("Off to a good start",v_ac_ch1_die)
 "I'm going to give you until the count of ten to get out of my sight," I tell him.
 
-"Hah! Empty words. That's all you've got. Arm yourself, fool! Today, I become a legend!"
+"Hah! Empty bluster. Arm yourself, fool! Today, I make my name!"
 
 #if(v_ch1_show_yourself == 1) {
-Once he's done talking, I hear the mage throw several knives towards the forest. I desperately try to pull the knife out of my shoulder, but it's no use. Five of the mage's knives race past me, and turn in midair just like the last one did. I try to somehow get out of their way, but the knife in my shoulder is still keeping me pinned against the tree. 
-
-The last thing I feel is the sharp pain of all those knives impaling me, as my consciousness slowly starts fading away.
+Leather snaps as the rogue flings a volley blind into the foliage. I wrench desperately at the hilt embedded in my shoulder, but the enchanted steel bites deeper into the wood. Five whistling daggers shoot past the trunk, pivot in midair with sickening precision, and dive back inward. I twist, but the pin holds fast. Cold steel punches through chest and throat, the forest tilts, and the world goes black.
 }
 #if(v_ch1_show_yourself == 2) {
-Once he's done talking, the mage throws five daggers simultaneously towards me. I try to dodge them but they're so fast I barely even get the time to blink. It was all over in an instant. As I feel the pain from the daggers, my consciousness slowly starts fading away.
+The rogue snaps his wrists, launching five daggers in a lethal spread. I throw myself sideways, but enchanted steel tracks faster than human reflexes. The blades tear through leather, muscle, and bone in a single concussive volley. The ground rushes up to meet me, and darkness takes the light.
 }
 #if(v_ch1_show_yourself == 3) {
-Once he's done talking, I hear the mage throw several knives towards the forest. They all race past me, but before I get the chance to even think what to do next, the knives suddenly turn in midair and fly towards me, impaling me where I stand. It all ended so fast I barely even had the time to realize I was dead.
+The rogue flings a handful of daggers toward my voice. The blades whip past the brush, bank sharply in midair, and plunge through the undergrowth from behind. Steel tears into flesh before I can even drop. Pain flashes white-hot, my knees buckle into the loam, and the world dissolves into dark.
 }
 
 choice("Restart game", Ch1-Intro1, v_current_scene = Ch1-Intro1, special:restart)
@@ -126,24 +126,24 @@ TEXT:
 "That's funny," I tell him. "That's almost the same thing the people of Olmnar told me. Before I burned their city to the ground."
 
 #if(v_ch1_show_yourself == 2) {
-The mage was about to go for his knives, but now he stopped. He is looking at me quite intently, without averting his eyes for even a second.
+The rogue's hand freezes an inch above his bandolier. His gaze locks onto mine, pupils dilated, refusing to blink.
 }
 #if(v_ch1_show_yourself != 2) {
-After I say that, there's a long pause in which none of us says anything.
+A suffocating quiet settles over the clearing. Neither of us moves.
 }
-"You're bluffing," the mage says.
+"You're bluffing," the rogue says.
 
-"I guess there's only one way to find out, then," I tell him, as I feel my heart pounding in my chest.
+"I guess there's only one way to find out, then," I tell him, forcing my voice level while my pulse pounds against my ribs.
 
-The few seconds of silence that followed felt like the longest seconds in my life. After a long pause, the mage says, finally:
+Three seconds stretch into an eternity. A breeze rustles the canopy above, dropping yellow leaves between us. Finally, he lowers his chin, teeth grinding.
 
-"You're in luck, stillwater. I'm feeling merciful today. I'm going to be out of your hair just as soon as I finish this guy here."
+"You're in luck, stillwater. I'm feeling merciful today. I'll stay out of your path—just as soon as I finish this guy here."
 
-"You do that and you'll regret it," I say without thinking.
+"You do that and you'll regret it," I say before my brain can stop my mouth.
 
-My last sentence seems to have taken him aback.
+The words hang in the air like a slap. The rogue recoils, staring in disbelief.
 
-"What, are you kidding me? You're going to defend this lowlife?"
+"What, are you joking? You're throwing down for this scrub?"
 
 "If I have to. Do I have to?"
 
@@ -154,43 +154,43 @@ ID: Ch1-Imply2
 TEXT:
 
 #if(v_ch1_show_yourself == 1) {
-The mage once again falls silent.  He doesn't seem to want to push his luck any further. After a while, I hear him put his daggers back into his belt and then spit on the ground.
+The rogue holds still, jaw working as he weighs the gamble. With a low snarl, he sheathes his drawn daggers back into his bandolier and spits into the loam.
 
-"I'll remember this, stillwater. Don't think I won't. You'll rue the day you messed with Cutthroat Dave. And the same goes for you, healer in armor.  I'll be seeing the both of you again soon."
+"I'll remember this, stillwater. Don't think I won't. You'll rue the day you crossed Cutthroat Dave. And the same goes for you, healer in armor. I'll be seeing both of you again soon."
 
-After he finishes his speech, he turns away in disgust as he heads into the woods on the opposite side of the clearing. The dagger from my shoulder pulls itself out on its own and hurries to catch up with its master.  
+He turns on his heel and strides into the brush on the far side of the clearing. The blade in my shoulder wrenchingly pulls itself free from flesh and bark, zipping through the leaves to slide into its master's sheath.
 }
 #if(v_ch1_show_yourself == 2) {
-The mage's face contorts into a scowl, but he says nothing. He doesn't seem to want to push his luck any further. He reluctantly puts his daggers back into his belt and then he spits on the ground next to Daren.
+The rogue's face twists in a foul scowl, but he refuses the bait. Slowly, deliberately, he slots his daggers back into his bandolier and spits in the dirt near Daren's boots.
 
-"I'll remember this, stillwater. Don't think I won't. I never forget a face. You'll rue the day you messed with Cutthroat Dave. And the same goes for you, healer in armor. I'll be seeing the both of you again soon."
+"I'll remember this, stillwater. Don't think I won't. I never forget a face. You'll rue the day you crossed Cutthroat Dave. And the same goes for you, healer in armor. I'll be seeing both of you again soon."
 
-After he finishes his speech, he turns away in disgust as he heads into the woods on the opposite side of the clearing. 
+He spits again, turns on his heel, and vanishes into the undergrowth on the opposite side of the clearing.
 }
 #if(v_ch1_show_yourself == 3) {
-The mage once again falls silent. He doesn't seem to want to push his luck any further. After a while, I hear him put his daggers back into his belt and then spit on the ground.
+The rogue holds still, jaw working as he weighs the gamble. With a low snarl, he sheathes his drawn daggers back into his bandolier and spits into the loam.
 
-"I'll remember this, stillwater. Don't think I won't. You'll rue the day you messed with Cutthroat Dave. And the same goes for you, healer in armor. I'll be seeing the both of you again soon."
+"I'll remember this, stillwater. Don't think I won't. You'll rue the day you crossed Cutthroat Dave. And the same goes for you, healer in armor. I'll be seeing both of you again soon."
 
-After he finishes his speech, he turns away in disgust as he heads into the woods on the opposite side of the clearing. 
+He turns on his heel and stalks into the trees on the far side of the clearing.
 }
-Once I can no longer see the mage, I let out a big sigh. That was close. That was really close. I can still feel my heart beating rapidly in my chest.
+Once the footsteps fade into the brush, the breath leaves my chest in a shaky hiss. My hands are trembling, and cold sweat clings to the back of my neck.
 
-You do that and you'll regret it? What was I even thinking? Was I trying to get myself killed? This is a life and death tournament, Barry.  This is not the time for you to start playing hero.
+You do that and you'll regret it? What possessed me? The man is an armed killer in a death tournament, and I bluffed on an empty hand. Playing hero is a fast route to an early grave.
 
-As I try to calm myself down, the mage in armor sheathes his sword, picks up his shield from the ground and starts walking towards me.
+Across the clearing, the armored knight slides his battered broadsword into its scabbard, scoops his shield from the dirt, and limps over toward me.
 
-"You had no obligation to save me," he says. "But you did so anyway, at the risk of your own life. I cannot let such selflessness go unrewarded. I, Daren, vow this day that I will offer you my protection from this moment, and until the end of this tournament. Tell me, brave soul, what is your name?"
+"You had no obligation to step between me and that blade," he says, squaring broad shoulders despite the blood on his mail. "Yet you risked your own life to do so. Honor forbids me from leaving such virtue unanswered. I, Daren, vow before the gods that my sword and shield are yours from this hour until the close of this tournament. Tell me, brave soul—what is your name?"
 
-His speech took me by surprise.
+The theatrical gravity catches me completely flat-footed.
 
-"It's, uhh... It's Barry. My name is Barry."
+"It's, uh... Barry. My name is Barry."
 
-"Wait, your name's Barry?"
+"Wait. Your name is Barry?"
 
-He tries to contain his laughter but fails miserably. He was trying to sound solemn and dignified just a few seconds ago, but it seems it didn't really take him long to drop his act.
+A snort breaks through his stern expression, followed by an unrestrained bark of laughter. The solemn knightly cadence collapses entirely.
 
-"Now that's the weirdest name for a mage I've heard in my life. Especially for a stillwater. Do you have something you want to tell me, Barry?"
+"That is the single strangest name for a mage I have ever encountered in all my travels. Especially for a stillwater. Is there something you care to share with me, Barry?"
 
 choice("Tell him I'm actually an ordinary human", Ch1-Ordinary, v_current_scene = Ch1-Ordinary, v_ch1_stillwater = 2)
 choice("Tell him my parents had a weird sense of humor", Ch1-Humor, v_current_scene = Ch1-Humor, v_ch1_stillwater = 1)
@@ -201,29 +201,29 @@ TEXT:
 
 "Yes. My parents had a really weird sense of humor. Speaking of names, aren't you supposed to be a hero of legend? How exactly does one as strong as you get bested so easily by someone named Cutthroat Dave?"
 
-"Oh, that..."
+"Ah. Well. That..."
 
-He is sounding embarrassed.
+He rubs the back of his neck, sheepish.
 
-"You see, Barry. I may be powerful, but that doesn't mean I don't have weaknesses. It turns out one of those weaknesses is that I never really managed to master the shield spell properly..."
+"You see, Barry, raw power does not make a man invincible. Everyone has vulnerabilities. Mine happens to be that I never quite mastered the fundamentals of the standard shield spell."
 
-"The shield spell? The one that casts an invisible protective layer around yourself? But isn't that one of the first spells any mage learns?"
+"The shield spell? The basic kinetic ward every novice learns in their first semester? How does a renowned mage fumble that?"
 
-"It is... But it's not like I can't cast it at all... I can defend from magic just fine. It's normal weapons that I have a problem with. This is why I wear armor. This is why I use a sword and a shield. I first started using them because I couldn't use the shield spell properly, but soon, I started tailoring my magic around them, and my very fighting style. I found a master that would teach me to fight with weapons, and I used my magic to enchant them. Then, after every fight, I'd just use my white magic to heal my wounds. Like so..."
+"I did not say I cannot cast wards at all. Magical attacks, elemental bursts—I can deflect those without trouble. It is physical steel that slips through my barriers. That is why I wear plate. That is why I carry steel and oak. What began as a compromise became my entire combat doctrine. I apprenticed under an enchanting master to temper weapons, wove spells into my blade, and relied on white magic to mend whatever cuts found a seam. Watch."
 
 #if(v_ch1_show_yourself == 1) {
-He demonstrates it by raising his hands in the air and making a white light appear all around him. As the light shines, his wounds start closing, and the blood fades away. He then uses the same magic to heal the shoulder wound I'd gotten from Cutthroat Dave's knife.
+He raises open palms. A brilliant, soothing white radiance blooms from his skin, washing the clearing in warm light. Where the light touches his bruised armor seams, the bleeding stanches and torn flesh stitches itself whole in seconds. He then steps over and extends a glowing hand toward my punctured left shoulder; the throbbing ache vanishes instantly, leaving clean, unblemished skin beneath my torn sleeve.
 }
 #if(v_ch1_show_yourself != 1) {
-He demonstrates it by raising his hands in the air and making a white light appear all around him. As the light shines, his wounds start closing, and the blood fades away.
+He raises open palms. A brilliant, soothing white radiance blooms from his skin, washing the clearing in warm light. Where the light touches his bruised armor seams, the bleeding stanches and torn flesh stitches itself whole in seconds.
 }
-"The cutthroat's knives had a life of their own, and there were many of them attacking me simultaneously. If I had a proper shield spell to defend against them, defeating him would have been child's play. But defending against all those knives with a shield and sword alone would have been impossible regardless of my combat skill. All armors have their weaknesses. All he had to do was go for the armor's joints repeatedly, until he wore me out."
+"Against ordinary opponents, my steel and healing are more than enough," he continues, rolling his mended shoulders. "But that cutpurse had half a dozen enchanted blades dancing around me at once, striking from every blind spot. Blocking six sentient daggers with one sword and shield is an impossible equation, no matter your form. Plate armor has gaps at the armpits and knees. He only had to keep darting until blood loss wore me down."
 
-"Why are you telling me all of this? Shouldn't you be at least a bit worried about revealing your greatest weakness to someone you just met?"
+"And you are just handing this tactical blueprint to a stranger?" I ask, raising an eyebrow. "Most tournament fighters would slit their own throats before advertising their fatal flaw."
 
-"Hey, you just saved my life! So you can't be that bad, right?"
+Daren flashes a wide, easy grin. "You put your neck on the line to save mine. A man who does that is not looking to stab me in the back."
 
-"Pardon me for interrupting," I hear a woman's voice from behind the trees. "But would you by any chance be Daren, the legendary savior of the eastern continent?" 
+"Pardon me for interrupting," a woman's voice calls from behind the trees. "Would you happen to be Daren, the legendary savior of the Eastern Continent?"
 
 choice("Next chapter", Ch2-Intro, v_current_scene = Ch2-Intro, v_chapter_save_counter = 5, v_checkpoint_rich = 1, special:checkpoint_save)
 
@@ -233,27 +233,27 @@ TEXT:
 
 "I'm not a stillwater, Daren. That thug just assumed I was and I took advantage of the situation."
 
-"But you're not one of the locals either. Otherwise that spell of theirs would have alerted us the moment we sensed your presence."
+"Then you cannot be a native of this land, either," Daren says, brow furrowing. "Otherwise the warden's ward would have flared the moment we crossed paths."
 
-He is talking about the spell the organizers of the tournament cast on each of the participants before teleporting us here. We aren't allowed to hurt the humans that live on this continent, so their spell warns us when one of them is near. If what they said can be believed, their spell is supposed to stop us even before we try hurting any of the locals. If it's accidental then it simply stops us before doing it. If it's intentional, it eliminates us from the tournament and sends us back. 
+He means the suppression weave the tournament arbiters anchored to every participant before the teleportation gate opened. Harming Varathian civilians is strictly forbidden. The enchantment triggers an instinctive mental alarm whenever a native approaches. Accidental violence is forcibly restrained before the blow lands; deliberate attacks result in instant disqualification and banishment from the island.
 
-Their spell is also supposed to act as a means of communication with the organizers. They said they'll transmit the objectives to each of us individually. It's funny. All of those careful preparations on their side, and they never even bothered to check if I was a mage or not. Hell, what am I saying? They probably didn't even care.
+The ward also doubles as a direct link for the organizers to beam individual trial objectives directly into our minds. For all their elaborate magical infrastructure, they never bothered to verify whether contenders actually possessed magic. Or more likely, they simply didn't care if a mundane mortal chose to throw himself into the meat grinder.
 
-"So you must be a participant, then," Daren continues. "What reason would you have to participate in a tournament against the most powerful mages in the world?"
+"So you are a registered participant," Daren says. "What reason could an ordinary human have for entering a death match against the deadliest mages in the world?"
 
-I am after the same thing as every other participant in this tournament, Daren, but I'm not sure how wise it would be to tell you of this. 
+The answer is the same prize driving every caster on this continent, though spelling it out feels like a massive gamble.
 
-I'm after the prize that's being offered to the winner. The Magium.
+The Magium.
 
-Nobody knows exactly what it looks like, or what it's made of, but everyone knows the fact that it is the source of all magic in the world, and that it can only be found on the continent of Varathia. All mages seek it. They crave it. They are certain that if they have access to it, they can increase their powers a hundredfold and become living legends. And although it is a common misconception that the Magium is only useful for learned mages, my studies have led me to believe that the Magium is so extraordinary that it can even turn a normal human into a mage.
+No living scholar can define its exact nature or composition, but everyone knows it is the primordial wellspring of all magic in existence, anchored exclusively to Varathia. Mages crave it with religious fervor. They believe direct communion will multiply their casting reserves a hundredfold and elevate them to living gods. Popular dogma insists only seasoned mages can channel it, but two decades of obscure research convinced me otherwise: the Magium's conceptual authority is absolute enough to rewrite human nature itself and awaken magic in someone born without it.
 
-I've searched very long for a way to get into Varathia, but the only way one can travel to their continent is by receiving a direct invitation. Very few of those are sent yearly, and the people being teleported there are being held under direct supervision for the duration of their stay, and return with no information regarding the coordinates of the place.
+For centuries, Varathia remained utterly sealed. Entry required royal invitations, awarded to barely a handful of diplomats a year, who were escorted under blindfold and returned with zero navigational coordinates.
 
-But when all hope seemed lost, the announcement came. A worldwide announcement by the kings of Varathia that they were organizing a tournament where every single mage in the world was invited. And the winner would be granted access to the Magium.   
+Then came the proclamation. A worldwide decree by the kings of Varathia announcing an open tournament for every caster across the globe, with the grand prize being direct access to the Magium.
 
-I knew then that there would never be another chance like this. 
+I knew the moment the crier finished speaking that no second chance would ever come.
 
-"Why did you join this tournament, Barry?" Daren asks me again.
+"Why did you enter this tournament, Barry?" Daren asks again, his dark eyes searching mine.
 
 choice("Tell him the truth", Ch1-Truth, v_ac_ch1_honesty = 1, v_current_scene = Ch1-Truth, v_ch2_human_reason = 1)
 choice("Tell him I was forced into it", Ch1-Forced, v_current_scene = Ch1-Forced, v_ch2_human_reason = 2)
@@ -264,23 +264,23 @@ ID: Ch1-Truth
 TEXT:
 
 achievement("Honesty is the best policy.",v_ac_ch1_honesty)
-"I'm after the same thing as you, Daren," I tell him. "I'm after the Magium.  It's been my dream ever since I was little to become a mage, and the Magium can grant me that wish."
+"I'm after the same prize as everyone else, Daren," I tell him. "I want the Magium. It has been my dream since I was five years old to become a mage, and the Magium can make that happen."
 
-"Come on, Barry. You're going to have to make up a better lie than that if you want me to believe you!"
+"Come now, Barry. You'll need a sharper tale than that if you expect me to swallow it."
 
-He stops and looks me straight in the eye.
+He stops, studying my face until the humor drains completely from his eyes.
 
-"By the gods... You are being serious! Barry, I commend your bravery and determination but... You do realize you can't win this entire tournament just by bluffing, don't you?"
+"By the gods... you mean it. Barry, I admire your nerve, but surely you understand you cannot bluff your way through the world's deadliest casters?"
 
-"Of course I know that! That's not the only ace I have up my sleeve. But what about you? They say you are one of the strongest mages in the world. So how does one as strong as you get bested so easily by someone named Cutthroat Dave?"
+"I am well aware of the math. That bluff wasn't my only card. But what about you? The songs call you one of the greatest mages alive. How does a living legend end up pinned to the dirt by a cutpurse named Dave?"
 
-"Oh, that..."
+"Ah. Well. That..."
 
-He is sounding embarrassed.
+He rubs the back of his neck, sheepish.
 
-"You see, Barry. I may be powerful, but that doesn't mean I don't have weaknesses. It turns out one of those weaknesses is that I never really managed to master the shield spell properly..."
+"You see, Barry, raw power does not make a man invincible. Everyone has vulnerabilities. Mine happens to be that I never quite mastered the fundamentals of the standard shield spell."
 
-"The shield spell? The one that casts an invisible protective layer around yourself? But isn't that one of the first spells any mage learns?"
+"The shield spell? The basic kinetic ward every novice learns in their first semester? How does a renowned mage fumble that?"
 
 choice("Continue", Ch1-Weakness, v_current_scene = Ch1-Weakness)
 
@@ -288,29 +288,29 @@ choice("Continue", Ch1-Weakness, v_current_scene = Ch1-Weakness)
 ID: Ch1-Forced
 TEXT:
 
-"I didn't come here by choice," I tell him. "Believe me, I would love nothing more than to leave this place and never look back. But that's not really an option for me at this point. All I can do now is try to survive until the end of the tournament."
+"I didn't come here by choice," I tell him, adopting a weary sigh. "Believe me, I want nothing more than to walk away and never look back. But walking away isn't on the table. All I can do now is stay alive until the dust settles."
 
-Daren pauses a little to reflect on my words.
+Daren frowns in thought, then his face suddenly brightens.
 
-"Hold on, Barry... I think there's also another way."
+"Hold on, Barry. There is another way out."
 
 "There is?"
 
-"Yeah! Remember the rules? They said they'd eliminate us from the tournament and teleport us right back if they detected any intent to harm the locals. You could use that, Barry! You just need to find any of the humans living on this continent, try to punch them in the face, and you'll be set free!"
+"The tournament restrictions! The organizers swore that any deliberate attempt to harm a Varathian native triggers an instant disqualification and a teleport back across the sea. You can exploit that! Find a local civilian, throw a clumsy punch at their nose, and the overseers will yank you out of danger before your knuckles even land!"
 
-"I..uh... I never thought of it this way."
+"I... uh. I suppose that didn't cross my mind."
 
-"Don't worry, I'll make sure to keep you safe until we reach one of the cities!"
+"Rest easy," Daren says, clapping a heavy hand on my shoulder. "I'll keep you in one piece until we reach the nearest settlement."
 
-"I'm not so sure about that. I mean, I just witnessed you get completely wrecked by that knife throwing guy. How does one as strong as you get bested so easily by someone named Cutthroat Dave, anyway?"
+"Forgive my skepticism, but I just watched a rogue take you apart at the seams. How does one of the world's great mages get brought low by someone named Cutthroat Dave, anyway?"
 
-"Oh, that..."
+"Ah. Well. That..."
 
-He is sounding embarrassed.
+He rubs the back of his neck, sheepish.
 
-"You see, Barry. I may be powerful, but that doesn't mean I don't have weaknesses. It turns out one of those weaknesses is that I never really managed to master the shield spell properly..."
+"You see, Barry, raw power does not make a man invincible. Everyone has vulnerabilities. Mine happens to be that I never quite mastered the fundamentals of the standard shield spell."
 
-"The shield spell? The one that casts an invisible protective layer around yourself? But isn't that one of the first spells any mage learns?"
+"The shield spell? The basic kinetic ward every novice learns in their first semester? How does a renowned mage fumble that?"
 
 choice("Continue", Ch1-Weakness, v_current_scene = Ch1-Weakness)
 
@@ -318,21 +318,21 @@ choice("Continue", Ch1-Weakness, v_current_scene = Ch1-Weakness)
 ID: Ch1-Sister
 TEXT:
 
-"It's... It's my sister. She is terminally ill, and the cure for her illness can only be found on this continent. I've tried for months to get an invitation to this place, but they would not hear of it. This was the only way. I can only hope that I'll somehow manage to survive long enough to find what I'm looking for."
+"It's... my sister," I say, pitching my voice low and somber. "She is dying of an incurable wasting sickness, and the only known remedy grows exclusively in Varathia. I petitioned the council for months for an entry visa, but they rejected every appeal. Entering the tournament was the only way in. I just have to survive long enough to track the cure down."
 
-Daren places a hand on my shoulder.
+Daren rests a firm, armored hand on my shoulder, his dark eyes brimming with absolute resolve.
 
-"We'll find it. Together! I promise I won't let any harm come to you until you achieve your goal!"
+"We will find it together, Barry. I swear upon my honor that no harm will reach you while I draw breath."
 
-"Not to sound ungrateful but... I'm not finding this very reassuring. I mean, I did just witness you get completely wrecked by that knife throwing guy. How does one as strong as you get bested so easily by someone named Cutthroat Dave, anyway?"
+"I appreciate the sentiment, but I just watched a rogue turn your plate armor into a pincushion. How does one of the continent's legendary heroes get dismantled by a man called Cutthroat Dave, anyway?"
 
-"Oh, that..."
+"Ah. Well. That..."
 
-He is sounding embarrassed.
+He rubs the back of his neck, sheepish.
 
-"You see, Barry. I may be powerful, but that doesn't mean I don't have weaknesses. It turns out one of those weaknesses is that I never really managed to master the shield spell properly..."
+"You see, Barry, raw power does not make a man invincible. Everyone has vulnerabilities. Mine happens to be that I never quite mastered the fundamentals of the standard shield spell."
 
-"The shield spell? The one that casts an invisible protective layer around yourself? But isn't that one of the first spells any mage learns?"
+"The shield spell? The basic kinetic ward every novice learns in their first semester? How does a renowned mage fumble that?"
 
 choice("Continue", Ch1-Weakness, v_current_scene = Ch1-Weakness)
 
@@ -340,20 +340,20 @@ choice("Continue", Ch1-Weakness, v_current_scene = Ch1-Weakness)
 ID: Ch1-Weakness
 TEXT:
 
-"It is... But it's not like I can't cast it at all... I can defend from magic just fine. It's normal weapons that I have a problem with. This is why I wear armor. This is why I use a sword and a shield. I first started using them because I couldn't use the shield spell properly, but soon, I started tailoring my magic around them, and my very fighting style. I found a master that would teach me to fight with weapons, and I used my magic to enchant them. Then, after every fight, I'd just use my white magic to heal my wounds. Like so..."
+"I did not say I cannot cast wards at all," Daren says defensively. "Magical attacks, elemental bursts—I can deflect those without trouble. It is physical steel that slips through my barriers. That is why I wear plate. That is why I carry steel and oak. What began as a compromise became my entire combat doctrine. I apprenticed under an enchanting master to temper weapons, wove spells into my blade, and relied on white magic to mend whatever cuts found a seam. Watch."
 
 #if(v_ch1_show_yourself == 1) {
-He demonstrates it by raising his hands in the air and making a white light appear all around him. As the light shines, his wounds start closing, and the blood fades away. He then uses the same magic to heal the shoulder wound I'd gotten from Cutthroat Dave's knife.
+He raises open palms. A brilliant, soothing white radiance blooms from his skin, washing the clearing in warm light. Where the light touches his bruised armor seams, the bleeding stanches and torn flesh stitches itself whole in seconds. He then steps over and extends a glowing hand toward my punctured left shoulder; the throbbing ache vanishes instantly, leaving clean, unblemished skin beneath my torn sleeve.
 }
 #if(v_ch1_show_yourself != 1) {
-He demonstrates it by raising his hands in the air and making a white light appear all around him. As the light shines, his wounds start closing, and the blood fades away.
+He raises open palms. A brilliant, soothing white radiance blooms from his skin, washing the clearing in warm light. Where the light touches his bruised armor seams, the bleeding stanches and torn flesh stitches itself whole in seconds.
 }
-"The cutthroat's knives had a life of their own, and there were many of them attacking me simultaneously. If I had a proper shield spell to defend against them, defeating him would have been child's play. But defending against all those knives with a shield and sword alone would have been impossible regardless of my combat skill. All armors have their weaknesses. All he had to do was go for the armor's joints repeatedly, until he wore me out."
+"Against ordinary opponents, my steel and healing are more than enough," he continues, rolling his mended shoulders. "But that cutpurse had half a dozen enchanted blades dancing around me at once, striking from every blind spot. Blocking six sentient daggers with one sword and shield is an impossible equation, no matter your form. Plate armor has gaps at the armpits and knees. He only had to keep darting until blood loss wore me down."
 
-"Why are you telling me all of this? Shouldn't you be at least a bit worried about revealing your greatest weakness to someone you just met?"
+"And you are just handing this tactical blueprint to a stranger?" I ask, raising an eyebrow. "Most tournament fighters would slit their own throats before advertising their fatal flaw."
 
-"Hey, you just saved my life! So you can't be that bad, right?"
+Daren flashes a wide, easy grin. "You put your neck on the line to save mine. A man who does that is not looking to stab me in the back."
 
-"Pardon me for interrupting," I hear a woman's voice from behind the trees. "But would you by any chance be Daren, the legendary savior of the Eastern Continent?" 
+"Pardon me for interrupting," a woman's voice calls from behind the trees. "Would you happen to be Daren, the legendary savior of the Eastern Continent?"
 
 choice("Next chapter", Ch2-Intro, v_current_scene = Ch2-Intro, v_chapter_save_counter = 5, v_checkpoint_rich = 1, special:checkpoint_save)

@@ -3,51 +3,51 @@ TEXT:
 
 #if(v_ch3_bloodied == 0 && v_ch3_kate_badly_hurt == 0) {
 
-Daren was waiting for us in front of our cave. The moment we got in hearing range of him, he started to rant about how we shouldn't have gone off on our own, and about how we should stick together at all times.
+Daren paces outside our cave, broad shoulders rigid beneath his plate armor. The moment we come within earshot, his voice booms across the clearing, lecturing us for wandering off and breaking formation.
 
-Kate simply waved him off, and went inside our cave to get a bit more sleep, after telling him that this morning's events have tired her out. When Daren asked me what she meant, I told him all about the duke of Bagelberry and his merry men, and how they ambushed us.
+Kate brushes past him with a dismissive flick of her wrist, mumbling that the morning's nuisance exhausted her, and slips into the cool shade of the cave to sleep. Daren turns to me, brow furrowed, and I give him the short version—the Duke of Bagelberry and his crossbow ambush.
 
-"You were lucky that you managed to get out of there alive," Daren said to me. "Why did we even bother to have a strategy meeting yesterday if we were all going to ignore it afterwards anyway?"
+"You're fortunate to have walked out of there in one piece," Daren grumbles, rubbing the bridge of his nose. "Why bother with a strategy council yesterday if everyone scatters the moment the sun comes up?"
 
-After he's cooled off a bit, the two of us resumed our guard duty, posting ourselves in front of the cave's entrance.
+Once his temper settles, the two of us take up positions at the mouth of the cave, scanning the tree line.
 
-As we stand guard, we start discussing about the tournament, and its organization as we've seen it thus far.
+Standing watch in the quiet, our talk turns back to the tournament and the utter lack of order we've seen so far.
 
-"I just can't understand it," Daren tells me. "What are the organizers thinking? They're letting people without any trace of magic join this contest, and they don't even bother to enforce a rule that prohibits fighting before they announce the objectives. It's like they don't even care about all the lives that are at stake!"
+"I can't make sense of it," Daren says, pacing a tight line over the gravel. "What are the organizers thinking? Admitting commoners without a drop of magic into the contest, letting contestants slaughter one another before the objectives are even proclaimed... It's as though human lives are completely disposable to them."
 
-"I don't think they do," I tell Daren. "Do you remember what they made us agree to before joining the tournament? Whoever wins this championship will be obligated to come to Varathia's aid in case of an outside invasion. People only agreed to it because there hasn't been an attempt at invading Varathia in thousands of years, but I don't think that's the point. They just want the most powerful mage in the world to serve as their own personal scarecrow. They probably only care about whoever's going to win."
+"Because to them, they are," I say. "Think back to the entry pact. The victor is bound by oath to defend Varathia in the event of an overseas invasion. People signed without a second thought because no one has dared invade this continent in millennia, but that's the angle. They don't care about a fair tournament. They want the strongest living weapon on the planet stationed on their borders as a scarecrow. The dead along the way are just chaff."
 
-"But even so, if their goal is to get their hands on a powerful mage, why have they still not announced the objectives? Wouldn't it be in their best interest to get this tournament finished as quickly as possible?"
+"Even so," Daren says, frowning out toward the canopy, "if their sole purpose is securing a champion, why the delay? Every passing hour wastes energy and lives. Wouldn't they want the contest settled as swiftly as possible?"
 
 }
 #if(v_ch3_bloodied == 1 && v_ch3_kate_badly_hurt == 0) {
 
-Daren was waiting for us in front of our cave. The moment we got in hearing range of him, he started to rant about how we shouldn't have gone off on our own, but he stopped mid-sentence when we got closer and he saw all of Kate's cuts and bruises. He immediately rushed to her aid with a healing spell, and after that, she went back inside the cave to get some sleep, without saying another word. When Daren asked me what happened I told him all about the duke of Bagelberry and his merry men, and how they ambushed us.
+Daren paces outside our cave, broad shoulders rigid beneath his plate armor. The moment we come within earshot, his voice booms across the clearing, lecturing us for wandering off—until we draw closer and he spots the fresh cuts along Kate's arms and the dust in her hair. His lecture dies in his throat. White light flares at his fingertips as he channels a mending spell over her wounds. She takes the healing without a word, offers no thanks, and retreats into the cave to sleep. Daren turns to me with a hard stare, and I explain the Duke of Bagelberry's ambush.
 
-"You were lucky that you managed to get out of there alive," Daren said to me. "Why did we even bother to have a strategy meeting yesterday if we were all going to ignore it afterwards anyway?"
+"You're fortunate to have walked out of there in one piece," Daren grumbles, rubbing the bridge of his nose. "Why bother with a strategy council yesterday if everyone scatters the moment the sun comes up?"
 
-After he's cooled off a bit, the two of us resumed our guard duty, posting ourselves in front of the cave's entrance.
+Once his temper settles, the two of us take up positions at the mouth of the cave, scanning the tree line.
 
-As we stand guard, we start discussing about the tournament, and its organization as we've seen it thus far.
+Standing watch in the quiet, our talk turns back to the tournament and the utter lack of order we've seen so far.
 
-"I just can't understand it," Daren tells me. "What are the organizers thinking? They're letting people without any trace of magic join this contest, and they don't even bother to enforce a rule that prohibits fighting before they announce the objectives. It's like they don't even care about all the lives that are at stake!"
+"I can't make sense of it," Daren says, pacing a tight line over the gravel. "What are the organizers thinking? Admitting commoners without a drop of magic into the contest, letting contestants slaughter one another before the objectives are even proclaimed... It's as though human lives are completely disposable to them."
 
-"I don't think they do," I tell Daren. "Do you remember what they made us agree to before joining the tournament? Whoever wins this championship will be obligated to come to Varathia's aid in case of an outside invasion. People only agreed to it because there hasn't been an attempt at invading Varathia in thousands of years, but I don't think that's the point. They just want the most powerful mage in the world to serve as their own personal scarecrow. They probably only care about whoever's going to win."
+"Because to them, they are," I say. "Think back to the entry pact. The victor is bound by oath to defend Varathia in the event of an overseas invasion. People signed without a second thought because no one has dared invade this continent in millennia, but that's the angle. They don't care about a fair tournament. They want the strongest living weapon on the planet stationed on their borders as a scarecrow. The dead along the way are just chaff."
 
-"But even so, if their goal is to get their hands on a powerful mage, why have they still not announced the objectives? Wouldn't it be in their best interest to get this tournament finished as quickly as possible?"
+"Even so," Daren says, frowning out toward the canopy, "if their sole purpose is securing a champion, why the delay? Every passing hour wastes energy and lives. Wouldn't they want the contest settled as swiftly as possible?"
 
 }
 #if(v_ch3_kate_badly_hurt == 1) {
 
-Daren and I resumed our guard duty, posting ourselves in front of the cave's entrance.
+Daren and I take up positions at the mouth of the cave, scanning the tree line while Kate rests inside.
 
-As we stand guard, we start discussing about the tournament, and its organization as we've seen it thus far.
+Standing watch in the quiet, our talk turns back to the tournament and the utter lack of order we've seen so far.
 
-"I just can't understand it," Daren tells me. "What are the organizers thinking? They're letting people without any trace of magic join this contest, and they don't even bother to enforce a rule that prohibits fighting before they announce the objectives. It's like they don't even care about all the lives that are at stake!"
+"I can't make sense of it," Daren says, pacing a tight line over the gravel. "What are the organizers thinking? Admitting commoners without a drop of magic into the contest, letting contestants slaughter one another before the objectives are even proclaimed... It's as though human lives are completely disposable to them."
 
-"I don't think they do," I tell Daren. "Do you remember what they made us agree to before joining the tournament? Whoever wins this championship will be obligated to come to Varathia's aid in case of an outside invasion. People only agreed to it because there hasn't been an attempt at invading Varathia in thousands of years, but I don't think that's the point. They just want the most powerful mage in the world to serve as their own personal scarecrow. They probably only care about whoever's going to win."
+"Because to them, they are," I say. "Think back to the entry pact. The victor is bound by oath to defend Varathia in the event of an overseas invasion. People signed without a second thought because no one has dared invade this continent in millennia, but that's the angle. They don't care about a fair tournament. They want the strongest living weapon on the planet stationed on their borders as a scarecrow. The dead along the way are just chaff."
 
-"But even so, if their goal is to get their hands on a powerful mage, why have they still not announced the objectives? Wouldn't it be in their best interest to get this tournament finished as quickly as possible?"
+"Even so," Daren says, frowning out toward the canopy, "if their sole purpose is securing a champion, why the delay? Every passing hour wastes energy and lives. Wouldn't they want the contest settled as swiftly as possible?"
 
 }
 choice(""Maybe there are no objectives."", Ch4-Intro2, v_current_scene = Ch4-Intro2, v_checkpoint_rich = 0, v_ch4_objectives = 1)
@@ -59,87 +59,105 @@ ID: Ch4-Intro2
 TEXT:
 
 #if(v_ch4_objectives == 1) {
-"Maybe there are no objectives. Maybe this really is a life and death tournament, and they're just waiting to see who will be the last man standing."
+"Maybe there are no objectives," I say. "Maybe this is a war of attrition, and they're simply waiting to see who is left standing when the dust settles."
 
-"By the gods, Barry! Don't even joke about something like that. If that were true, then this tournament would turn into one of the biggest bloodbaths of this century. I refuse to believe that the rulers of one of the greatest civilizations in our world would turn to such barbarity."
+"By the gods, Barry—don't even joke about such butcher's work. If that were true, this contest becomes the largest bloodbath of the century. I refuse to believe the rulers of one of the greatest civilizations in our world would stoop to such barbarity."
 
-Before we get to continue our conversation, we sense someone approaching our location. Kate's barrier spell must have worn off.
+A faint shift in the air cuts our conversation short. An aura is moving toward the clearing—Kate's warding barrier must have dissolved.
 
-"Keep your guard up, Barry!"
+"Keep your guard up, Barry!" Daren's hand drops to the hilt of his broadsword.
 
-As this person approaches, we can sense his magical aura more clearly. His magical aura is just as weak as that of the crossbowmen from before. Is this a survivor from our last battle, looking to avenge his fallen comrades?
+As the newcomer draws closer, his magical signature resolves. It's faint—thin and barely perceptible, no stronger than the crossbowmen from the ambush. A straggler looking to avenge fallen comrades?
 
-When he gets within visual range of us, we discover that he is rather young for a warrior, and he isn't wearing any protective gear. He seems to be somewhere in his late teens, but no older than twenty, and he's wearing loose pants and a loose tunic, not much different from clothes one would normally change into before going to bed. The fact that he's walking with his eyes closed and his hands in his pockets is not really helping his case either. He looks like he just got out of bed to get a midnight snack, and definitely not like a participant in a life and death tournament. However, he can't be one of the locals either, since we would have been immediately notified to not harm him.
+When he clears the brush, nothing about him belongs on a battlefield.
 
-"Good morrow, lad!" Daren shouts after the boy. "Lovely day for a walk, isn't it? What business would you have with us? If you are lost, we'd be more than happy to give you directions!" 
+He looks nineteen at most, slender and unarmored, dressed in a loose tunic and trousers that look more like sleepwear than travel gear. His hands rest in his pockets, and his eyes are completely shut. He strolls across the uneven rock with the unhurried gait of someone wandering down to the kitchen for a midnight snack. Not a contestant, surely—yet he cannot be a local either, or the tournament sigils would have flared with a warning the moment he approached our perimeter.
 
-With Daren, it's hard to tell when he's being sarcastic or sincere, since there are no hints in his look or his tone of voice, and as I've known him so far he'd be capable of either of those things in this situation. Our young visitor doesn't seem to have taken offense at Daren's remark, and smiles politely with his eyes still closed.
+"Good morrow, lad!" Daren calls out, stepping forward. "Fine day for a stroll, isn't it? What business brings you to our camp? If you're lost, we can point you back toward the roads."
 
-"There's no need," the boy answers. "I was looking for some old friends of mine when I sensed there was a fellow stillwater nearby, so I just had to stop by and say hello. There's so few of us nowadays, that it would be a shame to not at least greet each other in passing! My name is Eiden. Pleased to meet you!"
+With Daren, sincerity and sarcasm sound entirely identical—the same booming, theatrical baritone delivers both without a flicker of expression.
 
-My whole body freezes for a second. An actual stillwater? Here? No... No. I should calm down. It's likely just some other guy who came up with the same idea as me. I refuse to fall for my own trick! 
+The boy doesn't bristle. A polite, placid smile spreads across his face, his eyes remaining shut.
 
-Seeing that I don't say anything, Daren replies in my stead.
+"No need," the boy answers mildly. "I was in the area looking for some old acquaintances when I sensed a fellow stillwater nearby. Naturally, I had to stop by and say hello. There are so few of us left these days—it would be a shame not to greet each other in passing. My name is Eiden. Pleased to meet you."
 
-"Don't mind him! Barry's a little shy. I'm sure he's also pleased to make your acquaintance. My name's Daren."
+My chest goes cold. An actual stillwater? Here?
 
-"Oh? Then you must be the healer in armor I've been hearing so much about! And it seems that you also have a third member in your party. A survivor of the Beacon of Hope, no less. I did not know any of them were still alive."
+No. Pull yourself together, Barry. It's another fraud pulling the exact same con I am. I refuse to fall for my own trick.
+
+When I don't answer, Daren fills the silence with an easy grin.
+
+"Pay him no mind! Barry is a bit reserved with strangers. I'm sure he's just as delighted. My name is Daren."
+
+"Oh? Then you must be the healer in armor people have been whispering about. And it seems you have a third companion resting in your cave. A survivor of the Beacon of Hope, no less. I did not know any of them were still alive."
 
 }
 #if(v_ch4_objectives == 2) {
-"Maybe they encountered some unexpected technical difficulties. Maybe they're working to fix them as we speak, and we'll receive our objectives before noon."
+"Maybe they encountered some unexpected technical difficulties," I say. "Perhaps their scrying relays hit a snag, and we'll receive the proclamation before noon."
 
-"I really hope you're right, Barry. I just can't bring myself to believe that they're doing this intentionally..."
+"I pray you're right, Barry. I can't bring myself to believe this butchery is intentional..."
 
-Before we get to continue our conversation, we sense someone approaching our location. Kate's barrier spell must have worn off.
+A faint shift in the air cuts our conversation short. An aura is moving toward the clearing—Kate's warding barrier must have dissolved.
 
-"Keep your guard up, Barry!"
+"Keep your guard up, Barry!" Daren's hand drops to the hilt of his broadsword.
 
-As this person approaches, we can sense his magical aura more clearly. His magical aura is just as weak as that of the crossbowmen from before. Is this a survivor from our last battle, looking to avenge his fallen comrades?
+As the newcomer draws closer, his magical signature resolves. It's faint—thin and barely perceptible, no stronger than the crossbowmen from the ambush. A straggler looking to avenge fallen comrades?
 
-When he gets within visual range of us, we discover that he is rather young for a warrior, and he isn't wearing any protective gear. He seems to be somewhere in his late teens, but no older than twenty, and he's wearing loose pants and a loose tunic, not much different from clothes one would normally change into before going to bed. The fact that he's walking with his eyes closed and his hands in his pockets is not really helping his case either. He looks like he just got out of bed to get a midnight snack, and definitely not like a participant in a life and death tournament. However, he can't be one of the locals either, since we would have been immediately notified to not harm him.
+When he clears the brush, nothing about him belongs on a battlefield.
 
-"Good morrow, lad!" Daren shouts after the boy. "Lovely day for a walk, isn't it? What business would you have with us? If you are lost, we'd be more than happy to give you directions!" 
+He looks nineteen at most, slender and unarmored, dressed in a loose tunic and trousers that look more like sleepwear than travel gear. His hands rest in his pockets, and his eyes are completely shut. He strolls across the uneven rock with the unhurried gait of someone wandering down to the kitchen for a midnight snack. Not a contestant, surely—yet he cannot be a local either, or the tournament sigils would have flared with a warning the moment he approached our perimeter.
 
-With Daren, it's hard to tell when he's being sarcastic or sincere, since there are no hints in his look or his tone of voice, and as I've known him so far he'd be capable of either of those things in this situation. Our young visitor doesn't seem to have taken offense at Daren's remark, and smiles politely with his eyes still closed.
+"Good morrow, lad!" Daren calls out, stepping forward. "Fine day for a stroll, isn't it? What business brings you to our camp? If you're lost, we can point you back toward the roads."
 
-"There's no need," the boy answers. "I was looking for some old friends of mine when I sensed there was a fellow stillwater nearby, so I just had to stop by and say hello. There's so few of us nowadays, that it would be a shame to not at least greet each other in passing! My name is Eiden. Pleased to meet you!"
+With Daren, sincerity and sarcasm sound entirely identical—the same booming, theatrical baritone delivers both without a flicker of expression.
 
-My whole body freezes for a second. An actual stillwater? Here? No... No. I should calm down. It's likely just some other guy who came up with the same idea as me. I refuse to fall for my own trick! 
+The boy doesn't bristle. A polite, placid smile spreads across his face, his eyes remaining shut.
 
-Seeing that I don't say anything, Daren replies in my stead.
+"No need," the boy answers mildly. "I was in the area looking for some old acquaintances when I sensed a fellow stillwater nearby. Naturally, I had to stop by and say hello. There are so few of us left these days—it would be a shame not to greet each other in passing. My name is Eiden. Pleased to meet you."
 
-"Don't mind him! Barry's a little shy. I'm sure he's also pleased to make your acquaintance. My name's Daren."
+My chest goes cold. An actual stillwater? Here?
 
-"Oh? Then you must be the healer in armor I've been hearing so much about! And it seems that you also have a third member in your party. A survivor of the Beacon of Hope, no less. I did not know any of them were still alive."
+No. Pull yourself together, Barry. It's another fraud pulling the exact same con I am. I refuse to fall for my own trick.
+
+When I don't answer, Daren fills the silence with an easy grin.
+
+"Pay him no mind! Barry is a bit reserved with strangers. I'm sure he's just as delighted. My name is Daren."
+
+"Oh? Then you must be the healer in armor people have been whispering about. And it seems you have a third companion resting in your cave. A survivor of the Beacon of Hope, no less. I did not know any of them were still alive."
 
 }
 #if(v_ch4_objectives == 3) {
-"Maybe they're waiting for our numbers to decrease. Maybe they weren't expecting such a high number of participants and they're waiting for us to kill each other while we wait for the objectives."
+"Maybe they're waiting for our numbers to decrease," I say. "They drew far more contestants than anticipated and decided to let the field thin itself out before issuing the real trial."
 
-"Well, if that's their plan, then it's working magnificently for them. I just hope you're wrong about this."
+"If that is their design, it is working with terrifying efficiency. I pray you're mistaken."
 
-Before we get to continue our conversation, we sense someone approaching our location. Kate's barrier spell must have worn off.
+A faint shift in the air cuts our conversation short. An aura is moving toward the clearing—Kate's warding barrier must have dissolved.
 
-"Keep your guard up, Barry!"
+"Keep your guard up, Barry!" Daren's hand drops to the hilt of his broadsword.
 
-As this person approaches, we can sense his magical aura more clearly. His magical aura is just as weak as that of the crossbowmen from before. Is this a survivor from our last battle, looking to avenge his fallen comrades?
+As the newcomer draws closer, his magical signature resolves. It's faint—thin and barely perceptible, no stronger than the crossbowmen from the ambush. A straggler looking to avenge fallen comrades?
 
-When he gets within visual range of us, we discover that he is rather young for a warrior, and he isn't wearing any protective gear. He seems to be somewhere in his late teens, but no older than twenty, and he's wearing loose pants and a loose tunic, not much different from clothes one would normally change into before going to bed. The fact that he's walking with his eyes closed and his hands in his pockets is not really helping his case either. He looks like he just got out of bed to get a midnight snack, and definitely not like a participant in a life and death tournament. However, he can't be one of the locals either, since we would have been immediately notified to not harm him.
+When he clears the brush, nothing about him belongs on a battlefield.
 
-"Good morrow, lad!" Daren shouts after the boy. "Lovely day for a walk, isn't it? What business would you have with us? If you are lost, we'd be more than happy to give you directions!" 
+He looks nineteen at most, slender and unarmored, dressed in a loose tunic and trousers that look more like sleepwear than travel gear. His hands rest in his pockets, and his eyes are completely shut. He strolls across the uneven rock with the unhurried gait of someone wandering down to the kitchen for a midnight snack. Not a contestant, surely—yet he cannot be a local either, or the tournament sigils would have flared with a warning the moment he approached our perimeter.
 
-With Daren, it's hard to tell when he's being sarcastic or sincere, since there are no hints in his look or his tone of voice, and as I've known him so far he'd be capable of either of those things in this situation. Our young visitor doesn't seem to have taken offense at Daren's remark, and smiles politely with his eyes still closed.
+"Good morrow, lad!" Daren calls out, stepping forward. "Fine day for a stroll, isn't it? What business brings you to our camp? If you're lost, we can point you back toward the roads."
 
-"There's no need," the boy answers. "I was looking for some old friends of mine when I sensed there was a fellow stillwater nearby, so I just had to stop by and say hello. There's so few of us nowadays, that it would be a shame to not at least greet each other in passing! My name is Eiden. Pleased to meet you!"
+With Daren, sincerity and sarcasm sound entirely identical—the same booming, theatrical baritone delivers both without a flicker of expression.
 
-My whole body freezes for a second. An actual stillwater? Here? No... No. I should calm down. It's likely just some other guy who came up with the same idea as me. I refuse to fall for my own trick! 
+The boy doesn't bristle. A polite, placid smile spreads across his face, his eyes remaining shut.
 
-Seeing that I don't say anything, Daren replies in my stead.
+"No need," the boy answers mildly. "I was in the area looking for some old acquaintances when I sensed a fellow stillwater nearby. Naturally, I had to stop by and say hello. There are so few of us left these days—it would be a shame not to greet each other in passing. My name is Eiden. Pleased to meet you."
 
-"Don't mind him! Barry's a little shy. I'm sure he's also pleased to make your acquaintance. My name's Daren."
+My chest goes cold. An actual stillwater? Here?
 
-"Oh? Then you must be the healer in armor I've been hearing so much about! And it seems that you also have a third member in your party. A survivor of the Beacon of Hope, no less. I did not know any of them were still alive."
+No. Pull yourself together, Barry. It's another fraud pulling the exact same con I am. I refuse to fall for my own trick.
+
+When I don't answer, Daren fills the silence with an easy grin.
+
+"Pay him no mind! Barry is a bit reserved with strangers. I'm sure he's just as delighted. My name is Daren."
+
+"Oh? Then you must be the healer in armor people have been whispering about. And it seems you have a third companion resting in your cave. A survivor of the Beacon of Hope, no less. I did not know any of them were still alive."
 
 }
 choice(""What's the Beacon of Hope?"", Ch4-Beacon, v_current_scene = Ch4-Beacon)
@@ -151,43 +169,43 @@ TEXT:
 
 "What's the Beacon of Hope?"
 
-"You mean she didn't tell you? Well then, I won't spoil the surprise. Why don't you ask her yourself when she wakes up, my stillwater friend?"
+"You mean she hasn't told you?" Eiden chuckles softly. "Well, far be it from me to spoil the tale. Why not ask her yourself once she wakes, my stillwater friend?"
 
-"I'm going to stop you right there, Eiden," Daren interrupts. "I don't think it's necessary to carry on with this charade anymore. You and I both know that Barry is an ordinary human and not a stillwater."
+"Let's cut the theater right there, Eiden," Daren interrupts, taking a half-step between us. "There is no need to keep up this charade. We both know Barry is an ordinary human and not a stillwater."
 
-"What, you told them the truth?" Eiden asks me. "I honestly did not think you managed to make it this far without bluffing. I must admit I'm impressed!"
+"Oh? You confessed?" Eiden turns toward me, eyebrow raising slightly behind closed lids. "I honestly assumed you'd ride the bluff to the bitter end. I must say, I'm impressed."
 
-"This stillwater bluff isn't going to get you very far, you know," Daren continues. "Especially since you're blind. Who ever heard of a blind stillwater?"
+"The stillwater act won't carry you very far either, lad," Daren says, crossing his arms over his breastplate. "Particularly when you're blind. Who has ever heard of a blind stillwater?"
 
-"Hmm? What makes you think I'm blind?"
+"Blind? What gives you that impression?"
 
-"You've been keeping your eyes closed ever since we first saw you."
+"Your eyes have been shut since you stepped out of the brush."
 
-"Oh, this! I actually can see just fine. I first closed my eyes long ago, when I got tired of seeing the ugliness of humanity. I mostly only open my eyes in completely unpopulated areas nowadays. My magical sense is a more than adequate replacement for my eyesight. I can feel every creature's and every object's magical aura, which tells me where they are, and I get the added benefit of not falling prey to illusion spells. I don't need an extra sense to constantly remind me of why I despise humans so much."
+"Ah. That." Eiden taps a finger against his cheek. "My vision is quite intact, actually. I shut my eyes centuries ago, simply because I grew exhausted of looking at the ugliness of humanity. Nowadays, I only bother opening them in completely deserted wilderness. My magical sense serves far better than eyesight ever did. I feel the exact weight and contour of every living creature and stone around me, with the delightful side effect of complete immunity to illusions. Why burden myself with an extra sense just to be reminded of why I despise humans so much?"
 
-"Aren't you a little young to be worrying about humanity's sins? Or is this some kind of phase you're going through in order to get your parents to notice you?"
+"Aren't you a bit young for existential disgust?" Daren's voice carries a dry edge. "Or is this some dramatic phase to get your parents' attention?"
 
 Eiden smiles.
 
-"You of all people should know better, healer in armor. Surely you must have seen all of the world's suffering and injustice throughout your travels. The anguish. The agony. You've seen them all, over and over. Tell me, healer. You've spent a lifetime trying to right the wrongs others have made. Do you feel like the world has become a better place because of it?"
+"You of all people should know better, healer in armor. You've wandered the eastern continent for decades, wading through every flavor of misery, treachery, and despair. You have seen it all, again and again. Tell me, healer—after a lifetime spent patching up the atrocities men commit against each other, do you truly believe the world is any better for your trouble?"
 
-"Just because there is a lot of evil left in the world doesn't mean there's no good worth fighting for. As long as I don't give up, I will find a way."
+"The presence of evil doesn't mean the good isn't worth defending," Daren replies without hesitation. "So long as I don't give up, I will find a way."
 
-Eiden's smile widens, but his eyes remain closed.
+Eiden's smile stretches wider, but his eyelids don't flinch.
 
-"Oh? So you're an idealist, then. But tell me, hero, what happens when your pure ideals clash with the cold hard truth of reality?"
+"Oh? So you're an idealist, then. But tell me, hero—what happens when your pure ideals clash with the cold, hard truth of reality?"
 
-Suddenly, Daren falls flat on his chest, and I can tell he's being pressed against the ground by a very powerful force. 
+Without warning, Daren crashes chest-first into the dirt. A terrible, crushing pressure bears down on him, grinding his plate armor into the solid rock.
 
-"What happens when you meet a force so great that it simply squashes you against the ground, as if you were an insect?"
+"What happens when you meet a force so absolute that it simply squashes you against the ground, as if you were an insect?"
 
-The force pushing Daren against the ground intensified so much that it made a large Daren shaped hole in the hard rock soil beneath him. He could no longer hold back the pain and started screaming in agony.
+The downward force doubles with a sickening groan of fracturing stone. A deep, armored depression caves into the bedrock beneath Daren. The sheer agony tears a raw scream from his throat.
 
- I realize my hands have gone cold and my whole body is shaking. I need to pull myself back together. If I screw this up, we'll all get slaughtered. 
+My hands go numb and cold. A violent tremor runs through my limbs. Pull yourself together, Barry. If you lose your head now, we're all dead.
 
-"Let him go!" I tell Eiden, trying to sound as confident as possible.
+"Let him go!" I yell, forcing every shred of conviction into my voice.
 
-"You want to save your friend, Barry? Then how about we make it an even trade? Your life for his. I promise I'll leave your friend alone if you give your life for him. What do you say?"
+"You want to save your friend, Barry? Then how about we make an even trade? Your life for his. Pledge your life, and I promise to leave your friend whole. What do you say?"
 
 choice("Accept the trade", Ch4-Accept, v_current_scene = Ch4-Accept)
 choice("Propose a different trade", Ch4-Propose, v_current_scene = Ch4-Propose)
@@ -198,43 +216,43 @@ TEXT:
 
 "Why is she a survivor? Did the Beacon of Hope burn down?"
 
-"Burn down? Well, I suppose it must have been burnt down after all these years. But that's not why I said she's a survivor. I'm not going to spoil the surprise for you, though. Why don't you ask her yourself when she wakes up, my stillwater friend?"
+"Burn down? Well, I imagine the ashes scattered centuries ago. But that isn't why she's a survivor. Still, I wouldn't dream of spoiling the mystery. Why not ask her yourself once she wakes, my stillwater friend?"
 
-"I'm going to stop you right there, Eiden," Daren interrupts. "I don't think it's necessary to carry on with this charade anymore. You and I both know that Barry is an ordinary human and not a stillwater."
+"Let's cut the theater right there, Eiden," Daren interrupts, taking a half-step between us. "There is no need to keep up this charade. We both know Barry is an ordinary human and not a stillwater."
 
-"What, you told them the truth?" Eiden asks me. "I honestly did not think you managed to make it this far without bluffing. I must admit I'm impressed!"
+"Oh? You confessed?" Eiden turns toward me, eyebrow raising slightly behind closed lids. "I honestly assumed you'd ride the bluff to the bitter end. I must say, I'm impressed."
 
-"This stillwater bluff isn't going to get you very far, you know," Daren continues. "Especially since you're blind. Who ever heard of a blind stillwater?"
+"The stillwater act won't carry you very far either, lad," Daren says, crossing his arms over his breastplate. "Particularly when you're blind. Who has ever heard of a blind stillwater?"
 
-"Hmm? What makes you think I'm blind?"
+"Blind? What gives you that impression?"
 
-"You've been keeping your eyes closed ever since we first saw you."
+"Your eyes have been shut since you stepped out of the brush."
 
-"Oh, this! I actually can see just fine. I first closed my eyes long ago, when I got tired of seeing the ugliness of humanity. I mostly only open my eyes in completely unpopulated areas nowadays. My magical sense is a more than adequate replacement for my eyesight. I can feel every creature's and every object's magical aura, which tells me where they are, and I get the added benefit of not falling prey to illusion spells. I don't need an extra sense to constantly remind me of why I despise humans so much."
+"Ah. That." Eiden taps a finger against his cheek. "My vision is quite intact, actually. I shut my eyes centuries ago, simply because I grew exhausted of looking at the ugliness of humanity. Nowadays, I only bother opening them in completely deserted wilderness. My magical sense serves far better than eyesight ever did. I feel the exact weight and contour of every living creature and stone around me, with the delightful side effect of complete immunity to illusions. Why burden myself with an extra sense just to be reminded of why I despise humans so much?"
 
-"Aren't you a little young to be worrying about humanity's sins? Or is this some kind of phase you're going through in order to get your parents to notice you?"
+"Aren't you a bit young for existential disgust?" Daren's voice carries a dry edge. "Or is this some dramatic phase to get your parents' attention?"
 
 Eiden smiles.
 
-"You of all people should know better, healer in armor. Surely you must have seen all of the world's suffering and injustice throughout your travels. The anguish. The agony. You've seen them all, over and over. Tell me, healer. You've spent a lifetime trying to right the wrongs others have made. Do you feel like the world has become a better place because of it?"
+"You of all people should know better, healer in armor. You've wandered the eastern continent for decades, wading through every flavor of misery, treachery, and despair. You have seen it all, again and again. Tell me, healer—after a lifetime spent patching up the atrocities men commit against each other, do you truly believe the world is any better for your trouble?"
 
-"Just because there is a lot of evil left in the world doesn't mean there's no good worth fighting for. As long as I don't give up, I will find a way."
+"The presence of evil doesn't mean the good isn't worth defending," Daren replies without hesitation. "So long as I don't give up, I will find a way."
 
-Eiden's smile widens, but his eyes remain closed.
+Eiden's smile stretches wider, but his eyelids don't flinch.
 
-"Oh? So you're an idealist, then. But tell me, hero, what happens when your pure ideals clash with the cold hard truth of reality?"
+"Oh? So you're an idealist, then. But tell me, hero—what happens when your pure ideals clash with the cold, hard truth of reality?"
 
-Suddenly, Daren falls flat on his chest, and I can tell he's being pressed against the ground by a very powerful force. 
+Without warning, Daren crashes chest-first into the dirt. A terrible, crushing pressure bears down on him, grinding his plate armor into the solid rock.
 
-"What happens when you meet a force so great that it simply squashes you against the ground, as if you were an insect?"
+"What happens when you meet a force so absolute that it simply squashes you against the ground, as if you were an insect?"
 
-The force pushing Daren against the ground intensified so much that it made a large Daren shaped hole in the hard rock soil beneath him. He could no longer hold back the pain and started screaming in agony.
+The downward force doubles with a sickening groan of fracturing stone. A deep, armored depression caves into the bedrock beneath Daren. The sheer agony tears a raw scream from his throat.
 
- I realize my hands have gone cold and my whole body is shaking. I need to pull myself back together. If I screw this up, we'll all get slaughtered. 
+My hands go numb and cold. A violent tremor runs through my limbs. Pull yourself together, Barry. If you lose your head now, we're all dead.
 
-"Let him go!" I tell Eiden, trying to sound as confident as possible.
+"Let him go!" I yell, forcing every shred of conviction into my voice.
 
-"You want to save your friend, Barry? Then how about we make it an even trade? Your life for his. I promise I'll leave your friend alone if you give your life for him. What do you say?"
+"You want to save your friend, Barry? Then how about we make an even trade? Your life for his. Pledge your life, and I promise to leave your friend whole. What do you say?"
 
 choice("Accept the trade", Ch4-Accept, v_current_scene = Ch4-Accept)
 choice("Propose a different trade", Ch4-Propose, v_current_scene = Ch4-Propose)
@@ -245,31 +263,33 @@ TEXT:
 
 set(v_ac_ch4_noble,1)
 achievement("A noble sacrifice",v_ac_ch4_noble)
-A cold shiver passes throughout my whole body as the stillwater's words reach my ears. This isn't a nightmare, Barry. It's happening. This is really happening. What the hell was I thinking? That I'd just join a tournament against the most powerful mages in the world and things would simply work out by themselves?
+A deep chill settles into my chest at the stillwater's words. This isn't a nightmare. It is happening right in front of me. What was I thinking when I entered this contest? That an ordinary human could walk among monsters and bluff his way to the Magium without consequence?
 
-Look at what I've done. I managed to not only endanger myself, but also a man that has done nothing but good in his entire life. A much better man than I will ever be. And I'm the reason this stillwater came to us. This is all my fault. But maybe I can make it right.
+I brought this down on us. I dragged a man into my mess who has spent his entire existence shielding others—a far better man than I will ever be. My reckless lie drew this creature to our camp. But I can still settle the balance.
 
-"What guarantee do I have that you won't simply kill him after you're done with me?" I ask Eiden.
+"What guarantee do I have that you won't slaughter him the second I'm dead?" I ask.
 
-"Why, the fact that you're still alive, of course. Surely, you must have realized by now that it would take me no more than a snap of my fingers to end both of your lives? Why would I even bother to give you this option if I weren't sincere?"
+"The fact that you are still drawing breath," Eiden replies pleasantly. "You know as well as I do that a flick of my wrist could reduce both of you to ash. Why offer terms at all if I had no intention of keeping them?"
 
-I don't trust him. I don't trust him at all. But what choice do I have? Daren is nearing his limits, and if I fight him one on one, he'll disintegrate me. Not even Kate would stand a chance against him. And besides, I've already made up my mind.
+There is no reason to trust him. None at all. But Daren's armor is buckling into the rock, and if I draw a blade against this monster, I'll be vaporized in a heartbeat. Kate wouldn't fare any better. The choice is already made.
 
-"Then I accept your trade. My life for Daren's."
+"I accept the trade. My life for Daren's."
 
-Eiden smiles.
+Eiden's smile curves gently.
 
 "Your life for Daren's."
 
-I feel like my very soul is leaving my body. I am quickly losing control of all my muscles, and my body falls to the ground. Everything is getting colder, but I feel no pain. Only emptiness.
+A sudden void opens behind my ribs, as though the warmth of my blood is being siphoned straight out of my chest. My limbs refuse every command. My knees hit the stone. There is no agony—only a terrifying, silent numbness creeping into my thoughts.
 
-"It is done," the stillwater says, as he teleports out of our camp.
+"The pact is sealed," Eiden's voice drifts from somewhere far above, followed by the faint pop of displaced air.
 
-"Barry, no!" Daren screams from the top of his lungs, as he rushes towards me.
+"Barry! No!" Daren's raw shout echoes across the clearing as the crushing pressure vanishes.
 
-I did it. He's still alive. 
+He lunges toward me, white light blazing furiously between his palms.
 
-The last thing I see is Daren's desperate expression as he tries in vain to resuscitate me. 
+I bought his life.
+
+His frantic face, bathed in useless mending light, is the last thing that fades into the dark.
 
 choice("Restart game", Ch1-Intro1, v_current_scene = Ch1-Intro1, special:restart)
 choice("Load from last checkpoint", , v_chapter_save_counter = 5, special:checkpoint_load)
@@ -283,57 +303,61 @@ TEXT:
 
 "What do you have in mind?"
 
-"When we first met, you said you were looking for some friends. If you let us live, we could deliver a message for you, in case we find these friends of yours before you do."
+"When you arrived, you mentioned looking for old acquaintances," I say, keeping my voice steady. "Let us live, and we'll deliver a message on your behalf if we cross paths with them before you do."
 
-"So you're saying your friend's life is only worth delivering a message?"
+"You believe your friend's life is only worth a courier's errand?"
 
-"It is to you. I think you've already made it abundantly clear that human life holds no value to you. That means it should be all the same to you if you let us live or not. But if you let us live, you will get your message delivered. How's that for an even trade?"
+"To you, it is. You've made it quite clear that mortal lives carry zero weight in your eyes. Killing us or letting us walk makes no difference to you. But if you spare us, your words get carried. That makes it an even exchange."
 
-Eiden laughs, and the force pushing Daren against the ground gets weaker.
+Eiden chuckles, a soft, genuine sound, and the invisible weight pinning Daren eases slightly.
 
-"When you put it like that, I suppose you have a point. Very well, then. Your lives for a message."
+"Put in such practical terms, you make a compelling point. Very well. Your lives for a message."
 
-He stops for a bit to think, before he continues.
+He taps his chin, considering.
 
-"The friends I'm looking for always wear dark blue robes, and on their chests they should have brooches that picture a hawk holding the sun in its talons. If you're to meet any people that fit this description, just tell them Eiden sends them this message: Remember the still winter."
+"The people I seek wear dark blue robes. Fastened at their chests, you will find brooches depicting a hawk grasping the sun in its talons. Should you encounter anyone bearing that crest, deliver these words: Eiden sends his regards. Remember the still winter."
 
-"...And, if they ask me what that means?"
+"And if they demand an explanation?"
 
-"They won't. No matter who you meet, as long as they fit the description I gave you, they'll understand the message perfectly."
+"They won't. Anyone wearing that insignia will comprehend the message instantly."
 
-"Uh... Ok, then. Consider it done."
+"Understood. Consider it done."
 
-"Perfect."
+"Splendid."
 
-Eiden releases Daren from his spell, and turns to leave. 
+Eiden releases his grip entirely, and the crushing aura dissipates into thin air.
 
-"I won't... let you leave this place," Daren says, as he slowly gets back up. 
+"I won't... let you walk away," Daren rasps, pushing himself up on trembling arms, his breastplate caked in dirt and pulverized stone.
 
-"Surely, you must be kidding," Eiden tells him.
+"You cannot possibly be serious," Eiden says, turning his back.
 
-"If... I let you go now, you'll only hurt more innocent people. I'll stop you, no matter the cost."
+"If I let you walk... you will only hurt more innocent people. I will stop you, no matter the cost."
 
-"See, now that puts me in a difficult position, since I already made an even trade with Barry over there. I can't just kill you now, since it would violate the terms of our trade agreement."
+"Now that presents a minor dilemma," Eiden remarks, looking over his shoulder. "I've just concluded a binding agreement with Barry. Striking you down would breach the terms of our trade."
 
 "Silence!"
 
-Daren rushes towards the stillwater and slashes fiercely towards his neck. Eiden dodges effortlessly, and Daren quickly goes for a second strike, this time meant to cut him in half. Eiden steps casually to the side, making it look like child's play. After a few more wasted strikes on Daren's part, just when it looked as though he might have caught the stillwater on the wrong foot, Eiden simply put his bare hand in front of his face, and stopped the full blow of the sword with only his index finger.
+Daren charges, broadsword whistling through the air in a fierce horizontal cleave aimed at Eiden's neck. Eiden sways back an inch, letting the steel pass through empty air. Daren pivots instantly into a downward diagonal cut meant to sever him at the waist. Eiden drifts sideways, effortless, hands still in his pockets. Daren presses the assault, chaining vicious strikes across the clearing, sweat pouring down his face as every blow cuts empty breeze. On the fifth swing, Daren feints low and drives the blade upward with all his weight.
 
-"No..." Daren says, as if he couldn't believe his eyes.
+Eiden raises his right hand and stops the razor-sharp edge of the greatsword dead in its tracks, catching the blade against the pad of his bare index finger.
 
- "I tire of this," says Eiden as he makes a gesture with his other hand.
+Daren freezes, eyes wide, color draining from his face. "Impossible..."
 
-In less than a second, Daren dropped to the ground like a log, his armor making a loud clank as it hit the rocky soil below.
+"This grows tedious," Eiden sighs.
 
-"No!" I shout.
+With a casual flick of his other hand, a pulse of invisible force ripples through the air.
 
-"I only put him to sleep," the stillwater says. "He'll wake up in a few minutes."
+Daren collapses instantly, his armored bulk slamming hard against the rocky earth with a heavy metallic crash.
 
-He turns to leave.
+"Daren!" I yell.
 
-"Oh, and don't worry about looking for my friends. I'm sure you'll be meeting them soon enough."
+"Merely a sleep spell," the stillwater says mildly. "He will awaken in a few minutes."
 
-He smiles again, and then he heads towards the woods.
+He turns toward the tree line.
+
+"Do not fret over hunting down my acquaintances. I suspect you will cross paths with them soon enough."
+
+He smiles again, and then strolls into the shadowed woods.
 
 choice("Continue", Ch4-Dave-vs-Eiden, v_current_scene = Ch4-Dave-vs-Eiden) if (v_ch1_show_yourself != 2)
 choice("Continue", Ch4-Face-shown, v_current_scene = Ch4-Face-shown) if (v_ch1_show_yourself == 2)
@@ -344,39 +368,47 @@ TEXT:
 
 "Daren, can you hear me? Wake up!"
 
-There's no answer. Just what kind of spell did this guy use? I'm pretty sure that Daren has some really strong spells protecting him at all times. Standard sleep spells should be no more than a moderate inconvenience for him.
+I shake his armored shoulder, but his head rolls limp. What manner of sleep enchantment bypasses his personal wards so thoroughly? Daren stacks defensive charms by the dozen; an ordinary slumber hex shouldn't cause more than a momentary stumble.
 
-While I try to wake Daren up, I suddenly hear a very familiar voice coming from the direction in which Eiden disappeared.
+A gravelly, venomous shout bellows from the woods where Eiden vanished.
 
 "Stillwater!"
 
-That's Cutthroat Dave's voice. No doubt about it. I'd recognize that hoarse voice and that thuggish accent anywhere. 
+Cutthroat Dave. No mistaking that ragged bark and gutter rasp.
 
-I turn around towards where the voice came from, but there's only trees. Why would Cutthroat Dave shout for me before even getting the chance to get a clear shot of my face?
+I scan the tree line, hand on my hilt. Why would Dave yell for me before laying eyes on my face?
 
-Then it hit me. He never got to see my face. I was hiding behind a tree the whole time. I rush towards the woods to confirm my suspicions. I hide behind one of the trees and take a peek. 
+The answer hits me: he never saw my face. During our first clash, I spent the entire fight concealed behind a pine tree.
 
-Just as I thought, Cutthroat Dave has mistaken Eiden for me, and he's looking for revenge. He's managed to assemble a team in the short time we were apart, and they all have the stillwater surrounded. The sad part is that Dave looks like a well-bred gentleman compared to his new colleagues. Some of them look and smell like they haven't washed for months. I guess birds of a feather really do flock together.
+I sprint into the brush, ducking behind a broad trunk to peer into the clearing.
 
-"I've been looking for you, stillwater," Dave says. "I've been tracking your footsteps since yesterday. I told you we'd meet again. No one can run or hide from Cutthroat Dave."
+Sure enough, Dave has cornered Eiden, convinced the boy in sleepwear is the stillwater who humiliated him yesterday. He brought company—nearly a dozen greasy, unwashed sellswords fanned out in a wide semi-circle around Eiden. Next to this crew, Dave looks almost dignified; the stench of stale grease and sweat wafts ten paces out.
 
-"I'm afraid you are mistaken, my good man," says Eiden, smiling. "I am quite sure I've never seen you before in my life."
+"I've been hunting your trail, stillwater," Dave sneers, twirling a dagger between scarred knuckles. "Tracked your boots through the mud since yesterday noon. Told you we'd cross paths again. Nobody runs from Cutthroat Dave."
 
-"Aye. I am sure of that too. You'd have needed to open your eyes in order to see me."
+"I'm afraid you have the wrong man, my good fellow," Eiden says, smiling politely. "I am quite certain we have never met."
 
-All of Cutthroat Dave's men suddenly burst into laughter at the same time. They're laughing loudly and vulgarly, probably in an attempt to intimidate their victim, just like a group of school bullies. Eiden's expression does not change, and he continues to smile pleasantly.
+"Aye, that makes two of us. You'd have to open your bloody eyes to see me in the first place!"
 
-"Don't think you can fool me by changing your voice a little. I'm too smart for that. I'd recognize that arrogant tone of yours anywhere. Where's your healer friend? Did he leave you here to rot after you saved his skin?"
+The sellswords erupt into raucous, jeering laughter, clattering daggers against belt buckles to rattle their mark. Eiden stands unmoving, hands in his pockets, his smile placid and undisturbed.
 
-"Are you perhaps speaking of the healer in armor? If that's the case, then he's right there, past these trees."
+"Don't think you can throw me off with a fancy accent," Dave spits. "I know that smug tone. Where's your armored healer? Did he leave you to rot the minute you saved his hide?"
 
-"Hah! Nice try, stillwater. That intimidating trick of yours ain't gonna work on me twice in a row."
+"If you refer to the healer in armor," Eiden replies pleasantly, "he is resting just beyond those pines."
 
-He turns towards his esteemed colleagues.
+"Hah! Nice try, boy. That bluff won't save you twice."
 
- "Men! Ready your swords. Pull out your knives. This is what we came here for. Today, we write our names in history. Today, we become LEGENDS!"
+Dave turns to his pack of mercenaries, baring yellowed teeth.
 
-Cutthroat Dave's men all give out a roar as they raise their hands holding their weapons in the air. Eiden's smile has widened. His expression is similar to what it was before he smashed Daren into the ground. He's enjoying this. They're going to get massacred.
+"Draw your blades, boys! This is what we came for. Today we etch our names in blood. Today we become LEGENDS!"
+
+A bloodthirsty roar rises from the thugs as they brandish axes, clubs, and rusted swords.
+
+Eiden's smile stretches wide. It is the exact expression he wore right before he crushed Daren into the bedrock.
+
+He is savoring this.
+
+They are walking straight into a slaughterhouse.
 
 choice("Good. Fewer enemies for us to worry about.", Ch4-Fewer-enemies, v_current_scene = Ch4-Fewer-enemies)
 choice("Nobody deserves such a gruesome fate, not even Cutthroat Dave.", Ch4-Gruesome-fate, v_current_scene = Ch4-Gruesome-fate)
@@ -385,41 +417,53 @@ choice("Nobody deserves such a gruesome fate, not even Cutthroat Dave.", Ch4-Gru
 ID: Ch4-Fewer-enemies
 TEXT:
 
-There's no reason for me to pity the likes of Cutthroat Dave. If I save his neck here, he's most definitely going to attack me next. And if I defeat him and then leave him alive, he'll just go on a rampage and kill innocent people. A few more dead thugs in the world won't make any difference. I very much doubt that anyone's going to mourn their passing.
+Pitying a murderer like Cutthroat Dave is a luxury we can't afford. If I step in, he'll turn his blades on me the instant he realizes his mistake. If we spare him later, he'll butcher travelers down the road. A dozen fewer cutthroats won't draw tears from anyone on this continent.
 
-I decide to not intervene, and let the battle run its course.
+I keep behind the pine and let nature take its course.
 
-Cutthroat Dave initiates by sending a few flying knives towards the stillwater. Just as they reach Eiden, they all stop in mid air in front of him. Eiden smirks and he points towards the cutthroat. All of the knives unconditionally obey their new master, and head towards Dave at breathtaking speed. He manages to parry them in the nick of time with his own flying knives, but he looks dumbstruck.
+Dave opens with a flick of his wrist, launching three enchanted daggers through the air. The blades streak toward Eiden's chest—and freeze motionless an inch from his tunic.
 
-"What kind of sorcery is this?" he says.
+Eiden smirks. A single finger points back at Dave.
 
-"The magic kind, of course," the stillwater answers him. "See, this is a tournament for mages. Circus auditions were being held across the street."
+The daggers reverse direction, rocketing back with terrifying velocity. Dave barely deflects them with two handheld knives, sparks flying as the parry wrenches his wrists. He stares at his own weapons, wide-eyed.
 
-Dave's face contorts into a snarl.
+"What manner of trickery is this?" Dave rasps.
 
-"We'll see how funny you are with some holes in your skull, you cheeky bastard. Men, teach this little upstart a lesson."
+"Magic, naturally," Eiden replies. "This is a tournament for mages, after all. The circus auditions were down the road."
 
-All of Cutthroat Dave's men jump at Eiden, but he disappears right from under their nose and appears in front of Dave with a grin on his face, though his eyes remain shut.
+Dave's face twists into a rabid snarl.
 
-"Sending your men to do your dirty work, Dave? I thought you were going to become a legend! Why are you hesitating?"
+"Let's see you crack jokes with steel in your throat. Men, gut this little bastard!"
 
-Dave pulls out a knife from his belt and slashes for Eiden's neck.
+The mercenaries lunge in a chaotic wave—and swing through empty air. Eiden vanishes mid-step, reappearing directly in front of Dave, grinning behind closed lids.
 
-"Shut your smart-arse mouth and die, you little shi--"
+"Hiding behind hired hands, Dave? I thought you came to become a legend. Why the hesitation?"
 
-Before the thug got to finish his sentence, Eiden put his palm on Dave's face, and made his head explode in a thousand pieces. Cutthroat Dave's life had ended just like that, without even having the time to realize he was dead. 
+Dave draws a hunting knife from his belt and drives it viciously toward Eiden's throat.
 
-Blinded by rage, Dave's loyal followers rushed screaming towards Eiden, with their weapons at the ready. They didn't get too far, though. With a snap of his fingers, the stillwater made a huge pillar of fire appear in front of him, which incinerated all of the thugs to a point where not even their bones were left intact. The fire completely ignored all of the trees around it, and Eiden simply put it out with another snap of his fingers.
+"Shut your smart mouth and die, you little—"
 
-I expected this to be quick. But this outcome far exceeded my expectations. He can even cast fire magic. Just what in the hell are we supposed to do to fight this guy?
+Eiden places an open palm flat against Dave's forehead.
 
-Eiden turns towards me. I suddenly remember that he relies primarily on his magical sense and not on his eyesight in order to assess his surroundings. He must have sensed my presence ever since before the beginning of the battle.
+A muffled pop echoes through the glade. Dave's skull bursts like an overripe melon, spraying red across the grass. The body drops, dead before the blood hits the earth.
 
- "Did you enjoy the show, Barry?" he asks me. His smile is gone from his face.
+The mercenaries freeze in sheer horror, then scream in fury, surging forward with raised weapons.
 
-"It was quite the spectacle," I reply to him.
+They don't make three paces.
 
-"That it was. It would appear the cutthroat had mistaken me for another stillwater. One who was associating with a healer. Quite an unfortunate misunderstanding. You wouldn't happen to know who they were looking for, would you Barry?"
+Eiden snaps his fingers.
+
+A colossal pillar of crimson flame erupts from the soil, roaring thirty feet into the canopy. In the span of a single breath, the mercenaries are consumed entirely—flesh, armor, and bone incinerated into fine white ash. The surrounding pines don't even singe. Eiden snaps his fingers a second time, and the inferno vanishes as though it never existed.
+
+Cold dread hollows my stomach. Air, gravity, and now flawless, contained pyromancy. How are we supposed to survive an opponent like this?
+
+Eiden turns toward my tree. His magical sense had me pinned before the first knife flew.
+
+"Did you enjoy the performance, Barry?" The smile is gone, his expression cool and blank.
+
+"Quite a spectacle," I say, stepping into view.
+
+"Indeed. It seems the cutthroat mistook me for a different stillwater—one traveling alongside an armored healer. A most unfortunate error. You wouldn't happen to know who they were hunting, would you, Barry?"
 
 choice("Tell him the truth", Ch4-Truth, v_current_scene = Ch4-Truth)
 choice("Make up a lie", Ch4-Lie, v_current_scene = Ch4-Lie)
@@ -430,9 +474,11 @@ TEXT:
 
 "I don't. But it worries me as well. You think there might be other stillwaters in this area?"
 
-Eiden smiles. With one gesture of his hands, he paralyzes my body as I stand and makes me float all the way to his position. I struggle in vain to escape his grasp. His spell is too strong. Once I arrive in front of him, Eiden answers his own question.
+Eiden's lips curl into a cold smile.
 
-"They were looking for you, Barry. You really have a lot of nerve lying to my face like that. Perhaps I was wrong about you. Perhaps I will deliver my message myself, after all."
+With a slight twitch of his fingers, my muscles seize completely. An invisible tether yanks me off the ground, dragging me through the air until I hover a foot from his face. I fight against the paralysis, but the magical bind is absolute.
+
+"They were looking for you, Barry," Eiden says softly. "You really have a lot of nerve lying to my face like that. Perhaps I was wrong about you. Perhaps I will deliver my message myself, after all."
 
 "No, wait, I can explain!"
 
@@ -454,13 +500,15 @@ achievement("I really kneed a break!",v_ac_ch4_kneed)
 
 "I do, indeed. Tell me, Barry. How did you come to the conclusion that using me to clean up your mess would be a good idea?"
 
-"Well, I figured you wouldn't have any trouble dealing with those lowly thugs. And you seemed to enjoy it well enough. Otherwise you would have simply cut down the tree I was hiding behind in order to reveal me to the cutthroats."
+"Well, I knew you wouldn't have any trouble dealing with those lowly thugs. And you clearly enjoyed it. Otherwise you would have simply sheared through the tree I was hiding behind to reveal me to them."
 
-"Fascinating. You really appear to have no sense of crisis. Allow me to help you in that regard."
+"Fascinating. You possess a remarkable lack of self-preservation. Allow me to help you in that regard."
 
-As he finishes his sentence, I start feeling something pressing against my throat. It feels like an invisible rope is tied around my neck, and it is slowly lifting me above the ground. It's not just my imagination. I really am being lifted higher and higher above the ground. It's getting a lot harder to breathe as the invisible noose gets tighter around my neck. I try to take the noose off with my hands, but there's nothing there. If this goes on much longer I'm seriously going to die.
+A constricting band of invisible force tightens around my throat. My boots leave the earth as the unseen noose hoists me upward into the canopy. I claw desperately at my neck, fingers grasping at empty air, my trachea collapsing under the pressure. Darkness creeps into the edges of my vision as the noose cinches tighter.
 
-Once I get several feet above the ground, the invisible noose suddenly disappears, and I fall on the rocky soil, dropping to my knees. I could hear a loud crack as I hit the ground. I'm pretty sure that the fall broke both my kneecaps. The pain of it is excruciating.
+Six feet off the ground, the invisible force abruptly vanishes.
+
+I drop like a stone. I hit the bedrock knees-first with a sickening, splintering crunch that echoes off the pines. White-hot agony flares through my legs—both kneecaps shattered on impact. I pitch forward onto my elbows, gasping for breath through the searing pain.
 
 "Now that I have your attention," the stillwater continues, "I want you to understand something. If you try something like that again, broken kneecaps are going to be the least of your worries. Are we clear?"
 
@@ -482,7 +530,7 @@ choice("Next chapter", Ch5-Intro, v_next_chapter_crash = 1, v_current_scene = Ch
 ID: Ch4-Gruesome-fate
 TEXT:
 
-Who knows what this sadistic bastard will do to them if I let him. Not even Cutthroat Dave deserves such a gruesome fate. At the very least, a death by my hands or by Daren's would be quick and painless. I'm not completely sure about Kate, though.
+Leaving them to Eiden's whims means watching men get dismantled for amusement. Not even Cutthroat Dave deserves such a gruesome fate. At the very least, a death by my hands or by Daren's would be quick and painless. I'm not completely sure about Kate, though.
 
 I step out of my tree's shadow and face the cutthroats. Dave is now shifting his gaze between me and the stillwater, unsure what to think. Eiden is looking at me, smiling.
 
@@ -496,7 +544,7 @@ He then points towards Eiden.
 
 "I wouldn't dream of it!" says Eiden, still smiling.
 
-I rush out of the forest and head directly for Daren.  The cutthroats are right on my tail, but they make a full stop when they see that I'm not alone. 
+I rush out of the forest and head directly for Daren. The cutthroats are right on my tail, but they make a full stop when they see that I'm not alone.
 
 Daren, who was just waking up, is looking around him confused.
 
@@ -511,45 +559,51 @@ TEXT:
 
 "Forget the stillwater. Look who came to greet us."
 
-Dave's henchmen started talking amongst themselves. It seems they are not fully convinced they should risk going into battle against both the legendary hero Daren and a stillwater at the same time. 
+Dave's henchmen murmur anxiously among themselves, eyeing Daren's heavy armor and scanning the trees. The prospect of facing a legendary champion alongside a stillwater clearly wasn't in their plans.
 
-I take advantage of this and call for Kate. 
+I seize the moment and shout toward the cave.
 
 "Kate! We're being attacked! Come quick!"
 
-"Stop shouting, I'm right here," Kate says, as she exits the cave. "As if anyone could sleep with this stench. It smells worse than all the fields of corpses we've passed on our way here."
+"Stop shouting, I'm right here," Kate says, stepping out of the cave. "As if anyone could sleep with this stench. It smells worse than all the fields of corpses we've passed on our way here."
 
-She addresses Cutthroat Dave's men.
+She turns a freezing glare on Cutthroat Dave's men.
 
 "Good gods, we've already passed three lakes since we arrived. Three! One single dive in any of them would have done wonders. Maybe with a big rock tied to your feet in order to make sure to remove the filth for good."
 
 "Who's the loud-mouthed wench?" Cutthroat Dave asks me. "We've been here for little more than a day and you've already bought a whore? Couldn't you have kept it in your pants at least until the end of the tournament?"
 
-One of Kate's eyes is twitching. Here we go again...
+One of Kate's eyes twitches. Here we go.
 
 "Boss, I think that's a banshee," one of Dave's henchmen tells him, visibly scared.
 
 "Is she? I didn't know brothels hired banshees on this continent. Gotta get me one of those."
 
-He grins maliciously and looks at Kate.
+He grins maliciously, eyeing Kate from head to toe.
 
 "Love, how much you chargin'? I bet I can make you enjoy yourself more than any of these two chumps. I'll make sure to give you lots of lovin'. Hehehe!"
 
-Knowing Kate, my first thought was to look up. As I suspected, while Cutthroat Dave was talking, Kate was busy piling up floating ice swords in the sky. She sent them all flying at once. Five for each of them, just to make sure.
+Knowing Kate, I immediately look up.
 
-Dave's henchmen died on the spot, impaled by the many swords conjured by Kate. Their leader, however, managed to deflect four of the swords with his flying knives in the nick of time. The fifth sword went through his right leg.
+High above the clearing, rows of crystalline ice broadswords hover motionless in the air, points angled straight down.
 
-"You cowards hired a whore for a bodyguard?!" Dave asks us, while struggling to mask the pain on his face. "How low can you get?"
+She drops her hand.
 
-"Looks like you're not all talk, cutthroat. But let's see you deflect the next ones."
+Five blades per man plunge simultaneously, screaming through the wind.
 
-"Wait, Kate," Daren says. "I think he's learned his lesson."
+Dave's henchmen die on the spot, impaled by the volley of ice. Their leader manages to deflect four of the swords with his flying knives in a shower of sparks, but the fifth drives straight through his right leg.
+
+"You cowards hired a whore for a bodyguard?!" Dave snarls, struggling to mask the agony on his face. "How low can you get?"
+
+"Looks like you're not all talk, cutthroat," Kate says coldly. "Let's see you deflect the next ones."
+
+"Wait, Kate," Daren says, stepping in. "I think he's learned his lesson."
 
 "You can't be serious! And what would you have us do? Send him off with a stern warning?"
 
- "We'll tie him up, leave him here, and let the gods decide his fate."
+"We'll tie him up, leave him here, and let the gods decide his fate."
 
-Kate looks as though she's considering whether to simply execute Cutthroat Dave without Daren's consent. She decides against it, probably not wanting to push her luck. Instead she addresses me.
+Kate stares at Dave as though weighing whether to execute him on the spot without Daren's consent. Deciding against pushing her luck, she turns to me instead.
 
 "Barry, say something to him. He listens to you."
 
@@ -559,15 +613,15 @@ Kate looks as though she's considering whether to simply execute Cutthroat Dave 
 
 "Forget the stillwater. Look who came to greet us."
 
-Dave's henchmen started talking amongst themselves. It seems they are not fully convinced they should risk going into battle against both the legendary hero Daren and a stillwater at the same time. 
+Dave's henchmen murmur anxiously among themselves, eyeing Daren's heavy armor and scanning the trees. The prospect of facing a legendary champion alongside a stillwater clearly wasn't in their plans.
 
-I take advantage of this and call for Kate. 
+I seize the moment and shout toward the cave.
 
 "Kate! We're being attacked! Come quick!"
 
-There's no answer. I try to call for her again, but I still get no response. I guess our brawl with the crossbowmen must have taken a bigger toll on her than she let on. It seems it's going to be just me and Daren for the duration of this fight. I'd better put that stat device to good use.
+There is no answer. I call again, but get only silence. The brawl with the crossbowmen took a heavier toll on her than she let on; she is sleeping deeply inside. It falls to Daren and me. I reach for the stat booster at my belt.
 
-"What are you lot so scared of?" Dave asks his men. "I took down that sad excuse for a hero by myself yesterday. Don't believe everything you hear on the street. His legends are just as full of crap as those of stillwaters. This is the real world!"
+"What are you lot so scared of?" Dave roars at his men. "I took down that sad excuse for a hero by myself yesterday. Don't believe everything you hear on the street. His legends are just as full of crap as those of stillwaters. This is the real world!"
 
 }
 #if(v_ch3_kate_badly_hurt == 1) {
@@ -575,11 +629,11 @@ There's no answer. I try to call for her again, but I still get no response. I g
 
 "Forget the stillwater. Look who came to greet us."
 
-Dave's henchmen started talking amongst themselves. It seems they are not fully convinced they should risk going into battle against both the legendary hero Daren and a stillwater at the same time. 
+Dave's henchmen murmur anxiously among themselves, eyeing Daren's heavy armor and scanning the trees. The prospect of facing a legendary champion alongside a stillwater clearly wasn't in their plans.
 
-I can't risk calling for Kate to help given her current condition. It's going to be just me and Daren for the duration of this fight. I'd better put that stat device to good use.
+With Kate's injuries, dragging her into this fight is out of the question. It's going to be just me and Daren for the duration of this brawl. I reach for the stat booster at my belt.
 
-"What are you lot so scared of?" Dave asks his men. "I took down that sad excuse for a hero by myself yesterday. Don't believe everything you hear on the street. His legends are just as full of crap as those of stillwaters. This is the real world!"
+"What are you lot so scared of?" Dave roars at his men. "I took down that sad excuse for a hero by myself yesterday. Don't believe everything you hear on the street. His legends are just as full of crap as those of stillwaters. This is the real world!"
 
 }
 choice("Try to persuade Daren to agree with Kate", Ch4-Persuade, v_current_scene = Ch4-Persuade) if (v_ch3_bloodied == 0 && v_ch3_kate_badly_hurt == 0)
@@ -596,7 +650,7 @@ TEXT:
 
 "Daren..."
 
-He sighs. 
+He sighs.
 
 "I know... I know that's what would happen if he got away. It's just... I wanted to avoid more unnecessary bloodshed. But you're right. The price would be too high. Do what you must, Kate."
 
@@ -616,9 +670,9 @@ TEXT:
 
 "We're not siding with anyone," Daren says. "If the gods see fit to release him, then he has learned his lesson. Otherwise, he will stay here and rot."
 
-Cutthroat Dave was waiting for the right moment when neither of us were looking at him. He seizes the opportunity and quickly pulls out a teleportation scroll out of his pocket. Before anyone of us has the time to react, he casts the spell, and pops out without a trace.
+Cutthroat Dave was waiting for the moment our attention drifted. He seizes the opening, whipping a glowing teleportation scroll from his pocket. Before any of us can react, the parchment flares and he vanishes with a sharp snap of displaced air.
 
-Where in the hell did that lowlife get a teleportation scroll from? I've been searching one for months and came up empty. Not to mention that even a single one of those scrolls costs a fortune.
+Where in the hell did that lowlife get a teleportation scroll from? I've been searching for one for months and came up empty. Not to mention that a single scroll costs a small fortune.
 
 "Now look at what happened!" Kate says, furious. "He got away. Was that the gods' decision too?"
 
@@ -684,19 +738,19 @@ TEXT:
 
 "Daren, can you hear me? Wake up!"
 
-There's no answer. Just what kind of spell did this guy use? I'm pretty sure that Daren has some really strong spells protecting him at all times. Standard sleep spells should be no more than a moderate inconvenience for him.
+I shake his shoulder, but he remains completely limp. What manner of sleep enchantment bypasses his wards this cleanly? Daren layers protective charms over his gear; an ordinary slumber hex shouldn't cause more than a momentary stumble.
 
-While I try to wake Daren up, I suddenly hear a very familiar voice coming from the direction in which Eiden disappeared.
+A gravelly, venomous roar echoes from the direction where Eiden vanished into the trees.
 
 "Stillwater!"
 
-That's Cutthroat Dave's voice. No doubt about it. I'd recognize that hoarse voice and that thuggish accent anywhere. 
+Cutthroat Dave. No mistaking that ragged bark and gutter rasp.
 
-I turn around towards where the voice came from and see that aside from a familiar face, there are also about a dozen other unfamiliar faces lined up in front of me.
+I spin toward the voice. Dave strides out of the foliage, flanked by nearly a dozen greasy, heavily armed sellswords spread across the clearing.
 
-It would appear Dave has managed to assemble a team in the short time we were apart. The sad part is that Dave looks like a well-bred gentleman compared to his new colleagues. Some of them look and smell like they haven't washed for months. I guess birds of a feather really do flock together.
+He managed to recruit an entire gang since yesterday. Next to this crew, Dave looks almost dignified; the stench of stale grease and unwashed bodies drifts across the gravel.
 
-"I've been looking for you, stillwater," Dave says. "I've been tracking your footsteps since yesterday. I told you we'd meet again. No one can run or hide from Cutthroat Dave."
+"I've been hunting your trail, stillwater," Dave sneers, twirling a dagger between scarred knuckles. "Tracked your boots through the mud since yesterday noon. Told you we'd cross paths again. Nobody runs from Cutthroat Dave."
 
 choice(""I never doubted you for a second, Dave!"", Ch4-Doubted, v_current_scene = Ch4-Doubted)
 choice(""Could we try that again? I just came up with this great idea for a hiding spot!"", Ch4-Hiding, v_current_scene = Ch4-Hiding)
@@ -708,9 +762,9 @@ TEXT:
 
 "I never doubted you for a second, Dave!"
 
-"Hah! I'm going to enjoy cutting that arrogant head of yours off your shoulders, boy. What happened to your healer friend? Is he taking a little nap?"
+"Hah! I'm going to enjoy taking that arrogant head off your shoulders, boy. What happened to your healer friend? Is he taking a little nap?"
 
-Just as Dave finishes his sentence, Daren starts waking up, and looks around him, confused.
+As Dave finishes speaking, Daren groggily pushes himself up from the dirt, blinking in confusion at the armed mob in front of us.
 
 choice("Continue", Ch4-Barry-vs-Dave, v_current_scene = Ch4-Barry-vs-Dave)
 
@@ -718,11 +772,11 @@ choice("Continue", Ch4-Barry-vs-Dave, v_current_scene = Ch4-Barry-vs-Dave)
 ID: Ch4-Hiding
 TEXT:
 
-"Could we try that again? I just came up with this great new idea for a hiding spot!"
+"Could we try that again? I just came up with this great idea for a hiding spot!"
 
-"The only hiding spot you're heading for is  your grave, boy. What happened to your healer friend? Is he taking a little nap?"
+"The only hiding spot you're heading for is your grave, boy. What happened to your healer friend? Is he taking a little nap?"
 
-Just as Dave finishes his sentence, Daren starts waking up, and looks around him, confused.
+As Dave finishes speaking, Daren groggily pushes himself up from the dirt, blinking in confusion at the armed mob in front of us.
 
 choice("Continue", Ch4-Barry-vs-Dave, v_current_scene = Ch4-Barry-vs-Dave)
 
@@ -734,7 +788,7 @@ TEXT:
 
 "You'd best worry about yourself, boy. Your days are numbered. What happened to your healer friend? Is he taking a little nap?"
 
-Just as Dave finishes his sentence, Daren starts waking up, and looks around him, confused.
+As Dave finishes speaking, Daren groggily pushes himself up from the dirt, blinking in confusion at the armed mob in front of us.
 
 choice("Continue", Ch4-Barry-vs-Dave, v_current_scene = Ch4-Barry-vs-Dave)
 
@@ -747,7 +801,7 @@ TEXT:
 
 "I, uh... This may seem like a rather stupid question, given our situation, but... Do you happen to have a spare dagger I could use?"
 
-Daren shakes his head in disapproval and hands me a dagger from his belt. 
+Daren shakes his head in disapproval and hands me a dagger from his belt.
 
 "Really, Barry. There were dozens of daggers on the ground you could have picked on our way here. Try to take this more seriously."
 
@@ -757,7 +811,7 @@ Daren shakes his head in disapproval and hands me a dagger from his belt.
 
 "I, uh... This may seem like a rather stupid question, given our situation, but... Do you happen to have a spare dagger I could use?"
 
-Daren shakes his head in disapproval and hands me a dagger from his belt. 
+Daren shakes his head in disapproval and hands me a dagger from his belt.
 
 "Really, Barry. There were dozens of daggers on the ground you could have picked on our way here. Try to take this more seriously."
 
@@ -767,7 +821,7 @@ Daren shakes his head in disapproval and hands me a dagger from his belt.
 
 "I, uh... This may seem like a rather stupid question, given our situation, but... Do you happen to have a spare dagger I could use?"
 
-Daren shakes his head in disapproval and hands me a dagger from his belt. 
+Daren shakes his head in disapproval and hands me a dagger from his belt.
 
 "Really, Barry. There were dozens of daggers on the ground you could have picked on our way here. Try to take this more seriously."
 
@@ -786,21 +840,21 @@ TEXT:
 
 "Watch this."
 
-I shout to Dave as loud as I can, in a very pathetic and pleading voice.
+I shout toward Dave at the top of my lungs, putting on the most pathetic, trembling wail I can muster.
 
 "Dave, please! Have mercy! You can do whatever you want with Daren. Just spare me my life! Please, I beg of you!"
 
 "Hahahaha! You won't get any mercy from me, you pathetic little worm. Blame your fate for having been unlucky enough to cross paths with Cutthroat Dave! I'm going to use your entrails to decorate my cave."
 
-"Aaahh" I scream like a little girl and run for the trees on the opposite side of the cutthroat.
+"Aaahh!" I screech in feigned panic, wheeling around and sprinting for the dense pines on the opposite side of the clearing.
 
 "Come back here, you cowardly dog. Men, I'll leave this beaten old relic to you. The stillwater's mine!"
 
 Daren grins at me, and then he engages the thugs.
 
-I enter the shade of the forest, and wait for Dave to follow me in. If I play my cards right, I can use the trees as cover long enough for Daren to finish off the cutthroats.
+I duck into the shade of the forest, weaving between trunks. If I play my cards right, I can use the trees as cover long enough for Daren to finish off the cutthroats.
 
-Dave is still running towards me, but his knives have a life of their own, and they've already started scouting the forest for me. 
+Dave crashes into the undergrowth behind me, but his enchanted knives have a life of their own, already scouting the brush ahead of him.
 
 }
 #if(v_ch3_tactics == 1) {
@@ -810,21 +864,21 @@ Dave is still running towards me, but his knives have a life of their own, and t
 
 "Watch this."
 
-I shout to Dave as loud as I can, in a very pathetic and pleading voice.
+I shout toward Dave at the top of my lungs, putting on the most pathetic, trembling wail I can muster.
 
 "Dave, please! Have mercy! You can do whatever you want with Daren. Just spare me my life! Please, I beg of you!"
 
 "Hahahaha! You won't get any mercy from me, you pathetic little worm. Blame your fate for having been unlucky enough to cross paths with Cutthroat Dave! I'm going to use your entrails to decorate my cave."
 
-"Aaahh" I scream like a little girl and run for the trees on the opposite side of the cutthroat.
+"Aaahh!" I screech in feigned panic, wheeling around and sprinting for the dense pines on the opposite side of the clearing.
 
 "Come back here, you cowardly dog. Men, I'll leave this beaten old relic to you. The stillwater's mine!"
 
 Daren grins at me, and then he engages the thugs.
 
-I enter the shade of the forest, and wait for Dave to follow me in. If I play my cards right, I can use the trees as cover long enough for Daren to finish off the cutthroats.
+I duck into the shade of the forest, weaving between trunks. If I play my cards right, I can use the trees as cover long enough for Daren to finish off the cutthroats.
 
-Dave is still running towards me, but his knives have a life of their own, and they've already started scouting the forest for me. 
+Dave crashes into the undergrowth behind me, but his enchanted knives have a life of their own, already scouting the brush ahead of him.
 
 }
 choice("Continue", Ch4-Busy2, v_current_scene = Ch4-Busy2)
@@ -837,72 +891,72 @@ set(v_is_dead,0) if (v_agility == 3 && v_reflexes < 3 || v_perception == 3 && v_
 set(v_is_dead,1) if (v_agility < 3 && v_perception < 3 && v_reflexes < 3)
 #if(v_reflexes == 3) {
 
-The knives are incredibly fast, but my sharp reflexes help me get out of their way just in time, even when they catch me by surprise. 
+The knives streak through the branches with lethal speed, but my sharp reflexes let me twist, duck, and dodge just in time, even when they lunge from behind blind cover.
 
 "Come out here and face me, you coward!" Dave calls out to me. "If I knew this tournament would be so pathetic, I would've just stayed home where at least the people I killed had the dignity to AARGHHHHHHH"
 
-I turn around to see what happened, and I see Daren, with his sword in Cutthroat Dave's ribs, pinning him to a pine tree. 
+I turn around, and see Daren pinning Cutthroat Dave to a pine tree, steel driven through the cutthroat's ribs.
 
 "Thanks for letting me know where you were," says Daren. "I would've never found you if not for your constant yammering."
 
 "You want me to mop the floor with you again, healer?! You think I can't fight you both?"
 
-He attempts to send his flying knives into Daren, but because of the pain, he can't take full control of them and they drop to the ground before reaching him. Daren takes his sword out of the cutthroat and punches him in the stomach with brutal force. Dave falls on his rear, trying to gasp for air.
+He attempts to send his flying knives into Daren, but the agony shatters his concentration; the blades drop to the moss before reaching their mark. Daren wrenches his sword free and punches Dave in the stomach with brutal force. Dave drops to his rear, clutching his gut and gasping for air.
 
 "You're not fighting anyone, Dave. You're finished. We're going to tie you to this tree, and let the gods decide your fate."
 
 }
 #if(v_agility == 3 && v_reflexes < 3) {
 
-One of the knives catches me by surprise, and grazes my shoulder. 
+One of the knives catches me by surprise, grazing my shoulder.
 
-Since my reflexes are not good enough to dodge the flying daggers when they catch me by surprise, I try to outrun them, instead. The knives are not fast enough to keep up with me, which makes them get stuck in a tree every time I quickly change my direction.
+Without top-tier reflexes to dodge every blind strike, I rely on raw sprint speed instead. The knives struggle to keep up with my sprint; every sudden cut I make sends them burying deeply into tree trunks behind me.
 
 "Come out here and face me, you coward!" Dave calls out to me. "If I knew this tournament would be so pathetic, I would've just stayed home where at least the people I killed had the dignity to AARGHHHHHHH"
 
-I turn around to see what happened, and I see Daren, with his sword in Cutthroat Dave's ribs, pinning him to a pine tree. 
+I turn around, and see Daren pinning Cutthroat Dave to a pine tree, steel driven through the cutthroat's ribs.
 
 "Thanks for letting me know where you were," says Daren. "I would've never found you if not for your constant yammering."
 
 "You want me to mop the floor with you again, healer?! You think I can't fight you both?"
 
-He attempts to send his flying knives into Daren, but because of the pain, he can't take full control of them and they drop to the ground before reaching him. Daren takes his sword out of the cutthroat and punches him in the stomach with brutal force. Dave falls on his rear, trying to gasp for air.
+He attempts to send his flying knives into Daren, but the agony shatters his concentration; the blades drop to the moss before reaching their mark. Daren wrenches his sword free and punches Dave in the stomach with brutal force. Dave drops to his rear, clutching his gut and gasping for air.
 
 "You're not fighting anyone, Dave. You're finished. We're going to tie you to this tree, and let the gods decide your fate."
 
 }
 #if(v_perception == 3 && v_agility < 3 && v_reflexes < 3) {
 
-One of the knives catches me by surprise, and grazes my shoulder. I try to move constantly between the trees in order to lose his flying daggers but they're faster than me.
+One of the knives catches me by surprise, grazing my shoulder. I weave constantly between the pines to lose them, but the flying daggers adjust their arcs faster than I can run.
 
-Luckily, with my observation skills, if I focus hard enough, I can pretty much pay attention to all of the knives at the same time, which is more than enough to keep me out of harm's way until Daren takes care of the others.
+Luckily, with my observation skills, if I focus hard enough, I track the trajectory of every blade simultaneously. Anticipating each strike, I slip behind thick tree trunks just in time to stay out of harm's way until Daren takes care of the others.
 
 "Come out here and face me, you coward!" Dave calls out to me. "If I knew this tournament would be so pathetic, I would've just stayed home where at least the people I killed had the dignity to AARGHHHHHHH"
 
-I turn around to see what happened, and I see Daren, with his sword in Cutthroat Dave's ribs, pinning him to a pine tree. 
+I turn around, and see Daren pinning Cutthroat Dave to a pine tree, steel driven through the cutthroat's ribs.
 
 "Thanks for letting me know where you were," says Daren. "I would've never found you if not for your constant yammering."
 
 "You want me to mop the floor with you again, healer?! You think I can't fight you both?"
 
-He attempts to send his flying knives into Daren, but because of the pain, he can't take full control of them and they drop to the ground before reaching him. Daren takes his sword out of the cutthroat and punches him in the stomach with brutal force. Dave falls on his rear, trying to gasp for air.
+He attempts to send his flying knives into Daren, but the agony shatters his concentration; the blades drop to the moss before reaching their mark. Daren wrenches his sword free and punches Dave in the stomach with brutal force. Dave drops to his rear, clutching his gut and gasping for air.
 
 "You're not fighting anyone, Dave. You're finished. We're going to tie you to this tree, and let the gods decide your fate."
 
 }
 #if(v_agility < 3 && v_perception < 3 && v_reflexes < 3) {
 
-One of the knives catches me by surprise, and grazes my shoulder. I try to move constantly between the trees in order to lose his flying daggers but they're faster than me.  
+One of the knives catches me by surprise, grazing my shoulder. I scramble between the trees to break away, but the daggers are faster than my legs.
 
-There's two of them to my left, and three more to the right. Or is that four to the right? They're so fast that I can barely keep track of them. His knives have managed to corner me and they're now all facing me menacingly, floating in the air, just ready to strike.
+There's two of them to my left, and three more to the right. Or is that four to the right? They're moving too fast to track. His knives corner me against a boulder, hovering in the air at throat level, ready to strike.
 
-Cutthroat Dave strolls in, casually from behind a tree, with a grin as big as his face.
+Cutthroat Dave strolls in casually from behind an oak, a wide grin splitting his scarred face.
 
 "No use crying for mercy now, boy. Don't think I'm going to give you an easy death. My knives like to play with their prey before they finish it. Say your prayers, you sniveling little git. Cutthroat Dave's going to enjoy AAAARRRGHHHHHH"
 
-A pillar of fire appears in place of where Cutthroat Dave was originally standing, and his gloating gets replaced with desperate screams of agony. The fire completely ignores all of the vegetation around it, and when it dies out, I see that nothing remains of the cutthroat except for his ashes, that are now scattering in the wind.
+A roaring pillar of fire erupts beneath Cutthroat Dave, and his gloating is cut short by desperate screams of agony. The fire completely ignores all of the trees around it. When it dies out, nothing remains of the cutthroat except for his ashes scattering in the wind.
 
-Shortly after, Eiden emerges from the shadows, with his usual smile on his face. It doesn't take me long to realize who was behind the previous display of fireworks.
+Shortly after, Eiden emerges from the shadows, with his usual smile on his face.
 
 "See, Barry, this is how you deal with a vermin infestation. Tell me, what kind of a mailman dies before setting foot out of the post office? I have half a mind to file a complaint for your shoddy services."
 
@@ -910,11 +964,11 @@ Shortly after, Eiden emerges from the shadows, with his usual smile on his face.
 
 "That's the spirit!"
 
-"Barry!" I can hear Daren shout from outside the forest. 
+"Barry!" I can hear Daren shout from outside the forest.
 
-A quick look outside shows me that all of Dave's henchmen have been dealt with, and Daren is now rushing towards my location.
+A quick glance through the trees shows all of Dave's henchmen dealt with, and Daren rushing towards my location.
 
-As I turn back, I find to my surprise that Eiden is nowhere to be seen. He must have teleported away while I wasn't looking. 
+When I turn back, Eiden is nowhere to be seen. He vanished without a trace.
 
 "Deliver my message, Barry," I can hear Eiden's voice echo from the trees around me. "And do not fail me again."
 
@@ -954,7 +1008,7 @@ There's a slow sound of clapping hands coming from the trees. Looking to see wha
 
 "Impressive, Barry," he says. "You don't often see stat boosters used so efficiently these days!"
 
-You!" Daren shouts, and he rushes towards the stillwater.
+"You!" Daren shouts, and he rushes towards the stillwater.
 
 Once again, with one gesture of his hands, Eiden puts Daren to sleep in the middle of his sprint, which makes him fall on the ground and slide on his armor for a few feet before coming to a halt.
 
@@ -982,7 +1036,7 @@ choice("Next chapter", Ch5-Intro, v_next_chapter_crash = 1, v_current_scene = Ch
 ID: Ch4-Bait-kill
 TEXT:
 
-I firmly grab my dagger in my right hand , and I approach the cutthroat.
+I firmly grab my dagger in my right hand, and I approach the cutthroat.
 
 "Now, hold on, there," Dave says. "Old Cutthroat Dave's learned his lesson. There's no need for you to--"
 
@@ -992,7 +1046,7 @@ There's a slow sound of clapping hands coming from the trees. Looking to see wha
 
 "Impressive, Barry," he says. "You don't often see stat boosters used so efficiently these days!"
 
-You!" Daren shouts, and he rushes towards the stillwater.
+"You!" Daren shouts, and he rushes towards the stillwater.
 
 Once again, with one gesture of his hands, Eiden puts Daren to sleep in the middle of his sprint, which makes him fall on the ground and slide on his armor for a few feet before coming to a halt.
 
@@ -1036,7 +1090,7 @@ There's a slow sound of clapping hands coming from the trees. Looking to see wha
 
 "Impressive, Barry," he says. "You don't often see stat boosters used so efficiently these days!"
 
-You!" Daren shouts, and he rushes towards the stillwater.
+"You!" Daren shouts, and he rushes towards the stillwater.
 
 Once again, with one gesture of his hands, Eiden puts Daren to sleep in the middle of his sprint, which makes him fall on the ground and slide on his armor for a few feet before coming to a halt.
 
@@ -1065,19 +1119,19 @@ ID: Ch4-Defeat
 TEXT:
 
 #if(v_ch3_tactics != 2) {
-"I'd rather fight Dave head on than try to distract him. I think it's safer to try and finish the fight quickly, than to drag it out until you can join in." 
+"I'd rather face Dave directly than play decoy," I say. "Ending this swiftly is safer than stretching it out until you can reinforce me."
 
-"As you wish. So what's your plan, then?"
+"As you wish. What is the plan?"
 
-"I plan to do this."
+"Watch."
 
 }
 #if(v_ch3_tactics == 2) {
-"I've been waiting for this," I say, as I look towards Cutthroat Dave.
+"I've been waiting for this," I say, fixing my eyes on Cutthroat Dave.
 
-"So what's your plan, then?"
+"What is the plan?"
 
-"I plan to do this."
+"Watch."
 
 }
 choice("Continue", Ch4-Defeat2, v_current_scene = Ch4-Defeat2)
@@ -1094,7 +1148,7 @@ set(v_is_dead,0) if (v_agility == 3 && v_strength < 3 || v_reflexes == 3 && v_ag
 set(v_is_dead,1) if (v_agility < 3 && v_reflexes < 3 && v_strength < 3)
 #if(v_strength == 3) {
 
-I pick up a rock from the ground and throw it at Cutthroat Dave as hard as I can.
+I pick up a heavy rock from the ground and throw it at Cutthroat Dave as hard as I can.
 
 The cutthroat tried to block it with two of his flying daggers, but he wasn't fast enough. The force of the impact was so strong that it slammed Dave into a tree behind him. He then fell to the ground, with his hands in front of him, coughing up blood.
 
@@ -1103,7 +1157,7 @@ One more hit should seal the deal.
 }
 #if(v_agility == 3 && v_strength < 3) {
 
-I pick up a rock from the ground and throw it at Cutthroat Dave as hard as I can.
+I pick up a heavy rock from the ground and throw it at Cutthroat Dave as hard as I can.
 
 The cutthroat blocked it with two of his flying daggers. 
 
@@ -1115,17 +1169,17 @@ Daren wastes no more time and rushes towards Cutthroat Dave's henchmen.
 
 The cutthroat's flying knives are now all flying towards me at a very rapid pace. I get out of their way and start heading towards my target.
 
-I travel the distance between me and Dave almost instantly, and strike at him with my dagger. He manages to parry with two knives that he was holding in his own hands, but he looks pretty shocked.
+I travel the distance between me and Dave almost instantly, and strike at him with my dagger. He manages to parry with two knives that he was holding in his own hands, but the shock is plain on his face.
 
 "I don't know what kind of magic you used to run this fast, boy, but you can't run faster than my daggers."
 
 Three of his flying knives race towards me but I dodge them in the nick of time. We're battling in an open space and I already know how fast his daggers can go. I'm not going to let him surprise me.
 
-I start running circles around the cutthroat in order to disorient him. He keeps sending his daggers at me, but they're not fast enough to catch me. He's trying to keep up with me, but I can see him slipping. I need to go faster. 
+I run circles around the cutthroat in order to disorient him. He keeps sending his daggers at me, but they're not fast enough to catch me. He's trying to keep up with me, but I can see him slipping. I need to go faster. 
 
 I keep running around him, dodging daggers left and right, looking for an opening. Every time he looks like he's lost sight of me, I jump in for him, but he manages to block my hits at the last moment. Faster. I need to go even faster.
 
-I start to move more erratically, to confuse him even further. Cutthroat Dave keeps turning after me in order to not leave his back exposed, but he's starting to get dizzy. The look in his eyes is nowhere near as confident as it was when this fight began. His knives have yet to even touch me and I'm not feeling the least bit tired. 
+I move more erratically, confusing him even further. Cutthroat Dave keeps turning after me in order to not leave his back exposed, but his balance fractures and he's getting dizzy. The look in his eyes is nowhere near as confident as it was when this fight began. His knives have yet to even touch me and I'm not feeling the least bit tired. 
 
 There it is. The moment I've been waiting for. His eyes have lost their focus, and he's lost sight of me. I have him now. I take another lunge at him, this time with a lot more speed than before. He sees me and attempts to block my strike again, but he is too late. My knife went right through his chest, but I didn't hit any of his vital organs.
 
@@ -1134,7 +1188,7 @@ I only need one more hit to end this once and for all.
 }
 #if(v_reflexes == 3 && v_agility < 3 && v_strength < 3) {
 
-I pick up a rock from the ground and throw it at Cutthroat Dave as hard as I can.
+I pick up a heavy rock from the ground and throw it at Cutthroat Dave as hard as I can.
 
 The cutthroat blocked it with two of his flying daggers. 
 
@@ -1165,7 +1219,7 @@ One more hit should finish this once and for all.
 }
 #if(v_agility < 3 && v_reflexes < 3 && v_strength < 3) {
 
-I pick up a rock from the ground and throw it at Cutthroat Dave as hard as I can.
+I pick up a heavy rock from the ground and throw it at Cutthroat Dave as hard as I can.
 
 The cutthroat blocked it with two of his flying daggers. 
 
@@ -1187,11 +1241,11 @@ Cutthroat Dave approaches me with a big grin on his face. His flying knives now 
 
 A pillar of fire appears in place of where Cutthroat Dave was originally standing, and his gloating gets replaced with desperate screams of agony. The fire completely ignores all of the vegetation around it, and when it dies out, I see that nothing remains of the cutthroat except for his ashes, that are now scattering in the wind.
 
-Shortly after, Eiden emerges from the shadows, with his usual smile on his face. It doesn't take me long to realize who was behind the previous display of fireworks.
+Shortly after, Eiden emerges from the shadows, with his usual smile on his face.
 
 "See, Barry, this is how you deal with a vermin infestation."
 
-"You!!!" Daren shouts, from the other end of the clearing. He seems to have finished dealing with Cutthroat Dave's henchmen and is now rushing towards the stillwater with his sword in hand.
+"You!" Daren shouts from the other end of the clearing, having finished dealing with Cutthroat Dave's henchmen, rushing towards the stillwater with his sword in hand.
 
 Once again, with one gesture of his hands, Eiden puts Daren to sleep in the middle of his sprint, which makes him fall on the ground and slide on his armor for a few feet before coming to a halt.
 
@@ -1223,23 +1277,23 @@ TEXT:
 set(v_ac_ch4_cutthroat,1)
 achievement("Defeated Cutthroat Dave",v_ac_ch4_cutthroat)
 #if(v_ch4_dave_defeat == 1) {
-I pick up another rock from the ground, and use all of the strength in my right arm for one final throw. The cutthroat once again tries to block the attack with two of his daggers but he doesn't get the timing right, and the rock completely smashes his head.
+I pick up another rock from the ground, putting every ounce of boosted strength into one final throw. The cutthroat attempts to block the projectile with two of his daggers, but his timing is completely off; the rock crushes his skull.
 
-His henchmen, who saw what happened look utterly terrified.
+His henchmen, witnessing the strike, freeze in sheer terror.
 
 "DAMN, Barry!" Daren says. "You sure don't pull your punches."
 
 "I'm not done, yet."
 
-I pick up two more rocks from the ground, and throw them at two of the other thugs. Both of their skulls crack and the men fall to the ground, lifeless. 
+I snatch two more heavy stones from the ground and whip them across the clearing. Both hit with sickening cracks, dropping two of the mercenaries lifeless to the dirt.
 
-Cutthroat Dave's remaining henchmen scream their lungs out and  make a run for the woods. I throw another rock in their general direction, but I don't bother chasing after them. Aiming my shots would be much more difficult in the forest, because of all the trees in my way. And besides, with the fear they had in their eyes, I doubt they'll be bothering us any longer.
+Cutthroat Dave's remaining henchmen break into terrified shrieks and bolt for the woods. I fling another rock in their general direction, but I don't bother chasing after them. Aiming shots through dense timber would be far too difficult with all the trees in the way, and with the fear in their eyes, they won't be bothering us again.
 
 There's a slow sound of clapping hands coming from the trees. Looking to see what's making the sound, I see Eiden, leaning against a pine tree with his usual smile on his face.
 
 "Impressive, Barry," he says. "You don't often see stat boosters used so efficiently these days!"
 
-You!" Daren shouts, and he rushes towards the stillwater.
+"You!" Daren shouts, and he rushes towards the stillwater.
 
 Once again, with one gesture of his hands, Eiden puts Daren to sleep in the middle of his sprint, which makes him fall on the ground and slide on his armor for a few feet before coming to a halt.
 
@@ -1263,7 +1317,7 @@ With these last words he turns his back to me, and he disappears into the darkne
 
 }
 #if(v_ch4_dave_defeat == 2) {
-I show him no mercy. I quickly strike him again, this time going straight for his heart. I can feel his body stop moving as I pull my dagger out, and he drops to the ground, lifeless, along with his flying knives.
+I show him no mercy. Stepping inside his guard, I quickly strike him again, this time going straight for his heart. I can feel his body stop moving as I pull my dagger out, and he drops to the ground, lifeless, along with his flying knives.
 
 Looking towards the other side of the clearing, it seems Daren managed to make short work of Cutthroat Dave's henchmen. Not even one of them is left alive.
 
@@ -1271,7 +1325,7 @@ There's a slow sound of clapping hands coming from the trees. Looking to see wha
 
 "Impressive, Barry," he says. "You don't often see stat boosters used so efficiently these days!"
 
-You!" Daren shouts, and he rushes towards the stillwater.
+"You!" Daren shouts, and he rushes towards the stillwater.
 
 Once again, with one gesture of his hands, Eiden puts Daren to sleep in the middle of his sprint, which makes him fall on the ground and slide on his armor for a few feet before coming to a halt.
 
@@ -1303,7 +1357,7 @@ There's a slow sound of clapping hands coming from the trees. Looking to see wha
 
 "Impressive, Barry," he says. "You don't often see stat boosters used so efficiently these days!"
 
-You!" Daren shouts, and he rushes towards the stillwater.
+"You!" Daren shouts, and he rushes towards the stillwater.
 
 Once again, with one gesture of his hands, Eiden puts Daren to sleep in the middle of his sprint, which makes him fall on the ground and slide on his armor for a few feet before coming to a halt.
 
@@ -1335,7 +1389,7 @@ TEXT:
 set(v_ac_ch4_cutthroat,1)
 achievement("Defeated Cutthroat Dave",v_ac_ch4_cutthroat)
 #if(v_ch4_dave_defeat == 1) {
-I pick up another rock from the ground, but this time I do not put all of my strength behind my throw, in order to avoid killing Dave. Since the rock was slower this time, the cutthroat had the time to block it with two of his flying daggers.
+I pick up another rock from the ground, but hold back the full power of the throw to avoid killing him. Since the rock travels slower this time, the cutthroat manages to block it with two of his flying daggers.
 
 He coughs up some more blood.
 
@@ -1345,11 +1399,11 @@ Cutthroat Dave then pulls out a scroll of teleportation from his pocket, and qui
 
 Where in the hell did that lowlife get a teleportation scroll from? I've been searching one for months and came up empty. Not to mention that even a single one of those scrolls costs a fortune.
 
- "DAMN, Barry!" Daren says. "You sure don't pull your punches."
+"DAMN, Barry!" Daren says. "You sure don't pull your punches."
 
 "Actually, I did. And it cost me. But I'm not done, yet."
 
-I pick up some pebbles from the ground, and use all of the strength in my right arm to throw them towards Dave's henchmen. Seven of them got seriously wounded and are now screaming, scared. 
+I pick up some pebbles from the ground, and use all of the strength in my right arm to throw them towards Dave's henchmen. Seven of them got seriously wounded and are now screaming, scared.
 
 "Did you see that?!" one of them says. "All he did was throw some pebbles he picked up from the ground."
 
@@ -1361,7 +1415,7 @@ There's a slow sound of clapping hands coming from the trees. Looking to see wha
 
 "Impressive, Barry," he says. "You don't often see stat boosters used so efficiently these days!"
 
-You!!!" Daren shouts, and he rushes towards the stillwater.
+"You!" Daren shouts, and he rushes towards the stillwater.
 
 Once again, with one gesture of his hands, Eiden puts Daren to sleep in the middle of his sprint, which makes him fall on the ground and slide on his armor for a few feet before coming to a halt.
 
@@ -1373,7 +1427,7 @@ Once again, with one gesture of his hands, Eiden puts Daren to sleep in the midd
 
 He's right. The stat device has performed beyond all of my expectations since I got here. I didn't really give it much thought since I figured my calculations must have been wrong. But even with all of the energy it's accumulating, something is still clearly off.
 
- "I have. But I don't suppose you're going to just give me the answer?"
+"I have. But I don't suppose you're going to just give me the answer?"
 
 "Of course not. Where would the fun in that be? But do not fret! As long as you remain on this continent, you will get your answers sooner or later."
 
@@ -1395,7 +1449,7 @@ There's a slow sound of clapping hands coming from the trees. Looking to see wha
 
 "Impressive, Barry," he says. "You don't often see stat boosters used so efficiently these days!"
 
-You!" Daren shouts, and he rushes towards the stillwater.
+"You!" Daren shouts, and he rushes towards the stillwater.
 
 Once again, with one gesture of his hands, Eiden puts Daren to sleep in the middle of his sprint, which makes him fall on the ground and slide on his armor for a few feet before coming to a halt.
 
@@ -1429,7 +1483,7 @@ There's a slow sound of clapping hands coming from the trees. Looking to see wha
 
 "Impressive, Barry," he says. "You don't often see stat boosters used so efficiently these days!"
 
-You!" Daren shouts, and he rushes towards the stillwater.
+"You!" Daren shouts, and he rushes towards the stillwater.
 
 Once again, with one gesture of his hands, Eiden puts Daren to sleep in the middle of his sprint, which makes him fall on the ground and slide on his armor for a few feet before coming to a halt.
 
