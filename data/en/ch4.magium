@@ -1150,120 +1150,114 @@ set(v_is_dead,0) if (v_agility == 3 && v_strength < 3 || v_reflexes == 3 && v_ag
 set(v_is_dead,1) if (v_agility < 3 && v_reflexes < 3 && v_strength < 3)
 #if(v_strength == 3) {
 
-I pick up a heavy rock from the ground and throw it at Cutthroat Dave as hard as I can.
+I scoop a jagged granite boulder from the dirt—easily fifty pounds—and whip it straight at Cutthroat Dave's chest with the full pneumatic recoil of tier-three strength.
 
-The cutthroat tried to block it with two of his flying daggers, but he wasn't fast enough. The force of the impact was so strong that it slammed Dave into a tree behind him. He then fell to the ground, with his hands in front of him, coughing up blood.
+The cutthroat attempts to interpose two of his hovering daggers, but the mass crushes through the enchantments like paper. The boulder slams squarely into his sternum with a sickening crunch of shattered ribs, lifting him off his boots and pinning him violently against the trunk of a pine. He slides down into the needles, gasping on bloody foam, hands clawing weakly at the dirt.
 
-One more hit should seal the deal.
+One more strike will finish him.
 
 }
 #if(v_agility == 3 && v_strength < 3) {
 
-I pick up a heavy rock from the ground and throw it at Cutthroat Dave as hard as I can.
+I snatch a heavy stone from the loam and hurl it at Cutthroat Dave to force his guard.
 
-The cutthroat blocked it with two of his flying daggers. 
+The cutthroat intercepts it with two hovering daggers, steel sparking against stone.
 
-"This ain't no rock throwing contest, boy. You'd better be prepared for what's coming."
+"This ain't no rock-throwing contest, boy! You'd better be ready for what's coming!"
 
-"I have his attention," I tell Daren. "Now, go. Go!"
+"I have his focus," I tell Daren. "Go!"
 
-Daren wastes no more time and rushes towards Cutthroat Dave's henchmen.
+Daren breaks into a charge, shield up, bearing down on Dave's mercenaries before they can form ranks.
 
-The cutthroat's flying knives are now all flying towards me at a very rapid pace. I get out of their way and start heading towards my target.
+The remaining flying knives whip through the air in a converging spread. With tier-three agility humming through my legs, the world seems to drag. I pivot inside the arc of the first two blades, duck the third, and close the distance before Dave can reset his stance.
 
-I travel the distance between me and Dave almost instantly, and strike at him with my dagger. He manages to parry with two knives that he was holding in his own hands, but the shock is plain on his face.
+I cross the gap in two strides, dagger driving in for his throat. He parries with the pair of knives gripped in his fists, the impact jolting up his forearms, eyes blowing wide as he registers my speed.
 
-"I don't know what kind of magic you used to run this fast, boy, but you can't run faster than my daggers."
+"I don't know what kind of spell you're running, boy, but you can't outrun steel!"
 
-Three of his flying knives race towards me but I dodge them in the nick of time. We're battling in an open space and I already know how fast his daggers can go. I'm not going to let him surprise me.
+Three tethered daggers wheel around to strike my back. I drop my center of gravity, spinning clear as the blades shear air where my neck was a heartbeat ago. We're in an open clearing; I know their turn radius and terminal velocity.
 
-I run circles around the cutthroat in order to disorient him. He keeps sending his daggers at me, but they're not fast enough to catch me. He's trying to keep up with me, but I can see him slipping. I need to go faster. 
+I weave a spiraling perimeter around him, cutting sharp angles across the moss to fracture his tracking. He pivots wildly to keep his front facing me, but his boots slip on loose gravel, his balance tearing at the seams. Every time his eyes drift, I feint inside his reach, forcing frantic parries that leave his guard ragged.
 
-I keep running around him, dodging daggers left and right, looking for an opening. Every time he looks like he's lost sight of me, I jump in for him, but he manages to block my hits at the last moment. Faster. I need to go even faster.
+There. A stumble on an exposed root—his line of sight breaks for half a second.
 
-I move more erratically, confusing him even further. Cutthroat Dave keeps turning after me in order to not leave his back exposed, but his balance fractures and he's getting dizzy. The look in his eyes is nowhere near as confident as it was when this fight began. His knives have yet to even touch me and I'm not feeling the least bit tired. 
+I drive forward off my back foot, accelerating through his blind spot. He tries to cross his daggers in desperate defense, but my blade slides beneath his guard and punches deep into his right side, missing the heart but tearing clean through muscle and fat.
 
-There it is. The moment I've been waiting for. His eyes have lost their focus, and he's lost sight of me. I have him now. I take another lunge at him, this time with a lot more speed than before. He sees me and attempts to block my strike again, but he is too late. My knife went right through his chest, but I didn't hit any of his vital organs.
-
-I only need one more hit to end this once and for all.
+One more clean strike will end this.
 
 }
 #if(v_reflexes == 3 && v_agility < 3 && v_strength < 3) {
 
-I pick up a heavy rock from the ground and throw it at Cutthroat Dave as hard as I can.
+I scoop a stone from the dirt and whip it across the clearing.
 
-The cutthroat blocked it with two of his flying daggers. 
+Dave knocks it aside with a pair of orbiting daggers, sneering.
 
-"This ain't no rock throwing contest, boy. You'd better be prepared for what's coming."
+"This ain't no rock-throwing contest, boy! You'd better be ready for what's coming!"
 
-"I have his attention," I tell Daren. "Now, go. Go!"
+"He's locked on me," I call to Daren. "Clear the flanks!"
 
-Daren wastes no more time and rushes towards Cutthroat Dave's henchmen.
+Daren charges Dave's henchmen with a roar, drawing their front line away.
 
-The cutthroat's flying knives are now all flying towards me at a very rapid pace. I get out of their way and start heading towards my target.
+Four enchanted daggers streak toward my chest in a tight diamond formation. I lack the raw foot speed to outrun them, but tier-three reflexes make their approach appear deliberate, almost mechanical. I read the trajectory of the lead blade, slip sideways by three inches, and let the edge whisper past my tunic.
 
-As I approach Dave, four of his knives block my path and fly towards me. 
+Two more daggers whip in from the flank, boxing me out. Every advance is blocked by a hovering wall of steel.
 
-I may not be fast enough to outrun his daggers, but at least my reflexes are sharp enough to get out of their way in time. 
+"My daggers have a mind of their own, stillwater!" Dave barks, grinning through yellow teeth. "You'll never break past them!"
 
-I try to get close to him again, but his knives won't let me. This is getting me nowhere. I need to find a way to go on the offensive. 
+A mind of their own. The enchantment runs on an automated proximity loop—he isn't actively piloting each vector. It's a tracking routine, which means it follows simple geometric intercepts.
 
-"My daggers have a mind of their own, stillwater. You'll never escape from them no matter how hard you try."
+I deliberately bait three of the hovering knives into trailing my sprint, then charge straight at Cutthroat Dave. As expected, two guard-blades snap into position in front of his chest to intercept me. At the last possible fraction of a second, I drop flat and slide across the pine needles beneath the guard-blades, kicking back to my feet on Dave's right flank.
 
-That's it. His daggers have a mind of their own. He isn't controlling them all at the same time. I can use that to my advantage.
+Dave braces to parry with the knives in his hands, completely blind to the three tracking daggers chasing my slipstream from behind. Before he can recalibrate his tether, two of his own enchanted blades punch through his abdomen, and a third bites deep into his thigh.
 
-I take a good look to see where all his daggers are. I then make sure a few of them are following me and make a run for Cutthroat Dave. As before, a few of his daggers post themselves in front of me in order to defend their master. I wait until the final moment and slide underneath them, continuing my sprint towards the cutthroat. Dave readies two daggers he was holding in his hands, and prepares to block my strike. 
+He drops to one knee with a strangled cry, blood pooling around his boots.
 
-Instead of slashing at him, I feint an attack, and quickly side step to his right side. As I was hoping, he did not see the flying daggers that were following close behind me, and as a result, he did not get to stop them in time. Two of them went right through his stomach and another one through his left leg.
-
-One more hit should finish this once and for all.
+One more blow will finish him.
 
 }
 #if(v_agility < 3 && v_reflexes < 3 && v_strength < 3) {
 
-I pick up a heavy rock from the ground and throw it at Cutthroat Dave as hard as I can.
+I grab a rock and fling it at Dave with everything I have.
 
-The cutthroat blocked it with two of his flying daggers. 
+He bats it out of the air with two hovering daggers, laughing with cruel ease.
 
-"This ain't no rock throwing contest, boy. You'd better be prepared for what's coming."
+"This ain't no rock-throwing contest, boy! You'd better be ready for what's coming!"
 
-"I have his attention," I tell Daren. "Now, go. Go!"
+"I have him!" I yell to Daren. "Take the others!"
 
-Daren wastes no more time and rushes towards Cutthroat Dave's henchmen.
+Daren rushes the henchmen, but the cutthroat's daggers are already closing the distance at blinding speed.
 
-The cutthroat's flying knives are now all flying towards me at a very rapid pace. I get out of their way and start heading towards my target.
+Four blades converge on my position. I manage to twist away from the first two, but the third and fourth bury themselves deep into my left thigh and calf. A searing jolt of agony rips through my leg, and I collapse into the dirt, clutching the wounds as crimson stains the moss.
 
-As I approach Dave, four of his knives block my path and fly towards me. 
+Cutthroat Dave saunters toward me, his remaining daggers fanning out into a lethal ring around my skull, points gleaming six inches from my throat.
 
-I manage to dodge two of them, but the other two hit me in my left leg. I drop to one knee, unable to move from the pain.
+"It's over, boy. Too late to beg now. My blades like to take their time carving up fresh meat. Say your prayers, you arrogant little—"
 
-Cutthroat Dave approaches me with a big grin on his face. His flying knives now have me completely surrounded, and they're all facing me menacingly, floating in the air, just ready to strike.
+A pillar of pure, silent white flame erupts directly where Cutthroat Dave is standing.
 
-"It's over, boy. It's too late to cry for mercy now. Don't think I'm going to give you an easy death. My knives like to play with their prey before they finish it. Say your prayers, you arrogant little git. Cutthroat Dave's going to enjoy AAAARRRGHHHHHH"
+His gloating tears into a shrill, shrieking agony that cuts out in less than two seconds. The fire ignores the surrounding dry pine needles entirely, burning with an eerie, contained fury. When the column collapses, nothing remains of Dave except a dusting of pale grey ash drifting over the scorched dirt.
 
-A pillar of fire appears in place of where Cutthroat Dave was originally standing, and his gloating gets replaced with desperate screams of agony. The fire completely ignores all of the vegetation around it, and when it dies out, I see that nothing remains of the cutthroat except for his ashes, that are now scattering in the wind.
+From the shadow of a weeping pine, Eiden steps into the light, hands in his pockets and his placid, closed-eyed smile unchanged.
 
-Shortly after, Eiden emerges from the shadows, with his usual smile on his face.
+"You see, Barry? That is how one handles a vermin problem."
 
-"See, Barry, this is how you deal with a vermin infestation."
+"You!" Daren's roar echoes across the clearing as he finishes the last mercenary and sprints toward the stillwater with his broadsword raised.
 
-"You!" Daren shouts from the other end of the clearing, having finished dealing with Cutthroat Dave's henchmen, rushing towards the stillwater with his sword in hand.
+With a lazy flick of two fingers, Eiden triggers a sleep ward. Daren's eyes glaze instantly, his boots tangling in mid-stride, and he crashes face-first into the loam, sliding several feet in his heavy plate before coming to a dead stop.
 
-Once again, with one gesture of his hands, Eiden puts Daren to sleep in the middle of his sprint, which makes him fall on the ground and slide on his armor for a few feet before coming to a halt.
+"Truly, this is becoming repetitive," Eiden sighs.
 
-"Seriously, this is getting ridiculous," Eiden says.
+He turns his head toward me, the empty smile lingering.
 
-He turns his gaze back to me.
+"Tell me, Barry... what sort of mailman gets butchered before he even steps out of the post office? I have half a mind to demand a refund for your services."
 
- "Tell me, what kind of a mailman dies before setting foot out of the post office? I have half a mind to file a complaint for your shoddy services."
+"I... I apologize. I'll make sure the message arrives."
 
-"I'm... really sorry, I promise I'll do better next... time?"
+"That's the spirit," he murmurs, his form already shimmering like heat off summer stone.
 
-"That's the spirit!" he says as he starts vanishing into thin air.
+As his outline dissolves into the trees, his voice carries back on the wind, soft and chillingly clear:
 
-Once Eiden's outline is barely visible anymore, I hear his voice echo from the trees around me.
-
-"Deliver my message, Barry.  And do not fail me again."
+"Deliver my words, Barry. Do not fail me again."
 
 }
 choice("Attempt to kill him", Ch4-Defeat-kill, v_current_scene = Ch4-Defeat-kill) if (v_strength == 3)
@@ -1279,107 +1273,107 @@ TEXT:
 set(v_ac_ch4_cutthroat,1)
 achievement("Defeated Cutthroat Dave",v_ac_ch4_cutthroat)
 #if(v_ch4_dave_defeat == 1) {
-I pick up another rock from the ground, putting every ounce of boosted strength into one final throw. The cutthroat attempts to block the projectile with two of his daggers, but his timing is completely off; the rock crushes his skull.
+I scoop another heavy stone from the earth and put the full recoil of tier-three strength into one final throw. Dave tries to interpose his remaining blades, but his reaction is half a second too slow; the rock takes him squarely in the temple. His body goes limp before it hits the moss, the floating daggers clattering lifeless to the ground.
 
-His henchmen, witnessing the strike, freeze in sheer terror.
+The surviving mercenaries freeze in horror.
 
-"DAMN, Barry!" Daren says. "You sure don't pull your punches."
+"Gods above, Barry!" Daren calls over the din. "You don't pull a punch, do you?"
 
-"I'm not done, yet."
+"I'm not finished."
 
-I snatch two more heavy stones from the ground and whip them across the clearing. Both hit with sickening cracks, dropping two of the mercenaries lifeless to the dirt.
+I snatch two more jagged stones from the dirt and whip them across the clearing. Both hit with sickening cracks, dropping two of the mercenaries in their tracks.
 
-Cutthroat Dave's remaining henchmen break into terrified shrieks and bolt for the woods. I fling another rock in their general direction, but I don't bother chasing after them. Aiming shots through dense timber would be far too difficult with all the trees in the way, and with the fear in their eyes, they won't be bothering us again.
+The remaining thugs break into panicked shrieks and bolt blindly for the timber. I sling one more stone in their general direction, but let them run. Chasing through dense brush would be useless, and with the terror written across their faces, they won't be coming back.
 
-There's a slow sound of clapping hands coming from the trees. Looking to see what's making the sound, I see Eiden, leaning against a pine tree with his usual smile on his face.
+From the shadows of the tree line comes the slow, rhythmic sound of clapping hands. Eiden leans casually against a birch, hands in his pockets, that placid, closed-eyed smile across his face.
 
-"Impressive, Barry," he says. "You don't often see stat boosters used so efficiently these days!"
+"Impressive, Barry," he says mildly. "One rarely sees stat boosters deployed with such ruthless economy."
 
-"You!" Daren shouts, and he rushes towards the stillwater.
+"You!" Daren roars, turning and sprinting toward the stillwater with broadsword drawn.
 
-Once again, with one gesture of his hands, Eiden puts Daren to sleep in the middle of his sprint, which makes him fall on the ground and slide on his armor for a few feet before coming to a halt.
+With a lazy flick of two fingers, Eiden triggers a sleep ward. Daren's eyes glaze instantly, his boots tangling in mid-stride, and he crashes into the loam, sliding several feet in his heavy plate before coming to a dead stop.
 
-"Seriously, this is getting ridiculous," Eiden says.
+"Seriously, this is becoming a habit," Eiden murmurs.
 
-"You know about stat boosters too?" I ask the stillwater.
+"You understand how these devices work too?" I ask, catching my breath.
 
-"I do! And what I also know is why that stat booster works so well for you, specifically. Have you ever wondered why that is, Barry?"
+"I do. And more importantly, I understand why that particular device functions so exceptionally well for you. Have you ever wondered why that is, Barry?"
 
-He's right. The stat device has performed beyond all of my expectations since I got here. I didn't really give it much thought since I figured my calculations must have been wrong. But even with all of the energy it's accumulating, something is still clearly off.
+He is right. The stat booster has exceeded every mathematical ceiling I calculated before sailing. I assumed my models were flawed, but the energetic efficiency is impossible for an ordinary human aura.
 
-"I have. But I don't suppose you're going to just give me the answer?"
+"I have. But I don't suppose you plan on explaining it."
 
-"Of course not. Where would the fun in that be? But do not fret! As long as you remain on this continent, you will get your answers sooner or later."
+"Of course not. Where is the entertainment in giving away the ending? But don't despair—stay alive on this continent, and your answers will find you."
 
-He smiles.
+His smile sharpens.
 
-"Well, then. I'll be waiting for you to deliver my message. Do not fail me, Barry."
+"Deliver my message, Barry. Do not fail me."
 
-With these last words he turns his back to me, and he disappears into the darkness of the forest.
+He turns and melts into the shadowed pines, leaving nothing but the rustle of wind through needles.
 
 }
 #if(v_ch4_dave_defeat == 2) {
-I show him no mercy. Stepping inside his guard, I quickly strike him again, this time going straight for his heart. I can feel his body stop moving as I pull my dagger out, and he drops to the ground, lifeless, along with his flying knives.
+I step inside his ragged guard and drive my blade clean between his ribs. His frame stiffens, a harsh gasp tearing from his throat, and as I wrench the steel free, his hovering daggers lose their enchantment and drop into the dirt. He collapses face-first into the needles.
 
-Looking towards the other side of the clearing, it seems Daren managed to make short work of Cutthroat Dave's henchmen. Not even one of them is left alive.
+Across the clearing, Daren has dismantled the mercenary line. Four bodies lie motionless; the rest have fled.
 
-There's a slow sound of clapping hands coming from the trees. Looking to see what's making the sound, I see Eiden, leaning against a pine tree with his usual smile on his face.
+From the edge of the clearing comes the slow, rhythmic sound of clapping. Eiden leans against a pine, hands tucked into his loose trousers, his placid smile unchanged.
 
-"Impressive, Barry," he says. "You don't often see stat boosters used so efficiently these days!"
+"Impressive, Barry. One rarely sees stat boosters deployed with such lethal efficiency."
 
-"You!" Daren shouts, and he rushes towards the stillwater.
+"You!" Daren shouts, wheeling toward him with sword raised.
 
-Once again, with one gesture of his hands, Eiden puts Daren to sleep in the middle of his sprint, which makes him fall on the ground and slide on his armor for a few feet before coming to a halt.
+Eiden flicks two fingers. Daren drops in mid-stride, his armor clattering against the rock as sleep takes him instantly.
 
-"Seriously, this is getting ridiculous," Eiden says.
+"Truly, this is getting ridiculous," Eiden sighs.
 
-"You know about stat boosters too?" I ask the stillwater.
+"You know how stat boosters operate?" I ask, wiping my blade.
 
-"I do! And what I also know is why that stat booster works so well for you, specifically. Have you ever wondered why that is, Barry?"
+"I do. And I know precisely why that hardware yields such extraordinary returns in your hands. Have you never questioned that, Barry?"
 
-He's right. The stat device has performed beyond all of my expectations since I got here. I didn't really give it much thought since I figured my calculations must have been wrong. But even with all of the energy it's accumulating, something is still clearly off.
+The thought has haunted me since yesterday. The power transfer rates defy standard arcane theory.
 
-"I have. But I don't suppose you're going to just give me the answer?"
+"I have. But I doubt you intend to satisfy my curiosity."
 
-"Of course not. Where would the fun in that be? But do not fret! As long as you remain on this island, you will get your answers sooner or later."
+"Naturally not. The mystery is half the journey. Survive this tournament, and the truth will catch up with you."
 
-He smiles.
+He turns toward the dense woods.
 
-"Well, then. I'll be waiting for you to deliver my message. Do not fail me, Barry."
+"Deliver my words, Barry. Do not fail me."
 
-With these last words he turns his back to me, and he disappears into the darkness of the forest.
+With that, he dissolves into the gloom of the forest.
 
 }
 #if(v_ch4_dave_defeat == 3) {
-I show him no mercy. I quickly lunge for him, aiming my blade straight for his heart. I can feel his body stop moving as I pull my dagger out, and he drops to the ground, lifeless, along with his flying knives.
+I lunge forward, driving my dagger home beneath his breastbone. His body spasms, hands clawing at my forearm, and then goes slack as life leaves him. His tethered knives tumble into the moss.
 
-Looking towards the other side of the clearing, it seems Daren managed to make short work of Cutthroat Dave's henchmen. Not even one of them is left alive.
+Across the clearing, Daren stands amidst the fallen mercenaries, lowering his broadsword.
 
-There's a slow sound of clapping hands coming from the trees. Looking to see what's making the sound, I see Eiden, leaning against a pine tree with his usual smile on his face.
+From the trees comes the dry, measured sound of slow applause. Eiden steps from behind a trunk, smiling mildly with his eyes shut.
 
-"Impressive, Barry," he says. "You don't often see stat boosters used so efficiently these days!"
+"Impressive work, Barry. Stat boosters are rarely handled with such tactical precision."
 
-"You!" Daren shouts, and he rushes towards the stillwater.
+"You!" Daren yells, charging the stillwater.
 
-Once again, with one gesture of his hands, Eiden puts Daren to sleep in the middle of his sprint, which makes him fall on the ground and slide on his armor for a few feet before coming to a halt.
+Eiden raises two fingers. Daren's momentum cuts out as sleep overwhelms him, his armored frame sliding across the grass.
 
-"Seriously, this is getting ridiculous," Eiden says.
+"This is becoming tedious," Eiden murmurs.
 
-"You know about stat boosters too?" I ask the stillwater.
+"You know the internal mechanics of these devices?" I ask.
 
-"I do! And what I also know is why that stat booster works so well for you, specifically. Have you ever wondered why that is, Barry?"
+"Inside and out. Including why your particular constitution extracts such staggering output from it. Have you never wondered about your own nature, Barry?"
 
-He's right. The stat device has performed beyond all of my expectations since I got here. I didn't really give it much thought since I figured my calculations must have been wrong. But even with all of the energy it's accumulating, something is still clearly off.
+The efficiency ratio has bothered me from the moment I calibrated the device on the ship.
 
-"I have. But I don't suppose you're going to just give me the answer?"
+"I have. Though I don't expect you to hand me the explanation."
 
-"Of course not. Where would the fun in that be? But do not fret! As long as you remain on this island, you will get your answers sooner or later."
+"Perceptive. Why ruin the drama? Keep breathing on this continent, and you will learn everything in time."
 
-He smiles.
+He turns his back.
 
-"Well, then. I'll be waiting for you to deliver my message. Do not fail me, Barry."
+"Deliver my message, Barry. Do not fail me."
 
-With these last words he turns his back to me, and he disappears into the darkness of the forest.
+He vanishes into the deep green shadows.
 
 }
 choice("Next chapter", Ch5-Intro, v_next_chapter_crash = 1, v_current_scene = Ch5-Intro, v_chapter_save_counter = 5, v_checkpoint_rich = 1, v_ch4_ending = 5, v_ch4_spared_dave = 0, special:checkpoint_save)
@@ -1391,121 +1385,115 @@ TEXT:
 set(v_ac_ch4_cutthroat,1)
 achievement("Defeated Cutthroat Dave",v_ac_ch4_cutthroat)
 #if(v_ch4_dave_defeat == 1) {
-I pick up another rock from the ground, but hold back the full power of the throw to avoid killing him. Since the rock travels slower this time, the cutthroat manages to block it with two of his flying daggers.
+I scoop another stone from the dirt, but pull the force of the throw, aiming to fracture his guard rather than his skull. With the reduced velocity, Dave manages to bat the projectile aside with two battered daggers.
 
-He coughs up some more blood.
+He hacks up a glob of dark blood, coughing violently against the loam.
 
-"You were lucky, stillwater. You caught me off guard. It won't happen again."
+"You got lucky, stillwater! Caught me off balance! It won't happen twice!"
 
-Cutthroat Dave then pulls out a scroll of teleportation from his pocket, and quickly uses it to make himself scarce, to the shock and dismay of his loyal followers.
+With a trembling hand, Dave rips a parchment scroll from inside his vest and crushes the wax seal. Azure arcane light spirals around his frame, and he vanishes on the spot—a high-tier emergency teleportation scroll.
 
-Where in the hell did that lowlife get a teleportation scroll from? I've been searching one for months and came up empty. Not to mention that even a single one of those scrolls costs a fortune.
+Where does a cutthroat operating out of border ravines get his hands on instantaneous teleportation? A single parchment costs a merchant's ransom.
 
-"DAMN, Barry!" Daren says. "You sure don't pull your punches."
+"Gods above, Barry!" Daren calls out. "You don't pull a punch, do you?"
 
-"Actually, I did. And it cost me. But I'm not done, yet."
+"I actually did. And it let him slip away. But we're not finished."
 
-I pick up some pebbles from the ground, and use all of the strength in my right arm to throw them towards Dave's henchmen. Seven of them got seriously wounded and are now screaming, scared.
+I scoop a handful of coarse gravel from the loam and whip it across the clearing with tier-three strength. The stones hit Dave's mercenaries like canister shot, splintering leather and dropping three of them to their knees howling in pain.
 
-"Did you see that?!" one of them says. "All he did was throw some pebbles he picked up from the ground."
+"Did you see that?!" one of them screeches. "He threw gravel like ballista shot!"
 
-"He beat the boss too. Let's get the hell out of here!"
+"The boss broke! Fall back!"
 
-The thugs make a run for the woods. I throw another rock in their general direction, but I don't bother chasing after them. Aiming my shots would be much more difficult in the forest, because of all the trees in my way. And besides, with the fear they had in their eyes, I doubt they'll be bothering us any longer.
+The thugs scatter into the trees, tripping over roots in their haste. I don't bother pursuing; they are broken, terrified, and far from dangerous.
 
-There's a slow sound of clapping hands coming from the trees. Looking to see what's making the sound, I see Eiden, leaning against a pine tree with his usual smile on his face.
+From the edge of the clearing comes the quiet, rhythmic sound of clapping. Eiden leans against a pine, hands in his pockets, smiling placidly.
 
-"Impressive, Barry," he says. "You don't often see stat boosters used so efficiently these days!"
+"Impressive, Barry. One rarely sees stat boosters deployed with such restraint."
 
-"You!" Daren shouts, and he rushes towards the stillwater.
+"You!" Daren bellows, charging the stillwater with his broadsword raised.
 
-Once again, with one gesture of his hands, Eiden puts Daren to sleep in the middle of his sprint, which makes him fall on the ground and slide on his armor for a few feet before coming to a halt.
+Eiden flicks two fingers. Daren drops in mid-stride, skidding through the pine needles as sleep overtakes him.
 
-"Seriously, this is getting ridiculous," Eiden says.
+"Truly, this is becoming repetitive," Eiden sighs.
 
-"You know about stat boosters too?" I ask the stillwater.
+"You understand how these devices work?" I ask.
 
-"I do! And what I also know is why that stat booster works so well for you, specifically. Have you ever wondered why that is, Barry?"
+"I do. And I know why that stat booster functions so remarkably well for you in particular. Have you never wondered why that is, Barry?"
 
-He's right. The stat device has performed beyond all of my expectations since I got here. I didn't really give it much thought since I figured my calculations must have been wrong. But even with all of the energy it's accumulating, something is still clearly off.
+"I have. But I doubt you're going to hand over the answer."
 
-"I have. But I don't suppose you're going to just give me the answer?"
+"Of course not. Where would the entertainment be? Survive this continent, and the truth will find you."
 
-"Of course not. Where would the fun in that be? But do not fret! As long as you remain on this continent, you will get your answers sooner or later."
+He turns into the shadows.
 
-He smiles.
+"Deliver my message, Barry. Do not fail me."
 
-"Well, then. I'll be waiting for you to deliver my message. Do not fail me, Barry."
-
-With these last words he turns his back to me, and he disappears into the darkness of the forest.
+He melts into the dark forest.
 
 }
 #if(v_ch4_dave_defeat == 2) {
-I aim my second strike between his ribs. I then pull my dagger out of him and kick him to the ground. Cutthroat Dave coughs up some blood, and without another word, he quickly pulls out a scroll of teleportation from his pocket, and makes himself scarce.
+I drive my dagger into his shoulder, pinning his arm, and slam my boot into his chest to force him down. Dave hits the loam, spitting blood, and frantically tears open a teleportation scroll from his tunic. Blue light flares, and he vanishes into thin air.
 
-Where in the hell did that lowlife get a teleportation scroll from? I've been searching one for months and came up empty. Not to mention that even a single one of those scrolls costs a fortune.
+A teleportation scroll. Even second-rate smugglers rarely possess the coin for instantaneous transit.
 
-Looking towards the other side of the clearing, it seems Daren managed to make short work of Cutthroat Dave's henchmen. Not even one of them is left alive.
+Across the clearing, Daren stands among the defeated thugs, sword resting at his side.
 
-There's a slow sound of clapping hands coming from the trees. Looking to see what's making the sound, I see Eiden, leaning against a pine tree with his usual smile on his face.
+From the trees comes the slow, measured applause of a spectator. Eiden steps into the light, smiling mildly with his eyes closed.
 
-"Impressive, Barry," he says. "You don't often see stat boosters used so efficiently these days!"
+"Impressive, Barry. Ruthless and efficient."
 
-"You!" Daren shouts, and he rushes towards the stillwater.
+"You!" Daren roars, lunging toward the stillwater.
 
-Once again, with one gesture of his hands, Eiden puts Daren to sleep in the middle of his sprint, which makes him fall on the ground and slide on his armor for a few feet before coming to a halt.
+Eiden raises two fingers; Daren's eyes shut and he crashes into the grass in a heap of plate armor.
 
-"Seriously, this is getting ridiculous," Eiden says.
+"This is becoming tedious," Eiden murmurs.
 
-"You know about stat boosters too?" I ask the stillwater.
+"You know how stat boosters operate?" I ask.
 
-"I do! And what I also know is why that stat booster works so well for you, specifically. Have you ever wondered why that is, Barry?"
+"Better than most. And I know why your device produces such extraordinary results. Have you never wondered about that, Barry?"
 
-He's right. The stat device has performed beyond all of my expectations since I got here. I didn't really give it much thought since I figured my calculations must have been wrong. But even with all of the energy it's accumulating, something is still clearly off.
+"Every day. But you won't tell me."
 
-"I have. But I don't suppose you're going to just give me the answer?"
+"Naturally not. Why spoil the discovery? Keep yourself alive, and all will become clear."
 
-"Of course not. Where would the fun in that be? But do not fret! As long as you remain on this island, you will get your answers sooner or later."
+He turns away.
 
-He smiles.
+"Deliver my message, Barry. Do not fail me."
 
-"Well, then. I'll be waiting for you to deliver my message. Do not fail me, Barry."
-
-With these last words he turns his back to me, and he disappears into the darkness of the forest.
+He dissolves into the shadows.
 
 }
 #if(v_ch4_dave_defeat == 3) {
-I lunge for him and aim my blade between his ribs. I then pull my dagger out of him and kick him to the ground. Cutthroat Dave coughs up some blood, and without another word, he quickly pulls out a scroll of teleportation from his pocket, and makes himself scarce.
+I drive the pommel of my dagger into Dave's jaw and follow with a sweeping kick that drops him flat. Before I can pin his wrists, he scrambles backward, crushing a parchment scroll against his chest. Azure runes ignite, whisking him away before my blade can bite.
 
-Where in the hell did that lowlife get a teleportation scroll from? I've been searching one for months and came up empty. Not to mention that even a single one of those scrolls costs a fortune.
+Teleportation magic. Someone with serious backing gave him that fail-safe.
 
-Looking towards the other side of the clearing, it seems Daren managed to make short work of Cutthroat Dave's henchmen. Not even one of them is left alive.
+Across the clearing, Daren wipes his blade, having routed the remaining mercenaries.
 
-There's a slow sound of clapping hands coming from the trees. Looking to see what's making the sound, I see Eiden, leaning against a pine tree with his usual smile on his face.
+From the woodline comes the sound of slow, solitary clapping. Eiden steps into view, hands in his pockets, smiling serenely.
 
-"Impressive, Barry," he says. "You don't often see stat boosters used so efficiently these days!"
+"Impressive work, Barry. You adapt quickly."
 
-"You!" Daren shouts, and he rushes towards the stillwater.
+"You!" Daren shouts, rushing the stillwater.
 
-Once again, with one gesture of his hands, Eiden puts Daren to sleep in the middle of his sprint, which makes him fall on the ground and slide on his armor for a few feet before coming to a halt.
+With a flick of his wrist, Eiden drops Daren into a dead sleep before he can cross three strides.
 
-"Seriously, this is getting ridiculous," Eiden says.
+"A predictable reaction," Eiden sighs.
 
-"You know about stat boosters too?" I ask the stillwater.
+"You understand the engineering behind stat boosters?" I ask.
 
-"I do! And what I also know is why that stat booster works so well for you, specifically. Have you ever wondered why that is, Barry?"
+"I do. And I understand why your device draws so much raw output from your body. Have you never questioned your own nature, Barry?"
 
-He's right. The stat device has performed beyond all of my expectations since I got here. I didn't really give it much thought since I figured my calculations must have been wrong. But even with all of the energy it's accumulating, something is still clearly off.
+"I have. But I know better than to expect charity from you."
 
-"I have. But I don't suppose you're going to just give me the answer?"
+"Good boy. Survive this tournament, and the answers will come."
 
-"Of course not. Where would the fun in that be? But do not fret! As long as you remain on this island, you will get your answers sooner or later."
+He turns into the woods.
 
-He smiles.
+"Deliver my message, Barry. Do not fail me."
 
-"Well, then. I'll be waiting for you to deliver my message. Do not fail me, Barry."
-
-With these last words he turns his back to me, and he disappears into the darkness of the forest.
+He vanishes into the gloom.
 
 }
 choice("Next chapter", Ch5-Intro, v_next_chapter_crash = 1, v_current_scene = Ch5-Intro, v_chapter_save_counter = 5, v_checkpoint_rich = 1, v_ch4_spared_dave = 1, v_ch4_ending = 5, special:checkpoint_save)

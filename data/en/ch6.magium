@@ -1006,10 +1006,10 @@ She steps back toward the orchard trees.
 
 }
 choice("Continue", Ch6-Backstory, v_current_scene = Ch6-Backstory) if (v_ch6_flirt == 1 || v_ch6_flirt == 5 || v_ch6_flirt == 6)
-choice(""Every single time."", Ch6-Single, v_current_scene = Ch6-Single) if (v_ch6_flirt == 2)
+choice(""You'd be surprised. Survival-based flirting is an underexplored market."", Ch6-Single, v_current_scene = Ch6-Single) if (v_ch6_flirt == 2)
 choice(""Not really."", Ch6-Really, v_current_scene = Ch6-Really) if (v_ch6_flirt == 2)
 choice(""Of course."", Ch6-Course, v_current_scene = Ch6-Course) if (v_ch6_flirt == 3)
-choice(""I want my answer now!"", Ch6-Answer, v_current_scene = Ch6-Answer) if (v_ch6_flirt == 3)
+choice(""Define 'later.' I've been on this island two days and nearly died four times. My timeline is compressed."", Ch6-Answer, v_current_scene = Ch6-Answer) if (v_ch6_flirt == 3)
 choice(""Maybe you're right. I'm sorry for getting ahead of myself."", Ch6-Ahead, v_current_scene = Ch6-Ahead) if (v_ch6_flirt == 4)
 choice(""Most of my planning assumes I won't survive the week. So 'later' is optimistic."", Ch6-Passion, v_current_scene = Ch6-Passion) if (v_ch6_flirt == 4)
 
@@ -1017,11 +1017,11 @@ choice(""Most of my planning assumes I won't survive the week. So 'later' is opt
 ID: Ch6-Single
 TEXT:
 
-"Every single time."
+"You'd be surprised. Survival-based flirting is an underexplored market."
 
 Rose's smile widens into pure amusement.
 
-"Then you must have enjoyed quite the high quality of female companionship in your life! Sadly, I won't be joining their ranks. I do owe you for saving me this morning, however, so I'll be doing you the favor of pretending this conversation never happened. Now come, we should help the others with picking fruits. We'll need all the food we can get for the long journey ahead of us."
+"I suspect the market is underexplored for very good reasons! Sadly, I won't be joining your customer base. I do owe you for saving me this morning, however, so I'll be doing you the favor of pretending this conversation never happened. Now come, we should help the others with picking fruits. We'll need all the food we can get for the long journey ahead of us."
 
 choice("Continue", Ch6-Backstory, v_current_scene = Ch6-Backstory)
 
@@ -1051,7 +1051,7 @@ choice("Continue", Ch6-Backstory, v_current_scene = Ch6-Backstory)
 ID: Ch6-Answer
 TEXT:
 
-"I want my answer now!"
+"Define 'later.' I've been on this island two days and nearly died four times. My timeline is compressed."
 
 Rose tilts her head, her smile turning sly. "Well, now, aren't we impatient? It almost makes me think that you have reasons to believe I will dislike you once I get to know you better. Is there something I should know about, Barry?"
 
@@ -1083,20 +1083,16 @@ Rose lets out a soft laugh, shaking her head.
 
 "Oh, gods," she says. "You really are blunt, aren't you? You remind me of my ex husband. He had the same talent for turning morbid honesty into a courtship strategy."
 
-choice(""But did he mean it like I do?"", Ch6-Mean, v_current_scene = Ch6-Mean)
+choice(""I notice you said 'ex.' So his survival odds were roughly what I'm projecting."", Ch6-Mean, v_current_scene = Ch6-Mean)
 choice(""Ex husband?"", Ch6-Husband, v_current_scene = Ch6-Husband)
 
 
 ID: Ch6-Mean
 TEXT:
 
-"But did he mean it like I do?"
+"I notice you said 'ex.' So his survival odds were roughly what I'm projecting."
 
-"I do not know! It's really hard to take anything seriously when it's spoken like that."
-
-She smiles.
-
-"But I'll keep that in mind for now. Please, allow me some time to clear my thoughts. We will get ample opportunities to continue this conversation during our trip. At any rate, I think I got the answer I needed for my first question. After hearing you say something like that, I very much doubt that there's something between you and Kate, so I'm glad we really didn't interrupt anything important this morning. Now come, we should help the others with picking fruits. We'll need all the food we can get for the long journey ahead of us."
+"He is very much alive, Barry. We simply grew apart." She shakes her head, though her smile lingers. "You have a strange way of turning everything into actuarial tables. But I'll keep your projection in mind. Allow me some time to clear my thoughts. We will get ample opportunities to continue this conversation during our trip. At any rate, I think I got the answer I needed for my first question. After hearing you say something like that, I very much doubt that there's something between you and Kate, so I'm glad we really didn't interrupt anything important this morning. Now come, we should help the others with picking fruits. We'll need all the food we can get for the long journey ahead of us."
 
 choice("Continue", Ch6-Backstory, v_current_scene = Ch6-Backstory)
 

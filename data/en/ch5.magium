@@ -761,17 +761,19 @@ Kate, stepping up from the shadows of the cave, clears her throat.
 
 "Thanks. But it's too late for caution now—we can't leave Daren to charge in alone. Move."
 
-We sprint after him, crashing through the pines, but by the time we break into the clearing, the woods are quiet.
+We sprint after him, crashing through the pines, but by the time we break into the clearing, the confrontation is already over.
 
-"Look who decided to join the fray," Daren says, leaning casually against a boulder.
+"Look who decided to join the fray," Daren says, leaning casually against a boulder, broadsword already back in its scabbard.
 
 "Where are the goblins?" I ask, scanning the surrounding brush.
 
 "Scattered the moment they saw my plate. Not the stoutest fighters. I didn't even have to clear leather."
 
-When I turn toward the woman, the sight of her stops me cold. Long auburn hair cascades over the shoulders of an auburn dress, practical and dust-streaked from the trail. She has a slender waist, soft, delicate features that contrast sharply with Kate's guarded severity, and warm light-brown eyes that carry an immediate, unvarnished kindness. Mid-twenties, holding an herbalist's woven satchel smelling of damp earth and crushed mint. She brushes dirt from her fingers with quiet composure, straightening her posture, and dips into an elegant, gracious bow.
+When I turn toward the woman, the sight of her stops me cold. Long auburn hair cascades over the shoulders of an auburn dress, practical and dust-streaked from the trail. She has a slender waist, soft, delicate features that contrast sharply with Kate's guarded severity, and warm light-brown eyes—though right now, those eyes are locked onto Daren with genuine, breathless relief. Mid-twenties, clutching an herbalist's woven satchel smelling of damp earth and crushed mint.
 
-"Thank you all so much for your help," she says, her voice smooth and remarkably steady. "I don't know what I would have done without you!"
+When her gaze shifts to me and Kate, the relief tightens into something formal, guarded, and polite. She saw Daren arrive alone. She heard the delay.
+
+"Thank you, sir," she says to Daren, her voice smooth and remarkably steady despite the close call. Then, turning toward Kate and me, she dips into an elegant, measured bow. "And my thanks to your companions for joining you."
 
 }
 #if(v_ch5_admit_lie == 1) {
@@ -795,17 +797,19 @@ Kate, stepping up from the shadows of the cave, clears her throat.
 
 "Thanks. But it's too late for caution now—we can't leave Daren to charge in alone. Move."
 
-We sprint after him, crashing through the pines, but by the time we break into the clearing, the woods are quiet.
+We sprint after him, crashing through the pines, but by the time we break into the clearing, the confrontation is already over.
 
-"Look who decided to join the fray," Daren says, leaning casually against a boulder.
+"Look who decided to join the fray," Daren says, leaning casually against a boulder, broadsword already back in its scabbard.
 
 "Where are the goblins?" I ask, scanning the surrounding brush.
 
 "Scattered the moment they saw my plate. Not the stoutest fighters. I didn't even have to clear leather."
 
-When I turn toward the woman, the sight of her stops me cold. Long auburn hair cascades over the shoulders of an auburn dress, practical and dust-streaked from the trail. She has a slender waist, soft, delicate features that contrast sharply with Kate's guarded severity, and warm light-brown eyes that carry an immediate, unvarnished kindness. Mid-twenties, holding an herbalist's woven satchel smelling of damp earth and crushed mint. She brushes dirt from her fingers with quiet composure, straightening her posture, and dips into an elegant, gracious bow.
+When I turn toward the woman, the sight of her stops me cold. Long auburn hair cascades over the shoulders of an auburn dress, practical and dust-streaked from the trail. She has a slender waist, soft, delicate features that contrast sharply with Kate's guarded severity, and warm light-brown eyes—though right now, those eyes are fixed on Daren with profound relief. Mid-twenties, clutching an herbalist's woven satchel smelling of damp earth and crushed mint.
 
-"Thank you all so much for your help," she says, her voice smooth and remarkably steady. "I don't know what I would have done without you!"
+When her gaze moves past Daren to Kate and me, the warmth recedes into a cool, diplomatic composure. She is not blind. She knows who ran to her aid and who strolled in after the danger passed.
+
+"Thank you, sir," she tells Daren with deep sincerity. Then, with a shallow, impeccably courteous bow toward Kate and me: "And my gratitude to your companions as well."
 
 }
 choice(""Daren is the one you should thank, not us."", Ch5-Humble, v_current_scene = Ch5-Humble)
@@ -817,7 +821,7 @@ TEXT:
 
 "Daren is the one you should thank, not us," I say, nodding toward the armored healer. "He's the one who charged ahead despite the tournament's non-interference rule."
 
-"I am well aware," she says, a polite, knowing smile touching her lips. "Yet that doesn't change the fact that both of you followed your companion into the woods regardless, and for that, you have my gratitude. My name is Rose. It's a pleasure to meet you all."
+"I am well aware," Rose says. Her eyes rest on me with a quiet, measuring appraisal—not unkind, but entirely unfooled. "I heard the shouts from the ridge. I know who took the risk without hesitation. Still, you did not abandon your companion entirely, and for that, you have my polite thanks. My name is Rose. It is... an acquaintance, at least."
 
 "If I may ask," Kate cuts in, stepping forward with her arms crossed, "what were you doing out here in the wilderness alone?"
 
@@ -825,7 +829,7 @@ TEXT:
 
 "Kate," Kate says with a short gesture toward her own chest, then indicates me and Daren in turn, supplying our names without lingering on formalities.
 
-Rose offers a warm nod.
+Rose offers a measured nod.
 
 "Miss Kate, I was searching for rare medicinal flora native to this ridge. An outbreak of oildrip has struck my hometown, and as an herbalist, I know which roots and leaves produce the remedy."
 
@@ -845,13 +849,13 @@ set(v_ac_ch5_shameless,1)
 achievement("Shameless",v_ac_ch5_shameless)
 "We only did what anyone else would have done in our stead."
 
-Rose tilts her head, a knowing amusement dancing in her eyes.
+Rose tilts her head, a dry, piercing look settling over her delicate features.
 
-"Indeed. Most contestants would have done exactly that—left me to the goblins rather than risk a reprimand from the tournament judges."
+"Indeed. Most contestants would have stood on that ridge and watched me die for fear of a rule violation. Which, if I am not mistaken, is almost what occurred."
 
-The heat rises straight to my ears.
+The heat rises straight to my ears. She doesn't raise her voice; she doesn't need to.
 
-"Yet you chose to follow your friend into danger anyway," she adds, her tone softening, "and for that, you have my gratitude. My name is Rose. It's a pleasure to meet you all."
+"You followed your friend eventually," she adds, her tone smooth and completely devoid of warmth. "And for his sake, I will assume good intentions. My name is Rose. It is a pleasure to make your acquaintance, gentlemen, miss."
 
 "If I may ask," Kate cuts in, stepping forward with her arms crossed, "what were you doing out here in the wilderness alone?"
 
@@ -859,7 +863,7 @@ The heat rises straight to my ears.
 
 "Kate," Kate says with a short gesture toward her own chest, then indicates me and Daren in turn, supplying our names without lingering on formalities.
 
-Rose offers a warm nod.
+Rose offers a courteous, restrained nod.
 
 "Miss Kate, I was searching for rare medicinal flora native to this ridge. An outbreak of oildrip has struck my hometown, and as an herbalist, I know which roots and leaves produce the remedy."
 
@@ -902,9 +906,11 @@ set(v_ch5_goblins,0) if (v_ancient_languages == 3 || v_ancient_languages < 3)
 
 The moment they spot us, the lead goblin barks a guttural order in a harsh, rolling tongue, and all four scramble into the thick undergrowth. They clearly have no stomach for a fair fight against armed humans.
 
-With the monsters gone, I turn toward the woman to ensure she took no harm. The sight of her stops me cold. Long auburn hair cascades over the shoulders of an auburn dress, practical and dust-streaked from the trail. She has a slender waist, soft, delicate features that contrast sharply with Kate's guarded severity, and warm light-brown eyes that carry an immediate, unvarnished kindness. Mid-twenties, holding an herbalist's woven satchel smelling of damp earth and crushed mint. She brushes dirt from her fingers with quiet composure, straightening her posture, and dips into an elegant, gracious bow.
+With the monsters gone, I turn toward the woman to ensure she took no harm. The sight of her stops me cold. Long auburn hair cascades over the shoulders of an auburn dress, practical and dust-streaked from the trail. She has a slender waist, soft, delicate features that contrast sharply with Kate's guarded severity, and warm light-brown eyes that carry an immediate, unvarnished kindness. Mid-twenties, holding an herbalist's woven satchel smelling of damp earth and crushed mint.
 
-"Thank you all so much for your help," she says, her voice smooth and remarkably steady. "I don't know what I would have done without you! My name is Rose. It's a pleasure to meet you."
+When our eyes meet, a flush of profound relief washes over her face. She takes a breath, steadying trembling fingers against the cloth of her skirt, and steps toward me before dipping into an elegant, deeply felt bow.
+
+"Thank you," she says, her voice smooth and brimming with genuine warmth. Her gaze lingers on mine for a long, quiet second before including Daren and Kate. "I don't know what I would have done without you. My name is Rose. It is a true honor to meet you all."
 
 }
 #if(v_ancient_languages == 3) {

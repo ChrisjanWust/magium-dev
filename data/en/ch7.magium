@@ -636,9 +636,11 @@ A faint smile touches her lips as she grabs my hand and squeezes it firmly.
 
 "You're an idiot," she says.
 
-"I know," I tell her as we finish our handshake. "Now, come on, we should get going. If we keep standing around here, Daren will surely start to think that you found a way to attack me again or something. I'm sure I can find a way to smooth things over with him somehow."
+"I know," I tell her as our hands part.
 
-"No, wait... We can't go on like this. I owe you an explanation for everything that's happened. It's the least I can do."
+For a long moment, neither of us speaks. The wind shifts the canopy above us, and a bar of late-afternoon light crosses her face. She looks younger in it—not the lethal ice mage who held a blade to my collarbone, but someone closer to who she might have been before the world broke her. The silence between us feels different now. Thinner. Permeable.
+
+"No, wait... We can't simply walk back," Kate murmurs, looking down at her boots. "I owe you an explanation for everything that's happened. It's the least I can do."
 
 choice(""Does this have anything to do with the Beacon of Hope?"", Ch7-Beacon, v_current_scene = Ch7-Beacon)
 choice(""Can you first tell me who these lessathi are, exactly?"", Ch7-Lessathi, v_current_scene = Ch7-Lessathi)
@@ -649,23 +651,27 @@ TEXT:
 
 "Does this have anything to do with the Beacon of Hope?"
 
-"Yes... This has everything to do with the Beacon of Hope."
+Kate doesn't answer immediately. She pulls at a dry pine needle, twisting it between her fingers until it snaps. Starts to speak. Stops. Pulls another.
 
-She pauses, pulling her knees slightly toward her chest.
+"You're going to look at me differently after this," she says, keeping her eyes on the ground.
+
+"Try me."
+
+She draws a slow, unsteady breath, pulling her knees slightly toward her chest.
 
 "The Beacon was... an orphanage, of sorts. It took in children from across the continent, promising shelter and food. I was born here on Varathia, abandoned at birth, and sent there young. Influential lessathi ran the facility with heavy backing from the royal court. The charity was a front. They needed children with no families to ask questions, because they were running experiments. They wanted a method to manufacture mages out of ordinary humans."
 
 "So, what you're saying is that you got your powers as a result of these experiments?"
 
-"I did... Although, the methods they used had an extremely low chance of success. Forcefully injecting magical circuits into a human body is not only a very risky procedure, but also... particularly painful. Of the thousands of orphans that were detained in that institution, only a handful of us survived. Due to the lack of results on their part, the lessathi eventually stopped receiving funds for their project from the royalty, and they were forced to shut down the Beacon."
+"I did. Although the methods they used had an almost non-existent survival rate. Forcefully grafting artificial magical circuits into a child's nervous system is not just experimental—it is agonizing torture. Of the thousands of orphans processed through those wards, only a handful of us survived the grafting. Due to the lack of viable results, the lessathi eventually lost their royal funding, and the project was shut down."
 
-"So, uh... did they just let you all go after that?"
+"So... did they release the survivors?"
 
-"No, they didn't. I was part of the rejects. Their prolonged experiments had somehow failed to kill me, but my magic was so weak at the time that I could barely conjure a snowflake. They had no need for rejects, so they just dumped us on other continents. They used their teleportation magic to transport each of us in various remote jungles across the world, with nothing to our names other than the clothes on our backs, and some knives they gave us to fend for ourselves. I was twelve at the time."
+"No. I was categorized as a reject. The procedures failed to kill me, but my channeled output was so weak I could barely frost a cup of water. Rejects had no value to them, but leaving us on Varathia risked exposure. So they dumped us on other continents. Teleported each of us alone into remote wilderness across the world, with nothing but the clothes on our backs and a single knife to keep from starving. I was twelve."
 
-Kate's gaze drifts left, fixed on the distant timber.
+Kate's gaze drifts toward the dark timber.
 
-"I spent weeks in that jungle, hunting small animals and avoiding predators in order to survive. When I finally managed to reach civilization, I was greeted with terrified screams, and people running away at the sight of me. It didn't take me long to find out about banshees, and to understand that there was no longer a place for me in society. As time passed, I started encountering banshee hunters and white mages that wanted to have me purified. Luckily, by the time I started meeting them, my magical powers had increased considerably, and I became able to defend myself."
+"I spent weeks in that jungle, eating roots and hunting lizards with that knife. When I finally reached a human settlement, people screamed and ran from me. That was when I learned what a banshee was, and realized that there was no longer a place for me among humans. Soon after, the purification squads and white mages came hunting. Luckily, as I grew older, my ice magic deepened until I could defend myself."
 
 choice(""I'm really sorry..."", Ch7-Sorry-beacon, v_current_scene = Ch7-Sorry-beacon)
 choice(""What happened to the other rejects?"", Ch7-Rejects-beacon, v_current_scene = Ch7-Rejects-beacon)
@@ -1094,7 +1100,17 @@ choice("Continue", Ch7-Trap, v_current_scene = Ch7-Trap)
 ID: Ch7-Trap
 TEXT:
 
-We are not the only ones teleported here. In the center of the crowd stands the giant from the announcement--only now he is barely four feet tall, stocky and barrel-chested, with the same black beard brushing his belt. That explains why they call him 'the dwarf'. Judging by the landmark pine above us, we are right in the clearing where Hadrik first appeared.
+We are not the only ones teleported here. In the center of the crowd stands the giant from the announcement—only now he is barely four feet tall, stocky and barrel-chested, with the same thick black beard brushing his belt. That explains why they call him 'the dwarf'. Judging by the landmark pine above us, we are right in the clearing where Hadrik first appeared.
+
+The dwarf spots our bewildered group in the crowd, his dark eyes lighting up with unvarnished delight. He waddles over on thick legs that seem slightly too short for his explosive energy, slapping a meaty hand against his leather-clad thigh.
+
+"You lot look like the sort who know how to take a punch!" he booms cheerfully, extending a hand roughly the size of a shovel. "Hadrik. Didn't mean to drag you away from your evening stroll, but what can I say—the more the merrier! Anyone hungry? I've got smoked boar jerky in my pack that'll put hair on parts of your body you didn't know had follicles."
+
+Daren looks caught between professional suspicion and reluctant amusement. Kate scans the tree line with rigid hostility.
+
+"I'll pass on the extra hair," I say.
+
+Hadrik's booming laugh shakes his whole barrel chest. "I like you already!"
 
 "Good evening, gentlemen!" we hear a voice coming from above.
 
@@ -1118,6 +1134,8 @@ TEXT:
 "Rose can wait until we're safely out of here. I don't want to attract any attention to ourselves."
 
 Daren doesn't really seem to agree with me, but he doesn't want to start an argument either, so he nods slowly.
+
+While we wait, I watch Hadrik. He is bouncing on the balls of his boots, grinning at nothing in particular, thoroughly unbothered by the fifty hostile mages eyeing him like a dangerous wild beast. When a nervous elementalist near him flinches away, Hadrik simply offers him a cheerful wink and a swig from a clay flask. He moves through the world like someone who has never once considered that others might not want his company—and somehow makes it disarming rather than obnoxious.
 
 "And who might you be, young stillwater?" an old mage calls out to Eiden.
 
@@ -1539,6 +1557,10 @@ His fist meets the beam head-on and the fire folds back along its own path, twic
 The ringing in my ears fades before anyone moves.
 
 "That filthy son of a walrus!" Hadrik says, shaking out his hand. "He was seriously trying to kill me!"
+
+The ash that was Felran drifts on a breeze that carries the smell of scorched stone and something worse. Nobody moves. Somewhere behind me, a woman retches into the brush. The clearing is dead silent except for the crackle of still-burning grass at the circle's edge. A veteran master elementalist was reduced to cinders in less than two seconds.
+
+Then someone in the crowd shouts "Murderer!" and the spell breaks.
 
 Seeing the threat that the dwarf poses, all of the other mages that were preparing to attack Kate try to coordinate themselves to attack him at the same time.
 
@@ -2811,9 +2833,13 @@ Both dragons crash into the clearing, the ice beast pinning the black dragon to 
 
 "Okay, okay, I give up, you win!" Hadrik says, shifting back to his dwarf shape with a puff of steam.
 
-Kate brings her platform to the ground, dismissing both the cage and the construct into melting frost.
+Kate brings her platform to the ground, dismissing both the cage and the construct into melting frost. Her breath comes hard, chest heaving under her cloak, fingers still stark white with channeled cold.
 
-"Does this mean that you'll grant me my request?" Kate asks, hope shining in her voice.
+Hadrik rubs a large frozen welt on his shoulder and looks at her with a grin that carries genuine, unfeigned respect.
+
+"You fight like someone who's been angry for a very long time," he says. It isn't mockery; it sounds like recognition.
+
+"Does this mean that you'll grant me my request?" Kate asks, hope shining through her exhaustion.
 
 "Well, I can't say that I'm really looking forward to it, but a deal's a deal. Pack your bags, Kate, I'm going to lead you to your friend!"
 

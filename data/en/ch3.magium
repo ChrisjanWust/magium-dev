@@ -3,7 +3,7 @@ TEXT:
 
 #if(v_ch2_deer_interaction != 1) {
 
-"So, Barry, let me get this straight," Daren says, leaning forward across the fire. "You're saying that trinket you carry is actually a device that amplifies your physical attributes, powered by ambient magic in the air?"
+"So, Barry, let me get this straight," Daren says, leaning forward across the small campfire. "You're saying that trinket you carry is actually a device that amplifies your physical attributes, powered by ambient magic in the air?"
 
 "Right," I say.
 
@@ -11,17 +11,17 @@ TEXT:
 
 "Correct."
 
-Daren, Kate, and I sit in a rough ring on the stone floor of a shallow limestone cave we found tucked beneath the northern ridges. The march up from the lowlands carried a steady stench of smoke and decay—half a dozen bodies left cooling in the brush along the trail, stripped of gear and forgotten. Daren has shed his plate armor for a loose woolen tunic, rubbing the red pressure marks where the cuirass bit into his collarbones.
+Daren and I sit near the hearth stones of a shallow limestone cave tucked beneath the northern ridges. Kate sits six paces away against the back wall, her green cloak drawn tight around her shoulders, the faint blue glint of her frost-ward humming along the perimeter of her bedroll. The march up from the lowlands carried a steady stench of smoke and decay—half a dozen bodies left cooling in the brush along the trail, stripped of gear and forgotten. Daren has shed his plate armor for a loose woolen tunic, rubbing the red pressure marks where the cuirass bit into his collarbones.
 
 "Kate, I think this afternoon broke the poor boy's mind. He is completely delirious. Would you mind knocking some sense into him before I lose my patience?"
 
-"No," Kate says, without looking up.
+"No," Kate says from the shadows, without looking up.
 
 "Because you can't be bothered to—"
 
 "Because he's telling the truth. That device is a stat booster. Most of the channels on it are designed to push physical attributes beyond human limits."
 
-Daren stares at her, his brow furrowing over the crossed scars on his forehead. "Wait. Weren't you the one telling me not to trust him two hours ago? Why are you taking his side now?"
+Daren stares toward her corner, his brow furrowing over the crossed scars on his forehead. "Wait. Weren't you the one holding a blade to his throat an hour ago? Why are you taking his side now?"
 
 "I'm not taking anyone's side. I've known what those devices do for years. I don't need to trust him to know what's in his hand."
 
@@ -30,7 +30,7 @@ Daren stares at her, his brow furrowing over the crossed scars on his forehead. 
 }
 #if(v_ch2_deer_interaction == 1) {
 
-"So, Barry, let me get this straight," Daren says, leaning forward across the fire. "You're saying that trinket you carry is actually a device that amplifies your physical attributes, powered by ambient magic in the air?"
+"So, Barry, let me get this straight," Daren says, leaning forward across the small fire. "You're saying that trinket you carry is actually a device that amplifies your physical attributes, powered by ambient magic in the air?"
 
 "Right," I say.
 
@@ -38,17 +38,17 @@ Daren stares at her, his brow furrowing over the crossed scars on his forehead. 
 
 "Correct."
 
-Daren, Kate, and I sit on the dry stone floor of our hosts' cavern, the air smelling faintly of sweet lichen and dried mountain grass. The trek up the slopes was grim enough—scattered corpses in the ravines, mages already cutting each other down for standing. Daren has stripped out of his heavy plate and sits in a loose woolen tunic, rolling his broad shoulders to work out the stiffness.
+Daren and I sit near the hearth on the dry stone floor of our hosts' cavern, the air smelling faintly of sweet lichen and dried mountain grass. Kate sits apart from us, her back pressed against the rock wall, watching the cave mouth with her arms crossed and her frost-ward faint on the stone around her boots. The trek up the slopes was grim enough—scattered corpses in the ravines, mages already cutting each other down for standing. Daren has stripped out of his heavy plate and sits in a loose woolen tunic, rolling his broad shoulders to work out the stiffness.
 
 "Barry, there is no such thing as holding a conversation with wild animals. I heard you barking and clicking at them. Pure gibberish. Getting lucky because they guided us to their den doesn't make you a linguist. Kate, could you please knock some sense into him?"
 
-"No," Kate says, without looking up.
+"No," Kate says from the shadows, without looking up.
 
 "Because you can't be bothered to—"
 
 "Because he's telling the truth. That device is a stat booster, and one of its functions translates ancient tongues directly into the user's mind."
 
-Daren blinks at her, the crossed scars on his forehead shifting with his frown. "Wait. Weren't you telling me not to trust him two hours ago? Why are you taking his side now?"
+Daren blinks toward her corner, the crossed scars on his forehead shifting with his frown. "Wait. Weren't you holding ice to his collarbone an hour ago? Why are you taking his side now?"
 
 "I'm not taking anyone's side. I've known what those devices do for years. I don't need to trust him to know what's in his hand."
 
