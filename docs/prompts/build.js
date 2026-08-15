@@ -284,13 +284,21 @@ function main() {
     for (const book of ["2", "3"]) {
         const specific = read(`book${book}-master.md`);
         if (!specific) continue;
+        /* Resolve command-literal placeholders so a book-master cannot copy an
+         * unsubstituted token into a shell command. Report-template tokens
+         * (<n>, <unit-id>, <message>) are intentionally left for the agent. */
+        const resolve = (s) => s
+            .replace(/--book <2\|3>/g, `--book ${book}`)
+            .replace(/verify\.js --book <2\|3>/g, `verify.js --book ${book}`)
+            .replace(/build\/<book>-ledger\.md/g, `build/book${book}-ledger.md`)
+            .replace(/<book-glob>/g, `data/en/b${book}ch*.magium`);
         outputs.push({
             name: `book${book}-master.prompt.md`,
             body: [
                 banner("book-master", `book${book}`),
-                master,
-                bmCore,
-                specific,
+                resolve(master),
+                resolve(bmCore),
+                resolve(specific),
                 unitTableBlock(book, units, corpus),
             ].join("\n\n---\n\n") + "\n",
         });

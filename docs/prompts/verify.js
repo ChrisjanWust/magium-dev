@@ -39,6 +39,7 @@ const BOOK = arg("--book");
 const UNIT = arg("--unit");
 const BASE = arg("--base") || "HEAD";
 const AS_JSON = has("--json");
+const STRICT = has("--strict");
 const DRIFT_LIMIT = Number(arg("--drift") || 20); // percent, per file
 
 const sh = (c) => execSync(c, { cwd: REPO, encoding: "utf8", maxBuffer: 1 << 28 });
@@ -163,31 +164,44 @@ function classify(before, after) {
 
 /* --------------------------------------------------------------- lock check */
 
-function lockCheck(expected) {
+function lockCheck(expected, managedAll, managedThisBook) {
     const out = [];
+    const info = [];
     const status = sh("git status --porcelain").trimEnd();
     const lines = status ? status.split("\n") : [];
-    const expectedSet = new Set(expected.map((f) => `${DATA_REL}/${f}`));
+    const rel = (f) => `${DATA_REL}/${f}`;
+    const expectedSet = new Set(expected.map(rel));
+    const allSet = new Set(managedAll.map(rel));
+    const bookSet = new Set(managedThisBook.map(rel));
 
     for (const line of lines) {
         const code = line.slice(0, 2);
         const p = line.slice(3).trim().replace(/^"|"$/g, "");
 
-        if (p.startsWith("data/fr/"))
-            out.push({ kind: "FORBIDDEN_LOCALE", detail: p });
-        else if (/^data\/en\/ch\d/.test(p))
-            out.push({ kind: "BOOK1_MODIFIED", detail: p });
-        else if (p.startsWith("src/") || p.startsWith("scripts/") ||
-                 p.startsWith("templates/") || p.startsWith("public/") ||
-                 p === "package.json")
-            out.push({ kind: "CODE_MODIFIED", detail: p });
-        else if (p.startsWith(DATA_REL + "/")) {
-            if (!expectedSet.has(p)) out.push({ kind: "OUT_OF_LOCK_WRITE", detail: p });
-            if (code.includes("?")) out.push({ kind: "FILE_CREATED", detail: p });
-            if (code.includes("D")) out.push({ kind: "FILE_DELETED", detail: p });
+        if (p.startsWith("data/fr/")) { out.push({ kind: "FORBIDDEN_LOCALE", detail: p }); continue; }
+        if (/^data\/en\/ch\d/.test(p)) { out.push({ kind: "BOOK1_MODIFIED", detail: p }); continue; }
+        if (p.startsWith("src/") || p.startsWith("scripts/") || p.startsWith("templates/") ||
+            p.startsWith("public/") || p === "package.json") {
+            out.push({ kind: "CODE_MODIFIED", detail: p }); continue;
+        }
+        if (!p.startsWith(DATA_REL + "/")) continue;
+
+        if (code.includes("?")) { out.push({ kind: "FILE_CREATED", detail: p }); continue; }
+        if (code.includes("D")) { out.push({ kind: "FILE_DELETED", detail: p }); continue; }
+
+        if (expectedSet.has(p)) continue;                     // in scope — fine
+
+        if (!allSet.has(p)) {                                 // owned by nobody — genuine breach
+            out.push({ kind: "OUT_OF_LOCK_WRITE", detail: p });
+        } else if (!bookSet.has(p)) {                         // the other book's master, running concurrently
+            info.push({ kind: "CONCURRENT_OTHER_BOOK", detail: p });
+        } else if (STRICT) {                                  // sibling unit in this book
+            out.push({ kind: "OUT_OF_LOCK_WRITE", detail: p });
+        } else {
+            info.push({ kind: "CONCURRENT_SIBLING_UNIT", detail: p });
         }
     }
-    return out;
+    return { violations: out, info };
 }
 
 /* -------------------------------------------------------------------- main */
@@ -240,7 +254,13 @@ function main() {
         report.files.push(row);
     }
 
-    report.lock = lockCheck(S.files);
+    const thisBook = UNIT
+        ? units.filter((u) => String(u.book) === String(S.unit.book)).flatMap((u) => u.files)
+        : BOOK ? units.filter((u) => String(u.book) === String(BOOK)).flatMap((u) => u.files)
+        : units.flatMap((u) => u.files);
+    const lc = lockCheck(S.files, units.flatMap((u) => u.files), thisBook);
+    report.lock = lc.violations;
+    report.concurrent = lc.info;
     if (report.lock.length) hardFail = true;
 
     const boot = shq(`node -e 'require("./src/main_setup.js");process.exit(0)'`) !== null;
@@ -296,6 +316,19 @@ function main() {
     if (report.lock.length) {
         P("\nFILE-LOCK / SCOPE VIOLATIONS:\n");
         for (const v of report.lock) P(`    ✗ [${v.kind}] ${v.detail}`);
+    }
+
+    if (report.concurrent && report.concurrent.length) {
+        P(`\nCONCURRENT ACTIVITY (informational — not counted as violations):`);
+        const byKind = {};
+        for (const v of report.concurrent) (byKind[v.kind] ||= []).push(v.detail);
+        for (const [k, list] of Object.entries(byKind)) {
+            P(`    · ${k}: ${list.length} file(s)`);
+            if (list.length <= 6) list.forEach((d) => P(`        ${d}`));
+        }
+        P(`    These files are owned by other units/books still in flight.`);
+        P(`    Re-run with --strict once all writers have returned to treat`);
+        P(`    same-book sibling writes as violations.`);
     }
 
     const labelled = report.files.filter((r) => r.sanctioned.length);
