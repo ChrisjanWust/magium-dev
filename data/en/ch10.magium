@@ -5,7 +5,7 @@ TEXT:
 
 "Twice in two days," Hadrik mutters from the dark. "First woodland critters, now overgrown brutes. If this gets back to the arena circuit, I'll never hear the end of it."
 
-Six hours. The small phosphor screen on my stat device gives the exact count, glowing like a pale green ember in the pitch black. Without it, we would have no sense of time at all. There are no windows in this cell, no sconces, no cracks in the mortared stone. Just cold, damp air and silence.
+Six hours. The small phosphor screen on my stat device gives the exact count, glowing like a pale green ember in the pitch black. Without it, we would have no sense of time at all. There are no windows in this cell, no sconces, no seams in the mortared stone. Just cold, damp air and silence.
 
 For six hours, we have been testing the paralysis ward woven into the flagstones. It sits on our nerves like lead weights. Daren and Hadrik tried forcing their way through it earlier, channeling raw magic to jolt their muscles into a brief spasm, but three clumsy strides were all they managed before the floor's enchantment locked their joints solid again.
 
@@ -19,40 +19,40 @@ The plan is simple enough: the instant the latch lifts, Daren and Hadrik trigger
 
 "Treacherous little parasite," Daren growls, his teeth clenched against the numbness. "I knew the moment she showed her face in the ruins. We needed gear, we needed a guide, so I ignored my better judgment. I should have driven my blade through that banshee the second she woke."
 
-choice("Yeah, she sure did a number on us.", Ch10-Number, v_current_scene = Ch10-Number, v_checkpoint_rich = 0)
+choice("Yeah, she made a proper ruin of us.", Ch10-Number, v_current_scene = Ch10-Number, v_checkpoint_rich = 0)
 choice("Actually, I'm not so sure that she really betrayed us.", Ch10-Betrayed, v_current_scene = Ch10-Betrayed, v_checkpoint_rich = 0)
 
 
 ID: Ch10-Number
 TEXT:
 
- "Yeah, she sure did a number on us."
+ "Yeah, she made a proper ruin of us."
 
-"I am not convinced she did," Kate's voice cuts in from the shadow beside me.
+"I am not convinced she did," Kate's voice cuts in from the cold shadows across from me.
 
-"You think this is part of her goodwill tour?" I ask.
+"You think this is part of her goodwill tour?" I ask, angling the phosphor screen toward her boots.
 
-"Listen to what she told the shaman about our collars," Kate says, her tone crisp and analytical. "Lessathi engineering is advanced, but compact explosive runes have strict physical limits. A casing that small could clear a single room, maybe two. It cannot collapse a mountain fortress. Illuna knows how little ogres understand ancient tech. She fed them an outrageous lie to keep them from slitting our throats on the spot."
+"Listen to what she told the shaman about our collars," Kate says, her tone crisp and analytical in the dark. "Lessathi engineering is advanced, but compact explosive runes have strict physical limits. A casing that small could clear a single room, maybe two. It cannot collapse a mountain fortress. Illuna knows how little ogres understand ancient tech. She fed them an outrageous lie to keep them from slitting our throats on the spot."
 
-"A comforting thought, lass," Hadrik says, "but it sounds like wishful thinking. You honestly expect the banshee to waltz down here, throw open the door, and tell us it was all part of the act?"
+"A comforting thought, lass," Hadrik says, shifting his heavy shoulders against the mortar, "but it sounds like wishful thinking. You honestly expect the banshee to waltz down here, throw open the door, and tell us it was all part of the act?"
 
-Heavy boots scrape outside our cell.
+Heavy iron-shod boots scrape against the flagstones outside our cell.
 
 "Halt!" an ogre barks in the hall. "No pass! Turn around or—"
 
-The voice cuts off with a wet snap. Something heavy drops against the wood outside.
+The voice cuts off with a wet, sickening crunch. Something heavy thuds against the oak door, sliding down the planks with a greasy smear.
 
-"Look at that!" Arraka's voice bleeds through the oak planks, shrill with three overlaid cadences of cruel delight. "He was thinking so hard about that sentence, he didn't even notice the blade taking his head off!"
+"Look at that!" Arraka's voice bleeds through the wood, shrill with three overlaid cadences of cruel delight. "He was thinking so hard about that sentence, he didn't even notice the blade taking his head off!"
 
-"Quiet," Illuna snaps.
+"Quiet," Illuna snaps from the corridor.
 
 "Oh, unlock this locket and you'll never hear another peep from me!" Arraka cackles.
 
-The leaden weight in my shoulders lifts. Sensation rushes back into my legs with a prickle of pins and needles. The heavy door groans on rusted iron hinges, swinging inward. 
+The leaden clamp on my nervous system abruptly snaps. Sensation rushes back into my legs with a fierce, burning prickle of pins and needles. The heavy oak door groans on rusted iron hinges, swinging inward. 
 
-Illuna stands in the threshold. Flower's small frame, Flower's red hair, but the face is set in stone and the eyes glow ice-blue.
+Illuna stands in the doorway. Flower's small frame, Flower's red hair, but the face is set in stone and the eyes glow ice-blue.
 
-"On your feet," Illuna says flatly. "The chalice will not steal itself."
+"On your feet," Illuna says flatly, stepping over the pool of dark blood. "The chalice will not steal itself."
 
 choice("Continue", Ch10-Sword, v_current_scene = Ch10-Sword)
 
@@ -62,33 +62,33 @@ TEXT:
 
  "Actually, I'm not so sure that she really betrayed us."
 
-"Have you lost your mind?" Daren snaps.
+"Have you lost your mind?" Daren snaps from the corner, his knuckles white against his knees.
 
-"Think about what she told them," I say, rolling my wrists to shake the stiffness. "She warned the shaman about the five-day deadline, but she never mentioned the proximity tether. If she wanted us dead, she could have told them to drag us twenty paces apart and let the shock finish the job. She bought time so she could wander the compound unhindered."
+"Think about what she told them," I say, rolling my stiff wrists in the green glow of my screen. "She warned the shaman about the five allotted days, but she never mentioned the proximity tether. If she wanted us dead, she could have told them to drag us twenty paces apart and let the shock finish the job. She bought time so she could wander the compound unhindered."
 
-"You are grasping at straws, Barry," Daren mutters. "She probably figured an explosion was cleaner. Starving us out keeps the fort intact."
+"You are grasping at straws, Barry," Daren mutters through clenched teeth. "She probably figured an explosion was cleaner. Starving us out keeps the fort intact."
 
 "Barry is right about the blast," Kate says from the dark. "Lessathi engineering is advanced, but compact explosive runes have strict physical limits. A casing that small could clear a single room, maybe two. It cannot collapse a mountain fortress. Illuna knows how little ogres understand ancient tech. She fed them an outrageous lie to keep them from slitting our throats on the spot."
 
-"A comforting thought, lass," Hadrik says, "but it sounds like wishful thinking. You honestly expect the banshee to waltz down here, throw open the door, and tell us it was all part of the act?"
+"A comforting thought, lass," Hadrik says, shifting his heavy shoulders against the mortar, "but it sounds like wishful thinking. You honestly expect the banshee to waltz down here, throw open the door, and tell us it was all part of the act?"
 
-Heavy boots scrape outside our cell.
+Heavy iron-shod boots scrape against the flagstones outside our cell.
 
 "Halt!" an ogre barks in the hall. "No pass! Turn around or—"
 
-The voice cuts off with a wet snap. Something heavy drops against the wood outside.
+The voice cuts off with a wet, sickening crunch. Something heavy thuds against the oak door, sliding down the planks with a greasy smear.
 
-"Look at that!" Arraka's voice bleeds through the oak planks, shrill with three overlaid cadences of cruel delight. "He was thinking so hard about that sentence, he didn't even notice the blade taking his head off!"
+"Look at that!" Arraka's voice bleeds through the wood, shrill with three overlaid cadences of cruel delight. "He was thinking so hard about that sentence, he didn't even notice the blade taking his head off!"
 
-"Quiet," Illuna snaps.
+"Quiet," Illuna snaps from the corridor.
 
 "Oh, unlock this locket and you'll never hear another peep from me!" Arraka cackles.
 
-The leaden weight in my shoulders lifts. Sensation rushes back into my legs with a prickle of pins and needles. The heavy door groans on rusted iron hinges, swinging inward. 
+The leaden clamp on my nervous system abruptly snaps. Sensation rushes back into my legs with a fierce, burning prickle of pins and needles. The heavy oak door groans on rusted iron hinges, swinging inward. 
 
-Illuna stands in the threshold. Flower's small frame, Flower's red hair, but the face is set in stone and the eyes glow ice-blue.
+Illuna stands in the doorway. Flower's small frame, Flower's red hair, but the face is set in stone and the eyes glow ice-blue.
 
-"On your feet," Illuna says flatly. "The chalice will not steal itself."
+"On your feet," Illuna says flatly, stepping over the pool of dark blood. "The chalice will not steal itself."
 
 choice("Continue", Ch10-Sword, v_current_scene = Ch10-Sword)
 
@@ -96,35 +96,35 @@ choice("Continue", Ch10-Sword, v_current_scene = Ch10-Sword)
 ID: Ch10-Sword
 TEXT:
 
- None of us move right away. Illuna narrows her eyes.
+ None of us move right away. Sensation is still burning through our cramped limbs, and Illuna narrows her eyes at our hesitation.
 
-"The girl told you we had a plan before we walked in here," she says, her voice clipped. "This is the plan. I am breaking you out. Stand up. Standing in open corridors gets people killed."
+"The girl told you we had a plan before we walked in here," she says, her voice clipped and cold. "This is the plan. I am breaking you out. Stand up. Standing in open corridors gets people killed."
 
-"I am not buying it," Daren says, pushing himself off the stone. "Your bargain with the beasts fell through, and now you need us to fight your way out. If this was your plan from the start, you would have briefed us."
+"I am not buying it," Daren says, pushing himself off the stone wall, his plate armor clinking as he forces his stiff knees straight. "Your bargain with the beasts fell through, and now you need us to fight your way out. If this was your plan from the start, you would have briefed us."
 
-"I could not brief you, you idiot," Illuna retorts. "The shaman reads auras. If you were acting, your spiritual pulses would have given the game away in half a second. That is why I put Flower to sleep. I am the only one here who suppresses emotions and aura shifts completely."
+"I could not brief you, you idiot," Illuna retorts, crossing her arms. "The shaman reads spiritual pulses. If you were acting, your fluctuating aura would have given the game away in half a second. That is why I put Flower to sleep. I am the only one here who suppresses emotions and spiritual resonance completely."
 
-"Is that so?" Daren steps toward her, his jaw rigid. "Then wake the girl up. Let her tell us."
+"Is that so?" Daren steps toward her, his jaw rigid with fury. "Then wake the girl up. Let her tell us."
 
-"The stasis spell locks her mind for two days," Illuna says. "Breaking it early causes permanent damage. I had no intention of waiting around for forty-eight hours while you rot."
+"The stasis spell locks her mind for two days," Illuna says. "Breaking it early causes permanent damage. I had no intention of waiting around for forty-eight hours while you rot in the dark."
 
 "How convenient."
 
 Illuna's jaw tightens. "If you prefer the cell, by all means, stay. I will take the others and leave you to the guards."
 
-"Oh, I am coming," Daren says, his voice dropping to a low, dangerous register. "And the moment I have my steel back, you and I are settling this."
+"Oh, I am coming," Daren says, his voice dropping to a low, dangerous growl. "And the moment I have my steel back, you and I are settling this."
 
-"Fascinating," Illuna says. She flicks two fingers. A gentle ripple of water currents lifts our confiscated gear from the hall floor and floats it through the doorway.
+"Fascinating," Illuna says. She flicks two fingers. A gentle ripple of conjured water currents lifts our confiscated gear from the hall floor, gliding through the doorway like floating cargo.
 
-My crossbow and dagger drop neatly into my lap. Kate catches her hunting knife by the hilt without blinking. Illuna's fingers close around Daren's broadsword. Daren lunges forward, but his legs are still clumsy from the lingering paralysis; he stumbles, catching himself against the doorframe.
+My crossbow and hunting dagger drop neatly into my lap. Kate catches her knife by the hilt out of the air without blinking. Illuna's fingers close around the scabbard of Daren's broadsword. Daren lunges forward to snatch it, but his legs are still clumsy from the lingering paralysis; he stumbles, catching his shoulder against the doorframe.
 
 Illuna tracks him with cold blue eyes, then flips the hilt and tosses the broadsword to me.
 
 "Take it," she says. "You possess a functioning brain, and you know him better than I do. Decide for yourself whether he is in any state to hold a weapon."
 
-"Barry..." Daren turns toward me, extending an open hand. "Give me my sword."
+"Barry..." Daren turns toward me, extending an open gauntlet, his face flushed with righteous anger. "Give me my sword."
 
-His eyes have that blind, righteous fury in them. He is not listening to reason; he is ready to gut her in the hallway before we even take three steps.
+His eyes have that blind, lethal certainty in them. He is not listening to reason; he is ready to gut her in the hallway before we even take three steps.
 
 choice("Give him the sword", Ch10-Give, v_current_scene = Ch10-Give)
 choice("Only give him the sword if he swears to not attack Illuna with it", Ch10-Swear, v_current_scene = Ch10-Swear)
@@ -191,23 +191,25 @@ choice("Continue", Ch10-Apologizing, v_current_scene = Ch10-Apologizing)
 ID: Ch10-Swear
 TEXT:
 
- "On one condition," I say, keeping the crossguard out of his reach. "Give your word you will not use it on Illuna."
+ "On one condition," I say, planting the crossguard firmly against my ribs and keeping the steel out of his reach. "Give your word you will not draw it on Illuna."
 
-"Again with this?" Daren says. "Don't tell me that you actually believe her lies?"
+"Confound it, Barry!" Daren's jaw tightens, the green phosphor glow from my screen catching the hard lines of his forehead scar. "You honestly believe this farce?"
 
-"It doesn't matter what I think," I say. "Either way you look at it, this isn't the time to be fighting each other. Now, are you going to swear it or not?"
+"It doesn't matter what I believe," I say, meeting his glare. "We are in the belly of an ogre stronghold with collars ticking on our necks. You want this blade? Swear it. Or it stays behind my back."
 
-Daren frowns at me.
+Daren glares at the weapon, his chest heaving under his plate armor as he wrestles with his fury.
 
-"Fine, I'll swear it!" he says. "But only until we're all at a safe distance from the ogre fort."
+"Fine," he grinds out through clenched teeth. "I swear it. Not a finger laid on her until we are miles clear of these walls."
 
-"Good enough for me," I say, and I toss him the sword.
+"Good enough for me," I say, tossing the hilt to his waiting gauntlet.
 
-As the five of us exit our cell, Illuna makes a gesture with her right hand, and a stone dislodges itself from a nearby wall. Daren's shield then comes floating out of the hole in the wall, and into Daren's hand.
+We step through the threshold into the torchlit corridor, edging past the headless ogre slumped against the masonry. As Daren belts his scabbard, Illuna raises her right hand.
 
-"I don't understand," Daren says. "Why did the ogres place my shield inside of a wall?"
+A loose brick in the corridor wall pops free with a dry grind of mortar. Daren's heavy kite shield floats smoothly out of the dark cavity, drifting across the gap into his waiting grip.
 
-"They didn't," Illuna says. "It was stashed in the same place as all the other weapons. I hid it here before unlocking your cell to make sure I had the upper hand, in case you decided to challenge me again, like you did last night. Now, then, if we're all done here, I suggest we get going. I already found out where they're holding the chalice."
+Daren stares down at the painted iron in disbelief. "Why would the ogres brick my shield into a hallway wall?"
+
+"They did not," Illuna says, not even glancing back as she checks the passage ahead. "It was stashed in the armory beside your steel. I hid it in the masonry before opening your cell to ensure you lacked the leverage to force a duel. Now, if we are finished wasting time, the treasury lies two levels below. Move."
 
 choice("Continue", Ch10-Apologizing, v_current_scene = Ch10-Apologizing)
 
@@ -252,21 +254,21 @@ TEXT:
 
  "Why do the dots have different colors?"
 
-"Blue are mages," Illuna says. "Red are line warriors, green is the shaman, and the purple marker near the central shaft is the captain."
+"Blue are mages," Illuna says, her fingers tracing the floating light. "Red are line warriors, the green pulse on the eastern ramp is the shaman, and the large purple marker near the central shaft is the captain."
 
-"Arraka distinguishes ranks by aura alone?" Kate asks.
+"Arraka distinguishes military ranks by aura alone?" Kate asks, stepping close to study the rotating light.
 
-"Spiritual mass and elemental affinities leave distinct fingerprints," Illuna says. "The layout is clear. The treasury sits on the lowest subterranean tier. We move now."
+"Spiritual mass and elemental affinities leave distinct fingerprints," Illuna says. "A novice can tell a brute from a channeler. The layout is clear. The treasury sits on the lowest subterranean tier, beneath the barracks. We move now."
 
-"Hold on," Hadrik rumbles, crossing his thick arms. "Before we charge into the depths, clear something up for me. Back at the gate, the shaman called you 'Illuna of the sacred woods massacre.' Said you butchered hundreds of forest guardians. What was he talking about?"
+"Hold on," Hadrik rumbles, crossing his thick arms, the blue light casting long shadows across his braided beard. "Before we charge into the depths, clear something up for me. Back at the gate, the shaman called you 'Illuna of the sacred woods massacre.' Said you butchered hundreds of forest guardians. What was he talking about?"
 
 "Oh, let me tell that one!" Arraka's voice bubbles up from the gold locket, dripping with vicious glee.
 
 "Arraka, hold your tongue," Illuna warns.
 
-"Or what?" Arraka mocks. "You'll pout?"
+"Or what?" Arraka mocks, her three voices chiming in unison. "You'll pout?"
 
-Illuna stays silent, her jaw set.
+Illuna stays silent, her jaw set into iron.
 
 "That's what I thought!" Arraka sneers. "A few centuries back, out of the sheer kindness of my blackened heart, I took three newborn banshees under my wing. Sidara, Unuri, and our dear little Illuna here."
 
@@ -286,17 +288,17 @@ TEXT:
 
  "Can't Arraka maintain the hologram if you close the amulet?"
 
-"She claims breaking line-of-sight disrupts her focus," Illuna says, her tone flat. "A lie, but she will drop the construct the instant the clasp shuts. For now, the map is accurate. The treasury sits on the lowest subterranean tier. Follow this path."
+"She claims breaking line-of-sight disrupts her focus," Illuna says, her tone flat. "A lie, but she will drop the construct the instant the clasp shuts. For now, the map is accurate. The treasury sits on the lowest subterranean tier, beneath the barracks. Follow this path."
 
-"Hold on," Hadrik rumbles, crossing his thick arms. "Before we charge into the depths, clear something up for me. Back at the gate, the shaman called you 'Illuna of the sacred woods massacre.' Said you butchered hundreds of forest guardians. What was he talking about?"
+"Hold on," Hadrik rumbles, crossing his thick arms, the blue light casting long shadows across his braided beard. "Before we charge into the depths, clear something up for me. Back at the gate, the shaman called you 'Illuna of the sacred woods massacre.' Said you butchered hundreds of forest guardians. What was he talking about?"
 
 "Oh, let me tell that one!" Arraka's voice bubbles up from the gold locket, dripping with vicious glee.
 
 "Arraka, hold your tongue," Illuna warns.
 
-"Or what?" Arraka mocks. "You'll pout?"
+"Or what?" Arraka mocks, her three voices chiming in unison. "You'll pout?"
 
-Illuna stays silent, her jaw set.
+Illuna stays silent, her jaw set into iron.
 
 "That's what I thought!" Arraka sneers. "A few centuries back, out of the sheer kindness of my blackened heart, I took three newborn banshees under my wing. Sidara, Unuri, and our dear little Illuna here."
 
@@ -344,25 +346,25 @@ choice("Continue", Ch10-Treasury, v_current_scene = Ch10-Treasury)
 ID: Ch10-Treasury
 TEXT:
 
- A heavy silence hangs in the hall.
+ A heavy silence hangs in the hall, thick with stone dust and the stink of unwashed ogre barracks.
 
-"Fine, fine," Arraka grumbles, and the glowing blue blueprint flares back to life between Illuna's hands, its moving dots intact. "No sense of drama. None at all."
+"Fine, fine," Arraka grumbles from the unlatched pendant, and the glowing blue blueprint flares back to life between Illuna's hands, its moving dots drifting along the corridors. "No sense of drama. None at all."
 
 Illuna turns her gaze on Hadrik. Her eyes are dark, hard slits.
 
 "Does that satisfy your curiosity, dwarf? Or would you prefer a closer account?"
 
-Hadrik shifts his weight, rubbing the back of his neck. "No. That's plenty."
+Hadrik shifts his weight, rubbing the back of his neck with a thick palm. "No. That's plenty."
 
-Illuna spins on her heel and leads us down the spiral stone stairs.
+Illuna spins on her heel and leads us down the narrow spiral stairs, stepping over damp masonry.
 
-With Arraka's projection lighting the way, we slip past patrol intersections like shadows. The few guards stationed at choke points never see what hits them. Illuna works with brutal economy: using Flower's small frame and acrobatic agility, she scales the damp masonry, hooks her knees over timber ceiling beams, and drops water blades from above with surgical precision. Clean incisions, zero noise. We drag each carcass into storage alcoves and keep descending.
+With Arraka's projection lighting the turns, we slip past patrol intersections like shadows. The few guards stationed at choke points never see what hits them. Illuna works with brutal economy: using Flower's small frame and circus acrobatics, she scales the damp stone, hooks her knees over timber ceiling beams, and drops water blades from above with surgical precision. Clean incisions, zero noise. We drag each heavy carcass into storage alcoves and keep descending into the cold subterranean dark.
 
-Twenty minutes later, we reach the heavy reinforced iron doors of the lowest level. Two guards slump dead before they can reach for their horns.
+Twenty minutes later, we reach the reinforced iron-banded doors of the lowest tier. Two sentries slump dead against the wood before their fingers reach their horn cords.
 
 Beyond the threshold lies the stronghold's vault.
 
-Torches illuminate mounds of gold coins, silver ingots, and brass-bound chests overflowing with uncut gems. Without my enchanted backpack, I cannot haul out a fortune, but diamonds and cut rubies take up almost no room in a tunic pocket. In any port market on the Western Continent, a handful of those stones guarantees comfortable living for years. Larceny against ogres who threw us in a dungeon feels less like theft and more like standard hazard compensation.
+Torches in iron sconces illuminate mounds of tarnished gold coins, silver trade bars, and brass-bound chests overflowing with uncut gems. Without my enchanted backpack, I cannot haul out a fortune, but cut diamonds and deep rubies take up almost no room in a coat lining. In any port market on the Western Continent, a handful of those stones guarantees comfortable living for years. Larceny against ogres who threw us into a paralysis cell feels less like theft and more like standard hazard compensation.
 
 choice("Take the gems", Ch10-Ambush, v_current_scene = Ch10-Ambush, v_ch10_gems = 1)
 choice("Don't touch anything", Ch10-Ambush, v_current_scene = Ch10-Ambush, v_ch10_gems = 0)
@@ -374,19 +376,19 @@ TEXT:
 #if(v_ch10_gems == 1) {
  I pry open a small brass coffer and slip a dozen cut diamonds and deep red rubies into my coat.
 
-"Barry, really?" Daren mutters, scanning the shadows. "We are here for the chalice, not to loot like common thieves."
+"Barry, really?" Daren mutters, scanning the perimeter with his shield half-raised. "We are here for the chalice, not to loot like common thieves."
 
-"There are tons of gold in this room," I whisper back, patting the pocket flat. "They will not miss a handful of rocks."
+"There are tons of bullion in this room," I whisper back, patting the pocket flat against my ribs. "They will not miss a handful of rocks."
 
-I hurry over to the center of the chamber, where the others stand around a black marble pedestal. Resting atop it is an ornate golden goblet, engraved with ancient script.
+I hurry over to the center of the chamber, where the others stand around a black marble pedestal. Resting atop it is an ornate golden goblet, engraved with ancient lessathi script.
 
-"Quiet," Illuna whispers, her eyes shining bright elven blue in Flower's small face. The glowing hologram of the stronghold hovers between her palms. "The purple dot is the captain. The red ones are his guard. They are sitting right behind that wall."
+"Quiet," Illuna whispers, her eyes shining bright ice-blue in Flower's small face. The glowing hologram of the stronghold hovers between her palms. "The purple dot is the captain. The red ones are his guard. They are sitting right behind that wall."
 
-"That room isn't on the library plans," Kate murmurs.
+"That room isn't on the library plans," Kate murmurs, her hand on her knife hilt.
 
 "A hidden chamber," Illuna says. Her tone is flat, clinical. "No magical wards on the pedestal. Watch the corners."
 
-"A goblet resting out in the open like that screams trap," Daren mutters, raising his shield.
+"A goblet resting out in the open like that screams trap," Daren mutters, stepping into a guard stance.
 
 "Is it even genuine?" Hadrik asks. "Could be a gilded decoy."
 
@@ -400,15 +402,15 @@ She lifts the chalice from the pedestal, dumping the water onto the flagstones. 
 
 }
 #if(v_ch10_gems == 0) {
- I leave the coffers alone and keep my hands clear. We step forward together, gathering around a black marble pedestal in the center of the vault. Resting atop it is an ornate golden goblet, engraved with ancient script.
+ I leave the coffers alone and keep my hands clear. We step forward together, gathering around a black marble pedestal in the center of the vault. Resting atop it is an ornate golden goblet, engraved with ancient lessathi script.
 
-"Quiet," Illuna whispers, her eyes shining bright elven blue in Flower's small face. The glowing hologram of the stronghold hovers between her palms. "The purple dot is the captain. The red ones are his guard. They are sitting right behind that wall."
+"Quiet," Illuna whispers, her eyes shining bright ice-blue in Flower's small face. The glowing hologram of the stronghold hovers between her palms. "The purple dot is the captain. The red ones are his guard. They are sitting right behind that wall."
 
-"That room isn't on the library plans," Kate murmurs.
+"That room isn't on the library plans," Kate murmurs, her hand on her knife hilt.
 
 "A hidden chamber," Illuna says. Her tone is flat, clinical. "No magical wards on the pedestal. Watch the corners."
 
-"A goblet resting out in the open like that screams trap," Daren mutters, raising his shield.
+"A goblet resting out in the open like that screams trap," Daren mutters, stepping into a guard stance.
 
 "Is it even genuine?" Hadrik asks. "Could be a gilded decoy."
 
@@ -567,7 +569,7 @@ TEXT:
 
  The beam gives a loud, sharp crack.
 
-Illuna dives over the ledge without hesitation. She ricochets off a vertical timber upright, kicks off the sheer granite wall, and drops thirty feet through the dark in three fluid rebounds. She catches a protruding ledge with one hand and reaches out toward Daren with the other.
+Illuna dives over the ledge without hesitation. She ricochets off a vertical timber upright, kicks off the sheer granite wall, and drops thirty feet through the dark in three fluid rebounds. She catches a protruding timber with one hand and reaches out toward Daren with the other.
 
 "Take my hand!" she commands.
 
@@ -577,19 +579,21 @@ The timber strut snaps with the sound of a bowshot.
 
 "Take it, you idiot!"
 
-Daren's grip tears free. He plummets. Illuna launches herself horizontally from the rock face, wrapping her arm around his armored collar as they both drop into the dark.
+Daren's grip tears free. He plummets into the black. Illuna launches herself horizontally from the rock face, clamping a fist around his armored gorget as they both tumble into the void.
 
-A pulse of brilliant white light flares deep in the shaft.
+A sharp, blinding flash of white light tears through the shaft.
 
-Before they hit the jagged rocks below, space folds with a sharp chime. Illuna and Daren materialize flat on the stone floor beside us, skidding to a halt on the safe ledge.
+She does not fold them safely back to our ledge. She burns her single daily teleport on a short, violent horizontal yank—just enough to alter his falling trajectory across the chasm toward the opposite rock shelf.
+
+Daren slams violently into Hadrik's locked, braced stance on the far ledge. The dwarf grunts as three hundred pounds of armored white mage crashes into his ribcage, but Hadrik's boots stay dug into the stone seams. He absorbs the bone-jarring impact with a roar, his left arm pinning Daren against the cliff face while his right forearm keeps the ogre captain's massive club locked at bay. Illuna drops onto the rock shelf beside them, rolling across the gravel to kill her momentum.
 
 "Impossible!" the captain bellows across the gap, swinging his club in a fury.
 
-"What's wrong?" Hadrik taunts, driving a shoulder into the ogre's ribs. "Thought you were handling us alone!"
+"What's wrong?" Hadrik taunts through clenched teeth, his boots trenching the stone. "Thought you were handling us alone!"
 
-"Can you strike him from range?" Rose asks Illuna urgently.
+"Can you strike him from range?" Rose asks Illuna urgently from our side of the chasm.
 
-"Full anti-magic plate," Illuna says, breathing hard. "Water blades disperse on contact. He is too heavy to drag with a whip, and wide-area blasts will incinerate the dwarf. Hadrik has to break the armor physically."
+"Full anti-magic plate," Illuna says, gasping for breath as she scrambles upright. "Water blades disperse on contact. He is too heavy to drag with a whip, and wide-area blasts will incinerate the dwarf. Hadrik has to break the armor physically."
 
 "Hey, dwarf!" Arraka's voice shrills from the locket, cutting through the clang of steel. "Remember the ogre weak spot at the base of the neck? Use that secret technique I taught you!"
 
@@ -615,7 +619,7 @@ Hadrik and Arraka both burst out laughing.
 
 "There is no secret technique, you oversized melon!" Arraka howls. "I lied so you would leave your ribs wide open!"
 
-"Always check your flanks, big guy," Hadrik says cheerfully.
+"Always check your flanks, giant," Hadrik says cheerfully.
 
 The captain struggles to raise a bloodied fist. "Not... over... dwarf. I will tear your throat out and—"
 
@@ -633,7 +637,7 @@ The massive body goes limp and rolls into the dark pit below. Hadrik leaps acros
 
 "Not you!" Daren points a trembling finger at Illuna. "Her!"
 
-Illuna dusts off her trousers, unimpressed. "Because I teleported you? Would you have preferred the three-hundred-foot drop?"
+Illuna dusts off her trousers, unimpressed. "Because I burned my only daily escape to change your line? Would you have preferred the three-hundred-foot drop?"
 
 "My death would have solved all your problems!" Daren shouts, his face crimson. "No one would have questioned it! Why pull me out?"
 
@@ -652,31 +656,31 @@ TEXT:
 
  "How do you know that the caverns below us won't lead to a dead end?"
 
-"We copied the mine schematics from the archives," Illuna says. "Arraka, expand the projection."
+"We copied the mine schematics from the archives," Illuna says, her fingers adjusting the floating light. "Arraka, expand the projection."
 
-"Hold your horses," Arraka grunts.
+"Patience, little girl," Arraka grunts from the pendant.
 
-The glowing blueprint shifts. A lower subterranean network unrolls beneath the fortress layout, displaying a long, winding tunnel cutting straight through the base of the mountain toward daylight. Clustered near the outer entrance are four blue markers.
+The glowing blueprint unrolls downward, charting a lower subterranean tunnel that cuts straight through the mountain's root toward open air. Clustered near the distant outer mouth are four blue markers.
 
-"Guards at the perimeter," Illuna notes. "That confirms the passage is clear of cave-ins."
+"Sentries at the perimeter," Illuna notes. "That confirms the passage is clear of structural cave-ins."
 
-"How do we reach the floor with the main scaffolding destroyed?" Kate asks.
+"How do we reach the floor with the main scaffolding destroyed?" Kate asks, looking into the black void where the captain fell.
 
-"During the drop, I spotted secondary rigging beneath the adjacent storeroom," Illuna says. "The timber looked intact."
+"During the drop, I spotted secondary rigging beneath the adjacent storeroom," Illuna says. "The timber was dry and intact."
 
 "Can't you teleport us down?" Hadrik asks. "Like you did with Daren?"
 
-"Once per day," Illuna says. "Same as the golden cage. One passenger, short range. It has no tactical utility for a full retreat."
+"Once per day," Illuna says flatly. "Same as the golden cage. One passenger, short horizontal yank. It has zero utility for a party retreat."
 
-Daren shifts his grip on his broadsword, looking away. "So you spent your only escape spell on me."
+Daren shifts his grip on his broadsword, staring at the floorboards, his jaw tight. "So you spent your only escape spell on me."
 
-"It was the optimal call in the moment," Illuna says dismissively. "Do not flatter yourself."
+"It was the optimal tactical call in the moment," Illuna says dismissively. "Do not flatter yourself."
 
-Hadrik steps up to the dividing stone wall. "Stand back." He plants his feet and drives a heavy shoulder into the masonry. Mortar gives way with a grinding crunch, opening a jagged breach into the neighboring vault.
+Hadrik steps up to the dividing stone wall. "Stand back." He plants his thick boots, drops his center of gravity, and drives a heavy shoulder into the masonry. Mortar groans and gives way with a thunderous crunch, tearing a jagged breach into the neighboring chamber.
 
-Beyond the rubble, the adjacent timber scaffolding clings to the sheer granite wall. Rungs and platforms descend into the gloom, weathered but solid.
+Beyond the dust and rubble, ancient timber scaffolding clings to the sheer granite cliff. Rungs and platforms descend three hundred feet into the gloom, weathered but anchored.
 
-"Move," Daren says, stepping through the gap. "Before the shaman cuts off the route."
+"Move," Daren says, stepping through the breach. "Before the shaman cuts off the descent."
 
 choice("Continue", Ch10-Messenger, v_current_scene = Ch10-Messenger)
 
@@ -686,31 +690,31 @@ TEXT:
 
  "How are we going to get all the way down there with the scaffolding broken?"
 
-"During the drop, I spotted secondary rigging beneath the adjacent storeroom," Illuna says. "The timber looked intact."
+"During the drop, I spotted secondary rigging beneath the adjacent storeroom," Illuna says, pointing toward the dividing wall. "The timber was dry and intact."
 
 "Can't you teleport us down?" Hadrik asks. "Like you did with Daren?"
 
-"Once per day," Illuna says. "Same as the golden cage. One passenger, short range. It has no tactical utility for a full retreat."
+"Once per day," Illuna says flatly. "Same as the golden cage. One passenger, short horizontal yank. It has zero utility for a party retreat."
 
-Daren shifts his grip on his broadsword, looking away. "So you spent your only escape spell on me."
+Daren shifts his grip on his broadsword, staring at the floorboards, his jaw tight. "So you spent your only escape spell on me."
 
-"It was the optimal call in the moment," Illuna says dismissively. "Do not flatter yourself."
+"It was the optimal tactical call in the moment," Illuna says dismissively. "Do not flatter yourself."
 
-"Are we sure the mines lead outside?" Kate asks. "A dead end traps us at the bottom of a pit."
+"Are we certain the mine tunnels lead outside?" Kate asks. "A dead end traps us at the bottom of a pit."
 
 "We copied the mine schematics from the archives," Illuna says. "Arraka, expand the projection."
 
-"Hold your horses," Arraka grunts.
+"Patience, little girl," Arraka grunts from the pendant.
 
-The glowing blueprint shifts. A lower subterranean network unrolls beneath the fortress layout, displaying a long, winding tunnel cutting straight through the base of the mountain toward daylight. Clustered near the outer entrance are four blue markers.
+The glowing blueprint unrolls downward, charting a lower subterranean tunnel that cuts straight through the mountain's root toward open air. Clustered near the distant outer mouth are four blue markers.
 
-"Guards at the perimeter," Illuna notes. "That confirms the passage is clear of cave-ins."
+"Sentries at the perimeter," Illuna notes. "That confirms the passage is clear of structural cave-ins."
 
-Hadrik steps up to the dividing stone wall. "Stand back." He plants his feet and drives a heavy shoulder into the masonry. Mortar gives way with a grinding crunch, opening a jagged breach into the neighboring vault.
+Hadrik steps up to the dividing stone wall. "Stand back." He plants his thick boots, drops his center of gravity, and drives a heavy shoulder into the masonry. Mortar groans and gives way with a thunderous crunch, tearing a jagged breach into the neighboring chamber.
 
-Beyond the rubble, the adjacent timber scaffolding clings to the sheer granite wall. Rungs and platforms descend into the gloom, weathered but solid.
+Beyond the dust and rubble, ancient timber scaffolding clings to the sheer granite cliff. Rungs and platforms descend three hundred feet into the gloom, weathered but anchored.
 
-"Move," Daren says, stepping through the gap. "Before the shaman cuts off the route."
+"Move," Daren says, stepping through the breach. "Before the shaman cuts off the descent."
 
 choice("Continue", Ch10-Messenger, v_current_scene = Ch10-Messenger)
 
@@ -718,25 +722,25 @@ choice("Continue", Ch10-Messenger, v_current_scene = Ch10-Messenger)
 ID: Ch10-Messenger
 TEXT:
 
- We scramble down the timber ladders in tight formation, boots thudding against damp rungs. The drop takes three tense minutes, but the structure holds. At the bottom, the cold air smells of sulfur and wet granite. Arraka's floating projection casts a crisp blue radiance over the jagged mine floor, charting every bend in the rock.
+ We scramble down the timber ladders in tight formation, boots thudding against damp, frost-rimed rungs. The drop takes three tense minutes of clinging to rotting pine, the three-hundred-foot void yawning beneath our heels. At the bottom, the cold air smells of sulfur, stagnant water, and wet granite. Arraka's floating projection casts a crisp blue radiance over the jagged mine floor, charting every bend in the rock.
 
 "One of the shaman's mages just vanished from the upper floors," Kate whispers, pointing at the blueprint. "A new blue dot appeared at the tunnel mouth."
 
-"A runner," Illuna says. "Alerting the garrison."
+"A runner," Illuna says, her voice low. "Alerting the garrison."
 
-"And they are cloaking," Arraka notes with a sneer. "Invisibility against me. How quaint."
+"And they are cloaking," Arraka notes with a sneer. "Invisibility against my senses. How quaint."
 
-"Can we fight them if we cannot see them?" Rose asks, clutching her staff.
+"Can we fight them if we cannot see them?" Rose asks, clutching her staff close.
 
-"The cloaking spell shatters on physical contact or spellcasting," Illuna says. "It is an ambush mechanism, nothing more. Once steel clashes, they are visible."
+"The cloaking spell shatters on physical impact or spellcasting," Illuna says. "It is an ambush mechanism, nothing more. Once steel clashes, they are visible."
 
-Behind us, a cluster of red markers swarms the upper scaffolding, clambering down the ladders in pursuit. The green marker—the shaman—follows close behind.
+Behind us, a swarm of red markers pours onto the upper scaffolding, clambering down the ladders in pursuit. The green marker—the shaman—follows close behind.
 
-"They found the breach," Hadrik grunts, loosening his dagger. "We have maybe two minutes before they drop onto our backs."
+"They found the breach," Hadrik grunts, loosening his dagger in its sheath. "We have maybe two minutes before they drop onto our backs."
 
-"Hold," Arraka's voice cuts in sharply from the locket. "Stop walking. Something is wrong."
+"Hold," Arraka's voice cuts in sharply from the locket, three voices barking at once. "Stop walking. Something is wrong."
 
-"We cannot stop!" Daren snaps. "The entire stronghold is on those ladders!"
+"We cannot stop!" Daren snaps, broadsword drawn. "The entire stronghold is on those ladders!"
 
 "I need five seconds, you thick-skulled ape!" Arraka snarls.
 
@@ -744,9 +748,9 @@ Behind us, a cluster of red markers swarms the upper scaffolding, clambering dow
 
 "Unlikely," Hadrik says. "This is an emergency escape tunnel. Ogre garrisons do not booby-trap their own retreat line."
 
-"And magical runes take time to etch," Daren adds. "A high-level ward should pulse against my aura."
+"And magical runes take time to etch," Daren adds. "A ward of any real strength should pulse against my aura."
 
-"The vanguard is halfway down the shaft," Kate warns, her hand on her hilt. "We are out of time."
+"The vanguard is halfway down the shaft," Kate warns, her hand on her knife hilt. "We are out of time."
 
 choice(""We could at least wait until the ogres reach the cave floor."", Ch10-Wait, v_current_scene = Ch10-Wait)
 choice(""Screw Arraka! We can't afford to waste any more time here."", Ch10-Waste, v_current_scene = Ch10-Waste)
@@ -764,7 +768,7 @@ set(v_is_dead,0) if (v_premonition >= 3)
 
 "Agreed," Daren says. "Run!"
 
-We sprint down the dark corridor, boots splashing through shallow puddles. 
+We sprint down the dark corridor, boots splashing through shallow mineral puddles. 
 
 A terrible knot of dread twists in my gut. Arraka has no love for us, but she hates dying inside a crushed locket even more. If she called a halt, she sensed something real.
 
@@ -796,7 +800,7 @@ Daren steps forward, his brow furrowed. "I sense nothing."
 
 "Because the shaman disguised the magical signature beneath the earth's natural resonance," Arraka mocks. "Walk into it if you doubt me. I'd love to watch you pop!"
 
-Daren raises his enchanted broadsword. The blade hums with a faint white luminescence as he traces three intersecting geometric arcs through the air, severing the invisible ley threads anchored to the floor.
+Daren raises his broadsword. The blade hums with a faint white luminescence as he traces three intersecting geometric arcs through the air, severing the invisible ley threads anchored to the floor.
 
 A sharp crack echoes through the tunnel, like snapping dry kindling. A thin wisp of acrid ozone curls up from the stone, and the blue aura dissolves.
 
@@ -850,7 +854,7 @@ TEXT:
 
  "Modest as ever," Arraka sneers, shifting the blue dot on her projection to a sharp green. "You masked your own aura with an anchor relic to slide past my senses. Quite the elaborate trick for an overgrown barbarian."
 
-"An artifact worn by a decoy," the shaman rumbles, baring his teeth.
+"An artifact worn by a decoy," the shaman rumbles, baring his tusks.
 
 "Clever," Arraka says, swapping the original green marker back to blue.
 
@@ -860,7 +864,9 @@ TEXT:
 
 He raises his gnarl-wood staff. Five ogre mages step past his flanks, casting clustered fireballs in unison.
 
-Hadrik and Daren step into the breach. Hadrik drives his aura-reinforced fists into the leading two fireballs, deflecting them clean back into the ogres. Daren plants his boots, raising his enchanted blade vertically; the steel drinks the remaining three fireballs in a rush of white sparks, the crossguard glowing white-hot. With a heavy two-handed slash, Daren unleashes the absorbed fire in a roaring sheet of flame that engulfs the five mages, turning them to ash in seconds.
+Hadrik and Daren step into the breach. Hadrik drives his aura-reinforced fists into the leading two fireballs, deflecting them clean back into the ogres. Daren plants his boots, raising his enchanted blade vertically; the steel drinks the remaining three fireballs in a rush of white sparks, the crossguard glowing white-hot and searing through his leather gauntlet linings. Veins bulge across his forehead scar as he holds the roaring thermal pressure.
+
+With a heavy two-handed roar, Daren unleashes the absorbed fire in a devastating return-slash. A sheet of white-hot flame engulfs the five mages, turning them to ash in seconds. Daren drops his point, his arms shaking from the kinetic backlash, smoke curling from his scorched gauntlets.
 
 "Insolent vermin," the shaman growls, his eyes narrowing.
 
@@ -885,15 +891,15 @@ TEXT:
 
  "So, what's happening in the real world, right now? Does the shaman plan to kill us while we're trapped in here?"
 
-"No," Illuna says. "Time dilates within an ethereal pocket. A full year here elapses in less than a second outside. And the shaman is trapped in this realm alongside us."
+"No," Illuna says, her breath turning to white mist in the freezing air. "Time dilates within an ethereal pocket. A full year within this construct elapses in less than a single second on the material plane. And the shaman is bound inside this realm alongside us."
 
-"So it is a dream?" Hadrik asks, checking his knuckles. "We wake up if we take a fatal hit?"
+"So it's a dream?" Hadrik asks, flexing his thick knuckles in the cold. "We wake up if we take a killing blow?"
 
-"This is not a dream," Illuna says sharply. "Physical damage transfers directly to your earthen body. If you die here, your heart stops in the mines. Reconnecting to the material plane requires every soul in the realm to hold the exact memory of the cavern with absolute conviction. The shaman will never willingly align his intent. To escape, we have to kill him."
+"This is not a dream," Illuna snaps, her voice cutting like glass. "Spiritual damage transfers directly to your earthen nervous system. If you die here, your heart stops on the mine gravel. Returning to the material plane requires every soul in the space to hold the exact memory of the cavern with absolute conviction. The shaman will never willingly align his intent. To escape, we have to put steel through him."
 
-"Does he control this world?" Daren asks, scanning the pine line. "Like a lesser deity?"
+"Does he command this world?" Daren asks, scanning the dark wall of pines. "Like a minor deity?"
 
-"He built the boundaries, but he is bound by its laws," Illuna says. "He possesses no spells beyond whatever charges remain in his staff. If he is not attacking us directly, he is waiting for his construct to hunt us."
+"He established the initial parameters, but he is bound by its physics," Illuna says. "He possesses no spells beyond whatever charges remain stored in his staff. If he is not attacking us directly, he is waiting for his construct to hunt us down."
 
 choice("Continue", Ch10-Wolves, v_current_scene = Ch10-Wolves)
 
@@ -903,17 +909,17 @@ TEXT:
 
  "How do we get out of here?"
 
-"Can we just pinch ourselves?" Hadrik asks. "Break the trance?"
+"Can we just pinch ourselves?" Hadrik asks, rubbing his bearded chin. "Break the trance?"
 
-"This is not a dream," Illuna says sharply. "Physical damage transfers directly to your earthen body. If you die here, your heart stops in the mines. Reconnecting to the material plane requires every soul in the realm to hold the exact memory of the cavern with absolute conviction. The shaman will never willingly align his intent. To escape, we have to kill him."
+"This is not a dream," Illuna snaps, her voice cutting like glass. "Spiritual damage transfers directly to your earthen nervous system. If you die here, your heart stops on the mine gravel. Returning to the material plane requires every soul in the space to hold the exact memory of the cavern with absolute conviction. The shaman will never willingly align his intent. To escape, we have to put steel through him."
 
-"And our real bodies?" Daren asks. "Are the guards slaughtering us while we stand frozen?"
+"And our real bodies?" Daren asks, broadsword at the ready. "Are the ogres butchering us while we stand frozen in the shaft?"
 
-"Time dilates within an ethereal construct," Illuna says. "A full year here amounts to a single second on the earthen plane. We have all the time we need. But we cannot leave until the shaman is dead."
+"Time dilates within an ethereal construct," Illuna says, her breath misting. "A full year here elapses in less than a single second on the material plane. We have all the time we need. But we cannot leave until the shaman is dead."
 
 "Does he command this realm?" Hadrik asks.
 
-"He constructed the space, but he is bound by its physics," Illuna says. "No spells beyond the charges in his staff. If he retreated, he is letting something else do his killing."
+"He established the initial parameters, but he is bound by its physics," Illuna says. "No spells beyond the charges in his staff. If he retreated, he is letting his beasts do the killing."
 
 choice("Continue", Ch10-Wolves, v_current_scene = Ch10-Wolves)
 
@@ -921,23 +927,23 @@ choice("Continue", Ch10-Wolves, v_current_scene = Ch10-Wolves)
 ID: Ch10-Wolves
 TEXT:
 
- Low, vibrating growls ripple through the pines.
+ Low, vibrating growls ripple through the frozen timber.
 
-From the dark tree line, dozens of glowing red eyes cut through the falling snow. Massive wolves emerge onto the white clearing—coal-black coats, bristling hackles, their shoulders standing level with my chest.
+From the dark tree line, dozens of glowing red eyes cut through the falling snow. Massive wolves emerge into the white clearing—coal-black coats, bristling hackles, their shoulders standing level with my chest. The scent of predator breath and wet fur cuts through the freezing air.
 
-Five of them burst into a full gallop across the snow.
+Five of them burst into a full gallop across the snow drifts.
 
-Daren and Hadrik step forward to form a wall. Daren catches the leading beast on his kite shield, spinning to take its head off with a clean horizontal cleave. Hadrik steps inside a lunging bite, hammering his bare fist straight into the second wolf's jaw; teeth splinter with a sickening crack, and the animal collapses with a choked whine.
+Daren and Hadrik step forward to form an iron wall. Daren catches the leading beast on the boss of his kite shield, spinning with the impact to take its head off with a clean horizontal cleave. Hadrik steps inside a lunging bite, hammering his bare fist straight into the second wolf's jaw; bone and teeth shatter with a wet crunch, and the animal collapses with a choked whine into the powder.
 
-The third wolf veers toward Kate. She meets it without backing up, dipping beneath the jaws with fluid, predatory stillness. Her steel knife flashes once across the exposed throat. Black blood sprays across the snow as the beast crashes dead into a drift.
+The third wolf veers toward Kate. She meets it without backing up, dipping beneath the jaws with fluid, predatory stillness. Her hunting knife flashes once across the exposed throat. Black blood sprays across the snow as the beast crashes dead into a drift.
 
-Her eyes have zero fear—only the cold, lethal focus of a hunter who survived alone in a jungle as a child by becoming more dangerous than the beasts hunting her.
+Her eyes have zero fear—only the cold, lethal focus of a hunter who survived alone in the northern wilds as a child by becoming more dangerous than the predators tracking her.
 
-Illuna somersaults over the fourth wolf's rush, landing lightly atop a snowbank. Daren closes the gap and drives his broadsword through its spine.
+Illuna somersaults over the fourth wolf's rush, landing lightly atop a frozen boulder. Daren closes the gap and drives his broadsword down through its spine.
 
-"The shaman ran," Hadrik says, pointing toward a single set of heavy boot prints cutting deep into the snow toward the western ridge. "He let loose his pack and pulled back so they wouldn't turn on him."
+"The shaman ran," Hadrik says, pointing toward a single set of heavy boot prints cutting deep into the snow toward the western ridge. "He unleashed his pack and pulled back so they wouldn't turn on him."
 
-"If we move as a group, the pack surrounds us in the open," Daren says, blade dripping red. "One of us tracks the shaman and finishes him before he recharges his staff. The rest hold the line here and draw the wolves."
+"If we move as a group, the pack surrounds us in the open," Daren says, his blade dripping dark gore. "One of us tracks the shaman and finishes him before he recharges his staff. The rest hold the line here and draw the wolves."
 
 choice("Volunteer to go after the shaman", Ch10-Volunteer, v_current_scene = Ch10-Volunteer, v_ch10_kate_scratched = 0)
 choice("Let someone else volunteer for the job", Ch10-Someone-else, v_current_scene = Ch10-Someone-else)
@@ -1351,13 +1357,23 @@ TEXT:
 
 Daren drives the point of his broadsword down into Illuna's right calf.
 
-A blinding burst of pure white radiance erupts from the enchanted steel. A sickening hiss of dark green vapor boils out of the puncture, curling into the damp cave air before dissolving into nothingness.
+The blade catches the conduit. The blood-death hex violently redirects its flow, dumping out of Illuna's vascular network and surging straight into the enchanted steel. The runes carved along the broadsword glow a sickly, malignant green, sizzling and blackening under the corrosive pressure of the shaman's dying curse.
 
-Illuna gasps, staring down at her leg in disbelief. "You... what did you..."
+Daren drops to both knees, both gauntleted hands locked onto the hilt. His arms shake uncontrollably as the hex boils through the crossguard, dark veins of cursed mana creeping up the steel toward his knuckles. His teeth are clamped shut, blood trickling from his lip as he forces every ounce of his will into anchoring the blade.
 
-"I shattered the curse," Daren says, yanking the blade free and wiping it clean on his mail. "I am an enchanter of the Eastern Continent. Dispelling a crude blood-death hex without drawing ambient mana is elementary craft. We are even. You pulled me out of the shaft; I pulled you out of the grave. We never speak of this again."
+"Daren!" Rose cries out, reaching toward him.
 
-Illuna looks at him for a long, silent moment. "...Agreed." 
+"Stay... back!" Daren wheezes through his teeth, veins bulging across his forehead scar. "Do not... touch the metal!"
+
+For thirty agonizing seconds, the broadsword trembles in the stone, hissing like a branding iron dropped in grease. The dark green poison coils up the steel, stalls an inch from his gauntlets, and slowly, violently burns itself out against the sword's absorption enchantments, dissolving into an acrid puff of black smoke.
+
+Daren yanks the blackened steel free and collapses back onto his heels, gasping for air, his hands trembling violently. The runes on his blade are scorched soot.
+
+Illuna stares down at her leg, then up at Daren in stunned silence. "You... caught the conduit into the blade."
+
+"We are even," Daren rasps, his voice ragged, chest heaving as he struggles to master his shaking fingers. "You pulled me out of the shaft. I took the curse off your heart. I nearly went into the dirt with you. We never speak of this again."
+
+Illuna looks at him for a long, silent moment. "...Agreed."
 
 A pale blue shimmer coats her palm as she weaves water over the flesh wound, knitting skin and muscle whole in seconds.
 
@@ -1474,25 +1490,25 @@ choice("Continue", Ch10-Toast, v_current_scene = Ch10-Toast)
 ID: Ch10-Toast
 TEXT:
 
- "It is a relief we encountered no tournament mages on the trail," Rose says, steering the conversation away from duels. "Constant skirmishes would have slowed us down terribly, especially with people attacking Kate on sight."
+ "It is a relief we encountered no tournament mages on the trail," Rose says, adjusting the strap of her herbal satchel as we push through the ferns. "Constant skirmishes would have slowed us down terribly, especially with people attacking Kate on sight."
 
-"Why target Kate specifically?" Illuna asks, glancing sideways. "Are you not all competitors?"
+"Why target Kate specifically?" Illuna asks, glancing sideways with bright blue eyes. "Are you not all competitors?"
 
-"My elemental signature leaks," Kate says. "Mages mistake me for an awakened banshee. Flower attempted to teach me aura suppression, but her explanations made no sense."
+"My elemental signature leaks," Kate says, keeping her hood pulled low against the branches. "Mages mistake me for an awakened banshee. Flower attempted to teach me aura suppression, but her explanations made no sense."
 
 "The girl acts entirely on instinct," Illuna says dryly. "She cannot teach what she never studied. The principle is straightforward. You do not crush your spiritual output; you smooth the turbulent eddies until the surface mirrors ambient atmospheric mana. Like still water. Here, observe."
 
-For the next two hours, as we march through the dark pines, Illuna coaches Kate through the fundamentals of spiritual dampening. Step by step, she demonstrates how to pull the jagged edges of a mage's aura inward, settling the outer resonance until it registers as nothing more than the faint, mundane presence of an ordinary human.
+For the next two hours, as we march through the dark pines, Illuna coaches Kate through the fundamentals of spiritual dampening. Step by step, she demonstrates how to pull the jagged edges of an elemental aura inward, settling the outer resonance until it registers as nothing more than the faint, mundane presence of an ordinary traveler.
 
-Hadrik and I listen in, testing the breathing patterns and focus exercises as we walk. 
+Hadrik and I listen in, testing the breathing patterns and focus exercises as our boots crunch over the needle-strewn path.
 
-By the time we halt in a sheltered glade beside a running brook, the change in Kate is striking. Her icy aura, once sharp enough to prickle the skin from ten paces, is completely quiet. Unless someone inspects her with dedicated sensory spells at point-blank range, she passes for a normal traveler.
+By the time we halt in a sheltered glade beside a bubbling brook, the change in Kate is striking. Her icy aura, once sharp enough to prickle the skin from ten paces, is completely quiet. Unless someone inspects her with dedicated sensory spells at point-blank range, she passes for a normal human.
 
-We pitch camp in the clearing. Hadrik claims two of his spare tents have torn seams requiring repair, prompting Rose to invite Kate and Illuna into her tent for the night. 
+We pitch camp on the mossy rise. Hadrik claims two of his spare tents have torn seams requiring repair, prompting Rose to invite Kate and Illuna into her tent for the night.
 
 When dividing the watch shifts, Kate, Rose, and Hadrik immediately and flawlessly vote in unison for Daren and me to take the opening rotation. The synchronized ballot is suspicious, but I decide to let it slide for now.
 
-Hadrik roots through his pack, producing two earthenware jugs of dwarven ale, demanding a victory toast. The others decline, thoroughly exhausted from the infiltration.
+Hadrik roots through his pack, producing two heavy earthenware jugs of dwarven ale, demanding a victory toast. The others decline, thoroughly exhausted from the infiltration.
 
 choice("Offer to share a drink with Hadrik before taking the first shift", Ch10-Drink, v_current_scene = Ch10-Drink)
 choice("Leave the toast for some other time", Ch10-Other-time, v_current_scene = Ch10-Other-time)
@@ -1503,21 +1519,21 @@ TEXT:
 
 set(v_ac_ch10_toast,1)
 achievement("A toast!",v_ac_ch10_toast)
- Since no one else stepped forward, I join Hadrik on two flat boulders near the edge of the brook. He pops the corks on two heavy clay bottles with his thumbs, handing one across the gap.
+ Since no one else stepped forward, I join Hadrik on two flat mossy boulders near the edge of the rushing brook. He pops the corks on two heavy clay bottles with his thick thumbs, handing one across the gap.
 
-"Giant custom," he says, tipping a splash of thick dark ale onto the moss. "A sip for fallen kin before the living drink. Dwarven barks throw me out of taverns when I do it on their floorboards, so it's a pleasure to drink under open sky."
+"Giant custom," he says, tipping a dark splash of ale onto the moss. "A sip for fallen kin before the living drink. Dwarven barks throw me out of taverns when I do it on their floorboards, so it's a pleasure to drink under open sky."
 
-He raises the bottle high.
+He raises the clay jug high into the moonlight.
 
-"To the chalice," he grins. "And to breaking these blasted iron collars before the week is out."
+"To the chalice," he grins, his teeth flashing in his beard. "And to breaking these blasted iron collars before the week is out."
 
 We knock the earthenware necks together. I take a long swallow.
 
-Liquid fire hits the back of my throat. It burns down my esophagus like distilled lamp oil, blooming in my chest with an immediate, dizzying heat. The strongest spirits in western port taverns feel like watered cider compared to this.
+Liquid fire hits the back of my throat. It burns down my esophagus like distilled lamp oil, blooming in my chest with an immediate, dizzying heat. The strongest spirits in western port taverns feel like watered cider compared to this northern mash.
 
-"First taste of dwarven mash?" Hadrik asks, chuckling as my eyes water.
+"First taste of dwarven mash?" Hadrik asks, chuckling as my eyes water in the cold air.
 
-"It has... character," I manage, coughing once to clear my lungs. "I wasn't expecting it to hit like a warhammer."
+"It has... character," I manage, coughing once into my sleeve to clear my lungs. "I wasn't expecting it to hit like a warhammer."
 
 choice("Continue", Ch10-Politics, v_current_scene = Ch10-Politics)
 
@@ -1525,13 +1541,13 @@ choice("Continue", Ch10-Politics, v_current_scene = Ch10-Politics)
 ID: Ch10-Politics
 TEXT:
 
- "That's the northern brew for you," Hadrik says, taking a massive gulp. "I spend half my years in the mountain taverns. Good folk, mostly. Most barkeeps know I'm a giant wearing dwarf skin, but they pour anyway. Losing my tab would crater their monthly margins, so they look the other way."
+ "That's the northern brew for you," Hadrik says, taking a massive gulp that drains half his jug. "I spend half my years in the mountain taverns. Good folk, mostly. Most barkeeps know I'm a giant wearing dwarf skin, but they pour anyway. Losing my tab would crater their monthly margins, so they look the other way."
 
 "Do giants and dwarves not get along?"
 
-"Blood runs deep between our clans," he shrugs, watching the stream bubble over the rocks. "Old wars, ancient sieges. Peace holds on paper, but memories are long. Doesn't help when some hotheaded giant decides to smash up a border hamlet to prove a point. Our own clan heads hunt the rogues down, but you can't un-bury the dead. Scars stay scarred."
+"Blood runs deep between our clans," he shrugs, watching the dark water foam over the river stones. "Old wars, ancient sieges. Peace holds on parchment, but memories are long. Doesn't help when some hotheaded giant decides to smash up a border hamlet to prove a point. Our own clan heads hunt the rogues down, but you can't un-bury the dead. Scars stay scarred."
 
-He takes another pull from the jug.
+He takes another pull from the jug, the clay thudding against his knee.
 
 "Enough history," he grins, nudging my boot with his heel. "Let's talk about more interesting developments. What's the tale with you and Rose? You two have been trading quiet looks since yesterday."
 
@@ -1545,15 +1561,15 @@ TEXT:
 
  "Not at all. What makes you say that?"
 
-"Just caught the two of you whispering by the fire last night," Hadrik winks. "Thought there might be a spark. Not your type, then? Prefer someone with more frost on them, like Kate?"
+"Just caught the two of you whispering by the fire last night," Hadrik winks, leaning his back against the stone. "Thought there might be a spark. Not your type, then? Prefer someone with more frost on them, like Kate?"
 
-"Leave Kate and Rose out of this," I say, leaning back on the stone. "The real mystery is you and Arraka. Have you set a wedding date yet?"
+"Leave Kate and Rose out of this," I say, leaning back on the boulder. "The real mystery is you and Arraka. Have you set a wedding date yet?"
 
-Hadrik roars with laughter, slapping his thigh.
+Hadrik roars with laughter, slapping his thigh with a sound like a timber mallet.
 
 "Now that's the question!" he bellows, taking another swig. "I've been looking for an opening, but the timing is tricky. Need to convince Illuna to loan me the locket for an evening so we can have a quiet dinner."
 
-He pauses, and we both drink from the clay bottles.
+He pauses, and we both drink from the clay bottles as the night wind stirs the pine canopy.
 
 choice("Continue", Ch10-Intervention, v_current_scene = Ch10-Intervention)
 
@@ -1563,19 +1579,19 @@ TEXT:
 
  "I guess you could say that."
 
-"Ha! Knew it!" Hadrik grins broadly. "Caught you two by the embers last night, but I wasn't going to pry without confirmation."
+"Ha! Knew it!" Hadrik grins broadly, raising his clay bottle. "Caught you two by the embers last night, but I wasn't going to pry without confirmation."
 
 "Keep it between us," I tell him. "Nothing is official."
 
-"Discretion itself, lad," Hadrik rumbles, tapping the side of his nose. "I might look loud, but I keep clan secrets when it counts."
+"Discretion itself, lad," Hadrik rumbles, tapping the side of his nose with a thick thumb. "I might look loud, but I keep clan secrets when it counts."
 
 "Leaving Rose aside," I say, "the real mystery is you and Arraka. Have you proposed to her yet?"
 
-Hadrik roars with laughter, slapping his thigh.
+Hadrik roars with laughter, slapping his thigh with a sound like a timber mallet.
 
 "Now that's the question!" he bellows, taking another swig. "I've been looking for an opening, but the timing is tricky. Need to convince Illuna to loan me the locket for an evening so we can have a quiet dinner."
 
-He pauses, and we both drink from the clay bottles.
+He pauses, and we both drink from the clay bottles as the night wind stirs the pine canopy.
 
 choice("Continue", Ch10-Intervention, v_current_scene = Ch10-Intervention)
 
@@ -1585,15 +1601,15 @@ TEXT:
 
  "We have been getting closer, but not in the way you might think."
 
-"Ah, the complicated route," Hadrik says with a nod. "So you're holding out for someone fiercer? Kate, perhaps?"
+"Ah, the complicated route," Hadrik says with a knowing nod. "So you're holding out for someone fiercer? Kate, perhaps?"
 
-"Leave Kate and Rose out of this," I say, leaning back on the stone. "The real mystery is you and Arraka. Have you proposed to her yet?"
+"Leave Kate and Rose out of this," I say, leaning back on the boulder. "The real mystery is you and Arraka. Have you proposed to her yet?"
 
-Hadrik roars with laughter, slapping his thigh.
+Hadrik roars with laughter, slapping his thigh with a sound like a timber mallet.
 
 "Now that's the question!" he bellows, taking another swig. "I've been looking for an opening, but the timing is tricky. Need to convince Illuna to loan me the locket for an evening so we can have a quiet dinner."
 
-He pauses, and we both drink from the clay bottles.
+He pauses, and we both drink from the clay bottles as the night wind stirs the pine canopy.
 
 choice("Continue", Ch10-Intervention, v_current_scene = Ch10-Intervention)
 
@@ -1601,7 +1617,7 @@ choice("Continue", Ch10-Intervention, v_current_scene = Ch10-Intervention)
 ID: Ch10-Intervention
 TEXT:
 
- "Jokes aside," Hadrik says, staring into the dark timber, "without Arraka's trick in the vault, that ogre captain would've cracked my ribs to powder. She'd gut me the second she breaks containment, no question, but I owe her a round. I've fought solo my entire life. Never had a warband, never watched someone else's flank. Being part of a crew... it's a decent change of pace. I didn't enter this tournament for the Magium anyway. I came for the fights and the stories. What about you, Barry? What do you do if you actually take the prize?"
+ "Jokes aside," Hadrik says, his gaze drifting toward the dark timber, "without Arraka's trick in the vault, that ogre captain would've cracked my ribs to powder. She'd gut me the second she breaks containment, no question, but I owe her a round. I've fought solo my entire life. Never had a warband, never watched someone else's flank. Being part of a crew... it's a decent change of pace. I didn't enter this tournament for the Magium anyway. I came for the fights and the stories. What about you, Barry? What do you do if you actually take the prize?"
 
 "Use the Magium to become a mage."
 
@@ -1610,7 +1626,7 @@ TEXT:
 choice(""I want to start going on adventures!"", Ch10-Magium, v_current_scene = Ch10-Magium, v_ch10_magium = 1)
 choice(""I want to gain fame and glory!"", Ch10-Magium, v_current_scene = Ch10-Magium, v_ch10_magium = 2)
 choice(""I want to use my magic to help people."", Ch10-Magium, v_current_scene = Ch10-Magium, v_ch10_magium = 3)
-choice(""I want to conquer the world!"", Ch10-Magium, v_current_scene = Ch10-Magium, v_ch10_magium = 4)
+choice(""I want to rule it. If someone has to hold Varathia, better a man who's been on the wrong end of it."", Ch10-Magium, v_current_scene = Ch10-Magium, v_ch10_magium = 4)
 choice(""I'm just in it for the money."", Ch10-Magium, v_current_scene = Ch10-Magium, v_ch10_magium = 5)
 choice(""I haven't really thought about that, yet."", Ch10-Magium, v_current_scene = Ch10-Magium, v_ch10_magium = 6)
 
@@ -1621,7 +1637,7 @@ TEXT:
 #if(v_ch10_magium == 1) {
  "I want to start going on adventures!"
 
-Hadrik laughs, raising his jug.
+Hadrik laughs, raising his jug into the moonlight.
 
 "That's the spirit, lad! If you ever run low on uncharted ruins or want to see the frozen crags up north, find me. Assuming we survive the tournament, of course!"
 
@@ -1639,7 +1655,7 @@ He raises his bottle one last time. "To the road, Barry!" We clink the necks, dr
 #if(v_ch10_magium == 2) {
  "I want to gain fame and glory!"
 
-"Fame and glory, eh?" Hadrik grins. "A non-mage claiming the Magium will turn every tavern ballad on its head. You'll have every high-tier spellblade gunning for your title, but I'd wager you'll find an angle."
+"Fame and glory, eh?" Hadrik grins into his beard. "A non-mage claiming the Magium will turn every tavern ballad on its head. You'll have every high-tier spellblade gunning for your title, but I'd wager you'll find an angle."
 
 "Barry will manage just fine," Rose's voice drifts from the dark behind us. "He has reached this far against impossible odds."
 
@@ -1669,7 +1685,7 @@ He raises his bottle one last time. "To good deeds, Barry!" We clink the necks, 
 
 }
 #if(v_ch10_magium == 4) {
- "I want to conquer the world!"
+ "I want to rule it. If someone has to hold Varathia, better a man who's been on the wrong end of it."
 
 "Is that right?" Hadrik chuckles, raising an eyebrow. "Then I'll hold off on proposing to Arraka. Sounds like you two were made for each other."
 
@@ -1746,11 +1762,11 @@ TEXT:
 
  We pack away the clay jugs and let the camp settle into quiet.
 
-As I check my crossbow string by the stream, Rose approaches from the shadows, checking over her shoulder to ensure Daren remains out of earshot.
+As I check my crossbow string by the bubbling stream, Rose approaches from the shadows, her footsteps soft on the damp needles. She checks over her shoulder to ensure Daren remains out of earshot by the embers.
 
 "Barry, listen closely," she whispers. "You noticed the coordinated vote for the first watch rotation."
 
-"It was hardly subtle," I say, looking up. "What are you three up to?"
+"It was hardly subtle," I say, looking up from my latch. "What are you three up to?"
 
 "Flower's stasis lasts until tomorrow night," Rose says softly.
 
@@ -1762,23 +1778,23 @@ choice("Continue", Ch10-Unconscious, v_current_scene = Ch10-Unconscious)
 ID: Ch10-Unconscious
 TEXT:
 
- "Illuna has not slept in over twenty-four hours," Rose says, her brow furrowing with concern. "She is exhausted, but she refuses to close her eyes. She believes Daren will strike while Flower cannot shield her. Travelling with us is dangerous, but alone she cannot maintain aura suppression in her current state."
+ "Illuna has not slept in over twenty-four hours," Rose says, her brow furrowing with concern in the starlight. "She is exhausted, but she refuses to close her eyes. She believes Daren will strike while Flower cannot shield her. Travelling with us is dangerous, but alone she cannot maintain aura suppression in her current state."
 
 "So you want me to keep Daren occupied while you and Kate get her to sleep?"
 
 "Yes. Hadrik agreed to claim his tents are torn so Kate, Illuna, and I can share mine. Kate will keep watch over Arraka's locket so Illuna feels secure enough to rest."
 
-I exhale slowly. "Daren is obstinate, but he is not blind. I doubt your scheme escaped his notice."
+I exhale slowly into the cold air. "Daren is obstinate, but he is not blind. I doubt your scheme escaped his notice."
 
 "Whether he guessed it or not, I need him away from our tent," Rose says firmly. "I know he would not murder someone in their sleep, but Illuna does not know that. I need you on watch with him. But if you are uncomfortable keeping secrets, I understand—"
 
 "I am fine," I cut in. "I will keep his focus on the perimeter. But if he asks me outright what you are doing, I am not weaving elaborate lies. Deal?"
 
-Rose smiles, offering her hand. "Deal."
+Rose smiles, offering her hand in the moonlight. "Deal."
 
 "Get some rest," I tell her.
 
-She slips back toward her tent. I check the latch on my crossbow, roll my shoulders, and walk over to the fallen log where Daren sits in the moonlight, methodically sharpening his broadsword with a whetstone.
+She slips back toward her tent. I check the latch on my crossbow, roll my shoulders, and walk over to the fallen pine log where Daren sits in the moonlight, methodically dragging a whetstone across the edge of his broadsword.
 
 choice("Continue", Ch10-Stubbornly, v_current_scene = Ch10-Stubbornly)
 
@@ -1790,9 +1806,9 @@ TEXT:
 
 "Word for word," I say.
 
-Daren pauses his whetstone, letting out a long, heavy breath. He stares down at the silver edge of his blade.
+Daren pauses his whetstone, letting out a long, heavy breath that clouds in the frost. He stares down at the silver edge of his blade.
 
-"Listen, Barry," he says, his voice unusually low. "I've been... difficult lately. More than usual. And for what it's worth, I am sorry."
+"Listen, Barry," he says, his voice unusually low and strained. "I've been... difficult lately. More than usual. And for what it's worth, I am sorry."
 
 Hearing Daren offer a genuine, unprompted apology feels about as natural as watching ice burn, but the exhaustion in his face is real.
 
@@ -1804,17 +1820,17 @@ Hearing Daren offer a genuine, unprompted apology feels about as natural as watc
 
 "Yes," he murmurs.
 
-"It wasn't just Illuna," I point out. "You've been coiled tight ever since Azarius explained artificial mages and the Beacon of Hope."
+"It wasn't just Illuna," I point out, watching the reflection of the moon on his breastplate. "You've been coiled tight ever since Azarius explained artificial mages and the Beacon of Hope."
 
-I pause, letting the night air settle between us.
+I pause, letting the night silence settle between us.
 
 "You haven't spoken a single word to Kate since that afternoon."
 
-Daren freezes, blinking into the darkness as the realization hits him.
+Daren freezes, blinking into the darkness as the realization hits him like a physical blow.
 
 "You are right," he whispers. "I have completely shut her out. I don't know what came over me."
 
-choice(""A lot of things are wrong with you, Daren."", Ch10-Wrong, v_current_scene = Ch10-Wrong)
+choice(""What's wrong is that you can't stand being corrected by someone you called a monster two days ago."", Ch10-Wrong, v_current_scene = Ch10-Wrong)
 choice(""Maybe you've been subconsciously resenting her for proving you wrong."", Ch10-Subconsciously, v_current_scene = Ch10-Subconsciously)
 choice(""Maybe you'll feel better if you apologize to her."", Ch10-Apologize, v_current_scene = Ch10-Apologize)
 
@@ -1822,15 +1838,15 @@ choice(""Maybe you'll feel better if you apologize to her."", Ch10-Apologize, v_
 ID: Ch10-Wrong
 TEXT:
 
- "A lot of things are wrong with you, Daren," I say. "You are fortunate to have a forgiving friend like me to keep you grounded."
+ "What's wrong is that you can't stand being corrected by someone you called a monster two days ago," I say.
 
-"You know," Daren mutters, "just because I am having a crisis of conscience does not mean I won't clip you with the flat of this blade."
+"You know," Daren mutters, gripping the hilt of his sword, "just because I am having a crisis of conscience does not mean I won't clip you with the flat of this blade."
 
 "Point taken," I smile. "But you know what you need to do, don't you?"
 
-Daren rubs the scar on his forehead. "Aye. I do."
+Daren rubs the scar on his forehead with a calloused thumb. "Aye. I do."
 
-He sheathes his broadsword with a soft click.
+He sheathes his broadsword with a soft click of oiled steel.
 
 "Tomorrow, I clear the air. I doubt I can bring myself to trade pleasantries with the banshee, but I will show her the feud is done. And as for Kate... I will find the right words. Thank you, Barry. I needed that."
 
@@ -1853,13 +1869,13 @@ TEXT:
 
  "Maybe you've been subconsciously resenting her for proving you wrong."
 
-Daren frowns, troubled. "You think I hold a grudge against her for not being a monster? I know my pride gets the better of me, but... surely I would not..."
+Daren frowns, troubled, his fingers tightening on the whetstone. "You think I hold a grudge against her for not being a monster? I know my pride gets the better of me, but... surely I would not..."
 
 "The motive doesn't matter," I say. "What matters is what you do now."
 
-Daren stares at his boots. "Aye. You are right."
+Daren stares at his boots in silence. "Aye. You are right."
 
-He sheathes his broadsword with a soft click.
+He sheathes his broadsword with a soft click of oiled steel.
 
 "Tomorrow, I clear the air. I doubt I can bring myself to trade pleasantries with the banshee, but I will show her the feud is done. And as for Kate... I will find the right words. Thank you, Barry. I needed that."
 
@@ -1882,9 +1898,9 @@ TEXT:
 
  "Maybe you'll feel better if you apologize to her."
 
-"Perhaps," Daren sighs. "Brooding by the fire certainly hasn't solved anything."
+"Perhaps," Daren sighs, looking down at his blade. "Brooding by the fire certainly hasn't solved anything."
 
-He sheathes his broadsword with a soft click.
+He sheathes his broadsword with a soft click of oiled steel.
 
 "Tomorrow, I clear the air. I doubt I can bring myself to trade pleasantries with the banshee, but I will show her the feud is done. And as for Kate... I will find the right words. Thank you, Barry. I needed that."
 
@@ -2004,7 +2020,7 @@ Daren shifts his weight, clearing his throat. "I suppose I did."
 
 Flower blinks at the gold pendant on her chest. "Wait... why is your latch open? Petal never leaves the locket unsealed!"
 
-"A new era," Arraka sneers. "In recognition of my tactical brilliance, I have been elevated to senior council. Going forward, you will heed my advice. For instance, I suggest we decapitate five wild boars and mount their heads on pikes around the tents to establish territory."
+"A new era," Arraka sneers. "In recognition of my tactical brilliance, I have been raised to the high seats. Going forward, you will heed my advice. For instance, I suggest we decapitate five wild boars and mount their heads on pikes around the tents to establish territory."
 
 "Do not push your luck," Illuna mutters.
 
@@ -2034,7 +2050,7 @@ Daren shifts his weight, clearing his throat. "I suppose I did."
 
 Flower blinks at the gold pendant on her chest. "Wait... why is your latch open? Petal never leaves the locket unsealed!"
 
-"A new era," Arraka sneers. "In recognition of my tactical brilliance, I have been elevated to senior council. Going forward, you will heed my advice. For instance, I suggest we decapitate five wild boars and mount their heads on pikes around the tents to establish territory."
+"A new era," Arraka sneers. "In recognition of my tactical brilliance, I have been raised to the high seats. Going forward, you will heed my advice. For instance, I suggest we decapitate five wild boars and mount their heads on pikes around the tents to establish territory."
 
 "Do not push your luck," Illuna mutters.
 
@@ -2181,7 +2197,7 @@ I emerge from the tent to find the camp bathed in mid-morning sunlight.
 
 choice(""That's mighty generous of you."", Ch10-Generous, v_current_scene = Ch10-Generous)
 choice(""I see it didn't take you long to turn into an ass again."", Ch10-Ass, v_current_scene = Ch10-Ass)
-choice(""As tempting as that sounds, I think I'd rather go see if Flower is still taking orders."", Ch10-Tempting, v_current_scene = Ch10-Tempting)
+choice(""I'd rather check whether Flower can still stand than referee you two."", Ch10-Tempting, v_current_scene = Ch10-Tempting)
 
 
 ID: Ch10-Generous
@@ -2263,7 +2279,7 @@ choice("Continue", Ch10-Chain, v_current_scene = Ch10-Chain)
 ID: Ch10-Tempting
 TEXT:
 
- "As tempting as that sounds, I think I'd rather go see if Flower is still taking orders."
+ "I'd rather check whether Flower can still stand than referee you two."
 
 Flower spots me and beams, waving me over with a steaming porcelain plate.
 
@@ -2303,13 +2319,13 @@ Illuna glances across the circle, crossing her arms defensively. "It... would no
 
 "Settled," Daren claps his hands. "Pack up. We depart in thirty minutes."
 
-"Excuse me!" Arraka's voice shrills from the locket. "Did anyone consult my schedule? Your group's kill-per-hour ratio is utterly pathetic! I demand a renegotiation of terms before I commit to another league of this dull wandering!"
+"Excuse me!" Arraka's voice shrills from the locket. "Did anyone ask whether I had the leisure? The rate at which you kill is utterly pathetic! I demand new terms before I commit to another league of this dull wandering!"
 
 We stare at the pendant in silence. Hadrik turns on his heel.
 
 "Right then," he says. "Thirty minutes. Let's pull up the stakes."
 
-"Hey!" Arraka screeches as we disperse. "Do not walk away from me! I am senior council! Come back here!"
+"Hey!" Arraka screeches as we disperse. "Do not walk away from me! I sit among the high seats! Come back here!"
 
 Twenty minutes later, our rucksacks are lashed. As I return to the clearing, Flower stands twirling Arraka's gold locket on its chain like a pendulum, her brow furrowed.
 

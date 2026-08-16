@@ -1,15 +1,15 @@
 ID: Ch1-Intro1
 TEXT:
 
-There is an old saying about the fine line between courage and stupidity. Standing under the twisted, violet-veined canopy of a Varathian forest with the horizon detonating in silent blooms of arcane fire, I have almost certainly crossed it.
+There is an old saying about the fine line between courage and stupidity. Standing on scorched loam under the twisted, violet-veined canopy of a Varathian forest with the horizon detonating in silent blooms of arcane fire, I have almost certainly crossed it.
 
-My name is Barry. I am twenty-eight years old, and on paper, entirely unremarkable. No innate gift, no formal academy pedigree, no noble bloodline. Just an obsession that took root when I was five and never let go: I want to become a mage. I spent twenty-three years scouring libraries, hunting down obscure treatises, and chasing every rumor across the continents to find a loophole in the natural order.
+My name is Barry. I am twenty-eight years old, and on paper, entirely unremarkable. No innate gift, no formal academy pedigree, no noble bloodline. Just a satchel of theoretical notes, a notched dagger at my belt, and an obsession that took root when I was five and never let go: I want to become a mage. I spent twenty-three years scouring guild libraries, hunting down obscure treatises, and chasing every rumor across the continents to find a loophole in the natural order.
 
 Eventually, I found one.
 
-The condition is simple enough on paper: win an open tournament against the deadliest mages alive. Madness, by any sane standard. But the teleportation circle closed behind me ten minutes ago, and there is no return ticket. The only road left runs straight through.
+The condition is simple enough on parchment: win an open tournament against the deadliest mages alive. Madness, by any sane standard. But the teleportation circle collapsed into ozone behind me ten minutes ago, and there is no return ticket. The only road left runs straight through.
 
-Looking out at the smoke rising above the treeline, knowing my ordinary life is finished, what I feel most of all is...
+Looking out at the smoke rising above the treeline, feeling the damp pine needles give way beneath my boots and knowing my ordinary life is finished, what I feel most of all is...
 
 choice("Excited", Ch1-Intro2, v_current_scene = Ch1-Intro2, v_ch1_intro_feeling = 1)
 choice("Calm", Ch1-Intro2, v_current_scene = Ch1-Intro2, v_ch1_intro_feeling = 2)
@@ -135,13 +135,13 @@ A suffocating quiet settles over the clearing. Neither of us moves.
 
 "Am I?" I let my eyes drift—slowly, deliberately—to the three daggers still embedded in the oak behind Daren. The blades are humming, trembling in their sheaths of bark. A faint sheen of sweat glistens on Dave's right forearm—the arm that controls them. The enchantment is tethered to his body. He cannot throw AND recall simultaneously. If his recalled blades are here, his bandolier is empty.
 
-"I notice you've committed all six blades," I say. "Three in the tree. Three in the healer. That leaves you with nothing but the knife in your boot and whatever prayers you know. So I'll ask one time. Walk away, or find out how I earned my reputation."
+"You've committed all six blades," I say. "Three in the tree. Three in the healer. That leaves you with nothing but the knife in your boot and whatever prayers you know. So I'll ask one time. Walk away, or find out how I earned my reputation."
 
 Three seconds stretch into an eternity. His eyes flick to the oak. To Daren. To his own empty bandolier. The calculation writes itself across his face: I should not know that. No one reads enchanted steel mechanics at a glance unless they've faced worse.
 
 Finally, he lowers his chin, teeth grinding.
 
-"You're in luck, stillwater. I'm feeling merciful today. I'll stay out of your path—just as soon as I finish this guy here."
+"You're in luck, stillwater. I'm feeling merciful today. I'll stay out of your path—just as soon as I finish this one here."
 
 "You do that and you'll regret it," I say before my brain can stop my mouth.
 
@@ -205,13 +205,13 @@ A snort breaks through his stern expression, followed by an unrestrained bark of
 "That is the single strangest name for a mage I have ever encountered in all my travels. Especially for a stillwater. Is there something you care to share with me, Barry?"
 
 choice("Tell him I'm actually an ordinary human", Ch1-Ordinary, v_current_scene = Ch1-Ordinary, v_ch1_stillwater = 2)
-choice("Tell him my parents had a weird sense of humor", Ch1-Humor, v_current_scene = Ch1-Humor, v_ch1_stillwater = 1)
+choice("Tell him my parents had a cruel sense of humor", Ch1-Humor, v_current_scene = Ch1-Humor, v_ch1_stillwater = 1)
 
 
 ID: Ch1-Humor
 TEXT:
 
-"Yes. My parents had a really weird sense of humor. Speaking of names, aren't you supposed to be a hero of legend? How exactly does one as strong as you get bested so easily by someone named Cutthroat Dave?"
+"Yes. My parents had a cruel sense of humor. Speaking of names, aren't you supposed to be a hero of legend? How exactly does one as strong as you get bested so easily by someone named Cutthroat Dave?"
 
 "Ah. Well. That..."
 

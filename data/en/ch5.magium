@@ -92,7 +92,7 @@ He pushes through the branches, head turning as he searches the clearing. "Where
 
 "Ashes? Don't tell me that device of yours grants fire magic now."
 
-"Not me. Eiden came back and incinerated Dave the second he drew a blade on me. Said it wouldn't do for his messenger to die inside the post office."
+"Not me. Eiden came back and incinerated Dave the second he drew a blade on me. Said it wouldn't do for his messenger to die inside the waystation."
 
 "Wait—fire magic? He pinned me to the stone with air when we first met. Mastering even a single element takes half a lifetime!"
 
@@ -115,7 +115,7 @@ Daren jerks upright, blinking hard as he scrambles for his sword.
 
 "Put me under? No—that's impossible. I have layered sleep wards woven into this armor. I should be nearly immune, or at the very least conscious enough to resist!"
 
-"I'm telling you what I saw. I don't have an explanation either. Regardless, we need to wake Kate. She needs to hear this, and we're long overdue for a strategy meeting."
+"I'm telling you what I saw. I don't have an explanation either. Regardless, we need to wake Kate. She needs to hear this, and we are long overdue to take counsel."
 
 The two of us head for the cave to wake Kate from her slumber.
 
@@ -136,7 +136,7 @@ Daren jerks upright, blinking hard as he scrambles for his sword.
 
 "Put me under? No—that's impossible. I have layered sleep wards woven into this armor. I should be nearly immune, or at the very least conscious enough to resist!"
 
-"I'm telling you what I saw. I don't have an explanation either. Regardless, we need to wake Kate. She needs to hear this, and we're long overdue for a strategy meeting."
+"I'm telling you what I saw. I don't have an explanation either. Regardless, we need to wake Kate. She needs to hear this, and we are long overdue to take counsel."
 
 "Hold on, Barry. Let me see that stat device of yours first."
 
@@ -169,17 +169,21 @@ Silence.
 
 "Hey, Daren!"
 
-Daren jerks upright, blinking hard as he scrambles for his sword.
+I stay propped against the trunk of a pine, clutching my left thigh where Dave's daggers tore deep into the muscle. The blood is still warm between my fingers, but the trembling in my hands has begun to slow. A few paces away, Dave lies facedown in the loam, pinned to the earth by four of his own enchanted blades through his chest and ribs.
 
-"What happened? Where's the stillwater?"
+Daren jerks upright with a sharp gasp, blinking hard as he scrambles for his broadsword. His eyes sweep across the clearing, taking in the dead cutthroat, the empty tree line, and the crimson pooling beneath my leg. He drops his blade and lunges across the gravel to my side.
 
-"That's the second time you've asked me those exact words. He's gone. Vanished the second he put you under."
+"Barry! What happened? Where's the stillwater?"
 
-"Put me under? No—that's impossible. I have layered sleep wards woven into this armor. I should be nearly immune, or at the very least conscious enough to resist!"
+"That's the second time you've asked me those exact words," I manage through gritted teeth as he drops to one knee beside me. "He's gone. Vanished the second he put you under."
+
+White light blazes from Daren's palm, washing through the torn flesh of my calf and thigh with a soothing, intense warmth. The deep throbbing eases as the wounds seal tight.
+
+"Put me under? No—that's impossible," Daren mutters, shaking his head as the last of the light fades. "I have layered sleep wards woven into this armor. I should be nearly immune, or at the very least conscious enough to resist!"
 
 "I'm telling you what I saw. I don't have an explanation either."
 
-"Wait a moment. Didn't we just see him fling fire magic too? Something is fundamentally wrong here. He hit me with compressed air yesterday. How does anyone command two separate elements? Mastering even one takes half a lifetime!"
+"He hit me with compressed air yesterday. Tonight he put me under through wards layered into this armor. That is two disciplines at the very least, and a man should not have either to spare. Mastering one takes half a lifetime."
 
 }
 choice(""Maybe he has some artifact that's helping him?"", Ch5-Artifact, v_current_scene = Ch5-Artifact, v_checkpoint_rich = 0) if (v_ch4_ending == 1 || v_ch4_ending == 4 || v_ch4_ending == 6)
@@ -195,11 +199,11 @@ TEXT:
 
 "Maybe he has some artifact that's helping him?"
 
-"No," Daren shakes his head. "If he carried an offensive relic of that caliber, we would have seen it drawn or felt the aura radiating off it at close quarters. Most high-tier combat artifacts take the form of weapons, and his hands were empty."
+"No," Daren shakes his head, scanning the empty rocks. "If he carried an offensive relic of that caliber, we would have seen it drawn or felt the magical field radiating off it at close quarters. Most high-tier combat artifacts take the form of weapons, and his hands were empty."
 
-"Regardless, we need to wake Kate. She needs to hear this, and we're long overdue for a strategy meeting."
+"Regardless, we need to wake Kate. She needs to hear this, and we are long overdue to take counsel."
 
-The two of us head for our cave and proceed to wake Kate from her slumber.
+The two of us turn back toward the cave mouth to wake Kate from her rest.
 
 choice("Continue", Ch5-Wake-Kate, v_current_scene = Ch5-Wake-Kate)
 
@@ -221,9 +225,9 @@ Daren furrows his brow, turning the idea over.
 
 Daren rubs his temples. "Sometimes I wonder about you, Barry."
 
-"Regardless, we need to wake Kate. She needs to hear this, and we're long overdue for a strategy meeting."
+"Regardless, we need to wake Kate. She needs to hear this, and we are long overdue to take counsel."
 
-The two of us head for our cave and proceed to wake Kate from her slumber.
+The two of us turn back toward the cave mouth to wake Kate from her rest.
 
 choice("Continue", Ch5-Wake-Kate, v_current_scene = Ch5-Wake-Kate)
 
@@ -235,7 +239,9 @@ TEXT:
 
 "Leave fairy tales in storybooks, Barry. I have never encountered a genuine covenant between a mortal and a deity, and I find it impossible to believe any god would grant that arrogant brat the time of day."
 
-"Regardless, we need to wake Kate. She needs to hear this, and we're long overdue for a strategy meeting."
+"Regardless, we need to wake Kate. She needs to hear this, and we are long overdue to take counsel."
+
+The two of us turn back toward the cave mouth to wake Kate from her rest.
 
 choice("Continue", Ch5-Wake-Kate, v_current_scene = Ch5-Wake-Kate)
 
@@ -325,7 +331,7 @@ Kate nods.
 
 "I agree," she says. "He wouldn't leave us breathing out of sentiment for old companions. A veiled warning to rivals makes far more sense. I don't know what the still winter refers to, but I'd wager steel clears leather the instant those words leave our mouths."
 
-"So our choices are an entire royal cabal, or an invincible stillwater who can turn us into mist with a flick of his wrist. On the bright side, there's no deadline. If we steer clear of anyone in hawk robes until the tournament ends, we might actually survive this."
+"So our choices are an entire royal cabal, or an invincible stillwater who can turn us into mist with a flick of his wrist. On the bright side, no hour has been set. If we steer clear of anyone in hawk robes until the tournament ends, we might actually survive this."
 
 "Steady on," Daren cuts in. "We can't assume hostility from phrasing alone. And our immediate priority should be figuring out how to neutralize Eiden, not obsessing over his errand!"
 
@@ -357,7 +363,7 @@ Kate nods.
 
 "I agree," she says. "He wouldn't leave us breathing out of sentiment for old companions. A veiled warning to rivals makes far more sense. I don't know what the still winter refers to, but I'd wager steel clears leather the instant those words leave our mouths."
 
-"So our choices are an entire royal cabal, or an invincible stillwater who can turn us into mist with a flick of his wrist. On the bright side, there's no deadline. If we steer clear of anyone in hawk robes until the tournament ends, we might actually survive this."
+"So our choices are an entire royal cabal, or an invincible stillwater who can turn us into mist with a flick of his wrist. On the bright side, no hour has been set. If we steer clear of anyone in hawk robes until the tournament ends, we might actually survive this."
 
 "Steady on," Daren cuts in. "We can't assume hostility from phrasing alone. And our immediate priority should be figuring out how to neutralize Eiden, not obsessing over his errand!"
 
@@ -389,7 +395,7 @@ Kate nods.
 
 "I agree," she says. "He wouldn't leave us breathing out of sentiment for old companions. A veiled warning to rivals makes far more sense. I don't know what the still winter refers to, but I'd wager steel clears leather the instant those words leave our mouths."
 
-"So our choices are an entire royal cabal, or an invincible stillwater who can turn us into mist with a flick of his wrist. On the bright side, there's no deadline. If we steer clear of anyone in hawk robes until the tournament ends, we might actually survive this."
+"So our choices are an entire royal cabal, or an invincible stillwater who can turn us into mist with a flick of his wrist. On the bright side, no hour has been set. If we steer clear of anyone in hawk robes until the tournament ends, we might actually survive this."
 
 "Steady on," Daren cuts in. "We can't assume hostility from phrasing alone. And our immediate priority should be figuring out how to neutralize Eiden, not obsessing over his errand!"
 
@@ -646,9 +652,9 @@ Kate has a point. Daren has offered nothing but honesty and protection since we 
 
 "Daren, there's something I need to tell you," I say, stepping back into the cave.
 
-Kate, settling onto her bedroll, watches me closely, waiting to see if I follow through.
+Kate, settling onto her bedroll, watches me closely from the shadows, waiting to see if I follow through.
 
-"Easy, Barry. Conversations opening with those words rarely bring good news."
+"Easy, Barry," Daren says with a half-smile, adjusting his sword belt. "Conversations opening with those words rarely bring good news."
 
 I exhale slowly.
 
@@ -656,13 +662,13 @@ I exhale slowly.
 
 "Oh," Daren says.
 
-His eyes go flat and cold.
+The easy warmth drains out of his voice in a heartbeat. His eyes go flat, hard, and completely unreadable.
 
 "Well. Now I know."
 
 "Now you know."
 
-Kate offers a faint, approving nod from the shadows, but Daren's expression remains stone-still. I leave him to process the revelation and step back toward the open air.
+He doesn't shout. He doesn't lecture. He simply turns his back, tightening the leather buckle on his right gauntlet with slow, rigid precision. Kate gives a single, quiet nod of approval from her corner, but between Daren and me, the silence is suddenly freezing. I step back into the morning air to give him room.
 
 }
 #if(v_ch2_human_reason == 3) {
@@ -670,13 +676,15 @@ Kate has a point. Daren has offered nothing but honesty and protection since we 
 
 "Daren, there's something I need to tell you," I say, stepping back into the cave.
 
-Kate, settling onto her bedroll, watches me closely, waiting to see if I follow through.
+Kate, settling onto her bedroll, watches me closely from the shadows, waiting to see if I follow through.
 
-"Easy, Barry. Conversations opening with those words rarely bring good news."
+"Easy, Barry," Daren says with a half-smile, adjusting his sword belt. "Conversations opening with those words rarely bring good news."
 
 I exhale slowly.
 
 "I lied to you yesterday about why I came to Varathia. I wasn't searching for medicinal herbs. I came of my own free will because I want to win this tournament. Ever since I was a child, I've wanted to become a mage, and the Magium can grant that. I'm sorry for misleading you."
+
+Daren looks at me for several long seconds.
 
 "And the story about your sister? A fabrication as well?"
 
@@ -684,13 +692,13 @@ I exhale slowly.
 
 "Oh," Daren says.
 
-His eyes go flat and cold.
+The easy warmth drains out of his voice in a heartbeat. His eyes go flat, hard, and completely unreadable.
 
 "Well. Now I know."
 
 "Now you know."
 
-Kate offers a faint, approving nod from the shadows, but Daren's expression remains stone-still. I leave him to process the revelation and step back toward the open air.
+He doesn't shout. He doesn't lecture. He simply turns his back, tightening the leather buckle on his right gauntlet with slow, rigid precision. Kate gives a single, quiet nod of approval from her corner, but between Daren and me, the silence is suddenly freezing. I step back into the morning air to give him room.
 
 }
 choice("Continue", Ch5-Scream, v_current_scene = Ch5-Scream)
@@ -940,9 +948,9 @@ Two coppers. Barely the price of a cheap loaf of bread. Goblins are classed as m
 I have coin to spare in my pouch. The question is whether I hand it over to thieves who had a woman cornered moments ago.
 
 }
-choice(""All in the day's work!"", Ch5-Work, v_current_scene = Ch5-Work) if (v_ancient_languages < 3)
+choice(""We heard screaming and we were already in a death tournament. The arithmetic was simple."", Ch5-Work, v_current_scene = Ch5-Work) if (v_ancient_languages < 3)
 choice(""You were lucky that we managed to make it in time."", Ch5-Lucky, v_current_scene = Ch5-Lucky) if (v_ancient_languages < 3)
-choice(""No problem. We love helping people. But we also accept donations!"", Ch5-Donations, v_current_scene = Ch5-Donations) if (v_ancient_languages < 3)
+choice(""You're alive. If you come into coin later, I'll take it."", Ch5-Donations, v_current_scene = Ch5-Donations) if (v_ancient_languages < 3)
 choice("Give them the two copper pieces", Ch5-Goblins2, v_current_scene = Ch5-Goblins2, v_ch5_goblins = 1) if (v_ancient_languages == 3)
 choice("Don't give them anything and send them on their way.", Ch5-Goblins2, v_current_scene = Ch5-Goblins2, v_ch5_goblins = 2) if (v_ancient_languages == 3)
 
@@ -1060,15 +1068,15 @@ Rose lets out a soft, musical laugh.
 "Forgive me," she says. "It must have looked bizarre without understanding our words. They were banished from their clan two days ago over an unpaid tribute, resorting to theft so they wouldn't starve. I simply offered what little aid I could! But where are my manners? My name is Rose. Thank you all from the bottom of my heart—I don't know what I would have done without you!"
 
 }
-choice(""All in the day's work!"", Ch5-Work, v_current_scene = Ch5-Work)
+choice(""We heard screaming and we were already in a death tournament. The arithmetic was simple."", Ch5-Work, v_current_scene = Ch5-Work)
 choice(""You were lucky that we managed to make it in time."", Ch5-Lucky, v_current_scene = Ch5-Lucky)
-choice(""No problem. We love helping people. But we also accept donations!"", Ch5-Donations, v_current_scene = Ch5-Donations)
+choice(""You're alive. If you come into coin later, I'll take it."", Ch5-Donations, v_current_scene = Ch5-Donations)
 
 
 ID: Ch5-Work
 TEXT:
 
-"All in the day's work!" I tell her with an easy shrug.
+"We heard screaming and we were already in a death tournament," I tell her with an easy shrug. "The arithmetic was simple."
 
 "Oh?" Rose's eyebrows lift, a playful spark warming her light-brown eyes. "I take it you joined this tournament purely out of charitable goodwill?"
 
@@ -1128,7 +1136,7 @@ choice("Continue", Ch5-Creator, v_current_scene = Ch5-Creator)
 ID: Ch5-Donations
 TEXT:
 
-"No problem. We love helping people. But we also accept donations!"
+"You're alive," I tell her. "If you come into coin later, I'll take it."
 
 "Barry, for the love of the gods!" Daren groans, clapping a gauntlet over his face.
 
@@ -1158,9 +1166,11 @@ choice("Continue", Ch5-Creator, v_current_scene = Ch5-Creator)
 ID: Ch5-Creator
 TEXT:
 
-"My siblings have not been infected—not yet." She steadies herself, one hand pressing flat against the flap of her satchel. "But my father is bedridden. A wasting illness, years now—he cannot leave the house. His sickroom shares a wall with the quarantine ward. I have watched oildrip overwhelm three clinics this season alone. Containment always fails once the cots are full, and when it breaks, my father will not survive the night. He has no natural resistance left."
+Rose sinks down onto a moss-covered log beside the trail, her wicker satchel resting across her knees. Her fingers, stained with plant sap and dark mountain loam, sort carefully through the fresh cuttings—brushing dirt from silverleaf roots and checking the bruised stems of wintergreen. The air carries the scent of damp earth and crushed mint.
 
-She draws a breath, straightening.
+"My siblings are healthy—for now," Rose says, thumb smoothing a bruised sprig. "Nine and eight. But my father has been bedridden with a wasting sickness for three winters. He cannot leave his cot. His sickroom shares a timber wall with our district's quarantine ward. I have watched oildrip break quarantine in three clinics already—once the cots overflow, containment fails, and the fever spreads through the floorboards. If it reaches him, he has no strength left to fight it."
+
+She gently bundles three roots together with a strip of hemp.
 
 "Beyond that, the infected are laborers and paupers—people who cannot afford physician fees, let alone hire escorts to forage rare roots for them. Nor do I possess the funds to hire mercenaries myself. I am not a physician, but I volunteer in the infirmaries whenever I can. Since our high priest passed, the casualty numbers climb with every sunrise. He was the last person in our town who possessed the art of conjuring food from thin air through magic. Despite years of effort, none of his acolytes could master the technique. Without him, famine spreads. People eat poisonous berries from desperation, others starve, and some have resorted to... to..."
 
@@ -1168,7 +1178,7 @@ Her voice catches, sorrow shadowing her eyes.
 
 "...hunting wild beasts," she finishes in a hushed whisper.
 
-"Wait," Daren blinks, taken aback. "Is it truly forbidden to hunt game on this continent?"
+"Wait," Daren blinks, stepping closer with a frown. "Is it truly forbidden to hunt game on this continent?"
 
 "It... was. Centuries ago, every major city in Varathia maintained at least a dozen mages capable of conjuring boundless nourishment from the magical plane. The Creator personally taught that art to the first generation, and they passed it down to their students. But the talent required for food conjuration is exceptionally rare. Ever since Varathia's founding six hundred years ago, our civilization relied on the Creator to identify gifted disciples and train them. But the Creator vanished a century ago, and with each passing generation, the masters of the craft die out."
 
@@ -1185,7 +1195,7 @@ TEXT:
 
 "Why did the Creator disappear?"
 
-"No one knows for certain," Rose says, adjusting the strap of her herbal satchel. "Legends abound, though proof is scarce. Some claim madness took him in his final decades and he walked into the wastes without a word. Others say he grew disgusted with mortal failings and abandoned us. A few insist he simply grew bored and departed across the ocean to build another kingdom. Most believe he died of old age, and the royal houses concealed his death to forestall panic. As long as common folk cling to the hope that their founder might return, public order holds."
+"No one knows for certain," Rose says, pulling a length of twine tight around her bundle of roots and tucking it into her satchel. "Legends abound, though proof is scarce. Some claim madness took him in his final decades and he walked into the wastes without a word. Others say he grew disgusted with mortal failings and abandoned us. A few insist he simply grew bored and departed across the ocean to build another kingdom. Most believe he died of old age, and the royal houses concealed his death to forestall panic. As long as common folk cling to the hope that their founder might return, public order holds."
 
 She catches herself and offers a self-deprecating smile.
 
@@ -1206,7 +1216,7 @@ TEXT:
 
 "How did the Creator live so long? From what you're saying, he reigned for centuries."
 
-"He did," Rose nods. "Which is why skepticism has festered in recent decades. A century has passed since he was last seen, and even in his prime, he rarely appeared before common citizens—mostly dealing with royal councils. Dissenters now claim the Creator was merely a fable concocted by the monarchs to hoard the secret of food conjuration. In several southern provinces, factions have taken up arms against their crowns over the shortage, pushing whole regions toward civil war."
+"He did," Rose says, pulling a length of twine tight around her bundle of roots and tucking it into her satchel. "Which is why skepticism has festered in recent decades. A century has passed since he was last seen, and even in his prime, he rarely appeared before common citizens—mostly dealing with royal councils. Dissenters now claim the Creator was merely a fable concocted by the monarchs to hoard the secret of food conjuration. In several southern provinces, factions have taken up arms against their crowns over the shortage, pushing whole regions toward civil war."
 
 She catches herself and offers a self-deprecating smile.
 
@@ -1327,11 +1337,11 @@ Clive slashes his dagger straight at Rose's throat.
 
 Rose shuts her eyes tight, bracing for the impact.
 
-The steel stops three inches from her skin, frozen in midair. Clive's entire frame seizes, vibrating violently as a blinding pillar of white radiance erupts around him.
+The steel stops three inches from her skin, frozen in midair. Clive's entire frame seizes, vibrating violently as a blinding pillar of white radiance erupts around him. The air screams with the sudden displacement of mana.
 
 "Ah, shi—"
 
-The light implodes, and Clive vanishes from the clearing—cast off the continent and stripped of his tournament standing.
+The light implodes with a deafening crack, and Clive vanishes from the clearing—cast off the continent and stripped of his tournament standing.
 
 "What did you do to Clive, you filthy—"
 
@@ -1347,7 +1357,9 @@ The wounded mage clutches his shattered shoulder, grinding his teeth in agony.
 
 They scramble through the brush, their panicked crashing fading into the woods.
 
-Once the forest quiets, Kate turns to Rose, lowering her hand.
+Silence settles over the clearing, thick with the sharp scent of ozone and the faint hiss of meltwater where the ice spike punched into the moss.
+
+Kate lowers her hand, exhaling a slow, ragged breath. For a long moment, she simply stares at the spot where Rose stood. Then, turning toward her, Kate's face softens—the guarded severity dropping away into something genuine.
 
 "I take back my earlier words. It would be an honor to escort you to your hometown. What you did was remarkably brave."
 

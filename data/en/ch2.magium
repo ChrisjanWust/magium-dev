@@ -36,7 +36,7 @@ Daren stares at me for a long, quiet second before exhaling through his teeth.
 "Would you two mind telling me what you've been whispering about for the past minute?" the woman asks, crossing her arms.
 
 choice("Her looks", Ch2-Looks, v_current_scene = Ch2-Looks, v_ch2_kate_whisper = 1, v_checkpoint_rich = 0)
-choice("Deciding which one should make a pass at her", Ch2-Pass, v_ac_ch2_talker = 1, v_current_scene = Ch2-Pass, v_ch2_kate_whisper = 2, v_checkpoint_rich = 0)
+choice("Deciding which of us she could kill first", Ch2-Pass, v_ac_ch2_talker = 1, v_current_scene = Ch2-Pass, v_ch2_kate_whisper = 2, v_checkpoint_rich = 0)
 choice("Just finishing our discussion from earlier", Ch2-Earlier, v_current_scene = Ch2-Earlier, v_ch2_kate_whisper = 3, v_checkpoint_rich = 0)
 choice("Discussing whether she is a banshee or not", Ch2-Banshee, v_current_scene = Ch2-Banshee, v_ch2_kate_whisper = 4, v_checkpoint_rich = 0)
 
@@ -44,7 +44,7 @@ choice("Discussing whether she is a banshee or not", Ch2-Banshee, v_current_scen
 ID: Ch2-Looks
 TEXT:
 
-"We were talking about your looks, actually," I tell her.
+"We were talking about your looks, as it happens," I tell her.
 
 Her dark eyes bore straight into mine, cold and unreadable. If the flippant deflection bothers her, she gives no sign of it. Dismissing me entirely, she turns her attention to Daren.
 
@@ -59,7 +59,7 @@ ID: Ch2-Pass
 TEXT:
 
 achievement("Smooth talker",v_ac_ch2_talker)
-"We were trying to decide which one of us should make a pass at you," I tell her. "We were just about to play rock paper scissors for it! Would you do us the honor of arbitering our match?"
+"We were trying to decide which of us you could kill first," I tell her. "I was losing the argument."
 
 A sharp crease cuts between her brows, her lips pressing into a thin, displeased line. She forces her expression back to a guarded neutral, though the irritation in her eyes burns plain enough. Whatever she thinks of my tact, she buys the cover.
 
@@ -186,23 +186,25 @@ TEXT:
 
 "You claim you can't trust me, but why should either of us trust you?" I counter. The ice blade hasn't moved from my throat, and speaking makes my adam's apple bob dangerously close to the edge. "What if this missing friend is a cover story, and you're hunting for the Magium like every other killer on this island? What proof do you have?"
 
-The ice wavers. Not because she's losing control—because the question landed.
+The ice wavers. Not because she's losing control—because the question landed. A bead of meltwater runs down my collarbone.
 
 "I am not... I only..."
 
 Her words catch in her throat, her jaw locking tight. For one heartbeat, something raw and wounded flickers behind her eyes before the mask slams back down.
 
-Daren moves to her flank, one hand raised in peace, the other on his sword pommel.
+Daren moves. Not between us—he places himself at Kate's flank, one hand raised in peace, the other resting on the pommel of his sword.
 
-"Listen," he says, careful and firm. "I watched this man read an enchanted-weapon system in three seconds flat and bluff a killer into retreat. If he were a stillwater, Dave would be ash. He's something else. I don't know what yet. But he's unarmed, he's outnumbered, and killing him gains you nothing. You want safe passage north? He walks with us. Those are the terms."
+"Listen," he says, careful and firm. "I watched this man read an enchanted-weapon system in three seconds flat and bluff a killer into retreat. If he were a stillwater, Dave would be ash. He's something else. I don't know what yet. But he's unarmed, he's outnumbered, and killing him gains you nothing." He meets her eyes. "You want safe passage north? He walks with us. Those are the terms."
 
-The ice shatters. Kate's fist closes, crushing the blade into cold vapor that stings my eyes. She steps back, breathing hard through her nose.
+She holds his gaze. The ice does not melt. Five seconds. Ten.
 
-"If those are your terms, I accept. But I sleep with wards around my bedroll. If he moves within arm's reach of me in the night, I freeze the blood in his veins before he draws his next breath."
+Then Kate's fist closes, crushing the blade into cold vapor that stings my eyes. She steps back, breathing hard through her nose.
 
-"Understood," Daren says quietly. "Let's move."
+"If those are your terms," she says, "I accept. But understand this: I sleep with wards around my bedroll. If he moves within arm's reach of me in the night, I will freeze the blood in his veins before he draws his next breath. That is not a threat. It is a promise I have already kept once."
 
-"Hold on," I call out, rubbing the red mark on my throat. "You still haven't told us your name."
+Daren exhales slowly. "Fair enough. Let's cover ground while the light holds."
+
+"Hold on," I call out, rubbing the red mark on my throat where cold bit skin. "You still haven't told us your name."
 
 She turns back, measuring me with cold deliberation before she speaks.
 
@@ -224,17 +226,21 @@ TEXT:
 
 "I don't care what you claim." Her voice drops to something quiet and lethal. "I care about what happens when I close my eyes."
 
-Daren moves to her flank, one hand raised, the other resting on his sword.
+The ice presses closer. A bead of meltwater runs down my collarbone.
 
-"Listen," he says carefully. "I watched this man read an enchanted-weapon system in three seconds and bluff a killer into retreat. If he were a stillwater, Dave would be a stain on the dirt. He's something else. Unarmed. Outnumbered. And killing him gains you nothing." He meets her eyes. "You want safe passage north? He walks with us. Those are the terms."
+Daren moves. Not between us—he places himself at Kate's flank, one hand raised in peace, the other resting on the pommel of his sword.
 
-The ice hangs in the air for five more seconds. Then Kate's fist closes—crushing the blade to vapor that stings my eyes—and she steps back.
+"Listen," he says, careful and firm. "I watched this man read an enchanted-weapon system in three seconds flat and bluff a killer into retreat. If he were a stillwater, Dave would be ash. He's something else. I don't know what yet. But he's unarmed, he's outnumbered, and killing him gains you nothing." He meets her eyes. "You want safe passage north? He walks with us. Those are the terms."
 
-"Fine. But I ward my bedroll. He comes within arm's reach in the night, I freeze his blood solid. That is not posturing."
+She holds his gaze. The ice does not melt. Five seconds. Ten.
 
-"Understood," Daren says. "Let's move."
+Then Kate's fist closes, crushing the blade into cold vapor that stings my eyes. She steps back, breathing hard through her nose.
 
-"Hold on," I call out, pressing a hand against the cold-burned skin of my throat. "You still haven't told us your name."
+"If those are your terms," she says, "I accept. But understand this: I sleep with wards around my bedroll. If he moves within arm's reach of me in the night, I will freeze the blood in his veins before he draws his next breath. That is not a threat. It is a promise I have already kept once."
+
+Daren exhales slowly. "Fair enough. Let's cover ground while the light holds."
+
+"Hold on," I call out, rubbing the red mark on my throat where cold bit skin. "You still haven't told us your name."
 
 She turns back, measuring me with cold deliberation before she speaks.
 
@@ -808,16 +814,16 @@ TEXT:
 
 Daren nods toward the treeline.
 
-"Very well. Let's keep going," he says, taking the lead.
+"Very well. Let's keep moving," he says, taking the lead and scanning the ridge above.
 
-I turn to follow, but Kate steps into my path, catching my shirt collar in a tight fist. Her eyes narrow into cold slits.
+I turn to follow, but Kate steps into my path, catching the collar of my tunic in a tight, frozen fist. Her eyes narrow into dark slits, her knuckles cold enough to seep through the linen.
 
-"Stillwater," she says in a low voice, avoiding Daren's hearing. "I saw you 'fighting' back there. You may have managed to convince Daren and that bearded fool that you are an ordinary human, but I am not so easily deceived. I don't know what your game is, but I'm going to keep my eye on you."
+"Stillwater," she says in a low rasp, pitched well below Daren's hearing. "I saw you 'fighting' back there. You may have managed to convince Daren and that bearded fool that you are an ordinary human, but I am not so easily deceived. I don't know what your game is, but I am keeping my eye on you."
 
-"I'm not—" I begin, but Kate cuts me off and tightens her grip.
+"I'm not—" I begin, but she twists the fabric, pulling me a fraction of an inch closer.
 
 #if(v_ch2_kate_debt == 0) {
-"Listen to me, stillwater. I'm not interested to hear your lies. I just wanted to make sure you were clear on what I think of your little charade. Now, are you clear?"
+"Listen to me, stillwater. I'm not interested in your lies. I just wanted to make sure you were clear on what I think of your little charade. Now, are you clear?"
 }
 #if(v_ch2_kate_debt == 1) {
 "You owe me, stillwater. I saved your life during that battle and you owe me. And I intend to collect that debt sooner rather than later. Are we clear?"
@@ -834,7 +840,7 @@ TEXT:
 
 "Crystal," I tell her.
 
-"Good," she says, releasing my shirt. "Now let's be off. We need to catch up to Daren."
+"Good," she says, releasing my collar with a sharp push. "Now move. We need to catch up to Daren."
 
 choice("Continue", Ch2-Deer, v_current_scene = Ch2-Deer)
 
@@ -844,11 +850,11 @@ TEXT:
 
 "Not really, could you elaborate some more?" I ask her.
 
-Her eyes flash with cold annoyance.
+Her dark eyes flash with razor-sharp irritation, her fingers tightening on my collar for one warning heartbeat.
 
 "Joke all you want, stillwater, but I've got my eye on you."
 
-She releases my shirt and strides ahead to catch up with Daren, not saying another word.
+She shoves me back and strides ahead to catch up with Daren, leaving cold air in her wake.
 
 choice("Continue", Ch2-Deer, v_current_scene = Ch2-Deer)
 
@@ -858,9 +864,9 @@ TEXT:
 
 "Don't worry," I tell her. "I always pay my debts."
 
-The hostility in her posture eases by a fraction. She studies my face, willing to take my word for now.
+The hostility in her posture eases by a bare fraction. She searches my face, weighing the promise, before her fingers unclamp from my linen.
 
-"Very well, then," she says, releasing my shirt. "Let's be off. We need to catch up to Daren."
+"Very well, then," she says, stepping back onto the trail. "Let's be off. We need to catch up to Daren."
 
 choice("Continue", Ch2-Deer, v_current_scene = Ch2-Deer)
 
@@ -870,7 +876,9 @@ TEXT:
 
 "Yes, we're clear," I tell her.
 
-"Very well, then," she says, releasing my shirt. "Let's be off. We need to catch up to Daren."
+She holds my gaze for a second longer, making sure the point landed, then releases my collar with a curt nod.
+
+"Very well, then," she says. "Let's be off. We need to catch up to Daren."
 
 choice("Continue", Ch2-Deer, v_current_scene = Ch2-Deer)
 
@@ -880,11 +888,11 @@ TEXT:
 
 "I don't owe you anything," I tell her. "You only helped me because you saw that Daren was getting killed."
 
-Kate scowls, stepping closer.
+Kate's jaw locks, stepping hard into my space, her breath cold against my chin.
 
 "You were the one getting killed, stillwater. Not Daren. And you will pay your debt."
 
-She shoves me back, releasing my shirt, and goes to catch up with Daren without another word.
+She shoves me violently back into the brush, releasing my collar, and marches after Daren without another word.
 
 choice("Continue", Ch2-Deer, v_current_scene = Ch2-Deer)
 
@@ -896,12 +904,12 @@ set(v_ch2_deer_interaction,0)
 set(v_ch2_understood_deer,0) if (v_ancient_languages < 2)
 set(v_ch2_understood_deer,1) if (v_ancient_languages >= 2)
 #if(v_ancient_languages < 2) {
-Near the dense tree line, brush rustles as a doe and her fawn emerge from the foliage. Catching sight of us, they startle, let out soft grunts of alarm, and bolt back into the thick undergrowth.
+Near the dense tree line, brush rustles as a doe and her fawn emerge from the foliage, stepping cautiously across the moss-covered shale. Catching sight of us, they startle, let out soft grunts of alarm, and bolt back into the thick undergrowth.
 
 We turn toward the mountain trail, searching the rocky slopes for a cave to shelter us for the night.
 }
 #if(v_ancient_languages >= 2) {
-Near the dense tree line, brush rustles as a doe and her fawn emerge from the foliage. As the young fawn bleats, the sounds resolve into fluent syllables of an ancient dialect, instantly translated by my stat booster.
+Near the dense tree line, brush rustles as a doe and her fawn emerge from the foliage, stepping cautiously across the moss-covered shale. As the young fawn bleats, the sounds resolve into fluent syllables of an ancient dialect, instantly translated by my stat booster.
 
 "Mommy, there are more outlanders this way!"
 
@@ -918,7 +926,7 @@ The two deer stop and look towards me.
 choice("Next chapter", Ch3-Intro, v_next_chapter_crash = 1, v_current_scene = Ch3-Intro, v_chapter_save_counter = 5, v_checkpoint_rich = 1, special:checkpoint_save) if (v_ancient_languages < 2)
 choice("Offer to provide protection in exchange for leading us to their cave", Ch2-Protection, v_ac_ch2_unlikely = 1, v_current_scene = Ch2-Protection, v_ch2_deer_interaction = 1) if (v_ancient_languages >= 2)
 choice("Wish them safe travels", Ch2-Travels, v_current_scene = Ch2-Travels, v_ch2_deer_interaction = 2) if (v_ancient_languages >= 2)
-choice("Tell them they look delicious", Ch2-Delicious, v_current_scene = Ch2-Delicious, v_ch2_deer_interaction = 3) if (v_ancient_languages >= 2)
+choice("Tell them that if we starve on this mountain I make no promises", Ch2-Delicious, v_current_scene = Ch2-Delicious, v_ch2_deer_interaction = 3) if (v_ancient_languages >= 2)
 
 
 ID: Ch2-Protection
@@ -927,27 +935,27 @@ TEXT:
 achievement("An unlikely ally",v_ac_ch2_unlikely)
 "Yes, I can," I tell her. "I overheard you talking about a cave. We are looking for shelter as well. We could offer you protection on your way back if you promise to let us share your cave for one night."
 
-The female deer is measuring me up with her eyes. She isn't sure what to make of my offer.
+The doe measures me with large, dark eyes, ears flicking toward the distant rumbles of spellfire across the valley.
 
-"We mean you no harm, I promise," I tell her.
+"We mean you no harm, I promise," I tell her, keeping my hands open and still.
 
-"No," the female deer says. "You don't. Otherwise I wouldn't still be alive, having this conversation with you. I thank you, outlander. We accept your generous offer. My name is Elaria, and this is my child, Molan. I believe this is how humans make their acquaintance?"
+"No," the doe says, tilting her head. "You don't. Otherwise I wouldn't still be standing here, having this conversation with you. I thank you, outlander. We accept your generous offer. My name is Elaria, and this is my child, Molan. I believe this is how humans make their acquaintance?"
 
-She steps forward and gracefully extends a slender front leg. Taking the offered hoof, I give it a brief, formal shake before letting go.
+She steps forward across the mossy shale and gracefully extends a slender front leg. Taking the offered hoof, I give it a brief, formal shake before letting go.
 
-"I'm Barry," I tell her. "Pleased to meet you!"
+"I'm Barry," I tell her. "Pleased to meet you."
 
 Beside me, Daren and Kate stare in utter bewilderment. To their ears, I just traded a series of strange clicks and bleats with a wild animal and concluded the negotiation with a handshake.
 
-"Barry, what the hell?..." asks Daren.
+"Barry, what in the world?..." Daren asks, glancing from me to the doe with a furrowed brow.
 
 "I'll explain later," I tell him. "They said they can lead us to their cave, in exchange for our protection. We're still looking for shelter, aren't we?"
 
-"Well, I guess, but..."
+"Well, I suppose, but..."
 
-"Then come on, she says it's this way," I say, as I follow the deer into the woods.
+"Then come on, she says it's this way," I say, following the deer along the tree line.
 
-Daren shakes his head in deep skepticism, but follows regardless. Kate watches with a raised brow, more intrigued than skeptical, as she follows as well into the depths of the forest and toward the mountains.
+Daren shakes his head in deep skepticism, but follows with hand on pommel. Kate watches with a raised brow, more intrigued than skeptical, as she falls into step behind us toward the rocky slopes.
 
 choice("Next chapter", Ch3-Intro, v_next_chapter_crash = 1, v_current_scene = Ch3-Intro, v_chapter_save_counter = 5, v_checkpoint_rich = 1, special:checkpoint_save)
 
@@ -955,17 +963,17 @@ choice("Next chapter", Ch3-Intro, v_next_chapter_crash = 1, v_current_scene = Ch
 ID: Ch2-Travels
 TEXT:
 
-"Yes, I can," I tell her. "I just wanted to wish you safe travels!"
+"Yes, I can," I tell her. "I just wanted to wish you safe travels."
 
-"Oh..." she says. "Thank you. I wish you safe travels as well, outlander. Come my child, let us go."
+"Oh..." she says, her ears perking up. "Thank you. I wish you safe travels as well, outlander. Come, my child, let us go."
 
-As the two deer head back into the forest, Daren and Kate are looking straight at me.
+As the two deer vanish into the thick mountain brush, Daren and Kate stare at me in dead silence.
 
-"Barry, what the hell were you doing?" asks Daren. "Do you know how ridiculous you sounded when you were imitating that doe?"
+"Barry, what in the world were you doing?" Daren asks, shaking his head. "Do you have any idea how ridiculous you sounded, whistling and clicking at a doe?"
 
-"Yeah, I guess I did sound ridiculous. Don't mind me, I was just fooling around. Let's keep going."
+"I'm sure I sounded absurd," I say, adjusting my pack. "Don't mind me, just letting off steam. Let's keep moving."
 
-We decide to follow the path that leads to the mountains, in the hopes of finding a cave to provide us with some shelter for the night.
+We head up the winding mountain path, scanning the rocky slopes in the hopes of finding a cave to shelter us for the night.
 
 choice("Next chapter", Ch3-Intro, v_next_chapter_crash = 1, v_current_scene = Ch3-Intro, v_chapter_save_counter = 5, v_checkpoint_rich = 1, special:checkpoint_save)
 
@@ -973,16 +981,16 @@ choice("Next chapter", Ch3-Intro, v_next_chapter_crash = 1, v_current_scene = Ch
 ID: Ch2-Delicious
 TEXT:
 
-"Yes, I can," I tell her. "And I just wanted to say that you look delicious!"
+"Yes, I can," I tell her. "And if we starve on this mountain I make no promises."
 
-"No! Stay away from us, monster. Child, quick, into the forest!" she says, as they rush back into the woods.
+"No! Stay away from us, monster. Child, quick, into the forest!" she cries, her hooves kicking up moss as both deer bolt into the thicket.
 
-As the two deer disappear, Daren and Kate are looking straight at me.
+As the crashing in the brush fades, Daren and Kate stare at me in dead silence.
 
-"Barry, what the hell were you doing?" asks Daren. "Do you know how ridiculous you sounded when you were imitating that doe?"
+"Barry, what in the world were you doing?" Daren asks, shaking his head. "Do you have any idea how ridiculous you sounded, clicking and wheezing at a doe?"
 
-"Yeah, I guess I did sound ridiculous. Don't mind me, I was just fooling around. Let's keep going."
+"I'm sure I sounded absurd," I say, adjusting my pack. "Don't mind me, just letting off steam. Let's keep moving."
 
-We decide to follow the path that leads to the mountains, in the hopes of finding a cave to provide us with some shelter for the night.
+We head up the winding mountain path, scanning the rocky slopes in the hopes of finding a cave to shelter us for the night.
 
 choice("Next chapter", Ch3-Intro, v_next_chapter_crash = 1, v_current_scene = Ch3-Intro, v_chapter_save_counter = 5, v_checkpoint_rich = 1, special:checkpoint_save)

@@ -51,7 +51,7 @@ Standing watch in the quiet, our talk turns back to the tournament and the utter
 
 }
 choice(""Maybe there are no objectives."", Ch4-Intro2, v_current_scene = Ch4-Intro2, v_checkpoint_rich = 0, v_ch4_objectives = 1)
-choice(""Maybe they encountered some unexpected technical difficulties."", Ch4-Intro2, v_current_scene = Ch4-Intro2, v_checkpoint_rich = 0, v_ch4_objectives = 2)
+choice(""Maybe their scrying failed and they're too proud to admit the ceremony is late."", Ch4-Intro2, v_current_scene = Ch4-Intro2, v_checkpoint_rich = 0, v_ch4_objectives = 2)
 choice(""Maybe they're waiting for our numbers to decrease."", Ch4-Intro2, v_current_scene = Ch4-Intro2, v_checkpoint_rich = 0, v_ch4_objectives = 3)
 
 
@@ -71,7 +71,7 @@ As the newcomer draws closer, his magical signature resolves. It's faint—thin 
 
 When he clears the brush, nothing about him belongs on a battlefield.
 
-He looks nineteen at most, slender and unarmored, dressed in a loose tunic and trousers that look more like sleepwear than travel gear. His hands rest in his pockets, and his eyes are completely shut. He strolls across the uneven rock with the unhurried gait of someone wandering down to the kitchen for a midnight snack. Not a contestant, surely—yet he cannot be a local either, or the tournament sigils would have flared with a warning the moment he approached our perimeter.
+He looks nineteen at most, slender and unarmored, dressed in a loose tunic and trousers that look more like sleepwear than travel gear. His hands rest in his pockets, and his eyes are completely shut. He strolls across the uneven rock with the unhurried gait of someone wandering a quiet courtyard at dawn. Not a contestant, surely—yet he cannot be a local either, or the tournament sigils would have flared with a warning the moment he approached our perimeter.
 
 "Good morrow, lad!" Daren calls out, stepping forward. "Fine day for a stroll, isn't it? What business brings you to our camp? If you're lost, we can point you back toward the roads."
 
@@ -93,7 +93,7 @@ When I don't answer, Daren fills the silence with an easy grin.
 
 }
 #if(v_ch4_objectives == 2) {
-"Maybe they encountered some unexpected technical difficulties," I say. "Perhaps their scrying relays hit a snag, and we'll receive the proclamation before noon."
+"Maybe their scrying failed and they're too proud to admit the ceremony is late," I say.
 
 "I pray you're right, Barry. I can't bring myself to believe this butchery is intentional..."
 
@@ -105,7 +105,7 @@ As the newcomer draws closer, his magical signature resolves. It's faint—thin 
 
 When he clears the brush, nothing about him belongs on a battlefield.
 
-He looks nineteen at most, slender and unarmored, dressed in a loose tunic and trousers that look more like sleepwear than travel gear. His hands rest in his pockets, and his eyes are completely shut. He strolls across the uneven rock with the unhurried gait of someone wandering down to the kitchen for a midnight snack. Not a contestant, surely—yet he cannot be a local either, or the tournament sigils would have flared with a warning the moment he approached our perimeter.
+He looks nineteen at most, slender and unarmored, dressed in a loose tunic and trousers that look more like sleepwear than travel gear. His hands rest in his pockets, and his eyes are completely shut. He strolls across the uneven rock with the unhurried gait of someone wandering a quiet courtyard at dawn. Not a contestant, surely—yet he cannot be a local either, or the tournament sigils would have flared with a warning the moment he approached our perimeter.
 
 "Good morrow, lad!" Daren calls out, stepping forward. "Fine day for a stroll, isn't it? What business brings you to our camp? If you're lost, we can point you back toward the roads."
 
@@ -139,7 +139,7 @@ As the newcomer draws closer, his magical signature resolves. It's faint—thin 
 
 When he clears the brush, nothing about him belongs on a battlefield.
 
-He looks nineteen at most, slender and unarmored, dressed in a loose tunic and trousers that look more like sleepwear than travel gear. His hands rest in his pockets, and his eyes are completely shut. He strolls across the uneven rock with the unhurried gait of someone wandering down to the kitchen for a midnight snack. Not a contestant, surely—yet he cannot be a local either, or the tournament sigils would have flared with a warning the moment he approached our perimeter.
+He looks nineteen at most, slender and unarmored, dressed in a loose tunic and trousers that look more like sleepwear than travel gear. His hands rest in his pockets, and his eyes are completely shut. He strolls across the uneven rock with the unhurried gait of someone wandering a quiet courtyard at dawn. Not a contestant, surely—yet he cannot be a local either, or the tournament sigils would have flared with a warning the moment he approached our perimeter.
 
 "Good morrow, lad!" Daren calls out, stepping forward. "Fine day for a stroll, isn't it? What business brings you to our camp? If you're lost, we can point you back toward the roads."
 
@@ -754,15 +754,15 @@ He managed to recruit an entire gang since yesterday. Next to this crew, Dave lo
 
 "I've been hunting your trail, stillwater," Dave sneers, twirling a dagger between scarred knuckles. "Tracked your boots through the mud since yesterday noon. Told you we'd cross paths again. Nobody runs from Cutthroat Dave."
 
-choice(""I never doubted you for a second, Dave!"", Ch4-Doubted, v_current_scene = Ch4-Doubted)
-choice(""Could we try that again? I just came up with this great idea for a hiding spot!"", Ch4-Hiding, v_current_scene = Ch4-Hiding)
-choice(""I'm so relieved! I thought you got lost on the way."", Ch4-Relieved, v_current_scene = Ch4-Relieved)
+choice(""You found us. Now you get to die somewhere I can watch."", Ch4-Doubted, v_current_scene = Ch4-Doubted)
+choice(""You already had me once. If you were good at finishing jobs we wouldn't be talking."", Ch4-Hiding, v_current_scene = Ch4-Hiding)
+choice(""You took long enough that I counted your men. That isn't a compliment to them."", Ch4-Relieved, v_current_scene = Ch4-Relieved)
 
 
 ID: Ch4-Doubted
 TEXT:
 
-"I never doubted you for a second, Dave!"
+"You found us. Now you get to die somewhere I can watch."
 
 "Hah! I'm going to enjoy taking that arrogant head off your shoulders, boy. What happened to your healer friend? Is he taking a little nap?"
 
@@ -774,9 +774,9 @@ choice("Continue", Ch4-Barry-vs-Dave, v_current_scene = Ch4-Barry-vs-Dave)
 ID: Ch4-Hiding
 TEXT:
 
-"Could we try that again? I just came up with this great idea for a hiding spot!"
+"You already had me once. If you were good at finishing jobs we wouldn't be talking."
 
-"The only hiding spot you're heading for is your grave, boy. What happened to your healer friend? Is he taking a little nap?"
+"The only place you're heading is a shallow grave, boy. What happened to your healer friend? Is he taking a little nap?"
 
 As Dave finishes speaking, Daren groggily pushes himself up from the dirt, blinking in confusion at the armed mob in front of us.
 
@@ -786,7 +786,7 @@ choice("Continue", Ch4-Barry-vs-Dave, v_current_scene = Ch4-Barry-vs-Dave)
 ID: Ch4-Relieved
 TEXT:
 
-"I'm so relieved! I thought you got lost on the way."
+"You took long enough that I counted your men. That isn't a compliment to them."
 
 "You'd best worry about yourself, boy. Your days are numbered. What happened to your healer friend? Is he taking a little nap?"
 
@@ -799,7 +799,7 @@ ID: Ch4-Strategy
 TEXT:
 
 #if(v_ch3_tactics == 1) {
-"This is it, Barry," Daren says. "Remember our strategy meeting yesterday? If you could just manage to keep Cutthroat Dave busy until I finish his henchmen, it could mean the difference between life and death."
+"This is it, Barry," Daren says. "Remember what we agreed last night? If you could just manage to keep Cutthroat Dave busy until I finish his henchmen, it could mean the difference between life and death."
 
 "I, uh... This may seem like a rather stupid question, given our situation, but... Do you happen to have a spare dagger I could use?"
 
@@ -809,7 +809,7 @@ Daren shakes his head in disapproval and hands me a dagger from his belt.
 
 }
 #if(v_ch3_tactics == 2) {
-"Barry," Daren says. "Remember our strategy meeting yesterday? This is your time to shine. I couldn't take out Dave yesterday, but maybe you can. I will take on his henchmen in the meantime."
+"Barry," Daren says. "Remember what we agreed last night? This is your time to shine. I couldn't take out Dave yesterday, but maybe you can. I will take on his henchmen in the meantime."
 
 "I, uh... This may seem like a rather stupid question, given our situation, but... Do you happen to have a spare dagger I could use?"
 
@@ -819,7 +819,7 @@ Daren shakes his head in disapproval and hands me a dagger from his belt.
 
 }
 #if(v_ch3_tactics == 3) {
-"Barry," Daren says. "I know this isn't what we talked about yesterday during our strategy meeting, but I don't think I can fight all these thugs by myself, especially considering my weakness to Dave's technique. Is there any way you could join the fight? Even keeping their leader busy for a while could mean the difference between life and death."
+"Barry," Daren says. "I know this isn't what we agreed last night, but I don't think I can fight all these thugs by myself, especially considering my weakness to Dave's technique. Is there any way you could join the fight? Even keeping their leader busy for a while could mean the difference between life and death."
 
 "I, uh... This may seem like a rather stupid question, given our situation, but... Do you happen to have a spare dagger I could use?"
 
@@ -960,7 +960,7 @@ A roaring pillar of fire erupts beneath Cutthroat Dave, and his gloating is cut 
 
 Shortly after, Eiden emerges from the shadows, with his usual smile on his face.
 
-"See, Barry, this is how you deal with a vermin infestation. Tell me, what kind of a mailman dies before setting foot out of the post office? I have half a mind to file a complaint for your shoddy services."
+"See, Barry, this is how you deal with a vermin infestation. Tell me, what kind of courier dies before setting foot out of the waystation? I have half a mind to demand satisfaction for your botched service."
 
 "I'm... really sorry, I promise I'll do better next... time?"
 
@@ -1233,15 +1233,27 @@ Cutthroat Dave saunters toward me, his remaining daggers fanning out into a leth
 
 "It's over, boy. Too late to beg now. My blades like to take their time carving up fresh meat. Say your prayers, you arrogant little—"
 
-A pillar of pure, silent white flame erupts directly where Cutthroat Dave is standing.
+Six blades in play. Two in my flesh, two hovering, two in his fists—and an empty bandolier.
 
-His gloating tears into a shrill, shrieking agony that cuts out in less than two seconds. The fire ignores the surrounding dry pine needles entirely, burning with an eerie, contained fury. When the column collapses, nothing remains of Dave except a dusting of pale grey ash drifting over the scorched dirt.
+Enchanted steel needs a tether, and an automated proximity loop only tracks vectors, not intent. Bleeding out on the moss, I force a choked laugh and expose my neck, baiting his strike.
 
-From the shadow of a weeping pine, Eiden steps into the light, hands in his pockets and his placid, closed-eyed smile unchanged.
+Dave sneers and lunges, driving his right-hand blade down in a furious killing thrust.
 
-"You see, Barry? That is how one handles a vermin problem."
+At the final fraction of an inch, I jerk my shoulder sideways. The descending dagger grazes my collarbone and plunges into the loam, right through the tracking arc of the two hovering guard-blades. The tethers intersect. The proximity loop short-circuits in a violent screech of overloaded mana, and the magnetic feedback snaps inward with catastrophic force.
 
-"You!" Daren's roar echoes across the clearing as he finishes the last mercenary and sprints toward the stillwater with his broadsword raised.
+Both airborne daggers violently reverse direction, converging directly on the master tether. Before Dave can pull his hands back, his own enchanted steel drives through his chest and sternum, followed instantly by the second pair tearing into his ribs.
+
+Dave gasps, his eyes bulging in choked shock. He collapses face-first into the needles, his own daggers pinning him to the dirt, dead before his forehead hits the loam.
+
+I lie on my back in the dirt, clutching my bleeding thigh, breath sawing raggedly through my teeth. My hands won't stop shaking. I didn't win this fight. I barely tripped an exploit before bleeding out.
+
+From the shadow of a weeping pine at the treeline, a soft voice drifts over the clearing.
+
+"Do not make a habit of that, courier."
+
+Eiden stands leaning against the bark, hands in his pockets, placid, closed-eyed smile unchanged. He hasn't moved an inch.
+
+"You!" Daren's roar echoes across the clearing as he cuts down the last mercenary and sprints toward the stillwater with broadsword raised.
 
 With a lazy flick of two fingers, Eiden triggers a sleep ward. Daren's eyes glaze instantly, his boots tangling in mid-stride, and he crashes face-first into the loam, sliding several feet in his heavy plate before coming to a dead stop.
 
@@ -1249,9 +1261,9 @@ With a lazy flick of two fingers, Eiden triggers a sleep ward. Daren's eyes glaz
 
 He turns his head toward me, the empty smile lingering.
 
-"Tell me, Barry... what sort of mailman gets butchered before he even steps out of the post office? I have half a mind to demand a refund for your services."
+"Tell me, Barry... what sort of courier gets butchered before he even steps out of the waystation? I have half a mind to demand my coin back for your services."
 
-"I... I apologize. I'll make sure the message arrives."
+"I... I'll make sure the message arrives."
 
 "That's the spirit," he murmurs, his form already shimmering like heat off summer stone.
 
@@ -1329,7 +1341,7 @@ Eiden flicks two fingers. Daren drops in mid-stride, his armor clattering agains
 
 "You know how stat boosters operate?" I ask, wiping my blade.
 
-"I do. And I know precisely why that hardware yields such extraordinary returns in your hands. Have you never questioned that, Barry?"
+"I do. And I know precisely why that instrument yields such extraordinary returns in your hands. Have you never questioned that, Barry?"
 
 The thought has haunted me since yesterday. The power transfer rates defy standard arcane theory.
 

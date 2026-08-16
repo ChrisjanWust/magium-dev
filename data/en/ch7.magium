@@ -52,7 +52,7 @@ Frost flares in her right hand. Before the sentence leaves my mouth, an ice dagg
 "If you make any kind of noise, I will slit your throat here and now. Do you understand?"
 }
 choice(""Yes."", Ch7-Yes, v_current_scene = Ch7-Yes, v_checkpoint_rich = 0, v_ch7_tap = 0)
-choice(""If you wanted to borrow some money from me, you could have just asked nicely."", Ch7-Borrow, v_current_scene = Ch7-Borrow, v_checkpoint_rich = 0, v_ch7_tap = 0)
+choice(""If this is about the transceiver, I didn't tap it. You'd already know if I had."", Ch7-Borrow, v_current_scene = Ch7-Borrow, v_checkpoint_rich = 0, v_ch7_tap = 0)
 choice("Tap the magical transceiver three times, without letting her notice.", Ch7-Tap, v_current_scene = Ch7-Tap, v_checkpoint_rich = 0, v_ch7_tap = 1)
 
 
@@ -85,9 +85,9 @@ choice("Continue", Ch7-Diane, v_current_scene = Ch7-Diane)
 ID: Ch7-Borrow
 TEXT:
 
-"If you wanted to borrow some money from me, you could have just asked nicely."
+"If this is about the transceiver, I didn't tap it," I say. "You'd already know if I had."
 
-"Shut up!" Kate snaps, her eyes blazing with rage. "I've had it with your jokes and with the way you always like to tread on thin ice, even when your life is on the line! Are you incapable of comprehending the situation you are in right now?!"
+"Shut up!" Kate snaps, her eyes blazing with rage. "I've had it with your deflections and with the way you always like to tread on thin ice, even when your life is on the line! Are you incapable of comprehending the situation you are in right now?!"
 
 "Well, it's kind of hard, since you never actually told me what--"
 
@@ -178,13 +178,13 @@ Kate's left fist slams into the trunk beside my ear, cracking the bark and split
 
 A faint rattle sounds from inside my coat pocket--not the stat booster.
 
-"Barry, are you okay?" Daren's voice floats out of the transceiver. "Are you still there?"
+"Barry, are you hurt?" Daren's voice floats out of the transceiver. "Are you still there?"
 
 I tap the device with my left hand through the fabric to activate it.
 
-"Yes, Daren, I'm fine. I'm just having a longer discussion with Kate. I'll let you know when we're done."
+"Yes, Daren, I'm unhurt. I'm just having a longer discussion with Kate. I'll let you know when we're done."
 
-"Oh, okay, then. I didn't mean to interrupt, I was just starting to get worried, that's all. Take your time."
+"Oh. Very well. I didn't mean to interrupt, I was just starting to get worried, that's all. Take your time."
 
 "What was that?" Kate asks me, as I turn off the transceiver.
 
@@ -192,7 +192,7 @@ The point of the ice dagger still presses into my throat, but the panic doesn't 
 
 "That was a device that Daren gave me to communicate with him in case of an emergency," I tell her.
 
-"What?... No, that can't be right. We never talked about this during our strategy meetings. Why wouldn't he have also given me a device like this if it's for emergencies?"
+"What?... No, that can't be right. We never talked about this when we took counsel. Why wouldn't he have also given me a device like this if it's for emergencies?"
 
 "That's because Daren doesn't trust you."
 
@@ -228,13 +228,13 @@ Kate's jaw tightens. Doubt flickers in her eyes, warring with the fury.
 
 A faint rattle sounds from inside my coat pocket--not the stat booster.
 
-"Barry, are you okay?" Daren's voice floats out of the transceiver. "Are you still there?"
+"Barry, are you hurt?" Daren's voice floats out of the transceiver. "Are you still there?"
 
 I tap the device with my left hand through the fabric to activate it.
 
-"Yes, Daren, I'm fine. I'm just having a longer discussion with Kate. I'll let you know when we're done."
+"Yes, Daren, I'm unhurt. I'm just having a longer discussion with Kate. I'll let you know when we're done."
 
-"Oh, okay, then. I didn't mean to interrupt, I was just starting to get worried, that's all. Take your time."
+"Oh. Very well. I didn't mean to interrupt, I was just starting to get worried, that's all. Take your time."
 
 "What was that?" Kate asks me, as I turn off the transceiver.
 
@@ -242,7 +242,7 @@ The point of the ice dagger still presses into my throat, but the panic doesn't 
 
 "That was a device that Daren gave me to communicate with him in case of an emergency," I tell her.
 
-"What?... No, that can't be right. We never talked about this during our strategy meetings. Why wouldn't he have also given me a device like this if it's for emergencies?"
+"What?... No, that can't be right. We never talked about this when we took counsel. Why wouldn't he have also given me a device like this if it's for emergencies?"
 
 "That's because Daren doesn't trust you."
 
@@ -285,7 +285,7 @@ Kate's hand holding the dagger trembles, and the fierce determination in her eye
 "No, I don't," she answers, her voice barely a whisper. "I'm... really sorry. For everything..."
 
 choice(""There's no need to apologize."", Ch7-Apologize, v_current_scene = Ch7-Apologize)
-choice(""Are we still friends, then?"", Ch7-Friends, v_current_scene = Ch7-Friends)
+choice(""You put a knife on me and I didn't signal Daren. Tell me what that makes us."", Ch7-Friends, v_current_scene = Ch7-Friends)
 
 
 ID: Ch7-Apologize
@@ -307,11 +307,11 @@ TEXT:
 
 She stares at me, completely thrown.
 
-"So..." I hold out my hand to her. "Are we still friends?"
+"So..." I hold out my hand to her. "You put a knife on me and I didn't signal Daren. Tell me what that makes us."
 
 Kate looks at my open palm, struggling to process the words.
 
-"Friends?... How can you even say such a thing after what just happened? Don't you understand that you're putting yourself in danger by travelling with me?"
+"What that makes us?... How can you even say such a thing after what just happened? Don't you understand that you're putting yourself in danger by travelling with me?"
 
 "So what? How would travelling with you be any more dangerous than having to fight a stillwater and a dragon in the same day? At least if you're coming with us, I'll feel safer, knowing that you're watching my back."
 
@@ -321,9 +321,9 @@ choice("Continue", Ch7-Idiot, v_current_scene = Ch7-Idiot)
 ID: Ch7-Friends
 TEXT:
 
-"Are we still friends, then?"
+"You put a knife on me and I didn't signal Daren. Tell me what that makes us."
 
-"Friends?..." she asks, shocked.
+"What that makes us?..." she asks, shocked.
 
 She searches my face, trying to figure out if I'm being serious or not.
 
@@ -331,13 +331,13 @@ She searches my face, trying to figure out if I'm being serious or not.
 
 "But you didn't."
 
-"That's beside the point! I was ready to slit your throat at a moment's notice. And now you're talking to me about friendship? What's wrong with you? Are you completely out of your mind?"
+"That's beside the point! I was ready to slit your throat at a moment's notice. And now you're talking about where we stand? What's wrong with you? Are you completely out of your mind?"
 
 "Of course I am! Surely, you must have realized this when you found out about the true reason I joined the tournament."
 
 She looks at me as if she can't believe the words coming out of my mouth.
 
-"Now, are we friends, or not?" I say, holding out my hand to her.
+"Now, are we allies, or not?" I say, holding out my hand to her.
 
 choice("Continue", Ch7-Idiot, v_current_scene = Ch7-Idiot)
 
@@ -493,7 +493,7 @@ Kate struggles to her feet, puts weight on her wounded ankle, and stumbles. I ru
 Once we put enough distance between ourselves and Daren, I ease Kate down with her back against a broad oak. She leans against the bark and stares fixedly at the dirt.
 
 choice(""So, are you going to tell me why you put a knife to my throat, then?"", Ch7-Knife, v_current_scene = Ch7-Knife)
-choice(""This isn't really what I imagined saving a damsel in distress would be like."", Ch7-Damsel, v_current_scene = Ch7-Damsel)
+choice(""Most people I save don't put the knife back on my throat as a thank-you."", Ch7-Damsel, v_current_scene = Ch7-Damsel)
 choice("Offer her some biscuits", Ch7-Biscuits, v_current_scene = Ch7-Biscuits)
 
 
@@ -520,13 +520,13 @@ When she sees me smiling, she lets go, leaning her back against the oak trunk.
 
 She turns her gaze back to me.
 
-"Barry, if you hadn't been there to stop Daren from killing me yesterday, I would have paid dearly for my foolishness. And yet, I have repaid your kindness by putting a knife to your throat. Can you ever forgive me?"
+"Barry, if you hadn't been there to stop Daren from purifying me yesterday, I wouldn't have survived the day. And I answered that debt by putting a knife to your throat." Her jaw tightens, cold with self-contempt. "I owe you my life, and I almost took yours."
 
-"Hey, now, you're making this sound a lot worse than it actually was! All's well when it ends well, right? What's important is that no lasting harm was done, and once Daren heals your leg and your ice powers come back, everything can go back to normal."
+"Hey, now, you're making this sound worse than it was! All's well when it ends well, right? What's important is that no lasting harm was done, and once Daren heals your leg and your ice powers come back, everything can go back to normal."
 
 I pause.
 
-"So..." I tell Kate as I hold out my hand to her. "Are we still friends, then?"
+"So..." I tell Kate as I hold out my hand to her. "You put a knife on me and I didn't signal Daren. Tell me what that makes us."
 
 choice("Continue", Ch7-Numb, v_current_scene = Ch7-Numb)
 
@@ -534,7 +534,7 @@ choice("Continue", Ch7-Numb, v_current_scene = Ch7-Numb)
 ID: Ch7-Damsel
 TEXT:
 
-"This isn't really what I imagined saving a damsel in distress would be like."
+"Most people I save don't put the knife back on my throat as a thank-you," I tell her.
 
 A faint, rueful smile touches Kate's lips as she looks at the dirt.
 
@@ -560,13 +560,13 @@ When she sees me smiling, she lets go, leaning her back against the oak trunk.
 
 She turns her gaze back to me.
 
-"Barry, if you hadn't been there to stop Daren from killing me yesterday, I would have paid dearly for my foolishness. And yet, I have repaid your kindness by putting a knife to your throat. Can you ever forgive me?"
+"Barry, if you hadn't been there to stop Daren from purifying me yesterday, I wouldn't have survived the day. And I answered that debt by putting a knife to your throat." Her jaw tightens, cold with self-contempt. "I owe you my life, and I almost took yours."
 
-"Hey, now, you're making this sound a lot worse than it actually was! All's well when it ends well, right? What's important is that no lasting harm was done, and once Daren heals your leg and your ice powers come back, everything can go back to normal."
+"Hey, now, you're making this sound worse than it was! All's well when it ends well, right? What's important is that no lasting harm was done, and once Daren heals your leg and your ice powers come back, everything can go back to normal."
 
 I pause.
 
-"So..." I tell Kate as I hold out my hand to her. "Are we still friends, then?"
+"So..." I tell Kate as I hold out my hand to her. "You put a knife on me and I didn't signal Daren. Tell me what that makes us."
 
 choice("Continue", Ch7-Numb, v_current_scene = Ch7-Numb)
 
@@ -574,39 +574,47 @@ choice("Continue", Ch7-Numb, v_current_scene = Ch7-Numb)
 ID: Ch7-Biscuits
 TEXT:
 
-I take off my backpack and reach inside. The pocket looks completely empty from the outside, but as I picture the pack of oat biscuits, the weight materializes in my palm. I pull it out, unwrap a biscuit, and hand it to Kate.
+The silence between us is suffocating. Kate sits slumped against the oak, her hands shaking, her slashed ankle leaking dark drops onto the moss, her eyes fixed on the dirt like someone waiting for the executioner. My collar is damp with blood where her blade bit in, and my own hands aren't entirely steady. I have no soothing words, no gift for bedside comfort, and not the faintest idea how to de-escalate a near-murder.
 
-"Here you go," I tell her. "You must be hungry after all that fighting."
+In my helpless awkwardness, my mind latches onto something mechanical and practical: shock drains energy, trembling hands need fuel, and rations exist for physical recovery.
 
-She looks at the biscuit with a brief flicker of confusion, then takes it.
+I slide my backpack off, reach into the enchanted pocket, and visualize the dry packet of oat biscuits from the capital. The weight materializes in my palm. I pull it out, unwrap the coarse paper with stiff fingers, and extend a biscuit toward her.
 
-"...Thank you," she says, taking a small bite and chewing quietly.
+"Here," I say, the words sounding absurdly flat even to my own ears. "You're shaking. Eat something."
 
-"I got these from a shop near my old place. They always had the best biscuits. It's too bad I didn't know Daren back then, though. If I had a backpack like this I would have stacked it with hundreds of these delicious--"
+Kate stares down at the dry biscuit resting in my open palm. For several long seconds, she doesn't move. Her mouth parts slightly, her dark eyes shifting from the crumbly biscuit to the fresh blood drying on my collar, completely stunned by the sheer, tactless inadequacy of the gesture.
 
-"Barry..." Kate interrupts, lifting her head to look me in the eye. "Why did you save me?"
+She lets out a ragged breath that is half-gasp, half-sob, and takes it with numb fingers.
+
+"...You're unbelievable," she whispers, biting off a dry corner and chewing mechanically. "I almost slit your throat, and you're offering me rations."
+
+"I didn't know what else to do with my hands," I admit. "And my bedside manner is terrible."
+
+Kate lowers the biscuit, her eyes searching mine with raw intensity.
+
+"Barry... why did you save me?" she asks.
 
 "What do you mean? Why wouldn't I?"
 
 "Because I almost murdered you in cold blood a few minutes ago."
 
-"Yeah, yeah, sure. You can act all tough now, but when it came right down to it you didn't have the guts to follow through, remember?"
+"Yeah, sure. You can talk tough now, but when it came down to the wire you didn't have the stomach to follow through, remember?"
 
-"You..." Kate lunges forward and grabs a fistful of my shirt.
+"You..." Kate lunges forward and grabs a fistful of my tunic.
 
-When she sees me smiling, she lets go, leaning her back against the oak trunk.
+When she sees no malice in my face, her grip slackens, and she sinks back against the rough bark.
 
-"I understand now..." she says, looking away. "I understand that you're the one that's been keeping me safe ever since we met yesterday. It all came to me in that one moment when I tried to kill you. Why did Daren never look at me as if I were human if he was the one that came to the conclusion that I wasn't a banshee? Why did you and Daren have a secret way to communicate in case I turned against you if he trusted me so much? There was only one way it could have all made sense. I just didn't want to believe it."
+"I understand now..." she says, looking away into the timber. "I understand that you're the one that's been keeping me safe ever since we met. It all came to me in that one moment when I tried to kill you. Why did Daren never look at me as if I were human if he was the one that concluded I wasn't a banshee? Why did you and Daren have a secret way to communicate in case I turned against you if he trusted me so much? There was only one way it could have all made sense. I just didn't want to believe it."
 
 She turns her gaze back to me.
 
-"Barry, if you hadn't been there to stop Daren from killing me yesterday, I would have paid dearly for my foolishness. And yet, I have repaid your kindness by putting a knife to your throat. Can you ever forgive me?"
+"Barry, if you hadn't been there to stop Daren from purifying me yesterday, I wouldn't have survived the day. And I answered that debt by putting a knife to your throat." Her jaw tightens, cold with self-contempt. "I owe you my life, and I almost took yours."
 
-"Hey, now, you're making this sound a lot worse than it actually was! All's well when it ends well, right? What's important is that no lasting harm was done, and once Daren heals your leg and your ice powers come back, everything can go back to normal."
+"Hey, now, you're making this sound worse than it was! What's important is that no lasting harm was done, and once Daren heals your leg and your ice magic returns, everything can go back to normal."
 
 I pause.
 
-"So..." I tell Kate as I hold out my hand to her. "Are we still friends, then?"
+"So..." I tell Kate as I hold out my hand to her. "You put a knife on me and I didn't signal Daren. Tell me what that makes us."
 
 choice("Continue", Ch7-Numb, v_current_scene = Ch7-Numb)
 
@@ -614,7 +622,7 @@ choice("Continue", Ch7-Numb, v_current_scene = Ch7-Numb)
 ID: Ch7-Numb
 TEXT:
 
-"Friends?..." she asks me, shocked.
+"What that makes us?..." she asks me, shocked.
 
 She searches my face, trying to figure out if I'm being serious or not.
 
@@ -844,7 +852,7 @@ ID: Ch7-Shelter
 TEXT:
 
 #if(v_ch7_tap == 0) {
-"Hey, Barry, can you hear me?" I hear Daren's voice coming from the transceiver.
+"Barry — can you hear me?" I hear Daren's voice coming from the transceiver.
 
 I tap the device once and answer him.
 
@@ -861,7 +869,7 @@ I tap the transceiver again, in order to deactivate it, and we start heading tow
 "What are you going to tell Daren?" Kate asks me as we make our way back.
 }
 #if(v_ch7_tap == 1) {
-"Hey, Barry, can you hear me?" I hear Daren's voice coming from the transceiver.
+"Barry — can you hear me?" I hear Daren's voice coming from the transceiver.
 
 Kate takes a short glance towards my pocket to see where the noise is coming from, but she doesn't ask me any questions. She must have realized that this was how I managed to secretly communicate with Daren earlier.
 
@@ -1018,7 +1026,7 @@ The giant shrinks as he laughs, disappearing behind the tree line.
 
 "Do you have no knowledge of even the basics of shapeshifting magic?" Kate asks him. "You can't just turn into something ten times bigger than your normal size, no matter how powerful you are. It violates the fundamental principles of shapeshifting. This was obviously an illusion."
 
-"Oh yeah? Since you're so sure it was an illusion, could you perhaps care to explain how he managed to make such a realistic earth tremor while he was busy maintaining the illusion spell?"
+"Is that so? Since you're so sure it was an illusion, could you perhaps care to explain how he managed to make such a realistic earth tremor while he was busy maintaining the illusion spell?"
 
 "How am I supposed to know that? Maybe he has an ally that specializes in earth magic. How is that even relevant?"
 
@@ -1187,6 +1195,14 @@ He pauses.
 
 "HAH! I like your style, stillwater. We are in agreement, then! No magic until the end of the battle! The fight ends either when one of us can no longer fight, or when one of us gives up!"
 
+Hadrik slaps his thighs and dusts off his leather breeches, grinning around at the ring of nervous mages.
+
+"Well!" he calls out to the crowd, rolling his broad shoulders. "Anyone else want a go after this? No? Just me enjoying myself then?"
+
+He catches my eye across the turf and gives me a broad, conspiratorial wink.
+
+"Stick around, lad — I have a feeling this evening's about to get interesting."
+
 The stillwater smiles again, descending slowly towards the dwarf. As his boots touch the grass, a loud murmur runs through the mages, and they step aside to give the two combatants room. Azarius watches them intently, his brows furrowed.
 
 "This is it!" Daren tells me. "This is our chance. Let's get out of here while everyone else is watching the fight."
@@ -1353,8 +1369,8 @@ He looks towards me, eyes closed, and smiles wickedly. For the space of a heartb
 Every mage in the clearing turns their heads, locking their eyes on me. He just painted a target on my back. And from the way he refuses to open those eyes, he knows it.
 
 choice(""Who, me? I'm not a stillwater!"", Ch7-Who-me, v_current_scene = Ch7-Who-me)
-choice(""Actually, I'm kind of busy too. Maybe some other time?"", Ch7-Other-time, v_current_scene = Ch7-Other-time)
-choice(""What are you all looking at? Never seen two stillwaters in one place before?"", Ch7-Two-stillwaters, v_current_scene = Ch7-Two-stillwaters)
+choice(""If I wanted a crowd I'd have stayed in the sky with the dragon."", Ch7-Other-time, v_current_scene = Ch7-Other-time)
+choice(""You watched me fight a dragon this morning. Staring at me won't make it less true."", Ch7-Two-stillwaters, v_current_scene = Ch7-Two-stillwaters)
 
 
 ID: Ch7-Go-not-call
@@ -1400,68 +1416,72 @@ TEXT:
 #if(v_ch7_tap == 0) {
 "Alright, let's go."
 
-The three of us start heading out of the clearing. Kate wears her hood and covers herself in her green cloak to hide her identity, moving cautiously to avoid attention. As we make our way out of the crowd, most people are pushing toward the center to watch the fight.
+The three of us edge toward the timber. Kate pulls her hood low, wrapping her green cloak tight to conceal her features, navigating the fringes while the crowd presses inward to spectate.
 
-"Hey, watch where you're going you little runt!"
+"Watch where you're shoving, runt!"
 
-A roar cuts through the din behind us. A large mage, a head taller than Daren, glares down at Kate, who bumped into him. She tries to move past him, but the man grabs her by the cloak and hoists her off the ground.
+A harsh bellow cuts through the murmurs. A brute of a mage, half a head taller than Daren, glares down at Kate after she brushes his elbow. When she tries to slip past, his heavy fist seizes her cloak, dragging her backward off balance.
 
-"Don't you dare ignore me, you son of a--"
+"Don't turn your back on me, you little—"
 
-As the hood drops from Kate's head and her face is revealed, the large mage paralyzes with fear. He drops her, stumbles back three paces, and screams at the top of his lungs.
+Her hood slips.
 
-"Aaaaah! Stay away from me, monster! Stay away!"
+The man's voice catches in his throat, his face draining to ash. He shoves her away in sheer panic, stumbling three frantic paces into the crowd and howling at the top of his lungs.
 
-Everyone's attention is directed towards us. Even Eiden and Hadrik stop their fight to look.
+"Monster! Gods above, it's a banshee! Stay back!"
 
-"Not this again," says Daren, exasperated.
+Fifty heads snap toward us. In the center, Eiden and Hadrik pause their duel.
 
-"What are you screaming so loud about, you imbecile?" asks a mage in red robes with crazy eyes. "It's just a banshee. There are dozens of us here. She doesn't stand a chance."
+"Not this again," Daren mutters, jaw tightening.
 
-"It's not just a banshee," says another mage. "She has allies. I saw her speak to those two over there a few seconds ago."
+"What are you shrieking about, idiot?" snarls a crimson-robed elementalist with wild eyes. "It's one banshee. There are dozens of us. Cut her down!"
 
-"What kind of a banshee allies herself with mages, you fools?" Kate shouts at them, her chin held high. "Don't insult me. I've come here alone. And I'm going to end you all by myself as well."
+"She has companions," another mage shouts, pointing at Daren and me. "I saw them conferring!"
 
-She is trying to protect us.
+"What banshee allies with mages, fools?" Kate shouts back, stepping clear with her chin raised in cold defiance. "I came alone. And I will bury you alone."
 
-When I step towards Kate, Daren grabs my arm.
+She is isolating herself to buy us an exit.
 
-"Hey, now, let's not get ahead of ourselves," he whispers to me. "Why should we risk our lives just because she refuses to get purified? We can't go on like this forever."
+I take a step toward her, but Daren's armored gauntlet clamps down on my bicep.
 
-"How can you say something like this? Isn't she our friend?"
+"Barry, hold your ground," he whispers, voice tight. "Why risk our lives for someone who refuses purification? We can't carry this liability across Varathia."
 
-"I don't know, is she? When you came back from your little meeting in the woods a few minutes ago you had a bruise on your neck that wasn't there before you left. That was from Kate, wasn't it? You tried to hide it from me for some reason, but you should know as well as I do that she's more trouble than she's worth."
+"She's our traveling companion, Daren!"
+
+"Is she? You came out of the timber with a fresh red mark on your throat you tried to hide under your collar. That was her, wasn't it? She's more dangerous than you're willing to admit."
 }
 #if(v_ch7_tap == 1) {
 "Alright, let's go."
 
-The three of us start heading out of the clearing. Kate wears her hood and covers herself in her green cloak to hide her identity, moving cautiously to avoid attention. As we make our way out of the crowd, most people are pushing toward the center to watch the fight.
+The three of us edge toward the timber. Kate pulls her hood low, wrapping her green cloak tight to conceal her features, navigating the fringes while the crowd presses inward to spectate.
 
-"Hey, watch where you're going you little runt!"
+"Watch where you're shoving, runt!"
 
-A roar cuts through the din behind us. A large mage, a head taller than Daren, glares down at Kate, who bumped into him. She tries to move past him, but the man grabs her by the cloak and hoists her off the ground.
+A harsh bellow cuts through the murmurs. A brute of a mage, half a head taller than Daren, glares down at Kate after she brushes his elbow. When she tries to slip past, his heavy fist seizes her cloak, dragging her backward off balance.
 
-"Don't you dare ignore me, you son of a--"
+"Don't turn your back on me, you little—"
 
-As the hood drops from Kate's head and her face is revealed, the large mage paralyzes with fear. He drops her, stumbles back three paces, and screams at the top of his lungs.
+Her hood slips.
 
-"Aaaaaaah! Stay away from me, monster! Stay away!"
+The man's voice catches in his throat, his face draining to ash. He shoves her away in sheer panic, stumbling three frantic paces into the crowd and howling at the top of his lungs.
 
-Everyone's attention is directed towards us. Even Eiden and Hadrik stop their fight to look.
+"Monster! Gods above, it's a banshee! Stay back!"
 
-"Not this again," says Daren, exasperated.
+Fifty heads snap toward us. In the center, Eiden and Hadrik pause their duel.
 
-"What are you screaming so loud about, you imbecile?" asks a mage in red robes with crazy eyes. "It's just a banshee. There are dozens of us here. She doesn't stand a chance."
+"Not this again," Daren mutters, jaw tightening.
 
-"It's not just a banshee," says another mage. "She has allies. I saw her speak to those two over there a few seconds ago."
+"What are you shrieking about, idiot?" snarls a crimson-robed elementalist with wild eyes. "It's one banshee. There are dozens of us. Cut her down!"
 
-"What kind of a banshee allies herself with mages, you fools?" Kate shouts at them, her chin held high. "Don't insult me. I've come here alone. And I'm going to end you all by myself as well."
+"She has companions," another mage shouts, pointing at Daren and me. "I saw them conferring!"
 
-She is trying to protect us.
+"What banshee allies with mages, fools?" Kate shouts back, stepping clear with her chin raised in cold defiance. "I came alone. And I will bury you alone."
 
-When I step towards Kate, Daren grabs my arm.
+She is isolating herself to buy us an exit.
 
-"Hey, now, let's not get ahead of ourselves," he whispers to me. "Why should we risk our lives just because she refuses to get purified? We can't go on like this forever."
+I take a step toward her, but Daren's armored gauntlet clamps down on my bicep.
+
+"Barry, hold your ground," he whispers, voice cold and steady. "She held a blade to your throat less than an hour ago, and she refused purification with steel in her hand. We cannot throw our lives away for an unrepentant threat."
 }
 choice("Help Kate", Ch7-Help, v_current_scene = Ch7-Help, v_ch7_help_kate = 1)
 choice("Don't help Kate", Ch7-No-help, v_current_scene = Ch7-No-help, v_ch7_help_kate = 0)
@@ -1482,11 +1502,11 @@ With these words, I leave Daren behind and take Kate's side on the battlefield.
 
 "Heh. I should be mad, but somehow this scenario seems a lot more fitting for our final moments together."
 
-"How pathetic," says the mage in red robes, stepping out from the crowd. "You should have just stayed back and let the banshee fight us. Do you seriously think you can make a difference?"
+"How pathetic," says the mage in red robes, stepping out from the crowd. "You should have just stayed back and let the banshee fight us. Do you truly think you can make a difference?"
 
 "I don't know. Why don't you tell me? Do you think a stillwater could make a difference in this fight?"
 
-"No. Not even a stillwater could turn the tide against so many people. But you're not even that, are you? You're just some ordinary guy who's trying to bite off more than he can chew."
+"No. Not even a stillwater could turn the tide against so many people. But you're not even that, are you? You're just some ordinary fool who's trying to bite off more than he can chew."
 
 "I guess intimidation tactics don't really work on you, do they?" I ask him as I take out my dagger. "Fine, let's do this. Give it your best shot!"
 
@@ -1556,19 +1576,25 @@ His fist meets the beam head-on and the fire folds back along its own path, twic
 
 The ringing in my ears fades before anyone moves.
 
-"That filthy son of a walrus!" Hadrik says, shaking out his hand. "He was seriously trying to kill me!"
+"That filthy son of a walrus!" Hadrik says, shaking out his hand. "He was truly trying to kill me!"
 
 The ash that was Felran drifts on a breeze that carries the smell of scorched stone and something worse. Nobody moves. Somewhere behind me, a woman retches into the brush. The clearing is dead silent except for the crackle of still-burning grass at the circle's edge. A veteran master elementalist was reduced to cinders in less than two seconds.
 
-Then someone in the crowd shouts "Murderer!" and the spell breaks.
+Then someone in the crowd shouts "Murderer!" and a ripple of movement runs through the ranks.
 
-Seeing the threat that the dwarf poses, all of the other mages that were preparing to attack Kate try to coordinate themselves to attack him at the same time.
+Three mages step forward, staves raised, spells flaring on their fingertips. Hadrik does not flinch. He cracks his knuckles, rolls his broad shoulders, and turns his chest toward them with a wide, feral grin.
 
-"Enough!" shouts Azarius, the sage. "There will be no more bloodshed this day. If any of you toddlers still feel like raising a ruckus, I am the one that you'll be fighting next. Do I make myself clear?"
+"Come on, then!" Hadrik roars, his voice vibrating through the valley. "Who wants to be next?"
 
-Several mages exchange hesitant glances, but in the end they stand down, sheathing their weapons. The sage walks toward our group, the crowd parting to give him clear passage.
+The three men freeze in their tracks. They look at the scorched circle, at the ash still settling over the grass, and at the four-foot dwarf grinning like a maniac. One of them lowers his staff; the other two take a hurried step back into the crowd. Weapons are sheathed in grim, uneasy silence.
 
-"Greetings, friends!" he says, smiling, while he looks at the four of us, in turn. "I apologize for not stopping this ridiculous fight sooner. I'm afraid that curiosity got the better of me, and I was hoping that letting things run their course would provide me with the rare opportunity of seeing the great hero Daren in action. When it became clear that this wasn't going to happen, I just had to put a stop to this tomfoolery!"
+Only after the quiet has fully settled does an old man in white robes stroll out from behind a boulder, leaning on an ornate wooden staff.
+
+"Well," Azarius says mildly, surveying the terrified crowd. "I see we have reached an understanding. Most commendable."
+
+He walks toward our group, the spectators parting hastily to give him a wide berth.
+
+"Greetings, friends!" he says, smiling warmly at the four of us in turn. "I apologize for not stepping in sooner. I'm afraid curiosity got the better of me—I was hoping that letting matters unfold might afford me the rare opportunity to see the great hero Daren in action. When it became clear that our stout friend had things thoroughly in hand, I figured I might as well come down and make your acquaintance!"
 
 choice(""Why are you helping us?"", Ch7-Azarius-why, v_current_scene = Ch7-Azarius-why)
 choice(""You've got it all wrong, we're not with her!"", Ch7-Wrong-leave, v_current_scene = Ch7-Wrong-leave)
@@ -1593,7 +1619,7 @@ choice("Continue", Ch7-Vulnerable, v_current_scene = Ch7-Vulnerable)
 ID: Ch7-Other-time
 TEXT:
 
-"Actually, I'm kind of busy too. Maybe some other time?"
+"If I wanted a crowd I'd have stayed in the sky with the dragon."
 
 "Nice try, boy," says one of the mages. "But I can read you like an open book. You're not really a stillwater, are you?"
 
@@ -1611,7 +1637,7 @@ choice("Continue", Ch7-Vulnerable, v_current_scene = Ch7-Vulnerable)
 ID: Ch7-Two-stillwaters
 TEXT:
 
-"What are you all looking at? Never seen two stillwaters in one place before?"
+"You watched me fight a dragon this morning. Staring at me won't make it less true."
 
 "You're bluffing, boy," says one of the mages. "It is so rare to come by a stillwater nowadays, that their very existence has been turned into something of a legend. There's no way that two of them would show up just like that, after so many decades of absence."
 
@@ -1807,7 +1833,7 @@ TEXT:
 
 "You really are looking down on me, aren't you?"
 
-"Hey, I'm not the one trying to act all badass with a glorified slingshot in his hands."
+"Hey, I'm not the one trying to strut about with that glorified slingshot in his hands."
 
 He doesn't give me the time to reply, and rushes into the midst of the enemy forces, swinging his sword left and right. I guess I should be getting to work as well. The three on the right, huh?
 
@@ -1978,48 +2004,48 @@ TEXT:
 #if(v_ch7_intimidate == 0) {
 A mage screams at the top of his lungs, pointing at Kate.
 
-"Aaaaaaah! A banshee! It's a banshee! Quick, kill her before she fully awakens!"
+"A banshee! It's a banshee! Kill her before she fully awakens!"
 
-Mages on the perimeter draw their weapons, surging forward to kill Kate. Eiden has slipped away into the ether, and Hadrik turns toward the commotion, jogging over with a wide grin.
+Mages on the perimeter draw steel, surging forward. Eiden has already faded into the ether, but Hadrik wheels toward the commotion, jogging over with a feral grin.
 
-The summoner mage is beyond himself with joy thanks to this latest turn of events. Now that I get a clear look at him, I see that he is about six feet tall, and that he has long, pointy ears, green eyes and blond hair. I've travelled a lot in my life, but this is the first time I've actually seen an elf in the flesh. Usually, they are very isolated from the rest of the world and rarely go outside the Elven Nation from the Eastern Continent. I heard that they've been invited here too, but I wasn't actually expecting any of them to show up. I guess this goes to show just how much of an importance the Magium holds for mages all around the world.
+The summoner sneers at our group. Up close, he stands six feet tall with pointed ears, pale gold hair, and cold green eyes—an eastern elf. Elves rarely leave their isolationist kingdoms on the Eastern Continent, but the Magium draws every power in the world.
 
-"Hah!" he says, triumphantly. "This is what you all get for siding with a banshee, you lowly peasants. It's time for me to prove to you why us elves are superior to you in every way. And I'm going to start by dealing with that monstrosity that killed my poor little hawks."
+"Lowly peasants," the summoner mocks, stepping over his shattered stone constructs. "This is what comes of harboring an abomination. Time to show you why elven blood reigns supreme—starting with the monster who slaughtered my hawks."
 
-The summoner prepares to call more creatures into battle, but before he can act, Hadrik places himself between Kate and her attacker and starts panting heavily.
+He begins tracing summoning runes in the air, but Hadrik barrels between Kate and the caster, planting his boots and resting hands on his knees, panting loudly.
 
-"Hold on... Just... give me a sec..." he says, while everyone looks at him, confused. "Man... I just can't get used to running with these short legs..."
+"Hold on... give me a second..." Hadrik wheezes, while the mages stare in bewilderment. "Man... I just can't get used to running on these short legs..."
 
-"Is this supposed to be some sort of a joke?" asks the elf. "You dwarves have always had a sense of humor beyond my understanding. Step aside, if you know what's best for you."
+"Is this a joke?" the elf scowls. "Dwarves always were deficient in dignity. Step aside, if you value your life."
 
-"No can do, I'm afraid," Hadrik says. "I can't just stand idly by and let you hoodlums treat a lady with disrespect!"
+"No can do, friend," Hadrik says cheerfully. "I can't stand by and let hoodlums treat a lady with disrespect!"
 
-"A lady?! I must admit, I've heard the rumors about dwarves drinking so much that they have ale running through their veins instead of blood, but I never thought them to be true."
+"A lady?! I see the rumors are true—dwarves have ale running through their veins instead of blood."
 
-"Aye! And I never expected that old saying about elves never leaving home without a stick up their arse to turn out to be true, either. It's a crazy world we're living in, I'll tell you that!"
+"Aye! And I never expected the old saying about elves never leaving home without a stick up their arse to prove so literal either. It's a wonder of a world!"
 }
 #if(v_ch7_intimidate == 1) {
 A mage screams at the top of his lungs, pointing at Kate.
 
-"Aaaaaaah! A banshee! It's a banshee! Quick, kill her before she fully awakens!"
+"A banshee! It's a banshee! Kill her before she fully awakens!"
 
-Mages on the perimeter draw their weapons, surging forward to kill Kate. Hadrik turns toward the commotion, jogging over with a wide grin.
+Mages on the perimeter draw steel, surging forward. Hadrik wheels toward the commotion, jogging over with a feral grin.
 
-The summoner mage is beyond himself with joy thanks to this latest turn of events. Now that I get a clear look at him, I see that he is about six feet tall, and that he has long, pointy ears, green eyes and blond hair. I've travelled a lot in my life, but this is the first time I've actually seen an elf in the flesh. Usually, they are very isolated from the rest of the world and rarely go outside the Elven Nation from the Eastern Continent. I heard that they've been invited here too, but I wasn't actually expecting any of them to show up. I guess this goes to show just how much of an importance the Magium holds for mages all around the world.
+The summoner sneers at our group. Up close, he stands six feet tall with pointed ears, pale gold hair, and cold green eyes—an eastern elf. Elves rarely leave their isolationist kingdoms on the Eastern Continent, but the Magium draws every power in the world.
 
-"Hah!" he says, triumphantly. "This is what you all get for siding with a banshee, you lowly peasants. It's time for me to prove to you why us elves are superior to you in every way. And I'm going to start by dealing with that monstrosity that killed my poor little hawks."
+"Lowly peasants," the summoner mocks, stepping over his shattered stone constructs. "This is what comes of harboring an abomination. Time to show you why elven blood reigns supreme—starting with the monster who slaughtered my hawks."
 
-The summoner prepares to call more creatures into battle, but before he can act, Hadrik places himself between Kate and her attacker and starts panting heavily.
+He begins tracing summoning runes in the air, but Hadrik barrels between Kate and the caster, planting his boots and resting hands on his knees, panting loudly.
 
-"Hold on... Just... give me a sec..." he says, while everyone looks at him, confused. "Man... I just can't get used to running with these short legs..."
+"Hold on... give me a second..." Hadrik wheezes, while the mages stare in bewilderment. "Man... I just can't get used to running on these short legs..."
 
-"Is this supposed to be some sort of a joke?" asks the elf. "You dwarves have always had a sense of humor beyond my understanding. Step aside, if you know what's best for you."
+"Is this a joke?" the elf scowls. "Dwarves always were deficient in dignity. Step aside, if you value your life."
 
-"No can do, I'm afraid," Hadrik says. "I can't just stand idly by and let you hoodlums treat a lady with disrespect!"
+"No can do, friend," Hadrik says cheerfully. "I can't stand by and let hoodlums treat a lady with disrespect!"
 
-"A lady?! I must admit, I've heard the rumors about dwarves drinking so much that they have ale running through their veins instead of blood, but I never thought them to be true."
+"A lady?! I see the rumors are true—dwarves have ale running through their veins instead of blood."
 
-"Aye! And I never expected that old saying about elves never leaving home without a stick up their arse to turn out to be true, either. It's a crazy world we're living in, I'll tell you that!"
+"Aye! And I never expected the old saying about elves never leaving home without a stick up their arse to prove so literal either. It's a wonder of a world!"
 }
 choice("Continue", Ch7-Azarius-vs-summoner, v_current_scene = Ch7-Azarius-vs-summoner)
 
@@ -2035,17 +2061,17 @@ The summoner scowls upon hearing the dwarf's words.
 
 "If you're not going to get out of my way, then you can join these fools in their deaths. I've heard enough of your idiocy for one day."
 
-Just as the summoner and all of the other mages are preparing to attack, a loud shout from Azarius the sage freezes everyone in place.
+The summoner starts weaving an intricate summoning circle, but Hadrik takes a single heavy stride forward, the impact cracking the stone beneath his boot. He doesn't raise a shield or draw a weapon; he just cracks his knuckles, drops into a wrestler's crouch, and bares his teeth.
 
-"Enough!" he shouts. "There will be no more bloodshed this day. If any of you toddlers still feel like raising a ruckus, I am the one that you'll be fighting next. Do I make myself clear?"
+"Go ahead," Hadrik rumbles, his voice carrying the terrifying weight of mountain granite. "Call your little birds. Then I'll fold you into four pieces and plant you in that shrub."
 
-"What?!" asks the elf. "Have you gone mad?! Do you realize what will happen if we let this evil monster roam free?"
+The elf's hands freeze in mid-gesture. He stares at the dwarf's locked jaw, at the inhuman density of the aura humming around those fists, and the summoning runes flicker and die. The mages flanking him look at each other, hesitate, and slowly lower their blades.
 
-"I am well aware of the consequences, and I am willing to take full responsibility for my actions. You are, however, free to challenge me to a duel if you believe your cause to be the righteous one."
+"A wise choice," a calm, resonant voice remarks from the edge of the clearing.
 
-The summoner looks as if he were about to explode, but he ultimately decides to simply turn around and leave, without saying another word. The other mages who were about to join the fight are now all sheathing their weapons.
+Azarius strolls into view, white robes rustling in the breeze as he leans casually on his wooden staff.
 
-"I am deeply sorry for not stopping this ridiculous fight sooner, my friends," Azarius says, looking at all four of us, in turn. "I'm afraid that curiosity got the better of me and I couldn't bring myself to end this before getting the rare opportunity to see the great hero Daren in action!"
+"I am deeply sorry for not stepping into this ridiculous dispute sooner, my friends," the sage says, looking at all four of us in turn with a cheerful smile. "I'm afraid curiosity got the better of me—I couldn't bring myself to interrupt before getting the rare opportunity to see the great hero Daren in action! But since our stout friend here settled the debate so emphatically, I thought I would introduce myself."
 
 choice(""Why are you helping us?"", Ch7-Azarius-why, v_current_scene = Ch7-Azarius-why)
 choice(""You've got this all wrong, we're not allied with the banshee!"", Ch7-Wrong-stay, v_current_scene = Ch7-Wrong-stay)
@@ -2131,70 +2157,70 @@ TEXT:
 #if(v_ch7_help_kate == 0) {
 "You've got it all wrong, we're not with her!"
 
-Upon hearing my words, Kate turns to look at me. The hurt in her eyes is brief and sharp before she looks away, jaw set.
+Kate looks at me, the hurt in her dark eyes sharp and immediate before she turns her face away, jaw clenched tight.
 
-"Now that's not a very nice thing to say about your friend!" Azarius says. "Especially not after she tried to cover for you in order to keep you safe."
+"Now that's poor loyalty to a traveling companion," Azarius chides gently. "Particularly one who just risked herself to cover your retreat."
 
-He turns towards Kate.
+He turns toward Kate.
 
 "Young lady, are you unharmed?"
 
-"Young... lady?" Kate asks, looking as if she's having a hard time understanding his words.
+"Young... lady?" Kate repeats, bewildered.
 
-Before they get to finish their conversation, a mage dressed in black robes and with a snake tattoo on his bald head interrupts them by making a loud tsk-tsk sound.
+Before the exchange can go further, a clicking tongue interrupts from the timber. A bald mage in black robes with a coiled serpent tattoo across his scalp steps into the clearing.
 
-"This will not do, Sage of the West," he says. "This simply will not do."
+"This will not do, Sage of the West," he sneers. "This will not do at all."
 
-Azarius turns to him, smiling calmly.
+Azarius turns to him with polite amusement.
 
-"A follower of the God of Death honors us with his presence?" he says. "If I did anything to offend you, then by all means, please state your complaint!"
+"A devotee of the God of Death honors us with his presence? If I have caused offense, by all means, state your grievance."
 
-"My complaint is simple, sage. My god requires more sacrifices to be had this day, and you deprived him of them by interrupting this fight."
+"My grievance is simple. My god demands sacrifices this day, and you deprived him of them by ending this brawl."
 
-"Oh? But I was quite sure that despite his title, Ulruk, the God of Death only delves in necromancy and is not actually ruling the realm of the dead. Why did he suddenly begin to take an interest in the affairs of people who are still alive? If you are simply in search of fresh corpses, I assure you that there are plenty to be found lying around these parts after yesterday's events."
+"Oh? But Ulruk's purview is necromancy, not governing the departed. Why this sudden interest in the living? If you seek fresh corpses, yesterday's battles left an abundance."
 
-"Do not question the great Ulruk's judgment, heathen. Your actions have angered my god, and now you will feel his wrath!"
+"Do not question Ulruk's judgment, heathen! You have angered my god, and now you will feel his wrath!"
 
-A mage who is wearing a silver circlet on his head and green robes grabs the necromancer by the arm.
+A companion in green robes and a silver circlet catches the necromancer's arm.
 
-"Calm down, Zack," he says. "There's plenty of time left till the end of the day. We can just kill some more people after we get out of here and the number of deaths will be the same."
+"Easy, Zack. The day isn't over. We can harvest plenty of souls once we clear the woods."
 
-"Unhand me, fool! I'm only travelling with you because my god ordered me to. Do not presume to tell me what to do! This matter has nothing to do with you or your God of Fate."
+"Unhand me! I walk with you only on divine command. Do not dictate terms to me—this concerns Death, not your meddling God of Fate!"
 }
 #if(v_ch7_help_kate == 1) {
 "You've got this all wrong, we're not allied with the banshee!"
 
-A sharp, freezing smack lands against the back of my skull. When I turn around, I see Kate holding an improvised club fashioned out of ice in her hands.
+A sharp, icy crack lands against the back of my skull. I wheel around to find Kate holding an improvised club of solid frost, glaring with narrow eyes.
 
-"That one was long overdue..." she says.
+"That one was long overdue," she mutters.
 
-The sage laughs.
+Azarius chuckles.
 
-"No need to be alarmed, my friends," he says. "The only reason I decided to intervene was because I couldn't just sit by and watch these overgrown bullies attack a defenseless young lady."
+"No cause for alarm, my friends. I could hardly stand by while thirty men cornered a young lady."
 
-"Defenseless?!" Kate shouts.
+"Defenseless?!" Kate snaps.
 
-"Young lady?..." Daren asks, confused.
+"Young lady?..." Daren echoes, dumbfounded.
 
-Before they get to finish their conversation, a mage dressed in black robes and with a snake tattoo on his bald head interrupts them by making a loud tsk-tsk sound.
+Before the exchange can go further, a clicking tongue interrupts from the timber. A bald mage in black robes with a coiled serpent tattoo across his scalp steps into the clearing.
 
-"This will not do, Sage of the West," he says. "This simply will not do."
+"This will not do, Sage of the West," he sneers. "This will not do at all."
 
-Azarius turns to him, smiling calmly.
+Azarius turns to him with polite amusement.
 
-"A follower of the God of Death honors us with his presence?" he says. "If I did anything to offend you, then by all means, please state your complaint!"
+"A devotee of the God of Death honors us with his presence? If I have caused offense, by all means, state your grievance."
 
-"My complaint is simple, sage. My god requires more sacrifices to be had this day, and you deprived him of them by interrupting this fight."
+"My grievance is simple. My god demands sacrifices this day, and you deprived him of them by ending this brawl."
 
-"Oh? But I was quite sure that despite his title, Ulruk, the God of Death only delves in necromancy and is not actually ruling the realm of the dead. Why did he suddenly begin to take an interest in the affairs of people who are still alive? If you are simply in search of fresh corpses, I assure you that there are plenty to be found lying around these parts after yesterday's events."
+"Oh? But Ulruk's purview is necromancy, not governing the departed. Why this sudden interest in the living? If you seek fresh corpses, yesterday's battles left an abundance."
 
-"Do not question the great Ulruk's judgment, heathen. Your actions have angered my god, and now you will feel his wrath!"
+"Do not question Ulruk's judgment, heathen! You have angered my god, and now you will feel his wrath!"
 
-A mage who is wearing a silver circlet on his head and green robes grabs the necromancer by the arm.
+A companion in green robes and a silver circlet catches the necromancer's arm.
 
-"Calm down, Zack," he says. "There's plenty of time left till the end of the day. We can just kill some more people after we get out of here and the number of deaths will be the same."
+"Easy, Zack. The day isn't over. We can harvest plenty of souls once we clear the woods."
 
-"Unhand me, fool! I'm only travelling with you because my god ordered me to. Do not presume to tell me what to do! This matter has nothing to do with you or your God of Fate."
+"Unhand me! I walk with you only on divine command. Do not dictate terms to me—this concerns Death, not your meddling God of Fate!"
 }
 choice("Continue", Ch7-God-of-death, v_current_scene = Ch7-God-of-death)
 
@@ -2214,15 +2240,25 @@ Dozens of animated skeletons claw their way out of the earth below us.
 
 "What would you do if I told you that I could bring these stillwaters back to life as my puppets, with almost all of their former magical prowess intact?"
 
-The skeletons begin attacking all of the mages around us as they run away, screaming in terror. The sky darkens as it starts raining fire and brimstone. Kate struggles to keep an icy roof above our heads to shield us from the flames, the heat melting it almost as fast as she reinforces it.
+The skeletons begin attacking all of the mages around us as they run away, screaming in terror. The sky darkens as it starts raining fire and brimstone. Kate struggles to keep an icy roof above our heads to shield us from the flames, the heat melting it almost as fast as she reinforces it, frost and sweat stinging her eyes.
 
 "What would you do, sage? Tell me!"
 
-"Well, since you asked so politely," Azarius says, smiling. "What I would do is this."
+Azarius watches the constructs with the dry, detached air of a lecturer who has graded the same faulty parchment for three centuries.
 
-The Sage of the West smashes his staff into the ground, and an intense vibration sweeps through the air. The skeletons freeze mid-stride, vibrating violently. Within seconds, all of their bones shatter into powder simultaneously, the rain of fire halts, and the sky clears up once more.
+"What would I do?" Azarius muses aloud. "I would recall that six-hundred-year-old dried marrow holds a fixed acoustic resonance. C-sharp, third harmonic. Any focused sonic or crystalline pulse matching that exact pitch will shatter the brittle lattice instantly."
 
-Zack the necromancer stands dumbstruck, looking around in disbelief at the mounds of dust.
+Kate's eyes blaze with furious intensity. "You mean you stood there watching us burn while knowing that?!"
+
+She doesn't wait for a reply. With a ragged gasp, Kate collapses the melting ice barrier above us. Before the falling brimstone can touch our skulls, she compresses the entire glacial mass into a blinding, razor-edged crystalline lattice between her palms and hammers it into the earth.
+
+A piercing, glass-shattering pulse shrieks through the clearing, vibrating at the exact pitch Azarius named.
+
+The sonic shockwave hits the skeletons. They freeze mid-stride, their bone structure trembling violently as the harmonic tears through their marrow. In a single simultaneous crack, all forty constructs implode into powdery white dust, their necromantic tethers snapping. The storm clouds fracture, the rain of brimstone cuts off, and the sky clears.
+
+Kate drops to one knee, breath sawing through her chest, pale and emptied of mana. She glares up at Azarius with venom in her eyes.
+
+Zack the necromancer stands dumbstruck, looking around in disbelief at the mounds of inert dust.
 
 choice("Continue", Ch7-Illusion, v_current_scene = Ch7-Illusion)
 
@@ -2230,7 +2266,11 @@ choice("Continue", Ch7-Illusion, v_current_scene = Ch7-Illusion)
 ID: Ch7-Illusion
 TEXT:
 
-"That was an impressive spell, no doubt," Azarius says. "But in the end, those skeletons were only old dried-up bones bound with magic. A powerful sonic attack shatters any object once you match its resonant frequency. Now, that spell has a duration of five minutes and can only be cast once per day. Unless you have another trick, I believe several gentlemen would like a word with you..."
+"An impressive performance," Azarius says, observing the dust with mild approval. "Though raw power is rarely a substitute for basic acoustic theory. Well struck, young lady."
+
+"Don't patronize me," Kate rasps, pushing herself upright against a pine trunk, her voice razor-thin. "I don't need lectures from spectators."
+
+"A fierce temperament to match an ice affinity," the sage murmurs, stroking his white beard. "I came hoping to observe the great hero Daren, and instead I find a talent of entirely different origins. Now, necromancer—that summoning spell has a duration of five minutes and can only be cast once per day. Unless you have another trick, I believe several gentlemen would like a word with you..."
 
 All of the mages who were chased by skeletons moments ago surround the necromancer and his ally, baring their weapons.
 
@@ -2248,18 +2288,18 @@ Within seconds, the mages disappear into the timber, leaving only me, Daren, Kat
 
 "It never ceases to amaze me how easily people are fooled by simple illusions!" Azarius remarks, stroking his white beard.
 
-choice(""Illusion? Don't you mean smoke bomb?"", Ch7-Smoke, v_current_scene = Ch7-Smoke)
+choice(""Smoke hides an exit. It doesn't hide two mages who never left."", Ch7-Smoke, v_current_scene = Ch7-Smoke)
 choice(""Wait, are you saying that those mages are still hiding around here, invisibly?"", Ch7-Invisibility, v_current_scene = Ch7-Invisibility)
 
 
 ID: Ch7-Smoke
 TEXT:
 
-"Illusion? Don't you mean smoke bomb?"
+"Smoke hides an exit," I say. "It doesn't hide two mages who never left."
 
 "No, no, I was talking about what happened after the smoke. The two mages you saw run towards the forest were in fact decoys. The real mages waited invisibly for everyone to leave and then teleported away. I figured they learned their lesson, so I let them off with a stern warning for now."
 
-"Barry! Kate! Daren!" we hear Rose shout from the other end of the clearing. "Thank the gods you are okay..."
+"Barry! Kate! Daren!" we hear Rose shout from the other end of the clearing. "Thank the gods you are unharmed..."
 
 As she approaches us, she pauses to catch her breath, having run all the way here.
 
@@ -2295,7 +2335,7 @@ TEXT:
 
 "No, no, of course not! What would they gain by lingering? They went invisible while covered in smoke, waited for the crowd to chase their decoys, and teleported away. I figured they learned their lesson, so I let them off with a stern warning for now."
 
-"Barry! Kate! Daren!" we hear Rose shout from the other end of the clearing. "Thank the gods you are okay..."
+"Barry! Kate! Daren!" we hear Rose shout from the other end of the clearing. "Thank the gods you are unharmed..."
 
 As she approaches us, she pauses to catch her breath, having run all the way here.
 
@@ -2359,7 +2399,13 @@ TEXT:
 
 "We've only just met yesterday, so I guess you could say we are acquaintances."
 
-"Oh? But you appear to be more comfortable around her than your companion. Tell me, Barry, do you consider her to be a banshee as well?"
+The last of the hostile mages disperses into the trees, their footfalls fading into the quiet timber. Kate lowers her hands slowly, frost still clinging to her knuckles and melting in thin trickles across her sleeves. Daren sheathes his sword with a heavy click that sounds final. None of us speaks for several breaths, letting the ringing in our ears subside.
+
+Hadrik is the first to break the silence, clapping his meaty hands together as if concluding a pleasant afternoon's stroll.
+
+"Well! That was bracing," the dwarf says, grinning broadly. "I don't suppose any of you fine people would be opposed to some proper introductions?"
+
+"Oh? But you appear to be more comfortable around her than your companion," Azarius notes mildly. "Tell me, Barry, do you consider her to be a banshee as well?"
 
 "What? No! Of course not!"
 
@@ -2375,7 +2421,7 @@ I take a short glance towards Kate before I continue.
 
 "Yeah, he said that Kate was a survivor from there," I tell him.
 
-"A survivor?" Daren asks. "Yeah, now I remember. And he didn't want to tell us what that meant. What is this Beacon of Hope, anyway?"
+"A survivor?" Daren asks. "Ah. Now I remember. And he didn't want to tell us what that meant. What is this Beacon of Hope, anyway?"
 
 "To put it bluntly," Azarius says, "the Beacon of Hope was a human experimentation facility disguised as an orphanage. The purpose of that institution was to create mages artificially. Kate's magical powers are a direct result of those experiments."
 
@@ -2405,7 +2451,13 @@ TEXT:
 
 "I see her as a friend."
 
-"A friend? Do I take it that you've known her from before this tournament?"
+The last of the hostile mages disperses into the trees, their footfalls fading into the quiet timber. Kate lowers her hands slowly, frost still clinging to her knuckles and melting in thin trickles across her sleeves. Daren sheathes his sword with a heavy click that sounds final. None of us speaks for several breaths, letting the ringing in our ears subside.
+
+Hadrik is the first to break the silence, clapping his meaty hands together as if concluding a pleasant afternoon's stroll.
+
+"Well! That was bracing," the dwarf says, grinning broadly. "I don't suppose any of you fine people would be opposed to some proper introductions?"
+
+"A friend?" Azarius says thoughtfully. "Do I take it that you've known her from before this tournament?"
 
 "No, we've only just met yesterday."
 
@@ -2421,7 +2473,7 @@ I take a short glance towards Kate before I continue.
 
 "Yeah, he said that Kate was a survivor from there," I tell him.
 
-"A survivor?" Daren asks. "Yeah, now I remember. And he didn't want to tell us what that meant. What is this Beacon of Hope, anyway?"
+"A survivor?" Daren asks. "Ah. Now I remember. And he didn't want to tell us what that meant. What is this Beacon of Hope, anyway?"
 
 "To put it bluntly," Azarius says, "the Beacon of Hope was a human experimentation facility disguised as an orphanage. The purpose of that institution was to create mages artificially. Kate's magical powers are a direct result of those experiments."
 
@@ -2451,6 +2503,12 @@ TEXT:
 
 "She's tried to kill me twice and I keep coming back, so by some definitions that's practically married."
 
+The last of the hostile mages disperses into the trees, their footfalls fading into the quiet timber. Kate lowers her hands slowly, frost still clinging to her knuckles and melting in thin trickles across her sleeves. Daren sheathes his sword with a heavy click that sounds final. None of us speaks for several breaths, letting the ringing in our ears subside.
+
+Hadrik is the first to break the silence, clapping his meaty hands together as if concluding a pleasant afternoon's stroll.
+
+"Well! That was bracing," the dwarf says, grinning broadly. "I don't suppose any of you fine people would be opposed to some proper introductions?"
+
 "Oh ho ho..." Azarius chuckles heartily. "I admire your courage, if not your survival instincts! But still, you seem to be on much friendlier terms with her than your companion. Tell me, Barry, do you consider her to be a banshee as well?"
 
 "What? No! Of course not!"
@@ -2467,7 +2525,7 @@ I take a short glance towards Kate before I continue.
 
 "Yeah, he said that Kate was a survivor from there," I tell him.
 
-"A survivor?" Daren asks. "Yeah, now I remember. And he didn't want to tell us what that meant. What is this Beacon of Hope, anyway?"
+"A survivor?" Daren asks. "Ah. Now I remember. And he didn't want to tell us what that meant. What is this Beacon of Hope, anyway?"
 
 "To put it bluntly," Azarius says, "the Beacon of Hope was a human experimentation facility disguised as an orphanage. The purpose of that institution was to create mages artificially. Kate's magical powers are a direct result of those experiments."
 
@@ -2537,54 +2595,54 @@ TEXT:
 #if(v_ch7_call_rose != 1 || v_ch7_watch_fight != 1) {
 "Sure, why not? I'll give it a shot."
 
-"Hah! That's the spirit!" Hadrik says.
+"Hah! That's the spirit!" Hadrik beams.
 
-"Barry, wait!" Kate says. "You'll get yourself killed!"
+"Barry, wait!" Kate warns. "You'll get yourself killed!"
 
-"I'll be fine!" I tell her as I move to align myself with the dwarf, leaving about twenty feet of distance between us.
+"I'll be fine," I say, stepping twenty paces out onto the open turf.
 
-Kate doesn't try to stop me anymore, but I can see that she has an uneasy look in her eyes. The others are now stepping aside in order to give us the space we need to begin our fight.
+Kate folds her arms with a worried frown, but steps back with Daren and Rose to clear a sparring ring.
 
-There's something that's been bothering me ever since we got teleported here. The dwarf has been maintaining a shapeshift this entire time--his aura carries the distinct resonance of altered form. Shapeshifting magic cannot fabricate a disguise as another person; it only alters scale or transforms into another species. What purpose would a dwarf disguise serve?
+There is a mechanical inconsistency that has been nagging at me since we were teleported here. The dwarf maintains an active shapeshift—his aura carries the distinct signature of an altered frame. But shapeshifting magic cannot fabricate a disguise as another person; it only alters scale or transforms into another species. What purpose would a dwarf disguise serve?
 
-Then his initial appearance clicks into place. Shapeshifting magic cannot expand a mortal body tenfold into a fifty-foot colossus, but a giant can easily compress himself into a dwarf. The giant form was his true body. Hadrik is a giant, traveling small because giants were never invited to the tournament.
+Then his initial appearance clicks into place. Shapeshifting magic cannot expand a mortal body tenfold into a fifty-foot colossus, but a giant can easily compress his mass into a dwarf. The colossus was his true body. Hadrik is a northern giant, traveling small because giants were barred from entry.
 
-That explains his crushing physical power. Shrinking compresses mass, preserving nearly all original strength. Even in a friendly spar, he is not the type to dial down his blows.
+That explains his crushing physical power. Compressing mass preserves raw muscle density. Even in a friendly spar, his default output is lethal.
 
-His altered body proportions work against him, however. Dwarf limbs alter his center of gravity, and he admitted he is unaccustomed to running on short legs. His balance is vulnerable.
+His altered geometry works against him, however. Dwarf limbs alter his center of gravity, and he admitted he is unaccustomed to running on short legs. His balance is vulnerable.
 
-Hadrik grins, cracking his knuckles.
+Hadrik grins, cracking his knuckles with a sound like snapping kindling.
 
-"Well, Barry," he says after a while. "Here I come!"
+"Well, Barry," he says, eyes twinkling. "Here I come!"
 
-The dwarf charges straight at me without weaving. Just before reaching me, he accelerates with blinding speed, closing the gap in a blink.
+The dwarf charges straight at me without weaving. Just before reaching me, he accelerates with explosive speed, closing the gap in a blur.
 
 Instead of throwing a punch, he extends his index finger in a heavy prod.
 }
 #if(v_ch7_call_rose == 1 && v_ch7_watch_fight == 1) {
 "Sure, why not? I'll give it a shot."
 
-"Hah! That's the spirit!" Hadrik says.
+"Hah! That's the spirit!" Hadrik beams.
 
-"Barry, wait!" Kate says. "You'll get yourself killed!"
+"Barry, wait!" Kate warns. "You'll get yourself killed!"
 
-"I'll be fine!" I tell her as I move to align myself with the dwarf, leaving about twenty feet of distance between us.
+"I'll be fine," I say, stepping twenty paces out onto the open turf.
 
-Kate doesn't try to stop me anymore, but I can see that she has an uneasy look in her eyes. The others are now stepping aside in order to give us the space we need to begin our fight.
+Kate folds her arms with a worried frown, but steps back with Daren and Rose to clear a sparring ring.
 
-There's something that's been bothering me ever since we got teleported here. The dwarf has been maintaining a shapeshift this entire time--his aura carries the distinct resonance of altered form. Shapeshifting magic cannot fabricate a disguise as another person; it only alters scale or transforms into another species. What purpose would a dwarf disguise serve?
+There is a mechanical inconsistency that has been nagging at me since we were teleported here. The dwarf maintains an active shapeshift—his aura carries the distinct signature of an altered frame. But shapeshifting magic cannot fabricate a disguise as another person; it only alters scale or transforms into another species. What purpose would a dwarf disguise serve?
 
-Then his initial appearance clicks into place. Shapeshifting magic cannot expand a mortal body tenfold into a fifty-foot colossus, but a giant can easily compress himself into a dwarf. The giant form was his true body. Hadrik is a giant, traveling small because giants were never invited to the tournament.
+Then his initial appearance clicks into place. Shapeshifting magic cannot expand a mortal body tenfold into a fifty-foot colossus, but a giant can easily compress his mass into a dwarf. The colossus was his true body. Hadrik is a northern giant, traveling small because giants were barred from entry.
 
-That explains his crushing physical power from before. Shrinking compresses mass, preserving nearly all original strength. Even in a friendly spar, he is not the type to dial down his blows.
+That explains his crushing physical power. Compressing mass preserves raw muscle density. Even in a friendly spar, his default output is lethal.
 
-His altered body proportions work against him, however. Dwarf limbs alter his center of gravity, and he admitted he is unaccustomed to running on short legs. His balance is vulnerable.
+His altered geometry works against him, however. Dwarf limbs alter his center of gravity, and he admitted he is unaccustomed to running on short legs. His balance is vulnerable.
 
-Hadrik grins, cracking his knuckles.
+Hadrik grins, cracking his knuckles with a sound like snapping kindling.
 
-"Well, Barry," he says after a while. "Here I come!"
+"Well, Barry," he says, eyes twinkling. "Here I come!"
 
-The dwarf charges straight at me without weaving. Just before reaching me, he accelerates with blinding speed, closing the gap in a blink.
+The dwarf charges straight at me without weaving. Just before reaching me, he accelerates with explosive speed, closing the gap in a blur.
 
 Instead of throwing a punch, he extends his index finger in a heavy prod.
 }
@@ -2599,36 +2657,36 @@ set(v_ch7_win_vs_hadrik,0) if (v_combat_technique == 4 && v_strength < 2 || v_co
 set(v_ch7_win_vs_hadrik,1) if (v_combat_technique == 4 && v_reflexes >= 3 && v_strength >= 2)
 achievement("Defeated Hadrik",v_ac_ch7_hadrik)
 #if(v_reflexes < 3) {
-Even for a prod, his strike comes too fast to dodge. The finger connects, hurling me back four feet to hit the turf with a dull thud.
+Even for a prod, his strike comes too fast to read. The finger connects with my sternum like a battering ram, launching me four feet backward to slam into the dirt, the wind knocked clean out of my lungs.
 
-"Barry, are you okay?" Daren shouts as he rushes towards me.
+"Barry, are you hurt?" Daren shouts as he rushes towards me.
 
-"I'm fine," I answer him. "Maybe just a little shaken up."
+"I'm fine," I wheeze, pushing myself upright. "Just... catching my breath."
 
 "Well, that was underwhelming," Hadrik says, disappointed. "I guess I was getting my hopes up a little too much for this fight."
 }
 #if(v_reflexes >= 3 && v_combat_technique < 4) {
-Prod or not, the kinetic force behind that finger will knock me off my feet. I sidestep at the last fraction of a second, grabbing his arm to pull him down with his own momentum. Instead, Hadrik clamps onto my sleeve, spins on his heel, and hurls me across the grass, sending me rolling into the dirt.
+Prod or not, the kinetic force behind that finger will knock me through a tree. I sidestep at the last fraction of a second, grabbing his thick wrist to redirect him. But Hadrik's frame is pure compressed stone; he clamps onto my sleeve, twists his hips, and heaves me across the grass like a sack of grain, sending me skidding through the dirt.
 
-"Barry, are you okay?" Daren shouts as he rushes towards me.
+"Barry, are you hurt?" Daren shouts as he rushes towards me.
 
-"I'm fine," I answer him. "Maybe just a little shaken up."
+"I'm unhurt," I tell him, brushing pine needles off my arms. "Just bruised."
 
 "Well, that was underwhelming," Hadrik says, disappointed. "I guess I was getting my hopes up a little too much for this fight."
 }
 #if(v_combat_technique == 4 && v_reflexes >= 3 && v_strength < 2) {
-Prod or not, the kinetic force behind that finger will knock me off my feet. I sidestep at the last fraction of a second, yanking his right arm with my left hand while shoving his left shoulder with my right to disrupt his balance. Hadrik tilts, but manages to latch onto my tunic. He spins and throws me across the turf, sending me rolling through the grass.
+Prod or not, the kinetic force behind that finger will take me off my feet. I sidestep at the last fraction of a second, yanking his right arm with my left while shoving his shoulder to exploit his dwarf balance. Hadrik tilts, his short legs scrambling for purchase, but my grip lacks the raw strength to overcome his massive density. He recovers his footing, grabs my tunic, and whips me across the clearing into the brush.
 
-"Barry, are you okay?" Daren shouts as he rushes towards me.
+"Barry, are you hurt?" Daren shouts as he rushes towards me.
 
-"I'm fine," I answer him. "Maybe just a little shaken up."
+"I'm unhurt," I say, nursing a sore elbow. "Just shaken up."
 
 "Well, that was underwhelming," Hadrik says, disappointed. "I guess I was getting my hopes up a little too much for this fight."
 }
 #if(v_combat_technique == 4 && v_reflexes >= 3 && v_strength >= 2) {
-Prod or not, the kinetic force behind that finger will knock me off my feet. I sidestep at the last fraction of a second, yanking his right arm with my left hand while shoving his left shoulder hard with my right. Hadrik stumbles over his own boots, grasping for my jacket to catch himself, but my strength leverage carries him over. With nothing to halt his momentum, the dwarf crashes flat on his back with a heavy thud.
+Prod or not, the kinetic force behind that finger will knock me off my feet. I slip inside the line of his thrust at the last fraction of a second, seizing his wrist to redirect his charge while driving my shoulder hard into his chest to compromise his dwarf center of gravity. Hadrik's short boots fail to find purchase, his compressed mass fighting his own momentum. The strain tears through my forearm and jars my collarbone, but the leverage holds. His feet leave the turf, and the dwarf crashes flat on his back with a heavy, breath-expelling thud.
 
-"Well, I'll be damned!" Hadrik says, staring up at the canopy. "You totally caught me off guard there, Barry. Well fought!"
+"Well, I'll be damned!" Hadrik says, staring up at the canopy. "You had me clean off my guard there, Barry. Well fought!"
 
 "Haha, I can't believe you actually did it!" says Daren as he comes from behind and pats me hard on the back. "Maybe I've been wrong about you all this time. That move you did there was really impressive!"
 
@@ -2831,7 +2889,7 @@ Kate escalates the assault, launching volleys of icicles while her construct sta
 
 Both dragons crash into the clearing, the ice beast pinning the black dragon to the turf with heavy claws. Kate lowers her cage, watching Hadrik intently.
 
-"Okay, okay, I give up, you win!" Hadrik says, shifting back to his dwarf shape with a puff of steam.
+"Enough, enough — I yield!" Hadrik says, shifting back to his dwarf shape with a puff of steam.
 
 Kate brings her platform to the ground, dismissing both the cage and the construct into melting frost. Her breath comes hard, chest heaving under her cloak, fingers still stark white with channeled cold.
 
@@ -2952,7 +3010,7 @@ She offers a deep, formal bow and turns to leave.
 
 "Aye," Hadrik answers her. "It's true!"
 
-"There, you see?" Rose says, smiling. "Everything works out just fine!"
+"There, you see?" Rose says, smiling. "Everything works out in the end!"
 
 "But... I couldn't..." Kate protests, but Hadrik interrupts her.
 
@@ -2962,11 +3020,11 @@ We shoulder our gear and follow Hadrik into the brush. Kate hesitates for a mome
 
 We hike through the trees without speaking. Daren remains unusually quiet, staring at the trail ahead—still processing the reality of the Beacon after clinging so fiercely to his banshee dogma.
 
-"Boy, you guys sure are a quiet bunch!" Hadrik says, looking over his shoulder. "Fine, I'll break the ice, then. Come on, ask me anything!"
+"Boy, you lot sure are a quiet bunch!" Hadrik says, looking over his shoulder. "Fine, I'll start us talking, then. Come on, ask me anything!"
 
 choice(""Why did you rush to defend Kate earlier in the clearing?"", Ch7-Rush, v_current_scene = Ch7-Rush)
 choice(""How did you and Kate's friend meet?"", Ch7-Meet, v_current_scene = Ch7-Meet)
-choice(""Do all dwarves really have ale running through their veins instead of blood?"", Ch7-Ale, v_current_scene = Ch7-Ale)
+choice(""You charged a banshee for sport. Is that a dwarf thing or just a you thing?"", Ch7-Ale, v_current_scene = Ch7-Ale)
 
 
 ID: Ch7-Rush
@@ -3046,11 +3104,11 @@ choice("Continue", Ch7-Home-address, v_current_scene = Ch7-Home-address)
 ID: Ch7-Ale
 TEXT:
 
-"Do all dwarves really have ale running through their veins instead of blood?"
+"You charged a banshee for sport," I tell him. "Is that a dwarf thing or just a you thing?"
 
-Hadrik laughs after hearing my question.
+Hadrik bursts into a booming laugh.
 
-"That may well be true," he says, grinning. "I don't think I've ever met a dwarf who didn't enjoy his ale. Although, part of that may be due to the harsh weather conditions. Most, if not all of the dwarves live in the Northern Continent, and nothing warms you better in the middle of the cold freezing night than a bottle of strong ale!"
+"A bit of both, lad!" he says, grinning. "Dwarves don't shy from a brawl, but northern blood runs hot regardless. Most of us hail from the Northern Continent, and up there, if you aren't fighting the cold, you're fighting something with teeth."
 
 "Could you tell me how you and Diane met?" Kate asks Hadrik.
 
@@ -3122,37 +3180,37 @@ TEXT:
 
 "What are spirits of the forest?"
 
-"They are guardians," Rose whispers urgently. "Sworn to protect the animals and the groves from harm."
+"They are ancient guardians," Rose whispers, her voice trembling as she clutches her cloak. "Sworn to protect the animals and keep mortal violence from these groves."
 
 "And who decided we aren't permitted passage?"
 
-"The great golden fox. Please, we have to turn back before it's too late--"
+"The great golden fox. She is the foremost of the guardian spirits. Please, we have to turn back before it's too late--"
 
-"Kate?..." a woman's voice calls out from behind a thick oak. "Kate, is that you?"
+"Kate?..." a woman's voice calls out from behind a moss-covered oak. "Kate, is that you?"
 
-A woman steps into the dim light. She has a lean, muscular build, striking blue eyes, and short blond hair standing on end from residual static. She wears fitted leather trousers and a gray sleeveless tunic, her age matching Kate's. A jagged burn scar wraps around her left forearm.
+A woman steps into the dim, amber glow of the spirit orbs. She has a lean, athletic build, striking blue eyes, and short blond hair standing on end from crackling static. She wears fitted leather trousers and a gray sleeveless tunic, her age matching Kate's. A jagged burn scar wraps around her left forearm.
 
-"Diane!" Kate cries, rushing forward. "I can't believe it's really you... I've been looking for you for so long--"
+"Diane!" Kate cries out, all her guarded composure shattering in an instant. She rushes forward, tears spilling over her cheeks. "I can't believe it's really you... I've been searching for you for so long--"
 
-"You IDIOT!" Diane snaps, cutting her off with a sharp glare. "Why did you come back? You aren't supposed to be here!"
+"You IDIOT!" Diane snaps, her voice raw with terror and furious disbelief as she backs away. "Why did you come back? You aren't supposed to be here!"
 
-"Diane, listen to me, I came back here to save you... I came back here to take you away from this place."
+"Diane, listen to me, I came back to save you... to take you away from this place!"
 
-"I don't need saving!" Diane pulls her collar down, showing bare skin where the suppressing band once rested. "I am working with them of my own free will."
+"I don't need saving!" Diane yanks down the collar of her tunic, baring smooth, unmarred skin where the suppression collar once sat. "I am working with them of my own free will."
 
-"What?... But, why? I don't understand..."
+Kate stops dead in her tracks, staring at the bare throat as if struck by a physical blow. "What?... But why? I don't understand..."
 
-"It doesn't matter! What matters is that you need to get out of here. Quick! Before the ancients come back. And stop looking for me! Please..."
+"It doesn't matter! What matters is that you need to get out of here. Quick! Before the ancients return. And stop looking for me! Please..."
 
-"No!" Kate shouts. "I'm not leaving here without you!"
+"No!" Kate shouts, stubborn refusal hardening her voice through her tears. "I didn't cross an ocean just to turn around and leave you behind! I'm not leaving without you!"
 
-"Yes, you are," Diane says, her eyes glowing vibrant blue as crackling arcs of lightning wrap around her arms.
+"Yes, you are," Diane says, her jaw setting in desperate resolve. Electric blue light flares in her eyes, crackling arcs of lightning spiraling violently down her arms.
 
-"Kate, we should back off," I tell her, the hair on my arms standing straight from the static charge saturating the air.
+"Kate, back off—" I shout, the static charge in the air making the hair on my arms stand straight.
 
-"No!" Kate says. "If she doesn't plan to see reason until I beat some sense into her stupid head, then I'll--"
+"No!" Kate screams, frost snapping across her palms. "If you won't see reason until I beat some sense into you, then I'll--"
 
-A blinding arc of lightning detonates in our midst. The shockwave hits like a physical hammer, violently arcing through every nerve and slamming us simultaneously to the ground. My muscles seize, but my half-lessathi resistance keeps the darkness at bay while the others lie motionless.
+A blinding detonation of azure lightning tears through the clearing. The concussive shockwave slams into our chests like an anvil, arcing violently through every muscle and nerve. We hit the forest floor simultaneously. The voltage drops Daren, Rose, Hadrik, and Kate into instant darkness, but my half-lessathi constitution keeps my vision from fully collapsing, leaving me pinned to the moss, gasping through burning lungs.
 
 choice("Continue", Ch7-Ending, v_current_scene = Ch7-Ending)
 
@@ -3162,37 +3220,37 @@ TEXT:
 
 "What are sacred woods?"
 
-"Sanctuaries where only wildlife is permitted to dwell."
+"Sanctuaries where only wildlife and the forest spirits are permitted to dwell," Rose whispers urgently, looking all around the shadowed glade.
 
 "Who enforces the rule?"
 
-"The great golden fox. Please, we have to turn back before it's too late--"
+"The great golden fox. She is the foremost of the guardian spirits. Please, we have to turn back before it's too late--"
 
-"Kate?..." a woman's voice calls out from behind a thick oak. "Kate, is that you?"
+"Kate?..." a woman's voice calls out from behind a moss-covered oak. "Kate, is that you?"
 
-A woman steps into the dim light. She has a lean, muscular build, striking blue eyes, and short blond hair standing on end from residual static. She wears fitted leather trousers and a gray sleeveless tunic, her age matching Kate's. A jagged burn scar wraps around her left forearm.
+A woman steps into the dim, amber glow of the spirit orbs. She has a lean, athletic build, striking blue eyes, and short blond hair standing on end from crackling static. She wears fitted leather trousers and a gray sleeveless tunic, her age matching Kate's. A jagged burn scar wraps around her left forearm.
 
-"Diane!" Kate cries, rushing forward. "I can't believe it's really you... I've been looking for you for so long--"
+"Diane!" Kate cries out, all her guarded composure shattering in an instant. She rushes forward, tears spilling over her cheeks. "I can't believe it's really you... I've been searching for you for so long--"
 
-"You IDIOT!" Diane snaps, cutting her off with a sharp glare. "Why did you come back? You aren't supposed to be here!"
+"You IDIOT!" Diane snaps, her voice raw with terror and furious disbelief as she backs away. "Why did you come back? You aren't supposed to be here!"
 
-"Diane, listen to me, I came back here to save you... I came back here to take you away from this place."
+"Diane, listen to me, I came back to save you... to take you away from this place!"
 
-"I don't need saving!" Diane pulls her collar down, showing bare skin where the suppressing band once rested. "I am working with them of my own free will."
+"I don't need saving!" Diane yanks down the collar of her tunic, baring smooth, unmarred skin where the suppression collar once sat. "I am working with them of my own free will."
 
-"What?... But, why? I don't understand..."
+Kate stops dead in her tracks, staring at the bare throat as if struck by a physical blow. "What?... But why? I don't understand..."
 
-"It doesn't matter! What matters is that you need to get out of here. Quick! Before the ancients come back. And stop looking for me! Please..."
+"It doesn't matter! What matters is that you need to get out of here. Quick! Before the ancients return. And stop looking for me! Please..."
 
-"No!" Kate shouts. "I'm not leaving here without you!"
+"No!" Kate shouts, stubborn refusal hardening her voice through her tears. "I didn't cross an ocean just to turn around and leave you behind! I'm not leaving without you!"
 
-"Yes, you are," Diane says, her eyes glowing vibrant blue as crackling arcs of lightning wrap around her arms.
+"Yes, you are," Diane says, her jaw setting in desperate resolve. Electric blue light flares in her eyes, crackling arcs of lightning spiraling violently down her arms.
 
-"Kate, we should back off," I tell her, the hair on my arms standing straight from the static charge saturating the air.
+"Kate, back off—" I shout, the static charge in the air making the hair on my arms stand straight.
 
-"No!" Kate says. "If she doesn't plan to see reason until I beat some sense into her stupid head, then I'll--"
+"No!" Kate screams, frost snapping across her palms. "If you won't see reason until I beat some sense into you, then I'll--"
 
-A blinding arc of lightning detonates in our midst. The shockwave hits like a physical hammer, violently arcing through every nerve and slamming us simultaneously to the ground. My muscles seize, but my half-lessathi resistance keeps the darkness at bay while the others lie motionless.
+A blinding detonation of azure lightning tears through the clearing. The concussive shockwave slams into our chests like an anvil, arcing violently through every muscle and nerve. We hit the forest floor simultaneously. The voltage drops Daren, Rose, Hadrik, and Kate into instant darkness, but my half-lessathi constitution keeps my vision from fully collapsing, leaving me pinned to the moss, gasping through burning lungs.
 
 choice("Continue", Ch7-Ending, v_current_scene = Ch7-Ending)
 
@@ -3202,37 +3260,37 @@ TEXT:
 
 "Not allowed by whom?"
 
-"The great golden fox. She is the foremost of the guardian spirits, and she does not suffer trespassers."
+"The great golden fox," Rose whispers, her voice shaking as the glowing orbs drift past. "She is the foremost of the guardian spirits, and she does not suffer trespassers."
 
 "Why are we barred from entering?"
 
 "Because only wildlife may walk these groves. Please, we have to turn back before it's too late--"
 
-"Kate?..." a woman's voice calls out from behind a thick oak. "Kate, is that you?"
+"Kate?..." a woman's voice calls out from behind a moss-covered oak. "Kate, is that you?"
 
-A woman steps into the dim light. She has a lean, muscular build, striking blue eyes, and short blond hair standing on end from residual static. She wears fitted leather trousers and a gray sleeveless tunic, her age matching Kate's. A jagged burn scar wraps around her left forearm.
+A woman steps into the dim, amber glow of the spirit orbs. She has a lean, athletic build, striking blue eyes, and short blond hair standing on end from crackling static. She wears fitted leather trousers and a gray sleeveless tunic, her age matching Kate's. A jagged burn scar wraps around her left forearm.
 
-"Diane!" Kate cries, rushing forward. "I can't believe it's really you... I've been looking for you for so long--"
+"Diane!" Kate cries out, all her guarded composure shattering in an instant. She rushes forward, tears spilling over her cheeks. "I can't believe it's really you... I've been searching for you for so long--"
 
-"You IDIOT!" Diane snaps, cutting her off with a sharp glare. "Why did you come back? You aren't supposed to be here!"
+"You IDIOT!" Diane snaps, her voice raw with terror and furious disbelief as she backs away. "Why did you come back? You aren't supposed to be here!"
 
-"Diane, listen to me, I came back here to save you... I came back here to take you away from this place."
+"Diane, listen to me, I came back to save you... to take you away from this place!"
 
-"I don't need saving!" Diane pulls her collar down, showing bare skin where the suppressing band once rested. "I am working with them of my own free will."
+"I don't need saving!" Diane yanks down the collar of her tunic, baring smooth, unmarred skin where the suppression collar once sat. "I am working with them of my own free will."
 
-"What?... But, why? I don't understand..."
+Kate stops dead in her tracks, staring at the bare throat as if struck by a physical blow. "What?... But why? I don't understand..."
 
-"It doesn't matter! What matters is that you need to get out of here. Quick! Before the ancients come back. And stop looking for me! Please..."
+"It doesn't matter! What matters is that you need to get out of here. Quick! Before the ancients return. And stop looking for me! Please..."
 
-"No!" Kate shouts. "I'm not leaving here without you!"
+"No!" Kate shouts, stubborn refusal hardening her voice through her tears. "I didn't cross an ocean just to turn around and leave you behind! I'm not leaving without you!"
 
-"Yes, you are," Diane says, her eyes glowing vibrant blue as crackling arcs of lightning wrap around her arms.
+"Yes, you are," Diane says, her jaw setting in desperate resolve. Electric blue light flares in her eyes, crackling arcs of lightning spiraling violently down her arms.
 
-"Kate, we should back off," I tell her, the hair on my arms standing straight from the static charge saturating the air.
+"Kate, back off—" I shout, the static charge in the air making the hair on my arms stand straight.
 
-"No!" Kate says. "If she doesn't plan to see reason until I beat some sense into her stupid head, then I'll--"
+"No!" Kate screams, frost snapping across her palms. "If you won't see reason until I beat some sense into you, then I'll--"
 
-A blinding arc of lightning detonates in our midst. The shockwave hits like a physical hammer, violently arcing through every nerve and slamming us simultaneously to the ground. My muscles seize, but my half-lessathi resistance keeps the darkness at bay while the others lie motionless.
+A blinding detonation of azure lightning tears through the clearing. The concussive shockwave slams into our chests like an anvil, arcing violently through every muscle and nerve. We hit the forest floor simultaneously. The voltage drops Daren, Rose, Hadrik, and Kate into instant darkness, but my half-lessathi constitution keeps my vision from fully collapsing, leaving me pinned to the moss, gasping through burning lungs.
 
 choice("Continue", Ch7-Ending, v_current_scene = Ch7-Ending)
 
@@ -3256,15 +3314,15 @@ He glares at Diane.
 
 "Touch one of them," Diane says, crackling blue sparks leaping between her fingers, "and I murder you where you stand."
 
-"You dare threaten your masters, wench?"
+"You dare threaten your handlers, wench?"
 
-"Enough, Zenir," the left-hand man says, catching his partner's arm. "You know we cannot best her in combat. Our position is compromised. Prepare the camp for relocation."
+"Enough, Zenir," the left-hand man says, catching his partner's arm with a tight grip. "Look at them. The ice girl is already twitching back toward consciousness, and we haven't fitted the suppression collars. Lady Meridith's standing order is clear: secure viable Beacon assets intact. We did not budget for a messy brawl in unwarded woods."
 
-"Fine," Zenir spits, sheathing his blade. "Lady Meridith will hear of your insubordination."
+"She defies protocol," Zenir spits, glaring at Diane before sheathing his blade. "This is not finished. Lady Meridith will hear of your insubordination before sunrise."
 
-"Count on it," Diane replies with a defiant smirk.
+"Count on it," Diane replies with a defiant smirk. "Prepare the camp for relocation."
 
-The two ancients turn and vanish into the brush. Once the trees swallow them, Diane looks down at the five of us, her gaze landing on me.
+The two ancients turn and vanish into the timber. Once the brush swallows their footsteps, Diane looks down at the five of us, her gaze landing on me.
 
 "Still awake?" she murmurs, stepping closer. "Strange... that voltage drops any human cold. How are you conscious?"
 

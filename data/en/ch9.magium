@@ -172,37 +172,33 @@ Rose presses a hand to her chest, her expression softening with pity. "I'm so so
 "What? No, you have it completely backward!" Flower waves her hands frantically. "The day Petal woke up was the best day of my entire life! For the first time ever, I had someone in there with me. You have no idea what it's like to spend years completely alone inside your own head."
 
 }
-choice(""Live inside your own mind? You mean to say that you space out a lot?"", Ch9-Space-out, v_current_scene = Ch9-Space-out)
-choice(""Talk about an active imagination!"", Ch9-Imagination, v_current_scene = Ch9-Imagination)
+choice(""If someone else is living in there, I need to know which of you is holding the amulet."", Ch9-Space-out, v_current_scene = Ch9-Space-out)
+choice(""You just described a housemate who can execute you."", Ch9-Imagination, v_current_scene = Ch9-Imagination)
 choice(""So when you argue with yourself, there's actually someone arguing back? That's terrifyingly efficient."", Ch9-Doctor, v_current_scene = Ch9-Doctor)
 
 
 ID: Ch9-Space-out
 TEXT:
 
- "Live inside your own mind? You mean to say that you space out a lot?"
+ "If someone else is living in there, I need to know which of you is holding the amulet."
 
-"No!" Flower stomps a bare foot on the pine needles. "I mean I literally live inside my mind. I've been in here since the day I was born! Why does everyone think I'm making it up?"
+"I am!" Flower stomps a bare foot against the pine needles, kicking up dry loam. "I've held this body since the day I was born! Why does everyone assume I'm just sitting in the passenger seat?"
 
-"I don't," Kate says.
+"I don't," Kate says quietly.
 
-Flower blinks up at her. "You don't?"
+Flower slows her pace, blinking up at her. "You don't?"
 
-"No. You aren't the first person I've met like this." Kate keeps her eyes forward, her stride steady. "A friend of mine—Diane—she was the same. Several of the orphans at the Beacon of Hope were. The lessathi called them ethereals. People who experience existence from their souls rather than their flesh."
+"No. You aren't the first person I've encountered with that detachment." Kate keeps her stride long and even, her gaze scanning the birch trunks ahead. "A girl I grew up with—Diane—experienced the world the exact same way. Several of the children at the Beacon of Hope did. The lessathi overseers called them ethereals: mortals whose consciousness anchors primarily on the ethereal plane, experiencing existence from the soul outward rather than through nerve endings."
 
-Rose knits her brow. "From their souls?"
+Rose knits her brow, stepping over an exposed pine root. "From the soul outward?"
 
-"Most people navigate the world through physical senses," Kate explains, gesturing with a gloved hand. "They rarely give the soul a second thought. But the soul—the vessel for memory, will, and identity—anchors on the ethereal plane, inside an internal pocket we call the mind. The brain is just a conduit between spirit and flesh, not the sole author of who you are. When a body dies and rots into the soil, the soul decomposes too, dissolving back into the raw matter of the ethereal plane."
+"Most mortals interact with the world through physical sensation," Kate explains, gesturing with a gloved hand. "They rarely perceive the architecture of their own spirit. But the soul—the vessel of will, memory, and personal identity—inhabits an ethereal pocket we call the mind. The physical brain is merely an organic translator between spirit and muscle, not the source of thought. When flesh dies and decomposes in the earth, the soul eventually dissolves back into raw ethereal matter. But ethereals feel that separation while they breathe. To them, the physical frame feels like an apparatus—a massive wooden puppet where you have to consciously pull cables to swing an arm or frame a sentence."
 
-"Hold on a second," Hadrik cuts in with a hearty scoff. "That's not what the elders taught back home! When a giant dies, his spirit marches straight into the feast halls of whichever god took his oaths."
+"I pretend I have invisible cords tied to my fingers and toes!" Flower chimes in with a bright, sunny beam. "It makes walking across rough ground feel much less clumsy."
 
-Kate gives him a dry look. "Believe what you like. I'm quoting the lessathi texts translated into Common at the Beacon. The point is that ethereals experience life from the vantage point of the soul. Imagine living your entire life trapped inside a massive wooden puppet, pulling cables every time you want to move an arm or utter a word."
+"Ordinary children notice that mechanical detachment instantly," Kate continues, her voice darkening slightly. "They ostracize ethereal children before they even understand why. That isolation forces ethereals inward. Some withdraw into complete silence. Others develop hyper-focused proficiencies to bridge the gap. Diane would sit for three straight days disassembling complex lessathi clockwork without looking up or eating. Flower, I take it your circus tumbling was yours?"
 
-"I pretend I have invisible strings tied to my fingers!" Flower chimes in with a bright grin. "It makes walking around much less strange."
-
-"Children recognize that kind of detachment immediately," Kate continues. "They ostracize ethereals from an early age. The isolation drives them inward. Some shut out the world entirely. Others try desperately to fit in, though the awkwardness never really fades. Living isolated in their own heads, many ethereals develop intense, singular fixations. Diane would dismantle clockwork and lessathi mechanisms for days on end without looking up. Flower, I take it acrobatics was yours?"
-
-"Yes!" Flower beams. "I grew up with a traveling circus. I've trained my balance and tumbling every single day since I was little!"
+"Every single day!" Flower beams, bouncing lightly on her heels. "Balance, vaults, aerial flips—I practiced until my fingers didn't need cords to know where the air was!"
 
 choice("Continue", Ch9-Beacon, v_current_scene = Ch9-Beacon)
 
@@ -210,31 +206,27 @@ choice("Continue", Ch9-Beacon, v_current_scene = Ch9-Beacon)
 ID: Ch9-Imagination
 TEXT:
 
- "Talk about an active imagination!"
+ "You just described a housemate who can execute you."
 
-"Children come up with wild stories," Hadrik chuckles. "Why, back in the clan, I knew a lad who swore he—"
+"Children come up with wild stories to keep themselves occupied," Hadrik chuckles, adjusting his axe strap. "Why, back in the clan, I knew a lad who swore a mountain troll lived behind his teeth and ate his breakfast."
 
-"I'm not making it up!" Flower shouts, stomping a bare foot into the dirt. "I've been living inside my mind for as long as I can remember! Why does everyone think I'm lying?"
+"I'm not making it up!" Flower shouts, stomping her bare heel into the dirt. "I lived in that quiet for ten years before she arrived! Why does everyone treat it like a bedtime tale?"
 
-"I don't," Kate says.
+"I don't," Kate says, her voice level.
 
-Flower blinks up at her. "You don't?"
+Flower looks up, her eyes wide with surprise. "You believe me?"
 
-"No. You aren't the first person I've met like this." Kate keeps her eyes forward, her stride steady. "A friend of mine—Diane—she was the same. Several of the orphans at the Beacon of Hope were. The lessathi called them ethereals. People who experience existence from their souls rather than their flesh."
+"I do. I grew up with survivors who bore the same condition." Kate snaps a dry birch twig between her fingers, tossing the splintered bark into the ferns. "The lessathi called them ethereals. Most mortals live entirely within their skin, perceiving the world through touch and blood. But an ethereal lives from the soul. To an ethereal, the physical body is an awkward shell, and the internal mind is a vast, tangible space on the ethereal plane."
 
-Rose knits her brow. "From their souls?"
+Rose tilts her head, listening intently as our boots crunch over the gravel. "A tangible space?"
 
-"Most people navigate the world through physical senses," Kate explains, gesturing with a gloved hand. "They rarely give the soul a second thought. But the soul—the vessel for memory, will, and identity—anchors on the ethereal plane, inside an internal pocket we call the mind. The brain is just a conduit between spirit and flesh, not the sole author of who you are. When a body dies and rots into the soil, the soul decomposes too, dissolving back into the raw matter of the ethereal plane."
+"An inhabited one," Kate says. "When an ordinary mortal undergoes an awakening, the sudden arrival of a banshee triggers violent spiritual rejection because the host has no concept of their own spirit. But an ethereal already inhabits that internal fortress. When Petal awakened within Flower, she didn't find an empty vessel. She found another conscious soul already standing on the ramparts."
 
-"Hold on a second," Hadrik cuts in with a hearty scoff. "That's not what the elders taught back home! When a giant dies, his spirit marches straight into the feast halls of whichever god took his oaths."
+"That's why it wasn't terrifying!" Flower says, her small hands clasped tight. "I wasn't being invaded. After ten years of complete silence in the dark, somebody finally knocked on the door."
 
-Kate gives him a dry look. "Believe what you like. I'm quoting the lessathi texts translated into Common at the Beacon. The point is that ethereals experience life from the vantage point of the soul. Imagine living your entire life trapped inside a massive wooden puppet, pulling cables every time you want to move an arm or utter a word."
+"That profound childhood isolation is why ethereals develop such obsessive disciplines," Kate continues. "They fixate on single proficiencies where soul and action align without social friction. Diane poured her life into clockwork and lessathi mechanisms. You poured yours into acrobatics and balance."
 
-"I pretend I have invisible strings tied to my fingers!" Flower chimes in with a bright grin. "It makes walking around much less strange."
-
-"Children recognize that kind of detachment immediately," Kate continues. "They ostracize ethereals from an early age. The isolation drives them inward. Some shut out the world entirely. Others try desperately to fit in, though the awkwardness never really fades. Living isolated in their own heads, many ethereals develop intense, singular fixations. Diane would dismantle clockwork and lessathi mechanisms for days on end without looking up. Flower, I take it acrobatics was yours?"
-
-"Yes!" Flower beams. "I grew up with a traveling circus. I've trained my balance and tumbling every single day since I was little!"
+"Acrobatics and tumbling!" Flower beams, the gloom vanishing from her face. "The circus master said I learned to walk on high wires before I could run on flat grass!"
 
 choice("Continue", Ch9-Beacon, v_current_scene = Ch9-Beacon)
 
@@ -244,29 +236,21 @@ TEXT:
 
  "So when you argue with yourself, there's actually someone arguing back? That's terrifyingly efficient."
 
-"That's a weird way to put it," Hadrik tells me, shaking his head. "Children have active minds. Why, back in the clan, I knew a lad who swore he—"
+"That's a grim way to look at a child's head," Hadrik rumbles, shaking his head. "Spend three months snowbound in a Northern drift and you'll hold full debates with your boots. Doesn't mean the leather's talking back."
 
-"It's not arguing!" Flower shouts, stomping a bare foot into the dirt. "Petal and I get along perfectly! Why does everyone make it sound so strange?"
+"It's not arguing!" Flower shouts, stomping a bare foot on a mossy stone. "Petal and I understand each other completely! Why does everyone make it sound like madness?"
 
-"I don't," Kate says.
+"I don't," Kate says, pausing briefly near a granite outcrop to check our rear trail before stepping back into formation.
 
-Flower blinks up at her. "You don't?"
+Flower blinks in astonishment. "You don't think I'm crazy?"
 
-"No. You aren't the first person I've met like this." Kate keeps her eyes forward, her stride steady. "A friend of mine—Diane—she was the same. Several of the orphans at the Beacon of Hope were. The lessathi called them ethereals. People who experience existence from their souls rather than their flesh."
+"No. I grew up with orphans who experienced the exact same cognitive reality." Kate keeps her eyes on the path ahead, her voice steady and measured. "The lessathi at the Beacon studied them extensively, naming them ethereals. For an ordinary person, the mind is simply the internal murmur of the physical brain. But the lessathi texts proved that the soul anchors on the ethereal plane, and the brain is merely a biological translator. For an ethereal, consciousness operates directly from the soul. When two complete spiritual entities fuse into a single frame, they share that conduit. An internal conversation is not an echo—it is two minds sharing an immediate, unfiltered channel."
 
-Rose knits her brow. "From their souls?"
+"Exactly!" Flower nods eagerly. "We don't even need words half the time. It's like thoughts just pass between us like water!"
 
-"Most people navigate the world through physical senses," Kate explains, gesturing with a gloved hand. "They rarely give the soul a second thought. But the soul—the vessel for memory, will, and identity—anchors on the ethereal plane, inside an internal pocket we call the mind. The brain is just a conduit between spirit and flesh, not the sole author of who you are. When a body dies and rots into the soil, the soul decomposes too, dissolving back into the raw matter of the ethereal plane."
+"Because ethereals operate from the soul, they process complex spatial and structural systems without the usual physical distraction," Kate continues. "It produces singular, intense proficiencies from an early age. Diane could decipher lessathi mechanical blueprints at eight years old. Flower, I imagine your acrobatics developed under that same singular focus?"
 
-"Hold on a second," Hadrik cuts in with a hearty scoff. "That's not what the elders taught back home! When a giant dies, his spirit marches straight into the feast halls of whichever god took his oaths."
-
-Kate gives him a dry look. "Believe what you like. I'm quoting the lessathi texts translated into Common at the Beacon. The point is that ethereals experience life from the vantage point of the soul. Imagine living your entire life trapped inside a massive wooden puppet, pulling cables every time you want to move an arm or utter a word."
-
-"I pretend I have invisible strings tied to my fingers!" Flower chimes in with a bright grin. "It makes walking around much less strange."
-
-"Children recognize that kind of detachment immediately," Kate continues. "They ostracize ethereals from an early age. The isolation drives them inward. Some shut out the world entirely. Others try desperately to fit in, though the awkwardness never really fades. Living isolated in their own heads, many ethereals develop intense, singular fixations. Diane would dismantle clockwork and lessathi mechanisms for days on end without looking up. Flower, I take it acrobatics was yours?"
-
-"Yes!" Flower beams. "I grew up with a traveling circus. I've trained my balance and tumbling every single day since I was little!"
+"I tumbled until sunset every day!" Flower smiles proudly. "High wires, trapeze swings, handstands on wagon wheels—I never felt clumsy when I was moving!"
 
 choice("Continue", Ch9-Beacon, v_current_scene = Ch9-Beacon)
 
@@ -328,14 +312,14 @@ We drop our packs near a ring of mossy boulders to eat a quick midday ration. Fl
 
 "Turning thirty!"
 
-choice(""Then why are you always acting like a ten-year-old?"", Ch9-Acting, v_current_scene = Ch9-Acting)
-choice(""You do realize that your brain technically never developed past the age of ten, right?"", Ch9-Developed, v_current_scene = Ch9-Developed)
+choice(""You died at ten and kept the voice. I need to know whether the judgment died with it."", Ch9-Acting, v_current_scene = Ch9-Acting)
+choice(""If the body stopped at ten, I can't take your calls like an adult's. Not in a fight."", Ch9-Developed, v_current_scene = Ch9-Developed)
 
 
 ID: Ch9-Acting
 TEXT:
 
- "Then why are you always acting like a ten-year-old?"
+ "You died at ten and kept the voice. I need to know whether the judgment died with it."
 
 "Your face acts like a ten-year-old!" she shoots back, puffing her cheeks into a petulant scowl.
 
@@ -381,7 +365,7 @@ choice("Continue", Ch9-Leader, v_current_scene = Ch9-Leader)
 ID: Ch9-Developed
 TEXT:
 
- "You do realize that your brain technically never developed past the age of ten, right?"
+ "If the body stopped at ten, I can't take your calls like an adult's. Not in a fight."
 
 "La la la la la! I can't hear you!" Flower slaps her hands over her ears, stomping in a little circle.
 
@@ -587,7 +571,7 @@ She looks up, her face inches away, warm in the river breeze—then seems to rea
 
 choice(""I'm not calm, it's just that I'm very good at hiding fear."", Ch9-Hiding-fear, v_current_scene = Ch9-Hiding-fear)
 choice(""It's because I'm carrying this stat device with me."", Ch9-Stat-device, v_current_scene = Ch9-Stat-device)
-choice(""I guess I've always been a little crazy."", Ch9-Crazy, v_current_scene = Ch9-Crazy)
+choice(""I spent all my fear yesterday. There's none left over for today."", Ch9-Crazy, v_current_scene = Ch9-Crazy)
 
 
 ID: Ch9-Hiding-fear
@@ -621,7 +605,7 @@ choice("Continue", Ch9-Blushing, v_current_scene = Ch9-Blushing)
 ID: Ch9-Crazy
 TEXT:
 
- "I guess I've always been a little crazy."
+ "I spent all my fear yesterday. There's none left over for today."
 
 Rose lets out a quiet laugh. "I suppose terror takes a back seat when you're reckless enough to enter a mage tournament without a single spell."
 
@@ -666,7 +650,7 @@ Rose looks slightly surprised by the pivot.
 #if(v_ch6_flirt == 2) {
  "You were blushing just now," I say. "Have you reconsidered your stance on me since our last talk?"
 
-"Only regarding your combat prowess," Rose says, turning back with an amused arch of her brow. "Had your very first remark to me not been about tripping over your own feet while staring at me, matters might have unfolded differently. As it stands, my initial assessment remains firm."
+"Only regarding your combat prowess," Rose says, turning back with an amused arch of her brow. "Had your very first remark to me not been about watching me instead of the tree line, matters might have unfolded differently. As it stands, my initial assessment remains firm."
 
 "Ouch," I mutter.
 
@@ -692,23 +676,17 @@ TEXT:
 
 "How so?"
 
-"She's older than me, but acts like a ten-year-old child. It's difficult to take her seriously."
+"She's turning thirty, but acts like a ten-year-old child bounding over logs," I say. "It's difficult to take her tactical judgment seriously when we're marching into an ogre garrison."
 
-"Remember, Barry, she never had the chance to grow up properly," Rose says gently. "I understand why the antics might grate on you, but underneath the silliness, she is carrying this burden with real gravity. Give her some patience."
+"Remember, Barry, she never had the chance to grow up inside a normal world," Rose says gently, resting the clay jar in her lap. "When a child's body freezes and she lives two decades on the run with an entity in her skull, playful energy is how she keeps from breaking under the weight. Underneath the silliness, she took this march to save our lives. Give her some grace."
 
-"I can try," I admit.
+"I can manage that," I admit.
 
-"Good," Rose smiles. "And don't worry, your secret is safe with me. I won't breathe a word to her."
+"Good," Rose smiles. "And don't worry, your secret is safe with me. I won't tell her you grumbled."
 
-"Flower isn't the primary concern anyway," I say. "It's the spirit sharing her skin. What Daren said this morning keeps rattling in my head."
+"Flower isn't the primary concern anyway," I say. "It's the spirit sharing her skin. What Daren said this morning keeps ringing in my ears."
 
-"I trust Petal," Rose says without hesitation.
-
-"You haven't even spoken to her."
-
-"No, but Flower has. For twenty years. If Petal earned Flower's trust across two decades, that is more than enough for me."
-
-"Fair point. Nobody maintains a mask for twenty years without slipping. If the banshee were plotting treachery, it would have shown by now."
+"I trust Petal," Rose says without hesitation. "Twenty years of sharing a heartbeat without betrayal is proof enough for me. No one maintains a mask that long without slipping."
 
 choice("Continue", Ch9-Sleep, v_current_scene = Ch9-Sleep)
 
@@ -720,21 +698,17 @@ TEXT:
 
 "Why?"
 
-"Banshees don't exactly have a sterling reputation for integrity."
+"Banshees don't exactly have a sterling reputation for integrity or keeping faith with mortals."
 
-Rose gasps softly. "Shame on you, Barry! I'm starting to think Daren had you pegged. Did you only extend your trust to Kate because of her looks?"
+Rose gasps softly, nudging my shoulder with her elbow. "Shame on you, Barry! I thought you were more perceptive than that. Did you only extend your trust to Kate because she looked human?"
 
-"Kate was different! I knew from the start she wasn't a real banshee."
+"Kate was different! I knew from the start she was an artificial mage, not an outworldly entity."
 
-"Neither is Flower! Petal is the banshee. And if Flower trusts her, I do too."
+"And Petal has protected Flower through two decades of exile," Rose says firmly. "If Flower trusts her with her own flesh and soul, I trust her with our backs. Please, Barry. Give her a chance to prove herself before you judge her by her species."
 
-"Blind trust in a banshee without a shred of proof?"
+I let out a breath. "Fine. Benefit of the doubt, for now. But I'll be watching."
 
-"Twenty years together is proof enough," Rose says firmly. "If Petal held Flower's trust for that long, that satisfies my doubts. Please, Barry. Give Petal the benefit of the doubt. For me?"
-
-I let out a breath. "Fine. Benefit of the doubt, for now."
-
-"Thank you," Rose beams. "You won't regret it."
+"Thank you," Rose beams, her eyes warm. "You won't regret it."
 
 "Let's hope not."
 
@@ -748,15 +722,13 @@ TEXT:
 
 "About Petal turning on us at the stronghold?"
 
-"Yes."
+"About her selling us out or vanishing the second the fighting starts."
 
-"I trust Petal," Rose says without hesitation.
+Rose watches the river water lap against the bank pebbles, the evening light catching the auburn in her hair. "Daren carries deep scars from his knightly vows on the Eastern continent. To him, every banshee is a monster from the scriptures. But Flower isn't a victim chained to a corpse. When she talks about Petal, her face lights up. They survived twenty years together. You don't spend two decades keeping someone alive just to betray them for an ogre's favor."
 
-"You haven't even spoken to her."
+"A fair assessment," I admit. "Loyalty that survives twenty winters isn't something you discard on an impulse."
 
-"No, but Flower has. For twenty years. If Petal earned Flower's trust across two decades, that is more than enough for me."
-
-"Fair point. Nobody maintains a mask for twenty years without slipping. If the banshee were plotting treachery, it would have shown by now."
+"Exactly," Rose smiles, tucking a stray lock behind her ear. "Now try to look less grim before Kate catches us brooding."
 
 choice("Continue", Ch9-Sleep, v_current_scene = Ch9-Sleep)
 
@@ -770,13 +742,11 @@ TEXT:
 
 "Can you blame him? Banshees aren't known for their high moral standards, and the girl shares her skin with one."
 
-"I trust Petal," Rose says without hesitation.
+"She brings warmth into a party that was starting to feel like a war council," Rose says, leaning back against the weathered log with a soft chuckle. "Daren will come around once he sees her in a fight. It's hard to stay stone-faced around someone who skips while carrying an ancient banshee."
 
-"You haven't even spoken to her."
+"Let's hope Daren's broadsword agrees before we reach the fort."
 
-"No, but Flower has. For twenty years. If Petal earned Flower's trust across two decades, that is more than enough for me."
-
-"Fair point. Nobody maintains a mask for twenty years without slipping. If the banshee were plotting treachery, it would have shown by now."
+"It will," Rose says gently. "We're going to get through this, Barry. All of us."
 
 choice("Continue", Ch9-Sleep, v_current_scene = Ch9-Sleep)
 
@@ -860,8 +830,8 @@ Illuna turns her cold stare onto me.
 
 }
 choice(""Yeah, that's about right."", Ch9-Right, v_current_scene = Ch9-Right)
-choice(""No, I just wanted to get to know you!"", Ch9-Know, v_current_scene = Ch9-Know)
-choice(""Actually, I just wanted to talk about the weather."", Ch9-Weather, v_current_scene = Ch9-Weather)
+choice(""I wanted you away from Flower before I said this."", Ch9-Know, v_current_scene = Ch9-Know)
+choice(""I pulled you off the trail because I don't trust what Flower isn't saying."", Ch9-Weather, v_current_scene = Ch9-Weather)
 
 
 ID: Ch9-Right
@@ -889,9 +859,9 @@ choice("Continue", Ch9-Sandwich, v_current_scene = Ch9-Sandwich)
 ID: Ch9-Know
 TEXT:
 
- "No, I just wanted to get to know you!"
+ "I wanted you away from Flower before I said this."
 
-"Then you are either foolish or a liar," Illuna says flatly. "No sensible mortal trusts a banshee on faith, and Flower's childish enthusiasm is hardly reliable testimony."
+"Then you are either cautious or calculating," Illuna says flatly. "No sensible mortal trusts a banshee on faith, and Flower's childish enthusiasm is hardly reliable testimony."
 
 "You aren't even going to try, are you?" I ask.
 
@@ -907,11 +877,11 @@ choice("Continue", Ch9-Sandwich, v_current_scene = Ch9-Sandwich)
 ID: Ch9-Weather
 TEXT:
 
- "Actually, I just wanted to talk about the weather."
+ "I pulled you off the trail because I don't trust what Flower isn't saying."
 
 Illuna stares at me, her blue eyes devoid of amusement.
 
-"In that case," she says, "the temperature is adequate and the wind is light. If that concludes your meteorological assessment, leave me to finish my meal."
+"Flower says everything that enters her head," she says. "It's the spirit behind her that warrants your suspicion. If that concludes your interrogation, leave me to finish my meal."
 
 "You aren't even going to try, are you?" I ask.
 
@@ -1028,7 +998,7 @@ Hadrik rubs his eyes. "Thought Flower was holding the hill alone."
 
 Illuna rises smoothly to her feet. The two of them lock eyes, the air between them turning brittle enough to snap.
 
-choice(""Hey now, let's all calm down! We're all on the same team here, right?"", Ch9-Calm, v_current_scene = Ch9-Calm)
+choice(""We're all bound to the same errand here, right?"", Ch9-Calm, v_current_scene = Ch9-Calm)
 choice(""Actually, their souls are fused, so Flower didn't technically lie yesterday."", Ch9-Fused, v_current_scene = Ch9-Fused)
 choice(""You're not seriously going to start a fight here, are you?"", Ch9-Fight, v_current_scene = Ch9-Fight)
 
@@ -1036,7 +1006,7 @@ choice(""You're not seriously going to start a fight here, are you?"", Ch9-Fight
 ID: Ch9-Calm
 TEXT:
 
- "Hey now, let's all calm down! We're all on the same team here, right?"
+ "We're all bound to the same errand here, right?"
 
 "Are we?" Daren's voice is low, his hand resting on the pommel of his broadsword. "You and Rose had the good sense to mount a watch, but left to herself, what stopped her from drawing a blade across our throats while we slept?"
 
@@ -1128,7 +1098,7 @@ At the entrance of Flower's tent, Illuna pauses with her hand on the canvas.
 
 choice(""Relax, I only wanted to make sure we don't lose our only guide."", Ch9-Guide, v_current_scene = Ch9-Guide)
 choice(""I didn't do this for you, I did it for Flower's sake."", Ch9-Sake, v_current_scene = Ch9-Sake)
-choice(""Love you too, Illuna!"", Ch9-Love, v_current_scene = Ch9-Love)
+choice(""If I wanted you dead I'd have let Daren finish the argument."", Ch9-Love, v_current_scene = Ch9-Love)
 
 
 ID: Ch9-Guide
@@ -1182,7 +1152,7 @@ choice("Continue", Ch9-Backpack, v_current_scene = Ch9-Backpack)
 ID: Ch9-Love
 TEXT:
 
- "Love you too, Illuna!"
+ "If I wanted you dead I'd have let Daren finish the argument."
 
 Illuna's brow knits into a sharp scowl.
 
@@ -1225,7 +1195,7 @@ A few hours later, the thump of mallet on pegs and the rustle of folding canvas 
 
 "Up already, Barry?" Hadrik calls out, grinning as he heaves up a corner pole. "I'll take my canvas back, if you don't mind!"
 
-The campsite is already half dismantled. A pale pink streak cuts across the eastern ridge—four days left on the fox's deadline.
+The campsite is already half dismantled. A pale pink streak cuts across the eastern ridge—four days left of the fox's term.
 
 Before packing, I sit down to count my supplies. With Daren's spatial enchantment hiding the interior depth, I have to picture each tool in my mind and reach into the void to pull it out. Crossbow bolts, spare string, rations, flint...
 
@@ -1257,7 +1227,7 @@ A few hours later, the thump of mallet on pegs and the rustle of folding canvas 
 
 "Up already, Barry?" Hadrik calls out, grinning as he heaves up a corner pole. "I'll take my canvas back, if you don't mind!"
 
-The campsite is already half dismantled. A pale pink streak cuts across the eastern ridge—four days left on the fox's deadline.
+The campsite is already half dismantled. A pale pink streak cuts across the eastern ridge—four days left of the fox's term.
 
 Remembering Rose's comment from last night, I sit down with my pack and start tapping the leather opening, trying to conjure the manifest. After thirty seconds of fruitless poking and muttering, the canvas remains completely inert.
 
@@ -1374,7 +1344,7 @@ Flower and Hadrik belly-crawl to the ridge to scout the fort. When they slip bac
 "It's dead quiet," Hadrik whispers. "No perimeter patrols, no sentries on the ramparts, nothing. It doesn't make sense. Ogres are dull, but nobody leaves a fortress completely unstaffed."
 
 choice(""Maybe they're onto us and want to lure us into a trap."", Ch9-Trap, v_current_scene = Ch9-Trap)
-choice(""Maybe we caught them during their lunch break?"", Ch9-Lunch, v_current_scene = Ch9-Lunch)
+choice(""Empty posts at this hour means they want us inside, or something already killed them."", Ch9-Lunch, v_current_scene = Ch9-Lunch)
 choice(""Maybe they abandoned the fort and moved elsewhere?"", Ch9-Moved, v_current_scene = Ch9-Moved)
 
 
@@ -1383,7 +1353,7 @@ TEXT:
 
  "Maybe they're onto us and want to lure us into a trap."
 
-"Likely," Daren says, tightening his grip on his shield. "With competent mages among them, they probably have perimeter wards along the hill. We don't have the luxury of waiting them out. The deadline is ticking, and we won't understand their deployment until we step through the gates. Let's pray our lack of internal reconnaissance doesn't cost us our lives."
+"Likely," Daren says, tightening his grip on his shield. "With competent mages among them, they probably have perimeter wards along the hill. We don't have the luxury of waiting them out. The allotted days are slipping past, and we won't understand their deployment until we step through the gates. Let's pray our lack of internal reconnaissance doesn't cost us our lives."
 
 "Don't worry!" Flower chimes in with a bright smile. "Petal and I have a secret plan. It's foolproof!"
 
@@ -1397,11 +1367,11 @@ choice("Continue", Ch9-Worry, v_current_scene = Ch9-Worry)
 ID: Ch9-Lunch
 TEXT:
 
- "Maybe we caught them during their lunch break."
+ "Empty posts at this hour means they want us inside, or something already killed them."
 
-Hadrik snorts. "Don't be daft, Barry. If they dropped sentry duty every time the stew pot boiled, the beasts would have cleared them years ago. Smells like an ambush."
+Hadrik snorts. "My coin is on a trap. If they dropped sentry duty for anything less than a siege, the beasts would have cleared them years ago."
 
-"I agree," Daren says, tightening his grip on his shield. "With competent mages among them, they probably have perimeter wards along the hill. We don't have the luxury of waiting them out. The deadline is ticking, and we won't understand their deployment until we step through the gates. Let's pray our lack of internal reconnaissance doesn't cost us our lives."
+"I agree," Daren says, tightening his grip on his shield. "With competent mages among them, they probably have perimeter wards along the hill. We don't have the luxury of waiting them out. The allotted days are slipping past, and we won't understand their deployment until we step through the gates. Let's pray our lack of internal reconnaissance doesn't cost us our lives."
 
 "Don't worry!" Flower chimes in with a bright smile. "Petal and I have a secret plan. It's foolproof!"
 
@@ -1419,7 +1389,7 @@ TEXT:
 
 Hadrik shakes his head. "Doubt it. The leopard said they slaughtered a goblin clan to claim these stone walls. You don't spill blood for a fortress and abandon it the next month. Smells like an ambush."
 
-"I agree," Daren says, tightening his grip on his shield. "With competent mages among them, they probably have perimeter wards along the hill. We don't have the luxury of waiting them out. The deadline is ticking, and we won't understand their deployment until we step through the gates. Let's pray our lack of internal reconnaissance doesn't cost us our lives."
+"I agree," Daren says, tightening his grip on his shield. "With competent mages among them, they probably have perimeter wards along the hill. We don't have the luxury of waiting them out. The allotted days are slipping past, and we won't understand their deployment until we step through the gates. Let's pray our lack of internal reconnaissance doesn't cost us our lives."
 
 "Don't worry!" Flower chimes in with a bright smile. "Petal and I have a secret plan. It's foolproof!"
 
@@ -1740,7 +1710,7 @@ The circle parts, making way for the shaman. He limps forward on bowed legs, his
 
 choice(""There's no reason for us to explain ourselves to you, monster!"", Ch9-Monster, v_current_scene = Ch9-Monster)
 choice(""We came here seeking the sacred chalice."", Ch9-Sacred, v_current_scene = Ch9-Sacred)
-choice(""We came here because we'd like to join your merry group!"", Ch9-Merry, v_current_scene = Ch9-Merry)
+choice(""We came for the chalice. If you meant to kill us for walking in, you'd have started already."", Ch9-Merry, v_current_scene = Ch9-Merry)
 
 
 ID: Ch9-Monster
@@ -1780,9 +1750,9 @@ choice("Continue", Ch9-Submission, v_current_scene = Ch9-Submission) if (v_ch9_o
 ID: Ch9-Merry
 TEXT:
 
- "We came here because we'd like to join your merry group!"
+ "We came for the chalice. If you meant to kill us for walking in, you'd have started already."
 
-The shaman's mouth twists into a mocking sneer. "A comedian. We always have need for quarry labor and ditch diggers. You will serve our fort adequately."
+The shaman's mouth twists into a mocking sneer. "A bold guest. We always have need for quarry labor and ditch diggers. You will serve our fort adequately."
 
 "Like hell we'll shovel stone for you, you filthy brute!" Daren snarls, raising his shield. "We'll cut through your rabble before you can finish giving the order."
 
@@ -1926,7 +1896,7 @@ TEXT:
 
 "Hold, captain," the shaman says, raising his hand. "This is no ordinary spirit. This is Illuna of the sacred woods massacre. She slaughtered hundreds of forest guardians in a single morning without a shred of pity. Though rumors claimed she grew soft after entangling her soul with a human brat."
 
-"The child was a useful battery for raw magic," Illuna says without missing a beat, "but her reckless whims repeatedly brought us to the edge of destruction. Escorting these fools into your stronghold was the final straw. I must excise her soul permanently before her foolishness becomes my undoing."
+"The child was a useful vessel for raw magic," Illuna says without missing a beat, "but her reckless whims repeatedly brought us to the edge of destruction. Escorting these fools into your stronghold was the final straw. I must excise her soul permanently before her foolishness becomes my undoing."
 
 "And how do you plan to achieve that?" the shaman asks.
 
@@ -1956,7 +1926,7 @@ He pauses, leaning on his staff.
 
 "What do you propose, then?"
 
-"Patience," Illuna says. "The fox gave them a five-day deadline. If they fail to return, she will trigger execution by remote electrocution. Under that discharge, the explosive payload remains inert."
+"Patience," Illuna says. "The fox set a five-day term. If they fail to return, she can loose the collars' killing spark from afar. Under that discharge, the explosive payload remains inert."
 
 "Sound reasoning," the shaman grunts. "You hold no sentiment for these mortals. The library is yours, Illuna of the sacred woods. We will settle your formal allegiance once the child's soul is severed. As for the humans, I will channel a mass spatial weave to deposit them directly into our dungeons. Keep your cage steady while I prepare the incantation."
 

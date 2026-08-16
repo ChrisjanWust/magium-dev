@@ -54,7 +54,7 @@ He slows as he takes in the two of us standing chest to chest in the frost.
 
 "I'm sorry, did we interrupt something?"
 
-choice(""Yeah, Kate was just about to profess her love for me."", Ch6-Profess, v_current_scene = Ch6-Profess)
+choice(""She was listing the ways I haven't died yet. In her dialect that's affection."", Ch6-Profess, v_current_scene = Ch6-Profess)
 choice(""No, you're right, we should get going."", Ch6-Going, v_current_scene = Ch6-Going)
 
 
@@ -85,14 +85,14 @@ He slows as he takes in the two of us standing chest to chest in the frost.
 
 "I'm sorry, did we interrupt something?"
 
-choice(""Yeah, Kate was just about to profess her love for me."", Ch6-Profess, v_current_scene = Ch6-Profess)
+choice(""She was listing the ways I haven't died yet. In her dialect that's affection."", Ch6-Profess, v_current_scene = Ch6-Profess)
 choice(""No, you're right, we should get going."", Ch6-Going, v_current_scene = Ch6-Going)
 
 
 ID: Ch6-Profess
 TEXT:
 
-"Yeah, Kate was just about to profess her love for me."
+"She was listing the ways I haven't died yet," I say. "In her dialect that's affection."
 
 Air hisses between her teeth. In a heartbeat, an icicle long as a broadsword condenses in her grip, its needle point resting dead against my Adam's apple.
 
@@ -119,7 +119,7 @@ ID: Ch6-Packing
 TEXT:
 
 #if(v_ch3_treasure == 0 && v_ch2_deer_interaction != 1) {
-Before hauling out, I inventory the morning's salvage: a light crossbow stripped from the ambushers and steel daggers lifted off Dave's crew.
+Before hauling out, I take stock of the morning's salvage: a light crossbow stripped from the ambushers and steel daggers lifted off Dave's crew.
 
 We regroup with Rose and take the south trail.
 
@@ -139,11 +139,11 @@ He takes the straps, closes his eyes, and drops into the trance. His irises flar
 
 Rose steps closer, watching the amber glow in Daren's eyes with frank curiosity.
 
-"All right," Daren says, blinking the magic away. "Do you want it sealed to your touch, or standard? If I lock the weave, nobody extracts an item but you—not even if they know the inventory. Catch is, you can't grant access to anyone else later. Standard is usually enough since thieves can't fish out what they don't know exists, but caution never killed a traveler."
+"All right," Daren says, blinking the magic away. "Do you want it sealed to your touch, or standard? If I lock the weave, nobody extracts an item but you—not even if they know every item inside. Catch is, you can't grant access to anyone else later. Standard is usually enough since thieves can't fish out what they don't know exists, but caution never killed a traveler."
 
 }
 #if(v_ch2_deer_interaction != 1 && v_ch3_treasure != 0) {
-Before hauling out, I inventory the morning's salvage: a light crossbow stripped from the ambushers, steel daggers lifted off Dave's crew, and the velvet purse of coin taken off the duke of Bagelberry.
+Before hauling out, I take stock of the morning's salvage: a light crossbow stripped from the ambushers, steel daggers lifted off Dave's crew, and the velvet purse of coin taken off the duke of Bagelberry.
 
 We regroup with Rose and take the south trail.
 
@@ -163,7 +163,7 @@ He takes the straps, closes his eyes, and drops into the trance. His irises flar
 
 Rose steps closer, watching the amber glow in Daren's eyes with frank curiosity.
 
-"All right," Daren says, blinking the magic away. "Do you want it sealed to your touch, or standard? If I lock the weave, nobody extracts an item but you—not even if they know the inventory. Catch is, you can't grant access to anyone else later. Standard is usually enough since thieves can't fish out what they don't know exists, but caution never killed a traveler."
+"All right," Daren says, blinking the magic away. "Do you want it sealed to your touch, or standard? If I lock the weave, nobody extracts an item but you—not even if they know every item inside. Catch is, you can't grant access to anyone else later. Standard is usually enough since thieves can't fish out what they don't know exists, but caution never killed a traveler."
 
 }
 #if(v_ch2_deer_interaction == 1 && v_ch3_treasure == 0) {
@@ -258,7 +258,7 @@ He takes the straps, closes his eyes, and drops into the trance. His irises flar
 
 Rose steps closer, watching the amber glow in Daren's eyes with frank curiosity.
 
-"All right," Daren says, blinking the magic away. "Do you want it sealed to your touch, or standard? If I lock the weave, nobody extracts an item but you—not even if they know the inventory. Catch is, you can't grant access to anyone else later. Standard is usually enough since thieves can't fish out what they don't know exists, but caution never killed a traveler."
+"All right," Daren says, blinking the magic away. "Do you want it sealed to your touch, or standard? If I lock the weave, nobody extracts an item but you—not even if they know every item inside. Catch is, you can't grant access to anyone else later. Standard is usually enough since thieves can't fish out what they don't know exists, but caution never killed a traveler."
 
 choice("Secure the backpack", Ch6-Secure, v_current_scene = Ch6-Secure)
 choice("Do not secure the backpack", Ch6-Enough, v_current_scene = Ch6-Enough)
@@ -338,7 +338,7 @@ He takes the straps, closes his eyes, and drops into the trance. His irises flar
 
 Rose steps closer, watching the amber glow in Daren's eyes with frank curiosity.
 
-"All right," Daren says, blinking the magic away. "Do you want it sealed to your touch, or standard? If I lock the weave, nobody extracts an item but you—not even if they know the inventory. Catch is, you can't grant access to anyone else later. Standard is usually enough since thieves can't fish out what they don't know exists, but caution never killed a traveler."
+"All right," Daren says, blinking the magic away. "Do you want it sealed to your touch, or standard? If I lock the weave, nobody extracts an item but you—not even if they know every item inside. Catch is, you can't grant access to anyone else later. Standard is usually enough since thieves can't fish out what they don't know exists, but caution never killed a traveler."
 
 choice("Secure the backpack", Ch6-Secure, v_current_scene = Ch6-Secure)
 choice("Do not secure the backpack", Ch6-Enough, v_current_scene = Ch6-Enough)
@@ -373,7 +373,7 @@ He takes the straps, closes his eyes, and drops into the trance. His irises flar
 
 Rose steps closer, watching the amber glow in Daren's eyes with frank curiosity.
 
-"All right," Daren says, blinking the magic away. "Do you want it sealed to your touch, or standard? If I lock the weave, nobody extracts an item but you—not even if they know the inventory. Catch is, you can't grant access to anyone else later. Standard is usually enough since thieves can't fish out what they don't know exists, but caution never killed a traveler."
+"All right," Daren says, blinking the magic away. "Do you want it sealed to your touch, or standard? If I lock the weave, nobody extracts an item but you—not even if they know every item inside. Catch is, you can't grant access to anyone else later. Standard is usually enough since thieves can't fish out what they don't know exists, but caution never killed a traveler."
 
 choice("Secure the backpack", Ch6-Secure, v_current_scene = Ch6-Secure)
 choice("Do not secure the backpack", Ch6-Enough, v_current_scene = Ch6-Enough)
@@ -408,7 +408,7 @@ He takes the straps, closes his eyes, and drops into the trance. His irises flar
 
 Rose steps closer, watching the amber glow in Daren's eyes with frank curiosity.
 
-"All right," Daren says, blinking the magic away. "Do you want it sealed to your touch, or standard? If I lock the weave, nobody extracts an item but you—not even if they know the inventory. Catch is, you can't grant access to anyone else later. Standard is usually enough since thieves can't fish out what they don't know exists, but caution never killed a traveler."
+"All right," Daren says, blinking the magic away. "Do you want it sealed to your touch, or standard? If I lock the weave, nobody extracts an item but you—not even if they know every item inside. Catch is, you can't grant access to anyone else later. Standard is usually enough since thieves can't fish out what they don't know exists, but caution never killed a traveler."
 
 choice("Secure the backpack", Ch6-Secure, v_current_scene = Ch6-Secure)
 choice("Do not secure the backpack", Ch6-Enough, v_current_scene = Ch6-Enough)
@@ -441,7 +441,7 @@ He takes the straps, closes his eyes, and drops into the trance. His irises flar
 
 Rose steps closer, watching the amber glow in Daren's eyes with frank curiosity.
 
-"All right," Daren says, blinking the magic away. "Do you want it sealed to your touch, or standard? If I lock the weave, nobody extracts an item but you—not even if they know the inventory. Catch is, you can't grant access to anyone else later. Standard is usually enough since thieves can't fish out what they don't know exists, but caution never killed a traveler."
+"All right," Daren says, blinking the magic away. "Do you want it sealed to your touch, or standard? If I lock the weave, nobody extracts an item but you—not even if they know every item inside. Catch is, you can't grant access to anyone else later. Standard is usually enough since thieves can't fish out what they don't know exists, but caution never killed a traveler."
 
 choice("Secure the backpack", Ch6-Secure, v_current_scene = Ch6-Secure)
 choice("Do not secure the backpack", Ch6-Enough, v_current_scene = Ch6-Enough)
@@ -452,7 +452,7 @@ TEXT:
 
 set(v_ch6_secure,1)
 #if(v_ch2_human_reason == 1 && v_ch3_kate_badly_hurt == 0 || v_ch3_kate_badly_hurt == 0 && v_ch5_admit_lie == 1) {
-"Secure it. Better to be safe than sorry."
+"Secure it. Better cautious than dead."
 
 "As you wish."
 
@@ -468,11 +468,11 @@ We spend the next four hours pushing south on the direct line toward Rose's town
 
 And Varathia finally decides to look like Varathia. The pines give way to a stretch of trees I have no name for—trunks pale as bone, leaves a deep violet that flashes silver when the wind turns them over. Around midday we skirt a shallow valley where a ring of broken pillars stands in the grass, each carved with a spiral of script, humming faintly as we pass like a struck goblet an hour after the toast. Nothing grows within fifty paces of the perimeter. Rose doesn't even glance over. "The locals leave them alone," she says. "So do we."
 
-Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. At one point the trail narrows between two fallen trunks, and she pauses ahead of me to hold a thorny branch aside with her forearm. I duck through, and for a moment we stand in the tight gap together—her shoulder against my chest, her hair brushing my jaw, the sharp green smell of crushed mint rising from her open satchel. "Sorry," she says, not moving immediately. "Tight squeeze." Then she lets the branch spring back and walks on, and I notice I am still holding my breath. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
+Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. At one point the trail narrows between two fallen trunks, and she pauses ahead of me to hold a thorny branch aside with her forearm. I duck through, and for a moment we stand in the tight gap together—her shoulder against my chest, her hair brushing my jaw, the sharp green smell of crushed mint rising from her open satchel. "Sorry," she says, not moving immediately. "Tight squeeze." Then she lets the branch spring back and walks on, and breath only returns to my lungs when she is three paces ahead. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
 
 }
 #if(v_ch2_human_reason == 1 && v_ch3_kate_badly_hurt == 1 || v_ch3_kate_badly_hurt == 1 && v_ch5_admit_lie == 1) {
-"Secure it. Better to be safe than sorry."
+"Secure it. Better cautious than dead."
 
 "As you wish."
 
@@ -488,13 +488,13 @@ We spend the next four hours pushing south on the direct line toward Rose's town
 
 And Varathia finally decides to look like Varathia. The pines give way to a stretch of trees I have no name for—trunks pale as bone, leaves a deep violet that flashes silver when the wind turns them over. Around midday we skirt a shallow valley where a ring of broken pillars stands in the grass, each carved with a spiral of script, humming faintly as we pass like a struck goblet an hour after the toast. Nothing grows within fifty paces of the perimeter. Rose doesn't even glance over. "The locals leave them alone," she says. "So do we."
 
-Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. At one point the trail narrows between two fallen trunks, and she pauses ahead of me to hold a thorny branch aside with her forearm. I duck through, and for a moment we stand in the tight gap together—her shoulder against my chest, her hair brushing my jaw, the sharp green smell of crushed mint rising from her open satchel. "Sorry," she says, not moving immediately. "Tight squeeze." Then she lets the branch spring back and walks on, and I notice I am still holding my breath. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
+Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. At one point the trail narrows between two fallen trunks, and she pauses ahead of me to hold a thorny branch aside with her forearm. I duck through, and for a moment we stand in the tight gap together—her shoulder against my chest, her hair brushing my jaw, the sharp green smell of crushed mint rising from her open satchel. "Sorry," she says, not moving immediately. "Tight squeeze." Then she lets the branch spring back and walks on, and breath only returns to my lungs when she is three paces ahead. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
 
 Kate keeps pace on stubbornness alone. The crossbow wound from this morning has drained the color from her skin, and twice her boot catches on exposed root, nearly sending her into the dirt. When Rose offers an arm and suggests a breather by the brook, Kate shakes her off with a curt hiss through her teeth. "I'm fine. Keep moving."
 
 }
 #if(v_ch2_human_reason == 2 && v_ch5_admit_lie == 0) {
-"Secure it. Better to be safe than sorry."
+"Secure it. Better cautious than dead."
 
 "As you wish."
 
@@ -540,7 +540,7 @@ Daren stares at me, his jaw set hard. "When were you planning on telling me this
 
 }
 #if(v_ch2_human_reason == 3 && v_ch5_admit_lie == 0) {
-"Secure it. Better to be safe than sorry."
+"Secure it. Better cautious than dead."
 
 "As you wish."
 
@@ -618,7 +618,7 @@ We spend the next four hours pushing south on the direct line toward Rose's town
 
 And Varathia finally decides to look like Varathia. The pines give way to a stretch of trees I have no name for—trunks pale as bone, leaves a deep violet that flashes silver when the wind turns them over. Around midday we skirt a shallow valley where a ring of broken pillars stands in the grass, each carved with a spiral of script, humming faintly as we pass like a struck goblet an hour after the toast. Nothing grows within fifty paces of the perimeter. Rose doesn't even glance over. "The locals leave them alone," she says. "So do we."
 
-Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. At one point the trail narrows between two fallen trunks, and she pauses ahead of me to hold a thorny branch aside with her forearm. I duck through, and for a moment we stand in the tight gap together—her shoulder against my chest, her hair brushing my jaw, the sharp green smell of crushed mint rising from her open satchel. "Sorry," she says, not moving immediately. "Tight squeeze." Then she lets the branch spring back and walks on, and I notice I am still holding my breath. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
+Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. At one point the trail narrows between two fallen trunks, and she pauses ahead of me to hold a thorny branch aside with her forearm. I duck through, and for a moment we stand in the tight gap together—her shoulder against my chest, her hair brushing my jaw, the sharp green smell of crushed mint rising from her open satchel. "Sorry," she says, not moving immediately. "Tight squeeze." Then she lets the branch spring back and walks on, and breath only returns to my lungs when she is three paces ahead. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
 
 }
 #if(v_ch2_human_reason == 1 && v_ch3_kate_badly_hurt == 1 || v_ch3_kate_badly_hurt == 1 && v_ch5_admit_lie == 1) {
@@ -638,7 +638,7 @@ We spend the next four hours pushing south on the direct line toward Rose's town
 
 And Varathia finally decides to look like Varathia. The pines give way to a stretch of trees I have no name for—trunks pale as bone, leaves a deep violet that flashes silver when the wind turns them over. Around midday we skirt a shallow valley where a ring of broken pillars stands in the grass, each carved with a spiral of script, humming faintly as we pass like a struck goblet an hour after the toast. Nothing grows within fifty paces of the perimeter. Rose doesn't even glance over. "The locals leave them alone," she says. "So do we."
 
-Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. At one point the trail narrows between two fallen trunks, and she pauses ahead of me to hold a thorny branch aside with her forearm. I duck through, and for a moment we stand in the tight gap together—her shoulder against my chest, her hair brushing my jaw, the sharp green smell of crushed mint rising from her open satchel. "Sorry," she says, not moving immediately. "Tight squeeze." Then she lets the branch spring back and walks on, and I notice I am still holding my breath. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
+Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. At one point the trail narrows between two fallen trunks, and she pauses ahead of me to hold a thorny branch aside with her forearm. I duck through, and for a moment we stand in the tight gap together—her shoulder against my chest, her hair brushing my jaw, the sharp green smell of crushed mint rising from her open satchel. "Sorry," she says, not moving immediately. "Tight squeeze." Then she lets the branch spring back and walks on, and breath only returns to my lungs when she is three paces ahead. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
 
 Kate keeps pace on stubbornness alone. The crossbow wound from this morning has drained the color from her skin, and twice her boot catches on exposed root, nearly sending her into the dirt. When Rose offers an arm and suggests a breather by the brook, Kate shakes her off with a curt hiss through her teeth. "I'm fine. Keep moving."
 
@@ -765,7 +765,7 @@ We spend the next four hours pushing south on the direct line toward Rose's town
 
 And Varathia finally decides to look like Varathia. The pines give way to a stretch of trees I have no name for—trunks pale as bone, leaves a deep violet that flashes silver when the wind turns them over. Around midday we skirt a shallow valley where a ring of broken pillars stands in the grass, each carved with a spiral of script, humming faintly as we pass like a struck goblet an hour after the toast. Nothing grows within fifty paces of the perimeter. Rose doesn't even glance over. "The locals leave them alone," she says. "So do we."
 
-Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. At one point the trail narrows between two fallen trunks, and she pauses ahead of me to hold a thorny branch aside with her forearm. I duck through, and for a moment we stand in the tight gap together—her shoulder against my chest, her hair brushing my jaw, the sharp green smell of crushed mint rising from her open satchel. "Sorry," she says, not moving immediately. "Tight squeeze." Then she lets the branch spring back and walks on, and I notice I am still holding my breath. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
+Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. At one point the trail narrows between two fallen trunks, and she pauses ahead of me to hold a thorny branch aside with her forearm. I duck through, and for a moment we stand in the tight gap together—her shoulder against my chest, her hair brushing my jaw, the sharp green smell of crushed mint rising from her open satchel. "Sorry," she says, not moving immediately. "Tight squeeze." Then she lets the branch spring back and walks on, and breath only returns to my lungs when she is three paces ahead. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
 
 }
 #if(v_ch3_kate_badly_hurt == 1) {
@@ -783,7 +783,7 @@ We spend the next four hours pushing south on the direct line toward Rose's town
 
 And Varathia finally decides to look like Varathia. The pines give way to a stretch of trees I have no name for—trunks pale as bone, leaves a deep violet that flashes silver when the wind turns them over. Around midday we skirt a shallow valley where a ring of broken pillars stands in the grass, each carved with a spiral of script, humming faintly as we pass like a struck goblet an hour after the toast. Nothing grows within fifty paces of the perimeter. Rose doesn't even glance over. "The locals leave them alone," she says. "So do we."
 
-Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. At one point the trail narrows between two fallen trunks, and she pauses ahead of me to hold a thorny branch aside with her forearm. I duck through, and for a moment we stand in the tight gap together—her shoulder against my chest, her hair brushing my jaw, the sharp green smell of crushed mint rising from her open satchel. "Sorry," she says, not moving immediately. "Tight squeeze." Then she lets the branch spring back and walks on, and I notice I am still holding my breath. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
+Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. At one point the trail narrows between two fallen trunks, and she pauses ahead of me to hold a thorny branch aside with her forearm. I duck through, and for a moment we stand in the tight gap together—her shoulder against my chest, her hair brushing my jaw, the sharp green smell of crushed mint rising from her open satchel. "Sorry," she says, not moving immediately. "Tight squeeze." Then she lets the branch spring back and walks on, and breath only returns to my lungs when she is three paces ahead. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
 
 Kate keeps pace on stubbornness alone. The crossbow wound from this morning has drained the color from her skin, and twice her boot catches on exposed root, nearly sending her into the dirt. When Rose offers an arm and suggests a breather by the brook, Kate shakes her off with a curt hiss through her teeth. "I'm fine. Keep moving."
 
@@ -813,7 +813,7 @@ We spend the next four hours pushing south on the direct line toward Rose's town
 
 And Varathia finally decides to look like Varathia. The pines give way to a stretch of trees I have no name for—trunks pale as bone, leaves a deep violet that flashes silver when the wind turns them over. Around midday we skirt a shallow valley where a ring of broken pillars stands in the grass, each carved with a spiral of script, humming faintly as we pass like a struck goblet an hour after the toast. Nothing grows within fifty paces of the perimeter. Rose doesn't even glance over. "The locals leave them alone," she says. "So do we."
 
-Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. At one point the trail narrows between two fallen trunks, and she pauses ahead of me to hold a thorny branch aside with her forearm. I duck through, and for a moment we stand in the tight gap together—her shoulder against my chest, her hair brushing my jaw, the sharp green smell of crushed mint rising from her open satchel. "Sorry," she says, not moving immediately. "Tight squeeze." Then she lets the branch spring back and walks on, and I notice I am still holding my breath. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
+Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. At one point the trail narrows between two fallen trunks, and she pauses ahead of me to hold a thorny branch aside with her forearm. I duck through, and for a moment we stand in the tight gap together—her shoulder against my chest, her hair brushing my jaw, the sharp green smell of crushed mint rising from her open satchel. "Sorry," she says, not moving immediately. "Tight squeeze." Then she lets the branch spring back and walks on, and breath only returns to my lungs when she is three paces ahead. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
 
 }
 #if(v_ch3_kate_badly_hurt == 1) {
@@ -835,7 +835,7 @@ We spend the next four hours pushing south on the direct line toward Rose's town
 
 And Varathia finally decides to look like Varathia. The pines give way to a stretch of trees I have no name for—trunks pale as bone, leaves a deep violet that flashes silver when the wind turns them over. Around midday we skirt a shallow valley where a ring of broken pillars stands in the grass, each carved with a spiral of script, humming faintly as we pass like a struck goblet an hour after the toast. Nothing grows within fifty paces of the perimeter. Rose doesn't even glance over. "The locals leave them alone," she says. "So do we."
 
-Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. At one point the trail narrows between two fallen trunks, and she pauses ahead of me to hold a thorny branch aside with her forearm. I duck through, and for a moment we stand in the tight gap together—her shoulder against my chest, her hair brushing my jaw, the sharp green smell of crushed mint rising from her open satchel. "Sorry," she says, not moving immediately. "Tight squeeze." Then she lets the branch spring back and walks on, and I notice I am still holding my breath. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
+Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. At one point the trail narrows between two fallen trunks, and she pauses ahead of me to hold a thorny branch aside with her forearm. I duck through, and for a moment we stand in the tight gap together—her shoulder against my chest, her hair brushing my jaw, the sharp green smell of crushed mint rising from her open satchel. "Sorry," she says, not moving immediately. "Tight squeeze." Then she lets the branch spring back and walks on, and breath only returns to my lungs when she is three paces ahead. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
 
 Kate keeps pace on stubbornness alone. The crossbow wound from this morning has drained the color from her skin, and twice her boot catches on exposed root, nearly sending her into the dirt. When Rose offers an arm and suggests a breather by the brook, Kate shakes her off with a curt hiss through her teeth. "I'm fine. Keep moving."
 
@@ -861,7 +861,7 @@ We spend the next four hours pushing south on the direct line toward Rose's town
 
 And Varathia finally decides to look like Varathia. The pines give way to a stretch of trees I have no name for—trunks pale as bone, leaves a deep violet that flashes silver when the wind turns them over. Around midday we skirt a shallow valley where a ring of broken pillars stands in the grass, each carved with a spiral of script, humming faintly as we pass like a struck goblet an hour after the toast. Nothing grows within fifty paces of the perimeter. Rose doesn't even glance over. "The locals leave them alone," she says. "So do we."
 
-Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. At one point the trail narrows between two fallen trunks, and she pauses ahead of me to hold a thorny branch aside with her forearm. I duck through, and for a moment we stand in the tight gap together—her shoulder against my chest, her hair brushing my jaw, the sharp green smell of crushed mint rising from her open satchel. "Sorry," she says, not moving immediately. "Tight squeeze." Then she lets the branch spring back and walks on, and I notice I am still holding my breath. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
+Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. At one point the trail narrows between two fallen trunks, and she pauses ahead of me to hold a thorny branch aside with her forearm. I duck through, and for a moment we stand in the tight gap together—her shoulder against my chest, her hair brushing my jaw, the sharp green smell of crushed mint rising from her open satchel. "Sorry," she says, not moving immediately. "Tight squeeze." Then she lets the branch spring back and walks on, and breath only returns to my lungs when she is three paces ahead. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
 
 }
 #if(v_ch3_kate_badly_hurt == 1) {
@@ -879,7 +879,7 @@ We spend the next four hours pushing south on the direct line toward Rose's town
 
 And Varathia finally decides to look like Varathia. The pines give way to a stretch of trees I have no name for—trunks pale as bone, leaves a deep violet that flashes silver when the wind turns them over. Around midday we skirt a shallow valley where a ring of broken pillars stands in the grass, each carved with a spiral of script, humming faintly as we pass like a struck goblet an hour after the toast. Nothing grows within fifty paces of the perimeter. Rose doesn't even glance over. "The locals leave them alone," she says. "So do we."
 
-Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. At one point the trail narrows between two fallen trunks, and she pauses ahead of me to hold a thorny branch aside with her forearm. I duck through, and for a moment we stand in the tight gap together—her shoulder against my chest, her hair brushing my jaw, the sharp green smell of crushed mint rising from her open satchel. "Sorry," she says, not moving immediately. "Tight squeeze." Then she lets the branch spring back and walks on, and I notice I am still holding my breath. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
+Rose works as she walks, stripping dried leaves into pouches, identifying bitter-root clusters, and steering us away from blood-bane briars. At one point the trail narrows between two fallen trunks, and she pauses ahead of me to hold a thorny branch aside with her forearm. I duck through, and for a moment we stand in the tight gap together—her shoulder against my chest, her hair brushing my jaw, the sharp green smell of crushed mint rising from her open satchel. "Sorry," she says, not moving immediately. "Tight squeeze." Then she lets the branch spring back and walks on, and breath only returns to my lungs when she is three paces ahead. It has been hours since the last ambush—an unnerving quiet, considering how this tournament has been going so far.
 
 Kate keeps pace on stubbornness alone. The crossbow wound from this morning has drained the color from her skin, and twice her boot catches on exposed root, nearly sending her into the dirt. When Rose offers an arm and suggests a breather by the brook, Kate shakes her off with a curt hiss through her teeth. "I'm fine. Keep moving."
 
@@ -907,7 +907,7 @@ Rose has tried three separate times to coax him into conversation, but all she g
 
 We keep a steady south-bound rhythm, pausing only to knock wild pears from the higher branches or dip our flasks into passing streams. During one of those water stops, Rose kneels at the stream bank beside me, filling her flask. Her sleeve rides up as she reaches, baring a forearm tanned and nicked with old thorn scars. She tilts the flask, and cold water splashes across both our hands. Neither of us pulls back.
 
-"Barry," she murmurs, keeping her voice low enough that only the stream competes. Her eyes stay on the water. "I have to ask. Did Daren and I walk in on something important between you and Kate this morning? She turns cold every time I bring it up. I'd hate to think we ruined something because neither of us knew how to read a room."
+"Barry," she murmurs, keeping her voice low enough that only the stream competes. Her eyes stay on the water. "I have to ask. Did Daren and I walk in on something between you and Kate this morning? Between that and... whatever just happened with Daren, the silence is thick enough to choke on. I'd hate to think I made everything worse by blundering into your business."
 
 }
 #if(v_ch5_admit_lie == 1 && v_ch5_ignore_scream == 1 && v_ch2_human_reason != 1) {
@@ -919,7 +919,7 @@ Rose has tried three separate times to coax him into conversation, but all she g
 
 We keep a steady south-bound rhythm, pausing only to knock wild pears from the higher branches or dip our flasks into passing streams. During one of those water stops, Rose kneels at the stream bank beside me, filling her flask. Her sleeve rides up as she reaches, baring a forearm tanned and nicked with old thorn scars. She tilts the flask, and cold water splashes across both our hands. Neither of us pulls back.
 
-"Barry," she murmurs, keeping her voice low enough that only the stream competes. Her eyes stay on the water. "I have to ask. Did Daren and I walk in on something important between you and Kate this morning? She turns cold every time I bring it up. I'd hate to think we ruined something because neither of us knew how to read a room."
+"Barry," she murmurs, keeping her voice low enough that only the stream competes. Her eyes stay on the water. "I wanted to ask something. When Daren and I walked in on you and Kate this morning—was that something private? Kate shuts down whenever I bring it up. You don't strike me as someone who wastes words, so I'd rather know where things stand before I misjudge either of you."
 
 }
 #if(v_ch5_admit_lie == 1 && v_ch5_ignore_scream == 0 && v_ch2_human_reason != 1) {
@@ -929,15 +929,15 @@ Daren, on the other hand, keeps his distance. The warm camaraderie from yesterda
 
 We keep a steady south-bound rhythm, pausing only to knock wild pears from the higher branches or dip our flasks into passing streams. During one of those water stops, Rose kneels at the stream bank beside me, filling her flask. Her sleeve rides up as she reaches, baring a forearm tanned and nicked with old thorn scars. She tilts the flask, and cold water splashes across both our hands. Neither of us pulls back.
 
-"Barry," she murmurs, keeping her voice low enough that only the stream competes. Her eyes stay on the water. "I have to ask. Did Daren and I walk in on something important between you and Kate this morning? She turns cold every time I bring it up. I'd hate to think we ruined something because neither of us knew how to read a room."
+"Barry," she murmurs, keeping her voice low enough that only the stream competes. Her eyes stay on the water. "I have to ask. Did Daren and I walk in on something important between you and Kate this morning? She turns cold every time I mention it. You risked your neck for me in that gully, so the last thing I want is to complicate things between you two."
 
 }
 choice(""Don't worry, that wasn't what our discussion was about."", Ch6-Flirt, v_current_scene = Ch6-Flirt, v_ch6_flirt = 1)
-choice(""Honestly? I've been staring at you all morning instead of watching the trail. I tripped twice."", Ch6-Flirt, v_current_scene = Ch6-Flirt, v_ch6_flirt = 2)
-choice(""I'm available, if that's what you're actually asking."", Ch6-Flirt, v_current_scene = Ch6-Flirt, v_ch6_flirt = 3)
-choice(""Kate and I have a purely professional relationship. She threatens to kill me, I fail to die."", Ch6-Flirt, v_current_scene = Ch6-Flirt, v_ch6_flirt = 4)
+choice(""I've been watching you instead of the tree line. In a tournament that's how people die."", Ch6-Flirt, v_current_scene = Ch6-Flirt, v_ch6_flirt = 2)
+choice(""If you're asking whether Kate has a claim on me — she has a body count. That's not the same thing."", Ch6-Flirt, v_current_scene = Ch6-Flirt, v_ch6_flirt = 3)
+choice(""Kate and I have a working arrangement. She threatens to kill me, I fail to die."", Ch6-Flirt, v_current_scene = Ch6-Flirt, v_ch6_flirt = 4)
 choice(""Nothing was interrupted. But I notice you're the one bringing it up."", Ch6-Flirt, v_current_scene = Ch6-Flirt, v_ch6_flirt = 5)
-choice(""Actually, you're the one that stunned me with your beauty when I first saw you."", Ch6-Flirt, v_current_scene = Ch6-Flirt, v_ch6_flirt = 6)
+choice(""When we found you I noticed you before I noticed the goblins. That's a liability I'm owning."", Ch6-Flirt, v_current_scene = Ch6-Flirt, v_ch6_flirt = 6)
 
 
 ID: Ch6-Flirt
@@ -950,7 +950,7 @@ Rose arches an auburn brow, clearly unconvinced. "If you say so! Though if both 
 
 }
 #if(v_ch6_flirt == 2) {
-"Honestly? I've been staring at you all morning instead of watching the trail. I tripped twice."
+"I've been watching you instead of the tree line," I say. "In a tournament that's how people die."
 
 Rose blinks, then lets out a delighted laugh that turns heads fifty paces away.
 
@@ -958,15 +958,15 @@ Rose blinks, then lets out a delighted laugh that turns heads fifty paces away.
 
 }
 #if(v_ch6_flirt == 3) {
-"I'm available, if that's what you're actually asking."
+"If you're asking whether Kate has a claim on me—she has a body count. That's not the same thing."
 
 A slow, knowing smile touches Rose's lips.
 
-"That wasn't what I was asking, but it does answer my question. You wouldn't be making a pass at me if your heart were tied to Kate. As for your advances—I'm not married, so I have no reason to outright turn you down before I get to know you, but I'd rather we postpone this conversation until a later date. Does that sound okay to you?"
+"That wasn't what I was asking, but it does answer my question. You wouldn't be making a pass at me if your heart were tied to Kate. As for your advances—I'm not married, so I have no reason to outright turn you down before I get to know you, but I'd rather we postpone this conversation until a later date. Does that sit well with you?"
 
 }
 #if(v_ch6_flirt == 4) {
-"Kate and I have a purely professional relationship. She threatens to kill me, I fail to die."
+"Kate and I have a working arrangement. She threatens to kill me, I fail to die."
 
 Rose presses a hand against her collarbone, laughing softly.
 
@@ -976,19 +976,17 @@ Rose presses a hand against her collarbone, laughing softly.
 #if(v_ch6_flirt == 5) {
 "Nothing was interrupted. But I notice you're the one bringing it up."
 
-Rose's smile turns knowing, warm and a little dangerous. "Am I? I suppose I am." She caps her flask and stands, brushing water from her knees. "I only wanted to make sure I hadn't stepped on anything fragile. Since you say there's nothing to step on—good. That simplifies things."
+Rose's smile turns knowing, warm and a little dangerous. "Am I? I suppose I am." She caps her flask and stands, brushing water droplets from her apron. "I only wanted to make sure I hadn't stepped on anything fragile. Since you say there's nothing to step on—good. That simplifies things."
 
 "I'll... keep that in mind."
 
-Rose smiles.
-
-"Now then, I think we should start helping the others with picking fruits. We'll need all the food we can get for the long journey ahead of us."
+"Do," she says softly, turning toward the slope. "Now come—we should help gather fruit before Daren strips the lower boughs."
 
 }
 #if(v_ch6_flirt == 6) {
-"Actually, you're the one that stunned me with your beauty when I first saw you."
+"When we found you I noticed you before I noticed the goblins," I tell her. "That's a liability I'm owning."
 
-Rose catches her breath, a flush rising across her cheeks. "Oh... Thank you for the compliment, but I thought—"
+Rose catches her breath, a sudden flush coloring her cheeks. "Oh... Thank you, Barry. That's... very kind, but I thought—"
 
 "There's nothing going on between me and Kate," I say plainly. "In fact, the purpose of our discussion this morning was to clear things up between us, because of Daren's joke that I was smitten with her."
 
@@ -998,7 +996,7 @@ Rose catches her breath, a flush rising across her cheeks. "Oh... Thank you for 
 
 Rose's smile returns, bright and genuine.
 
-"Yeah, we should do that!"
+"Yes — we should."
 
 She steps back toward the orchard trees.
 
@@ -1006,7 +1004,7 @@ She steps back toward the orchard trees.
 
 }
 choice("Continue", Ch6-Backstory, v_current_scene = Ch6-Backstory) if (v_ch6_flirt == 1 || v_ch6_flirt == 5 || v_ch6_flirt == 6)
-choice(""You'd be surprised. Survival-based flirting is an underexplored market."", Ch6-Single, v_current_scene = Ch6-Single) if (v_ch6_flirt == 2)
+choice(""People who expect to die by sundown don't court slowly. Few of us live to compare notes."", Ch6-Single, v_current_scene = Ch6-Single) if (v_ch6_flirt == 2)
 choice(""Not really."", Ch6-Really, v_current_scene = Ch6-Really) if (v_ch6_flirt == 2)
 choice(""Of course."", Ch6-Course, v_current_scene = Ch6-Course) if (v_ch6_flirt == 3)
 choice(""Define 'later.' I've been on this island two days and nearly died four times. My timeline is compressed."", Ch6-Answer, v_current_scene = Ch6-Answer) if (v_ch6_flirt == 3)
@@ -1017,11 +1015,11 @@ choice(""Most of my planning assumes I won't survive the week. So 'later' is opt
 ID: Ch6-Single
 TEXT:
 
-"You'd be surprised. Survival-based flirting is an underexplored market."
+"People who expect to die by sundown don't court slowly. Few of us live to compare notes."
 
 Rose's smile widens into pure amusement.
 
-"I suspect the market is underexplored for very good reasons! Sadly, I won't be joining your customer base. I do owe you for saving me this morning, however, so I'll be doing you the favor of pretending this conversation never happened. Now come, we should help the others with picking fruits. We'll need all the food we can get for the long journey ahead of us."
+"I suspect few people compare notes for very good reasons! Sadly, I will not be joining that particular experiment. I do owe you for saving me this morning, however, so I'll be doing you the favor of pretending this conversation never happened. Now come, we should help the others with picking fruits. We'll need all the food we can get for the long journey ahead of us."
 
 choice("Continue", Ch6-Backstory, v_current_scene = Ch6-Backstory)
 
@@ -1031,7 +1029,7 @@ TEXT:
 
 "Not really."
 
-She laughs softly again, shaking her head.
+She laughs softly, shaking her head as she rises from the bank.
 
 "Well then, I hope it won't hurt your self-esteem too much if I politely decline your advances! Now come, we should help the others with picking fruits. We'll need all the food we can get for the long journey ahead of us."
 
@@ -1043,7 +1041,7 @@ TEXT:
 
 "Of course."
 
-"Good!" Rose says, still smiling. "Now come, we should help the others with picking fruits. We'll need all the food we can get for the long journey ahead of us."
+"Good!" Rose says, standing and brushing water droplets from her apron. Her smile is easy again. "Now come, we should help the others with picking fruits. We'll need all the food we can get for the long journey ahead of us."
 
 choice("Continue", Ch6-Backstory, v_current_scene = Ch6-Backstory)
 
@@ -1067,7 +1065,7 @@ TEXT:
 
 "Maybe you're right. I'm sorry for getting ahead of myself."
 
-Rose smiles warmly.
+Rose smiles warmly, dipping her fingers in the cold current once more before standing.
 
 "There's no need to apologize! I'm sure we'll have more than a few opportunities to get to know each other during our journey. At any rate, I think I got the answer I needed for my first question. After hearing you say something like that, I very much doubt that there's something between you and Kate, so I'm glad we really didn't interrupt anything important this morning. Now come, we should help the others with picking fruits. We'll need all the food we can get for the long journey ahead of us."
 
@@ -1104,7 +1102,7 @@ TEXT:
 
 "Yes, I was married for a few years, but it didn't really work out in the end. We both moved on with our lives since our breakup, and we had no children so you don't need to worry about that."
 
-She smiles.
+She smiles, tucking a stray auburn lock behind her ear.
 
 "I'm sorry for reacting the way I did, but this was all very sudden for me. Please, allow me some time to clear my thoughts. We will get ample opportunities to continue this conversation during our trip. At any rate, I think I got the answer I needed for my first question. After hearing you say something like that, I very much doubt that there's something between you and Kate, so I'm glad we really didn't interrupt anything important this morning. Now come, we should help the others with picking fruits. We'll need all the food we can get for the long journey ahead of us."
 
@@ -1114,29 +1112,27 @@ choice("Continue", Ch6-Backstory, v_current_scene = Ch6-Backstory)
 ID: Ch6-Backstory
 TEXT:
 
-Rose and I rejoin the others, and once the satchels are packed with wild fruit, we set out again.
+Rose and I rejoin the others by the grove. Daren has already hoisted his pack, and with our satchels heavy with wild pears, we fall back into our southward stride.
 
-The trail talk meanders easily enough: Daren recounting tournament matches from his youth, scraps of lore about mainland kingdoms, reasons each of us crossed the sea. Daren dominates the air with his usual booming confidence, while Kate offers only monosyllables and guarded shrugs whenever her past comes near the surface. Seeing the gaps, Rose steps in to fill them.
+The afternoon trail meanders along a high stony ridge. Daren talks to keep the rhythm, recounting regional tourneys from his younger years in the western provinces, while Kate answers only in curt monosyllables, her eyes constantly sweeping the tree line. Seeing the gaps, Rose steps in, walking beside Kate while peeling a bruised pear with her small pocket blade.
 
-"I've always liked plants," she tells us. "Plants and books. So it's no surprise that I spent most of my youth with my nose buried in herbology manuals. As time passed, I started to learn more about herbal medicine, and I realized my talents could be used to help the people in need. Most people I help don't really have much money to repay me, but the little they give me is enough for me to make a living, and their sincere feelings of gratitude are much more rewarding to me than the money I'd get by only working for rich folk. I've been living a modest life along with my brother and sister who are nine and eight years old respectively, and ever since my father died last year, I've been occasionally getting some financial support from my ex husband."
+"I've always had an eye for plants," Rose says, offering Kate a slice on the tip of the blade. Kate hesitates, then takes it with a faint nod. "Plants and old treatises. I spent half my youth with my face buried in herbals while other girls were at the spinning wheels. In time I found my remedies could actually ease the sick. Most folk in the lower quarter can't pay in silver, but a basket of onions or a warm loaf keeps the larder full. And it felt better than compounding perfumes for the town magistrate's daughters. I keep a modest hearth with Kevin and Lily—they're nine and eight now. Since our father took to his bed last winter, my work has been the only thing keeping the roof patched, though my ex-husband sends a few silver bits when the wool caravans pass through."
 
-"You were married?" Daren asks.
+"You were married?" Daren asks, glancing back over his shoulder.
 
-"Yes, for a few years, but it didn't really work out in the end. We've both moved on with our lives since then, and we've had no children together, so there were no hard feelings. Ever since my father died, I've had to take care of my siblings all by myself, so my main focus for the past year has been my work, and my family."
+"Three years," Rose says simply, wiping pear juice on her apron. "We parted amicably enough. No children, so there were no debts to quarrel over. When my father's illness worsened, the household fell entirely to me."
 
-"But what about your mother?" says Kate.
+"And your mother?" Kate asks quietly, staring straight down the path.
 
-"She died long ago, when she gave birth to my little sister."
+"She passed when Lily was born."
 
 "Oh... I'm sorry."
 
-Rose smiles.
+Rose offers a gentle, unburdened smile. "You couldn't have known. It was years ago."
 
-"There's no need, you couldn't have known."
+"How did your city survive the grand priest's death, then?" Daren asks, adjusting his shield strap. "You said he was the last man in Thilias who could conjure bread from nothing. Surely the elders had some contingency?"
 
-"So, how did you all handle the death of your grand priest?" Daren asks, steering the conversation toward safer ground. "You said that he was the last person alive that could create food out of nothing in your city, so I imagine there must have been some backup plan in case of his inevitable death?"
-
-"Oh, yes, many people have started to learn agriculture, but the problem is that most of the fertile terrain around our town is already owned by the nobles. By planting your seeds further away from the town, you run a great risk of getting your crops raided by monsters."
+"Many of us tried our hands at agriculture," Rose says, her voice tightening. "The trouble is the soil. Every fertile, warded plot near the stone walls belongs to the merchant houses. If you plant further out on the common slopes, you risk losing the entire crop to monster raids before the grain even sprouts."
 
 choice(""Are monster raids frequent in your area?"", Ch6-Monster, v_current_scene = Ch6-Monster)
 choice(""Why aren't the people rebelling against the nobles?"", Ch6-Nobles, v_current_scene = Ch6-Nobles)
@@ -1147,15 +1143,15 @@ TEXT:
 
 "Are monster raids frequent in your area?"
 
-"Yes, monsters have been getting bolder in the past few decades. It's not just in our area, it happens throughout the entire continent. I'm not certain, but I think it all started when we lost contact with the animal kingdom. After the first animal hunts were started by the people of Olmnar several decades ago, the animals' leader, the spirit golden fox has ordered her subjects to stop speaking in our language. The monsters must have found out about this, and they took advantage of the fact that the humans and the animals were no longer working together in order to wreak havoc."
+"They've grown bolder over the last few decades," Rose says, adjusting the strap of her satchel. "Not just near Thilias, but across the whole continent. My father believed it began when humanity lost its treaty with the animal kingdom. After the hunting expeditions started in Olmnar, the golden fox—the spirit leader of the beasts—forbade her subjects from speaking the common tongue. The monsters noticed the rift and realized humans and animals would no longer coordinate against them."
 
-"What about the gods?" Daren asks. "Are they not getting involved in any of this?"
+"What about the gods?" Daren asks, frowning. "Do they not intervene?"
 
-"The only gods that are currently getting involved are the god of Fate and the god of Death, but I very much doubt that any of them have our best interests at heart. It is said that the two of them started working together recently, and that might well be true, judging by the high level of cooperation between their followers lately."
+"The only powers stirring lately are the god of Fate and the god of Death," Rose says, keeping her voice low. "And neither has our welfare at heart. Their priesthoods have been coordinating openly across the provinces—which bodes ill for anyone caught between them."
 
-"Wait, isn't the god of Fate just a fancy title for the god of Illusions?" Daren says.
+"Wait—isn't the god of Fate just a grand title for the patron of Illusions?" Daren says.
 
-"Yes," Rose answers. "Most gods name themselves after the power their followers gain by worshipping them. Some of them, however choose other names for themselves, which can be a bit confusing. It's the same for the god of Death. Judging by his name, you would think that he reigns over the underworld, but in fact he is just a god of Necromancy, bringing the dead back to life to serve his bidding."
+"It is," Rose answers. "Most deities name themselves after the gifts their disciples receive, though some prefer grander mantles. The god of Death is no different. One assumes he rules an underworld, but in truth he is merely the patron of Necromancy, binding the dead back into the dirt to do his bidding."
 
 choice("Continue", Ch6-Stats, v_current_scene = Ch6-Stats, v_max_stat = 4, v_available_points = +4, v_available_points_aux = +4)
 
@@ -1165,15 +1161,15 @@ TEXT:
 
 "Why aren't the people rebelling against the nobles?"
 
-"Some of them are, but the nobles are backed up by royalty, so most people don't dare to openly oppose them. In our town, the rebels are almost inexistent, but I hear that in some cities with a similar situation to ours there are full-blown civil wars going."
+"Some try," Rose says, stepping around a tangle of exposed briars. "But the houses have royal charters and private sellswords, so open dissent is suicide. In Thilias, organized resistance barely exists, though travelers say full civil skirmishes have erupted in the eastern river towns."
 
-"What about the gods?" Daren asks. "Are they not getting involved in any of this?"
+"What about the gods?" Daren asks, frowning. "Do they not intervene?"
 
-"The only gods that are currently getting involved are the god of Fate and the god of Death, but I very much doubt that any of them have our best interests at heart. It is said that the two of them started working together recently, and that might well be true, judging by the high level of cooperation between their followers lately."
+"The only powers stirring lately are the god of Fate and the god of Death," Rose says, keeping her voice low. "And neither has our welfare at heart. Their priesthoods have been coordinating openly across the provinces—which bodes ill for anyone caught between them."
 
-"Wait, isn't the god of Fate just a fancy title for the god of Illusions?" Daren says.
+"Wait—isn't the god of Fate just a grand title for the patron of Illusions?" Daren says.
 
-"Yes," Rose answers. "Most gods name themselves after the power their followers gain by worshipping them. Some of them, however choose other names for themselves, which can be a bit confusing. It's the same for the god of Death. Judging by his name, you would think that he reigns over the underworld, but in fact he is just a god of Necromancy, bringing the dead back to life to serve his bidding."
+"It is," Rose answers. "Most deities name themselves after the gifts their disciples receive, though some prefer grander mantles. The god of Death is no different. One assumes he rules an underworld, but in truth he is merely the patron of Necromancy, binding the dead back into the dirt to do his bidding."
 
 choice("Continue", Ch6-Stats, v_current_scene = Ch6-Stats, v_max_stat = 4, v_available_points = +4, v_available_points_aux = +4)
 
@@ -1331,15 +1327,19 @@ The dragon soars to the sky, as it shouts its final words to us.
 
 "Pray to your gods, humans! They're the only ones that can save you from the onslaught that will follow."
 
-"Quick, everyone get behind me!" Daren shouts, raising his shield as a semi-transparent magical barrier forms around us.
+"Behind me!" Daren roars, dropping to one knee and throwing his shield forward. A luminous white barrier locks into the earth around us.
 
-Kate doubles up our protection by also making a dome of thick ice to surround us. The dragon, who has now raised himself to a sufficiently high altitude unleashes a downpour of flames upon us. As the flames collide with our protections, the air heats up all around us. Kate's ice has already melted away, and all that's standing between us and the torrent of fire is Daren's magical barrier.
+Kate slams both palms into the grass. Frost explodes upward, encasing Daren's ward in a dome of dense glacial ice.
 
-Rose is now sitting on the ground, with a terrified look in her eyes, hugging her legs and shaking violently.
+Above, the dragon wheels, his shadow blotting the sky before he opens his maw. A cataract of dragonfire crashes onto our shelter. The shockwave rattles my bones; the heat radiates through stone and air like an open kiln. Kate's glacial dome shrieks and vaporizes into scalding steam in three heartbeats, leaving only Daren's translucent barrier holding back a river of liquid flame.
 
-"Rose!" Kate yells at her. "Snap out of it! We'll need to be ready to get out of here as soon as Daren's barrier breaks. Do you hear me?!"
+Rose is on the turf, knees pulled tight to her chest, trembling so hard her teeth click like dice.
 
-The dragon's flames have suddenly stopped. Looking up to see what happened, I am terrified to learn that the monster is now quickly diving towards us. Kate tries to make another wall of ice between us and the dragon, but it breaks through it in a second, and then clashes with Daren's magical barrier, shattering it in an instant. The dragon then grabs Daren in one of its claws, and soars back up into the sky. We can hear Daren's screams as the giant lizard tries to crush him.
+"Rose!" Kate snaps, her voice raw over the roar of the fire. "On your feet! When this barrier drops, we run. Do you hear me?!"
+
+The flame stream cuts out.
+
+The sky clears for half a second—then two tons of crimson scale and talons drop in a vertical dive. Kate thrusts up a secondary wall of ice; Tyrath punches straight through the frost like parchment, slamming into Daren's barrier with concussive force. The white ward shatters with the screech of breaking glass. Talons the size of scythes clamp around Daren's plate armour, tearing him off his feet and hauling him into the sky. Daren's roar of agony echoes over the treetops as the beast squeezes.
 
 }
 #if(v_ch3_star_message == 2) {
@@ -1371,15 +1371,19 @@ The dragon soars to the sky, as it shouts its final words to us.
 
 "Pray to your gods, humans! They're the only ones that can save you from the onslaught that will follow."
 
-"Quick, everyone get behind me!" Daren shouts, raising his shield as a semi-transparent magical barrier forms around us.
+"Behind me!" Daren roars, dropping to one knee and throwing his shield forward. A luminous white barrier locks into the earth around us.
 
-Kate doubles up our protection by also making a dome of thick ice to surround us. The dragon, who has now raised himself to a sufficiently high altitude unleashes a downpour of flames upon us. As the flames collide with our protections, the air heats up all around us. Kate's ice has already melted away, and all that's standing between us and the torrent of fire is Daren's magical barrier.
+Kate slams both palms into the grass. Frost explodes upward, encasing Daren's ward in a dome of dense glacial ice.
 
-Rose is now sitting on the ground, with a terrified look in her eyes, hugging her legs and shaking violently.
+Above, the dragon wheels, his shadow blotting the sky before he opens his maw. A cataract of dragonfire crashes onto our shelter. The shockwave rattles my bones; the heat radiates through stone and air like an open kiln. Kate's glacial dome shrieks and vaporizes into scalding steam in three heartbeats, leaving only Daren's translucent barrier holding back a river of liquid flame.
 
-"Rose!" Kate yells at her. "Snap out of it! We'll need to be ready to get out of here as soon as Daren's barrier breaks. Do you hear me?!"
+Rose is on the turf, knees pulled tight to her chest, trembling so hard her teeth click like dice.
 
-The dragon's flames have suddenly stopped. Looking up to see what happened, I am terrified to learn that the monster is now quickly diving towards us. Kate tries to make another wall of ice between us and the dragon, but it breaks through it in a second, and then clashes with Daren's magical barrier, shattering it in an instant. The dragon then grabs Daren in one of its claws, and soars back up into the sky. We can hear Daren's screams as the giant lizard tries to crush him.
+"Rose!" Kate snaps, her voice raw over the roar of the fire. "On your feet! When this barrier drops, we run. Do you hear me?!"
+
+The flame stream cuts out.
+
+The sky clears for half a second—then two tons of crimson scale and talons drop in a vertical dive. Kate thrusts up a secondary wall of ice; Tyrath punches straight through the frost like parchment, slamming into Daren's barrier with concussive force. The white ward shatters with the screech of breaking glass. Talons the size of scythes clamp around Daren's plate armour, tearing him off his feet and hauling him into the sky. Daren's roar of agony echoes over the treetops as the beast squeezes.
 
 }
 choice("Continue", Ch6-Villain, v_current_scene = Ch6-Villain)
@@ -1413,15 +1417,19 @@ The dragon soars to the sky, as it shouts its final words to us.
 
 "Pray to your gods, humans! They're the only ones that can save you from the onslaught that will follow."
 
-"Quick, everyone get behind me!" Daren shouts, raising his shield as a semi-transparent magical barrier forms around us.
+"Behind me!" Daren roars, dropping to one knee and throwing his shield forward. A luminous white barrier locks into the earth around us.
 
-Kate doubles up our protection by also making a dome of thick ice to surround us. The dragon, who has now raised himself to a sufficiently high altitude unleashes a downpour of flames upon us. As the flames collide with our protections, the air heats up all around us. Kate's ice has already melted away, and all that's standing between us and the torrent of fire is Daren's magical barrier.
+Kate slams both palms into the grass. Frost explodes upward, encasing Daren's ward in a dome of dense glacial ice.
 
-Rose is now sitting on the ground, with a terrified look in her eyes, hugging her legs and shaking violently.
+Above, the dragon wheels, his shadow blotting the sky before he opens his maw. A cataract of dragonfire crashes onto our shelter. The shockwave rattles my bones; the heat radiates through stone and air like an open kiln. Kate's glacial dome shrieks and vaporizes into scalding steam in three heartbeats, leaving only Daren's translucent barrier holding back a river of liquid flame.
 
-"Rose!" Kate yells at her. "Snap out of it! We'll need to be ready to get out of here as soon as Daren's barrier breaks. Do you hear me?!"
+Rose is on the turf, knees pulled tight to her chest, trembling so hard her teeth click like dice.
 
-The dragon's flames have suddenly stopped. Looking up to see what happened, I am terrified to learn that the monster is now quickly diving towards us. Kate tries to make another wall of ice between us and the dragon, but it breaks through it in a second, and then clashes with Daren's magical barrier, shattering it in an instant. The dragon then grabs Daren in one of its claws, and soars back up into the sky. We can hear Daren's screams as the giant lizard tries to crush him.
+"Rose!" Kate snaps, her voice raw over the roar of the fire. "On your feet! When this barrier drops, we run. Do you hear me?!"
+
+The flame stream cuts out.
+
+The sky clears for half a second—then two tons of crimson scale and talons drop in a vertical dive. Kate thrusts up a secondary wall of ice; Tyrath punches straight through the frost like parchment, slamming into Daren's barrier with concussive force. The white ward shatters with the screech of breaking glass. Talons the size of scythes clamp around Daren's plate armour, tearing him off his feet and hauling him into the sky. Daren's roar of agony echoes over the treetops as the beast squeezes.
 
 }
 #if(v_ch3_star_message == 2) {
@@ -1457,15 +1465,19 @@ The dragon soars to the sky, as it shouts its final words to us.
 
 "Pray to your gods, humans! They're the only ones that can save you from the onslaught that will follow."
 
-"Quick, everyone get behind me!" Daren shouts, raising his shield as a semi-transparent magical barrier forms around us.
+"Behind me!" Daren roars, dropping to one knee and throwing his shield forward. A luminous white barrier locks into the earth around us.
 
-Kate doubles up our protection by also making a dome of thick ice to surround us. The dragon, who has now raised himself to a sufficiently high altitude unleashes a downpour of flames upon us. As the flames collide with our protections, the air heats up all around us. Kate's ice has already melted away, and all that's standing between us and the torrent of fire is Daren's magical barrier.
+Kate slams both palms into the grass. Frost explodes upward, encasing Daren's ward in a dome of dense glacial ice.
 
-Rose is now sitting on the ground, with a terrified look in her eyes, hugging her legs and shaking violently.
+Above, the dragon wheels, his shadow blotting the sky before he opens his maw. A cataract of dragonfire crashes onto our shelter. The shockwave rattles my bones; the heat radiates through stone and air like an open kiln. Kate's glacial dome shrieks and vaporizes into scalding steam in three heartbeats, leaving only Daren's translucent barrier holding back a river of liquid flame.
 
-"Rose!" Kate yells at her. "Snap out of it! We'll need to be ready to get out of here as soon as Daren's barrier breaks. Do you hear me?!"
+Rose is on the turf, knees pulled tight to her chest, trembling so hard her teeth click like dice.
 
-The dragon's flames have suddenly stopped. Looking up to see what happened, I am terrified to learn that the monster is now quickly diving towards us. Kate tries to make another wall of ice between us and the dragon, but it breaks through it in a second, and then clashes with Daren's magical barrier, shattering it in an instant. The dragon then grabs Daren in one of its claws, and soars back up into the sky. We can hear Daren's screams as the giant lizard tries to crush him.
+"Rose!" Kate snaps, her voice raw over the roar of the fire. "On your feet! When this barrier drops, we run. Do you hear me?!"
+
+The flame stream cuts out.
+
+The sky clears for half a second—then two tons of crimson scale and talons drop in a vertical dive. Kate thrusts up a secondary wall of ice; Tyrath punches straight through the frost like parchment, slamming into Daren's barrier with concussive force. The white ward shatters with the screech of breaking glass. Talons the size of scythes clamp around Daren's plate armour, tearing him off his feet and hauling him into the sky. Daren's roar of agony echoes over the treetops as the beast squeezes.
 
 }
 choice("Continue", Ch6-Villain, v_current_scene = Ch6-Villain)
@@ -1495,15 +1507,19 @@ The dragon soars to the sky, as it shouts its final words to us.
 
 "Pray to your gods, humans! They're the only ones that can save you from the onslaught that will follow."
 
-"Quick, everyone get behind me!" Daren shouts, raising his shield as a semi-transparent magical barrier forms around us.
+"Behind me!" Daren roars, dropping to one knee and throwing his shield forward. A luminous white barrier locks into the earth around us.
 
-Kate doubles up our protection by also making a dome of thick ice to surround us. The dragon, who has now raised himself to a sufficiently high altitude unleashes a downpour of flames upon us. As the flames collide with our protections, the air heats up all around us. Kate's ice has already melted away, and all that's standing between us and the torrent of fire is Daren's magical barrier.
+Kate slams both palms into the grass. Frost explodes upward, encasing Daren's ward in a dome of dense glacial ice.
 
-Rose is now sitting on the ground, with a terrified look in her eyes, hugging her legs and shaking violently.
+Above, the dragon wheels, his shadow blotting the sky before he opens his maw. A cataract of dragonfire crashes onto our shelter. The shockwave rattles my bones; the heat radiates through stone and air like an open kiln. Kate's glacial dome shrieks and vaporizes into scalding steam in three heartbeats, leaving only Daren's translucent barrier holding back a river of liquid flame.
 
-"Rose!" Kate yells at her. "Snap out of it! We'll need to be ready to get out of here as soon as Daren's barrier breaks. Do you hear me?!"
+Rose is on the turf, knees pulled tight to her chest, trembling so hard her teeth click like dice.
 
-The dragon's flames have suddenly stopped. Looking up to see what happened, I am terrified to learn that the monster is now quickly diving towards us. Kate tries to make another wall of ice between us and the dragon, but it breaks through it in a second, and then clashes with Daren's magical barrier, shattering it in an instant. The dragon then grabs Daren in one of its claws, and soars back up into the sky. We can hear Daren's screams as the giant lizard tries to crush him.
+"Rose!" Kate snaps, her voice raw over the roar of the fire. "On your feet! When this barrier drops, we run. Do you hear me?!"
+
+The flame stream cuts out.
+
+The sky clears for half a second—then two tons of crimson scale and talons drop in a vertical dive. Kate thrusts up a secondary wall of ice; Tyrath punches straight through the frost like parchment, slamming into Daren's barrier with concussive force. The white ward shatters with the screech of breaking glass. Talons the size of scythes clamp around Daren's plate armour, tearing him off his feet and hauling him into the sky. Daren's roar of agony echoes over the treetops as the beast squeezes.
 
 }
 #if(v_ch3_star_message == 2) {
@@ -1535,15 +1551,19 @@ The dragon soars to the sky, as it shouts its final words to us.
 
 "Pray to your gods, humans! They're the only ones that can save you from the onslaught that will follow."
 
-"Quick, everyone get behind me!" Daren shouts, raising his shield as a semi-transparent magical barrier forms around us.
+"Behind me!" Daren roars, dropping to one knee and throwing his shield forward. A luminous white barrier locks into the earth around us.
 
-Kate doubles up our protection by also making a dome of thick ice to surround us. The dragon, who has now raised himself to a sufficiently high altitude unleashes a downpour of flames upon us. As the flames collide with our protections, the air heats up all around us. Kate's ice has already melted away, and all that's standing between us and the torrent of fire is Daren's magical barrier.
+Kate slams both palms into the grass. Frost explodes upward, encasing Daren's ward in a dome of dense glacial ice.
 
-Rose is now sitting on the ground, with a terrified look in her eyes, hugging her legs and shaking violently.
+Above, the dragon wheels, his shadow blotting the sky before he opens his maw. A cataract of dragonfire crashes onto our shelter. The shockwave rattles my bones; the heat radiates through stone and air like an open kiln. Kate's glacial dome shrieks and vaporizes into scalding steam in three heartbeats, leaving only Daren's translucent barrier holding back a river of liquid flame.
 
-"Rose!" Kate yells at her. "Snap out of it! We'll need to be ready to get out of here as soon as Daren's barrier breaks. Do you hear me?!"
+Rose is on the turf, knees pulled tight to her chest, trembling so hard her teeth click like dice.
 
-The dragon's flames have suddenly stopped. Looking up to see what happened, I am terrified to learn that the monster is now quickly diving towards us. Kate tries to make another wall of ice between us and the dragon, but it breaks through it in a second, and then clashes with Daren's magical barrier, shattering it in an instant. The dragon then grabs Daren in one of its claws, and soars back up into the sky. We can hear Daren's screams as the giant lizard tries to crush him.
+"Rose!" Kate snaps, her voice raw over the roar of the fire. "On your feet! When this barrier drops, we run. Do you hear me?!"
+
+The flame stream cuts out.
+
+The sky clears for half a second—then two tons of crimson scale and talons drop in a vertical dive. Kate thrusts up a secondary wall of ice; Tyrath punches straight through the frost like parchment, slamming into Daren's barrier with concussive force. The white ward shatters with the screech of breaking glass. Talons the size of scythes clamp around Daren's plate armour, tearing him off his feet and hauling him into the sky. Daren's roar of agony echoes over the treetops as the beast squeezes.
 
 }
 choice("Continue", Ch6-Villain, v_current_scene = Ch6-Villain)
@@ -1641,27 +1661,27 @@ TEXT:
 #if(v_ch6_eiden_answer == 1) {
 "Where have you been hiding all this time?"
 
-"Now, now, Barry, is this any way to talk to your savior?" Eiden tilts his head, smiling. "To answer your question, I've been following this dragon for a while now. I've been masking my presence so that he couldn't find  me by using his sight, smell, hearing or magical sense. I've been watching your battle since it began and I must say, I am not very impressed."
+"Now, now, Barry, is this any way to talk to your savior?" Eiden tilts his head, smiling. "To answer your question, I've been following this dragon for a while now. I've been masking my presence so that he couldn't find me by using his sight, smell, hearing, or magical sense. I've been watching your battle since it began, and I must say, I am not very impressed."
 
-"Are you kidding me? What do you expect me to do against a dragon?"
+"Are you kidding me? What did you expect me to do against a dragon?"
 
 "How about using that device you're holding in your hand?"
 
-"Yeah? And what would you have me do? Max my strength and punch him to death?"
+"Yeah? And what would you have me do? Pour everything into strength and punch him to death?"
 
 "Um... excuse me... sir..."
 
-Me and Eiden both turn around at the same time and see that Rose is standing up and looking at Eiden, confused.
+Eiden and I turn at the same moment. Rose is on her feet, swaying slightly as she looks between us, clutching her satchel strap with both hands.
 
-"Um... Hi... My name is Rose. Are you a friend of Barry?"
+"Um... Hi... My name is Rose. Are you a friend of Barry's?"
 
-Eiden furrows his brows, and makes a hand gesture towards Rose.
+Eiden furrows his brows and makes a slight gesture toward her.
 
 "W-What are you doing?" Rose asks him.
 
 "Interesting," Eiden says. "Rose, I've cast a spell that is supposed to freeze time for everyone except me and Barry. Have you by any chance studied time magic in your lifetime?"
 
-"Uh.. no, I can't cast any magic at all. I'm not a mage."
+"Uh... no, I can't cast any magic at all. I'm not a mage."
 
 Eiden's smile widens.
 
@@ -1669,43 +1689,43 @@ Eiden's smile widens.
 
 "A... what?"
 
-Eiden turns to me.
+Eiden turns back to me.
 
-"Barry, I must admit, I don't think I've ever seen such diversity in a team before. A time weaver, a healer in armor, a survivor from the Beacon of Hope and a stat device wielder. I think I'm starting to root for you!"
+"Barry, I must admit, I don't think I've ever seen such a curious company before. A time weaver, a healer in armor, a survivor from the Beacon of Hope, and a stat device wielder. I think I'm going to enjoy watching what becomes of you."
 
 }
 #if(v_ch6_eiden_answer == 2) {
 "What did you do?"
 
-"I'd say this should all be self explanatory. I've frozen time."
+"I'd say this should all be self-explanatory. I've frozen time."
 
-"Frozen ti-- How is that even possible?"
+"Frozen ti— How is that even possible?"
 
 "There is no such thing as impossible, Barry. As long as you never stop believing in yourself, you can overcome any limits. Remember this advice!"
 
 "Is this all a joke to you?"
 
-"No, but your fight with the dragon was. I've been watching your battle since it began and I must say, I am not very impressed."
+"No, but your fight with the dragon was. I've been watching your battle since it began, and I must say, I am not very impressed."
 
-"Are you kidding me? What do you expect me to do against a dragon?"
+"Are you kidding me? What did you expect me to do against a dragon?"
 
 "How about using that device you're holding in your hand?"
 
-"Yeah? And what would you have me do? Max my strength and punch him to death?"
+"Yeah? And what would you have me do? Pour everything into strength and punch him to death?"
 
 "Um... excuse me... sir..."
 
-Eiden and I both turn around at the same time and see that Rose is standing up and looking at Eiden, confused.
+Eiden and I turn at the same moment. Rose is on her feet, swaying slightly as she looks between us, clutching her satchel strap with both hands.
 
-"Um... Hi... My name is Rose. Are you a friend of Barry?"
+"Um... Hi... My name is Rose. Are you a friend of Barry's?"
 
-Eiden furrows his brows, and makes a hand gesture towards Rose.
+Eiden furrows his brows and makes a slight gesture toward her.
 
 "W-What are you doing?" Rose asks him.
 
 "Interesting," Eiden says. "Rose, I've cast a spell that is supposed to freeze time for everyone except me and Barry. Have you by any chance studied time magic in your lifetime?"
 
-"Uh.. no, I can't cast any magic at all. I'm not a mage."
+"Uh... no, I can't cast any magic at all. I'm not a mage."
 
 Eiden's smile widens.
 
@@ -1713,35 +1733,35 @@ Eiden's smile widens.
 
 "A... what?"
 
-Eiden turns to me.
+Eiden turns back to me.
 
-"Barry, I must admit, I don't think I've ever seen such diversity in a team before. A time weaver, a healer in armor, a survivor from the Beacon of Hope and a stat device wielder. I think I'm starting to root for you!"
+"Barry, I must admit, I don't think I've ever seen such a curious company before. A time weaver, a healer in armor, a survivor from the Beacon of Hope, and a stat device wielder. I think I'm going to enjoy watching what becomes of you."
 
 }
 #if(v_ch6_eiden_answer == 3) {
 "Why did you save us?"
 
-"I'll be honest with you, Barry, I never really liked one sided battles. It takes away all the fun when you already know who's going to win. I've been watching your fight since it began and I must say, I am not very impressed."
+"I'll be honest with you, Barry, I never really liked one-sided battles. It takes away all the fun when you already know who's going to win. I've been watching your fight since it began, and I must say, I am not very impressed."
 
-"Are you kidding me? What do you expect me to do against a dragon?"
+"Are you kidding me? What did you expect me to do against a dragon?"
 
 "How about using that device you're holding in your hand?"
 
-"Yeah? And what would you have me do? Max my strength and punch him to death?"
+"Yeah? And what would you have me do? Pour everything into strength and punch him to death?"
 
 "Um... excuse me... sir..."
 
-Me and Eiden both turn around at the same time and see that Rose is standing up and looking at Eiden, confused.
+Eiden and I turn at the same moment. Rose is on her feet, swaying slightly as she looks between us, clutching her satchel strap with both hands.
 
-"Um... Hi... My name is Rose. Are you a friend of Barry?"
+"Um... Hi... My name is Rose. Are you a friend of Barry's?"
 
-Eiden furrows his brows, and makes a hand gesture towards Rose.
+Eiden furrows his brows and makes a slight gesture toward her.
 
 "W-What are you doing?" Rose asks him.
 
 "Interesting," Eiden says. "Rose, I've cast a spell that is supposed to freeze time for everyone except me and Barry. Have you by any chance studied time magic in your lifetime?"
 
-"Uh.. no, I can't cast any magic at all. I'm not a mage."
+"Uh... no, I can't cast any magic at all. I'm not a mage."
 
 Eiden's smile widens.
 
@@ -1749,9 +1769,9 @@ Eiden's smile widens.
 
 "A... what?"
 
-Eiden turns to me.
+Eiden turns back to me.
 
-"Barry, I must admit, I don't think I've ever seen such diversity in a team before. A time weaver, a healer in armor, a survivor from the Beacon of Hope and a stat device wielder. I think I'm starting to root for you!"
+"Barry, I must admit, I don't think I've ever seen such a curious company before. A time weaver, a healer in armor, a survivor from the Beacon of Hope, and a stat device wielder. I think I'm going to enjoy watching what becomes of you."
 
 }
 choice(""Good, then maybe you can finish off that dragon for us."", Ch6-Power-up, v_current_scene = Ch6-Power-up, v_ch6_eiden_answer = 1)
@@ -1765,13 +1785,13 @@ TEXT:
 #if(v_ch6_eiden_answer == 1) {
 "Good, then maybe you can finish off that dragon for us."
 
-"No, Barry, YOU are going to finish off that dragon."
+"No, Barry. YOU are going to finish off that dragon."
 
-Eiden snaps his fingers and my stat device flies out of my hand and into his. The device then suddenly starts glowing and it looks like it's accumulating a massive amount of energy in a very short amount of time.
+Eiden snaps his fingers. The brass stat booster tears out of my grip and floats into his palm. The copper dials spin in a blur, the casing glowing with an incandescent amber brilliance as it drinks raw mana from the frozen air.
 
-"Hey!!!"
+"Hey!"
 
-"I realize this must all be very confusing for you, Barry, so I'm going to provide you with a little bit of context. The beast that just attacked you is Tyrath, the self proclaimed king of all dragons. The reason he's looking for me is because I wrote a message in the stars last night in an ancient language used primarily by dragon hunters. The message's purpose was to let all dragon hunters who entered this contest know that a dragon exists on this island, and to give them all a little extra incentive to hunt him down. I very much doubt that any of them will pose a realistic threat to him, but it will be fun to watch."
+"I realize this must all be very confusing for you, Barry, so I'll provide a little context. The beast that just attacked you is Tyrath, the self-proclaimed king of all dragons. The reason he's looking for me is because I wrote a message in the stars last night in an ancient dialect used by dragon hunters. Its purpose was to let every hunter in this tournament know a dragon lives on this island, giving them all a little extra incentive to track him down. I doubt any of them pose a realistic threat to him, but it will be entertaining to watch."
 
 He finishes charging up my stat device and then hands it back to me. The instant my fingers close around it, agony lances up my forearm like boiling water poured into the marrow. Every nerve fires at once—not the clean, measured allocation of a stat upgrade, but a grinding, splintering pressure that fills my skull with white noise. I can feel mana—actually feel it—a roaring torrent I have only ever read about. My hands know how to shape it the way a drowning man knows the theory of swimming.
 
@@ -1785,21 +1805,21 @@ Eiden fades into thin air. When only his outline remains, he says:
 #if(v_ch6_eiden_answer == 2) {
 "What's a time weaver?"
 
-"I could tell you, but, wouldn't you rather find out by yourself? Would you not rather live the thrill of unraveling this mystery on your own?"
+"I could tell you, but wouldn't you rather discover it yourself? Would you not rather live the thrill of unraveling the mystery on your own?"
 
-"No, thanks. I'm the kind of guy that always spoils the ending for himself before finishing a book."
+"No, thanks. I'm the kind of reader who checks the final page before starting chapter one."
 
-"Fair enough. You see, Barry, a time weaver is a person with a natural talent for manipulating time. They are immune to all time affecting spells, they can freeze time, slow down time and even reverse it with enough practice. They also have a gift of seeing into the future, although it's more blurred visions than anything else. Time weavers are extremely rare, and are said to only appear at the dawn of a new age. They usually lead normal lives until their powers awaken suddenly. The last known appearance of a time weaver occurred some six hundred years ago."
+"Fair enough. You see, Barry, a time weaver is an individual born with an innate affinity for temporal manipulation. They are immune to all temporal magic, and with practice they can freeze time, slow it down, or even reverse its flow. They also carry the gift of precognition, though it usually manifests as fragmented visions. Time weavers are exceptionally rare—legend holds they only emerge at the turning of an age. Most live entirely ordinary lives until their power awakens under sudden strain. The last confirmed record of a time weaver dates back six centuries."
 
-For a moment, it seemed like time was starting to resume its course again. I could hear Daren's shouting, the dragon's roar, the wind blowing in my ear, and I could see the grass start moving. Then everything froze back again, as if nothing had happened.
+For a fraction of a second, the temporal stasis flickers. Sound rushes back in an overwhelming wave—Daren's ragged cry, the dragon's bellow, the shriek of burning air across the grass. Then the stasis snaps shut again, plunging the clearing back into glassy silence.
 
-"Time is running out, Barry," Eiden says. "The time freezing spell won't last much longer."
+"Time is running out, Barry," Eiden says. "The stasis won't hold much longer."
 
-Eiden snaps his fingers and my stat device flies out of my hand and into his. The device then suddenly starts glowing and it looks like it's accumulating a massive amount of energy in a very short amount of time.
+Eiden snaps his fingers. The brass stat booster tears out of my grip and floats into his palm. The copper dials spin in a blur, the casing glowing with an incandescent amber brilliance as it drinks raw mana from the frozen air.
 
-"Hey!!!"
+"Hey!"
 
-"I realize this must all be very confusing for you, Barry, so I'm going to provide you with a little bit of context. The beast that just attacked you is Tyrath, the self proclaimed king of all dragons. The reason he's looking for me is because I wrote a message in the stars last night in an ancient language used primarily by dragon hunters. The message's purpose was to let all dragon hunters who entered this contest know that a dragon exists on this island, and to give them all a little extra incentive to hunt him down. I very much doubt that any of them will pose a realistic threat to him, but it will be fun to watch."
+"I realize this must all be very confusing for you, Barry, so I'll provide a little context. The beast that just attacked you is Tyrath, the self-proclaimed king of all dragons. The reason he's looking for me is because I wrote a message in the stars last night in an ancient dialect used by dragon hunters. Its purpose was to let every hunter in this tournament know a dragon lives on this island, giving them all a little extra incentive to track him down. I doubt any of them pose a realistic threat to him, but it will be entertaining to watch."
 
 He finishes charging up my stat device and then hands it back to me. The instant my fingers close around it, agony lances up my forearm like boiling water poured into the marrow. Every nerve fires at once—not the clean, measured allocation of a stat upgrade, but a grinding, splintering pressure that fills my skull with white noise. I can feel mana—actually feel it—a roaring torrent I have only ever read about. My hands know how to shape it the way a drowning man knows the theory of swimming.
 
@@ -1813,13 +1833,13 @@ Eiden fades into thin air. When only his outline remains, he says:
 #if(v_ch6_eiden_answer == 3) {
 "What's so special about being a stat device wielder?"
 
-"It's more special than you think! You are one of the rare cases that can utilize this device to its full potential. Not many can boast such a feat. Allow me to demonstrate."
+"Far more than you think! You are one of the exceptionally rare cases whose natural constitution allows you to wield the matrix to its utmost. Very few mortals can claim such compatibility. Allow me to demonstrate."
 
-Eiden snaps his fingers and my stat device flies out of my hand and into his. The device then suddenly starts glowing and it looks like it's accumulating a massive amount of energy in a very short amount of time.
+Eiden snaps his fingers. The brass stat booster tears out of my grip and floats into his palm. The copper dials spin in a blur, the casing glowing with an incandescent amber brilliance as it drinks raw mana from the frozen air.
 
-"Hey!!!"
+"Hey!"
 
-"I realize this must all be very confusing for you, Barry, so I'm going to provide you with a little bit of context. The beast that just attacked you is Tyrath, the self proclaimed king of all dragons. The reason he's looking for me is because I wrote a message in the stars last night in an ancient language used primarily by dragon hunters. The message's purpose was to let all dragon hunters who entered this contest know that a dragon exists on this island, and to give them all a little extra incentive to hunt him down. I very much doubt that any of them will pose a realistic threat to him, but it will be fun to watch."
+"I realize this must all be very confusing for you, Barry, so I'll provide a little context. The beast that just attacked you is Tyrath, the self-proclaimed king of all dragons. The reason he's looking for me is because I wrote a message in the stars last night in an ancient dialect used by dragon hunters. Its purpose was to let every hunter in this tournament know a dragon lives on this island, giving them all a little extra incentive to track him down. I doubt any of them pose a realistic threat to him, but it will be entertaining to watch."
 
 He finishes charging up my stat device and then hands it back to me. The instant my fingers close around it, agony lances up my forearm like boiling water poured into the marrow. Every nerve fires at once—not the clean, measured allocation of a stat upgrade, but a grinding, splintering pressure that fills my skull with white noise. I can feel mana—actually feel it—a roaring torrent I have only ever read about. My hands know how to shape it the way a drowning man knows the theory of swimming.
 
@@ -2273,9 +2293,9 @@ TEXT:
 
 After finishing his phrase, the dragon immediately appears in front of me and swings one of his claws at my chest. It was all I could do to teleport out of harm's way in time, with a short range spell suited for combat.
 
-The dragon and I spend the next few seconds teleporting one after the other and trying to take each other by surprise.
+The dragon and I spend the next few seconds teleporting one after the other, trading rapid-fire displacements across the canopy. This is going nowhere. I detonate an explosion of fire around my body; the shockwave pushes him back, but the flames roll off his scales harmlessly.
 
-Damn it! If only I could cast my big spells now, I'd make short work of him. I think I can still make it if I go and cast the protection spells on the others right now.
+Immune to fire, mental compulsion, and illusions. I have catastrophic spells in memory, but casting them without wards will kill Daren, Kate, and Rose. If I drop down and ward them now, I can still unleash full power before the five minutes expire.
 
 choice("Continue fighting with safe spells", Ch6-Elemental3, v_current_scene = Ch6-Elemental3)
 choice("Start fighting with bigger spells", Ch6-Big-not-planned, v_current_scene = Ch6-Big-not-planned)
@@ -2522,7 +2542,7 @@ The numbers on the face are spinning wildly, all attributes red-lined past maxim
 
 "Eiden..." Tyrath rumbles, rising from the crater dust and taking wing. "I have sought you."
 
-Eiden smiles, eyes closed.
+Eiden smiles, eyes closed, hands in his pockets.
 
 "Tyrath! It feels like a century! Or has it been longer? I lose track. Come give your old friend a hug!"
 
@@ -2530,9 +2550,9 @@ Eiden smiles, eyes closed.
 
 "So melodramatic! You're ruining our reunion."
 
-Tyrath vomits a column of dragonfire. Eiden lifts a single finger; the flame stops in mid-air, reverses direction, and slams back into Tyrath's snout.
+Tyrath vomits a blistering torrent of dragonfire that scorches the clearing to glass. Eiden drifts three paces through the air, unhurried, hands never leaving his pockets, letting the cone of flame roar uselessly past him into the cliffside.
 
-"Still your old parlor tricks," Tyrath growls. "I have grown stronger in the centuries since you fled. This will not end as before."
+"Still dancing away," Tyrath growls, smoke billowing from his jaws. "I have grown stronger in the centuries since you fled. You cannot evade me forever."
 
 }
 #if(v_ch6_big_plans == 2) {
@@ -2550,7 +2570,7 @@ The numbers on the face are spinning wildly, all attributes red-lined past maxim
 
 "Eiden..." Tyrath rumbles, rising from the crater dust and taking wing. "I have sought you."
 
-Eiden smiles, eyes closed.
+Eiden smiles, eyes closed, hands in his pockets.
 
 "Tyrath! It feels like a century! Or has it been longer? I lose track. Come give your old friend a hug!"
 
@@ -2558,9 +2578,9 @@ Eiden smiles, eyes closed.
 
 "So melodramatic! You're ruining our reunion."
 
-Tyrath vomits a column of dragonfire. Eiden lifts a single finger; the flame stops in mid-air, reverses direction, and slams back into Tyrath's snout.
+Tyrath vomits a blistering torrent of dragonfire that scorches the clearing to glass. Eiden drifts three paces through the air, unhurried, hands never leaving his pockets, letting the cone of flame roar uselessly past him into the cliffside.
 
-"Still your old parlor tricks," Tyrath growls. "I have grown stronger in the centuries since you fled. This will not end as before."
+"Still dancing away," Tyrath growls, smoke billowing from his jaws. "I have grown stronger in the centuries since you fled. You cannot evade me forever."
 
 }
 #if(v_ch6_big_plans == 3) {
@@ -2586,7 +2606,7 @@ The numbers on the face are spinning wildly, all attributes red-lined past maxim
 
 "Eiden..." Tyrath rumbles, rising from the crater dust and taking wing. "I have sought you."
 
-Eiden smiles, eyes closed.
+Eiden smiles, eyes closed, hands in his pockets.
 
 "Tyrath! It feels like a century! Or has it been longer? I lose track. Come give your old friend a hug!"
 
@@ -2594,9 +2614,9 @@ Eiden smiles, eyes closed.
 
 "So melodramatic! You're ruining our reunion."
 
-Tyrath vomits a column of dragonfire. Eiden lifts a single finger; the flame stops in mid-air, reverses direction, and slams back into Tyrath's snout.
+Tyrath vomits a blistering torrent of dragonfire that scorches the clearing to glass. Eiden drifts three paces through the air, unhurried, hands never leaving his pockets, letting the cone of flame roar uselessly past him into the cliffside.
 
-"Still your old parlor tricks," Tyrath growls. "I have grown stronger in the centuries since you fled. This will not end as before."
+"Still dancing away," Tyrath growls, smoke billowing from his jaws. "I have grown stronger in the centuries since you fled. You cannot evade me forever."
 
 }
 choice("Continue", Ch6-Eiden-vs-dragon2, v_current_scene = Ch6-Eiden-vs-dragon2, v_ch6_won_dragon = 3)
@@ -2605,39 +2625,29 @@ choice("Continue", Ch6-Eiden-vs-dragon2, v_current_scene = Ch6-Eiden-vs-dragon2,
 ID: Ch6-Eiden-vs-dragon2
 TEXT:
 
-Tyrath lunges, jaws snapping on empty air as Eiden blinks behind his neck and looses a focused lance of white flame. The heat rolls off the scales; Tyrath retaliates with a blistering counter-cone.
+Tyrath lunges, colossal jaws snapping on empty air as razor talons gouge thirty-foot trenches across the granite cliffside. The dragon fights with apocalyptic fury, thrashing the clearing to splinters, his massive wings churning gale-force winds of heat and ash.
 
-Eiden raises an open hand, catching the stream and reversing it into four roaring fire columns that box the dragon in and detonate against his snout.
+Eiden drifts just beyond reach, displacing three paces at a time, hands never leaving his pockets. He does not strike to kill. He does not summon counter-fire. He is simply stalling, eyes closed, letting the dragon's wrath scour the stone.
 
-Why fire? Dragons have near-total immunity to heat. Why waste mana on an element that won't bite?
+"Fight me, stillwater!" Tyrath roars, his tail shattering an outcrop into shrapnel. "Or have the centuries turned you into a coward?"
 
-"Do you mock me, stillwater?" Tyrath roars, shaking off the ash. "Fight with steel or die in the dirt!"
-
-Eiden's smile never slips. He blankets the sky in an ocean of rolling flame, teleporting through the smoke the instant Tyrath closes distance. They flicker across the firmament in a dizzying dance of fire and displacement until the sky itself burns crimson.
+Eiden's smile never slips. "Why rush? We have so much catching up to do."
 
 Then the earth hums.
 
-A deep, azure luminescence bleeds through the soil beneath our feet. An ancient, suffocating mana pressure saturates the clearing.
+A deep, azure luminescence bleeds through the soil beneath our feet. An ancient, suffocating mana pressure saturates the valley floor.
 
-"What is the meaning of this?" the dragon asks.
+"What... What is this?..." the dragon rumbles, his massive body trembling as the ground shudders beneath his claws.
 
-"Has it been so long you've forgotten, old friend?" Eiden says. "Just because they haven't been activated in more than a millennia does not mean these traps are out of function. This one was just a bit out of tune, that's all. So I had to warm it up before it would start working again!"
+"A lessathi dragon trap," Eiden says mildly, floating down toward the perimeter. "Thousands of years old. Its mechanism was degraded after a millennium of disuse, requiring an immense buildup of heat before it would wake. You, Barry, and Daren have been pouring flame and discharged mana into this bedrock for five solid minutes. I only kept you talking. The ground did the rest."
 
-"You can't mean..."
+"You think this will hold me?!" Tyrath roars, his scales blazing with azure light as the ancient grid locks onto his mass. "Nowhere on this continent will be safe! When I tear through their prisons, I will burn this island to ash, and you with it!"
 
-Eiden's smile widens.
+All of the magic in the air unleashes in a single, silent pulse. Tyrath's gargantuan form stretches thin and vanishes—banished. The blue light drains back into the rock, and the earthquake slowly dies.
 
-"The lessathi have many flaws, but poor craftsmanship is not one of them. Most of the artifacts they built in the old times are still fully functional after all!"
+Eiden turns back toward me, hovering a few inches above the scorched loam. His hands remain in his pockets, but the smile is cold with disappointment.
 
-As the two of them speak, the ground is shaking violently, and the blue light is intensifying.
-
-"Listen to me, stillwater. Your little tricks won't last forever. This won't keep me away for long. And when I get out, you're going to wish you were never born. Do you hear me?! Wipe that smile off your face, you lowborn little--"
-
-All of the magic in the air gets unleashed in a single moment, and the dragon gets teleported away, as the blue light disappears and the earthquake slowly stops.
-
-Eiden turns back to me.
-
-"I hope you won't miss him too much. It'll be a while before we see him again."
+"I handed you stillwater-grade mana for a duel, Barry. I expected a fight. Instead I got a spectator."
 
 choice(""What did you do to him?"", Ch6-Lose-fight2, v_current_scene = Ch6-Lose-fight2, v_ch6_lessathi = 1)
 choice(""Who are the lessathi?"", Ch6-Lose-fight2, v_current_scene = Ch6-Lose-fight2, v_ch6_lessathi = 2)
@@ -2657,7 +2667,7 @@ A deep, azure luminescence bleeds through the soil beneath our feet—not my doi
 
 The light intensifies. The heat from the dragon's flames, my desperate environmental detonations, hours of accumulated magical discharge—all of it has been soaking into the bedrock. Feeding something buried. Something designed to trigger at precisely this threshold.
 
-A lessathi trap. The realization hits me like cold water. We are standing on a lessathi extermination grid, dormant for a thousand years, and we just gave it enough thermal energy to boot.
+A lessathi trap. The realization hits me like cold water. We are standing on a lessathi extermination grid, dormant for a thousand years, and we just gave it enough thermal energy to wake it.
 
 "You'll... pay for this..." the dragon snarls, his massive body beginning to glow with the same azure light. "Nowhere on this continent will be safe for you. I will hunt you down. I will—"
 
@@ -2768,21 +2778,21 @@ TEXT:
 #if(v_ch6_lessathi == 1) {
 "What did you do to him?"
 
-"Me? I didn't do anything to him. He was just caught in an old dragon trap that's been around for a few thousand years. The trap was supposed to get activated at the first sign of flames, but because it's been at least a thousand years since it was last used, its mechanism was a little rusty. That's why I warmed it up with my fire spells."
+"Me? I didn't do anything to him. He was caught in an ancient lessathi dragon trap buried beneath this valley. The mechanism was degraded after a thousand years of disuse, so it needed an immense buildup of heat before it would cross threshold. The fight you and Daren put up—all that dragonfire and discharged mana soaking into the bedrock—charged the grid until it was ready to fire. I merely kept him occupied while the stone finished waking up."
 
 "What happened to the dragon, then?"
 
-"He was transported to a dragon prison on this island. Since I doubt there's anyone actually guarding it at this point I imagine that he won't have much trouble escaping, but even so, he'll still have to destroy the prison's automatic defenses and he'll have to travel all the way back here. So it should be at least a few days before he comes back."
+"Banishment. Transported to an ancient lessathi holding facility on this island. There are no living guards left after all these centuries, but he'll still have to tear through the prison's automated wards before he can fly back. A few days of peace, at least."
 
 }
 #if(v_ch6_lessathi == 2) {
 "Who are the lessathi?"
 
-"The lessathi are the most ancient race on this continent. Although the name is a bit hard to remember so most people prefer to call them simply "the ancients". Their talent at crafting magical artifacts and devices was unmatched a thousand years ago, and we still use many of those artifacts to this day. The trap I just triggered was also made by them some two thousand years ago. It was supposed to get activated at the first sign of flames, but because it's been at least a thousand years since it was last used, its mechanism was a little rusty. That's why I warmed it up with my fire spells."
+"The lessathi are the most ancient race on this continent. Although the name is a bit hard to remember, so most people prefer to call them simply 'the ancients.' Their talent at crafting magical artifacts and devices was unmatched two thousand years ago, and we still use many of those artifacts to this day. The trap buried beneath this clearing was engineered by them to counter dragon incursions. Because it had lain dormant for a millennium, its mechanism had degraded—it required a massive buildup of thermal energy to trigger. Your fight charged the bedrock with enough heat to wake it. I merely kept him talking while the grid locked on."
 
 "What happened to the dragon, then?"
 
-"He was transported to a dragon prison on this island. Since I doubt there's anyone actually guarding it at this point I imagine that he won't have much trouble escaping, but even so, he'll still have to destroy the prison's automatic defenses and he'll have to travel all the way back here. So it should be at least a few days before he comes back."
+"Banishment to an ancient lessathi holding facility on this island. Since there are no guards left to reinforce it, he'll eventually tear his way through the automated defenses and return. But it should buy you a few days before he tracks you down."
 
 }
 choice("Continue", Ch6-Eiden-leaves, v_current_scene = Ch6-Eiden-leaves)
@@ -2828,7 +2838,7 @@ The clearing falls silent. Somewhere in the distance, smoke rises from where Tyr
 "We need to move," Daren says at last. "Before anything else finds us in this state."
 }
 
-choice(""Yeah, Daren, you should be ashamed of yourself!"", Ch6-Ashamed, v_current_scene = Ch6-Ashamed)
+choice(""He kept us breathing. Be angry at the leash, not at the fact we're still on it."", Ch6-Ashamed, v_current_scene = Ch6-Ashamed)
 choice(""Calm down, Rose, it's not as simple as that."", Ch6-Simple, v_current_scene = Ch6-Simple)
 choice("Ask Kate to freeze the whole area to make sure Eiden isn't around anymore", Ch6-Freeze, v_current_scene = Ch6-Freeze)
 
@@ -2837,15 +2847,15 @@ ID: Ch6-Ashamed
 TEXT:
 
 set(v_rate_game_shown,1) if (v_rate_game_shown == 0)
-"Yeah, Daren, you should be ashamed of yourself!"
+"He kept us breathing," I say. "Be angry at the leash, not at the fact we're still on it."
 
 "Damn it, Barry!" Daren snaps, throwing his hands in the air. "Must you make everything ten times harder than it is?"
 
 "He saved all of our lives!" Rose says, stepping between us. "I saw it happen before my eyes! We all would have been dead if not for him! He's the one that gave Barry all of those powers that allowed him to fight the dragon. Why are you acting like he's our enemy?"
 
-"It's because he is our enemy," Kate tells her bluntly. "When we first met him this morning, he tried to kill Daren outright and ultimately decided against it, on a whim. If what you're saying is true, and he really did save all of our lives, then I am inclined to believe that this was also a decision he made on a whim. What was the motivation he gave for saving the four of us?"
+"Because he is our enemy," Kate tells her bluntly. "When we first met him this morning, he tried to kill Daren outright and ultimately decided against it, on a whim. If what you're saying is true, and he really did save all of our lives, then I am inclined to believe that this was also a decision he made on a whim. What was the motivation he gave for saving the four of us?"
 
-Kate's rebuttal made Rose lose a bit of steam.
+Rose falters, her indignation draining into uneasy silence.
 
 "He, uh..."
 
@@ -2853,7 +2863,7 @@ She pauses.
 
 "He said that he couldn't let the dragon win, after having gloated like a villain from a children's storybook..."
 
-"Well, there you have it. But never mind Eiden's intentions. What I am most interested in knowing is how you both got to interact with him in the middle of our fight, when neither me nor Daren saw him appear until the end of the battle."
+"Well, there you have it. But never mind Eiden's intentions. What I am most interested in knowing is how you both got to interact with him in the middle of our fight, when neither Daren nor I saw him appear until the end of the battle."
 
 "He froze time," I tell her.
 
@@ -2861,7 +2871,7 @@ She pauses.
 
 "Beats me. He just snapped his fingers and made time stop for everyone except me and him."
 
-"Wait,  what about Rose?" Kate asks.
+"Wait, what about Rose?" Kate asks.
 
 "He said... that I was able to resist his spell because I'm a time weaver," Rose answers her.
 
@@ -2878,9 +2888,9 @@ set(v_rate_game_shown,1) if (v_rate_game_shown == 0)
 
 "What's not that simple?" Rose says. "He saved all of our lives! I saw it happen before my eyes! We all would have been dead if not for him! He's the one that gave you all of those powers that allowed you to fight the dragon. Why are you acting like he's our enemy?"
 
-"It's because he is our enemy," Kate tells her bluntly. "When we first met him this morning, he tried to kill Daren outright and ultimately decided against it, on a whim. If what you're saying is true, and he really did save all of our lives, then I am inclined to believe that this was also a decision he made on a whim. What was the motivation he gave for saving the four of us?"
+"Because he is our enemy," Kate tells her bluntly. "When we first met him this morning, he tried to kill Daren outright and ultimately decided against it, on a whim. If what you're saying is true, and he really did save all of our lives, then I am inclined to believe that this was also a decision he made on a whim. What was the motivation he gave for saving the four of us?"
 
-Kate's rebuttal made Rose lose a bit of steam.
+Rose falters, her indignation draining into uneasy silence.
 
 "He, uh..."
 
@@ -2888,7 +2898,7 @@ She pauses.
 
 "He said that he couldn't let the dragon win, after having gloated like a villain from a children's storybook..."
 
-"Well, there you have it. But never mind Eiden's intentions. What I am most interested in knowing is how you both got to interact with him in the middle of our fight, when neither me nor Daren saw him appear until the end of the battle."
+"Well, there you have it. But never mind Eiden's intentions. What I am most interested in knowing is how you both got to interact with him in the middle of our fight, when neither Daren nor I saw him appear until the end of the battle."
 
 "He froze time," I tell her.
 
@@ -2896,7 +2906,7 @@ She pauses.
 
 "Beats me. He just snapped his fingers and made time stop for everyone except me and him."
 
-"Wait,  what about Rose?" Kate asks.
+"Wait, what about Rose?" Kate asks.
 
 "He said... that I was able to resist his spell because I'm a time weaver," Rose answers her.
 
@@ -2915,9 +2925,9 @@ Kate nods, sending a powerful wave of freezing magic across the clearing. The te
 
 "I don't understand," Rose says, hugging herself against the cold. "What's gotten into everyone? Eiden saved all of our lives! I saw it happen before my eyes! We all would have been dead if not for him! He's the one that gave Barry all of those powers that allowed him to fight the dragon. Why are you acting like he's our enemy?"
 
-"It's because he is our enemy," Kate tells her bluntly. "When we first met him this morning, he tried to kill Daren outright and ultimately decided against it, on a whim. If what you're saying is true, and he really did save all of our lives, then I am inclined to believe that this was also a decision he made on a whim. What was the motivation he gave for saving the four of us?"
+"Because he is our enemy," Kate tells her bluntly. "When we first met him this morning, he tried to kill Daren outright and ultimately decided against it, on a whim. If what you're saying is true, and he really did save all of our lives, then I am inclined to believe that this was also a decision he made on a whim. What was the motivation he gave for saving the four of us?"
 
-Kate's rebuttal made Rose lose a bit of steam.
+Rose falters, her indignation draining into uneasy silence.
 
 "He, uh..."
 
@@ -2925,7 +2935,7 @@ She pauses.
 
 "He said that he couldn't let the dragon win, after having gloated like a villain from a children's storybook..."
 
-"Well, there you have it. But never mind Eiden's intentions. What I am most interested in knowing is how you both got to interact with him in the middle of our fight, when neither me nor Daren saw him appear until the end of the battle."
+"Well, there you have it. But never mind Eiden's intentions. What I am most interested in knowing is how you both got to interact with him in the middle of our fight, when neither Daren nor I saw him appear until the end of the battle."
 
 "He froze time," I tell her.
 
@@ -2933,7 +2943,7 @@ She pauses.
 
 "Beats me. He just snapped his fingers and made time stop for everyone except me and him."
 
-"Wait,  what about Rose?" Kate asks.
+"Wait, what about Rose?" Kate asks.
 
 "He said... that I was able to resist his spell because I'm a time weaver," Rose answers her.
 
@@ -2996,25 +3006,25 @@ Daren proceeds to heal us all in turn. When he starts healing Kate, white light 
 
 "I'm sorry, Kate," Daren says, as he finishes his spell, pulling his hands back with a sigh. "This is all I can do for you. Your wounds were just too deep to heal completely."
 
-Looking at Kate, I can see that Daren has closed the worst of the damage, but the left side of her face is still lightly scarred, the skin mottled and red from temple to jaw. Surprisingly, it does not look bad on her. Kate never had a soft, delicate look to begin with; her beauty was always more feral in nature, and her newly acquired scars complement it nicely.
+Looking at Kate, I can see that Daren has closed the worst of the damage, but the left side of her face is still lightly scarred, the skin mottled and red from temple to jaw. Surprisingly, it does not look bad on her. Kate never had a soft, delicate look to begin with; her beauty was always fierce and feral, and the dragon burn complements it with a dangerous grace.
 
 "It's no problem," Kate tells Daren while looking at her face through a mirror made of ice. "Most people were already calling me a monster and running away when they first saw me. At least now they'll have a legitimate reason for it."
 
 }
 choice("Continue", Ch6-Ending, v_current_scene = Ch6-Ending) if (v_ch3_kate_badly_hurt == 0)
-choice(""Actually, it doesn't look that bad. More like a tattoo, than anything else."", Ch6-Tattoo, v_current_scene = Ch6-Tattoo) if (v_ch3_kate_badly_hurt == 1)
+choice(""It reads like you walked out of something that was meant to finish you. Wear it that way."", Ch6-Tattoo, v_current_scene = Ch6-Tattoo) if (v_ch3_kate_badly_hurt == 1)
 choice("Say nothing", Ch6-Ending, v_current_scene = Ch6-Ending) if (v_ch3_kate_badly_hurt == 1)
-choice(""Damn, that's ugly. I'd be using a mask from now on if I were you."", Ch6-Mask, v_current_scene = Ch6-Mask) if (v_ch3_kate_badly_hurt == 1)
+choice(""That's going to scar. People are going to look at you the way they look at me when they hear 'stillwater'."", Ch6-Mask, v_current_scene = Ch6-Mask) if (v_ch3_kate_badly_hurt == 1)
 
 
 ID: Ch6-Tattoo
 TEXT:
 
-"Actually, it doesn't look that bad. More like a tattoo, than anything else."
+"It reads like you walked out of something that was meant to finish you," I tell her. "Wear it that way."
 
-Kate laughs at my comment.
+Kate studies her reflection in the frost mirror. The tight set of her jaw softens, her shoulders dropping a fraction. She touches two fingers to the scarred edge of her temple, then lets the ice dissolve into cold vapor.
 
-"A tattoo, huh?" she says, studying her face in the mirror. "Yeah, I guess it does kind of look like one. Thank you, Barry. That made me feel a little better."
+"Walked out of it, then," she murmurs, turning back toward the trail without meeting my eye. "Suppose I did."
 
 choice("Continue", Ch6-Ending, v_current_scene = Ch6-Ending)
 
@@ -3022,13 +3032,13 @@ choice("Continue", Ch6-Ending, v_current_scene = Ch6-Ending)
 ID: Ch6-Mask
 TEXT:
 
-"Damn, that's ugly. I'd be using a mask from now on if I were you."
+"That's going to scar," I say. "People are going to look at you the way they look at me when they hear 'stillwater'."
 
 "Careful, Barry," Kate says. "After that burn on half of my face, my eyesight may not be as good as it once was. No one could blame me if my aim were to fail me in battle, and if one of my ice cones were to end up disfiguring you by accident..."
 
 The menacing look she has in her eyes is made all the more scary by the newly acquired scars on her face.
 
-"Hey, now," Daren says. "Let's not forget we're all friends here. Come on, Rose. It's your turn to get healed."
+"Now, now — we are all friends here," Daren says. "Come on, Rose. It's your turn to get healed."
 
 choice("Continue", Ch6-Ending, v_current_scene = Ch6-Ending)
 
@@ -3036,26 +3046,26 @@ choice("Continue", Ch6-Ending, v_current_scene = Ch6-Ending)
 ID: Ch6-Ending
 TEXT:
 
-Once Daren finishes healing us all, we waste no more time and resume our journey, in order to avoid meeting any mages or creatures that may have been attracted by the loud noises of our previous battle.
+We break the perimeter as soon as Daren withdraws his hands. The smoke column over the ridge is visible for miles; every tournament mage and predatory beast within ten leagues will be tracking the fallout of dragonfire.
 
-"I still don't understand one thing, Barry," Kate tells me, as we walk side by side. "How did Eiden manage to give you all of those powers? As far as I know, transferring powers between mages is impossible without some kind of tool to assist them."
+"I still don't understand one thing, Barry," Kate says, falling in beside me as we clear the scorched trees. Her eyes stay fixed on the trail ahead. "How did Eiden transfer that volume of power into you? Mage-to-mage transference requires an anchoring conduit—a focus matrix."
 
-"Oh, he used my stat device. I'm not sure exactly what he did, but he made it start glowing, and then I suddenly got all of those spells. I've tried playing around with the stat booster ever since, in order to see if I could unlock some secret options or something, but I couldn't figure out how he did it."
+"He channeled it through my stat device," I say. "I'm not sure of the exact mechanics, but he spun the dials, the casing flared, and suddenly I was holding stillwater-grade mana. I've tried inspecting the transceiver since, but the matrix is cold."
 
-"Wait, you're saying you got all of those powers through your stat device? No, that's impossible! In order for that to work, you'd need to have even less magical power than a human, otherwise it wouldn't match at all with the magical frequency of the device."
+"Through your device?" Kate stops mid-stride. "No. That's impossible. For an amplifier to accept an external dump of that magnitude, your natural aura would have to be practically nonexistent—otherwise the harmonic frequencies would tear the casing apart."
 
-She pauses.
+She pauses. Her face drains of color.
 
-"Actually, come to think of it, your magical aura was always weaker than that of a normal human. Very weak, in fact. Almost as if you were a..."
+"Actually... your aura was always weaker than a normal human's. Incredibly weak. Almost as if you were a..."
 
-Kate suddenly stops in her tracks, and looks straight at me. The look in her eyes slowly turns into one of both sheer terror and sudden understanding. Then, her look becomes dark. Darker than I've ever seen it before, as she continues to look me straight in the eyes.
+She turns to face me fully. The look in her dark eyes is not anger. It is cold, sudden dread—the stark realization of someone recognizing a predator they thought was prey. Her expression hardens into an impenetrable wall.
 
 "Almost as if I were a... what?"
 
-"Never mind. It wasn't important. Let's catch up with the others, we're lagging behind again."
+"Never mind," she says, her voice as flat and icy as a frozen lake. "It isn't important. Keep moving. We're lagging behind."
 
-The tone in her voice was as cold as her freezing magic. She does not say another word to me, and goes to catch up with Daren and Rose. 
+She accelerates her stride, leaving three paces of dead air between us as she catches up to Daren and Rose.
 
-Great. Just what we needed. More underlying conflict in our group. I'm sure this can only end well for everyone.
+For the next two hours, not a single word passes between us.
 
 choice("Next chapter", Ch7-Intro, v_next_chapter_crash = 1, v_current_scene = Ch7-Intro, v_chapter_save_counter = 5, v_checkpoint_rich = 1, special:checkpoint_save)

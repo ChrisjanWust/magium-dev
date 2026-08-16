@@ -25,7 +25,7 @@ Daren stares toward her corner, his brow furrowing over the crossed scars on his
 
 "I'm not taking anyone's side. I've known what those devices do for years. I don't need to trust him to know what's in his hand."
 
-"Fine. I yield." Daren throws his hands up, chuckling under his breath. "You win, Barry. Show us what these stats of yours actually look like."
+"Very well. I yield." Daren throws his hands up, chuckling under his breath. "You win, Barry. Show us what these stats of yours actually look like."
 
 }
 #if(v_ch2_deer_interaction == 1) {
@@ -52,7 +52,7 @@ Daren blinks toward her corner, the crossed scars on his forehead shifting with 
 
 "I'm not taking anyone's side. I've known what those devices do for years. I don't need to trust him to know what's in his hand."
 
-"Fine. I yield." Daren raises his palms in defeat. "You win, Barry. Show us what these stats of yours actually look like."
+"Very well. I yield." Daren raises his palms in defeat. "You win, Barry. Show us what these stats of yours actually look like."
 
 }
 choice("Continue", Ch3-Intro2, v_current_scene = Ch3-Intro2, v_checkpoint_rich = 0)
@@ -97,7 +97,7 @@ choice("Focus on avoiding attacks and baiting opponents", Ch3-Tactics, v_current
 choice("Focus on fighting the enemies head on", Ch3-Tactics, v_current_scene = Ch3-Tactics, v_ch3_tactics = 2) if (v_ch2_deer_interaction != 1)
 choice("Focus on observing the battlefield and providing tactical information", Ch3-Tactics, v_current_scene = Ch3-Tactics, v_ch3_tactics = 3) if (v_ch2_deer_interaction != 1)
 choice("Ask her how she got the plate", Ch3-Plate, v_current_scene = Ch3-Plate) if (v_ch2_deer_interaction == 1)
-choice("Ask her if they're cannibals", Ch3-Cannibals, v_current_scene = Ch3-Cannibals) if (v_ch2_deer_interaction == 1)
+choice("Ask whether the venison came from anyone they knew", Ch3-Cannibals, v_current_scene = Ch3-Cannibals) if (v_ch2_deer_interaction == 1)
 choice("Call out to see if Molan is still alive", Ch3-Molan, v_current_scene = Ch3-Molan) if (v_ch2_deer_interaction == 1)
 
 
@@ -125,7 +125,7 @@ choice("Ask her what happened to Molan's father", Ch3-Father, v_current_scene = 
 ID: Ch3-Cannibals
 TEXT:
 
-"Wait, so the two of you are cannibals?" I blurt out.
+"Did that venison come from anyone you knew?" I ask.
 
 The doe lets out a soft, trilling huff that sounds remarkably like laughter.
 
@@ -274,125 +274,95 @@ ID: Ch3-Tactics
 TEXT:
 
 #if(v_ch3_tactics == 1) {
-I weigh the options in my head before meeting Daren's eyes.
+I look down at the runic dials of the booster, turning the brass housing over in my palm.
 
-"I'm planning to focus primarily on avoiding attacks and drawing opponents' attention from now on."
+"I'm planning to focus on speed and evasion," I tell him. "Drawing attention, baiting out spells, staying out of reach."
 
-"High speed and sharp reflexes, then," Daren nods, tracing lines on the stone floor. "Premonition and combat technique to back it up. That gives you evasive versatility. Just keep your distance and don't play the hero. Draw their spells, make them waste energy, and let Kate and me land the heavy blows."
+"High speed and sharp reflexes, then," Daren says, using the tip of a charred twig to sketch lines across the limestone floor. "Premonition to read the trajectory before the bolt leaves the groove, combat technique to keep your feet under you when the ground breaks. That gives you room to maneuver. Just keep your distance and don't play the hero. Make them commit their mana, let them overextend, and leave the heavy counter-strokes to Kate and me."
 
-Daren turns toward Kate.
+Daren glances across the dim hearth toward Kate.
 
-"As for our pairing. After that enchanter and his sons yesterday, I'd rather not lock swords with weapon enchanters unless there's no way around it. When we run into them, they're yours."
+"As for our pairing. After that enchanter and his sons yesterday, I'd rather not lock steel with weapon enchanters unless there's no other way through. When we cross paths with one, they're yours."
 
-Kate gives a single, firm nod.
+Kate gives a single, taciturn nod, her dark eyes reflecting the dying orange glow of the embers.
 
-"Elementalists, summoners, and shapeshifters are my domain," Daren continues. "I know how to shut them down."
+"Elementalists, summoners, and shapeshifters are my domain," Daren continues, resting his forearms on his knees. "A white mage's aura eats raw elemental discharges for breakfast, and my sword can sever a caster's link to the planes before their beast completes the crossing. But weapon enchanters? They weave mana straight into cold iron, turning mundane broadswords into unbreakable shears and backing it with twenty years of martial drilling. That's steel against steel, and plate armor only forgives so much."
 
-He is talking about mage specializations. Most practitioners spend their lives refining one specific school rather than spreading their mana thin across generalist casting.
+"What about you, Kate?" Daren asks, tossing the burnt twig into the ashes. "Any particular blind spots we should know about before we're ambushed in a ravine?"
 
-Weapon enchanters weave mana directly into steel and armor, honing mundane blades to a killing edge and making them virtually unbreakable. Because their magic is tied to physical gear, they almost always train extensively in martial arts.
+"Yes," she says flatly from the shadows.
 
-Elementalists possess an inborn affinity for one of the four prime elements—fire, water, air, or earth. Their raw destructive output is immense, but their reliance on instinct leaves them vulnerable to specialized counter-magic and arcane theory.
-
-Summoners draw creatures across the planes to fight on their behalf. The ritual leaves them stationary during casting, so they surround themselves with defensive wards while their beasts press the attack.
-
-Shapeshifters take the opposite path, molding their own flesh and bone into predatory beasts. It removes the summoner's vulnerability, but prevents them from weaving external spells while shifted.
-
-"What about you, Kate?" Daren asks. "Any particular blind spots we should cover?"
-
-"Yes," she says flatly.
-
-"Care to share them?"
+"Care to name them?"
 
 "I do not."
 
-Daren shrugs, unbothered.
+Daren gives a low chuckle and rubs the back of his neck.
 
-"Suit yourself. That's enough strategy for one night." He pushes himself up, stretching his broad shoulders. "First watch falls to Barry and me. Up you get, Barry. And Kate—if you decide this arrangement isn't working for you by morning, no one's keeping you here."
+"Suit yourself. That's enough council for one night." He pushes up from the stone, rolling his shoulders until his spine pops. "First watch is ours, Barry. Up you get. And Kate—if you decide this road isn't to your liking by dawn, no one is holding you."
 
-I follow Daren through the mouth of the cave. We climb the rocky incline above the entrance to reach a wide granite ledge overlooking the valley. The night sky is clear, cold, and crowded with brilliant stars. Nothing moves in the valley below without catching the moonlight.
+I pocket the device and follow Daren out past the cave mouth. We scramble up the fractured granite incline above the entrance to a broad stone ledge overlooking the valley. The air hits us like ice water, sharp and smelling of crushed pine. Overhead, the sky is clear, black, and crowded with cold stars. Below, the misty ridges lie bathed in white moonlight.
 
 }
 #if(v_ch3_tactics == 2) {
-I weigh the options in my head before meeting Daren's eyes.
+I look down at the runic dials of the booster, turning the brass housing over in my palm.
 
-"I'm planning to fight alongside you two, as crazy as it may sound. Otherwise, I'd just be dragging you down."
+"I'm planning to fight beside you two," I say. "Strength, toughness, close quarters. Otherwise I'm just luggage with a heartbeat."
 
-Daren lets out a heavy breath, shaking his head with a faint smile.
+Daren lets out a long breath through his nose, a wry grin tugging at the scar on his brow.
 
-"I had a feeling you'd say that. Strength, toughness, and combat technique, then. With premonition to keep ambushers from taking your head off. Just don't overestimate what that device can do. Let Kate and me handle the heavy hitters. You keep the skirmishers and foot soldiers off our flanks."
+"I had a feeling you'd say that. Strength and toughness to take a blow, combat technique to make your strikes count, and enough premonition to keep ambushers from taking your head off while your guard is turned. Just remember the limits of that brass box. You let Kate and me handle the heavy hitters. Your job is keeping the skirmishers and flankers off our backs."
 
-Daren turns toward Kate.
+Daren turns toward the shadows where Kate sits.
 
-"As for our pairing. After that enchanter and his sons yesterday, I'd rather not lock swords with weapon enchanters unless there's no way around it. When we run into them, they're yours."
+"As for our pairing. After that enchanter and his sons yesterday, I'd rather not lock steel with weapon enchanters unless there's no other way through. When we cross paths with one, they're yours."
 
-Kate gives a single, firm nod.
+Kate gives a single, taciturn nod, her dark eyes reflecting the dying orange glow of the embers.
 
-"Elementalists, summoners, and shapeshifters are my domain," Daren continues. "I know how to shut them down."
+"Elementalists, summoners, and shapeshifters are my domain," Daren continues, resting his forearms on his knees. "A white mage's aura eats raw elemental discharges for breakfast, and my sword can sever a caster's link to the planes before their beast completes the crossing. But weapon enchanters weave mana directly into their blades, turning iron into razor-hard shears backed by lifetime martial drilling. That's steel against steel, and plate armor only forgives so much."
 
-He is talking about mage specializations. Most practitioners spend their lives refining one specific school rather than spreading their mana thin across generalist casting.
+"What about you, Kate?" Daren asks, tossing a dry pine twig into the ashes. "Any particular blind spots we should know about before we're ambushed in a ravine?"
 
-Weapon enchanters weave mana directly into steel and armor, honing mundane blades to a killing edge and making them virtually unbreakable. Because their magic is tied to physical gear, they almost always train extensively in martial arts.
+"Yes," she says flatly from the shadows.
 
-Elementalists possess an inborn affinity for one of the four prime elements—fire, water, air, or earth. Their raw destructive output is immense, but their reliance on instinct leaves them vulnerable to specialized counter-magic and arcane theory.
-
-Summoners draw creatures across the planes to fight on their behalf. The ritual leaves them stationary during casting, so they surround themselves with defensive wards while their beasts press the attack.
-
-Shapeshifters take the opposite path, molding their own flesh and bone into predatory beasts. It removes the summoner's vulnerability, but prevents them from weaving external spells while shifted.
-
-"What about you, Kate?" Daren asks. "Any particular blind spots we should cover?"
-
-"Yes," she says flatly.
-
-"Care to share them?"
+"Care to name them?"
 
 "I do not."
 
-Daren shrugs, unbothered.
+Daren gives a low chuckle and rubs the back of his neck.
 
-"Suit yourself. That's enough strategy for one night." He pushes himself up, stretching his broad shoulders. "First watch falls to Barry and me. Up you get, Barry. And Kate—if you decide this arrangement isn't working for you by morning, no one's keeping you here."
+"Suit yourself. That's enough council for one night." He pushes up from the stone, rolling his shoulders until his spine pops. "First watch is ours, Barry. Up you get. And Kate—if you decide this road isn't to your liking by dawn, no one is holding you."
 
-I follow Daren through the mouth of the cave. We climb the rocky incline above the entrance to reach a wide granite ledge overlooking the valley. The night sky is clear, cold, and crowded with brilliant stars. Nothing moves in the valley below without catching the moonlight.
+I pocket the device and follow Daren out past the cave mouth. We scramble up the fractured granite incline above the entrance to a broad stone ledge overlooking the valley. The air hits us like ice water, sharp and smelling of crushed pine. Overhead, the sky is clear, black, and crowded with cold stars. Below, the misty ridges lie bathed in white moonlight.
 
 }
 #if(v_ch3_tactics == 3) {
-I weigh the options in my head before meeting Daren's eyes.
+I look down at the runic dials of the booster, turning the brass housing over in my palm.
 
-"I want to focus on helping the two of you by observing the battlefield and providing tactical information."
+"I want to focus on observation and battlefield awareness," I tell him. "Spotting traps, reading formations, calling out enemy movements before they close in."
 
-"A sound choice," Daren says, nodding in approval. "Observation and hearing as your primary channels. But don't neglect your defenses. If the enemy catches you standing idle and calling out formations, they'll target you first, just like yesterday. You need toughness, reflexes, or premonition in reserve. Kate and I won't always be in position to shield you."
+"A sound choice," Daren says, nodding with evident relief. "Observation and hearing as your primary channels. But keep some points for defense. If an enemy commander clocks you standing thirty paces back and shouting orders to us, you become the primary target. You'll need enough toughness or reflexes to survive the first volley before Kate and I can close the gap."
 
-Daren turns toward Kate.
+Daren turns toward the shadows where Kate sits.
 
-"As for our pairing. After that enchanter and his sons yesterday, I'd rather not lock swords with weapon enchanters unless there's no way around it. When we run into them, they're yours."
+"As for our pairing. After that enchanter and his sons yesterday, I'd rather not lock steel with weapon enchanters unless there's no other way through. When we cross paths with one, they're yours."
 
-Kate gives a single, firm nod.
+Kate gives a single, taciturn nod, her dark eyes reflecting the dying orange glow of the embers.
 
-"Elementalists, summoners, and shapeshifters are my domain," Daren continues. "I know how to shut them down."
+"Elementalists, summoners, and shapeshifters are my domain," Daren continues, resting his forearms on his knees. "A white mage's aura eats raw elemental discharges for breakfast, and my sword can sever a caster's link to the planes before their beast completes the crossing. But weapon enchanters weave mana directly into their blades, turning iron into razor-hard shears backed by lifetime martial drilling. That's steel against steel, and plate armor only forgives so much."
 
-He is talking about mage specializations. Most practitioners spend their lives refining one specific school rather than spreading their mana thin across generalist casting.
+"What about you, Kate?" Daren asks, tossing a dry pine twig into the ashes. "Any particular blind spots we should know about before we're ambushed in a ravine?"
 
-Weapon enchanters weave mana directly into steel and armor, honing mundane blades to a killing edge and making them virtually unbreakable. Because their magic is tied to physical gear, they almost always train extensively in martial arts.
+"Yes," she says flatly from the shadows.
 
-Elementalists possess an inborn affinity for one of the four prime elements—fire, water, air, or earth. Their raw destructive output is immense, but their reliance on instinct leaves them vulnerable to specialized counter-magic and arcane theory.
-
-Summoners draw creatures across the planes to fight on their behalf. The ritual leaves them stationary during casting, so they surround themselves with defensive wards while their beasts press the attack.
-
-Shapeshifters take the opposite path, molding their own flesh and bone into predatory beasts. It removes the summoner's vulnerability, but prevents them from weaving external spells while shifted.
-
-"What about you, Kate?" Daren asks. "Any particular blind spots we should cover?"
-
-"Yes," she says flatly.
-
-"Care to share them?"
+"Care to name them?"
 
 "I do not."
 
-Daren shrugs, unbothered.
+Daren gives a low chuckle and rubs the back of his neck.
 
-"Suit yourself. That's enough strategy for one night." He pushes himself up, stretching his broad shoulders. "First watch falls to Barry and me. Up you get, Barry. And Kate—if you decide this arrangement isn't working for you by morning, no one's keeping you here."
+"Suit yourself. That's enough council for one night." He pushes up from the stone, rolling his shoulders until his spine pops. "First watch is ours, Barry. Up you get. And Kate—if you decide this road isn't to your liking by dawn, no one is holding you."
 
-I follow Daren through the mouth of the cave. We climb the rocky incline above the entrance to reach a wide granite ledge overlooking the valley. The night sky is clear, cold, and crowded with brilliant stars. Nothing moves in the valley below without catching the moonlight.
+I pocket the device and follow Daren out past the cave mouth. We scramble up the fractured granite incline above the entrance to a broad stone ledge overlooking the valley. The air hits us like ice water, sharp and smelling of crushed pine. Overhead, the sky is clear, black, and crowded with cold stars. Below, the misty ridges lie bathed in white moonlight.
 
 }
 choice("Continue", Ch3-Vantage, v_current_scene = Ch3-Vantage)
@@ -408,44 +378,44 @@ set(v_ch3_star_message,2) if (v_ancient_languages >= 2 && v_perception >= 1)
 achievement("A message in the sky",v_ac_ch3_message)
 #if(v_perception < 1) {
 
-Up on the mountain ledge, the wind carries a sharp, biting chill. Daren leans against a slab of weathered granite, looking out across the moonlit ridges, and talks about his years on the road. He speaks of fifty-foot giants roaming the frost plains of the Northern Continent, of breaking the dreaded Iknar plague in the east with white-magic purifications, of bringing down a green wyvern in the northern crags with a single enchanted strike.
+Up on the granite shelf, the mountain wind cuts straight through our tunics. Daren leans against a weathered boulder, resting his heavy forearms on the stone as he looks out over the silver ridges, his voice low and steady against the gale. He talks of fifty-foot frost giants roaming the wastes of the Northern Continent, of breaking the dreaded Iknar plague in the eastern marshlands with days of continuous white-magic purification, of bringing down a rogue green wyvern in the northern crags with a single enchanted strike through the wing joint.
 
-Standing beside him, I listen to the cadence of his voice and understand, for the first time, why I lunged in front of Cutthroat Dave's blades yesterday. I grew up reading tales of legendary healers in shining plate—heroes who rode into ruined villages and set the world right. Daren is the living embodiment of every boyhood fantasy I ever chased.
+Standing beside him, I listen to the cadence of his voice and understand, for the first time, why I lunged in front of Cutthroat Dave's blades yesterday. I grew up reading dusty grimoires and cheap tavern folktales about legendary healers in polished plate—crusaders who rode into smoking ruins and set the world right. Daren is the living shape of every boyhood myth I ever believed.
 
-"I have crossed half the world, Barry," Daren says, his voice dropping low. "And wherever I set foot, the pattern never breaks. The strong grind the weak into the dirt. The many butcher the few. Starvation, plagues, warring warlords, beasts tearing through farmsteads. I have lived alongside death my entire life, but the sight of it never stops hurting. Seeing those slaughtered mages yesterday... the stench, the empty eyes... it felt like a fist crushing my ribs. As if every dying gasp was echoing inside my own chest. What about you, Barry? What did you feel when you saw all those dead people?"
+"I have crossed half the world, Barry," Daren says, his voice dropping until the wind almost swallows it. "And wherever I set foot, the pattern never breaks. The strong grind the weak into the dirt. The many butcher the few. Starvation, plagues, warlords burning harvests, beasts tearing through farmsteads. I have lived alongside death my entire life, but the sight of it never stops hurting. Seeing those slaughtered mages yesterday... the reek of spilled blood, the empty eyes staring at the canopy... it felt like a fist closing around my ribs. As if every dying gasp was echoing inside my own chest. What about you, Barry? What did you feel when you saw all those dead men?"
 
 }
 #if(v_perception >= 1 && v_ancient_languages < 2) {
 
-I scan the sky above the peaks. The stars shine with unnatural brilliance tonight, their clusters arranged with deliberate, geometric symmetry—almost forming lines of glyphs across the dark canopy.
+I lean against the cold stone and scan the sky above the jagged peaks. The stars burn with unnatural brilliance tonight, their clusters arranged with deliberate, geometric precision—almost forming lines of sharp glyphs across the dark canopy.
 
-I shake my head. The shapes resemble no script I ever encountered in my studies. A trick of the mountain air and starlight, nothing more.
+I squint into the blackness, but the shapes resemble no script I ever encountered in my studies. A trick of the thin mountain air and starlight, nothing more.
 
-Beside me on the granite ledge, Daren looks out across the moonlit ridges and talks about his years on the road. He speaks of fifty-foot giants roaming the frost plains of the Northern Continent, of breaking the dreaded Iknar plague in the east with white-magic purifications, of bringing down a green wyvern in the northern crags with a single enchanted strike.
+Beside me on the granite shelf, Daren looks out over the silver ridges, his voice low and steady against the gale. He talks of fifty-foot frost giants roaming the wastes of the Northern Continent, of breaking the dreaded Iknar plague in the eastern marshlands with days of continuous white-magic purification, of bringing down a rogue green wyvern in the northern crags with a single enchanted strike through the wing joint.
 
-Standing beside him, I listen to the cadence of his voice and understand, for the first time, why I lunged in front of Cutthroat Dave's blades yesterday. I grew up reading tales of legendary healers in shining plate—heroes who rode into ruined villages and set the world right. Daren is the living embodiment of every boyhood fantasy I ever chased.
+Standing beside him, I listen to the cadence of his voice and understand, for the first time, why I lunged in front of Cutthroat Dave's blades yesterday. I grew up reading dusty grimoires and cheap tavern folktales about legendary healers in polished plate—crusaders who rode into smoking ruins and set the world right. Daren is the living shape of every boyhood myth I ever believed.
 
-"I have crossed half the world, Barry," Daren says, his voice dropping low. "And wherever I set foot, the pattern never breaks. The strong grind the weak into the dirt. The many butcher the few. Starvation, plagues, warring warlords, beasts tearing through farmsteads. I have lived alongside death my entire life, but the sight of it never stops hurting. Seeing those slaughtered mages yesterday... the stench, the empty eyes... it felt like a fist crushing my ribs. As if every dying gasp was echoing inside my own chest. What about you, Barry? What did you feel when you saw all those dead people?"
+"I have crossed half the world, Barry," Daren says, his voice dropping until the wind almost swallows it. "And wherever I set foot, the pattern never breaks. The strong grind the weak into the dirt. The many butcher the few. Starvation, plagues, warlords burning harvests, beasts tearing through farmsteads. I have lived alongside death my entire life, but the sight of it never stops hurting. Seeing those slaughtered mages yesterday... the reek of spilled blood, the empty eyes staring at the canopy... it felt like a fist closing around my ribs. As if every dying gasp was echoing inside my own chest. What about you, Barry? What did you feel when you saw all those dead men?"
 
 }
 #if(v_ancient_languages >= 2 && v_perception >= 1) {
 
-I scan the sky above the peaks. The stars burn with unnatural sharpness, their alignment forming unmistakable geometric patterns across the dark dome of the sky.
+I lean against the cold stone and scan the sky above the jagged peaks. The stars burn with unnatural sharpness tonight, their geometric alignment forming unmistakable script across the black vault of the heavens.
 
-The ancient language burned into my mind by the booster translates the celestial runes in an instant: "The dragon knows where to find the source of all magic."
+The ancient tongue burned into my thoughts by the booster translates the celestial runes in an instant: "The dragon knows where to find the source of all magic."
 
-A dragon on Varathia? Carrying knowledge of the Magium itself? Star-manipulation spells for long-range messaging exist only in dusty folklore, right alongside ancient dragons. I force my eyes back down toward the valley, filing the phrase away as I return to our watch.
+A dragon on Varathia? Carrying knowledge of the Magium itself? Star-manipulation rituals for long-range messaging belong in dusty folklore, right alongside ancient drakes. I force my eyes back down toward the moonlit valley, filing the words away as I return to our watch.
 
-Beside me on the granite ledge, Daren looks out across the moonlit ridges and talks about his years on the road. He speaks of fifty-foot giants roaming the frost plains of the Northern Continent, of breaking the dreaded Iknar plague in the east with white-magic purifications, of bringing down a green wyvern in the northern crags with a single enchanted strike.
+Beside me on the granite shelf, Daren looks out over the silver ridges, his voice low and steady against the gale. He talks of fifty-foot frost giants roaming the wastes of the Northern Continent, of breaking the dreaded Iknar plague in the eastern marshlands with days of continuous white-magic purification, of bringing down a rogue green wyvern in the northern crags with a single enchanted strike through the wing joint.
 
-Standing beside him, I listen to the cadence of his voice and understand, for the first time, why I lunged in front of Cutthroat Dave's blades yesterday. I grew up reading tales of legendary healers in shining plate—heroes who rode into ruined villages and set the world right. Daren is the living embodiment of every boyhood fantasy I ever chased.
+Standing beside him, I listen to the cadence of his voice and understand, for the first time, why I lunged in front of Cutthroat Dave's blades yesterday. I grew up reading dusty grimoires and cheap tavern folktales about legendary healers in polished plate—crusaders who rode into smoking ruins and set the world right. Daren is the living shape of every boyhood myth I ever believed.
 
-"I have crossed half the world, Barry," Daren says, his voice dropping low. "And wherever I set foot, the pattern never breaks. The strong grind the weak into the dirt. The many butcher the few. Starvation, plagues, warring warlords, beasts tearing through farmsteads. I have lived alongside death my entire life, but the sight of it never stops hurting. Seeing those slaughtered mages yesterday... the stench, the empty eyes... it felt like a fist crushing my ribs. As if every dying gasp was echoing inside my own chest. What about you, Barry? What did you feel when you saw all those dead people?"
+"I have crossed half the world, Barry," Daren says, his voice dropping until the wind almost swallows it. "And wherever I set foot, the pattern never breaks. The strong grind the weak into the dirt. The many butcher the few. Starvation, plagues, warlords burning harvests, beasts tearing through farmsteads. I have lived alongside death my entire life, but the sight of it never stops hurting. Seeing those slaughtered mages yesterday... the reek of spilled blood, the empty eyes staring at the canopy... it felt like a fist closing around my ribs. As if every dying gasp was echoing inside my own chest. What about you, Barry? What did you feel when you saw all those dead men?"
 
 }
 choice(""I was just busy thinking of how to stay alive at the time."", Ch3-Busy, v_current_scene = Ch3-Busy)
 choice(""I felt sorry for them, but I didn't let it affect me."", Ch3-Sorry, v_current_scene = Ch3-Sorry)
-choice(""I was almost about to puke."", Ch3-Puke, v_current_scene = Ch3-Puke)
+choice(""I counted the exits. Then I counted how many of them would never use one."", Ch3-Puke, v_current_scene = Ch3-Puke)
 
 
 ID: Ch3-Busy
@@ -453,13 +423,13 @@ TEXT:
 
 "I was just busy thinking of how to stay alive at the time."
 
-"I almost forgot," Daren says, clapping a heavy hand on my shoulder. "That was your first true skirmish, wasn't it? You kept your head when seasoned men panic. Take pride in that, Barry."
+"I almost forgot," Daren says, clapping a heavy hand on my shoulder. "That was your first true battle, wasn't it? You kept your head when seasoned men lose their wits. Take pride in that, Barry."
 
-He turns back toward the distant treeline, the wind tugging at his cloak.
+He turns back toward the distant treeline, the cold wind whipping his woolen cloak.
 
-"When news of this tournament reached the east, I took it as a sign. A lifetime of healing, of mending broken bones and burying plague victims, and yet the suffering never ends. No matter how many I save, the world remains broken. But the Magium... with power on that scale, I might actually change things."
+"When news of this tournament reached the east, I took it as a sign. A lifetime of healing, of mending broken limbs and burying plague victims, and yet the suffering never lessens. No matter how many I pull back from the grave, the world stays broken. But the Magium... with power on that scale, I might actually change things."
 
-He glances sideways at me, catching the tension in my posture.
+He glances sideways at me, catching the tension in my stance.
 
 choice("Continue", Ch3-Worried, v_current_scene = Ch3-Worried)
 
@@ -467,15 +437,15 @@ choice("Continue", Ch3-Worried, v_current_scene = Ch3-Worried)
 ID: Ch3-Sorry
 TEXT:
 
-"I felt sorry for them. But I guess I came here prepared for the worst. I knew I'd be seeing a lot of death along my way. So I've decided to not let it affect me."
+"I felt sorry for them. But I came here prepared for the worst. I knew I'd be seeing a lot of death along the way, so I've decided not to let it break me."
 
 "Then you carry a harder resolve than I do, Barry."
 
-Daren turns back toward the distant treeline, the wind tugging at his cloak.
+Daren turns back toward the distant treeline, the cold wind whipping his woolen cloak.
 
-"When news of this tournament reached the east, I took it as a sign. A lifetime of healing, of mending broken bones and burying plague victims, and yet the suffering never ends. No matter how many I save, the world remains broken. But the Magium... with power on that scale, I might actually change things."
+"When news of this tournament reached the east, I took it as a sign. A lifetime of healing, of mending broken limbs and burying plague victims, and yet the suffering never lessens. No matter how many I pull back from the grave, the world stays broken. But the Magium... with power on that scale, I might actually change things."
 
-He glances sideways at me, catching the tension in my posture.
+He glances sideways at me, catching the tension in my stance.
 
 choice("Continue", Ch3-Worried, v_current_scene = Ch3-Worried)
 
@@ -483,15 +453,15 @@ choice("Continue", Ch3-Worried, v_current_scene = Ch3-Worried)
 ID: Ch3-Puke
 TEXT:
 
-"I was almost about to puke. It was my first time seeing so many dead bodies in one place."
+"I counted the exits," I tell him. "Then I counted how many of them would never use one. It was my first time seeing so many dead bodies in one place."
 
-"The sickness passes," Daren says quietly. "Though I fear by the time this week ends, the sight and reek of blood will feel as common as dirt."
+"The nausea passes," Daren says quietly, looking out over the dark timber. "Though I fear by the time this week ends, the sight and reek of blood will feel as common as dirt under our boots."
 
-He turns back toward the distant treeline, the wind tugging at his cloak.
+He leans his shoulder against the granite, watching the misty valley.
 
-"When news of this tournament reached the east, I took it as a sign. A lifetime of healing, of mending broken bones and burying plague victims, and yet the suffering never ends. No matter how many I save, the world remains broken. But the Magium... with power on that scale, I might actually change things."
+"When news of this tournament reached the east, I took it as a sign. A lifetime of healing, of mending broken limbs and burying plague victims, and yet the suffering never lessens. No matter how many I pull back from the grave, the world stays broken. But the Magium... with power on that scale, I might actually change things."
 
-He glances sideways at me, catching the tension in my posture.
+He glances sideways at me, catching the tension in my stance.
 
 choice("Continue", Ch3-Worried, v_current_scene = Ch3-Worried)
 
@@ -502,13 +472,13 @@ TEXT:
 #if(v_ch2_human_reason == 1) {
 "There is no reason the Magium cannot serve us both, Barry. If I win this tournament, I vow to use its power to fulfill your dream. I only ask that you do the same for me if you claim the prize."
 
-The complete absence of deceit in his voice catches me off balance.
+The complete absence of deceit in his voice catches me off balance. He means every syllable.
 
 "Of course I will," I say. "Assuming we don't already know which one of us is taking first place."
 
 Daren barks a laugh that echoes off the rocks. "Ha! That's the spirit!"
 
-He leans against the stone, letting a companionable silence linger before a smirk tugs at his mouth.
+He leans against the granite, letting a companionable silence linger before a smirk tugs at his mouth.
 
 "So. How are things progressing with Kate? Have you made any headway?"
 
@@ -518,9 +488,9 @@ He leans against the stone, letting a companionable silence linger before a smir
 
 "I... thanks, Daren."
 
-I swallow hard, mentally reminding myself that I need a plausible excuse to stay before we reach the harbor cities.
+I swallow hard, feeling the cold weight of the lie. I'll need a plausible excuse to stay once we reach the coast, but for now, the debt between us holds.
 
-Daren leans against the stone, letting the silence settle before a sly smirk tugs at his mouth.
+Daren leans against the granite, letting the silence settle before a sly smirk tugs at his mouth.
 
 "So. How are things progressing with Kate? Have you made any headway?"
 
@@ -530,16 +500,16 @@ Daren leans against the stone, letting the silence settle before a sly smirk tug
 
 "I... thanks, Daren."
 
-I suppress a grimace, making a mental note to keep the sick sister story airtight whenever he brings it up.
+I suppress a grimace, the guilt pricking behind my ribs. The sick sister story is now load-bearing; I will have to keep every detail airtight whenever he brings it up.
 
-Daren leans against the stone, letting the silence settle before a sly smirk tugs at his mouth.
+Daren leans against the granite, letting the silence settle before a sly smirk tugs at his mouth.
 
 "So. How are things progressing with Kate? Have you made any headway?"
 
 }
 choice(""I'm not trying to seduce her, Daren."", Ch3-Seduce, v_current_scene = Ch3-Seduce, v_ch3_seduce = 1, v_available_points = +6, v_available_points_aux = +6)
-choice(""She still hasn't given in to my charms."", Ch3-Charm, v_current_scene = Ch3-Charm, v_ch3_seduce = 2, v_available_points = +6, v_available_points_aux = +6)
-choice(""She's eating out of the palm of my hand!"", Ch3-Palm, v_current_scene = Ch3-Palm, v_ch3_seduce = 3, v_available_points = +6, v_available_points_aux = +6)
+choice(""If 'headway' means she argues instead of freezing me, then yes."", Ch3-Charm, v_current_scene = Ch3-Charm, v_ch3_seduce = 2, v_available_points = +6, v_available_points_aux = +6)
+choice(""She hasn't tried to kill me since yesterday. I'm calling that progress."", Ch3-Palm, v_current_scene = Ch3-Palm, v_ch3_seduce = 3, v_available_points = +6, v_available_points_aux = +6)
 
 
 ID: Ch3-Seduce
@@ -557,7 +527,7 @@ He reaches into a leather pouch at his waist and produces a compact copper-and-c
 
 "Keep this on you at all times. If danger closes in, tap the rune three times. I will come running."
 
-"Promise me one thing first," I say, closing my fingers over the device.
+"Promise me one thing first," I say, closing my fingers over the cold metal.
 
 "Name it."
 
@@ -580,7 +550,7 @@ choice("Invest points later(by pressing the stats button on the top of the scree
 ID: Ch3-Charm
 TEXT:
 
-"She still hasn't given in to my charms."
+"If 'headway' means she argues instead of freezing me, then yes."
 
 Daren chuckles, shaking his head.
 
@@ -594,7 +564,7 @@ He reaches into a leather pouch at his waist and produces a compact copper-and-c
 
 "Keep this on you at all times. If danger closes in, tap the rune three times. I will come running."
 
-"Promise me one thing first," I say, closing my fingers over the device.
+"Promise me one thing first," I say, closing my fingers over the cold metal.
 
 "Name it."
 
@@ -617,7 +587,7 @@ choice("Invest points later(by pressing the stats button on the top of the scree
 ID: Ch3-Palm
 TEXT:
 
-"She's eating out of the palm of my hand!"
+"She hasn't tried to kill me since yesterday. I'm calling that progress."
 
 Daren roars with laughter, slapping his thigh.
 
@@ -631,7 +601,7 @@ He reaches into a leather pouch at his waist and produces a compact copper-and-c
 
 "Keep this on you at all times. If danger closes in, tap the rune three times. I will come running."
 
-"Promise me one thing first," I say, closing my fingers over the device.
+"Promise me one thing first," I say, closing my fingers over the cold metal.
 
 "Name it."
 
@@ -666,7 +636,7 @@ He reaches into a leather pouch at his waist and produces a compact copper-and-c
 
 "Keep this on you at all times. If danger closes in, tap the rune three times. I will come running."
 
-"Promise me one thing first," I say, closing my fingers over the device.
+"Promise me one thing first," I say, closing my fingers over the cold metal.
 
 "Name it."
 
@@ -688,7 +658,7 @@ choice("Continue", Ch3-Kate-debt, v_current_scene = Ch3-Kate-debt)
 ID: Ch3-Charm-spent
 TEXT:
 
-"She still hasn't given in to my charms."
+"If 'headway' means she argues instead of freezing me, then yes."
 
 Daren chuckles, shaking his head.
 
@@ -702,7 +672,7 @@ He reaches into a leather pouch at his waist and produces a compact copper-and-c
 
 "Keep this on you at all times. If danger closes in, tap the rune three times. I will come running."
 
-"Promise me one thing first," I say, closing my fingers over the device.
+"Promise me one thing first," I say, closing my fingers over the cold metal.
 
 "Name it."
 
@@ -724,7 +694,7 @@ choice("Continue", Ch3-Kate-debt, v_current_scene = Ch3-Kate-debt)
 ID: Ch3-Palm-spent
 TEXT:
 
-"She's eating out of the palm of my hand!"
+"She hasn't tried to kill me since yesterday. I'm calling that progress."
 
 Daren roars with laughter, slapping his thigh.
 
@@ -738,7 +708,7 @@ He reaches into a leather pouch at his waist and produces a compact copper-and-c
 
 "Keep this on you at all times. If danger closes in, tap the rune three times. I will come running."
 
-"Promise me one thing first," I say, closing my fingers over the device.
+"Promise me one thing first," I say, closing my fingers over the cold metal.
 
 "Name it."
 
@@ -761,19 +731,19 @@ ID: Ch3-Kate-debt
 TEXT:
 
 #if(v_ch2_kate_debt == 0) {
-I slip the stat booster into my tunic and follow Daren into the cave. We wake Kate, who slips outside into the shadows to take second watch while Daren and I drop onto our bedrolls.
+I slip the stat booster into my tunic and follow Daren down the rock slope into the cave. We wake Kate, who slips outside into the shadows to take second watch while Daren and I drop onto our blankets.
 
-Hours later, a hand grips my shoulder and shakes me awake. Kate leans over me, her voice a harsh whisper barely louder than the draft whistling through the rocks.
+Hours later, cold fingers grip my shoulder and shake me awake. Kate leans over me in the gloom, her breath misting in the freezing air, her voice a harsh whisper barely louder than the draft whistling through the limestone cracks.
 
 "Wake up, stillwater. I need your eyes on something."
 
-I blink into the darkness, sitting up slowly. "You need my help?"
+I blink against the pitch black, sitting up slowly on the stone floor. "You need my help?"
 
-"Quiet. You'll wake Daren. Yes. Come outside and look at a site in the trees. It won't take two minutes."
+"Keep your voice down. You'll wake Daren. Yes. Come outside and look at a site in the timber. It won't take two minutes."
 
 "And why would I help you? You've done nothing but glare at me and question every breath I take since we met."
 
-"Because then I owe you a debt," she says evenly. "And I never leave a ledger open."
+"Because then I owe you a debt," she says evenly, her dark eyes steady in the dark. "And I never leave a ledger open."
 
 Her expression is dead serious. Whatever lies out in those woods matters to her far more than she lets on.
 
@@ -781,15 +751,15 @@ Her expression is dead serious. Whatever lies out in those woods matters to her 
 
 "Because Daren knows formal schools and white magic. You know the obscure corners. You understand how a stat booster functions, which almost no one outside Varathia does. And there is a question I intend to ask in private. Move, before Daren stirs."
 
-We slip through the entrance and plunge into the dense pines. The moon hangs midway down the western sky; I cannot have slept for more than three hours.
+We slip past Daren's sleeping form, out through the entrance and into the dense pines. The moon hangs midway down the western sky; I cannot have slept for more than three hours.
 
-We walk in silence for several minutes, dry needles crunching under our boots.
+We walk in silence for several minutes, frozen needles crunching softly under our boots.
 
 }
 #if(v_ch2_kate_debt == 1 && v_ch2_not_owe_debt == 1) {
-I slip the stat booster into my tunic and follow Daren into the cave. We wake Kate, who slips outside into the shadows to take second watch while Daren and I drop onto our bedrolls.
+I slip the stat booster into my tunic and follow Daren down the rock slope into the cave. We wake Kate, who slips outside into the shadows to take second watch while Daren and I drop onto our blankets.
 
-Hours later, a hand grips my shoulder and shakes me awake. Kate leans over me, her voice a harsh whisper barely louder than the draft whistling through the rocks.
+Hours later, cold fingers grip my shoulder and shake me awake. Kate leans over me in the gloom, her breath misting in the freezing air, her voice a harsh whisper barely louder than the draft whistling through the limestone cracks.
 
 "Wake up, stillwater. Time to settle your account."
 
@@ -805,19 +775,19 @@ She isn't bluffing. This matters to her.
 
 "Because Daren knows formal schools and white magic. You know the obscure corners. You understand how a stat booster functions, which almost no one outside Varathia does. And there is a question I intend to ask in private. Move, before Daren stirs."
 
-We slip through the entrance and plunge into the dense pines. The moon hangs midway down the western sky; I cannot have slept for more than three hours.
+We slip past Daren's sleeping form, out through the entrance and into the dense pines. The moon hangs midway down the western sky; I cannot have slept for more than three hours.
 
-We walk in silence for several minutes, dry needles crunching under our boots.
+We walk in silence for several minutes, frozen needles crunching softly under our boots.
 
 }
 #if(v_ch2_kate_debt == 1 && v_ch2_not_owe_debt == 0) {
-I slip the stat booster into my tunic and follow Daren into the cave. We wake Kate, who slips outside into the shadows to take second watch while Daren and I drop onto our bedrolls.
+I slip the stat booster into my tunic and follow Daren down the rock slope into the cave. We wake Kate, who slips outside into the shadows to take second watch while Daren and I drop onto our blankets.
 
-Hours later, a hand grips my shoulder and shakes me awake. Kate leans over me, her voice a harsh whisper barely louder than the draft whistling through the rocks.
+Hours later, cold fingers grip my shoulder and shake me awake. Kate leans over me in the gloom, her breath misting in the freezing air, her voice a harsh whisper barely louder than the draft whistling through the limestone cracks.
 
 "Wake up, stillwater. Time to settle your account."
 
-I sit up against the stone wall, clearing the grogginess from my throat.
+I sit up against the stone wall, clearing the sleep from my throat.
 
 "And how exactly do you expect me to pay it?"
 
@@ -829,9 +799,9 @@ She isn't bluffing. This matters to her.
 
 "Because Daren knows formal schools and white magic. You know the obscure corners. You understand how a stat booster functions, which almost no one outside Varathia does. And there is a question I intend to ask in private. Move, before Daren stirs."
 
-We slip through the entrance and plunge into the dense pines. The moon hangs midway down the western sky; I cannot have slept for more than three hours.
+We slip past Daren's sleeping form, out through the entrance and into the dense pines. The moon hangs midway down the western sky; I cannot have slept for more than three hours.
 
-We walk in silence for several minutes, dry needles crunching under our boots.
+We walk in silence for several minutes, frozen needles crunching softly under our boots.
 
 }
 choice("Ask her how come she knows how the stat device works", Ch3-Awkward, v_current_scene = Ch3-Awkward, v_ch3_awkward = 1)
@@ -842,11 +812,11 @@ ID: Ch3-Awkward
 TEXT:
 
 #if(v_ch3_awkward == 1) {
-"How do you know what stat boosters actually do?" I ask her.
+"How do you know what stat boosters actually do?" I ask her as we navigate the dark timber.
 
-Kate walks with her eyes fixed ahead, silent for a moment as she weighs how much truth to part with.
+Kate walks with her eyes fixed on the tree line ahead, silent for a moment as she weighs how much truth to part with.
 
-"Stat boosters were invented on Varathia. I was born on this continent. People from here recognize the hardware. Outsiders rarely do."
+"Stat boosters were invented on Varathia. I was born on this continent. People from here recognise the make. Outsiders rarely do."
 
 "You were born here? I thought you arrived on the tournament ships."
 
@@ -854,13 +824,13 @@ Kate walks with her eyes fixed ahead, silent for a moment as she weighs how much
 
 "And this site you're leading me to ties into that business?"
 
-She gives no answer, but her jaw tightens. She stops abruptly in a small moonlit clearing and turns to face me squarely.
+She gives no answer, but her jaw tightens and her stride quickens. She stops abruptly in a small moonlit clearing and turns to face me squarely.
 
 }
 #if(v_ch3_awkward == 2) {
 "So what did you want to ask me in private?"
 
-Kate stops abruptly in a small moonlit clearing and turns to face me squarely.
+Kate stops abruptly in a small moonlit clearing and turns to face me squarely, her green cloak pulled tight against the night chill.
 
 }
 choice("Continue", Ch3-Bugging, v_current_scene = Ch3-Bugging)
@@ -870,13 +840,13 @@ ID: Ch3-Bugging
 TEXT:
 
 #if(v_ch2_kate_whisper == 1) {
-"There is something that has bothered me since yesterday," she says, her dark eyes searching mine.
+"There is something that has bothered me since yesterday," she says, her dark eyes searching mine in the moonlight.
 
 "When you and Daren first saw me, you whispered between yourselves for nearly a full minute. You claimed you were debating my looks, and I let it pass. But an entire day went by, and neither of you uttered a single word about banshees. Not even after that enchanter shouted it across the clearing during our battle. You two were debating whether I was a monster, and you decided against purification."
 
-She steps closer, the cold radiance of her aura prickling against my skin.
+She steps closer, the faint cold radiance of her aura prickling against my skin like needle-ice.
 
-"Why? I approached Daren hoping his reputation for mercy meant he wouldn't strike me down on sight. But I put my life on the line by stepping into his path. Why did Daren hold back when every scrap of evidence said banshee?"
+"Why? I approached Daren hoping his reputation for mercy meant he wouldn't strike me down on sight. But I put my life on the line by stepping into his path. Why did Daren hold back when every scrap of dogma said banshee?"
 
 She still distrusts me. If I admit I was the one who talked Daren down, she will either call me a liar or suspect an ulterior motive and lose whatever faith she has in Daren's protection.
 
@@ -898,13 +868,13 @@ I keep my mouth shut.
 
 }
 #if(v_ch2_kate_whisper == 2) {
-"There is something that has bothered me since yesterday," she says, her dark eyes searching mine.
+"There is something that has bothered me since yesterday," she says, her dark eyes searching mine in the moonlight.
 
 "When you and Daren first saw me, you whispered between yourselves for nearly a full minute. You made that pathetic joke about making a pass at me to throw me off balance, and I let it pass. But an entire day went by, and neither of you uttered a single word about banshees. Not even after that enchanter shouted it across the clearing during our battle. You two were debating whether I was a monster, and you decided against purification."
 
-She steps closer, the cold radiance of her aura prickling against my skin.
+She steps closer, the faint cold radiance of her aura prickling against my skin like needle-ice.
 
-"Why? I approached Daren hoping his reputation for mercy meant he wouldn't strike me down on sight. But I put my life on the line by stepping into his path. Why did Daren hold back when every scrap of evidence said banshee?"
+"Why? I approached Daren hoping his reputation for mercy meant he wouldn't strike me down on sight. But I put my life on the line by stepping into his path. Why did Daren hold back when every scrap of dogma said banshee?"
 
 She still distrusts me. If I admit I was the one who talked Daren down, she will either call me a liar or suspect an ulterior motive and lose whatever faith she has in Daren's protection.
 
@@ -926,13 +896,13 @@ I keep my mouth shut.
 
 }
 #if(v_ch2_kate_whisper == 3) {
-"There is something that has bothered me since yesterday," she says, her dark eyes searching mine.
+"There is something that has bothered me since yesterday," she says, her dark eyes searching mine in the moonlight.
 
 "When you and Daren first saw me, you whispered between yourselves for nearly a full minute. When I confronted you, you fed me an obvious lie. But an entire day went by, and neither of you uttered a single word about banshees. Not even after that enchanter shouted it across the clearing during our battle. You two were debating whether I was a monster, and you decided against purification."
 
-She steps closer, the cold radiance of her aura prickling against my skin.
+She steps closer, the faint cold radiance of her aura prickling against my skin like needle-ice.
 
-"Why? I approached Daren hoping his reputation for mercy meant he wouldn't strike me down on sight. But I put my life on the line by stepping into his path. Why did Daren hold back when every scrap of evidence said banshee?"
+"Why? I approached Daren hoping his reputation for mercy meant he wouldn't strike me down on sight. But I put my life on the line by stepping into his path. Why did Daren hold back when every scrap of dogma said banshee?"
 
 She still distrusts me. If I admit I was the one who talked Daren down, she will either call me a liar or suspect an ulterior motive and lose whatever faith she has in Daren's protection.
 
@@ -954,13 +924,13 @@ I keep my mouth shut.
 
 }
 #if(v_ch2_kate_whisper == 4) {
-"There is something that has bothered me since yesterday," she says, her dark eyes searching mine.
+"There is something that has bothered me since yesterday," she says, her dark eyes searching mine in the moonlight.
 
 "When you and Daren first saw me, you whispered between yourselves for nearly a full minute. You claimed you were trying to decide whether I was a banshee, and Daren told me you had already concluded I wasn't."
 
-She steps closer, the cold radiance of her aura prickling against my skin.
+She steps closer, the faint cold radiance of her aura prickling against my skin like needle-ice.
 
-"Why? I approached Daren hoping his reputation for mercy meant he wouldn't strike me down on sight. But I put my life on the line by stepping into his path. Why did Daren hold back when every scrap of evidence said banshee?"
+"Why? I approached Daren hoping his reputation for mercy meant he wouldn't strike me down on sight. But I put my life on the line by stepping into his path. Why did Daren hold back when every scrap of dogma said banshee?"
 
 She still distrusts me. If I admit I was the one who talked Daren down, she will either call me a liar or suspect an ulterior motive and lose whatever faith she has in Daren's protection.
 
@@ -991,7 +961,7 @@ TEXT:
 
 "Who said I was born a mage?"
 
-The words hang in the night air. My mind stalls, turning the phrase over.
+The words hang in the freezing night air. My mind stalls, turning the phrase over like a strange coin.
 
 "Wait. You're saying you were born an ordinary human, and became a mage later?"
 
@@ -999,7 +969,7 @@ The words hang in the night air. My mind stalls, turning the phrase over.
 
 "How?" My voice cracks with sudden intensity. "Did you touch the Magium? How did you do it? Tell me!"
 
-The excitement spills through before I can check it. Kate stares at me, bewilderment hardening into sudden, cold realization.
+The obsession spills through before I can check it. Kate stares at me, bewilderment hardening into sudden, cold realization.
 
 "By the gods," she whispers. "You weren't bluffing. You truly are an ordinary human, and you came to this bloodbath believing you could make yourself a mage."
 
@@ -1025,7 +995,7 @@ As the trees thin and the mountain ridge recedes far behind us, I catch up to he
 
 choice(""Why not?"", Ch3-Daren-worried, v_current_scene = Ch3-Daren-worried, v_ch3_daren_worry = 1)
 choice(""Oh? Are you suggesting he can defend himself while asleep?"", Ch3-Daren-worried, v_current_scene = Ch3-Daren-worried, v_ch3_daren_worry = 2)
-choice(""Damn you! I'm not leaving my friend behind!"", Ch3-Daren-worried, v_current_scene = Ch3-Daren-worried, v_ch3_daren_worry = 3)
+choice(""If Daren dies in that cave, I'm next. That isn't loyalty, it's arithmetic."", Ch3-Daren-worried, v_current_scene = Ch3-Daren-worried, v_ch3_daren_worry = 3)
 
 
 ID: Ch3-Daren-worried
@@ -1044,7 +1014,7 @@ I hesitate, then pivot on my heel and take several strides back along our trail.
 
 "How do I break through it?"
 
-"Fix the destination in your mind. Don't think about general directions. Visualize the cave itself—the stone arch, the damp moss, the embers. As long as you hold an exact mental anchor, the suggestion slips off. I survived banshee hunters for years using this ward. It covers a wide perimeter, but it drains my reserves. I can cast it twice a day at most, and it fades after several hours. Now come. We are nearly there."
+"Fix the destination in your mind. Don't think about general directions. Visualize the cave itself—the stone arch, the damp moss, the dead embers. As long as you hold an exact mental anchor, the suggestion slips off. I survived banshee hunters for years using this ward. It covers a wide perimeter, but it drains my reserves. I can cast it twice a day at most, and it fades after several hours. Now come. We are nearly there."
 
 Five minutes deeper into the woods, the forest opens into a wide scar of broken timber, splintered trunks, and gouged earth—identical to yesterday's battleground, except no bodies remain. Residual magical energy hums in the air, dense enough to make the hair on my arms stand up.
 
@@ -1066,7 +1036,7 @@ Kate's eyes widen. A faint, genuine smile touches the corners of her mouth—the
 
 I blink at her, caught off guard.
 
-"Well. Look at that. You can actually be nice."
+"Well. Look at that. You can be kind, when you choose."
 
 Her smile vanishes instantly into a glare. "What is that supposed to mean?"
 
@@ -1104,13 +1074,13 @@ Kate's eyes widen. A faint, genuine smile touches the corners of her mouth—the
 
 I blink at her, caught off guard.
 
-"Well. Look at that. You can actually be nice."
+"Well. Look at that. You can be kind, when you choose."
 
 Her smile vanishes instantly into a glare. "What is that supposed to mean?"
 
 }
 #if(v_ch3_daren_worry == 3) {
-"Damn you! I'm not leaving my friend behind!"
+"If Daren dies in that cave, I'm next. That isn't loyalty, it's arithmetic."
 
 "When did I suggest abandoning him?" Kate snaps. "If you are so frantic about your precious paladin, walk back and check on him. I will wait here."
 
@@ -1140,7 +1110,7 @@ Kate's eyes widen. A faint, genuine smile touches the corners of her mouth—the
 
 I blink at her, caught off guard.
 
-"Well. Look at that. You can actually be nice."
+"Well. Look at that. You can be kind, when you choose."
 
 Her smile vanishes instantly into a glare. "What is that supposed to mean?"
 
@@ -1157,17 +1127,17 @@ set(v_ch3_saved_from_dart,0) if (v_hearing < 2 && v_premonition < 2 || v_percept
 achievement("That was close!",v_ac_ch3_close)
 #if(v_perception == 3 && v_premonition >= 2) {
 
-A violent jolt of foresight hits my skull—a vision of a steel-tipped dart slicing out of the darkness straight toward Kate's throat.
+A violent jolt of foresight slams into my skull—a vision of a steel-tipped dart tearing out of the black timber straight toward Kate's throat.
 
-I spin on my heel, scanning the perimeter. Thirty yards back, half-hidden behind a thick pine trunk, two figures crouch in the shadows. One of them levels a heavy steel crossbow directly at Kate.
+I spin on my heel, scanning the tree line. Thirty yards back, half-hidden behind a massive pine trunk, two figures crouch in the shadows. One of them levels a heavy steel crossbow directly at Kate's neck.
 
 "Barry?" Kate asks, stepping toward me. "What do you—"
 
-The trigger snaps. I lunge, driving my shoulder into Kate's ribs and shoving her hard to the dirt. The dart hisses through the exact space where her neck was a fraction of a second ago, burying itself deep into a fallen log with a dull thud.
+The trigger snaps. I lunge, driving my shoulder hard into Kate's ribs and slamming her into the damp needles. The dart hisses through the exact space where her throat was a fraction of a second ago, burying itself to the fletching in a rotting log with a dull thud.
 
-"You blundering fool!" a voice shrieks from the tree line—high-pitched, reedy, and shrill enough to belong to a woman. "How do you miss a stationary target? Plan B! Deploy the smoke! Now!"
+"You blundering fool!" a voice shrieks from the tree line—high-pitched, reedy, and shrill. "How do you miss a stationary target? Second plan! Loose the smoke! Now!"
 
-Cylinders hiss in the brush, vomiting thick, pungent alchemical smoke that swallows the clearing in seconds. Between the darkness and the grey fog, the trees vanish into murky silhouettes, giving off only the faint, scattered warmth of mortal auras.
+Metal canisters hiss in the undergrowth, vomiting thick, pungent alchemical smoke that swallows the clearing in seconds. Between the night and the sulfurous grey fog, the pines vanish into murky silhouettes, giving off only the faint warmth of mortal auras.
 
 "Surrender, banshee!" the shrill voice screeches through the haze. "You are surrounded! You cannot see through this shroud. Lay down your arms, and we will grant you and your human pet a swift, painless throat-slit!"
 
@@ -1177,28 +1147,28 @@ Another hunter convinced I am a stillwater's lackey. The bluff is wearing thin.
 
 "Mages bleed like pigs," the voice snaps back. "And if you bleed, you die!"
 
-A hunting horn bellows, a deafening blast that drowns out the forest, followed by the simultaneous thrum of dozens of bowstrings. Crossbow bolts rain down through the smoke. Kate raises both palms, and a heavy dome of crystalline blue ice erupts from the frozen earth, enclosing us completely. Bolts shatter and ricochet off the frost with deafening cracks.
+A hunting horn bellows—a deafening, brassy roar that drowns out the forest, followed by the simultaneous thrum of dozens of heavy bowstrings. Crossbow bolts rain down through the smoke. Kate raises both palms, and a heavy dome of crystalline blue ice erupts from the frozen earth, enclosing us completely. Bolts shatter and ricochet off the frost with deafening cracks, spraying iron splinters into the dark.
 
-"Barry," Kate breathes, holding the spell steady. "Can you pinpoint them through the smoke?"
+"Barry," Kate breathes, holding the spell steady as the barrage hammers the dome. "Can you pinpoint them through the smoke?"
 
-I press my hand against the semi-translucent ice wall. My heightened vision cuts through the grey fog like a blade, mapping every crossbowman reloading behind the timber.
+I press my palm against the frosted ice wall. My heightened vision cuts through the sulfurous fog like a blade, mapping every crossbowman cranking a lever behind the timber.
 
 "Clear as glass."
 
-"Good. You are my eyes. When I drop the dome, call their marks. I will wipe them out while keeping you covered."
+"Good. You are my eyes. When I drop the front arc, call their marks. I will wipe them out while keeping you covered."
 
 }
 #if(v_premonition >= 2 && v_perception < 3) {
 
-A violent jolt of foresight hits my skull—a vision of a steel-tipped dart slicing out of the darkness straight toward Kate's throat.
+A violent jolt of foresight slams into my skull—a vision of a steel-tipped dart tearing out of the black timber straight toward Kate's throat.
 
-I wheel around, searching the dense shadows, but the night is pitch black and the trees blur together in a wall of pine and brush.
+I wheel around, searching the dense shadows, but the night is pitch black and the trees blur together into an impenetrable wall of pine and brush.
 
 "Barry?" Kate asks, turning toward me. "What do you—"
 
-A sharp hiss cuts the night. Before I can move, an iron dart thuds into Kate's left shoulder. She drops to one knee with a sharp gasp, clutching the puncture.
+A sharp hiss cuts the night. Before I can move, an iron dart thuds into Kate's left shoulder. She drops to one knee with a sharp gasp, her fingers clutching the puncture.
 
-"I'm... fine," she whispers through gritted teeth, though her skin drains of color and her eyelids flutter as she fights to stay upright.
+"I'm... fine," she whispers through gritted teeth, though her face drains of all color and her eyelids flutter as she fights to stay upright.
 
 A shrill, high-pitched laugh rings out from the trees.
 
@@ -1206,13 +1176,13 @@ A shrill, high-pitched laugh rings out from the trees.
 
 Another hunter convinced I am a stillwater's lackey. The bluff is wearing thin.
 
-"Is this a joke?" Kate forces the words out, her voice raw and slurred with exhaustion. "A hundred men in the brush... not a single caster... you think numbers can kill a mage?"
+"Is this a joke?" Kate forces the words out, her voice raw and slurred with strain. "A hundred men in the brush... not a single caster... you think numbers can kill a mage?"
 
 "Mages bleed like pigs," the voice snaps back. "And if you bleed, you die!"
 
-A hunting horn bellows, a deafening blast that drowns out the forest, followed by the simultaneous thrum of dozens of bowstrings. Crossbow bolts rain down through the darkness. Kate slams her palms into the soil, forcing a thick dome of crystalline ice into existence around us. Bolts shatter against the frost wall in a furious spray of iron and splinters.
+A hunting horn bellows—a deafening, brassy roar that drowns out the forest, followed by the simultaneous thrum of dozens of heavy bowstrings. Crossbow bolts rain down through the darkness. Kate slams her palms into the soil, forcing a thick dome of crystalline ice into existence around us. Bolts shatter against the frost wall in a furious spray of iron and ice chips.
 
-"Barry," Kate gasps, sweat dripping from her jaw as her left eye twitches violently. "Listen to me. I cannot hold this barrier long. Run back to the cave and fetch Daren. We cannot survive this alone."
+"Barry," Kate gasps, sweat dripping from her jaw as her left eye twitches violently from the venom. "Listen to me. I cannot hold this barrier long. Run back to the cave and fetch Daren. We cannot survive this alone."
 
 "You can't hold out here!" I say. "You're barely conscious!"
 
@@ -1223,15 +1193,15 @@ A hunting horn bellows, a deafening blast that drowns out the forest, followed b
 
 A muffled hiss drifts from the brush behind us: "What are you waiting for? Shoot her!"
 
-I spin around instantly, tracking the sound. Thirty yards back, half-hidden behind a thick pine trunk, two figures crouch in the shadows. One of them levels a heavy steel crossbow directly at Kate.
+I spin around instantly, tracking the whisper. Thirty yards back, half-hidden behind a thick pine trunk, two figures crouch in the shadows. One of them levels a heavy steel crossbow directly at Kate's neck.
 
 "Barry?" Kate asks, stepping toward me. "What do you—"
 
-The trigger snaps. I lunge, driving my shoulder into Kate's ribs and shoving her hard to the dirt. The dart hisses through the exact space where her neck was a fraction of a second ago, burying itself deep into a fallen log with a dull thud.
+The trigger snaps. I lunge, driving my shoulder hard into Kate's ribs and slamming her into the damp needles. The dart hisses through the exact space where her throat was a fraction of a second ago, burying itself to the fletching in a rotting log with a dull thud.
 
-"You blundering fool!" a voice shrieks from the tree line—high-pitched, reedy, and shrill enough to belong to a woman. "How do you miss a stationary target? Plan B! Deploy the smoke! Now!"
+"You blundering fool!" a voice shrieks from the tree line—high-pitched, reedy, and shrill. "How do you miss a stationary target? Second plan! Loose the smoke! Now!"
 
-Cylinders hiss in the brush, vomiting thick, pungent alchemical smoke that swallows the clearing in seconds. Between the darkness and the grey fog, the trees vanish into murky silhouettes, giving off only the faint, scattered warmth of mortal auras.
+Metal canisters hiss in the undergrowth, vomiting thick, pungent alchemical smoke that swallows the clearing in seconds. Between the night and the sulfurous grey fog, the pines vanish into murky silhouettes, giving off only the faint warmth of mortal auras.
 
 "Surrender, banshee!" the shrill voice screeches through the haze. "You are surrounded! You cannot see through this shroud. Lay down your arms, and we will grant you and your human pet a swift, painless throat-slit!"
 
@@ -1241,15 +1211,15 @@ Another hunter convinced I am a stillwater's lackey. The bluff is wearing thin.
 
 "Mages bleed like pigs," the voice snaps back. "And if you bleed, you die!"
 
-A hunting horn bellows, a deafening blast that drowns out the forest, followed by the simultaneous thrum of dozens of bowstrings. Crossbow bolts rain down through the smoke. Kate raises both palms, and a heavy dome of crystalline blue ice erupts from the frozen earth, enclosing us completely. Bolts shatter and ricochet off the frost with deafening cracks.
+A hunting horn bellows—a deafening, brassy roar that drowns out the forest, followed by the simultaneous thrum of dozens of heavy bowstrings. Crossbow bolts rain down through the smoke. Kate raises both palms, and a heavy dome of crystalline blue ice erupts from the frozen earth, enclosing us completely. Bolts shatter and ricochet off the frost with deafening cracks, spraying iron splinters into the dark.
 
-"Barry," Kate breathes, holding the spell steady. "Can you pinpoint them through the smoke?"
+"Barry," Kate breathes, holding the spell steady as the barrage hammers the dome. "Can you pinpoint them through the smoke?"
 
-I press my hand against the semi-translucent ice wall. My heightened vision cuts through the grey fog like a blade, mapping every crossbowman reloading behind the timber.
+I press my palm against the frosted ice wall. My heightened vision cuts through the sulfurous fog like a blade, mapping every crossbowman cranking a lever behind the timber.
 
 "Clear as glass."
 
-"Good. You are my eyes. When I drop the dome, call their marks. I will wipe them out while keeping you covered."
+"Good. You are my eyes. When I drop the front arc, call their marks. I will wipe them out while keeping you covered."
 
 }
 #if(v_hearing >= 2 && v_perception < 3 && v_premonition < 2) {
@@ -1260,9 +1230,9 @@ I spin around toward the voice, but the forest is an impenetrable wall of shadow
 
 "Barry?" Kate asks, turning toward me. "What do you—"
 
-A sharp hiss cuts the night. Before I can move, an iron dart thuds into Kate's left shoulder. She drops to one knee with a sharp gasp, clutching the puncture.
+A sharp hiss cuts the night. Before I can move, an iron dart thuds into Kate's left shoulder. She drops to one knee with a sharp gasp, her fingers clutching the puncture.
 
-"I'm... fine," she whispers through gritted teeth, though her skin drains of color and her eyelids flutter as she fights to stay upright.
+"I'm... fine," she whispers through gritted teeth, though her face drains of all color and her eyelids flutter as she fights to stay upright.
 
 A shrill, high-pitched laugh rings out from the trees.
 
@@ -1270,13 +1240,13 @@ A shrill, high-pitched laugh rings out from the trees.
 
 Another hunter convinced I am a stillwater's lackey. The bluff is wearing thin.
 
-"Is this a joke?" Kate forces the words out, her voice raw and slurred with exhaustion. "A hundred men in the brush... not a single caster... you think numbers can kill a mage?"
+"Is this a joke?" Kate forces the words out, her voice raw and slurred with strain. "A hundred men in the brush... not a single caster... you think numbers can kill a mage?"
 
 "Mages bleed like pigs," the voice snaps back. "And if you bleed, you die!"
 
-A hunting horn bellows, a deafening blast that drowns out the forest, followed by the simultaneous thrum of dozens of bowstrings. Crossbow bolts rain down through the darkness. Kate slams her palms into the soil, forcing a thick dome of crystalline ice into existence around us. Bolts shatter against the frost wall in a furious spray of iron and splinters.
+A hunting horn bellows—a deafening, brassy roar that drowns out the forest, followed by the simultaneous thrum of dozens of heavy bowstrings. Crossbow bolts rain down through the darkness. Kate slams her palms into the soil, forcing a thick dome of crystalline ice into existence around us. Bolts shatter against the frost wall in a furious spray of iron and ice chips.
 
-"Barry," Kate gasps, sweat dripping from her jaw as her left eye twitches violently. "Listen to me. I cannot hold this barrier long. Run back to the cave and fetch Daren. We cannot survive this alone."
+"Barry," Kate gasps, sweat dripping from her jaw as her left eye twitches violently from the venom. "Listen to me. I cannot hold this barrier long. Run back to the cave and fetch Daren. We cannot survive this alone."
 
 "You can't hold out here!" I say. "You're barely conscious!"
 
@@ -1301,9 +1271,9 @@ Another hunter convinced I am a stillwater's lackey. The bluff is wearing thin.
 
 "Mages bleed like pigs," the voice snaps back. "And if you bleed, you die!"
 
-A hunting horn bellows, a deafening blast that drowns out the forest, followed by the simultaneous thrum of dozens of bowstrings. Crossbow bolts rain down through the darkness. Kate slams her palms into the soil, forcing a thick dome of crystalline ice into existence around us. Bolts shatter against the frost wall in a furious spray of iron and splinters.
+A hunting horn bellows—a deafening, brassy roar that drowns out the forest, followed by the simultaneous thrum of dozens of heavy bowstrings. Crossbow bolts rain down through the darkness. Kate slams her palms into the soil, forcing a thick dome of crystalline ice into existence around us. Bolts shatter against the frost wall in a furious spray of iron and ice chips.
 
-"Barry," Kate gasps, sweat dripping from her jaw as her left eye twitches violently. "Listen to me. I cannot hold this barrier long. Run back to the cave and fetch Daren. We cannot survive this alone."
+"Barry," Kate gasps, sweat dripping from her jaw as her left eye twitches violently from the venom. "Listen to me. I cannot hold this barrier long. Run back to the cave and fetch Daren. We cannot survive this alone."
 
 "You can't hold out here!" I say. "You're barely conscious!"
 
@@ -1332,13 +1302,13 @@ As I slip into the dark pines, Kate calls out behind me:
 
 The war horn screams, drowning her words as she seals the ice dome against another rain of bolts. There is no time to double back.
 
-I sprint between the trees, ducking beneath branches and bypassing two mercenaries focused on the ice dome. I tear through the woods toward the mountain ridge.
+I sprint between the trees, ducking beneath low branches and bypassing two skirmishers whose attention is locked on the ice dome. I tear through the woods toward the mountain ridge.
 
-As I close in on our valley, a heavy fog settles over my thoughts. An urgent compulsion pulls me left, telling me the cave lies the other way. I turn, take twenty paces, realize I am heading back downhill, and try to retrace my steps. Every attempt veers off course.
+As I close in on our valley, a heavy fog settles over my thoughts. An urgent compulsion pulls me left, telling me the cave lies in the opposite direction. I turn, take twenty paces, realize I am heading back downhill, and try to retrace my steps. Every attempt veers off course.
 
 Kate's suggestion ward. In the rush of battle, I forgot her barrier entirely.
 
-I stumble in circles through the dark brush, my heart pounding in panic. A dry branch snaps behind me. Before I can draw my dagger, an iron bolt punches through my shoulder blade, driving me to my knees. Two more bolts slam into my chest. Blood fills my throat, and the dark forest tilts into blackness.
+I stumble in circles through the dark brush, panic hammering in my throat. A dry branch snaps behind me. Before I can draw my dagger, an iron bolt punches through my shoulder blade, driving me to my knees. Two more bolts slam into my chest. Blood fills my throat, and the dark forest tilts into blackness.
 
 }
 #if(v_ch3_daren_worry == 1) {
@@ -1386,7 +1356,7 @@ choice(""Kate cast a barrier that prevents enemies from approaching our cave."",
 ID: Ch3-Private
 TEXT:
 
-"She wanted to ask me in private why we didn't try to purify her. She was afraid that if she'd ask you, personally, she might give you ideas."
+"She wanted to ask me in private why we didn't try to purify her. She was afraid that if she asked you personally, she might give you ideas."
 
 Daren stares down at her bloodied face, a muscle working in his cheek.
 
@@ -1401,9 +1371,9 @@ TEXT:
 
 "We thought we could handle it by ourselves. It wasn't that far away and she needed my help to study some magical traces."
 
-"You thought wrong," Daren says grimly, gathering Kate into his arms and lifting her off the bloodstained ground. "Let us move before lingering scouts bring reinforcements down on this clearing."
+"You thought wrong," Daren says grimly, his voice tight as he scoops Kate up against his plate cuirass. Her head lolls back against his gorget, blood soaking dark into the green wool of her cloak. "Let us move before lingering scouts bring reinforcements down on this clearing."
 
-He carries her back through the dark woods to our cave, laying her gently near the dead fire on a thick bed of blankets to rest.
+He turns and carries her through the frozen pines, boots crunching heavy in the dark. By the time we reach the cave, he lays her gently beside the cold hearth stones, wrapping our spare blankets around her shivering shoulders.
 
 choice("Next chapter", Ch4-Intro, v_next_chapter_crash = 1, v_current_scene = Ch4-Intro, v_chapter_save_counter = 5, v_checkpoint_rich = 1, v_ch3_kate_badly_hurt = 1, special:checkpoint_save)
 
@@ -1413,9 +1383,9 @@ TEXT:
 
 "Kate cast a barrier that prevents enemies from approaching our cave."
 
-"I am not concerned with my own hide, Barry! I am concerned with yours!" Daren snaps, hauling Kate into his arms. "This is why parties hold formation. The moment we divide, disaster follows. Come. We move before enemy scouts regroup."
+"I am not concerned with my own hide, Barry! I am concerned with yours!" Daren snaps, hauling Kate into his arms with a clatter of steel harness. He looks around the silent grove, his jaw set like iron. "This is why parties hold formation. The moment we divide, disaster follows. Come. We move before enemy scouts regroup."
 
-He carries her back through the dark woods to our cave, laying her gently near the dead fire on a thick bed of blankets to rest.
+He marches through the dark timber without another word, Kate's blood dripping onto his gauntlets. Inside the cavern, he settles her onto a bed of dried grass near the wall, pressing his palm to her brow to monitor her fading pulse.
 
 choice("Next chapter", Ch4-Intro, v_next_chapter_crash = 1, v_current_scene = Ch4-Intro, v_chapter_save_counter = 5, v_checkpoint_rich = 1, v_ch3_kate_badly_hurt = 1, special:checkpoint_save)
 
@@ -1425,9 +1395,9 @@ TEXT:
 
 "She never said that she's a banshee. Just that the evidence pointed that way."
 
-"You cannot look away from reality forever, Barry," Daren says quietly, gathering Kate into his arms. "I pray that when your eyes finally open, it won't be too late to save her. Come. We move before scouts return."
+"You cannot look away from reality forever, Barry," Daren says quietly, gathering Kate against his chest as the last wisps of white healing light flicker out from his palms. "I pray that when your eyes finally open, it won't be too late to save her. Come. We move before scouts return."
 
-He carries her back through the dark woods to our cave, laying her gently near the dead fire on a thick bed of blankets to rest.
+He carries her in silence through the misty ravines, his breath frosting in the mountain air. Back in the cave shelter, he sets her down on our thickest wool blanket and pulls her hood back from her pale, sweat-streaked face.
 
 choice("Next chapter", Ch4-Intro, v_next_chapter_crash = 1, v_current_scene = Ch4-Intro, v_chapter_save_counter = 5, v_checkpoint_rich = 1, v_ch3_kate_badly_hurt = 1, special:checkpoint_save)
 
@@ -1437,11 +1407,11 @@ TEXT:
 
 "Actually she was born human, but became a mage afterwards."
 
-Daren stops, looking at me with heavy skepticism.
+Daren stops mid-stride, turning to stare at me with heavy skepticism under his scarred brow.
 
-"She told you this, and you took it as truth? Women are not mages, Barry. Denying facts will only bring tragedy. Come. We need to leave before lingering scouts bring more men."
+"She told you this, and you took it as truth? Women are not mages, Barry. Denying reality will only lead to tragedy. Come. We need to leave before lingering scouts bring more men."
 
-He gathers Kate into his arms, carrying her back through the dark woods to our cave, and lays her gently near the dead fire on a thick bed of blankets to rest.
+He lifts Kate carefully against his breastplate, carrying her back along the mountain trail to our cavern. He lowers her onto our bedrolls beside the hearth, tucking the blankets around her trembling frame to ward off the chill.
 
 choice("Next chapter", Ch4-Intro, v_next_chapter_crash = 1, v_current_scene = Ch4-Intro, v_chapter_save_counter = 5, v_checkpoint_rich = 1, v_ch3_kate_badly_hurt = 1, special:checkpoint_save)
 
@@ -1513,7 +1483,7 @@ choice("Pressure him into telling me where he's hiding the rest of his gold", Ch
 ID: Ch3-Saved-Spare-Take
 TEXT:
 
-Looking down at the sniveling wreck, I doubt he carries enough spine to ever cross our path again.
+Looking down at the sniveling noble, I doubt he carries enough spine to ever cross our path again.
 
 "Take your life," I say, picking up the pouch of gold. "Get out of our sight and don't look back."
 
@@ -1549,7 +1519,7 @@ choice("Continue", Ch3-Saved-Return, v_current_scene = Ch3-Saved-Return)
 ID: Ch3-Saved-Spare-Leave
 TEXT:
 
-Looking down at the sniveling wreck, I doubt he carries enough spine to ever cross our path again.
+Looking down at the sniveling noble, I doubt he carries enough spine to ever cross our path again.
 
 "Keep your coin," I say, nudging the bag aside. "Get out of our sight and don't look back."
 
@@ -1718,19 +1688,19 @@ choice("Next chapter", Ch4-Intro, v_next_chapter_crash = 1, v_current_scene = Ch
 ID: Ch3-Saved-Dagger
 TEXT:
 
-"Actually, I'd rather take the fight directly to them. Can you forge an ice dagger for me?"
+"Actually, I'd rather take the fight directly to them. Forge an ice dagger for me."
 
-"Are you out of your mind?" Kate stares at me.
+"Are you out of your mind?" Kate stares at me, her eyes wide with disbelief.
 
-She studies my face for a moment, realizes I am serious, and lets out a sharp breath.
+She searches my face for a moment, realizes the stubbornness in my jaw, and lets out a sharp, frustrated breath.
 
 "Fine. Die your own way."
 
-She weaves frost between her palms, shaping a twelve-inch stiletto of dense, translucent blue ice, and presses it into my hand. The hilt burns with biting cold, but the grip is grooved and balanced. This is no time to complain about frostbite.
+She weaves frost between her palms, shaping a twelve-inch stiletto of dense, translucent blue ice, and presses it into my hand. The hilt burns against my skin with biting, frostbiting cold, but the balance is lethal and the edge is honed to a razor finish.
 
-She parts a seam in the ice dome. I duck through the narrow opening and sprint headlong into the smoking forest.
+She parts a seam in the ice dome. I slip through the narrow opening and sprint into the smoking forest, boots digging into the moss.
 
-Thirty yards deep in the pines, I spot a mercenary crouching behind a wide oak trunk, his back turned as he cranks the lever on his repeating crossbow. He hasn't heard a sound.
+Thirty yards deep in the pines, I spot a mercenary crouching behind a wide oak trunk, his back turned as he cranks the iron lever on his repeating crossbow. He hasn't heard a sound.
 
 choice("Kill him with my dagger", Ch3-First-kill, v_current_scene = Ch3-First-kill, v_ch3_first_killed = 1)
 choice("Use the hilt of the dagger to knock him out", Ch3-First-Knock, v_current_scene = Ch3-First-Knock)
@@ -1739,11 +1709,11 @@ choice("Use the hilt of the dagger to knock him out", Ch3-First-Knock, v_current
 ID: Ch3-First-kill
 TEXT:
 
-I close the distance through the shadows, step behind the pine trunk, and hook my left arm around his jaw, dragging his head back as the ice dagger saws across his throat.
+I close the distance through the shadows, step behind the oak trunk, and hook my left forearm across his jaw, dragging his head back as the ice blade saws across his exposed throat.
 
-Hot arterial blood coats my fingers. The man thrashes, clutching his severed windpipe, but only a wet, drowning gurgle escapes his lips before his knees buckle and he slumps into the needles.
+Hot arterial blood sprays across my knuckles and sleeves, thick and metallic. The man thrashes violently against my chest, his fingers clawing at his severed windpipe, but only a wet, drowning gurgle escapes his mouth before his knees buckle and he slumps into the frozen needles.
 
-This is the first time I have taken a human life. It was...
+This is the first time in my life I have taken a human life. It was...
 
 choice("Easy", Ch3-First-Easy, v_current_scene = Ch3-First-Easy)
 choice("Necessary", Ch3-First-Necessary, v_current_scene = Ch3-First-Necessary)
@@ -1753,13 +1723,13 @@ choice("Horrifying", Ch3-First-Horrifying, v_current_scene = Ch3-First-Horrifyin
 ID: Ch3-First-Easy
 TEXT:
 
-...easy. Terrifyingly easy. No paralysis, no hesitation. My hands moved on instinct, executing the kill as cleanly as gutting fish. A grim relief settles over me—I will have to cut down many more before the Magium is within reach, and my resolve will not break.
+...easy. Terrifyingly easy. No freeze, no moral paralysis. My hands moved on instinct, executing the cut as cleanly as gutting a trout. I wipe the red smear from my palm against my trousers; my breath stays slow, pulse steady in my throat. I will have to cut down many more before the Magium is within reach, and my fingers do not shake.
 
-The wet gurgle of the dying man echoes through the immediate trees.
+The wet rattle of the dying man echoes through the immediate trees.
 
-Heavy footsteps pound through the brush. Five mercenaries peel away from the firing line on Kate's dome, crossbows raised as they rush my position.
+Heavy boots pound through the brush. Five mercenaries peel away from the firing line on Kate's dome, crossbows raised as they converge on my position.
 
-I scan the ground. The dead man's weapon is a repeating crossbow, its magazine slotted with five steel bolts. If my aim holds, every bolt has a mark.
+I look down at the dead man's repeating crossbow in the needles, its brass cylinder slotted with five steel bolts. If my aim holds, every bolt has a mark.
 
 choice("Hide behind a tree, hoping they will leave on their own", Ch3-Hide, v_current_scene = Ch3-Hide)
 choice("Use the crossbow, but try not to kill them", Ch3-Second-Alive, v_current_scene = Ch3-Second-Alive)
@@ -1769,13 +1739,13 @@ choice("Use the crossbow, and aim for the kill", Ch3-Second-Kill, v_current_scen
 ID: Ch3-First-Necessary
 TEXT:
 
-...necessary. No thrill, no satisfaction, but no guilt either. In this tournament, hesitation is a death sentence. He would have driven a bolt through my skull without a second thought. We entered these woods knowing the price of failure.
+...necessary. No thrill, no satisfaction, but no guilt either. In this tournament, hesitation is an open grave. He came to drive an iron bolt through our skulls for copper coin, and he died doing his trade. We entered these woods knowing the price of failure.
 
-The wet gurgle of the dying man echoes through the immediate trees.
+The wet rattle of the dying man echoes through the immediate trees.
 
-Heavy footsteps pound through the brush. Five mercenaries peel away from the firing line on Kate's dome, crossbows raised as they rush my position.
+Heavy boots pound through the brush. Five mercenaries peel away from the firing line on Kate's dome, crossbows raised as they converge on my position.
 
-I scan the ground. The dead man's weapon is a repeating crossbow, its magazine slotted with five steel bolts. If my aim holds, every bolt has a mark.
+I look down at the dead man's repeating crossbow in the needles, its brass cylinder slotted with five steel bolts. If my aim holds, every bolt has a mark.
 
 choice("Hide behind a tree, hoping they will leave on their own", Ch3-Hide, v_current_scene = Ch3-Hide)
 choice("Use the crossbow, but try not to kill them", Ch3-Second-Alive, v_current_scene = Ch3-Second-Alive)
@@ -1785,13 +1755,13 @@ choice("Use the crossbow, and aim for the kill", Ch3-Second-Kill, v_current_scen
 ID: Ch3-First-Horrifying
 TEXT:
 
-...horrifying. Hot blood drenches my sleeves, sticky and metallic. The sickening reality of extinguishing a human life hits my gut like a punch. Somewhere across the ocean, a family will wait for a man who is rotting in a Varathian forest. I force the tremor from my hands—I cannot afford remorse while Kate is pinned down.
+...horrifying. Hot blood drenches my hand, sticky and smelling sharply of copper. The sickening reality of extinguishing a human life hits my gut like a lead weight. Somewhere across the sea, a family will wait for a man who is cooling in a Varathian pine grove. I force my breath steady and clamp down on the tremor in my fingers—I cannot afford remorse while Kate is pinned down.
 
-The wet gurgle of the dying man echoes through the immediate trees.
+The wet rattle of the dying man echoes through the immediate trees.
 
-Heavy footsteps pound through the brush. Five mercenaries peel away from the firing line on Kate's dome, crossbows raised as they rush my position.
+Heavy boots pound through the brush. Five mercenaries peel away from the firing line on Kate's dome, crossbows raised as they converge on my position.
 
-I scan the ground. The dead man's weapon is a repeating crossbow, its magazine slotted with five steel bolts. If my aim holds, every bolt has a mark.
+I look down at the dead man's repeating crossbow in the needles, its brass cylinder slotted with five steel bolts. If my aim holds, every bolt has a mark.
 
 choice("Hide behind a tree, hoping they will leave on their own", Ch3-Hide, v_current_scene = Ch3-Hide)
 choice("Use the crossbow, but try not to kill them", Ch3-Second-Alive, v_current_scene = Ch3-Second-Alive)
@@ -1801,13 +1771,13 @@ choice("Use the crossbow, and aim for the kill", Ch3-Second-Kill, v_current_scen
 ID: Ch3-First-Knock
 TEXT:
 
-I close the distance through the shadows, step behind the pine trunk, and smash the weighted frost pommel of the dagger into the base of his skull.
+I close the distance through the shadows, step behind the oak trunk, and smash the weighted frost pommel of the dagger into the base of his skull.
 
 Bone cracks dull under the blow. The man lets out a choked shout before collapsing limp into the needles, his cry carrying through the trees.
 
-Heavy footsteps pound through the brush. Five mercenaries peel away from the firing line on Kate's dome, crossbows raised as they rush my position.
+Heavy boots pound through the brush. Five mercenaries peel away from the firing line on Kate's dome, crossbows raised as they converge on my position.
 
-I scan the ground. The unconscious man's weapon is a repeating crossbow, its magazine slotted with five steel bolts. If my aim holds, every bolt has a mark.
+I look down at the unconscious man's repeating crossbow in the needles, its brass cylinder slotted with five steel bolts. If my aim holds, every bolt has a mark.
 
 choice("Hide behind a tree, hoping they will leave on their own", Ch3-Hide, v_current_scene = Ch3-Hide)
 choice("Use the crossbow, but try not to kill them", Ch3-Second-Alive, v_current_scene = Ch3-Second-Alive)
@@ -1851,9 +1821,9 @@ Combat theory guides my trigger finger: I aim for the clavicle junction, disabli
 
 Three shots left in the cylinder.
 
-I roll out from the trunk. Instead of taking cover, the three remaining mercenaries have formed a defensive wall over their wounded allies. Perfect. Out in the open, their center mass is completely exposed.
+I roll out from the trunk. Instead of taking cover, the three remaining mercenaries have formed a defensive wall over their wounded allies. Out in the open, their limbs are completely exposed.
 
-I loose two rapid shots, piercing their thighs. Both collapse into the mud with agonized groans.
+I loose two rapid shots into their thighs. Both collapse into the mud with agonized groans.
 
 The last man standing levels his crossbow, but I duck beneath his line of fire, rising to put my final bolt through his knee.
 
@@ -1912,7 +1882,7 @@ set(v_is_dead,0) if (v_combat_technique >= 1 && v_reflexes >= 1 || v_combat_tech
 set(v_is_dead,1) if (v_reflexes == 0 && v_toughness < 3 || v_agility == 0 && v_combat_technique == 0 && v_reflexes >= 1 || v_agility == 0 && v_combat_technique == 0 && v_reflexes == 0 && v_toughness == 3)
 #if(v_combat_technique >= 1 && v_reflexes >= 1) {
 
-I snatch the crossbow from the dirt and step directly into their path, firing straight into the center man's forehead. Before his body hits the needles, I crank the lever and put a second bolt through his partner's throat. As both drop lifeless, I duck behind a thick pine while three bolts splinter the bark.
+I snatch the crossbow from the needles and step directly into their path, putting a bolt straight through the center man's forehead. Before his body hits the dirt, I crank the iron lever and put a second bolt through his partner's throat. As both drop lifeless, I duck behind a thick pine while three return bolts splinter the bark.
 
 Three shots remaining.
 
@@ -1927,7 +1897,7 @@ Five dead.
 }
 #if(v_combat_technique == 0 && v_agility >= 1 && v_reflexes >= 1) {
 
-I snatch the crossbow from the dirt and step directly into their path, firing straight into the center man's forehead. Before his body hits the needles, I crank the lever and put a second bolt through his partner's throat. As both drop lifeless, I duck behind a thick pine while three bolts splinter the bark.
+I snatch the crossbow from the needles and step directly into their path, putting a bolt straight through the center man's forehead. Before his body hits the dirt, I crank the iron lever and put a second bolt through his partner's throat. As both drop lifeless, I duck behind a thick pine while three return bolts splinter the bark.
 
 Three shots remaining.
 
@@ -1946,7 +1916,7 @@ Five dead.
 }
 #if(v_reflexes == 0 && v_toughness == 3 && v_combat_technique >= 1) {
 
-I snatch the crossbow from the dirt and step directly into their path, firing straight into the center man's forehead. Before his body hits the needles, I crank the lever and put a second bolt through his partner's throat. As both drop lifeless, I duck behind a thick pine while three bolts splinter the bark.
+I snatch the crossbow from the needles and step directly into their path, putting a bolt straight through the center man's forehead. Before his body hits the dirt, I crank the iron lever and put a second bolt through his partner's throat. As both drop lifeless, I duck behind a thick pine while three return bolts splinter the bark.
 
 Three shots remaining.
 
@@ -1963,7 +1933,7 @@ Five dead.
 }
 #if(v_combat_technique == 0 && v_reflexes == 0 && v_toughness == 3 && v_agility >= 1) {
 
-I snatch the crossbow from the dirt and step directly into their path, firing straight into the center man's forehead. Before his body hits the needles, I crank the lever and put a second bolt through his partner's throat. As both drop lifeless, I duck behind a thick pine while three bolts splinter the bark.
+I snatch the crossbow from the needles and step directly into their path, putting a bolt straight through the center man's forehead. Before his body hits the dirt, I crank the iron lever and put a second bolt through his partner's throat. As both drop lifeless, I duck behind a thick pine while three return bolts splinter the bark.
 
 Three shots remaining.
 
@@ -1982,7 +1952,7 @@ Five dead.
 }
 #if(v_reflexes == 0 && v_toughness < 3) {
 
-I snatch the crossbow from the dirt and step directly into their path, firing straight into the center man's forehead. Before his body hits the needles, I crank the lever and put a second bolt through his partner's throat. As both drop lifeless, I duck behind a thick pine while three bolts splinter the bark.
+I snatch the crossbow from the needles and step directly into their path, putting a bolt straight through the center man's forehead. Before his body hits the dirt, I crank the iron lever and put a second bolt through his partner's throat. As both drop lifeless, I duck behind a thick pine while three return bolts splinter the bark.
 
 Three shots remaining.
 
@@ -1993,7 +1963,7 @@ Without reflexes to dodge or toughness to absorb the impact, the steel bolt punc
 }
 #if(v_agility == 0 && v_combat_technique == 0 && v_reflexes >= 1) {
 
-I snatch the crossbow from the dirt and step directly into their path, firing straight into the center man's forehead. Before his body hits the needles, I crank the lever and put a second bolt through his partner's throat. As both drop lifeless, I duck behind a thick pine while three bolts splinter the bark.
+I snatch the crossbow from the needles and step directly into their path, putting a bolt straight through the center man's forehead. Before his body hits the dirt, I crank the iron lever and put a second bolt through his partner's throat. As both drop lifeless, I duck behind a thick pine while three return bolts splinter the bark.
 
 Three shots remaining.
 
@@ -2006,7 +1976,7 @@ Without agility to close the distance quickly, I am an easy target. The mercenar
 }
 #if(v_agility == 0 && v_combat_technique == 0 && v_reflexes == 0 && v_toughness == 3) {
 
-I snatch the crossbow from the dirt and step directly into their path, firing straight into the center man's forehead. Before his body hits the needles, I crank the lever and put a second bolt through his partner's throat. As both drop lifeless, I duck behind a thick pine while three bolts splinter the bark.
+I snatch the crossbow from the needles and step directly into their path, putting a bolt straight through the center man's forehead. Before his body hits the dirt, I crank the iron lever and put a second bolt through his partner's throat. As both drop lifeless, I duck behind a thick pine while three return bolts splinter the bark.
 
 Three shots remaining.
 
@@ -2038,7 +2008,7 @@ choice("Horrifying", Ch3-Second-Horrifying, v_current_scene = Ch3-Second-Horrify
 ID: Ch3-Second-Easy
 TEXT:
 
-...easy. Easier than I imagined. My pulse stays steady, my hands calm. In a survival contest against a hundred armed mercenaries, hesitation is suicide. It is a relief to know my resolve won't buckle under blood.
+...easy. Terrifyingly easy. Five men lie in the needles, their blood steaming in the freezing air, and my hands didn't shake once while working the lever. No paralysis, no moral freeze. In a tournament where a hundred mercenaries come with poison to slit our throats, hesitation is an open grave. I check the empty cylinder with dry, steady fingers. Five down. I will have to kill dozens more before the Magium is within reach, and the arithmetic doesn't cost me a heartbeat.
 
 choice("Continue", Ch3-Glance, v_current_scene = Ch3-Glance) if (v_ch3_saved_from_dart == 1)
 choice("Continue", Ch3-Decide-Killed, v_current_scene = Ch3-Decide-Killed) if (v_ch3_saved_from_dart == 0)
@@ -2047,7 +2017,7 @@ choice("Continue", Ch3-Decide-Killed, v_current_scene = Ch3-Decide-Killed) if (v
 ID: Ch3-Second-Necessary
 TEXT:
 
-...necessary. No joy in it, but they chose to hunt mages in these woods. They came armed with poison and repeaters, fully intending to execute us where we stood. In combat, you kill or you die.
+...necessary. No thrill, no satisfaction, but no guilt either. These men took gold to hunt mages through the dark, loading poison darts and repeaters to butcher strangers for coin. In combat, you kill or you die in the dirt. We entered this forest knowing the cost, and they paid theirs.
 
 choice("Continue", Ch3-Glance, v_current_scene = Ch3-Glance) if (v_ch3_saved_from_dart == 1)
 choice("Continue", Ch3-Decide-Killed, v_current_scene = Ch3-Decide-Killed) if (v_ch3_saved_from_dart == 0)
@@ -2056,7 +2026,7 @@ choice("Continue", Ch3-Decide-Killed, v_current_scene = Ch3-Decide-Killed) if (v
 ID: Ch3-Second-Horrifying
 TEXT:
 
-...horrifying. Blood pools in the moss around the five corpses, steaming in the cold mountain air. Five lives wiped out in seconds. I force the sickness down and grip my crossbow tighter—Kate is in danger, and I cannot allow remorse to freeze my limbs.
+...horrifying. Blood pools dark into the moss around five corpses, steaming sharply of copper in the freezing air. Five men who drew breath a minute ago are now cooling meat under the pines. The sickening reality hits my stomach like a lead weight. Somewhere across the sea, families will wait for sons and brothers who are rotting in a Varathian ravine. I force my breath steady and clamp down on the tremor in my fingers—Kate is in danger, and I cannot afford remorse while the clearing is under fire.
 
 choice("Continue", Ch3-Glance, v_current_scene = Ch3-Glance) if (v_ch3_saved_from_dart == 1)
 choice("Continue", Ch3-Decide-Killed, v_current_scene = Ch3-Decide-Killed) if (v_ch3_saved_from_dart == 0)
@@ -2106,7 +2076,7 @@ choice("Use the hilt of the dagger to knock him out", Ch3-First-Knock, v_current
 ID: Ch3-Decide-Killed
 TEXT:
 
-I strip the extra bolt quivers from the first man's belt, slinging them over my shoulder before pushing deeper into the dark timber.
+I strip the extra bolt quivers from the dead man's belt, slinging them over my shoulder before pushing deeper into the dark timber.
 
 Before I engage the main force, I need to decide my rule of engagement for the rest of the company.
 
@@ -2119,7 +2089,7 @@ choice("Kill every single one of the crossbowmen, and leave no survivors", Ch3-E
 ID: Ch3-Decide-Alive
 TEXT:
 
-Before moving out, I strip the extra bolt quivers from the unconscious man's harness, slinging them over my shoulder.
+I strip the extra bolt quivers from the unconscious man's belt, slinging the leather straps over my shoulder before pushing deeper into the dark timber.
 
 Before I engage the main force, I need to decide my rule of engagement for the rest of the company.
 
@@ -2140,7 +2110,7 @@ Just because they ambushed us with poison doesn't mean I have to butcher them. M
 
 The tactical problem remains: Kate's ice dome is under continuous barrage, frost cracking under dozens of impacts every second. She has no window to retaliate.
 
-The mercenaries are positioned in interlocking fire teams behind heavy timber. To break them non-lethally, I either need overwhelming speed to disarm them in close quarters, or the skill to fire accurately on the run.
+The mercenaries are positioned in paired shooting posts behind heavy timber. To break them non-lethally, I either need overwhelming speed to disarm them in close quarters, or the skill to fire accurately on the run.
 
 Sniping from extreme range is an option, but picking off limbs through dense night foliage at distance will burn precious minutes Kate doesn't have.
 
@@ -2151,7 +2121,7 @@ Just because they ambushed us with poison doesn't mean I have to butcher them. M
 
 The tactical problem remains: Kate's ice dome is under continuous barrage, frost cracking under dozens of impacts every second. She has no window to retaliate.
 
-The mercenaries are positioned in interlocking fire teams behind heavy timber. To break them non-lethally, I either need overwhelming speed to disarm them in close quarters, or the skill to fire accurately on the run.
+The mercenaries are positioned in paired shooting posts behind heavy timber. To break them non-lethally, I either need overwhelming speed to disarm them in close quarters, or the skill to fire accurately on the run.
 
 Sniping from extreme range is an option, but picking off limbs through dense night foliage at distance will burn precious minutes Kate doesn't have.
 
@@ -2172,7 +2142,7 @@ I didn't enter this tournament to become a butcher. But I won't risk my throat t
 
 The tactical problem remains: Kate's ice dome is under continuous barrage, frost cracking under dozens of impacts every second. She has no window to retaliate.
 
-The mercenaries are positioned in interlocking fire teams behind heavy timber. To neutralize them quickly, I need either raw speed to flank their cover, or the technique to shoot on the move.
+The mercenaries are positioned in paired shooting posts behind heavy timber. To neutralize them quickly, I need either raw speed to flank their cover, or the technique to shoot on the move.
 
 Sniping from extreme range is an option, but picking off targets through dense night foliage at distance will burn precious minutes Kate doesn't have.
 
@@ -2183,7 +2153,7 @@ I didn't enter this tournament to become a butcher. But I won't risk my throat t
 
 The tactical problem remains: Kate's ice dome is under continuous barrage, frost cracking under dozens of impacts every second. She has no window to retaliate.
 
-The mercenaries are positioned in interlocking fire teams behind heavy timber. To neutralize them quickly, I need either raw speed to flank their cover, or the technique to shoot on the move.
+The mercenaries are positioned in paired shooting posts behind heavy timber. To neutralize them quickly, I need either raw speed to flank their cover, or the technique to shoot on the move.
 
 Sniping from extreme range is an option, but picking off targets through dense night foliage at distance will burn precious minutes Kate doesn't have.
 
@@ -2204,7 +2174,7 @@ These men ambushed us with poison darts and vowed to slit our throats. They offe
 
 The tactical problem remains: Kate's ice dome is under continuous barrage, frost cracking under dozens of impacts every second. She has no window to retaliate.
 
-The mercenaries are positioned in interlocking fire teams behind heavy timber. To wipe them out before Kate's mana breaks, I need either raw speed to storm their positions, or the technique to shoot on the move.
+The mercenaries are positioned in paired shooting posts behind heavy timber. To wipe them out before Kate's mana breaks, I need either raw speed to storm their positions, or the technique to shoot on the move.
 
 Sniping from extreme range is an option, but methodical shooting through dense night foliage at distance will burn precious minutes Kate doesn't have.
 
@@ -2217,7 +2187,7 @@ These men ambushed us with poison darts and vowed to slit our throats. They offe
 
 The tactical problem remains: Kate's ice dome is under continuous barrage, frost cracking under dozens of impacts every second. She has no window to retaliate.
 
-The mercenaries are positioned in interlocking fire teams behind heavy timber. To wipe them out before Kate's mana breaks, I need either raw speed to storm their positions, or the technique to shoot on the move.
+The mercenaries are positioned in paired shooting posts behind heavy timber. To wipe them out before Kate's mana breaks, I need either raw speed to storm their positions, or the technique to shoot on the move.
 
 Sniping from extreme range is an option, but methodical shooting through dense night foliage at distance will burn precious minutes Kate doesn't have.
 
@@ -2232,26 +2202,26 @@ set(v_ch3_tried_lift,0) if (v_ch3_first_killed == 0 && v_ch3_second_killed == 0 
 set(v_ch3_tried_lift,1) if (v_ch3_first_killed == 0 && v_ch3_second_killed == 0 && v_strength >= 1 || v_ch3_first_killed == 0 && v_ch3_second_killed == 1 && v_strength >= 1 || v_ch3_first_killed == 1 && v_ch3_second_killed == 0 && v_strength >= 1 || v_ch3_first_killed == 1 && v_ch3_second_killed == 1 && v_strength >= 1)
 #if(v_ch3_first_killed == 1 && v_ch3_second_killed == 1 && v_strength == 0) {
 
-To guarantee survival, every single attacker must die—especially their commander. Leaving survivors invites reinforcements, patrols, and ambushes down the road. No loose ends.
+To guarantee survival, every single attacker must die—especially their commander. Leaving wounded behind or letting runners scatter invites trackers, patrols, and reinforcements down the road. No loose ends.
 
-The tactical problem remains: Kate's ice dome is under continuous barrage, frost cracking under dozens of impacts every second. She has no window to retaliate.
+The tactical problem remains: Kate's ice dome is under continuous barrage, frost cracking under dozens of heavy impacts every second. She has no window to lower her guard or counter-attack.
 
-The mercenaries are positioned in interlocking fire teams behind heavy timber. To wipe them out, I need either raw speed to storm their positions, or the technique to shoot on the move.
+The mercenaries are positioned in paired shooting posts behind heavy timber. To break them before her defenses shatter, I need either raw speed to storm their positions, or the technique to shoot on the move.
 
-Sniping from extreme range is an option, but methodical shooting through dense night foliage at distance will burn precious minutes Kate doesn't have.
+Sniping from extreme range is an option, but methodical shooting through dense night foliage at distance will burn precious seconds Kate doesn't have.
 
 }
 #if(v_ch3_first_killed == 1 && v_ch3_second_killed == 1 && v_strength >= 1) {
 
-To guarantee survival, every single attacker must die—especially their commander. Leaving survivors invites reinforcements, patrols, and ambushes down the road. No loose ends.
+To guarantee survival, every single attacker must die—especially their commander. Leaving wounded behind or letting runners scatter invites trackers, patrols, and reinforcements down the road. No loose ends.
 
-The tactical problem remains: Kate's ice dome is under continuous barrage, frost cracking under dozens of impacts every second. She has no window to retaliate.
+The tactical problem remains: Kate's ice dome is under continuous barrage, frost cracking under dozens of heavy impacts every second. She has no window to lower her guard or counter-attack.
 
-The mercenaries are positioned in interlocking fire teams behind heavy timber. To wipe them out, I need either raw speed to storm their positions, or the technique to shoot on the move.
+The mercenaries are positioned in paired shooting posts behind heavy timber. To break them before her defenses shatter, I need either raw speed to storm their positions, or the technique to shoot on the move.
 
-Sniping from extreme range is an option, but methodical shooting through dense night foliage at distance will burn precious minutes Kate doesn't have.
+Sniping from extreme range is an option, but methodical shooting through dense night foliage at distance will burn precious seconds Kate doesn't have.
 
-My gaze falls upon a massive fallen pine trunk beside me, its bark stripped and thick as a beer barrel. I set my boots into the needles and grip the wood.
+My gaze falls upon a massive fallen pine trunk beside me, its bark stripped and thick as a beer barrel. I set my boots into the needles and grip the rough wood.
 
 }
 #if(v_ch3_first_killed == 0 && v_ch3_second_killed == 1 && v_strength == 0) {
@@ -2260,13 +2230,13 @@ To guarantee survival, every single attacker must die—especially their command
 
 That means rectifying my earlier mercy.
 
-I retrace my steps to the first skirmish site, repeating crossbow cocked. The man I knocked unconscious lies sprawled in the needles. I step over him, line up the iron sights with his temple, and pull the trigger. A muffled crack, and he goes limp forever.
+I retrace my steps through the shadows, repeating crossbow cocked. The scout I knocked unconscious lies sprawled limp in the needles, his breathing shallow in the cold. I step over him, set the iron sights against his temple, and pull the trigger. The bowstring snaps with a muffled thud; his body jerks once and goes still forever.
 
-I turn back toward the battle line.
+I turn back toward the firing line.
 
 The tactical problem remains: Kate's ice dome is under continuous barrage, frost cracking under dozens of impacts every second. She has no window to retaliate.
 
-The mercenaries are positioned in interlocking fire teams behind heavy timber. To wipe them out, I need either raw speed to storm their positions, or the technique to shoot on the move.
+The mercenaries are positioned in paired shooting posts behind heavy timber. To wipe them out, I need either raw speed to storm their positions, or the technique to shoot on the move.
 
 Sniping from extreme range is an option, but methodical shooting through dense night foliage at distance will burn precious minutes Kate doesn't have.
 
@@ -2277,17 +2247,17 @@ To guarantee survival, every single attacker must die—especially their command
 
 That means rectifying my earlier mercy.
 
-I retrace my steps to the first skirmish site, repeating crossbow cocked. The man I knocked unconscious lies sprawled in the needles. I step over him, line up the iron sights with his temple, and pull the trigger. A muffled crack, and he goes limp forever.
+I retrace my steps through the shadows, repeating crossbow cocked. The scout I knocked unconscious lies sprawled limp in the needles, his breathing shallow in the cold. I step over him, set the iron sights against his temple, and pull the trigger. The bowstring snaps with a muffled thud; his body jerks once and goes still forever.
 
-I turn back toward the battle line.
+I turn back toward the firing line.
 
 The tactical problem remains: Kate's ice dome is under continuous barrage, frost cracking under dozens of impacts every second. She has no window to retaliate.
 
-The mercenaries are positioned in interlocking fire teams behind heavy timber. To wipe them out, I need either raw speed to storm their positions, or the technique to shoot on the move.
+The mercenaries are positioned in paired shooting posts behind heavy timber. To wipe them out, I need either raw speed to storm their positions, or the technique to shoot on the move.
 
 Sniping from extreme range is an option, but methodical shooting through dense night foliage at distance will burn precious minutes Kate doesn't have.
 
-My gaze falls upon a massive fallen pine trunk beside me, its bark stripped and thick as a beer barrel. I set my boots into the needles and grip the wood.
+My gaze falls upon a massive fallen pine trunk beside me, its bark stripped and thick as a beer barrel. I set my boots into the needles and grip the rough wood.
 
 }
 #if(v_ch3_first_killed == 1 && v_ch3_second_killed == 0 && v_strength == 0) {
@@ -2296,15 +2266,15 @@ To guarantee survival, every single attacker must die—especially their command
 
 That means rectifying my earlier mercy.
 
-I retrace my steps to where five wounded mercenaries lie groaning in the dirt. One claws frantically for his fallen crossbow, his hands shaking violently; I put a bolt through his forehead before his fingers reach the stock. The remaining four look up in horror. One pleads for mercy, but I work the lever methodically, executing each man with a point-blank shot to the skull.
+I retrace my steps to where five wounded mercenaries lie groaning in the dirt. One claws frantically for his fallen weapon, his fingers trembling in the moss; I put a bolt through his forehead before he reaches the stock. The remaining four stare up in horror. One tries to plead, raising a bloodied hand, but I cycle the brass lever with mechanical precision, executing each man with a point-blank shot to the skull.
 
 Done.
 
-I turn back toward the battle line.
+I turn back toward the firing line.
 
 The tactical problem remains: Kate's ice dome is under continuous barrage, frost cracking under dozens of impacts every second. She has no window to retaliate.
 
-The mercenaries are positioned in interlocking fire teams behind heavy timber. To wipe them out, I need either raw speed to storm their positions, or the technique to shoot on the move.
+The mercenaries are positioned in paired shooting posts behind heavy timber. To wipe them out, I need either raw speed to storm their positions, or the technique to shoot on the move.
 
 Sniping from extreme range is an option, but methodical shooting through dense night foliage at distance will burn precious minutes Kate doesn't have.
 
@@ -2315,19 +2285,19 @@ To guarantee survival, every single attacker must die—especially their command
 
 That means rectifying my earlier mercy.
 
-I retrace my steps to where five wounded mercenaries lie groaning in the dirt. One claws frantically for his fallen crossbow, his hands shaking violently; I put a bolt through his forehead before his fingers reach the stock. The remaining four look up in horror. One pleads for mercy, but I work the lever methodically, executing each man with a point-blank shot to the skull.
+I retrace my steps to where five wounded mercenaries lie groaning in the dirt. One claws frantically for his fallen weapon, his fingers trembling in the moss; I put a bolt through his forehead before he reaches the stock. The remaining four stare up in horror. One tries to plead, raising a bloodied hand, but I cycle the brass lever with mechanical precision, executing each man with a point-blank shot to the skull.
 
 Done.
 
-I turn back toward the battle line.
+I turn back toward the firing line.
 
 The tactical problem remains: Kate's ice dome is under continuous barrage, frost cracking under dozens of impacts every second. She has no window to retaliate.
 
-The mercenaries are positioned in interlocking fire teams behind heavy timber. To wipe them out, I need either raw speed to storm their positions, or the technique to shoot on the move.
+The mercenaries are positioned in paired shooting posts behind heavy timber. To wipe them out, I need either raw speed to storm their positions, or the technique to shoot on the move.
 
 Sniping from extreme range is an option, but methodical shooting through dense night foliage at distance will burn precious minutes Kate doesn't have.
 
-My gaze falls upon a massive fallen pine trunk beside me, its bark stripped and thick as a beer barrel. I set my boots into the needles and grip the wood.
+My gaze falls upon a massive fallen pine trunk beside me, its bark stripped and thick as a beer barrel. I set my boots into the needles and grip the rough wood.
 
 }
 #if(v_ch3_first_killed == 0 && v_ch3_second_killed == 0 && v_strength == 0) {
@@ -2336,15 +2306,15 @@ To guarantee survival, every single attacker must die—especially their command
 
 That means rectifying my earlier mercy.
 
-I retrace my steps. The five wounded men lie in the brush; I execute them one by one, ignoring their cries as I cycle the repeating lever. I continue to the first scout I knocked unconscious and put a final bolt through his temple.
+I retrace my steps through the timber. The five wounded men lie in the brush; I execute them one by one with point-blank shots, ignoring their pleas as the iron lever cycles in the cold. I continue back to the first scout I knocked unconscious and put a final bolt through his temple.
 
 Done.
 
-I turn back toward the battle line.
+I turn back toward the firing line.
 
 The tactical problem remains: Kate's ice dome is under continuous barrage, frost cracking under dozens of impacts every second. She has no window to retaliate.
 
-The mercenaries are positioned in interlocking fire teams behind heavy timber. To wipe them out, I need either raw speed to storm their positions, or the technique to shoot on the move.
+The mercenaries are positioned in paired shooting posts behind heavy timber. To wipe them out, I need either raw speed to storm their positions, or the technique to shoot on the move.
 
 Sniping from extreme range is an option, but methodical shooting through dense night foliage at distance will burn precious minutes Kate doesn't have.
 
@@ -2355,19 +2325,19 @@ To guarantee survival, every single attacker must die—especially their command
 
 That means rectifying my earlier mercy.
 
-I retrace my steps. The five wounded men lie in the brush; I execute them one by one, ignoring their cries as I cycle the repeating lever. I continue to the first scout I knocked unconscious and put a final bolt through his temple.
+I retrace my steps through the timber. The five wounded men lie in the brush; I execute them one by one with point-blank shots, ignoring their pleas as the iron lever cycles in the cold. I continue back to the first scout I knocked unconscious and put a final bolt through his temple.
 
 Done.
 
-I turn back toward the battle line.
+I turn back toward the firing line.
 
 The tactical problem remains: Kate's ice dome is under continuous barrage, frost cracking under dozens of impacts every second. She has no window to retaliate.
 
-The mercenaries are positioned in interlocking fire teams behind heavy timber. To wipe them out, I need either raw speed to storm their positions, or the technique to shoot on the move.
+The mercenaries are positioned in paired shooting posts behind heavy timber. To wipe them out, I need either raw speed to storm their positions, or the technique to shoot on the move.
 
 Sniping from extreme range is an option, but methodical shooting through dense night foliage at distance will burn precious minutes Kate doesn't have.
 
-My gaze falls upon a massive fallen pine trunk beside me, its bark stripped and thick as a beer barrel. I set my boots into the needles and grip the wood.
+My gaze falls upon a massive fallen pine trunk beside me, its bark stripped and thick as a beer barrel. I set my boots into the needles and grip the rough wood.
 
 }
 choice("Continue", Ch3-Lift, v_current_scene = Ch3-Lift)
@@ -2380,7 +2350,7 @@ set(v_ch3_lift_tree,1) if (v_ch3_tried_lift == 1 && v_strength == 3)
 set(v_ch3_lift_tree,0) if (v_ch3_tried_lift == 1 && v_strength < 3 || v_ch3_tried_lift == 0)
 #if(v_ch3_tried_lift == 1 && v_strength == 3 && v_ch3_prioritize >= 3) {
 
-I heave with both arms. The massive four-hundred-pound pine trunk tears free from the earth with a groan of roots and soil, resting easily against my shoulder. The stat booster has pushed my muscular density into the realm of myth.
+I set my boots into the frozen earth and heave with both arms. The stat booster hums violently against my ribs, dumping raw magical torque into my musculoskeletal system. The four-hundred-pound pine trunk tears free from the ground with a wet groan of roots and soil. Tendons creak in my shoulders, vertebrae compress under the colossal load, and my collarbones burn with pneumatic strain as I hoist the tree onto my shoulder. It is unnatural leverage on an ordinary human frame, and the weight aches in my bone marrow—but I have siege lumber in my hands.
 
 With timber like this in hand, precision and stealth become secondary. I can wield fallen trunks as battering rams or launch them through the trees like siege engines.
 
@@ -2389,9 +2359,7 @@ Time is bleeding away. I need to pick my angle of attack and execute.
 }
 #if(v_ch3_tried_lift == 1 && v_strength == 3 && v_ch3_prioritize < 3) {
 
-I heave with both arms. The massive four-hundred-pound pine trunk tears free from the earth with a groan of roots and soil, resting easily against my shoulder. The stat booster has pushed my muscular density into the realm of myth.
-
-With timber like this in hand, precision and stealth become secondary. I can wield fallen trunks as battering rams or launch them through the trees like siege engines.
+I set my boots into the frozen earth and heave with both arms. The stat booster hums violently against my ribs, dumping raw magical torque into my musculoskeletal system. The four-hundred-pound pine trunk tears free from the ground with a wet groan of roots and soil. Tendons creak in my shoulders, vertebrae compress under the colossal load, and my collarbones burn with pneumatic strain as I hoist the tree onto my shoulder. It is unnatural leverage on an ordinary human frame, and the weight aches in my bone marrow—but I have siege lumber in my hands.
 
 Hurl a four-hundred-pound tree into a crowd, however, and bones shatter like dry twigs. If I commit to this weapon, casualties are unavoidable.
 
@@ -2400,7 +2368,7 @@ Time is bleeding away. I need to pick my angle of attack and execute.
 }
 #if(v_ch3_tried_lift == 1 && v_strength < 3) {
 
-I haul against the bark with everything I have. The timber barely shivers in the dirt. At least four hundred pounds of solid pine—my physical enhancement isn't high enough to lift siege lumber.
+I set my boots against the roots and haul against the bark with everything I have. Pain flares across my shoulders, breath tearing from my lungs, but the frozen timber barely shivers in the dirt. At least four hundred pounds of solid pine—without maximum physical enhancement from the booster, my mortal muscles cannot budge siege lumber.
 
 Time is bleeding away. I need to pick a realistic tactic and move.
 
@@ -2418,7 +2386,7 @@ choice("Use fallen trees for throwing and clobbering", Ch3-Final-decision, v_cur
 ID: Ch3-Final-decision
 TEXT:
 
-The last choice is target priority: strike directly at the commander, or systematically break his firing lines. Capturing their leader might force an immediate surrender and spare Kate's mana; failing to seize him leaves me exposed in the center of their command guard.
+The remaining question is target selection: strike directly at the commander, or systematically break his firing lines. Capturing their leader might force an immediate surrender and spare Kate's mana; failing to seize him leaves me exposed in the center of their command guard.
 
 choice("Go for the leader, and try to avoid troops on the way", Ch3-Leader, v_current_scene = Ch3-Leader, v_ch3_final_decision = 1)
 choice("Go for the crossbowmen first", Ch3-Troops, v_current_scene = Ch3-Troops, v_ch3_final_decision = 2)
@@ -2472,7 +2440,7 @@ I break cover in a blur of movement, surging across the brush.
 
 Three bolts hiss through the air where my chest was a fraction of a second ago. Closing with a melee weapon against ten loaded crossbows is madness, but raw speed is my only edge. If I stop for a single breath, a bolt takes my skull. I have to break their formation.
 
-I sprint wide through the timber, using superior velocity to vanish into the deep pines. Once they lose visual contact, I fire three bolts into distant tree trunks across the ravine. The sharp thwacks echo through the dark.
+I sprint wide through the timber, using superior velocity to vanish into the deep pines. Once I break their line of sight, I fire three bolts into distant tree trunks across the ravine. The sharp thwacks echo through the dark.
 
 Four mercenaries take the bait, breaking formation to investigate the noise.
 
@@ -2639,7 +2607,7 @@ The final man—the one who soiled himself—kneels in the dirt, weeping.
 
 "No," I say, picking up a heavy oak limb and crushing his skull.
 
-What follows is total annihilation. Armed with boulders and logs, I hunt down every fire team in the grove. None escape.
+What follows is total annihilation. Armed with boulders and logs, I hunt down every knot of crossbowmen in the grove. None escape.
 
 }
 choice("Continue", Ch3-Crossbowmen-finish, v_current_scene = Ch3-Crossbowmen-finish) if (v_ch3_final_decision == 2 && v_ch3_prioritize == 4 || v_ch3_final_decision == 2 && v_ch3_prioritize < 4)
@@ -3077,19 +3045,19 @@ ID: Ch3-Alone-Leader-Return
 TEXT:
 
 #if(v_ch2_kate_debt == 0 && v_ch3_prioritize < 4) {
-I step into the clearing and stop cold.
+I step into the clearing and stop dead in my tracks.
 
-Every mercenary who emerged from the tree line to surrender lies sprawled across the moss, impaled on jagged spikes of ice. Blood steams in the cold air.
+Every mercenary who emerged from the tree line to surrender lies sprawled across the moss, impaled on jagged spires of black-veined ice. Blood steams in the freezing air, pooling dark in the needles.
 
 "Kate," I breathe, staring at the slaughter. "What did you do?"
 
-"I granted them a swift death," she says coldly, wiping frost from her sleeves. "Isn't that what they promised us?"
+"I granted them a swift death," she says coldly, wiping frost and grime from her sleeves. "Isn't that what they promised us?"
 
 "They surrendered. They threw down their weapons."
 
-"And what did you expect us to do with them?" she snaps, turning to face me. "March a hundred prisoners through a warzone? Tie them to trees to starve or be butchered by the next mage who walks by? If we let them walk, they would have regrouped under a new officer and ambushed us tomorrow. There was no other outcome."
+"And what did you expect us to do with them?" she snaps, turning to face me. "March a hundred prisoners through a warzone? Tie them to trees to starve or be butchered by the next mage who crosses this ridge? If we let them walk, they would have regrouped under a new officer and ambushed us by midday. There was no other outcome."
 
-I look at the bloodstained needles, the harsh reality settling in.
+I look at the impaled bodies, the harsh calculus settling like lead in my chest.
 
 "I... suppose you're right. Let's get back to the cave."
 
@@ -3101,23 +3069,23 @@ I look at the bloodstained needles, the harsh reality settling in.
 
 "I'll look into a charter after the tournament."
 
-We hike the rest of the mountain path in silence. After a dawn spent in blood, the quiet is welcome.
+We hike the rest of the mountain path in silence. After a dawn spent in blood, the quiet is a relief.
 
 }
 #if(v_ch2_kate_debt == 1 && v_ch3_prioritize < 4) {
-I step into the clearing and stop cold.
+I step into the clearing and stop dead in my tracks.
 
-Every mercenary who emerged from the tree line to surrender lies sprawled across the moss, impaled on jagged spikes of ice. Blood steams in the cold air.
+Every mercenary who emerged from the tree line to surrender lies sprawled across the moss, impaled on jagged spires of black-veined ice. Blood steams in the freezing air, pooling dark in the needles.
 
 "Kate," I breathe, staring at the slaughter. "What did you do?"
 
-"I granted them a swift death," she says coldly, wiping frost from her sleeves. "Isn't that what they promised us?"
+"I granted them a swift death," she says coldly, wiping frost and grime from her sleeves. "Isn't that what they promised us?"
 
 "They surrendered. They threw down their weapons."
 
-"And what did you expect us to do with them?" she snaps, turning to face me. "March a hundred prisoners through a warzone? Tie them to trees to starve or be butchered by the next mage who walks by? If we let them walk, they would have regrouped under a new officer and ambushed us tomorrow. There was no other outcome."
+"And what did you expect us to do with them?" she snaps, turning to face me. "March a hundred prisoners through a warzone? Tie them to trees to starve or be butchered by the next mage who crosses this ridge? If we let them walk, they would have regrouped under a new officer and ambushed us by midday. There was no other outcome."
 
-I look at the bloodstained needles, the harsh reality settling in.
+I look at the impaled bodies, the harsh calculus settling like lead in my chest.
 
 "I... suppose you're right. Let's get back to the cave."
 
@@ -3127,7 +3095,7 @@ I look at the bloodstained needles, the harsh reality settling in.
 
 "I owe you a life, Barry. I don't forget my debts."
 
-We hike the rest of the mountain path in silence. After a dawn spent in blood, the quiet is welcome.
+We hike the rest of the mountain path in silence. After a dawn spent in blood, the quiet is a relief.
 
 }
 #if(v_ch2_kate_debt == 0 && v_ch3_prioritize == 4) {
@@ -3149,7 +3117,7 @@ Every mercenary who emerged from the tree line to surrender lies sprawled across
 
 "I'll look into a charter after the tournament."
 
-We hike the rest of the mountain path in silence. After a dawn spent in blood, the quiet is welcome.
+We hike the rest of the mountain path in silence. After a dawn spent in blood, the quiet is a relief.
 
 }
 #if(v_ch2_kate_debt == 1 && v_ch3_prioritize == 4) {
@@ -3169,7 +3137,7 @@ Every mercenary who emerged from the tree line to surrender lies sprawled across
 
 "I owe you a life, Barry. I don't forget my debts."
 
-We hike the rest of the mountain path in silence. After a dawn spent in blood, the quiet is welcome.
+We hike the rest of the mountain path in silence. After a dawn spent in blood, the quiet is a relief.
 
 }
 choice("Next chapter", Ch4-Intro, v_next_chapter_crash = 1, v_current_scene = Ch4-Intro, v_chapter_save_counter = 5, v_checkpoint_rich = 1, v_ch3_kate_badly_hurt = 0, special:checkpoint_save)
@@ -3179,7 +3147,7 @@ ID: Ch3-Alone-Crossbowmen-Return
 TEXT:
 
 #if(v_ch2_kate_debt == 0 && v_ch3_bloodied == 0) {
-As I step into the clearing, Kate lowers her frost shields.
+As I step into the clearing, Kate lowers her frost shields, the crystalline barriers melting into mist.
 
 "Barry? Why did the firing stop?"
 
@@ -3199,11 +3167,11 @@ Kate stares at me, letting the words sink in.
 
 "I'll look into a charter after the tournament."
 
-We hike the rest of the trail in silence. After a dawn spent in blood, the quiet is welcome.
+We hike the rest of the trail in silence. After a dawn spent in blood, the quiet is a relief.
 
 }
 #if(v_ch2_kate_debt == 1 && v_ch3_bloodied == 0) {
-As I step into the clearing, Kate lowers her frost shields.
+As I step into the clearing, Kate lowers her frost shields, the crystalline barriers melting into mist.
 
 "Barry? Why did the firing stop?"
 
@@ -3221,11 +3189,11 @@ Kate stares at me, letting the words sink in.
 
 "I owe you a life, Barry. I don't forget my debts."
 
-We hike the rest of the trail in silence. After a dawn spent in blood, the quiet is welcome.
+We hike the rest of the trail in silence. After a dawn spent in blood, the quiet is a relief.
 
 }
 #if(v_ch2_kate_debt == 0 && v_ch3_bloodied == 1) {
-As I step into the clearing, Kate lowers her cracked frost shields.
+As I step into the clearing, Kate lowers her cracked frost shields. Dark blood coats her left arm and side where grazing bolts pierced the outer ice.
 
 "Barry? Why did the firing stop?"
 
@@ -3237,9 +3205,9 @@ Kate stares at me, letting the words sink in.
 
 "Every one of them. They won't bother us again. Let's get back to camp."
 
-I catch her shoulder as her knees buckle from blood loss, taking her weight against my side.
+I catch her shoulder as her knees buckle from blood loss and exhaustion, taking her weight against my side.
 
-"I'll be honest," Kate whispers as we make our way slowly up the trail. "I didn't expect you to pull that off."
+"I'll be honest," Kate whispers as we make our way slowly up the stony trail. "I didn't expect you to pull that off."
 
 "Neither did I."
 
@@ -3247,11 +3215,11 @@ I catch her shoulder as her knees buckle from blood loss, taking her weight agai
 
 "I'll look into a charter after the tournament."
 
-We hike the rest of the trail in silence. After a dawn spent in blood, the quiet is welcome.
+We hike the rest of the trail in silence. After a dawn spent in blood, the quiet is a relief.
 
 }
 #if(v_ch2_kate_debt == 1 && v_ch3_bloodied == 1) {
-As I step into the clearing, Kate lowers her cracked frost shields.
+As I step into the clearing, Kate lowers her cracked frost shields. Dark blood coats her left arm and side where grazing bolts pierced the outer ice.
 
 "Barry? Why did the firing stop?"
 
@@ -3263,15 +3231,15 @@ Kate stares at me, letting the words sink in.
 
 "Every one of them. They won't bother us again. Let's get back to camp."
 
-I catch her shoulder as her knees buckle from blood loss, taking her weight against my side.
+I catch her shoulder as her knees buckle from blood loss and exhaustion, taking her weight against my side.
 
-"I'll be honest," Kate whispers as we make our way slowly up the trail. "I didn't expect you to pull that off."
+"I'll be honest," Kate whispers as we make our way slowly up the stony trail. "I didn't expect you to pull that off."
 
 "Neither did I."
 
 "I owe you a life, Barry. I don't forget my debts."
 
-We hike the rest of the trail in silence. After a dawn spent in blood, the quiet is welcome.
+We hike the rest of the trail in silence. After a dawn spent in blood, the quiet is a relief.
 
 }
 choice("Next chapter", Ch4-Intro, v_next_chapter_crash = 1, v_current_scene = Ch4-Intro, v_chapter_save_counter = 5, v_checkpoint_rich = 1, v_ch3_kate_badly_hurt = 0, special:checkpoint_save)

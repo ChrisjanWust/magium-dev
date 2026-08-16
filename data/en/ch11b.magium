@@ -1,23 +1,25 @@
 ID: Ch11b-Clones
 TEXT:
 
-"How did you know we'd be here?" Kate asks.
+"How did you know we'd be here?" Kate asks, her boots shifting against the cold cobbles.
 
-"You have your friend over there to thank," the green-robed mage says, pointing toward Rose. "A beggar overheard her telling a nurse at the hospital that she was bringing a healer for the ward. He sold us the tip for a handful of coins, and we paid off the city watch to clear the square in case the healer was the one we wanted. Zack, stay back. I don't need help dealing with weaklings. I can finish them myself."
+"You have your friend over there to thank," the green-robed mage says, pointing a gloved finger toward Rose. "A beggar overheard her telling a nurse at the hospital that she was bringing a healer for the ward. He sold us the tip for a handful of copper, and we paid off the city watch to clear the square in case the healer was the one we wanted. Zack, stay back. I don't need help dealing with weaklings. I can finish them myself."
 
-"No, you can't," Daren says. "We already know your god trades in illusions. Phantoms are useless against people expecting them."
+"No, you can't," Daren says, stepping past the empty market stalls. "We already know your god trades in illusions. Phantoms are useless against people expecting them."
 
 "Are you sure about that, healer?" The green-robed mage smiles, and in an instant, hundreds of identical copies of both mages flood the marketplace.
 
+They stand shoulder to shoulder between the shuttered shops and canvas awnings, filling every alley and stone doorway in unbroken, silent ranks.
+
 "You haven't moved an inch, genius," Daren says, lunging straight forward. "I know which one is real."
 
-Daren reaches the spot where the two stood and swings his broadsword in a wide, vicious arc. The blade cleaves through both men, but neither bleeds. They dissolve into gray mist.
+Daren reaches the spot where the two stood and swings his broadsword in a wide, vicious arc. The heavy steel cleaves through both men, but neither bleeds. They dissolve into gray mist that curls around his blade and vanishes.
 
-"What is this?" Kate says, hands tightening. "If those two were illusions, were the real casters hidden under an invisibility veil the whole time?"
+"What is this?" Kate says, frost crackling faintly across her knuckles. "If those two were illusions, were the real casters hidden under an invisibility veil the whole time?"
 
-"Arraka," I say, "why didn't you warn us about invisible mages?"
+"Arraka," I say, glancing down at Flower's chest, "why didn't you warn us about invisible mages?"
 
-"Because nobody is invisible," Arraka snaps from the amulet. "If anyone were cloaking their aura, I would have caught the ripple."
+"Because nobody is invisible," Arraka snaps from the gold locket. "If anyone were cloaking their aura, I would have caught the ripple."
 
 "Then how were the two standing in front of us phantoms?" I ask.
 
@@ -27,7 +29,7 @@ Daren reaches the spot where the two stood and swings his broadsword in a wide, 
 
 "No," Arraka says. "I never bothered learning parlor tricks for sorting clones. Back in my day, if someone pulled this garbage on me, I dropped a spell that flattened the entire district at once. End of problem."
 
-"Does anyone know why none of these clones are moving?" Hadrik asks, resting his hands on his belt. "They're just standing there smirking like fools. Are they waiting on something?"
+"Does anyone know why none of these clones are moving?" Hadrik asks, resting heavy hands on his belt. "They're just standing there smirking like fools. Are they waiting on something?"
 
 choice("Ask Kate if she can freeze the whole area around us, to take care of the clones.", Ch11b-Freeze, v_current_scene = Ch11b-Freeze)
 choice("Try to concentrate on finding the originals, and ignore the clones for now.", Ch11b-Concentrate, v_current_scene = Ch11b-Concentrate)
@@ -43,17 +45,17 @@ set(v_is_dead,0) if (v_premonition >= 4)
 
 "Kate," I say, "can you freeze the whole square? Take out every clone at once."
 
-"I was about to," Kate says.
+"I was about to," Kate says, stepping forward with palms outstretched.
 
-She thrusts both palms outward, releasing a massive ring of frost that tears across the cobblestones, shattering every duplicate in a single blinding burst. The moment the illusions vanish, the frost wave violently reverses course, rebounding inward before anyone can brace.
+She thrusts both hands forward, releasing a massive ring of frost that tears across the cobblestones, shattering every duplicate in a single blinding burst of ice. The moment the illusions vanish, the frost wave violently reverses course, rebounding inward before anyone can brace.
 
 The others weather the blast with shields or natural resilience, but the cold hits my chest like a warhammer. My blood freezes in my veins. My breath locks in my throat, and my pulse slows to a faint, dying flutter.
 
 "Kate, thaw him!" Daren shouts. "Quickly!"
 
-"I can't!" Kate's voice cracks. "I don't know how!"
+"I can't!" Kate's voice cracks in panic. "I don't know how!"
 
-Daren drops to his knees beside me, white light flaring from his hands, but the warmth never reaches my core. My vision tunnels into black. I slip into the dark without ever learning what turned Kate's magic back on us.
+Daren drops to his knees beside me, white light flaring frantically from his gauntlets, but the warmth never reaches my core. My vision tunnels into black. I slip into the dark without ever learning what turned Kate's magic back on us.
 
 }
 #if(v_premonition >= 4) {
@@ -65,15 +67,15 @@ Before the words leave my tongue, a jagged premonition tears through my mind: Ka
 
 "I was about to," Kate says, raising her hands.
 
-"Wait!" I shout. "Don't!"
+"Wait!" I shout, catching her forearm. "Don't!"
 
 Kate hesitates, lowering her palms just as frost bites the air.
 
-"What is it?" she asks.
+"What is it?" she asks, glancing at me.
 
 "A premonition," I say, catching my breath. "If you unleash that frost, the spell bounces back and hits us the instant the clones pop."
 
-"So the duplicates are a tripwire?" Hadrik asks.
+"So the duplicates are a tripwire?" Hadrik asks, stepping closer.
 
 "Hold on," Arraka says from the amulet. "I've got it."
 
@@ -89,7 +91,7 @@ Kate hesitates, lowering her palms just as frost bites the air.
 
 "Look at their auras," Arraka says. "There's a telltale wobble in the weave. A slithering ripple, like a snake gliding through tall grass. See it?"
 
-"Yeah," I say, focusing on the nearest clone. "I see it."
+"Yeah," I say, focusing on the nearest duplicate. "I see it."
 
 "Hey, I see it too!" Hadrik says, grinning. "Perfect! We just look for the bodies without that wobble, and those are the originals!"
 
@@ -105,13 +107,13 @@ choice("Continue", Ch11b-Square, v_current_scene = Ch11b-Square) if (v_premoniti
 ID: Ch11b-Concentrate
 TEXT:
 
-"I'll freeze the entire square," Kate says. "Wipe out every clone at once."
+"I'll freeze the entire square," Kate says, raising her palms. "Wipe out every clone at once."
 
-"No, wait," I say. "We should focus on finding the originals first."
+"No, wait," I say, holding up a hand. "We should focus on finding the originals first."
 
-"You think breaking the clones triggers a trap?" Kate asks.
+"You think breaking the clones triggers a trap?" Kate asks, fingers still curled with frost.
 
-"I don't know," I say. "But they aren't attacking. They're waiting for us to make a move. While they're standing still, let's figure out the trick before we commit."
+"I don't know," I say, scanning the motionless rows between the market stalls. "But they aren't attacking. They're waiting for us to commit. While they're standing still, let's figure out the trick before we throw magic into it."
 
 "Hold on," Arraka says from the amulet. "I've got it."
 
@@ -127,7 +129,7 @@ TEXT:
 
 "Look at their auras," Arraka says. "There's a telltale wobble in the weave. A slithering ripple, like a snake gliding through tall grass. See it?"
 
-"Yeah," I say, focusing on the nearest clone. "I see it."
+"Yeah," I say, locking my gaze onto the duplicate nearest the fountain. "I see it."
 
 "Hey, I see it too!" Hadrik says, grinning. "Perfect! We just look for the bodies without that wobble, and those are the originals!"
 
@@ -143,27 +145,27 @@ TEXT:
 
 "Because I already scanned them," Arraka says. "Twice. Not a single one is real."
 
-"Are you saying the actual mages never came here?" Daren asks. "That they cast this from across the city?"
+"Are you saying the actual mages never came here?" Daren asks, lowering his broadsword a fraction. "That they cast this from across the city?"
 
 "No," Arraka says. "I've been watching this sector since the streets went quiet. The only casters close enough to anchor an illusion were the two who stepped out."
 
 "That doesn't add up," I say. "If those two were real, where did they go? Did they turn themselves into illusions when the spell triggered?"
 
-A realization clicks into place.
+The stillness of the square feels wrong. The shuttered windows, the deserted awnings, the silent duplicates standing frozen in the morning light.
 
 "Wait..." I say. "Illuna, check my theory. Could this entire scene be an illusion? Not just the clones, but the streets, the buildings, everything? Like the shaman's smoke ritual in the fort."
 
-"Impossible," Illuna says. "A mind-affecting construct on that scale requires a sensory anchor, the way the underground caves filled with smoke. There was no—"
+"Impossible," Illuna says through Flower's lips. "A mind-affecting construct on that scale requires a sensory anchor, the way the underground caves filled with smoke. There was no—"
 
 Illuna cuts herself off.
 
-"The green flash," she says. "Of course. I should have seen it immediately. That explains why Rose collapsed. The mind-affecting weave couldn't latch onto her under tournament law, so inside the hallucination, her body fell unconscious. And the same happened to Flower."
+"The green flash," she says, her voice tightening. "Of course. I should have seen it immediately. That explains why Rose collapsed. The mind-affecting weave couldn't latch onto her under tournament law, so inside the hallucination, her body fell unconscious. And the same happened to Flower."
 
-"Great," Daren says. "Back to square one. We need to find the real mages, kill them, and break the construct."
+"Great," Daren says, grip tightening on his hilt. "Back to square one. We need to find the real mages, kill them, and break the construct."
 
 "No," Illuna says. "The shaman locked himself inside the illusion to keep us trapped. These mages aren't here with us. This construct was designed to stall our minds while they butcher our bodies in the waking world. Time is running at the same speed as reality."
 
-"Gods," Kate says, voice tight. "Flower is fighting both of them alone out there!"
+"Gods," Kate says, her face going pale. "Flower is fighting both of them alone out there!"
 
 "Close your eyes," Illuna commands. "Visualize the street exactly as it was before the green flash. Hold the image with absolute conviction that it is the real world and you are returning to it. Do it together, and the illusion shatters."
 
@@ -173,15 +175,15 @@ choice("Continue", Ch11b-Honor, v_current_scene = Ch11b-Honor)
 ID: Ch11b-Honor
 TEXT:
 
-We close our eyes and anchor our minds to the memory of the sunlit cobblestones. The image sharpens, pulling hard against the mental fog until the construct gives way. When I open my eyes, the marketplace is wrecked.
+We close our eyes and anchor our minds to the memory of the sunlit cobblestones. The image sharpens, pulling hard against the mental fog until the construct gives way with a sharp, ringing snap. When I open my eyes, the marketplace is wrecked.
 
-Deep craters scar the pavement. Stone walls are scorched black. In the center of the street stands a massive dragon made of blackened bone. Rose is on her knees, weeping, and Flower is barely upright, swaying on battered feet while glaring at the beast. Her clothes are torn, her skin is covered in dark bruises, but an intense crimson aura radiates from her frame, burning with heat fiercer than any elemental flame. Sensing our return, she glances back with a weary smile.
+Deep craters scar the pavement. Stone walls are scorched black, and the air reeks of ozone and burnt sulfur. In the center of the street stands a massive dragon made of blackened bone. Rose is on her knees, weeping against a shattered cart, and Flower is barely upright, swaying on battered feet while glaring at the beast. Her clothes are torn, her skin is covered in dark bruises, but an intense crimson aura radiates from her frame, burning with heat fiercer than any elemental flame. Sensing our return, she glances back with a weary smile.
 
 "You broke it..." she murmurs. "I knew you would..."
 
-Her eyes flutter shut, and she collapses into the dust. Daren sprints forward, raising his heavy shield between her fallen body and the dragon.
+Her eyes flutter shut, and she collapses into the dust. Daren sprints forward, slamming his heavy shield down between her fallen body and the dragon.
 
-"She wouldn't stop," Rose says through tears. "She kept fighting long after her strength ran out. She took every hit just to keep the dragon off you..."
+"She wouldn't stop," Rose says through tears, wiping soot from her cheeks. "She kept fighting long after her strength ran out. She took every hit just to keep the dragon off you..."
 
 "She's breathing," Illuna says, taking control of the limp body without standing up. "The girl passed out from sheer exhaustion. She isn't dying."
 
@@ -191,11 +193,11 @@ Her eyes flutter shut, and she collapses into the dust. Daren sprints forward, r
 
 "Hold your tongue, heathen," Zack spits. "That invocation is permitted only once a day. Wasting it on morning warm-ups would insult the God of Death!"
 
-"Are you insane?!" the green-robed mage yells. "Do you have any idea how much mana it took to sustain that construct? I dropped all my personal wards two hours ago just to hold the feed! I don't even have a basic shield up right now!"
+"Are you insane?!" the green-robed mage yells, throwing his arms wide. "Do you have any idea how much mana it took to sustain that construct? I dropped all my personal wards two hours ago just to hold the feed! I don't even have a basic shield up right now!"
 
 Mid-shout, a cone of jagged ice punches straight through the center of his forehead. He drops face-first onto the stones, dead before he hits the ground.
 
-"Thanks for letting me know," Kate says, lowering her hand.
+"Thanks for letting me know," Kate says, lowering her hand without looking at him.
 
 "Wench!" Zack roars, trembling with rage. "Have you no honor?!"
 
@@ -205,7 +207,7 @@ Mid-shout, a cone of jagged ice punches straight through the center of his foreh
 
 choice(""How do you know that we're irredeemable?"", Ch11b-Irredeemable, v_current_scene = Ch11b-Irredeemable)
 choice(""Wasn't your friend a heathen too, though?"", Ch11b-Heathen, v_current_scene = Ch11b-Heathen)
-choice(""So how do you become a follower of Ulruk, anyway? Do they hold interviews for that?"", Ch11b-Interviews, v_current_scene = Ch11b-Interviews)
+choice(""If Ulruk only wants the already-damned, he doesn't need followers. He needs a census."", Ch11b-Interviews, v_current_scene = Ch11b-Interviews)
 
 
 ID: Ch11b-Irredeemable
@@ -213,11 +215,11 @@ TEXT:
 
 "How do you know that we're irredeemable?"
 
-"Reaching adulthood without swearing your life to the God of Death is proof enough, heathen!" Zack says. "Enough prattle. I will show you firsthand why every breath you took before today was a mistake."
+"Reaching adulthood without swearing your life to the God of Death is proof enough, heathen!" Zack says, raising his staff. "Enough prattle. I will show you firsthand why every breath you took before today was a mistake."
 
-"Illuna, can you move?" Daren asks.
+"Illuna, can you move?" Daren asks, glancing back over his shoulder.
 
-"No," Illuna rasps. "The girl pushed her body far past its limits in the waking world. Every muscle and bone is screaming. I can't lift a finger. She's battered from head to toe, her clothes are shredded, and Arraka's amulet is..."
+"No," Illuna rasps through Flower's bruised lips. "The girl pushed her body far past its limits in the waking world. Every muscle and bone is screaming. I can't lift a finger. She's battered from head to toe, her clothes are shredded, and Arraka's amulet is..."
 
 She halts. A sharp, metallic snap echoes from the gold around her neck.
 
@@ -225,7 +227,7 @@ She halts. A sharp, metallic snap echoes from the gold around her neck.
 
 "Aha—AHAHAHA—"
 
-The amulet fractures again, splitting down the center with a violent, reverberating crack. Arraka's laughter spills out, layering into dozens of shrieking voices.
+The amulet fractures again, splitting down the center with a violent, reverberating crack. Arraka's laughter spills out, layering into dozens of shrieking voices that echo off the stone walls.
 
 "AHAHAHAHAHAHAHA!"
 
@@ -233,13 +235,13 @@ The gold bursts into glittering shards. A suffocating dark vortex erupts around 
 
 "So this is what you look like in the flesh!" Arraka says, her voice echoing as several women speaking in unison. "Hard to appreciate the scenery from inside a golden box going by aura alone. How you walk around every day without being hauled into a traveling circus is beyond me."
 
-"You're one to talk," Hadrik says, planting his feet against the gale. "You do realize you're literally dressed like a clown right now?"
+"You're one to talk," Hadrik says, planting his boots against the gale. "You do realize you're literally dressed like a clown right now?"
 
 Arraka's black eyes fix on the dwarf, her grin widening.
 
 "Dwarf," she purrs. "Is cracking jokes really the best move right now? Shouldn't you be buying that round of ale you owe me? I could use a drink. That and mass slaughter. I haven't decided which to start with."
 
-"Flower..." Kate's voice trembles. "What happened to Flower? Where are Flower and Illuna?"
+"Flower..." Kate's voice trembles as frost falters at her wrists. "What happened to Flower? Where are Flower and Illuna?"
 
 "Dead, obviously," Arraka says smoothly. "Or 'absorbed,' if you prefer technical terms. The moment the box cracked, I consumed their souls to anchor the vessel. They belong to me now."
 
@@ -255,9 +257,9 @@ TEXT:
 
 "Because he was serving the God of Death's design!" Zack roars. "You, on the other hand, are so far beyond salvation that your only purpose is fertilizer for his glory. It is my sacred duty to send you to him before you taint the earth any further."
 
-"Illuna, can you move?" Daren asks.
+"Illuna, can you move?" Daren asks, glancing back over his shoulder.
 
-"No," Illuna rasps. "The girl pushed her body far past its limits in the waking world. Every muscle and bone is screaming. I can't lift a finger. She's battered from head to toe, her clothes are shredded, and Arraka's amulet is..."
+"No," Illuna rasps through Flower's bruised lips. "The girl pushed her body far past its limits in the waking world. Every muscle and bone is screaming. I can't lift a finger. She's battered from head to toe, her clothes are shredded, and Arraka's amulet is..."
 
 She halts. A sharp, metallic snap echoes from the gold around her neck.
 
@@ -265,7 +267,7 @@ She halts. A sharp, metallic snap echoes from the gold around her neck.
 
 "Aha—AHAHAHA—"
 
-The amulet fractures again, splitting down the center with a violent, reverberating crack. Arraka's laughter spills out, layering into dozens of shrieking voices.
+The amulet fractures again, splitting down the center with a violent, reverberating crack. Arraka's laughter spills out, layering into dozens of shrieking voices that echo off the stone walls.
 
 "AHAHAHAHAHAHAHA!"
 
@@ -273,13 +275,13 @@ The gold bursts into glittering shards. A suffocating dark vortex erupts around 
 
 "So this is what you look like in the flesh!" Arraka says, her voice echoing as several women speaking in unison. "Hard to appreciate the scenery from inside a golden box going by aura alone. How you walk around every day without being hauled into a traveling circus is beyond me."
 
-"You're one to talk," Hadrik says, planting his feet against the gale. "You do realize you're literally dressed like a clown right now?"
+"You're one to talk," Hadrik says, planting his boots against the gale. "You do realize you're literally dressed like a clown right now?"
 
 Arraka's black eyes fix on the dwarf, her grin widening.
 
 "Dwarf," she purrs. "Is cracking jokes really the best move right now? Shouldn't you be buying that round of ale you owe me? I could use a drink. That and mass slaughter. I haven't decided which to start with."
 
-"Flower..." Kate's voice trembles. "What happened to Flower? Where are Flower and Illuna?"
+"Flower..." Kate's voice trembles as frost falters at her wrists. "What happened to Flower? Where are Flower and Illuna?"
 
 "Dead, obviously," Arraka says smoothly. "Or 'absorbed,' if you prefer technical terms. The moment the box cracked, I consumed their souls to anchor the vessel. They belong to me now."
 
@@ -291,13 +293,13 @@ choice("Continue", Ch11b-Monster, v_current_scene = Ch11b-Monster)
 ID: Ch11b-Interviews
 TEXT:
 
-"So how do you become a follower of Ulruk, anyway? Do they hold interviews for that?"
+"If Ulruk only wants the already-damned, he doesn't need followers. He needs a census."
 
 "Do not mock the almighty God of Death, heathen!" Zack spits. "Ulruk welcomes all who surrender their lives to his service, without exception. If you are useless to him breathing, you will serve him in death. And that service begins now."
 
-"Illuna, can you move?" Daren asks.
+"Illuna, can you move?" Daren asks, glancing back over his shoulder.
 
-"No," Illuna rasps. "The girl pushed her body far past its limits in the waking world. Every muscle and bone is screaming. I can't lift a finger. She's battered from head to toe, her clothes are shredded, and Arraka's amulet is..."
+"No," Illuna rasps through Flower's bruised lips. "The girl pushed her body far past its limits in the waking world. Every muscle and bone is screaming. I can't lift a finger. She's battered from head to toe, her clothes are shredded, and Arraka's amulet is..."
 
 She halts. A sharp, metallic snap echoes from the gold around her neck.
 
@@ -305,7 +307,7 @@ She halts. A sharp, metallic snap echoes from the gold around her neck.
 
 "Aha—AHAHAHA—"
 
-The amulet fractures again, splitting down the center with a violent, reverberating crack. Arraka's laughter spills out, layering into dozens of shrieking voices.
+The amulet fractures again, splitting down the center with a violent, reverberating crack. Arraka's laughter spills out, layering into dozens of shrieking voices that echo off the stone walls.
 
 "AHAHAHAHAHAHAHA!"
 
@@ -313,13 +315,13 @@ The gold bursts into glittering shards. A suffocating dark vortex erupts around 
 
 "So this is what you look like in the flesh!" Arraka says, her voice echoing as several women speaking in unison. "Hard to appreciate the scenery from inside a golden box going by aura alone. How you walk around every day without being hauled into a traveling circus is beyond me."
 
-"You're one to talk," Hadrik says, planting his feet against the gale. "You do realize you're literally dressed like a clown right now?"
+"You're one to talk," Hadrik says, planting his boots against the gale. "You do realize you're literally dressed like a clown right now?"
 
 Arraka's black eyes fix on the dwarf, her grin widening.
 
 "Dwarf," she purrs. "Is cracking jokes really the best move right now? Shouldn't you be buying that round of ale you owe me? I could use a drink. That and mass slaughter. I haven't decided which to start with."
 
-"Flower..." Kate's voice trembles. "What happened to Flower? Where are Flower and Illuna?"
+"Flower..." Kate's voice trembles as frost falters at her wrists. "What happened to Flower? Where are Flower and Illuna?"
 
 "Dead, obviously," Arraka says smoothly. "Or 'absorbed,' if you prefer technical terms. The moment the box cracked, I consumed their souls to anchor the vessel. They belong to me now."
 
@@ -335,19 +337,19 @@ TEXT:
 
 "Monster!" Zack shrieks, pointing a trembling finger at her. "Abomination! Begone, foul demon!"
 
-The skeletal dragon, motionless since our return, rears back with a ground-shaking roar and lunges straight for Arraka, jaw wide. The instant its skull brushes her outer aura, the entire construct detonates into thousands of jagged bone fragments that rain across the marketplace.
+The skeletal dragon, motionless since our return, rears back with a ground-shaking roar and lunges straight for Arraka, jaws gaping wide. The instant its skull brushes her outer aura, the entire construct detonates into thousands of jagged bone fragments that rain across the marketplace like hail.
 
 "Really, now..." Arraka murmurs, brushing a flake of bone from her shoulder.
 
 The cobblestones shudder beneath our boots. The earth heaves, cracking open as five humanoid skeletons claw their way upward from the dirt. The icy, dense pressure in their auras gives them away immediately: stillwaters.
 
-"Do you see now, banshee?" Zack cries, spreading his arms. "Do you see the true majesty of the God of Death? Fall to your knees and beg Ulruk for mercy, and he might grant you a quick end!"
+"Do you see now, banshee?" Zack cries, spreading his arms wide. "Do you see the true majesty of the God of Death? Fall to your knees and beg Ulruk for mercy, and he might grant you a quick end!"
 
-Arraka ignores the necromancer entirely, leaning forward to squint at the center skeleton.
+Arraka ignores the necromancer entirely, floating lower to squint at the center skeleton.
 
 "Wait a second," she says, grinning. "I know you! Short-legs Vallen! The one who couldn't carry a tune if his life depended on it. You aren't going to try hurting me, are you? Don't you remember all the good times during the Still Winter? Remember when we had to drag you out of the pond because you tried practicing levitation and forgot you couldn't swim? Remember how we laughed at your waddling after you drained your mana? Remember when I tied you to that oak and made you watch me dismantle your entire squad one by one until you hit the high notes on that nursery rhyme about the lamb? Those were the days. How did it go again?"
 
-Arraka clears her throat and belts out a shrill, mocking tune.
+Arraka clears her throat and belts out a shrill, mocking tune that echoes through the empty square.
 
 "Oh, there was a lamb, a little white lamb, with fleece as bright as snow!"
 
@@ -383,7 +385,7 @@ Zack's jaw falls slack. The color drains from his face, leaving him frozen in sh
 
 Arraka tilts her head. "Excuse me?"
 
-"You heard me," Daren says, voice dropping dangerous and low. "Give them back their body."
+"You heard me," Daren says, his voice dropping dangerous and low. "Give them back their body."
 
 "Are you deaf or just stupid?" Arraka sneers. "I told you, I absorbed them. What do you expect me to do, carve them out with a kitchen knife?"
 
@@ -395,13 +397,13 @@ choice("Continue", Ch11b-Murder, v_current_scene = Ch11b-Murder)
 ID: Ch11b-Murder
 TEXT:
 
-"Mass slaughter it is," Arraka says, her grin splitting wide.
+"Mass slaughter it is," Arraka says, her grin splitting wide across Flower's stolen face.
 
-Daren charges. Three strides in, the air twists around him. The flesh on his face and hands instantly blackens, shriveling like parched parchment in a kiln. In a single heartbeat, the body inside his armor collapses to ash, and empty steel plates clatter violently onto the cobblestones.
+Daren charges. Three strides in, the air twists violently around his frame. The flesh on his face and hands instantly blackens, shriveling like parched parchment in a kiln. In a single heartbeat, the body inside his armor collapses to ash, and heavy steel plate crashes loudly onto the cobblestones.
 
 "No..." Kate's voice strangles in her throat. "No!"
 
-Her hands snap forward, conjuring a storm of frost and a hundred jagged icicles aimed at Arraka's throat—and then the same dark rot touches her. The ice shatters into vapor. Kate's skin turns gray, desiccating in an instant, and her cloak and leather trousers drop limp over a heap of pale dust.
+Her hands snap forward, conjuring a storm of frost and a hundred jagged icicles aimed at Arraka's throat—and then the same dark rot touches her. The ice shatters into vapor. Kate's skin turns gray, desiccating in an instant, and her green cloak drops limp over a mound of pale dust.
 
 "Stop!" Rose screams, dropping to her knees on the stones, weeping wildly. "Please! Stop!"
 
@@ -409,13 +411,13 @@ Her hands snap forward, conjuring a storm of frost and a hundred jagged icicles 
 
 "I'll show you fighting spirit, you arrogant old hag," Hadrik snarls. Sweat beads on his brow, but he lowers his shoulder and charges, heavy dwarven boots pounding the pavement.
 
-Mid-stride, the dark rot takes him. His roar cuts off into silence. The dwarf disintegrates into gray powder, his leather tunic and belt collapsing into the dirt.
+Mid-stride, the dark rot takes him. His battle roar cuts off into silence. The dwarf disintegrates into gray powder, his leather tunic and belt collapsing into the dirt.
 
-"Please..." Rose whispers, broken.
+"Please..." Rose whispers, hands clutching the stones, broken.
 
-They are gone. In three seconds, three people turned to dust. Disbelief locks my chest. This has to be another illusion. It must be. The shaman's trick again.
+They are gone. In three seconds, three lives erased. Disbelief locks my chest. This has to be another illusion. It must be. The shaman's trick again.
 
-I squeeze my eyes shut, clawing for the memory of the real street. I force every ounce of will into visualizing reality, trying to throw myself back into the waking world—but nothing shifts. The cold wind stays. The smell of ash stays.
+I squeeze my eyes shut, clawing for the memory of the real street. I force every ounce of will into visualizing reality, trying to throw myself back into the waking world—but nothing shifts. The cold wind stays. The smell of ash and ozone stays.
 
 "You aren't seriously closing your eyes and pretending I'm not here, are you?" Arraka calls down, amused. "Draw your dagger, Barry. It's no fun executing you if you don't even twitch."
 
@@ -428,13 +430,13 @@ TEXT:
 
 "I'm not going to give you that satisfaction."
 
-"Hmph," Arraka says. "I was planning to draw your death out to torment your little friend, but if you won't even struggle, what's the point?"
+"Hmph," Arraka says, floating closer. "I was planning to draw your death out to torment your little friend, but if you won't even struggle, what's the point?"
 
-She casually flicks her hand toward Rose. The dark rot hits her in a heartbeat, reducing the weeping herbalist to a mound of ash.
+She casually flicks her hand toward Rose. The dark rot hits her in a heartbeat, reducing the weeping herbalist to a mound of pale ash.
 
-"Well, it was an entertaining run while it lasted, Barry," Arraka says, floating closer. "Your road ends here, but don't worry—you'll always have a fond place in my memories."
+"Well, it was an entertaining run while it lasted, Barry," Arraka says, hovering inches away. "Your road ends here, but don't worry—you'll always have a fond place in my memories."
 
-She raises her hand toward my chest. A searing dryness grips my veins, sucking every drop of moisture from my flesh. My vision blurs into gray static as my knees buckle.
+She raises her hand toward my chest. A searing dryness grips my veins, sucking every drop of moisture from my flesh. My vision blurs into gray static as my knees buckle onto the stones.
 
 "Farewell, Barry," Arraka purrs. "It's been a blast."
 
@@ -450,19 +452,19 @@ I draw my dagger and lock eyes with the banshee.
 
 "Now that's the spirit!" Arraka laughs, eyes flashing pitch black. "An epic duel for the ages. Hero against villain. Banshee against lessathi. Bards will compose ballads about this clash for millennia. Let's see what you've got!"
 
-Standing here mourning does nothing. She is arrogant, floating without a guard, treating me like a bug. If I reach her, if I drive cold steel through this vessel, maybe the magic breaks. Maybe killing her unravels the rot and brings the others back. There is only one way to find out.
+Standing here mourning does nothing. She is arrogant, floating without a guard, treating me like vermin. If I reach her, if I drive cold steel through this vessel, maybe the magic breaks. Maybe killing her unravels the rot and brings the others back. There is only one way to find out.
 
 I sprint across the cobblestones, blade raised—and a heavy paving stone slams into my solar plexus at terrifying speed, knocking me flat onto my back.
 
-"Oh dear, was that too rough?" Arraka mocks as I wheeze, gasping for air. "Pardon me, I've never fought a fragile weakling before. I don't know your breaking point!"
+"Oh dear, was that too rough?" Arraka mocks as I wheeze, gasping for air on the stone. "Pardon me, I've never fought a fragile weakling before. I don't know your breaking point!"
 
 "Leave him alone!" Rose screams through her tears.
 
 "I wouldn't want to end this too quickly," Arraka says, hovering overhead. "A proper duel requires pacing, wouldn't you say?"
 
-Another stone hammers into my floating ribs with a sickening crack. The breath tears out of my lungs in a ragged gasp.
+Another stone hammers into my floating ribs with a sickening crack. The breath tears out of my lungs in a ragged, blood-choked gasp.
 
-"Stop!" Rose cries. "You're killing him!"
+"Stop!" Rose cries, crawling toward me. "You're killing him!"
 
 "Honestly," Arraka sighs, shaking her head. "I knew you were frail, Barry, but this is pathetic. It's painful to watch. Let's just put you out of your misery."
 
@@ -494,25 +496,25 @@ The rewinding timeline flashes through Flower trading blows with the dragon in t
 
 The reverse rush slams to a dead halt.
 
-For a second, the world holds still at the exact moment after the ambush sprang. Then motion snaps back. Sound rushes into my ears. Everyone is standing in place, looking around the empty marketplace with wide, dazed eyes.
+For a second, the world holds still at the exact moment after the ambush sprang. Then motion snaps back. Sound rushes into my ears like a breaking dam. Everyone is standing in place, looking around the empty marketplace with wide, dazed eyes.
 
 Time reversed. And every single one of us remembers the deaths.
 
 Before anyone can speak, Arraka detonates in fury from the golden amulet.
 
-"A time weaver?!" she shrieks, her voice rattling the metal casing. "Are you out of your minds?! Rose, of all people?! You knew! You set me up! You let me break out just to make a fool of me! I am done playing nice! The next time I get out, I'm ripping every bone from your bodies and making your families watch! You will beg for the clean deaths I gave you today! Stop grinning at me, you fat dwarf!"
+"A time weaver?!" she shrieks, voice rattling the metal casing. "Are you out of your minds?! Rose, of all people?! You knew! You set me up! You let me break out just to make a fool of me! I am done playing nice! The next time I get out, I'm ripping every bone from your bodies and making your families watch! You will beg for the clean deaths I gave you today! Stop grinning at me, you fat dwarf!"
 
 "Be quiet, Arraka," Illuna says coldly. "I don't know what happened while you were out, but the context is obvious. You lost. We won. One more word and I seal this amulet shut for twenty years."
 
 The amulet goes silent, vibrating with muffled rage.
 
-"I'm... alive?" the green-robed mage stammers, checking his hands in disbelief. "How?"
+"I'm... alive?" the green-robed mage stammers, checking his uninjured hands in disbelief. "How?"
 
 "The woman!" Zack points a shaking finger at Rose. "I saw it with my own eyes. She rewound time! Do you understand what this means? What the gods would pay to harvest that power?!"
 
 Before the green-robed mage can reply, an ice cone punches clean through his forehead. He collapses into the dust, stone dead.
 
-"Your partner shouldn't have announced that he dropped all his wards two hours ago," Kate says coldly. "Begging for a spear through the skull."
+"Your partner shouldn't have announced that he dropped all his wards two hours ago," Kate says coldly, lowering her hand. "Begging for a spear through the skull."
 
 "I don't care about that worthless lackey," Zack says, stepping over the corpse. "Hand over the woman peacefully, and I'll grant you swift deaths."
 
@@ -530,7 +532,7 @@ TEXT:
 
 "Rose, fall back!" Daren shouts. "The tournament spell shields you from targeted attacks, but crossfire will tear you apart! Get clear!"
 
-"Understood!" Rose sprints toward the far edge of the marketplace.
+"Understood!" Rose sprints toward the far edge of the marketplace, ducking behind a row of empty fruit stands.
 
 The five stillwater skeletons pull themselves free from the cobblestones. Two immediately rain streams of fire and pressurized water across the street, while a third raises a shimmering dome of arcane force protecting the squad. Daren plants his broadsword, anchoring a white radiant barrier around us with his heavy shield, but the elemental barrage hammers the light so violently the ground shakes.
 
@@ -540,7 +542,7 @@ The five stillwater skeletons pull themselves free from the cobblestones. Two im
 
 "Hurry it up, then," Daren says through clenched teeth. "I give this barrier thirty seconds, tops."
 
-Illuna is right. Undead vessels leak power and lack living resilience. Even if the necromancer shielded them against sonic vibrations, their constructs have limits. Besides, the summon lasts only five minutes and burns his daily use—survive the timer, and the fight is over. 
+Illuna is right. Undead vessels leak power and lack living resilience. Even if the necromancer shielded them against sonic vibrations, their constructs have limits. Besides, the summon lasts only five minutes and burns his daily use—survive the timer, and the fight is over.
 
 choice("Continue", Ch11b-Emergency, v_current_scene = Ch11b-Emergency)
 
@@ -548,13 +550,13 @@ choice("Continue", Ch11b-Emergency, v_current_scene = Ch11b-Emergency)
 ID: Ch11b-Emergency
 TEXT:
 
-Focusing past Daren's barrier, I study the five stillwaters. Their auras carry that same icy, bottomless density as Eiden's, but their physical vessels are failing. Raw mana bleeds continuously from their dry joints in shimmering waves—their brittle bones simply cannot contain that volume of power.
+Studying the five stillwaters through Daren's barrier, the flaw in their summon becomes obvious. Their auras carry that same bottomless, icy pressure as Eiden's, but their physical vessels are failing. Raw mana bleeds continuously from their dry joints in shimmering waves—their brittle bones simply cannot contain that volume of power.
 
 I pull the stat device from my belt.
 
 No spare points, but the screen pulses with a sharp amber alert in the lower corner: 'Emergency mode available. Tap here to activate.'
 
-The device is siphoning the leaking stillwater overflow, just like it did in the forest before the dragon fight. There is no time to analyze the mechanism. I tap the screen.
+The device is siphoning the leaking stillwater overflow, exactly as it did in the forest before the dragon fight. There is no time to analyze the mechanism. I tap the screen.
 
 Power floods into my veins like liquid lightning. For a split second, two hidden categories flicker onto the display—'Magical power' and 'Magical knowledge'—before dissolving into the active interface.
 
@@ -569,7 +571,7 @@ choice("Fight the skeletons as a team", Ch11b-Team, v_current_scene = Ch11b-Team
 ID: Ch11b-Alone
 TEXT:
 
-I have never trained in squad-level magical coordination. Weaving high-tier spells around allies in a tight street is an invitation to incinerate my own friends. I fight alone.
+I have never trained in squad-level magical coordination. Weaving high-tier spells around allies in a narrow cobblestone street is an invitation to incinerate my own friends. I fight alone.
 
 Five stillwaters stand before us: four dedicated elementalists, and one support specialist weaving protective domes and reinforcing wards. Their discipline suggests an old Still Winter combat unit that perished together on the line.
 
@@ -584,7 +586,7 @@ choice("Only cast the spells that would not run the risk of hurting civilians.",
 ID: Ch11b-Team
 TEXT:
 
-Trading blows with five stillwaters alone is reckless. Coordinated pressure gives us the tactical edge.
+Trading blows with five stillwaters alone is reckless when I have seasoned fighters at my side. Coordinated pressure gives us the tactical edge.
 
 Five stillwaters stand before us: four dedicated elementalists, and one support specialist weaving protective domes and reinforcing wards. Their discipline suggests an old Still Winter combat unit that perished together on the line.
 
@@ -605,7 +607,7 @@ TEXT:
 
 "No," I say, channeling mana into Daren's shield to harden the weave. "The device is siphoning the mana leaking from their bones."
 
-"It can do that?" Daren asks.
+"It can do that?" Daren asks, glancing at the glowing screen.
 
 "Apparently," I say. "Hold this perimeter."
 
@@ -643,7 +645,7 @@ I seize the window. Pouring a massive surge of mana into the street, I transmute
 
 The skeletons sink into the green slurry, their lower limbs dissolving on contact. The air elementalist conjures a panicked updraft to lift his upper torso out of the vat, but I clap my hands, slamming two granite slabs together to crush his skull to dust. The others submerge completely, their bones hissing and melting into sludge.
 
-I drop back to the pavement as my device's power fades to zero. The acid pool dissolves into harmless mist, leaving Zack the necromancer standing alone in the ruins of the square.
+I drop back to the pavement as my device's power fades to zero. Blood drips from my nose, my hands shake violently from mana strain, and the acid pool dissolves into harmless mist, leaving Zack the necromancer standing alone in the ruins of the square.
 
 choice("Continue", Ch11b-Sacrificial, v_current_scene = Ch11b-Sacrificial)
 
@@ -657,7 +659,7 @@ TEXT:
 
 "No," I say, channeling mana into Daren's shield to harden the weave. "The device is siphoning the mana leaking from their bones."
 
-"It can do that?" Daren asks.
+"It can do that?" Daren asks, glancing at the glowing screen.
 
 "Apparently," I say. "Hold this perimeter."
 
@@ -702,7 +704,7 @@ I seize the window. Pouring a massive surge of mana into the street, I transmute
 
 The skeletons sink into the green slurry, their lower limbs dissolving on contact. The air elementalist conjures a panicked updraft to lift his upper torso out of the vat, but I clap my hands, slamming two granite slabs together to crush his skull to dust. The others submerge completely, their bones hissing and melting into sludge.
 
-I drop back to the pavement as my device's power fades to zero. The acid pool dissolves into harmless mist, leaving Zack the necromancer standing alone in the ruins of the square.
+I drop back to the pavement as my device's power fades to zero. Blood drips from my nose, my hands shake violently from mana strain, and the acid pool dissolves into harmless mist, leaving Zack the necromancer standing alone in the ruins of the square.
 
 }
 #if(v_hearing >= 3 && v_perception < 2) {
@@ -726,7 +728,7 @@ I seize the window. Pouring a massive surge of mana into the street, I transmute
 
 The skeletons sink into the green slurry, their lower limbs dissolving on contact. The air elementalist conjures a panicked updraft to lift his upper torso out of the vat, but I clap my hands, slamming two granite slabs together to crush his skull to dust. The others submerge completely, their bones hissing and melting into sludge.
 
-I drop back to the pavement as my device's power fades to zero. The acid pool dissolves into harmless mist, leaving Zack the necromancer standing alone in the ruins of the square.
+I drop back to the pavement as my device's power fades to zero. Blood drips from my nose, my hands shake violently from mana strain, and the acid pool dissolves into harmless mist, leaving Zack the necromancer standing alone in the ruins of the square.
 
 }
 #if(v_hearing < 3 && v_perception < 2) {
@@ -752,11 +754,11 @@ TEXT:
 
 "No," I say, channeling mana into Daren's shield to harden the weave. "The device is siphoning the mana leaking from their bones."
 
-"It can do that?" Daren asks.
+"It can do that?" Daren asks, adjusting his grip.
 
 "Apparently," I say. "Listen—Azarius told us the necromancer's summon lasts five minutes and burns his daily use. We run down the clock. We hold this perimeter and hammer them from range."
 
-"Then you'd better have strong reinforcement weaves," Daren grunts, bracing his shield. "My reservoir is bone dry."
+"Then you'd better have strong reinforcement weaves," Daren grunts, bracing his shield against the tremor. "My reservoir is bone dry."
 
 "Focus on the anchor," I say. "I'll handle reinforcement."
 
@@ -808,7 +810,7 @@ I seize the window. Pouring a massive surge of mana into the street, I transmute
 
 The skeletons sink into the green slurry, their lower limbs dissolving on contact. The air elementalist conjures a panicked updraft to lift his upper torso out of the vat, but I clap hands, slamming two granite slabs together to crush his skull to dust. The others submerge completely, their bones hissing and melting into sludge.
 
-As my device's power fades to zero, the acid pool dissolves into harmless mist, leaving Zack the necromancer standing alone in the ruins of the square.
+I drop back to the pavement as my device's power fades to zero. Blood drips from my nose, my hands shake violently from mana strain, and the acid pool dissolves into harmless mist, leaving Zack the necromancer standing alone in the ruins of the square.
 
 choice("Continue", Ch11b-Sacrificial, v_current_scene = Ch11b-Sacrificial)
 
@@ -822,7 +824,7 @@ TEXT:
 
 "No," I say, channeling mana into Daren's shield to buy us time. "The device is siphoning the mana leaking from their bones."
 
-"It can do that?" Daren asks.
+"It can do that?" Daren asks, looking down at his blade.
 
 "Apparently," I say. "We're going on the offensive. I have wards for everyone and high-tier spell access. We pressure the necromancer directly to force the stillwaters out of formation."
 
@@ -830,7 +832,7 @@ I point across the square.
 
 "Daren, I'm loading my heavy wards onto you. Draw their fire and hold their attention."
 
-"I can do that," Daren says, planting his boots.
+"I can do that," Daren says, planting his boots firmly on the stones.
 
 "Hadrik, charge the necromancer the second we step out. Hit him with everything you've got."
 
@@ -880,7 +882,7 @@ I seize the window. Pouring a massive surge of mana into the street, I transmute
 
 The skeletons sink into the green slurry, their lower limbs dissolving on contact. The air elementalist conjures a panicked updraft to lift his upper torso out of the vat, but I clap my hands, slamming two granite slabs together to crush his skull to dust. The others submerge completely, their bones hissing and melting into sludge.
 
-I drop back to the pavement as my device's power fades to zero. The acid pool dissolves into harmless mist, leaving Zack the necromancer standing alone in the ruins of the square.
+I drop back to the pavement as my device's power fades to zero. Blood drips from my nose, my hands shake violently from mana strain, and the acid pool dissolves into harmless mist, leaving Zack the necromancer standing alone in the ruins of the square.
 
 choice("Continue", Ch11b-Sacrificial, v_current_scene = Ch11b-Sacrificial)
 
@@ -889,13 +891,13 @@ ID: Ch11b-Sacrificial
 TEXT:
 
 #if(v_ch11_strategy != 3 && v_ch11_strategy != 4) {
-"No!" Zack screams, falling to his knees among the shattered cobblestones. "I won't let it end like this!"
+"No!" Zack screams, falling to his knees among the shattered cobblestones as his summoned stillwaters melt into foul green vapor. "I won't let it end like this!"
 
-He yanks a ritual dagger from beneath his robes and plunges the steel straight into his own chest. A blinding crimson glow erupts from the wound, searing his flesh to cinder.
+He yanks a curved ritual dagger from beneath his robes and plunges the blackened steel straight into his own chest. A blinding crimson glow erupts from the wound, searing his flesh and robes to cinder.
 
-"The God of Death... shall have his prize..." he rasps, and dissolves into a mound of black ash.
+"The God of Death... shall have his prize..." he rasps, and collapses into a smoking mound of black ash.
 
-Hadrik strides over, looking down at the smoking pile with a booming laugh.
+Hadrik strides over, looking down at the smoldering pile with a booming laugh.
 
 "As far as dying words go, I've heard better!"
 
@@ -905,13 +907,13 @@ Hadrik strides over, looking down at the smoking pile with a booming laugh.
 
 }
 #if(v_ch11_strategy == 3 || v_ch11_strategy == 4) {
-"No!" Zack screams as his defensive dome dissolves into mist. "I won't let it end like this!"
+"No!" Zack screams as his defensive dome shatters and the summoned stillwaters melt into foul green vapor. "I won't let it end like this!"
 
-He yanks a ritual dagger from beneath his robes and plunges the steel straight into his own chest. A blinding crimson glow erupts from the wound, searing his flesh to cinder.
+He yanks a curved ritual dagger from beneath his robes and plunges the blackened steel straight into his own chest. A blinding crimson glow erupts from the wound, searing his flesh and robes to cinder.
 
-"The God of Death... shall have his prize..." he rasps, and dissolves into a mound of black ash.
+"The God of Death... shall have his prize..." he rasps, and collapses into a smoking mound of black ash.
 
-Hadrik strides over, looking down at the smoking pile with a booming laugh.
+Hadrik strides over, looking down at the smoldering pile with a booming laugh.
 
 "As far as dying words go, I've heard better!"
 
@@ -930,7 +932,7 @@ Hadrik strides over, looking down at the smoking pile with a booming laugh.
 
 choice(""Put her down, Hadrik. It's not worth the bother."", Ch11b-Bother, v_current_scene = Ch11b-Bother)
 choice(""I suppose she does deserve this after all she's done."", Ch11b-Deserve, v_current_scene = Ch11b-Deserve)
-choice(""Can I spin her next?"", Ch11b-Spin, v_current_scene = Ch11b-Spin)
+choice(""If you're making a point, make it once. A second spin is just entertainment."", Ch11b-Spin, v_current_scene = Ch11b-Spin)
 
 
 ID: Ch11b-Bother
@@ -938,11 +940,11 @@ TEXT:
 
 "Put her down, Hadrik. It's not worth the bother."
 
-"Nonsense, Barry!" Hadrik laughs, keeping the chain spinning. "This is prime entertainment. I might make it part of my daily morning routine. Though I should check with our guest first—wouldn't want to be rude. What do you say, Arraka? Does ten in the morning work for your daily spin?"
+"Nonsense, Barry!" Hadrik laughs, keeping the golden chain whipping in a blur. "This is prime entertainment. I might make it part of my daily morning routine. Though I should check with our guest first—wouldn't want to be rude. What do you say, Arraka? Does ten in the morning work for your daily spin?"
 
 "Dwarf!" Arraka's shrieking voice wobbles with nausea from the blur of gold. "When I get out, I'm reaching down your gullet, turning you inside out, and hanging you from an oak by your own intestines as a tree swing!"
 
-"So ten is too early?" Hadrik chuckles. "Should we schedule for eleven instead?"
+"So ten is too early?" Hadrik chuckles, grinning down at the blurred locket. "Should we schedule for eleven instead?"
 
 choice("Continue", Ch11b-Hole, v_current_scene = Ch11b-Hole)
 
@@ -952,11 +954,11 @@ TEXT:
 
 "I suppose she does deserve this after all she's done."
 
-"You're damn right she does!" Hadrik laughs, keeping the chain spinning. "This is prime entertainment. I might make it part of my daily morning routine. Though I should check with our guest first—wouldn't want to be rude. What do you say, Arraka? Does ten in the morning work for your daily spin?"
+"You're damn right she does!" Hadrik laughs, keeping the golden chain whipping in a blur. "This is prime entertainment. I might make it part of my daily morning routine. Though I should check with our guest first—wouldn't want to be rude. What do you say, Arraka? Does ten in the morning work for your daily spin?"
 
 "Dwarf!" Arraka's shrieking voice wobbles with nausea from the blur of gold. "When I get out, I'm reaching down your gullet, turning you inside out, and hanging you from an oak by your own intestines as a tree swing!"
 
-"So ten is too early?" Hadrik chuckles. "Should we schedule for eleven instead?"
+"So ten is too early?" Hadrik chuckles, grinning down at the blurred locket. "Should we schedule for eleven instead?"
 
 choice("Continue", Ch11b-Hole, v_current_scene = Ch11b-Hole)
 
@@ -964,9 +966,9 @@ choice("Continue", Ch11b-Hole, v_current_scene = Ch11b-Hole)
 ID: Ch11b-Spin
 TEXT:
 
-"Can I spin her next?"
+"If you're making a point, make it once," I tell him. "A second spin is just entertainment."
 
-"Line forms at the back, Barry!" Hadrik laughs, keeping the chain spinning. "Everyone gets a turn. I might make this part of our daily morning routine. Though I should check with our guest first—wouldn't want to be rude. What do you say, Arraka? Does ten in the morning work for your daily spin?"
+"And entertainment is what I'm after, Barry!" Hadrik laughs, keeping the chain spinning. "I might make this part of my daily morning routine. Though I should check with our guest first—wouldn't want to be rude. What do you say, Arraka? Does ten in the morning work for your daily spin?"
 
 "Dwarf!" Arraka's shrieking voice wobbles with nausea from the blur of gold. "When I get out, I'm reaching down your gullet, turning you inside out, and hanging you from an oak by your own intestines as a tree swing!"
 
@@ -985,43 +987,43 @@ achievement("No casualties",v_ac_ch11_casualties)
 #if(v_hearing < 4) {
  
 
-A sharp crack of fracturing stone echoes from the far side of the square. I turn toward the noise, and the breath dies in my throat.
+A sharp, violent crunch of fracturing stone echoes from the far edge of the square. I spin toward the sound, and the breath dies in my throat.
 
-A ragged hole gapes in the cobblestones. Rose stands frozen in front of it, arms limp at her sides, eyes wide and unseeing. Wrapped around her back is a newly risen skeleton, holding her in a tight embrace while driving a rusted iron blade deep into her heart. The light drains from Rose's eyes in a second. As her knees fold, the skeleton twists the blade one final time, crumbling to bone fragments as her body hits the pavement.
+A ragged hole gapes in the cobblestones near the fruit stalls. Rose stands frozen in front of it, arms hanging limp, eyes wide and unseeing. Wrapped around her back is a newly risen skeleton, locking her in a tight grip while plunging a rusted iron blade deep through her chest. The color drains from Rose's face in a heartbeat. As her knees buckle, the skeleton twists the hilt one final time, crumbling to dry bone meal as her body collapses onto the cold pavement.
 
-"Rose!" Daren roars, sprinting across the square.
+"Rose!" Daren roars, sprinting across the plaza.
 
-He drops to his knees beside her, hands glowing with frantic white radiance. Pulse after pulse of healing light floods into her chest, but the wound refuses to close. We gather in silence around them as Daren pours every ounce of mana into her lifeless frame, while Rose stares blankly at the sky, motionless.
+He drops hard onto his knees beside her, hands blazing with frantic white radiance. Pulse after pulse of healing light pours into her torn chest, but the flesh stays cold, the wound refusing to knit. We gather in stunned silence around them as Daren channels every shred of his mana into her motionless frame, while Rose stares blankly at the sky, her pulse gone.
 
-"Rose, stay with me!" Daren shouts, voice breaking.
+"Rose, stay with me!" Daren shouts, his voice cracking into a ragged sob.
 
 }
 #if(v_hearing == 4 && v_perception < 4) {
  
 
-A faint grinding of stone catches my ear from the far side of the plaza. I turn toward the sound, spotting Rose standing alone near the far storefronts.
+A faint grinding of subterranean stone catches my ear from across the plaza. I turn toward the sound, spotting Rose standing near the far storefronts.
 
-The cobblestones at her feet erupt in a shower of mortar and dust. A skeleton claws out of the earth, plunging a rusted iron dagger straight through her chest. Rose stiffens, shock flashing across her face before her expression goes completely blank. Her arms fall limp. As the light leaves her eyes, the skeleton drives the hilt into her sternum, crumbling into bone meal as Rose collapses backward onto the stones.
+Before my eyes can pick out the danger, the cobblestones beneath her boots erupt in a shower of mortar and shattered stone. A skeleton claws out of the earth, plunging a rusted iron dagger straight through her sternum. Rose stiffens, a gasp catching in her throat before her expression turns completely blank. Her fingers go limp. As the light leaves her eyes, the skeleton twists the blade, disintegrating into gray bone meal as Rose falls backward onto the stones.
 
 "Rose!" Daren roars, sprinting across the square.
 
-He drops to his knees beside her, hands glowing with frantic white radiance. Pulse after pulse of healing light floods into her chest, but the wound refuses to close. We gather in silence around them as Daren pours every ounce of mana into her lifeless frame, while Rose stares blankly at the sky, motionless.
+He drops hard onto his knees beside her, hands blazing with frantic white radiance. Pulse after pulse of healing light pours into her torn chest, but the flesh stays cold, the wound refusing to knit. We gather in stunned silence around them as Daren channels every shred of his mana into her motionless frame, while Rose stares blankly at the sky, her pulse gone.
 
-"Rose, stay with me!" Daren shouts, voice breaking.
+"Rose, stay with me!" Daren shouts, his voice cracking into a ragged sob.
 
 }
 #if(v_hearing == 4 && v_perception == 4 && v_agility < 4) {
  
 
-A faint grinding of stone catches my ear from the far side of the plaza. I turn toward the sound and spot hairline fissures spidering across the cobblestones beneath Rose's feet. Instinct screams danger. Before my mind catches up, I sprint across the square.
+A faint grinding of subterranean stone catches my ear from across the plaza. I turn toward the sound and spot hairline fissures spidering across the mortar beneath Rose's boots. Instinct screams danger. Before my mind catches up, I sprint across the square.
 
-I am ten paces out when the street explodes. A skeleton lunges upward from the gap, driving a rusted dagger straight through Rose's heart. Shock flickers across her face, then dissolves into hollow numbness as her arms drop limp. The skeleton twists the hilt, disintegrating into gray powder as Rose falls back onto the pavement.
+I am ten paces out when the pavement detonates. A skeleton claws upward from the fissure, driving a rusted dagger straight through Rose's heart. Shock flickers across her face, then dissolves into hollow numbness as her arms drop limp. The skeleton twists the hilt, disintegrating into gray powder as Rose falls backward onto the cold stones.
 
 "Rose!" Daren roars, sprinting past me.
 
-He drops to his knees beside her, hands blazing with desperate white light. He layers heal after heal into her chest, but the flesh stays cold. We surround them in stunned silence while Daren channels every shred of power into her heart, but Rose stares blankly at the clouds, motionless.
+He crashes onto his knees beside her, hands blazing with desperate white light. He layers heal after heal into her chest, but the wound stays open, the blood pooling dark against the cobblestones. We surround them in stunned silence while Daren channels every shred of power into her heart, but Rose stares blankly at the clouds, her chest completely still.
 
-"Rose, stay with me!" Daren shouts, voice cracking.
+"Rose, stay with me!" Daren shouts, voice breaking into a sob.
 
 It is useless. Daren knows it as well as I do. Her chest is still. Her pulse stopped before she hit the stones. After everything we endured to bring her safely home to Thilias, she died in seconds. And even the legendary healer cannot mend an extinguished soul.
 
@@ -1045,25 +1047,25 @@ Kate presses the heels of her hands against her eyes, fighting a sob that wracks
 #if(v_agility == 4 && v_hearing == 4 && v_perception == 4) {
  
 
-A faint grinding of stone catches my ear from the far side of the plaza. I turn and spot hairline fissures spidering across the cobblestones beneath Rose's feet. Instinct screams danger. My body moves on pure reflex, boosted agility carrying me across the square in a blur of speed.
+A faint grinding of subterranean stone catches my ear from across the plaza. I turn and spot hairline fissures spidering across the mortar beneath Rose's boots. Instinct screams danger. My body moves on pure reflex, boosted agility propelling me across the square in a blur of speed.
 
 The cobblestones erupt into the air as a skeleton claws out of the ground, lunging with a rusted iron blade aimed straight for Rose's heart.
 
-I dive into the gap, grabbing the skeleton by the neck and slamming it into the ground. I draw my dagger to finish it, but the impact against the stones shatters the brittle construct into harmless bone fragments.
+I dive through the shower of mortar, wrapping both hands around the skeleton's neck and slamming it into the ground before the blade reaches her. I draw my dagger to finish it, but the impact against the stones shatters the brittle construct into harmless bone splinters.
 
 "Rose, are you hurt?!" Daren shouts, sprinting over with the rest of the party.
 
-"I... no!" Rose gasps, clutching her chest. "Barry caught it!"
+"I... no!" Rose gasps, clutching her chest against the wall. "Barry caught it!"
 
 "How did you spot that?" Kate asks, looking at the pulverized bones. "Did the device trigger a premonition?"
 
-"No," I say, catching my breath. "I saw the ground cracking and moved before it could strike."
+"No," I say, catching my breath as my boots skid on the loose gravel. "I heard the stone grinding and saw the crack before it struck."
 
 "I don't understand," Kate says. "Why did the trap trigger at all? Wouldn't tournament protection block the skeleton from touching Rose?"
 
 "No," Illuna explains. "When the necromancer died, the tournament ward bound to his soul vanished with his aura. The sacrificial curse was designed to fire after death to exploit that exact loophole. He intended to assassinate her posthumously."
 
-"Gods..." Rose whispers, pale. "I had no idea magic could be twisted like that. To go to such lengths just to kill me..."
+"Gods..." Rose whispers, her face pale. "I had no idea magic could be twisted like that. To go to such lengths just to kill me..."
 
 "You did rewind the universe five minutes ago," Hadrik notes with a grin. "How did you manage that trick, anyway?"
 
@@ -1103,7 +1105,7 @@ TEXT:
 
 Rose's corpse stirs. Slowly, stiffly, she raises her torso from the cobblestones, staring ahead with empty, glassy eyes. Her aura feels hollow and freezing, void of warmth, and her skin has turned the color of chalk.
 
-"Rose!" Kate gasps. "You're alive!"
+"Rose!" Kate gasps, taking a step forward. "You're alive!"
 
 "No," Daren says, his voice flat and dark. "That isn't Rose."
 
@@ -1117,7 +1119,7 @@ Rose's corpse stirs. Slowly, stiffly, she raises her torso from the cobblestones
 
 "You won't take a single step," Daren snarls, drawing his broadsword. "You leave her body here for a proper burial."
 
-"You cannot stop me, healer," the revenant says, continuing her slow stride. "Unlike your friend, I command this power. I need only freeze time for a few hours, and to your eyes, I will have vanished across the continent. My master awaits."
+"You cannot stop me, healer," the revenant says, continuing her slow stride across the stones. "Unlike your friend, I command this power. I need only freeze time for a few hours, and to your eyes, I will have vanished across the continent. My master awaits."
 
 She walks onward, ignoring our presence as if we were dust beneath her boots. Daren stands frozen, sword trembling in his grip, torn between duty and the face of the woman he failed to save.
 
@@ -1139,7 +1141,7 @@ TEXT:
 
 set(v_ac_ch11_average,1) if (v_available_points == 19)
 achievement("Average Joe",v_ac_ch11_average)
-Colossal holographic displays ignite across the morning sky, casting a brilliant azure glow over the rooftops of Thilias. Shutters creak open as frightened citizens peer out from their windows. Every screen displays the same scene: a wild-haired gnome in thick magnifying goggles and an oil-stained lab coat, humming cheerfully while twisting copper wires in a cluttered workshop.
+Colossal light-castings ignite across the morning sky, casting a brilliant azure glow over the rooftops of Thilias. Shutters creak open as frightened citizens peer out from their windows. Every screen displays the same scene: a wild-haired gnome in thick magnifying goggles and an oil-stained coat, humming cheerfully while twisting copper wires in a cluttered workshop.
 
 He pauses, pushes the goggles up onto his forehead, and presses his face against the scrying lens.
 
@@ -1155,7 +1157,7 @@ The gnome ducks beneath his workbench for several seconds while the town murmurs
 
 He clears his throat, puffing out his chest.
 
-"Ladies and gentlemen! Or rather, gentlemen and gentlemen, given the unfortunate absence of female mages in our ranks! Welcome to the Magium tournament! I am Golmyck, King of Thilias, and I have a public announcement. First, an apology to every participant on Varathia. Upon arrival, you were meant to receive your directives privately, but the relay device suffered an immediate malfunction. I've spent the past week repairing the conduits, but given the delay, I am utilizing this emergency broadcast to reach all major cities and wilderness sectors. If any participants are out of range, please pass along the word!"
+"Ladies and gentlemen! Or rather, gentlemen and gentlemen, given the unfortunate absence of female mages in our ranks! Welcome to the Magium tournament! I am Golmyck, King of Thilias, and I have a public announcement. First, an apology to every participant on Varathia. Upon arrival, you were meant to receive your directives privately, but the relay device suffered an immediate malfunction. I've spent the past week repairing the conduits, but given the delay, I am using this emergency broadcast to reach all major cities and wilderness sectors. If any participants are out of range, please pass along the word!"
 
 Golmyck clears his throat once more, his grin widening across the sky.
 

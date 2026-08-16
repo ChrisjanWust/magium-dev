@@ -3,7 +3,7 @@ TEXT:
 
  
 
-"Barry!" Daren's voice cuts through the fog. "Hey, Barry. Can you hear me?"
+"Barry!" Daren's voice cuts through the fog. "Barry — can you hear me?"
 
 A dull ache throbs behind my temples as the blur clears from my eyes. Cold flagstones press into my legs. We are sitting in a windowless stone cell, damp and choked with pale moss climbing the hairline fractures in the masonry. The only way out is a heavy iron grate set into the far archway, bolted shut from the other side. Ancient ruin work, by the cut of the blocks. Diane's lightning bolt flashes across my memory—the clearing, the sudden shock, all of us dropping into the grass. Did she drag us down here?
 
@@ -26,7 +26,7 @@ TEXT:
 
  
 
-"Barry!" Daren's voice cuts through the fog. "Hey, Barry. Can you hear me?"
+"Barry!" Daren's voice cuts through the fog. "Barry — can you hear me?"
 
 A dull ache throbs behind my temples as the blur clears from my eyes. Cold flagstones press into my legs. We are sitting in a windowless stone cell, damp and choked with pale moss climbing the hairline fractures in the masonry. The only way out is a heavy iron grate set into the far archway, bolted shut from the other side. Ancient ruin work, by the cut of the blocks. Diane's lightning bolt flashes across my memory—the clearing, the sudden shock, all of us dropping into the grass. Did she drag us down here?
 
@@ -66,7 +66,7 @@ A dull green band clamps tight around his neck, etched with intricate, angular g
 
 "Are these—"
 
-"The same collars the ancients used at the Beacon of Hope," Kate cuts in, her voice flat and tight. "They suppress magical flow in artificial mages. The good news is I know how to disable them. The bad news is we have to reach the primary console powering the network first. These ruins are old lessathi architecture. If the layout matches the Beacon, the control room shouldn't be far."
+"The same collars the ancients used at the Beacon of Hope," Kate cuts in, her voice flat and tight. "They suppress magical flow in artificial mages. The good news is I know how to disable them. The bad news is we have to reach the master pedestal that feeds the collar-web first. These ruins are old lessathi architecture. If the layout matches the Beacon, the control chamber shouldn't be far."
 
 "If the collars shut down magic," I say, looking at Hadrik, "why are you still a dwarf?"
 
@@ -127,7 +127,7 @@ set(v_ac_ch8_democratie,1)
 achievement("Vive la democratie!",v_ac_ch8_democratie)
  "Come on!" Daren throws his hands up. "You all had your hands in the air a second ago!"
 
-"What's wrong, Daren?" I smirk. "Losing faith in the democratic process?"
+"What's wrong, Daren?" I smirk. "Losing faith in a show of hands?"
 
 He scowls at me, his jaw tightening before he lets out a resigned breath.
 
@@ -249,7 +249,7 @@ We clamber over the cracked stones into the hall. The corridor stretches out in 
 
 "Forget other prisoners," I say, checking the shadowy corners ahead. "I'm worried about the lack of sentries. Did they honestly think stone walls could hold four mages and a warrior without wards?"
 
-"Hey, Rose," Daren calls from a few paces ahead, peering at a carved panel in the stone. "Come take a look at this."
+"Rose," Daren calls from a few paces ahead, peering at a carved panel in the stone. "Come look at this."
 
 Rose hurries over to his shoulder. "What did you find?"
 
@@ -277,7 +277,7 @@ We clamber over the cracked rubble into the hall. The corridor stretches out in 
 
 "Forget other prisoners," I say, checking the shadowy corners ahead. "I'm worried about the lack of sentries. Did they honestly think stone walls could hold four mages and a warrior without wards?"
 
-"Hey, Rose," Daren calls from a few paces ahead, peering at a carved panel in the stone. "Come take a look at this."
+"Rose," Daren calls from a few paces ahead, peering at a carved panel in the stone. "Come look at this."
 
 Rose hurries over to his shoulder. "What did you find?"
 
@@ -313,7 +313,7 @@ TEXT:
 
  "I don't have enough available points to bring my ancient languages stat to a high enough level."
 
-"Seriously?" Daren groans. "You burn through points the instant you earn them? Did the concept of an emergency reserve never cross your mind?"
+"Already?" Daren groans. "You burn through points the instant you earn them? Did the concept of an emergency reserve never cross your mind?"
 
 He lets out a heavy breath.
 
@@ -525,7 +525,7 @@ She spins on her bare heel and trots down the corridor. Daren leans close to my 
 
 "Something is off. The tournament spell isn't reacting to her presence at all. No warning, no hostility ward. Why?"
 
-choice(""Maybe she's an animal in disguise."", Ch8-Disguise, v_current_scene = Ch8-Disguise)
+choice(""If the organizers lost a child inside their own labyrinth, their perimeter isn't a perimeter."", Ch8-Disguise, v_current_scene = Ch8-Disguise)
 choice(""Maybe she's also participating in the tournament."", Ch8-Participating, v_current_scene = Ch8-Participating)
 choice(""Maybe she's a prisoner here too, and the organizers don't know about her."", Ch8-Prisoner, v_current_scene = Ch8-Prisoner)
 
@@ -533,9 +533,9 @@ choice(""Maybe she's a prisoner here too, and the organizers don't know about he
 ID: Ch8-Disguise
 TEXT:
 
- "Maybe she's an animal in disguise."
+ "If the organizers lost a child inside their own labyrinth, their perimeter isn't a perimeter."
 
-"Illusion magic from a forest beast?" Daren frowns. "Unless you think she's wearing a very convincing child costume."
+"Which means we know even less about this place than we thought," Daren frowns.
 
 "It doesn't matter who she is," Kate cuts in. "She knows these ruins, and if she served the beasts, she would have sounded an alarm already. There's only one path forward. We follow her and judge her intentions as we go."
 
@@ -713,7 +713,7 @@ Flower drops her palms toward the floor. High-pressure torrents of water shoot f
 
 "You what?" Daren turns to stare at me.
 
-"Can you hear me down there?" Flower's voice floats down from the opening above. "I found the override console! The issue is... there are twelve different levers. And none of the labels make sense. But I'm sure I'll figure it out in time. Probably!"
+"Can you hear me down there?" Flower's voice floats down from the opening above. "I found the master levers! The issue is... there are twelve different levers. And none of the labels make sense. But I'm sure I'll figure it out in time. Probably!"
 
 The walls are already three feet closer, mortar scraping against the floor with a deafening screech.
 
@@ -723,7 +723,7 @@ The walls are already three feet closer, mortar scraping against the floor with 
 
 "Rather risk a cave-in than stand here like grain in a millstone!" Hadrik retorts. "You honestly expect that child to solve an ancient puzzle before we're flat as parchment?"
 
-"Down there!" Flower calls through the gap. "Forgot one minor detail! Whatever you do, do NOT smash the walls! Got it? Great! Now let's see... Aha! No, that was the light switch. Back to work!"
+"Down there!" Flower calls through the gap. "Forgot one minor detail! Whatever you do, do NOT smash the walls! Got it? Great! Now let's see... Aha! No, that one only wakes the lamps. Back to work!"
 
 choice("Tell Hadrik to ignore Kate and Flower and to smash through the wall", Ch8-Smash, v_current_scene = Ch8-Smash, v_ch8_smash = 1)
 choice("Try to convince Hadrik to wait a little longer for Flower", Ch8-Wait, v_current_scene = Ch8-Wait, v_ch8_smash = 0)
@@ -947,7 +947,7 @@ I look back. Rose sits huddled against the stone, arms wrapped tight around her 
 
 choice("Try to help her shake off the fear", Ch8-Shake, v_current_scene = Ch8-Shake)
 choice("Leave her alone", Ch8-Alone, v_current_scene = Ch8-Alone)
-choice(""Are you seriously going to do this every time we fight a big monster?"", Ch8-Seriously, v_current_scene = Ch8-Seriously)
+choice(""If you lock up, someone dies in the space you left. I need to know now whether that's the pattern."", Ch8-Seriously, v_current_scene = Ch8-Seriously)
 
 
 ID: Ch8-Hearing-success
@@ -988,9 +988,17 @@ Hadrik and Daren have their hands full. The hydra lashes out with multiple necks
 
 They fall back a few paces to reset their footing.
 
-A column of roaring crimson flame plunges from the ceiling, engulfing the hydra from snout to tail. All nine heads shriek in unified torment as the fire sears through scale, muscle, and bone in seconds. The howls choke out, and the beast collapses into a charred, smoking heap.
+A massive, uncontrolled torrent of crimson flame plunges from the ceiling breach. The blast is colossal—and wildly off-target, scouring across the chamber floor and nearly scorching Daren and Hadrik as they dive clear. The roar of fire engulfs the hydra in blinding heat.
 
-As the inferno subsides, Flower floats down through the ceiling breach, cushions of fire flaring from the soles of her bare feet to slow her descent.
+The beast thrashes through the blaze, shrieking in agony, its nine necks charred black, blisters bursting across its armored hide. The fire doesn't kill it—but the searing heat cooks the regenerative tissue, stalling the healing factor for crucial seconds.
+
+"The burn window!" Daren roars, leaping back to his feet. "Strike now!"
+
+Hadrik barrels in from the flank, ducking under a blinded serpent head to seize the beast by its charred underbelly, lifting and pinning its massive bulk against the masonry. Before the flesh can knit, Daren drives his enchanted broadsword straight through the scorched junction of the necks, twisting the steel in a devastating arc that shears clean through the spinal core.
+
+The colossal torso shudders violently, the charred necks going limp in unison, before collapsing onto the flagstones in a heavy, lifeless heap.
+
+As the smoke clears, Flower drops down through the ceiling breach, cushions of fire sputtering erratically under her bare feet. She lands clumsily on the stones, trembling, her green eyes wide with horror as she looks at the scorch marks inches from Daren's boots.
 
 choice("Continue", Ch8-Awakened, v_current_scene = Ch8-Awakened)
 
@@ -1004,9 +1012,17 @@ Hadrik and Daren have their hands full. The hydra lashes out with multiple necks
 
 They fall back a few paces to reset their footing.
 
-A column of roaring crimson flame plunges from the ceiling, engulfing the hydra from snout to tail. All nine heads shriek in unified torment as the fire sears through scale, muscle, and bone in seconds. The howls choke out, and the beast collapses into a charred, smoking heap.
+A massive, uncontrolled torrent of crimson flame plunges from the ceiling breach. The blast is colossal—and wildly off-target, scouring across the chamber floor and nearly scorching Daren and Hadrik as they dive clear. The roar of fire engulfs the hydra in blinding heat.
 
-As the inferno subsides, Flower floats down through the ceiling breach, cushions of fire flaring from the soles of her bare feet to slow her descent.
+The beast thrashes through the blaze, shrieking in agony, its nine necks charred black, blisters bursting across its armored hide. The fire doesn't kill it—but the searing heat cooks the regenerative tissue, stalling the healing factor for crucial seconds.
+
+"The burn window!" Daren roars, leaping back to his feet. "Strike now!"
+
+Hadrik barrels in from the flank, ducking under a blinded serpent head to seize the beast by its charred underbelly, lifting and pinning its massive bulk against the masonry. Before the flesh can knit, Daren drives his enchanted broadsword straight through the scorched junction of the necks, twisting the steel in a devastating arc that shears clean through the spinal core.
+
+The colossal torso shudders violently, the charred necks going limp in unison, before collapsing onto the flagstones in a heavy, lifeless heap.
+
+As the smoke clears, Flower drops down through the ceiling breach, cushions of fire sputtering erratically under her bare feet. She lands clumsily on the stones, trembling, her green eyes wide with horror as she looks at the scorch marks inches from Daren's boots.
 
 choice("Continue", Ch8-Awakened, v_current_scene = Ch8-Awakened)
 
@@ -1014,7 +1030,7 @@ choice("Continue", Ch8-Awakened, v_current_scene = Ch8-Awakened)
 ID: Ch8-Seriously
 TEXT:
 
- "Are you seriously going to do this every time we fight a big monster?"
+ "If you lock up, someone dies in the space you left. I need to know now whether that's the pattern."
 
 A sharp, driving punch catches me square in the solar plexus. The air leaves my lungs in a breathless wheeze as I drop to one knee.
 
@@ -1034,9 +1050,17 @@ In the center of the chamber, Hadrik and Daren have their hands full. The hydra 
 
 They fall back a few paces to reset their footing.
 
-A column of roaring crimson flame plunges from the ceiling, engulfing the hydra from snout to tail. All nine heads shriek in unified torment as the fire sears through scale, muscle, and bone in seconds. The howls choke out, and the beast collapses into a charred, smoking heap.
+A massive, uncontrolled torrent of crimson flame plunges from the ceiling breach. The blast is colossal—and wildly off-target, scouring across the chamber floor and nearly scorching Daren and Hadrik as they dive clear. The roar of fire engulfs the hydra in blinding heat.
 
-As the inferno subsides, Flower floats down through the ceiling breach, cushions of fire flaring from the soles of her bare feet to slow her descent.
+The beast thrashes through the blaze, shrieking in agony, its nine necks charred black, blisters bursting across its armored hide. The fire doesn't kill it—but the searing heat cooks the regenerative tissue, stalling the healing factor for crucial seconds.
+
+"The burn window!" Daren roars, leaping back to his feet. "Strike now!"
+
+Hadrik barrels in from the flank, ducking under a blinded serpent head to seize the beast by its charred underbelly, lifting and pinning its massive bulk against the masonry. Before the flesh can knit, Daren drives his enchanted broadsword straight through the scorched junction of the necks, twisting the steel in a devastating arc that shears clean through the spinal core.
+
+The colossal torso shudders violently, the charred necks going limp in unison, before collapsing onto the flagstones in a heavy, lifeless heap.
+
+As the smoke clears, Flower drops down through the ceiling breach, cushions of fire sputtering erratically under her bare feet. She lands clumsily on the stones, trembling, her green eyes wide with horror as she looks at the scorch marks inches from Daren's boots.
 
 choice("Continue", Ch8-Awakened, v_current_scene = Ch8-Awakened)
 
@@ -1136,9 +1160,9 @@ ID: Ch8-Awakened
 TEXT:
 
 #if(v_ch8_smash == 0) {
- "A hydra down here?" Flower says as she lands on the flagstones. "I would have hurried, but the tripwires above wouldn't stop firing! Is anyone hurt? Petal knows basic healing if you took a hit."
+ "A hydra down here?" Flower says, her small hands trembling as she looks from the dead beast to the scorch marks beside Daren's boots. "I saw the necks and tried to help, but the fire almost hit you! I'm sorry, I'm so sorry—the tripwires above wouldn't stop firing! Is anyone hurt? Petal knows basic healing if you took a hit."
 
-The casual ease with which she incinerated the beast speaks to power far beyond her appearance. At full strength we might hold our own, but stripped of magic, antagonizing her would be madness.
+The sheer volume of raw fire she unleashed was staggering, even if her aim was wild. At full strength we might hold our own, but stripped of magic, antagonizing someone who channels that much destruction would be madness.
 
 "I could use a touch on this leg," Hadrik says, pointing to a jagged gash across his shin. "Stings like hell."
 
@@ -1172,9 +1196,9 @@ Daren grunts. "I intend to."
 
 }
 #if(v_ch8_smash == 1) {
- "A hydra down here?" Flower says as she lands on the flagstones. "I would have hurried, but the tripwires above wouldn't stop firing! Is anyone in need of healing?"
+ "A hydra down here?" Flower says, her small hands trembling as she looks from the dead beast to the scorch marks beside Daren's boots. "I saw the necks and tried to help, but the fire almost hit you! I'm sorry, I'm so sorry—the tripwires above wouldn't stop firing! Is anyone in need of healing?"
 
-The casual ease with which she incinerated the beast speaks to power far beyond her appearance. At full strength we might hold our own, but stripped of magic, antagonizing her would be madness.
+The sheer volume of raw fire she unleashed was staggering, even if her aim was wild. At full strength we might hold our own, but stripped of magic, antagonizing someone who channels that much destruction would be madness.
 
 "I could use a touch on this leg," Hadrik says, pointing to a jagged gash across his shin. "Stings like hell."
 
@@ -1328,7 +1352,7 @@ She sets off at a brisk, exaggerated march, chanting under her breath: "Hut, two
 
 "I am regretting this already," Daren mutters under his breath as we fall in behind her.
 
-A short walk through winding masonry brings us to a vertical stone shaft fitted with a platform and iron counterweights. Several iron levers jut from the side console.
+A short walk through winding masonry brings us to a vertical stone shaft fitted with a platform and iron counterweights. Several iron levers jut from the side lever-board.
 
 "This lift takes us straight back to the upper hall, past all the traps!" Flower announces as we crowd onto the platform. "Now... which lever was the ascent again?"
 
@@ -1372,7 +1396,7 @@ She sets off at a brisk, exaggerated march, chanting under her breath: "Hut, two
 
 "I am regretting this already," Daren mutters under his breath as we fall in behind her.
 
-A short walk through winding masonry brings us to a vertical stone shaft fitted with a platform and iron counterweights. Several iron levers jut from the side console.
+A short walk through winding masonry brings us to a vertical stone shaft fitted with a platform and iron counterweights. Several iron levers jut from the side lever-board.
 
 "Here it is!" Flower announces as we crowd onto the platform. "Now... which lever was the ascent again?"
 
@@ -1408,7 +1432,7 @@ The stone platform rumbles downward into the depths. Guttural growls and wet ski
 
 "That is quite enough," Flower says, her voice turning frigid as her eyes flash bright sapphire blue.
 
-She steps to the control console, hands moving with practiced precision over the levers. The descent shudders to a halt, gears reversing as the platform begins ascending smoothly toward the upper level.
+She steps to the lever-board, hands moving with practiced precision over the levers. The descent shudders to a halt, gears reversing as the platform begins ascending smoothly toward the upper level.
 
 "Ruining the fun as always, aren't you, Illuna?" the amulet rasps as the girl's eyes shift back to emerald green.
 
@@ -1490,7 +1514,7 @@ Above each stone archway, an insect glyph is carved deep into the keystone. She 
 
 "A dragonfly, a beetle, and a wasp," Kate observes, scanning the lintels. "Flower, you're certain one of these routes leads straight to the control hub?"
 
-"Yes! The safe path goes directly to the console room without a single defense mechanism," Flower groans, clutching her head. "I just can't remember which bug is the right one!"
+"Yes! The safe path goes directly to the control chamber without a single defense mechanism," Flower groans, clutching her head. "I just can't remember which bug is the right one!"
 
 The three archways yawn before us, identical save for the glyphs. No visual tells. No scuff marks or temperature differences. If the wrong corridor seals behind us and triggers a floor-collapse trap, there will be no time to react—only foreknowledge would save us from a drop we cannot outrun.
 
@@ -1548,7 +1572,7 @@ Hadrik grins, driving his fist through the masonry in an explosion of mortar.
 
 We clamber through the breach into the beetle passage. Ahead, a steady amber glow washes across the stone floor.
 
-"Light ahead!" Flower points toward the exit, bouncing on her heels. "The console room is right through that archway! Forward march!"
+"Light ahead!" Flower points toward the exit, bouncing on her heels. "The control chamber is right through that archway! Forward march!"
 
 }
 #if(v_ch8_talk == 1) {
@@ -1576,7 +1600,7 @@ Hadrik grins, driving his fist through the masonry in an explosion of mortar.
 
 We clamber through the breach into the beetle passage. Ahead, a steady amber glow washes across the stone floor.
 
-"Light ahead!" Flower points toward the exit, bouncing on her heels. "The console room is right through that archway! Forward march!"
+"Light ahead!" Flower points toward the exit, bouncing on her heels. "The control chamber is right through that archway! Forward march!"
 
 }
 choice("Continue", Ch8-Control-room, v_current_scene = Ch8-Control-room)
@@ -1818,7 +1842,7 @@ Flower blinks, the crimson glare in her eyes gradually subsiding to soft emerald
 
 "What is the meaning of this, Leo?" Eleya's amber eyes snap toward him. "You are permitted the common speech only under dire emergency."
 
-"I apologize for the breach, Great Fox," Leo says, bowing his head slightly. "Yet this matter constitutes an emergency of the highest order."
+"I apologize for the breach, Great Fox," Leo says, bowing his head with his ears pinned back, carrying the heavy strain of a lieutenant spending capital he cannot recover. "Yet this matter constitutes an emergency of the highest order."
 
 "State your reason."
 
@@ -1826,19 +1850,19 @@ Flower blinks, the crimson glare in her eyes gradually subsiding to soft emerald
 
 "To what purpose?"
 
-"They are far more valuable to us living than dead. We can spare no more beast warriors against the ogre stronghold. At this rate, the sacred chalice will remain lost forever. Yet these outsiders proved their martial worth by slaying the subterranean hydra. We can dispatch them to recover the chalice in exchange for their freedom."
+"They are far more valuable to us living than dead. We can spare no more beast warriors against the ogre stronghold. At this rate, the sacred chalice will remain lost forever. Yet these outsiders proved their martial worth by slaying the subterranean hydra. The Sixth Rule dictates that any condemned prisoner demonstrating exceptional martial utility in defense of the realm may be remanded to asset recovery in exchange for conditional pardon."
 
-Eleya studies him, the golden aura settling into a calm, steady hum.
+Eleya's golden coat bristles, her aura flaring with suppressed, predatory fury. The golden bars enclosing us do not waver; the heat radiating from them grows suffocating.
 
-"So this is why you requested to accompany me to the console room upon their escape. You surprise me, Leo. Of all my subjects, your hatred for humankind runs deepest. I never foresaw you advocating for human instruments in our service."
+"So this is why you requested to accompany me to the control chamber upon their escape," Eleya says, her voice cold with disgust. "You corner me with our own edicts, Leo. You force my hand for human vermin."
 
-She considers the proposal in silence.
+She turns her amber gaze back toward our cage. The golden bars hum with lethal pressure.
 
-"Very well. In accordance with the Sixth Golden Rule, full custody of the five prisoners is granted to you."
+"The law binds me. Had you not butchered that hydra in the depths, I would have burned you to ash where you stand. I grant custody to Leo, as protocol dictates. But make no mistake—I would far rather execute you here and now."
 
-Eleya turns her gaze upon our cage.
+She steps closer to the bars, her fangs gleaming in the golden light.
 
-"You have been granted an extraordinary reprieve, humans. See that you do not waste it."
+"You are not guests, and you are not pardoned. You are instruments on a detonator. Do not mistake legal constraint for mercy."
 
 choice("Ask her about the ogre stronghold", Ch8-Stronghold, v_current_scene = Ch8-Stronghold)
 choice("Ask her about the sacred chalice", Ch8-Chalice, v_current_scene = Ch8-Chalice)
@@ -1849,11 +1873,11 @@ TEXT:
 
  "Could you tell us more about this ogre stronghold we are about to be sent to?"
 
-"The fortress lies several dozen leagues from here," Eleya says. "The ogres have established it as their regional redoubt over recent seasons. It is heavily fortified, garrisoned by seasoned warriors, and protected by several powerful shamans."
+"The fortress lies several dozen leagues from here," Eleya says through the golden bars. "The ogres have established it as their regional redoubt over recent seasons. It is heavily fortified, garrisoned by seasoned warriors, and protected by several powerful shamans."
 
 "Will you deactivate our collars during the mission?" Kate asks. "I am familiar with these mechanisms. They can be temporarily toggled without total removal."
 
-"These collars are primitive prototypes," Eleya replies. "Their suppression field persists until physically unlatched. I will not remove them until the sacred chalice is in my possession. You have a window of five days. If you fail to return before the fifth sunset, I will assume desertion and trigger the collars' lethal discharge."
+"These collars are primitive prototypes," Eleya replies, her voice hard as diamond. "Their suppression field persists until physically unlatched. I will not remove them until the sacred chalice is in my possession. You have five days. If you fail to return before the fifth sunset, I will assume desertion and trigger the collars' lethal discharge. It would be my distinct pleasure."
 
 "Five days?" Hadrik grunts. "What if we lose the trail?"
 
@@ -1867,11 +1891,11 @@ TEXT:
 
  "Could you tell us more about this sacred chalice that we are meant to retrieve?"
 
-"The chalice is an ancient relic that infuses water with restorative essence," Eleya says. "It cures afflictions unique to beastkind that conventional spells cannot touch. Since the ogres raided our sanctum and stole the vessel, those sicknesses have claimed scores of my subjects."
+"The chalice is an ancient relic that infuses water with restorative essence," Eleya says through the golden bars. "It cures afflictions unique to beastkind that conventional spells cannot touch. Since the ogres raided our sanctum and stole the vessel, those sicknesses have claimed scores of my subjects."
 
 "Will you deactivate our collars during the mission?" Kate asks. "I am familiar with these mechanisms. They can be temporarily toggled without total removal."
 
-"These collars are primitive prototypes," Eleya replies. "Their suppression field persists until physically unlatched. I will not remove them until the sacred chalice is in my possession. You have a window of five days. If you fail to return before the fifth sunset, I will assume desertion and trigger the collars' lethal discharge."
+"These collars are primitive prototypes," Eleya replies, her voice hard as diamond. "Their suppression field persists until physically unlatched. I will not remove them until the sacred chalice is in my possession. You have five days. If you fail to return before the fifth sunset, I will assume desertion and trigger the collars' lethal discharge. It would be my distinct pleasure."
 
 "Five days?" Hadrik grunts. "What if we lose the trail?"
 
@@ -1893,9 +1917,11 @@ TEXT:
 
 "No!" Flower waves her hands frantically. "I'll go! I'll guide them to the ogre fort!"
 
-"So be it," Eleya says, turning toward the archway. "Leo will provide the tactical briefing. I have other duties requiring my presence."
+"So be it," Eleya says, turning toward the archway. "The cage will drop once I have cleared the corridor. Leo will lay out the ground and the plan. If I see any of you lingering in these ruins after the hour, I will end you myself."
 
-As the golden fox departs, Flower turns to face us, her hands clasped behind her back.
+As the golden fox stalks out of the chamber, her suffocating aura slowly recedes, though the dread in the room lingers long after she is gone.
+
+The golden bars vanish into the flagstones. Flower turns to face us, rubbing her hands together nervously.
 
 "So..." she offers a small, sheepish grin. "Looks like we're traveling together a while longer."
 

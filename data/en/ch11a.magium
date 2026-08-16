@@ -9,31 +9,31 @@ TEXT:
 
 "Wasn't that twenty years ago?" I say. "Just how old are you?"
 
-Eiden tilts his head in mild contemplation.
+Eiden tilts his head, eyes closed in mild contemplation.
 
-"To be honest, I lost count a few centuries back," he says. "The calendar has changed at least five times since I was born, so I have no idea what year it would be by the old reckoning. Early six hundreds is my best estimate."
+"To be honest, I lost count a few centuries back," he says, hands resting loose in his sleeves. "The calendar has changed at least five times since I was born, so I have no idea what year it would be by the old reckoning. Early six hundreds is my best estimate."
 
 "You're... over six centuries old?"
 
 "That is what I just told you," Eiden says. "Do try to keep up."
 
-"How could you?" Flower's voice trembles, a single tear cutting down her cheek. "How could you kill all those people? What did anyone in Olmnar ever do to you?!"
+"How could you?" Flower's voice shakes, a tear cutting through the dust on her cheek. "How could you kill all those people? What did anyone in Olmnar ever do to you?!"
 
 "To me?" Eiden says. "Nothing at all. But the people of Olmnar were the first to hunt animals for sport. The entire war between beasts and men traces back to them. They needed to be punished."
 
-"Punished?" Red flares behind Flower's eyes, hot and sudden. "All of them? The old people? The children? Who gave you the right?! If anyone had that right, it was Eleya, not you!"
+"Punished?" Heat bleeds through Flower's aura, red and sudden. "All of them? The elders? The children? Who gave you the right?! If anyone had that right, it was Eleya, not you!"
 
 "Ah, the old fox!" Eiden snaps his fingers. "I almost forgot why I dropped in."
 
-He turns toward me, hands tucked into his loose sleeves.
+He turns toward me, hovering an inch above the trampled pine needles.
 
 "Barry, did you know the golden fox placed a tracking spell on your group before you left the ruins?"
 
-"A tracking spell?" I say. "Why?"
+"A tracking spell?" I ask. "Why?"
 
-"No idea!" Eiden says with a bright shrug. "Though I suspect she finds you rather interesting as well."
+"No idea!" Eiden offers a bright, careless shrug. "Though I suspect she finds you rather interesting as well."
 
-He traces his index finger through the empty air, tapping at invisible points in space. A warm golden radiance blooms around us, coalescing into the translucent head of the giant fox.
+He traces his index finger through the empty air, tapping invisible anchor points in the weave. A warm golden radiance blooms between us, coalescing into the translucent head of the giant fox.
 
 "Eiden?" Eleya's voice echoes from the projection. "Eiden, is that you?"
 
@@ -41,11 +41,11 @@ He traces his index finger through the empty air, tapping at invisible points in
 
 "Eiden, what are you doing?" the fox demands. "Stop this at once!"
 
-The stillwater ignores her entirely, plucking at the intricate weave until he catches a thread of solid golden light between two fingers.
+The stillwater ignores her entirely, plucking at the intricate golden lattice until he catches a taut filament of light between two fingers.
 
 "Eiden!" Eleya's voice turns sharp. "Don't you dare—"
 
-Eiden offers a cheerful little wave and yanks the thread. The light shatters with a metallic chime, and the fox's image vanishes into nothing.
+Eiden gives a cheerful little wave and yanks the thread. The light shatters with a sharp, metallic chime, and the fox's image dissolves into dust.
 
 choice("Continue", Ch11a-Intro2, v_current_scene = Ch11a-Intro2, v_checkpoint_rich = 0)
 
@@ -59,25 +59,25 @@ TEXT:
 
 He snaps his fingers.
 
-My ribcage collapses inward, the world pinching down to a single dimensionless needle-point. Senses, breath, and balance drop away in one sickening instant—and then I stumble forward onto hard-packed dirt, gasping for air in front of a towering curtain of dressed stone that stretches past both horizons.
+My ribcage collapses inward, space pinching down to a single dimensionless needle-point. Senses, breath, and balance drop away in one sickening instant—and then I stumble forward onto hard-packed dirt, gasping as dry grit hits the back of my throat. Above us rises a towering curtain of dressed limestone, four stories high, stretching past both horizons.
 
-Beside me, Rose steadies herself against her knees, her coughing fit finally subsiding as she looks up at the battlements.
+Beside me, Rose steadies both hands on her knees, coughing hoarsely as the wind catches her hair. The red marks on her throat from Eiden's grip are still dark against her skin.
 
 "Rose, is this..."
 
-"Thilias," she breathes before I can finish. "He wasn't lying. He dropped us right at the gates."
+"Thilias," she breathes, squinting up at the battlements. "He wasn't lying. He dropped us right outside the eastern gate."
 
-"Rose!" Daren calls out, jogging toward us.
+"Rose!" Daren calls out, jogging toward us across the hardpan.
 
-The paralysis has worn off; Kate and Hadrik are already on their feet, dusting themselves off as they close the distance.
+The paralysis has worn off; Kate and Hadrik are already on their feet, shaking the stiffness from their limbs as they close the distance.
 
-"Rose, are you hurt?" Daren asks, scanning her face. "Do you need a healing spell?"
+"Rose, are you hurt?" Daren asks, reaching out to check her pulse. "Do you need a healing spell?"
 
-"No, I'm all right," Rose says. "Just caught my breath wrong. Nothing broken."
+"No, I'm all right," Rose says, straightening with a slow breath. "Just caught my breath wrong. Nothing broken."
 
-I turn toward the golden pendant resting against Flower's chest. "Arraka. Do you feel Eiden anywhere nearby? Is he floating around invisible?"
+I glance down at the golden pendant resting against Flower's chest. "Arraka. Do you feel Eiden anywhere nearby? Is he floating around invisible?"
 
-"No, he stayed behind," Arraka's voice drifts from the metal.
+"No, he stayed behind," Arraka's voice drifts thin from the metal.
 
 "Will you warn us if he sneaks up on us again?" I ask.
 
@@ -85,21 +85,21 @@ I turn toward the golden pendant resting against Flower's chest. "Arraka. Do you
 
 "Just like that?" I say, narrowing my eyes.
 
-"Just like that," Arraka says. "Any chance to ruin Eiden's fun is time well spent."
+"Just like that," Arraka rasps. "Any chance to ruin Eiden's afternoon is time well spent."
 
-"So you two have a history?"
+"So you two have history?"
 
-"Oh, we go way back," she says with a dry rasp.
+"Oh, we go way back," she says with a dry, rattling laugh.
 
-Kate steps up beside Flower, eyeing the red streaks on the girl's cheeks. "Flower... are you all right?"
+Kate steps up beside Flower, eyeing the red streaks dried on the girl's cheeks. "Flower... are you all right?"
 
-"I'm fine," Flower mutters, scrubbing her sleeve across her eyes.
+"I'm fine," Flower mutters, scrubbing a dusty sleeve across her eyes.
 
 "If you need to talk—"
 
 "I said I'm FINE!" Flower snaps, rounding on her.
 
-choice(""Oh, yes, you definitely look fine to me!"", Ch11a-Definitely, v_current_scene = Ch11a-Definitely)
+choice(""You can stand. In this city that's the only kind of fine that counts."", Ch11a-Definitely, v_current_scene = Ch11a-Definitely)
 choice(""Maybe we should take a small break before we enter the city."", Ch11a-Break, v_current_scene = Ch11a-Break)
 choice(""She says she's fine, so let's leave her alone for now."", Ch11a-Alone, v_current_scene = Ch11a-Alone)
 
@@ -107,27 +107,27 @@ choice(""She says she's fine, so let's leave her alone for now."", Ch11a-Alone, 
 ID: Ch11a-Definitely
 TEXT:
 
- "Oh, yes, you definitely look fine to me!"
+ "You can stand," I say. "In this city that's the only kind of fine that counts."
 
 Flower glares at me, her lower lip trembling.
 
-"I'm not stupid," she says. "I know you're mocking me. I know all of us put together wouldn't scratch Eiden if he got serious. I know that! But I couldn't just stand there and do nothing!"
+"I'm not stupid," she says. "I know you think I'm weak. I know all of us put together wouldn't scratch Eiden if he got serious. I know that! But I couldn't just stand there and do nothing!"
 
 "If it helps," Daren says, stepping between us with a wry grimace, "I did the exact same thing the first time I ran into him. And I didn't even have a personal score to settle."
 
-Flower looks up. "You did?"
+Flower looks up, blinking. "You did?"
 
-"Charged him like a bull with my shield raised," Daren says. "He put me to sleep with a flick of his wrist before I crossed half the distance."
+"Charged him like a bull with my shield raised," Daren says, tapping his breastplate. "He put me to sleep with a flick of his wrist before I crossed half the clearing."
 
-"Halt, there!" a harsh voice calls from the gatehouse. A city guard marches out in full leather and iron, spear lowered. "State your business! Identify yourselves!"
+"Halt, there!" a harsh voice barks from the gatehouse. A city guard marches out in full leather and iron, spear lowered. "State your business! Identify yourselves!"
 
 Rose steps forward with an easy, practiced smile. "It's all right, Ralph! They're with me."
 
 A glowing glyph pulses in my field of vision, warning me that the guard is a protected local. A second warning flashes over his partner standing watch by the portcullis.
 
-"Rose! By the gods, you're back," Ralph says, dropping his spear to rest on his boot. "The oildrip broke containment while you were out in the wilds. They've quarantined the entire Sparrow's district."
+"Rose! By the gods, you're back," Ralph says, dropping his spear butt into the dirt. "The oildrip broke containment while you were out in the wilds. They've quarantined the entire Sparrow's district."
 
-The color drains from Rose's face. "My father—is there word from the clinics, Ralph?" she asks, her voice tight.
+The color drains from Rose's face. "My father—is there word from the clinics, Ralph?" she asks, voice tightening.
 
 "Nurse Martha left strict orders to find her the minute you passed the gates," Ralph says. "Check in at her tent before you head anywhere else."
 
@@ -141,11 +141,11 @@ TEXT:
 
  "Maybe we should take a small break before we enter the city."
 
-"We have time," Rose says. "I'm days ahead of schedule thanks to that jump. An extra hour won't hurt."
+"We have time," Rose says, brushing dust from her skirts. "That jump bought me days. An extra hour won't hurt."
 
 "Hear that, Flower?" I turn toward her. "We can just—"
 
-Flower is already ten paces ahead, her small bare feet kicking up dust as she heads straight for the archway.
+Flower is already ten paces ahead, her small bare feet kicking up dirt as she heads straight for the archway.
 
 "Hey! Wait up," I say, jogging after her.
 
@@ -161,7 +161,7 @@ A translucent prompt blinks in my vision, identifying the guard as a local off-l
 
 "Rose! By the gods, you're back," Ralph says, lowering his weapon. "The oildrip broke containment while you were out in the wilds. They've quarantined the entire Sparrow's district."
 
-The color drains from Rose's face. "My father—is there word from the clinics, Ralph?" she asks, her voice tight.
+The color drains from Rose's face. "My father—is there word from the clinics, Ralph?" she asks, voice tightening.
 
 "Nurse Martha left strict orders to find her the minute you passed the gates," Ralph says. "Check in at her tent before you head anywhere else."
 
@@ -187,7 +187,7 @@ A warning sigil flares in my vision: local resident, untouchable by tournament m
 
 "Rose! By the gods, you're back," Ralph says, planting his spear butt in the dirt. "The oildrip broke containment while you were out in the wilds. They've quarantined the entire Sparrow's district."
 
-The color drains from Rose's face. "My father—is there word from the clinics, Ralph?" she asks, voice tight.
+The color drains from Rose's face. "My father—is there word from the clinics, Ralph?" she asks, voice tightening.
 
 "Nurse Martha left strict orders to find her the minute you passed the gates," Ralph says. "Check in at her tent before you head anywhere else."
 
@@ -199,21 +199,21 @@ choice("Continue", Ch11a-Luxurious, v_current_scene = Ch11a-Luxurious)
 ID: Ch11a-Luxurious
 TEXT:
 
- Ralph signals his partner, and the heavy iron-studded gates groan inward on greased hinges.
+ Ralph signals his partner, and the iron-studded oak gates groan inward on greased pivots.
 
-Instead of marble villas and polished plazas, Thilias welcomes us with leaning timber shacks, stagnant mud, and a stench thick enough to choke a horse. Open gutters run black through the center of the street. Crowds in patched homespun shuffle past, hollow-eyed and wary, parting around us in silence. Above every bent head, the tournament sigil burns in faint blue light, warning me that these people are strictly off-limits.
+Instead of marble villas and paved plazas, Thilias opens with leaning timber shacks, stagnant ruts, and a stench thick enough to catch in the teeth. Open gutters run black through the middle of the street, carrying kitchen grease and nightsoil down toward the river. Townsfolk in patched homespun shuffle past, heads down, parting around us in sullen silence. Above every bent brow, the tournament sigil burns in faint blue light, marking them untouchable.
 
-"Pardon my ignorance, Rose," Daren says as we pick our way through the muck, "but aren't Varathian cities supposed to be the crown jewel of civilization?"
+"Pardon my ignorance, Rose," Daren says as we pick our way through the muck, "but aren't Varathian cities supposed to be the jewel of the continent?"
 
-"They are," Rose says. "This is the Beggar's district. We came through the eastern gate. The nobility and the merchant princes use the western avenue, and they rarely cross into these quarters."
+"They are," Rose says, keeping her skirts gathered. "This is the Beggar's district. We came through the eastern gate. The nobility and the merchant syndicates use the western avenue, and they rarely cross into these quarters."
 
 "You divide your towns by wealth?" Daren asks, incredulous.
 
 "Of course," Rose says. "Is it not like that on the eastern continent?"
 
-"No," Daren says, his brow furrowing. "Segregating the destitute only breeds resentment and open revolt."
+"No," Daren says, brow furrowing. "Quarantining the destitute only breeds resentment and open revolt."
 
-"In Varathia, the poor don't revolt," Rose says quietly. "A single insult to a noble gets an entire family put to death."
+"In Varathia, the poor don't revolt," Rose says quietly. "A single insult to a noble gets an entire bloodline put to the sword."
 
 choice(""Their families? Aren't there laws against this sort of thing?"", Ch11a-Families, v_current_scene = Ch11a-Families)
 choice(""Your nobles are starting to sound less like nobles, and more like a gang of thugs."", Ch11a-Thugs, v_current_scene = Ch11a-Thugs)
@@ -226,9 +226,9 @@ TEXT:
 
 "There are," Rose says. "The nobility simply isn't bound by them."
 
-"Monstrous," Daren mutters, his jaw tightening. "The cruelty these people must endure every single day... How can any ruler permit it?"
+"Monstrous," Daren mutters, jaw tightening until tendon shows. "The cruelty these people endure every single day... How can any magistrate permit it?"
 
-"The royalty and the high lords write the codes," Rose says with a helpless shrug. "They see no reason to alter what serves them. You truly come from another world, don't you?"
+"The high lords write the codes," Rose says with a helpless shrug. "They see no reason to alter what feeds them. You truly come from another world, don't you?"
 
 Flower clamps both hands over her mouth with a sharp gasp.
 
@@ -236,11 +236,11 @@ Flower clamps both hands over her mouth with a sharp gasp.
 
 "Make it quick," Hadrik grunts, scanning the rotting eaves. "I don't want to linger in this gutter longer than we have to. Place turns my stomach."
 
-Flower scampers back toward the gate. Hadrik stretches his shoulders, eyes wandering the narrow street until they snag on a hanging iron shingle.
+Flower scampers back toward the gate. Hadrik rolls his heavy shoulders, eyes wandering the narrow alley until they snag on a hanging iron shingle.
 
 "Hey, Daren," Hadrik calls out. "Armor smith right on the corner. Want to take a look? Might be your chance to trade that battered breastplate for something decent."
 
-"I'll pass," Daren says, his tone like vinegar.
+"I'll pass," Daren says, tone dry as vinegar.
 
 "Suit yourself," Hadrik says with a grin, disappearing through the heavy oak door.
 
@@ -250,11 +250,11 @@ Kate glances at Daren. "You two really don't get along, do you?"
 
 "Right," Kate says.
 
-A girl's high, ragged shriek cuts through the rumble of the street.
+A girl's high, ragged shriek cuts through the rumble of the thoroughfare.
 
-Ten paces to our right, in the middle of the thoroughfare, a thickset man in embroidered silk and heavy gold chains is kicking a teenage girl in the ribs.
+Ten paces to our right, in the middle of the street, a thickset man in embroidered silk and heavy gold chains is kicking a teenage girl in the ribs.
 
-Her clothes are coarse, sun-bleached burlap, smeared with gutter mud. What turns my stomach is the complete absence of fight in her: she curls into a ball, forearms locked around her head, offering no resistance, no scramble to escape, no second cry for help. Townsfolk walk right past, eyes fixed firmly on the cobblestones as though stepping around horse droppings.
+Her clothes are coarse, sun-bleached burlap, soaked with gutter mud. What turns my stomach is the complete absence of fight in her: she curls into a ball on the stones, forearms locked around her head, offering no resistance, no scramble to escape, no second cry for help. Townsfolk walk right past, eyes fixed firmly on their boots as though stepping around horse droppings.
 
 choice("Continue", Ch11a-Slave, v_current_scene = Ch11a-Slave)
 
@@ -264,7 +264,7 @@ TEXT:
 
  "Your nobles are starting to sound less like nobles, and more like a gang of thugs."
 
-Rose casts an anxious glance at the nearest passersby, her voice dropping to a whisper. "I wouldn't say that where anyone can hear..."
+Rose casts an anxious glance at the nearest passersby, voice dropping to a whisper. "I wouldn't say that where anyone can hear..."
 
 "Why?" I ask. "They'll throw me in a dungeon for stating the obvious?"
 
@@ -276,11 +276,11 @@ Flower clamps both hands over her mouth with a sharp gasp.
 
 "Make it quick," Hadrik grunts, scanning the rotting eaves. "I don't want to linger in this gutter longer than we have to. Place turns my stomach."
 
-Flower scampers back toward the gate. Hadrik stretches his shoulders, eyes wandering the narrow street until they snag on a hanging iron shingle.
+Flower scampers back toward the gate. Hadrik rolls his heavy shoulders, eyes wandering the narrow alley until they snag on a hanging iron shingle.
 
 "Hey, Daren," Hadrik calls out. "Armor smith right on the corner. Want to take a look? Might be your chance to trade that battered breastplate for something decent."
 
-"I'll pass," Daren says, his tone like vinegar.
+"I'll pass," Daren says, tone dry as vinegar.
 
 "Suit yourself," Hadrik says with a grin, disappearing through the heavy oak door.
 
@@ -290,11 +290,11 @@ Kate glances at Daren. "You two really don't get along, do you?"
 
 "Right," Kate says.
 
-A girl's high, ragged shriek cuts through the rumble of the street.
+A girl's high, ragged shriek cuts through the rumble of the thoroughfare.
 
-Ten paces to our right, in the middle of the thoroughfare, a thickset man in embroidered silk and heavy gold chains is kicking a teenage girl in the ribs.
+Ten paces to our right, in the middle of the street, a thickset man in embroidered silk and heavy gold chains is kicking a teenage girl in the ribs.
 
-Her clothes are coarse, sun-bleached burlap, smeared with gutter mud. What turns my stomach is the complete absence of fight in her: she curls into a ball, forearms locked around her head, offering no resistance, no scramble to escape, no second cry for help. Townsfolk walk right past, eyes fixed firmly on the cobblestones as though stepping around horse droppings.
+Her clothes are coarse, sun-bleached burlap, soaked with gutter mud. What turns my stomach is the complete absence of fight in her: she curls into a ball on the stones, forearms locked around her head, offering no resistance, no scramble to escape, no second cry for help. Townsfolk walk right past, eyes fixed firmly on their boots as though stepping around horse droppings.
 
 choice("Continue", Ch11a-Slave, v_current_scene = Ch11a-Slave)
 
@@ -306,7 +306,7 @@ TEXT:
 
 "Daren, stop!" Rose grabs his armored forearm with both hands. "You can't! That man is kin to one of the kings of Varathia, and that girl is his slave. She is his legal property!"
 
-"She is his... what?" Daren looks at her, the color draining from his face.
+"She is his... what?" Daren looks at her, color draining from his face.
 
 Rose flinches under the cold fury in his eyes.
 
@@ -314,13 +314,13 @@ Rose flinches under the cold fury in his eyes.
 
 Daren stares at Rose, stunned into silence.
 
-"You're telling me this is lawful?" Daren demands, his voice rising. "Treating a human being like cattle? Do you find this acceptable, Rose?!"
+"You're telling me this is lawful?" Daren demands, voice rising. "Treating a human being like cattle? Do you find this acceptable, Rose?!"
 
 Rose parts her lips, but nothing comes out.
 
-"Whatever I think of it," she says at last, her voice trembling, "tournament law still protects him. You saw what happened to the mage who raised a hand against me in the woods. You'll be disqualified and banished before your blade clears the scabbard."
+"Whatever I think of it," she says at last, voice trembling, "tournament law still protects him. You saw what happened to the mage who raised a hand against me in the woods. You'll be disqualified and banished before your blade clears the scabbard."
 
-Daren's fist clenches around the grip of his sword, his leather glove creaking under the strain. He offers no retort. He simply turns his back on her, staring at the horror in the street.
+Daren's fist clenches around the grip of his sword, leather glove creaking under the strain. He offers no retort. He simply turns his back on her, staring at the horror in the street.
 
 "I'm sorry," the girl whimpers from the mud as the man drives a heel into her shoulder. "Please, master, I'm sorry!"
 
@@ -348,7 +348,7 @@ The nobleman grabs a fistful of her hair, yanking her head back until her neck s
 
 "Do you see now, Daren?" Eiden's voice floats from the air behind us.
 
-Daren whips around, his face hardening as he spots the stillwater hovering inches above the cobbles, eyes closed, hands tucked loosely into his sleeves.
+Daren whips around, face hardening as he spots the stillwater hovering inches above the cobbles, eyes closed, hands tucked loosely into his sleeves.
 
 "Do you see the true face of the humanity you are so desperate to protect?" Eiden says. "Look at them. Any one of these good citizens could step forward, break that fool's neck, and walk away. But they won't. Some claim they are obeying the law. Others say they must shield their families. But you and I know the truth: they look away because it is convenient. Because lying to themselves is easier than facing the rot."
 
@@ -377,19 +377,19 @@ choice("Say nothing.", Ch11a-Nothing, v_current_scene = Ch11a-Nothing)
 ID: Ch11a-Nothing
 TEXT:
 
- "Well, Daren?" Eiden asks after a long pause. "What will it be?"
+ "Well, Daren?" Eiden asks after a long, still pause. "What will it be?"
 
 "I'll prove you wrong," Daren says, voice low and raw. "There is decency in every man. Even in someone as vile as this noble."
 
-He turns and marches straight toward them. The girl is frantically hauling at the heavy sacks, her thin arms shaking as they tumble back into the mud. The nobleman raises a heavy backhand to strike her again.
+He turns and strides straight down the center of the thoroughfare. The girl is frantically hauling at the rough sacks, thin arms trembling under the weight as another burlap bundle tumbles back into the muck. The nobleman raises a heavy backhand to strike her again.
 
-"Hold!" Daren's voice booms down the alley as he closes the distance. "You're hurting her!"
+"Hold!" Daren's voice booms across the alley as he closes the distance. "You're hurting her!"
 
 The nobleman stops, blinking at Daren's plate armor as if confronted by a talking dog.
 
 "What are you, a street clown?" the man asks. "Do you charge coin to announce the obvious? What next? Will you inform me the sun rises in the east?"
 
-"She is a human being!" Daren steps into his space. "She bleeds as you bleed. She feels pain, terror, exhaustion. How can you treat another person like dirt beneath your boots?"
+"She is a human being!" Daren steps into his space, towering over the silk-clad lord. "She bleeds as you bleed. She feels pain, terror, exhaustion. How can you treat another living person like dirt beneath your boots?"
 
 "She is not a person, outsider," the nobleman sneers. "She is a slave. An existence lower than vermin. Do you weep for every fly you swat?"
 
@@ -397,7 +397,7 @@ The nobleman stops, blinking at Daren's plate armor as if confronted by a talkin
 
 "It is you who are blind," the nobleman says. "I realize abstract concepts elude a barbarian, but allow me to educate you."
 
-He grabs the girl by her hair and drags her upright, forcing her to face Daren.
+He grabs the girl by her matted hair and drags her upright, forcing her to face Daren.
 
 choice("Continue", Ch11a-Civilization, v_current_scene = Ch11a-Civilization)
 
@@ -436,7 +436,7 @@ Eiden's smile sharpens. He turns to Kate.
 
 "And you, Kate?" he asks. "The offer stands. Ask, and I strip the ward from you right now. Will you leave her to bleed?"
 
-Kate looks away, her jaw rigid, hands clenched inside her cloak. "It isn't... our concern. We can't save everyone."
+Kate looks away, jaw rigid, hands clenched inside her cloak. "It isn't... our concern. We can't save everyone."
 
 "How wonderfully pragmatic," Eiden says.
 
@@ -515,9 +515,9 @@ TEXT:
 #if(v_ch11_saved_slave == 1) {
  "If Daren won't accept the power, then I will," I say.
 
-"I expected as much," Eiden says, his smile widening. "Very well."
+"I expected as much," Eiden says, smile widening. "Very well."
 
-He raises his palms. A sharp draft spirals around him, lifting his loose tunic, then settles into dead calm.
+He raises his palms. A sharp draft spirals around him, lifting the hem of his tunic, then settles into dead calm.
 
 "It is done," he says.
 
@@ -527,7 +527,7 @@ He raises his palms. A sharp draft spirals around him, lifting his loose tunic, 
 
 I test the thought, picturing a fist to the man's throat. The psychic clamp that usually suffocates violent intent is completely gone.
 
-I sprint across the cobbles, cock my right fist, and drive a hard punch straight into the nobleman's jaw. The impact sends him sprawling onto his back in the mud.
+I sprint across the cobbles, cock my right fist, and drive a hard punch straight into the nobleman's jaw. The impact sends him sprawling onto his back in the mud, spitting teeth and dark blood.
 
 }
 #if(v_ch11_saved_slave == 2) {
@@ -535,7 +535,7 @@ I sprint across the cobbles, cock my right fist, and drive a hard punch straight
 
 "Very well!" Eiden says with an airy wave.
 
-He raises his palms. A sharp draft spirals around him, lifting his loose tunic, then settles into dead calm.
+He raises his palms. A sharp draft spirals around him, lifting the hem of his tunic, then settles into dead calm.
 
 "It is done," he says.
 
@@ -545,11 +545,11 @@ He raises his palms. A sharp draft spirals around him, lifting his loose tunic, 
 
 I test the thought, picturing a blow to the man's throat. The suffocating psychic resistance never arrives.
 
-I sprint across the cobbles, cock my right fist, and smash him across the jaw. He crashes backward into the muck, the skinning knife slipping from his fingers.
+I sprint across the cobbles, cock my right fist, and smash him across the jaw. He crashes backward into the muck, the skinning knife spinning from his fingers into the black water of the gutter.
 
 }
 #if(v_ch11_saved_slave == 1 || v_ch11_saved_slave == 2) {
- "What is the meaning of this?!" the nobleman howls from the dirt, spitting blood. "How dare you?! Do you know who I am?!"
+ "What is the meaning of this?!" the nobleman howls from the dirt, wiping a bloody sleeve across his mouth. "How dare you?! Do you know who I am?!"
 
 "Sure," I tell him. "Just another rich jackass who let his title rot his brain. Welcome to the real world."
 
@@ -564,7 +564,7 @@ ID: Ch11a-Thousands
 TEXT:
 
 #if(v_ch11_kill_noble == 1) {
- Without a word, I unhook the crossbow from my pack, crank the winch, and seat a bolt in the groove.
+ Without a word, I unhook the crossbow from my pack, crank the winch, and seat an iron bolt in the groove.
 
 "What is that supposed to be?" the nobleman says, scrambling to his feet. "A threat? You won't shoot, boy. You haven't the stomach for it. You're an insolent peasant, nothing more. Shall I tell you how we handle peasants in Varathia?"
 
@@ -697,7 +697,7 @@ I turn to find the girl dropping into a deep, stiff bow, her forehead nearly tou
 
 "My name is Ella," she says, her voice barely above a whisper. "Though most called me only 'slave girl.' I know I am not much, but if you will have me, I swear to serve you faithfully until the day I die. Give me my first command, and our pact is sealed."
 
-choice(""Sure thing! I guess you can start by shining my boots! They're a little dirty."", Ch11a-Boots, v_current_scene = Ch11a-Boots)
+choice(""If taking orders is what keeps you calm, stay where I can see you. Don't call me master."", Ch11a-Boots, v_current_scene = Ch11a-Boots)
 choice(""Wait, I didn't mean to become your new master. I only meant to set you free!"", Ch11a-Free, v_current_scene = Ch11a-Free)
 choice(""Uh, okay. How about coming with us to Rose's house, for the time being?"", Ch11a-House, v_current_scene = Ch11a-House)
 
@@ -705,23 +705,21 @@ choice(""Uh, okay. How about coming with us to Rose's house, for the time being?
 ID: Ch11a-Boots
 TEXT:
 
- "Sure thing! I guess you can start by shining my boots! They're a little dirty."
+ "If taking orders is what keeps you calm, stay where I can see you," I tell her. "Don't call me master."
 
-"As you command, master," Ella says, dropping to her knees in the mud and lifting her ragged sleeve toward my boot.
-
-"Wait, hold on!" I jump backward. "It was a joke! A joke!"
+"As you command, mas—sir," Ella says, dropping to her knees in the mud, trembling.
 
 A sharp, vicious tug on the crown of my head wrenches my neck backward as Kate yanks a fistful of my hair.
 
-"You and your mouth," Kate growls into my ear. "Couldn't you rein it in for thirty seconds?"
+"You and your mouth," Kate growls into my ear. "Couldn't you tell her she's free without barking at her?"
 
-"Master?" the girl asks, looking up from the cobblestones in sheer bewilderment.
+"Sir?" the girl asks, looking up from the cobblestones in sheer bewilderment.
 
 "Ella, you don't have to do anything for me," I say, rubbing the sore spot on my scalp as Kate lets go. "You can go wherever you want. Do whatever you like."
 
 "I... I don't understand..." Ella whispers, trembling.
 
-"Barry means you are welcome to come with us," Rose says gently, placing a hand on the girl's shoulder. "My house is only a short walk from here."
+"Barry means you are welcome to come with us," Rose says gently, resting a steady hand on the girl's shoulder. "My house is only a short walk from here."
 
 "Y-yes, sir," Ella stammers. "Of course."
 
@@ -985,13 +983,13 @@ choice("Continue", Ch11a-Task, v_current_scene = Ch11a-Task) if (v_ch11_saved_sl
 ID: Ch11a-Prevented
 TEXT:
 
- "Now that we're off our feet," Hadrik says, settling onto a wooden garden bench, "will someone explain what happened to Daren that turned him even more sour than usual?"
+ "Now that we're off our feet," Hadrik says, settling his bulk onto a wooden garden bench, "will someone explain what happened to Daren that turned him even more sour than usual?"
 
 Kate and I exchange a grim look. Between the two of us, we give Hadrik and Flower a full accounting of the alley, the noble, and the slaughter.
 
 "Damn it!" Hadrik growls, slamming a fist into his palm. "If only I hadn't wasted time browsing iron. If I'd been standing there, I would have taken the power in Daren's place and broken that swine in half."
 
-He pauses, his dark eyes fixing on Kate and me.
+He pauses, dark eyes fixing on Kate and me.
 
 "Still, I don't get it. Both of you were standing right there. You could have stopped it. Why didn't you do anything?"
 
@@ -1006,9 +1004,9 @@ TEXT:
 
 "None of our business?!" Hadrik's voice thunders across the lawn, fury burning in his eyes. "You watched an innocent girl butchered in the dirt and called it none of your business?! Is that what you're telling me?!"
 
-"Hadrik," Kate says, her voice flat. "We can't save everyone..."
+"Hadrik," Kate says, voice flat. "We can't save everyone..."
 
-"That doesn't mean we step over corpses when they fall at our feet!" Hadrik slams both fists onto the timber table, shaking the planks. "I barely recognize either of you! It's like you've both turned into Arraka!"
+"That doesn't mean we step over corpses when they fall at our feet!" Hadrik slams both fists onto the timber table, shaking the heavy planks. "I barely recognize either of you! It's like you've both turned into Arraka!"
 
 "And what's so terrible about that?" Arraka's voice rasps from the amulet.
 
@@ -1046,9 +1044,9 @@ TEXT:
 
 "Too risky?!" Hadrik's voice thunders across the lawn. "Are you serious right now?! You think crossing local lords is more dangerous than storming an ogre stronghold?!"
 
-"Hadrik," Kate says, her voice flat. "We can't save everyone..."
+"Hadrik," Kate says, voice flat. "We can't save everyone..."
 
-"That doesn't mean we step over corpses when they fall at our feet!" Hadrik slams both fists onto the timber table, shaking the planks. "I barely recognize either of you! It's like you've both turned into Arraka!"
+"That doesn't mean we step over corpses when they fall at our feet!" Hadrik slams both fists onto the timber table, shaking the heavy planks. "I barely recognize either of you! It's like you've both turned into Arraka!"
 
 "And what's so terrible about that?" Arraka's voice rasps from the amulet.
 
@@ -1090,7 +1088,7 @@ Rose's siblings dart past the tables every few minutes, racing between the hedge
 
 "Hey," Kevin says, skidding to a halt in front of Flower. "Why are you dressed like a clown?"
 
-Flower bristles, her eyes narrowing. "I'm not dressed like a clown! Are you blind? These are the acrobat silks I wore on the high trapeze back at the circus!"
+Flower bristles, eyes narrowing. "I'm not dressed like a clown! Are you blind? These are the acrobat silks I wore on the high trapeze back at the circus!"
 
 "Trapeze, acrobats, clowns—same thing," Kevin says with a shrug.
 
@@ -1125,7 +1123,7 @@ Rose's siblings dart past the tables every few minutes, racing between the hedge
 
 "Hey," Kevin says, skidding to a halt in front of Flower. "Why are you dressed like a clown?"
 
-Flower bristles, her eyes narrowing. "I'm not dressed like a clown! Are you blind? These are the acrobat silks I wore on the high trapeze back at the circus!"
+Flower bristles, eyes narrowing. "I'm not dressed like a clown! Are you blind? These are the acrobat silks I wore on the high trapeze back at the circus!"
 
 "Trapeze, acrobats, clowns—same thing," Kevin says with a shrug.
 
@@ -1175,21 +1173,21 @@ choice("Continue", Ch11a-Incriminated, v_current_scene = Ch11a-Incriminated)
 ID: Ch11a-Task
 TEXT:
 
- "I can't believe this!" Hadrik grumbles, crossing his thick arms. "So Flower and I are the only ones left who can't lay a finger on the locals because we weren't standing in the alley when Eiden cast his spell?"
+ "I can't believe this!" Hadrik grumbles, crossing thick arms over his leather vest. "So Flower and I are the only ones left who can't lay a finger on the locals because we weren't standing in the alley when Eiden cast his spell?"
 
 "I never had that problem," Flower says. "I'm not enrolled in the tournament, remember? The ward doesn't touch me."
 
 "Great!" Hadrik says. "Just grand! Why did I have to browse iron? They didn't even have a decent axe!"
 
-Beside me, Ella sits stiff as an oak post, her fingers digging into the hem of her burlap tunic.
+Beside me, Ella sits stiff as an oak post on the bench, fingers digging white-knuckled into the hem of her burlap tunic.
 
-"Excuse me, master," she whispers, keeping her eyes glued to the grass. "I... I don't mean to intrude, but you haven't assigned me a task since we arrived."
+"Excuse me, master," she whispers, eyes glued to the grass. "I... I don't mean to intrude, but you haven't assigned me a task since we arrived."
 
 "Don't worry about it," I tell her. "Just sit and rest."
 
 "Y-yes, sir..." she murmurs.
 
-Instead of soothing her, the words seem to ratchet her panic higher. She sits rigid, biting her lower lip, sweat beading along her hairline as she stares at the wood grain of the table.
+Instead of soothing her, the words seem to ratchet her panic higher. She sits rigid, biting her lower lip until it bleeds, sweat beading along her hairline as she stares at the wood grain of the table.
 
 "There you are!" Rose calls out, coming down the portico steps and taking a seat beside Flower. "Daren is settled in his room. Shall I show the rest of you upstairs?"
 
@@ -1203,7 +1201,7 @@ choice("Continue", Ch11a-Loyalty, v_current_scene = Ch11a-Loyalty)
 ID: Ch11a-Loyalty
 TEXT:
 
- Ella shoots to her feet, knocking her knees against the bench, her face pale with terror.
+ Ella shoots to her feet, knocking her knees against the bench, face pale with terror.
 
 "There is no need for the test!" she cries out, voice cracking. "I will work! I won't disappoint you! I swear it!"
 
@@ -1217,11 +1215,11 @@ The sudden outburst shocks the table into silence.
 
 "I... have no idea," Rose says.
 
-"She's talking about a test of loyalty," Kate says, her voice flat and steady. "A standard procedure to break a captive's will so they never attempt escape. They used it constantly at the Beacon."
+"She's talking about a test of loyalty," Kate says, voice flat and steady. "A standard procedure to break a captive's will so they never attempt escape. They used it constantly at the Beacon."
 
 Hadrik knits his brow. "Why would she think we're testing her? None of us mentioned anything of the sort."
 
-"Because you're being kind," Kate says. "That is how every loyalty test begins. At the Beacon, a handler or an unfamiliar guard would act gentle out of nowhere. Once the child let their guard down, the guard would whisper an offer to help them escape. If the orphan believed them and ran, the same guard dragged them back into the courtyard, announced they had failed the loyalty test, and beat them half to death in front of the others—or hung them from the gate as a lesson. After that, even if genuine rescue arrived, no child dared take a hand. Fear kept them in their cells better than iron bars."
+"Because you're being kind," Kate says, eyes hard. "That is how every loyalty test begins. At the Beacon, a handler or an unfamiliar guard would act gentle out of nowhere. Once the child let their guard down, the guard would whisper an offer to help them escape. If the orphan believed them and ran, the same guard dragged them back into the courtyard, announced they had failed the loyalty test, and beat them half to death in front of the others—or hung them from the gate as a lesson. After that, even if genuine rescue arrived, no child dared take a hand. Fear kept them in their cells better than iron bars."
 
 Rose presses a hand against her chest, horrified. "Gods above... That is monstrous. But if that's what she expects, how do we convince her we mean no harm?"
 
@@ -1238,7 +1236,7 @@ TEXT:
 
 "Stop pampering her," Kate says. "It only deepens her panic."
 
-Rose's jaw sets with quiet determination. She turns to Ella, her voice firm and clear.
+Rose's jaw sets with quiet determination. She turns to Ella, voice firm and clear.
 
 "Ella. You will march into that house and bring me a glass of fresh water. The kitchen is off the main hall on the left. There is a hand pump by the window, and clean glasses on the upper shelf. Understood?"
 
@@ -1366,13 +1364,13 @@ Kevin rolls his eyes. "You're no fun."
 
 She slides down from Ella's back and wraps her arms tightly around the girl's waist, glaring at her brother. "Don't worry, Ella. I won't let anyone hurt you."
 
-Ella sways on her feet, her face drenched in sweat. "Thank you... miss..."
+Ella sways on her feet, face drenched in sweat. "Thank you... miss..."
 
 Her eyes roll back, and she pitches forward onto the turf.
 
 "Ella!" Suzie screams.
 
-Hadrik and I bolt across the grass. Ella is breathing in shallow, rapid gasps, her forehead burning hot against my palm.
+Hadrik and I bolt across the grass. Ella is breathing in shallow, rapid gasps, forehead burning hot against my palm.
 
 "I did this!" Suzie sobs, tears streaming down her cheeks. "I broke her! I shouldn't have asked for the ride! It's all my fault!"
 
@@ -1403,7 +1401,7 @@ Daren immediately places his hands over her chest, summoning a pulse of white li
 
 "We tried," Kate says. "She believed resting was a failure of obedience that would get her killed."
 
-Daren grinds his teeth, his jaw clenching. "Miserable swine. I'd kill that nobleman twice if I could."
+Daren grinds his teeth, jaw clenching. "Miserable swine. I'd kill that nobleman twice if I could."
 
 The white radiance sinks into Ella's skin. Her rapid gasping eases into deep, steady breaths.
 
@@ -1437,7 +1435,7 @@ Hadrik scoops Ella up without hesitation. I sprint through the double doors and 
 
 "Daren! Open up!"
 
-The latch clicks, and Daren pulls the door wide, his brow furrowed. "Barry? What is it? An ambush?"
+The latch clicks, and Daren pulls the door wide, brow furrowed. "Barry? What is it? An ambush?"
 
 "Ella collapsed in the yard. Burning fever and sheer exhaustion. We need your healing."
 
@@ -1449,7 +1447,7 @@ Daren kneels at once, placing his palms over her chest as white light floods his
 
 "We tried," Kate says. "She believed resting was a failure of obedience that would get her killed."
 
-Daren grinds his teeth, his jaw clenching. "Miserable swine. I'd kill that nobleman twice if I could."
+Daren grinds his teeth, jaw clenching. "Miserable swine. I'd kill that nobleman twice if I could."
 
 The white radiance sinks into Ella's skin. Her rapid gasping eases into deep, steady breaths.
 
@@ -1477,7 +1475,7 @@ choice("Continue", Ch11a-Fever, v_current_scene = Ch11a-Fever, v_available_point
 ID: Ch11a-Fever
 TEXT:
 
- "No," Rose says, her voice turning stern as she looks down at the bed. "You cannot work today. You cannot even lift your head. That means as a slave, you are completely useless to me. And the only fate for a useless slave is death."
+ "No," Rose says, voice turning stern as she looks down at the bed. "You cannot work today. You cannot even lift your head. That means as a slave, you are completely useless to me. And the only fate for a useless slave is death."
 
 Ella freezes in sheer terror, too weak to flinch away. Rose takes the girl's trembling hands between her own warm palms, letting the stern mask drop away into a gentle, reassuring smile.
 
@@ -1508,7 +1506,7 @@ choice("Invest points later(by pressing the stats button on the top of the scree
 ID: Ch11a-Stats-spent2
 TEXT:
 
- "No," Rose says, her voice turning stern as she looks down at the bed. "You cannot work today. You cannot even lift your head. That means as a slave, you are completely useless to me. And the only fate for a useless slave is death."
+ "No," Rose says, voice turning stern as she looks down at the bed. "You cannot work today. You cannot even lift your head. That means as a slave, you are completely useless to me. And the only fate for a useless slave is death."
 
 Ella freezes in sheer terror, too weak to flinch away. Rose takes the girl's trembling hands between her own warm palms, letting the stern mask drop away into a gentle, reassuring smile.
 
@@ -1564,9 +1562,9 @@ TEXT:
 
 She laughs softly, ducking her head.
 
-"I can hardly believe you're the same man who announced he'd been tripping over roots while staring at me."
+"I can hardly believe you're the same man who announced he'd been watching me instead of the tree line."
 
-"I'm still sorry about that," I say. "I was going for charming and landed somewhere around pathetic."
+"I'm still standing by that," I say. "It was a tactical failure, but at least I was honest about it."
 
 "You said you did it because you liked me..."
 
@@ -1845,7 +1843,7 @@ TEXT:
 
  We reach the Beggar's district in under an hour. The stench of open drains and rotting refuse hangs heavy over the mud, though after yesterday's visit, the reek hardly registers.
 
-"Rose," Kate says as we turn down a narrow alley, "are you certain it's wise to walk openly with us? After yesterday's incident, we may well be wanted criminals in this city."
+"Rose," Kate says as we turn down a narrow alley between leaning timber walls, "are you certain it's wise to walk openly with us? After yesterday's incident, we may well be wanted criminals in this city."
 
 "You don't need to worry about me," Rose says. "Years ago, our king passed a law protecting locals from criminal association charges with off-continent mages. Since Varathians rarely associate with outsiders, the law presumes any local traveling in their company is a hostage under duress. King Golmyck has enacted several such protections. He is known as a king of the common folk, and people love him for it."
 
@@ -1868,13 +1866,13 @@ TEXT:
 
 "They may lack territory," Rose says, "but no one disputes their brilliance. Gnomes are the finest inventors and engineers of our era. King Golmyck was a celebrated master craftsman before his coronation."
 
-"Elected?" Kate asks, her brow furrowing. "You mean the crown of Thilias isn't hereditary?"
+"Elected?" Kate asks, brow furrowing. "You mean the crown of Thilias isn't hereditary?"
 
 "No," Rose says. "The late monarch died without an heir. On his deathbed, he decreed that his successor be chosen by open ballot, so the realm would have a ruler chosen by the people. The nobility hated the proclamation, but defying a dead king's final wish would have sparked an uprising. Golmyck's inventions and good humor made him the overwhelming favorite, and he won in a landslide."
 
 "I dislike interrupting history lectures," Illuna's voice cuts in, cool and sharp, "but is this market supposed to be completely deserted at mid-morning? Even the merchants haven't unlatched their stalls."
 
-Rose looks around, her brow knitting. "No. You're right. By this hour, the square is usually packed shoulder to shoulder. And the cross streets we passed were empty as well."
+Rose looks around, her brow knitting as she takes in the empty cobbles. "No. You're right. By this hour, the square is usually packed shoulder to shoulder. And the cross streets we passed were empty as well."
 
 Hadrik's hand drops to his axe belt. "Smells like an ambush."
 
@@ -1882,7 +1880,7 @@ Hadrik's hand drops to his axe belt. "Smells like an ambush."
 
 A blinding emerald flare floods the alley.
 
-Rose gasps, her eyes rolling back as her knees buckle. She hits the cobblestones before I can reach her. Daren drops beside her in a heartbeat, fingers pressed against her neck, and signals that she has a steady pulse.
+Rose gasps, eyes rolling back as her knees buckle. She hits the cobblestones before I can reach her. Daren drops beside her in a heartbeat, fingers pressed against her neck, and signals that she has a steady pulse.
 
 choice("Continue", Ch11a-Poster, v_current_scene = Ch11a-Poster)
 
@@ -1902,13 +1900,13 @@ TEXT:
 
 "They may lack territory," Rose says, "but no one disputes their brilliance. Gnomes are the finest inventors and engineers of our era. King Golmyck was a celebrated master craftsman before his coronation."
 
-"Elected?" Kate asks, her brow furrowing. "You mean the crown of Thilias isn't hereditary?"
+"Elected?" Kate asks, brow furrowing. "You mean the crown of Thilias isn't hereditary?"
 
 "No," Rose says. "The late monarch died without an heir. On his deathbed, he decreed that his successor be chosen by open ballot, so the realm would have a ruler chosen by the people. The nobility hated the proclamation, but defying a dead king's final wish would have sparked an uprising. Golmyck's inventions and good humor made him the overwhelming favorite, and he won in a landslide."
 
 "I dislike interrupting history lectures," Illuna's voice cuts in, cool and sharp, "but is this market supposed to be completely deserted at mid-morning? Even the merchants haven't unlatched their stalls."
 
-Rose looks around, her brow knitting. "No. You're right. By this hour, the square is usually packed shoulder to shoulder. And the cross streets we passed were empty as well."
+Rose looks around, her brow knitting as she takes in the empty cobbles. "No. You're right. By this hour, the square is usually packed shoulder to shoulder. And the cross streets we passed were empty as well."
 
 Hadrik's hand drops to his axe belt. "Smells like an ambush."
 
@@ -1916,7 +1914,7 @@ Hadrik's hand drops to his axe belt. "Smells like an ambush."
 
 A blinding emerald flare floods the alley.
 
-Rose gasps, her eyes rolling back as her knees buckle. She hits the cobblestones before I can reach her. Daren drops beside her in a heartbeat, fingers pressed against her neck, and signals that she has a steady pulse.
+Rose gasps, eyes rolling back as her knees buckle. She hits the cobblestones before I can reach her. Daren drops beside her in a heartbeat, fingers pressed against her neck, and signals that she has a steady pulse.
 
 choice("Continue", Ch11a-Poster, v_current_scene = Ch11a-Poster)
 
@@ -1926,7 +1924,7 @@ TEXT:
 
  "Where did that light come from?" Hadrik demands. "Those two casters?"
 
-"Almost certainly," Illuna says, her bright sapphire eyes scanning the alley. "Flower has fallen dormant within our shared mind, and I cannot rouse her. Her soul is locked in stasis, similar to the ward I placed on her in the ogre fort."
+"Almost certainly," Illuna says, bright sapphire eyes scanning the alley. "Flower has fallen dormant within our shared mind, and I cannot rouse her. Her soul is locked in stasis, similar to the ward I placed on her in the ogre fort."
 
 As Daren tends to Rose, two robed figures step out from behind the timber corner. One wears black vestments, a coiled serpent tattoo gleaming across his shaved skull. The other wears forest-green robes and a silver circlet.
 
