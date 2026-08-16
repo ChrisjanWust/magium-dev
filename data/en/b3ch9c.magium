@@ -1,35 +1,35 @@
 ID: B3-Ch09c-Teaming
 TEXT:
 
- "Teaming up with the king or Peter is a bad idea," I say. "They are going to be weaker here than on the earthen plane. We will spend the whole fight keeping them alive. We are better off on our own."
+ "Teaming up with the king or Peter is a bad idea," I say, rolling the phantom joints of my conjured wrists. "They are out of their element here. On the earthen plane they are an army; in the ether they are two displaced souls with zero combat conditioning. We would spend every second shielding them from their own ignorance. We strike on our own."
 
-"If you say so, Barry." Heat ripples off Flower's skin. "I am jumping us straight to the Overseer, then. Ready?"
+"If you say so, Barry." Molten heat ripples from Flower's skin, her crimson eyes blazing. "I'm jumping us straight to the Overseer's coordinates. Brace yourself!"
 
 "Ready."
 
-White light folds over us, humming against my teeth. When the glare clears, we are drifting in the blinding expanse of the ether. Twenty feet ahead, the green-eyed drone hovers in place, silent and still.
+Blinding white radiance folds over us, the frequency humming through the phantom bone of my jaw. When the glare snaps away, we are suspended in the boundless brilliance of the outer ether. Twenty feet ahead, the green-eyed bronze drone drifts motionless in the glow, its optical sensor tracking our arrival with cold, mechanical precision.
 
-"Processing," the Overseer drones. "The Overseer protocol thanks you for reducing search parameters. State the purpose of your presence so optimal actions may be calculated."
+"Processing," the Overseer drones in its flat, synthetic monotone. "The Overseer protocol thanks you for reducing search parameters. State the purpose of your presence so optimal actions may be calculated."
 
-"Aren't you supposed to be a genius machine?" I say. "Work it out."
+"Aren't you supposed to be an all-knowing calculating engine?" I say, narrowing my stance in the light. "Work it out."
 
 "From this response, the Overseer protocol deduces that your stance remains unchanged and you refuse cooperation against the insurgent faction. Is this accurate?"
 
 "Here is your answer."
 
-I drop into stance, cutting my hands through the light to trace the particle paths, drawing the charge into my fingertips. Before the drone finishes adjusting its angle, I snap my index finger forward. Lightning cracks across the void, arcing straight for the lens.
+I drop into stance, slicing both hands through the glare to align the particle paths, pulling the ethereal charge into my fingertips. Before the drone tilts its chassis, I snap my index finger forward. A jagged bolt of lightning cracks across the void, driving straight for the optical lens.
 
-The bolt strikes a pocket of dense air inches short of the metal casing, scattering into blue sparks along a pre-cast shield.
+The arc slams into a pocket of compressed air an inch short of the bronze plate, scattering into a violent web of azure sparks along a pre-cast kinetic ward.
 
-Flower launches three fireballs in a tight cluster. The explosions bloom across the drone, churning smoke through the ether. As the flames thin, a dome of compressed stone around the machine shatters into falling grit.
+Flower follows in the same breath, hurling three compressed fireballs in a tight triangular cluster. Concussions hammer the ether, churning gray smoke across the light. As the flames peel back, a shell of dense stone surrounding the bronze hull fractures, shedding grit and calcified shards into the void.
 
-"Warning," the Overseer says, completely level. "The Overseer protocol will now initialize experimental procedures developed exclusively for the ethereal plane. These procedures derive from Magium data and remain largely untested in combat scenarios. Inquiries and complaints may be directed to section 5C-E789 of the operational codex."
+"Warning," the Overseer announces, without a tremor in its synthesized voice. "The Overseer protocol will now initialize experimental procedures developed exclusively for the ethereal plane. These procedures derive from Magium data and remain largely untested in combat scenarios. Inquiries and complaints may be directed to section 5C-E789 of the operational codex."
 
-"Experimental procedures?" My stomach drops. "What are you—"
+"Experimental procedures?" A cold knot seizes my gut. "What are you—"
 
-A wave of pitch-black energy erupts from the drone. It hits before the sound can travel.
+A pulse of pitch-black energy erupts from the drone's core. It tears across the twenty feet before thought can form a ward.
 
-There is no pain, only the instant unraveling of my conjured body, stripped down to raw thought. The ether goes dark, and my consciousness tears away into nothing.
+There is no impact, no fire, no pain. Only the instantaneous unraveling of my conjured limbs, stripped down from form to raw, helpless thought. The blinding light of the ether snuffs out into total black, and my consciousness tears away into absolute cessation.
 
 choice("Restart game", Ch1-Intro1, v_current_scene = Ch1-Intro1, special:restart)
 choice("Load from last checkpoint", , v_chapter_save_counter = 5, special:checkpoint_load)
@@ -42,47 +42,47 @@ TEXT:
 #if(v_b3_ch9_conclusions == 2) {
  "All right," I say. "Peter first. Can you jump us there now?"
 
-"On it!" Heat pulses from Flower's hands, and blinding light wraps around us.
+"On it!" Heat pulses from Flower's palms, and a blinding curtain of light wraps around us.
 
-The hum fades, leaving us suspended in the open glare of the ether. Ten paces away, Peter and the king of the underground hover together. The king has already formed an ethereal body of his own, solid and dense. Peter's eyes are dull compared to Flower's blazing red irises—he hasn't undergone the evolution that grants her long-range soul-sense and unrestricted teleportation.
+The hum fades, leaving us suspended in the open glare of the ether. Ten paces out, Peter and the king of the underground hover side by side. The king has already woven an ethereal body of his own, dense and heavy in the brilliance. Peter's dark eyes lack the incandescent blaze pouring from Flower's face; the evolutionary shift that granted her long-range soul tracking and instantaneous transit never touched him.
 
-"What are you doing here?" Peter demands, his guard instantly up.
+"What are you doing here?" Peter demands, his hands instantly coming up in a duelist's guard.
 
-"We are heading for the Overseer," I say. "Figured you might want in. What do you say?"
+"We are heading for the Overseer," I say, holding my ground. "Figured you might want in. What do you say?"
 
-"You expect us to march with you after you announced you and the Overseer were setting an ambush?" Peter sneers. "What kind of fools do you take us for?"
+"You expect us to march with you after you announced in the plaza that you and the Overseer were setting an ambush?" Peter sneers, his jaw rigid. "What kind of fools do you take us for?"
 
-"Come on, Peter. Think for two seconds. That was a joke. Who announces a real ambush in advance?"
+"Come on, Peter. Think for two seconds. That was a feint. Who announces a real ambush in advance?"
 
-"You call it a joke," the king says, his voice low and measured, "yet we know you spoke with the Overseer through the blue crystals while you were underground. Would you care to explain why you held secret council with our enemy on the eve of battle?"
+"You call it a feint," the king says, his voice low, steady, and carrying across the glow, "yet we know you spoke with the Overseer through the blue crystals while you were underground. Would you care to explain why you held secret council with our enemy on the eve of battle?"
 
-He knows about the crystal transmissions? A rebel scout must have caught us in the corridors.
+He knows about the crystal transmissions? A rebel scout must have caught our aura traces in the shafts.
 
 "Look, the Overseer made an offer," I say. "We spent half an afternoon weighing it, and in the end we turned him down. Think about it. If this were a trap, we would have linked up with the Overseer first and jumped you together. Why come here alone and risk you attacking on sight?"
 
-"What I hear," the king says, "is that you stood on the edge of betrayal and stepped back on a whim. What guarantees you will not change your mind mid-fight?"
+"What I hear," the king says, his eyes narrowing as he studies my posture, "is that you stood on the edge of betrayal and stepped back on a whim. What guarantees you will not change your mind mid-fight?"
 
-"A whim?" I stare at him. "You put a hit on us! How is that not reason enough to consider our options? We heard the Overseer's recording. You told Albert to handle us 'discreetly' if we opposed your coronation. That is open conspiracy to commit murder."
+"A whim?" I stare at him. "You put a hit on us! How is that not reason enough to weigh our choices? We heard the Overseer's recording. You told Albert to handle us 'discreetly' if we opposed your coronation. That is open conspiracy to commit murder."
 
-The king pauses, rubbing his chin. "Ah. Now the picture clarifies. If you heard those words, I cannot blame your suspicion. In your shoes, I would have reached the exact same conclusion. Explaining the context now is a waste of breath, so I will take the gamble and trust your refusal of the machine's offer. Let us bury the grievance here and focus on the common enemy."
+The king pauses, a gloved finger tapping his chin. "Ah. Now the picture clarifies. If you heard those words, I cannot blame your suspicion. In your shoes, I would have reached the exact same conclusion. Explaining the context now is a waste of breath, so I will take the gamble and trust your refusal of the machine's offer. Let us bury the grievance here and focus on the common enemy."
 
 }
 #if(v_b3_ch9_conclusions != 2) {
  "All right," I say. "Peter first. Can you jump us there now?"
 
-"On it!" Heat pulses from Flower's hands, and blinding light wraps around us.
+"On it!" Heat pulses from Flower's palms, and a blinding curtain of light wraps around us.
 
-The hum fades, leaving us suspended in the open glare of the ether. Ten paces away, Peter and the king of the underground hover together. The king has already formed an ethereal body of his own, solid and dense. Peter's eyes are dull compared to Flower's blazing red irises—he hasn't undergone the evolution that grants her long-range soul-sense and unrestricted teleportation.
+The hum fades, leaving us suspended in the open glare of the ether. Ten paces out, Peter and the king of the underground hover side by side. The king has already woven an ethereal body of his own, dense and heavy in the brilliance. Peter's dark eyes lack the incandescent blaze pouring from Flower's face; the evolutionary shift that granted her long-range soul tracking and instantaneous transit never touched him.
 
-"What are you doing here?" Peter asks.
+"What are you doing here?" Peter asks, his brow furrowed in suspicion.
 
-"We are heading for the Overseer," I say. "Figured you might want in. What do you say?"
+"We are heading for the Overseer," I say, holding my hands open. "Figured you might want in. What do you say?"
 
-"We were moving in that direction ourselves," the king says. "A lift would be welcome. Peter's daily teleportation reserves are limited, and we cannot afford to burn them before the fighting starts."
+"We were moving in that direction ourselves," the king says, his voice carrying clearly across the void. "A lift would be welcome. Peter's daily teleportation reserves are limited, and we cannot afford to burn them before the fighting starts."
 
 "Done," I say. "We jump right now."
 
-"Hold," the king says, raising a hand. "Charging in blind is reckless. We need a plan."
+"Hold," the king says, raising a quiet, steady hand. "Charging in blind is reckless. We need a plan."
 
 }
 choice("Continue", B3-Ch09c-Invented, v_current_scene = B3-Ch09c-Invented)
@@ -97,31 +97,31 @@ TEXT:
 
 "Fair enough."
 
-"Would you mind going first?" The king tilts his head. "I assume there is a particular reason you are the one accompanying our ethereal companion, rather than the more seasoned mages in your company."
+"Would you mind going first?" The king tilts his head, his gaze weighing me. "I assume there is a particular reason you are the one accompanying our ethereal companion, rather than the more seasoned mages in your company."
 
 "Right. Earthen mages can't cast here unless they are ethereals or beings from the magical plane. Their unlocked channels mean nothing in the ether. I can cast because I know the mechanics by heart. Decades of studying spellcraft without having a drop of magic in my veins finally paid off."
 
-"Fascinating," the king says. "Could you demonstrate? Do your incantations behave identically to earthen casting?"
+"Fascinating," the king says, his interest sharpening. "Could you demonstrate? Do your incantations behave identically to earthen casting?"
 
 "Mostly. The difference is that the particle flow and structural theory must be flawless, or the matrix collapses. Watch."
 
-I trace four rapid patterns in the air. A bead of flame flickers to life, followed by a tight coil of water, a localized gust of wind, and a needle of ice. The king watches the elements dissolve back into raw light, his expression thoughtful.
+I trace four rapid patterns in the air, shifting my wrists with practiced precision. A bead of flame flickers to life, followed by a tight coil of water, a localized gust of wind, and a needle of frost. The king watches the elements dissolve back into raw light, his expression thoughtful.
 
 "A broad repertoire," he observes. "Does this make you the ethereal equivalent of a generalist? How deep does your catalog go?"
 
 "Hard to say. I've confirmed a handful, but the rest are untested. I know the theory for hundreds of spells, but theory and execution aren't always identical in this realm. My stat device stayed behind with my body, so I am relying strictly on memorized matrices. I should also be able to run the multi-step dispelling method I developed while apprenticing under Brinhorn. That structure translates easily enough."
 
-Peter's jaw tightens. "Multi-step dispelling? You mean the Brinhorn Technique?"
+Peter's jaw tightens, color rushing to his neck. "Multi-step dispelling? You mean the Brinhorn Technique?"
 
 "That's the one."
 
-"What do you mean, you developed it?" Peter snaps. "Brinhorn invented it! His name is on the treatise!"
+"What do you mean, you developed it?" Peter snaps, his hands clenching. "Brinhorn invented it! His name is on the treatise!"
 
 "He asked if he could take the name, and I didn't care," I say. "There are thousands of Barrys wandering the continent. A 'Barry Technique' sounds like a tavern trick."
 
-"You are delusional," Peter says, face flushed with outrage. "Brinhorn taking a non-mage as an apprentice? You expect anyone to believe this nonsense?"
+"You are delusional," Peter says, his voice trembling with outrage. "Brinhorn taking a non-mage as an apprentice? You expect anyone to believe this nonsense?"
 
-"Easy, Peter," the king says. "The claim sounds extraordinary, but the man just cast across four elements without a channel. That earns him some benefit of the doubt. In any case, we have a generalist on either flank. You two should coordinate well."
+"Easy, Peter," the king says, raising a calming hand. "The claim sounds extraordinary, but the man just cast across four elements without a channel. That earns him some benefit of the doubt. In any case, we have a generalist on either flank. You two should coordinate well."
 
 choice("Continue", B3-Ch09c-Linked, v_current_scene = B3-Ch09c-Linked)
 
@@ -129,17 +129,17 @@ choice("Continue", B3-Ch09c-Linked, v_current_scene = B3-Ch09c-Linked)
 ID: B3-Ch09c-Linked
 TEXT:
 
- "With respect, my lord, calling this man a generalist insults every true scholar in history," Peter says, glaring at me. "He is an outright fraud. To speak Brinhorn's name so casually proves how little he understands. Brinhorn challenges Azarius for Sage of the West nearly every cycle! Who is this 'Barry' to invoke him?"
+ "With respect, my lord, calling this man a generalist insults every true scholar in history," Peter says, glaring at me with cold fury. "He is an outright fraud. To speak Brinhorn's name so casually proves how little he understands. Brinhorn challenges Azarius for Sage of the West nearly every cycle! Who is this 'Barry' to invoke him?"
 
-"You could also say Brinhorn loses to Azarius every single cycle and be just as accurate," I say. "Makes the comparison a lot more grounded, don't you think?"
+"You could also say Brinhorn loses to Azarius every single cycle and be just as accurate," I say, meeting his glare evenly. "Makes the comparison a lot more grounded, don't you think?"
 
 "You insolent—"
 
-"Enough, Peter," the king cuts in. "Personal opinions aside, we fight together. Maintain professional discipline."
+"Enough, Peter," the king cuts in, his tone dropping an octave. "Personal opinions aside, we fight together. Hold your discipline."
 
-Peter grits his teeth. "...Understood, my lord. I will hold my tongue until the enemy is eliminated."
+Peter grits his teeth until the muscles in his jaw bunch. "...Understood, my lord. I will hold my tongue until the enemy is eliminated."
 
-"Good." The king turns back to me. "Peter models his casting after the great duelists, Brinhorn and Azarius included. He has studied their engagements firsthand. That should tell you the shape of his tactical repertoire."
+"Good." The king turns back to me. "Peter models his casting after the great duelists, Brinhorn and Azarius included. He has studied their engagements firsthand. That should tell you the shape of his fighting repertoire."
 
 "Sounds straightforward enough," I say.
 
@@ -159,15 +159,15 @@ Peter blinks. "I... haven't considered the theoretical mechanics, but logically,
 
 He snaps his arms outward, palms flat. A violent kinetic wave crashes outward, shoving Flower, Peter, and me back ten feet across the open ether.
 
-"A touch diminished compared to physical casting," the king says, rotating his wrists, "but aura manipulation functions here as well. Apologies for the delay. Whenever you are ready."
+"A touch diminished compared to physical casting," the king says, rotating his wrists as the light ripples around his fingers, "but aura manipulation functions here as well. Apologies for the delay. Whenever you are ready."
 
 "Let's move," I say. "Flower, take us in."
 
 "Hold on!"
 
-White light flares around us, vibrating against my marrow. When the glare snaps shut, we are floating in a fresh quadrant of the ether. Twenty-four feet away, the green-eyed drone hangs motionless in the light.
+White light flares around us, vibrating through every nerve. When the glare snaps shut, we are floating in a fresh quadrant of the ether. Twenty-four feet away, the green-eyed bronze drone hangs motionless in the light, its rotors idle in the zero-gravity expanse.
 
-"Processing," the Overseer drones. "The Overseer protocol thanks you for reducing search parameters. One operational query remains prior to tactical execution. Specify the reason you transported yourselves alongside the insurgent leadership rather than arriving unaccompanied."
+"Processing," the Overseer drones, the synthetic voice flat and empty. "The Overseer protocol thanks you for reducing search parameters. One operational query remains prior to tactical execution. Specify the reason you transported yourselves alongside the insurgent leadership rather than arriving unaccompanied."
 
 "Aren't you the great calculating machine?" I say. "Figure it out."
 
@@ -177,7 +177,7 @@ choice("Continue", B3-Ch09c-Shockwave, v_current_scene = B3-Ch09c-Shockwave)
 ID: B3-Ch09c-Shockwave
 TEXT:
 
- "From this response, the Overseer protocol deduces that your stance remains unchanged and you refuse cooperation against the insurgent faction," the drone says. "Is this accurate?"
+ "From this response, the Overseer protocol deduces that your stance remains unchanged and you refuse cooperation against the insurgent faction," the drone says without inflection. "Is this accurate?"
 
 "Here is your answer."
 
@@ -205,19 +205,19 @@ choice("Tell the king to keep the barrier active until it breaks.", B3-Ch09c-Bre
 ID: B3-Ch09c-Cancel
 TEXT:
 
- "We can't just sit here waiting for the barrier to break," I say. "We have a better shot if we hit him together."
+ "We can't just sit here waiting for the barrier to break," I say, shifting my weight in the light. "We have a better shot if we hit him together while our energy is fresh."
 
-"If we coordinate an assault, we wait for the next discharge," the king murmurs. "There is a distinct delay between pulses. He requires time to gather the charge."
+"If we coordinate an assault, we wait for the next discharge," the king murmurs, his knuckles whitening as he holds the translucent wall against the hum. "There is a distinct delay between pulses. He requires several seconds to gather the dark charge."
 
 "Agreed," I say.
 
 "Ready your matrices," the king instructs. "I will drop the ward immediately after."
 
-We prepare our spells and brace. A third shockwave slams the barrier, rattling the fractured plane. The instant the dark energy dissipates, the king drops the shield. We unload everything at once—fire, ice, lightning, and hammering waves of compressed aura driving hard at the drone.
+We prepare our spells, locking our stances. A third shockwave slams the barrier with the force of a battering ram, rattling the fractured plane. The instant the dark energy dissipates into gray mist, the king drops the shield. We unload everything at once—a ferocious volley of fire, ice, lightning, and hammering waves of compressed aura driving hard at the bronze chassis.
 
-Mid-volley, the drone pulses without the recharge delay. A wave of black force erupts without warning.
+Mid-volley, the drone pulses without the recharge delay. A wave of pitch-black force erupts without a fraction of a second's warning.
 
-The king lunges to reform the barrier, but the speed of the wave beats him. The black tide engulfs us. My conjured body unthreads into particles, sensation vanishes, and consciousness dissolves into the void.
+The king lunges to reform the barrier, but the speed of the dark wave beats him. The tide engulfs us. My conjured body unthreads into particles, sensation vanishes in an instant, and consciousness dissolves into the void.
 
 choice("Restart game", Ch1-Intro1, v_current_scene = Ch1-Intro1, special:restart)
 choice("Load from last checkpoint", , v_chapter_save_counter = 5, special:checkpoint_load)
@@ -227,17 +227,17 @@ choice("Load game", , , special:saves)
 ID: B3-Ch09c-Longer
 TEXT:
 
- "Keep the ward up a little longer," I keep my voice low. "He isn't finished testing the shockwaves. When the shield reaches its limit, give the signal and we hit him with everything."
+ "Keep the ward up a little longer," I say, keeping my voice low and urgent. "He isn't finished testing the shockwaves. When the shield reaches its breaking point, give the signal and we hit him with everything."
 
-"A reasonable compromise," the king replies. "Hold your matrices primed. We release the moment the ward drops."
+"A reasonable compromise," the king replies, his jaw clenched under the strain. "Hold your matrices primed. We release the moment the ward drops."
 
-"Understood." I channel the energy through my fingers, holding the spell on a hair trigger.
+"Understood." I channel the ethereal energy through my fingers, holding the spell on a hair trigger.
 
 Two more black shockwaves hammer the barrier in rapid succession. The surface is nearly opaque with fractures now, groaning under the pressure. Just as I open my mouth to ask how much structural integrity remains, the king barks a command and drops the shield.
 
-We strike simultaneously, unleashing a combined barrage of elements and concussive aura waves at the chassis.
+We strike simultaneously, unleashing a combined barrage of elements and concussive aura waves at the bronze hull.
 
-Before our spells can close the distance, the drone discharges again without warning. The black shockwave rips through our incoming volley. The king reaches out to raise another shield, but the wave moves too fast. It washes over us, tearing my ethereal form apart at the seam of thought, and my mind plunges into total dark.
+Before our spells can close the distance, the drone discharges again without warning. The black shockwave rips through our incoming volley, erasing our constructs on contact. The king reaches out to raise another shield, but the wave moves too fast. It washes over us, tearing my ethereal form apart at the seam of thought, and my mind plunges into total dark.
 
 choice("Restart game", Ch1-Intro1, v_current_scene = Ch1-Intro1, special:restart)
 choice("Load from last checkpoint", , v_chapter_save_counter = 5, special:checkpoint_load)
@@ -249,11 +249,11 @@ TEXT:
 
  "This is going to sound counterintuitive," I say quietly, "but we hold the barrier until it breaks."
 
-"Explain," the king says, keeping his focus forward.
+"Explain," the king says, keeping his focus pinned on the vibrating drone.
 
 "The shockwaves are an unintended glitch in his test," I say. "He said he was trying to resolve the issue. If we let him finish patching whatever is failing, the shockwaves stop."
 
-"You want to let the enemy fix his weapon?" Peter asks.
+"You want to let the enemy fix his weapon?" Peter asks, incredulous.
 
 "I'd rather face whatever the weapon was supposed to be than stay in the blast zone of an unavoidable kill-wave," I reply. "We have zero defense against those pulses once the aura shield fails."
 
@@ -339,7 +339,7 @@ The memory hits me. Krygell's treatise on high-density ether reactions.
 
 Peter stares across the light, nearly clipping another drone. "You... read Professor Krygell's thesis?"
 
-"Not the point!" I duck under another black streak. "We can make it work, but we need four-way coordination."
+"Not the point!" I duck under another black streak. "We can make it work, but all four of us have to strike together."
 
 "Explain!" Peter barks, shattering two more units with an ice spike as three others drop in behind him.
 
@@ -355,7 +355,7 @@ TEXT:
 
 "It... it holds, my lord!" Peter shouts back.
 
-"Then we execute," the king says. "Flower, you understand the assignment?"
+"Then we strike," the king says. "Flower, you understand what to do?"
 
 "Make a fireball and put it inside the black beam," Flower says. "I can do that!"
 
@@ -399,7 +399,7 @@ It hangs in the ether on broad, leathery drake wings, but it has no hind legs. F
 
 I have combed through bestiaries from three continents. Nothing like this has ever been cataloged.
 
-"Experiment two," the Overseer announces. "You observe a biological configuration that possessed theoretical viability on the earthen plane but failed to manifest under natural selection. It lacks formal taxonomy. Name it as you see fit. Field observations regarding its combat efficiency will be gathered upon your defeat."
+"Experiment two," the Overseer announces, its voice echoing from the empty ether. "You observe a biological configuration that possessed theoretical viability on the earthen plane but failed to manifest under natural selection. It lacks formal taxonomy. Name it as you see fit. Field observations regarding its combat efficiency will be gathered upon your defeat."
 
 "How about you take your field notes and shove them down your—"
 
@@ -475,80 +475,80 @@ ID: B3-Ch09c-Frantically
 TEXT:
 
 #if(v_b3_ch9_hydra == 0) {
- "I'd rather cut all of its heads off," I say.
+ "I'd rather cut all of its heads off," I say, eyeing the serpentine necks.
 
-"Wait," Peter says. "Severing a hydra's head doubles it!"
+"Wait," Peter says, his duelist guard shifting. "Severing a hydra's head doubles it!"
 
 "Tavern myth," I say. "We fought a subterranean specimen in the ruins. It doesn't double—it just regenerates so fast that partial cuts are useless. You have to take all the heads in a single sweep."
 
-I pause.
+I pause, checking my hands.
 
 "The problem is, I don't have a wide-radius slicing spell memorized. Most of my offensive matrix is fire from Flower, and fire doesn't sever necks cleanly. Peter, can you take the heads?"
 
-"If you think I will risk decapitating a hydra based on your tavern stories, you are out of your mind," Peter says. "Fire is the textbook counter. I am casting a fireball. Follow my lead."
+"If you think I will risk decapitating a hydra based on your tavern stories, you are out of your mind," Peter says, sparks already leaping between his knuckles. "Fire is the textbook counter. I am casting a fireball. Follow my lead."
 
-Peter hurls a fireball at the beast. Flower slams the hydra in a roaring pillar of flame, and I follow with one of the heavier fire matrices Flower taught me. The hydra howls in agony through several throats, then folds space, teleporting inches from Flower. Two serpent maws snap at her. She clears the strike with a burst from her fire jets, but the beast banks on massive wings, closing the gap instantly.
+Peter hurls a compressed fireball at the beast. Flower slams the hydra in a roaring pillar of flame, and I follow with one of the heavier fire matrices Flower taught me. The hydra howls in agony through seven throats, then folds space, teleporting inches from Flower. Two serpent maws snap at her ribs. She clears the strike with a burst from her fire jets, but the beast banks on massive wings, closing the gap instantly.
 
-"The Overseer protocol omitted that this entity represents the apex of hypothetical hydra evolution," the drone announces. "It possesses elevated heat resistance, multiple internal hearts, and upon total decapitation, each severed neck doubles. Demonstration follows."
+"The Overseer protocol omitted that this entity represents the apex of hypothetical hydra evolution," the drone announces, its monotone echoing through the brilliance. "It possesses elevated heat resistance, multiple internal hearts, and upon total decapitation, each severed neck doubles. Demonstration follows."
 
-A spinning disc of force streaks out of nowhere, slicing cleanly through all seven necks. The blade dissolves. The stumps squirm for a second, then split down the middle, erupting into fourteen distinct heads.
+A spinning disc of force streaks out of nowhere, slicing cleanly through all seven necks in a single horizontal arc. The force blade dissolves. The stumps squirm for a second, then split down the middle, erupting into fourteen distinct, thrashing heads.
 
 "Ah, damn it," I say. Fourteen heads whip around in a frenzy, searching for targets.
 
 }
 #if(v_b3_ch9_element == 0 && v_b3_ch9_hydra == 1) {
- "Fire is our safest bet," I say.
+ "Fire is our safest bet," I say, stepping into casting stance.
 
 "Agreed," Peter says. "Everyone with fire capability, on my mark."
 
-Peter throws a fireball. Flower slams the hydra in a roaring pillar of flame, and I follow with one of the heavier fire matrices Flower taught me. The hydra howls in agony through several throats, then folds space, teleporting inches from Flower. Two serpent maws snap at her. She clears the strike with a burst from her fire jets, but the beast banks on massive wings, closing the gap instantly.
+Peter throws a fireball. Flower slams the hydra in a roaring pillar of flame, and I follow with one of the heavier fire matrices Flower taught me. The hydra howls in agony through seven throats, then folds space, teleporting inches from Flower. Two serpent maws snap at her ribs. She clears the strike with a burst from her fire jets, but the beast banks on massive wings, closing the gap instantly.
 
 }
 #if(v_b3_ch9_hydra == 1 && v_b3_ch9_element != 0) {
- "Fire is our safest bet," I say.
+ "Fire is our safest bet," I say, stepping into casting stance.
 
 "Agreed," Peter says. "Everyone with fire capability, on my mark."
 
-Peter throws a fireball. Flower slams the hydra in a roaring pillar of flame, and I pitch in a standard fireball of my own for good measure. The hydra howls in agony through several throats, then folds space, teleporting inches from Flower. Two serpent maws snap at her. She clears the strike with a burst from her fire jets, but the beast banks on massive wings, closing the gap instantly.
+Peter throws a fireball. Flower slams the hydra in a roaring pillar of flame, and I pitch in a standard fireball of my own for good measure. The hydra howls in agony through seven throats, then folds space, teleporting inches from Flower. Two serpent maws snap at her ribs. She clears the strike with a burst from her fire jets, but the beast banks on massive wings, closing the gap instantly.
 
 }
 #if(v_b3_ch9_element == 0 && v_b3_ch9_hydra == 2) {
- "Go for the heart," I say.
+ "Go for the heart," I say, narrowing my eyes at the beast's chest.
 
-"Which one?" Peter snaps. "Every hydra develops a unique internal layout to guard its primary core. Searching blindly wastes time. Incinerate the entire mass and the heart burns with it."
+"Which one?" Peter snaps, his hands glowing with charge. "Every hydra develops a unique internal layout to guard its primary core. Searching blindly wastes time. Incinerate the entire mass and the heart burns with it."
 
 "Fair point," I say. "On three?"
 
 "On my cast," Peter says. "Follow through."
 
-Peter throws a fireball. Flower slams the hydra in a roaring pillar of flame, and I follow with one of the heavier fire matrices Flower taught me. The hydra howls in agony through several throats, then folds space, teleporting inches from Flower. Two serpent maws snap at her. She clears the strike with a burst from her fire jets, but the beast banks on massive wings, closing the gap instantly.
+Peter throws a fireball. Flower slams the hydra in a roaring pillar of flame, and I follow with one of the heavier fire matrices Flower taught me. The hydra howls in agony through seven throats, then folds space, teleporting inches from Flower. Two serpent maws snap at her ribs. She clears the strike with a burst from her fire jets, but the beast banks on massive wings, closing the gap instantly.
 
 }
 #if(v_b3_ch9_hydra == 2 && v_b3_ch9_element != 0) {
- "Go for the heart," I say.
+ "Go for the heart," I say, narrowing my eyes at the beast's chest.
 
-"Which one?" Peter snaps. "Every hydra develops a unique internal layout to guard its primary core. Searching blindly wastes time. Incinerate the entire mass and the heart burns with it."
+"Which one?" Peter snaps, his hands glowing with charge. "Every hydra develops a unique internal layout to guard its primary core. Searching blindly wastes time. Incinerate the entire mass and the heart burns with it."
 
 "Fair point," I say. "On three?"
 
 "On my cast," Peter says. "Follow through."
 
-Peter throws a fireball. Flower slams the hydra in a roaring pillar of flame, and I pitch in a standard fireball of my own for good measure. The hydra howls in agony through several throats, then folds space, teleporting inches from Flower. Two serpent maws snap at her. She clears the strike with a burst from her fire jets, but the beast banks on massive wings, closing the gap instantly.
+Peter throws a fireball. Flower slams the hydra in a roaring pillar of flame, and I pitch in a standard fireball of my own for good measure. The hydra howls in agony through seven throats, then folds space, teleporting inches from Flower. Two serpent maws snap at her ribs. She clears the strike with a burst from her fire jets, but the beast banks on massive wings, closing the gap instantly.
 
 }
 #if(v_b3_ch9_hydra == 1 || v_b3_ch9_hydra == 2) {
- "The Overseer protocol omitted that this entity represents the apex of hypothetical hydra evolution," the drone announces. "It possesses elevated heat resistance, multiple internal hearts, and upon total decapitation, each severed neck doubles. Demonstration follows."
+ "The Overseer protocol omitted that this entity represents the apex of hypothetical hydra evolution," the drone announces, its monotone echoing through the brilliance. "It possesses elevated heat resistance, multiple internal hearts, and upon total decapitation, each severed neck doubles. Demonstration follows."
 
-A spinning disc of force streaks out of nowhere, slicing cleanly through all seven necks. The blade dissolves. The stumps squirm for a second, then split down the middle, erupting into fourteen distinct heads.
+A spinning disc of force streaks out of nowhere, slicing cleanly through all seven necks in a single horizontal arc. The force blade dissolves. The stumps squirm for a second, then split down the middle, erupting into fourteen distinct, thrashing heads.
 
 "Ah, damn it," I say. Fourteen heads whip around in a frenzy, searching for targets.
 
 }
  A nauseating pull seizes my mind.
 
-It is like being yanked back and forth through a narrow tunnel, neither end letting go. For a fraction of a second, rain hammers my face and cobblestones scrape my cheek in an Ollendor puddle. The next instant, I am floating in the sea of ethereal light.
+It is like being yanked back and forth through a narrow tunnel, neither end letting go. For a fraction of a second, freezing rain hammers my face and cobblestones scrape my cheek in an Ollendor puddle. The next instant, I am floating in the sea of ethereal light.
 
-The world flips between storm and ether half a dozen times. The light around me presses directly against my skull, and a voice echoes inside my thoughts, cold and resonant:
+The world flips between storm and ether half a dozen times, wrenching my sense of balance. The light around me presses directly against my skull, and a voice echoes inside my thoughts, cold, resonant, and impossibly vast:
 
 'This is not the arena for your quarrel. Return to your sanctuaries. Disturb these grounds no longer.'
 
@@ -562,17 +562,17 @@ choice("Continue", B3-Ch09c-Conducted, v_current_scene = B3-Ch09c-Conducted, v_b
 ID: B3-Ch09c-Conducted
 TEXT:
 
- "Processing," the Overseer drones. "Insufficient data points. The Overseer protocol requires further contact with the unregistered entity to calculate threat metrics. Experiments proceed on schedule until conclusions finalize."
+ "Processing," the Overseer drones, completely unbothered by the cosmic presence. "Insufficient data points. The Overseer protocol requires further contact with the unregistered entity to calculate threat metrics. Experiments proceed on schedule until conclusions finalize."
 
-"Are you insane?" Peter yells. "You want to pick a fight with the ether because your ledgers are incomplete?"
+"Are you insane?" Peter yells, his voice cracking. "You want to pick a fight with the plane itself because your ledgers are incomplete?"
 
 "Remain calm," the drone replies. "Test validity degrades under emotional distress."
 
-Twelve of the hydra's fourteen heads roar in discordant fury. The two earthen-brown heads remain dead silent, their slitted eyes tracking our movements with heavy, predatory focus.
+Twelve of the hydra's fourteen heads roar in discordant fury, the sound vibrating through the ethereal light. The two earthen-brown heads remain dead silent, their slitted amber eyes tracking our movements with heavy, predatory focus.
 
 "Fire failed," I say, snapping my fingers through a lightning pattern. "Let's see how it handles current."
 
-A jagged bolt of lightning rips from my hand, striking the beast's chest. The scales scorch and the heads thrash in pain, but the damage seals in seconds. All fourteen necks pivot toward me.
+A jagged bolt of lightning rips from my hand, striking the beast's chest. The scales scorch and the heads thrash in pain, but the damage seals in seconds. All fourteen necks pivot toward me in unison.
 
 I anticipate the jump, throwing myself backward on air currents as the beast folds space. It appears where I was hovering, both green heads vomiting thick torrents of acid across my trajectory. I throw up a curved slab of stone to take the brunt; corrosive fluid hisses against the rock, chewing through the barrier faster than I can channel structural reinforcement.
 
@@ -582,7 +582,7 @@ A massive sheet of hardened aura slams down between me and the spray, deflecting
 
 "Go!"
 
-"Already gone!" I bank hard, putting thirty yards between myself and the maws.
+"Already gone!" I bank hard, putting thirty yards between myself and the snapping maws.
 
 As I pull away, reality fractures again.
 
@@ -596,7 +596,7 @@ In Ollendor, red-eyed drones descend on the square. I force my earthen limbs to 
 
 "You feel both?" I call out on the earthen plane.
 
-"Yes," the king replies simply, ascending toward the clouds.
+"Yes," the king replies simply, ascending toward the storm clouds.
 
 choice("Continue", B3-Ch09c-Ponders, v_current_scene = B3-Ch09c-Ponders)
 
@@ -604,11 +604,11 @@ choice("Continue", B3-Ch09c-Ponders, v_current_scene = B3-Ch09c-Ponders)
 ID: B3-Ch09c-Ponders
 TEXT:
 
- "What is happening?" Flower's physical form calls out, her voice crisp with Illuna's dry cadence. "How are you operating down here? Flower says the engagement in the ether is ongoing."
+ "What is happening?" Flower's physical form calls out from the rain, her voice crisp with Illuna's dry cadence. "How are you operating down here? Flower says the engagement in the ether is ongoing."
 
 Blue flames burn behind her pupils. Illuna holds the wheel.
 
-"The ether itself is intervening," I say, steadying my earthen legs. "A voice ordered us back to our sanctuaries, but the Overseer refuses to break off."
+"The ether itself is intervening," I say, steadying my earthen legs on the slick stones. "A voice ordered us back to our sanctuaries, but the Overseer refuses to break off."
 
 "Sanctuaries meaning your minds in the ethereal plane," Illuna translates, eyes narrowing. "Did it give an ultimatum? How long before the plane unravels your souls?"
 
@@ -870,37 +870,37 @@ choice("Load game", , , special:saves) if (v_aura_hardening == 0 && v_b3_ch9_cur
 ID: B3-Ch09c-Holographic
 TEXT:
 
- Before the automaton can recalibrate, a compact silhouette launches from the rubble. Hadrik drives an aura-hardened fist straight into the golem's temple.
+ Before the automaton can recalibrate, a compact silhouette launches from the rubble. Hadrik drives an aura-hardened fist straight into the golem's bronze temple.
 
-The shockwave cracks like a siege mortar. The fifty-ton sentinel lifts off its feet, sails fifty feet backward through the air, and crashes onto an abandoned rowhouse in a plume of splintered timber and slate. Hadrik lands directly on its chest plate, hammering his knuckles into the neck joint until the internal turbine sputters and dies.
+The shockwave cracks like a siege mortar. The fifty-ton sentinel lifts off its feet, sails fifty feet backward through the air, and crashes onto an abandoned rowhouse in a plume of splintered timber and shattered slate. Hadrik lands directly on its chest plate, hammering his heavy knuckles into the neck joint until the internal turbine sputters and dies in a shower of grease and sparks.
 
-"Back in business!" Hadrik bellows over the wreckage, wiping grease on his trousers. "Miss me?"
+"Back in business!" Hadrik bellows over the wreckage, wiping grease across his trousers. "Miss me?"
 
-"You have no idea," I say, descending through the rain.
+"You have no idea," I say, descending through the driving rain.
 
-"What is the play?" Hadrik cracks his neck. "I smash the other four sentries, or do we have a special assignment?"
+"What's the plan?" Hadrik cracks his thick neck. "I smash the other four sentries, or do we have a special target?"
 
-"Leave the sentinels," the king calls out, dropping from the cloud layer. "I have a higher-priority target for your talents. Gather close. We cannot allow eavesdroppers."
+"Leave the sentinels," the king calls out, dropping smoothly from the storm clouds. "I have a more urgent target for your talents. Gather close. We cannot allow eavesdroppers."
 
-The king and I touch down on the wet street as Hadrik hops down from the destroyed automaton.
+The king and I touch down on the flooded street as Hadrik hops down from the destroyed automaton.
 
-"Right," the dwarf says. "Lay it out."
+"Right," the dwarf says, shaking water from his beard. "Lay it out."
 
 "Do you recall the core objective of this surface incursion?" The king pulls a brass cylindrical mechanism from his tunic. "The sole reason we committed hundreds of lives against the Overseer's legions?"
 
-"Right, right," Hadrik nods. "The core. Smashing the Overseer's main brain."
+"Right, right," Hadrik nods, his expression hardening. "The core. Smashing the Overseer's main brain."
 
-"Precisely," the king says, handing him the cylinder. "Doctor Reidzek engineered this locator. Observe."
+"Precisely," the king says, handing him the cylinder. "Doctor Reidzek engineered this locator before his capture. Observe."
 
-He thumbs a rune on the casing. A miniature three-dimensional grid of light materializes in the air above the bronze plate, mapping the surrounding blocks in fine lines of blue light. It lacks the colored troop markers of the map Arraka projected back in the ogre fortress, but two glowing beacons anchor the coordinates.
+He thumbs a rune on the casing. A miniature three-dimensional grid of light materializes in the air above the bronze plate, mapping the surrounding city blocks in crisp lines of azure light. It lacks the colored troop markers of the map Arraka projected back in the ogre fortress, but two glowing beacons anchor the coordinates.
 
 The king notes our expressions. "You seem familiar with holographic illusions."
 
-"Arraka cast a tactical projection for us once," I say.
+"Arraka cast a battle illusion for us once," I say.
 
 "The banshee in the relic," the king says. "This device runs a basic navigational matrix tracking the beacon to the core's housing. With the Overseer's attention divided between the plaza and the ethereal plane, his primary vault is stripped of mobile defenses. Hadrik, with your mass and velocity, you can breach the facility, dismantle the internal guard, and crush the core in under five minutes. The war ends the moment that housing shatters."
 
-Hadrik scratches his beard. "Sounds solid, but what about the drones and the remaining sentinels? They could flatten you two in five minutes."
+Hadrik scratches his beard, grinning. "Sounds solid, but what about the drones and the remaining sentinels? They could flatten you two in five minutes."
 
 "Leave the perimeter to us," the king says, clapping me on the shoulder. "Barry and I will hold the line. Correct, Barry?"
 
@@ -914,13 +914,13 @@ choice("Continue", B3-Ch09c-Environments, v_current_scene = B3-Ch09c-Environment
 ID: B3-Ch09c-Environments
 TEXT:
 
- "Back in five," Hadrik says. He turns and accelerates into the rain, vanishing down the boulevard like a catapult shot.
+ "Back in five," Hadrik says. He turns and accelerates into the rain, vanishing down the flooded boulevard like a catapult shot.
 
-"Now," the king says, turning to me. "Can you stall the remaining four sentinels as effectively as the first, or shall I take the armor?"
+"Now," the king says, turning to me as the gale whips his cloak. "Can you stall the remaining four sentinels as effectively as the first, or shall I take the armor?"
 
 "I'll take the sentinels," I say. "Keep the drone swarm off the wounded in the square."
 
-"Good hunting," the king says, taking to the air.
+"Good hunting," the king says, taking to the air in a rush of wind.
 
 "You too," I reply, banking toward the incoming golems.
 
@@ -976,7 +976,7 @@ He thrusts his arms forward, snapping a massive, translucent aura cube around th
 
 The hydra folds space, appearing ten yards outside the cage; the king instantly drops a second aura box over its new coordinates. The serpent heads exhale a combined storm of fire, but the flames ricochet off the hardened aura walls, roasting the hydra in its own inferno.
 
-"Aura wards do not yield to heat, beast," the king remarks, maintaining the construct.
+"Aura wards do not yield to heat, beast," the king remarks, maintaining the construct with steady focus.
 
 #if(v_b3_ch9_hadrik == 1) {
  I place three anchor pillars in the ether, blinking rhythmically to check my footing in Ollendor. The four sentinels are closing their perimeter on the street, leveling masonry to eliminate every blind spot. In another ten seconds, all four firing arcs will overlap on my position.
@@ -1003,11 +1003,11 @@ TEXT:
 
 "We are about to find out," Daren says, planting his greaves and thrusting the heavy kite shield forward.
 
-A dome of translucent white light snaps around us. The four sentinels lock their firing arcs, four columns of liquid fire slamming into the ward in rapid succession. The barrier rings like a gong, vibrating against our ribs under the heat.
+A dome of translucent white light snaps around us. The four sentinels lock their firing arcs, four columns of liquid fire slamming into the ward in rapid succession. The barrier rings like a gong, vibrating against our ribs under the searing heat.
 
 "Are we destroying them," Daren grunts through his teeth, "or stalling?"
 
-"Two minutes," I say. "Just hold them for two minutes."
+"Two minutes," I say, watching the white light groan. "Just hold them for two minutes."
 
 "What happens in two minutes?"
 
@@ -1017,7 +1017,7 @@ I blink, throwing my main focus into the ether. I trace two final anchoring rune
 
 I give Peter the mark.
 
-The six ethereal pillars ignite, casting brilliant green energy beams into the sky, weaving a tight geometric web around the cage. The king drops the aura box. The binding beams converge directly onto the hydra's torso, flooding the scales with immobilizing current.
+The six ethereal pillars ignite, casting brilliant green energy beams into the sky, weaving a tight geometric web around the cage. The king drops the aura box. The binding beams converge directly onto the hydra's torso, flooding the scales with an overpowering immobilizing current.
 
 Twelve heads thrash, roaring in deafening agony.
 
@@ -1052,7 +1052,7 @@ set(v_is_dead,0) if (v_b3_ch9_currents == 0 && v_reflexes >= 2 || v_b3_ch9_curre
 
 "Four thermal beams will shatter that ward," I tell Daren. "Split them. I'll take the two on the right, you pull the pair on the left."
 
-"Are we eliminating them or running a diversion?" Daren asks, angling toward the left sentinels.
+"Are we eliminating them or running a diversion?" Daren asks, angling toward the left sentinels with sword raised.
 
 "Diversion," I yell. "Keep them occupied for ninety seconds."
 
@@ -1081,7 +1081,7 @@ The pause buys all the time I need.
 
 I blink back to the ether, plant the final anchor pillar, and signal Peter.
 
-The six ethereal pillars ignite, casting brilliant green energy beams into the sky, weaving a tight geometric web around the cage. The king drops the aura box. The binding beams converge directly onto the hydra's torso, flooding the scales with immobilizing current.
+The six ethereal pillars ignite, casting brilliant green energy beams into the sky, weaving a tight geometric web around the cage. The king drops the aura box. The binding beams converge directly onto the hydra's torso, flooding the scales with an overpowering immobilizing current.
 
 Twelve heads thrash, roaring in deafening agony.
 
@@ -1141,7 +1141,7 @@ The pause buys all the time I need.
 
 I blink back to the ether, plant the final anchor pillar, and signal Peter.
 
-The six ethereal pillars ignite, casting brilliant green energy beams into the sky, weaving a tight geometric web around the cage. The king drops the aura box. The binding beams converge directly onto the hydra's torso, flooding the scales with immobilizing current.
+The six ethereal pillars ignite, casting brilliant green energy beams into the sky, weaving a tight geometric web around the cage. The king drops the aura box. The binding beams converge directly onto the hydra's torso, flooding the scales with an overpowering immobilizing current.
 
 Twelve heads thrash, roaring in deafening agony.
 
@@ -1197,7 +1197,7 @@ The sentinels begin to track me on the way down, but the moment my boots touch t
 
 I blink to the ether, anchoring the penultimate pillar. I place the final pillar in the ring and signal Peter.
 
-The six ethereal pillars ignite, casting brilliant green energy beams into the sky, weaving a tight geometric web around the cage. The king drops the aura box. The binding beams converge directly onto the hydra's torso, flooding the scales with immobilizing current.
+The six ethereal pillars ignite, casting brilliant green energy beams into the sky, weaving a tight geometric web around the cage. The king drops the aura box. The binding beams converge directly onto the hydra's torso, flooding the scales with an overpowering immobilizing current.
 
 Twelve heads thrash, roaring in deafening agony.
 
@@ -1231,29 +1231,31 @@ TEXT:
 
 set(v_ac_b3_ch9_trinkets,1) if (v_b3_ch9_cover == 1 && v_b3_ch9_currents == 0)
 achievement("No need for trinkets",v_ac_b3_ch9_trinkets)
- "Know what?" I ask.
+ "Know what?" I ask, catching my breath in the glare.
 
-"The acoustic strike," Peter says, still staring at the petrified heads. "How did you deduce the frequency?"
+"The acoustic strike," Peter says, his duelist stance slackening as he stares at the petrified heads. "How did you deduce the frequency before the jaws even opened?"
 
-"Process of elimination," I say. "Ever since you pointed out that an earth-breathing serpent made no sense, I kept an eye on the brown heads. They never cast an elemental breath through the entire engagement. More importantly, they never roared when the other twelve heads were howling. If they possessed no elemental affinity and held their throats shut, they were holding a single high-yield acoustic payload in reserve for a death blow."
+"Process of elimination," I say, rolling the stiffness from my wrists. "Ever since you pointed out that an earth-breathing serpent made no sense, I kept an eye on the brown heads. They never cast an elemental breath through the entire engagement. More importantly, they never roared when the other twelve heads were howling. If they possessed no elemental affinity and held their throats shut, they were holding a single high-yield acoustic payload in reserve for a death blow."
 
-Peter studies the statue, then glances back at me. "I... may have judged you hastily. You truly do possess the analytical instincts of a generalist."
+Peter studies the granite monument, then glances back at me, a reluctant respect softening his features. "I... may have judged you hastily. You truly do possess the analytical instincts of a generalist."
 
-"The Overseer protocol acknowledges completion of procedure two," the green-eyed drone announces. "Survival projections for procedure three remain statistically negligible. Your continued cooperation is requested until—"
+"The Overseer protocol acknowledges completion of procedure two," the green-eyed drone announces, hovering thirty paces away in the light. "Survival projections for procedure three remain statistically negligible. Your continued cooperation is requested until—"
 
-The monotone speaker breaks into a piercing diagnostic klaxon. "Warning. Core integrity compromised. Primary processor in critical failure state. Maintenance personnel, report to—"
+The flat monotone breaks into a piercing diagnostic klaxon that shrills through the ether.
 
-"What have you done?" the Overseer's natural voice cuts in, jagged with sudden fury. "Do you comprehend the consequences of—"
+"Warning. Core integrity compromised. Primary processor in critical failure state. Maintenance personnel, report to—"
 
-Static tears through the transmission. The drone's casing vibrates violently, the voice warping between mechanical registers.
+"What have you done?" the Overseer's natural voice cuts in, jagged with sudden, venomous fury. "Do you comprehend the consequences of—"
 
-"This is not concluded," the Overseer snarls, light gathering rapidly around its chassis. "The core may be shattered, but the crystals endure. And the crystals... you cannot touch without undoing yourselves. We will... meet again."
+Static tears through the transmission, the bronze casing vibrating violently as internal conduits rupture.
 
-White light consumes the machine. I snap a lightning bolt at the coordinates, but the arc strikes empty ether.
+"This is not concluded," the Overseer snarls, incandescent light gathering rapidly around its chassis. "The core may be shattered, but the crystals endure. And the crystals... you cannot touch without undoing yourselves. We will... meet again."
 
-"He jumped," I say. "Back to his mind?"
+Blinding white light consumes the machine. I snap a lightning bolt at the coordinates, but the arc strikes empty ether.
 
-"Undoubtedly," the king says. "Look below. The signal has collapsed. The drones are falling from the sky across Ollendor. The sentinels have shut down. Without his central matrix, the army is dead iron. The machine is finished."
+"He jumped," I say, lowering my smoking fingers. "Back to his mind?"
+
+"Undoubtedly," the king says, his gaze drifting downward. "Look below. The signal has collapsed. The drones are falling from the sky across Ollendor. The sentinels have shut down. Without his central matrix, the army is dead iron. The machine is finished."
 
 #if(v_b3_ch9_hadrik == 0) {
  "You aren't concerned by that parting threat?" I ask, guiding my earthen body back toward the plaza while motioning Daren to follow. "Not even slightly?"
@@ -1283,7 +1285,7 @@ TEXT:
 
  "Much as I would savor the credit for executing the machine," the king says, "your dwarven comrade delivered the fatal strike. Guiding him back to his mind won this engagement. We owe you a great debt."
 
-"Don't mention it!" Flower beams. "Does this mean it's over? We won?"
+"Don't mention it!" Flower beams, her fiery aura warming the void. "Does this mean it's over? We won?"
 
 "I think so," I say, letting out a long breath. "We won."
 
@@ -1414,7 +1416,7 @@ TEXT:
 
 She lifts a palm, hovering a sphere of glacial water above her fingers.
 
-"Thank you," I say, exhaling slowly. "Both of you. How did you even develop a contingency like that?"
+"Thank you," I say, exhaling slowly into the rain. "Both of you. How did you even develop a contingency like that?"
 
 "Field experience," Illuna replies evenly. "And necessary improvisation. It is not our first excursion into the abyss, nor will it be the last. Now, I must return to Flower. Several matters in the ether remain unsettled."
 
@@ -1448,7 +1450,7 @@ Across the cobblestones, Peter and the king stand among dozens of unconscious re
 "You made it back," I tell them. "Both of you secured your sanctuaries?"
 
 }
- "Only myself," the king says. "The ether ignored Peter entirely. Born ethereals appear exempt from the expulsion protocol."
+ "Only myself," the king says. "The ether ignored Peter entirely. Born ethereals appear exempt from being cast out."
 
 "Flower moved freely too," I note. "When you reached your mind, did you lose the soul-link immediately?"
 
@@ -1490,7 +1492,7 @@ Heavy footsteps splash through the flooded boulevard. Hadrik barrels into the sq
 
 He rummages through his enchanted pack and produces heavy clay bottles.
 
-"None for us," the king declines with a raised hand. "We remain on operational duty until our personnel are secured."
+"None for us," the king declines with a raised hand. "We remain on duty until our soldiers are secured."
 
 "Suit yourself!" Hadrik says, stowing the extra bottles without missing a beat. "So, I reach the blast doors of the primary vault. Heavy seredium reinforcement, security wards humming. You are going to love how I handled the locks."
 

@@ -1,21 +1,21 @@
 ID: B3-Ch09b-Backup
 TEXT:
 
-"Alright," I say. "Let's go to the Overseer first, then. Can you teleport us there now?"
+"Alright," I say. "Let's link up with the Overseer first. Can you teleport us there now?"
 
 "I'm on it!" Flower says. White light flares around us, blinding and absolute.
 
 "Here we are!"
 
-The glare clears into the boundless radiance of the ether. Hovering right beside us, the Overseer's green-eyed drone hums in place.
+The glare clears into the boundless radiance of the ether. Hovering right beside us, the Overseer's green-eyed drone hums in place, its bronze casing gleaming under the featureless illumination.
 
-"Processing. Processing..." the drone's voice carries cleanly through the glow. "The Overseer protocol now understands why it could not locate your party anywhere within the ether. Having witnessed your teleportation capability, the working assumption is that you relocated to an undetectable sanctuary. Is that assessment accurate?"
+"Processing. Processing..." the drone's dispassionate voice carries cleanly through the glow. "The Overseer protocol now understands why it could not locate your party anywhere within the local sector. Having witnessed your teleportation capability, the working assumption is that you relocated to an undetectable sanctuary. Is that assessment accurate?"
 
 "Um, yeah," Flower says. "That's right. Wait—you were looking for us?"
 
 "Affirmative," the Overseer says. "The Overseer protocol apologizes for the inconvenience. Your souls were not intended for ejection alongside the rebel forces. The displacement routine remains experimental and encompassed the entire perimeter instead of isolating our designated targets."
 
-"Oh, it's fine!" Flower says. "Everyone's in one piece. We actually came to ask if you want to team up against Peter and the king of the underground out here on the ethereal plane. I can jump us straight to them."
+"Oh, it's fine!" Flower says, though a faint shudder ripples across her shoulders. "Everyone's in one piece. We actually came to ask if you want to team up against Peter and the king of the underground out here on the ethereal plane. I can jump us straight to them."
 
 "The Overseer protocol accepts your proposal," the drone responds. "That was my projected vector as well."
 
@@ -30,61 +30,61 @@ TEXT:
 #if(v_b3_ch9_backup == 0) {
 "The Overseer doesn't have his drone swarm out here, so I doubt he'll be much help," I tell Flower. "Let's take Peter on ourselves."
 
-"If you say so, Barry," Flower says. "Hold on. I'm jumping us in."
+"If you say so, Barry," Flower says, though her voice wavers. "Hold on. I'm jumping us in."
 
 "Ready," I say. The familiar white flash envelops us, humming through every nerve before tearing away.
 
 "What are you doing here?" Peter's voice cuts through the stillness the moment the jump resolves.
 
-Twenty feet ahead in the vast white expanse, Peter stands beside the king of the underground, who has already shaped a physical body out of ethereal matter. Peter's eyes are dull and dark, without a flicker of the incandescent blaze pouring from Flower's face; the evolutionary shift that gave her long-range soul tracking and instantaneous transit never touched him.
+Twenty feet ahead in the vast white expanse, Peter stands beside the king of the underground, who has already shaped a physical body out of ethereal matter. Peter's eyes are dull and dark, without a flicker of the incandescent blaze pouring from Flower's face; the evolutionary shift that gave her long-range soul tracking and instantaneous transit never touched him. But in those dark eyes, there is a sharp, sickening flash of betrayal.
 
-"Take a wild guess," I say.
+"Take a wild guess," I say, the words tasting like lead.
 
 }
 #if(v_b3_ch9_backup == 1) {
 "What are you doing here?" Peter's voice cuts through the stillness the moment the jump resolves.
 
-Twenty feet ahead in the vast white expanse, Peter stands beside the king of the underground, who has already shaped a physical body out of ethereal matter. Peter's eyes are dull and dark, without a flicker of the incandescent blaze pouring from Flower's face; the evolutionary shift that gave her long-range soul tracking and instantaneous transit never touched him.
+Twenty feet ahead in the vast white expanse, Peter stands beside the king of the underground, who has already shaped a physical body out of ethereal matter. Peter's eyes are dull and dark, without a flicker of the incandescent blaze pouring from Flower's face; the evolutionary shift that gave her long-range soul tracking and instantaneous transit never touched him. He stares past us at the bronze drone hovering at our flank, his expression hardening into cold disgust.
 
-"Take a wild guess," I say.
+"Take a wild guess," I say, the words tasting like lead.
 
 }
 #if(v_b3_ch9_conclusions != 1) {
-"This is a mistake," Peter says, hands low and steady. "You have no business challenging me here. Turn back while you still have the chance."
+"This is a mistake," Peter says, hands low and steady, though a tremor of anger tightens his jaw. "You have no business challenging me here. Turn back while you still have the chance."
 
 "Sorry," I say. "Not happening."
 
-"You don't understand what you're stepping into," Peter says. "The Overseer is my only target in this realm. Walk away, and we can still—"
+"You don't understand what you're stepping into," Peter says, his voice thick with bitter disbelief. "The Overseer is my only target in this realm. Walk away, and we can still—"
 
-"Peter, forgive the interruption," the king says, raising a hand. "A brief question before we engage."
+"Peter, forgive the interruption," the king says, raising a quiet, gloved hand. "A brief question before we engage."
 
 }
 #if(v_b3_ch9_backup == 0 && v_b3_ch9_conclusions == 1) {
-"Under ordinary circumstances, I would assume you came seeking an alliance against the Overseer," the king says, his gaze weighing me down. "Yet from your tone, that holds no truth. Am I to understand that every promise you made before the breach was hollow, and you chose betrayal after all?"
+"Under ordinary circumstances, I would assume you came seeking an alliance against the Overseer," the king says, his gaze weighing heavily upon me. "Yet from your tone, that holds no truth. Am I to understand that every promise you made before the breach was hollow, and you chose betrayal after all?"
 
-"Pretty much," I say.
+"Pretty much," I say, forcing my voice to stay flat against the sudden hollow in my gut.
 
-"This is a mistake," Peter says, hands low and steady. "You have no business challenging me here. Turn back while you still have the chance."
+"This is a mistake," Peter says, hands low and steady, his knuckles whitening. "You have no business challenging me here. Turn back while you still have the chance."
 
 "Sorry," I say. "Not happening."
 
-"You don't understand what you're stepping into," Peter says. "The Overseer is my only target in this realm. Walk away, and we can still—"
+"You don't understand what you're stepping into," Peter says, his voice thick with bitter disbelief. "The Overseer is my only target in this realm. Walk away, and we can still—"
 
-"Peter, forgive the interruption," the king says, raising a hand. "A brief question before we engage."
+"Peter, forgive the interruption," the king says, raising a quiet, gloved hand. "A brief question before we engage."
 
 }
 #if(v_b3_ch9_backup == 1 && v_b3_ch9_conclusions == 1) {
-"Under ordinary circumstances, I would assume you came seeking an alliance against the Overseer," the king says, his gaze fixed on the machine beside us. "Yet seeing you arrive in lockstep with the enemy leaves little room for doubt. Am I to understand that every promise you made before the breach was hollow, and you chose betrayal after all?"
+"Under ordinary circumstances, I would assume you came seeking an alliance against the Overseer," the king says, his gaze fixed on the bronze machine beside us. "Yet seeing you arrive in lockstep with the enemy leaves little room for doubt. Am I to understand that every promise you made before the breach was hollow, and you chose betrayal after all?"
 
-"Pretty much," I say.
+"Pretty much," I say, forcing my voice to stay flat against the sudden hollow in my gut.
 
-"This is a mistake," Peter says, hands low and steady. "You have no business challenging me here. Turn back while you still have the chance."
+"This is a mistake," Peter says, hands low and steady, his knuckles whitening. "You have no business challenging me here. Turn back while you still have the chance."
 
 "Sorry," I say. "Not happening."
 
-"You don't understand what you're stepping into," Peter says. "The Overseer is my only target in this realm. Walk away, and we can still—"
+"You don't understand what you're stepping into," Peter says, his voice thick with bitter disbelief. "The Overseer is my only target in this realm. Walk away, and we can still—"
 
-"Peter, forgive the interruption," the king says, raising a hand. "A brief question before we engage."
+"Peter, forgive the interruption," the king says, raising a quiet, gloved hand. "A brief question before we engage."
 
 }
 choice("Continue", B3-Ch09b-Logical, v_current_scene = B3-Ch09b-Logical)
@@ -104,7 +104,7 @@ TEXT:
 
 "I... had not considered it in those terms," Peter admits, "but in principle, yes. That holds."
 
-"Good!" The king smiles faintly. "Then the sensation is real."
+"Good!" The king smiles faintly, a cold, mournful calm settling over his features. "Then the sensation is real."
 
 He thrusts an open palm forward. An invisible shockwave slams through the air, shoving me and Flower ten feet backward across the glow.
 
@@ -122,7 +122,7 @@ He thrusts an open palm forward. An invisible shockwave slams through the air, s
 
 "I... had not considered it in those terms," Peter admits, "but in principle, yes. That holds."
 
-"Good!" The king smiles faintly. "Then the sensation is real."
+"Good!" The king smiles faintly, a cold, mournful calm settling over his features. "Then the sensation is real."
 
 He thrusts an open palm forward. An invisible shockwave slams through the air, shoving me, Flower, and the Overseer ten feet backward across the glow.
 
@@ -147,15 +147,15 @@ TEXT:
 #if(v_b3_ch9_assassinate == 0) {
 "Nobody is trying to kill anyone. All we want is to defeat you and bring this war to an end."
 
-"Is that so?" The king tilts his head. "Then let us call this a spirited contest between former comrades with divergent ideals. Now... let us see what those newly forged spells of yours can do."
+"Is that so?" The king tilts his head, his voice tinged with dark irony. "Then let us call this a spirited contest between former comrades with divergent ideals. Now... let us see what those newly forged spells of yours can do."
 
 }
 #if(v_b3_ch9_assassinate == 1) {
 "Of course we're trying to kill you. That's what you get for plotting to assassinate us."
 
-"Still determined to cast me as the monster," the king says quietly. "A pity. I truly hoped we might settle our differences with some semblance of dignity."
+"Still determined to cast me as the monster," the king says quietly, a shadow of regret crossing his lined face. "A pity. I truly hoped we might settle our differences with some semblance of dignity."
 
-"Do you still wish me to show restraint, sire?" Peter asks.
+"Do you still wish me to show restraint, sire?" Peter asks, his hands already glowing with cold light.
 
 "Only so long as your life is not forfeit," the king replies. "If the balance tips, you have full leave to use everything at your disposal."
 
@@ -223,9 +223,9 @@ The barrier around us shatters as the king jerks his focus back, pouring every s
 
 We scramble clear of the freezing zone. Hovering thirty feet out, the Overseer's drone channels a continuous jet of white-hot flame from its chassis.
 
-"Apologies for the delay," the Overseer drones. "I was uncertain whether your confinement was tactical bait or a critical failure."
+"Apologies for the delay," the Overseer drones in its flat, synthetic monotone. "I was uncertain whether your confinement was tactical bait or a critical failure."
 
-"It's fine," I say, sucking in ragged breaths. "Keep the pressure on him. Don't let him reset."
+"It's fine," I say, sucking in ragged breaths as frost melts off my sleeves. "Keep the pressure on him. Don't let him reset."
 
 "Understood."
 
@@ -431,7 +431,7 @@ ID: B3-Ch09b-Engagement
 TEXT:
 
 #if(v_b3_ch9_teleport != 1) {
-"Diagnostic indicates tactical distress in your current engagement," the Overseer's monotone cuts through the rush of wind. "Do you require operational assistance?"
+"Diagnostic indicates tactical distress in your current engagement," the Overseer's flat monotone cuts through the rush of displaced air. "Do you require operational assistance?"
 
 The green-eyed drone drifts level with my shoulder, effortlessly weaving between incoming fireballs without breaking its smooth glide.
 
@@ -439,7 +439,7 @@ The green-eyed drone drifts level with my shoulder, effortlessly weaving between
 
 }
 #if(v_b3_ch9_teleport == 1) {
-"Diagnostic indicates tactical distress in your current engagement," the Overseer's monotone cuts through the rush of wind. "Do you require operational assistance?"
+"Diagnostic indicates tactical distress in your current engagement," the Overseer's flat monotone cuts through the rush of displaced air. "Do you require operational assistance?"
 
 Across the glare, Flower keeps the king under a steady hail of fire, while the green-eyed drone matches my flight path, drifting through the fireballs without a single erratic twitch.
 
@@ -532,7 +532,7 @@ Peter lowers his hands, stunned.
 
 "Which is why he couldn't weave anything else while chasing me," I say. "Every ounce of focus went into steering fifty fireballs by hand."
 
-"You..." Peter points a trembling finger at the machine. "You soulless construct! How dare you?"
+"You..." Peter points a trembling finger at the machine, his breath ragged. "You soulless construct! How dare you?"
 
 "Direct all formal grievances to section 5C-E789 of the Overseer operating manual," the drone replies smoothly.
 
@@ -859,7 +859,7 @@ TEXT:
 
 "Not like there was a gentle alternative," I say, the shaking finally easing as the shock settles. "That high-frequency resonance directly disrupts inner-ear fluid balance. Unpicking it cleanly takes a master white mage ten minutes of delicate threadwork. That's why Azarius leaned on sonic arrays so heavily—versatile, near-impossible to counter on the fly. Brinhorn was a pain in the neck to live with, but borrowing the dwarven hangover cure to short-circuit the nerve response was pure practical genius."
 
-"It was magnificent," Peter says, a wistful note in his voice. "Absurd on paper, yet ruthlessly efficient. Why waste minutes untangling acoustic pressure waves when several hundred years of dwarven tavern brawling offer an immediate reset? A masterclass in combat logic."
+"It was magnificent," Peter says, a wistful note in his voice. "Absurd on paper, yet ruthlessly effective. Why waste minutes untangling acoustic pressure waves when several hundred years of dwarven tavern brawling offer an immediate reset? A masterclass in combat logic."
 
 #if(v_b3_ch9_backup == 0) {
 "Delighted by your mutual appreciation," the king's voice bellows from across the glow, where he strains to keep layered barriers intact against Flower's relentless flanking volleys. "Now finish him, Peter! My aura on this plane barely holds this girl. You cannot handle both of them at once!"
@@ -1164,7 +1164,7 @@ choice("Continue", B3-Ch09b-Melding, v_current_scene = B3-Ch09b-Melding, v_ac_b3
 ID: B3-Ch09b-Appreciate
 TEXT:
 
-"Appreciate the tactical advice, Peter," I say, steadying my breathing. "Reminding me of my reserve repertoire was remarkably generous. I might have let it slip."
+"Appreciate the advice, Peter," I say, steadying my breathing. "Reminding me of my reserve repertoire was remarkably generous. I might have let it slip."
 
 "If you intend to strike, do it now," Peter replies from the void. "Soon, your magical sense will fail entirely."
 
@@ -1186,7 +1186,7 @@ He cuts off. The silence hangs heavy.
 
 "You baited me," he says flatly. "You bought time for the metabolic purge."
 
-"Naturally," I say, lowering my hands as the headache clears entirely. "And now that we're both in fighting trim, we can resume our contest. Proper generalist protocol. Agreed?"
+"Naturally," I say, lowering my hands as the headache clears entirely. "And now that we're both in fighting trim, we can resume our contest. Proper generalist custom. Agreed?"
 
 choice("Continue", B3-Ch09b-Puddle, v_current_scene = B3-Ch09b-Puddle, v_b3_ch3_stats_unavailable = 0)
 
@@ -1744,9 +1744,9 @@ ID: B3-Ch09b-Agreement
 TEXT:
 
 #if(v_b3_ch9_premonition != 2) {
-The drones work with ruthless efficiency. Within five minutes, the square is clear of bodies. By the time the last transport lifts off, Flower finishes guiding our companions' souls back to their sanctuaries, and one by one they stir in the rain, gathering around Illuna and me.
+The drones work with ruthless, mechanical speed. Within five minutes, the square is clear of bodies. By the time the last transport lifts off, Flower finishes guiding our companions' souls back to their sanctuaries, and one by one they stir in the rain, gathering around Illuna and me.
 
-"The drone ordered us to the royal palace?" Daren asks, wiping rainwater from his brow as I finish the debrief.
+"The drone ordered us to the royal palace?" Daren asks, wiping rainwater from his brow as I finish explaining what happened.
 
 "Clear instructions," I tell him. "If we want terms with the Overseer, we walk up to the throne room."
 
@@ -1756,13 +1756,13 @@ The drones work with ruthless efficiency. Within five minutes, the square is cle
 
 "He could have easily sent a drone liaison here," Daren says, his hand resting on his pommel. "Summoning us to his seat is an assertion of authority."
 
-"Can you blame him?" I ask. "He holds all the leverage. The rebel leadership is broken, the guard is shattered, and we are the only armed variable left in Ollendor."
+"Can you blame him?" I ask. "He holds all the cards. The rebel leadership is broken, the guard is shattered, and we are the only armed variable left in Ollendor."
 
 }
 #if(v_b3_ch9_premonition == 2) {
-The drones work with ruthless efficiency. Within five minutes, the square is clear of bodies. By the time the last transport lifts off, Flower finishes guiding our companions' souls back to their sanctuaries, and one by one they stir in the rain, gathering around Illuna and me.
+The drones work with ruthless, mechanical speed. Within five minutes, the square is clear of bodies. By the time the last transport lifts off, Flower finishes guiding our companions' souls back to their sanctuaries, and one by one they stir in the rain, gathering around Illuna and me.
 
-"The drone ordered us to the royal palace?" Daren asks, wiping rainwater from his brow as I finish the debrief, while Leila helps Kate to her feet nearby.
+"The drone ordered us to the royal palace?" Daren asks, wiping rainwater from his brow as I finish explaining what happened, while Leila helps Kate to her feet nearby.
 
 "Clear instructions," I tell him. "If we want terms with the Overseer, we walk up to the throne room."
 
@@ -1772,7 +1772,7 @@ The drones work with ruthless efficiency. Within five minutes, the square is cle
 
 "He could have easily sent a drone liaison here," Daren says, his hand resting on his pommel. "Summoning us to his seat is an assertion of authority."
 
-"Can you blame him?" I ask. "He holds all the leverage. The rebel leadership is broken, the guard is shattered, and we are the only armed variable left in Ollendor."
+"Can you blame him?" I ask. "He holds all the cards. The rebel leadership is broken, the guard is shattered, and we are the only armed variable left in Ollendor."
 
 }
 "Precisely," Daren mutters. "That is what concerns me."
@@ -1835,7 +1835,7 @@ Cold sweat drenches my collar.
 
 Hadrik grunts and turns forward.
 
-A fluke. A residual neurological echo. Hadrik felt nothing, which means the Overseer isn't running another displacement wave. Even if the flash was real, I was anchored safely inside the cube. The ether can't reach inside.
+A fluke. A residual echo in my nerves. Hadrik felt nothing, which means the Overseer isn't running another displacement wave. Even if the flash was real, I was anchored safely inside the cube. The ether can't reach inside.
 
 I lengthen my stride to fall in behind Daren. Over the next hour, as we march through the dark streets toward the royal palace, the perspective shift does not return.
 

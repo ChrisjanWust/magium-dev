@@ -271,7 +271,7 @@ TEXT:
 
  The king of the underground and Albert trade another glance, and this time Albert takes the lead.
 
-"We will prioritize prisoners with family living in the underground," Albert says. "Once their safety is secured, we will evaluate how many more can be extracted without destabilizing the city's infrastructure."
+"We will see to prisoners with family living in the underground first," Albert says. "Once their safety is secured, we will evaluate how many more can be extracted without crippling the city's power."
 
 "You plan to abandon anyone you do not personally care about," Kate says.
 
@@ -281,7 +281,7 @@ TEXT:
 
 "I recognize this strikes a nerve," the king of the underground says, meeting her glare without flinching. "I will grant that my illustration was simplistic. Yet your indignation blinds you to the broader picture. Transportation is merely the visible layer; commerce itself moves across Ollendor on those platforms. What happens when every contraption in the city grinds to a halt the day a new ruler ascends the throne? Mass unemployment leads directly to bread riots, and bread riots ignite civil war."
 
-"So that is the bottom line," Kate says with open disgust. "You will leave them in cages to protect your grip on the throne."
+"So that is your final word," Kate says with open disgust. "You will leave them in cages to protect your grip on the throne."
 
 The king of the underground closes his eyes and exhales slowly through his nose.
 
@@ -463,79 +463,79 @@ ID: B3-Ch08b-Populated
 TEXT:
 
 #if(v_b3_ch8_detected == 1) {
- "You're right about the Overseer. We detected him through one of the crystals, earlier."
+ "You are right about the Overseer," I say. "We caught him listening through a crystal node not an hour ago."
 
-"You were able to detect him?..." the king of the underground asks. "Well, I suppose I shouldn't be too surprised, considering that your banshee from the amulet has stated openly before that she could sense Albert's aura through his invisibility. You are certain it was the Overseer, then?"
+"You detected him?..." The king's brow arches, his gaze sharpening. "I suppose I should not find that entirely unexpected, given your banshee claimed she could pierce Albert's cloaking. You are certain the transmission originated from the machine?"
 
-"Yes, it was definitely him," I say.
+"No question," I say. "He spoke to us directly."
 
-"In that case, I will restrict operational details until the final hour," the king of the underground says. "I cannot risk a soldier inadvertently compromising our plans because they failed to spot a crystal node overhead in some corridor. Thank you for informing me of this. As promised, we will give you more details about tomorrow's operation when the time comes. Most likely, the briefing will be held tomorrow in the morning. Until then, feel free to roam around the underground base and to use its facilities however you please, just like before."
+"Then I will withhold operational specifics until the dawn muster," the king says, his jaw setting. "I cannot have an operative compromising the assault because they failed to notice a cerulean vein above a doorframe. My thanks for the warning. As promised, detailed orders will follow when the roster forms at daybreak. Until then, the caverns and their stores remain open to you."
 
-"We will do that," Daren says. "See you around, then."
+"We will keep that in mind," Daren says, offering a formal nod. "Until tomorrow, then."
 
-The king of the underground nods, and then we all follow Daren outside of the waiting room, heading into one of the tunnels that is less populated and that has no blue crystals left in its walls or ceilings. Once we are far enough from the waiting room to be sure that nobody can hear us, Hadrik is the first one to address a question to us.
+The king turns back toward his officers, and we follow Daren out of the waiting hall into a narrow side passage where blast concussions sheared the blue crystal veins down to dead rock. Once the torchlit commons are far behind us and our footsteps ring only against cold granite, Hadrik breaks the silence.
 
 }
 #if(v_b3_ch8_detected == 0) {
- "That's good to know. We'll try to be more careful around these crystals from now on."
+ "Good to know," I say. "We will watch what we say around the stone."
 
-"Alright," the king of the underground says. "Well, that is all for now. As promised, we will give you more details about tomorrow's operation when the time comes. Most likely, the briefing will be held tomorrow in the morning. Until then, feel free to roam around the underground base and to use its facilities however you please, just like before."
+"Prudent," the king says. "That concludes our preliminary business. As promised, detailed orders will follow when the roster forms at daybreak. Until then, the caverns and their stores remain open to you, just as before."
 
-"We will do that," Daren says. "See you around, then."
+"We will keep that in mind," Daren says, offering a formal nod. "Until tomorrow, then."
 
-The king of the underground nods, and then we all follow Daren outside of the waiting room, heading into one of the tunnels that is less populated and that has no blue crystals left in its walls or ceilings. Once we are far enough from the waiting room to be sure that nobody can hear us, Hadrik is the first one to address a question to us.
+The king turns back toward his officers, and we follow Daren out of the waiting hall into a narrow side passage where blast concussions sheared the blue crystal veins down to dead rock. Once the torchlit commons are far behind us and our footsteps ring only against cold granite, Hadrik breaks the silence.
 
 }
 #if(v_b3_ch8_king == 0) {
- "So, did anyone else find it surprising that the king of the underground didn't really pose much resistance to Barry nominating Albert as a king candidate?" Hadrik says. "I thought he'd be more... you know... hostile about it?"
+ "Did anyone else notice how easily he swallowed Barry putting Albert on the ballot?" Hadrik asks, scratching through his dark beard. "I expected him to bare his teeth the second we floated another name."
 
-"Why would he be?" Kate says. "Albert becoming king is probably one of the best outcomes he could wish for. He is the most loyal follower he has, so he'll probably just keep listening to his master's orders even if he somehow ends up winning the upcoming election. In the grand scheme of things, I doubt that it would make much of a difference for the king of the underground if Albert were to become king instead of him."
+"Why would he?" Kate asks, stepping alongside him, her green cloak pulled close against the cavern draft. "Albert is his creature. A crown on Albert's head changes nothing—the orders will still come from the shadows, and Albert will still carry them out. In practical terms, the underground king rules whether his own brow wears the gold or his executioner's does."
 
-"Even so," Hadrik says, "that recording made it sound like the king of the underground wouldn't even consider any other option than himself, and that he would be willing to straight up kill us if we were to suggest anything different. You'd have thought that he'd at least try to make an argument that he'd be the better pick, or something. I don't know... This seems a little fishy to me. Do you think the recording might have been fake after all? Maybe we should ask the king of the underground about it. And then Melindra, Arraka or Leila could read his aura to see if he's lying!"
+"Even so," Hadrik mutters, "that recording made it sound like he would slit our throats the instant we contested his claim. You would think he would have offered some bluster about being the rightful ruler before rolling over. It smells crooked. Could that crystal recording have been fabricated? We could confront him directly and let Melindra or Leila read his aura while he answers."
 
 }
 #if(v_b3_ch8_king == 1) {
- "So, did anyone else find it surprising that the king of the underground was so quick to accept Peter as a nomination?" Hadrik says. "I thought he'd be more... you know... hostile about it?"
+ "Did anyone else notice how quickly he agreed to put Peter on the slate?" Hadrik asks, scratching through his dark beard. "I expected him to bare his teeth the second we floated another name."
 
-"He probably thinks that even if Peter becomes king, he'll be able to manipulate him easily into doing what he wants," Kate says. "We've already seen how meek Peter can get when the king of the underground raises his voice at him a little. Maybe he'll become surer of himself if his people were to show that they'd prefer him as their ruler over the king of the underground in the upcoming election, but I wouldn't get my hopes up."
+"He believes Peter is easily steered," Kate says, her dark eyes cold in the dim torchlight. "We have all watched Peter shrink the moment the king raises his voice. If Peter takes the throne on popular acclaim, he might find the spine to govern, but the king is banking on keeping his leash firmly in hand."
 
-"Even so," Hadrik says, "that recording made it sound like the king of the underground wouldn't even consider any other option than himself, and that he would be willing to straight up kill us if we were to suggest anything different. You'd have thought that he'd at least try to make an argument that he'd be the better pick, or something. I don't know... This seems a little fishy to me. Do you think the recording might have been fake after all? Maybe we should ask the king of the underground about it. And then Melindra, Arraka or Leila could read his aura to see if he's lying!"
+"Even so," Hadrik mutters, "that recording made it sound like he would slit our throats the instant we contested his claim. You would think he would have offered some bluster about being the rightful ruler before rolling over. It smells crooked. Could that crystal recording have been fabricated? We could confront him directly and let Melindra or Leila read his aura while he answers."
 
 }
 #if(v_b3_ch8_king == 2) {
- "So, did anyone else find it surprising that the king of the underground didn't really pose much resistance to Barry nominating Breynan as a king candidate?" Hadrik says. "I thought he'd be more... you know... hostile about it?"
+ "Did anyone else notice how little resistance he put up against Breynan?" Hadrik asks, scratching through his dark beard. "I expected him to bare his teeth the second we floated another name."
 
-"The king of the underground obviously doesn't see Breynan as a real threat," Kate says. "Considering the low amount of votes that he expects him to get, I doubt he'll even bother to rig the elections. He might even be happy if Breynan were to join the fray, because competing with an actual rebel leader and winning would bring more legitimacy to his victory." 
+"He knows Breynan commands no broad following," Kate says, her tone crisp and dry. "Breynan has the stomach for logistics, but none of the warmth that wins a crowd. The king will not even need to manipulate the ballots; running against an austere rebel commander simply legitimizes his own landslide."
 
-"Even so," Hadrik says, "that recording made it sound like the king of the underground wouldn't even consider any other option than himself, and that he would be willing to straight up kill us if we were to suggest anything different. You'd have thought that he'd at least try to make an argument that he'd be the better pick, or something. I don't know... This seems a little fishy to me. Do you think the recording might have been fake after all? Maybe we should ask the king of the underground about it. And then Melindra, Arraka or Leila could read his aura to see if he's lying!"
+"Even so," Hadrik mutters, "that recording made it sound like he would slit our throats the instant we contested his claim. You would think he would have offered some bluster about being the rightful ruler before rolling over. It smells crooked. Could that crystal recording have been fabricated? We could confront him directly and let Melindra or Leila read his aura while he answers."
 
 }
 #if(v_b3_ch8_king == 3 || v_b3_ch8_king == 4) {
- "So, did anyone else find it surprising that the king of the underground didn't really pose much resistance to Daren nominating Leila's father as a king candidate?" Hadrik says. "I thought he'd be more... you know... hostile about it?"
+ "Did anyone else find it strange how readily he let Daren propose Leila's father?" Hadrik asks, scratching through his dark beard. "I expected him to bare his teeth the second we floated another name."
 
-"It's clear that he was expecting Doctor Reidzek to refuse the offer from the very beginning," Kate says. "He would not have been so enthusiastic about Daren's suggestion otherwise."
+"He knew doctor Reidzek would decline before Daren finished the sentence," Kate says, her boots scuffing the rough floor. "He had nothing to lose by playing the gracious statesman."
 
-"Even so," Hadrik says, "that recording made it sound like the king of the underground wouldn't even consider any other option than himself, and that he would be willing to straight up kill us if we were to suggest anything different. You'd have thought that he'd at least try to make an argument that he'd be the better pick, before letting Daren give his suggestions. I don't know... This seems a little fishy to me. Do you think the recording might have been fake after all? Maybe we should ask the king of the underground about it. And then Melindra, Arraka or Leila could read his aura to see if he's lying!"
+"Even so," Hadrik mutters, "that recording made it sound like he would slit our throats the instant we contested his claim. You would think he would have offered some bluster about being the rightful ruler before letting Daren speak. It smells crooked. Could that crystal recording have been fabricated? We could confront him directly and let Melindra or Leila read his aura while he answers."
 
 }
 #if(v_b3_ch8_king == 5) {
- "So, does anyone else think that the king of the underground accepted his earlier defeat a little too easily?" Hadrik says. "I was kind of expecting him to try a little harder to keep Kelrim from participating in the election."
+ "Did anyone else catch how quietly he took that defeat?" Hadrik asks, rubbing his knuckles. "I expected him to fight harder to keep Kelrim off the slate."
 
-"He couldn't oppose him openly because that would have made it seem like he was trying to manipulate the outcome of the election," Kate says. "You can be certain that the king of the underground is not going to take this lying down. He will likely do everything in his power to stop Kelrim from being crowned as king, including assassinating him and the rest of us if he has to. We all heard what he said to Albert in that recording. This man is the type who doesn't let anyone stand between him and his goals."
+"He could not object openly without exposing his fear of a fair vote," Kate says, her voice low and sharp. "Do not mistake composure for surrender. He will move against Kelrim the moment the crowds disperse—and against us, if we stand in the way. We heard his orders to Albert. The man will not permit a goblin healer to take the prize he spent years scheming for."
 
-"It's true that the king looked dissatisfied with the idea that a goblin could become the ruler of the city," Leila's father says, "but would he really kill so many of his allies just to avoid such an outcome? I think that might be going too far even for someone like him."
+"He was certainly displeased by the notion of a non-human on the throne," doctor Reidzek says, adjusting his spectacles with a frown. "Yet would he truly slaughter his own allies over an election?"
 
- "I'm afraid that I'm going to have to agree with Kate this time, Doctor," Daren says. "It was pretty clear that the king of the underground was not at all happy with the large amount of support that Kelrim was getting, and he must have realized by now that trying to win against him in a fair election is simply not possible anymore. Sadly, I think that keeping the king of the underground as an ally may no longer be an option for us after what happened back there in the waiting room. The only two choices that remain available to us are to either accept the Overseer's deal to ambush the king together with him or to handle him on our own. Either way, we should probably-- wait. Did anyone check whether Albert has been following us invisibly this whole time?"
+ "Kate is right, Doctor," Daren says, his heavy hand resting on his pommel. "The roar in that hall made it clear: he cannot beat Kelrim in an honest vote. He knows it, and Albert knows it. Our alliance with the underground broke the moment Horace walked through that door. We either accept the Overseer's terms to strike him down, or we face him ourselves when the dust settles above. Wait—did anyone confirm whether Albert followed us cloaked?"
 
-"Relax," Arraka says from the amulet. "If he were following you, I would have told you about it."
+"Relax," Arraka's voice crackles from the amulet. "If that shadow were tailing you, I would have made a game of his panic."
 
-"Right," Daren says, looking somewhat unconvinced. "Anyway, what I was going to say is that we should probably all take some time to cool our heads and we'll reach a decision together later in the evening. Let's split up and continue our individual training, and we'll meet up in front of our sleeping quarters in a few hours. I'll call you through the transceivers when it's time to assemble."
+"Right," Daren says, scanning the empty shadows ahead with lingering doubt. "In any case, we need clear heads before we choose our path. We split up, continue our preparations, and reconvene at our quarters before dusk. I will call through the transceivers when the time comes."
 
 }
 #if(v_b3_ch8_king == 0 || v_b3_ch8_king == 1 || v_b3_ch8_king == 2 || v_b3_ch8_king == 3 || v_b3_ch8_king == 4) {
- "From what Leila told me, it is possible to circumvent lie detection by lying through omission," Kate says. "If that is true, then reading the king of the underground's aura to see if he's telling the truth or not could be one of the worst possible ideas, because he always speaks in half-truths and almost never lies upfront. It would be very easy for him to give us a carefully constructed answer that is technically true and absolves him of guilt, even if he's hiding something important that we don't know about."
+ "Leila explained this to me," Kate says, shaking her head. "An aura read catches direct falsehoods, but the king trades entirely in omissions and technical truths. He shapes every sentence so the words are factual while the implication is rotten. Pressing him for an aura check would only hand him another stage to deceive us."
 
-"Yeah, reading that guy's true intentions is a pain," Arraka says. "I wouldn't recommend it. I've checked his aura a few times, and he has made a habit of adding a little tremble to it almost every time when he speaks about an easily verifiable truth, in order to throw off any potential aura readers like myself. If he makes it seem like he's lying all the time, even when it's obvious that he's telling the truth, it gets too annoying when you try to differentiate between the actual lies and the fake lies, considering how good he is at aura manipulation. Maybe I could figure it out if I were to try hard enough, but I'm not going to waste my time on something as stupid as this."
+"His aura discipline is thoroughly irritating," Arraka sneers from the gold casing. "He has trained a deliberate tremor into his resonance whenever he speaks an undisputed truth, muddying the baseline for any observer. Differentiating his genuine fabrications from his manufactured twitches takes more focus than the creature is worth. I have no intention of wasting my talents dissecting a petty mobster's pulse."
 
 }
 choice("Continue", B3-Ch08b-Workshop, v_current_scene = B3-Ch08b-Workshop)
@@ -545,60 +545,60 @@ ID: B3-Ch08b-Workshop
 TEXT:
 
 #if(v_b3_ch4_billy == 7 && v_b3_ch8_king == 5 || v_b3_ch4_billy == 8 && v_b3_ch8_king == 5) {
- "Hold on, I just remembered something," Hadrik says. "Didn't the Overseer pretty much tell us that he would only accept Breynan as a king when we formed our alliance with him? What do you think he's going to say when he finds out that we've chosen a goblin that he's probably never heard of as a king candidate?"
+ "Hold on," Hadrik says, stopping in his tracks. "When we forged our compact with the Overseer, he stipulated Breynan as the only acceptable sovereign. What happens when he discovers we backed a goblin he never budgeted for?"
 
-"I don't think he explicitly said that Breynan would be the only option he'd accept," Daren says, "but if we want to keep our alliance with the Overseer, we're almost certainly going to need to renegotiate our terms with him. We initially agreed that we'd let him rule Ollendor behind the scenes, but that was before we knew we had Kelrim as an alternative. Now I wouldn't really be willing to accept anything other than at most a collaboration between the two of them. There would be no point in Kelrim taking the throne if he were to be just a puppet of the Overseer."
+"The agreement will require renegotiation," Daren says firmly. "We accepted his governance behind the scenes when no alternative existed. With Kelrim carrying the people's trust, I will not reduce him to a mechanical puppet. If the Overseer refuses to share authority with Kelrim, the pact is void."
 
-"Agreed," I say. "First, we're going to need to talk to Breynan about this, and once we've established if we want to keep our alliance with the Overseer or not, we'll have to talk to the Overseer as well and see if he will still want to keep his alliance with us, considering that we've changed the terms of our agreement so drastically. But like Daren said, we should probably just take a break for now, and we'll settle this all out later."
+"Agreed," I say. "We consult Breynan first, gauge his stance on Kelrim's surge, and then present our revised terms to the machine. But Daren is right—we need to gather our strength before we open that door."
 
-"Sounds good to me," Hadrik says. "Alright, see you all later. I'm going to see if I can improve my new shapeshifting technique some more."
+"Suits me," Hadrik says, rolling his broad shoulders. "I have a new shifting sequence to drill into muscle memory before morning. See you at dusk."
 
 }
 #if(v_b3_ch8_king == 5 && v_b3_ch4_billy != 7 && v_b3_ch4_billy != 8) {
- "Sounds good to me," Hadrik says. "Alright, see you all later. I'm going to see if I can improve my new shapeshifting technique some more."
+ "Suits me," Hadrik says, rolling his broad shoulders. "I have a new shifting sequence to drill into muscle memory before morning. See you at dusk."
 
 }
 #if(v_b3_ch4_billy == 7 && v_b3_ch8_king != 5 || v_b3_ch4_billy == 8 && v_b3_ch8_king != 5) {
- "Even if it were possible to find out his true intentions," Daren says, "it would still be a bad idea to tell the king about our discussion with the Overseer, because that would almost guarantee our exclusion from tomorrow's mission. With how suspicious the king of the underground usually tends to get over the smallest of things, I really don't see how he could trust us in any way after hearing that we're having secret conversations with the Overseer in his very own underground base. I don't think we can obtain any more information from either the king of the underground or the Overseer, so we'll just have to think long and hard and decide whose side we'll take by the end of the day. Either way, we should probably-- wait. Did anyone check whether Albert has been following us invisibly this whole time?"
+ "Even if we could pierce his defenses," Daren says, "revealing our contact with the Overseer would instantly sever whatever trust remains. The underground king suspects treason behind every shadow; learning we parleyed with his mortal enemy inside his own fortress would turn him hostile on the spot. We must weigh our allegiance carefully and choose our banner before nightfall. Wait—did anyone verify whether Albert shadowed us cloaked?"
 
-"Relax," Arraka says from the amulet. "If he were following you, I would have told you about it."
+"Relax," Arraka's voice crackles from the amulet. "If that shadow were tailing you, I would have made a game of his panic."
 
-"Right," Daren says, looking somewhat unconvinced. "Anyway, what I was going to say is that we should probably all take some time to cool our heads and we'll reach a decision together later in the evening. Let's split up and continue our individual training, and we'll meet up in front of our sleeping quarters in a few hours. I'll call you through the transceivers when it's time to assemble. Oh, and I will tell Breynan about our meeting too, so that we can decide together with him if we want to join the Overseer's side or not."
+"Right," Daren says, scanning the passage with lingering doubt. "In any case, we need clear heads before we choose our path. We split up, continue our preparations, and reconvene at our quarters before dusk. I will inform Breynan privately so he can weigh the Overseer's offer with us."
 
-"Sounds good to me," Hadrik says. "Alright, see you all later. I'm going to see if I can improve my new shapeshifting technique some more."
+"Suits me," Hadrik says, rolling his broad shoulders. "I have a new shifting sequence to drill into muscle memory before morning. See you at dusk."
 
 }
 #if(v_b3_ch4_billy != 7 && v_b3_ch4_billy != 8 && v_b3_ch8_king != 5) {
- "Even if it were possible to find out his true intentions," Daren says, "it would still be a bad idea to tell the king about our discussion with the Overseer, because that would almost guarantee our exclusion from tomorrow's mission. With how suspicious the king of the underground usually tends to get over the smallest of things, I really don't see how he could trust us in any way after hearing that we're having secret conversations with the Overseer in his very own underground base. I don't think we can obtain any more information from either the king of the underground or the Overseer, so we'll just have to think long and hard and decide whose side we'll take by the end of the day. Either way, we should probably-- wait. Did anyone check whether Albert has been following us invisibly this whole time?"
+ "Even if we could pierce his defenses," Daren says, "revealing our contact with the Overseer would instantly sever whatever trust remains. The underground king suspects treason behind every shadow; learning we parleyed with his mortal enemy inside his own fortress would turn him hostile on the spot. We must weigh our allegiance carefully and choose our banner before nightfall. Wait—did anyone verify whether Albert shadowed us cloaked?"
 
-"Relax," Arraka says from the amulet. "If he were following you, I would have told you about it."
+"Relax," Arraka's voice crackles from the amulet. "If that shadow were tailing you, I would have made a game of his panic."
 
-"Right," Daren says, looking somewhat unconvinced. "Anyway, what I was going to say is that we should probably all take some time to cool our heads and we'll reach a decision together later in the evening. Let's split up and continue our individual training, and we'll meet up in front of our sleeping quarters in a few hours. I'll call you through the transceivers when it's time to assemble."
+"Right," Daren says, scanning the passage with lingering doubt. "In any case, we need clear heads before we choose our path. We split up, continue our preparations, and reconvene at our quarters before dusk. I will call through the transceivers when the hour arrives."
 
-"Sounds good to me," Hadrik says. "Alright, see you all later. I'm going to see if I can improve my new shapeshifting technique some more."
+"Suits me," Hadrik says, rolling his broad shoulders. "I have a new shifting sequence to drill into muscle memory before morning. See you at dusk."
 
 }
- "In that case, I will be resuming my training lessons with Kate," Melindra says. "Flower, could you come with us too? There are some things that I feel like I can't explain well enough to Kate, and I thought that you might be able to find a more intuitive way to help her learn."
+ "In that case, I will resume my lessons with Kate," Melindra says, resting a hand on her hip. "Flower, come along. Stillwater channeling operates on principles that defy conventional elemental frameworks. I need your intuition to bridge the theory into terms she can use."
 
-"Sure thing!" Flower says. "Which way are we going?"
+"Right behind you!" Flower says, her eyes brightening. "Which corridor?"
 
-"There was an empty tunnel that we were using to train right before the royal guards' attack," Melindra says. "If they already repaired it, we'll go there. Otherwise, we'll look for someplace else."
+"The abandoned gallery we reinforced yesterday," Melindra says. "Assuming the earth mages finished the shoring."
 
-"Roger that," Flower says. "Let's go!"
+"Understood," Flower says with a nod. "Lead the way."
 
-"I think I'll go take a little stroll through the caves," I say, as Kate, Flower and Melindra are taking their leave. "Maybe with a little luck I'll overhear some really important conversation that could be of use to us!"
+"I am going to walk the perimeter," I say as Kate, Flower, and Melindra head down the western branch. "If the base is leaning toward revolt or coronation, I want to hear it before we cast our vote."
 
- "Just make sure that you don't get caught," Daren says, in a slightly worried voice.
+ "Keep your hood up and your distance clear," Daren warns quietly. "Do not draw their enforcers."
 
-"I know, I know, I'll be careful," I say. 
+"Understood," I say.
 
-"I'll be going back to my workshop, then," Doctor Reidzek says. "There are a few projects that I've left unfinished, and I haven't really had the time to attend to them since we came back from the tower. Leila, do you want to help?"
+"I must return to the workbench," doctor Reidzek says, dusting stone powder from his leather apron. "Several enchantments require stabilization before tomorrow's operation. Leila, will you assist me with the alignment arrays?"
 
-"Umm, yes, of course!" Leila writes.
+"Of course," Leila writes, bright blue characters flaring briefly beside her hand before fading.
 
-"Okay, well, I'll be going in the direction of the waiting room too," Daren says, "because I think there may still have been a few people with light wounds that I missed the first time around. Lead the way, Doctor!"
+"I will accompany you toward the waiting cavern," Daren tells them, adjusting his sword belt. "A few refugees in the clinic corridor had bandaging that needed fresh binding. Lead on, Doctor."
 
-I follow Doctor Reidzek, Leila and Daren back to the waiting room, and then we each go our own separate ways, with me heading towards the recreation area of the underground caverns first.
+I watch doctor Reidzek, Leila, and Daren retrace their steps toward the main hall, then turn south toward the common galleries.
 
 choice("Continue", B3-Ch08b-Workshop2, v_current_scene = B3-Ch08b-Workshop2)
 
@@ -606,25 +606,25 @@ choice("Continue", B3-Ch08b-Workshop2, v_current_scene = B3-Ch08b-Workshop2)
 ID: B3-Ch08b-Workshop2
 TEXT:
 
- I spend the next several hours moving through the cavern complex, gathering what intelligence I can glean from the tunnels. I loop through the mess hall, the barracks, the medical ward, and the commons, though the patrol mostly confirms what we already suspected.
+ I spend the next few hours moving through the cavern network, reading the pulse of the encampment. I loop through the mess hall where thin broth and hard ration loaves are served over scarred wooden trestles, through the bunk galleries where fighters oil their chainmail, and into the commons where surface refugees huddle near charcoal braziers.
 
-In nearly every gathering area, Albert's agitators work the crowds, singing the praises of the king of the underground, yet plenty of listeners remain unconvinced. A substantial faction of rebels bristles under his heavy-handed rule and would readily back any credible alternative. Among the surface refugees, his reputation is even darker.
+In almost every corner, Albert's operatives circulate among the fires, recounting the underground king's victories and pressing the necessity of a strong hand on the throne. Yet skepticism runs deep. A substantial faction of seasoned rebels bristles under his autocratic grip and would rally behind any credible alternative. Among the refugees, his reputation is darker still.
 
-To the refugees, he is an extortionist and mob boss—hardly surprising given his self-styled moniker and penchant for quiet murders. Some even refer to him as king of the 'underworld' rather than 'underground,' compounding his sinister reputation.
+To the families who fled the surface, he is less a liberator than an extortionist and guildmaster of thieves—a perception reinforced by his self-appointed title and history of quiet disappearances. In the darker alcoves, they speak of him as king of the 'underworld,' trading anxious whispers about what his reign will bring once the old monarch's seat is his.
 
-Between circuits, I check in on the others. When I find Kate and Arraka, they are locked in a heated theological debate. Kate contends that because identical races populate both the earthen and magical planes, both realms must have diverged from the primordial plane.
+Between circuits, I check in on our companions. In a side gallery, I find Kate and Arraka locked in a sharp cosmological debate. Kate argues that because the same mortal races walk both the earthen and magical planes, both realms must have diverged from a shared primordial ancestry.
 
-Arraka scoffs at the premise, arguing that no concrete evidence supports the theory. Even if the races originated in the primordial era, that fails to explain why the Magium actively generates new magical spirits conforming to those identical racial templates.
+Arraka scoffs from the gold casing, dismissing the deduction as primate logic. She counters that common racial forms offer zero proof of shared origin, especially when the Magium actively generates new magical spirits conforming to those identical racial templates.
 
-In Arraka's view, the division of the primordial plane was an accidental catastrophe, and the Magium operates like a crew frantically patching a sinking vessel—rationing spirits on the magical plane while guiding time weavers on the earthen plane with prophecies to prevent mass casualties from tearing reality apart.
+In Arraka's framework, the division of the primordial plane was an uncalculated disaster, and the Magium functions like a desperate crew shoring up a foundering vessel—rationing spirit creation on the magical plane while dispatching time weavers across the earthen plane to forestall mass deaths that could tear reality apart.
 
- She also maintains that the current mortal and spirit races bear no resemblance to the original primordial inhabitants, having emerged as anomalous byproducts of the cataclysm.
+ She adds that modern mortal and spirit races bear no resemblance to the entities that walked the primordial plane, having emerged as anomalous byproducts in the cataclysm's wake.
 
-I move on before the debate concludes, though Kate remains thoroughly unimpressed by Arraka's cosmology.
+I leave them to their argument, with Kate looking thoroughly unconvinced by the banshee's cosmology.
 
-After brief visits to Hadrik, Daren, and Leila, all absorbed in their tasks, the hours slip away. Daren's voice crackles through our transceivers, summoning us to an abandoned, crystal-free tunnel to settle our answer for the Overseer.
+After brief checks on Hadrik drilling stance transitions, Daren wrapping fresh dressings in the clinic corridor, and Leila calibrating alignment pins with her father, dusk approaches. Daren's voice crackles over the transceivers, calling us back to an abandoned, crystal-free gallery to settle our final stance.
 
-The debate runs long, every member pulling in different directions, but after extensive arguing, I steer the consensus toward our final course...
+The debate in the narrow tunnel is fierce, with every perspective clashing against the stone, but after weighing the survival of Ollendor against the ruthlessness of both factions, we forge our consensus...
 
 choice("Agree with the Overseer's plan of setting an ambush for the king of the underground.", B3-Ch08b-Answer, v_current_scene = B3-Ch08b-Answer, v_b3_ch8_overseer2 = 1)
 choice("Tell the Overseer that we won't help him set an ambush for the king of the underground.", B3-Ch08b-Answer, v_current_scene = B3-Ch08b-Answer, v_b3_ch8_overseer2 = 0)
@@ -636,37 +636,37 @@ TEXT:
 #if(v_b3_ch8_overseer2 == 0 && v_b3_ch4_billy != 7 && v_b3_ch4_billy != 8) {
  ...tell the Overseer that we won't help him set an ambush for the king of the underground.
 
-With our decision reached, we return to our quarters and speak his name aloud. His voice emerges instantly from a crystal facet, as if he has been waiting on the line throughout our deliberation.
+With our stance determined, we return to our quarters and speak his name. A cerulean node in the granite flares to life almost instantly, as though his transmission had remained queued throughout our deliberation.
 
-When we inform him that we refuse to follow his plan, the Overseer's tone sharpens with displeasure. Even so, he grants us a window to reconsider, promising his drones will hold fire immediately upon our ascent to allow us time to change our minds and strike down the king of the underground ourselves.
+When Daren delivers our refusal, the Overseer's flat tone carries a sharp, metallic edge. Even so, his logic subroutines calculate a margin for error, promising his aerial drones will hold fire during our initial breach of the surface to grant us a final window to eliminate the underground king ourselves.
 
-With the transmission ended, we prepare our bedding for the night as the hour grows late.
+With the link severed, we turn to our bedrolls as night settles over the base.
 
 }
 #if(v_b3_ch4_billy == 7 && v_b3_ch8_overseer2 == 0 || v_b3_ch4_billy == 8 && v_b3_ch8_overseer2 == 0) {
  ...tell the Overseer that we won't help him set an ambush for the king of the underground.
 
-With our decision reached, we return to our quarters and speak his name aloud. His voice emerges instantly from a crystal facet, as if he has been waiting on the line throughout our deliberation.
+With our stance determined, we return to our quarters and speak his name. A cerulean node in the granite flares to life almost instantly, as though his transmission had remained queued throughout our deliberation.
 
-When we inform him that we refuse to follow his plan, the Overseer's tone sharpens with displeasure. Even so, he grants us a window to reconsider, promising his drones will hold fire immediately upon our ascent to allow us time to change our minds and strike down the king of the underground ourselves.
+When Daren delivers our refusal, the Overseer's flat tone carries a sharp, metallic edge. Even so, his logic subroutines calculate a margin for error, promising his aerial drones will hold fire during our initial breach of the surface to grant us a final window to eliminate the underground king ourselves.
 
-With tomorrow's battle lines drawn, Breynan departs for his own quarters, and we request that the Overseer cease monitoring us through the crystals so we can rest.
+With the battle lines drawn for dawn, Breynan returns to his post, and we request that the Overseer terminate surveillance through the rock face so we can sleep.
 
 }
 #if(v_b3_ch4_billy == 9 && v_b3_ch8_overseer2 == 1 || v_b3_ch8_overseer2 == 1 && v_b3_ch4_billy <= 6 && v_b3_ch4_billy != 7 && v_b3_ch4_billy != 8) {
  ...agree with the Overseer's plan of setting an ambush for the king of the underground.
 
-With our decision reached, we return to our quarters and speak his name aloud. His voice emerges instantly from a crystal facet, as if he has been waiting on the line throughout our deliberation.
+With our course settled, we return to our quarters and speak his name. A cerulean node in the granite pulses to life instantly, the transmission ready and waiting.
 
-In setting terms, we leverage his inability to utter direct falsehoods, locking him into binding conditions that leave no room for evasion.
+We formulate our terms with surgical care, exploiting the rigid prohibition against direct falsehoods embedded in his architecture.
 
-Daren extracts a pledge that the king and his followers will be taken alive, unharmed throughout their confinement. We further mandate that once the king is in custody, the Overseer will terminate the citywide lockdown and grant our party unmolested transit, provided we initiate no hostilities against his units.
+Daren binds him to an absolute pledge: the underground king and his officers will be secured alive inside paralysis containment, unharmed throughout their detention. We further stipulate that once the rebel leadership is in custody, the Overseer will terminate the municipal lockdown and guarantee our party unmolested departure beyond the perimeter walls, provided we initiate no hostile actions against his units.
 
-On the seredium tower prisoners, however, he stands rigid. The captive mages remain essential power conduits for city machinery and aerial drones; he refuses their release until a replacement source of equivalent output is secured.
+On the seredium tower mages, his logic remains unyielding. The captive spellcasters supply the power grid driving the city's transport platforms and municipal machinery; he refuses their release until alternate energy sources of equal output are integrated.
 
- Recognizing the impasse, we table the demand for now, intending to press it again once the king of the underground is dealt with.
+ Recognizing the technical barrier, we table the demand for the moment, resolving to force the issue once the king is secured.
 
-With the verbal compact sealed, we request that the Overseer withdraw his gaze from the crystals so we can sleep.
+With the verbal compact ratified, we demand that the Overseer withdraw his monitoring from the cavern walls so we can rest.
 
 "Does anyone want to volunteer for a night shift?" Daren asks as we lay out our bedrolls.
 
@@ -674,13 +674,13 @@ With the verbal compact sealed, we request that the Overseer withdraw his gaze f
 #if(v_b3_ch4_billy == 7 && v_b3_ch8_overseer2 == 1 && v_b3_ch8_king != 5 || v_b3_ch4_billy == 8 && v_b3_ch8_overseer2 == 1 && v_b3_ch8_king != 5) {
  ...agree with the Overseer's plan of setting an ambush for the king of the underground.
 
-With our decision reached, we return to our quarters and speak his name aloud. His voice emerges instantly from a crystal facet, as if he has been waiting on the line throughout our deliberation.
+With our course settled, we return to our quarters and speak his name. A cerulean node in the granite pulses to life instantly, the transmission ready and waiting.
 
-Before confirming our alliance, we have the Overseer replay the crystal recording of the king of the underground ordering Albert to eliminate us should we endorse an alternative ruler. Breynan reels from the revelation, yet swiftly accepts that a peaceful resolution was never viable under the king's terms.
+Before confirming our alliance, we have the Overseer replay the intercepted recording of the underground king ordering Albert to eliminate us should we challenge his claim. Breynan reels as the words echo through the stone, forced to accept that peaceful reform under the king was an illusion.
 
-With consensus established, we bind the Overseer to a verbal agreement: he will share governance with Breynan, with immediate priority given to repairing the seredium towers so the captive mages can be liberated without collapsing the city's power grid.
+With consensus established, we bind the Overseer to a formal arrangement: he will share civic administration with Breynan, with the immediate objective of overhauling the seredium towers so the captive mages can be freed without collapsing the city's power grid.
 
- Breynan departs for his quarters, and we ask the Overseer to halt his crystal surveillance so we can rest.
+ Breynan departs for his quarters to prepare his loyalists, and we instruct the Overseer to halt his surveillance so we can sleep.
 
 "Does anyone want to volunteer for a night shift?" Daren asks as we lay out our bedrolls.
 
@@ -688,13 +688,13 @@ With consensus established, we bind the Overseer to a verbal agreement: he will 
 #if(v_b3_ch4_billy == 7 && v_b3_ch8_king == 5 && v_b3_ch8_overseer2 == 1 || v_b3_ch4_billy == 8 && v_b3_ch8_king == 5 && v_b3_ch8_overseer2 == 1) {
  ...agree with the Overseer's plan of setting an ambush for the king of the underground.
 
-With our decision reached, we return to our quarters and speak his name aloud. His voice emerges instantly from a crystal facet, as if he has been waiting on the line throughout our deliberation.
+With our course settled, we return to our quarters and speak his name. A cerulean node in the granite pulses to life instantly, the transmission ready and waiting.
 
-When we inform him that Kelrim will take the throne instead of Breynan, the Overseer makes his displeasure plain, stating that final arrangements must be renegotiated once the king of the underground is subdued.
+When we inform him that Kelrim will take the throne rather than Breynan, the Overseer's monotone sharpens with open resistance, stating that municipal governance must be renegotiated once the underground king is neutralized.
 
-We also have the Overseer replay the recording of the king instructing Albert to assassinate us, dispelling any lingering hesitations Breynan held regarding turning against his brethren.
+We also have the Overseer replay the recording of the king instructing Albert to assassinate us, dispelling whatever lingering hesitation Breynan harbored regarding an alliance against his sovereign.
 
-As soon as we are all on the same page regarding tomorrow's events and what needs to be done, Breynan departs for his quarters, and we ask the Overseer to halt his crystal surveillance so we can rest.
+Once the tactical parameters for the surface breach are aligned, Breynan leaves to brief his inner circle, and we instruct the Overseer to halt his surveillance so we can rest.
 
 }
 #if(v_b3_ch4_billy == 7 && v_b3_ch8_king == 5 || v_b3_ch4_billy == 8 && v_b3_ch8_king == 5 || v_b3_ch8_overseer2 == 0) {
@@ -708,15 +708,15 @@ choice("Continue", B3-Ch08b-Leila, v_current_scene = B3-Ch08b-Leila) if (v_b3_ch
 ID: B3-Ch08b-Hadrik
 TEXT:
 
- "Actually, yes," Leila writes. "Barry mentioned earlier that he wanted to do a night shift with Hadrik so he could cheer him up a little. Isn't that right, Barry?"
+ "Actually, yes," Leila writes, blue characters shimmering before her fingers. "Barry mentioned earlier that he wanted to take a watch with Hadrik to keep him company. Isn't that right, Barry?"
 
-"Oh yeah," I say. "Good thing you reminded me. I almost forgot. Would it be alright if we took the first night shift, Hadrik?"
+"Right," I say, catching her eye. "Good thing you remembered. Would you be open to taking the first watch together, Hadrik?"
 
-Hadrik says nothing. He simply blinks at us, and the rest of the room goes quiet, every pair of eyes locked on me.
+Hadrik blinks, slowly lowering the strap of his backpack. The room falls quiet, every face turning toward me.
 
-"Is there a problem with what I said, or...?" I ask.
+"Did I say something out of line?" I ask.
 
-"No, it's just that... Daren said more or less the same thing as you, shortly before you and Leila arrived here," Kate says. "He said he wanted to have a drink with Hadrik to help brighten up his mood, and they were both planning to take the first night shift together."
+"No," Kate says dryly from the corner where she is rolling her cloak into a pillow. "Daren offered nearly the exact same proposal ten minutes before you walked in. He wanted to share a drink with Hadrik to lift his spirits, and the two of them had already claimed the opening shift."
 
 choice("Take the first night shift together with both Daren and Hadrik.", B3-Ch08b-Hadrik2, v_current_scene = B3-Ch08b-Hadrik2, v_b3_ch8_three = 1)
 choice("Let Daren and Hadrik take the first night shift, and do the second night shift with Leila.", B3-Ch08b-Hadrik-Leila, v_current_scene = B3-Ch08b-Hadrik-Leila, v_b3_ch8_three = 0)
@@ -725,29 +725,25 @@ choice("Let Daren and Hadrik take the first night shift, and do the second night
 ID: B3-Ch08b-Hadrik-Leila
 TEXT:
 
- "Oh," I say. "Well, there's not much point in three of us doing a shift at the same time, so I guess I'll have a drink with Hadrik some other day, then. Leila, do you still want to do a night shift together? We could volunteer to take the second one tonight, if you want."
+ "In that case," I say, "three people on one watch is a waste of sleep. I can share a drink with Hadrik another time. Leila, do you still want to take a shift together? We could volunteer for the second watch tonight."
 
-"Sounds like a plan!" Leila writes.
+"Sounds like a plan," Leila writes with a nod.
 
-"It's settled, then," I say.
+"Settled, then," I say.
 
-"Wow..." Hadrik says. "I never thought I'd see the day when two grown men would offer to cheer me up with drinks on the same night. I guess I must have been a real downer lately, huh? Well, that is about to change really soon! Daren, get ready! We're doing a drinking marathon tonight. Don't say I didn't warn you!"
+"Well now," Hadrik rumbles, a broad grin splitting his black beard. "Two grown men offering to cheer me over drink on the very same evening. I must have been a miserable sight today. That ends right now. Daren, prepare yourself—we are holding a proper northern drinking bout tonight. No retreats!"
 
-"If doing a marathon means drinking slow sips every few minutes or so, then sure, I'm all for it," Daren says.
+"If your bout means measured sips spaced across several hours, I agree," Daren says calmly.
 
-"Hahaha!" Hadrik says. "That's Daren for you! Always joking around!"
+"Hahaha!" Hadrik's laugh bounces off the stone. "Always the legend! You will see sense once the first bottle breathes. Come along—my pack is heavy with vintage."
 
-"I'm not joking, though," Daren says. "I'm not doing a drinking marathon before a big battle. You know it's not happening."
+ As Daren and Hadrik step out into the corridor with their gear, the rest of us settle onto our bedrolls. I manage about five hours of deep, dreamless sleep before Daren's heavy gauntlet nudges my shoulder. Leila is already on her feet, adjusting her dagger sheaths. We make our way down the quiet gallery to the watch post Daren and Hadrik vacated, sitting with our backs braced against the cold rock wall.
 
-"Don't worry, I'm sure you'll warm up to the idea after the first few drinks," Hadrik says. "Let's go. I have all the bottles we need here in my backpack!"
+Just like our previous night watches, conversation flows with surprising ease. Over the next few hours we move effortlessly through arcane theory, the habits of northern beasts, and the finer points of her father's enchantment alignment arrays. Despite the technical density of the topics, my focus never wavers for a second.
 
- As Daren and Hadrik walk out the door, the rest of us go to bed, and I manage to sleep for about five hours or so before Daren comes to wake me up, so that Leila and I can take the second night shift. Once we find the corridor that Daren and Hadrik used before us, we sit down on the floor with our backs against a wall, and as we talk, the hours slip by before we know it.
+ "There is something I have wondered about for a while," I say quietly, looking over at her as she sits with her knees drawn to her chest. "Whenever you are alone with me or Kate, your writing is quick and fluent. But the moment the whole group sits together, you barely write a word. Are you uncomfortable around the others, or is it larger groups in general?"
 
-Just like our previous night talks, the ease with which we trade thoughts catches me off guard. In only a few hours, we speak about magical theory, about creatures and plants native to Varathia, and even about obscure details regarding her father's enchanting techniques. Despite the dry nature of the material, not once does my attention wander. I could sit here and discuss anything with her until dawn.
-
- "You know, I've always wondered about something..." I tell Leila, as she sits beside me with her legs tucked up in front of her. "How is it that you can be so talkative whenever you are alone with me or Kate, but when we are in a group you barely write a word? Are you just not all that comfortable around the others, or is it a problem that you have with groups in general?" 
-
-"I... think it's more of a general problem," Leila writes, as she takes a few moments to think about what I've said. "I haven't really had the chance to interact with groups ever since I was at the Beacon, and back then I didn't have my stat device to write for me, so all I could do was sit silently in a corner without saying anything. Since it's been mostly just me and my father after we escaped from the Beacon, I just can't get comfortable with anything other than one-on-one conversations, no matter how hard I try."
+"It is... groups in general," Leila writes after a brief hesitation, her fingers tracing the glowing blue letters in midair. "At the Beacon I had no device, so I grew used to sitting in corners in complete silence while others spoke. Since escaping, it has mostly been just my father and me. Stepping into a group conversation always feels like trying to jump into a running river."
 
 choice("Continue", B3-Ch08b-Leila2, v_current_scene = B3-Ch08b-Leila2)
 
@@ -755,21 +751,21 @@ choice("Continue", B3-Ch08b-Leila2, v_current_scene = B3-Ch08b-Leila2)
 ID: B3-Ch08b-Leila
 TEXT:
 
- "Yes, Barry and I will be taking the second night shift, if it's alright with you," Leila writes.
+ "Barry and I will take the second watch, if that works for everyone," Leila writes.
 
-"Of course," Daren says. "Hadrik, you said earlier that you were okay with us taking the first shift, right?"
+"Works well," Daren says. "Hadrik, you are still comfortable opening the watch with me?"
 
-"Sure," Hadrik says. "We'll be drinking all night, so it's good to know that we'll have a few hours of sleep for the effects of the alcohol to wear off!"
+"More than comfortable," Hadrik says, clapping him on the shoulder. "Dwarven ale burns clean, but an extra watch of sleep before dawn will clear whatever cobwebs remain."
 
-"I expected no less of an answer from you," Daren says. "Anyway, get your bottles and follow me. We'll try to find a place with as few blue crystals as possible that still has a clear view of our room."
+"Just keep the bottles quiet while the rest of us rest," Daren says with a faint smile. "Get your gear. We will take the bend where the blast cleared the crystal veins."
 
-As Daren and Hadrik walk out the door, the rest of us go to bed, and I manage to sleep for about five hours or so before Daren comes to wake me up, so that Leila and I can take the second night shift. Once we find the corridor that Daren and Hadrik used before us, we sit down on the floor with our backs against a wall, and as we talk, the hours slip by before we know it.
+As Daren and Hadrik step into the corridor, the rest of us settle onto our blankets. I manage roughly five hours of deep sleep before Daren's hand shakes my shoulder awake. Leila is already waiting, her daggers secured and her boots laced. We take over the watch post, sitting shoulder to shoulder with our backs braced against the solid granite wall.
 
- Just like our previous night talks, the ease with which we trade thoughts catches me off guard. In only a few hours, we speak about magical theory, about creatures and plants native to Varathia, and even about obscure details regarding her father's enchanting techniques. Despite the dry nature of the material, not once does my attention wander. I could sit here and discuss anything with her until dawn.
+ Just like our previous night watches, conversation flows with surprising ease. Over the next few hours we move effortlessly through arcane theory, the habits of northern beasts, and the finer points of her father's enchantment alignment arrays. Despite the technical density of the topics, my focus never wavers for a second.
 
-"You know, I've always wondered about something..." I tell Leila, as she sits beside me with her legs tucked up in front of her. "How is it that you can be so talkative whenever you are alone with me or Kate, but when we are in a group you barely write a word? Are you just not all that comfortable around the others, or is it a problem that you have with groups in general?" 
+"There is something I have wondered about for a while," I say quietly, looking over at her as she sits with her knees drawn to her chest. "Whenever you are alone with me or Kate, your writing is quick and fluent. But the moment the whole group sits together, you barely write a word. Are you uncomfortable around the others, or is it larger groups in general?"
 
- "I... think it's more of a general problem," Leila writes, as she takes a few moments to think about what I've said. "I haven't really had the chance to interact with groups ever since I was at the Beacon, and back then I didn't have my stat device to write for me, so all I could do was sit silently in a corner without saying anything. Since it's been mostly just me and my father after we escaped from the Beacon, I just can't get comfortable with anything other than one-on-one conversations, no matter how hard I try."
+ "It is... groups in general," Leila writes after a brief hesitation, her fingers tracing the glowing blue letters in midair. "At the Beacon I had no device, so I grew used to sitting in corners in complete silence while others spoke. Since escaping, it has mostly been just my father and me. Stepping into a group conversation always feels like trying to jump into a running river."
 
 choice("Continue", B3-Ch08b-Leila2, v_current_scene = B3-Ch08b-Leila2)
 
@@ -777,29 +773,29 @@ choice("Continue", B3-Ch08b-Leila2, v_current_scene = B3-Ch08b-Leila2)
 ID: B3-Ch08b-Leila2
 TEXT:
 
- "It's alright," I say. "I'm sure the others don't mind. Still, it's too bad that Doctor Reidzek can't modify your stat device to also generate a voice alongside your texts. Maybe that way it would have been easier for you to join a discussion in a natural way without constantly having to feel like you are interrupting."
+ "I understand," I say. "No one holds it against you. Still, it is a pity doctor Reidzek cannot configure your device to generate an audible voice alongside the script. It would let you join in naturally without feeling like an intruder."
 
-"Yes, exactly!" Leila writes, as she turns toward me with sudden animation. "That is exactly how I feel whenever I try to join a conversation! It's like I'm always interrupting!"
+"Yes!" Leila writes, her posture straightening with sudden energy. "That is exactly the feeling—like every sentence I put forward is an interruption."
 
-"Well, it's not a surprise that you feel that way," I say. "Even if your device is designed to translate your thoughts into words, I imagine that there is still a sizeable delay between the moment when you are having your thoughts and the moment when the device actually displays the text. Also, from what I've seen, you have control over the position of the text and its size too, so by the time you're done setting up all these variables, the brief point in time where you could insert yourself into the conversation without making things awkward is probably long gone."
+"It makes sense mechanically," I say. "Even with a responsive device translating thought into glyphs, there is a delay between forming an idea and materializing the text. You also have to position the script so everyone can read it without blocking their line of sight. By the time you calibrate the size and angle, the conversation has already moved three topics ahead."
 
-"Mhm," Leila writes, while looking at the wall in front of her as she extends her legs. "And even if I somehow manage to get the timing right, if I don't place the text in a spot that is visible for everyone, they might notice it too late and then I'd still be interrupting. Having a voice would make things so much easier..."
+"Exactly," Leila writes, extending her legs and leaning her head back against the stone. "If I place the writing too low, someone misses it; if I place it in the center, it feels intrusive. Having a real voice would change everything..."
 
- "Well," I say, "I'm not sure how much this helps, but at the very least now you can rest assured that there is one person in the world who can imagine you with a voice."
+ "Well," I say, "I cannot build you an acoustic transmitter, but for what it is worth, there is at least one person who hears a voice when you write."
 
-"...What do you mean?" Leila writes, confused.
+"...What do you mean?" Leila writes, tilting her head with a puzzled look.
 
-"The voice from the ethereal plane, remember?" I tell Leila. "The one that was translating your thoughts to me while we were both being sent around the room flying by the Magium. Ever since that moment, I've been subconsciously reading all of your texts with that voice in my head, even if I know that it isn't your real voic--hey, is something wrong? Your face is all red!"
+"The voice from the ethereal plane," I say. "When the Magium fragment hurled us across dimensions and your thoughts reached me directly. Ever since that moment, whenever I read your glowing text, my mind reads it in that voice. Even knowing it was an ethereal projection, the impression stuck—hey, are you alright? Your face is completely red."
 
-"I had... almost forgotten that you got to hear the voice from my head while we were in there..." Leila writes, as her text turns blurry and shaky from embarrassment.
+"I... almost forgot you could hear my inner voice during that storm..." Leila writes, the blue script trembling and blurring slightly as blood rushes to her cheeks.
 
- "The voice from your head?..." I say. "Hold on a minute, do you mean to say that the voice I heard was actually the voice you're using in your own head while you're thinking?"
+ "Your inner voice?" I ask, studying her. "You mean that was the voice you hear in your own head when you think?"
 
-Leila does not write anything, but she nods weakly, while color floods her cheeks.
+Leila does not write. She gives a small, bashful nod, her gaze dropping to her boots.
 
-"But... how?" I say. "You've never had the chance to hear your real voice before, have you?"
+"How?" I ask gently. "You have never heard your own voice spoken aloud, have you?"
 
-"It's not my 'real' voice, since I don't think I actually have one," Leila writes, as she calms down and the flush recedes from her cheeks. "but ever since I was little I've always wished to have a voice like all the other kids, so I kind of... made one for myself in my own head, and I kept changing it every few years or so to make it sound more grown-up. I think the voice you heard was the latest version of it, which is the one I'm using to think right now, because I could hear my thoughts echoing around me in the ethereal plane, and they sounded just like it. To be honest, when I made this voice I didn't really expect anyone other than me to ever hear it, so talking about it like this is a little embarrassing..."
+"I have no physical voice," Leila writes, the flush slowly subsiding as she collects herself. "When I was young, watching other children speak made me want one of my own. So I pieced one together in my mind, borrowing tones from people around me and aging the timbre as the years passed. The voice you heard in the ether was the current version—the one I use to think right now. I never imagined anyone else in the world would ever hear it, so talking about it feels strange..."
 
 choice(""Well, I think your voice sounds wonderful!"", B3-Ch08b-Leila3, v_current_scene = B3-Ch08b-Leila3, v_b3_ch8_voice = 1)
 choice(""Ah, so that is the reason why your voice sounded so artificial and unnatural!"", B3-Ch08b-Leila3, v_current_scene = B3-Ch08b-Leila3, v_b3_ch8_voice = 0)
@@ -811,38 +807,38 @@ TEXT:
 #if(v_b3_ch8_voice == 1) {
  "Well, I think your voice sounds wonderful!"
 
-"Thank you..." Leila writes, with an uncharacteristically shy look in her eyes.
+"Thank you..." Leila writes, looking up with a soft, shy smile.
 
-"So, umm, would it be alright if I asked you how you came up with your voice?" I say. "Or is that something too personal?"
+"Would you mind telling me how you built it?" I ask. "Or is that too private?"
 
-"It's fine," Leila writes. "There wasn't any special meaning behind my voice or anything. I just used the voices of the other girls around me as a reference point, and then I played around with different tonalities in my head until I found one that I liked. What about you? Your thinking voice was the same as the one you use to talk, right? Was this something that you chose consciously, or is it just something that happened without you giving it much thought?"
+"Not at all," Leila writes. "There was no grand formula. I listened to girls near my age in the towns we passed through, took the cadences I liked best, and shaped them into something that felt right. What about you? Does the voice in your head match the one you speak with? Did you shape it deliberately, or did it develop on its own?"
 
 }
 #if(v_b3_ch8_voice == 0) {
  "Ah, so that is the reason why your voice sounded so artificial and unnatural!"
 
-"Nice try..." Leila writes. "But if the voice really sounded so unnatural, can you tell me why you've been using it to read my texts for the past few hours?"
+"Nice try," Leila writes with a teasing glint in her eyes. "If it were truly so unnatural, why have you spent the last five hours reading all my words with it?"
 
-"Well, that's because uhh..." I say. "It's due to the fact that... Ah, damn, you've caught me!"
+"Well... that is because..." I trail off, caught out. "Fair point. You have me."
 
-"Always," Leila writes, with a slight smile.
+"Always," Leila writes with a quiet grin.
 
-"Ahem..." I say. "So, umm, would it be alright if I asked you how you came up with your voice? Or is that something too personal?"
+"In all seriousness," I say, "how did you assemble it? Or is that too personal?"
 
-"It's fine," Leila writes. "There wasn't any special meaning behind my voice or anything. I just used the voices of the other girls around me as a reference point, and then I played around with different tonalities in my head until I found one that I liked. What about you? Your thinking voice was the same as the one you use to talk, right? Was this something that you chose consciously, or is it just something that happened without you giving it much thought?"
+"Not at all," Leila writes. "There was no grand formula. I listened to girls near my age in the towns we passed through, took the cadences I liked best, and shaped them into something that felt right. What about you? Does the voice in your head match the one you speak with? Did you shape it deliberately, or did it develop on its own?"
 
 }
- "Hmm..." I say, slowly stroking my chin with my right hand. "Now that you mention it... how did I get this voice in my head? I remember that when I was a kid I used to think with my child voice, but then when my speaking voice changed gradually over time as I grew up, did the voice in my head change at the same pace, or did it lag behind? Did I ever make a conscious effort to update my thinking voice, or did it happen naturally? And why did I never think about this until now?"
+ "Hmm," I say, rubbing my chin as I turn the question over. "Now that you bring it up... what voice do I use? As a child I thought in a higher pitch, but when my speaking voice deepened, did my internal cadence follow immediately or lag behind? Did I ever consciously adjust the resonance, or did it settle unnoticed? Why have I never analyzed this until tonight?"
 
-While I am still busy trying to untangle this puzzle, Leila suddenly breaks into silent giggles.
+As I frown at the ceiling trying to trace the mechanics, Leila's shoulders shake with silent laughter.
 
-"...Did I say something wrong?" I ask her, confused.
+"Did I say something absurd?" I ask.
 
- "No, I'm sorry," Leila writes, as she tries to contain her silent laughter. "It's just-- it's just that seeing you thinking out loud like this reminded me of how your thoughts sounded when we were being sent flying back and forth throughout all the planes of existence. You were overthinking things in the same way back then too!"
+ "No," Leila writes, trying and failing to stifle her amusement. "It is just... watching you overthink this out loud is exactly how your thoughts sounded when we were tumbling through the planes. You were running theoretical deductions even while we were being hurled across the void!"
 
-"Well, in my defense," I say, "I've practically been doing magical research for more than half of my life, so overthinking things is pretty much second nature to me by now."
+"In my defense," I say with a faint grin, "analytical theory is how I stay alive. Overthinking is practically a survival reflex."
 
-"I suppose you're right!" Leila writes, with a smile, having finally managed to catch her breath.
+"I suppose it is," Leila writes, her smile warm as her amusement settles.
 
 choice("Continue", B3-Ch08b-Leila4, v_current_scene = B3-Ch08b-Leila4)
 
@@ -850,19 +846,19 @@ choice("Continue", B3-Ch08b-Leila4, v_current_scene = B3-Ch08b-Leila4)
 ID: B3-Ch08b-Leila4
 TEXT:
 
- A quiet stillness settles over the corridor. Leila stares at the rough stone opposite us, her brow furrowing slightly before fresh blue script forms between us.
+ A quiet stillness settles over the corridor. Leila gazes at the rough granite opposite us, her expression softening into solemn contemplation before fresh script forms between us.
 
-"We've really been through a lot together, haven't we?..." the writing says. "We've fought side by side in an arena, we've heard each other's thoughts, we've... held onto each other for dear life so that we wouldn't get erased from existence..."
+"We have survived a great deal together, haven't we?..." the blue writing says. "Fighting side by side in the arena, hearing each other's thoughts, holding onto each other across the planes so the void wouldn't take us..."
 
-After her writing disappears, a heavy pause falls between us. We avoided the subject all night, and seeing how reluctantly we tread around it now, the silence makes sense.
+The text dissolves, leaving a heavy silence between us. We skirted the memory all night, and feeling the gravity of it now, the hesitation makes complete sense.
 
- "I was really scared, you know... when it all happened..." Leila writes, breaking the stillness. "I might not have let it show on my face, but I clearly remember that at the time I was overcome with a fear of the likes that I had never experienced before in my life."
+ "I was terrified when it happened," Leila writes, breaking the quiet. "I kept my hands steady, but inside... I have never felt a terror like that in my life."
 
-"Yeah..." I say. "I was scared too... Even with my defective survival instincts, the fear of being trapped in that endless void again forever managed to get the better of me."
+"I know the feeling," I say quietly. "Even with my broken survival instincts, the thought of being swallowed by that endless dark again shook me to the core."
 
- "I... I don't think it was the idea of no longer existing that scared me the most at the time," Leila writes. "It's rather... Do you remember that conversation we had in the tunnels about what would have happened if you had actually been erased by the Magium during the God of Time trials?... About how in a world like that I would have had to live my life trying to convince the others and even myself that you really existed and weren't just a figment of my imagination? I think... I think this is what I was really most afraid of. The thought of losing you in such a horrible way... it would have simply been too much for me to bear..."
+ "It wasn't just nonexistence that frightened me," Leila writes, her fingers hesitating as the letters form. "Do you remember what we talked about in the caves? About what would have happened if the Magium had erased you during the God of Time trials? How I would have spent the rest of my life trying to convince everyone—and myself—that you were real, and not a phantom born of grief? That was the terror that paralyzed me. Surviving into a world where only I remembered you... that would have been unbearable."
 
-As Leila finishes writing, her hand trembles slightly. An anxious shadow lingers in her eyes.
+As the last glyph fades, her hand trembles slightly against her knee. An anxious vulnerability lingers in her dark eyes.
 
 choice("Reassure her that I'm not going anywhere, but don't hold her hand.", B3-Ch08b-Skeptical, v_current_scene = B3-Ch08b-Skeptical, v_b3_ch8_heartfelt = 0)
 choice("Hold her hand and reassure her that I'm not going anywhere.", B3-Ch08b-Skeptical, v_current_scene = B3-Ch08b-Skeptical, v_b3_ch8_heartfelt = 1) if (v_b3_ch3_plans != 5)
@@ -873,51 +869,51 @@ ID: B3-Ch08b-Skeptical
 TEXT:
 
 #if(v_b3_ch8_heartfelt == 1) {
- "Don't worry," I tell Leila, as I place my hand on top of hers and then hold it gently. "I'm not going anywhere."
+ "Do not worry," I say gently, placing my hand over hers where it rests on the cold stone. "I am not going anywhere."
 
-"Oh? Should I take it that you've already come up with a plan to defeat the Magium, then?" Leila writes with a playful smile, as she subtly pulls her hand away from mine.
+"Oh? Have you already devised a foolproof countermeasure against the Magium?" Leila writes with a playful glint, gently slipping her hand free.
 
-"Of course!" I say. "In fact, the Magium never stood a chance against me to begin with. I've only been pretending to be scared by it until now, in order to trick it into letting down its guard. If you don't believe me, you can ask Arraka! She's the one who said that I'm the best person for dealing with the Magium, not me!"
+"Naturally," I say. "The entity never stood a chance. My terror was purely tactical misdirection to bait it into overextending. If you doubt my credentials, ask Arraka—she named me the prime candidate for primordial manipulation herself."
 
-"Hey, now that you mention it, Arraka did say something about you being the only person fit for the job," Leila writes, as she plays along with my act. "I will admit that I was a little skeptical at first, but now you have me fully convinced! So, when are you planning to reveal your hidden powers that will allow you to deal the final blow to the Magium?"
+"Now that you mention it, she did endorse you as the only viable choice," Leila writes, playing along with the bravado. "I harbored doubts initially, but your confidence is undeniable. When do you intend to unleash your secret arts and strike down the entity once and for all?"
 
-"All in due time..." I say. "You wouldn't want me to give away my secret plans and risk being overheard by our enemy, would you?"
+"All in good time," I say with a conspiratorial wink. "Revealing my ultimate technique before the climax would spoil the theatricality."
 
 }
 #if(v_b3_ch8_heartfelt == 0) {
- "Don't worry," I tell Leila. "I'm not going anywhere."
+ "Do not worry," I tell her softly. "I am not going anywhere."
 
-"Oh? Should I take it that you've already come up with a plan to defeat the Magium, then?" Leila writes with a playful smile.
+"Oh? Have you already devised a foolproof countermeasure against the Magium?" Leila writes with a playful glint.
 
-"Of course!" I say. "In fact, the Magium never stood a chance against me to begin with. I've only been pretending to be scared by it until now, in order to trick it into letting down its guard. If you don't believe me, you can ask Arraka! She's the one who said that I'm the best person for dealing with the Magium, not me!"
+"Naturally," I say. "The entity never stood a chance. My terror was purely tactical misdirection to bait it into overextending. If you doubt my credentials, ask Arraka—she named me the prime candidate for primordial manipulation herself."
 
-"Hey, now that you mention it, Arraka did say something about you being the only person fit for the job," Leila writes, as she plays along with my act. "I will admit that I was a little skeptical at first, but now you have me fully convinced! So, when are you planning to reveal your hidden powers that will allow you to deal the final blow to the Magium?"
+"Now that you mention it, she did endorse you as the only viable choice," Leila writes, playing along with the bravado. "I harbored doubts initially, but your confidence is undeniable. When do you intend to unleash your secret arts and strike down the entity once and for all?"
 
-"All in due time..." I say. "You wouldn't want me to give away my secret plans and risk being overheard by our enemy, would you?"
+"All in good time," I say with a conspiratorial wink. "Revealing my ultimate technique before the climax would spoil the theatricality."
 
 }
 #if(v_b3_ch8_heartfelt == 0 || v_b3_ch8_heartfelt == 1) {
- "My apologies," Leila writes, with a smile. "I almost ended up endangering all of our lives for the sake of mere curiosity. I should have known better!"
+ "My apologies," Leila writes with a quiet laugh. "I almost jeopardized your master strategy out of idle curiosity. I should have known better."
 
-"You are forgiven, as long as you make sure that you will never bring up this subject in the presence of any of our friends," I say. "I'm saying this in order to protect them, of course, and absolutely not because I would die of embarrassment if they ever found out about this discussion!"
+"You are forgiven, provided you keep this classified from Daren and Kate," I say. "I say this purely to protect operational security, of course, and not because I would perish from embarrassment if they heard a single word."
 
-"No need to worry," Leila writes. "Your secret is safe with me!"  
+"Your secrets are safe with me," Leila writes, her smile bright in the dim light.
 
-As we finish our conversation, we hear muffled voices from the sleeping quarters down the hall.
+Muffled voices and the scrape of gear echo from the sleeping quarters down the hall, signaling the end of the watch.
 
-"We should probably go," Leila writes, as she sees me looking toward the sleeping quarters. "I think they might all be awake by now."
+"We should head back," Leila writes, glancing toward the sound. "The encampment is waking."
 
-"You're right," I say. "We should not keep them waiting. We have a long day ahead of us..."
+"Right," I say, pushing myself up from the stone floor. "A long march ahead."
 
- Leila nods and then we both get up from the ground, heading in the direction of Daren and the others. As we walk, a band of glowing blue script hovers beside me at eye level, travelling at my exact pace.
+ Leila rises beside me, and as we walk, a band of glowing blue script hovers smoothly beside my shoulder, matching my stride.
 
-"I really had fun tonight," Leila writes, while smiling. "I'm glad that we decided to take this night shift together. Maybe we can do it again sometime!"
+"I enjoyed tonight," Leila writes. "I am glad we shared this watch. Perhaps we can find another quiet hour before we leave the city."
 
-"Yeah, I had fun tonight too," I say. "And I'm sure we'll find other chances to talk like this, even if it's not necessarily night shifts."
+"I would like that," I say. "We will make time, watch or no watch."
 
-"Let's hope that we will!" Leila writes.
+"Let us hope so," Leila writes.
 
-When we reach our friends, everyone is already awake and gathering bedrolls. As soon as they see us, they hoist their backpacks and assemble in front of the door, ready to leave together.
+When we reach the quarters, the others are already rolling bedrolls and strapping on their packs. The moment we step through the threshold, they hoist their gear, ready for the muster.
 
 }
 choice("Continue", B3-Ch08b-Ending, v_current_scene = B3-Ch08b-Ending)
@@ -926,27 +922,27 @@ choice("Continue", B3-Ch08b-Ending, v_current_scene = B3-Ch08b-Ending)
 ID: B3-Ch08b-Oblivious
 TEXT:
 
- "Don't worry," I tell Leila, as I place my hand on top of hers and then hold it gently. "I'm not going anywhere."
+ "Do not worry," I tell her gently, placing my hand over hers on the cold rock. "I am not going anywhere."
 
-When I touch her hand, Leila looks up in surprise, then smiles slightly and turns her palm upward, weaving her fingers through mine.
+Leila looks up in surprise, her eyes wide for a heartbeat before a soft smile reaches her lips. She turns her palm upward, weaving her slender fingers through mine against the stone.
 
-"I know," Leila writes simply, and we sit together in the quiet corridor, looking down the passage while our hands remain clasped.
+"I know," Leila writes simply, and for a long moment we sit together in the quiet corridor, hands intertwined while the lantern flame flickers.
 
-A fresh sentence materializes before me, the blue characters unsteady and blurrier than usual.
+Fresh script materializes before my eyes, the cerulean letters slightly uneven and blurrier than before.
 
-"There was... something that I've been meaning to ask you for a while, except that I never really found the right time to do it," the writing says, as Leila's gaze wavers with hesitation. "I've been thinking about what you said a week ago, when you mentioned that you would be willing to return to Varathia after the tournament to visit me if you could obtain an official letter that invites you back here..."
+"There is something I have wanted to ask for some time, but the right moment never came," the writing says, Leila's gaze wavering with nervous hesitation. "I keep thinking about what you said days ago—that you would gladly return to Varathia after the tournament if you received an official invitation..."
 
-"Oh, right," I say. "I do remember saying that!"
+"Of course," I say. "I meant every word."
 
- "If I were to find a way to send you such an invitation..." Leila continues, her letters trembling as she writes, "Would you-- would you consider taking me back with you to the Western Continent so that I could join you on some of your adventures that you've told me so much about?"
+ "If I could secure such an invitation through my father's contacts..." Leila writes, her hand tightening slightly against mine, "would you consider taking me with you to the Western Continent, so I could travel alongside you on the journeys you described?"
 
-"Of course!" I tell her. "I mean, my odd-job adventures are probably going to be a little dull for someone like Hadrik or Daren, but I'm sure they won't mind if I tell them that you wanted to--"
+"Without question," I tell her. "My investigative work might seem mundane compared to fighting dragons and stillwaters, but I am sure Daren and Hadrik would welcome—"
 
-"Actually--" Leila writes in large, urgent letters, her face turning crimson.
+"Actually—" Leila writes in sudden, oversized characters, blood rushing to her face in a crimson wave.
 
-"Actually," she writes again, shrinking the script, "I wasn't talking about going together as a group. I was hoping that maybe it could be... just the two of us?..."
+"Actually," she rewrites, the letters shrinking to a delicate, trembling script, "I was not asking about the group. I was hoping it might be... just the two of us?"
 
-The flustered heat in her face makes the intent unmistakable. Even with my dense skull, missing the point now would take a special kind of dunce.
+The vulnerability in her expression leaves no room for misunderstanding. Even with my dense skull, missing her intent now would require deliberate blindness.
 
 choice(""I got it. Just the two of us, then. It's a promise."", B3-Ch08b-Leila5, v_current_scene = B3-Ch08b-Leila5, v_b3_ch8_heartfelt = 2)
 choice(""I'm sorry, I... can't do that to my friends. They'd feel betrayed if I didn't invite them."", B3-Ch08b-Leila5, v_current_scene = B3-Ch08b-Leila5, v_b3_ch8_heartfelt = 3)
@@ -958,65 +954,63 @@ TEXT:
 set(v_ac_b3_ch8_heartfelt,1) if (v_b3_ch8_heartfelt == 2)
 achievement("A heartfelt promise",v_ac_b3_ch8_heartfelt)
 #if(v_b3_ch8_heartfelt == 2) {
- "I got it. Just the two of us, then. It's a promise."
+ "I understand. Just the two of us, then. It is a promise."
 
-Her face lights up with sheer relief. She catches my hand in both of hers, squeezing tightly, her gaze locked onto mine.
+Her face lights up with radiant relief. She clasps my hand with both of hers, squeezing hard, her dark eyes shining with unfiltered warmth.
 
-"It's a promise!" Leila writes, beaming, and before I can process the movement, she leans in and presses a quick kiss to my lips.
+"A promise!" Leila writes, beaming, and before I can anticipate the motion, she leans in and presses a soft, impulsive kiss to my lips.
 
-The instant she pulls back and the impulse registers, blood rushes to her face. She turns her head away, suddenly too self-conscious to maintain eye contact. Before I can say a word, she lets go of my hand, scrambles to her feet, and throws a panicked sentence into the air.
+The moment she pulls back and the reality of what she did registers, color floods her cheeks from collar to hairline. She averts her gaze, suddenly overwhelmed by self-consciousness. Before I can find my voice, she releases my hand, scrambles to her feet, and casts a hurried sentence into the air.
 
-"I think I heard the others waking up," the writing says, while Leila keeps her gaze fixed on the stone floor. "I'll... I'll go see if they need anything!"
+"I think the others are stirring," the blue writing says while her eyes remain fixed on the stone floor. "I will see if anyone needs assistance with gear!"
 
- "Umm... okay," I say.
+ "Leila, wait—" I start.
 
-She takes two hurried strides, then halts abruptly, realizing that fleeing down the hall will make it look as though she regrets giving me that kiss.
+She takes two hasty strides toward the quarters, then stops dead, realizing that fleeing down the corridor will look as though she regrets the kiss.
 
-Still flushed to her ears, she forces herself to turn around, meeting my gaze with a genuine, heartfelt smile.
+Still flushed to the tips of her ears, she turns back to face me, her lips curving into a genuine, heartfelt smile.
 
-"Thank you, Barry, for agreeing to take the night shift with me!" Leila writes. "I really enjoyed our time together. I hope we'll be able to do this again soon!"
+"Thank you, Barry, for taking the watch with me," Leila writes. "I treasured our time tonight. I hope we can share another quiet moment soon."
 
-"I hope so too," I tell Leila. "And I also enjoyed our time together. You can go ahead if you want. I'll be right behind you!"
+"I treasured it as well," I say, rising to my feet. "Go ahead. I am right behind you."
 
- Leila nods, and then dashes towards the sleeping quarters while I grab my backpack and get ready to follow.
+ Leila nods, then hurries toward our quarters while I shoulder my pack.
 
-'Just the two of us', huh?
+Just the two of us.
 
-Until this moment, I have completely refused to even acknowledge a future in which I might not win the tournament or become a mage. But now?... Now... now that future no longer looks so hollow.
+Until tonight, I refused to contemplate a life where I failed to win the tournament or become a mage. Yet looking down the quiet stone passage now, that future no longer feels barren.
 
-When I step into the sleeping quarters, the party is already on their feet, waiting for us to leave together.
+When I step into the quarters, the party is already on their feet, adjusting buckles and straps.
 
-When I first walk through the door Leila looks briefly in my direction, but as soon as our eyes meet, she blushes again and quickly turns her head away so the others cannot see. Luckily, nobody notices her reaction aside from Melindra, whose knowing smirk tells me she caught the whole exchange, though she keeps her thoughts to herself for now.
+Leila glances my way as I enter, but the moment our eyes meet, a fresh blush sweeps her cheeks and she quickly turns toward her father's workbench. No one notices her fluster—except Melindra, whose knowing smirk across the room tells me she caught every detail, though she keeps her counsel for now.
 
 }
 #if(v_b3_ch8_heartfelt == 3) {
  "I'm sorry, I... can't do that to my friends. They'd feel betrayed if I didn't invite them."
 
-"Oh..." Leila writes, as she loosens her hold on my hand and looks to the side. "You're... you're right! We should invite them too, of course. They wouldn't want to miss out on all the adventures. Maybe... it's better this way..."
+"Oh..." Leila writes, her fingers slowly loosening around mine as her gaze drifts to the stone floor. "You are... right, of course. They would want to share in the journey. It is better that way..."
 
-After a heavy moment of silent contemplation, she releases my hand and gets up without looking at me, as another blue text forms between us.
+After a heavy moment of silence, she withdraws her hand entirely and stands up without looking at me, new script forming in the air.
 
-"I think I heard the others waking up," the writing says. "We should probably get going."
+"I hear the others stirring," the writing says quietly. "We should return."
 
-"Right," I say, in a somewhat hesitant tone. "Let's go back, then."
+"Right," I say with hesitant regret. "Let us head back."
 
-As we return to the sleeping quarters, Leila walks ahead of me in silence, keeping her face averted.
+We walk the corridor in silence, Leila keeping a step ahead of me with her face turned away.
 
- "I... really enjoyed our night shift together," I tell her as we walk. "Maybe... we can do it again sometime."
+ "I... truly valued our time tonight," I tell her gently as we walk. "Perhaps we can share another watch sometime."
 
-Leila stops in her tracks. I halt beside her, waiting to see if there is a text coming.
+Leila halts. I stop beside her, waiting for the blue light.
 
-"I enjoyed it too," Leila writes a few moments later, turning to face me.
+"I valued it as well," Leila writes after a few seconds, turning to face me.
 
-She offers her usual smile, but a tint of sadness lingers behind her eyes that she cannot hide despite all her efforts.
+She offers her familiar smile, but beneath the composure, a quiet ache lingers in her eyes that she cannot entirely disguise.
 
- "Thanks for agreeing to spend the night shift with me, Barry!" Leila writes.
+ "Thank you for the watch, Barry," Leila writes.
 
-"You're... welcome," I say in an uncertain voice, as Leila turns away and heads toward our friends again, and I move to follow.
+"You are welcome," I say quietly, as she turns and leads the way into the quarters.
 
-Neither of us says another word until we reach the room where the others are sleeping. Everyone is already awake, gathering their gear.
-
-As soon as they notice us, our friends grab their backpacks and step out the door, assembling in front of our room.
+Neither of us speaks another word. When we enter, our companions are already packing bedrolls and tightening buckles, ready for the dawn muster.
 
 }
 choice("Continue", B3-Ch08b-Ending, v_current_scene = B3-Ch08b-Ending)
@@ -1025,23 +1019,19 @@ choice("Continue", B3-Ch08b-Ending, v_current_scene = B3-Ch08b-Ending)
 ID: B3-Ch08b-Hadrik2
 TEXT:
 
- "Well, then I guess we're just going to have to do a three-man shift for tonight," I say. "Daren, is that okay with you?"
+ "In that case, we can hold a three-man watch tonight," I say. "Daren, does that suit you?"
 
-"Yeah, I don't have a problem with it," Daren says.
+"I have no objection," Daren says, buckling his sword belt.
 
-"Wow..." Hadrik says. "I never thought I'd see the day when two grown men would offer to cheer me up with drinks on the same night. I guess I must have been a real downer lately, huh? Well, that is about to change really soon! Daren, Barry, get ready! We're doing a drinking marathon tonight. Don't say I didn't warn you!"
+"Well now," Hadrik rumbles, a broad grin splitting his dark beard. "Two grown men offering to share a watch over drink on the very same evening. I must have been a miserable sight today. That ends right now. Daren, Barry, brace yourselves—we are holding a proper northern drinking bout tonight. No retreats!"
 
-"If doing a marathon means drinking slow sips every few minutes or so, then sure, I'm all for it," Daren says.
+"If your bout means measured sips spaced across several hours, I agree," Daren says calmly.
 
-"Hahaha!" Hadrik says. "That's Daren for you! Always joking around!"
+"Hahaha!" Hadrik's laugh bounces off the stone. "Always the legend! You will see sense once the first bottle breathes. Come along—my pack is heavy with vintage."
 
- "I'm not joking, though," Daren says. "I'm not doing a drinking marathon before a big battle. You know it's not happening."
+After Kate and Leila offer to take the second watch, Hadrik, Daren, and I make our way down the gallery to a secluded bend where blast concussions cleared every cerulean vein from the walls. We sit cross-legged in a circle on the cold stone floor, and Hadrik unfastens his heavy leather backpack, pulling out one dark glass bottle after another.
 
-"Don't worry, I'm sure you'll warm up to the idea after the first few drinks," Hadrik says. "Let's go. I have all the bottles we need here in my backpack!"
-
-After Kate and Leila offer to take the second night shift, Hadrik, Daren and I walk out of the room to find a good spot without any crystals in the walls or ceiling, while the others go to sleep. Once we find a place far enough not to bother the others with our talking but close enough to see the entrance of our room, the three of us sit on the floor so we can see each other's faces, and Hadrik pulls dwarven ale bottles from his backpack.
-
-"Good gods, man," Daren says, after Hadrik takes out the sixth bottle. "Just how many of these bottles do you have in that backpack of yours?"
+"Good gods, man," Daren says as Hadrik sets down a sixth bottle of dark ale. "Just how much cargo space did your enchanter weave into that pack?"
 
 choice("Continue", B3-Ch08b-Hadrik3, v_current_scene = B3-Ch08b-Hadrik3)
 
@@ -1049,27 +1039,27 @@ choice("Continue", B3-Ch08b-Hadrik3, v_current_scene = B3-Ch08b-Hadrik3)
 ID: B3-Ch08b-Hadrik3
 TEXT:
 
- "As many as we need!" Hadrik says, and then he reaches for a seventh bottle.
+ "Enough to see us through any campaign," Hadrik says, grinning as he retrieves a seventh flagon.
 
-"Haven't you been drinking at least one bottle a day since the tournament started?" Daren says. "That means you must have bought dozens of these before coming here."
+"You have consumed a bottle a day since we crossed the border," Daren remarks, eyeing the row. "You must have purchased an entire cellar before boarding the ships."
 
-"More like hundreds," Hadrik says, setting his backpack behind him and handing us each a bottle. "I always stock up on loads of these bottles every time I go back to the dwarven lands, because I know full well that the alcohol in other regions of the world doesn't compare."
+"Several cellars," Hadrik says, resting the pack against the rock and passing each of us a heavy bottle. "I always stock up heavily whenever I pass through the dwarven highlands. Nothing brewed on the southern continents holds a candle to northern grain."
 
-"Don't most enchanters put a limit on how many items you can fit into a single backpack in order to avoid unwanted malfunctions, though?" Daren says. "I've never really had that problem with the backpacks I've enchanted, but I heard that it's a common issue for most other mages that specialize in this craft."
+"Most enchanters limit dimensional storage arrays to prevent spatial compression failures," Daren notes. "I reinforce the boundary seams on the gear I enchant, but cheaper work tends to rupture under excess mass."
 
-"Yeah, that's why I paid extra money for my backpack," Hadrik says. "Not only can it store a ton of items in it, but it also stores bottles in a way that prevents them from accidentally breaking. It's practically tailor-made for drunkards like me! But anyway, we've talked enough about this. My throat is getting dry already. Let's have a toast!"
+"That is why I paid an artisan's fee in gold," Hadrik says, popping the wax seal with his thumb. "The lining dampens impact so the glass never shatters, even when I take a hammer blow to the spine. Tailor-made for a giant who enjoys his drink. But enough theory—the throat parches. To good company!"
 
- "Cheers!" we all say, as we clink our bottles and drink from them.
+ "To good company," we echo, clinking the heavy glass rims before taking a drink. The ale hits with a deep, smoky maltiness and a fierce, warming burn that spreads immediately to the chest.
 
-"You know, if you really want to cheer me up, you're gonna need to take longer sips than that," Hadrik says, with a grin. "Your bottles look like you never even touched them."
+"You will have to drink deeper than that if you want to keep me company," Hadrik says, wiping foam from his mustache. "Those bottles look untouched."
 
-"Yes, but we also get drunk much easier than you, since you're a giant, and you've also had plenty of time to build up tolerance to this type of alcohol," I tell Hadrik. "You've been drinking dwarven ale for what... fifty years now?"
+"Unlike giants, humans do not possess half a century of alcohol tolerance built into our livers," I remind him. "You have been drinking highland brew since before my grandfather was born."
 
-"Honestly, I've lost count," Hadrik says. "But yeah, I started drinking more heavily since I moved to the dwarven lands, and it's been a while since then. Still, even after all these years, I can't say that my tolerance compares to that of most dwarves I've met in the taverns I frequent. It's like those little guys have livers made of elven steel. It's no wonder that they needed to invent a type of alcohol as strong as dwarven ale. Everything else would probably taste like water to them!"
+"Lost count of the decades, honestly," Hadrik chuckles. "Though even now, my tolerance is modest next to proper mountain dwarves. Those short folk have constitutions forged from elven steel. Anything milder than dwarven ale tastes like rain water to them."
 
- "Have you ever tried making a business out of selling dwarven ale to people from other continents than the northern one?" Daren asks. "I bet it would sell like hotcakes. Actually, why haven't any of the dwarves thought about doing something like this? During all of my travels, I think I've only seen maybe one or two places selling dwarven ale, but not more than that. You would think that a drink as well-known as this would be one of the first things they'd try to export out of their homeland."
+ "Have northern merchants ever considered exporting the vintage abroad?" Daren asks, taking another slow sip. "In the western cities, a cask of genuine dwarven ale would fetch a small fortune in silver."
 
-"Well, you see," Hadrik says, "the problem is that most dwarves don't really like to stay away from home for long. They enjoy visiting other continents for short periods of time, but they wouldn't want to make a living selling alcohol there. And the merchants from your continents rarely come visit us, so it's not like we could just sell them the bottles so they'd deliver them to the rest of the world. Practically, the only way in which your people ever get to taste dwarven ale is when a dwarf visits one of your countries and shares his bottles with people from local taverns. That's how this particular type of ale has gotten so widely-known in your regions despite how hard it is to actually get it."
+"Dwarves rarely leave their valleys for long," Hadrik explains, leaning back against the rock. "They visit foreign ports for trade or seasonal work, but they have no interest in establishing foreign mercantile houses. And southern traders rarely brave the northern passes. In practice, the only way outsiders ever taste the brew is when a wandering dwarf uncorks a bottle in a local tavern. That is how the legend spread, even if the drink remains nearly impossible to buy."
 
 choice("Continue", B3-Ch08b-Hadrik4, v_current_scene = B3-Ch08b-Hadrik4)
 
@@ -1077,25 +1067,25 @@ choice("Continue", B3-Ch08b-Hadrik4, v_current_scene = B3-Ch08b-Hadrik4)
 ID: B3-Ch08b-Hadrik4
 TEXT:
 
- "Huh..." Daren says, taking a small sip of ale. "I never knew that dwarves liked their homeland so much. Is that why you don't see many dwarves actually living in the Western Continent, unlike the people from my continent, who moved in droves there when they had the first opportunity, because of the ideal weather conditions?"
+ "Fascinating," Daren says, swirling the dark liquid in his bottle. "I had assumed climate alone kept them north, unlike the western migrations from my homeland when maritime routes opened."
 
-"Yeah, the dwarves must really like the cold, I guess," Hadrik says. "Although, I will admit that there is a certain charm to that place once you get used to it. It's because of the people, I think. No matter who you're talking to, you always feel like you're in good company. It's a real shame that so many of the other giants can't understand this. It has been so long since the war between our two peoples ended, but I don't feel like their opinions of dwarves in general changed that much since then. Even someone like Gontrok, who is a shapeshifter and can shrink down to their size to talk, still acts the same way as--"
+"Cold is part of it," Hadrik says, "but mostly it is the fellowship. Among the mountain clans, you are never a stranger for long. It is a shame more giants cannot see past old grudges. Centuries have passed since the wars between our peoples ended, yet most giants still regard dwarves with narrow suspicion. Even someone like Gontrok, who could shift down to their stature and share a table, still acts with the same arrogant—"
 
-He stops mid-sentence, his brow furrowing.
+He stops mid-sentence, the bottle freezing halfway to his mouth.
 
-"Dear gods, I'm talking about him as if he were still alive," Hadrik says. "What's wrong with me? I've barely even touched this bottle and I'm already spewing nonsense."
+"Damn it all," Hadrik mutters, his brow furrowing as he stares down at the stone floor. "I am speaking of him as if he were still walking the earth. What is wrong with me? I have barely touched the ale and I am already slipping into old habits."
 
- "Weren't you two comrades before you had your falling out, during the war?" I say. "Old habits die hard."
+ "You fought on the same battlefields for years before the falling out," I say quietly. "Reflexes run deep."
 
-"I don't think there was ever a period in my life where I could have called Gontrok a friend," Hadrik says. "At most I could have called him a comrade-in-arms, back when we were fighting on the same side. But the way that he died... from what you've told me, there were few ways in which he could have had a less honorable death. I wouldn't wish something like this even for my most hated enemies. Hell, even his corpse is just rotting somewhere in an underground cavern, with his head blown off and a hand which was mutilated so hard that the very nature of its existence was changed retroactively. I doubt anyone who knew him would recognize him if they saw his headless body right now."
+"We were never friends," Hadrik says, his voice dropping an octave, heavy and unvarnished. "Comrades-in-arms under the same banner, at best. But the way he died... Eiden turning an honorable duel into a slaughter, blowing his head apart, and then the Magium erasing his hand from history so the corpse looks like a mutilated stranger... I would not wish that on the bitterest enemy I ever faced. A giant warrior reduced to an unrecognizable carcass in a forgotten cavern."
 
- "Would you like us to retrieve his corpse and give him a proper burial?" Daren asks.
+ "Would you like us to retrieve his remains before we leave the city?" Daren asks softly. "We could see him given a proper burial under open sky."
 
-"No..." Hadrik says. "As much as I dislike the way in which he died, that still doesn't change the fact that I don't owe the guy anything, and I'm not about to do him any favors even after his death. He made his own choices that led him there, and he has paid the price. That's all there is to it."
+"No," Hadrik says after a long silence, shaking his head. "I despise the dishonor of how he fell, but I owe Gontrok no debts. He made his choices, chose his masters, and paid the toll. That is where it ends."
 
-After he stops talking, Hadrik takes a long drink from his bottle and sets it down on the stone beside him.
+He takes a long, slow draught from the flagon, setting the glass against the granite with a dull clink.
 
-"Anyway, this discussion has gotten kind of grim, so you know..." Hadrik says. "Now is your chance to cheer me up. Go on, give it your best shot!"
+"Enough grim talk," Hadrik says, forcing a broader grin as he shakes his dark hair. "You two came here to lift my spirits. Go on, then—give it your best shot."
 
 choice(""Did you ever hear the joke about the rock golem and the three-legged trampler?"", B3-Ch08b-Hadrik5, v_current_scene = B3-Ch08b-Hadrik5, v_b3_ch8_three = 2)
 choice(""Let's talk about your love life, then. How are things with Arraka going?"", B3-Ch08b-Hadrik5, v_current_scene = B3-Ch08b-Hadrik5, v_b3_ch8_three = 3)
@@ -1109,33 +1099,33 @@ achievement("A friend in need",v_ac_b3_ch8_friend)
 #if(v_b3_ch8_three == 2) {
  "Did you ever hear the joke about the rock golem and the three-legged trampler?"
 
-"Come on, Barry, you're going to need to try harder than that," Hadrik says, with a grin. "I don't think there's a living soul in this world who hasn't heard that joke before."
+"Come now, Barry," Hadrik says with a chuckle. "Every taproom from here to the northern seas has heard that chestnut ten times over."
 
-"Well, how about we play one of your drinking games to lighten up the mood, then?" Daren asks. "Something other than Met-Zek, preferably, because we've already played that one plenty of times before."
+"How about a round of cards to pass the watch?" Daren suggests. "Something other than Met-Zek, if possible—we have thoroughly exhausted that deck."
 
-"See, now there's a good suggestion!" Hadrik says. "I think I might have just the right game for us to play. Hold on a sec. Let me try to remember the rules."
+"Now you are speaking my language," Hadrik says, brightening. "I have a northern trick-taking game that should keep your minds sharp. Let me lay out the suits."
 
-For the next few hours, Daren, Hadrik and I alternate between playing Hadrik's card game and discussing whatever topics come to mind.
+For the next few hours we pass the time trading hands, sharing tavern tales, and keeping watch on the corridor.
 
- During this time, Hadrik tries on multiple occasions to get us to join him in his drinking marathon, but we hold our ground, and in the end Daren and I each drink less than a bottle of dwarven ale, which is already enough to leave a comfortable warmth behind our temples. As we return to our room, we wake Leila and Kate so that they can start their own night shift, and then we go to bed.
+ Hadrik tries more than once to coax us into matching him draught for draught, but Daren and I hold firm, keeping our wits clear with measured sips that leave only a comfortable warmth behind the eyes. As the watch concludes, we return to the quarters to wake Kate and Leila for their shift, then roll into our blankets.
 
-When I wake up several hours later, my head is clear, with no hangover from last night. Most of the others are already out of bed and ready to leave, so I get up as well and prepare for the day ahead. Soon after I finish my preparations, Kate and Leila return from their night shift, and we all assemble in front of our room, ready to leave together.
+When I wake several hours later, my head is clear and rested. Our companions are already on their feet packing gear, and soon after, Kate and Leila return from the watch post, ready for the muster.
 
 }
 #if(v_b3_ch8_three == 3) {
  "Let's talk about your love life, then. How are things with Arraka going?"
 
-"Hahahaha!" Hadrik's booming laugh echoes off the corridor walls. "Now that's the kind of question we need in order to lighten up the mood, here. Well done, Barry!"
+Hadrik's booming laugh rolls down the tunnel, shaking the dust from the ceiling timbers.
 
-He strokes his beard, chuckling.
+"Now that is the proper spirit!" he roars, stroking his beard with a grin. "Let me see..."
 
-"Hmm, let's see..." Hadrik says. "To be perfectly honest, Arraka and I haven't talked that much lately. She's been spending a lot of time alone with Daren, though, especially while they were in that quarantine area. What do you think, Daren, should I be getting jealous?"
+"To be frank," Hadrik continues, "she and I have barely exchanged three words today. She spent half her time locked in quarantine with Daren, though. What do you say, Daren? Should I be watching my flank?"
 
-"Hey, if you want her, you can take her, man," Daren says. "I won't be the one to stand in the way of your love. After how much I've had to interact with her in the past few days due to my aura training and everything else, I've learned to appreciate almost every moment in which I don't have to hear her irritating voice shouting in my head. I have no idea how Illuna's put up with her for so long."
+"If you want to court the banshee, she is all yours," Daren says with a dry sigh. "After spending hours drilling aura containment while her screeching echoes in my skull, I value every breath of silence I can find. I have no idea how Illuna survived centuries in her proximity."
 
- "You are saying this, but in reality you're getting along much better with her now than you did before, wouldn't you say?" Hadrik says, while grinning. "You might be having constant arguments now, but in the beginning, the two of you would barely exchange a few words, aside from the occasional insult."
+ "You complain," Hadrik says with a wink, "yet you two argue like old comrades now. In the beginning, you would not even look at the casing without reaching for your hilt."
 
-"...I won't deny that she's become easier to talk to, since the God of Time trials," Daren says. "She's acting a lot more like a legitimate member of the group nowadays, and it shows. When I first met her, I didn't think she'd be capable of anything other than cracking jokes at our expense and planning indiscriminate murder sprees. Now she's pretty much acting like the team's coach and coordinator, and she's taking her role seriously too. I guess that this whole plan with killing the God of Time must be really important to her if she was willing to change so much in such a short time just for the sake of making it all work."
+"I will admit she has become more focused since the trials with the God of Time," Daren concedes, looking at his bottle. "She behaves less like a caged menace and more like a demanding coordinator. Taking down the pantheon must matter to her beyond anything else if she is willing to rein in her cruelty to keep us alive."
 
 }
 choice("Continue", B3-Ch08b-Ending, v_current_scene = B3-Ch08b-Ending) if (v_b3_ch8_three == 2)
@@ -1145,19 +1135,19 @@ choice("Continue", B3-Ch08b-Hadrik6, v_current_scene = B3-Ch08b-Hadrik6) if (v_b
 ID: B3-Ch08b-Hadrik6
 TEXT:
 
- "I'm not sure if 'change' is the word I'd use," I say. "To me, it looks more like she's partially reverted to her older personality. The one she had five thousand years ago, before she was trapped in a mountain, then forced to inhabit weak animal bodies and then put inside an amulet. We all saw how the Arraka from the past acted during the ritual. She was like a completely different person. She didn't crack jokes or kill people just for the sake of having fun. She had focus. I think that our Arraka's bizarre sense of humor is something she developed after her banishment here, once she realized that she couldn't find a way to go back to the magical plane. She only started messing around because she lost her initial purpose of getting her revenge on the gods, but now that she's regained it, she has also gained back her focus, so she is acting less like a jokester and more like her older self."
+ "I am not sure she changed so much as recovered her original purpose," I say. "Five thousand years ago, before she was trapped beneath a mountain, stuffed into animal vessels, and bound inside gold plating, she had a single-minded objective: tearing down the gods who cast her out. We saw her past self during the ritual—she was cold, lethal, and completely without theatrics. Her bizarre cruelty and dark humor were habits she cultivated out of sheer boredom once she realized she was stranded on this plane. Now that revenge is within reach again, her old discipline is resurfacing."
 
-"Eh..." Hadrik says. "If you ask me, even the 'jokester' Arraka still had her moments. For example, her decision to not reveal my trial from the God of Time was taken before she turned serious. I'm still surprised that she actually waited for me to talk about it myself, instead of using it to make fun of me, to be honest. I guess even someone like her can show some basic decency from time to time."
+"Even during her wilder days," Hadrik says thoughtfully, "she showed glimpses of decency. She withheld the details of my trial with the God of Time until I chose to speak of it myself. I half expected her to weaponize it for a laugh the moment we escaped the temple. That counted for something."
 
- "Nah," I say. "What this shows is that she's giving you preferential treatment. Perhaps your relationship with her is progressing without you even realizing it."
+ "Preferential treatment," I say with a grin. "Your romance is blossoming whether you admit it or not."
 
-"Hah!" Hadrik says. "Who knows? Maybe I should get the wedding rings ready after all!"
+"Hah!" Hadrik bellows. "Perhaps I should commission matching iron bands after all!"
 
-For the next few hours, Daren, Hadrik and I continue to talk about various topics that come to mind.
+We spend the rest of the watch trading stories and passing the cards, the fire in the ale keeping the chill of the cavern at bay.
 
- During this time, Hadrik tries on multiple occasions to get us to join him in his drinking marathon, but we hold our ground, and in the end Daren and I each drink less than a bottle of dwarven ale, which is already enough to leave a comfortable warmth behind our temples. As we return to our room, we wake Leila and Kate so that they can start their own night shift, and then we go to bed.
+ When the watch concludes, Daren and I have finished less than a bottle each, leaving our senses sharp and rested. We return to our quarters to wake Kate and Leila for the second watch, then turn in for several hours of deep sleep.
 
-When I wake up several hours later, my head is clear, with no hangover from last night. Most of the others are already out of bed and ready to leave, so I get up as well and prepare for the day ahead. Soon after I finish my preparations, Kate and Leila return from their night shift, and we all assemble in front of our room, ready to leave together.
+I wake to the clatter of gear as the encampment stirs. Kate and Leila return from the watch post, and we all assemble before the doorway, packs hoisted and weapons checked.
 
 choice("Continue", B3-Ch08b-Ending, v_current_scene = B3-Ch08b-Ending)
 
@@ -1166,36 +1156,36 @@ ID: B3-Ch08b-Ending
 TEXT:
 
 #if(v_b3_ch8_king != 5) {
- "Alright," Daren says. "Is everyone ready?"
+ "Alright," Daren says, checking the fastenings on his heavy breastplate. "Is everyone ready?"
 
- "For better or for worse... we are ready," Kate says.
+"For better or for worse... we are ready," Kate says, her cloak fastened tight and her staff in hand.
 
-"Then let's head for the waiting room," Daren says. "The king of the underground is probably already waiting for us there so he can give us our briefing."
+"Then let us head to the waiting room," Daren says. "The underground king will have his vanguard assembled for the deployment."
 
-"Do you think that we made the right choice?" Hadrik says, looking a little unsure of himself. "When choosing our side, I mean."
+"Do you think we chose the right side?" Hadrik asks quietly, adjusting his backpack. "In the grander scheme, I mean."
 
-"We'll only know for certain if it was the right choice once it's all over," Daren says. "Until then, we can only hope."
+"We will only know for certain once the dust settles above," Daren replies. "Until then, we stand by our choice."
 
-"Yeah..." Hadrik says. "I suppose you're right. Let's get going, then."
+"Aye," Hadrik says with a firm nod. "Let us move."
 
 }
 #if(v_b3_ch8_king == 5) {
- "Alright," Daren says. "Is everyone ready?"
+ "Alright," Daren says, checking the fastenings on his heavy breastplate. "Is everyone ready?"
 
- "For better or for worse... we are ready," Kate says.
+"For better or for worse... we are ready," Kate says, her cloak fastened tight and her staff in hand.
 
-"Then let's head for the waiting room," Daren says. "The king of the underground is probably already waiting for us there so he can give us our briefing."
+"Then let us head to the waiting room," Daren says. "The underground king will have his vanguard assembled for the deployment."
 
-"Do you think that we made the right choice?" Hadrik says, looking a little unsure of himself. "When choosing our side, I mean."
+"Do you think we chose the right side?" Hadrik asks quietly, adjusting his backpack. "In the grander scheme, I mean."
 
-"We'll only know for certain if it was the right choice once it's all over," Daren says. "But for what it's worth, I sincerely believe that we picked the best king candidate we possibly could."
+"We will only know for certain once the dust settles above," Daren replies. "But whatever happens on the surface, I believe we gave the people of Ollendor the finest candidate they could have hoped for."
 
-"Yeah..." Hadrik says. "You're probably right. Let's get going, then."
+"Aye," Hadrik says with a firm nod. "Let us move."
 
 }
- Once everyone finishes talking, we all head for the king of the underground's briefing, while Daren's words linger in the back of our minds. There really is no way to know anything for certain until it's all over. Even with the most careful of preparations and the best of intentions, there is still the possibility that we might have simply overlooked something. However, if there is one thing that we can be certain of, it is this:
+ We shoulder our packs and make our way toward the waiting hall, Daren's words settling in the quiet of our minds. There is no certainty in war until the final blow lands. Even with every contingency weighed and every vow spoken, unforeseen variables remain. Yet one truth stands clear as we march into the assembly:
 
-No matter the outcome, today's battle will decide Ollendor's fate, once and for all.
+No matter what unfolds above, today's battle will decide the fate of Ollendor once and for all.
 
 choice("Continue", B3-Ch08b-Credits, v_current_scene = B3-Ch08b-Credits)
 

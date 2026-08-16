@@ -11,33 +11,33 @@ set(v_b3_ch9_teleport,0)
 set(v_is_dead,0)
 
 
-"Albert," the king of the underground calls out from across the damp hall. "What do you see out there?"
+"Albert," the king of the underground calls out across the drafty floor of the warehouse. "What do you see out there?"
 
-Albert pushes through the heavy timber doors of the abandoned warehouse, water sheeting off his cloak and pooling across the cracked stone floor. Rain lashes the corrugated roof above us with a steady, deafening roar.
+Albert pushes through the heavy timber doors, water sheeting from his leather cloak and pooling over the cracked flagstones. Rain hammers the corrugated iron roof with a deafening, continuous roar, thunder rattling the high rafters.
 
-"The gale is on our side, my lord," Albert says, shaking the sodden hood from his face. "The brass spheres are struggling against the updrafts. They wobble when the wind shears, and their turns are wide and sluggish."
+"The gale is on our side, my lord," Albert says, shaking the soaked hood back from his brow. "The brass spheres are struggling against the updrafts. They wobble when the wind shears, and their turns are wide and sluggish."
 
-"Rudimentary air enchantments on the rotors, just as I suspected," the underground king says, tapping his chin with a gloved finger. "The ancient lessathi had no reason to grant maintenance automata the complex current-weaving needed to ride out a tempest. Am I using the proper term? 'Drones'?"
+"Rudimentary air enchantments on the rotors, just as I suspected," the underground king says, tapping a gloved finger against his chin. "The ancient lessathi had no reason to grant maintenance automata the complex current-weaving needed to ride out a tempest. Am I using the proper term? 'Drones'?"
 
 "That is what Billy Bob called them," I say.
 
-Peter steps forward, arms folded across his leather brigandine. "My king, engaging a crippled foe is sound strategy, but are we wise to commit before the full garrison has assembled?"
+Peter steps forward, arms folded across his leather brigandine, rain already dripping from his cuffs. "My king, engaging a crippled foe is sound tactics, but are we wise to commit before the full garrison has assembled?"
 
 "Varathian summer tempests break as swiftly as they form," the king replies, his voice carrying clearly over the drumming overhead. "A window like this will not present itself twice. We strike now, even if our numbers fall short of the ideal."
 
 Albert scans the drafty expanse of the warehouse, counting silhouettes against the dust-streaked windows. "Has Breynan finished the transfers? I do not see Herman or Howard."
 
-"Howard remains below," the king says. "Yesterday's wound opened the moment you crossed to the surface, despite the white magic we poured into it. I ordered him to stand down."
+"Howard remains below," the king says, his jaw set. "Yesterday's wound opened the moment you crossed to the surface, despite the white magic we poured into it. I ordered him to stand down."
 
 "A bitter pill for him," Albert murmurs. "He lived for the day we marched on Ollendor's square. And Herman?"
 
 "Herman arrives with the final detachment," the underground king says. "I instructed Breynan to space each transit by several minutes. We cannot risk frying the transfer array—not with our chief artificer locked in a cell for treason."
 
-A young rebel mage standing near our group raises a hand. "Will Breynan join the vanguard, my lord?"
+A young rebel mage standing near our group raises a hand, shifting his weight. "Will Breynan join the vanguard, my lord?"
 
 "No," the king says firmly. "Breynan remains below. If the strike falters, our people will need a hand on the helm. You have trained under him for years, Jack, and you are among the sharpest blades we have. I expect you to hold the line without him and do his teachings credit."
 
-The young mage straightens. "Yes, sir. I will."
+The young mage straightens his spine, fingers brushing his scabbard. "Yes, sir. I will."
 
 choice("Continue", B3-Ch09a-Intro2, v_current_scene = B3-Ch09a-Intro2, v_checkpoint_rich = 0)
 
@@ -45,7 +45,7 @@ choice("Continue", B3-Ch09a-Intro2, v_current_scene = B3-Ch09a-Intro2, v_checkpo
 ID: B3-Ch09a-Intro2
 TEXT:
 
-A brilliant flare of white light washes over the empty crates and broken rafters, humming with the ozone tang of teleportation. When the radiance collapses, twenty armed rebels stand in formation across the floor, weapons drawn and cloaks dry.
+ A brilliant flare of white light washes over the empty crates and broken rafters, humming with the ozone tang of teleportation. When the radiance collapses, twenty armed rebels stand in formation across the floor, weapons drawn and cloaks dry.
 
 "Is this the last of them?" Peter asks.
 
@@ -84,9 +84,9 @@ ID: B3-Ch09a-Jack
 TEXT:
 
 #if(v_b3_ch9_jack == 0) {
-"Did someone important give you that locket?" I ask him.
+"Did someone important give you that locket?" I ask him quietly.
 
-Jack blinks, hastily tucking the silver piece against his chest. "Oh... Yes. My wife. When the panic starts creeping up my throat before a skirmish, I hold this and remember her face. It anchors me. Reminds me what I have to return to."
+Jack blinks, startled, hastily tucking the silver piece against his chest beneath his damp tunic. "Oh... Yes. My wife. When the panic starts creeping up my throat before a skirmish, I hold this and remember her face. It anchors me. Reminds me what I have to return to."
 
 "Move it, Jack!" a squad leader barks from the threshold. "Form up!"
 
@@ -96,7 +96,7 @@ Jack blinks, hastily tucking the silver piece against his chest. "Oh... Yes. My 
 #if(v_b3_ch9_jack == 1) {
 "Keep your head down," I tell him. "We are all walking out of this."
 
-Jack blinks, startled to find me watching, then forces a tight smile. "Right. Here is to surviving the day."
+Jack blinks, startled to find me watching, then forces a tight, determined smile. "Right. Here is to surviving the day."
 
 "Move it, Jack!" a squad leader barks from the threshold. "Form up!"
 
@@ -116,7 +116,7 @@ He means our secret bargain to back the Overseer and throw the king to the wolve
 
 "No. We are not sentencing them to slaughter, Daren. Once the dust settles, they march right back underground where they belong."
 
-"That depends entirely on how messy the clash gets," Daren says, adjusting his gauntlet straps. "We keep the body count as close to zero as humanly possible."
+"That depends entirely on how messy the clash gets," Daren says, tightening his gauntlet straps until the leather groans. "We keep the body count as close to zero as humanly possible."
 
 "So," Hadrik grunts, stepping up beside us as the last of the vanguard vanishes into the deluge. "Any grand words before we jump into the meat grinder?"
 
@@ -158,7 +158,7 @@ Melindra wanders over from the far crates, shaking rainwater from her fingers. "
 
 "How much of a lag?" I ask.
 
-"A second or two," Melindra says, twirling a lock of hair. "Maybe more if I lose line of sight, or if some drone tries to turn my skull into an ashtray."
+"A second or two," Melindra says, twirling a lock of hair around her finger. "Maybe more if I lose line of sight, or if some drone tries to turn my skull into an ashtray."
 
 "And if you get knocked out while I am twenty feet in the air?" I say. "Do I hover like a stuffed duck?"
 
@@ -182,7 +182,7 @@ Melindra wanders over from the far crates, shaking rainwater from her fingers. "
 
 "How much of a lag?" I ask.
 
-"A second or two," Melindra says, twirling a lock of hair. "Maybe more if I lose line of sight, or if some drone tries to turn my skull into an ashtray."
+"A second or two," Melindra says, twirling a lock of hair around her finger. "Maybe more if I lose line of sight, or if some drone tries to turn my skull into an ashtray."
 
 "And if you get knocked out while I am twenty feet in the air?" I say. "Do I hover like a stuffed duck?"
 
@@ -201,7 +201,7 @@ ID: B3-Ch09a-Currents
 TEXT:
 
 #if(v_b3_ch9_currents == 0) {
-"It's okay, you can cast the same air currents as always. I'll handle it."
+"It's all right, you can cast the same air currents as always. I'll handle it."
 
 "Your funeral," Melindra says. She extends both palms toward me, her brow furrowing as she channels a steady pulse of magical energy from her fingertips.
 
@@ -432,13 +432,13 @@ He throws both arms wide. The air beneath his boots roars, lifting him smoothly 
 
 He darts in tight arcs through the gale, fighting a sudden wind shear for a split second before his aura hardens, locking his flight path back into balance.
 
-"The controls are a little crude, but I can make a few adjustments with my aura manipulation, so it's not that big of a problem," the king says. "Now, then... where are the drones?"
+"The steering lacks finesse, but manual aura pressure compensates well enough," he calls down. "Now... let them come."
 
-As the king of the underground flies higher into the sky, it is getting harder to see him because of the heavy rain, but it does not take long for the Overseer's drones to take the bait and to light up the whole area around the king with their bright red eyes.
+He ascends into the driving rain, his silhouette blurring against the dark clouds. Within seconds, crimson optical arrays flare across the upper sky. Dozens of Overseer drones converge on his altitude.
 
-The king of the underground does not engage them, and he instead makes a semi-transparent spherical barrier around himself, made up of hardened aura, which is protecting him both from the drones' magical attacks and from the downpour of rain. More and more drones are now flocking around the king's barrier, trying to break it with elemental attacks of all types.
+The king holds his ground without retaliating, projecting a dense sphere of hardened aura that deflects both the deluge and the barrage of elemental bolts tearing through the clouds. More drones peel off from the surrounding roofs, swarming the shimmering globe in a frantic, humming cluster.
 
-The king of the underground keeps baiting the drones for another minute or so, until about a hundred or more of them are surrounding him, and just as we are about to lose sight of him due to the high number of metal balls swarming him from all directions, the king unleashes a shockwave so powerful that it makes all of the drones around him explode at once.
+He lets them gather for a solid minute, drawing nearly a hundred brass hulls into a tight formation around his barrier. Just as the swarm blots him out entirely, an incandescent shockwave detonates outward from the sphere, shattering every drone in the cluster in a single blinding blast.
 
 choice("Continue", B3-Ch09a-Carcasses, v_current_scene = B3-Ch09a-Carcasses)
 
@@ -490,13 +490,13 @@ He throws both arms wide. The air beneath his boots roars, lifting him smoothly 
 
 He darts in tight arcs through the gale, fighting a sudden wind shear for a split second before his aura hardens, locking his flight path back into balance.
 
-"The controls are a little crude, but I can make a few adjustments with my aura manipulation, so it's not that big of a problem," the king says. "Now, then... where are the drones?"
+"The steering lacks finesse, but manual aura pressure compensates well enough," he calls down. "Now... let them come."
 
-As the king of the underground flies higher into the sky, it is getting harder to see him because of the heavy rain, but it does not take long for the Overseer's drones to take the bait and to light up the whole area around the king with their bright red eyes.
+He ascends into the driving rain, his silhouette blurring against the dark clouds. Within seconds, crimson optical arrays flare across the upper sky. Dozens of Overseer drones converge on his altitude.
 
-The king of the underground does not engage them, and he instead makes a semi-transparent spherical barrier around himself, made up of hardened aura, which is protecting him both from the drones' magical attacks and from the downpour of rain. More and more drones are now flocking around the king's barrier, trying to break it with elemental attacks of all types.
+The king holds his ground without retaliating, projecting a dense sphere of hardened aura that deflects both the deluge and the barrage of elemental bolts tearing through the clouds. More drones peel off from the surrounding roofs, swarming the shimmering globe in a frantic, humming cluster.
 
-The king of the underground keeps baiting the drones for another minute or so, until about a hundred or more of them are surrounding him, and just as we are about to lose sight of him due to the high number of metal balls swarming him from all directions, the king unleashes a shockwave so powerful that it makes all of the drones around him explode at once.
+He lets them gather for a solid minute, drawing nearly a hundred brass hulls into a tight formation around his barrier. Just as the swarm blots him out entirely, an incandescent shockwave detonates outward from the sphere, shattering every drone in the cluster in a single blinding blast.
 
 choice("Continue", B3-Ch09a-Carcasses, v_current_scene = B3-Ch09a-Carcasses)
 
@@ -514,11 +514,11 @@ Shards of burning bronze and shattered rotors rain down across the flagstones. R
 
 "We take the low swarm first," I call out. "The king has the upper tier well in hand."
 
-"We are pinned where we stand," Daren grunts, shield locked in front of him. "You convinced the entire vanguard we are enemy agents with that stunt. They will cut us down the moment we draw steel."
+"We are pinned where we stand," Daren grunts, his heavy shield locked before him. "You convinced the entire vanguard we are enemy agents with that stunt. They will cut us down the moment we draw steel."
 
 "They need drones destroyed more than they need a grudge match," I say.
 
-I glance toward Peter, who stands five paces away under the overhang, arms crossed over his chest, scowling beneath his hood.
+I glance toward Peter, who stands five paces away under the overhang, arms crossed over his chest, scowling beneath his soaked hood.
 
 "You object to us scrapping a few machines, Peter?"
 
@@ -601,19 +601,19 @@ TEXT:
 
 "Warning. Warning. Warning."
 
-The synthetic drone voices chant in perfect unison, high and resonant, as the blue crystals embedded in their casings burn with sudden, blinding intensity.
+The synthetic drone voices chant in perfect unison, high, metallic, and resonant, as the blue crystals embedded in their casings burn with sudden, blinding intensity.
 
 "Critical casualty threshold exceeded within designated sector. Initiating emergency containment protocol. Stand by."
 
-"Emergency protocol?" Hadrik barks, swinging his axe. "What in the seven hells is that supposed to—"
+"Emergency protocol?" Hadrik barks, swinging his axe in the deluge. "What in the seven hells is that supposed to—"
 
 The world snaps out of existence.
 
 Sound dies first. Hadrik's bellow, the shriek of the storm, the thunderous clash of steel and spells—all cut to absolute, suffocating silence. The dark city, the rain, the flagstones beneath my boots vanish into a void of pure, featureless white radiance.
 
-I drift in an ocean of light. No buildings. No companions.
+I drift in an ocean of light. No buildings. No cobblestones. No companions.
 
-When I look down, I find nothing. No boots, no trousers, no chest, no arms. There is no weight, no skin, no heartbeat. My eyes must exist—the glare registers with searing clarity—but am I reduced to a disembodied point of perception tumbling through an endless sea of illumination?
+When I look down, I find nothing. No boots, no trousers, no chest, no arms. There is no weight, no skin, no heartbeat. My eyes must exist—the glare registers with searing clarity—but I am reduced to a disembodied point of perception tumbling through an endless sea of illumination.
 
 Then the terror hits: my chest is not rising.
 
@@ -701,7 +701,7 @@ She catches my conjured fingers. Flames wash over both of us—warm rather than 
 
 "Barry! You made it!"
 
-Leila's inner voice echoes directly into my thoughts, rich and clear, just as it sounded during our last journey into the ether.
+Leila's inner voice echoes directly into my thoughts, rich, clear, and melodious, just as it sounded during our last journey into the ether.
 
 The white void gives way to a sprawling, high-ceilinged room cluttered with carved wooden toys, vivid tapestries depicting knights slaying hydras, and a polished oak side table supporting a porcelain vase filled with fresh tulips. Leila and Hadrik stand beside the hearth, solid and fully formed. Illuna is nowhere in sight.
 
@@ -863,7 +863,7 @@ I glance toward Illuna. "Can you monitor the surface from here?"
 
 "I inhabit Flower's mind," Illuna says. "I retain direct control of her earthen body."
 
-"What is the status on the cobblestones? Are our physical bodies intact?"
+"What is happening on the cobblestones? Are our physical bodies intact?"
 
 "Unconscious, but breathing," Illuna reports. "The entire plaza is paralyzed. The rebel vanguard, the king, the drones—all motionless. The only entity making noise in the district is Arraka, shrieking from inside the amulet about how pathetic we are for succumbing to an elementary ethereal displacement."
 
@@ -1084,13 +1084,13 @@ TEXT:
 #if(v_b3_ch9_food == 0) {
 "What is the single best dish you have ever concocted in the ether?" I ask Flower.
 
-Flower taps her lips. "If I had to crown one... the dark chocolate sponge cake."
+Flower taps her lips, her red eyes sparkling. "If I had to crown one... the dark chocolate sponge cake."
 
-"Unequivocally the chocolate cake," Illuna agrees.
+"Unequivocally the chocolate cake," Illuna agrees from the doorway.
 
 "Just chocolate?" I say. "With unlimited reality-shaping at your fingertips, I expected something exotic. Leviathan marrow, crystallized star-nectar..."
 
-"It resembles earthly chocolate only in name," Flower says, her eyes sparkling. "Petal attempted to bake an earthen copy for my birthday, but the physical world simply lacks the base aromatics. It is simpler to show you. Taste for yourself!"
+"It resembles earthly chocolate only in name," Flower says, her smile widening. "Petal attempted to bake an earthen copy for my birthday, but the physical world simply lacks the base aromatics. It is simpler to show you. Taste for yourself!"
 
 She flicks her fingers. Instantly, porcelain plates materialize on our laps, each bearing a thick, glistening slice of dark sponge cake and a silver fork.
 
@@ -1104,7 +1104,7 @@ I carve off a bite. The flavor hits the tongue with stunning complexity—deep, 
 
 Flower tilts her head, her gaze drifting unfocused into the rafters as her fingers weave through invisible strings.
 
-"The drones are dead silent. Most of the vanguard is still out cold... wait. One signature is stirring. Peter is awake in the mortal world. And I feel his soul here too! He is paddling through the outer ether, hauling his squad mates toward a cluster. Guys... Peter is an ethereal!"
+"The drones are dead silent. Most of the vanguard is still out cold... wait. One signature is stirring. Peter is awake in the mortal world. And I feel his soul here too! He is paddling through the outer ether, hauling his squad mates toward a cluster. Look... Peter is an ethereal!"
 
 "What about the Overseer?" Daren asks around a mouthful of cake. "He claimed to possess a manufactured soul. Can you pick up his trace in the light?"
 
@@ -1114,7 +1114,7 @@ Flower tilts her head, her gaze drifting unfocused into the rafters as her finge
 #if(v_b3_ch9_food == 1) {
 "A question," I say. "If you can manifest any culinary masterpiece across reality, why drink the identical tea and biscuits every single morning?"
 
-"They are not identical!" Flower protests. "I tweak the cinnamon notes and cardamom blends! And it's a household tradition! Is it a crime to share tea with family?"
+"They are not identical!" Flower protests, her cheeks flushing. "I tweak the cinnamon notes and cardamom blends! And it's a household tradition! Is it a crime to share tea with family?"
 
 "Not a crime," I say. "Just a curious limit on infinite power."
 
@@ -1128,7 +1128,7 @@ Flower tilts her head, her gaze drifting unfocused into the rafters as her finge
 
 Flower tilts her head, her gaze drifting unfocused into the rafters as her fingers weave through invisible strings.
 
-"The drones are dead silent. Most of the vanguard is still out cold... wait. One signature is stirring. Peter is awake in the mortal world. And I feel his soul here too! He is paddling through the outer ether, hauling his squad mates toward a cluster. Guys... Peter is an ethereal!"
+"The drones are dead silent. Most of the vanguard is still out cold... wait. One signature is stirring. Peter is awake in the mortal world. And I feel his soul here too! He is paddling through the outer ether, hauling his squad mates toward a cluster. Look... Peter is an ethereal!"
 
 "What about the Overseer?" Daren asks, chewing on a biscuit. "He claimed to possess a manufactured soul. Can you pick up his trace in the light?"
 
@@ -1138,9 +1138,9 @@ Flower tilts her head, her gaze drifting unfocused into the rafters as her finge
 #if(v_b3_ch9_food == 2) {
 "Can you reproduce the savory biscuits from my home village without a written recipe?" I ask.
 
-"Let me check the memory archives," Flower says. "Was the crust textured like... this?"
+"Let me check the memory archives," Flower says, closing her eyes. "Was the crust textured like... this?"
 
-She extends an open palm. A golden, flaky biscuit materializes between her fingers, steam rising from the cracked butter top. I snatch it and take a bite.
+She extends an open palm. A golden, flaky biscuit materializes between her fingers, steam rising from the cracked butter top. I take it and break off a piece.
 
 The flaky crumb, the pinch of mountain salt, the subtle rosemary finish—it is an exact match for the hearth ovens of my childhood.
 
@@ -1156,7 +1156,7 @@ The flaky crumb, the pinch of mountain salt, the subtle rosemary finish—it is 
 
 Flower tilts her head, her gaze drifting unfocused into the rafters as her fingers weave through invisible strings.
 
-"The drones are dead silent. Most of the vanguard is still out cold... wait. One signature is stirring. Peter is awake in the mortal world. And I feel his soul here too! He is paddling through the outer ether, hauling his squad mates toward a cluster. Guys... Peter is an ethereal!"
+"The drones are dead silent. Most of the vanguard is still out cold... wait. One signature is stirring. Peter is awake in the mortal world. And I feel his soul here too! He is paddling through the outer ether, hauling his squad mates toward a cluster. Look... Peter is an ethereal!"
 
 "What about the Overseer?" Daren asks, swallowing his bite. "He claimed to possess a manufactured soul. Can you pick up his trace in the light?"
 
@@ -1405,7 +1405,7 @@ I build the matrix in my mind.
 
 Instantly, the air before my palms hums with volatile potential. The particles churn wildly, threatening to shear off their axes. The old panic flares, but the voice of an old hermit I studied under years ago echoes in my thoughts.
 
-"When the flow drifts, do not wrestle it," the hermit had told me over a smoking brazier. "Forcing a drifting current only snaps the weave. Follow the deviation. Guide it gently through the arc. If your theory is flawless and your stance is true, the flow will always circle back to its optimal path."
+"When the flow drifts, do not wrestle it," the hermit had told me over a smoking brazier. "Forcing a drifting current only snaps the weave. Follow the deviation. Guide it gently through the arc. If your theory is flawless and your stance is true, the flow will always circle back to its true path."
 
 #if(v_b3_ch9_attempt == 0) {
 I shift my wrists, letting my palms track the widening spiral of the fire matrix. The particles wobble on the brink of collapse, then snap back into alignment along the intended axis. The moment the geometry locks, I drive all my focused intent into the nexus.
@@ -1497,7 +1497,7 @@ TEXT:
 
 "Restoring the tapestry!" Flower calls out from the far wall, a horsehair paintbrush hovering in her hand.
 
-"We have no time for manual restorations," Illuna says sharply. "You insisted that company receives priority treatment, and our guest requires combat instruction. Revert the fibers instantly."
+"We have no time for manual restorations," Illuna says sharply. "You insisted that our guest comes first, and our guest requires combat instruction. Revert the fibers instantly."
 
 "Fine, fine..." Flower sighs. She flicks her wrist, and the scorched threads snap back into vibrant, unburnt wool.
 
@@ -1533,7 +1533,7 @@ I spend ten minutes demonstrating the basic flame matrices I know, while Flower 
 
 "Piecing the porcelain together with glue!" Flower answers from the floorboards, carefully aligning broken shards.
 
-"We have no time for manual restorations," Illuna says sharply. "You insisted that company receives priority treatment, and our guest requires combat instruction. Revert the vase instantly."
+"We have no time for manual restorations," Illuna says sharply. "You insisted that our guest comes first, and our guest requires combat instruction. Revert the vase instantly."
 
 "Fine, fine..." Flower sighs. She flicks her wrist, and the porcelain shards fuse seamlessly back into an unbroken vessel on the table.
 
@@ -1598,7 +1598,7 @@ I spend several minutes demonstrating my catalog of basic water spells. Illuna p
 
 "How so?"
 
-"Manual classifications are deceptive," Illuna explains. "A spell cataloged as 'elementary' often demands high mechanical stability under pressure. If a technique carries a twenty percent failure rate during combat stress, it is a liability, regardless of its simplicity. You require high-reliability constructs."
+"Manual classifications are deceptive," Illuna explains. "A spell cataloged as 'elementary' often demands high mechanical stability under pressure. If a technique fails one time in five under combat pressure, it is a liability, regardless of its simplicity. You require high-reliability constructs."
 
 "Reliability over breadth," I say, nodding. "A tight arsenal I can execute in the dark without misfiring. Do you have a curated sequence?"
 
@@ -1670,7 +1670,7 @@ achievement("An introspective moment",v_ac_b3_ch9_moment)
 "Is that a challenge?" Kate crosses her arms, raising an eyebrow. "Let us see if your casting matches your arrogance. Assume your stance. Drop the temperature in this quadrant ten degrees in thirty seconds."
 
 }
-I run through my baseline frost spells, while Kate provides crisp, demanding feedback on my wrist rotation and balance. From there, she introduces several intermediate constructs from manuals I studied years ago. Her instruction is sharp, demanding, and stripped of wasted words, accelerating the learning curve dramatically.
+I run through my baseline frost spells, while Kate provides crisp, demanding corrections on my wrist rotation and balance. From there, she introduces several intermediate constructs from manuals I studied years ago. Her instruction is sharp, demanding, and stripped of wasted words, accelerating the learning curve dramatically.
 
 "How does it feel?" Kate asks quietly as I drill the wrist snaps for an ice beam.
 
@@ -1719,13 +1719,13 @@ Across the parlor, Daren grunts in frustration, sweat beading on his forehead as
 #if(v_b3_ch8_overseer2 == 0) {
 "Understood," Leila projects.
 
-"Ready, Barry?" Flower asks as I weave Melindra's flight currents around my limbs, locking the updraft into position. "Where do we drop? We can ambush the Overseer directly, or intercept Peter and attempt to coordinate an alliance. Peter might be a clumsy liability in the ether, but an extra pair of hands could tip the scale."
+"Ready, Barry?" Flower asks as I weave Melindra's flight currents around my limbs, locking the updraft into position. "Where do we drop? We can ambush the Overseer directly, or intercept Peter and attempt to forge an alliance. Peter might be a clumsy liability in the ether, but an extra pair of hands could tip the scale."
 
 }
 #if(v_b3_ch8_overseer2 == 1) {
 "Understood," Leila projects.
 
-"Ready, Barry?" Flower asks as I weave Melindra's flight currents around my limbs, locking the updraft into position. "Where do we drop? We can ambush Peter directly, or intercept the Overseer and attempt to coordinate an alliance. The machine might be a clumsy liability in the ether, but an extra pair of hands could tip the scale."
+"Ready, Barry?" Flower asks as I weave Melindra's flight currents around my limbs, locking the updraft into position. "Where do we drop? We can ambush Peter directly, or intercept the Overseer and attempt to forge an alliance. The machine might be a clumsy liability in the ether, but an extra pair of hands could tip the scale."
 
 }
 choice("Teleport to Peter.", B3-Ch09c-Teleport, v_current_scene = B3-Ch09c-Teleport) if (v_b3_ch8_overseer2 == 0)

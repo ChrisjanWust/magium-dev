@@ -129,7 +129,7 @@ TEXT:
 #if(v_b3_ch8_theory == 2) {
 "What if the Magium is everything and nothing at the same time?"
 
-"Barry, philosophical paradoxes do not give us actionable strategy," Daren says. "If the Magium encompassed all things, it would not have needed to interrogate us regarding the whereabouts of the alternate Arraka. Boundless power aside, it clearly operates under constraints. Otherwise it would not deploy time weavers and intermediaries to execute tasks."
+"Barry, philosophical paradoxes do not give us a workable plan," Daren says. "If the Magium encompassed all things, it would not have needed to interrogate us regarding the whereabouts of the alternate Arraka. Boundless power aside, it clearly operates under constraints. Otherwise it would not deploy time weavers and intermediaries to execute tasks."
 
 "Arraka claimed the presence we faced was merely a fragment of its will," I say. "Still, it was only a thought. If someone has a cleaner theory, speak up."
 
@@ -174,7 +174,7 @@ TEXT:
 
 "And if another manifestation drops into our lap?" Daren presses. "What then? Do we freeze in place and hope you pull another miracle out of the ether?"
 
-"Daren is right," Kate says. "Depending entirely on your intervention is not a strategy. We need to understand how primordial techniques operate. How does one influence a force that exists outside temporal flow?"
+"Daren is right," Kate says. "Depending entirely on your intervention is not a plan. We need to understand how primordial techniques operate. How does one influence a force that exists outside temporal flow?"
 
 "The Magium in its entirety remains beyond time, but that is not how it engages mortals," Arraka says. "When it reaches into the planes, it acts through localized projections of intent. I call them fragments. These offshoots function with narrow mandates and operate within the flow of time, just as we do. That temporal anchor gives us leverage. Both incursions you survived were directed by fragments, regardless of what shorthand I used before."
 
@@ -460,7 +460,7 @@ TEXT:
 #if(v_b3_ch4_billy == 7 || v_b3_ch4_billy == 8) {
 "We'll be joining your side, of course!"
 
-"Wait," Daren says, raising a hand. "Why assume hostility between the Overseer and the resistance? Our priority should be persuading the underground king that backing Breynan under Overseer mediation is the optimal path forward."
+"Wait," Daren says, raising a hand. "Why assume hostility between the Overseer and the resistance? Our first concern should be persuading the underground king that backing Breynan under Overseer mediation is our best path forward."
 
 "Intelligence indicates zero probability of his compliance," the Overseer says.
 
@@ -570,7 +570,7 @@ TEXT:
 
 "If that holds," I say.
 
-"Wait," Daren says, raising a hand. "Why assume hostility between the Overseer and the resistance? Our priority should be persuading the underground king that backing Breynan under Overseer mediation is the optimal path forward."
+"Wait," Daren says, raising a hand. "Why assume hostility between the Overseer and the resistance? Our first concern should be persuading the underground king that backing Breynan under Overseer mediation is our best path forward."
 
 "Intelligence indicates zero probability of his compliance," the Overseer says.
 
@@ -736,7 +736,7 @@ TEXT:
 
 "A necessary conversation," Kate says. "I intended to confront him regarding the towers the moment we crossed paths."
 
-"We move to the waiting room, then," Daren says. "Peter or Albert should be coordinating logistics near the main tunnel; they can direct us to the king."
+"We move to the waiting room, then," Daren says. "Peter or Albert should be directing movement near the main tunnel; they can direct us to the king."
 
 }
 "I know this will likely be dismissed," Melindra says as we step into the corridor, "but why does our group care what happens to this city once we leave? Half of you did not know Ollendor existed until I drew the map. Why does it matter if the whole place burns to ash behind us, so long as we are clear of the smoke?"
@@ -821,7 +821,7 @@ A harsh laugh erupts from the amulet.
 
 "Yes," Daren snaps. "Why wouldn't I? It is billed as a prize for mortal champions, not a cosmic landmine capable of unmaking the continent if mishandled."
 
-"The Varathian kings drafted the proclamation without the faintest grasp of what they were advertising," Arraka says. "And the lessathi council running the logistics had zero incentive to enlighten them. Local politics bore me, but the dynamic is obvious: both factions are concealing their true objectives, each convinced they hold the leverage. They engineered this tournament for their own covert ends, and you simpletons are marching to their drum without questioning the tune."
+"The Varathian kings drafted the proclamation without the faintest grasp of what they were advertising," Arraka says. "And the lessathi council pulling the strings had zero incentive to enlighten them. Local politics bore me, but the dynamic is obvious: both factions are concealing their true objectives, each convinced they hold the leverage. They engineered this tournament for their own covert ends, and you simpletons are marching to their drum without questioning the tune."
 
 choice("Continue", B3-Ch08a-Collected, v_current_scene = B3-Ch08a-Collected)
 
@@ -854,7 +854,7 @@ A harsh laugh erupts from the amulet.
 
 "Yes," Daren snaps. "Why wouldn't I? It is billed as a prize for mortal champions, not a cosmic landmine capable of unmaking the continent if mishandled."
 
-"The Varathian kings drafted the proclamation without the faintest grasp of what they were advertising," Arraka says. "And the lessathi council running the logistics had zero incentive to enlighten them. Local politics bore me, but the dynamic is obvious: both factions are concealing their true objectives, each convinced they hold the leverage. They engineered this tournament for their own covert ends, and you simpletons are marching to their drum without questioning the tune."
+"The Varathian kings drafted the proclamation without the faintest grasp of what they were advertising," Arraka says. "And the lessathi council pulling the strings had zero incentive to enlighten them. Local politics bore me, but the dynamic is obvious: both factions are concealing their true objectives, each convinced they hold the leverage. They engineered this tournament for their own covert ends, and you simpletons are marching to their drum without questioning the tune."
 
 choice("Continue", B3-Ch08a-Collected, v_current_scene = B3-Ch08a-Collected)
 
@@ -879,7 +879,7 @@ A harsh laugh erupts from the amulet.
 
 "Yes," Daren snaps. "Why wouldn't I? It is billed as a prize for mortal champions, not a cosmic landmine capable of unmaking the continent if mishandled."
 
-"The Varathian kings drafted the proclamation without the faintest grasp of what they were advertising," Arraka says. "And the lessathi council running the logistics had zero incentive to enlighten them. Local politics bore me, but the dynamic is obvious: both factions are concealing their true objectives, each convinced they hold the leverage. They engineered this tournament for their own covert ends, and you simpletons are marching to their drum without questioning the tune."
+"The Varathian kings drafted the proclamation without the faintest grasp of what they were advertising," Arraka says. "And the lessathi council pulling the strings had zero incentive to enlighten them. Local politics bore me, but the dynamic is obvious: both factions are concealing their true objectives, each convinced they hold the leverage. They engineered this tournament for their own covert ends, and you simpletons are marching to their drum without questioning the tune."
 
 choice("Continue", B3-Ch08a-Collected, v_current_scene = B3-Ch08a-Collected)
 

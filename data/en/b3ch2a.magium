@@ -3,21 +3,23 @@ TEXT:
 
  
 
-"Melindra," Daren says once we are well beneath the pine canopy. "Now is the time to lay out what you know about Ollendor's defenses. We need everything."
+"Melindra," Daren says once we are well beneath the damp pine canopy, the scent of crushed needles sharp under our boots. "Now is the time to lay out what you know about Ollendor's defenses. We need everything."
 
-"Splendid," Melindra says. "Though in all honesty, I don't know much more than you do. I spent very little time in the city itself, and it has been years since my exile. A great deal could have changed."
+Down in the basin, the stone bowl of the city spreads beneath a haze of smoke and static. Cracked seredium spires rise like jagged teeth, their crowns humming with purple lightning, while dark hovering skiffs drift between the upper rings.
 
-"Right, the exile," Hadrik says, crossing his thick arms. "I almost forgot that was your beef with the king. What did you even do to get thrown off the continent? You were born here, weren't you?"
+"Splendid," Melindra says, tossing a pine cone between her hands. "Though in all honesty, I don't know much more than you do. I spent very little time in the lower districts, and it has been eight years since my exile. A great deal of steel and stone could have shifted."
 
-"That is personal," Melindra says, her voice turning cool and flat. "I would prefer to leave it unsaid."
+"Right, the exile," Hadrik says, crossing his thick arms over his leather vest. "I almost forgot that was your beef with the king. What did you even do to get thrown off the continent? You were born here, weren't you?"
 
-"There is still something you are holding back," Daren says, folding his arms until his gauntlets grind faintly. "Petty revenge does not bring someone across an ocean and into an armed capital. Why do you want the king dead?"
+"That is personal," Melindra says, her voice turning cool and flat as a slate counter. "I would prefer to leave it unsaid."
 
-"Because he stole from me," Melindra says, her tone crisp and unyielding. "Something irreplaceable, and I intend to take it back. That part is none of your concern. Keep your end of the oath and help me reach him. The rest I handle alone."
+"There is still something you are holding back," Daren says, folding his arms until the articulated steel of his gauntlets grinds faintly. "Petty revenge does not bring someone across an ocean and into an armed capital. Why do you want the king dead?"
+
+"Because he stole from me," Melindra says, her tone turning razor-sharp. "Something irreplaceable, and I intend to take it back. That part is none of your concern. Keep your end of the oath and help me reach him. The rest I handle alone."
 
 "As long as you keep your word," Daren says after a measured pause, "we will stay out of your private affairs."
 
-"What about the defenses?" Kate steps forward, pulling her green cloak tight against the breeze. "Anything useful from your time here? A flaw in the golem plating, a blind spot in the patrol routes?"
+"What about the garrison?" Kate steps forward, pulling her green cloak tight against the biting mountain draft. Post-ritual exhaustion still shadows the hollows of her eyes, but her voice is clipped and sharp. "Anything useful from your time here? A flaw in the golem plating, a blind spot in the patrol routes?"
 
 "The technology is recent," Melindra says. "A few decades ago, the king brought in a rogue lessathi. That collaborator turned the ancient ruins beneath the city into working machinery, and he engineered those iron golems patrolling the perimeter. That is why I had you look upon the walls before we drew up a plan. Breaking through the front gate is suicide. We stay quiet, we get inside without drawing the guard, and we keep our heads down until the king is dead. After that, we fight our way out through whatever metal monstrosities they throw at us."
 
@@ -27,11 +29,11 @@ choice("Continue", B3-Ch02a-Intro2, v_current_scene = B3-Ch02a-Intro2, v_checkpo
 ID: B3-Ch02a-Intro2
 TEXT:
 
- "How do we slip past those constructs if they maintain continuous patrol along the perimeter?" Daren asks, looking out toward the tree line. "Is their vision impaired after dark?"
+ "How do we slip past those constructs if they maintain continuous patrol along the perimeter?" Daren asks, peering through the needles toward the ditch. "Is their vision impaired after dark?"
 
 "There is no need to crawl through the brush," Melindra says. "We walk straight through the front gate. You present yourself as an enchanter seeking trade for your wares, and the rest of us act as your escort. Gatekeepers rarely turn away coin and craftsmanship. My banishment was confined to the king's inner circle, so the sentries will not recognize me."
 
-"You are overlooking one slight complication," Hadrik says, tapping a knuckle against his beard. "We killed the earl of Ollendor in Thilias. We survived the arena sentence and Golmyck signed the discharge papers, but a piece of parchment will hardly keep the king from taking our heads for butchering his brother."
+"You are overlooking one slight complication," Hadrik says, tapping a heavy knuckle against his braided beard. "We killed the earl of Ollendor in Thilias. We survived the arena sentence and Golmyck signed the discharge papers, but a piece of parchment will hardly keep the king from taking our heads for butchering his brother."
 
 "The king cannot execute you for a murder he knows nothing about," Melindra says. "If word of the earl's demise had reached this valley, black banners would drape every parapet and memorial placards would line the village road. The ambassador kept the news to deliver in person, and we cut straight through the monster tracts while his carriage took the high road. We have at least a day before he arrives. Until then, you are simply foreign contestants seeking commerce."
 
@@ -46,13 +48,13 @@ TEXT:
 
 "Why wouldn't they?" Melindra says. "To their eyes, you are bounded by the tournament geas. Since they know nothing of the earl's death, they assume you cannot harm a resident anyway. They have no reason to see you as a threat."
 
-"Her logic holds," Daren says, adjusting the straps of his gauntlets. "Melindra knows the ground better than the rest of us. Keep your hands near your steel nonetheless. If the gatekeeper balks, we prepare for the worst. Melindra, any other details before we step out?"
+"Her logic holds," Daren says, adjusting the shoulder straps of his plate harness. "Melindra knows the ground better than the rest of us. Keep your hands near your steel nonetheless. If the gatekeeper balks, we prepare for the worst. Melindra, any other details before we step out?"
 
-"Tell the sentry you carry an invitation from a local buyer," Melindra says. "It speeds the inspection. If he demands a name, say your client insists on anonymity. Unless the protocols tightened drastically during my absence, that will clear us through. One more rule: keep your voices down through the settlement. Silence is better. These villagers live under the heel of an erratic monarch; any hint of our true business will send them running to the garrison. We are on hostile ground."
+"Tell the sentry you carry an invitation from a local buyer," Melindra says. "It speeds the inspection. If he demands a name, say your patron insists on anonymity. Unless guard orders tightened drastically during my absence, that will clear us through. One more rule: keep your voices down through the settlement. Silence is better. These villagers live under the heel of an erratic monarch; any hint of our true business will send them running to the garrison. We are on hostile ground."
 
 "Understood," Daren says. "I will handle the talking at the barrier. Stay close."
 
-We break cover and make for the packed-dirt thoroughfare leading toward the main archway. Wooden hovels flank both sides of the road, their plots tilled by peasants hunched over rough tools. A few glance up as our boots crunch the gravel, their gazes carrying the same lifeless exhaustion I saw in the children at the Beacon of Hope. They look long past expecting anything good from strangers.
+We break cover and make for the packed-dirt thoroughfare leading toward the main archway. Wooden hovels flank both sides of the road, their plots tilled by peasants hunched over rough, pitted iron tools. A few glance up as our boots crunch the gravel, their gazes carrying the same lifeless exhaustion I saw in the children at the Beacon of Hope. They look long past expecting anything good from strangers.
 
 We hold our tongues as Melindra instructed, keeping an even pace until the iron portcullis looms above us. Daren squares his shoulders and steps up to the sentry stationed before the threshold.
 
@@ -64,15 +66,15 @@ TEXT:
 
  "What will we do if they don't buy our story?"
 
-"Merchants receive priority clearance because outsiders rarely bring goods here," Melindra says. "If the guard doubts Daren's trade, we submit to standard entry processing. It involves tedious paperwork and delays, but nothing insurmountable."
+"Merchants are cleared first because outsiders rarely bring goods here," Melindra says. "If the guard doubts Daren's trade, we submit to standard entry inspection. It involves tedious questioning and delays, but nothing insurmountable."
 
-"Her logic holds," Daren says, adjusting the straps of his gauntlets. "Melindra knows the ground better than the rest of us. Keep your hands near your steel nonetheless. If the gatekeeper balks, we prepare for the worst. Melindra, any other details before we step out?"
+"Her logic holds," Daren says, adjusting the shoulder straps of his plate harness. "Melindra knows the ground better than the rest of us. Keep your hands near your steel nonetheless. If the gatekeeper balks, we prepare for the worst. Melindra, any other details before we step out?"
 
-"Tell the sentry you carry an invitation from a local buyer," Melindra says. "It speeds the inspection. If he demands a name, say your client insists on anonymity. Unless the protocols tightened drastically during my absence, that will clear us through. One more rule: keep your voices down through the settlement. Silence is better. These villagers live under the heel of an erratic monarch; any hint of our true business will send them running to the garrison. We are on hostile ground."
+"Tell the sentry you carry an invitation from a local buyer," Melindra says. "It speeds the inspection. If he demands a name, say your patron insists on anonymity. Unless guard orders tightened drastically during my absence, that will clear us through. One more rule: keep your voices down through the settlement. Silence is better. These villagers live under the heel of an erratic monarch; any hint of our true business will send them running to the garrison. We are on hostile ground."
 
 "Understood," Daren says. "I will handle the talking at the barrier. Stay close."
 
-We break cover and make for the packed-dirt thoroughfare leading toward the main archway. Wooden hovels flank both sides of the road, their plots tilled by peasants hunched over rough tools. A few glance up as our boots crunch the gravel, their gazes carrying the same lifeless exhaustion I saw in the children at the Beacon of Hope. They look long past expecting anything good from strangers.
+We break cover and make for the packed-dirt thoroughfare leading toward the main archway. Wooden hovels flank both sides of the road, their plots tilled by peasants hunched over rough, pitted iron tools. A few glance up as our boots crunch the gravel, their gazes carrying the same lifeless exhaustion I saw in the children at the Beacon of Hope. They look long past expecting anything good from strangers.
 
 We hold our tongues as Melindra instructed, keeping an even pace until the iron portcullis looms above us. Daren squares his shoulders and steps up to the sentry stationed before the threshold.
 
@@ -84,9 +86,9 @@ TEXT:
 
  "Good day to you," Daren calls out, projecting his voice across the ditch. "Are you the officer in charge of entry clearance?"
 
-The sentry slumps in a wooden chair beside the gatehouse, chewing on a fibrous stalk. He measures us from boots to brows with dead eyes, barely registering Daren's greeting. Two massive iron golems flank the iron doors behind him, their hollow visors locked onto our formation.
+The sentry slumps in a wooden chair beside the gatehouse, chewing lazily on a fibrous stalk. He measures us from boots to brows with dead, rheumy eyes, barely registering Daren's greeting. Two massive iron golems flank the iron doors behind him, steam ticking from their chest joints, their hollow visors locked onto our formation.
 
-Daren waits with practiced patience as the guard pushes himself up from the chair and ambles forward, spitting green residue into the dirt.
+Daren waits with practiced patience as the guard pushes himself up from the chair and ambles forward, spitting green residue into the dry ditch.
 
 "State your business," the man mutters.
 
@@ -111,7 +113,7 @@ Daren blinks. "Password?"
 choice(""Uh, the guy we were supposed to meet didn't tell us about any passwords."", B3-Ch02a-Resort, v_current_scene = B3-Ch02a-Resort, v_b3_ch2_pass2 = 0)
 choice(""The password is 'shut your mouth and open the gate' "", B3-Ch02a-Resort, v_current_scene = B3-Ch02a-Resort, v_b3_ch2_pass2 = 1)
 choice(""We forgot the password."", B3-Ch02a-Resort, v_current_scene = B3-Ch02a-Resort, v_b3_ch2_pass2 = 2)
-choice(""The password is 'a drunk orangutan wearing a party hat' "", B3-Ch02a-Resort, v_current_scene = B3-Ch02a-Resort, v_b3_ch2_pass2 = 3)
+choice(""The password is 'iron falcon' "", B3-Ch02a-Resort, v_current_scene = B3-Ch02a-Resort, v_b3_ch2_pass2 = 3)
 choice(""The password is 'griffin beak' "", B3-Ch02a-Resort, v_current_scene = B3-Ch02a-Resort, v_b3_ch2_pass2 = 4) if (v_b3_ch1_password == 1)
 
 
@@ -121,17 +123,17 @@ TEXT:
 #if(v_b3_ch2_pass2 == 0) {
  "Uh, the guy we were supposed to meet didn't tell us about any passwords."
 
-"Hardly likely," the guard says. "Anyone living inside knows the rule. If your man left it out, he isn't in a hurry for your goods. You file the entry petition like every other foreigner."
+"Hardly likely," the guard says, shifting the stalk across his teeth. "Anyone living inside knows the rule. If your man left it out, he isn't in a hurry for your goods. You file the entry petition like every other foreigner."
 
 }
 #if(v_b3_ch2_pass2 == 1) {
  "The password is 'shut your mouth and open the gate' "
 
-"Your hireling has a sharp tongue," the sentry says to Daren, cutting his eyes toward me. "The two iron lads behind me have a sharp touch to match. Shall I introduce him? I wager they would reach an understanding in short order."
+"Your hireling has a sharp tongue," the sentry says to Daren, cutting his eyes toward me with a dull, menacing squint. "The two iron lads behind me have a sharp touch to match. Shall I introduce him? I wager they would reach an understanding in short order."
 
-"Pay my escort no mind," Daren says smoothly, holding out a placating hand. "He forgets himself. He does not speak on my behalf. Regrettably, we do not possess the required phrase."
+"Pay my escort no mind," Daren says smoothly, holding out a placating, leather-gloved hand. "He forgets himself. He does not speak on my behalf. Regrettably, we do not possess the required phrase."
 
-"No phrase, no crossing," the sentry says. "Submit a petition and wait your turn."
+"No phrase, no crossing," the sentry says, spitting into the ditch. "Submit a petition and wait your turn."
 
 }
 #if(v_b3_ch2_pass2 == 2) {
@@ -139,17 +141,17 @@ TEXT:
 
 "Then pull out your transceiver and ask this patron of yours to repeat it," the guard says.
 
-"We... attempted contact before reaching the ditch, but the channel was dead," Daren says.
+"We... attempted contact before reaching the ditch, but the channel was dead," Daren says, forcing an apologetic grimace.
 
 "Then you sit in the queue and wait for the ink to dry on an entry petition, like any other stranger."
 
 }
 #if(v_b3_ch2_pass2 == 3) {
- "The password is 'a drunk orangutan wearing a party hat' "
+ "The password is 'iron falcon' "
 
-"A drunk orangutan wearing a party hat?" The sentry stares at me like I crawled out of a swamp. "Are you simple? That cipher was retired over a year ago. Did you genuinely think an outdated phrase would open iron gates?"
+" 'Iron falcon'?" The sentry stares at me like I crawled out of a swamp. "Are you simple? That cipher was retired over a year ago. Did you genuinely think an outdated phrase would open iron gates?"
 
-"Right... worth checking," I say, blinking against the sheer absurdity that anyone in an official garrison ever used those words with a straight face.
+"Right... worth checking," I say.
 
 "No current phrase, no entry," the sentry says. "Submit a petition like every other traveler."
 
@@ -157,26 +159,26 @@ TEXT:
 #if(v_b3_ch2_pass2 == 4) {
  "The password is 'griffin beak' "
 
-"Wrong," the sentry says. "Whether you pulled that out of the air or someone fed you bad coin, it earns you nothing here. Submit an entry petition like every other traveler."
+"Wrong," the sentry says flatly. "Whether you pulled that out of the air or someone fed you bad coin, it earns you nothing here. Submit an entry petition like every other traveler."
 
 }
  "What does the petition process entail?" Daren asks.
 
-"For now, you wait," the sentry replies. "I will dispatch a runner to the district magistrate before dusk to request clearance forms. You sign when they arrive. If you want, check back tomorrow, though I wouldn't waste the boot leather. Clearance rarely clears the magistrate's desk in under three days."
+"For now, you wait," the sentry replies, leaning back into his creaking wooden chair. "I will dispatch a runner to the district magistrate before dusk to request clearance forms. You sign when they arrive. If you want, check back tomorrow, though I wouldn't waste the boot leather. Clearance rarely clears the magistrate's desk in under three days."
 
-"Three days?" Daren's voice cracks before he reins it in, plastering on a rigid smile. "I see. Very well. We shall return to our camp and check on the morrow. Thank you for your time."
+"Three days?" Daren's voice cracks slightly before he reins it in, plastering on a rigid, diplomat's smile. "I see. Very well. We shall return to our camp and check on the morrow. Thank you for your time."
 
-The sentry grunts, and we turn around and retrace our steps down the village road. We maintain strict silence past the cottages, but the moment the pine shadows close around us, Hadrik erupts.
+The sentry grunts, and we turn around and retrace our steps down the gravel road. We maintain strict silence past the cottages, but the moment the pine shadows close around us, Hadrik erupts.
 
-"Three days!" he roars, throwing his arms in the air. "The ambassador will march in three times over before a clerk signs that parchment! We might as well split their iron gates right now! At least we take the initiative!"
+"Three days!" he roars, throwing his thick hands in the air. "The ambassador will march in three times over before a clerk dips a quill for that parchment! We might as well split their iron gates right now! At least we take the initiative!"
 
-"Force is our absolute last resort," Daren says firmly. "You saw the constructs at the gatehouse. That is merely their outer perimeter. Who knows what wards and automata they hold in reserve through the inner rings? We are not finished. We know entry requires a phrase. All we need is a method to uncover it."
+"Force is our absolute last resort," Daren says firmly, stepping into the dwarf's path. "You saw the constructs at the gatehouse. That is merely their outer perimeter. Who knows what wards and automata they hold in reserve through the inner rings? We are not finished. We know entry requires a phrase. All we need is a method to uncover it."
 
 "The farmers must possess the phrase," Leila writes, blue characters glowing in the dim shade of the branches. "They require daily access to the markets for supplies."
 
-"Leila is correct," Illuna says. "A bribe should loosen a tongue. In a settlement this destitute, extra coin usually outweighs local decrees."
+"Leila is correct," Illuna says, her voice cool and measured. "A bribe should loosen a tongue. In a settlement this destitute, extra coin usually outweighs local decrees."
 
-"Ollendor is not Thilias," Melindra warns, shaking her head. "Here, a broken decree costs you your family, or worse. Few peasants will trade their lives for gold." 
+"Ollendor is not Thilias," Melindra warns, leaning against a pine trunk and shaking her head. "Here, a broken decree costs you your family, or worse. Few peasants will trade their lives for gold."
 
 choice(""What if we tried to get one of them drunk, instead?"", B3-Ch02a-Drunk, v_current_scene = B3-Ch02a-Drunk, v_b3_ch2_infiltration = 0)
 choice(""To be honest, I agree with Hadrik. We should just smash through their front gates."", B3-Ch02a-Smash, v_current_scene = B3-Ch02a-Smash, v_b3_ch2_infiltration = 1)
@@ -188,11 +190,11 @@ TEXT:
 
  "What if we tried to get one of them drunk, instead?"
 
-"Now that sounds like proper work," Hadrik says, grinning broadly. "I wager these peasants have never tasted authentic dwarven vintage. A single bottle from my pack will buy us all the conversation we need."
+"Now that sounds like proper work," Hadrik says, grinning broadly through his black beard. "I wager these peasants have never tasted authentic dwarven vintage. A single bottle from my pack will buy us all the conversation we need."
 
-"Discretion is essential," Daren warns, frowning. "We cannot corner villagers in dark alleys without drawing eyes. And asking directly in the taproom will have someone reporting us to the gatehouse before the foam settles."
+"Discretion is essential," Daren warns, frowning as he adjusts his baldric. "We cannot corner villagers in dark alleys without drawing eyes. And asking directly in the taproom will have someone reporting us to the gatehouse before the foam settles."
 
-"Leave the craft to me," Hadrik says. "I know how to lure a thirsty man into private quarters. But we cannot march in as a company. A full warband—especially with you clanking in full plate—will frighten them off. Just Barry and me. Ready for a tavern run, Barry?"
+"Leave the craft to me," Hadrik says, clapping my shoulder with enough force to rattle my teeth. "I know how to lure a thirsty man into private quarters. But we cannot march in as a company. A full warband—especially with you clanking in full plate—will frighten them off. Just Barry and me. Ready for a tavern run, Barry?"
 
 "Lead the way," I say.
 
@@ -200,37 +202,37 @@ TEXT:
 
 "Keep the channel open if trouble starts," Daren adds. "We cannot assist from the tree line if you get boxed in."
 
-"Aye, aye," Hadrik says, already turning. "We have it in hand."
+"Aye, aye," Hadrik says, already turning on his heel. "We have it in hand."
 
-We step out from the canopy onto the settlement lane, scanning the clustered shacks for a tavern sign. Seeing none, Hadrik flags down a middle-aged man sitting on an overturned crate in a yard.
+We step out from the pine canopy onto the rutted settlement lane, scanning the clustered shacks for a tavern sign. Seeing none, Hadrik flags down a middle-aged man sitting on an overturned crate in a dusty yard.
 
-"Ho there, friend!" Hadrik calls out. "Where does a thirsty traveler find the local taphouse? My companion and I are in dire need of a drink."
+"Ho there, friend!" Hadrik calls out heartily. "Where does a thirsty traveler find the local taphouse? My companion and I are in dire need of a drink."
 
-The man stares at Hadrik with vacant, rheumy eyes for several seconds, then rises from his crate, walks into his cottage, and latches the door without uttering a word.
+The man stares at Hadrik with vacant, rheumy eyes for several seconds, then rises slowly from his crate, walks into his cottage, and latches the heavy wooden door without uttering a word.
 
 "Not a conversationalist," Hadrik mutters to me.
 
-He turns toward another villager turning soil with a rusted spade.
+He turns toward another villager turning hard dirt with a rusted spade.
 
 "Good man," Hadrik tries again. "Which way to the alehouse?"
 
-The farmer halts his spade, looks Hadrik over, and jerks his chin silently toward a squat timber hall further down the lane before resuming his digging.
+The farmer halts his spade, looks Hadrik over from boots to beard, and jerks his chin silently toward a squat timber hall further down the lane before resuming his digging.
 
 "Clear enough," Hadrik says, shaking his head. "Let's find this drink."
 
-Following the direction, we locate the building easily. Though it carries no sign, two patrons stumble out the sagging doorway, swaying on unsteady boots and reeking of sour mash.
+Following the direction, we locate the building easily. Though it carries no sign, two patrons stumble out the sagging doorway, swaying on unsteady boots and reeking of sour, fermented mash.
 
-We push past the heavy leather curtain. The counter stands chest-high on Hadrik. The barkeep barely registers the dwarf until Hadrik raps his knuckles on the timber and demands their strongest draught. The man pours a dark, murky liquor into a wooden mug with mechanical indifference.
+We push past the heavy leather curtain. The rough-hewn counter stands chest-high on Hadrik. The barkeep barely registers the dwarf until Hadrik raps his heavy knuckles on the timber and demands their strongest draught. The man pours a dark, murky liquor into a stained wooden mug with mechanical indifference.
 
-"You call this your strongest?" Hadrik roars, draining the mug in one massive swallow. "By the clans, you surface folk have no notion of proper drink. Here—let me show you real craft!"
+"You call this your strongest?" Hadrik roars, draining the mug in one massive swallow and slamming the timber down. "By the clans, you surface folk have no notion of proper drink. Here—let me show you real craft!"
 
 He unhitches a heavy glass bottle of dark dwarven ale from his pack and thumps it onto the counter.
 
 "See that?" Hadrik tells the barkeep. "Pure dwarven vintage. Best brew you will ever set to your tongue. Go on, take a pull! I have a whole pack of them."
 
-"No outside liquor," the barkeep says flatly, his face completely rigid. "Take your bottle and drink it in the dirt outside."
+"No outside liquor," the barkeep says flatly, his face completely rigid as stone. "Take your bottle and drink it in the dirt outside."
 
-"Is that so?" Hadrik retakes the bottle, his brow arching. "Perhaps I will."
+"Is that so?" Hadrik retakes the bottle, his brow arching with amusement. "Perhaps I will."
 
 choice("Continue", B3-Ch02a-Drunk2, v_current_scene = B3-Ch02a-Drunk2)
 
@@ -238,9 +240,9 @@ choice("Continue", B3-Ch02a-Drunk2, v_current_scene = B3-Ch02a-Drunk2)
 ID: B3-Ch02a-Drunk2
 TEXT:
 
- He pulls the cork, takes a deep swig, and turns to the handful of sullen patrons hunched over their cups.
+ He pulls the cork with a pop, takes a deep swig, and turns to the handful of sullen patrons hunched over their cups in the gloom.
 
-"Anyone tired of sour swill and miserable rules is welcome to join me," Hadrik announces. "The dwarf buys the round!"
+"Anyone tired of sour swill and miserable rules is welcome to join me," Hadrik announces, holding the bottle aloft. "The dwarf buys the round!"
 
 We step back outside into the gravel road, Hadrik taking another slow draught from the neck.
 
@@ -248,29 +250,29 @@ We step back outside into the gravel road, Hadrik taking another slow draught fr
 
 "Every time," Hadrik says, pulling a second bottle from his pack and handing it to me. "Different towns, same thirsty souls. Give it five seconds."
 
-Right on cue, the leather curtain parts. A gaunt, red-nosed man in stained homespun emerges, scanning the road eagerly. Catching sight of the glass bottle in Hadrik's hand, he shambles over, trailing the sour heat of fermented grain.
+Right on cue, the leather curtain parts. A gaunt, red-nosed man in stained homespun emerges, scanning the road eagerly. Catching sight of the dark glass bottle in Hadrik's hand, he shambles over, trailing the sour heat of stale mash.
 
 "There we go," Hadrik murmurs with a smirk.
 
-"You... truly offering that dwarven bottle?" the man asks, licking dry lips. "A sip, maybe?"
+"You... truly offering that dwarven bottle?" the man asks, licking dry, chapped lips. "A sip, maybe?"
 
 "Tell you what," Hadrik says, lowering his flask. "You took our side against that miserable excuse for a barkeep. I will give you a full bottle to yourself."
 
-"A whole bottle?" The man's eyes widen, his hands trembling slightly. "That is... uncommonly generous."
+"A whole bottle?" The man's eyes widen, his fingers trembling slightly. "That is... uncommonly generous."
 
-"Quality deserves appreciation," Hadrik says, producing another bottle and pressing it into the peasant's hands. "Take it. But not on this porch—I have no desire to listen to that barkeep whine about his stoop. Lead us somewhere quiet where we can drink without interruption."
+"Quality deserves appreciation," Hadrik says, producing another bottle and pressing it firmly into the peasant's hands. "Take it. But not on this porch—I have no desire to listen to that barkeep whine about his stoop. Lead us somewhere quiet where we can drink without interruption."
 
-"I know a spot," the drunkard says, already pulling the cork with his teeth and taking a deep gulp. "Follow me."
+"I know a spot," the drunkard says, already pulling the cork with his teeth and taking a deep, shuddering gulp. "Follow me."
 
 Hadrik flashes me a grin, and we fall in behind him.
 
-Five minutes through weed-choked alleys bring us to a decrepit stone cottage with shattered shutters and a caved-in porch. Dust and cobwebs coat the bare floorboards inside, stripped of every scrap of furniture.
+Five minutes through weed-choked alleys bring us to a decrepit stone cottage with shattered shutters and a caved-in porch. Dust and thick cobwebs coat the bare floorboards inside, stripped clean of every scrap of furniture.
 
-The man collapses against the wall with his legs splayed, clutching the bottle. Hadrik and I drop onto the rough timber opposite him, crossing our legs.
+The man collapses against the wall with his legs splayed, clutching the bottle like a lifeline. Hadrik and I drop onto the rough timber opposite him, crossing our legs.
 
-"Belonged to a family of mages," the man rasps, gesturing vaguely at the empty hearth. "Empty over a year now. Maybe two. Disappeared between dusk and dawn, the father and all three boys. When the parish asked the garrison, the guards told us to hold our tongues. So we held our tongues. No one comes near it now—looters took everything worth carrying long ago, and the dead don't return. Cheers."
+"Belonged to a family of mages," the man rasps, gesturing vaguely at the blackened, empty hearth. "Empty over a year now. Maybe two. Disappeared between dusk and dawn, the father and all three boys. When the parish asked the garrison, the guards told us to hold our tongues. So we held our tongues. No one comes near it now—looters took everything worth carrying long ago, and the dead don't return. Cheers."
 
-"Cheers," Hadrik says, and we tap our bottles together.
+"Cheers," Hadrik says, and we tap our bottles together with a solid clink.
 
 The man takes another greedy swallow and coughs violently, shaking his head. "Gods above... that hits like an anvil. My head is swimming already."
 
@@ -278,7 +280,7 @@ The man takes another greedy swallow and coughs violently, shaking his head. "Go
 
 "I can hold my drink!" the man snaps defensively, taking another stubborn swig. "Been haunting taprooms since I was a boy. No dwarven brew puts me down."
 
-"Good lad," Hadrik says, raising his bottle.
+"Good lad," Hadrik says, raising his bottle in salute.
 
 choice("Continue", B3-Ch02a-Drunk3, v_current_scene = B3-Ch02a-Drunk3)
 
@@ -286,25 +288,25 @@ choice("Continue", B3-Ch02a-Drunk3, v_current_scene = B3-Ch02a-Drunk3)
 ID: B3-Ch02a-Drunk3
 TEXT:
 
- "So," I say, pretending to take a heavy pull while only wetting my lips, "what do you think happened to the mages who lived here? Arrested? How often do folk vanish around the village?"
+ "So," I say, pretending to take a heavy pull while only wetting my lips with the dark foam, "what do you think happened to the mages who lived here? Arrested? How often do folk vanish around the village?"
 
-"Not often out here in the fields," the drunkard mutters, his speech slurring around the consonants. "Inside the walls, though... different story. Rumors creep out every season. People walking down an alley and never coming home. Dark times in the capital. Whatever trade brought you here, finish it fast and clear out. Nothing good grows under that palace."
+"Not often out here in the fields," the drunkard mutters, his speech slurring around the consonants as his eyelids droop. "Inside the walls, though... different story. Rumors creep out every season. People walking down an alley and never coming home. Dark times in the capital. Whatever trade brought you here, finish it fast and clear out. Nothing good grows under that palace."
 
-"At this rate, we won't even clear the outer ditch," Hadrik grumbles, leaning back against the wall.
+"At this rate, we won't even clear the outer ditch," Hadrik grumbles, leaning his back against the rough wall timber.
 
-"How so?" the man asks, squinting through the gloom.
+"How so?" the man asks, squinting blearily through the gloom.
 
 "We have a buyer waiting inside to trade for enchanted wares," Hadrik lies smoothly. "The fool neglected to provide the gate phrase, and his transceiver has gone silent. The sentry claims we must wait for clearance petitions, but that's just a stall until we pack up and leave. A complete waste of travel."
 
-"Barred at the gate?" The drunkard shakes his head, staring blearily at the floor. "A shame. A bloody shame after coming all this way..."
+"Barred at the gate?" The drunkard shakes his head, staring at the dusty floorboards. "A shame. A bloody shame after coming all this way..."
 
-He trails off, swaying slightly as the ale works into his blood.
+He trails off, swaying slightly as the potent ale works into his veins.
 
-"Stupid rules," he mutters, spitting onto the floorboards. "Hardly any foreign trade visits as it is, and the crown turns away honest merchants for 'security.' Paranoid madness, that's what it is. The king sees daggers in every shadow, even among his own subjects."
+"Stupid rules," he mutters, spitting onto the floor. "Hardly any foreign trade visits as it is, and the crown turns away honest merchants for 'security.' Paranoid madness, that's what it is. The king sees daggers in every shadow, even among his own subjects."
 
 He takes another heavy draught, his face flushed deep crimson. When he looks up, his eyes carry a reckless, stubborn gleam.
 
-"Listen here," the drunkard says, leaning forward. "I will give you the phrase. You gave me good drink, and I won't see decent folk turned away empty-handed."
+"Listen here," the drunkard says, leaning forward and lowering his voice. "I will give you the phrase. You gave me good drink, and I won't see decent folk turned away empty-handed."
 
 "Are you certain?" Hadrik asks, tilting his head. "The garrison won't take kindly to a breach."
 
@@ -312,11 +314,11 @@ He takes another heavy draught, his face flushed deep crimson. When he looks up,
 
 "Not a word," Hadrik promises. "We tell them our buyer finally answered the transceiver."
 
-"Right, then," the drunkard rasps. "This week's phrase is 'gargoyle wings.' If they press on prior weeks, last week was 'broken oars.' That clears you past the iron lads."
+"Right, then," the drunkard rasps, leaning in close. "This week's phrase is 'gargoyle wings.' If they press on prior weeks, last week was 'broken oars.' That clears you past the iron lads."
 
 "Splendid!" Hadrik slaps his knee. "Much obliged, friend! Wait until the others hear we cracked it."
 
-"Go on and meet your buyer," the man says, waving us off lazily. "Don't fret over me. I know the way back to my cot."
+"Go on and meet your buyer," the man says, waving us off lazily as he slumps back against the stone. "Don't fret over me. I know the way back to my cot."
 
 choice(""That's a good idea! Let's go, Hadrik!"", B3-Ch02a-Shrewd, v_current_scene = B3-Ch02a-Shrewd, v_b3_ch2_infiltration = 0)
 choice(""We can still wait for you to finish your drink. We're not in THAT much of a hurry."", B3-Ch02a-Shrewd, v_current_scene = B3-Ch02a-Shrewd, v_b3_ch2_infiltration = 3)
@@ -330,11 +332,11 @@ TEXT:
 
 "Right," Hadrik says, pushing himself up from the dusty floorboards. "I can finish my ale on the road."
 
-"Safe travels, friends," the drunkard mumbles, waving a limp hand.
+"Safe travels, friends," the drunkard mumbles, waving a limp hand from the corner.
 
 We slip out of the abandoned cottage and take the dirt lane back toward the forest where Daren and the rest of the group wait under cover.
 
-"We could have let the man finish his drink in peace," Hadrik grumbles as we walk.
+"We could have let the man finish his drink in peace," Hadrik grumbles as our boots crunch the gravel.
 
 "And give him time to sober up and start asking who we really are?" I say. "No thanks. We got the phrase. Lingering only invites trouble."
 
@@ -362,17 +364,17 @@ We regroup on the gravel and turn toward the city gatehouse, ready to clear the 
 #if(v_b3_ch2_infiltration == 3) {
  "We can still wait for you to finish your drink. We're not in THAT much of a hurry."
 
-"Aye, the others can wait a few extra minutes," Hadrik says, settling back down. "Savor the vintage, friend."
+"Aye, the others can wait a few extra minutes," Hadrik says, settling back down on the timber. "Savor the vintage, friend."
 
 "To good company," the drunkard slurs, tapping his bottle against Hadrik's.
 
-By the time the bottle empties, the man can barely keep his footing. Hadrik and I haul him to his feet, tucking his arms over our shoulders as we guide him out into the lane. Just past the porch, he suddenly stiffens, his brow furrowing as he struggles through the drunken haze.
+By the time the bottle empties, the man can barely keep his footing. Hadrik and I haul him up, tucking his arms over our shoulders as we guide him out into the lane. Just past the collapsed porch, he suddenly stiffens, his brow furrowing as he struggles through the drunken haze.
 
-"Wait... almost forgot," he whispers hoarsely. "The words alone aren't enough. You have to... wink three times with your left eye while saying it. New rule from the captain... against eavesdroppers."
+"Wait... almost forgot," he whispers hoarsely, hot breath smelling of hops against my ear. "The words alone aren't enough. You have to... wink three times with your left eye while saying it. New rule from the captain... against eavesdroppers."
 
 "Good catch," Hadrik murmurs back. "That would have been an awkward conversation at the barrier."
 
-"They change the protocol every month," the drunkard grumbles, leaning heavily against us. "Can't keep track of it all... My shack is just ahead. Leave me by the fence. I can crawl to the bed."
+"They change the watch orders every month," the drunkard grumbles, leaning heavily against our shoulders. "Can't keep track of it all... My shack is just ahead. Leave me by the fence. I can crawl to the bed."
 
 We deposit him gently beside his gate, exchange a brief farewell, and make our way back down the road toward the pines.
 
@@ -403,17 +405,17 @@ TEXT:
 
 "Exactly!" Hadrik says, clapping a broad palm against his thigh. "Barry sees it. Clean and direct."
 
-"Have you forgotten the iron monstrosities walking the perimeter?" Daren asks, shaking his head.
+"Have you forgotten the iron monstrosities walking the perimeter?" Daren asks, shaking his head with exasperation.
 
 "They are metal automata," Hadrik says dismissively. "No matter how thick the plating, enough force shatters the frame. Those flame jets from their jaws are magical construct fire—your shield can turn them aside, and your blade can drink the heat and throw it right back. While you anchor the barrier, Kate, Flower, and Illuna can blast the constructs with ice and water."
 
 "Those hulls likely carry anti-magic enchantments," Daren counters.
 
-"Given time to compress the ice, my lances can puncture reinforced plate," Kate says, her voice steady. "And raw kinetic force from water lances or fireballs still dents and destabilizes heavy frames, anti-magic or not. We do not need an extended siege. Once we cross the threshold, the golems cannot pursue without tearing up their own streets and crushing citizens."
+"Given time to compress the ice, my lances can puncture reinforced plate," Kate says, her voice flat and steady. "And raw kinetic force from water lances or fireballs still dents and destabilizes heavy frames, anti-magic or not. We do not need an extended siege. Once we cross the threshold, the golems cannot pursue without tearing up their own streets and crushing citizens."
 
-"Then the plan stands," Hadrik says, his eyes gleaming. "I break the gate, and we advance beneath Daren's barrier. Daren, you can maintain the ward while marching?"
+"Then the plan stands," Hadrik says, his eyes gleaming with battle lust. "I break the gate, and we advance beneath Daren's barrier. Daren, you can maintain the ward while marching?"
 
-"At a crawl," Daren grumbles. "Any faster and the perimeter folds. And I have not agreed to this madness."
+"At a crawl," Daren grumbles, resting his palm on his pommel. "Any faster and the perimeter folds. And I have not agreed to this madness."
 
 choice("Continue", B3-Ch02a-Smash2, v_current_scene = B3-Ch02a-Smash2)
 
@@ -421,19 +423,19 @@ choice("Continue", B3-Ch02a-Smash2, v_current_scene = B3-Ch02a-Smash2)
 ID: B3-Ch02a-Smash2
 TEXT:
 
- "One detail," Melindra cuts in, raising a finger. "I am not slinging gale blades into a golem melee. The risk of shredding our own line or clipping a city guard is too high. I will cast the flight currents around Barry, but nothing more."
+ "One detail," Melindra cuts in, raising a slender finger. "I am not slinging gale blades into a golem melee. The risk of shredding our own line or clipping a city guard is too high. I will cast the flight currents around Barry, but nothing more."
 
 "Fair enough," Hadrik says. "I draw the golems' attention. The tournament geas keeps me from hitting the local guards anyway, so smashing metal keeps me occupied. The rest of you advance while I hold the line."
 
 "Which leaves the perimeter guards to the rest of us," I say. "With Melindra's air currents, I can reach the parapet archers and clear the crossbow line before they pin Daren down."
 
-"You are dragging me into a slaughter regardless of what I say, aren't you?" Daren sighs, running a hand over his bald scalp.
+"You are dragging me into a slaughter regardless of what I say, aren't you?" Daren sighs, running a heavy gauntlet over his bald scalp.
 
 "Ah," Arraka's voice crackles from the amulet, dripping with malicious glee. "How terrible to have your noble council cast aside. Remember yesterday when I suggested Flower lob fireballs over the parapet to burn them out of their hovels like vermin? You ignored me then. Backing my wisdom might have earned my support now. You threw your leverage away, paladin!"
 
 "Kidding aside, we need everyone aligned," Hadrik says, his tone turning serious. "Every neck is on the line. If anyone has reservations, speak them now, because once iron breaks, we cannot turn back. Clear your heads for five minutes, and we settle it."
 
-We take the pause, sitting among the roots to let the heat bleed from the debate. Daren eventually relents, extracted under a firm promise: no unnecessary slaughter, and the city guards are neutralized rather than executed, since they are only soldiers following a tyrant's orders.
+We take the pause, sitting among the pine roots to let the heat bleed from the debate. Daren eventually relents, extracted under a firm promise: no unnecessary slaughter, and the city guards are neutralized rather than executed, since they are only soldiers following a tyrant's orders.
 
 With the pact struck, we file out of the pines and make for the thoroughfare. But before our boots clear the gravel verge, a harsh, guttural voice calls out from the undergrowth.
 
@@ -445,17 +447,17 @@ TEXT:
 
  "I could try to eavesdrop on someone from afar," I say. "A villager will need market access eventually."
 
-"A sound approach," Daren says, looking toward the road. "Can your hearing span that distance from the tree line? We cannot have you pacing the cottages aimlessly. A stranger lingering near homes will draw suspicion."
+"A sound approach," Daren says, looking toward the distant road through the boughs. "Can your hearing span that distance from the tree line? We cannot have you pacing the cottages aimlessly. A stranger lingering near homes will draw suspicion."
 
 "I stay in the brush," I say. "I can pick up the chatter from behind the verge. I normally filter out background prattle, but with full focus, I can isolate anyone discussing gate entry and trail them."
 
-"Do not overtax your focus," Daren says. "We need your mind sharp for the city."
+"Do not overtax your focus," Daren says, touching his forehead scar. "We need your mind sharp for the city."
 
 "Understood," I say. "I will keep to the perimeter."
 
 I work my way to the forest edge, crouching behind a broad pine trunk with full line of sight to the settlement. I draw a steady breath and let my hearing expand, sifting through the layered noise of the village. It takes intense concentration—dozens of voices bleed together across the dirt lanes. Most of it is petty domestic drudgery, spoken in flat, beaten tones.
 
-In one yard, a man mutters a bitter curse against the tax collectors to his wife, then silences himself abruptly, glancing around in terror of the shadows. The rest is mundane routine: rusted tools, sour grain, aching joints.
+In one yard, a man mutters a bitter curse against the tax collectors to his wife, then silences himself abruptly, glancing around in terror of the shadows. The rest is mundane routine: rusted tools clinking against stony soil, sour grain boiling in pots, aching joints complained of in hushed whispers.
 
 choice("Continue", B3-Ch02a-Eavesdrop2, v_current_scene = B3-Ch02a-Eavesdrop2)
 
@@ -465,13 +467,13 @@ TEXT:
 
  Ten minutes of sorting through the drab murmur finally pays off. A voice near the northern plots mentions hauling turnip sacks through the gatehouse before noon.
 
-I ease out of the brush and fall in thirty paces behind the source: a stooped farmer hauling a two-wheeled wooden handcart piled with root vegetables. I keep my distance, pausing to inspect fence posts whenever he slows, matching his trudging pace toward the ditch.
+I ease out of the brush and fall in thirty paces behind the source: a stooped farmer hauling a squeaking, two-wheeled wooden handcart piled with root vegetables. I keep my distance, pausing to inspect fence posts whenever he slows, matching his trudging pace toward the ditch.
 
 At the barrier, the sentry steps from his chair and demands the weekly phrase.
 
 The farmer does not hesitate: 'gargoyle wings.'
 
-The sentry signals. The iron portcullis groans upward, and the two iron golems part to clear the lane. Once the cart rattles through and the iron drops, I turn on my heel, drawing my transceiver and keying Daren's frequency.
+The sentry signals. The iron portcullis groans upward on heavy chains, and the two iron golems part to clear the lane. Once the cart rattles through and the iron drops with a dull thud, I turn on my heel, drawing my transceiver and keying Daren's frequency.
 
 "Daren, you reading?"
 
@@ -493,13 +495,13 @@ TEXT:
 
 I narrow my focus toward the thicket. Faint, heavily suppressed auras thrum behind the leaves—ragged and tiny, impossible to spot without knowing where to look. Small frames, broken syntax: goblins.
 
-"Arraka," Illuna says sharply, her hand resting on the golden amulet. "Why was there no warning of goblins trailing us?"
+"Arraka," Illuna says sharply, her hand resting on the golden amulet at her hip. "Why was there no warning of goblins trailing us?"
 
 "What a ridiculous grievance," Arraka snorts from the metal. "Shall I report every vole beneath the roots and every thrush in the branches? I watch for real threats. Those creatures possess barely enough aura to light a candle. If I announced every harmless scavenger in the woods, your ears would bleed."
 
 "Were they lying in wait, or did they shadow us from the road?" Illuna asks.
 
-"They have been behind us since dawn," Melindra says casually. "I assumed everyone noticed. They carried no hostile intent, so I let them wander."
+"They have been behind us since dawn," Melindra says casually, flicking a leaf from her sleeve. "I assumed everyone noticed. They carried no hostile intent, so I let them wander."
 
 "How do you know they are not Tyrath's scouts?" Daren whispers, his knuckles whitening on his hilt. "They could have signaled the dragon hours ago!"
 
@@ -517,15 +519,15 @@ TEXT:
 
  "Leave the goblins," I say. "There is no point tangling with them. If they intended to alert Tyrath, the dragon already has our coordinates, and they cannot follow us past the gatehouse anyway. We are wasting daylight. Stick to the approach."
 
-"Sensible enough," Hadrik says with a nod.
+"Sensible enough," Hadrik says with a nod, grunting under his breath.
 
-"Then we keep moving," Daren says, adjusting his scabbard. "With any fortune, Tyrath's forces will hesitate to strike within city limits."
+"Then we keep moving," Daren says, adjusting his scabbard against his thigh. "With any fortune, Tyrath's forces will hesitate to strike within city limits."
 
 Daren leads out onto the packed gravel, and we fall in behind him. The goblin calls after us once more from the treeline, but the voice fades into the rustle of the pines.
 
 We retrace our route through the settlement lanes until the heavy gatehouse looms before us once again. The sentry sits in his chair with the same sour expression, squinting at our approach as we halt before the ditch.
 
-"Back already," he grunts. "Did this 'patron' of yours finally supply the phrase?"
+"Back already," he grunts, grinding the fibrous stalk. "Did this 'patron' of yours finally supply the phrase?"
 
 choice("Continue", B3-Ch02a-Ruckus, v_current_scene = B3-Ch02a-Ruckus) if (v_b3_ch2_infiltration == 3)
 choice("Continue", B3-Ch02a-Insane, v_current_scene = B3-Ch02a-Insane) if (v_b3_ch2_infiltration != 3)
@@ -536,29 +538,29 @@ TEXT:
 
  "We cut them down," I say in a low murmur. "Better to be certain. If they haven't signaled Tyrath yet, we buy ourselves another few hours before the next pack descends."
 
-"Agreed," Daren whispers, his hand closing over his hilt. "Keep your eyes sharp. They could be bait for an ambush."
+"Agreed," Daren whispers, his hand closing over his crossguard. "Keep your eyes sharp. They could be bait for an ambush."
 
-"Ugh," Hadrik mutters, rolling his shoulders. "Let's finish it quickly. I have no stomach for butchering scrawny runts."
+"Ugh," Hadrik mutters, rolling his thick shoulders in disgust. "Let's finish it quickly. I have no stomach for butchering scrawny runts."
 
 "We are coming in," I call out toward the brush. "Hold your ground."
 
-Daren, Hadrik, and I push through the undergrowth, weapons drawn. We close the distance in seconds, catching the first two before they can raise their rusted shortswords. Daren's blade takes the first through the chest; my dagger clears the second's throat. The third screeches in panic, scrambling on all fours through the briars. Hadrik lunges in pursuit, but a compressed lance of ice snaps through the branches, punching cleanly through the goblin's skull. The creature collapses into the leaf litter and lies still.
+Daren, Hadrik, and I push through the undergrowth, weapons drawn. We close the distance in seconds, catching the first two before they can raise their rusted shortswords. Daren's blade takes the first through the chest with a wet thud; my dagger clears the second's throat before a scream can form. The third screeches in blind panic, scrambling on all fours through the briars. Hadrik lunges in pursuit, but a compressed lance of ice snaps through the branches, punching cleanly through the goblin's skull with a sickening crack. The creature collapses into the leaf litter and lies still.
 
 "Clean strike," Hadrik calls over his shoulder to Kate.
 
 Melindra saunters up behind us, nudging the nearest corpse with the toe of her boot. "I hate to disappoint you, but these three never served Tyrath. The gear is far too decrepit, even for vanguard scouts."
 
-"Why trail us since dawn if they belong to no warband?" Daren asks, wiping his blade on a patch of moss.
+"Why trail us since dawn if they belong to no warband?" Daren asks, wiping a dark streak from his blade on a patch of moss.
 
 Melindra offers a mild shrug. "A mystery for the ages. You killed them before they could explain."
 
-"Could they belong to Fyron?" I ask, glancing at Illuna.
+"Could they belong to Fyron?" I ask, glancing back at Illuna.
 
 "Hardly," Illuna says, stepping over a fallen branch. "Fyron's scouts would not stray leagues from their division for no tactical purpose. They were drifters, beholden neither to the dragon nor the goblin general."
 
-"Monsters regardless," Daren says grimly, sheathing his sword. "Whatever their master, they brought nothing good to our heels. Let's reach the gate."
+"Monsters regardless," Daren says grimly, sheathing his sword with a sharp click. "Whatever their master, they brought nothing good to our heels. Let's reach the gate."
 
-"Right..." Hadrik grunts, clearly unconvinced.
+"Right..." Hadrik grunts, his jaw set hard as he looks away from the bloodied leaves.
 
 We clear the timber and take the road back toward the ditch. The sentry watches us from his chair, his jaw grinding on the green stalk as we halt before the threshold.
 
@@ -573,7 +575,7 @@ TEXT:
 
  "We hear them out," I say quietly. "Being goblins doesn't automatically make them Tyrath's vanguard."
 
-"And if they are?" Daren asks, his brow furrowing.
+"And if they are?" Daren asks, his brow furrowing with hard suspicion.
 
 "Then we cut them down where they stand," I reply. "Scouts wouldn't shout an invitation if they intended to ambush us—they have no numbers and no leverage. They claim to know the entry phrase, and listening costs us nothing."
 
@@ -581,13 +583,13 @@ TEXT:
 
 "We are coming in," I call toward the thicket. "Stay where you are."
 
-We push through the ferns into a small clearing under the pines. Three goblins stand huddled near a fallen trunk, clad in cracked leather boiled stiff with grease, their rusted sidearms dangling from fraying rope belts. The eldest steps forward, offering a low, clumsy bow.
+We push through the damp ferns into a small clearing under the pines. Three goblins stand huddled near a rotting trunk, clad in cracked leather boiled stiff with grease, their rusted sidearms dangling from fraying rope belts. The eldest steps forward, offering a low, clumsy bow.
 
 "Greetings, travelers," the old goblin rasps in Common. "We know your time is short, so we speak plainly. We observed your difficulty at the gatehouse. We possess information regarding the phrase required for entry, which we will trade for an item in your possession."
 
-"First question," Daren interrupts. "Do you answer to Tyrath?"
+"First question," Daren interrupts, towering over them in steel. "Do you answer to Tyrath?"
 
-"The Great Wyrm?" The goblin blinks, shaking his wrinkled green head. "No. We have no allegiance to dragon-kind."
+"The Great Wyrm?" The goblin blinks, shaking his wrinkled green head emphatically. "No. We have no allegiance to dragon-kind."
 
 "Fyron, then?" I ask.
 
@@ -608,15 +610,15 @@ TEXT:
 
  "None of the stones I gathered carried script," Melindra says flatly. "Common or goblin. I cannot read your tongue, but I recognize tool-marks, and my collection contains nothing of the sort."
 
-"May we examine the stones ourselves?" the goblin asks, taking half a step forward. "A subtle carving might escape an untrained eye."
+"May we examine the stones ourselves?" the goblin asks, taking half a step forward with palms open. "A subtle carving might escape an untrained eye."
 
-"Touch my pack," Melindra says with a sweet, radiant smile, "and a gale blade splits you from crown to groin."
+"Touch my pack," Melindra says with a sweet, radiant smile that never reaches her eyes, "and a gale blade splits you from crown to groin."
 
 The old goblin freezes, swallowing hard. "I see... Could you perhaps display them in your own palm, one by one?"
 
 "No," Melindra says, her smile never wavering.
 
-"That is... regrettable," the goblin sighs, lowering his ears. "Then our exchange cannot proceed. We apologize for the intrusion. We shall wait here in the event you reconsider."
+"That is... regrettable," the goblin sighs, lowering his pointed ears. "Then our exchange cannot proceed. We apologize for the intrusion. We shall wait here in the event you reconsider."
 
 "That is all?" Daren asks, brow arched. "No lunge for the bag?"
 
@@ -641,9 +643,9 @@ TEXT:
 
  "None of the stones I gathered carried script," Melindra says flatly. "Common or goblin. I cannot read your tongue, but I recognize tool-marks, and my collection contains nothing of the sort."
 
-"May we examine the stones ourselves?" the goblin asks, taking half a step forward. "A subtle carving might escape an untrained eye."
+"May we examine the stones ourselves?" the goblin asks, taking half a step forward with palms open. "A subtle carving might escape an untrained eye."
 
-"Touch my pack," Melindra says with a sweet, radiant smile, "and a gale blade splits you from crown to groin."
+"Touch my pack," Melindra says with a sweet, radiant smile that never reaches her eyes, "and a gale blade splits you from crown to groin."
 
 The old goblin freezes, swallowing hard. "I see... Could you perhaps display them in your own palm, one by one?"
 
@@ -749,7 +751,7 @@ We retrace our route past the cottages and halt once more before the gatehouse. 
 
 The sentry's brow shifts slightly. "Pass."
 
-He gestures behind him. The two iron golems step aside, and the heavy portcullis groans upward on its chains.
+He gestures behind him. The two iron golems step aside with a heavy grind of gears, and the heavy portcullis groans upward on its chains.
 
 "Keep your blades sheathed inside the perimeter," the sentry warns as we step up. "The garrison does not tolerate brawling."
 
@@ -783,7 +785,7 @@ We retrace our route past the cottages and halt once more before the gatehouse. 
 
 The sentry's brow shifts slightly. "Pass."
 
-He gestures behind him. The two iron golems step aside, and the heavy portcullis groans upward on its chains.
+He gestures behind him. The two iron golems step aside with a heavy grind of gears, and the heavy portcullis groans upward on its chains.
 
 "Keep your blades sheathed inside the perimeter," the sentry warns as we step up. "The garrison does not tolerate brawling."
 
@@ -825,7 +827,7 @@ We retrace our route past the cottages and halt once more before the gatehouse. 
 
 The sentry's brow shifts slightly. "Pass."
 
-He gestures behind him. The two iron golems step aside, and the heavy portcullis groans upward on its chains.
+He gestures behind him. The two iron golems step aside with a heavy grind of gears, and the heavy portcullis groans upward on its chains.
 
 "Keep your blades sheathed inside the perimeter," the sentry warns as we step up. "The garrison does not tolerate brawling."
 
@@ -842,23 +844,23 @@ choice("Continue", B3-Ch02a-Communicating, v_current_scene = B3-Ch02a-Communicat
 ID: B3-Ch02a-Communicating
 TEXT:
 
- "What is the priority?" Kate asks once the entry corridor opens into the lower thoroughfare. "Do we scout the perimeter, or push straight for the palace?"
+ "What comes first?" Kate asks once the dark entry tunnel opens into the broad lower thoroughfare. "Do we scout the perimeter, or push straight for the palace?"
 
-"We will find ample opportunity to gauge their readiness along the way," Daren says, scanning the broad stone avenue. "Without knowing the ambassador's arrival time, wandering the alleys is a luxury we cannot afford. Melindra, which route leads to the palace?"
+"We will find ample opportunity to gauge their readiness along the way," Daren says, scanning the wide stone avenue as he keeps his hand near his crossguard. "Without knowing the ambassador's arrival time, wandering the alleys is a luxury we cannot afford. Melindra, which route leads to the palace?"
 
-"Through the Perrelion Plaza," Melindra says. "Assuming the district layout remains intact since my departure, it offers the most direct approach. Stay close."
+"Through the Perrelion Plaza," Melindra says, glancing up at the tiered stone ramps. "Assuming the district layout remains intact since my departure, it offers the most direct approach. Stay close."
 
-She takes the lead, weaving through the lower market. Citizens hurry past with downcast eyes, while hovering metallic skiffs hum overhead through the skyways, their pilots indifferent to the foot traffic below.
+She takes the lead, weaving through the lower market. Citizens scurry past with downcast eyes, clutching rough sacks of grain, while hovering metallic skiffs hum softly overhead along the skyways, their pilots indifferent to the foot traffic below.
 
 "Leila," Daren asks, glancing down at her, "can you reach your father? Is there any way to signal our presence?"
 
-"No," Leila writes, glowing azure letters hanging in the air beside her shoulder. "He carried no equipment during our flight from Thilias, so I have no transceiver channel. He promised he would establish contact once I reached Ollendor, but finding us will take time."
+"No," Leila writes, glowing azure letters hanging in the air beside her shoulder before dissolving into faint sparks. "He carried no equipment during our flight from Thilias, so I have no transceiver channel. He promised he would establish contact once I reached Ollendor, but finding us will take time."
 
-"Our arrival will not remain quiet for long," Daren assures her with a faint smile. "Once the commotion begins, he will know where to look."
+"Our arrival will not remain quiet for long," Daren assures her with a faint, encouraging smile. "Once the commotion begins, he will know where to look."
 
 "Let us hope so," Leila writes.
 
-The surrounding architecture grows stranger with every block. Tall, cylindrical towers with curved glass facades stand alongside four-story residential spires built entirely of riveted metal, their plates dusted with a shimmering coating of seredium. No two structures share a blueprint; the entire district looks like an assortment of competing prototypes thrown together without a master plan.
+The surrounding architecture grows stranger with every block. Tall, cylindrical towers with curved glass facades stand alongside four-story residential spires built entirely of riveted metal, their dark plates dusted with a shimmering, iridescent coating of seredium powder. No two structures share a blueprint; the entire district looks like an assortment of competing prototypes thrown together without a master plan.
 
 choice("Continue", B3-Ch02b-Weird, v_current_scene = B3-Ch02b-Weird)
 
@@ -870,7 +872,7 @@ TEXT:
 
 The sentry's brow shifts slightly. "Pass."
 
-He gestures behind him. The two iron golems step aside, and the heavy portcullis groans upward on its chains.
+He gestures behind him. The two iron golems step aside with a heavy grind of gears, and the heavy portcullis groans upward on its chains.
 
 "Keep your blades sheathed inside the perimeter," the sentry warns as we step up. "The garrison does not tolerate brawling."
 
@@ -880,7 +882,7 @@ He gestures behind him. The two iron golems step aside, and the heavy portcullis
 
 We cross the threshold, and the iron portcullis slams shut behind us, vibrating through the stone under our boots.
 
-"What is the priority?" Kate asks once the entry corridor opens into the lower thoroughfare. "Do we scout the perimeter, or push straight for the palace?"
+"What comes first?" Kate asks once the entry corridor opens into the lower thoroughfare. "Do we scout the perimeter, or push straight for the palace?"
 
 "We will find ample opportunity to gauge their readiness along the way," Daren says, scanning the broad stone avenue. "Without knowing the ambassador's arrival time, wandering the alleys is a luxury we cannot afford. Melindra, which route leads to the palace?"
 
@@ -907,21 +909,21 @@ TEXT:
 #if(v_b3_ch2_infiltration == 0 || v_b3_ch2_infiltration == 2) {
  "Reached him on the transceiver," I say. "The phrase is 'gargoyle wings.'"
 
-The sentry's eyes narrow. "Gargoyle wings? You certain of that?"
+The sentry's eyes narrow into cold slits. "Gargoyle wings? You certain of that?"
 
 "Quite certain," I say.
 
-"Right," the sentry says, stepping back. "You are under arrest. You sit in the cells until this patron comes forward to vouch for you. If no one appears within a month, you hang for attempted infiltration."
+"Right," the sentry says, stepping back toward the guardhouse door. "You are under arrest. You sit in the cells until this patron comes forward to vouch for you. If no one appears within a month, you hang for attempted infiltration."
 
 "What?" I say, stepping forward. "We gave you the words!"
 
-"You gave half the protocol," the sentry snaps. "The phrase requires a counter-sign gesture to foil eavesdroppers. You are in breach of city law. Step forward and surrender your steel. Do not make this bloody."
+"You gave half the passphrase," the sentry snaps, resting a hand on his hilt. "The phrase requires a counter-sign gesture to foil eavesdroppers. You are in breach of city law. Step forward and surrender your steel. Do not make this bloody."
 
-The sentry turns to lead us toward the guardhouse. Hadrik glances at Daren, who answers with a tight nod.
+The sentry turns to lead us toward the guardhouse. Hadrik glances at Daren, who answers with a tight, grim nod.
 
-"Hold on," Daren says, stepping forward and planting a heavy gauntlet onto the sentry's shoulder. "You overlooked one detail."
+"Hold on," Daren says, stepping forward and planting a heavy, steel-clad gauntlet onto the sentry's shoulder. "You overlooked one detail."
 
-"Oh?" The man turns. "What detail?"
+"Oh?" The man turns, frowning. "What detail?"
 
 Before the sentry can draw breath, Hadrik bolts past him, closing the distance to the iron automata stationed before the portal.
 
@@ -960,15 +962,15 @@ choice("Continue", B3-Ch02a-Insane2, v_current_scene = B3-Ch02a-Insane2)
 ID: B3-Ch02a-Insane2
 TEXT:
 
- Four concentrated torrents of magical fire slam into Daren's barrier at once. The air inside the perimeter flashes blinding white, and the temperature spikes so violently my skin pricks with sweat. The constructs plant their iron feet to channel the heat, locked in firing stances. Across the ditch, Hadrik lunges at the second golem, but this one parries with a sweeping iron forearm, forcing the dwarf into a low roll to avoid being pinned against the crossfire.
+ Four concentrated torrents of magical fire slam into Daren's barrier at once. The air inside the perimeter flashes blinding white, and the temperature spikes so violently my skin pricks with instant sweat. The constructs plant their heavy iron feet to channel the heat, locked in rigid firing stances. Across the ditch, Hadrik lunges at the second golem, but this one parries with a sweeping iron forearm, forcing the dwarf into a low roll to avoid being pinned against the crossfire.
 
-"Kate, shatter one of them!" Daren shouts through gritted teeth, his boots sliding back an inch under the thermal pressure. "I cannot advance the ward under four continuous channels!"
+"Kate, shatter one of them!" Daren shouts through gritted teeth, his boots sliding back through the gravel under the immense thermal pressure. "I cannot advance the ward under four continuous channels!"
 
 "I am holding the parapet line!" Kate calls back.
 
 Above us, dozens of ice platforms whip through the air, intercepting a relentless hail of crossbow bolts and iron-tipped arrows raining from the wall garrison.
 
-"Drop those shields and the arrows shred us," Kate snaps. "Target the hulls yourselves!"
+"Drop those shields and the arrows shred us," Kate snaps, her voice strained. "Target the hulls yourselves!"
 
 "Right!" Daren thrusts his enchanted blade through the front edge of the barrier. The steel glows cherry-red, drawing the raw fire from the nearest stream like water into a siphon. Once the blade reaches white heat, Daren brings it around with a roar, throwing a concentrated shockwave of compressed flame back down the path.
 
@@ -1153,7 +1155,7 @@ I cut him off, throwing my arms up to signal Melindra's currents, and launch int
 
 I dive vertically, thrusting both fists forward to maximize the dive speed. Closing within striking distance, I put my entire weight into a crushing punch directly into the golem's iron visor.
 
-The concussive strike buckles the faceplate with a deafening screech, throwing the heavy construct onto its back. Pain shoots up my knuckles, but the reinforced bone holds firm. I draw my dagger mid-drop, landing on the golem's chest and driving the hardened steel into its left optic sensor. The machine thrashes violently, gears grinding as it tries to right itself. I yank the blade free, plunge it deep into the right sensor, and twist the hilt hard until the internal linkages snap and the construct goes limp.
+The concussive strike buckles the faceplate with a deafening screech, throwing the heavy construct onto its back. Pain shoots through my knuckles, and pneumatic strain tears at the tendons of my shoulder, but the reinforced bone holds firm. I draw my dagger mid-drop, landing on the golem's chest and driving the hardened steel into its left optic sensor. The machine thrashes violently, internal gears grinding as it tries to right itself. I yank the blade free, plunge it deep into the right sensor, and twist the hilt with all my weight until the internal linkages snap and the construct goes limp.
 
 Across the ditch, Hadrik finishes his target and charges the third. I pull my crossbow and loose two bolts at the remaining constructs attacking Daren's ward, drawing their fire channels away from the group.
 
@@ -1177,9 +1179,9 @@ TEXT:
 
  Illuna, Hadrik, and I disengage and sprint for the broken portal. We clear the jagged gap just as the two closest golems unleash their fire beams. Daren sets his boots and raises his shield, expanding a white barrier across the archway. The twin fire streams slam into the ward, generating a concussive shockwave that showers the corridor in stone fragments. Hadrik bats the largest boulders aside with sweeping backhands.
 
-We push past the entry arch and down the main thoroughfare. The golems halt at the shattered threshold, their internal programming apparently barring them from firing into populated city streets.
+We push past the entry arch and down the main thoroughfare. The golems halt at the shattered threshold, their internal programming barring them from firing into populated city streets.
 
-"What is the priority?" Kate asks as we pass groups of panicked citizens gathering along the market lane. "Do we seek cover, or push for the palace?"
+"What comes first?" Kate asks as we pass groups of panicked citizens gathering along the market lane. "Do we seek cover, or push for the palace?"
 
 "We maintain momentum toward the castle," Daren says, scanning the avenues. "Hesitation gives the garrison time to mobilize. Melindra, which route leads to the palace?"
 

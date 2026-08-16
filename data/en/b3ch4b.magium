@@ -274,7 +274,7 @@ The body hits the stone with a dull thud.
 
 Kate folds her arms, shaking her head. "Did you really make him grovel just to kill him anyway?"
 
-"Yep," I say, checking the prod before sliding the crossbow back into my pack. "Pretty much."
+"Aye," I say, checking the prod before sliding the crossbow back into my pack. "Pretty much."
 
 The green-eyed drone glides forward, stopping three paces from the corpse.
 
@@ -487,7 +487,7 @@ Instead of jumping back, I pivot and lunge forward in a low sprint, crossing the
 
 Instead of answering, I slide my dagger from its sheath and advance toward the bench, reversing my grip to lead with the pommel. Billy Bob recoils, his hips hitting the metal frame. With nowhere left to retreat, he presses against the table, trembling, his hands tucked out of sight behind his back.
 
-The flagstone under my foot sinks an inch, and a pillar of fire erupts around my shins. My hardened aura takes the brunt of the heat, and without breaking stride, I power through the wall of flame and close the distance in a breath.
+The flagstone under my foot sinks an inch, and a pillar of fire erupts around my shins. My hardened aura locks tight against the heat, but the searing wash still scorches the air in my throat and burns through my leather boots. Gritting my teeth against the heat, I power through the wall of flame and close the distance in a breath.
 
 }
 #if(v_aura_hardening < 3 && v_premonition < 3) {
@@ -1245,37 +1245,39 @@ set(v_is_dead,0) if (v_hearing >= 3)
 #if(v_hearing < 3) {
  
 
-When we reach the top of the stairs, we enter a new hallway and we begin to advance through it at a rapid pace. Crackling blue electrical arcs detonate from the walls, filling the entire hallway with a blinding grid of lightning. The electric shock surging through my body is so powerful that I barely get another second of consciousness before everything completely fades to black.
+When we reach the top of the stairs, we enter a new hallway and surge forward at a dead run. Crackling blue electrical arcs detonate from the walls, filling the corridor with a blinding grid of lightning. The electric shock tearing through my flesh is so violent that consciousness shatters before my body can hit the floor.
 
 }
 #if(v_hearing >= 3) {
  
 
-Just when we're about to reach the end of the stairs, I hear the voice of a guard from very far behind us, who is talking to one of his colleagues.
+As our boots hit the upper risers, an acoustic spike hits my eardrums—a sharp, grating voice cutting through two levels of stone.
 
-"They're at the top of the stairs!" the man says. "Turn on the trap! Now!"
+"They're at the top of the stairs!" the guard shouts. "Trigger the grid! Now!"
 
-"Stop!" I shout at my friends who are running besides me. "Don't go any further!"
+"Stop!" I yell, throwing both arms back to block Breynan and Kate. "Hold the threshold!"
 
-We all stop right before the end of the staircase, where we are getting a perfect view of the next corridor through an archway made of stones. Just a few seconds later, the whole hallway in front of us gets filled with magical electrical currents that can be seen with the naked eye. Judging by the way they look, I'm guessing that we would have died instantly if we hadn't stopped running when we did. After waiting for about ten more seconds, the currents finally die down, and the corridor in front of us becomes safe to cross once again.
+We skid to a halt three inches before the stone archway. A split-second later, blinding blue arcs of lightning detonate from the walls, weaving a dense, crackling web of electrical fire across the entire corridor. The ozone stench hits instantly, searing our nostrils. One more stride and we would have been charred to bone.
 
-"Are they dead?" I hear the voice of a man very far behind us.
+The discharge snaps and roars for ten brutal seconds before the arcs collapse into wisps of smoke.
 
-"No, they didn't enter the corridor for some reason," says the man who ordered the activation of the trap initially. "Try turning it on again!"
+"Did it catch them?" a distant voice echoes up the stairwell.
 
-"I can't turn it on right away," the other man says. "It needs to charge up a little first!"
+"No, they stopped before the threshold!" the operator shouts back. "Cycle it again!"
 
-"I just heard the guards talking about how the trap will need to charge up before they can use it again," I tell my friends. "We can go now. It's safe."
+"Capacitors are drained! I need thirty seconds to recharge the primary coils!"
+
+"The grid is down while the coils recharge," I tell the others, shaking off the high-pitched ringing in my ears. "We have twenty seconds. Move!"
 
 "Let's hurry, then," Kate says.
 
-"You can hear them from that far away?..." Breynan asks me, as we're all quickly traversing the corridor with the deactivated electric trap.
+"You heard that through three stone bulkheads?" Breynan asks as we sprint across the scorched flags.
 
-"Yes, it's because of my stat device," I say. "But if we run into another one of these undetectable lessathi traps later on, we might not be so lucky next time. Melindra, isn't there a way in which you could detect these with your magical sense?"
+"Acoustic amplification from the booster," I say, rubbing my throbbing temple. "Though if we hit a silent trap next, we won't get a warning. Melindra, can your magical sense flag these nodes in advance?"
 
-"These are lessathi devices that are made specifically for the purpose of not being detected," Melindra says. "Even Arraka would have trouble finding these. All we can do is be really careful and hope for the best."
+"Lessathi defense grids are built specifically to mask magical signatures," Melindra says, keeping pace. "Even Arraka would struggle to read them through this much seredium. Keep your eyes sharp."
 
-"I was afraid that you might say something like that," I say.
+"I was afraid you might say that," I say.
 
 }
 choice("Restart game", Ch1-Intro1, v_current_scene = Ch1-Intro1, special:restart) if (v_hearing < 3)
@@ -1555,7 +1557,7 @@ Before the blade can make contact, the drone's orange optic flares brilliant whi
 
 I lift off the flagstones, driving forward with my dagger leveled.
 
-The nearest drone's optic flares, blasting a freezing ray straight into my chest. My hardened aura absorbs the thermal shock, turning the lethal blast into a mere chill against my skin. Before the machine can cycle its weapons, I drive my dagger repeatedly into its glass optic, twisting the steel until the rotor shudders and the metal sphere crashes to the floor.
+The nearest drone's optic flares, blasting a freezing ray straight into my chest. My hardened aura locks against the thermal shock, absorbing the brunt of the strike, though the subzero impact knocks the breath from my lungs and leaves rime clinging to my tunic. Before the machine can cycle its weapons, I drive my dagger repeatedly into its glass optic, twisting the steel until the rotor shudders and the metal sphere crashes to the floor.
 
 The barrier was tuned against ranged mana, leaving the physical chassis vulnerable.
 
@@ -1588,9 +1590,9 @@ achievement("Rock throwing champion",v_ac_b3_ch4_thrower)
 #if(v_strength >= 3) {
  
 
-I grab a jagged chunk of masonry from the floor and whip it at the nearest drone with everything I have.
+ I grab a jagged chunk of masonry from the floor, fingers digging into the rough stone, and whip it at the nearest drone with everything I have. The violent acceleration pulls hard on my shoulder tendon.
 
-The stone tears straight through the magical ward, smashing through the glass optic with a sickening crunch. The drone loses lift and smashes onto the flagstones.
+The stone tears straight through the magical ward, smashing through the glass optic with a violent crunch. The drone loses lift and crashes onto the flagstones.
 
 I snatch up a second rock and hurl it at the next unit.
 
@@ -1622,7 +1624,7 @@ I float into range, clutching two stones. From twelve feet, I throw: bounced. Fr
 
 }
 #if(v_aura_hardening >= 4 && v_strength < 3) {
- As I cock my arm for a third throw, the drone blasts a freezing ray into my chest. My hardened aura absorbs the thermal shock, turning the lethal beam into a mere chill.
+ As I cock my arm for a third throw, the drone blasts a freezing ray into my chest. My hardened aura locks against the thermal shock, absorbing the brunt of the strike, though the subzero impact knocks the breath from my lungs.
 
 I drop the stones and pull my dagger, driving the blade straight through the physical gap in its ward. Three violent stabs into the optic shatter the core, sending the unit tumbling down.
 

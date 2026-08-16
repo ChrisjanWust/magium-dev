@@ -1,47 +1,51 @@
 ID: B3-Ch10c-Collector
 TEXT:
 
- "You won't ever forget it?" Eiden's smile widens by a fraction. "Not even if I offer you a rare find from my travels?"
+ "You won't ever forget it?" Eiden's smile widens by a fraction, the curve of his mouth effortless and amused. "Not even if I offer you a rare find from my travels?"
 
-He draws a smooth, dark mineral from his pocket and extends it on an open palm. Melindra lifts her chin, fighting for indifference, but her gaze locks onto the stone and stays there.
+He draws a smooth, dark mineral from his coat pocket and extends it on an open palm. Melindra keeps her back half-turned, her chin lifted in a fierce attempt at defiance after the silence hex in Thilias, but her eyes drop to his hand and stay there. The stone catches the weak forest light with an oily, obsidian sheen.
 
-"Even for a collector of your taste, pieces like this do not surface often," Eiden says, turning it across his knuckles. "What was your name for them again? Deitrah... Dengah..."
+"Even for a collector of your taste, pieces like this do not surface often," Eiden says, rolling the mineral across the backs of his knuckles without looking at it. "What was your name for them again? Deitrah... Dengah..."
 
-"A Dedra stone," Flower and I blurt together.
+"A Dedra stone," Flower and I blurt in unison.
 
-"Ah, a Dedra stone!" Eiden's eyebrows lift, genuinely amused.
+"Ah, a Dedra stone!" Eiden's eyebrows arch, his closed eyelids crinkling in genuine delight.
 
-His gaze drifts from Flower to me, then slides past my shoulder toward Kate. She stands motionless, frost crusting her knuckles, tracking his distance from Melindra.
+His head tilts, drifting from Flower to me, then slides past my shoulder toward Kate. She stands five paces off, caught entirely unbraced—ruts of white frost crusting over her knuckles, her shoulders locked rigid, chest barely rising. The stillness holding her is a physical weight, the silent horror of being pinned helpless while an immortal chats across the clearing.
 
-"Congratulations, Melindra," Eiden says. "It seems you found decent company while I was away."
+"Congratulations, Melindra," Eiden says softly. "It seems you found decent company while I was away."
 
-"I'll take the stone," Melindra snaps, snatching it from his palm before he can withdraw it. A faint flush touches her ears. "Consider it an apology. But you are not forgiven."
+"I'll take the stone," Melindra snaps. She darts forward, snatching the dark mineral from his palm before his fingers can close around it. A flush burns high on her ears. "Consider it an apology. But do not think you are forgiven."
 
-"Of course," Eiden says, smooth and polite.
+"Of course," Eiden says, his tone smooth as polished glass.
 
- "Are you going to explain why you are here," Illuna says, her voice cold and level from Flower's mouth, "or should we start guessing?"
+ "Are you going to explain why you are here," Illuna says, her voice cutting cold and level from Flower's mouth as her eyes burn brilliant sapphire, "or should we start guessing?"
 
-"All in good time, Illuna of the sacred woods massacre," Eiden replies. "First, an unrelated curiosity. Was there not an armored white mage traveling with you? Whatever became of Daren? Tall, dark-skinned, encased in steel from sunrise to sundown?"
+"All in good time, Illuna of the sacred woods massacre," Eiden replies without turning his head. "First, an unrelated curiosity. Was there not an armored white mage traveling in your company? Whatever became of Daren? Tall, dark-skinned, encased in steel plate from sunrise to sundown?"
 
-"I am standing right in front of you," Daren says. "Stop pretending you cannot see me."
+"I am standing right in front of you," Daren says, his voice flat. "Stop pretending you cannot see me."
 
-"My good sir, you must be mistaken," Eiden says. "Beyond the conspicuous absence of plate armor, the Daren I know would have drawn steel by now, or at the very least glared at me as though measuring my throat. I recall no pleasant conversations between us since our last meeting, so what has changed?"
+Daren is standing in a plain linen tunic, sleeves rolled to the elbows, his heavy plate armor stowed deep inside Hadrik's expandable leather ale-backpack. Without three stones of tempered steel between him and a stillwater, his broad shoulders look unnervingly bare against the pines.
 
-"Right. You wouldn't remember," Daren murmurs, crossing his arms. "You have no way of remembering."
+"My good sir, you must be mistaken," Eiden says, turning toward him with exaggerated courtesy. "Beyond the conspicuous absence of plate armor, the Daren I know would have drawn steel by now, or at the very least glared at me as though measuring the depth of my throat. I recall no pleasant conversations between us since our last meeting, so what has changed?"
+
+"Right. You wouldn't remember," Daren murmurs, crossing his arms over his chest. "You have no way of remembering."
 
 "Pardon?"
 
-"Let us say a different version of you, in another world, offered me a hand when I had hit rock bottom," Daren says. "Because of that, I am inclined toward patience. For now."
+"Let us say a different version of you, in another world, offered me a hand when I had hit rock bottom," Daren says, his jaw tightening on the memory. "Because of that, I am inclined toward patience. For now."
 
-Eiden's polite expression tightens. "...You speak of the God of Time's trials."
+Eiden's polite smile vanishes. The air in the clearing drops a fraction of a degree.
+
+"...You speak of the God of Time's trials."
 
 "Yes," Daren says.
 
- "I see." Eiden falls silent, the humor draining from his features. "In that case, take this as fair warning. That Eiden and I share neither memory nor mind. Depending on how far back the ritual reached, that version of me may have held a view of this world entirely alien to mine. Whatever he promised or confessed inside that trial does not apply here. Build your hopes on it and you will only set yourself up for disappointment."
+ "I see." Eiden stands entirely motionless, the humor wiped clean from his pale features. "In that case, take this as fair warning. That Eiden and I share neither memory nor mind. Depending on how far back the ritual reached, that version of me may have held a view of this world entirely alien to mine. Whatever he promised or confessed inside that trial does not apply here. Build your hopes on it and you will only set yourself up for disappointment."
 
-"Do not worry," Daren says. "I have no intention of confusing the two."
+"Do not worry," Daren says, holding his ground in bare linen. "I have no intention of confusing the two."
 
-"Good," Eiden says, the easy smile sliding back into place. "With that settled, let us turn to the first matter that brought me here. Ollendor. Tell me, Barry, what do you think about their new king?"
+"Good," Eiden says, the easy, pleasant smile sliding back over his face like a mask. "With that settled, let us turn to the first matter that brought me here. Ollendor. Tell me, Barry, what do you think about their new king?"
 
 choice(""I think he will be a great leader."", B3-Ch10c-Leader, v_current_scene = B3-Ch10c-Leader, v_b3_ch10_leader = 1)
 choice(""I don't really care that much about him, to be honest."", B3-Ch10c-Honest, v_current_scene = B3-Ch10c-Honest, v_b3_ch10_leader = 0)
@@ -56,57 +60,57 @@ achievement("No man left behind",v_ac_b3_ch10_behind)
 #if(v_b3_ch8_king == 0 && v_b3_ch8_overseer2 == 0) {
  "I think he will be a great leader."
 
-"The underground king's right hand?" Eiden arches a brow. "That is your verdict?"
+"The underground king's right hand?" Eiden arches a pale brow, his head tilting slightly. "That is your verdict?"
 
-"He beats the predecessor," I say, shrugging.
+"He beats the predecessor by a mile," I say, meeting his closed gaze.
 
-"A low bar," Eiden remarks. "I am asking if you believe he was the best choice on the table."
+"A low bar to clear," Eiden remarks. "I am asking if you truly believe he was the best choice on the board."
 
-"Why not?" I say. "Albert ran the rebel network before he ever served the underground king. He knows how to hold an organization together."
+"Why not?" I say. "Albert ran the rebel courier network long before he ever served in the underground palace. He knows how to manage logistical friction and hold an organization together under pressure."
 
-"I see," Eiden says.
+"I see," Eiden says softly.
 
 }
 #if(v_b3_ch8_king == 1 && v_b3_ch8_overseer2 == 0) {
  "I think he will be a great leader."
 
-"The underground king's right hand?" Eiden arches a brow. "That is your verdict?"
+"The underground king's right hand?" Eiden arches a pale brow, his head tilting slightly. "That is your verdict?"
 
-"He beats the predecessor," I say, shrugging.
+"He beats the predecessor by a mile," I say, meeting his closed gaze.
 
-"A low bar," Eiden remarks. "I am asking if you believe he was the best choice on the table."
+"A low bar to clear," Eiden remarks. "I am asking if you truly believe he was the best choice on the board."
 
-"Why not?" I say. "Peter was the most popular figure among the rebels, and easily the most decent of the three. He has the temperament to rebuild the kingdom."
+"Why not?" I say. "Peter was the most popular figure among the rebels, and easily the most decent man in the caverns. He has the temperament to heal fractures and rebuild the kingdom."
 
-"I see," Eiden says.
+"I see," Eiden says softly.
 
 }
 #if(v_b3_ch8_king == 2 && v_b3_ch8_overseer2 == 0 || v_b3_ch8_king == 3 && v_b3_ch8_overseer2 == 0 || v_b3_ch8_king == 4 && v_b3_ch8_overseer2 == 0) {
  "I think he will be a great leader."
 
-"The king of the underground?" Eiden arches a brow. "That is your verdict?"
+"The king of the underground?" Eiden arches a pale brow, his head tilting slightly. "That is your verdict?"
 
-"He beats the predecessor," I say, shrugging.
+"He beats the predecessor by a mile," I say, meeting his closed gaze.
 
-"A low bar," Eiden remarks. "I am asking if you believe he was the best choice on the table."
+"A low bar to clear," Eiden remarks. "I am asking if you truly believe he was the best choice on the board."
 
-"Why not?" I say. "The man has spent decades running a city beneath a city. He knows how power functions."
+"Why not?" I say. "The man has spent three decades running a shadow city beneath Ollendor's streets. He understands the mechanics of leverage and power."
 
-"I see," Eiden says.
+"I see," Eiden says softly.
 
 }
 #if(v_b3_ch8_overseer2 == 1 && v_b3_ch4_billy != 7 && v_b3_ch4_billy != 8) {
  "I think he will be a great leader."
 
-"The Overseer?" Eiden taps his chin. "Last I checked, he was drafting more mage captives into the seredium towers to boost drone output."
+"The Overseer?" Eiden taps his chin with a pale index finger. "Last I checked, he was drafting fresh mage captives into the seredium towers to expand drone output."
 
-"That bastard," I mutter. "He swore the tower issue would be settled."
+"That bastard," I mutter, my jaw clenching. "He swore the tower issue would be settled."
 
-"And it was," Eiden says. "From the Overseer's perspective, the sole issue was operating below capacity. He resolved it, precisely as promised."
+"And it was," Eiden says, his smile widening faintly. "From the Overseer's perspective, the sole issue was operating below peak capacity. He resolved it, precisely as promised."
 
-"He will regret it," I say. "The moment we have the strength to tear him apart, we return to Ollendor and leave him in the same ditch as the last king."
+"He will regret it," I say. "The moment we have the strength to tear down his core, we return to Ollendor and leave his scrap in the same ditch as the last king."
 
-"I see," Eiden says.
+"I see," Eiden says softly.
 
 }
 #if(v_b3_ch4_billy == 7 && v_b3_ch8_overseer2 == 1 || v_b3_ch4_billy == 8 && v_b3_ch8_overseer2 == 1) {
@@ -114,80 +118,80 @@ achievement("No man left behind",v_ac_b3_ch10_behind)
 
 "Breynan or the Overseer?" Eiden asks.
 
-"Both of them," I say. "They balance each other out. As long as they cooperate, the city stands a chance."
+"Both of them," I say. "They balance each other out. Breynan brings human conscience; the machine brings logistical order. As long as they maintain that friction, the city stands a chance."
 
-"Fascinating," Eiden murmurs. "Word reaches me that the Overseer is re-engineering the towers to run without shackled mages. A peculiar waste of resources for a machine with no moral compass. Did your group negotiate that?"
+"Fascinating," Eiden murmurs, his hands resting loose in his pockets. "Word reaches me that the Overseer is re-engineering the towers to run without shackled mages. A peculiar waste of computing cycles for a machine with no moral compass. Did your group negotiate that?"
 
-"It was the condition for our help," I say. "He agreed to unhook the prisoners the moment he devises an alternate power feed."
+"It was the non-negotiable condition for our help," I say. "He agreed to unhook the prisoners the moment he devises an alternate planar feed."
 
-"Interesting," Eiden says.
+"Interesting," Eiden says softly.
 
 }
 #if(v_b3_ch8_king == 5 && v_b3_ch8_overseer2 == 0) {
  "I think he will be a great leader."
 
-"A goblin healer on the throne is an inventive choice," Eiden says. "I was equally intrigued by the underground king's sudden cooperative streak during the transition."
+"A goblin healer on the throne is certainly an inventive choice," Eiden says. "I was equally intrigued by the underground king's sudden cooperative streak during the transition."
 
-"What do you mean?" I ask. "What happened?"
+"What do you mean?" I ask, stepping forward. "What happened?"
 
-"You have not heard?" Eiden asks. "Your goblin companion insisted on an immediate release of every captive in the seredium towers. Had he severed them instantly, the entire infrastructure would have collapsed—flying transports plummeting, wards failing, total panic. To prevent riots, the underground king seeded rumors across the districts for two days, exposing the torture cells and the previous monarch's atrocities. By the time the towers powered down, crowds were marching to demand the mages' release. Your goblin simply granted the public will."
+"You have not heard?" Eiden asks, amused. "Your goblin companion insisted on an immediate release of every captive in the seredium towers. Had he severed them instantly, the city's entire infrastructure would have collapsed—transports falling from the sky, wards failing, total panic. To prevent riots, the underground king seeded whispers across the districts for two days, exposing the torture cells and the previous monarch's atrocities. By the time the towers powered down, crowds were marching in the streets demanding the mages' release. Your goblin simply granted the public will."
 
-"Clever," I say. "If the citizens demanded the shutdown themselves, they could hardly revolt when the flying transports stopped running."
+"Clever," I say. "If the citizens demanded the shutdown themselves, they could hardly revolt when the platforms stopped hovering."
 
-"There were still grievances, but far fewer than a sudden blackout would have sparked," Eiden says. "The odds of civil war dropped to near zero. A remarkable outcome, given the volatility."
+"There were still grievances, but far fewer than a sudden blackout would have sparked," Eiden says. "The odds of civil war dropped to near zero. A remarkable outcome, given the volatility of the region."
 
 "Good," I say.
 
-Silence settles between us for several seconds until I break it.
+Silence settles over the clearing for several seconds, broken only by the crackle of pine needles in the dying embers.
 
-"Is that all you wanted to ask?"
+"Is that all you came to ask?"
 
 "On that subject, yes," Eiden says.
 
-"And the second matter?" Kate asks, her brow furrowing.
+"And the second matter?" Kate asks, her brow furrowing as she steps up beside me.
 
 "A timely question, Kate of the Beacon of Hope," Eiden says. "This concerns you above all others. Waiting for your little band to reach your next milestone grew tedious, so I came to quicken your pace. Your upcoming encounter interests me as much as it does you."
 
-"Why would our next destination interest you?" Kate asks.
+"Why would our destination interest you?" Kate asks, her guard up.
 
-"...You do not know where you are going?" Eiden's eyes remain closed, but his head tilts in genuine surprise.
+"...You do not know where you are going?" Eiden's eyes remain shut, but his head tilts in genuine surprise.
 
 }
 #if(v_b3_ch8_king != 5 || v_b3_ch8_overseer2 != 0) {
- Silence settles between us for several seconds until I break it.
+ Silence settles over the clearing for several seconds, broken only by the crackle of pine needles in the dying embers.
 
-"Is that all you wanted to ask?"
+"Is that all you came to ask?"
 
 "On that subject, yes," Eiden says.
 
-"And the second matter?" Kate asks, her brow furrowing.
+"And the second matter?" Kate asks, her brow furrowing as she steps up beside me.
 
 "A timely question, Kate of the Beacon of Hope," Eiden says. "This concerns you above all others. Waiting for your little band to reach your next milestone grew tedious, so I came to quicken your pace. Your upcoming encounter interests me as much as it does you."
 
-"Why would our next destination interest you?" Kate asks.
+"Why would our destination interest you?" Kate asks, her guard up.
 
-"...You do not know where you are going?" Eiden's eyes remain closed, but his head tilts in genuine surprise.
+"...You do not know where you are going?" Eiden's eyes remain shut, but his head tilts in genuine surprise.
 
 He turns toward Melindra. Her posture stiffens instantly.
 
 }
  "Melindra, you have not told them?" Eiden asks.
 
-"I was going to!" Melindra says, her voice jumping an octave. "I was waiting for the right moment!"
+"I was going to!" Melindra says, her voice jumping an octave as her fingers twist into her sleeves. "I was waiting for the right moment!"
 
 "There is no time like the present," Eiden says smoothly.
 
-"Melindra, what is this?" Kate steps forward. "Who are you taking us to? What does this have to do with me?"
+"Melindra, what is this?" Kate steps forward, her dark eyes narrowing. "Who are you taking us to? What does this have to do with me?"
 
-"Kate, listen to me," Melindra says, hands fluttering in front of her chest. "First, stay calm. Promise me you will stay calm."
+"Kate, listen to me," Melindra says, hands fluttering up in front of her chest. "First, stay calm. Promise me you will stay calm."
 
-"Fine," Kate says. "I promise."
+"Fine," Kate says, her jaw tight. "I promise."
 
-"Right," Melindra takes a ragged breath. "When we struck our deal in Ollendor, I knew nothing about artificial mages or the Beacon of Hope. I only learned about all that later, listening to you talk around the fire."
+"Right," Melindra takes a ragged, shallow breath. "When we struck our deal in Ollendor, I knew nothing about artificial mages or the Beacon of Hope. I only learned about all that later, listening to you talk around the campfires."
 
 "Understood," Kate says. "Why bring it up now?"
 
-"Because..." Melindra swallows hard. "The contact with the pinecone detector... my acquaintance... she is--"
+"Because..." Melindra swallows hard, looking between Kate and the ground. "The contact with the pinecone detector... my acquaintance... she is--"
 
 "Meridith," Eiden cuts in, sparing her the agony. "She is taking you to Meridith."
 
@@ -199,45 +203,45 @@ TEXT:
 
  "I don't really care that much about him, to be honest."
 
-"You don't?" Eiden's brow arches. "Curious. I was under the impression your company held considerable sway over Ollendor's succession."
+"You don't?" Eiden's brow arches, a faint smirk touching his lips. "Curious. I was under the impression your company held considerable sway over Ollendor's succession."
 
-"We pushed a few pieces around, but it hardly matters," I say. "The old tyrant is dead. Whoever sits on the chair is almost guaranteed to be an improvement."
+"We pushed a few pieces around the board, but it hardly matters in the end," I say. "The old tyrant is dead. Whoever sits on that throne is almost guaranteed to be an improvement."
 
-"I see," Eiden says.
+"I see," Eiden says softly.
 
-Silence settles between us for several seconds until I break it.
+Silence settles over the clearing for several seconds, broken only by the crackle of pine needles in the dying embers.
 
-"Is that all you wanted to ask?"
+"Is that all you came to ask?"
 
 "On that subject, yes," Eiden says.
 
-"And the second matter?" Kate asks, her brow furrowing.
+"And the second matter?" Kate asks, her brow furrowing as she steps up beside me.
 
 "A timely question, Kate of the Beacon of Hope," Eiden says. "This concerns you above all others. Waiting for your little band to reach your next milestone grew tedious, so I came to quicken your pace. Your upcoming encounter interests me as much as it does you."
 
-"Why would our next destination interest you?" Kate asks.
+"Why would our destination interest you?" Kate asks, her guard up.
 
-"...You do not know where you are going?" Eiden's eyes remain closed, but his head tilts in genuine surprise.
+"...You do not know where you are going?" Eiden's eyes remain shut, but his head tilts in genuine surprise.
 
 He turns toward Melindra. Her posture stiffens instantly.
 
  "Melindra, you have not told them?" Eiden asks.
 
-"I was going to!" Melindra says, her voice jumping an octave. "I was waiting for the right moment!"
+"I was going to!" Melindra says, her voice jumping an octave as her fingers twist into her sleeves. "I was waiting for the right moment!"
 
 "There is no time like the present," Eiden says smoothly.
 
-"Melindra, what is this?" Kate steps forward. "Who are you taking us to? What does this have to do with me?"
+"Melindra, what is this?" Kate steps forward, her dark eyes narrowing. "Who are you taking us to? What does this have to do with me?"
 
-"Kate, listen to me," Melindra says, hands fluttering in front of her chest. "First, stay calm. Promise me you will stay calm."
+"Kate, listen to me," Melindra says, hands fluttering up in front of her chest. "First, stay calm. Promise me you will stay calm."
 
-"Fine," Kate says. "I promise."
+"Fine," Kate says, her jaw tight. "I promise."
 
-"Right," Melindra takes a ragged breath. "When we struck our deal in Ollendor, I knew nothing about artificial mages or the Beacon of Hope. I only learned about all that later, listening to you talk around the fire."
+"Right," Melindra takes a ragged, shallow breath. "When we struck our deal in Ollendor, I knew nothing about artificial mages or the Beacon of Hope. I only learned about all that later, listening to you talk around the campfires."
 
 "Understood," Kate says. "Why bring it up now?"
 
-"Because..." Melindra swallows hard. "The contact with the pinecone detector... my acquaintance... she is--"
+"Because..." Melindra swallows hard, looking between Kate and the ground. "The contact with the pinecone detector... my acquaintance... she is--"
 
 "Meridith," Eiden cuts in, sparing her the agony. "She is taking you to Meridith."
 
@@ -249,45 +253,45 @@ TEXT:
 
  "I think he was the least bad choice available at the time."
 
-"Oh?" Eiden's brow arches. "I was under the impression your company held considerable sway over Ollendor's succession. Am I to understand your backing rested solely on him being the least dreadful option?"
+"Oh?" Eiden's brow arches, his head tilting with quiet amusement. "I was under the impression your company held considerable sway over Ollendor's succession. Am I to understand your backing rested solely on him being the least dreadful option?"
 
-"Pretty much," I say with a shrug.
+"Pretty much," I say with a shrug. "Given the state of the city, surviving without a bloodbath was the only metric that mattered."
 
-"I see," Eiden says.
+"I see," Eiden says softly.
 
-Silence settles between us for several seconds until I break it.
+Silence settles over the clearing for several seconds, broken only by the crackle of pine needles in the dying embers.
 
-"Is that all you wanted to ask?"
+"Is that all you came to ask?"
 
 "On that subject, yes," Eiden says.
 
-"And the second matter?" Kate asks, her brow furrowing.
+"And the second matter?" Kate asks, her brow furrowing as she steps up beside me.
 
 "A timely question, Kate of the Beacon of Hope," Eiden says. "This concerns you above all others. Waiting for your little band to reach your next milestone grew tedious, so I came to quicken your pace. Your upcoming encounter interests me as much as it does you."
 
-"Why would our next destination interest you?" Kate asks.
+"Why would our destination interest you?" Kate asks, her guard up.
 
-"...You do not know where you are going?" Eiden's eyes remain closed, but his head tilts in genuine surprise.
+"...You do not know where you are going?" Eiden's eyes remain shut, but his head tilts in genuine surprise.
 
 He turns toward Melindra. Her posture stiffens instantly.
 
  "Melindra, you have not told them?" Eiden asks.
 
-"I was going to!" Melindra says, her voice jumping an octave. "I was waiting for the right moment!"
+"I was going to!" Melindra says, her voice jumping an octave as her fingers twist into her sleeves. "I was waiting for the right moment!"
 
 "There is no time like the present," Eiden says smoothly.
 
-"Melindra, what is this?" Kate steps forward. "Who are you taking us to? What does this have to do with me?"
+"Melindra, what is this?" Kate steps forward, her dark eyes narrowing. "Who are you taking us to? What does this have to do with me?"
 
-"Kate, listen to me," Melindra says, hands fluttering in front of her chest. "First, stay calm. Promise me you will stay calm."
+"Kate, listen to me," Melindra says, hands fluttering up in front of her chest. "First, stay calm. Promise me you will stay calm."
 
-"Fine," Kate says. "I promise."
+"Fine," Kate says, her jaw tight. "I promise."
 
-"Right," Melindra takes a ragged breath. "When we struck our deal in Ollendor, I knew nothing about artificial mages or the Beacon of Hope. I only learned about all that later, listening to you talk around the fire."
+"Right," Melindra takes a ragged, shallow breath. "When we struck our deal in Ollendor, I knew nothing about artificial mages or the Beacon of Hope. I only learned about all that later, listening to you talk around the campfires."
 
 "Understood," Kate says. "Why bring it up now?"
 
-"Because..." Melindra swallows hard. "The contact with the pinecone detector... my acquaintance... she is--"
+"Because..." Melindra swallows hard, looking between Kate and the ground. "The contact with the pinecone detector... my acquaintance... she is--"
 
 "Meridith," Eiden cuts in, sparing her the agony. "She is taking you to Meridith."
 
@@ -297,49 +301,49 @@ choice("Continue", B3-Ch10c-Message, v_current_scene = B3-Ch10c-Message)
 ID: B3-Ch10c-Message
 TEXT:
 
- "Meridith as in... the leader of the lessathi?" Kate's voice drops low.
+ "Meridith as in... the leader of the lessathi?" Kate's voice drops into a register colder than her frost.
 
-"I am so sorry!" Melindra's words spill out in a rush. "I swear I knew nothing about your past with her when we made our deal in Ollendor! When I figured it out, I tried to handle it alone and fetch the pinecone detector without dragging you into it, but she wouldn't budge. She grilled me on the transceiver about why I needed the locator and who I was traveling with. The moment I mentioned Daren, she connected the dots, figured out you were with us, and demanded to see you. She said unless you ask for the device in person, I get nothing. Kate, I know how terrible this sounds, but give me time! I can fix this!"
+"I am so sorry!" Melindra's words spill out in a desperate rush, her hands pressing flat against her collarbones. "I swear I knew nothing about your past with her when we made our deal in Ollendor! When I figured it out, I tried to handle it alone and fetch the pinecone detector without dragging you into it, but she wouldn't budge. She grilled me on the transceiver about why I needed the locator and who I was traveling with. The moment I mentioned Daren, she connected the dots, figured out you were with us, and demanded to see you. She said unless you ask for the device in person, I get nothing. Kate, I know how terrible this sounds, but give me time! I can fix this!"
 
-Behind her, Daren, Hadrik, Flower, and Illuna exchange sharp, tense whispers. From the golden amulet around Flower's neck, Arraka's laughter rings out, shrill and delighted. I catch Eiden's smirk turned squarely in my direction, his eyelids shut as ever.
+Behind her, Daren, Hadrik, Flower, and Illuna exchange sharp, tense whispers. From the golden amulet resting against Flower's chest, Arraka's laughter rings out, shrill, ancient, and thoroughly delighted. I catch Eiden's smirk turned squarely in my direction, his eyelids shut as ever.
 
-"Aren't you pleased, Barry?" Eiden murmurs. "Now you finally have the opportunity to deliver my message."
+"Aren't you pleased, Barry?" Eiden murmurs, his voice carrying effortlessly over the muttering. "Now you finally have the opportunity to deliver my message."
 
 Eiden's message. With the chaos in Ollendor, it had slipped my mind entirely. He still expects me to hand it over.
 
- "Melindra, look at me," Kate says, gripping Melindra's shoulders. "Take a deep breath and let your shoulders drop. Do it now."
+ "Melindra, look at me," Kate says, closing the distance and taking Melindra firmly by both shoulders. "Take a deep breath and let your shoulders drop. Do it now."
 
-"Right. Deep breath. Doing it," Melindra pants, chest heaving in exaggerated gulps of air that do nothing to steady her pulse. "What now?"
+"Right. Deep breath. Doing it," Melindra pants, her chest heaving in exaggerated gulps of air that do nothing to steady her racing pulse. "What now?"
 
-"Listen carefully," Kate says. "Meeting Meridith face to face is fine. Set up the rendezvous."
+"Listen carefully," Kate says, her grip steady. "Meeting Meridith face to face is fine. Set up the rendezvous."
 
-"It's... fine?" Melindra blinks, disoriented. "You mean it?"
+"It's... fine?" Melindra blinks, disoriented, staring into Kate's eyes. "You mean it?"
 
 "A week ago I might have refused," Kate says. "During the God of Time's first trial, Meridith kept me alive. Without her intervention, I would not have survived the chamber. I owe her the benefit of the doubt, especially when Diane told me she chose to work alongside her freely."
 
-"So I can contact her?" Melindra asks. "Tell her we will meet whenever she is ready?"
+"So I can contact her?" Melindra asks, her voice trembling with relief. "Tell her we will meet whenever she is ready?"
 
 "Yes," Kate says.
 
-"The relief..." Melindra lets out a long breath. "I thought you were going to draw a blade on me. Pin me to a trunk with a knife at my throat."
+"The relief..." Melindra lets out a long, shuddering breath. "I thought you were going to draw a blade on me. Pin me to a trunk with a knife at my throat."
 
  "I would never do that to a friend," Kate says evenly.
 
-Her eyes flick to me, a pointed look that makes it very clear she knows exactly who told Melindra about the dagger incident in the forest.
+Her dark eyes flick to me, a pointed look that makes it painfully clear she knows exactly who told Melindra about the dagger incident in the forest all those months ago.
 
 "Isn't that right, Barry?"
 
-"Naturally," I say quickly. "Melindra was imagining worst-case scenarios. Nothing to worry about."
+"Naturally," I say quickly, clearing my throat. "Melindra was imagining the worst. Nothing to worry about."
 
-"Then I am going to set up the channel right now," Melindra says.
+"Then I am going to set up the channel right now," Melindra says, backing up two paces.
 
 "Go," Kate tells her.
 
-"Back in a moment," Melindra calls out as an updraft catches her clothes, lifting her into the canopy.
+"Back in a moment," Melindra calls out as an updraft catches her robes, lifting her straight into the pine canopy.
 
-"That concludes my business with your little circle," Eiden says, stepping back. "We will cross paths again soon enough."
+"That concludes my business with your little circle," Eiden says, stepping backward as the wind settles. "We will cross paths again soon enough."
 
-"You know where we are," Daren says.
+"You know where we are," Daren says, standing tall in his linen tunic.
 
 choice("Continue", B3-Ch10c-Revenant, v_current_scene = B3-Ch10c-Revenant) if (v_ch11_saved_rose == 0)
 choice("Continue", B3-Ch10c-Condition, v_current_scene = B3-Ch10c-Condition) if (v_ch11_saved_rose == 1)
@@ -348,31 +352,33 @@ choice("Continue", B3-Ch10c-Condition, v_current_scene = B3-Ch10c-Condition) if 
 ID: B3-Ch10c-Revenant
 TEXT:
 
- "One last curiosity before I take my leave," Eiden says, pausing mid-step. "Do any of you know why your invisible revenant friend has been hovering behind me with a dagger drawn and her aura clamped shut for the last ten minutes?"
+ "One last curiosity before I take my leave," Eiden says, pausing mid-step, his boot hovering an inch above the pine needles. "Do any of you know why your invisible revenant friend has been hovering behind me with a dagger drawn and her aura clamped shut for the last ten minutes?"
 
-"Damn it, I hoped he would miss her," Arraka grumbles from the amulet as light bends and the revenant materializes in the clearing.
+"Damn it, I hoped he would miss her," Arraka grumbles from the golden amulet as the air warps, light bending like heat shimmer until the revenant materializes in the clearing.
 
-"Rose..." Kate's voice tightens at the sight of the familiar face worn by a corpse.
+"Rose..." Kate's voice catches, tightening into something sharp and brittle at the sight of the herbalist's face worn by a walking corpse.
 
-"Can I assist you with something?" Eiden asks her, head tilted.
+The revenant stands motionless, her skin grey and bloodless, her eyes clouded with the sickly yellow film of the God of Death. She holds a notched steel dagger leveled at Eiden's back.
 
-"My intent was to freeze time and strike at your most vulnerable moment, as you initiated your teleportation," the revenant states in a flat, hollow cadence. "That window is closed."
+"Can I assist you with something?" Eiden asks her, tilting his head over his shoulder without bothering to turn his body.
 
-"A servant of the God of Death, if I am not mistaken," Eiden says. "Why would your deity seek my demise?"
+"My intent was to freeze time and strike at your most vulnerable moment, as you initiated your teleportation," the revenant states, her voice a flat, hollow drone with none of Rose's warmth. "That window is closed."
+
+"A servant of the God of Death, if I am not mistaken," Eiden says mildly. "Why would your deity seek my demise?"
 
  "My master learned through a reliable source that you orchestrated the disruption on the magical plane earlier today," the revenant replies. "He demands retribution for your arrogance."
 
-The disruption earlier today. Jirinn must have already set the gods at each other's throats, exactly as Arraka outlined.
+The disruption earlier today. Jirinn must have already set the gods at each other's throats across the planar divide, exactly as Arraka outlined.
 
 "I have no notion of what you speak of," Eiden says, faintly puzzled. "I have not meddled in the affairs of the magical plane for centuries."
 
 "My mandate is execution, not interrogation," she says.
 
-"By all means," Eiden smirks. "Give it your best effort."
+"By all means," Eiden smirks, turning his head back toward us. "Give it your best effort."
 
-She vanishes. In the same heartbeat she snaps into place beside Eiden, steel flashing toward his throat—and ricochets backward through the air as an invisible barrier erupts, slamming her into the turf without Eiden lifting a finger.
+She vanishes. In the exact same heartbeat she snaps into reality beside Eiden's shoulder, steel flashing in a lethal arc toward his carotid—and ricochets violently backward through the air as an invisible barrier erupts, slamming her hard into the pine needles without Eiden lifting a finger.
 
-"Did you assume I wander about without automated countermeasures against temporal manipulation?" Eiden asks. "The God of Death lacks ambition if he dispatches a lone knife to take my head."
+"Did you assume I wander about without automated countermeasures against temporal manipulation?" Eiden asks, looking down at her. "The God of Death lacks ambition if he dispatches a lone knife to take my head."
 
 choice("Continue", B3-Ch10c-Revenant2, v_current_scene = B3-Ch10c-Revenant2)
 
@@ -380,37 +386,39 @@ choice("Continue", B3-Ch10c-Revenant2, v_current_scene = B3-Ch10c-Revenant2)
 ID: B3-Ch10c-Revenant2
 TEXT:
 
- "The God of Death... does not... trust me..." The revenant pushes herself off the dirt, every syllable strained after the impact. "I am merely... a disposable tool. A test... of allegiance."
+ "The God of Death... does not... trust me..." The revenant pushes herself up from the damp soil, her breath rasping through dead lungs after the impact. "I am merely... a disposable tool. A test... of allegiance."
 
-"How pathetic," Eiden remarks.
+"How pathetic," Eiden remarks, hands resting easy in his coat.
 
-"I am not... finished." She flickers and vanishes, reappearing behind Flower in the same breath, blade pressed flush against the girl's neck.
+"I am not... finished." She flickers and dissolves into the ether, reappearing behind Flower in the same breath, a cold blade pressed tight against the girl's small neck.
 
-"Rose?" Flower tilts her head back, looking up into dead eyes.
+"Rose?" Flower tilts her head back, looking up into those vacant, yellowed eyes without fear.
 
-"I apologize," the revenant says tonelessly. "The God of Death commanded me to secure you as leverage if the assassination failed."
+"I apologize," the revenant says, the words mechanical and dead. "The God of Death commanded me to secure you as a hostage if the assassination failed."
 
-"It is fine," Flower says softly. "I do not blame you."
+"It is fine," Flower says softly, her voice small and tender. "I do not blame you."
 
- "Release her," Daren commands, his blade clearing its scabbard in a single, fluid arc.
+ "Release her," Daren commands, his greatsword clearing its scabbard in a single, ringing arc that shears the air.
 
-"The captive remains with me until the stillwater complies," she states. "Not a second before."
+"The captive remains with me until the stillwater complies," she states, the knife edge pressing against Flower's collar. "Not a second before."
 
-"And why should her survival concern me?" Eiden asks.
+"And why should her survival concern me?" Eiden asks, turning slowly with his eyes shut.
 
 "My master knows the golden fox requested your protection on her behalf," the revenant says. "Yield, or she dies."
 
-"Your intelligence is flawed," Eiden replies. "Eleya asked that I refrain from killing her myself. She said nothing of playing guardian."
+"Your intelligence is flawed," Eiden replies, the smile on his lips turning icy. "Eleya asked that I refrain from killing her myself. She said nothing of playing guardian."
 
 "She dies if you refuse!" the revenant presses.
 
- "Go right ahead," Eiden says, his smile widening. "You would do me a service. She remains the sole vessel capable of housing Arraka if that amulet ever shatters."
+ "Go right ahead," Eiden says, his smile widening into something genuinely monstrous. "You would do me a service. She remains the sole vessel capable of housing Arraka if that amulet ever shatters."
 
-A heavy silence drops over the clearing. The revenant stares at him, searching for a tremor in his stance.
+A suffocating silence drops over the clearing. The revenant stares at him, searching for a tremor, a tell, any sign of bluff in his relaxed posture. There is none.
 
 "Proceed," Eiden urges quietly. "What stays your hand?"
 
-The blade bites slightly deeper into Flower's skin, but the revenant's fingers twitch with hesitation. Despite claiming to be nothing more than Death's instrument, some remnant of choice lingers in her. An opening to talk her down.
+The blade bites a fraction deeper into Flower's skin, drawing a thin red bead, but the revenant's fingers suddenly twitch. Her knuckles tremble against the hilt. Despite claiming to be nothing more than Death's hollow instrument, some buried instinct, some remnant of the woman who gathered herbs and healed wounds, is fighting against the command.
+
+There is an opening to talk her down.
 
 choice("Try to reason with the revenant.", B3-Ch10c-Revenant3, v_current_scene = B3-Ch10c-Revenant3, v_b3_ch10_reason = 1)
 choice("Threaten the revenant.", B3-Ch10c-Revenant3, v_current_scene = B3-Ch10c-Revenant3, v_b3_ch10_reason = 0)
@@ -422,36 +430,36 @@ TEXT:
 set(v_ac_b3_ch10_reasonable,1) if (v_b3_ch10_reason == 1)
 achievement("Let's be reasonable!",v_ac_b3_ch10_reasonable)
 #if(v_b3_ch10_reason == 1) {
- "Think about what you are doing," I call out, keeping my voice steady. "Is this the God of Death's actual purpose? To slaughter Flower for nothing when Eiden refuses to care? Throwing away your only leverage solves nothing. There has to be another path."
+ "Think about what you are doing, Rose," I call out, keeping my voice low and steady as I take a slow half-step forward. "Is this what the God of Death promised you? To slaughter a child who cares about you, while Eiden stands there laughing? Throwing away your only hostage buys you nothing. There has to be another path."
 
-"Another path..." she repeats, her grip slackening. The edge eases away from Flower's throat. "Yes... another path."
+"Another path..." she repeats, her dead monotone fracturing. Her grip on the dagger slackens, the trembling in her fingers spreading down her wrist. The steel edge eases back from Flower's throat. "Yes... another path."
 
-Flower does not hesitate. She ducks beneath the revenant's elbow, breaks clear, and kicks off the ground with twin blasts of fire roaring from the soles of her feet, shooting straight into the air well out of reach.
+Flower does not hesitate. She ducks beneath the revenant's unbraced arm, breaks clear across the grass, and kicks off the ground with twin torrents of crimson fire roaring from the soles of her boots, rocketing straight into the canopy well out of reach.
 
 }
 #if(v_b3_ch10_reason == 0) {
- "Take that blade off her neck this second," I say, stepping forward, "or you will not survive the day."
+ "Take that blade off her neck this second," I say, stepping forward with my hand dropping to my dagger, "or you will not survive to see the sunset."
 
-"Your threats carry no weight," she says, her resolve hardening. "The will of Death is absolute. If this vessel falls, it is a necessary offering for--"
+"Your threats carry no weight," she says, her yellow eyes glazing as Death's directive locks back into place. "The will of Death is absolute. If this vessel falls, it is a necessary offering for--"
 
-A whip of solid water snaps out from behind her, wrapping tight around her knife wrist and yanking it backward. Flower ducks under the pinned arm and vaults clear, ignition roaring from the soles of her feet as fire jets launch her high above the clearing.
+A whip of solid water snaps out from the grass behind her, wrapping like an iron shackle around her knife wrist and yanking it backward. Flower ducks under the pinned arm and vaults clear, ignition roaring from the soles of her boots as jets of fire launch her high above the pine tops.
 
 }
- The moment Flower clears the ground, Eiden's aura constricts around the revenant's throat. Invisible pressure lifts her several feet into the air.
+ The moment Flower clears the clearing, Eiden's aura constricts around the revenant's throat like an invisible vice. A sickening pulse of kinetic pressure lifts her four feet into the air, her legs kicking at empty space.
 
-"That reminds me," Eiden says, watching her claw at empty air as her temporal tricks fail to gain purchase. "There was an experiment regarding time weavers I intended to conduct years ago. I began setting it up with Rose while she lived, but something else drew my attention."
+"That reminds me," Eiden says, watching her claw at her neck as her temporal magic fails to find purchase against his aura. "There was an experiment regarding time weavers I intended to conduct years ago. I began setting it up with Rose while she lived, but something else drew my attention."
 
-"Stop!" Kate yells, stepping between them. "Leave her alone!"
+"Stop!" Kate yells, stepping forward, frost crackling wildly across both arms. "Leave her alone!"
 
-"Though crushing your windpipe is pointless, is it not?" Eiden muses, observing the corpse writhing midair. "Undead flesh requires no oxygen. A change of tactic, then."
+"Though crushing your windpipe is pointless, is it not?" Eiden muses, observing the corpse writhing midair without a flicker of remorse. "Undead flesh requires no oxygen. A change of tactic, then."
 
-A crescent of compressed wind flashes from his fingers, severing her head in a clean, silent arc.
+He flicks his wrist. A razor crescent of compressed wind flashes from his fingertips, severing her neck in a clean, silent arc.
 
-The sequence dissolves into an incohesive blur. Voices echo—Eiden, Daren, Kate arguing over something distant—like memories viewed through murky water.
+The world around us fractures. The sound of her head striking the turf dissolves into a dissonant, echoing hum, like voices shouting underwater. Daren's shout, Kate's fury, Eiden's casual laughter—all of it stretches and twists, blurring into the strange, disjointed haze of a timeline being violently erased.
 
-Just as when Daren struck her down in the God of Time's ritual, the aftermath lingers as a half-remembered dream. Yet the revenant stands whole once more, planted on the exact patch of grass she occupied before the choke began. The Magium's contingency reversed time strictly for her and her killer, leaving the rest of us with nothing but hazy impressions of an erased timeline.
+Just as when Daren struck her down during the God of Time's ritual, the memory of her death slips away like smoke from a waking dream. When reality snaps firm again, the revenant is standing whole on the exact patch of pine needles she occupied before Eiden raised a finger. The Magium's primordial fail-safe reversed time strictly for the prophet and her killer, leaving the rest of us with nothing but the phantom ache of an unmade sequence.
 
-"Fascinating," Eiden remarks, his smile returning. "Theory holds that the Magium preserves its prophets until their verse is spoken, but witnessing the mechanism is another matter entirely. The weave rewound just far enough to afford you an exit. What happens if I cut you down repeatedly, I wonder? Does the ward fatigue, or does it hold indefinitely? Shall we test its limits?"
+"Fascinating," Eiden remarks, his pleasant smile returning as if he had merely turned a page in a book. "Theory holds that the Magium preserves its prophets until their verse is spoken, but witnessing the mechanism is another matter entirely. The weave rewound just far enough to afford you an exit. What happens if I cut you down repeatedly, I wonder? Does the ward fatigue, or does it hold indefinitely? Shall we test its limits?"
 
 choice("Continue", B3-Ch10c-Revenant4, v_current_scene = B3-Ch10c-Revenant4)
 
@@ -459,29 +467,29 @@ choice("Continue", B3-Ch10c-Revenant4, v_current_scene = B3-Ch10c-Revenant4)
 ID: B3-Ch10c-Revenant4
 TEXT:
 
- Before Eiden gathers his aura for another strike, the revenant vanishes. Her signature evaporates entirely from the surrounding woods.
+ Before Eiden can gather his aura for another strike, the revenant dissolves into the ether. Her magical signature vanishes entirely from the surrounding forest, leaving no ripple behind.
 
-"She withdrew," Eiden says, sighing with mild disappointment. "Pity."
+"She withdrew," Eiden says, sighing with mild, genuine disappointment. "Pity."
 
-He pockets both hands, his polite smile settling back in place.
+He slips both hands back into his pockets, his polite, closed-eyed expression settling comfortably into place.
 
-"Farewell," he says, and space folds around him as he disappears.
+"Farewell," he says, and space folds silently around him as he disappears from the clearing.
 
-"Arraka, confirm it," I say. "Is he gone, or just hovering behind a concealment ward?"
+"Arraka, confirm it," I say, scanning the empty pines. "Is he gone, or just hovering behind a concealment ward?"
 
-"He left," Arraka replies from the amulet. "He knows better than to play invisibility tricks while I am watching."
+"He left," Arraka replies dryly from the amulet. "He knows better than to play invisibility parlor tricks while I am watching."
 
- "Her timing was absurdly precise," Daren says, scanning the treeline. "She needed leverage against Eiden, and she materialized the exact hour he dropped in on us."
+ "Her timing was absurdly precise," Daren says, lowering his greatsword and exhaling a long, ragged breath. "She needed a hold over Eiden, and she materialized the exact hour he dropped in on our camp."
 
-"The God of Death may hold island-wide awareness like Eiden," Illuna says. "Or our party is being monitored directly. The golden fox maintained a link on us until Eiden stripped it away."
+"The God of Death may hold island-wide awareness like Eiden," Illuna says, Flower floating back down to the turf with her eyes burning deep sapphire. "Or our company is being monitored directly. The golden fox maintained a scrying link on us until Eiden severed it."
 
-"No one is tracking you," Arraka snaps. "The only reason I stayed quiet about the fox was boredom. That calculation has changed. I have zero interest in giving the gods a front-row seat to our strategy sessions."
+"No one is tracking you," Arraka snaps from the gold. "The only reason I stayed quiet about the fox was sheer boredom. That calculation has changed. I have zero interest in giving the gods a front-row seat to our plans."
 
- "Even so," Illuna says, "what troubles me is that Death knew of Eiden's promise to the fox regarding Flower—a detail we never possessed. Where does one uncover that caliber of intelligence?"
+ "Even so," Illuna says, her brow furrowing, "what troubles me is that Death knew of Eiden's promise to the fox regarding Flower—a detail we never possessed. Where does one uncover that caliber of intelligence?"
 
-"Gods keep eyes on Eiden," Arraka says. "He has crossed paths with their cultists for six centuries. They track him as best they can. A creature of his strength cannot sneeze without half the magical plane taking notes."
+"Gods keep obsessive eyes on Eiden," Arraka says with a harsh snort. "He has crossed paths with their cultists and slaughtered their priestlings for six centuries. They track his movements as best they can. A creature of his strength cannot sneeze without half the magical plane taking frantic notes."
 
-"Let us hope that is the extent of it," Illuna mutters.
+"Let us hope that is the extent of it," Illuna mutters, crossing her arms.
 
 choice("Continue", B3-Ch10c-Condition, v_current_scene = B3-Ch10c-Condition)
 
@@ -492,38 +500,38 @@ TEXT:
 #if(v_ch11_saved_rose == 1) {
  "Indeed," Eiden says. "I always do. Farewell."
 
-He smiles, slips his hands into his pockets, and vanishes in a fold of displaced air.
+He smiles, slips his hands into his pockets, and vanishes in a silent fold of displaced air.
 
-"Arraka, confirm it," I say. "Is he gone, or just hovering behind a concealment ward?"
+"Arraka, confirm it," I say, scanning the empty trees. "Is he gone, or just hovering behind a concealment ward?"
 
-"He left," Arraka replies from the amulet. "He knows better than to play invisibility tricks while I am watching."
+"He left," Arraka replies from the amulet. "He knows better than to play invisibility parlor tricks while I am watching."
 
-"We should prepare for the lessathi leader," Kate says. "We have no idea what escort she travels with. Better to assume hostility."
+"We should prepare for the lessathi leader," Kate says, her frost fading as she turns toward the camp. "We have no idea what escort she travels with. Better to assume hostility until proven otherwise."
 
-While Kate, Flower, and I strike the tents, Hadrik helps Daren stow his plate armor into his pack, as planned. We finish packing just as Melindra drops out of the sky, her brow furrowed.
+While Kate, Flower, and I strike the canvas tents, Hadrik helps Daren stow his heavy steel plate into his pack, as planned. We finish packing our gear just as Melindra drops out of the sky, her brow furrowed with agitation.
 
-"I reached Meridith," she says, touching down. "She added an extra condition before she agrees to sit down with us. She said-- wait. Where is Eiden?"
+"I reached Meridith," she says, boots hitting the turf. "She added an extra condition before she agrees to sit down with us. She said-- wait. Where is Eiden?"
 
 }
 #if(v_ch11_saved_rose == 0) {
- "We should prepare for the lessathi leader," Kate says. "We have no idea what escort she travels with. Better to assume hostility."
+ "We should prepare for the lessathi leader," Kate says, her frost fading as she turns toward the camp, her face pale and guarded after seeing Rose's corpse. "We have no idea what escort she travels with. Better to assume hostility until proven otherwise."
 
-While Kate, Flower, and I strike the tents, Hadrik helps Daren stow his plate armor into his pack, as planned. We finish packing just as Melindra drops out of the sky, her brow furrowed.
+While Kate, Flower, and I strike the canvas tents, Hadrik helps Daren stow his heavy steel plate into his expandable backpack, as planned. We finish lashing our packs just as Melindra drops out of the sky on a dying gust of wind, her brow furrowed with agitation.
 
-"I reached Meridith," she says, touching down. "She added an extra condition before she agrees to sit down with us. She said-- wait. Where is Eiden?"
+"I reached Meridith," she says, boots hitting the turf. "She added an extra condition before she agrees to sit down with us. She said-- wait. Where is Eiden?"
 
 }
  "He departed while you were aloft," Kate tells her.
 
-"He left?" Melindra's voice spikes. "He couldn't spare three minutes to speak with me? Not even a word of parting? I am going to make him pay for that."
+"He left?" Melindra's voice spikes into a furious screech. "He couldn't spare three minutes to speak with me? Not even a word of parting? I am going to make him pay for that."
 
-"You mentioned a condition," Hadrik prompts.
+"You mentioned a condition," Hadrik prompts, adjusting the straps of his ale-pack.
 
-"Right. Meridith demands we meet her in their primary subterranean stronghold," Melindra says. "They maintain a heavy teleportation array to pull us down, but they must send a guide to lead us to a designated beacon coordinate where the array can lock onto our transceivers."
+"Right. Meridith demands we meet her in their primary subterranean stronghold," Melindra says, pacing the grass. "They maintain a heavy teleportation array to pull us down, but they must send a guide to lead us to a designated beacon coordinate where the array can lock onto our transceivers."
 
-"She wants us inside their main installation?" Daren's jaw sets. "That sounds like a trap waiting to snap shut."
+"She wants us inside their main installation?" Daren's jaw sets hard. "That sounds like a trap waiting to snap shut."
 
-"I agree," Kate says. "Risking the entire group is foolish. I should go alone. Meridith asked for me specifically."
+"I agree," Kate says, stepping between us. "Risking the entire group is foolish. I should go alone. Meridith asked for me specifically."
 
 choice("Tell Kate that it's too dangerous to go there alone.", B3-Ch10c-Brother, v_current_scene = B3-Ch10c-Brother, v_b3_ch10_worry = 1)
 choice("Say nothing, and wait to see how the team reacts to Kate's proposal.", B3-Ch10c-Brother, v_current_scene = B3-Ch10c-Brother, v_b3_ch10_worry = 0)
@@ -533,17 +541,17 @@ ID: B3-Ch10c-Brother
 TEXT:
 
 #if(v_b3_ch10_worry == 1 && v_b3_ch1_kate3 == 0) {
- "You are not walking into that lair alone," I say. "It is far too dangerous."
+ "You are not walking into that stronghold alone," I say, stepping into her path. "It is far too dangerous."
 
-"I can take care of myself," Kate replies. "There is no reason to fret over me."
+"I can take care of myself, Barry," Kate replies, her jaw set, dark eyes narrowing. "There is no reason to fret over me."
 
 "I will worry about you as much as I please, thanks," I say.
 
-Color climbs swiftly into her cheeks. She turns her face aside, staring into the brush to hide it.
+Color climbs swiftly into her cheeks, bright against her fair skin. She jerks her chin aside, staring hard into the pine thicket to hide the blush.
 
-My mind flashes back to our conversation after the God of Time's ritual, when she tried to bury the mental strain and I told her not to lock me out because worrying about her was my choice.
+My thoughts flash back to the quiet woods after the God of Time's ritual, when she tried to shoulder the crushing weight of the trials alone and I told her not to shut me out—that worrying about her was my choice to make.
 
-"Barry is correct," Daren cuts in. "Sending you in alone is out of the question. We can attempt to negotiate terms with the courier Meridith dispatches, but if they refuse compromise, we swallow the risk together. We have come too far to abandon the locator now."
+"Barry is right," Daren cuts in, stepping up beside us. "Sending you in alone is out of the question. We can attempt to negotiate terms with the courier Meridith dispatches, but if they refuse compromise, we swallow the risk together. We have come too far to abandon the locator now."
 
 A tendril of solidified water lashes around Kate's waist, anchoring her in place. She spins around, startled.
 
@@ -551,13 +559,13 @@ A tendril of solidified water lashes around Kate's waist, anchoring her in place
 
 }
 #if(v_b3_ch10_worry == 1 && v_b3_ch1_kate3 != 0) {
- "You are not walking into that lair alone," I say. "It is far too dangerous."
+ "You are not walking into that stronghold alone," I say, stepping into her path. "It is far too dangerous."
 
-"I can take care of myself," Kate replies. "There is no reason to fret over me."
+"I can take care of myself, Barry," Kate replies, her jaw set, dark eyes narrowing. "There is no reason to fret over me."
 
 "I will worry about you as much as I please, thanks," I say.
 
-"Barry is correct," Daren cuts in. "Sending you in alone is out of the question. We can attempt to negotiate terms with the courier Meridith dispatches, but if they refuse compromise, we swallow the risk together. We have come too far to abandon the locator now."
+"Barry is right," Daren cuts in, stepping up beside us. "Sending you in alone is out of the question. We can attempt to negotiate terms with the courier Meridith dispatches, but if they refuse compromise, we swallow the risk together. We have come too far to abandon the locator now."
 
 A tendril of solidified water lashes around Kate's waist, anchoring her in place. She spins around, startled.
 
@@ -565,9 +573,9 @@ A tendril of solidified water lashes around Kate's waist, anchoring her in place
 
 }
 #if(v_b3_ch10_worry == 0) {
- "That is not an option," Daren tells Kate firmly. "Either the entire company enters the stronghold, or none of us do."
+ "That is not an option," Daren tells Kate firmly, shaking his head. "Either the entire company enters the stronghold, or none of us do."
 
-"You doubt my capabilities?" Kate frowns.
+"You doubt my capabilities?" Kate frowns, crossing her arms over her green cloak.
 
 "Not your skill, but the odds," Daren replies. "Marching isolated into a subterranean fortress of potential hostiles invites disaster. Even as a united front, negotiation will be fraught."
 
@@ -576,31 +584,31 @@ A tendril of solidified water lashes around Kate's waist, anchoring her in place
 "Illuna, what are you doing?"
 
 }
- "We established back in Ollendor that martyrdom is off the table," Illuna says, hauling on the water lash to reel Kate in. "Did that pact slip your memory? Must I keep you leashed to prevent you from wandering into traps the moment our backs are turned?"
+ "We established back in Ollendor that martyrdom is off the table," Illuna says, hauling on the water whip to reel Kate a step backward. "Did that pact slip your memory so quickly? Must I keep you leashed to prevent you from wandering into enemy traps the moment our backs are turned?"
 
-"Fine, I yield!" Kate calls out, hauled a step closer. "I retract the proposal. Release the whip."
+"Fine, I yield!" Kate calls out, hauled off balance. "I retract the proposal. Release the whip."
 
-"Hmph." The water whip dissolves into vapor. "Do not test my patience again."
+"Hmph." The water whip dissolves into a spray of cool mist. "Do not test my patience again."
 
-"Melindra, any guess as to who Meridith will dispatch?" Daren asks.
+"Melindra, any guess as to who Meridith will dispatch?" Daren asks, turning toward the trees.
 
-"None," Melindra says. "Every past rendezvous brought a different escort. The extraction coordinate lies ahead. Follow me."
+"None," Melindra says, brushing a pine needle from her sleeve. "Every past rendezvous brought a different escort. The extraction coordinate lies just ahead. Follow me."
 
-"Is now an acceptable time to ask how you connected with the lessathi leadership in the first place?" Hadrik asks as we fall in behind her.
+"Is now an acceptable time to ask how you connected with the lessathi leadership in the first place?" Hadrik asks as we fall in behind her along the deer trail.
 
-"My brother maintained dealings with her," Melindra says. "He facilitated our introduction."
+"My brother maintained dealings with her," Melindra says. "He facilitated our introduction centuries ago."
 
-"If you have walked this land for six centuries and your brother still lives, does that make him a stillwater as well?" Kate asks.
+"If you have walked this land for six centuries and your brother still lives, does that make him a stillwater as well?" Kate asks, keeping pace.
 
  "Yes," Melindra says. "He and I were the only half-lessathi present when--"
 
-She cuts herself off, catching the slip.
+She cuts herself off, catching the slip just in time.
 
-"We were the only two half-lessathi among those who became stillwaters," she clarifies smoothly. "The rest were human casters, Eiden included."
+"We were the only two half-lessathi among those who became stillwaters," she clarifies smoothly, though her eyes dart away. "The rest were human casters, Eiden included."
 
-"And I imagine you remain as tight-lipped regarding how stillwaters are made as during our previous inquiries," Daren notes.
+"And I imagine you remain as tight-lipped regarding how stillwaters are made as during our previous inquiries," Daren notes dryly.
 
-"Naturally," Melindra says. "And it serves your survival. Eiden systematically erased every scrap of documentation surrounding that process to ensure another still winter never recurs. If he suspected you held even a fragment of that truth, your lives would be forfeit."
+"Naturally," Melindra says, glancing back over her shoulder. "And it serves your survival. Eiden systematically erased every scrap of documentation surrounding that process to ensure another still winter never recurs. If he suspected you held even a fragment of that truth, your lives would be forfeit on the spot."
 
 "A fair point," Daren concedes. "Our list of mortal adversaries is long enough without adding another. Do we turn here?"
 
@@ -612,29 +620,29 @@ choice("Continue", B3-Ch10c-Designated, v_current_scene = B3-Ch10c-Designated)
 ID: B3-Ch10c-Designated
 TEXT:
 
- When we break into the clearing, the envoy is already waiting. But she wears no lessathi robes. Instead, standing before us is a young woman of twenty-three with a wiry, muscular build, a burn scar tracing down her left forearm, and cropped blond hair crackling with static electricity that lifts the strands on end.
+ When we break through the dense thicket into the small clearing, the envoy is already waiting. But she wears no lessathi robes. Instead, standing before us on the mossy rock is a young woman of twenty-three with a wiry, athletic build, a pale burn scar tracing down her left forearm, and cropped blond hair crackling with faint arcs of static electricity that lift the strands on end.
 
-"Diane!" Kate calls out. "You're really here!"
+"Diane!" Kate calls out, her voice breaking with raw relief. "You're really here!"
 
-"You never listen," Diane says, sighing with weary affection. "I explicitly told you to leave the island, yet here you are, marching straight back into--"
+"You never listen, do you?" Diane says, sighing with weary affection as she crosses her arms. "I explicitly told you to leave the island, yet here you are, marching straight back into--"
 
-Kate cuts her off with a fierce, crushing embrace, wrapping both arms around her before Diane can step back.
+Kate cuts her off with a fierce, bone-crushing embrace, wrapping both arms around her before Diane can take half a step back.
 
-"I have you," Kate says, burying her face into Diane's shoulder. "You aren't slipping away again. Not this time."
+"I have you," Kate says, burying her face into Diane's shoulder, her fingers bunching into the fabric of Diane's tunic. "You aren't slipping away again. Not this time."
 
-"Hey—stop, let go!" Diane laughs, struggling against Kate's iron grip. "You are embarrassing me in front of your company!"
+"Hey—stop, let go!" Diane laughs, struggling halfheartedly against Kate's iron grip. "You are embarrassing me in front of your company!"
 
- "Good to see you again," Hadrik rumbles, stepping forward with a grin. "Though you caused us a mountain of grief, girl. Knocking us cold in the sacred woods left us straight in the golden fox's jaws. Nearly died three times over."
+ "Good to see you again, lass!" Hadrik rumbles, stepping forward with a broad grin. "Though you caused us a mountain of grief, girl. Knocking us cold in the sacred woods left us straight in the golden fox's jaws. Nearly died three times over before breakfast!"
 
-"You did?" Diane wriggles free of Kate's hold, her eyes going wide with alarm. "I had no idea—I didn't consider--"
+"You did?" Diane wriggles free of Kate's hold, her hazel eyes going wide with alarm. "I had no idea—I didn't consider--"
 
-"Bwahaha!" Hadrik boomed. "Relax! Just poking at you. We came through in one piece, with grand tales to show for it. All's well that ends well!"
+"Bwahaha!" Hadrik boomed, clapping a heavy hand against his knee. "Relax! Just poking at you. We came through in one piece, with grand tales to show for it. All's well that ends well!"
 
-"Right..." Diane rubs the back of her neck, unsettled. "Still, I owe everyone an apology. My conduct was unacceptable. I was frantic to keep Kate away from the lessathi and reacted without thinking. Under pressure, I default to terrible decisions. An old failing I haven't managed to outgrow. Truly, I am sorry. I will make it right."
+"Right..." Diane rubs the back of her neck, unsettled by the near-miss. "Still, I owe everyone an apology. My conduct was unacceptable. I was frantic to keep Kate away from the lessathi and reacted without thinking. Under pressure, I default to terrible decisions. An old failing I haven't managed to outgrow. Truly, I am sorry. I will make it right."
 
- "If keeping Kate away from lessathi hands was your priority," Daren says, "why do you serve them? Are you under coercion?"
+ "If keeping Kate away from lessathi hands mattered so much to you," Daren says, his brow furrowing, "why do you serve them? Are you under coercion?"
 
-"No," Diane says. "To be precise, I work alongside Meridith. Not the rest of her people."
+"No," Diane says, meeting his gaze squarely. "To be precise, I work alongside Meridith. Not the rest of her people."
 
 "Is she not their ruler?" Hadrik asks.
 
@@ -646,11 +654,11 @@ choice("Continue", B3-Ch10c-Advanced, v_current_scene = B3-Ch10c-Advanced)
 ID: B3-Ch10c-Advanced
 TEXT:
 
- "Why remain here at all?" Kate asks softly. "Why not cross the ocean and build a life? Is Jason the reason?"
+ "Why remain here at all?" Kate asks softly, her hand lingering on Diane's sleeve. "Why not cross the ocean and build a life? Is Jason the reason?"
 
-"Partly," Diane admits. "My brother idolizes Meridith. Nothing would convince him to abandon her. But beyond that, I saw firsthand what lessathi extremism creates. I will not allow another Beacon of Hope to emerge. Meridith dismantled the facility, outlawed the execution of runaways, and banned the disposal of disabled infants. She forced decency onto an empire that had none. I respect her for that fight, and that is why I stand with her."
+"Partly," Diane admits, looking toward the canopy. "My brother idolizes Meridith. Nothing would convince him to abandon her. But beyond that, I saw firsthand what lessathi extremism creates. I will not allow another Beacon of Hope to emerge. Meridith dismantled the facility, outlawed the execution of runaways, and banned the disposal of disabled infants. She forced basic decency onto an empire that had none. I respect her for that fight, and that is why I stand with her."
 
-"A complicated picture," Daren says. "Meridith sounds reasonable, but she governs a hostile populace barely held in check. What prevents them from ambushing us the moment we materialize in their territory?"
+"A complicated picture," Daren says, stroking his chin. "Meridith sounds reasonable, but she governs a hostile populace barely held in check. What prevents them from ambushing us the moment we materialize in their territory?"
 
  "Daren raises a valid concern," Kate says. "Diane, is entering their central base truly safe?"
 
@@ -658,19 +666,19 @@ TEXT:
 
 "Why?" Kate asks.
 
-"Because if any of them lay a finger on you, I will slaughter them," Diane says. Her pupils flare with a blazing gold light. "I will tear through their ranks, and they are fully aware of what I can do. They will not dare touch you."
+"Because if any of them lay a finger on you, I will slaughter them," Diane says, her voice flat and utterly devoid of boast. Her pupils suddenly flare with a blazing, incandescent gold light. "I will tear through their ranks, and they are fully aware of what I can do. They will not dare touch you."
 
-Flower gasps, pointing directly at Diane's face.
+Flower gasps, pointing directly at Diane's face with both hands.
 
-"You have the glowing eye trick!" Flower's face lights up. "I thought I was the only one! Watch, I can do it too!"
+"You have the glowing eye trick!" Flower's face lights up in pure delight. "I thought I was the only one! Watch, I can do it too!"
 
-Flower clenches both fists, focusing her aura until heat ripples off her shoulders. Her eyes ignite into a fierce, radiant crimson.
+Flower clenches both fists, focusing her aura until heat ripples visibly off her shoulders. Her eyes ignite into a fierce, radiant crimson, tiny embers swirling within the irises.
 
-"That... is an advanced ethereal discipline," Diane says, her gaze lingering on the intensity of Flower's flames. "Mastering that resonance usually demands decades of dedicated training. To achieve it at your age is astonishing."
+"That... is an advanced ethereal discipline," Diane says, her breath catching as she studies the intensity of Flower's flames. "Mastering that resonance usually demands decades of dedicated training. To achieve it at your age is astonishing."
 
-"I am thirty!" Flower protests, puffing out her chest. "I am older than you are!"
+"I am thirty!" Flower protests, puffing out her chest indignantly. "I am older than you are!"
 
-"Uh..." Diane glances between Flower and the rest of us. "Is she pulling my leg, or...?"
+"Uh..." Diane glances between Flower and the rest of us, bewildered. "Is she pulling my leg, or...?"
 
 choice(""Yeah, she's just joking. Don't worry about it."", B3-Ch10c-Joking, v_current_scene = B3-Ch10c-Joking)
 choice(""Actually, believe it or not, she's telling the truth."", B3-Ch10c-Truth, v_current_scene = B3-Ch10c-Truth)
@@ -681,25 +689,25 @@ TEXT:
 
  "Yeah, she's just joking. Don't worry about it."
 
-"I am not joking!" Flower shouts. "I am thirty years old!"
+"I am not joking!" Flower shouts, stomping her boot into the dirt. "I am thirty years old!"
 
-The crimson in her eyes vanishes, replaced instantly by glacial blue as Illuna takes control of the expression.
+The crimson in her eyes vanishes, replaced instantly by glacial blue as Illuna seizes control of the expression, her mouth flattening into a sharp line.
 
-"We had an agreement regarding comments on Flower's age," Illuna says, glaring at me. "If you intend to break it, I politely request you regurgitate the slice of birthday cake you accepted and return it."
+"We had an explicit agreement regarding comments on Flower's age," Illuna says, glaring daggers at me. "If you intend to break it, I politely request you regurgitate the slice of birthday cake you accepted and return it."
 
-"Right. My mistake," I cough into my fist.
+"Right. My mistake," I cough into my fist, taking a half-step back.
 
-"What was that?" Diane's hand drops toward her side. "Her eyes turned vivid blue and her entire posture shifted."
+"What was that?" Diane's hand drops toward her side in surprise. "Her eyes turned vivid blue and her entire posture shifted."
 
 "That is Illuna, the banshee sharing her physical form," I explain. "Their souls fused two decades ago, freezing Flower's biological growth. They reside together within Flower's mind on the ethereal plane, holding daily tea and biscuits."
 
-"A banshee..." Diane studies Flower, her brow furrowing. "That accounts for the dual harmonic in her aura. But housing two distinct wills in a single mind... I had no idea such fusion was possible."
+"A banshee..." Diane studies Flower, her brow furrowing with genuine fascination. "That accounts for the dual harmonic in her aura. But housing two distinct wills in a single mind... I had no idea such fusion was possible."
 
-"Hate to cut in," Hadrik says, "but is this the extraction point, or are we marching further?"
+"Hate to cut in," Hadrik says, shifting his weight, "but is this the extraction point, or are we marching further?"
 
  "A short walk," Diane says, turning on her heel. "Follow me."
 
-"Diane, there is so much to tell you," Kate says, falling into step beside her. "You have no idea what has happened. I found Leila. She has been traveling with our company."
+"Diane, there is so much to tell you," Kate says, falling into step beside her along the ridge. "You have no idea what has happened. I found Leila. She has been traveling with our company."
 
 "Leila?" Diane pauses, searching her memory. "The mute girl with silver hair who fled with the caretaker? She survived? That is wonderful."
 
@@ -709,9 +717,9 @@ The crimson in her eyes vanishes, replaced instantly by glacial blue as Illuna t
 
 As we hike through the brush, Kate recounts the key points of her exile, her crossing back to Varathia, and our progress through the tournament brackets.
 
-Reaching a barren outcrop, Diane unclips her transceiver and relays our coordinates to the operator below. Once confirmed, she checks that we are set, then gives the signal to engage the array.
+Reaching a barren outcrop of granite, Diane unclips her transceiver and relays our coordinates to the operator below. Once confirmed, she checks that we are set, then gives the signal to engage the array.
 
-Blinding white light wraps around us, accompanied by a resonant hum that vibrates through our teeth. The forest dissolves. We materialize inside a subterranean vault, standing before a teleportation dais similar to the rebel platform in Ollendor, but scaled considerably larger. Behind the control console stands a lessathi technician in formal dark blue robes, observing us with cold scrutiny.
+Blinding white light wraps around us, accompanied by a deep, resonant hum that vibrates through our teeth and ribs. The forest dissolves. We materialize inside a vast subterranean vault, standing before a teleportation dais similar to the rebel platform in Ollendor, but scaled considerably larger and lined with dark seredium plating. Behind the control console stands a lessathi technician in formal dark blue robes, observing us with cold scrutiny.
 
 Standing at the edge of the chamber is Meridith herself. I recognize her instantly from the memories revealed during Kate's trial. Her chestnut hair is trimmed shorter, and silver filigree lines the hem of her robes to denote high office, but her green eyes hold the exact steel resolve she carried a decade ago.
 
@@ -731,17 +739,17 @@ TEXT:
 
  "Actually, believe it or not, she's telling the truth."
 
-"She is?" Diane looks from Flower to me. "How can she be thirty? She has the frame of a nine-year-old."
+"She is?" Diane looks from Flower to me, her brow furrowing. "How can she be thirty? She has the frame of a nine-year-old child."
 
 "Her soul was fused with a banshee named Illuna," I explain. "They share the body, living inside Flower's ethereal mind space where they drink tea and eat biscuits every day."
 
-"A banshee..." Diane studies Flower, her brow furrowing. "That accounts for the dual harmonic in her aura. But housing two distinct wills in a single mind... I had no idea such fusion was possible."
+"A banshee..." Diane studies Flower, her eyes widening slightly. "That accounts for the dual harmonic in her aura. But housing two distinct wills in a single mind... I had no idea such fusion was possible."
 
-"Hate to cut in," Hadrik says, "but is this the extraction point, or are we marching further?"
+"Hate to cut in," Hadrik says, shifting his weight, "but is this the extraction point, or are we marching further?"
 
  "A short walk," Diane says, turning on her heel. "Follow me."
 
-"Diane, there is so much to tell you," Kate says, falling into step beside her. "You have no idea what has happened. I found Leila. She has been traveling with our company."
+"Diane, there is so much to tell you," Kate says, falling into step beside her along the ridge. "You have no idea what has happened. I found Leila. She has been traveling with our company."
 
 "Leila?" Diane pauses, searching her memory. "The mute girl with silver hair who fled with the caretaker? She survived? That is wonderful."
 
@@ -751,9 +759,9 @@ TEXT:
 
 As we hike through the brush, Kate recounts the key points of her exile, her crossing back to Varathia, and our progress through the tournament brackets.
 
-Reaching a barren outcrop, Diane unclips her transceiver and relays our coordinates to the operator below. Once confirmed, she checks that we are set, then gives the signal to engage the array.
+Reaching a barren outcrop of granite, Diane unclips her transceiver and relays our coordinates to the operator below. Once confirmed, she checks that we are set, then gives the signal to engage the array.
 
-Blinding white light wraps around us, accompanied by a resonant hum that vibrates through our teeth. The forest dissolves. We materialize inside a subterranean vault, standing before a teleportation dais similar to the rebel platform in Ollendor, but scaled considerably larger. Behind the control console stands a lessathi technician in formal dark blue robes, observing us with cold scrutiny.
+Blinding white light wraps around us, accompanied by a deep, resonant hum that vibrates through our teeth and ribs. The forest dissolves. We materialize inside a vast subterranean vault, standing before a teleportation dais similar to the rebel platform in Ollendor, but scaled considerably larger and lined with dark seredium plating. Behind the control console stands a lessathi technician in formal dark blue robes, observing us with cold scrutiny.
 
 Standing at the edge of the chamber is Meridith herself. I recognize her instantly from the memories revealed during Kate's trial. Her chestnut hair is trimmed shorter, and silver filigree lines the hem of her robes to denote high office, but her green eyes hold the exact steel resolve she carried a decade ago.
 
@@ -771,43 +779,43 @@ choice("Continue", B3-Ch10c-Scepter, v_current_scene = B3-Ch10c-Scepter)
 ID: B3-Ch10c-Scepter
 TEXT:
 
- Meridith presents an ornate scepter resting across her palms, its shaft etched with geometric bands and crowned with dark gemstones.
+ Meridith presents an ornate scepter resting across her open palms, its dark metallic shaft etched with intricate geometric bands and crowned with deep sapphire gemstones that pulse with contained force.
 
-"This belongs to you," Meridith says.
+"This belongs to you," Meridith says, extending the weapon.
 
-"What is it?" Kate's eyes narrow.
+"What is it?" Kate's dark eyes narrow with instant suspicion.
 
 "An heirloom of our civilization," Meridith says. "Preserved for over a millennium, from the zenith of the lessathi empire across Varathia. I offer it as restitution for the atrocities inflicted upon you. It cannot undo the horrors of the Beacon, but it stands as an acknowledgment of our debt."
 
-"Sacrilege!" The teleporter engineer slams his hands onto the console. "Unthinkable! The sacred scepter of Heldenbusorag is not a trinket to hand out to surface vagrants! You desecrate our lineage!"
+"Sacrilege!" The teleporter engineer slams both hands down onto the console, his face twisting with rage. "Unthinkable! The sacred scepter of Heldenbusorag is not a trinket to hand out to surface vagrants! You desecrate our lineage, Lady Meridith!"
 
-"I desecrate nothing," Meridith says, without raising her voice. "The weight of the relic is precisely what gives the restitution meaning. A hollow gesture would insult us both."
+"I desecrate nothing," Meridith says, her voice low, measured, and entirely unyielding. "The weight of the relic is precisely what gives the restitution meaning. A hollow gesture would insult us both."
 
-"I cannot take this," Kate steps back. "If it holds that significance to your culture, keep it in your vault."
+"I cannot take this," Kate says, stepping back a pace. "If it holds that significance to your culture, keep it in your vault."
 
- "Take it," Meridith says gently, closing Kate's fingers around the grip. "It serves no purpose gathering dust in a reliquary. In the hands of a disciplined elementalist, it sharpens magical compression. Test it."
+ "Take it," Meridith says gently, closing Kate's fingers around the cool grip. "It serves no purpose gathering dust in a reliquary. In the hands of a disciplined elementalist, it sharpens magical compression to an extraordinary degree. Test it."
 
-Kate hesitates, then aims the scepter toward the cavern rock and unleashes a lance of frost.
+Kate hesitates, her fingers curling around the etched metal, then aims the crown toward the reinforced cavern wall and unleashes a lance of frost.
 
-The icicle punches cleanly through the thick seredium reinforcement, boring a smooth cylindrical tunnel deep into the stone before shattering.
+The icicle punches cleanly through the thick seredium reinforcement, boring a smooth cylindrical tunnel deep into the bedrock before shattering into diamond dust.
 
-"Remarkable," Kate breathes, examining the weapon. "Structuring an ice projectile to that density normally requires several seconds of focus."
+"Remarkable," Kate breathes, staring at the scepter in her hand. "Structuring an ice projectile to that density normally requires several seconds of unbroken focus."
 
-"I am pleased it answers to your touch," Meridith says.
+"I am pleased it answers to your touch," Meridith says with a faint nod.
 
 "The Heksol faction will not tolerate this, Lady Meridith," the operator snaps, his knuckles whitening on the controls. "I will report this transgression myself."
 
- "Save your breath, Grihirt," Meridith replies coolly. "I published my decree the hour I summoned Kate here. If your circle doubted my resolve, seeing the relic in her grip will cure their skepticism. Times evolve. Heksol lies in a grave, yet you cling to his ghost. Reality demands your attention."
+ "Save your breath, Grihirt," Meridith replies coolly, turning her back on him. "I published my decree the hour I summoned Kate here. If your circle doubted my resolve, seeing the relic in her grip will cure their skepticism. Times evolve. Heksol lies in a grave, yet you cling to his ghost. Reality demands your attention."
 
 "We shall see," Grihirt sneers.
 
-"Follow me," Meridith gestures down the corridor. "The walk to our command center is long."
+"Follow me," Meridith gestures down the adjoining corridor. "The walk to our command center is long."
 
-"Lead on," Daren says, falling in behind her as we leave the fuming engineer behind.
+"Lead on," Daren says, falling in behind her as we leave the fuming engineer behind his console.
 
 "I understand demanding your presence here for the locator felt heavy-handed," Meridith says as we navigate the torchlit tunnels, "but I intend to ensure this journey rewards your effort. I cannot erase the past, but I can enforce proper compensation."
 
-"Why expend such resources on our behalf?" Illuna asks from Flower's throat. "Tournament stewards claim strict neutrality."
+"Why expend such resources on our behalf?" Illuna asks from Flower's throat, her sapphire eyes gleaming in the torchlight. "Tournament stewards claim strict neutrality."
 
 choice("Continue", B3-Ch10c-Secret, v_current_scene = B3-Ch10c-Secret)
 
@@ -815,47 +823,47 @@ choice("Continue", B3-Ch10c-Secret, v_current_scene = B3-Ch10c-Secret)
 ID: B3-Ch10c-Secret
 TEXT:
 
- "Diane's companions are under my protection. That extends to you, Illuna of the sacred woods massacre," Meridith says. We exchange glances, realizing she cataloged Flower's passenger long before we stepped off the platform. "Diane's assistance over the decade since the Beacon's closure placed me heavily in her debt. I repay it where I can. If there is anything your party requires, name it."
+ "Diane's companions are under my protection. That extends to you, Illuna of the sacred woods massacre," Meridith says, not missing a beat as we walk. We exchange glances behind her, realizing she had cataloged Flower's passenger long before we stepped off the teleportation platform. "Diane's assistance over the decade since the Beacon's closure placed me heavily in her debt. I repay it where I can. If there is anything your party requires, name it."
 
-"I provided no introduction," Illuna remarks. "How did you identify me?"
+"I provided no formal introduction," Illuna remarks, her voice suspicious. "How did you identify me?"
 
-"I direct lessathi intelligence," Meridith replies. "Tracking significant actors across Varathia is standard protocol. Your pair made an impression over the last twenty years, and rumors tie you to the golden fox. It would be negligence not to know your face."
+"I direct lessathi intelligence," Meridith replies smoothly, keeping her gaze forward. "Tracking notable figures across Varathia is standard practice. Your pair made a considerable impression over the last twenty years, and rumors tie you to the golden fox. It would be professional negligence not to know your face."
 
 "Fair enough," Illuna says.
 
-Meridith taps a specific pattern on the seredium wall using a slender metal rod. A concealed seam parts, revealing a passage.
+Meridith pauses before a blank expanse of wall and taps a specific sequence against the seredium with the tip of a slender metal rod. A concealed seam parts silently, revealing a narrow private corridor.
 
- "You offered assistance," I say as we step through and the partition seals behind us. "Does that cover restricted data? Specifically, the override cipher that unchains the magical attributes on my stat device. I understand only executive lessathi hold that sequence."
+ "You offered assistance," I say as we step through and the heavy seredium partition seals behind us. "Does that cover restricted data? Specifically, the override cipher that unchains the magical attributes on my stat device. I understand only executive lessathi hold that sequence."
 
-"I possess the sequence, but you misunderstand its function," Meridith says as we proceed down the narrow corridor. "The magical pathways in those units do not respond to pure lessathi biology. They activate exclusively for half-lessathi hybrids. That limitation prompted the lockdown in the first place—hybrids were deemed second-class, unfit to wield such capabilities. The modules remained in production because ancient engineers six centuries ago hoped to bypass the restriction, until the still winter wiped them out. Unlocking those stats on your device yields nothing."
+"I possess the sequence, but you misunderstand its function," Meridith says as we proceed down the torchlit passage. "The magical pathways in those units do not respond to pure lessathi biology. They activate exclusively for half-lessathi hybrids. That limitation prompted the lockdown in the first place—hybrids were deemed second-class by the council, unfit to wield such capabilities. The modules remained in production because ancient engineers six centuries ago hoped to bypass the restriction, until the still winter wiped them out. Unlocking those stats on your device yields nothing."
 
-"I am half-lessathi," I say. "I activated them during Emergency Mode. They function fine."
+"I am half-lessathi," I say plainly. "I activated them during Emergency Mode. They function fine."
 
-"Half-lessathi?" Meridith slows. "Impossible. Interbreeding with humans carries mandatory exile or death under our statutes. And if you entered through the tournament registry, you grew up across the ocean. That implies your parents somehow--"
+"Half-lessathi?" Meridith slows her pace, then stops entirely. "Impossible. Interbreeding with humans carries mandatory exile or execution under our statutes. And if you entered through the tournament registry, you grew up across the ocean. That implies your parents somehow--"
 
-She freezes in the corridor, turning slowly to look me up and down.
+She freezes in the corridor, turning slowly to look me up and down. For the first time, the immaculate composure slips from her features.
 
-"What is your age?" she asks, her voice dropping.
+"What is your age?" she asks, her voice dropping to a harsh whisper.
 
 "Twenty-eight," I answer.
 
-"Twenty-eight years..." Her eyes unfocus, running dates through her mind. "Twenty-eight years since--"
+"Twenty-eight years..." Her eyes unfocus, running dates through decades of memory. "Twenty-eight years since--"
 
-She trails off.
+She trails off, her breath catching in her throat.
 
 "No. That cannot be."
 
-She raises the metal rod, taps her left shoulder, then reaches out and touches the tip to mine. The metal resonates, flaring with an emerald luminescence. Meridith stares at the glowing rod, rigid.
+She raises the slender metal rod, taps its base to her left shoulder, then reaches out and touches the opposite tip to mine. The metal resonates with a low, harmonic chime, suddenly flaring with a deep, vibrant emerald luminescence that paints our faces green. Meridith stares at the glowing rod, her fingers trembling against the grip.
 
-"The harmonic is identical," she whispers.
+"The harmonic is identical," she whispers into the silence.
 
-"Meaning what?" I ask.
+"Meaning what?" I ask, my pulse thumping against my ribs.
 
-"Meaning we share blood," Meridith says.
+"Meaning we share blood," Meridith says, her eyes lifting to mine.
 
 choice(""Wait, so does that make me a lessathi prince?"", B3-Ch10c-Prince, v_current_scene = B3-Ch10c-Prince)
 choice(""I thought my real parents were supposed to have fled Varathia before I was born."", B3-Ch10c-Fled, v_current_scene = B3-Ch10c-Fled)
-choice(""...Mommy?"", B3-Ch10c-Mommy, v_current_scene = B3-Ch10c-Mommy)
+choice(""So am I supposed to call you Mother, or do we skip the family reunion?"", B3-Ch10c-Mommy, v_current_scene = B3-Ch10c-Mommy)
 
 
 ID: B3-Ch10c-Prince
@@ -863,33 +871,33 @@ TEXT:
 
  "Wait, so does that make me a lessathi prince?"
 
-"Our society functions on meritocracy, not hereditary entitlement," Meridith says sharply. "Leadership is earned through achievement. Furthermore, I am your aunt, not your mother. My sister bore you."
+"Our society functions on meritocracy, not hereditary entitlement," Meridith says sharply, though the edge in her voice is blunted by shock. "Leadership is earned through achievement. Furthermore, I am your aunt, not your mother. My sister bore you."
 
-"Does this mean you know the fate of my biological parents?" I ask.
+"Does this mean you know the fate of my biological parents?" I ask, the words tight in my throat.
 
-"Yes." Meridith dips her chin. "They were executed on Lord Heksol's order for conceiving a hybrid child and fleeing Varathia without authorization."
+"Yes." Meridith dips her chin, a shadow crossing her face. "They were executed on Lord Heksol's order for conceiving a hybrid child and fleeing Varathia without authorization."
 
 "How did they get off the island?" I ask. "I thought intercontinental teleportation was restricted to the highest command."
 
-"I assisted their escape," Meridith says. "I served as Heksol's secretary at the time, which granted me access to the activation protocols in his archives. I acquired the coordinates, bribed an operative to stage a perimeter distraction, and saw them through the array."
+"I assisted their escape," Meridith says. "I served as Heksol's executive assistant at the time, which granted me access to the activation keys in his private archives. I acquired the coordinates, bribed a perimeter guard to stage a diversion, and saw them through the array with my own hands."
 
 "And you survived to become leader?" I ask. "How did you avoid an execution cell?"
 
- "Heksol suspected my involvement immediately, but lacked definitive evidence," Meridith says. "My standing within the ranks was already established, preventing him from acting on assumption alone. He stripped me of my clerical post. Over the following decades, I advanced through competence and results until he had no choice but to appoint me his second."
+ "Heksol suspected my involvement immediately, but lacked definitive evidence," Meridith says, her voice steadying as she recounts the years. "My standing within the ranks was already established, preventing him from acting on assumption alone. He stripped me of my clerical post and banished me to logistical oversight. Over the following decades, I advanced through competence and unassailable results until he had no choice but to appoint me his second."
 
-She pauses, looking down at the wand.
+She pauses, looking down at the emerald glow fading from the resonance wand.
 
-"I failed to search for you," Meridith says quietly. "When my sister departed, we severed all communication to ensure her location could never be extracted from me under interrogation. I uncovered the execution reports years later, filed away in Heksol's legacy archives. I possessed no name, no continent, no certainty you survived infancy. My only recourse was carrying this resonance rod on diplomatic crossings, hoping for an emerald signal. To have you materialize here, unbidden..."
+"I failed to search for you," Meridith says quietly. "When my sister departed, we severed all communication to ensure her location could never be extracted from me under torture. I uncovered the execution reports years later, filed away in Heksol's legacy archives after his demise. I possessed no name, no continent, no certainty you survived infancy. My only recourse was carrying this resonance rod on diplomatic crossings, hoping against hope for an emerald signal. To have you materialize here, unbidden..."
 
-"What happens now?" I ask. "Do we embrace?"
+"What happens now?" I ask, the weight of twenty-eight years settling between us. "Do we embrace?"
 
- "No," Meridith says, the executive steel returning to her posture. "Though your arrival is remarkably opportune. There is someone essential you must meet. I intended to bring Kate before him, but your identity makes your presence equally vital."
+ "No," Meridith says, the executive steel snapping back over her posture as she pockets the rod. "Though your arrival is remarkably opportune. There is someone essential you must meet. I intended to bring Kate before him, but your lineage makes your presence equally vital."
 
 "Who?" I ask. "Another lessathi officer?"
 
 "You will see shortly," Meridith says, turning down the passage. "We have no time to squander."
 
-As we follow her through the abandoned corridors, a chill ripples across my shoulders. Eiden's parting words ring clear in my memory:
+As we follow her through the quiet corridors, a chill ripples across my shoulders. Eiden's parting words ring clear in my memory:
 
 "Aren't you pleased, Barry? Now you finally have the opportunity to deliver my message."
 
@@ -905,33 +913,33 @@ TEXT:
 
  "I thought my real parents were supposed to have fled Varathia before I was born."
 
-"They did," Meridith says. "My sister crossed the ocean carrying you. I am your aunt, not your mother."
+"They did," Meridith says, her gaze searching my face. "My sister crossed the ocean carrying you in her womb. I am your aunt, not your mother."
 
-"Does this mean you know the fate of my biological parents?" I ask.
+"Does this mean you know the fate of my biological parents?" I ask, the words tight in my throat.
 
-"Yes." Meridith dips her chin. "They were executed on Lord Heksol's order for conceiving a hybrid child and fleeing Varathia without authorization."
+"Yes." Meridith dips her chin, a shadow crossing her face. "They were executed on Lord Heksol's order for conceiving a hybrid child and fleeing Varathia without authorization."
 
 "How did they get off the island?" I ask. "I thought intercontinental teleportation was restricted to the highest command."
 
-"I assisted their escape," Meridith says. "I served as Heksol's secretary at the time, which granted me access to the activation protocols in his archives. I acquired the coordinates, bribed an operative to stage a perimeter distraction, and saw them through the array."
+"I assisted their escape," Meridith says. "I served as Heksol's executive assistant at the time, which granted me access to the activation keys in his private archives. I acquired the coordinates, bribed a perimeter guard to stage a diversion, and saw them through the array with my own hands."
 
 "And you survived to become leader?" I ask. "How did you avoid an execution cell?"
 
- "Heksol suspected my involvement immediately, but lacked definitive evidence," Meridith says. "My standing within the ranks was already established, preventing him from acting on assumption alone. He stripped me of my clerical post. Over the following decades, I advanced through competence and results until he had no choice but to appoint me his second."
+ "Heksol suspected my involvement immediately, but lacked definitive evidence," Meridith says, her voice steadying as she recounts the years. "My standing within the ranks was already established, preventing him from acting on assumption alone. He stripped me of my clerical post and banished me to logistical oversight. Over the following decades, I advanced through competence and unassailable results until he had no choice but to appoint me his second."
 
-She pauses, looking down at the wand.
+She pauses, looking down at the emerald glow fading from the resonance wand.
 
-"I failed to search for you," Meridith says quietly. "When my sister departed, we severed all communication to ensure her location could never be extracted from me under interrogation. I uncovered the execution reports years later, filed away in Heksol's legacy archives. I possessed no name, no continent, no certainty you survived infancy. My only recourse was carrying this resonance rod on diplomatic crossings, hoping for an emerald signal. To have you materialize here, unbidden..."
+"I failed to search for you," Meridith says quietly. "When my sister departed, we severed all communication to ensure her location could never be extracted from me under torture. I uncovered the execution reports years later, filed away in Heksol's legacy archives after his demise. I possessed no name, no continent, no certainty you survived infancy. My only recourse was carrying this resonance rod on diplomatic crossings, hoping against hope for an emerald signal. To have you materialize here, unbidden..."
 
-"What happens now?" I ask. "Do we embrace?"
+"What happens now?" I ask, the weight of twenty-eight years settling between us. "Do we embrace?"
 
- "No," Meridith says, the executive steel returning to her posture. "Though your arrival is remarkably opportune. There is someone essential you must meet. I intended to bring Kate before him, but your identity makes your presence equally vital."
+ "No," Meridith says, the executive steel snapping back over her posture as she pockets the rod. "Though your arrival is remarkably opportune. There is someone essential you must meet. I intended to bring Kate before him, but your lineage makes your presence equally vital."
 
 "Who?" I ask. "Another lessathi officer?"
 
 "You will see shortly," Meridith says, turning down the passage. "We have no time to squander."
 
-As we follow her through the abandoned corridors, a chill ripples across my shoulders. Eiden's parting words ring clear in my memory:
+As we follow her through the quiet corridors, a chill ripples across my shoulders. Eiden's parting words ring clear in my memory:
 
 "Aren't you pleased, Barry? Now you finally have the opportunity to deliver my message."
 
@@ -945,35 +953,35 @@ choice("Continue", B3-Ch10c-Phrasing, v_current_scene = B3-Ch10c-Phrasing)
 ID: B3-Ch10c-Mommy
 TEXT:
 
- "...Mommy?"
+ "So am I supposed to call you Mother, or do we skip the family reunion?"
 
-"I suspect you are mocking me, but no, I am not your mother," Meridith says. "You are my sister's son, which makes me your aunt."
+"I suspect you are mocking me, but no, I am not your mother," Meridith says, her sharp reply cutting through the shock. "You are my sister's son, which makes me your aunt."
 
-"Does this mean you know the fate of my biological parents?" I ask.
+"Does this mean you know the fate of my biological parents?" I ask, the sarcasm dropping away as the question lands.
 
-"Yes." Meridith dips her chin. "They were executed on Lord Heksol's order for conceiving a hybrid child and fleeing Varathia without authorization."
+"Yes." Meridith dips her chin, a shadow crossing her face. "They were executed on Lord Heksol's order for conceiving a hybrid child and fleeing Varathia without authorization."
 
 "How did they get off the island?" I ask. "I thought intercontinental teleportation was restricted to the highest command."
 
-"I assisted their escape," Meridith says. "I served as Heksol's secretary at the time, which granted me access to the activation protocols in his archives. I acquired the coordinates, bribed an operative to stage a perimeter distraction, and saw them through the array."
+"I assisted their escape," Meridith says. "I served as Heksol's executive assistant at the time, which granted me access to the activation keys in his private archives. I acquired the coordinates, bribed a perimeter guard to stage a diversion, and saw them through the array with my own hands."
 
 "And you survived to become leader?" I ask. "How did you avoid an execution cell?"
 
- "Heksol suspected my involvement immediately, but lacked definitive evidence," Meridith says. "My standing within the ranks was already established, preventing him from acting on assumption alone. He stripped me of my clerical post. Over the following decades, I advanced through competence and results until he had no choice but to appoint me his second."
+ "Heksol suspected my involvement immediately, but lacked definitive evidence," Meridith says, her voice steadying as she recounts the years. "My standing within the ranks was already established, preventing him from acting on assumption alone. He stripped me of my clerical post and banished me to logistical oversight. Over the following decades, I advanced through competence and unassailable results until he had no choice but to appoint me his second."
 
-She pauses, looking down at the wand.
+She pauses, looking down at the emerald glow fading from the resonance wand.
 
-"I failed to search for you," Meridith says quietly. "When my sister departed, we severed all communication to ensure her location could never be extracted from me under interrogation. I uncovered the execution reports years later, filed away in Heksol's legacy archives. I possessed no name, no continent, no certainty you survived infancy. My only recourse was carrying this resonance rod on diplomatic crossings, hoping for an emerald signal. To have you materialize here, unbidden..."
+"I failed to search for you," Meridith says quietly. "When my sister departed, we severed all communication to ensure her location could never be extracted from me under torture. I uncovered the execution reports years later, filed away in Heksol's legacy archives after his demise. I possessed no name, no continent, no certainty you survived infancy. My only recourse was carrying this resonance rod on diplomatic crossings, hoping against hope for an emerald signal. To have you materialize here, unbidden..."
 
-"What happens now?" I ask. "Do we embrace?"
+"What happens now?" I ask, the weight of twenty-eight years settling between us. "Do we embrace?"
 
- "No," Meridith says, the executive steel returning to her posture. "Though your arrival is remarkably opportune. There is someone essential you must meet. I intended to bring Kate before him, but your identity makes your presence equally vital."
+ "No," Meridith says, the executive steel snapping back over her posture as she pockets the rod. "Though your arrival is remarkably opportune. There is someone essential you must meet. I intended to bring Kate before him, but your lineage makes your presence equally vital."
 
 "Who?" I ask. "Another lessathi officer?"
 
 "You will see shortly," Meridith says, turning down the passage. "We have no time to squander."
 
-As we follow her through the abandoned corridors, a chill ripples across my shoulders. Eiden's parting words ring clear in my memory:
+As we follow her through the quiet corridors, a chill ripples across my shoulders. Eiden's parting words ring clear in my memory:
 
 "Aren't you pleased, Barry? Now you finally have the opportunity to deliver my message."
 
@@ -987,15 +995,15 @@ choice("Continue", B3-Ch10c-Phrasing, v_current_scene = B3-Ch10c-Phrasing)
 ID: B3-Ch10c-Phrasing
 TEXT:
 
- Ignoring Eiden's instructions is not an option. The last time I neglected his courier duty, he nearly tore us apart. I have no desire to test his wrath twice.
+ Ignoring Eiden's instructions is not an option. The last time I neglected his courier duty, he nearly tore us apart in the street. I have no desire to test his wrath twice.
 
 "Meridith," I call out as we march through the gloom. "This is abrupt, but I carry a message for you. From Eiden."
 
-"From Eiden?" Meridith stops. She does not turn around. "What words could he have for me?"
+"From Eiden?" Meridith stops in her tracks. She does not turn around. "What words could he have for me?"
 
 "Remember the still winter."
 
-Silence falls heavy in the corridor. She stands motionless.
+Silence falls heavy in the corridor, suffocating and cold. She stands completely motionless.
 
 "That was all," I add into the quiet. "He said you would understand the meaning."
 
@@ -1005,25 +1013,25 @@ Silence falls heavy in the corridor. She stands motionless.
 
 "Did he direct this to me specifically?"
 
- "Not originally," I admit. "I was instructed to deliver it to the first lessathi I encountered. I was half-dead at the time and failed to pass it along. Eiden took offense when he realized I had crossed paths with your people and said nothing, so I made sure to discharge the debt now."
+ "Not originally," I admit. "I was instructed to deliver it to the first lessathi I encountered. I was half-dead at the time and failed to pass it along. Eiden took offense when he realized I had crossed paths with your people in Ollendor and said nothing, so I made sure to discharge the debt now."
 
-"How did he know you had met lessathi?" Meridith asks. "Did you report the encounter?"
+"How did he know you had met lessathi?" Meridith asks, her head tilting. "Did you report the encounter?"
 
 "He read it off us," I say. "His magical perception covers the entire island. He detected the lessathi resonance lingering on our auras."
 
-"What did you say?" Meridith whips around, staring directly into my eyes.
+"What did you say?" Meridith whips around, staring directly into my eyes, her face stark with alarm.
 
 "About what?"
 
-"You claim Eiden identified lessathi operatives simply by scanning their aura signatures?"
+"You claim Eiden identified lessathi operatives simply by scanning their aura signatures from across the continent?"
 
  "Yes," I say. "His range is absurd."
 
-"You do not grasp the implication," Meridith says, her composure cracking. "Every operative on the surface wears an enchanted cuff under their cuff to mask their presence. If Eiden cuts through that shielding at distance, our field agents are completely exposed."
+"You do not grasp the implication," Meridith says, her composure cracking. "Every operative on the surface wears an enchanted band beneath their sleeve to mask their presence. If Eiden cuts through that shielding at distance, our field agents are completely exposed."
 
 "Gwahaha!" Arraka cackles from the amulet. "You believed those cheap copper bands would blind Eiden? You would need to amplify their density a hundredfold to baffle a stillwater of his caliber!"
 
-"A hundredfold..." Meridith absorbs the mockery without flinching, already calculating. "We can cannibalize redundant units and consolidate the warding cores. It will leave fewer scouts equipped, but those deployed will remain hidden. I will assign the workshop to reconfigure the prototypes immediately."
+"A hundredfold..." Meridith absorbs the mockery without flinching, already calculating numbers in her head. "We can cannibalize redundant units and consolidate the warding cores. It will leave fewer scouts equipped, but those deployed will remain hidden. I will assign the workshop to reconfigure the prototypes immediately."
 
 "Good luck with that," Arraka snorts.
 
@@ -1035,13 +1043,13 @@ TEXT:
 
  "I don't understand why Eiden's tracking concerns you so deeply," I say as we push farther down the shaft. "Was he not an ally to the lessathi during the still winter?"
 
-"An ally?" Meridith's tone hardens instantly. "Eiden was the spark that ignited the slaughter. Am I expected to bow in gratitude because he switched allegiances in the eleventh hour, after his brethren had butchered the bulk of our civilization? The still winter was no war. It was extermination, and every stillwater who drew breath carries that butcher's stain."
+"An ally?" Meridith's tone hardens instantly, ice beneath the words. "Eiden was the spark that ignited the slaughter. Am I expected to bow in gratitude because he switched allegiances in the eleventh hour, after his brethren had butchered the bulk of our civilization? The still winter was no war. It was extermination, and every stillwater who drew breath carries that butcher's stain."
 
-"Hold on," Melindra cuts in, her voice flaring. "Neither I, nor my brother, nor Eiden took part in that slaughter. And your people invited that catastrophe. If the lessathi had not caged Eiden and the other casters like cattle, events would never have erupted into--"
+"Hold on," Melindra cuts in, her voice flaring with indignation. "Neither I, nor my brother, nor Eiden took part in that slaughter. And your people invited that catastrophe. If the lessathi had not caged Eiden and the other casters like cattle, events would never have erupted into--"
 
-"Our fault?" Meridith wheels on her, fury cold and sharp in her eyes. "The women? The infants in their cradles? You claim they earned their slaughter?"
+"Our fault?" Meridith wheels on her, fury cold and sharp in her green eyes. "The women? The infants in their cradles? You claim they earned their slaughter?"
 
- "I--" Melindra falters, the words sticking in her throat. "I do not endorse what the stillwaters did. I am stating they were not the instigators."
+ "I--" Melindra falters, the words sticking in her throat as she looks away. "I do not endorse what the stillwaters did. I am stating they were not the instigators."
 
 "Hold up," I interject. "Were those casters imprisoned because lessathi researchers were experimenting on them to manufacture stillwaters? Is that what triggered the collapse?"
 
@@ -1049,7 +1057,7 @@ TEXT:
 
 "So the recipe is lost to you as well," I murmur. "Interesting."
 
- Meridith taps the end of the shaft with her rod. Another seam divides, ushering us into a corridor blazing with sapphire radiance. Blue crystals line the stone from floor to ceiling. As in Ollendor's deep caverns, the minerals pulse with a slow, rhythmic cadence, though the thrum feels less volatile than four days ago.
+ Meridith taps the end of the shaft with her rod. Another concealed seam divides, ushering us into a corridor blazing with sapphire radiance. Blue crystals line the stone from floor to ceiling, their jagged facets catching the torchlight. As in Ollendor's deep caverns, the minerals pulse with a slow, rhythmic cadence, though the thrum feels less volatile than four days ago.
 
 "That is a massive concentration of crystals," Hadrik remarks as the stone seals behind us.
 
@@ -1063,19 +1071,19 @@ ID: B3-Ch10c-Brightly
 TEXT:
 
 #if(v_b3_ch10_crystals == 1) {
- "We know the trigger," I say. "The resonance began when the king of Ollendor detonated the subterranean caverns beneath the city to crush the rebels."
+ "We know the trigger," I say, glancing at the glowing formations. "The resonance began when the king of Ollendor detonated the deep caverns beneath the city to bury the rebels."
 
-"You claim these formations reacted to an explosion across the continent?" Meridith asks, studying me.
+"You claim these minerals reacted to an explosion across the continent?" Meridith asks, her eyes narrowing as she studies my face.
 
-"The pattern matches," I say. "The Ollendor deposits fell into the exact same rhythm—a slow dimming and flaring, like a collective pulse."
+"The pattern matches," I say. "The Ollendor deposits fell into the exact same rhythm—a slow dimming and flaring, like a collective heartbeat."
 
 "If verified, that correlation will advance our research considerably," Meridith says. "I appreciate the disclosure."
 
 "Glad to help," I say.
 
-"We have not encountered a single lessathi since the teleportation room," Kate observes as we navigate the sapphire-lit tunnel.
+"We have not encountered a single lessathi since the teleportation room," Kate observes, her eyes scanning the sapphire-lit tunnel.
 
-"These thoroughfares remain restricted to executive ranks," Meridith says. "Transit requires my direct authorization."
+"These thoroughfares remain restricted to executive ranks," Meridith says, leading us forward. "Transit requires my direct authorization."
 
 "A council chamber, then?" Daren asks.
 
@@ -1083,11 +1091,11 @@ TEXT:
 
 }
 #if(v_b3_ch10_crystals == 0) {
- I keep the Ollendor detonation to myself. Handing over tactical intelligence before understanding her motives is bad practice.
+ I keep the Ollendor detonation to myself. Handing over critical tactical intelligence before understanding her motives is bad practice.
 
-"We have not encountered a single lessathi since the teleportation room," Kate observes as we navigate the sapphire-lit tunnel.
+"We have not encountered a single lessathi since the teleportation room," Kate observes, her eyes scanning the sapphire-lit tunnel.
 
-"These thoroughfares remain restricted to executive ranks," Meridith says. "Transit requires my direct authorization."
+"These thoroughfares remain restricted to executive ranks," Meridith says, leading us forward. "Transit requires my direct authorization."
 
 "A council chamber, then?" Daren asks.
 
@@ -1098,17 +1106,17 @@ TEXT:
 
 "We have arrived," Meridith says. "The entity awaiting your presence resides beyond this threshold."
 
-"You are finally going to name our host?" Hadrik asks.
+"You are finally going to name our host?" Hadrik asks, resting a thumb in his belt.
 
-"Yes," Meridith says, raising her wand to the metal surface. "A presence you know by legend, though few living souls have stood before it."
+"Yes," Meridith says, raising her wand to the cold metal surface. "A presence you know by legend, though few living souls have stood before it."
 
-The wall responds to the wand's contact, the heavy slab retracting smoothly into the ceiling.
+The wall responds to the wand's contact with a low, hydraulic groan, the heavy seredium slab retracting smoothly into the ceiling.
 
-"The ultimate consciousness," Meridith intones as the chamber opens. "The guide of our people since antiquity."
+"The ultimate consciousness," Meridith intones as the chamber opens before us. "The guide of our people since antiquity."
 
-Within the vast chamber sits a colossal sphere of solid blue radiance, churning endlessly around a core of impenetrable darkness.
+Within the vast, cavernous vault sits a colossal sphere of solid blue radiance, churning endlessly around a central core of impenetrable darkness.
 
-"Behold our true Creator," Meridith says. "The Magium."
+"Behold our true Creator," Meridith says, bowing her head. "The Magium."
 
 choice("Continue", B3-Ch10c-Panicked, v_current_scene = B3-Ch10c-Panicked)
 
@@ -1116,43 +1124,43 @@ choice("Continue", B3-Ch10c-Panicked, v_current_scene = B3-Ch10c-Panicked)
 ID: B3-Ch10c-Panicked
 TEXT:
 
- "Run!" Arraka screeches, her voice cracking inside the amulet. "Get back, you morons! Run before it--"
+ "Run!" Arraka screeches, her voice cracking with pure panic inside the golden amulet. "Get back, you morons! Run before it--"
 
-Blue luminescence erupts from the sphere, surging across the floor and swallowing us whole.
+A blinding wave of sapphire luminescence erupts from the sphere, surging across the stone floor in a silent flash and swallowing us whole.
 
-The cavern vanishes. Weight, direction, and breath cease to exist. We drift suspended in an unmapped void, shapes without contours, my companions turning in blind confusion. Before my mind can anchor itself, the fabric of space shreds, and I plummet into the absolute nothingness of the void—the same erasure where the Magium hurled me before.
+The cavern vanishes instantly. Weight, gravity, direction, and breath cease to exist. We drift suspended in an unmapped void, shapes without contours, my companions turning in blind confusion. Before my mind can anchor itself, the fabric of space shreds, and I plummet into the absolute nothingness of the void—the same terrifying erasure where the Magium hurled me before.
 
-Sheer terror grips my consciousness. I blink in and out of reality, ripped between nonexistence and the Magium's conceptual realm. With every pulse, my companions reappear beside me, drenched in cold sweat, eyes wide with horror as their minds buckle against the erasure.
+Cold terror grips my consciousness. I blink violently in and out of reality, ripped between complete nonexistence and the Magium's overwhelming conceptual presence. With every pulse, my companions reappear beside me, drenched in cold sweat, eyes wide with horror as their minds buckle against the erasure.
 
-"Barry..." Kate's voice trembles, thin and fragile. "Is this the void you spoke of? I heard your description, but... this is worse than any nightmare..."
+"Barry..." Kate's voice reaches me, thin, trembling, and fragile. "Is this the void you spoke of? I heard your description, but... this is worse than any nightmare..."
 
-"Arraka, move!" Daren shouts, fighting to keep his voice from breaking. "Cast the primordial ward!"
+"Arraka, move!" Daren shouts, fighting to keep his voice from breaking under the pressure. "Cast the primordial ward!"
 
- "I cannot!" Arraka screams from the amulet. "The spell finds no purchase! There is no entity to target! It is everywhere and nowhere!"
+ "I cannot!" Arraka screams from the amulet, her voice shrill with terror. "The spell finds no purchase! There is no entity to target! It is everywhere and nowhere!"
 
-The void tears at my consciousness again, stronger this time, threatening to pull my existence apart permanently.
+The void tears at my consciousness again, a violent undertow pulling my existence toward permanent dissolution.
 
-"Magium, stop!" Flower cries out, terror breaking through her voice. "Petal and I helped you before! We can help again! Tell us what you need! Please!"
+"Magium, stop!" Flower cries out, tears of terror in her voice. "Petal and I helped you before! We can help again! Tell us what you need! Please!"
 
-The oscillation ceases. We float motionless in the impossible geometry of the Magium's realm. Space refuses definition; perspective bends in directions that possess no names. Time bleeds forward and backward simultaneously—I perceive our entry as a single moment, yet remember it as an ancient, repeating cycle unfolding in reverse.
+The violent oscillation ceases. We float suspended in the impossible geometry of the Magium's realm. Space refuses definition; perspective bends in dimensions that have no names. Time bleeds forward and backward simultaneously—I perceive our arrival as a single instant, yet remember it as an ancient, repeating cycle unfolding in reverse.
 
-The entity answers Flower, its tone shifting with each syllable, weaving through different voices.
+The entity answers Flower, its tone shifting with each syllable, weaving through a terrifying chorus of disparate voices.
 
-"In the past, you offered aid," speaks the voice of an aged man.
+"In the past, you offered aid," speaks the dry, raspy voice of an aged man.
 
-"In the present, you have failed," continues a woman's measured cadence.
+"In the present, you have failed," continues a woman's measured, icy cadence.
 
 "The prophecy has been spoken," says an adolescent youth.
 
 "You understand what must be done," chimes a young girl.
 
-"We don't!" Flower insists frantically. "We don't understand! We haven't even identified the two ancient adversaries clashing! We assume Eiden is one, because he made it obvious, but the other--"
+"We don't!" Flower insists frantically, her small hands clutching empty air. "We don't understand! We haven't even identified the two ancient adversaries clashing! We assume Eiden is one, because he made it obvious, but the other--"
 
 "Then you hold your answer," a woman's soft murmur cuts in.
 
-"To preserve the multitude, a single life must be forfeit," speaks the halting voice of a small child.
+"To preserve the multitude, a single life must be forfeit," speaks the halting, innocent voice of a small child.
 
-"A sacrifice?" Flower whispers. "You... you demand we execute Eiden?"
+"A sacrifice?" Flower whispers, horror dawning on her face. "You... you demand we execute Eiden?"
 
 choice("Continue", B3-Ch10c-Guidance, v_current_scene = B3-Ch10c-Guidance)
 
@@ -1160,25 +1168,25 @@ choice("Continue", B3-Ch10c-Guidance, v_current_scene = B3-Ch10c-Guidance)
 ID: B3-Ch10c-Guidance
 TEXT:
 
- "The prophecy must not come to pass," a man's voice rings out sharp and clear.
+ "The prophecy must not come to pass," a man's voice rings out, sharp, harsh, and absolute.
 
-"If you require direction, the one named Meridith will instruct you," an elderly woman speaks.
+"If you require direction, the one named Meridith will instruct you," an elderly woman speaks gently.
 
-"Do not fail again!" an old man roars.
+"Do not fail again!" an old man roars, shaking the void.
 
-Reality snaps shut. In the fraction of a heartbeat, the Magium expels us from its domain, dropping us back onto the stone floor before the rotating sphere of blue light. Everyone stumbles, shaking off disorientation.
+Reality snaps shut like an iron trap. In the fraction of a heartbeat, the Magium expels us from its domain, dropping us hard onto the cold stone floor before the rotating sphere of blue light. Everyone stumbles, gasping for air, shaking off the crushing disorientation.
 
-"Astonishing," Meridith breathes, watching us with rapt fascination. "I have communed with our Creator on numerous occasions, yet he never granted me audience within his personal realm. Your eyes flared with brilliant luminescence, exactly as recorded in ancient chronicles."
+"Astonishing," Meridith breathes, watching us with rapt fascination from the threshold. "I have communed with our Creator on numerous occasions, yet he never granted me audience within his personal realm. Your eyes flared with brilliant luminescence, exactly as recorded in ancient chronicles."
 
-"Right..." Daren steadies his footing. "You had no foreknowledge of this?"
+"Right..." Daren steadies his footing, wiping cold sweat from his brow. "You had no foreknowledge of this?"
 
- "None," Meridith says. "You require privacy to process an encounter of this magnitude. I will grant you several minutes while I arrange the council chamber down the adjoining hall. When you conclude your communion, close the barrier by tapping the seredium five times. I await you at the corridor's end. Take whatever time you need."
+ "None," Meridith says, her gaze lingering on our auras. "You require privacy to process an encounter of this magnitude. I will grant you several minutes while I arrange the council chamber down the adjoining hall. When you conclude your communion, close the barrier by tapping the seredium five times. I await you at the corridor's end. Take whatever time you need."
 
-"Understood," Daren mutters. "We will take our time."
+"Understood," Daren mutters, resting a hand on his hilt. "We will take our time."
 
-"Diane, accompany me to prepare the chamber," Meridith instructs.
+"Diane, accompany me to prepare the chamber," Meridith instructs, turning on her heel.
 
-"Right away," Diane says, throwing a quick wave over her shoulder as she follows Meridith into the passage. "See you shortly."
+"Right away," Diane says, throwing a quick, concerned wave over her shoulder as she follows Meridith into the passage. "See you shortly."
 
 choice("Continue", B3-Ch10c-Scattered, v_current_scene = B3-Ch10c-Scattered)
 
@@ -1186,13 +1194,13 @@ choice("Continue", B3-Ch10c-Scattered, v_current_scene = B3-Ch10c-Scattered)
 ID: B3-Ch10c-Scattered
 TEXT:
 
- As Meridith and Diane depart down the hall, the others lean against the walls, drawing ragged breaths to steady their racing pulses. Meanwhile, my attention pulls inexorably back toward the rotating sphere. An invisible gravity tugs at my thoughts.
+ As Meridith and Diane depart down the hall, the others lean against the seredium walls, drawing ragged breaths to steady their racing pulses. Meanwhile, my attention pulls inexorably back toward the rotating sphere. An invisible gravity tugs at my thoughts.
 
-The ultimate objective of the tournament sits three paces from me. Walk away now, and the chance may never return.
+The ultimate objective of the entire tournament sits three paces from me. Walk away now, and the chance to understand it may never return.
 
-"A Magium node buried this deep," Arraka's voice mutters from the amulet. "Sloppy. I allowed the seredium shielding to blind my magical sense."
+"A Magium node buried this deep," Arraka's voice mutters from the amulet, shaken but recovering her venom. "Sloppy. I allowed the seredium shielding to blind my magical sense."
 
-"What is a Magium node?" Hadrik asks. "The floating light construct?"
+"What is a Magium node?" Hadrik asks, rubbing his temples. "The floating light construct?"
 
 "A focal point," Arraka explains. "Several exist across Varathia, linked through the underlying planar network. Major factions hold them in balance. It stands to reason the lessathi secured one of their own, however carefully they concealed it."
 
@@ -1200,15 +1208,15 @@ The ultimate objective of the tournament sits three paces from me. Walk away now
 
 "Those three, plus the reigning monarchs and Fyron," Arraka says. "A single node provides complete access to the Magium, so distribution remained stable without territorial wars. Furthermore, their locations are--"
 
-"Barry, step away from that!" Daren shouts.
+"Barry, step away from that!" Daren shouts, noticing my approach.
 
-I ignore him, moving closer until the radiance washes over my skin. Up close, the construct towers over me. The core is an absolute, lightless void, while solid sapphire bands orbit in perpetual motion, casting brilliant illumination without dispelling the central dark.
+I ignore him, moving closer until the sapphire radiance washes warm over my skin. Up close, the construct towers over me. The core is an absolute, lightless void, while solid sapphire bands orbit in perpetual, silent motion, casting brilliant illumination without dispelling the central dark.
 
- The structure commands total focus, pulling at my senses until the surrounding cavern fades.
+ The structure commands total focus, pulling at my senses until the surrounding cavern fades into background noise.
 
 "Barry!" Daren's voice cracks with urgency. "Do not do something catastrophic! Back up slowly!"
 
-"He is standing on the threshold!" Arraka's laughter rings out. "Touch it, weakling! I dare you!"
+"He is standing on the threshold!" Arraka's laughter rings out from the gold. "Touch it, weakling! I dare you!"
 
 choice("Touch the Magium node.", B3-Ch10c-Colors, v_current_scene = B3-Ch10c-Colors, v_b3_ch10_node = 1)
 choice("Back away from the Magium node.", B3-Ch10c-Colors, v_current_scene = B3-Ch10c-Colors, v_b3_ch10_node = 0)
@@ -1218,25 +1226,25 @@ ID: B3-Ch10c-Colors
 TEXT:
 
 #if(v_b3_ch10_node == 1) {
- I reach out and press my palm directly against the rotating sphere of light and void.
+ I reach out and press my bare palm directly against the rotating sphere of light and void.
 
-A tidal wave of billions of voices, concepts, and visions crashes into my mind simultaneously. For a single suspended heartbeat, the comprehensive blueprint of reality unfolds before me. Yet the instant I reach for comprehension, the knowledge recedes into infinite distance, remaining unreachable however far my mind stretches.
+A tidal wave of billions of voices, concepts, geometries, and visions crashes into my mind simultaneously. For a single suspended heartbeat, the comprehensive blueprint of reality unfolds before me. Yet the instant I reach to grasp comprehension, the knowledge recedes into infinite distance, remaining unreachable however far my consciousness stretches.
 
-I yank my hand back before the pressure fractures my sanity. The flood of universal mechanics evaporates as quickly as it arrived.
+I yank my hand back before the immense pressure fractures my sanity. The flood of universal mechanics evaporates as quickly as it arrived.
 
 Yet a profound shift remains. The raw data has fled, but its foundation lingers—a permanent imprint burned into the bedrock of my memory, abandoned when the connection severed.
 
 If I could decipher even a fraction of that residue...
 
-"Are you completely out of your mind?" Daren grabs my tunic, hauling me backward out of the chamber. "Barry, you will put me in an early grave!"
+"Are you completely out of your mind?" Daren grabs my tunic, hauling me bodily backward out of the chamber. "Barry, you will put me in an early grave!"
 
  He strikes the seredium wall five times in rapid succession. The heavy door grinds shut, sealing the node behind solid metal.
 
 "Well?" Daren demands, catching his breath as I stand motionless. "What happened when you touched it?"
 
-"A fraction of a second," I say, reassembling my thoughts. "I touched the node and perceived the entire architecture of existence. But holding on would have dissolved my mind. Real madness, not a figure of speech. The information was laid out, but processing it would demand an eternity. Releasing it was the only way to avoid cerebral collapse."
+"A fraction of a second," I say, reassembling my scattered thoughts. "I touched the node and perceived the entire architecture of existence. But holding on would have dissolved my mind. Real madness, not a figure of speech. The information was laid out, but processing it would demand an eternity. Releasing it was the only way to avoid cerebral collapse."
 
-"Remarkable restraint on your part," Daren remarks, eyebrows raised.
+"Remarkable restraint on your part," Daren remarks, his eyebrows raised.
 
 "I have survival instincts," I retort.
 
@@ -1262,15 +1270,15 @@ If I could decipher even a fraction of that residue...
 #if(v_b3_ch10_node == 0) {
  I step backward, letting my hand fall to my side. Poking an omnipotent planar construct before hearing Meridith's proposal is an unnecessary gamble.
 
-"Thank the gods," Daren exhales. "I thought you were going to grab it."
+"Thank the gods," Daren exhales, letting out a long breath. "I thought you were going to grab it."
 
-"The temptation was there," I say, "but testing an unknown artifact without preparation is reckless."
+"The temptation was there," I say, "but testing an unknown cosmic artifact without preparation is reckless."
 
 "Coward," Arraka snorts from the amulet.
 
 Daren strikes the seredium partition five times, and the heavy slab grinds shut, cutting off the radiance.
 
-"Can the entity monitor our words through the red sphere with the seredium door closed?" Kate asks.
+"Can the entity monitor our words through the red sphere with the seredium door closed?" Kate asks, looking at the metal seam.
 
 "Doubtful," Arraka says. "Though putting distance between us and the threshold is wise."
 
@@ -1293,19 +1301,19 @@ TEXT:
 
 "Fitting, since blue is what I saw," I remark.
 
-"A common color for an ordinary fellow," Hadrik chuckles. "The cosmos has a sense of humor."
+"A common color for an ordinary fellow," Hadrik chuckles, giving my shoulder a solid clap. "The cosmos has a sense of humor."
 
 "I have made peace with it," I shrug.
 
 "Can we address what occurred in that realm?" Daren asks, glancing back at the group. "I have no desire to reopen wounds, but ignoring the demand is dangerous."
 
-"It is straightforward," Kate says. "Barry prepared us for the void, which blunted the shock. But the substance of the encounter is clear. The Magium verified Eiden as one of the two figures in the prophecy and directed us to eliminate him."
+"It is straightforward," Kate says, her arms folded tightly under her cloak. "Barry prepared us for the void, which blunted the shock. But the substance of the encounter is clear. The Magium verified Eiden as one of the two figures in the prophecy and directed us to eliminate him."
 
-"So we become assassins on command?" Hadrik asks, folding his arms. "What leverage does that sphere hold over us if we simply avoid its chambers?"
+"So we become assassins on command?" Hadrik asks, shaking his head. "What hold does that sphere have over us if we simply avoid its chambers?"
 
  "Selkram's trials link you directly to the Magium via the time weaver," Arraka explains. "During prophetic transmission, you stand upon its planar threshold. Avoiding the nodes does not eliminate exposure."
 
-"I am no one's lackey," Hadrik rumbles. "If the Magium wishes to erase me, let it try. If circumstances force a confrontation with Eiden, fine. But I will not hunt a man because a floating light ordered it."
+"I am no one's lackey," Hadrik rumbles, his jaw hardening. "If the Magium wishes to erase me, let it try. If circumstances force a confrontation with Eiden, fine. But I will not hunt a man because a floating light ordered it."
 
 "Spoken like a champion," Arraka jeers. "I will ensure blankets reach your cell in the void. It grows drafty during eternity."
 
@@ -1322,7 +1330,7 @@ TEXT:
 
 "The source of magic?" Daren asks.
 
-"Not just magic," I say. "The source of the physical realm, the magical plane, the ethereal plane. Every parallel divergence. Time, geometry, consciousness, and volition. The source of everything."
+"Not just magic," I say, the concept clear in my mind. "The source of the physical realm, the magical plane, the ethereal plane. Every parallel divergence. Time, geometry, consciousness, and volition. The source of everything."
 
 "You claim that is the true definition of the Magium?" Kate asks. "Not the root of magic, but the origin of all existence?"
 
@@ -1348,9 +1356,9 @@ achievement("Forbidden knowledge",v_ac_b3_ch10_forbidden)
 
 "A single sacrifice to preserve the multitude," Daren quotes quietly. "Collateral damage."
 
- "Indeed," Arraka says. "And the other fragment would have unmade the world to secure my past self. These entities crush whatever obstructs their objective. Avoiding their gaze remains our best strategy."
+ "Indeed," Arraka says. "And the other fragment would have unmade the world to secure my past self. These entities crush whatever obstructs their objective. Avoiding their gaze remains our best course."
 
-"The council room lies ahead," Kate says, pointing toward an arched doorway. "Shall we enter?"
+"The council room lies ahead," Kate says, pointing toward an arched doorway of dark seredium. "Shall we enter?"
 
 "We must decide whether to disclose the Magium's command to Meridith," Daren says under his breath.
 
@@ -1360,11 +1368,11 @@ achievement("Forbidden knowledge",v_ac_b3_ch10_forbidden)
 
 }
 #if(v_b3_ch10_node == 0) {
- "I feel as though a vital truth slipped through my fingers," I mutter. "As though the definition of the Magium was within reach, and I stepped back."
+ "I feel as though a vital truth slipped through my fingers," I mutter, looking down at my open palm. "As though the definition of the Magium was within reach, and I stepped back."
 
 "Doubtless," Arraka mocks. "Had you shown spine and grasped the node, the secret would be yours. Now you carry that ignorance to the grave."
 
-"Ignore her," Daren tells me. "You chose prudence. An uncontrolled surge could have destroyed you."
+"Ignore her," Daren tells me gently. "You chose prudence. An uncontrolled surge could have destroyed your mind."
 
 "Right," I say. "Prudence."
 
@@ -1385,61 +1393,61 @@ ID: B3-Ch10c-Decorations
 TEXT:
 
 #if(v_b3_ch10_mention == 1) {
- "I think it would be better to mention it to Meridith," I say. "Meridith likely knows the fragment's directive. Concealing it might raise suspicion."
+ "I think it would be better to mention it to Meridith," I say. "Meridith likely knows the fragment's directive already. Concealing it might raise unnecessary suspicion."
 
-"Agreed," Daren says. "The Magium instructed us to seek her guidance. Does anyone object?"
+"Agreed," Daren says, his hand on the iron latch. "The Magium instructed us to seek her guidance. Does anyone object?"
 
 "Makes no difference to me," Hadrik shrugs. "I am sitting out the manhunt regardless."
 
-"Fine by me," Kate says, and Flower nods agreement.
+"Fine by me," Kate says, and Flower nods in agreement.
 
-"Then we proceed," Daren says, pushing the heavy door inward.
+"Then we proceed," Daren says, pushing the heavy reinforced door inward.
 
-We file into a chamber reminiscent of the underground king's audience hall in Ollendor, though the stonework here bears intricate lessathi reliefs featuring the heraldic hawk clutching the sun.
+We file into a chamber reminiscent of the underground king's audience hall in Ollendor, though the stonework here is far more refined, bearing intricate lessathi reliefs of the heraldic hawk clutching a radiant sun.
 
-A long conference table dominates the room, flanked by chairs. Meridith and Diane sit on the far side, watching our entrance. Meridith gestures toward the vacant seats opposite them, and we take our places across the polished surface.
+A long table of polished black stone dominates the center of the room, flanked by high-backed chairs. Meridith and Diane sit on the far side, watching our entrance. Meridith gestures toward the vacant seats opposite them, and we take our places across the cold surface.
 
-Once we settle, Meridith leans forward.
+Once we settle, Meridith leans forward, resting her forearms on the table.
 
  "You wonder why I brought you to this installation," Meridith says. "Answers will follow, but I must ask a preliminary question. You are under no compulsion to respond, and forgive the directness, but what transpired during your communion with our Creator?"
 
 We exchange brief glances. Daren leans forward to speak for the table.
 
-"The Magium instructed us to eliminate Eiden, to prevent the catastrophe foretold in the prophecy," Daren says.
+"The Magium instructed us to eliminate Eiden, to prevent the catastrophe foretold in the prophecy," Daren says, his voice level.
 
 "Then my hypothesis was accurate," Meridith says, a sharp satisfaction entering her tone. "He invited you to our cause."
 
-"Your cause?" Daren asks. "You received the same mandate?"
+"Your cause?" Daren asks, brow furrowing. "You received the same mandate?"
 
 "I did," Meridith says. "And I have directed our resources toward that objective for years."
 
-"Before we proceed," I cut in, "I have a question of my own."
+"Before we proceed," I cut in, leaning back in my chair, "I have a question of my own."
 
-"Ask," Meridith invites. "Nothing is withheld."
+"Ask," Meridith invites, her gaze shifting to me. "Nothing is withheld."
 
-"Nothing?" I lean back, meeting her eyes. "In that case, confirm whether you orchestrated the continent-wide buyout of stat devices prior to the tournament."
+"Nothing?" I meet her green eyes across the table. "In that case, confirm whether you orchestrated the continent-wide buyout of stat devices prior to the tournament."
 
 }
 #if(v_b3_ch10_mention == 0) {
  "Keep the Magium's command to ourselves for now," I say. "Volunteering that detail might suggest we have already signed on to the assassination. I want to hear her pitch first."
 
-"Sensible," Daren agrees. "Any dissent, or do we follow Barry's lead?"
+"Sensible," Daren agrees, his hand on the iron latch. "Any dissent, or do we follow Barry's lead?"
 
 "Makes no difference to me," Hadrik shrugs. "I am sitting out the manhunt regardless."
 
-"Fine by me," Kate says, and Flower nods agreement.
+"Fine by me," Kate says, and Flower nods in agreement.
 
-"Then we proceed," Daren says, pushing the heavy door inward.
+"Then we proceed," Daren says, pushing the heavy reinforced door inward.
 
-We file into a chamber reminiscent of the underground king's audience hall in Ollendor, though the stonework here bears intricate lessathi reliefs featuring the heraldic hawk clutching the sun.
+We file into a chamber reminiscent of the underground king's audience hall in Ollendor, though the stonework here is far more refined, bearing intricate lessathi reliefs of the heraldic hawk clutching a radiant sun.
 
-A long conference table dominates the room, flanked by chairs. Meridith and Diane sit on the far side, watching our entrance. Meridith gestures toward the vacant seats opposite them, and we take our places across the polished surface.
+A long table of polished black stone dominates the center of the room, flanked by high-backed chairs. Meridith and Diane sit on the far side, watching our entrance. Meridith gestures toward the vacant seats opposite them, and we take our places across the cold surface.
 
-Once we settle, Meridith leans forward.
+Once we settle, Meridith leans forward, resting her forearms on the table.
 
  "You wonder why I brought you to this installation," Meridith says. "Answers will follow, but I must ask a preliminary question. You are under no compulsion to respond, and forgive the directness, but what transpired during your communion with our Creator?"
 
-We exchange brief glances. Daren answers smoothly.
+We exchange brief glances. Daren answers smoothly without hesitation.
 
 "We prefer to keep that confidential for the moment," he says.
 
@@ -1447,24 +1455,24 @@ We exchange brief glances. Daren answers smoothly.
 
 "Thank you," Daren says.
 
-"Before we proceed," I cut in, "I have a question of my own."
+"Before we proceed," I cut in, leaning back in my chair, "I have a question of my own."
 
-"Ask," Meridith invites. "Nothing is withheld."
+"Ask," Meridith invites, her gaze shifting to me. "Nothing is withheld."
 
-"Nothing?" I lean back, meeting her eyes. "In that case, confirm whether you orchestrated the continent-wide buyout of stat devices prior to the tournament."
+"Nothing?" I meet her green eyes across the table. "In that case, confirm whether you orchestrated the continent-wide buyout of stat devices prior to the tournament."
 
 }
- Silence hangs over the table. Meridith holds my gaze, her expression unreadable.
+ Silence hangs heavy over the table. Meridith holds my gaze, her expression completely unreadable.
 
-"What led you to that deduction?" she asks, voice completely level.
+"What led you to that deduction?" she asks, her voice steady and controlled.
 
-"First," I say, "whoever organized the buyout needed immense capital, recognized the units were far more than fortune teller novelties, and required them before the tournament commenced. The list of candidates matching that profile is short."
+"First," I say, "whoever organized the buyout needed immense capital, recognized the units were far more than fortune-teller novelties, and required them before the tournament commenced. The list of candidates matching that profile on this island is short."
 
-She does not blink or shift.
+She does not blink or shift her posture.
 
 "Continue," she says. "What else supports your hypothesis?"
 
-"Energy draw," I say. "My stat booster harvests significantly less charge inside Thilias and Ollendor than out in the wilderness. Furthermore, another participant who remained static in Thilias accumulated far fewer points than I did. If thousands of harvesting devices were saturated beneath those cities, the distribution drop makes complete sense."
+"Energy draw," I say. "My stat booster harvests significantly less charge inside Thilias and Ollendor than out in the wilderness. Furthermore, another participant who remained static in Thilias accumulated far fewer points than I did. If thousands of harvesting devices were saturated beneath those cities, the planar distribution drop makes complete sense."
 
 "What are you implying?" Meridith asks.
 
@@ -1477,11 +1485,11 @@ TEXT:
 #if(v_b2_ch7_overheard == 0) {
  "What I am stating plainly," I say, "is that this tournament is an elaborate fiction. You never intended to award the Magium to a victor. You dangled it because nothing else on this earth could lure hundreds of foreign mages into one territory. The contest is not a defense trial for Varathia. It is a harvesting net, using converted stat boosters to siphon raw magical energy from every competitor who set foot on this island."
 
-"The delay," Hadrik grunts, his eyes narrowing. "That week we sat in Thilias doing nothing. The pinecone hunt across the wilderness. Stalling for time so the machines could drain us dry."
+"The delay," Hadrik grunts, his eyes narrowing as he leans forward. "That week we sat in Thilias doing nothing. The pinecone hunt across the wilderness. Stalling for time so the machines could drain us dry."
 
 "Exactly," I say. "The only detail that eludes me is why you allowed contestants to slaughter one another in the field. Enforce a ceasefire before the opening round, and you could have siphoned them indefinitely."
 
- Meridith listens without a flicker of surprise, resting her chin on linked fingers. When she speaks, her voice carries the calm authority of someone reciting notes from a meeting she ran yesterday.
+ Meridith listens without a flicker of surprise, resting her chin on linked fingers. When she speaks, her voice carries the calm authority of an executive reciting minutes from a concluded session.
 
 "That was our initial architecture," she says smoothly. "We installed the primary extractor arrays beneath the continental capitals, calculating that the majority of foreign casters would congregate inside the city walls while awaiting instructions. We disabled the central telepathic relay ourselves to stretch the waiting window. The flaw was the monarchs. The kings of Varathia rejected a non-lethal mandate, declaring bloodshed an inviolable tournament tradition—and delivered that refusal hours before the opening bell. You cannot fathom the logistical disruption that caused."
 
@@ -1493,7 +1501,7 @@ TEXT:
 #if(v_b2_ch7_overheard == 1) {
  "What I am stating plainly," I say, "is that this tournament is an elaborate fiction. You never intended to award the Magium to a victor. You dangled it because nothing else on this earth could lure hundreds of foreign mages into one territory. The contest is not a defense trial for Varathia. It is a harvesting net, using converted stat boosters to siphon raw magical energy from every competitor who set foot on this island."
 
-"The delay," Hadrik grunts, his eyes narrowing. "That week we sat in Thilias doing nothing. The pinecone hunt across the wilderness. Stalling for time so the machines could drain us dry."
+"The delay," Hadrik grunts, his eyes narrowing as he leans forward. "That week we sat in Thilias doing nothing. The pinecone hunt across the wilderness. Stalling for time so the machines could drain us dry."
 
 "Exactly," I say. "Your operatives in Thilias were the ones who sabotaged the telepathic relay to buy time. I heard one complaining that the kings refused a non-lethal rule. You needed participants breathing so your machines could harvest maximum charge."
 
@@ -1503,18 +1511,18 @@ Meridith's gaze sharpens. "The Thilias outpost? Sloppy. I expected better discre
 
 "Did you just confirm his deductions?" Daren asks, incredulous. "You orchestrated the entire fraud?"
 
-"I did," Meridith says, her posture unyielding. "Denial serves no purpose when your deduction is sound. Concealing what you have already uncovered is an inefficient use of our time."
+"I did," Meridith says, her posture unyielding. "Denial serves no purpose when your deduction is sound. Concealing what you have already uncovered would only waste our time."
 
 }
- "However," Meridith continues, tapping one manicured finger on the table, "your analysis contains two critical errors. First, we did not bury thousands of commercial stat boosters in the earth. We acquired those units to strip their components, constructing industrial-scale extraction arrays far more potent than hand-held relics. Second, I never stated you would be denied access to the Magium."
+ "However," Meridith continues, tapping one finger on the stone table, "your analysis contains two critical errors. First, we did not bury thousands of commercial stat boosters in the earth. We acquired those units to strip their components, constructing industrial-scale extraction arrays far more potent than hand-held relics. Second, I never stated you would be denied access to the Magium."
 
 "You expect us to believe that?" I challenge. "You just confirmed the tournament is a fabricated harvest, yet you claim the prize remains real?"
 
-"You misunderstand the offer," Meridith says, leaning forward. "The eventual tournament winner receives nothing. That spectacle ends in ash. But I am prepared to grant you access to our private node. You, and every member of your party. In exchange for a specific service."
+"You misunderstand the offer," Meridith says, leaning forward over the table. "The eventual tournament winner receives nothing. That spectacle ends in ash. But I am prepared to grant you access to our private node. You, and every member of your party. In exchange for a specific service."
 
-"What service?" Kate asks, her fingers tightening on the scepter.
+"What service?" Kate asks, her fingers tightening on the grip of the heirloom scepter.
 
-"Consider the origin," Meridith says, her voice dropping into cold, deliberate clarity. "This entire tournament—the alliances, the siphons, the deception—exists for one solitary target. Ever since the destruction of Olmnar twenty years ago, the lessathi high command and the ruling kings have operated under a unified pact. After two decades of preparation, the apparatus is complete. By the tournament's conclusion, justice will be executed. Eiden will die."
+"Consider the origin," Meridith says, her voice dropping into cold, deliberate clarity. "This entire tournament—the alliances, the siphons, the deception—exists for one solitary purpose. Ever since the destruction of Olmnar twenty years ago, the lessathi leadership and the ruling kings have operated under a unified pact. After two decades of preparation, the apparatus is complete. By the tournament's conclusion, justice will be executed. Eiden will die."
 
 choice("Continue", B3-Ch10c-Ending, v_current_scene = B3-Ch10c-Ending)
 
@@ -1522,17 +1530,17 @@ choice("Continue", B3-Ch10c-Ending, v_current_scene = B3-Ch10c-Ending)
 ID: B3-Ch10c-Ending
 TEXT:
 
- "You want us to kill Eiden for you?" Hadrik asks.
+ "You want us to kill Eiden for you?" Hadrik asks, folding his arms over his chest.
 
-"No," Meridith replies. "Our primary strike will execute the operation. That is the sole destination for the energy we harvest."
+"No," Meridith replies. "Our primary strike will finish him. That is the sole destination for the energy we harvest."
 
 "Then what role do we serve?" Daren asks.
 
 "Contingency," Meridith says. "If the past weeks proved anything, it is that meticulous planning can collapse under unforeseen fortune. I require insurance. This is no suicide errand. Should Eiden survive our opening barrage through some miracle, he will be shattered—his reserves drained, his wards fractured. Weakened to a degree your company can dismantle him with minimal risk. If you agree to act as that contingency, I will grant you unrestricted access to the Magium node we visited."
 
-"Will you disclose your operational plan?" Daren asks.
+"Will you disclose your plan?" Daren asks.
 
-"I will not," Meridith states plainly. "If Eiden captures your company and extracts that intelligence, twenty years of preparation evaporates. I cannot accept that exposure."
+"I will not," Meridith states plainly. "If Eiden captures your company and uncovers that secret, twenty years of preparation evaporates. I cannot take that risk."
 
  "You promise Magium access if we intervene," Kate says, "but what if your plan executes flawlessly? If your strike destroys Eiden without our involvement, what then?"
 
@@ -1542,11 +1550,11 @@ TEXT:
 
 "Nothing," Meridith confirms. "The royal courts are unaware we possess a functional node. They believe access is strictly monopolized by the crown. This covenant is struck with me, as high leader of the lessathi, independent of tournament stewardship. Maintain your standing, stand ready if our primary strike falters, and all of you claim the prize you crossed the ocean to find, without needing to win the tournament."
 
- She rises from her seat, smoothing her robes with deliberate composure, her gaze sweeping across each of us in turn.
+ She rises from her seat, smoothing her dark robes with deliberate composure, her green gaze sweeping across each of us in turn.
 
 "The terms are laid before you," Meridith says. "The choice remains yours."
 
-Silence settles over the chamber as she pauses, letting the weight of the pact fill the room.
+Silence settles over the chamber as she pauses, letting the immense weight of the bargain fill the room.
 
 "What is your answer?"
 

@@ -4,66 +4,76 @@ TEXT:
 set(v_ac_b3_ch6_average,1) if (v_agility == 0 && v_ancient_languages == 0 && v_aura_hardening == 0 && v_bluff == 0 && v_combat_technique == 0 && v_hearing == 0 && v_magical_sense == 0 && v_perception == 0 && v_premonition == 0 && v_reflexes == 0 && v_strength == 0 && v_toughness == 0)
 achievement("Average is my middle name",v_ac_b3_ch6_average)
 #if(v_b3_ch6_kelrim != 1 && v_b3_ch6_plan != 3) {
- "We should get back to the waiting room as well," Daren says. "See you later, Barry. Thanks for the pull."
+ "We should get back to the waiting room as well," Daren says, rolling his left shoulder with a grimace. "See you later, Barry. Thanks for the pull."
 
-"Any time," the teleporter operator says, and we file out of the chamber, heading down the tunnel toward the rebel base.
+"Any time," the teleporter operator mutters, wiping sweat from his forehead.
 
-As we walk, white light flares along Daren's palms as he tends to everyone who caught a blow during the fight.
+We file out of the chamber, our boots scraping over the damp gravel of the tunnel floor as we head back toward the rebel base.
 
-"So, uh..." Hadrik speaks up, watching Daren weave a soothing glow over Leila's bruised shoulder. "I suppose I owe you all an explanation about what Gontrok kept shouting at me back there."
+As we walk, white light flares along Daren's palms, a steady hum accompanying the soothing warmth as he closes cuts and seals torn flesh on everyone who caught a blow on the surface.
+
+Hadrik lags a pace behind the rest of us, his thick fingers unbuckling and refastening the leather strap of his pack without looking down. He slows, his boots grinding stone into dust, watching Daren weave a soothing glow over Leila's bruised shoulder.
+
+"So, uh..." Hadrik clears his throat, the sound rough and strained in the narrow tunnel. "I suppose I owe you all an explanation about what Gontrok kept shouting at me back there."
 
 }
 #if(v_b3_ch6_plan == 3 && v_b3_ch6_kelrim != 1) {
- "Everyone, I have chores waiting at the house, so I'm closing the channel now," Rose's voice comes through the transceiver. "Try to stay out of trouble for the rest of the day, all right? I won't be able to hold time again until I get some sleep."
+ "Everyone, I have chores waiting at the house, so I'm closing the channel now," Rose's voice comes through the transceiver, breathy and thin with exhaustion. "Try to stay out of trouble for the rest of the day, all right? I won't be able to hold time again until I get some sleep."
 
-"We'll keep our heads down," I tell her. "Rest up, and thanks again."
+"We'll keep our heads down," I tell her into the horn. "Rest up, and thanks again."
 
 The line clicks dead. White light flares along Daren's palms as he tends to everyone who caught a blow during the fight, keeping pace with us as we march toward the waiting room.
 
-"So, uh..." Hadrik speaks up, watching Daren weave a soothing glow over Leila's bruised shoulder. "I suppose I owe you all an explanation about what Gontrok kept shouting at me back there."
+Hadrik lags a pace behind the rest of us, his thick fingers unbuckling and refastening the leather strap of his pack without looking down. He slows, his boots grinding stone into dust, watching Daren weave a soothing glow over Leila's bruised shoulder.
+
+"So, uh..." Hadrik clears his throat, the sound rough and strained in the narrow tunnel. "I suppose I owe you all an explanation about what Gontrok kept shouting at me back there."
 
 }
 #if(v_b3_ch6_kelrim == 1) {
- "Kate, I've been meaning to ask," Melindra says as we enter the stone corridor. "How did you manage to unravel the captain's aura technique earlier? Have you been doing extra drills behind my back?"
+ "Kate, I've been meaning to ask," Melindra says as we enter the stone corridor, brushing plaster dust from her sleeve. "How did you manage to unravel the captain's aura technique earlier? Have you been doing extra drills behind my back?"
 
-"Not behind your back," Kate says. "You watched me glue an icicle to my palm with my aura this morning."
+"Not behind your back," Kate says, her breathing steadying. "You watched me glue an icicle to my palm with my aura this morning."
 
-"Right, you did that," Melindra says. "I almost forgot. But was that really enough to figure out how to counter the captain?"
+"Right, you did that," Melindra says. "I almost forgot. But was that really enough to figure out how to counter the captain's grip?"
 
-"No," Kate says. "Daren mentioned yesterday that untangling an aura is like untying knots. Took me a while to translate what he meant, but luckily I worked it out before the captain crushed the life out of us."
+"No," Kate says. "Daren mentioned yesterday that untangling an aura is like picking apart knots in wet cord. Took me a while to translate what he meant, but luckily I worked it out before the captain crushed the life out of us."
 
 "You pieced that together just from that?" Daren asks, genuinely impressed.
 
 "Barely," Kate says. "Next time you try explaining abstract theory, pick a better metaphor."
 
-"I'll work on it," Daren says.
+"I'll work on it," Daren says, shaking his head with a faint smile.
 
 White light flares along his palms as he tends to everyone who caught a blow during the fight, keeping pace with us as we march toward the waiting room.
 
-"So, uh..." Hadrik speaks up, watching Daren weave a soothing glow over Leila's bruised shoulder. "I suppose I owe you all an explanation about what Gontrok kept shouting at me back there."
+Hadrik lags a pace behind the rest of us, his thick fingers unbuckling and refastening the leather strap of his pack without looking down. He slows, his boots grinding stone into dust, watching Daren weave a soothing glow over Leila's bruised shoulder.
+
+"So, uh..." Hadrik clears his throat, the sound rough and strained in the narrow tunnel. "I suppose I owe you all an explanation about what Gontrok kept shouting at me back there."
 
 }
- "Only if you want to tell it," Daren tells him.
+ "Only if you want to tell it," Daren tells him quietly, letting the white light fade from his hands.
 
-"Yeah." Hadrik looks aside into the dark stone for a second. "Yeah, I think I'm ready."
+Hadrik halts completely in the middle of the passage. He stares at the damp stone wall for several long seconds, rubbing the coarse black hair of his beard with the back of a bruised wrist. "Yeah." He rolls his broad shoulders back, exhaling a long, ragged breath. "Yeah, I think I'm ready."
 
-"Oh, you're finally going to tell them about the dwarf village and the boulders?" Arraka's voice cuts in from the golden amulet at Flower's chest. "About damn time. Keeping your little secret was becoming more trouble than it was worth."
+"Oh, you're finally going to tell them about the dwarf village and the boulders?" Arraka's voice cuts in from the golden amulet at Flower's chest, shrill and dripping with mockery. "About damn time. Keeping your little secret was becoming more trouble than it was worth."
 
-"You knew?" Hadrik stares down at the amulet, dumbfounded.
+"You knew?" Hadrik stares down at the amulet, his jaw slackening under his beard.
 
-"Of course I knew," Arraka says. "Did you honestly think I would skip your trial, of all people? Yours was the first one I dropped in on. That makes two ales you owe me now, dwarf. One for pulling your neck out of the ogre captain's grip, and one for keeping my mouth shut about Gontrok and the dwarven village. Next time I'm out of this amulet, you're paying up."
+"Of course I knew," Arraka sneers. "Did you honestly think I would skip your trial, of all people? Yours was the first one I dropped in on. That makes two ales you owe me now, dwarf. One for pulling your neck out of the ogre captain's grip, and one for keeping my mouth shut about Gontrok and the dwarven village. Next time I'm out of this amulet, you're paying up."
 
-"Aye," Hadrik says, a grim half-grin tugging at his beard. "I'll make sure a few bottles of dwarven ale are waiting."
+"Aye," Hadrik mutters, a grim, humorless tug at the corner of his mouth. "I'll make sure a few bottles of dwarven ale are waiting."
 
-He falls silent for a second, then clears his throat, turning back to the rest of us. "So, where do I start? Do you remember when I mentioned I was the black sheep of my clan?"
+He falls silent again, his gaze dropping to the dirt between his heavy boots. When he looks up, the usual boisterous glint in his eyes is completely gone.
 
-"I remember!" Flower says. "You said the reason your family hated you had nothing to do with your height!"
+"So, where do I start? Do you remember when I mentioned I was the black sheep of my clan?"
+
+"I remember!" Flower says, her brow furrowing with concern. "You said the reason your family hated you had nothing to do with your height!"
 
 "Right," Hadrik says. "Well, the reason is simple enough, and it's tied directly to what the God of Time dragged me through during the ritual. To start from the beginning... Gontrok and a few other clanmates shook me awake in the middle of the night. They told me about a dwarven settlement that was supposedly serving as a staging post for a strike team preparing to hit our camp in a couple of days. This was fifty years back, in the thick of a bloody war with the dwarves, so I had no reason to think they were lying to me."
 
-"So it wasn't a garrison at all?" Daren asks. "Just a civilian settlement?"
+"So it wasn't a garrison at all?" Daren asks, his brow furrowed. "Just a civilian settlement?"
 
-"Aye," Hadrik says. "Just a quiet dwarven village without a single warrior in it. I should have realized something was wrong when I saw no sentries posted on the perimeter, but I convinced myself they were just hiding in the brush, waiting to ambush us. Gontrok insisted we needed to strike before they had the chance to move. He led us to the crest of a cliff overlooking the valley where the village sat. At the top were massive boulders—stones so heavy nobody but giants could shift them. Gontrok wanted us to heave them all over the edge at once, so they'd roll down into the valley and flatten the houses before anyone inside could wake up."
+"Aye," Hadrik says, his voice dropping an octave. "Just a quiet dwarven village without a single warrior in it. I should have realized something was wrong when I saw no sentries posted on the perimeter, but I convinced myself they were just hiding in the brush, waiting to ambush us. Gontrok insisted we needed to strike before they had the chance to move. He led us to the crest of a cliff overlooking the valley where the village sat. At the top were massive boulders—stones so heavy nobody but giants could shift them. Gontrok wanted us to heave them all over the edge at once, so they'd roll down into the valley and flatten the houses before anyone inside could wake up."
 
 choice("Continue", B3-Ch06c-Explanation2, v_current_scene = B3-Ch06c-Explanation2)
 
@@ -73,9 +83,9 @@ TEXT:
 
  "So that was your ritual," Kate says quietly.
 
-"Aye," Hadrik says, his voice thick and uncharacteristically subdued. "To pass the trial, I had to heave that boulder off the ridge just like the first time. Had to crush all those innocent folk again. I didn't know that going in. Like the rest of you, I thought the god was giving me a second chance to fix my worst mistake. Took me hours of bloody failure to see what the ritual actually demanded. And it wasn't just rolling the stone. I had to walk down into the rubble afterward, check every flattened home for survivors that weren't there, and look directly at every body. Every crushed face. Women, children. Those faces haunted my dreams for years, and I'd fought hard to forget them. The ritual forced me to count every one."
+"Aye," Hadrik says, his voice thick, rough, and stripped of all bravado. "To pass the trial, I had to heave that boulder off the ridge just like the first time. Had to crush all those innocent folk again. I didn't know that going in. Like the rest of you, I thought the god was giving me a second chance to fix my worst mistake. Took me hours of bloody failure to see what the ritual actually demanded. And it wasn't just rolling the stone. I had to walk down into the rubble afterward, check every flattened home for survivors that weren't there, and look directly at every body. Every crushed face. Women, children. Those faces haunted my dreams for years, and I'd fought hard to bury them. The ritual forced me to count every one in the dirt."
 
-"Gods..." Flower's voice trembles. "That's awful. But how did that turn your own family against you?"
+"Gods..." Flower's voice trembles, her small hands knotting into the hem of her dress. "That's awful. But how did that turn your own family against you?"
 
 "When I marched back into camp that night, I was beside myself," Hadrik says. "First thing I did was storm into the chieftain's pavilion to turn myself in, along with Gontrok and the others, for murder. The chief laughed in my teeth. Told me our clan's rules of war only applied to battles with other giants, not to vermin like the dwarves. Told me those children would have grown into enemy fighters anyway, so crushing them in their sleep was doing the clan a favor. That was the day I learned what our people's grand talk about honor was actually worth. I couldn't swallow it. I demanded tribunals, demanded justice for the dead, until the clan stopped laughing and turned hostile. Called me a traitor and a dwarf-sympathizer. Said I'd thrown away my right to call myself a warrior."
 
@@ -97,17 +107,29 @@ TEXT:
 
  "Most caught on eventually," Hadrik says, "but by then I'd lived among them for so long they didn't care. After decades in the mountains, I talked like them, drank like them, thought like them. To most of the town, there wasn't any difference worth mentioning. The only thing that chafed was the fighting. Giant blood doesn't sit quiet, and pulling my punches in bar brawls so I wouldn't accidentally cave someone's ribs in got suffocating. That's what drove me out on the road—wandering the world looking for monsters and mages who could take a full-strength punch without coming apart. I always drifted back to the northern taverns, but even after all these years, I've never had the stomach to tell those orphans why I put on the dwarf skin in the first place. Maybe one day. Maybe when I find the words."
 
-Hadrik's voice trails off into the damp chill of the passage. Our boots have stopped scraping the floor. We stand in a quiet circle along the stone tunnel, nobody making a move to walk on.
+Hadrik's voice dies away against the cold stone of the passage. The silence that follows is heavy and damp, broken only by the steady drip of condensation somewhere farther down the dark tunnel.
 
-Daren steps forward, his heavy plate clinking softly, and rests a broad hand on Hadrik's shoulder. "Hadrik. Pour us two glasses of dwarven ale. Small cups, like the ones from Flower's birthday. I need a clear head for the healing wards, but..."
+Nobody speaks. Our boots stay rooted to the gravel.
 
-Hadrik blinks up at him, his mouth falling open under his dark beard. "Did the righteous healer just ask for a drink before sundown? You never touch ale before dark!"
+Kate stands with her arms crossed tightly over her green cloak, dark eyes fixed unblinking on the flagstones between her boots. She doesn't offer a soft word or an empty comfort; she knows what blood on civilian hands costs, and she knows no speech can wash it clean.
 
-"I can make an exception," Daren says gently. "You look like you could use one."
+Melindra leans her shoulder against the damp masonry, looking down at her fingernails, uncharacteristically still, the usual mocking smirk absent from her face.
 
-The surprise softens on Hadrik's face, replaced by a genuine, weary grin. He unbuckles his leather pack and slides a heavy clay bottle from the padded lining.
+Flower stares at Hadrik with wide, distressed eyes, but Illuna keeps their shared frame stiff and quiet, holding them back.
 
-"You aren't wrong about that," Hadrik says. "Here, hold the neck while I dig out the cups. Unless you want one too, Barry? Joining in?"
+There is no clean resolution. No one offers an easy absolution, because none exists. Raising a generation of orphans does not rebuild a flattened valley or undo fifty years of grief, and Hadrik knows that better than any of us.
+
+Then Daren moves. His heavy plate clinks softly against the silence as he takes two measured steps forward. He doesn't offer a lecture or a tidy forgiveness. He simply reaches out and sets a broad, gauntleted hand firmly onto Hadrik's leather-clad shoulder, gripping it with quiet weight.
+
+"Hadrik. Pour us two glasses of dwarven ale. Small cups, like the ones from Flower's birthday. I need a clear head for the healing wards, but..."
+
+Hadrik blinks up at him, startled, his mouth falling open beneath his dark beard. "Did the righteous healer just ask for a drink before sundown? You never touch ale before dark!"
+
+"I can make an exception," Daren says quietly, the hard lines around his eyes softening slightly. "You look like you could use one."
+
+The tightness in Hadrik's jaw loosens, replaced by a weary, grateful half-grin. He unbuckles his leather pack, his thick fingers moving carefully as he slides a heavy clay jug from the padded lining.
+
+"You aren't wrong about that," Hadrik says, his voice clearing. "Here, hold the neck while I dig out the cups. Unless you want one too, Barry? Joining in?"
 
 choice("Drink a glass of dwarven ale with Daren and Hadrik.", B3-Ch06c-Drink, v_current_scene = B3-Ch06c-Drink, v_b3_ch6_drink = 1)
 choice("Don't drink with them.", B3-Ch06c-Drink, v_current_scene = B3-Ch06c-Drink, v_b3_ch6_drink = 0)
@@ -117,13 +139,13 @@ ID: B3-Ch06c-Drink
 TEXT:
 
 #if(v_b3_ch6_drink == 1) {
- "Sure, I'll take a glass," I say.
+ "Sure, I'll take a cup," I say.
 
-"Good man," Hadrik says. He passes small clay cups to Daren and me, uncorks the jug, and pours a dark, foaming stream to the brim of each. "In that case, a toast to running the royal guard out of our hair. Would have been sweeter if I'd broken Gontrok's neck, but making him flee under a teleport ward isn't nothing. To victory!"
+"Good man," Hadrik says. He passes small clay cups to Daren and me, uncorks the jug with his teeth, and pours a dark, foaming stream to the brim of each. "In that case, a toast to running the royal guard out of our hair. Would have been sweeter if I'd broken Gontrok's neck, but making him flee under a teleport ward isn't nothing. To surviving another scrape."
 
-"To victory," Daren and I say together.
+"To surviving," Daren and I say together.
 
-We knock back the thick, bitter ale in a single swallow.
+We knock back the thick, bitter ale in a single swallow. The dark brew burns hot and earthy down my throat.
 
 "Right, time to move," Hadrik says, stowing the cups and jug back into his pack. "We've kept those folk in the quarantine ward waiting long enough."
 
@@ -131,11 +153,11 @@ We knock back the thick, bitter ale in a single swallow.
 #if(v_b3_ch6_drink == 0) {
  "I'll pass for now," I say. "Need my wits about me in case another patrol ambushes us."
 
-"Suit yourself," Hadrik says. He hands Daren a small clay cup, uncorks the jug, and fills it with dark, foaming ale before pouring his own. "In that case, Daren, this toast is for you finally breaking your daylight-sobriety vow and joining me for a drink. Maybe there's hope for you yet, and one day you'll appreciate the dwarven art of drinking whenever the mood strikes, eh? What do you say? Hah!"
+"Suit yourself," Hadrik says. He hands Daren a small clay cup, uncorks the jug with his teeth, and fills it with dark, foaming ale before pouring his own. "In that case, Daren, this toast is for you finally breaking your daylight-sobriety vow and joining me for a drink. Maybe there's hope for you yet, and one day you'll appreciate the dwarven art of drinking whenever the mood strikes, eh? What do you say? Hah!"
 
-"Don't hold your breath," Daren says with a dry grin.
+"Don't hold your breath," Daren says with a dry, tired grin.
 
-Their cups clink together, and both of them drain the thick ale in a single gulp.
+Their clay cups clink together, and both of them drain the thick ale in a single swallow.
 
 "Right, time to move," Hadrik says, stowing the cups and jug back into his pack. "We've kept those folk in the quarantine ward waiting long enough."
 
@@ -143,7 +165,7 @@ Their cups clink together, and both of them drain the thick ale in a single gulp
 #if(v_b3_ch6_kelrim != 1 && v_b3_ch6_plan != 3) {
  We follow the winding stone corridor until it opens into the main waiting room. Daren splits off immediately, heading through the reinforced doorway into the quarantine ward. While we wait for him to finish treating the sick, Kate slips down a deserted side passage to resume drills with Melindra, while Hadrik and Flower find quiet alcoves in the base for their own practice.
 
-"I'm going to check on my father in his workshop," Leila's blue script forms in the air before me. "Want to come?"
+"I'm going to check on my father in his workshop," Leila's blue script forms in the air before me, glowing softly in the dim cavern. "Want to come?"
 
 "Sure," I say. "Lead on."
 
@@ -155,7 +177,7 @@ We turn into the corridor leading toward Doctor Reidzek's workshop, keeping a re
 #if(v_b3_ch6_kelrim == 1 || v_b3_ch6_plan == 3) {
  We follow the winding stone corridor until it opens into the main waiting room. Daren splits off immediately, heading through the reinforced doorway into the quarantine ward alongside Kelrim. While we wait for them to finish treating the sick, Kate slips down a deserted side passage to resume drills with Melindra, while Hadrik and Flower find quiet alcoves in the base for their own practice.
 
-"I'm going to check on my father in his workshop," Leila's blue script forms in the air before me. "Want to come?"
+"I'm going to check on my father in his workshop," Leila's blue script forms in the air before me, glowing softly in the dim cavern. "Want to come?"
 
 "Sure," I say. "Lead on."
 
@@ -178,31 +200,31 @@ choice("Continue", B3-Ch06c-Swimming, v_current_scene = B3-Ch06c-Swimming)
 ID: B3-Ch06c-Swimming
 TEXT:
 
- "I was useless in the water myself until I went spelunking with an archaeology professor on the western continent and a cave-in sealed us in," I say. "The only way out was a submerged tunnel three hundred paces long. Neither of us could swim worth a damn, so we spent hours on a narrow rock shelf practicing breath-holding and kicking techniques until we could cover distance without drowning. Funniest part is that was the simplest obstacle in that cavern."
+ "I was useless in the water myself until I went spelunking with an archaeology professor on the western continent and a cave-in sealed us in," I say. "The only way out was a submerged tunnel three hundred paces long through black water. Neither of us could swim worth a damn, so we spent hours on a narrow rock shelf practicing breath-holding and kicking techniques until we could cover distance without drowning. Funniest part is that was the simplest obstacle in that cavern."
 
-"Another one of your 'ordinary' jobs from your drifting days?" Leila writes, a smirk showing at the corner of her mouth.
+"Another one of your 'ordinary' jobs from your drifting days?" Leila writes, a quiet smirk tugging at the corner of her mouth.
 
 "All right, fair point," I say. "Maybe some of those odd jobs were less dull than I let on. Do you want to hear the rest or not?"
 
-"Go ahead," she writes with a grin, matching her stride to mine as we approach her father's workshop.
+"Go ahead," she writes with a silent grin, matching her stride to mine as we approach her father's workshop.
 
-By the time the tale wraps up, we reach Doctor Reidzek's heavy wooden door. I rap on the timber several times, but no sound comes from within. I call his name through the latch; silence answers. With the workshop clearly empty, we settle down outside to wait.
+By the time the tale wraps up, we reach Doctor Reidzek's heavy timber door. I rap on the wood with my knuckles several times, but no sound comes from within. I call his name through the latch; silence answers. With the workshop clearly empty, we settle down outside on the cold flagstones to wait.
 
-We sit side by side on the flagstones with our backs against the rough wood, trading stories from before the tournament. Leila describes life in the forest cabin after Reidzek smuggled her out of the Beacon, and I tell her about the libraries, odd jobs, and eccentric scholars I ran across while drifting through the Western Continent.
+We sit side by side with our backs against the rough wood, trading stories from before the tournament. Leila describes life in the forest cabin after Reidzek smuggled her out of the Beacon, and I tell her about the libraries, odd jobs, and eccentric scholars I ran across while drifting through the Western Continent.
 
-Talking with Leila carries an effortless rhythm. There's no posturing, no guards to keep up, just an easy exchange that makes the minutes slip by unnoticed.
+Talking with Leila carries an effortless rhythm. There's no posturing, no guards to keep up, just an easy exchange that makes the minutes slip by unnoticed in the quiet corridor.
 
-"It feels like forever since we could just sit and talk without a disaster breathing down our necks," Leila writes, stretching her arms lazily over her head. "Lately every spare minute gets eaten by drills. The only downtime we get is on watch."
+"It feels like forever since we could just sit and talk without a disaster breathing down our necks," Leila writes, stretching her arms over her head with a soft sigh. "Lately every spare minute gets eaten by drills. The only downtime we get is on watch."
 
 "Speak for yourself," I say. "My last night watch with Daren involved him making me balance on one heel, touch my nose with both index fingers, and spin like a top so he could inspect my aura alignment. Not making that up."
 
-Leila laughs without a sound, her shoulders shaking.
+Leila laughs without a sound, her shoulders shaking in the dim light.
 
 "Could be worse," her blue script floats between us. "During my watch with Kate, she bolted upright in the dark and impaled three bats with ice spears because she convinced herself they were familiars sent by a hostile elementalist."
 
-Her hand rests on her knee as the blue light fades.
+Her hand rests on her knee as the blue light fades into the gloom.
 
-"We should take a watch together sometime," she writes. "A quiet one. I promise not to make you balance on one foot... mostly."
+"We should take a watch together sometime," she writes, her head tilted slightly toward me. "A quiet one. I promise not to make you balance on one foot... mostly."
 
 choice("Agree to take the next night shift with Leila.", B3-Ch06c-Shift, v_current_scene = B3-Ch06c-Shift, v_b3_ch6_shift = 1)
 choice("Tell her that I was planning to take the next night shift with Hadrik, to cheer him up.", B3-Ch06c-Shift, v_current_scene = B3-Ch06c-Shift, v_b3_ch6_shift = 0)
@@ -220,9 +242,9 @@ TEXT:
 
 "I'm looking forward to it," her script reads.
 
-A quiet pause settles between us. Then new blue letters shape themselves in the air.
+A quiet pause settles between us. Then new blue letters shape themselves in the air, the strokes slower now.
 
-"My father is taking a long time to return," she writes, her brow furrowing.
+"My father is taking a long time to return," she writes, her brow furrowing as she glances down the empty tunnel.
 
 "Do you have his transceiver frequency? I can call him."
 
@@ -242,9 +264,9 @@ Leila shakes her head. "I can't speak into a transceiver, so I never asked for h
 
 "I'm sure you will," she writes.
 
-A quiet pause settles between us. Then new blue letters shape themselves in the air.
+A quiet pause settles between us. Then new blue letters shape themselves in the air, the strokes slower now.
 
-"My father is taking a long time to return," she writes, her brow furrowing.
+"My father is taking a long time to return," she writes, her brow furrowing as she glances down the empty tunnel.
 
 "Do you have his transceiver frequency? I can call him."
 
@@ -263,7 +285,7 @@ Leila shakes her head. "I can't speak into a transceiver, so I never asked for h
 
 "Right," she writes, the blue light fading quickly. "That's probably it."
 
-We emerge into the waiting room and check with the rebels gathered near the benches, but none of them have crossed paths with Reidzek recently. Albert strolls over from the throne-room corridor.
+We emerge into the waiting room and check with the rebels gathered near the stone benches, but none of them have crossed paths with Reidzek recently. Albert strolls over from the throne-room corridor.
 
 "Doctor Reidzek?" Albert asks when we put the question to him. "He was tutoring our younger white mages on his enchanted healing gear a few hours ago. Then Barry called him over to run maintenance on the teleporter array. That was over an hour back. Hasn't he returned to his shop?"
 
@@ -295,36 +317,36 @@ achievement("Quarantine ender",v_ac_b3_ch6_quarantine)
 
 "Thanks," Albert says. "And Peter—keep your aura concealed on the approach. Just in case."
 
-"Got it," Peter says, his voice tightening. He turns and strides into the teleporter tunnel.
+"Got it," Peter says, his voice tightening. He turns and strides quickly into the teleporter tunnel.
 
 Albert glances down at Leila's tense expression. "Doctor Reidzek is fine. He gets absorbed in his work and forgets the hour, like always. Once Peter reaches the array, we'll have your father on the line."
 
 "Yes," Leila writes, though her fingers tremble as she dismisses the script. "We just have to wait."
 
-Across the hall, the heavy door to the quarantine ward swings open. Daren emerges, stepping over to Desmond, who remains stationed at his post.
+Across the hall, the heavy door to the quarantine ward swings open. Daren emerges, wiping sweat from his forehead as he steps over to Desmond, who remains stationed at his post.
 
 #if(v_b3_ch6_labels < 2 && v_b3_ch6_password != 3 && v_ch11_saved_rose != 1 || v_b3_ch6_labels < 2 && v_b3_ch6_secret < 1 && v_b3_ch6_password != 3 && v_b3_ch6_secret != 0 || v_b3_ch6_labels < 2 && v_b3_ch6_secret < 1 && v_b3_ch6_password != 3 && v_b3_ch6_sleep != 0) {
- "Desmond, I'm... I'm sorry," Daren says, his head bowed. "There was no saving your brother. The sickness had taken too deep a hold. If I had arrived a few days earlier, he might have had a chance, but as things stand... he's too far gone. I'm sorry."
+ "Desmond, I'm... I'm sorry," Daren says, his head bowed and his voice heavy with grief. "There was no saving your brother. The sickness had taken too deep a hold. If I had arrived a few days earlier, he might have had a chance, but as things stand... he's too far gone. I'm sorry."
 
-"It's all right," Desmond says with heavy resignation. "Don't tear yourself apart. You did everything you could. What about the others? Is there hope for any of them?"
+"It's all right," Desmond says with heavy resignation, staring at the stone between his boots. "Don't tear yourself apart. You did everything you could. What about the others? Is there hope for any of them?"
 
 "Half the ward is cured, including myself," Daren says. "For the rest, it depends entirely on how far the corruption spread before we administered the herbs. The critical cases won't pull through, but the moderate ones have a fighting chance. We'll know more once the medicine settles."
 
-"Even half is a miracle," Desmond says. "Until today, anyone who crossed that threshold was as good as dead. Now we might not even need to quarantine future cases. You gave people their families back, healer. I'm the one who should apologize for doubting you. We're in your debt."
+"Even half is a miracle," Desmond says, his voice thick. "Until today, anyone who crossed that threshold was as good as dead. Now we might not even need to quarantine future cases. You gave people their families back, healer. I'm the one who should apologize for doubting you. We're in your debt."
 
 }
 #if(v_ch11_saved_rose == 1 && v_b3_ch6_secret >= 1 || v_b3_ch6_secret == 0 && v_b3_ch6_sleep == 0 && v_ch11_saved_rose == 1 || v_b3_ch6_password == 3 || v_b3_ch6_labels >= 2) {
- "Desmond, your brother is out of danger," Daren says. "He'll need time to regain his strength—the infection ran deep—but he's going to live. You should be able to see him in a week or two."
+ "Desmond, your brother is out of danger," Daren says, a tired smile breaking through the dust on his face. "He'll need time to regain his strength—the infection ran deep—but he's going to live. You should be able to see him in a week or two."
 
-"Are you serious?" Desmond stares at Daren, stunned disbelief written across his face. "No... that can't be. My brother was beyond saving! Are you certain it was him?"
+"Are you serious?" Desmond stares at Daren, stunned disbelief written across every line of his face. "No... that can't be. My brother was beyond saving! Are you certain it was him?"
 
 "Two separate nurses confirmed he's the brother of the guard on duty," Daren says. "Unless you have a twin guarding this exact door?"
 
-"No... I just..." Desmond's voice cracks, fighting to keep his composure. "Thank you. I never thought... I was sure you were another hopeless dreamer chasing windmills. What about the rest of the ward? How many did you pull through?"
+"No... I just..." Desmond's voice cracks, fighting to hold back tears. "Thank you. I never thought... I was sure you were another hopeless dreamer chasing windmills. What about the rest of the ward? How many did you pull through?"
 
 "The vast majority are stabilized," Daren says. "A few severe cases are still fighting, but the nurses are managing them around the clock. Now I need to meet with your white mages to teach them the spells and herb preparations so they can handle any future outbreaks on their own."
 
-"Then I won't hold you," Desmond says. "May the gods walk with you, healer. We're all in your debt."
+"Then I won't hold you," Desmond says, gripping Daren's gauntlet in both hands. "May the gods walk with you, healer. We're all in your debt."
 
 Daren nods and turns toward the side corridor, catching sight of Leila and me as he crosses the floor.
 
@@ -343,7 +365,7 @@ Moments later, Peter's voice bursts through Albert's transceiver—ragged, loud,
 }
  "I'm truly sorry about your brother," Daren says, his shoulders heavy with fatigue. "I wish I could have pulled everyone through. At least two of the nurses are back on their feet to keep the critical patients comfortable."
 
-"You did more than anyone asked," Desmond says. "Go rest. You've earned it."
+"You did more than anyone asked," Desmond says quietly. "Go rest. You've earned it."
 
 "Soon," Daren says. "Thank you."
 
@@ -369,33 +391,33 @@ TEXT:
 
  "Albert!" Peter yells over the channel. "Barry betrayed us! I caught him on the transceiver with Gontrok in the array room! The King of Ollendor sanctioned a purge to wipe out everyone underground, and Barry's bringing them in! Warn the king! Fast!"
 
-"Barry? Working with the guard?" Albert's voice hitches. "No—that's impossible. The guards murdered his brother—"
+"Barry? Working with the guard?" Albert's voice hitches with shock. "No—that's impossible. The guards murdered his brother—"
 
-"His brother's alive!" Peter roars. "He lied from the start! The king's holding his brother hostage, that's why he broke! I heard Gontrok threatening to slaughter his brother if he didn't follow orders! And they took Doctor Reidzek! They forced Barry to teleport him to a seredium tower to seize control of the Overseer—because he's a lessathi mechanic who can handle ancient tech, just like Billy Bob!"
+"His brother's alive!" Peter roars over static. "He lied from the start! The king's holding his brother hostage, that's why he broke! I heard Gontrok threatening to slaughter his brother if he didn't follow orders! And they took Doctor Reidzek! They forced Barry to teleport him to a seredium tower to seize control of the Overseer—because he's a lessathi mechanic who can handle ancient tech, just like Billy Bob!"
 
-"What?!" Leila's glowing script flares in frantic, jagged strokes.
+"What?!" Leila's glowing script flares in frantic, jagged strokes of blue light.
 
 "They took Reidzek?" Albert demands. "We have to pull him out! Which tower did they—"
 
-"Albert, shut up and listen!" Peter cuts him off. "Barry has been teleporting guard detachments into the cavern stratum directly above the base for an hour! They're rigging explosives to drop the ceiling and bury everyone alive! Sound the evacuation! Get everyone out before—ARGH!"
+"Albert, shut up and listen!" Peter cuts him off with a roar. "Barry has been teleporting guard detachments into the cavern stratum directly above the base for an hour! They're rigging explosives to drop the ceiling and bury everyone alive! Sound the evacuation! Get everyone out before—ARGH!"
 
 "Peter! What's happening?!" Albert yells into the device. "Peter?!"
 
 "Guard trainees..." Peter grunts through heavy static. "Caught a bolt in the shoulder. I have to drop the channel. Move!"
 
-The connection snaps shut.
+The connection snaps dead with a sharp crackle.
 
 "Damn it!" Albert roars. He rounds on a stunned rebel standing frozen nearby. "What are you gaping at? Sound the general alarm! Tell the king to clear the base immediately! I'm getting Peter!"
 
 Albert blurs into thin air, sprinting down the passage toward the array room. The rebel sentry bolts down the main hall toward the throne room.
 
-Leila breaks into a run, darting toward the teleporter corridor. I lunge forward and catch her forearm, dragging her to a halt.
+Leila breaks into a desperate run, darting toward the teleporter corridor. I lunge forward and catch her forearm, dragging her to a hard halt.
 
 "Leila, stop!"
 
-"My father!" her blue letters flare, trembling violently. "I have to get to him!"
+"My father!" her blue letters flare, trembling violently in the dark. "I have to get to him!"
 
-Terror widens her eyes, wiping all reason from her face—the exact soundless panic from Thilias when she was flailing in the dark water of the cistern, unable to scream.
+Terror widens her dark eyes, wiping all reason from her face—the exact soundless panic from Thilias when she was flailing in the dark water of the cistern, unable to scream.
 
 "Leila, look at me," I say, planting my hands firmly on her shoulders. "We're going to get him back. Together. But charging down a collapsing tunnel gets us killed. Breathe. I need you thinking. Understand?"
 
@@ -480,11 +502,11 @@ TEXT:
 
  "Look out!" I grab Leila's wrist and yank her backward as a massive slab of stone crashes into the floor where she stood.
 
-Dust billows into our faces. "That was too close—"
+Dust billows into our faces, choking our throats. "That was too close—"
 
-Before the words clear my mouth, Leila grabs my tunic and hauls me sideways. A second cascade of rock smashes into the flagstones at my heels. Secondary detonations roar throughout the stratum overhead, reverberating through the tunnels as support pillars crumble.
+Before the words clear my mouth, Leila grabs my tunic and hauls me sideways with startling strength. A second cascade of rock smashes into the flagstones at my heels. Secondary detonations roar throughout the stratum overhead, a rolling thunder that shakes the foundations of the cavern as support pillars crumble.
 
-While Leila is still clutching my arm, a blinding white glow wraps around us. The resonance rattles through our bones and teeth—the unmistakable pull of a forced teleportation field wrenching us away from the collapsing base.
+While Leila is still clutching my arm, a blinding white glow wraps around us. The resonance rattles through our bones and teeth—the unmistakable, violent pull of a forced teleportation field wrenching us away from the collapsing base.
 
 #if(v_b3_ch6_transceivers == 2) {
  The white glare snaps shut. Damp, dead air rushes into my lungs. The jagged crystalline outcroppings and moss-slick stone walls are immediately familiar—the exact dead-end cavern where the failsafe dump deposited us yesterday when fleeing the black-robed guard. Why here again? Is this cavern the default discharge point whenever teleport targeting fails?

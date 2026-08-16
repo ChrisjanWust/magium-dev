@@ -9,27 +9,27 @@ set(v_b3_ch12_spell,0)
 set(v_is_dead,0)
  
 
-"Arraka, wake up," Illuna says. "Barry finished your particle drill ten minutes ago. If you leave him idle, he goes right back to that blinding flash, and none of us want another demonstration."
+"Arraka, wake up," Illuna says, her fingers tapping a crisp rhythm on the gold casing. "Barry finished your particle drill ten minutes ago. If you leave him idle, he goes right back to that blinding flash, and none of us want another demonstration."
 
-"Hey," I say. "You will thank me for every repetition the day a fight goes sideways. That flash has a half-second window. If my timing slips, I blind our own frontline."
+"Hey," I say, looking up from my notebook. "You will thank me for every repetition the day a fight goes sideways. That flash has a half-second window. If my timing slips, I blind our own frontline."
 
-"Fascinating," Illuna says, flat, and lifts the gold amulet off Flower's collarbone. "Arraka. Answer, or I start spinning the chain."
+"Fascinating," Illuna says, completely flat, and lifts the heavy gold amulet off Flower's collarbone by its chain. "Arraka. Answer, or I start spinning the pendant."
 
-"Alright, alright," Arraka snaps from the metal. "I will give the boy his next drill. Give me a minute. I am working."
+"Alright, alright," Arraka snaps from the metal, the gold vibrating in Illuna's palm. "I will give the boy his next drill. Give me a moment. I am working."
 
-"On what?" Illuna asks. "A smaller explosion radius so you can catch us off guard on your next escape attempt?"
+"On what?" Illuna asks, narrow-eyed. "A smaller explosion radius so you can catch us off guard on your next escape attempt?"
 
 "Hardly. If there were a cheaper blast formula, I would have blown this trinket open three years ago. I am adjusting my soul-absorption matrix. A variant that merges instead of consuming, leaving equal control over the vessel."
 
-Illuna stares at the gold piece. "Like Flower and me? Why would you do that on purpose? You spent a decade complaining about Therius."
+Illuna stares down at the gold piece, her face cold. "Like Flower and me? Why would you do that on purpose? You spent a decade complaining about Therius."
 
 "Therius was an accident," Arraka says. "And if I take Flower's body by force again, both of you die, the troupe attacks me out of loyalty, and I have to slaughter every one of them. For good, this time."
 
-"And that bothers you?" Illuna's voice stays cold. "You killed us once without blinking."
+"And that bothers you?" Illuna's voice carries razor-edged skepticism. "You killed us once without blinking."
 
-"Because dead trainees cannot butcher gods for me!" Arraka's voice rattles the casing. "Where else am I finding a collection of armed misfits with personal grievances against the heavens and enough raw luck to survive my lessons? You think I want to go back to solo revenge after designing something this entertaining?"
+"Because dead trainees cannot butcher gods for me!" Arraka's voice rattles the casing with sharp fury. "Where else am I finding a collection of armed misfits with personal grievances against the heavens and enough raw luck to survive my lessons? You think I want to go back to solo revenge after designing something this entertaining?"
 
-Illuna's brow furrows. "You expect me to believe you would share a skull with Flower and me just to keep your vanguard alive?"
+Illuna's brow furrows in deep suspicion. "You expect me to believe you would share a skull with Flower and me just to keep your vanguard alive?"
 
 "Why not?" Arraka says cheerfully. "Morning tea and biscuits with the little girl, evening massacres with the rest of you. We can make a schedule."
 
@@ -45,13 +45,13 @@ ID: B3-Ch12a-Combining
 TEXT:
 
 #if(v_b3_ch12_believe == 1) {
-"Well, I believe her," I say.
+"Well, I believe her," I say, leaning back against the rough pine bark.
 
-"Listen to that," Arraka tells Illuna. "Barry is gullible to a fault. A few polite days and he thinks I am harmless. Be glad you have more sense than he does."
+"Listen to that," Arraka tells Illuna with mock pity. "Barry is gullible to a fault. A few polite days and he thinks I am harmless. Be glad you have more sense than he does."
 
 "On that single point," Illuna says dryly, "we agree."
 
-"Right. Very funny," I say, stepping back. "I will be by the boulder line running combinations."
+"Right. Very funny," I say, closing my ink vial. "I will be by the boulder line running combinations."
 
 I leave Arraka to her notes and head toward the edge of the clearing. For two days since leaving the lessathi complex, every spare hour has gone into the notebook—indexing every spell now available through the booster, tracing flows, testing limits.
 
@@ -61,12 +61,12 @@ I leave Arraka to her notes and head toward the edge of the clearing. For two da
 
 "Sensible," Arraka says. "Perhaps you have a survival instinct after all. Now go play with your spells while I finish here."
 
-"I was already on my way," I say. "I will be by the rocks."
+"I was already on my way," I say, slipping the charcoal into my pocket. "I will be by the rocks."
 
 I leave Arraka to her notes and head toward the edge of the clearing. For two days since leaving the lessathi complex, every spare hour has gone into the notebook—indexing every spell now available through the booster, tracing flows, testing limits.
 
 }
-Layering spells is another matter entirely. Back on the Western Continent, Brinhorn and I spent months theorizing combinations on parchment, but paper never pushes back against conflicting mana channels. The stat device fires spells in discrete bursts; weaving two together means manual intervention—guiding the threads by hand just like an ordinary caster. Brinhorn made it look effortless, tweaking particle flows on the fly in his endless race to match Azarius. Out here, with only level-one access, every weave demands trial and error.
+Layering spells is another matter entirely. Back on the Western Continent, Brinhorn and I spent months theorizing combinations on parchment, but ink and paper never push back against conflicting mana channels. The stat device fires spells in discrete, isolated bursts; weaving two together means manual intervention—guiding the threads by hand just like an ordinary caster. Brinhorn made it look effortless, tweaking particle flows on the fly in his endless race to match Azarius. Out here, with only level-one access, every weave demands trial, error, and patience.
 
 choice("Continue", B3-Ch12a-Practicing, v_current_scene = B3-Ch12a-Practicing, v_available_points = +4, v_available_points_aux = +4)
 
@@ -74,27 +74,27 @@ choice("Continue", B3-Ch12a-Practicing, v_current_scene = B3-Ch12a-Practicing, v
 ID: B3-Ch12a-Practicing
 TEXT:
 
-"At it again, Barry?" Hadrik ambles past, an open clay bottle in one hand and a broad grin under his beard. "Need a moving target? I have ten minutes before dinner and just enough dwarven ale in me to ignore the risks."
+"At it again, Barry?" Hadrik ambles past, an open clay bottle in one thick hand and a broad grin under his black beard. "Need a moving target? I have ten minutes before dinner and just enough dwarven ale in me to ignore the risks."
 
-"Actually, yes," I say, closing the notebook. "I have targeted utility spells that only take hold on living flesh. Daren and Kate refused to let me near them all morning."
+"Actually, yes," I say, closing the notebook and rising from the moss. "I have targeted utility spells that only take hold on living flesh. Daren and Kate refused to let me near them all morning."
 
-"Can't blame them!" Hadrik chuckles, setting the bottle down on a flat stump.
+"Can't blame them!" Hadrik chuckles, setting the bottle down on a flat pine stump.
 
-He backs off ten paces, spreading his arms wide with an exaggerated bow.
+He backs off ten paces, spreading his arms wide with an exaggerated, theatrical bow.
 
 "Whenever you're ready, lad. Hit me with everything you've got."
 
-I raise a hand, channeling the flow—and Hadrik blurs sideways, kicking up dirt.
+I raise a hand, channeling the flow—and Hadrik blurs sideways in a sudden cloud of pine needles and dirt.
 
 "Too slow, Barry! Far too slow!"
 
-"I thought you were volunteering to help," I call out.
+"I thought you were volunteering to help," I call out, tracking him with my palm.
 
 "This is help!" Hadrik bellows, circling at speed. "Enemies don't plant their boots and wait for your incantation. Moving targets build character. Besides, it's more fun this way."
 
 "Fine," I mutter, resetting my stance.
 
-Before I can lock on, the booster in my coat pocket gives four short, rhythmic chirps. New points registered.
+Before I can lock onto his trajectory, the booster in my coat pocket gives four short, rhythmic chirps. New points registered.
 
 Perfect timing.
 
@@ -106,7 +106,7 @@ ID: B3-Ch12a-Bored
 TEXT:
 
 #if(v_b3_ch12_invest == 1) {
-"Hold on," Hadrik calls out, skidding to a halt. "Are we sparring or staring?"
+"Hold on," Hadrik calls out, skidding to a halt on the moss. "Are we sparring or staring?"
 
 "One second—allocating points," I say, tapping the display and tucking the device back in. "Ready now."
 
@@ -136,60 +136,61 @@ TEXT:
 set(v_b3_ch12_hadrik,0) if (v_magical_sense == 4 && v_perception < 4 || v_magical_sense < 4)
 set(v_b3_ch12_hadrik,1) if (v_magical_sense == 4 && v_perception == 4)
 #if(v_magical_sense < 4) {
-I fix my gaze on Hadrik, trying to parse the shifts in his aura as he bounds across the clearing. The energy around him is a dense, shifting blur. There is supposed to be a tell before every shift in momentum, but to my untrained perception, it is just noise.
+I fix my gaze on Hadrik, squinting against the late-afternoon glare to parse the shifts in his aura as he bounds across the clearing. The energy around him is a dense, churning blur—a boiling corona of raw northern vitality. There is supposed to be a subtle tell before every pivot, a micro-flare in the flow, but to my uncalibrated magical sense, it is just static.
 
-Thirty seconds pass with me squinting across empty dirt while the dwarf darts between the pines. He finally slows, shaking his head with a grin, and scoops his clay bottle off the stump.
+Thirty seconds pass with me tracking empty dirt while the dwarf darts between the pines like a black-bearded cannonball. He finally skids to a halt, scattering pine needles, and scoops his clay bottle off the stump with a booming chuckle.
 
-"Minute's up, Barry," Hadrik calls out. "Put some elbow grease into it next time, aye?"
+"Minute's up, Barry!" Hadrik calls out, wiping foam from his mustache. "Put some real elbow grease into it next time, aye?"
 
-"Wait—let me get one cast off!" I say.
+"Wait—let me get at least one cast off!" I say, lowering my palm.
 
-"Later, lad," Hadrik chuckles, heading toward the tents. "Dinner calls."
+"Later, lad," Hadrik chuckles, ambling toward the tents. "Dinner calls, and my belly doesn't run on theory."
 
-I let out a breath, pull out my notebook, and return to cataloguing spell formulas.
+I let out a slow breath, retrieve my notebook from the moss, and return to cataloguing spell formulas.
 
 }
 #if(v_magical_sense == 4 && v_perception < 4) {
-I focus on the currents around Hadrik's frame. There is a distinct flare in his aura an instant before he pivots, pulling tight along his flanks. Logically, the direction of that pull should forecast his vector, but the shifts come too fast for me to calculate a lead angle.
+I focus on the currents around Hadrik's frame. With maxed magical sense, the chaotic haze resolves into distinct braided channels. There is an unmistakable flare in his aura an instant before he pivots, pulling tight along his flanks like an archer's bowstring. Logically, the direction of that pull should forecast his vector, but the shifts come so fast my eyes cannot calculate a lead angle before he breaks.
 
-For thirty seconds I track the flares, hesitating each time he cuts across the grass. Before I can commit to a trajectory, Hadrik slows to a walk and picks up his bottle.
+For thirty seconds I track the flares, hesitating each time he cuts across the grass. Before I can commit to a trajectory, Hadrik slows to an easy amble and picks up his bottle.
 
-"Minute's up, Barry," Hadrik says. "Put some elbow grease into it next time, aye?"
+"Minute's up, Barry," Hadrik says, taking a hearty swig. "Put some elbow grease into it next time, aye?"
 
-"Wait—give me one more try!" I say.
+"Wait—give me one more pass!" I say.
 
-"Some other time, lad," Hadrik laughs, turning back toward camp. "My throat is dry."
+"Some other time, lad," Hadrik laughs, wiping his beard with the back of his hand as he turns toward camp. "My throat is parched."
 
-I let out a breath, pull out my notebook, and return to cataloguing spell formulas.
+I let out a breath, pull out the notebook, and return to cataloguing spell formulas.
 
 }
-#if(v_magical_sense == 4 && v_perception == 4) { His dwarf form holds a massive reservoir of energy, but just before he breaks into a sprint, the aura around the fingertips of his left hand thins, trailing like smoke in the exact direction he is about to move. The speed of that pull corresponds to how hard he intends to push off.
+#if(v_magical_sense == 4 && v_perception == 4) {
+His dwarf form holds a massive reservoir of energy, but just before he breaks into a sprint, the aura around the fingertips of his left hand thins out, trailing like gray smoke in the exact direction he is about to drive off. The speed and angle of that wispy pull correspond directly to how hard he intends to push off his heels.
 
-It is a split-second window, but it is a tell.
+It is a split-second window, but it is a concrete tell.
 
-I select the lightest targeted cantrip in the booster—a minor disorientation pulse that induces a fleeting, mild dizziness. I lead him by two paces and release. The timing is off by half a beat; the spell discharges into empty air.
+I select the lightest targeted cantrip in the booster—a minor disorientation pulse that induces a fleeting, mild dizziness. I lead him by two paces into the moss and release. The timing is off by half a beat; the spell discharges harmlessly into empty air with a dry hiss.
 
-I adjust on the next pass. Hadrik cuts left, his aura trailing toward the riverbank. I lead him three paces out, catch his rhythm, and release on the third stride.
+I adjust on the next pass. Hadrik cuts left, his aura trailing toward the riverbank. I lead him three paces out, catch his cadence, and release on the third stride.
 
 The pulse connects.
 
-Hadrik stumbles mid-dash, skids two yards through the dirt, and claps a thick hand to his forehead, blinking rapidly.
+Hadrik stumbles mid-dash, skids two yards through the loam, and claps a thick palm to his forehead, blinking rapidly.
 
-"Whoa..." Hadrik rubs his temples, looking around. "Was that you? A dizzy spell? Ha—already gone."
+"Whoa..." Hadrik rubs his temples with a startled grin. "Was that you? A dizzy spell? Ha—already cleared up!"
 
-"It is the weakest disorientation formula available," I say. "Barely a head rush. But the targeting locked."
+"It is the weakest disorientation formula available," I say, stepping forward. "Barely a head rush. But the targeting locked clean."
 
-"Well, glad to be of service!" Hadrik says, grinning as he retrieves his bottle from the stump.
+"Well, glad to be of service!" Hadrik says, retrieving his clay bottle from the stump.
 
 "Leaving already?" I ask.
 
-"That's enough tumbling for one evening," he says, taking a swig. "If you need more live targets tomorrow, we'll find an orc patrol. Tyrath's raiders aren't exactly hiding."
+"That's enough tumbling for one evening," he says, taking a long draft. "If you need more live targets tomorrow, we'll hunt down an orc patrol. Tyrath's raiders aren't exactly hiding."
 
 "True enough," I say.
 
 "See you by the fire, Barry."
 
-I pull out my notebook to record the lead timing.
+I pull out my notebook to record the lead timing and particle geometry.
 
 }
 Ten minutes later, Arraka's voice calls across the grass.
@@ -219,13 +220,13 @@ set(v_b3_ch12_hadrik,1) if (v_agility == 4 && v_reflexes == 4)
 #if(v_agility < 4) {
 Instead of trying to outthink him, I dig my boots into the turf and sprint straight at him the moment he pauses. I prime the dizziness cantrip, aiming to close the gap before releasing.
 
-Hadrik does not even brace. The instant I enter casting range, he slips past my shoulder like a phantom, leaving me lunging into open grass.
+Hadrik does not even brace. The instant I enter casting range, he slips past my shoulder like an oiled phantom, leaving me lunging into open grass.
 
-I turn and chase him down twice more, but the dwarf's burst speed is absurd. My lungs burn before I can even line up a proper sightline.
+I turn and chase him down twice more, but the dwarf's burst speed is absurd. My lungs burn and my thighs ache before I can even establish a proper sightline.
 
 "Well... good hustle, lad!" Hadrik laughs, strolling back to the stump while I catch my breath with hands on my knees.
 
-"Wait," I wheeze. "One more pass."
+"Wait," I wheeze, wiping sweat from my eyes. "One more pass."
 
 "Minute's up, Barry," Hadrik says cheerfully, uncorking his bottle. "Better luck next round."
 
@@ -235,13 +236,13 @@ I shake my head, retrieve my notebook from the grass, and go back to mapping spe
 #if(v_agility == 4 && v_reflexes < 4) {
 I dig my heels in and burst forward the moment Hadrik hesitates. With four points in agility, I match his pace across the first ten yards, closing the distance in a fraction of a second.
 
-Hadrik blinks, surprised by the sudden charge, but before my hands can complete the casting gesture, he drops low and cuts behind a pine.
+Hadrik blinks, surprised by the sudden burst, but before my hands can complete the casting gesture, he drops low and cuts behind a pine.
 
 For the next half-minute I stay on his heels, cornering him twice near the riverbank, but my reflexes lag behind my sprint. Every time I raise my hand to release the spell, he slips off the axis of my palm.
 
 "Quite the chase!" Hadrik chuckles, leaning against a boulder with his bottle in hand while I catch my breath. "Thought you had me on that second turn!"
 
-"Hold on," I say. "Give me ten more seconds."
+"Hold on," I say, panting. "Give me ten more seconds."
 
 "Time's up, lad," Hadrik says, taking a hearty drink. "Pace yourself."
 
@@ -255,13 +256,13 @@ Hadrik reacts, but my reflexes match the opening. As he tries to duck under my l
 
 The spell catches.
 
-Hadrik stumbles, shakes his head vigorously, and braces a hand against his knee, blinking away the fog.
+Hadrik stumbles, shakes his head vigorously, and braces a hand against his knee, blinking away the sudden fog.
 
-"Whoa..." Hadrik says, straightening up. "Was that you? A dizzy spell? Ha—cleared right up!"
+"Whoa..." Hadrik says, straightening up with a wide grin. "Was that you? A dizzy spell? Ha—cleared right up!"
 
 "It is the weakest variant in the index," I say. "Only meant to disrupt focus for a heartbeat. But it connected."
 
-"Glad I could help, then!" Hadrik says, grinning as he walks back to grab his bottle.
+"Glad I could help, then!" Hadrik says, walking back to grab his bottle.
 
 "Leaving already?" I ask.
 
@@ -464,7 +465,7 @@ TEXT:
 
 "NO!" Daren, Kate, and Illuna shout in unison.
 
-"Not that blasted flash," Kate groans, rubbing her brow. "We've had enough spots in our eyes for one afternoon."
+"Not that blasted flash," Kate groans, rubbing her brow with both hands. "We've had enough burning white spots in our eyes for one afternoon."
 
 }
 #if(v_b3_ch12_spell == 1) {
@@ -478,7 +479,7 @@ TEXT:
 
 "NO!" Daren, Kate, and Illuna shout in unison.
 
-"Not that blasted flash," Kate groans, rubbing her brow. "We've had enough spots in our eyes for one afternoon."
+"Not that blasted flash," Kate groans, rubbing her brow with both hands. "We've had enough burning white spots in our eyes for one afternoon."
 
 }
 #if(v_b3_ch12_spell == 2) {
@@ -492,7 +493,7 @@ TEXT:
 
 "NO!" Daren, Kate, and Illuna shout in unison.
 
-"Not that blasted flash," Kate groans, rubbing her brow. "We've had enough spots in our eyes for one afternoon."
+"Not that blasted flash," Kate groans, rubbing her brow with both hands. "We've had enough burning white spots in our eyes for one afternoon."
 
 }
 #if(v_b3_ch12_spell == 3 && v_b3_ch5_moustache == 2) {
@@ -510,7 +511,7 @@ TEXT:
 
 "NO!" Daren, Kate, and Illuna shout in unison.
 
-"Not that blasted flash," Kate groans, rubbing her brow. "We've had enough spots in our eyes for one afternoon."
+"Not that blasted flash," Kate groans, rubbing her brow with both hands. "We've had enough burning white spots in our eyes for one afternoon."
 
 }
 #if(v_b3_ch12_spell == 3 && v_b3_ch5_moustache != 2) {
@@ -528,10 +529,10 @@ TEXT:
 
 "NO!" Daren, Kate, and Illuna shout in unison.
 
-"Not that blasted flash," Kate groans, rubbing her brow. "We've had enough spots in our eyes for one afternoon."
+"Not that blasted flash," Kate groans, rubbing her brow with both hands. "We've had enough burning white spots in our eyes for one afternoon."
 
 }
-"Look, I know it's grating," I tell them. "But the reflex has to be instinct. When I yell 'Daren, catch!' you drop your eyelids for exactly one beat, no matter what is swinging at you. It is an archaic disruption spell; modern duelists don't train against it. We get one chance to blind an enemy line before they adapt."
+"Look, I know it's grating," I tell them. "But the reflex has to become second nature. When I yell 'Daren, catch!' you drop your eyelids for exactly one beat, no matter what is swinging at you. It is an archaic disruption spell; modern duelists don't train against it. We get one chance to blind an enemy line before they adapt."
 
 "Barry, lad," Hadrik rumbles, taking a long pull from his bottle. "We're happy for you, truly. But you've talked about mana flows for forty-eight hours straight. Give the magic a rest for an hour and drink like a mortal."
 
@@ -542,7 +543,7 @@ TEXT:
 #if(v_b3_ch12_hadrik == 0) {
 "Mostly combinations and the tree resonance," I say. "I tried to land a mild dizziness pulse on Hadrik, but he was moving too fast for me to lead the target."
 
-"A disorientation spell at level one?" Kate asks, looking up.
+"A disorientation spell at level one?" Kate asks, looking up from her whetstone.
 
 "Barely a flicker of lightheadedness," I say. "Low-tier disruption."
 
@@ -556,7 +557,7 @@ TEXT:
 #if(v_b3_ch12_hadrik == 1) {
 "Mostly combinations and the tree resonance," I say. "I managed to tag Hadrik with a mild dizziness pulse, but he only gave me one clean pass before dinner called."
 
-"A disorientation spell at level one?" Kate asks, looking up.
+"A disorientation spell at level one?" Kate asks, looking up from her whetstone.
 
 "Barely a flicker of lightheadedness," I say. "Low-tier disruption."
 
@@ -577,7 +578,7 @@ TEXT:
 
 "Speaking of targeted spells," I say, glancing around the circle, "it would help if I could run live tests on someone once or twice. Just to gauge resist thresholds before combat."
 
-"No," Kate says immediately, her tone flat. "I know you mean well, Barry. But the Beacon cured me of any interest in being an experiment."
+"No," Kate says immediately, her tone dropping dead flat. "I know you mean well, Barry. But the Beacon cured me of any interest in being an experiment."
 
 "Understood," I say, holding up a hand. "Forget I asked."
 
@@ -589,7 +590,7 @@ TEXT:
 
 I look at her, hesitant. "Are you sure? You went through the Beacon as well. I don't want to push."
 
-"Ancient history," Diane says breezily. "It doesn't bother me in the least. Test whatever you need."
+"Ancient history," Diane says breezily, waving a dismissive hand. "It doesn't bother me in the least. Test whatever you need."
 
 "If you're certain, I'd appreciate it," I say.
 
@@ -601,15 +602,15 @@ Kate stiffens slightly. "I wanted cleaner consistency before showing the group."
 
 "You were doing fine," Arraka says. "The problem is you need a live current to practice cutting. Daren, float your blade. Let her show what she took from my lectures."
 
-Daren draws his broadsword and releases his grip. The blade hangs at chest height, suspended on a faint shimmer of white aura. "Now what?"
+Daren draws his broadsword and releases his grip. The heavy steel hangs at chest height, suspended on a faint shimmer of white aura. "Now what?"
 
 "Kate," Arraka says. "Cut the thread."
 
 Kate raises two fingers. A thin sliver of ice materializes in front of her palm, coated in a dark, needle-thin aura. She flicks her wrist; the shard zips between Daren and the hilt.
 
-The white shimmer snaps. The sword drops flat into the dirt with a heavy thud.
+The white shimmer snaps with a sharp ping. The sword drops flat into the dirt with a heavy thud.
 
-"On the first pass," Daren says, impressed, scooping the weapon up. "Clean work."
+"On the first pass," Daren says, genuinely impressed, scooping the weapon up. "Clean work."
 
 "She listens," Arraka says smugly. "Unlike the rest of you, she pieced the technique together just by eavesdropping on Daren's remedial lessons. Now—one final check. Kate, take Heldenbusorag's scepter and put a maximum-yield freeze beam into that granite slab across the creek. Max output. Burn the channel."
 
@@ -619,7 +620,7 @@ choice("Continue", B3-Ch12a-Scepter, v_current_scene = B3-Ch12a-Scepter)
 ID: B3-Ch12a-Scepter
 TEXT:
 
-"I am not draining my reservoir for target practice," Kate says, frowning at the scepter in her lap. "If an ambush hits us while I'm empty—"
+"I am not draining my reservoir for target practice," Kate says, frowning at the silver scepter in her lap. "If an ambush hits us while I'm empty—"
 
 "Your passive recovery is faster than anyone here," Arraka cuts in. "Lie on the grass for five minutes afterward and you are combat-ready. Stop stalling. This is critical."
 
@@ -631,7 +632,7 @@ Kate exhales through her teeth, picks up the scepter, and rises. "One shot."
 
 Kate sets her stance and points the silver tip at the granite boulder across the water. Her aura flares—dense, cold, pulling inward in a violent spiral.
 
-In less than two seconds, a lance of pure frost erupts from the scepter.
+In less than two seconds, a roaring lance of pure frost erupts from the scepter.
 
 The blast hits with the force of a battering ram, echoing off the trees with a deafening crack. Frost blankets the creek in an instant; the granite boulder shatters down its center, encased in six inches of solid blue ice. The clearing's temperature drops twenty degrees in a heartbeat, breath pluming white from our mouths.
 
@@ -657,26 +658,26 @@ TEXT:
 #if(v_b3_ch12_chance == 0) {
 "Will we be able to use the same strategy against the God of Time?"
 
-"Of course not," Arraka says. "The God of Time manifests on the material plane as cohesive blue light. Have you ever tried encasing light in ice?"
+"Of course not," Arraka says, her voice echoing sharp from the metal. "The God of Time manifests on the material plane as cohesive blue light. Have you ever tried encasing raw luminescence in ice?"
 
-"No," I admit. "Though I hadn't seen humanoid light before either."
+"No," I admit, watching the frost melt along the granite bank. "Though I hadn't seen humanoid light before last week either."
 
-"Light offers no physical mass to freeze," Arraka says. "Against the time god, we rely on sharpened element auras, Daren's blade, and Hadrik's hardened fists. Plus my personal matrices, if you ever manage to learn them."
+"Light offers no physical mass to bind," Arraka says. "Against the time god, we rely on sharpened element auras, Daren's enchanted steel, and Hadrik's hardened fists. Plus my personal matrices, if you ever manage to learn them."
 
-"By the gods," Hadrik groans, leaning back against his stump. "You promised 'one last thing' half an hour ago. Can we have one evening without a strategic council?"
+"By the gods," Hadrik groans, leaning his broad back against his stump. "You promised 'one last thing' half an hour ago. Can we have one single evening without a strategic council?"
 
 }
 #if(v_b3_ch12_chance == 1) {
 "So, I'm guessing that we will only have one chance to make this work?"
 
-"Exactly once," Arraka says. "She won't expect an elemental burst of that scale from an unknown party, but once she sees it, her active defenses go up. We wait for a clean opening or we waste the trump card."
+"Exactly once," Arraka says. "She won't expect an elemental burst of that magnitude from an unknown party, but once she sees it, her active defenses go up. We wait for a clean opening or we waste the trump card."
 
-"By the gods," Hadrik groans, leaning back against his stump. "You promised 'one last thing' half an hour ago. Can we have one evening without a strategic council?"
+"By the gods," Hadrik groans, leaning his broad back against his stump. "You promised 'one last thing' half an hour ago. Can we have one single evening without a strategic council?"
 
 }
 "I am finished, you drunkard," Arraka snaps. "Drink your poison. I have research to resume."
 
-"Music to my ears," Hadrik says, raising his bottle.
+"Music to my ears," Hadrik says, raising his clay bottle in a mock toast.
 
 We spend another half-hour passing the bottle around the embers, steering clear of tactical talk, before Diane and I head toward the riverbank to test my cantrips as promised.
 
@@ -686,7 +687,7 @@ It fits the pattern of the last two days. Ever since leaving the lessathi base, 
 
 Daren and Hadrik have kept their distance, polite but guarded. I don't want to nurse unearned suspicion toward Kate's oldest friend, but excessive charm has a way of ringing false.
 
-"This clearing should work," Diane says, stopping on a dry gravel spit twenty paces from the treeline. "Out of earshot so we don't disrupt the others. What are we testing, Barry? I have a high pain tolerance, so don't hold back."
+"This gravel bar should work," Diane says, stopping on a dry spit twenty paces from the treeline where the creek gurgles over smooth pebbles. "Out of earshot so we don't disrupt the others. What are we testing, Barry? I have a high pain tolerance, so don't hold back."
 
 choice(""I'm not sure if I should be relieved or worried that you feel comfortable joking about this."", B3-Ch12a-Describe, v_current_scene = B3-Ch12a-Describe, v_b3_ch12_relieved = 0)
 choice(""That's reassuring, because my next spell does have an unusually high mortality rate."", B3-Ch12a-Describe, v_current_scene = B3-Ch12a-Describe, v_b3_ch12_relieved = 1)
@@ -697,15 +698,15 @@ ID: B3-Ch12a-Describe
 TEXT:
 
 #if(v_b3_ch12_relieved == 0) {
-"I'm not sure if I should be relieved or worried that you feel comfortable joking about this," I say, dropping my pack to pull out the notes.
+"I'm not sure if I should be relieved or worried that you feel comfortable joking about this," I say, dropping my pack to pull out the charcoal notes.
 
 A sudden, light swat lands on the back of my head.
 
-"When someone makes a dark joke about their past, standard etiquette is to match it," Diane says, hands on her hips. "Let's try that again."
+"When someone makes a dark joke about their past, standard etiquette is to match it," Diane says, hands planted on her hips with a teasing smirk. "Let's try that again."
 
-"Could you repeat the joke?" I ask, rubbing the spot. "The blow gave me amnesia."
+"Could you repeat the joke?" I ask, rubbing the spot. "The blow gave me instant amnesia."
 
-Diane snorts, breaking into a grin. "Not the retort I expected, but it earns you a pass for now."
+Diane snorts, breaking into a genuine grin. "Not the retort I expected, but it earns you a pass for now."
 
 "Deeply honored," I say with a dry bow.
 
@@ -715,23 +716,23 @@ Diane snorts, breaking into a grin. "Not the retort I expected, but it earns you
 #if(v_b3_ch12_relieved == 1) {
 "That's reassuring, because my next spell does have an unusually high mortality rate," I say, dropping my pack and unbuckling the notebook.
 
-Diane gives a sharp laugh that cuts through the quiet of the riverbank.
+Diane gives a sharp laugh that cuts through the quiet rush of the creek.
 
-"I didn't expect you to match the joke," she says. "The lessathi staff look at the floor whenever I bring up the past, and Kate treats every reference like an emergency. I appreciate someone who doesn't walk on eggshells."
+"I didn't expect you to match the joke," she says, brushing a loose strand of hair behind her ear. "The lessathi staff look at the floor whenever I bring up the past, and Kate treats every reference like an emergency. I appreciate someone who doesn't walk on eggshells."
 
-"Happy to oblige," I say.
+"Happy to oblige," I say, uncapping the ink.
 
 "So—which matrix do we begin with?"
 
 }
 #if(v_b3_ch12_relieved == 2) {
-"I actually wasn't planning on using any painful spells, but that's good to know," I say, setting my pack down and opening the notebook.
+"I actually wasn't planning on using any painful spells, but that's good to know," I say, setting my pack down on a dry boulder and opening the notebook.
 
-"Nothing painful?" Diane asks. "I assumed this was combat preparation."
+"Nothing painful?" Diane asks, tilting her head. "I assumed this was combat preparation."
 
-"At level one, direct offensive spells are useless," I say. "Sensory disruption and balance interference are the only cantrips that carry utility regardless of output."
+"At level one, direct offensive spells are useless," I say. "Sensory disruption and balance interference are the only cantrips that carry utility regardless of raw output."
 
-"Sensible," Diane nods. "Where do we start?"
+"Sensible," Diane nods, crossing her arms. "Where do we start?"
 
 }
 "The minor dizziness pulse from earlier," I say. "Tell me exactly what registers across the first few seconds. I need to know if the flow has distinct stages."
@@ -740,15 +741,15 @@ Diane gives a sharp laugh that cuts through the quiet of the riverbank.
 
 "Keep it up," I say. "Most frontline fighters carry basic equilibrium wards. Let's see how the baseline registers."
 
-I set my stance and loose the cantrip. The pulse meets her defensive aura and dissolves instantly, but Diane blinks twice, tilting her head.
+I set my stance and loose the cantrip. The pulse meets her defensive aura and dissolves instantly, but Diane blinks twice, tilting her head toward the water.
 
 "Interesting," she murmurs. "Was it supposed to produce a high ringing in the ears?"
 
-"Ringing?" I flip a page. "That isn't in the standard notes for this cantrip. High pitch? Pulsing in half-second intervals?"
+"Ringing?" I flip a page, checking my diagrams. "That isn't in the standard notes for this cantrip. High pitch? Pulsing in half-second intervals?"
 
 "Exactly that," Diane says. "How did you know?"
 
-"The harmonic flow borrows its geometry from Wolford's daze," I say, tapping the diagram. "I didn't expect the auditory artifact to bleed through an active shield. If the sound registers even when the spell fails, I can use it as a bluff—make an enemy assume a full Wolford lock is coming."
+"The harmonic flow borrows its geometry from Wolford's daze," I say, tapping the charcoal sketch. "I didn't expect the auditory artifact to bleed through an active shield. If the sound registers even when the spell fails, I can use it as a bluff—make an enemy assume a full Wolford lock is coming."
 
 "Drop the ward for round two?" Diane asks.
 
@@ -768,17 +769,17 @@ Through every test, Diane follows instructions without complaint. Her demeanor r
 
 Yet beneath that diplomatic layer lies an impulsive streak. During the God of Time's memory trials, the younger Diane was fiercely direct, even reckless. The polished poise feels like Meridith's training—an acquired armor she wears to keep control.
 
-"That wraps the index for tonight," I say, closing the notebook. "Thanks for the target practice."
+"That wraps the index for tonight," I say, closing the notebook and wiping ink from my thumb. "Thanks for the target practice."
 
-"Finished already?" Diane stretches her arms. "I was just getting used to the vertigo."
+"Finished already?" Diane stretches her arms, rolling her shoulders. "I was just getting used to the vertigo."
 
 "If you miss the nausea, Hadrik has two barrels of dwarven stout," I say. "One cup will do the job."
 
-Diane's smile fades slightly. "I don't think Hadrik is looking to share his ale with me."
+Diane's smile fades slightly, her gaze drifting toward the firelight between the pines. "I don't think Hadrik is looking to share his ale with me."
 
 "Why? Did something happen?"
 
-"Every conversation feels strained," Diane says, looking toward the campfires. "He answers in short sentences and looks for the nearest exit. I don't blame him—I left him unconscious in the sacred woods during our first encounter. But trying to smooth things over hasn't made much headway. Do you know what might break the ice? A favorite game? A topic he cares about?"
+"Every conversation feels strained," Diane says quietly. "He answers in short sentences and looks for the nearest exit. I don't blame him—I left him unconscious in the sacred woods during our first encounter. But trying to smooth things over hasn't made much headway. Do you know what might break the ice? A favorite game? A topic he cares about?"
 
 choice("Tell Diane that Hadrik likes to play Met-Zek.", B3-Ch12a-Advice, v_current_scene = B3-Ch12a-Advice, v_b3_ch12_diane = 0)
 choice("Tell Diane that she should try less hard to be friends with everyone.", B3-Ch12a-Advice, v_current_scene = B3-Ch12a-Advice, v_b3_ch12_diane = 1)
@@ -790,7 +791,7 @@ TEXT:
 #if(v_b3_ch12_diane == 1) {
 "Honestly," I say, "Hadrik's guard is probably up because you're pushing too hard. Forcing friendliness makes people look for the angle. Give him room to breathe. You don't need a clean friendship after forty-eight hours on the road."
 
-Diane considers this for a moment, then nods slowly. "You might have a point. Overcompensating for a bad first impression rarely helps. I'll step back and let things settle."
+Diane considers this for a moment, looking down at the river stones, then nods slowly. "You might have a point. Overcompensating for a bad first impression rarely helps. I'll step back and let things settle."
 
 "Good plan," I say. "And if you ever need a warm, patient conversationalist, Arraka is always waiting in the amulet."
 
@@ -803,9 +804,9 @@ Diane considers this for a moment, then nods slowly. "You might have a point. Ov
 "Good luck," I say. "And if Hadrik remains stubborn, there's always Arraka. She is famously known for her gentle listening ear."
 
 }
-Diane laughs. "I might take you up on that right now. Thanks, Barry."
+Diane laughs, the tension breaking. "I might take you up on that right now. Thanks, Barry."
 
-She heads off toward Flower's tent, leaving me on the riverbank.
+She heads off toward Flower's tent, leaving me on the quiet riverbank.
 
 I shoulder my pack and walk back toward the boulders to practice a few combinations before watch duty. Near the edge of the pines, Kate is running her aim drills, casting icicles at marked leaves in the canopy.
 
@@ -824,15 +825,15 @@ TEXT:
 
 "Same as usual," Kate says without looking over, sending two more icicles whistling through a cluster of high oak leaves. "Why?"
 
-"Same as usual?" I lean against a pine. "Since when does your target routine involve conjuring every shard from the exact same point in front of your breastbone?"
+"Same as usual?" I lean against a pine trunk. "Since when does your target routine involve conjuring every shard from the exact same point in front of your breastbone?"
 
-Kate's fingers twitch, about to manifest another needle from the same anchor, then she halts. She sweeps her hand wide; three shards condense along different axes and shatter against the high branches.
+Kate's fingers twitch, about to manifest another needle from the same anchor, then she halts. She sweeps her hand wide; three shards condense along different axes and shatter against the high branches in a shower of frost.
 
 "I didn't realize I was doing that," she murmurs, lowering her arm. "How long have you been watching?"
 
 "Yesterday afternoon was the first time," I say. "Three sessions now."
 
-Kate looks out into the dark treeline, silent for a moment.
+Kate looks out into the dark treeline, silent for a moment, her breath pluming faintly in the evening chill.
 
 "So what's on your mind?" I ask. "You don't drift through aim practice unless something is chewing on you. Did Diane say something?"
 
@@ -862,7 +863,7 @@ TEXT:
 
 Kate considers that, her expression softening. "An open pass... That might actually work. I'll bring it up with Diane when the topic comes up."
 
-She hesitates, looking across the quiet clearing.
+She hesitates, looking across the quiet clearing toward the firelight.
 
 "Thank you, Barry," she says quietly. "I know I can be difficult to deal with. I appreciate that you stay."
 
@@ -900,7 +901,7 @@ At level one, every small edge counts.
 
 "Barry!" Daren's shout echoes through the trees. "Shift change! You ready?"
 
-"On my way!" I call out, dispersing the steam cloud.
+"On my way!" I call out, dispersing the steam cloud with a flick of my wrist.
 
 I pack the notes and head toward our agreed watch point.
 
@@ -955,7 +956,7 @@ achievement("Preparing for the big battle",v_ac_b3_ch12_battle)
 #if(v_b3_ch12_delusional == 0) {
 "I think you're delusional. If you haven't beaten her by now you don't stand a chance."
 
-"Perhaps," Arraka says mildly. "Perhaps not."
+"Perhaps," Arraka says mildly, her voice surprisingly unbothered. "Perhaps not."
 
 "That is an uncharacteristically calm response," I note.
 
@@ -965,9 +966,9 @@ achievement("Preparing for the big battle",v_ac_b3_ch12_battle)
 
 "Go, mortal."
 
-"See you in the morning, Barry!" Flower chirps from within.
+"See you in the morning, Barry!" Flower chirps from within the tent.
 
-I wave toward the tent and head into the dark woods toward the watch post.
+I wave toward the canvas and head into the dark woods toward the watch post.
 
 }
 #if(v_b3_ch12_delusional == 1) {
@@ -981,7 +982,7 @@ I wave toward the tent and head into the dark woods toward the watch post.
 
 "See you in the morning, Barry!" Flower calls out.
 
-I wave toward the tent and head into the dark woods toward the watch post.
+I wave toward the canvas and head into the dark woods toward the watch post.
 
 }
 #if(v_b3_ch12_delusional == 2) {
@@ -995,7 +996,7 @@ I wave toward the tent and head into the dark woods toward the watch post.
 
 "See you in the morning, Barry!" Flower calls out.
 
-I wave toward the tent and head into the dark woods toward the watch post.
+I wave toward the canvas and head into the dark woods toward the watch post.
 
 }
 #if(v_b3_ch5_moustache == 2) {
@@ -1007,11 +1008,11 @@ Twenty minutes later, Daren emerges from the brush, holding up a worn deck of ca
 
 "Drafting the schematics for attaching a hard-light mustache to the God of Time's jawline," I say. "Real bristles or pure optical illusion?"
 
-"How about neither?" Daren rolls his eyes. "We agreed not to antagonize a deity until we have a viable battle plan. Do you want another temporal rewind?"
+"How about neither?" Daren rolls his eyes with a weary groan. "We agreed not to antagonize a deity until we have a viable battle plan. Do you want another temporal rewind?"
 
 "Relax," I say. "The time god doesn't even know what facial hair is. He'd probably ignore it."
 
-"Comforting thought," Daren mutters, shuffling the deck.
+"Comforting thought," Daren mutters, shuffling the deck with practiced ease.
 
 For the next few hours, we trade deals and play regional card games under the canopy. Daren usually carries the conversation with tales from his eastern campaigns, but tonight he turns the questions back on me, pressing for details about my years roaming the Western Continent.
 
@@ -1019,71 +1020,71 @@ I warn him that odd jobs and library scraps make poor bardic material compared t
 
 }
 #if(v_b3_ch12_spell == 0 && v_b3_ch5_moustache != 2) {
-I settle against a broad pine at the edge of the clearing, opening my notebook. Weaving spells so close to camp is asking for trouble, so I stick to summoning schematics.
+I settle against a broad pine at the edge of the clearing, opening my notebook on my knee. Weaving spells so close to camp is asking for trouble, so I stick to charcoal diagrams and summoning schematics.
 
 Twenty minutes later, Daren emerges from the brush, holding up a worn deck of cards with an apologetic grin. Hadrik cornered him for a quick hand of Met-Zek on the way out.
 
-"Researching another formula?" Daren asks, glancing at the diagrams.
+"Researching another formula?" Daren asks, glancing down at the sketches by the light of the rising moon.
 
-"Mapping the spatial anchor for the toad conjuration," I say. "I need an ether pass to check the mana draw, but the particle path looks clean."
+"Mapping the spatial anchor for the toad conjuration," I say, blowing charcoal dust from the page. "I need an ether pass to check the mana draw, but the particle path looks clean."
 
-"A long road ahead," Daren notes.
+"A long road ahead," Daren notes with a faint smile.
 
-"An hour or two of practice, at most," I say. "Ready for cards?"
+"An hour or two of practice, at most," I say, closing the leather binding. "Ready for cards?"
 
-"Deal them out," Daren says, sitting opposite me on the moss.
+"Deal them out," Daren says, sitting opposite me on the damp moss.
 
 }
 #if(v_b3_ch12_spell == 1 && v_b3_ch5_moustache != 2) {
-I settle against a broad pine at the edge of the clearing, opening my notebook. Weaving spells so close to camp is asking for trouble, so I stick to kinetic schematics.
+I settle against a broad pine at the edge of the clearing, opening my notebook on my knee. Weaving spells so close to camp is asking for trouble, so I stick to kinetic schematics and particle lattices.
 
 Twenty minutes later, Daren emerges from the brush, holding up a worn deck of cards with an apologetic grin. Hadrik cornered him for a quick hand of Met-Zek on the way out.
 
-"Researching another formula?" Daren asks, glancing at the diagrams.
+"Researching another formula?" Daren asks, glancing down at the sketches by the light of the rising moon.
 
-"Mapping the suspension lattice for the floating dagger," I say. "I need an ether pass to check the balance, but the particle path looks clean."
+"Mapping the suspension lattice for the floating dagger," I say, blowing charcoal dust from the page. "I need an ether pass to check the balance, but the particle path looks clean."
 
-"A long road ahead," Daren notes.
+"A long road ahead," Daren notes with a faint smile.
 
-"An hour or two of practice, at most," I say. "Ready for cards?"
+"An hour or two of practice, at most," I say, closing the leather binding. "Ready for cards?"
 
-"Deal them out," Daren says, sitting opposite me on the moss.
+"Deal them out," Daren says, sitting opposite me on the damp moss.
 
 }
 #if(v_b3_ch12_spell == 2 && v_b3_ch5_moustache != 2) {
-I settle against a broad pine at the edge of the clearing, opening my notebook. Weaving spells so close to camp is asking for trouble, so I stick to optical schematics.
+I settle against a broad pine at the edge of the clearing, opening my notebook on my knee. Weaving spells so close to camp is asking for trouble, so I stick to optical schematics.
 
 Twenty minutes later, Daren emerges from the brush, holding up a worn deck of cards with an apologetic grin. Hadrik cornered him for a quick hand of Met-Zek on the way out.
 
-"Researching another formula?" Daren asks, glancing at the diagrams.
+"Researching another formula?" Daren asks, glancing down at the sketches by the light of the rising moon.
 
-"Mapping the dispersion rate for the sparkler cantrip," I say. "I need an ether pass to check the burst radius, but the particle path looks clean."
+"Mapping the dispersion rate for the sparkler cantrip," I say, blowing charcoal dust from the page. "I need an ether pass to check the burst radius, but the particle path looks clean."
 
-"A long road ahead," Daren notes.
+"A long road ahead," Daren notes with a faint smile.
 
-"An hour or two of practice, at most," I say. "Ready for cards?"
+"An hour or two of practice, at most," I say, closing the leather binding. "Ready for cards?"
 
-"Deal them out," Daren says, sitting opposite me on the moss.
+"Deal them out," Daren says, sitting opposite me on the damp moss.
 
 }
 #if(v_b3_ch12_spell == 3 && v_b3_ch5_moustache != 2) {
-I settle against a broad pine at the edge of the clearing, opening my notebook. Weaving spells so close to camp is asking for trouble, so I stick to optical illusion schematics.
+I settle against a broad pine at the edge of the clearing, opening my notebook on my knee. Weaving spells so close to camp is asking for trouble, so I stick to optical illusion schematics.
 
 Twenty minutes later, Daren emerges from the brush, holding up a worn deck of cards with an apologetic grin. Hadrik cornered him for a quick hand of Met-Zek on the way out.
 
-"Researching another formula?" Daren asks, glancing at the diagrams.
+"Researching another formula?" Daren asks, glancing down at the sketches by the light of the rising moon.
 
-"Mapping the geometric mesh for Arraka's dunce cap," I say. "I need an ether pass to calibrate the hard-light anchor, but the particle path looks clean."
+"Mapping the geometric mesh for Arraka's dunce cap," I say, blowing charcoal dust from the page. "I need an ether pass to calibrate the hard-light anchor, but the particle path looks clean."
 
-"A long road ahead," Daren notes.
+"A long road ahead," Daren notes with a faint smile.
 
-"An hour or two of practice, at most," I say. "Ready for cards?"
+"An hour or two of practice, at most," I say, closing the leather binding. "Ready for cards?"
 
-"Deal them out," Daren says, sitting opposite me on the moss.
+"Deal them out," Daren says, sitting opposite me on the damp moss.
 
 }
 #if(v_b3_ch5_moustache != 2) {
-For the next few hours, we trade deals and play regional card games under the canopy. Daren usually carries the conversation with tales from his eastern campaigns, but tonight he turns the questions back on me, pressing for details about my years roaming the Western Continent.
+For the next few hours, we trade deals and play regional card games under the quiet canopy. Daren usually carries the conversation with tales from his eastern campaigns, but tonight he turns the questions back on me, pressing for details about my years roaming the Western Continent.
 
 I warn him that odd jobs and library scraps make poor bardic material compared to monster hunts, but as I talk through old escorts, ruined towers, and failed experiments, Daren leans forward, genuinely hooked on every turn.
 
@@ -1094,21 +1095,21 @@ choice("Continue", B3-Ch12a-Brinhorn, v_current_scene = B3-Ch12a-Brinhorn)
 ID: B3-Ch12a-Brinhorn
 TEXT:
 
-"Leila was right," Daren says, gathering the cards as the night deepens. "You have been holding out on us. How many more of these stories are you sitting on?"
+"Leila was right," Daren says, gathering the cards as the night deepens and the campfires burn down to red embers. "You have been holding out on us. How many more of these stories are you sitting on?"
 
-"None of it is heroic," I say, leaning back against the trunk. "Odd jobs, caravan guard shifts, translation work to keep food on the table while chasing research leads. Nobody writes songs about funding a library habit."
+"None of it is heroic," I say, leaning back against the rough trunk. "Odd jobs, caravan guard shifts, translation work to keep food on the table while chasing research leads. Nobody writes ballads about funding a library habit."
 
-"They ought to," Daren laughs. "You kept me on the edge of my seat. I can't decide if the people you ran with were mad before meeting you or if your obsession infected them. Brinhorn, especially. The man always struck me as level-headed. How did you talk him into that research?"
+"They ought to," Daren laughs softly. "You kept me on the edge of my seat. I can't decide if the people you ran with were mad before meeting you or if your obsession infected them. Brinhorn, especially. The man always struck me as level-headed. How did you talk him into that research?"
 
 "Brinhorn spends every winter winning the Western regional tournaments just to challenge Azarius for the sage title, losing every single time, and coming back the next year," I say. "If that isn't stubborn madness, what is? We were kindred spirits. I am surprised we haven't crossed paths with him here. With Azarius in the tournament, Brinhorn wouldn't stay home."
 
 "Did you keep in touch after leaving the continent?" Daren asks.
 
-"No," I say. "It's been years. I kept telling myself I would reach out once I actually found a way to cast, instead of sending another letter reporting dead ends. I wonder what he'd say seeing me throw sparks now."
+"No," I say, watching the embers glow in the dark. "It's been years. I kept telling myself I would reach out once I actually found a way to cast, instead of sending another letter reporting dead ends. I wonder what he'd say seeing me throw sparks now."
 
 "He'd be proud," Daren says warmly. "And motivated. If a non-mage can break the barrier, dethroning Azarius must look almost reasonable."
 
-"Something like that," I say.
+"Something like that," I say with a faint grin.
 
 choice("Continue", B3-Ch12a-Humanity, v_current_scene = B3-Ch12a-Humanity)
 
@@ -1116,19 +1117,19 @@ choice("Continue", B3-Ch12a-Humanity, v_current_scene = B3-Ch12a-Humanity)
 ID: B3-Ch12a-Humanity
 TEXT:
 
-"Speaking of impossible targets," Daren says quietly, leaning against his knees. "Have you given more thought to Meridith's offer? About Eiden?"
+"Speaking of impossible targets," Daren says quietly, leaning his forearms against his knees. "Have you given more thought to Meridith's offer? About Eiden?"
 
 "The less we debate it aloud, the better," I say. "As long as our stance remains undecided, Eiden has no reason to treat us as an immediate threat."
 
-"I know the tactical line," Daren says, looking down at his palms. "I mean privately. Have you thought about what we actually do if the choice lands in front of us?"
+"I know the tactical line," Daren says, looking down at his open palms. "I mean privately. Have you thought about what we actually do if the choice lands in front of us?"
 
 "The theory is simple enough," I say. "Why?"
 
-"This sounds strange from me," Daren admits, his voice dropping. "Given what I said in Thilias. But after the God of Time's memory trial... I am not sure I can execute him in cold blood."
+"This sounds strange from me," Daren admits, his voice dropping to a near-whisper. "Given what I said in Thilias. But after the God of Time's memory trial... I am not sure I can execute him in cold blood."
 
 "The Eiden in our world has no memory of that trial, Daren."
 
-"The man is the same," Daren insists, looking up. "The soul is identical. If pushed into that exact corner, our Eiden would break the same way. He looked me in the eye and said prove me wrong, Barry. What if part of him is still waiting for someone to give him a reason to care about humanity again?"
+"The man is the same," Daren insists, looking up, his dark eyes earnest. "The soul is identical. If pushed into that exact corner, our Eiden would break the same way. He looked me in the eye and said prove me wrong, Barry. What if part of him is still waiting for someone to give him a reason to care about humanity again?"
 
 choice(""Didn't he already destroy an entire city? I'd say it's a little late for regrets."", B3-Ch12a-Inevitable, v_current_scene = B3-Ch12a-Inevitable, v_b3_ch12_conflicted = 0)
 choice(""Wow, you were right. This does sound weird, coming from you."", B3-Ch12a-Inevitable, v_current_scene = B3-Ch12a-Inevitable, v_b3_ch12_conflicted = 1)
@@ -1141,7 +1142,7 @@ TEXT:
 #if(v_b3_ch12_conflicted == 0) {
 "Didn't he already destroy an entire city? I'd say it's a little late for regrets."
 
-"I don't excuse what he did," Daren says. "Olmnar is a massacre. But if that power could be turned back toward protecting people, think of what he could rebuild. Execution ends the threat, but it also buries the only force capable of restoring this continent."
+"I don't excuse what he did," Daren says, his brow furrowing. "Olmnar is a massacre. But if that power could be turned back toward protecting people, think of what he could rebuild. Execution ends the threat, but it also buries the only force capable of restoring this continent."
 
 "Assuming he doesn't lapse into apathy five years later," I say.
 
@@ -1169,7 +1170,7 @@ TEXT:
 #if(v_b3_ch12_conflicted == 2) {
 "Actually, now that I think about it, I suppose I'm a little bit conflicted too," I say. "Eiden gave us room to operate. If he wanted us dead, we wouldn't have survived the forest clearing. He is testing us."
 
-"Exactly," Daren says, leaning in. "Think of the good that power could do if steered in the right direction."
+"Exactly," Daren says, leaning in, his tone urgent. "Think of the good that power could do if steered in the right direction."
 
 "Maybe," I say. "Though the political reality is ugly. Every crowned head on this continent wants him dead because of the prophecy. Even if Eiden decided to put the crown back on, the cities wouldn't welcome him."
 
@@ -1186,7 +1187,7 @@ TEXT:
 
 "Spatial constraints," I say. "Every erasure we witnessed occurred inside the Magium realm or inches from an awakened crystal node. Outside its direct domain, a fragment lacks surgical reach. When it targeted past-Arraka, it threatened to unravel the entire dimensional fabric just to locate her. It uses local factions because it cannot drop a lightning bolt from the sky with pinpoint precision."
 
-Daren sighs, rubbing his temples. "I'm lost, Barry. Nodes, fragments, cosmic politics—it's too many layers. All I want is clean access to a node to pull healing lore and leave the rest buried. No collateral damage."
+Daren sighs, rubbing his temples with both thumbs. "I'm lost, Barry. Nodes, fragments, cosmic politics—it's too many layers. All I want is clean access to a node to pull healing lore and leave the rest buried. No collateral damage."
 
 choice("Continue", B3-Ch12a-Unusual, v_current_scene = B3-Ch12a-Unusual)
 
@@ -1196,17 +1197,17 @@ TEXT:
 
 "Clean access requires an untethered node," I tell him. "The tournament organizers won't hand us a key, so our options are Meridith's bargain or locating an independent tap. At least now we know the nodes are physical and functional. That's more than we had a week ago."
 
-"True enough," Daren says, standing up to stretch his shoulders. "We ask Arraka and Illuna about other node locations in the morning. They've tapped them before."
+"True enough," Daren says, standing up to stretch his broad shoulders. "We ask Arraka and Illuna about other node locations in the morning. They've tapped them before."
 
 "Agreed. Let's wake Kate and Diane for the second watch."
 
 We pack the cards, swap shifts at the perimeter, and catch four hours of unbroken sleep.
 
-Dawn arrives with the rich, savory aroma of roasted wyvern. For an ordinary tavern, wyvern steak is a king's banquet; Flower manifests platters of it over her fire pit without breaking a sweat.
+Dawn arrives with the rich, savory aroma of roasted wyvern sizzling over the firepit. For an ordinary tavern, wyvern steak is a king's banquet; Flower manifests platters of it over her embers without breaking a sweat.
 
-As the camp stirs, Daren finishes packing his bedroll while speaking into his transceiver. He checks in with Sophie three times a day now, catching up on years of missed quiet. She has already adapted to our traveling rhythm over the line, trading jokes with Hadrik and planning to join the group once the tournament dust settles.
+As the camp stirs, Daren finishes packing his bedroll while speaking into his transceiver with a relaxed, easy smile. He checks in with Sophie three times a day now, catching up on years of missed quiet. She has already adapted to our traveling rhythm over the line, trading jokes with Hadrik and planning to join the group once the tournament dust settles.
 
-Between bites of wyvern, the camp air is full of voices. Leila's father relays her written messages over Daren's spare frequency, reading out her tactical notes in his gruff voice. Flower calls Melindra every hour on the hour, shouting updates about cloud formations and trail markers, while Kate occasionally slips behind the trees with her own transceiver to check on the stillwater in private.
+Between bites of hot wyvern, the camp air is full of voices. Leila's father relays her written messages over Daren's spare frequency, reading out her tactical notes in his gruff voice. Flower calls Melindra every hour on the hour, shouting updates about cloud formations and trail markers, while Kate occasionally slips behind the trees with her own transceiver to check on the stillwater in private.
 
 Across the magical plane, Jirinn remains in frequent contact with Arraka. According to the spirit, word of the gods' illicit soul-absorption has shattered the celestial hierarchy. Rebel factions are joining Jirinn's enlightened warriors in force, though the rogue gods—Time, Death, and Fate—remain entrenched behind Fate's layered illusions. Every day they spend fighting on the higher plane is a day the God of Time is too distracted to hunt us on the ground.
 
@@ -1217,9 +1218,9 @@ ID: B3-Ch12a-Fyron
 TEXT:
 
 #if(v_ch11_saved_rose == 1) {
-Rose calls on the transceiver during our morning briefing. Arraka tracks every fraction of progress in her temporal control. Rose can hold a worldwide time-stop for fifteen seconds before exhaustion sets in, keeping us anchored and unfrozen across the distance as long as she has our voices over the line. Her localized time-dilation is coming along, though that effect only covers a narrow radius around her in Thilias.
+Rose calls on the transceiver during our morning briefing. Arraka tracks every fraction of progress in her temporal control. Rose can hold a worldwide time-stop for roughly fifteen seconds before exhaustion sets in, keeping us anchored and unfrozen across the distance as long as she has our voices over the line. Her localized time-dilation is coming along, though that effect only covers a narrow radius around her in Thilias.
 
-"Illuna," I say as we sit down to eat. "About the Magium nodes."
+"Illuna," I say as we sit down on logs to eat. "About the Magium nodes."
 
 "If this is about the char on the meat," Illuna says, "speak to Flower."
 
@@ -1227,14 +1228,14 @@ Rose calls on the transceiver during our morning briefing. Arraka tracks every f
 
 }
 #if(v_ch11_saved_rose == 0) {
-"Illuna," I say as we sit down to eat. "About the Magium nodes. You and Arraka accessed an earthen node before. Is the location something you can share?"
+"Illuna," I say as we sit down on logs to eat. "About the Magium nodes. You and Arraka accessed an earthen node before. Is the location something you can share?"
 
 "If this is about the char on the meat," Illuna says, "speak to Flower."
 
 "Not the meat," I say. "The node you used in the past. Can you tell us where it is?"
 
 }
-"Fyron's node," Illuna says, setting down her skewer. "Arraka used it centuries ago, though she never saw fit to mention it during my apprenticeship."
+"Fyron's node," Illuna says, setting down her skewer on a flat tin. "Arraka used it centuries ago, though she never saw fit to mention it during my apprenticeship."
 
 "Why would I?" Arraka snaps from the amulet. "I pulled the essentials from the Magium on my own plane. The earthen nodes were useless for finding a passage home. Being bound to stone or beast bodies limited my field research."
 
@@ -1321,7 +1322,7 @@ set(v_b3_ch12_sincere,2) if (v_b3_ch12_sincere == 1 && v_bluff == 0)
 
 "It is a combat matrix," Illuna says, lifting a tin plate into the air inside a churning sphere of water.
 
-"Hold on," Arraka's voice rises. "That is my drowning sphere! The construct you used on Tyrath in Thilias!"
+"Hold on," Arraka's voice rises from the amulet. "That is my drowning sphere! The construct you used on Tyrath in Thilias!"
 
 "It is an upgraded iteration," Illuna says. "The lattice is distinct enough to be my own."
 
@@ -1341,7 +1342,7 @@ TEXT:
 
 "No ale this morning, Hadrik?" Daren asks, glancing over while Illuna adjusts the water sphere. "That's a first."
 
-"Don't remind me," Hadrik grunts, rubbing his temples with a grimace. "Headache since sunrise."
+"Don't remind me," Hadrik grunts, rubbing his temples with a sour grimace. "Throbbing headache since sunrise."
 
 "Special occasion?"
 
@@ -1349,7 +1350,7 @@ TEXT:
 
 "My fault," I say. "I would have picked another cantrip if I knew."
 
-"No harm done, lad. Never mentioned it," Hadrik says, rolling his shoulders. "Daren, since I can't drink, take up your sword. Spar with me until Illuna finishes the plates. I need to burn the rust off."
+"No harm done, lad. Never mentioned it," Hadrik says, rolling his broad shoulders. "Daren, since I can't drink, take up your sword. Spar with me until Illuna finishes the plates. I need to burn the rust off."
 
 "Gladly," Daren says, drawing his practice blade.
 
@@ -1357,13 +1358,13 @@ They step thirty paces into the open grass, square their stances, and engage on 
 
 Thirty seconds in, Daren leaps backward, holding up a flat palm.
 
-"Hold! Stop!" Daren calls out, staring at the dwarf. "Hadrik, what are you doing?"
+"Hold! Stop!" Daren calls out, staring at the dwarf in astonishment. "Hadrik, what are you doing?"
 
 "Fighting," Hadrik says, bouncing lightly on his boots. "Same as every morning."
 
 "Not like this," Daren breathes, eyes wide. "Your cadence is completely different. The footwork, the balance—I couldn't read your aura at all. It was like sparring a stranger."
 
-"Oh, right," Hadrik rumbles, stroking his beard. "People mentioned in the past that I fight sharper when sober. It's been so long since I took a day off that I forgot."
+"Oh, right," Hadrik rumbles, stroking his black beard. "People mentioned in the past that I fight sharper when sober. It's been so long since I took a day off that I forgot."
 
 "Hadrik, that wasn't just sharper," Daren says earnestly. "That was extraordinary. If you fight like this without ale, why not stay dry until the tournament ends? You'd be unstoppable."
 
@@ -1371,7 +1372,7 @@ Hadrik gives him a long, pitying look. "Daren, my friend... Drinking is like bre
 
 Daren stares at him, sighs deeply, and sheathes his blade. "I don't know why I asked. Illuna, are the plates finished?"
 
-"Last one," Illuna calls out.
+"Last one," Illuna calls out, dispersing the water sphere.
 
 choice("Continue", B3-Ch12a-Rock, v_current_scene = B3-Ch12a-Rock)
 
@@ -1380,43 +1381,43 @@ ID: B3-Ch12a-Rock
 TEXT:
 
 #if(v_b3_ch12_diane == 1 && v_b3_ch12_hadrik == 0) {
-While Illuna finishes the dishes, we strike the tents, pack the bedrolls, and stow the tins in Hadrik's pack. Ten minutes later, we are on the march, heading toward the border of the sacred woods.
+While Illuna finishes the dishes, we strike the tents, roll the canvas, and stow the clean tins in Hadrik's pack. Ten minutes later, we are on the march, heading northwest toward the border of the sacred woods.
 
 According to Diane, we should reach the perimeter by mid-afternoon. We have no formal plan if the golden fox intercepts us again over pinecones, but with our current roster of enemies, adding one more legendary beast barely moves the needle.
 
 On the trail, Diane settles into an easier pace, no longer forcing conversation. Giving the others space pays immediate dividends—Hadrik and Daren trade quiet trail banter with her without the defensive edge from before.
 
-"Look!" Flower gasps, darting off the path toward a gray stone in the moss. "Barry, do you see it? A cloakshield rock! A genuine cloakshield rock!"
+"Look!" Flower gasps, darting off the path toward a gray stone half-buried in the moss. "Barry, do you see it? A cloakshield rock! A genuine cloakshield rock!"
 
 }
 #if(v_b3_ch12_diane == 0 && v_b3_ch12_hadrik == 0) {
-While Illuna finishes the dishes, we strike the tents, pack the bedrolls, and stow the tins in Hadrik's pack. Ten minutes later, we are on the march, heading toward the border of the sacred woods.
+While Illuna finishes the dishes, we strike the tents, roll the canvas, and stow the clean tins in Hadrik's pack. Ten minutes later, we are on the march, heading northwest toward the border of the sacred woods.
 
 According to Diane, we should reach the perimeter by mid-afternoon. We have no formal plan if the golden fox intercepts us again over pinecones, but with our current roster of enemies, adding one more legendary beast barely moves the needle.
 
 On the trail, Diane continues to push, trying hard to engage everyone in conversation. The forced cheer only deepens the reserve between her and the frontline fighters; Daren and Hadrik answer in clipped syllables, their guards firmly up.
 
-"Look!" Flower gasps, darting off the path toward a gray stone in the moss. "Barry, do you see it? A cloakshield rock! A genuine cloakshield rock!"
+"Look!" Flower gasps, darting off the path toward a gray stone half-buried in the moss. "Barry, do you see it? A cloakshield rock! A genuine cloakshield rock!"
 
 }
 #if(v_b3_ch12_diane == 1 && v_b3_ch12_hadrik == 1) {
-Once Illuna packs the clean tins into Hadrik's pack, we finish dismantling the camp and take to the trail, heading toward the sacred forest.
+Once Illuna packs the clean tins into Hadrik's pack, we finish dismantling the camp and take to the trail, marching northwest toward the sacred forest.
 
-Diane estimates an afternoon arrival. Whether the golden fox takes offense at another border trespass remains an open question, but among stillwaters, gods, and rogue dragons, another territorial guardian is just routine transit.
+Diane estimates a mid-afternoon arrival. Whether the golden fox takes offense at another border trespass remains an open question, but among stillwaters, gods, and rogue dragons, another territorial guardian is just routine transit.
 
 On the march, Diane maintains a relaxed distance, speaking when spoken to. Without the forced enthusiasm, Hadrik and Daren ease up, trading occasional comments with her about trail conditions and terrain.
 
-"Look!" Flower gasps, darting off the path toward a gray stone in the moss. "Barry, do you see it? A cloakshield rock! A genuine cloakshield rock!"
+"Look!" Flower gasps, darting off the path toward a gray stone half-buried in the moss. "Barry, do you see it? A cloakshield rock! A genuine cloakshield rock!"
 
 }
 #if(v_b3_ch12_diane == 0 && v_b3_ch12_hadrik == 1) {
-Once Illuna packs the clean tins into Hadrik's pack, we finish dismantling the camp and take to the trail, heading toward the sacred forest.
+Once Illuna packs the clean tins into Hadrik's pack, we finish dismantling the camp and take to the trail, marching northwest toward the sacred forest.
 
-Diane estimates an afternoon arrival. Whether the golden fox takes offense at another border trespass remains an open question, but among stillwaters, gods, and rogue dragons, another territorial guardian is just routine transit.
+Diane estimates a mid-afternoon arrival. Whether the golden fox takes offense at another border trespass remains an open question, but among stillwaters, gods, and rogue dragons, another territorial guardian is just routine transit.
 
 On the march, Diane keeps pressing to be involved in every exchange, trying to compensate for the morning's distance. The relentless effort only tightens Hadrik and Daren's defenses, keeping every conversation stiff and formal.
 
-"Look!" Flower gasps, darting off the path toward a gray stone in the moss. "Barry, do you see it? A cloakshield rock! A genuine cloakshield rock!"
+"Look!" Flower gasps, darting off the path toward a gray stone half-buried in the moss. "Barry, do you see it? A cloakshield rock! A genuine cloakshield rock!"
 
 }
 "I see it," I say without enthusiasm.
@@ -1433,7 +1434,7 @@ She reaches down for the stone—and passes straight through an invisible ripple
 
 "Not the rock, you buffoon!" Arraka snaps. "One of Eiden's invisible surveillance wards! The child walked right through the tripwire, and the resonance gives this casing a dreadful itch."
 
-"Another one?" Daren asks, pausing. "How many has she triggered?"
+"Another one?" Daren asks, pausing on the trail. "How many has she triggered?"
 
 "Five in two days," Arraka says. "And those are just the ones Flower wandered into by accident. Eiden has been weaving a continental grid."
 

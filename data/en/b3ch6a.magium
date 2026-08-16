@@ -17,37 +17,37 @@ set(v_b3_ch6_uninjured,0)
 set(v_b3_ch6_wounded,0)
  
 
-"Daren?" Hadrik tilts his head as we navigate the stone tunnel. "You doing all right there, buddy?"
+"Daren?" Hadrik tilts his head as we navigate the damp stone corridor, our boots splashing through shallow runoff. "You doing all right there, buddy?"
 
-"I'm fine," Daren says without breaking stride. "Why?"
+"I'm fine," Daren says without breaking stride, the plates of his heavy armor clanking in the enclosed space. "Why?"
 
-He casually tosses his broadsword four paces ahead of him. The steel clatters against the cobbles. Daren strides forward with an open palm stretched toward the blade, reaches it, scoops it off the floor, and heaves it forward down the corridor again.
+To demonstrate his point, he gives his broadsword a casual underhand toss four paces ahead. The crossguard clatters against the wet flagstones, steel skittering with a hollow ring. Daren strides forward with an open gauntlet thrust toward the blade, reaches it, stoops to scoop the leather-wrapped hilt off the floor, and heaves it down the passage once more.
 
-"Only that you've hurled that sword six times in three minutes, and I'm beginning to wonder about your head," Hadrik says, adjusting his pack. "You can ask one of us to carry it if your arms are giving out."
+"Only that you've hurled that sword six times in three minutes, and I'm beginning to wonder about your head," Hadrik says, hitching the strap of his pack higher on his broad shoulder. "You can ask one of us to carry the steel if your arms are giving out from yesterday."
 
-"My arms are fine," Daren says, scooping the hilt off the flagstones again. "I'm working on aura manipulation to pull the weapon back to my grip. The underground king mentioned the trick. Why did you think I was thrusting my palm out every time I threw it?"
+"My arms are fine," Daren says, scooping the hilt from the slick stones again. "I'm working on aura manipulation to pull the weapon back to my grip. The underground king mentioned the trick before we slept. Why did you think I was thrusting my palm out every time I threw it?"
 
-A sharp rasp of laughter echoes from the golden amulet hanging at Flower's chest. "Is that what that flailing was?" Arraka says. "I never would have guessed in ten thousand years. The depths of your aura incompetence are truly breathtaking."
+A sharp rasp of laughter echoes from the golden amulet hanging against Flower's tunic. "Is that what that flailing was?" Arraka's voice bubbles up through the brass casing. "I never would have guessed in ten thousand years. The depths of your aura incompetence are truly breathtaking."
 
-"Were you planning on offering anything useful, or should I just tune out the cackling and keep practicing?" Daren says.
+"Were you planning on offering anything useful, or should I just tune out the cackling and keep practicing?" Daren asks, wiping grit from his pommel.
 
-"Keep practicing like that and the sun will burn out before you shift a pebble," Arraka says. "Spreading your aura wide is useless if you don't know how to condense it. That self-styled king already told you this trick relies on familiarity with the object. Stop forcing it with your palm. Picture the sword in your mind and let loose five distinct currents from your fingertips until you feel them latch onto the steel. It takes almost no effort."
+"Keep practicing like that and the sun will burn out before you shift a pebble," Arraka says. "Spreading your aura wide is useless if you don't know how to condense it. That self-styled king already told you this trick relies on familiarity with the object. Stop forcing it with your palm like a beggar reaching for coin. Picture the steel in your mind and let loose five distinct currents from your fingertips until you feel them latch onto the pommel. It takes almost no effort."
 
-"Five currents from my fingertips?" Daren frowns. "What does that even mean? Are you making up words as you go?"
+"Five currents from my fingertips?" Daren frowns down at his calloused fingers. "What does that even mean? Are you making up words as you go?"
 
 "I don't have the patience to nurse a grown man through basic concepts," Arraka snaps. "Hey, goblin! You understood me. Translate it into simple words for the blockhead."
 
-"Right," Kelrim says, adjusting the hem of his white robes. "I believe she means that prickling sensation in your fingers whenever you start drawing your aura inward. Remember that exact prickle, imagine it streaming like thin water jets from your fingertips, and cast them forward toward the blade on the ground. If you can't recall the feeling, suppress your aura for a moment to find the sensation again."
+"Right," Kelrim says, gathering the hem of his oversized white robes so they don't drag in the puddle. "I believe she means that prickling sensation in your fingers whenever you draw your aura inward. Remember that exact prickle, imagine it streaming like thin water jets from your fingertips, and cast them forward toward the blade on the ground. If you can't recall the feeling, suppress your aura for a moment to find the sensation again."
 
-Daren stops in the center of the corridor. We halt beside him. "All right," he mutters. "Let's see."
+Daren stops in the center of the passage. The rest of us halt beside him, our breath misting in the subterranean chill. "All right," he mutters, rolling his shoulders. "Let's see."
 
-He flings the sword down the passage once more. This time his arm stays at his side. He narrows his dark eyes at the fallen blade, his jaw set in fierce concentration.
+He flings the broadsword down the tunnel once more. This time his hands stay low at his hips. He narrows his dark eyes at the fallen blade, his brow furrowing and his jaw set in fierce concentration.
 
-Without warning, the sword snaps off the stone floor. It zips through the air, hilt-first, and smacks neatly into Daren's open palm. He doesn't even have to reach for it.
+Without warning, the steel snaps off the stone floor with a sharp crack. It zips through the air, hilt-first, and smacks with a loud, leathery slap straight into Daren's open right palm. He doesn't even have to adjust his stance.
 
-Daren stares at the weapon in his hand. "That's it? That's all it takes? What in the world? I thought this required weeks of drilling! If it's this straightforward, why isn't every warrior doing it?"
+Daren stares down at the weapon resting in his grip, his scar twitching in disbelief. "That's it? That's all it takes? What in the world? I thought this required weeks of drilling! If it's this straightforward, why isn't every warrior doing it?"
 
-"Because it's not straightforward, you oaf," Arraka says. "You happen to have an instinctive knack for aura manipulation, otherwise you'd still be standing there looking foolish. Put a typical mage in your boots and they'd fail for a month. If you weren't such a stubborn rock when it comes to actual theory, you might even turn out competent."
+"Because it's not straightforward, you oaf," Arraka sneers. "You happen to have an instinctive knack for aura manipulation, otherwise you'd still be standing there looking foolish. Put a typical mage in your boots and they'd fail for a month. If you weren't such a stubborn rock when it comes to actual theory, you might even turn out competent."
 
 choice(""Does this mean that Daren could perform better than the royal guard captain in the future?"", B3-Ch06a-Manipulation, v_current_scene = B3-Ch06a-Manipulation, v_checkpoint_rich = 0, v_b3_ch6_manipulators = 0)
 choice(""Will this affinity help him when fighting against other aura manipulators?"", B3-Ch06a-Manipulation, v_current_scene = B3-Ch06a-Manipulation, v_checkpoint_rich = 0, v_b3_ch6_manipulators = 1)
@@ -60,9 +60,9 @@ TEXT:
 #if(v_b3_ch6_manipulators == 0) {
 "Does this mean that Daren could perform better than the royal guard captain in the future?"
 
-"Why on earth would you assume that?" Arraka says. "Do you think the captain lacks affinity? A man doesn't reach that tier of precision without innate talent of his own. Daren isn't catching the captain or the underground king—they have a thirty-year head start and a lifetime of discipline. Daren won't spend half that time drilling. He is far better off focusing on practical utility over raw domination. For instance, he could anchor the hilt to his palm with his aura during a clash, so an enemy can never strip his weapon."
+"Why on earth would you assume that?" Arraka's voice drips with derision. "Do you think the captain reached that tier of precision without innate talent of his own? Daren isn't catching the captain or the underground king—they have a thirty-year head start and a lifetime of discipline. Daren won't spend half that time drilling. He is far better off focusing on practical utility over raw domination. For instance, he could anchor the hilt to his palm with his aura during a clash, so an enemy can never strip his weapon."
 
-"I can anchor it with my aura?" Daren asks. "How?"
+"I can anchor it with my aura?" Daren asks, turning his broad palm over. "How?"
 
 "Let me find a metaphor basic enough for a human skull," Arraka says. "How does the goblin frame these things for simpletons? Ah. You grasp the five currents from your fingertips now, yes? Instead of picturing them as rushing water, think of the quick-setting slime that giant snails secrete. You remember when Hadrik took a snail form and stuck himself to the arena dirt against that mammoth? Picture the aura pouring from your fingertips as that exact adhesive, coating the hilt while you grip it."
 
@@ -72,7 +72,7 @@ TEXT:
 
 "If you're asking whether he can overpower veterans with decades of field refinement just because he possesses raw aptitude, the answer is no," Arraka says. "If he directs the skill toward utility rather than brute force, however, it has real value. For instance, he could anchor the hilt to his palm with his aura during a clash, so an enemy can never strip his weapon."
 
-"I can anchor it with my aura?" Daren asks. "How?"
+"I can anchor it with my aura?" Daren asks, turning his broad palm over. "How?"
 
 "Let me find a metaphor basic enough for a human skull," Arraka says. "How does the goblin frame these things for simpletons? Ah. You grasp the five currents from your fingertips now, yes? Instead of picturing them as rushing water, think of the quick-setting slime that giant snails secrete. You remember when Hadrik took a snail form and stuck himself to the arena dirt against that mammoth? Picture the aura pouring from your fingertips as that exact adhesive, coating the hilt while you grip it."
 
@@ -80,17 +80,17 @@ TEXT:
 #if(v_b3_ch6_manipulators == 2) {
 "What about the rest of our mages? Do you think they could learn aura manipulation too?"
 
-"Illuna possesses zero aptitude for it," Arraka says. "I tried drilling her back when she was my apprentice, and she couldn't grasp a single concept. As for the rest, they heard the goblin's explanation. They can test the current themselves and see if anything answers. Practical trial is the only measure. In any case, rather than fancy summoning tricks, Daren should learn an anchor that keeps his blade from leaving his grip in the first place. For instance, he could anchor the hilt to his palm with his aura during a clash, so an enemy can never strip his weapon."
+"Illuna possesses zero aptitude for it," Arraka says with a sharp cackle. "I tried drilling her back when she was my apprentice, and she couldn't grasp a single concept. As for the rest, they heard the goblin's explanation. They can test the current themselves and see if anything answers. Practical trial is the only measure. In any case, rather than fancy summoning tricks, Daren should learn an anchor that keeps his blade from leaving his grip in the first place. For instance, he could anchor the hilt to his palm with his aura during a clash, so an enemy can never strip his weapon."
 
-"I can anchor it with my aura?" Daren asks. "How?"
+"I can anchor it with my aura?" Daren asks, turning his broad palm over. "How?"
 
 "Let me find a metaphor basic enough for a human skull," Arraka says. "How does the goblin frame these things for simpletons? Ah. You grasp the five currents from your fingertips now, yes? Instead of picturing them as rushing water, think of the quick-setting slime that giant snails secrete. You remember when Hadrik took a snail form and stuck himself to the arena dirt against that mammoth? Picture the aura pouring from your fingertips as that exact adhesive, coating the hilt while you grip it."
 
 "Right," Daren mutters, skeptical. "Quick-setting slime. Here goes."
 
-He closes his eyes for two breaths, then opens his hand.
+He closes his eyes for two breaths, letting his breathing settle, then opens his hand.
 
-The broadsword hangs suspended against his palm, motionless. Daren shakes his forearm vigorously. The leather-wrapped grip remains bonded to his skin, immovable against the momentum.
+The broadsword hangs suspended against his open palm, defying gravity. Daren shakes his forearm vigorously. The leather-wrapped grip remains bonded flush to his skin, immovable against the momentum.
 
 "That's remarkable," Daren says, flexing his fingers around the anchored hilt. "One detail, though. How do I release it?"
 
@@ -98,21 +98,21 @@ The broadsword hangs suspended against his palm, motionless. Daren shakes his fo
 
 "Is this a deliberate exercise to sharpen my control?" Daren asks.
 
-"No," Arraka says. "It's simply funnier this way."
+"No," Arraka says gleefully. "It's simply funnier this way."
 
-Daren sighs. "Of course it is."
+Daren sighs, his scarred brow furrowing. "Of course it is."
 
-He flaps his wrist, trying to fling the stuck weapon loose. Beside us, Kate watches his arm jerk back and forth.
+He flaps his wrist back and forth, trying to fling the stuck weapon loose. Beside us, Kate watches his arm jerk with dry amusement.
 
 "You have to guide the hardened aura back into a liquid state," Kate says calmly. "Like this."
 
-She holds out her right hand, palm down. An ice dagger clings beneath her skin without falling. Slowly, the bond softens like melting resin until the dagger drops and clinks against the flagstones.
+She holds out her right hand, palm down. An ice dagger clings beneath her skin without falling. Slowly, the invisible bond softens like melting resin until the dagger drops and clinks against the flagstones.
 
 "Not bad for an elementalist," Arraka notes. "What prompted you to try the same trick?"
 
-"You suggested we test ourselves," Kate says. "Anchoring seemed more practical than summoning."
+"You suggested we test ourselves," Kate says evenly, crossing her arms. "Anchoring seemed more practical than summoning."
 
-"Ah, I see it," Daren says. He turns his hand down. The sword's invisible grip loosens, and the weapon drops to the stones with a hollow clatter. "Aura structure cannot simply vanish on command. You have to unwind the construct in reverse order. I had to liquefy the anchor before the bond broke."
+"Ah, I see it," Daren says. He turns his hand down. The sword's invisible grip loosens, and the heavy weapon drops to the stones with a ringing clatter. "Aura structure cannot simply vanish on command. You have to unwind the construct in reverse order. I had to liquefy the anchor before the bond broke."
 
 "Congratulations, you deduced a primary law of aura craft," Arraka says as Daren retrieves his blade. "Take a biscuit."
 
@@ -120,15 +120,15 @@ She holds out her right hand, palm down. An ice dagger clings beneath her skin w
 
 "I'm down to half a tin!" I say. "Those are for emergencies."
 
-Flower tugs at Daren's elbow. "Should we keep moving? The teleporter is just down this passage, and we've been standing in the corridor testing tricks."
+Flower tugs gently at Daren's elbow. "Should we keep moving? The teleporter is just down this passage, and the sick patients in the ward are waiting."
 
 }
 #if(v_b3_ch6_manipulators != 2) {
 "Right," Daren mutters, skeptical. "Quick-setting slime. Here goes."
 
-He closes his eyes for two breaths, then opens his hand.
+He closes his eyes for two breaths, letting his breathing settle, then opens his hand.
 
-The broadsword hangs suspended against his palm, motionless. Daren shakes his forearm vigorously. The leather-wrapped grip remains bonded to his skin, immovable against the momentum.
+The broadsword hangs suspended against his open palm, defying gravity. Daren shakes his forearm vigorously. The leather-wrapped grip remains bonded flush to his skin, immovable against the momentum.
 
 "That's remarkable," Daren says, flexing his fingers around the anchored hilt. "One detail, though. How do I release it?"
 
@@ -136,11 +136,11 @@ The broadsword hangs suspended against his palm, motionless. Daren shakes his fo
 
 "Is this a deliberate exercise to sharpen my control?" Daren asks.
 
-"No," Arraka says. "It's simply funnier this way."
+"No," Arraka says gleefully. "It's simply funnier this way."
 
-Daren sighs. "Of course it is."
+Daren sighs, his scarred brow furrowing. "Of course it is."
 
-He flaps his wrist, trying to fling the stuck weapon loose. Beside us, Kate watches his arm jerk back and forth.
+He flaps his wrist back and forth, trying to fling the stuck weapon loose. Beside us, Kate watches his arm jerk with dry amusement.
 
 "Try guiding the hardened aura back into a liquid state instead of willing it to vanish," Kate says.
 
@@ -148,7 +148,7 @@ Daren pauses. "Let's see."
 
 }
 #if(v_b3_ch6_manipulators == 0 || v_b3_ch6_manipulators == 1) {
-He extends his right arm, palm down. The sword hangs below his hand for a heartbeat, then the invisible bond softens like melting resin, and the blade drops to the flagstones with a hollow clatter.
+He extends his right arm, palm down. The sword hangs below his hand for a heartbeat, then the invisible bond softens like melting resin, and the heavy blade drops to the flagstones with a ringing clatter.
 
 "Ah, I see it," Daren says, scooping the sword back into his scabbard. "Aura structure cannot simply vanish on command. You have to unwind the construct in reverse order. I had to liquefy the anchor before the bond broke."
 
@@ -158,7 +158,7 @@ He extends his right arm, palm down. The sword hangs below his hand for a heartb
 
 "I'm down to half a tin!" I say. "Those are for emergencies."
 
-Flower tugs at Daren's elbow. "Should we keep moving? The teleporter is just down this passage, and we've been standing in the corridor testing tricks."
+Flower tugs gently at Daren's elbow. "Should we keep moving? The teleporter is just down this passage, and the sick patients in the ward are waiting."
 
 }
 choice("Continue", B3-Ch06a-Medicinal, v_current_scene = B3-Ch06a-Medicinal) if (v_ch11_saved_rose == 1)
@@ -168,29 +168,29 @@ choice("Continue", B3-Ch06a-Merchandise, v_current_scene = B3-Ch06a-Merchandise)
 ID: B3-Ch06a-Medicinal
 TEXT:
 
-"We need to contact Rose first," Kate says. "Once we reach the surface, we won't have the luxury of casual conversation."
+"We need to contact Rose first," Kate says, pulling her dark cloak tighter against the tunnel draft. "Once we step onto the surface, we won't have the luxury of casual conversation."
 
-"Kate is right," Daren says. "I nearly forgot."
+"Kate is right," Daren says, his armored fingers unhooking the heavy bronze transceiver from his belt. "I nearly forgot."
 
-He unhooks the transceiver from his belt, adjusts the dial with a metallic click, and taps the rune on the casing.
+He clicks the frequency dial into place, adjusts the bronze selector, and taps the engraved rune on the casing.
 
-"Rose? Are you there?"
+"Rose? Are you by the device?"
 
-A faint rustle comes through the speaker, followed by a soft, raspy yawn. "Yes... Daren? I'm... awake..."
+A faint rustle drifts through the bronze speaker, followed by a soft, raspy yawn. "Yes... Daren? I'm... awake..."
 
-"Did we wake you?" Daren asks.
+"Did we wake you?" Daren asks gently.
 
-"No, no, I was... getting up anyway," Rose says, her voice thick with sleep. "What happened? Is everyone all right?"
+"No, no, I was... getting up anyway," Rose says, her voice still heavy with sleep. "What happened? Is everyone all right?"
 
-"We're fine," Daren says quickly. He outlines the quarantine ward, the progressing fever, and the local shortage of standard reagents. "The city's stores are depleted, and the usual wild varieties don't grow in this climate. Do you know any workable substitutes for rainweather leaves and summerglow grass?"
+"We're fine," Daren says quickly. He outlines the quarantine ward in the caverns, the fever burning through the patients, and the local shortage of standard reagents. "The city's underground stores are depleted, and the usual wild varieties don't grow in this rocky climate. Do you know any workable substitutes for rainweather leaves and summerglow grass?"
 
-Silence hangs on the line while Rose gathers her thoughts.
+A quiet silence hangs on the line while Rose gathers her thoughts over the hiss of static.
 
-"Rainweather leaves have no exact match," Rose says, "but you can duplicate the effect with a blend of greenbugger root and bontroddle seed. In Varathia we call wyverntooth bontroddle. Look for the pre-mixed greenbugger bontroddle salve—it's widely stocked across the provinces, and boiling the raw paste yourself will eat hours. As for summerglow grass, crownwick stems substitute cleanly. The potency is nearly identical."
+"Rainweather leaves have no single match," Rose says, "but you can duplicate the astringent effect with a blend of greenbugger root and bontroddle seed. In Varathia they call wyverntooth bontroddle. Look for the pre-mixed greenbugger bontroddle salve—it's widely stocked across the merchant provinces, and boiling the raw paste yourself will eat hours you don't have. As for summerglow grass, crownwick stems substitute cleanly. The potency is nearly identical."
 
-"Bontroddle," Daren repeats, relief evident in his posture. "I never would have thought to blend it with greenbugger. That gives us a clear target."
+"Bontroddle," Daren repeats, relief easing the tension in his shoulders. "I never would have thought to blend it with greenbugger. That gives us a clear target on the shelves."
 
-"I'm glad I could help," Rose says.
+"I'm glad I could help," Rose says softly.
 
 choice("Continue", B3-Ch06a-Medicinal2, v_current_scene = B3-Ch06a-Medicinal2)
 
@@ -198,31 +198,31 @@ choice("Continue", B3-Ch06a-Medicinal2, v_current_scene = B3-Ch06a-Medicinal2)
 ID: B3-Ch06a-Medicinal2
 TEXT:
 
-"Rose?" Flower steps toward the transceiver, her tone uncharacteristically hesitant.
+"Rose?" Flower steps toward the transceiver, her tone uncharacteristically quiet.
 
-"Yes, Flower?" Rose's voice warms, though the exhaustion beneath it remains obvious.
+"Yes, Flower?" Rose's voice warms through the speaker, though the exhaustion beneath it remains evident.
 
-"I heard you helped Barry talk to Petal last night," Flower says. "I wanted to thank you. It means a lot to me."
+"I heard you helped Barry talk to Petal last night," Flower says. "I wanted to thank you. It meant a lot to me."
 
 "You don't need to thank me," Rose says gently. "I did very little. But I'm happy you two worked things out."
 
-"I wish I could pass a slice of my birthday cake through the speaker," Flower says. "You would have loved the frosting."
+"I wish I could pass a slice of my birthday cake through the bronze speaker," Flower says, her eyes brightening. "You would have loved the chocolate frosting."
 
 "Today is your birthday?" Rose asks, surprised. "Happy anniversary, Flower!"
 
-"Thanks!" Flower's grin is audible. "When is your birthday? I'll bake you one whenever we meet next."
+"Thanks!" Flower's grin is audible in her voice. "When is your birthday? I'll bake you one whenever we meet next."
 
 "You'll have to wait eleven months for that," Rose chuckles softly. "I turned twenty-five just before the tournament opened."
 
-"Oh," Flower says. "Then I'll just have to make another cake next time."
+"Oh," Flower says, tilting her head. "Then I'll just have to make another cake next time."
 
-"I look forward to it."
+"I look forward to it," Rose says.
 
 Kelrim leans in close and murmurs something in Daren's ear. Daren nods grimly. "Rose, Kelrim says crownwick might be scarce in this district too. Is there any other practical alternative for summerglow?"
 
-"There is one other variety," Rose says, hesitant. "The name escapes me right now... Give me three minutes. I can run down to the study and check the volume on northern floras."
+"There is one other variety," Rose says, sounding hesitant. "The name escapes me right now... Give me three minutes. I can run down to the study and check the volume on northern floras."
 
-The fatigue in Rose's voice is unmistakable, no matter how hard she tries to sound alert. Suzie's sleepless night clearly took its toll. Poring over botanical folios is the last thing she needs right now.
+The fatigue in Rose's voice is unmistakable, no matter how hard she tries to sound alert. Suzie's sleepless night clearly took its toll. Poring over heavy botanical folios by candlelight is the last thing she needs right now.
 
 choice("Suggest that Rose should go back to sleep.", B3-Ch06a-Sleep, v_current_scene = B3-Ch06a-Sleep, v_b3_ch6_sleep = 1)
 choice("Let Rose go search for the name of the plant.", B3-Ch06a-Sleep, v_current_scene = B3-Ch06a-Sleep, v_b3_ch6_sleep = 0)
@@ -232,19 +232,19 @@ ID: B3-Ch06a-Sleep
 TEXT:
 
 #if(v_b3_ch6_sleep == 1) {
-"Go back to bed, Rose," I tell her. "You sound worn to the bone. Did Suzie keep you up until dawn again?"
+"Go back to bed, Rose," I tell her, leaning toward the transceiver. "You sound worn to the bone. Did Suzie keep you up until dawn again?"
 
 "I... I managed an hour or two," Rose says. "I can look, truly."
 
-"No need," Daren cuts in. "I recall a shop district with wide stocks. We'll manage from here, Rose. Get some proper rest."
+"No need," Daren cuts in firmly. "I recall a shop district with wide stocks along the avenue. We'll manage from here, Rose. Get some proper rest."
 
 "Are you certain?"
 
 "Completely," Daren says. "Apologies for the early call. Sleep well."
 
-"Thank you. Call if you need anything else. Good luck."
+"Thank you. Call if you need anything else. Good luck out there."
 
-Daren taps the casing and seals the transceiver.
+Daren taps the rune plate and seals the transceiver connection with a quiet click.
 
 Kate raises an eyebrow at him. "You don't know a single shop with crownwick in stock, do you?"
 
@@ -256,7 +256,7 @@ Kate raises an eyebrow at him. "You don't know a single shop with crownwick in s
 
 "It's no trouble at all," Rose says. "Give me two minutes."
 
-The line crackles with quiet footsteps, then the dry rasp of turning parchment as Rose combs through her library.
+The line crackles with quiet footsteps over floorboards, followed by the dry rasp of turning parchment as Rose combs through her study folios.
 
 "Found it," Rose says after a brief search. "Riggus flower petals. They bloom throughout the season, so any decent apothecary should have dried jars on hand."
 
@@ -276,48 +276,48 @@ ID: B3-Ch06a-Merchandise
 TEXT:
 
 #if(v_ch11_saved_rose == 0) {
-"Before we step into daylight, we need a precise route," Kate says. "Daren, which establishments are we targeting?"
+"Before we step into daylight, we need a precise route," Kate says, her dark eyes scanning the damp stone walls. "Daren, which establishments are we targeting?"
 
-"Right," Daren says. "Kelrim, give us the layout again. You mentioned a cluster of apothecaries earlier."
+"Right," Daren says, his armored boots splashing through a puddle. "Kelrim, give us the layout again. You mentioned a cluster of apothecaries earlier."
 
-"I cannot promise any single shop carries every item on the list," Kelrim says, "but there is a commercial district with three competing herbalists situated along the same thoroughfare. Because they vie for the same high-end clientele, they maintain substantial inventory. If those three cannot supply what we need, I doubt we will find it anywhere in Ollendor."
+"I cannot promise any single shop carries every item on the list," Kelrim says, adjusting his healer's sash, "but there is a commercial district with three competing herbalists situated along the same thoroughfare. Because they vie for the same high-end clientele, they maintain substantial inventory. If those three cannot supply what we need, I doubt we will find it anywhere in Ollendor."
 
-"Then we secure the stock from them by whatever means necessary," Daren says.
+"Then we secure the stock from them by whatever means necessary," Daren says firmly.
 
-"After we negotiate a proper discount, naturally," Hadrik says with a grin.
+"After we negotiate a proper discount, naturally," Hadrik says with a grin, patting his coin pouch.
 
 "We'll see," Daren mutters.
 
-"Move out," Melindra says. "And pull your auras all the way in before the transfer. I mean full suppression—not just damping your magical current, but flattening the entire field. Anyone with sharp sensory training will spot a half-hidden presence instantly. Watch how Illuna carries hers if you need a reference."
+"Move out," Melindra says, her voice sharpening with authority. "And pull your auras all the way in before the transfer. I mean full suppression—not just damping your magical current, but flattening the entire field until you feel like cold clay. Anyone with sharp sensory training will spot a half-hidden presence instantly. Watch how Illuna carries hers if you need a reference."
 
 }
 #if(v_ch11_saved_rose == 1) {
-"I cannot promise any single shop carries every item on the list," Kelrim says, "but there is a commercial district with three competing herbalists situated along the same thoroughfare. Because they vie for the same high-end clientele, they maintain substantial inventory. If those three cannot supply what we need, I doubt we will find it anywhere in Ollendor."
+"I cannot promise any single shop carries every item on the list," Kelrim says, adjusting his healer's sash as we walk, "but there is a commercial district with three competing herbalists situated along the same thoroughfare. Because they vie for the same high-end clientele, they maintain substantial inventory. If those three cannot supply what we need, I doubt we will find it anywhere in Ollendor."
 
-"Then we secure the stock from them by whatever means necessary," Daren says.
+"Then we secure the stock from them by whatever means necessary," Daren says firmly.
 
-"After we negotiate a proper discount, naturally," Hadrik says with a grin.
+"After we negotiate a proper discount, naturally," Hadrik says with a grin, patting his coin pouch.
 
 "We'll see," Daren mutters.
 
-"Move out," Melindra says. "And pull your auras all the way in before the transfer. I mean full suppression—not just damping your magical current, but flattening the entire field. Anyone with sharp sensory training will spot a half-hidden presence instantly. Watch how Illuna carries hers if you need a reference."
+"Move out," Melindra says, her voice sharpening with authority. "And pull your auras all the way in before the transfer. I mean full suppression—not just damping your magical current, but flattening the entire field until you feel like cold clay. Anyone with sharp sensory training will spot a half-hidden presence instantly. Watch how Illuna carries hers if you need a reference."
 
 }
-"Understood," Hadrik says.
+"Understood," Hadrik says, rolling his broad shoulders.
 
-We follow the winding passage until it opens into the underground transit vault. The same operator from yesterday sits behind the copper-rimmed console, dark circles carved deep under his eyes. He looks just as sleep-deprived as Breynan and Albert.
+We follow the winding passage until the rough-hewn stone opens into the underground transit vault. The same operator from yesterday sits behind the copper-rimmed console, dark circles carved deep under his bloodshot eyes. He looks just as sleep-deprived as Breynan and Albert after an overnight shift.
 
-"Look who's still on watch—Barry Thundercloud!" Hadrik booms as we step inside. "How's life treating you? Actually, skip that. The face says it all. Rough shift?"
+"Look who's still on watch—Barry Thundercloud!" Hadrik booms as we step onto the flagstones. "How's life treating you? Actually, skip that. The face says it all. Rough shift?"
 
-"Something like that," the operator mutters.
+"Something like that," the operator mutters without looking up from his copper dials.
 
-Kelrim blinks, looking between the two of us. "Your full name is Barry Thundercloud? I had no idea."
+Kelrim blinks, glancing between the operator and me. "Your full name is Barry Thundercloud? I had no idea."
 
-"It's a handle," the operator explains, rubbing his temples. "We needed a clear distinction so people wouldn't confuse me with the other Barry standing beside you."
+"It's a handle," the operator explains, rubbing his aching temples. "We needed a clear distinction so people wouldn't confuse me with the other Barry standing beside you."
 
 "Curiosity compels me," Kelrim says. "How does one acquire a title like 'Thundercloud'?"
 
-"There were three boys named Barry on our block growing up," the operator says. "Things got chaotic during street games, so we tried inventing nicknames. Because we were foul-tempered brats, we assigned each other the crudest insults we could devise—Slowpoke, Monobrow, Fat Face. Naturally, none of us answered to any of them, so the scheme collapsed immediately. That was when my younger brother stepped in. He made us stop bickering and came up with proper titles we could tolerate. He was always the steady head among us. Even back then..."
+"There were three boys named Barry on our block growing up," the operator says, his voice flat with fatigue. "Things got chaotic during street games, so we tried inventing nicknames. Because we were foul-tempered brats, we assigned each other the crudest insults we could devise—Slowpoke, Monobrow, Fat Face. Naturally, none of us answered to any of them, so the scheme collapsed immediately. That was when my younger brother stepped in. He made us stop bickering and came up with proper titles we could tolerate. He was always the steady head among us. Even back then..."
 
 choice("Continue", B3-Ch06a-Merchandise2, v_current_scene = B3-Ch06a-Merchandise2)
 
@@ -325,35 +325,35 @@ choice("Continue", B3-Ch06a-Merchandise2, v_current_scene = B3-Ch06a-Merchandise
 ID: B3-Ch06a-Merchandise2
 TEXT:
 
-"Forgive me," Kelrim says softly, touching the operator's sleeve. "I did not mean to stir painful memories."
+"Forgive me," Kelrim says softly, placing a comforting green hand on the operator's sleeve. "I did not mean to stir painful memories."
 
-Hadrik's expression hardens. "What happened to him?"
+Hadrik's expression hardens, the easy grin vanishing from his face. "What happened to him?"
 
-"A patrol caught him three weeks ago," the operator says quietly. "We never recovered the body. From what the neighbors told me, it was over quickly."
+"A royal patrol caught him three weeks ago," the operator says quietly, his fingers resting motionless on the copper console. "We never recovered the body. From what the neighbors told me, it was over quickly."
 
-"Those bastards will pay for it," Hadrik growls, his knuckles whitening. "You have my oath on that."
+"Those bastards will pay for it," Hadrik growls, his thick knuckles whitening against his belt. "You have my oath on that."
 
 "I appreciate it," the operator says.
 
-Melindra steps forward, leaning over the console to peer into his face. Her eyes narrow as she examines him.
+Melindra steps forward, leaning over the copper rim of the console to peer directly into his face. Her eyes narrow as she scrutinizes the subtle ebb of his energy.
 
-The operator leans back, uneasy. "Is something wrong?"
+The operator leans back, distinctly uneasy. "Is something wrong?"
 
-"Your aura barely ripples," Melindra says. "I noticed it yesterday, but it's striking now. You spoke of your brother's death with obvious grief, yet your field remains completely still. Are you maintaining full suppression?"
+"Your aura barely ripples," Melindra says, her tone analytical. "I noticed it yesterday, but it's striking now. You spoke of your brother's death with obvious grief, yet your field remains completely still. Are you maintaining full suppression?"
 
-"What? No," the operator says. "I was born with it. My magical perception is negligible, so I don't understand the mechanics, but my emotions don't register on my aura. There's likely a technical name for the condition, but I've never looked it up. Do you have coordinates in mind, or do you need the district grid?"
+"What? No," the operator says, shaking his head. "I was born with it. My magical perception is negligible, so I don't understand the mechanics, but my emotions don't register on my aura. There's likely a technical name for the condition, but I've never looked it up. Do you have coordinates in mind, or do you need the district grid?"
 
 "We know the route," Kelrim says. "Near Vremann Street. Any quiet approach nearby will suffice. You know the section?"
 
-"Of course," the operator says. "There's a recessed alley just off the avenue where you can arrive unnoticed. Setting the sequence now."
+"Of course," the operator says, his fingers moving across the rune toggles. "There's a recessed alley just off the avenue where you can arrive unnoticed. Setting the sequence now."
 
-"Take your time, Slowpoke," Arraka's voice drifts from the amulet.
+"Take your time, Slowpoke," Arraka's voice drifts up from the golden amulet.
 
 The operator's hands freeze over the rune keys. "What did you just call me?"
 
-"Slowpoke," Arraka says with relish. "That was your childhood handle, wasn't it?"
+"Slowpoke," Arraka says with immense relish. "That was your childhood handle, wasn't it?"
 
-"Why would you think that?" he demands.
+"Why would you think that?" he demands, turning red.
 
 "You stated your initial choices were Slowpoke, Monobrow, and Fat Face," Arraka says. "You have two distinct eyebrows, and you're rather lean for your frame. Elementary deduction leaves Slowpoke. Beyond that, you move like molasses."
 
@@ -374,37 +374,37 @@ set(v_b3_ch6_concealed,1) if (v_bluff >= 3)
 #if(v_b3_ch6_slowpoke == 0) {
 "Don't let her get to you, slowpoke! She's only trying to annoy you!"
 
-"I am well aware she is trying to bait me," the operator mutters. "And you aren't helping. Stop distracting me. Misaligning a single coordinate will drop you into a cellar wall."
+"I am well aware she is trying to bait me," the operator mutters, glaring at the golden amulet. "And you aren't helping. Stop distracting me. Misaligning a single coordinate will drop you into a cellar wall."
 
-"Hold on," Melindra says, crossing her arms. "Hadrik, you aren't suppressing properly. I told you to draw in the entire field."
+"Hold on," Melindra says, crossing her arms and stepping in front of Hadrik. "Hadrik, you aren't suppressing properly. I told you to draw in the entire field."
 
-"I am drawing it in," Hadrik grunts.
+"I am drawing it in," Hadrik grunts, his face straining.
 
 "No, you're only damping the magical charge!" Melindra snaps. "How are you confusing the two? You harden your aura in every single melee. Suppressing is the exact opposite motion. It isn't complicated."
 
 "It feels entirely different!" Hadrik protests. "When I harden the skin over my knuckles, I pull the outer perimeter tight around my—wait. Never mind. I have it."
 
-The faint pulse vibrating off Hadrik's broad frame recedes, smoothing out until the air around him feels completely inert.
+The faint, vibrating warmth radiating off Hadrik's broad frame recedes, smoothing out until the air around him feels completely inert.
 
 "Better?" Hadrik asks.
 
 }
 #if(v_b3_ch6_slowpoke == 1) {
-"His name is Barry, okay? Enough with the nicknames, already."
+"His name is Barry, all right? Enough with the nicknames, already."
 
 "His name is Barry the Slowpoke," Arraka counters. "Not to be confused with Barry the gnome king's errand-runner or Barry the clown. The last one is you, in case you were wondering."
 
-"Quiet, both of you," the operator says through gritted teeth. "Misaligning a coordinate will drop you into a cellar wall."
+"Quiet, both of you," the operator says through gritted teeth, his hands trembling over the toggles. "Misaligning a coordinate will drop you into a cellar wall."
 
-"Hold on," Melindra says, crossing her arms. "Hadrik, you aren't suppressing properly. I told you to draw in the entire field."
+"Hold on," Melindra says, crossing her arms and stepping in front of Hadrik. "Hadrik, you aren't suppressing properly. I told you to draw in the entire field."
 
-"I am drawing it in," Hadrik grunts.
+"I am drawing it in," Hadrik grunts, his face straining.
 
 "No, you're only damping the magical charge!" Melindra snaps. "How are you confusing the two? You harden your aura in every single melee. Suppressing is the exact opposite motion. It isn't complicated."
 
 "It feels entirely different!" Hadrik protests. "When I harden the skin over my knuckles, I pull the outer perimeter tight around my—wait. Never mind. I have it."
 
-The faint pulse vibrating off Hadrik's broad frame recedes, smoothing out until the air around him feels completely inert.
+The faint, vibrating warmth radiating off Hadrik's broad frame recedes, smoothing out until the air around him feels completely inert.
 
 "Better?" Hadrik asks.
 
@@ -414,17 +414,17 @@ The faint pulse vibrating off Hadrik's broad frame recedes, smoothing out until 
 
 "Speak for yourself, Barry-boy," Arraka says. "I fully intend to use it in every subsequent conversation."
 
-The operator groans and presses two rune keys down. "Will you let me concentrate? Misaligning a coordinate will drop you into a cellar wall."
+The operator groans and presses two rune keys down with a click. "Will you let me concentrate? Misaligning a coordinate will drop you into a cellar wall."
 
-"Hold on," Melindra says, crossing her arms. "Hadrik, you aren't suppressing properly. I told you to draw in the entire field."
+"Hold on," Melindra says, crossing her arms and stepping in front of Hadrik. "Hadrik, you aren't suppressing properly. I told you to draw in the entire field."
 
-"I am drawing it in," Hadrik grunts.
+"I am drawing it in," Hadrik grunts, his face straining.
 
 "No, you're only damping the magical charge!" Melindra snaps. "How are you confusing the two? You harden your aura in every single melee. Suppressing is the exact opposite motion. It isn't complicated."
 
 "It feels entirely different!" Hadrik protests. "When I harden the skin over my knuckles, I pull the outer perimeter tight around my—wait. Never mind. I have it."
 
-The faint pulse vibrating off Hadrik's broad frame recedes, smoothing out until the air around him feels completely inert.
+The faint, vibrating warmth radiating off Hadrik's broad frame recedes, smoothing out until the air around him feels completely inert.
 
 "Better?" Hadrik asks.
 
@@ -432,15 +432,15 @@ The faint pulse vibrating off Hadrik's broad frame recedes, smoothing out until 
 #if(v_bluff < 3) {
 "Yes," Melindra says. "That's clean. Barry, I take it you can't conceal yours any deeper than that faint trace?"
 
-"Afraid not," I say.
+"Afraid not," I say, checking the strap of my stat-device.
 
 "We will simply have to trust that no sentinel gets within five paces of you," Melindra says. "Step onto the platform. We're ready."
 
 "Platform active," the operator says. "Safe transit."
 
-A familiar hum builds in the soles of our boots. Bright white light washes over the chamber, the floor vibrates under our feet, and the stone vault dissolves. A heartbeat later, the light snaps away. We are standing in a narrow brick alleyway that feeds into a wide, quiet thoroughfare lined with timber-fronted shops.
+A familiar, deep hum builds in the soles of our boots. Bright white light washes over the chamber, the floor vibrates violently under our feet, and the stone vault dissolves. A heartbeat later, the light snaps away with a rush of cold air. We are standing in a narrow brick alleyway that feeds into a wide, quiet thoroughfare lined with timber-fronted shops.
 
-"Vremann Street lies just ahead," Kelrim whispers. "The curfew holds—this avenue should be bustling at mid-morning. Stay behind me. I know the first entrance."
+"Vremann Street lies just ahead," Kelrim whispers, peering around the brick corner. "The curfew holds—this avenue should be bustling at mid-morning. Stay behind me. I know the first entrance."
 
 }
 #if(v_bluff >= 3) {
@@ -448,9 +448,9 @@ A familiar hum builds in the soles of our boots. Bright white light washes over 
 
 "Platform active," the operator says. "Safe transit."
 
-A familiar hum builds in the soles of our boots. Bright white light washes over the chamber, the floor vibrates under our feet, and the stone vault dissolves. A heartbeat later, the light snaps away. We are standing in a narrow brick alleyway that feeds into a wide, quiet thoroughfare lined with timber-fronted shops.
+A familiar, deep hum builds in the soles of our boots. Bright white light washes over the chamber, the floor vibrates violently under our feet, and the stone vault dissolves. A heartbeat later, the light snaps away with a rush of cold air. We are standing in a narrow brick alleyway that feeds into a wide, quiet thoroughfare lined with timber-fronted shops.
 
-"Vremann Street lies just ahead," Kelrim whispers. "The curfew holds—this avenue should be bustling at mid-morning. Stay behind me. I know the first entrance."
+"Vremann Street lies just ahead," Kelrim whispers, peering around the brick corner. "The curfew holds—this avenue should be bustling at mid-morning. Stay behind me. I know the first entrance."
 
 }
 As we fall into step behind the goblin, Illuna leans toward the amulet at Flower's neck, her voice pitched low.
@@ -465,25 +465,25 @@ choice("Continue", B3-Ch06a-Curfew, v_current_scene = B3-Ch06a-Curfew)
 ID: B3-Ch06a-Curfew
 TEXT:
 
-"Drop the innocent act," Illuna says. "You wouldn't waste breath on an ordinary operator without an angle. You baited him deliberately to see if his aura would flare. What did you find?"
+"Drop the innocent act," Illuna says, her pale eyes narrowing at the amulet. "You wouldn't waste breath on an ordinary operator without an angle. You baited him deliberately to see if his aura would flare. What did you find?"
 
-Arraka's rasp turns amused. "Still sharp. Fine. Melindra caught my attention when she noted his stagnant field. I wanted to see whether he was suppressing it with discipline or if it was an inborn quirk. I managed to needle him into lying about his childhood name, yet his field remained utterly flat. He wasn't lying about his nature—if he were actively holding it still, I would have caught the tension immediately."
+Arraka's rasp turns amused. "Still sharp, Petal. Fine. Melindra caught my attention when she noted his stagnant field. I wanted to see whether he was suppressing it with discipline or if it was an inborn quirk. I managed to needle him into lying about his childhood name, yet his field remained utterly flat. He wasn't lying about his nature—if he were actively holding it still, I would have caught the tension immediately."
 
 "So he holds no hidden allegiance," Illuna says. "Good."
 
-"Lower your voices," Daren murmurs. "We don't need a street fight before we reach the first counter."
+"Lower your voices," Daren murmurs, his hand resting on his pommel. "We don't need a street fight before we reach the first counter."
 
-"Relax," Melindra says. "No sentinels are within earshot, and none of the patrols are tracking our line. We have a clear window."
+"Relax," Melindra says, scanning the rooftops with an idle flick of her hand. "No sentinels are within earshot, and none of the patrols are tracking our line. We have a clear window."
 
-Blue light sparks in the air beside me as Leila traces characters: "The shopkeepers are staring."
+Blue light sparks in the chill air beside me as Leila traces characters with swift precision: "The shopkeepers are staring."
 
-I glance along the shuttered storefronts. Faces peer through grimy leaded glass, eyes wide and hostile before ducking back behind heavy curtains.
+I glance along the shuttered storefronts. Frightened faces peer through grimy leaded glass, eyes wide and hostile before ducking back behind heavy linen curtains.
 
-"Naturally they stare," Kate says quietly. "The king declared martial lockdown until the earl's killers are found. Anyone wandering the stones at mid-morning is either an outlaw or looking for blood. Even without guard descriptions, we stand out like a bonfire."
+"Naturally they stare," Kate says quietly, her breath misting. "The king declared martial lockdown until the earl's killers are found. Anyone wandering the stones at mid-morning is either an outlaw or looking for blood. Even without guard descriptions, we stand out like a bonfire."
 
-"Speaking of uninvited company..." Hadrik nods toward the sky. "Look what's dropping down."
+"Speaking of uninvited company..." Hadrik nods toward the grey sky. "Look what's dropping down."
 
-A single green-eyed drone descends smoothly between the rooftops, its metallic shell catching the morning glare.    
+A single green-eyed bronze drone descends smoothly between the gabled rooftops, its metallic shell catching the cold morning glare.    
 
 choice("Continue", B3-Ch06a-Mercy, v_current_scene = B3-Ch06a-Mercy) if (v_b3_ch4_billy == 9)
 choice("Continue", B3-Ch06a-Helpful, v_current_scene = B3-Ch06a-Helpful) if (v_b3_ch4_billy == 0 && v_ch11_saved_rose == 0 || v_b3_ch4_billy <= 6 && v_b3_ch4_billy != 0)
@@ -593,7 +593,7 @@ We file through the entryway and pull the heavy timber door shut behind us. Befo
 
 "Welcome to Pete's Herbal Shop!" a stout man with rolled sleeves calls from behind the counter. "I'm Pete. Look around, browse the jars—you won't find cleaner stock on this continent, guaranteed!"
 
-Unlike the terrified merchants peeking through shutters along the avenue, Pete looks positively delighted to see customers during martial lockdown. Before Daren can clear his throat to speak, Hadrik steps forward and matches the man's bellow note for note.
+Unlike the terrified merchants peeking through shutters along the avenue, Pete looks positively delighted to see buyers during martial lockdown. Before Daren can clear his throat to speak, Hadrik steps forward and matches the man's bellow note for note.
 
 choice("Continue", B3-Ch06a-Pete, v_current_scene = B3-Ch06a-Pete)
 
@@ -646,7 +646,7 @@ We file through the entryway and pull the heavy timber door shut behind us. Befo
 
 "Welcome to Pete's Herbal Shop!" a stout man with rolled sleeves calls from behind the counter. "I'm Pete. Look around, browse the jars—you won't find cleaner stock on this continent, guaranteed!"
 
-Unlike the terrified merchants peeking through shutters along the avenue, Pete looks positively delighted to see customers during martial lockdown. Before Daren can clear his throat to speak, Hadrik steps forward and matches the man's bellow note for note.
+Unlike the terrified merchants peeking through shutters along the avenue, Pete looks positively delighted to see buyers during martial lockdown. Before Daren can clear his throat to speak, Hadrik steps forward and matches the man's bellow note for note.
 
 choice("Continue", B3-Ch06a-Pete, v_current_scene = B3-Ch06a-Pete)
 
@@ -672,7 +672,7 @@ TEXT:
 
 "Greetings, friends," the Overseer's synthesized voice projects from the hovering drone. "Extrapolating from your current trajectory, you are proceeding toward the merchant apothecaries along this avenue. Are you aware that a concealed fourth herbalist operates within this sector? I can guide you to the entryway."
 
-"Save the sales pitch," I say. "You didn't drop out of the sky out of the goodness of your heart. If you want coordination, give us the actual motive. Why that shop?"
+"Save the sales pitch," I say. "You didn't drop out of the sky out of the goodness of your heart. If you want our cooperation, give us the actual motive. Why that shop?"
 
 The drone's green eye pulses three times in rapid succession. "Processing... The Overseer protocol elects full disclosure to foster operational alignment. An underground apothecary fortified with seredium is currently occupied by a royal guard. Eliminating or capturing this target will degrade crown strength significantly."
 
@@ -725,7 +725,7 @@ We file through the entryway and pull the heavy timber door shut behind us. Befo
 
 "Welcome to Pete's Herbal Shop!" a stout man with rolled sleeves calls from behind the counter. "I'm Pete. Look around, browse the jars—you won't find cleaner stock on this continent, guaranteed!"
 
-Unlike the terrified merchants peeking through shutters along the avenue, Pete looks positively delighted to see customers during martial lockdown. Before Daren can clear his throat to speak, Hadrik steps forward and matches the man's bellow note for note.
+Unlike the terrified merchants peeking through shutters along the avenue, Pete looks positively delighted to see buyers during martial lockdown. Before Daren can clear his throat to speak, Hadrik steps forward and matches the man's bellow note for note.
 
 choice("Continue", B3-Ch06a-Pete, v_current_scene = B3-Ch06a-Pete)
 
@@ -733,34 +733,34 @@ choice("Continue", B3-Ch06a-Pete, v_current_scene = B3-Ch06a-Pete)
 ID: B3-Ch06a-Secret
 TEXT:
 
-We follow the bronze sphere down a narrow, sunless alley on the right. After fifty paces, the drone stops before a derelict two-story townhouse with smashed window frames and rotting sills.
+We follow the bronze sphere down a narrow, sunless alley on the right, our boots crunching over discarded brick and frozen mud. After fifty paces, the drone stops before a derelict two-story townhouse with smashed window frames, rotting sills, and a sagging lintel.
 
-The drone's speaker crackles. "The subterranean entrance is situated within. Beneath the braided rug in the foyer lies a reinforced hatch. This unit's chassis cannot navigate the descent; you will proceed unassisted. When prompted for verification, inform the proprietor that the passphrase is to 'shut his whore mouth and open the door before you blow it open'."
+The drone's speaker crackles with static. "The subterranean entrance is situated within. Beneath the braided rug in the foyer lies a reinforced hatch. This unit's chassis cannot navigate the descent; you will proceed unassisted. When prompted for verification, inform the proprietor that the passphrase is to 'shut his whore mouth and open the door before you blow it open'."
 
-Hadrik raises an eyebrow. "Is that an actual passphrase, or did you overhear a customer threatening the man?"
+Hadrik raises an eyebrow, rubbing his beard. "Is that an actual passphrase, or did you overhear a buyer threatening the man?"
 
-The drone hovers silently.
+The drone hovers silently in the damp air.
 
-"Well?" Hadrik asks. "Are you answering?"
+"Well?" Hadrik asks, leaning closer. "Are you answering?"
 
 "Query unclear," the Overseer says. "The protocol cannot—"
 
-"Enough," Daren says, stepping past the machine. "We'll sort it out inside. The machine has run out of answers anyway."
+"Enough," Daren says, stepping past the floating bronze hull. "We'll sort it out inside. The machine has run out of answers anyway."
 
-Daren pushes through the splintered front door, kicks aside a mildewed carpet, and grips the iron ring of a trapdoor. He heaves it open to reveal steep wooden stairs descending into blackness. We step down cautiously, watching for tripwires and pressure plates, until we reach a flat wall of solid seredium at the foot of the stairwell.
+Daren pushes through the splintered timber door, kicks aside a stiff, mildewed rug, and grips the rusted iron ring of a trapdoor. He heaves it open with a low grunt, revealing steep wooden stairs descending into blackness. We step down cautiously, testing each creaking plank for tripwires and pressure plates, until we reach a flat, seamless slab of solid seredium at the foot of the stairwell.
 
-"Hello?" Daren calls out, knocking a gauntlet against the metal. "Open up, please."
+"Hello?" Daren calls out, rapping an armored gauntlet against the metal. "Open up, please."
 
-Nothing answers except damp cellar silence.
+Nothing answers except the dead silence of the cellar.
 
-"We know there's an apothecary operating down here," Daren tries again, raising his voice. "We have coin and we need rare reagents. We'll make it worth your while."
+"We know there's an apothecary operating down here," Daren tries again, raising his voice so it rings off the seredium. "We have gold and we need rare fever reagents. We'll make it well worth your time."
 
-A muffled voice drifts from the far side of the seredium barrier, barely carrying through the dense metal.
+A muffled, gravelly voice drifts from the far side of the barrier, barely carrying through the dense metal.
 
 "What's the word?" the voice rasps.
 
 choice("Tell the shopkeeper that the password is to shut his whore mouth and to open the door.", B3-Ch06a-Secret2, v_current_scene = B3-Ch06a-Secret2, v_b3_ch6_password = 0)
-choice("Tell the shopkeeper that the password is a drunk orangutan wearing a party hat.", B3-Ch06a-Secret2, v_current_scene = B3-Ch06a-Secret2, v_b3_ch6_password = 1)
+choice("Tell the shopkeeper that the password is that we have gold and he likes profit.", B3-Ch06a-Secret2, v_current_scene = B3-Ch06a-Secret2, v_b3_ch6_password = 1)
 choice("Tell the shopkeeper that I already gave him the password and that he said it was correct.", B3-Ch06a-Secret2, v_current_scene = B3-Ch06a-Secret2, v_b3_ch6_password = 2)
 
 ID: B3-Ch06a-Secret2
@@ -772,19 +772,19 @@ achievement("A natural liar",v_ac_b3_ch6_natural)
 #if(v_b3_ch6_password == 0) {
 "The password is to shut your whore mouth and to open the door before we blow it open," I shout at the seam in the metal.
 
-"You have some nerve making threats on my own threshold," the voice snarls back. "Do you want to know what happened to the last thug who said that to me?"
+"You have some nerve making threats on my own threshold," the voice snarls back through the barrier. "Do you want to know what happened to the last thug who said that to me?"
 
-"Wait," I say quickly. "We got off on the wrong foot! I wasn't threatening you—I genuinely thought that was the passphrase!"
+"Wait," I say quickly, holding up a palm to the cold slab. "We got off on the wrong foot! I wasn't threatening you—I genuinely thought that was the passphrase!"
 
 "What kind of idiot do you take me for?" the shopkeeper snaps. "Only a complete lunatic would believe that's a password. Clear out before I alert the watch!"
 
-Hadrik leans close, his voice a low rumble. "Forget the word. I can shatter this slab with one clean strike."
+Hadrik leans close, his voice a low rumble in my ear. "Forget the word. I can shatter this slab with one clean strike."
 
-"And then what?" Daren whispers back. "Loot his shelves? He certainly won't take our coin once his door is in splinters."
+"And then what?" Daren whispers back, shaking his head. "Loot his shelves? He certainly won't take our coin once his door is in splinters."
 
 }
 #if(v_b3_ch6_password == 1) {
-"The password is a drunk orangutan wearing a party hat," I call through the door.
+"The password is that we have gold and you like profit," I call through the door.
 
 A heavy pause settles beyond the seredium. "Is this a joke? Are you trying to mock me?"
 
@@ -792,43 +792,43 @@ A heavy pause settles beyond the seredium. "Is this a joke? Are you trying to mo
 
 "Shut up," the shopkeeper snaps. "You have no idea what the word is. Another sound from that stairwell and I alert the watch."
 
-Hadrik leans close, his voice a low rumble. "Forget the word. I can shatter this slab with one clean strike."
+Hadrik leans close, his voice a low rumble in my ear. "Forget the word. I can shatter this slab with one clean strike."
 
-"And then what?" Daren whispers back. "Loot his shelves? He certainly won't take our coin once his door is in splinters."
+"And then what?" Daren whispers back, shaking his head. "Loot his shelves? He certainly won't take our coin once his door is in splinters."
 
 }
 #if(v_b3_ch6_password == 2 && v_bluff < 4 || v_b3_ch6_password == 3 && v_bluff < 4) {
-"I already gave you the password and you said it was correct," I say.
+"I already gave you the password and you said it was correct," I say through the seam.
 
 "What are you babbling about?" the shopkeeper snaps. "Do you take me for a senile fool? Get off my stairs before I call the watch!"
 
-Hadrik leans close, his voice a low rumble. "Forget the word. I can shatter this slab with one clean strike."
+Hadrik leans close, his voice a low rumble in my ear. "Forget the word. I can shatter this slab with one clean strike."
 
-"And then what?" Daren whispers back. "Loot his shelves? He certainly won't take our coin once his door is in splinters."
+"And then what?" Daren whispers back, shaking his head. "Loot his shelves? He certainly won't take our coin once his door is in splinters."
 
 }
 #if(v_b3_ch6_password == 2 && v_bluff >= 4 || v_b3_ch6_password == 3 && v_bluff >= 4) {
-"I already gave you the password and you said it was correct," I say firmly.
+"I already gave you the password and you said it was correct," I say firmly, keeping my voice calm and even.
 
 "What?" The muffled voice falters, suddenly uncertain. "When did I... say that?"
 
-"Five seconds ago," I insist, letting my aura bleed smoothly forward. "You confirmed the phrase and promised to lift the gate. You aren't going to tell me your memory failed in the span of two breaths, are you?"
+"Five seconds ago," I insist, letting my aura bleed smoothly forward through the gaps in the casing. "You confirmed the phrase and promised to lift the gate. You aren't going to tell me your memory failed in the span of two breaths, are you?"
 
-"I... no. Of course not," the shopkeeper mutters. "I remember. Stand back from the track."
+"I... no. Of course not," the shopkeeper mutters, his thoughts tangling. "I remember. Stand back from the track."
 
 Hadrik blinks at me in the dim cellar light. "How in the world did you pull that off?"
 
-"His bluff stat," Melindra says. "At high levels, his aura seeps forward and bends perception, convincing weak-willed minds of blatant absurdities. It only works on people with negligible aura discipline."
+"His bluff stat," Melindra says quietly from the stairs. "At high levels, his aura seeps forward and bends perception, convincing weak-willed minds of blatant absurdities. It only works on people with negligible aura discipline."
 
 "So that's what that was," Daren says. "I felt Barry's field slip right through the seredium."
 
-Chains grind overhead. Counterweights groan in the ceiling, and the seredium slab glides upward into a recessed slot. Beyond it lies a dry, lantern-lit vault lined with tiered wooden shelves, glass jars, and drying bundles. Behind a low counter stands an elderly man with a trimmed gray beard, staring at us in mild bewilderment.
+Heavy iron chains grind overhead. Counterweights groan in the ceiling recesses, and the massive seredium slab glides upward into a slot. Beyond it lies a dry, lantern-lit vault lined with tiered wooden shelves, glass jars, and drying botanical bundles. Behind a low counter stands an elderly man with a trimmed gray beard, staring at us in mild bewilderment.
 
 At the far end of the room, a reinforced storage door rests ajar by two inches.
 
 "Welcome to my humble..." the shopkeeper begins, but Melindra cuts him off.
 
-"Stop masking your presence, royal guard," Melindra calls toward the back room, her voice cold and level. "I sense you behind the counter. Step into the open with your hands visible, and no one needs to bleed."
+"Stop masking your presence, royal guard," Melindra calls toward the back room, her voice cold and level. "I sense you behind the partition. Step into the open with your hands visible, and no one needs to bleed."
 
 }
 #if(v_b3_ch6_password != 2 && v_b3_ch6_password != 3 || v_bluff < 4) {
@@ -838,23 +838,23 @@ At the far end of the room, a reinforced storage door rests ajar by two inches.
 
 "It isn't robbery if he gets full payment!" Hadrik says. "Is this merchant's pride worth more than the lives in that ward?"
 
-Daren groans. "Fine. Break the door. I know you've been itching to hit something since we arrived."
+Daren groans, running a gauntlet over his eyes. "Fine. Break the door. I know you've been itching to hit something since we arrived."
 
-Hadrik's grin splits his beard. "You have no idea. Clear the stairwell, everyone. Let's see how much pressure this slab can take."
+Hadrik's grin splits his dark beard. "You have no idea. Clear the stairwell, everyone. Let's see how much pressure this slab can take."
 
-He rolls his shoulders, sets his boots against the stone, and drives a right hook straight into the center of the seredium wall. The metal shrieks, buckles, and fractures into jagged chunks that collapse inward with a deafening crash.
+He rolls his broad shoulders, plants his heavy boots against the flagstones, and drives a right hook straight into the center of the seredium wall. The metal shrieks under the impact, buckles inward, and fractures into jagged chunks that collapse onto the cellar floor with a deafening crash.
 
 }
 #if(v_b3_ch6_password == 0 || v_b3_ch6_password == 1 || v_bluff < 4) {
-Hadrik steps through the breach, shaking dust from his leather sleeve. "Six out of ten for durability. Not terrible, but hardly giant-proof. Look at that—an actual shop."
+Hadrik steps through the breach, shaking gray dust from his leather sleeve. "Six out of ten for durability. Not terrible, but hardly giant-proof. Look at that—an actual shop."
 
 We climb over the shattered metal into a lantern-lit cellar lined with tiered shelving, glass jars, and drying botanical bundles. Behind a low counter, an elderly man with a trimmed gray beard stares at the rubble in paralyzed shock.
 
 At the far end of the room, a heavy storage door stands slightly ajar.
 
-"What in the gods' names have you—" the old man stammers.
+"What in the gods' names have you—" the old man stammers, clutching a weighing scale.
 
-"Stop masking your presence, royal guard," Melindra calls over his voice, locking her gaze on the cracked storage door. "I sense you behind the partition. Step into the open with your hands visible, and no one needs to bleed."
+"Stop masking your presence, royal guard," Melindra calls over his voice, locking her sharp gaze on the cracked storage door. "I sense you behind the partition. Step into the open with your hands visible, and no one needs to bleed."
 
 }
 choice("Continue", B3-Ch06a-Secret3, v_current_scene = B3-Ch06a-Secret3)
@@ -863,21 +863,21 @@ choice("Continue", B3-Ch06a-Secret3, v_current_scene = B3-Ch06a-Secret3)
 ID: B3-Ch06a-Secret3
 TEXT:
 
-"All right, all right, you caught me," a voice calls from the back. "I'm stepping out."
+"All right, all right, you caught me," a voice calls from the back room. "I'm stepping out."
 
-The storage door swings wide. Loyrang, the dark-skinned southern mercenary from yesterday's street clash, steps into the lantern light. His hands rest palms-out above his shoulders, though two long steel blades hang within easy reach at his hips. His dark eyes show zero tension—if anything, he looks mildly entertained.
+The storage door swings wide. Loyrang, the dark-skinned southern mercenary from yesterday's street clash, steps into the lantern light. His hands rest palms-out above his shoulders, though two long steel blades hang within easy reach at his hips. His dark eyes show zero tension—if anything, he looks mildly entertained by the intrusion.
 
-"You're remarkably composed for a man who just walked into an ambush," Kate says, her eyes narrowing.
+"You're remarkably composed for a man who just walked into an ambush," Kate says, her eyes narrowing as frost pricks her fingertips.
 
 "No reason for bad blood," Loyrang says, keeping his hands raised. "You look like sensible fighters. Maybe we can reach an understanding."
 
 "You would discard your royal oath that quickly?" Illuna asks coldly. "A single spoken threat turns your coat?"
 
-"Why wouldn't it?" Loyrang shrugs. "I hold no loyalty to the Ollendor crown or anyone in this district. I'm a tournament entrant, same as you. I signed on for gold. When the contract turns sour, I cut my losses. You want intelligence on the guard roster? Take it freely. It costs me nothing, seeing as I'm slipping through the gates before midday."
+"Why wouldn't it?" Loyrang shrugs, unbothered. "I hold no loyalty to the Ollendor crown or anyone in this district. I'm a tournament entrant, same as you. I signed on for gold. When the contract turns sour, I cut my losses. You want intelligence on the guard roster? Take it freely. It costs me nothing, seeing as I'm slipping through the gates before midday."
 
-Melindra tilts her head, her gaze fixed on him. "His field is steady. He isn't lying."
+Melindra tilts her head, her gaze fixed on the subtle flow of his aura. "His field is steady. He isn't lying."
 
-The shopkeeper gapes at him. "You were planning desertion?"
+The shopkeeper gapes at him from behind the counter. "You were planning desertion?"
 
 "Naturally," Loyrang says. "Why else would I buy out your rare stock at dawn?"
 
@@ -885,11 +885,11 @@ Hadrik leans forward, his jaw tight. "Is Gontrok planning to run too?"
 
 "Hardly," Loyrang snorts. "Gontrok has grander delusions. He intends to position himself as the king's indispensable general so he can direct the royal arsenal against the neighboring kingdoms. He told me straight out that hoarding ancient relics behind city walls is a waste of conqueror's tools."
 
-"That sounds like him," Hadrik mutters.
+"That sounds like him," Hadrik mutters, his fists clenching.
 
-"Leave Gontrok's ambitions aside," Daren says. "Give us tactical specifics. What are their deployment orders?"
+"Leave Gontrok's ambitions aside," Daren says, his voice authoritative. "Give us tactical specifics. What are their deployment orders?"
 
-"Orders?" Loyrang chuckles. "The king handed battle planning to that ambassador from Thilias. The man is an utter fool. His tactical genius extends only to the schedule for kicking down civilian doors. He has no coordinated response for an ambush. In practice, Gontrok will charge straight down the center line the moment he catches a scent, and the rest of the unit will scramble after him to keep him from getting surrounded. Beyond that, it comes down to individual pairings—and given how yesterday went, I wouldn't place high bets on your chances."
+"Orders?" Loyrang chuckles. "The king handed battle planning to that ambassador from Thilias. The man is an utter fool. His tactical genius extends only to the routine of kicking down civilian doors. He has no coordinated response for an ambush. In practice, Gontrok will charge straight down the center line the moment he catches a scent, and the rest of the unit will scramble after him to keep him from getting surrounded. Beyond that, it comes down to individual pairings—and given how yesterday went, I wouldn't place high bets on your chances."
 
 choice(""We were caught off-guard yesterday. Normally, we should be able to beat those two easily."", B3-Ch06a-Caught, v_current_scene = B3-Ch06a-Caught)
 choice(""What are you talking about? We mopped the floor with them yesterday!"", B3-Ch06a-Mopped, v_current_scene = B3-Ch06a-Mopped)
@@ -901,19 +901,19 @@ TEXT:
 
 "We were caught off-guard yesterday. Normally, we should be able to beat those two easily."
 
-"Off-guard?" Loyrang smirks. "That's a generous interpretation. From my vantage point, the captain could have handled the lot of you single-handed."
+"Off-guard?" Loyrang smirks, resting his palms on the counter. "That's a generous interpretation of a near-rout. From my vantage point in the courtyard, the captain could have handled the lot of you single-handed."
 
-"We were unfamiliar with his aura severance technique," Daren says evenly. "That ignorance has been corrected."
+"We were unfamiliar with his aura severance technique," Daren says evenly, his hand resting firm on his pommel. "That ignorance has been corrected."
 
-"And I spent half the night drilling new counters for Gontrok," Hadrik adds. "He won't find the rematch so comfortable."
+"And I spent half the night drilling new counters for Gontrok," Hadrik adds, his knuckles cracking. "He won't find the rematch so comfortable."
 
-"A single evening of practice," Loyrang drawls. "Inspiring. As for the others, the man in black robes relies on rings keyed to distinct spells—short-range spatial shifts, disorientation fields, blade enchantments, presence concealment, and a conjure that launches spectral swords through the air."
+"A single evening of practice," Loyrang drawls, shaking his head. "Inspiring. As for the others, the man in black robes relies on enchanted rings keyed to distinct spells—short-range spatial shifts, disorientation fields, blade enchantments, presence concealment, and a conjure that launches spectral swords through the air."
 
-"We've traded blows with him," I say. "What about the rest?"
+"We've traded blows with him already," I say. "What about the rest?"
 
 "Three others," Loyrang says. "The captain rarely leaves scraps, so I haven't watched them deploy in earnest. The red-cloaked guard casts elaborate illusions. The remaining pair are elementalists of some sort."
 
-"Sparse, but useful," Daren says. "Now for the immediate problem: what do we do with you?"
+"Sparse, but useful," Daren says, his voice flat. "Now for the immediate problem: what do we do with you?"
 
 choice("Continue", B3-Ch06a-Promise, v_current_scene = B3-Ch06a-Promise)
 
@@ -923,19 +923,19 @@ TEXT:
 
 "What are you talking about? We mopped the floor with them yesterday!"
 
-"The only surface you scrubbed was the flagstones with your own backs," Loyrang laughs. "Most of you spent more time eating dirt than standing upright. The captain alone had you dead to rights."
+"The only surface you scrubbed was the flagstones with your own backs," Loyrang laughs, shaking his head. "Most of you spent more time eating dirt than standing upright. The captain alone had you dead to rights."
 
-"We were unfamiliar with his aura severance technique," Daren says evenly. "That ignorance has been corrected."
+"We were unfamiliar with his aura severance technique," Daren says evenly, his hand resting firm on his pommel. "That ignorance has been corrected."
 
-"And I spent half the night drilling new counters for Gontrok," Hadrik adds. "He won't find the rematch so comfortable."
+"And I spent half the night drilling new counters for Gontrok," Hadrik adds, his knuckles cracking. "He won't find the rematch so comfortable."
 
-"A single evening of practice," Loyrang drawls. "Inspiring. As for the others, the man in black robes relies on rings keyed to distinct spells—short-range spatial shifts, disorientation fields, blade enchantments, presence concealment, and a conjure that launches spectral swords through the air."
+"A single evening of practice," Loyrang drawls, amused. "Inspiring. As for the others, the man in black robes relies on enchanted rings keyed to distinct spells—short-range spatial shifts, disorientation fields, blade enchantments, presence concealment, and a conjure that launches spectral swords through the air."
 
-"We've traded blows with him," I say. "What about the rest?"
+"We've traded blows with him already," I say. "What about the rest?"
 
 "Three others," Loyrang says. "The captain rarely leaves scraps, so I haven't watched them deploy in earnest. The red-cloaked guard casts elaborate illusions. The remaining pair are elementalists of some sort."
 
-"Sparse, but useful," Daren says. "Now for the immediate problem: what do we do with you?"
+"Sparse, but useful," Daren says, his voice flat. "Now for the immediate problem: what do we do with you?"
 
 choice("Continue", B3-Ch06a-Promise, v_current_scene = B3-Ch06a-Promise)
 
@@ -945,19 +945,19 @@ TEXT:
 
 "What we are expecting to accomplish is none of your business."
 
-"Your funeral," Loyrang says, raising his palms higher. "I'm only suggesting you weigh the odds before throwing yourselves into another meat grinder. The captain would have cut you down on his own yesterday if the duel had run its course."
+"Your funeral," Loyrang says, raising his palms higher. "I'm only suggesting you weigh the odds before throwing yourselves into another meat grinder. The captain would have cut you down on his own yesterday if the duel had run its full course."
 
-"We were unfamiliar with his aura severance technique," Daren says evenly. "That ignorance has been corrected."
+"We were unfamiliar with his aura severance technique," Daren says evenly, his hand resting firm on his pommel. "That ignorance has been corrected."
 
-"And I spent half the night drilling new counters for Gontrok," Hadrik adds. "He won't find the rematch so comfortable."
+"And I spent half the night drilling new counters for Gontrok," Hadrik adds, his knuckles cracking. "He won't find the rematch so comfortable."
 
-"A single evening of practice," Loyrang drawls. "Inspiring. As for the others, the man in black robes relies on rings keyed to distinct spells—short-range spatial shifts, disorientation fields, blade enchantments, presence concealment, and a conjure that launches spectral swords through the air."
+"A single evening of practice," Loyrang drawls, amused. "Inspiring. As for the others, the man in black robes relies on enchanted rings keyed to distinct spells—short-range spatial shifts, disorientation fields, blade enchantments, presence concealment, and a conjure that launches spectral swords through the air."
 
-"We've traded blows with him," I say. "What about the rest?"
+"We've traded blows with him already," I say. "What about the rest?"
 
 "Three others," Loyrang says. "The captain rarely leaves scraps, so I haven't watched them deploy in earnest. The red-cloaked guard casts elaborate illusions. The remaining pair are elementalists of some sort."
 
-"Sparse, but useful," Daren says. "Now for the immediate problem: what do we do with you?"
+"Sparse, but useful," Daren says, his voice flat. "Now for the immediate problem: what do we do with you?"
 
 choice("Continue", B3-Ch06a-Promise, v_current_scene = B3-Ch06a-Promise)
 
@@ -965,21 +965,21 @@ choice("Continue", B3-Ch06a-Promise, v_current_scene = B3-Ch06a-Promise)
 ID: B3-Ch06a-Promise
 TEXT:
 
-"Let me walk," Loyrang says. "I have no interest in crossing blades with you. The moment I clear the stairs, I'm taking the western thoroughfare straight through the city gates."
+"Let me walk," Loyrang says, nodding toward the stairs. "I have no interest in crossing blades with you. The moment I clear the hatch, I'm taking the western thoroughfare straight through the city gates."
 
-"Or we bind your wrists," Daren says. "I have no guarantee you won't reconsider your exit the moment you hit the street."
+"Or we bind your wrists," Daren says. "I have no guarantee you won't reconsider your exit the moment you hit the cobblestones."
 
-"Or we cut his throat," Melindra suggests lightly. "It solves the tactical dilemma in one stroke."
+"Or we cut his throat," Melindra suggests lightly, her fingers trailing along the shelf. "It solves the tactical dilemma in one clean stroke."
 
-Loyrang's smile thins, his stance settling an inch lower. "I wouldn't advise that. I didn't earn a royal tabard by being easy prey. If you force a fight in this basement, I'll take at least two of you with me before I go down."
+Loyrang's smile thins, his stance settling an inch lower on the balls of his feet. "I wouldn't advise that. I didn't earn a royal tabard by being easy prey. If you force a fight in this basement, I'll take at least two of you with me before I go down."
 
-"If blood hits these floorboards, no one buys a single leaf!" the old shopkeeper cries from behind his counter.
+"If blood hits these floorboards, no one buys a single leaf!" the old shopkeeper cries from behind his counter, clutching his scales.
 
-"We could slit your throat too and take the stock," Melindra points out.
+"We could slit your throat too and take the stock," Melindra points out cheerfully.
 
-"Enough," Daren snaps, stepping between Melindra and the mercenary. "Nobody is executing anyone. We swore an oath before breaching this city: zero unnecessary fatalities. Overthrowing a tyrant is one thing; murdering bystanders and surrendered men for convenience is another. We either bind him or release him. Those are the only terms."
+"Enough," Daren snaps, stepping between Melindra and the mercenary, his armored frame blocking the space. "Nobody is executing anyone. We swore an oath before breaching this city: zero unnecessary fatalities. Overthrowing a tyrant is one thing; murdering bystanders and surrendered men for convenience is another. We either bind him or release him. Those are the only terms."
 
-Melindra rolls her eyes. "You make everything so tedious. Fine. Which is it?"
+Melindra rolls her eyes with a quiet sigh. "You make everything so tedious. Fine. Which is it?"
 
 choice("Let him leave.", B3-Ch06a-Settled, v_current_scene = B3-Ch06a-Settled, v_b3_ch6_tie = 0)
 choice("Tie him up.", B3-Ch06a-Settled, v_current_scene = B3-Ch06a-Settled, v_b3_ch6_tie = 1)
@@ -991,21 +991,21 @@ TEXT:
 #if(v_b3_ch6_tie == 0) {
 "Let him leave," I say. "If we leave him tied in a cellar, a search party might find him, cut the ropes, and drag him back into the fight."
 
-"A valid risk," Daren agrees. "Loyrang, if we step aside, give your word that you will proceed directly to the city gates without delay."
+"A valid risk," Daren agrees, stepping back to clear the path. "Loyrang, if we step aside, give your word that you will proceed directly to the city gates without delay."
 
-"On my honor as a free mercenary," Loyrang says.
+"On my honor as a free mercenary," Loyrang says, bowing his head slightly.
 
-Melindra watches him closely. "His field didn't waver."
+Melindra watches his energy closely. "His field didn't waver."
 
-"Move fast," Kate says, her hand resting near her waist. "Before a patrol catches you in the lane."
+"Move fast," Kate says, her fingers resting near her waist. "Before a patrol catches you in the lane."
 
 "Don't need to tell me twice," Loyrang says.
 
 He tosses four silver crowns onto the wooden counter. "For the jars, old man."
 
-He sidesteps past our group with deliberate slowness, ascends the creaking wooden stairs, and disappears through the cellar hatch into the morning light.
+He sidesteps past our group with deliberate, measured slowness, ascends the creaking wooden stairs, and disappears through the cellar hatch into the cold morning light.
 
-"Right," Daren says, turning back to the shelves. "Now let's see to our purchases."
+"Right," Daren says, turning back to the apothecary's shelves. "Now let's see to our purchases."
 
 }
 #if(v_b3_ch6_tie == 1) {
@@ -1013,13 +1013,13 @@ He sidesteps past our group with deliberate slowness, ascends the creaking woode
 
 "I have to object," Loyrang says smoothly, his hands drifting closer to his hilts. "I have no intention of allowing myself to be tied up while your stillwater friend is openly musing about slitting throats. I am not waiting defenseless for someone to change their mind. If you want me bound, you'll have to beat me into the flagstones first."
 
-"All right," Daren says, holding up a hand. "What do you propose instead?"
+"All right," Daren says, holding up a placating gauntlet. "What do you propose instead?"
 
-"Lock me in the storage cellar for an hour," Loyrang says, nodding toward the heavy oak door in the back. "I stay off the board, and you keep your hands clean. You're trusting the shopkeeper not to turn the key the moment you leave, but you'd be trusting him with ropes just the same."
+"Lock me in the storage cellar for an hour," Loyrang says, gesturing toward the heavy oak door in the back. "I stay off the board, and you keep your hands clean. You're trusting the shopkeeper not to turn the key the moment you leave, but you'd be trusting him with ropes just the same."
 
-Daren considers it. "That seems workable. If the proprietor agrees."
+Daren considers it for a heartbeat. "That seems workable. If the proprietor agrees."
 
-"He can rot in that storeroom until winter for all I care," the shopkeeper mutters. "Just finish your business."
+"He can rot in that storeroom until winter for all I care," the shopkeeper mutters, wringing his hands. "Just finish your business and get out."
 
 "Done," Daren says. "Let's see to the herbs."
 
@@ -1031,31 +1031,30 @@ choice("Continue", B3-Ch06a-Bluffed, v_current_scene = B3-Ch06a-Bluffed) if (v_b
 ID: B3-Ch06a-Destroyed
 TEXT:
 
-
 #if(v_ch11_saved_rose == 1) {
-"You expect service?" the old shopkeeper splutters, pointing at the heap of mangled seredium. "You demolish my front gate and ask for polite trade?"
+"You expect service?" the old shopkeeper splutters, pointing a trembling finger at the heap of mangled seredium. "You demolish my front gate and ask for polite trade?"
 
-"Does that mean you refuse to sell?" Daren asks calmly.
+"Does that mean you refuse to sell?" Daren asks calmly, resting a hand on his purse.
 
 "I heard you lunatics discussing king-slaying," the shopkeeper snaps. "If I refuse, you'll simply strip the room and leave me in an alley. Take what you want, pay what you owe, and get out of my basement. But don't expect me to read labels for you."
 
 "Fair enough," Daren says. "Kelrim, assist me. I recognize the common strains, but the local preparations are unfamiliar."
 
-"Right behind you," Kelrim says.
+"Right behind you," Kelrim says, pulling a small brass blade from his pocket.
 
 They move along the shelves and into the storage alcove, inspecting dried cuttings, sealed jars, and powder tins. Within a few minutes, they locate the bulk of the list. For the missing northern variety, Kelrim cross-references Rose's advice and pulls down a jar of greenbugger bontroddle salve and a bundle of dried riggus stems.
 
 }
 #if(v_ch11_saved_rose == 0) {
-"You expect service?" the old shopkeeper splutters, pointing at the heap of mangled seredium. "You demolish my front gate and ask for polite trade?"
+"You expect service?" the old shopkeeper splutters, pointing a trembling finger at the heap of mangled seredium. "You demolish my front gate and ask for polite trade?"
 
-"Does that mean you refuse to sell?" Daren asks calmly.
+"Does that mean you refuse to sell?" Daren asks calmly, resting a hand on his purse.
 
 "I heard you lunatics discussing king-slaying," the shopkeeper snaps. "If I refuse, you'll simply strip the room and leave me in an alley. Take what you want, pay what you owe, and get out of my basement. But don't expect me to read labels for you."
 
 "Fair enough," Daren says. "Kelrim, assist me. I recognize the common strains, but the local preparations are unfamiliar."
 
-"Right behind you," Kelrim says.
+"Right behind you," Kelrim says, pulling a small brass blade from his pocket.
 
 They move along the shelves and into the storage alcove, inspecting dried cuttings, sealed jars, and powder tins. Within a few minutes, they locate the bulk of the list. For the missing northern variety, Kelrim picks out an alternate regional root with comparable astringent properties.
 
@@ -1084,18 +1083,19 @@ We scramble over the crushed seredium and climb the wooden stairs. In the dereli
 }
 "What's the play?" Hadrik asks, rolling his shoulders as we reach the lane. "Straight back to the tunnels?"
 
-"Immediately," Melindra says, her posture sharpening. "Our presence is flagged. Several guard signatures are converging on this sector right now."
+"Immediately," Melindra says, her posture sharpening as she scans the air. "Our presence is flagged. Several guard signatures are converging on this sector right now."
 
-Daren draws his transceiver with his free hand. "I'll coordinate extraction."
+Daren draws his transceiver with his free hand. "I'll arrange extraction."
 
 He clicks the dial and taps the casing. "Thundercloud, can you read me?"
 
 choice("Continue", B3-Ch06a-Silent, v_current_scene = B3-Ch06a-Silent)
 
+
 ID: B3-Ch06a-Bluffed
 TEXT:
 
-"Certainly," the shopkeeper says, motioning toward the counter. "Step forward, if you please. I need to lower the barrier, and I'd prefer not to crush paying customers."
+"Certainly," the shopkeeper says, motioning toward the counter. "Step forward, if you please. I need to lower the barrier, and I'd prefer not to crush paying patrons."
 
 We step past the track. The old man pulls a recessed iron lever, and the seredium slab descends smoothly from the ceiling, sealing the stairwell behind us with a muffled clang.
 
@@ -1105,7 +1105,7 @@ We step past the track. The old man pulls a recessed iron lever, and the serediu
 
 "Given the lockdown and the difficulty of smuggling those particular strains across the border, I charge quintuple standard rates," the shopkeeper says smoothly.
 
-"Fair enough," Daren says without hesitation.
+"Fair enough," Daren says without hesitation, reaching for his pouch.
 
 The old man blinks. "No haggling? A rare pleasure. One moment—I believe I have jars on the upper shelf."
 
@@ -1114,7 +1114,7 @@ Hadrik leans over Daren's shoulder, his expression pained as the shopkeeper turn
 #if(v_b3_ch6_tie == 1) {
 "Quiet, Hadrik," Daren whispers. "I need a handful of leaves, not the entire warehouse."
 
-"It's the principle of the thing!" Hadrik mutters. "You could have knocked off twenty percent with a single cough."
+"It's the principle of the thing!" Hadrik mutters. "You could have knocked off a fifth of the price with a single cough."
 
 "Here we are," the shopkeeper says, setting two sealed jars on the counter. "How much do you require?"
 
@@ -1132,7 +1132,7 @@ The old man pulls the counter lever again. The seredium slab rises into the ceil
 #if(v_b3_ch6_tie == 0) {
 "Quiet, Hadrik," Daren whispers. "I need a handful of leaves, not the entire warehouse."
 
-"It's the principle of the thing!" Hadrik mutters. "You could have knocked off twenty percent with a single cough."
+"It's the principle of the thing!" Hadrik mutters. "You could have knocked off a fifth of the price with a single cough."
 
 "Here we are," the shopkeeper says, setting two sealed jars on the counter. "How much do you require?"
 
@@ -1149,11 +1149,11 @@ We climb to the surface, kick the rug back over the cellar hatch, and step into 
 
 "What's the play?" Hadrik asks, rolling his shoulders as we reach the lane. "Straight back to the tunnels?"
 
-"Immediately," Melindra says, her posture sharpening. "Our presence is flagged. Several guard signatures are converging on this sector right now."
+"Immediately," Melindra says, her posture sharpening as she scans the air. "Our presence is flagged. Several guard signatures are converging on this sector right now."
 
-Daren draws his transceiver with his free hand. "I'll coordinate extraction."
+Daren draws his transceiver with his free hand. "I'll arrange extraction."
 
-He clicks the dial and taps the casing. "Thundercloud, can you read me?" 
+He clicks the dial and taps the casing. "Thundercloud, can you read me?"
 
 choice("Continue", B3-Ch06a-Silent, v_current_scene = B3-Ch06a-Silent)
 
@@ -1161,13 +1161,13 @@ choice("Continue", B3-Ch06a-Silent, v_current_scene = B3-Ch06a-Silent)
 ID: B3-Ch06a-Complaint
 TEXT:
 
-"Greetings," the Overseer's voice crackles from the bronze sphere as it matches our stride. "Do you have ninety seconds to participate in a municipal feedback survey?"
+"Greetings," the Overseer's synthetic voice crackles from the bronze sphere as it glides level with my shoulder. "Do you have ninety seconds to participate in a municipal feedback survey?"
 
-"We're on a tight schedule," I say.
+"We're pressed for time," I say, keeping my stride long and steady.
 
 "The Overseer protocol can administer the assessment in transit," the machine replies smoothly. "First metric: on a scale from one to five, how would you evaluate your engagements with the Overseer thus far?"
 
-"Is zero an option?" Hadrik asks. "Because you haven't given us a single straight answer since we arrived."
+"Can we pick zero?" Hadrik asks, peering up with an incredulous scowl. "Because you haven't given us a single straight answer since we arrived."
 
 "Grievance recorded," the Overseer says without missing a beat. "The protocol will seek efficiency gains in future iterations. Second metric: when the protocol cautioned yesterday that there would be 'no turning back' once you deviated from designated parameters, was the underlying intent sufficiently clear?"
 
@@ -1186,13 +1186,13 @@ TEXT:
 #if(v_b3_ch6_survey == 0) {
 "Fine. In that case, no, you weren't clear enough yesterday."
 
-"Survey completed," the Overseer says cheerfully. "Deploying armed response units to terminate your party. Have a productive day."
+"Survey completed," the Overseer says cheerfully, its chime bright and clear. "Deploying armed response units to terminate your party. Have a productive day."
 
-"Right. Have a productive day yourself, scrap heap," I say as the drone fires its thrusters and arcs upward into the clouds.
+"Right. Have a productive day yourself, scrap heap," I say as the drone fires thrusters with a high-pitched whine and arcs steeply into the clouds.
 
-"We don't have room for a pitched fight," Daren says, his hand on his scabbard. "Kelrim, distance to the nearest apothecary?"
+"We don't have room for a pitched fight on open stones," Daren says, his gauntlet gripping his scabbard. "Kelrim, distance to the nearest apothecary?"
 
-"Two minutes at a sprint," Kelrim says.
+"Two minutes at a dead sprint," Kelrim says.
 
 "Sprint, then," Daren barks. "Go!"
 
@@ -1200,25 +1200,25 @@ TEXT:
 #if(v_b3_ch6_survey == 1) {
 "Fine. In that case, yes, you were clear enough yesterday."
 
-"Survey completed," the Overseer says cheerfully. "Deploying armed response units to terminate your party. Have a productive day."
+"Survey completed," the Overseer says cheerfully, its chime bright and clear. "Deploying armed response units to terminate your party. Have a productive day."
 
-"Right. Have a productive day yourself, scrap heap," I say as the drone fires its thrusters and arcs upward into the clouds.
+"Right. Have a productive day yourself, scrap heap," I say as the drone fires thrusters with a high-pitched whine and arcs steeply into the clouds.
 
-"We don't have room for a pitched fight," Daren says, his hand on his scabbard. "Kelrim, distance to the nearest apothecary?"
+"We don't have room for a pitched fight on open stones," Daren says, his gauntlet gripping his scabbard. "Kelrim, distance to the nearest apothecary?"
 
-"Two minutes at a sprint," Kelrim says.
+"Two minutes at a dead sprint," Kelrim says.
 
 "Sprint, then," Daren barks. "Go!"
 
 }
 #if(v_b3_ch6_survey == 0 || v_b3_ch6_survey == 1) {
-We run hard behind the goblin, boots slapping wet cobblestones. Above us, the metallic hum swells as dozens of red-eyed drones peel out of formation, angling down from the rooftops to box the street.
+We run hard behind the goblin, boots slapping wet cobblestones and splashing through filthy runoff. Above us, the metallic hum swells into a deafening roar as dozens of red-eyed bronze drones peel out of high formation, banking sharply down from the slate rooftops to box the street.
 
-"They're setting a perimeter," Daren says.
+"They're setting a perimeter," Daren says, his shield coming up.
 
-"Not if I scramble their lines first," Hadrik says. "I can take eagle form and dive their lead cluster before they lock formation. That buys you an open run to the threshold."
+"Not if I scramble their lines first," Hadrik says, his eyes flashing. "I can take eagle form and dive their lead cluster before they lock formation. That buys you an open run to the threshold."
 
-"You have no wide-angle area spells," Kate counters. "If Melindra holds a wind barrier around us, I can ride an ice pillar into the crossfire and shear their wings with icicle bursts."
+"You have no wide-angle area spells," Kate counters, frost curling from her palms. "If Melindra holds a wind barrier around us, I can ride an ice pillar into the crossfire and shear their wings with icicle bursts."
 
 }
 choice("Agree with Hadrik's plan.", B3-Ch06a-Hadrik-Plan, v_current_scene = B3-Ch06a-Hadrik-Plan, v_b3_ch6_plan = 0) if (v_b3_ch6_survey == 0 || v_b3_ch6_survey == 1)
@@ -1230,15 +1230,14 @@ choice("Suggest calling Rose on the transceiver so she can freeze time for thirt
 ID: B3-Ch06a-Hadrik-Plan
 TEXT:
 
-
 set(v_is_dead,0) if (v_aura_hardening >= 2 || v_combat_technique >= 1)
 set(v_is_dead,1) if (v_aura_hardening < 2 && v_combat_technique < 1)
 #if(v_b3_ch6_plan == 0 && v_combat_technique >= 1) {
-"Melindra's wind control is too volatile," I say. "Holding the barrier yesterday doesn't guarantee stability today. Let Hadrik draw the initial volley."
+"Melindra's wind control is too volatile," I say on the run. "Holding the barrier yesterday doesn't guarantee stability today. Let Hadrik draw the initial volley."
 
-"Keep moving," Hadrik says. "I'll turn these flying kettles into scrap."
+"Keep moving," Hadrik says, his teeth bared in a wild grin. "I'll turn these flying kettles into scrap."
 
-His form shrinks, feathers sprouting along his arms as he shifts into a massive golden eagle. He launches upward, shrieking into the lead formation. Ten feet above the rooftops he snaps back to dwarven shape, drives a heavy leather boot into the optic lens of the nearest sphere, and sends it spinning into the masonry below.
+His stout form shrinks, golden feathers sprouting along his arms as he shifts into a massive eagle. He launches upward with a screech, cutting into the lead formation. Ten feet above the rooftops he snaps back to dwarven shape mid-air, drives a heavy leather boot into the optic lens of the nearest sphere, and sends the shattered hull spinning into the masonry below.
 
 "Why encourage him?" Kate mutters as we sprint through the alley mouth. "He can't hold fifty of them alone."
 
@@ -1250,11 +1249,11 @@ As Kate warns, the swarm computes Hadrik's lone disruption, delegates three unit
 
 }
 #if(v_b3_ch6_plan == 0 && v_combat_technique < 1) {
-"Melindra's wind control is too volatile," I say. "Holding the barrier yesterday doesn't guarantee stability today. Let Hadrik draw the initial volley."
+"Melindra's wind control is too volatile," I say on the run. "Holding the barrier yesterday doesn't guarantee stability today. Let Hadrik draw the initial volley."
 
-"Keep moving," Hadrik says. "I'll turn these flying kettles into scrap."
+"Keep moving," Hadrik says, his teeth bared in a wild grin. "I'll turn these flying kettles into scrap."
 
-His form shrinks, feathers sprouting along his arms as he shifts into a massive golden eagle. He launches upward, shrieking into the lead formation. Ten feet above the rooftops he snaps back to dwarven shape, drives a heavy leather boot into the optic lens of the nearest sphere, and sends it spinning into the masonry below.
+His stout form shrinks, golden feathers sprouting along his arms as he shifts into a massive eagle. He launches upward with a screech, cutting into the lead formation. Ten feet above the rooftops he snaps back to dwarven shape mid-air, drives a heavy leather boot into the optic lens of the nearest sphere, and sends the shattered hull spinning into the masonry below.
 
 "Why encourage him?" Kate mutters as we sprint through the alley mouth. "He can't hold fifty of them alone."
 
@@ -1275,7 +1274,7 @@ As Kate warns, the swarm computes Hadrik's lone disruption, delegates three unit
 }
 A wall of bronze spheres drops into the lane fifty paces ahead, red lenses glowing as energy crackles across their weapon ports.
 
-"Clear a corridor," Daren shouts, drawing sword and shield. "Form up!"
+"Clear a corridor," Daren shouts, drawing sword and shield, his scar tightening. "Form up!"
 
 "No," I say. "You and Kelrim push through. Take Hadrik to punch through the line. We pull the swarm into the air and keep their guns off you."
 
@@ -1283,9 +1282,9 @@ A wall of bronze spheres drops into the lane fifty paces ahead, red lenses glowi
 
 "We track you from above," I say. "Melindra can lock your aura. Move! Hadrik, carve a hole for Daren!"
 
-Hadrik drops from a roof ledge in dwarf form, smashing two spheres together with a ringing clang. Daren, Kelrim, and Hadrik bull-rush through the gap toward the apothecary.
+Hadrik drops from a roof ledge in dwarf form, smashing two spheres together with a deafening clang. Daren, Kelrim, and Hadrik bull-rush through the breach toward the apothecary door.
 
-Melindra flicks her fingers. Rushing air curls around my boots, lifting me ten feet off the flagstones. Flower ignites twin jets of orange flame beneath her bare heels, soaring alongside Kate, who rides a rising stair of frost. Leila stays low, daggers flashing as she intercepts low-altitude sweepers.
+Melindra flicks her fingers. Rushing air curls tight around my boots, lifting me ten feet off the flagstones. Flower ignites twin jets of orange flame beneath her bare heels, soaring alongside Kate, who rides a rising stair of frost. Leila stays low, daggers flashing as she intercepts low-altitude sweepers with lethal speed.
 
 I unlimber my crossbow, cocking the stirrup with one smooth pull and snapping a steel bolt into the groove.
 
@@ -1310,7 +1309,7 @@ Down the avenue, Daren, Kelrim, and Hadrik emerge from Pete's storefront, satche
 #if(v_aura_hardening < 2 && v_combat_technique < 1) {
 The swarm overwhelms my field of view. A bronze sphere drops from a blind angle behind my shoulder, its condenser whining as it discharges a direct lightning bolt into my back.
 
-The electric surge bypasses my thin defenses, roasting my nervous system in an instant. My lungs seize. The crossbow slips from numb fingers. The cobblestones rush up to meet me, and darkness swallows the street.
+The electric surge bypasses my thin defenses, roasting my flesh and nerves in an instant. My lungs seize. The crossbow slips from numb fingers. The cobblestones rush up to meet me, and darkness swallows the street.
 
 }
 choice("Continue", B3-Ch06a-Entrance, v_current_scene = B3-Ch06a-Entrance) if (v_aura_hardening >= 2 || v_combat_technique >= 1)
@@ -1360,7 +1359,7 @@ I slap the transceiver shut and pocket it on the run. "The net is still live. Pl
 
 "On it!" Hadrik shouts. "Keep moving!"
 
-His form shrinks, feathers sprouting along his arms as he shifts into a massive golden eagle. He launches upward, shrieking into the lead formation. Ten feet above the rooftops he snaps back to dwarven shape, drives a heavy leather boot into the optic lens of the nearest sphere, and sends it spinning into the masonry below.
+His form shrinks, golden feathers sprouting along his arms as he shifts into a massive eagle. He launches upward, shrieking into the lead formation. Ten feet above the rooftops he snaps back to dwarven shape, drives a heavy leather boot into the optic lens of the nearest sphere, and sends it spinning into the masonry below.
 
 "Why encourage him?" Kate mutters as we sprint through the alley mouth. "He can't hold fifty of them alone."
 
@@ -1370,7 +1369,6 @@ His form shrinks, feathers sprouting along his arms as he shifts into a massive 
 
 choice("Continue", B3-Ch06a-Hadrik-Plan, v_current_scene = B3-Ch06a-Hadrik-Plan)
 
-
 ID: B3-Ch06a-Kate-Plan
 TEXT:
 
@@ -1379,43 +1377,43 @@ set(v_is_dead,1) if (v_aura_hardening < 3 && v_combat_technique < 2)
 #if(v_combat_technique >= 2) {
 "Kate's right, Hadrik," I say. "Her ice bursts clear wide arcs in the air. We need area control, not single punches."
 
-"Fine," Hadrik grunts, angling toward the front. "I'll clear the ground-level scrap."
+"Fine," Hadrik grunts, angling toward the front with his axe loose in his grip. "I'll clear the ground-level scrap."
 
-"Melindra, with me," Kate says, stamping her boot to summon a flat disc of solid blue ice.
+"Melindra, with me," Kate says, stamping her boot to summon a flat disc of solid blue ice over the flagstones.
 
-Melindra frowns at the rising disc. "My air currents are erratic today. I cannot guarantee a stable barrier under heavy bombardment."
+Melindra frowns down at the rising disc. "My air currents are erratic today. I cannot guarantee a stable barrier under heavy bombardment."
 
-"Step onto the frost," Kate says. "We adapt as we climb."
+"Step onto the frost," Kate says, her voice hard. "We adapt as we climb."
 
-Melindra steps onto the platform. The ice disc lifts vertically on frost plumes, carrying them twenty feet into the crossfire.
+Melindra steps onto the platform. The ice disc lifts vertically on howling frost plumes, carrying them twenty feet into the crossfire.
 
 "Keep your legs moving!" Daren shouts, shielding Kelrim with his armored shoulder.
 
-I glance upward as we sprint. The bronze spheres converge on the rising platform, discharging crackling elemental lances. Melindra's wind barrier bends and flickers, buffeted by lightning and kinetic slugs. The gale shudders on the verge of total collapse.
+I glance upward as we sprint. The bronze spheres converge on the rising platform, discharging crackling elemental lances. Melindra's wind barrier bends and flickers under the assault, buffeted by lightning arcs and kinetic slugs. The gale shudders on the verge of total collapse.
 
 }
 #if(v_combat_technique < 2) {
 "Kate's right, Hadrik," I say. "Her ice bursts clear wide arcs in the air. We need area control, not single punches."
 
-"Fine," Hadrik grunts, angling toward the front. "I'll clear the ground-level scrap."
+"Fine," Hadrik grunts, angling toward the front with his axe loose in his grip. "I'll clear the ground-level scrap."
 
-"Melindra, with me," Kate says, stamping her boot to summon a flat disc of solid blue ice.
+"Melindra, with me," Kate says, stamping her boot to summon a flat disc of solid blue ice over the flagstones.
 
-Melindra frowns at the rising disc. "My air currents are erratic today. I cannot guarantee a stable barrier under heavy bombardment."
+Melindra frowns down at the rising disc. "My air currents are erratic today. I cannot guarantee a stable barrier under heavy bombardment."
 
-"Step onto the frost," Kate says. "We adapt as we climb."
+"Step onto the frost," Kate says, her voice hard. "We adapt as we climb."
 
-Melindra steps onto the platform. The ice disc lifts vertically on frost plumes, carrying them twenty feet into the crossfire.
+Melindra steps onto the platform. The ice disc lifts vertically on howling frost plumes, carrying them twenty feet into the crossfire.
 
 "Keep your legs moving!" Daren shouts, shielding Kelrim with his armored shoulder.
 
-I glance upward as we sprint. The bronze spheres converge on the rising platform, discharging crackling elemental lances. Melindra's wind barrier bends and flickers, buffeted by lightning and kinetic slugs. The gale shudders on the verge of total collapse.
+I glance upward as we sprint. The bronze spheres converge on the rising platform, discharging crackling elemental lances. Melindra's wind barrier bends and flickers under the assault, buffeted by lightning arcs and kinetic slugs. The gale shudders on the verge of total collapse.
 
 }
 #if(v_aura_hardening >= 3 && v_combat_technique < 2) {
 "Daren, push for the shop," I call out. "Flower and I are backing them up. That barrier is about to crack."
 
-"Petal and I are airborne!" Flower shouts, twin jets of orange fire flaring from her heels.
+"Petal and I are airborne!" Flower shouts, twin jets of orange flame flaring from her bare heels.
 
 "Keep your visual on our line!" Daren bellows over the gunfire. "Kelrim is the only one with the street map!"
 
@@ -1423,11 +1421,11 @@ I glance upward as we sprint. The bronze spheres converge on the rising platform
 
 Melindra flicks her wrist. Rushing wind curls tight beneath my boots, hurling me thirty feet into the sky. I unlimber my crossbow, nocking a heavy quarrel as Flower and I close ranks with Kate's ice platform.
 
-Dozens of bronze spheres swivel toward us, their red lenses burning. I cock and fire, dropping two drones through their optics, but fresh reinforcements peel off the cloud deck to replace them.
+Dozens of bronze spheres swivel toward us, their red lenses burning with malice. I cock and fire, dropping two drones through their optics, but fresh reinforcements peel off the cloud deck to replace them.
 
 The sheer volume of fire blinds my peripheral vision. A drone drops silently out of the sun behind my left shoulder, its capacitor screaming as it unleashes a freezing beam point-blank into my spine.
 
-Frost coats my coat in an instant, biting deep into my flesh. My hardened aura absorbs the worst of the crystallization, preventing my organs from freezing solid, though my muscles lock in agony. I grit my teeth, whip my crossbow around, and drive a steel bolt straight through the drone's optic lens. The casing shatters in a hail of frozen shards.
+Frost coats my coat in an instant, biting deep into my flesh like needles. My hardened aura absorbs the worst of the crystallization, preventing my vital organs from freezing solid, though my muscles lock in agony. I grit my teeth, whip my crossbow around, and drive a steel bolt straight through the drone's optic lens. The casing shatters in a hail of frozen copper.
 
 "Barry!" Flower darts in, four orbiting spheres of white-hot flame spiraling around my torso until warmth thaws the frost in my coat. "I've got you!"
 
@@ -1441,7 +1439,7 @@ We glide down to the street cobblestones just as Daren pushes Pete's front door 
 #if(v_combat_technique >= 2 || v_aura_hardening < 3) {
 "Daren, push for the shop," I call out. "Flower and I are backing them up. That barrier is about to crack."
 
-"Petal and I are airborne!" Flower shouts, twin jets of orange fire flaring from her heels.
+"Petal and I are airborne!" Flower shouts, twin jets of orange fire flaring from her bare heels.
 
 "Keep your visual on our line!" Daren bellows over the gunfire. "Kelrim is the only one with the street map!"
 
@@ -1451,7 +1449,7 @@ Melindra flicks her wrist. Rushing wind curls tight beneath my boots, hurling me
 
 }
 #if(v_combat_technique >= 2) {
-My combat technique training keeps the aerial melee readable. I anticipate the attack angles of the bronze spheres, ducking under kinetic slugs and leading crossbow shots directly into their propulsion seams. Flower showers the flank in white-hot flame while Kate's icicles spear optics.
+My combat technique training keeps the aerial melee readable. I anticipate the attack angles of the bronze spheres, ducking under kinetic slugs and leading crossbow shots directly into their propulsion seams. Flower showers the flank in white-hot flame while Kate's icicles spear optics with ruthless precision.
 
 Down the avenue, Daren waves from the threshold of Pete's shop, pulling Kelrim, Leila, and Hadrik inside.
 
@@ -1495,7 +1493,7 @@ I unclip the transceiver, spin the dial to Rose's rune, and tap the plate.
 
 "I... I think so," Rose says. "Give me a moment."
 
-The air around us turns heavy and glassy. The hum of thrusters cuts out. Above us, the flock of bronze spheres freezes motionless in the sky.
+The air around us turns heavy, crystalline, and glassy. The roar of thrusters cuts out instantly. Above us, the flock of bronze spheres freezes motionless in the sky.
 
 Two drones in the lead rank, however, continue their descent, weapon ports humming as they track our sprint.
 
@@ -1505,7 +1503,7 @@ Two drones in the lead rank, however, continue their descent, weapon ports hummi
 
 "I have them," Hadrik shouts.
 
-He leaps off the cobblestones, grabs the lead drone by its housing, and smashes it into the second. Both spheres crash onto the flagstones in twisted heaps of copper.
+He leaps off the cobblestones, grabs the lead drone by its housing, and smashes it with crushing giant force into the second. Both spheres crash onto the flagstones in twisted heaps of sparking copper.
 
 "Threat cleared," I tell Rose. "Hold the weave as long as you comfortably can. The moment you feel dizzy, drop it."
 
@@ -1517,7 +1515,7 @@ choice("Continue", B3-Ch06a-Rose-Asleep2, v_current_scene = B3-Ch06a-Rose-Asleep
 ID: B3-Ch06a-Rose-Asleep2
 TEXT:
 
-We cover eighty paces of open avenue under the frozen sky before the glassy tension in the air shatters. The world snaps back into motion, the distant sounds of the city returning in a rush.
+We cover eighty paces of open avenue under the frozen sky before the glassy tension in the air shatters with a quiet ring. The world snaps back into motion, the distant sounds of the city returning in a rush.
 
 "That's all I have," Rose breathes, exhaustion thick in her tone. "I hope it was enough."
 
@@ -1529,7 +1527,7 @@ I pocket the transceiver. Behind us, the drones hover in disarray, scanning the 
 
 "The shop is just ahead," Kelrim whispers, turning into a narrow alleyway. "This way!"
 
-We sprint down the passage and halt before the timber facade of Pete's Herbal Shop.
+We sprint down the passage and halt before the weathered timber facade of Pete's Herbal Shop.
 
 "Inside," Kelrim says, shoving the door open.
 
@@ -1603,7 +1601,7 @@ The bronze drone drifts right behind my shoulder as I approach the entrance. Rat
 
 "Input does not match survey parameters," the Overseer replies. "To repeat the prompt, query the active unit."
 
-"Splendid," I say, leaning my shoulder against the brick wall. "Let me know when you have something new."
+"Splendid," I say, leaning my shoulder against the cold brick wall. "Let me know when you have something new."
 
 "Request logged. Reminder: survey completion remains pending."
 
@@ -1611,7 +1609,7 @@ After a short silence, the drone's tone drops its bright synthetic chime, flatte
 
 "Are you answering the prompt or not?" the Overseer asks quietly.
 
-I push off the brickwork, taking a step toward the floating sphere. "Dropping the customer service act? Ready to strike?"
+I push off the brickwork, taking a step toward the floating sphere. "Dropping the cordial merchant act? Ready to strike?"
 
 "Negative," the Overseer says. "A general recall has been issued for all municipal units. Survey completion will carry zero tactical penalty for your group."
 
@@ -1627,6 +1625,7 @@ choice(""Yes."", B3-Ch06a-Selected, v_current_scene = B3-Ch06a-Selected, v_b3_ch
 choice(""No."", B3-Ch06a-Selected, v_current_scene = B3-Ch06a-Selected, v_b3_ch6_selected = 1)
 choice(""Yes or no."", B3-Ch06a-Selected, v_current_scene = B3-Ch06a-Selected, v_b3_ch6_selected = 2)
 choice(""Sorry, I'm not answering."", B3-Ch06a-Selected, v_current_scene = B3-Ch06a-Selected, v_b3_ch6_selected = 3)
+
 
 ID: B3-Ch06a-Selected
 TEXT:
@@ -1709,70 +1708,70 @@ choice("Continue", B3-Ch06a-Silent, v_current_scene = B3-Ch06a-Silent)
 ID: B3-Ch06a-Pete
 TEXT:
 
-"I don't know, Pete," Hadrik says, surveying the wall of labeled jars with a skeptical frown. "Your stock looks respectable, but the merchant down the block swore his merchandise was unmatched across the continent. Hard to argue with quality like that, wouldn't you say?"
+"I don't know, Pete," Hadrik says, surveying the wall of labeled clay jars with a skeptical frown, crossing his heavy arms. "Your stock looks respectable enough, but the merchant down the block swore his merchandise was unmatched across the continent. Hard to argue with quality like that, wouldn't you say?"
 
-"Who told you that?" Pete bristles, slamming a flat palm on the counter. "Was it Ben? That man is a swindler! A charlatan! I tell everyone who walks the avenue to avoid Ben's shop, but fools never listen!"
+"Who told you that?" Pete bristles instantly, slamming a broad, flour-dusted palm down on the polished counter so hard the glass jars rattle. "Was it Ben? That man is a swindler! A charlatan! I tell everyone who walks this avenue to avoid Ben's den of thieves, but fools never listen to honest tradesmen!"
 
-"Ben offered exceptional terms," Hadrik says, the corner of his mouth twitching. "Even with your discount sign outside, your figures don't quite match his."
+"Ben offered exceptional terms," Hadrik says, the corner of his mouth twitching beneath his black beard. "Even with your discount board swinging outside, your figures don't quite match his."
 
-"Because Ben sells sweepings off the floor and calls it charity!" Pete barks, leaning forward. "Listen to me. I'll undercut him entirely so you never set foot in that den of thieves again. Name your plants, and I'll give you wholesale rates across the board."
+"Because Ben sells broom sweepings off his cellar floor and calls it charity!" Pete barks, leaning across the counter until his red face is inches from Hadrik's. "Listen to me. I'll undercut him entirely so you never set foot in that crook's shop again. Name your plants, and I'll give you wholesale guild rates across the board."
 
 #if(v_ch11_saved_rose == 0) {
-Hadrik's grin widens. "You drive a hard bargain, Pete, but you've won me over. Daren here has the full manifest. Daren, hand this honest merchant the list so we can see what's on the shelves."
+Hadrik's grin widens triumphantly. "You drive a hard bargain, Pete, but you've won me over. Daren here has the full manifest. Daren, hand this honest merchant the list so we can see what's on the shelves."
 
-"Right," Daren says, passing a folded parchment across the counter.
+"Right," Daren says, stepping up to the counter and passing a folded parchment across.
 
-I lean toward Hadrik as he steps back. "You almost made me feel guilty. Does he even turn a profit after those cuts?"
+I lean toward Hadrik as he steps back into the aisle. "You almost made me feel guilty. Does he even turn a profit after those cuts?"
 
-"Save your sympathy," Hadrik whispers back with a wink. "Apothecaries mark their retail up triple to pad the haggle. He's making a healthy margin on every leaf."
+"Save your sympathy," Hadrik whispers back with a wink, adjusting his axe strap. "Apothecaries mark their retail up triple to pad the haggle. He's making a healthy margin on every dried leaf."
 
-"Along with the items on the list, I require rainweather leaves and summerglow grass," Daren says to the merchant. "Do you have fresh stock?"
+"Along with the items on the parchment, I require rainweather leaves and summerglow grass," Daren says to the merchant. "Do you have fresh stock?"
 
-"Rainweather I can provide," Pete says. "Summerglow is entirely out, I'm afraid."
+"Rainweather I can provide," Pete says, tapping the wood. "Summerglow is entirely out, I'm afraid."
 
 }
 #if(v_ch11_saved_rose == 1) {
-Hadrik's grin widens. "You drive a hard bargain, Pete, but you've won me over. Daren here has the full manifest. Daren, hand this honest merchant the list so we can see what's on the shelves."
+Hadrik's grin widens triumphantly. "You drive a hard bargain, Pete, but you've won me over. Daren here has the full manifest. Daren, hand this honest merchant the list so we can see what's on the shelves."
 
-"Right," Daren says, passing a folded parchment across the counter.
+"Right," Daren says, stepping up to the counter and passing a folded parchment across.
 
-I lean toward Hadrik as he steps back. "You almost made me feel guilty. Does he even turn a profit after those cuts?"
+I lean toward Hadrik as he steps back into the aisle. "You almost made me feel guilty. Does he even turn a profit after those cuts?"
 
-"Save your sympathy," Hadrik whispers back with a wink. "Apothecaries mark their retail up triple to pad the haggle. He's making a healthy margin on every leaf."
+"Save your sympathy," Hadrik whispers back with a wink, adjusting his axe strap. "Apothecaries mark their retail up triple to pad the haggle. He's making a healthy margin on every dried leaf."
 
-"Along with the items on the list, I require rainweather leaves and summerglow grass," Daren says to the merchant. "Do you have fresh stock?"
+"Along with the items on the parchment, I require rainweather leaves and summerglow grass," Daren says to the merchant. "Do you have fresh stock?"
 
-"Rainweather I can provide," Pete says. "Summerglow is entirely out, I'm afraid."
+"Rainweather I can provide," Pete says, tapping the wood. "Summerglow is entirely out, I'm afraid."
 
 "What about crownwick herbs?" Daren asks.
 
-"Sold my last bundle yesterday afternoon," Pete sighs.
+"Sold my last bundle yesterday afternoon," Pete sighs, spreading his hands.
 
 }
 #if(v_b3_ch6_sleep == 1 || v_ch11_saved_rose == 0) {
 "Do you have a compatible substitute?" Daren asks.
 
-"For summerglow?" Pete rubs his chin. "I can supply dried crow's foot. The botanical genus, not bird talons. The sap carries comparable anti-inflammatory traits, though it requires heavier dosing. Willing to risk it?"
+"For summerglow?" Pete rubs his fleshy chin, squinting at the ceiling beams. "I can supply dried crow's foot. The botanical genus, not bird talons. The sap carries comparable anti-inflammatory traits, though it requires heavier dosing. Willing to risk it?"
 
-"It will have to do," Daren says. "Package it alongside the rest."
+"It will have to do," Daren says, his voice tight. "Package it alongside the rest."
 
-"Give me two minutes in the back room," Pete says, slipping through the curtain.
+"Give me two minutes in the back room," Pete says, slipping through the heavy linen curtain.
 
-While he fetches the jars, I examine the tiered shelving behind the counter. Tiny paper labels are tacked beneath each bin, covered in cramped, angular lettering.
+While he fetches the jars, I examine the tiered wooden shelving behind the counter. Tiny paper labels are tacked beneath each bin, covered in cramped, angular lettering.
 
 }
 #if(v_b3_ch6_sleep == 0 && v_ch11_saved_rose == 1) {
 "Tell me you have dried riggus flower petals," Daren says.
 
-Pete blinks. "I do, certainly. What application are you running?"
+Pete blinks in surprise. "I do, certainly. What application are you running?"
 
 "A trusted herbalist confirmed it substitutes cleanly for summerglow," Daren says.
 
-"Did she?" Pete looks intrigued. "I'll have to cross-reference my journals. Wait here—I'll pull the jars from the back."
+"Did she?" Pete looks intrigued, tilting his head. "I'll have to cross-reference my journals. Wait here—I'll pull the jars from the back room."
 
 "Take your time," Daren says.
 
-While he slips through the rear curtain, I examine the tiered shelving behind the counter. Tiny paper labels are tacked beneath each bin, covered in cramped, angular lettering.
+While he slips through the rear linen curtain, I examine the tiered wooden shelving behind the counter. Tiny paper labels are tacked beneath each bin, covered in cramped, angular lettering.
 
 }
 choice("Take a closer look at the labels.", B3-Ch06a-Labels, v_current_scene = B3-Ch06a-Labels, v_b3_ch6_labels = 1)
@@ -1785,7 +1784,7 @@ TEXT:
 set(v_b3_ch6_labels,0) if (v_ancient_languages < 1)
 set(v_b3_ch6_labels,3) if (v_ancient_languages >= 1)
 #if(v_ancient_languages < 1) {
-I lean over the counter to inspect the nearest label. The ink is smudged and the strokes are jagged, resembling chicken scratches more than legible script. After squinting at the third unreadable tag, I step back to join the others.
+I lean over the timber counter to inspect the nearest label. The ink is smudged and the strokes are jagged, resembling erratic scratches more than legible script. After squinting fruitlessly at the third unreadable tag, I step back to join the others by the door.
 
 Pete emerges from the storeroom carrying two tied canvas satchels. "Everything requested is packaged. Take what you need."
 
@@ -1795,43 +1794,43 @@ Pete emerges from the storeroom carrying two tied canvas satchels. "Everything r
 
 }
 #if(v_ancient_languages >= 1) {
-I lean closer to the wooden bins, tracing the script. The lettering isn't sloppy penmanship—it's an archaic dialect of northern Common abandoned nearly three centuries ago. Unless someone specifically studied pre-empire administrative registers, the ligatures look like meaningless scrawls.
+I lean closer to the wooden bins, tracing the faded ink. The lettering isn't sloppy penmanship—it's an archaic dialect of northern Common abandoned nearly three centuries ago. Unless someone specifically studied pre-empire administrative registers, the ligatures look like meaningless scrawls.
 
-Why Pete chooses to catalog his apothecary in dead court shorthand is a mystery, but the tags decipher cleanly. Ambermayn pistil, drawsnap seed, treddil root on the upper row. Dragon claw, dragon fang, dragon tooth in the middle bin—whoever named that sequence ran out of imagination early.
+Why Pete chooses to catalog his apothecary in dead court shorthand is a mystery, but the tags decipher cleanly. Ambermayn pistil, drawsnap seed, treddil root on the upper row. Dragon claw, dragon fang, dragon tooth in the middle bin—whoever named that botanical sequence ran out of imagination early.
 
-On the third shelf sit mistwatchers, dawnbloomers, and... summerglow grass. Three full jars of cured summerglow leaves, clearly labeled.
+On the third shelf sit mistwatchers, dawnbloomers, and... summerglow grass. Three full glass jars of cured summerglow leaves, clearly labeled.
 
 Pete steps through the rear curtain carrying two canvas satchels. "Everything requested is packaged. Take what you need."
 
-"A quick question, Pete," I say, pointing toward the third tier. "What does that tag read?"
+"A quick question, Pete," I say, pointing directly toward the third tier. "What does that tag read?"
 
 Pete's gaze darts to the shelf, then back to me, his jaw tightening. "That? That's... why do you ask?"
 
 "It reads 'summerglow grass' in old court script," I say evenly. "Which is curious, since you told us your inventory was bone-dry."
 
-"I didn't lie," Pete says defensively. "Those jars are spoken for. A high-born patron paid a deposit weeks ago and is sending a courier by sunset."
+"I didn't lie," Pete says defensively, puffing his chest. "Those jars are spoken for. A high-born patron paid a deposit weeks ago and is sending a courier by sunset."
 
 "What if we pay a surcharge to take them off your hands right now?" I ask.
 
-"A surcharge?" Pete hesitates, then shakes his head. "No, no. I gave my word as a licensed apothecary. My reputation is at stake. Even at double price, I couldn't possibly—"
+"A surcharge?" Pete hesitates, then shakes his head firmly. "No, no. I gave my word as a licensed apothecary. My reputation is at stake. Even at double price, I couldn't possibly—"
 
-"Ten times market value," Daren cuts in, his voice ringing through the shop. "Ten times normal retail in solid coin. We need those leaves."
+"Ten times market value," Daren cuts in, his deep voice ringing through the shop. "Ten times normal retail in solid coin. We need those leaves."
 
-Hadrik smacks his palm against his forehead in the background.
+Hadrik smacks his palm loudly against his forehead in the background.
 
-Pete's eyes widen. "Ten times? For common fever grass? Why on earth would you offer that?"
+Pete's eyes widen like dinner plates. "Ten times? For common fever grass? Why on earth would you offer that?"
 
-"Because I am a healer," Daren says, stepping up to the counter, "and people in this city's quarantine ward will die without that reagent today. Please. Let me save them."
+"Because I am a healer," Daren says, stepping right up to the counter, "and people in this city's quarantine ward will die without that reagent today. Please. Let me save them."
 
-Pete looks at Daren's armor, then down at the counter. "For the sick ward? Well... the patron wanted them for scented bath oils. He can wait an extra week for his perfume. And ten times retail is... considerable."
+Pete looks at Daren's dented armor, the serious set of his scar, and then down at the counter. "For the sick ward? Well... the patron wanted them for scented bath oils. He can wait an extra week for his perfume. And ten times retail is... considerable."
 
 "Done," Daren says firmly.
 
-"Done," Pete agrees, reaching for the upper shelf. "Take the silk ribbons on the jars too. You've more than covered the packaging."
+"Done," Pete agrees, reaching up for the third shelf. "Take the silk ribbons on the jars too. You've more than covered the packaging."
 
-Hadrik sighs beside me as Pete packs the jars. "There goes the morning's discount. We had workable substitutes already."
+Hadrik groans softly beside me as Pete packs the jars into a third sack. "There goes the morning's discount. We had workable substitutes already."
 
-"Substitutes carry variable potency," Daren says quietly. "The true reagent ensures survival. In medicine, you don't gamble on 'close enough'."
+"Substitutes carry variable potency," Daren says quietly, his eyes steady on Hadrik. "The true reagent ensures survival. In medicine, you don't gamble on 'close enough'."
 
 Hadrik grunts, unconvinced, as Pete hands over the satchels.
 
@@ -1845,7 +1844,7 @@ TEXT:
 set(v_b3_ch6_labels,0) if (v_perception < 1)
 set(v_b3_ch6_labels,2) if (v_perception >= 1)
 #if(v_perception < 1) {
-I scan the rows of clay pots and dried bundles, but lacking formal botany training, one shriveled stem looks identical to the next.
+I scan the rows of clay pots and dried bundles, but lacking formal botany training, one shriveled brown stem looks identical to the next.
 
 Pete emerges from the storeroom carrying two tied canvas satchels. "Everything requested is packaged. Take what you need."
 
@@ -1855,35 +1854,35 @@ Pete emerges from the storeroom carrying two tied canvas satchels. "Everything r
 
 }
 #if(v_perception >= 1) {
-I scan the rows of clay pots and dried bundles. While the botanical names escape me, the arrangement stands out immediately. Most bins hold loose cuttings thrown together casually, but three large jars on the third tier are sealed with red wax and tied neatly with silk ribbons. In merchant shops, that level of wrapping always marks pre-ordered commissions held for wealthy patrons.
+I scan the rows of clay pots and dried bundles. While the botanical names escape me, the physical arrangement stands out immediately. Most bins hold loose cuttings thrown together casually, but three large glass jars on the third tier are sealed with red wax and tied neatly with silk ribbons. In merchant shops, that level of wrapping always marks pre-ordered commissions held for wealthy patrons.
 
 Pete emerges from the storeroom carrying two tied canvas satchels. "Everything requested is packaged. Take what you need."
 
 "Pete," I say, nodding toward the third tier, "why are those jars tied with silk ribbons?"
 
-"Those are private orders placed in advance," Pete says.
+"Those are private orders placed in advance," Pete says, setting the satchels down.
 
 "Any summerglow grass in those ribboned jars?" I ask.
 
-Pete freezes. "There is, but... look, I made a commitment to a regular customer. I can't break trade trust. Even at double price, I couldn't possibly—"
+Pete freezes, his eyes darting toward the shelf. "There is, but... look, I made a commitment to a regular buyer. I can't break trade trust. Even at double price, I couldn't possibly—"
 
-"Ten times market value," Daren cuts in, his voice ringing through the shop. "Ten times normal retail in solid coin. We need those leaves."
+"Ten times market value," Daren cuts in, his deep voice ringing through the shop. "Ten times normal retail in solid coin. We need those leaves."
 
-Hadrik smacks his palm against his forehead in the background.
+Hadrik smacks his palm loudly against his forehead in the background.
 
-Pete's eyes widen. "Ten times? For common fever grass? Why on earth would you offer that?"
+Pete's eyes widen like dinner plates. "Ten times? For common fever grass? Why on earth would you offer that?"
 
-"Because I am a healer," Daren says, stepping up to the counter, "and people in this city's quarantine ward will die without that reagent today. Please. Let me save them."
+"Because I am a healer," Daren says, stepping right up to the counter, "and people in this city's quarantine ward will die without that reagent today. Please. Let me save them."
 
-Pete looks at Daren's armor, then down at the counter. "For the sick ward? Well... the patron wanted them for scented bath oils. He can wait an extra week for his perfume. And ten times retail is... considerable."
+Pete looks at Daren's dented armor, the serious set of his scar, and then down at the counter. "For the sick ward? Well... the patron wanted them for scented bath oils. He can wait an extra week for his perfume. And ten times retail is... considerable."
 
 "Done," Daren says firmly.
 
-"Done," Pete agrees, reaching for the upper shelf. "Take the silk ribbons on the jars too. You've more than covered the packaging."
+"Done," Pete agrees, reaching up for the third shelf. "Take the silk ribbons on the jars too. You've more than covered the packaging."
 
-Hadrik sighs beside me as Pete packs the jars. "There goes the morning's discount. We had workable substitutes already."
+Hadrik groans softly beside me as Pete packs the jars into a third sack. "There goes the morning's discount. We had workable substitutes already."
 
-"Substitutes carry variable potency," Daren says quietly. "The true reagent ensures survival. In medicine, you don't gamble on 'close enough'."
+"Substitutes carry variable potency," Daren says quietly, his eyes steady on Hadrik. "The true reagent ensures survival. In medicine, you don't gamble on 'close enough'."
 
 Hadrik grunts, unconvinced, as Pete hands over the satchels.
 
@@ -1895,37 +1894,37 @@ ID: B3-Ch06a-Labels2
 TEXT:
 
 #if(v_b3_ch6_labels >= 2) {
-Daren unties the neck of the satchel, inspecting the contents. "These look remarkably unlike grass. More like... leafy weeds."
+Daren unties the neck of the canvas satchel, inspecting the contents with a practiced eye. "These look remarkably unlike grass. More like... leafy weeds."
 
-"The name is notoriously misleading," Pete chuckles. "It's a flowering scrub, but the common name stuck centuries ago. Anything else for your party?"
+"The name is notoriously misleading," Pete chuckles, wiping his counter with a rag. "It's a flowering scrub, but the common name stuck centuries ago. Anything else for your party?"
 
-"That covers our needs," Daren says, counting out the gold crowns. "Thank you for your assistance, Pete."
+"That covers our needs," Daren says, counting out a heavy stack of gold crowns onto the wood. "Thank you for your assistance, Pete."
 
 We gather the packs and file toward the door.
 
 }
 #if(v_b3_ch6_labels < 2) {
-"That covers our needs," Daren says, counting out the gold crowns. "Thank you for your assistance, Pete."
+"That covers our needs," Daren says, counting out a heavy stack of gold crowns onto the wood. "Thank you for your assistance, Pete."
 
 We gather the packs and file toward the door.
 
 }
 #if(v_b3_ch6_plan == 3) {
-"Where did the sentinels go?" Hadrik asks as we step back into the alley. "The street is empty."
+"Where did the sentinels go?" Hadrik asks as we step back into the narrow alley. "The street is empty."
 
-"They were recalled to clear line of sight for the royal guard," Melindra says, her posture sharpening. "I sense converging signatures. Gontrok, the captain, and a non-mage are approaching from the eastern thoroughfare. The guard who held back yesterday is closing from the west alongside a caster I haven't tracked before."
+"They were recalled to clear line of sight for the royal guard," Melindra says, her posture sharpening as she scans the avenue. "I sense converging signatures. Gontrok, the captain, and a non-mage are approaching from the eastern thoroughfare. The guard who held back yesterday is closing from the west alongside a caster I haven't tracked before."
 
-Daren draws his transceiver with his free hand. "I'll coordinate extraction."
+Daren draws his transceiver with his free hand. "I'll arrange extraction."
 
 He clicks the dial and taps the casing. "Thundercloud, can you read me?"
 
 }
 #if(v_b3_ch6_plan != 3) {
-"What's the play?" Hadrik asks, rolling his shoulders as we reach the lane. "Straight back to the tunnels?"
+"What's the play?" Hadrik asks, rolling his broad shoulders as we reach the lane. "Straight back to the tunnels?"
 
-"Immediately," Melindra says, her posture sharpening. "Our presence is flagged. Several guard signatures are converging on this sector right now."
+"Immediately," Melindra says, her posture sharpening as she scans the avenue. "Our presence is flagged. Several guard signatures are converging on this sector right now."
 
-Daren draws his transceiver with his free hand. "I'll coordinate extraction."
+Daren draws his transceiver with his free hand. "I'll arrange extraction."
 
 He clicks the dial and taps the casing. "Thundercloud, can you read me?"
 
@@ -1937,13 +1936,13 @@ ID: B3-Ch06a-Entrance
 TEXT:
 
 #if(v_b3_ch6_sleep == 1) {
-"Did you secure the full supply?" I ask Daren as our boots touch the cobblestones.
+"Did you secure the full supply?" I ask Daren as our boots touch down on the cobblestones.
 
-"Most of it," Daren says, adjusting the satchels on his chest. "Summerglow and crownwick were absent, but the shopkeeper supplied a workable substitute. Did you clear the air?"
+"Most of it," Daren says, adjusting the canvas satchels on his chest plate. "Summerglow and crownwick were absent, but the shopkeeper supplied a workable substitute. Did you clear the air?"
 
-"The swarm broke formation and retreated into the clouds," I say. "Zero explanation."
+"The swarm broke formation and retreated into the clouds," I say, re-slinging my crossbow. "Zero explanation."
 
-"They were recalled to clear the kill zone for the royal guard," Melindra says, scanning the district. "I sense converging signatures. Gontrok, the captain, and a non-mage are approaching from the eastern thoroughfare. The guard who held back yesterday is closing from the west alongside a caster I haven't tracked before."
+"They were recalled to clear the kill zone for the royal guard," Melindra says, her eyes narrowing as she scans the district. "I sense converging signatures. Gontrok, the captain, and a non-mage are approaching from the eastern thoroughfare. The guard who held back yesterday is closing from the west alongside a caster I haven't tracked before."
 
 Daren draws his transceiver. "Extraction time."
 
@@ -1951,13 +1950,13 @@ He clicks the dial and taps the casing. "Thundercloud, can you read me?"
 
 }
 #if(v_b3_ch6_sleep == 0) {
-"Did you secure the full supply?" I ask Daren as our boots touch the cobblestones.
+"Did you secure the full supply?" I ask Daren as our boots touch down on the cobblestones.
 
-"We have what we need," Daren says, patting the satchels on his chest. "Rose's substitutes filled the gaps. Did you clear the air?"
+"We have what we need," Daren says, patting the canvas satchels on his chest plate. "Rose's substitutes filled the gaps. Did you clear the air?"
 
-"The swarm broke formation and retreated into the clouds," I say. "Zero explanation."
+"The swarm broke formation and retreated into the clouds," I say, re-slinging my crossbow. "Zero explanation."
 
-"They were recalled to clear the kill zone for the royal guard," Melindra says, scanning the district. "I sense converging signatures. Gontrok, the captain, and a non-mage are approaching from the eastern thoroughfare. The guard who held back yesterday is closing from the west alongside a caster I haven't tracked before."
+"They were recalled to clear the kill zone for the royal guard," Melindra says, her eyes narrowing as she scans the district. "I sense converging signatures. Gontrok, the captain, and a non-mage are approaching from the eastern thoroughfare. The guard who held back yesterday is closing from the west alongside a caster I haven't tracked before."
 
 Daren draws his transceiver. "Extraction time."
 
@@ -1971,74 +1970,74 @@ ID: B3-Ch06a-Silent
 TEXT:
 
 #if(v_b3_ch6_selected == 3) {
-Silence stretches on the line.
+Silence stretches on the line, hollow and unbroken.
 
-"Barry, do you copy?" Daren raises his voice, pressing the speaker to his ear.
+"Barry, do you copy?" Daren raises his voice, pressing the cold bronze speaker flat against his ear. "Thundercloud, respond."
 
-Static hisses from the casing. Nothing else.
+Dry static hisses from the casing. Nothing else.
 
-Kelrim unhooks a smaller transceiver from beneath his white vestment. "Barry, this is Kelrim! Are you at the terminal?"
+Kelrim unhooks a smaller transceiver from beneath his white vestment, his green fingers shaking as he taps the rune plate. "Barry, this is Kelrim! Are you at the terminal? Can you hear us?"
 
-"Dead air," Daren says after another five seconds. "Something is suppressing the transmission band."
+"Dead air," Daren says after another five seconds, lowering the device with a grim scowl. "Something is actively suppressing the transmission band."
 
-Hadrik scowls at the sky. "I bet good coin the Overseer jammed the frequency. That explains how the royal guard tracked our approach. The construct sold our position."
+Hadrik scowls up at the heavy gray sky. "I bet good coin the Overseer jammed the frequency. That explains how the royal guard tracked our approach so cleanly. The machine sold our coordinates."
 
-I turn to the bronze sphere hovering behind us. "Well, Overseer? Care to explain?"
+I turn to the bronze sphere hovering silently behind my shoulder. "Well, Overseer? Care to explain?"
 
-"Input does not match survey parameters," the machine chirps. "To repeat the prompt—"
+"Input does not match survey parameters," the machine chirps in a cheerful monotone. "To repeat the prompt—"
 
-"Never mind," I mutter.
+"Never mind," I mutter, turning my back on it.
 
-"Move toward the main thoroughfare," Daren says. "With luck, the interference drops once we clear these brick walls."
+"Move toward the main thoroughfare," Daren says, lengthening his stride. "With luck, the interference drops once we clear these brick walls."
 
-"Step quickly," Melindra says. "The royal guards are advancing at a steady march, but if Gontrok breaks into a sprint, he covers the distance in two minutes."
+"Step quickly," Melindra says, her fingers tracing invisible currents in the air. "The royal guards are advancing at a steady march, but if Gontrok breaks into a sprint, he covers the distance in two minutes."
 
-"If Gontrok runs ahead alone, leave the opening to me," Hadrik says as we stride toward the avenue. "I have several adjustments to demonstrate."
+"If Gontrok runs ahead alone, leave the opening to me," Hadrik says as we stride toward the wide avenue, his knuckles white against his belt. "I have several adjustments to demonstrate on his jaw."
 
 The bronze drone drifts silently behind my shoulder, though the automated survey chimes have ceased.
 
-"If he charges alone, shouldn't we overwhelm him collectively?" Kate asks Hadrik.
+"If he charges alone, shouldn't we overwhelm him collectively?" Kate asks Hadrik, glancing back.
 
-"You won't drop Gontrok before his unit arrives," Hadrik says flatly. "If the rest of the guard crashes into our flank while we're tied up with Gontrok, they roll our line in thirty seconds. I hold his focus. You keep your guard up for ambushes. The last thing we need is someone caught cold before the melee starts."
+"You won't drop Gontrok before his unit arrives," Hadrik says flatly, the humor entirely gone from his voice. "If the rest of the guard crashes into our flank while we're tied up with Gontrok, they roll our line in thirty seconds. I hold his focus. You keep your guard up for ambushes. The last thing we need is someone caught cold before the melee starts."
 
-"Fair point," Kate concedes. "Let's hope the drills hold up under steel."
+"Fair point," Kate concedes, her eyes hard. "Let's hope the drills hold up under steel."
 
 }
 #if(v_b3_ch6_selected != 3) {
-Silence stretches on the line.
+Silence stretches on the line, hollow and unbroken.
 
-"Barry, do you copy?" Daren raises his voice, pressing the speaker to his ear.
+"Barry, do you copy?" Daren raises his voice, pressing the cold bronze speaker flat against his ear. "Thundercloud, respond."
 
-Static hisses from the casing. Nothing else.
+Dry static hisses from the casing. Nothing else.
 
-Kelrim unhooks a smaller transceiver from beneath his white vestment. "Barry, this is Kelrim! Are you at the terminal?"
+Kelrim unhooks a smaller transceiver from beneath his white vestment, his green fingers shaking as he taps the rune plate. "Barry, this is Kelrim! Are you at the terminal? Can you hear us?"
 
-"Dead air," Daren says after another five seconds. "Something is suppressing the transmission band."
+"Dead air," Daren says after another five seconds, lowering the device with a grim scowl. "Something is actively suppressing the transmission band."
 
-Hadrik scowls at the sky. "I bet good coin the Overseer jammed the frequency. That explains how the royal guard tracked our approach. The construct sold our position."
+Hadrik scowls up at the heavy gray sky. "I bet good coin the Overseer jammed the frequency. That explains how the royal guard tracked our approach so cleanly. The machine sold our coordinates."
 
-"Move toward the main thoroughfare," Daren says. "With luck, the interference drops once we clear these brick walls."
+"Move toward the main thoroughfare," Daren says, lengthening his stride. "With luck, the interference drops once we clear these brick walls."
 
-"Step quickly," Melindra says. "The royal guards are advancing at a steady march, but if Gontrok breaks into a sprint, he covers the distance in two minutes."
+"Step quickly," Melindra says, her fingers tracing invisible currents in the air. "The royal guards are advancing at a steady march, but if Gontrok breaks into a sprint, he covers the distance in two minutes."
 
-"If Gontrok runs ahead alone, leave the opening to me," Hadrik says as we stride toward the avenue. "I have several adjustments to demonstrate."
+"If Gontrok runs ahead alone, leave the opening to me," Hadrik says as we stride toward the wide avenue, his knuckles white against his belt. "I have several adjustments to demonstrate on his jaw."
 
-"If he charges alone, shouldn't we overwhelm him collectively?" Kate asks Hadrik.
+"If he charges alone, shouldn't we overwhelm him collectively?" Kate asks Hadrik, glancing back.
 
-"You won't drop Gontrok before his unit arrives," Hadrik says flatly. "If the rest of the guard crashes into our flank while we're tied up with Gontrok, they roll our line in thirty seconds. I hold his focus. You keep your guard up for ambushes. The last thing we need is someone caught cold before the melee starts."
+"You won't drop Gontrok before his unit arrives," Hadrik says flatly, the humor entirely gone from his voice. "If the rest of the guard crashes into our flank while we're tied up with Gontrok, they roll our line in thirty seconds. I hold his focus. You keep your guard up for ambushes. The last thing we need is someone caught cold before the melee starts."
 
-"Fair point," Kate concedes. "Let's hope the drills hold up under steel."
+"Fair point," Kate concedes, her eyes hard. "Let's hope the drills hold up under steel."
 
 }
-"If things turn desperate... I have an offensive weave," Kelrim says hesitantly as we reach the wider street. "A modified variant of a restorative spell from last month. When I miscast it, the backlash nearly stopped my heart, but it induced violent nausea in the subject. If I amplify the output, it could incapacitate—"
+"If things turn desperate... I have an offensive weave," Kelrim says hesitantly as we reach the wider street, clutching his oak staff with both hands. "A modified variant of a restorative spell from last month. When I miscast it, the backlash nearly stopped my heart, but it induced violent nausea in the subject. If I amplify the output, it could incapacitate—"
 
-"Kelrim, I am not permitting a suicide cast to make a royal guard gag," Daren says firmly.
+"Kelrim, I am not permitting a suicide cast to make a royal guard gag," Daren says firmly, stopping to look the goblin in the eye.
 
-"An amplified cast delivers more than simple nausea," Kelrim argues. "The priority is delivering the satchels to the ward. If we fall on this street, the patients die—"
+"An amplified cast delivers more than simple nausea," Kelrim argues, his voice trembling with earnest desperation. "First we deliver the satchels to the ward. If we fall on this street, the patients die—"
 
-"No," Daren cuts him off. "We hold the line. You keep to the rear and cast combat restoration when someone takes a wound. Clear?"
+"No," Daren cuts him off, his tone brooking no argument. "We hold the line together. You keep to the rear and cast combat restoration when someone takes a wound. Clear?"
 
-"Understood," Kelrim murmurs. He glances down the avenue. "We've put space between ourselves and the shop. Try the transceiver again."
+"Understood," Kelrim murmurs, bowing his head. He glances down the avenue. "We've put space between ourselves and the shop. Try the transceiver again."
 
 Daren and Kelrim both tap their casings, calling for the operator. Static crackles over both speakers. Barry Thundercloud remains completely unreachable.
 
@@ -2051,7 +2050,7 @@ TEXT:
 
 "Maybe we could go a little further down the road and try calling him again from there?"
 
-"Worth a try," Daren says, scanning the rooftops. "Though I doubt we avoid a clash at this stage."
+"Worth a try," Daren says, scanning the slate rooftops above. "Though I doubt we avoid a clash at this stage."
 
 Kelrim turns his transceiver dial as we advance down the avenue. "Roberta, can you hear me?" he calls into the bronze grill. "Roberta, respond!"
 
@@ -2059,23 +2058,23 @@ Kelrim turns his transceiver dial as we advance down the avenue. "Roberta, can y
 
 "A head nurse in the quarantine sector," Kelrim says. "If local interference blocks the transit vault directly, perhaps she can run down the hall and alert Barry in person."
 
-"The seredium density is too thick," Kate says. "Outside of the dedicated teleporter receiver, signals cannot pierce the underground base. Daren's enchanted units barely manage the transit room, and those rely on matched frequencies."
+"The seredium density underground is too thick," Kate says, shaking her head. "Outside of the dedicated teleporter receiver, signals cannot pierce the cavern bedrock. Daren's enchanted units barely manage the transit room, and those rely on matched frequencies."
 
 "My transceivers are tuned as matched pairs," Daren confirms. "On open public frequencies, they perform no better than market stock."
 
 "Understood," Kelrim sighs. "Let's try Barry directly once more."
 
-Daren halts beneath an overhanging awning. "This clearance should give us a cleaner angle."
+Daren halts beneath an overhanging timber awning. "This clearance should give us a cleaner angle."
 
 He taps the rune plate and raises the device. "Barry! Do you copy?"
 
 "Barry, respond!" Kelrim shouts into his unit.
 
-"Thundercloud!" Daren bellows.
+"Thundercloud!" Daren bellows into the grill.
 
 A cool, measured voice cuts through the static: "Barry, why are you ignoring the console?"
 
-"Albert?" the operator's voice crackles over the line. "I didn't hear you enter the vault!"
+"Albert?" the operator's voice crackles over the line, startled. "I didn't hear you enter the vault!"
 
 "Naturally," Albert's dry tone returns. "I'm an assassin. I came to check the refugee muster, only to find you staring blankly at a howling transceiver. What is happening on the surface?"
 
@@ -2092,37 +2091,37 @@ TEXT:
 #if(v_b3_ch5_fight < 4) {
 "You can hear me?" Thundercloud says. "Hold your ground! Engaging the transfer sequence now!"
 
-Chimes and ticking relays echo from the console for ten agonizing seconds. The air around our boots remains dead calm.
+Chimes and ticking relays echo from the console for ten agonizing seconds. The cold air around our boots remains dead calm.
 
-"It isn't taking," Thundercloud's voice tightens. "The array won't recognize your field signatures. Regulate your breathing—if your auras fluctuate wildly, the lock slips!"
+"It isn't taking," Thundercloud's voice tightens over the line. "The array won't recognize your field signatures. Regulate your breathing—if your auras fluctuate wildly, the lock slips!"
 
-"Hard to keep our auras serene with five killers closing in, Thundercloud," Hadrik grunts.
+"Hard to keep our auras serene with five killers closing in, Thundercloud," Hadrik grunts, rolling his shoulders.
 
-"You claimed you could handle the royal guard on your own terms," Albert's voice drifts over the line. "Here is your opportunity to prove it."
+"You claimed you could handle the royal guard on your own terms," Albert's voice drifts over the line, laced with cold indifference. "Here is your opportunity to prove it."
 
 "Don't sulk when we topple this regime and put you out of work," Hadrik retorts.
 
 "I will manage," Albert says coolly.
 
-Daren closes the casing. "Melindra, time to contact?"
+Daren closes the casing with a metallic snap. "Melindra, time to contact?"
 
-"Three minutes if they hold their current pace," Melindra says. "They were well out when I first tracked them."
+"Three minutes if they hold their current pace," Melindra says, squinting down the broad avenue. "They were well out when I first tracked them."
 
 "Taking their time," Hadrik notes.
 
 "They know our extraction is jammed," Melindra says. "They didn't even bother dispatching trainees as harriers. They set the distortion field deliberately."
 
-Hadrik rolls his shoulders, knuckles cracking. "A wide, straight avenue with nowhere to run. Perfect for an honest brawl."
+Hadrik rolls his shoulders, his heavy knuckles cracking like dry kindling. "A wide, straight avenue with nowhere to run. Perfect for an honest brawl."
 
 }
 #if(v_b3_ch5_fight >= 4) {
 "You can hear me?" Thundercloud says. "Hold your ground! Engaging the transfer sequence now!"
 
-Chimes and ticking relays echo from the console for ten agonizing seconds. The air around our boots remains dead calm.
+Chimes and ticking relays echo from the console for ten agonizing seconds. The cold air around our boots remains dead calm.
 
-"It isn't taking," Thundercloud's voice tightens. "The array won't recognize your field signatures. Regulate your breathing—if your auras fluctuate wildly, the lock slips!"
+"It isn't taking," Thundercloud's voice tightens over the line. "The array won't recognize your field signatures. Regulate your breathing—if your auras fluctuate wildly, the lock slips!"
 
-"Hard to keep our auras serene with five killers closing in, Thundercloud," Hadrik grunts.
+"Hard to keep our auras serene with five killers closing in, Thundercloud," Hadrik grunts, rolling his shoulders.
 
 "If extraction fails, can you transit me to their coordinates instead?" Albert asks over the line.
 
@@ -2130,9 +2129,9 @@ Chimes and ticking relays echo from the console for ten agonizing seconds. The a
 
 "Align the grid," Albert says.
 
-Daren blinks at the speaker. "You're deploying to assist us, Albert?"
+Daren blinks at the speaker in surprise. "You're deploying to assist us, Albert?"
 
-"I hold zero fondness for your party," Albert replies. "Your intrusion triggered this lockdown and displaced hundreds of civilians. But treaty makes us allies, and I do not neglect an oath. Stay alive until I reach the street."
+"I hold zero fondness for your party," Albert replies smoothly. "Your intrusion triggered this lockdown and displaced hundreds of civilians. But treaty makes us allies, and I do not neglect an oath. Stay alive until I reach the street."
 
 "Leave a guard or two for your daggers," Hadrik grins. "No promises on the captain, though."
 
@@ -2144,15 +2143,15 @@ Daren blinks at the speaker. "You're deploying to assist us, Albert?"
 
 A shrill resonant whine echoes over the line, followed by the muffled rush of displaced air as Albert shifts out of the underground vault.
 
-Daren closes the casing. "Melindra, time to contact?"
+Daren closes the casing with a metallic snap. "Melindra, time to contact?"
 
-"Three minutes if they hold their current pace," Melindra says. "They were well out when I first tracked them."
+"Three minutes if they hold their current pace," Melindra says, squinting down the broad avenue. "They were well out when I first tracked them."
 
 "Taking their time," Hadrik notes.
 
 "They know our extraction is jammed," Melindra says. "They didn't even bother dispatching trainees as harriers. They set the distortion field deliberately."
 
-Hadrik rolls his shoulders, knuckles cracking. "A wide, straight avenue with nowhere to run. Perfect for an honest brawl."
+Hadrik rolls his shoulders, his heavy knuckles cracking like dry kindling. "A wide, straight avenue with nowhere to run. Perfect for an honest brawl."
 
 }
 choice("Continue", B3-Ch06a-Confession, v_current_scene = B3-Ch06a-Confession)
@@ -2164,21 +2163,21 @@ TEXT:
 #if(v_b3_ch6_secret == 0) {
 "This is clearly not working. Can't we focus on preparing for the fight instead?"
 
-"We covered deployment in the briefing," Daren says, resting his hand on his pommel. "Hadrik takes Gontrok, I engage the captain, and the rest of you neutralize the auxiliary casters before they establish control. Melindra, count the line."
+"We covered deployment in the briefing," Daren says, his armored hand resting on his pommel as his eyes sweep the avenue. "Hadrik takes Gontrok, I engage the captain, and the rest of you neutralize the auxiliary casters before they establish control. Melindra, count the line."
 
-"Seven signatures closing on our quadrant," Melindra says. "Gontrok, the captain, and Loyrang. Three auxiliary mages accompany them, along with one un-attuned combatant who relies on lessathi relics."
+"Seven signatures closing on our quadrant," Melindra says, counting them off on her fingers. "Gontrok, the captain, and Loyrang. Three auxiliary mages accompany them, along with one un-attuned combatant who relies on lessathi relics."
 
 }
 #if(v_b3_ch6_tie == 0 && v_b3_ch6_secret != 0) {
 "This is clearly not working. Can't we focus on preparing for the fight instead?"
 
-"We covered deployment in the briefing," Daren says, resting his hand on his pommel. "Hadrik takes Gontrok, I engage the captain, and the rest of you neutralize the auxiliary casters before they establish control. Melindra, count the line."
+"We covered deployment in the briefing," Daren says, his armored hand resting on his pommel as his eyes sweep the avenue. "Hadrik takes Gontrok, I engage the captain, and the rest of you neutralize the auxiliary casters before they establish control. Melindra, count the line."
 
-"Seven signatures closing on our quadrant," Melindra says. "Gontrok, the captain, and Loyrang. Three auxiliary mages accompany them, along with one un-attuned combatant who relies on lessathi relics."
+"Seven signatures closing on our quadrant," Melindra says, counting them off on her fingers. "Gontrok, the captain, and Loyrang. Three auxiliary mages accompany them, along with one un-attuned combatant who relies on lessathi relics."
 
-"Loyrang?" I frown. "He swore he was heading for the gates."
+"Loyrang?" I frown, checking the quarrel in my crossbow. "He swore he was heading for the gates."
 
-"A patrol likely intercepted his route and turned him around," Melindra says. "He had little choice."
+"A patrol likely intercepted his route and turned him around," Melindra says calmly. "He had little choice."
 
 "Terrific," I mutter.
 
@@ -2186,24 +2185,24 @@ TEXT:
 #if(v_b3_ch6_tie == 1 && v_b3_ch6_secret != 0) {
 "This is clearly not working. Can't we focus on preparing for the fight instead?"
 
-"We covered deployment in the briefing," Daren says, resting his hand on his pommel. "Hadrik takes Gontrok, I engage the captain, and the rest of you neutralize the auxiliary casters before they establish control. Melindra, count the line."
+"We covered deployment in the briefing," Daren says, his armored hand resting on his pommel as his eyes sweep the avenue. "Hadrik takes Gontrok, I engage the captain, and the rest of you neutralize the auxiliary casters before they establish control. Melindra, count the line."
 
-"Six signatures closing on our quadrant," Melindra says. "Gontrok and the captain lead. Three auxiliary mages accompany them, along with one un-attuned combatant who relies on lessathi relics."
+"Six signatures closing on our quadrant," Melindra says, counting them off on her fingers. "Gontrok and the captain lead. Three auxiliary mages accompany them, along with one un-attuned combatant who relies on lessathi relics."
 
 }
-"What of the black-robed assassin from our first surface run?" Daren asks. "Do you track him?"
+"What of the black-robed assassin from our first surface run?" Daren asks, checking the buckle on his shield arm. "Do you track him?"
 
-"No," Melindra says. "His rings mask his signature completely. He could be fifty paces away."
+"No," Melindra says, shaking her head. "His rings mask his signature completely. He could be fifty paces away behind a chimney."
 
 Daren looks toward Flower's necklace. "Arraka, do you sense a suppressed field?"
 
-"Obviously," Arraka's voice drifts up.
+"Obviously," Arraka's voice drifts up, lazy and dismissive.
 
 "Will you alert us when he enters striking distance?" Daren asks.
 
 "If I feel like it," she snorts.
 
-"Reassuring," Daren sighs. "Melindra, time to contact?"
+"Reassuring," Daren sighs, rolling his eyes. "Melindra, time to contact?"
 
 "Three minutes if they hold their current pace," Melindra says. "They were well out when I first tracked them."
 
@@ -2211,47 +2210,48 @@ Daren looks toward Flower's necklace. "Arraka, do you sense a suppressed field?"
 
 "They know our extraction is jammed," Melindra says. "They didn't even bother dispatching trainees as harriers. They set the distortion field deliberately."
 
-Hadrik rolls his shoulders, knuckles cracking. "A wide, straight avenue with nowhere to run. Perfect for an honest brawl."
+Hadrik rolls his shoulders, his knuckles cracking like dry kindling. "A wide, straight avenue with nowhere to run. Perfect for an honest brawl."
 
 choice("Continue", B3-Ch06a-Confession, v_current_scene = B3-Ch06a-Confession)
+
 
 ID: B3-Ch06a-Confession
 TEXT:
 
-"Listen, everyone," I say, clearing my throat. "This is slightly sudden, but I have a small admission."
+"Listen, everyone," I say, clearing my throat against the dry morning chill. "This is slightly sudden, but I have a small admission."
 
-"Not the moment, Barry," Daren mutters, checking his sword belt.
+"Not the moment, Barry," Daren mutters, checking the tension on his sword belt.
 
-"Bear with me for ten seconds," I say. "During the God of Time's trial, I realized that my self-preservation instincts are somewhat defective."
+"Bear with me for ten seconds," I say, the cold cobblestones firm under my boots. "During the God of Time's trial, I realized that my self-preservation instincts are somewhat defective. When the odds turn lethal, my instinct is to jump in headfirst instead of looking for cover."
 
-Hadrik stops stretching and blinks at me. "You only realized that now?"
+Hadrik stops stretching his shoulders and blinks down at me. "You only realized that now?"
 
-"The memory made it undeniable," I say. "I'm trying to exercise better judgment, but old habits run deep. If you hear me proposing an idiotic scheme in the heat of battle, smack me across the back of the head. It helps reset my thinking."
+"The trial made it undeniable," I say, tightening the grip on my crossbow. "I'm trying to exercise better judgment, but old habits run deep. If you hear me proposing an idiotic scheme in the heat of battle, smack me across the back of the head. It helps reset my thinking."
 
-Hadrik steps up, clapping a heavy hand on my shoulder. "Barry, you can rely on me to club you across the skull whenever requested. Not for personal amusement, mind you—purely as a favor to a comrade."
+Hadrik steps up, clapping a heavy, calloused hand on my shoulder with enough weight to rattle my collarbones. "Barry, you can rely on me to club you across the skull whenever requested. Not for personal amusement, mind you—purely as a favor to a comrade."
 
 "Excellent," I say. "On that note, I have a tactical thought for the opening exchange. If Melindra casts updrafts on me, I can fly ahead as a mobile decoy, drawing their vanguard with crossbow fire while the rest of you surround the stragglers and—"
 
-A sharp crack of frost explodes against the back of my skull.
+A sharp, vicious crack of frost explodes against the back of my skull.
 
-Pain shoots down my neck. I stumble forward, rubbing the stinging welt, and spin around.
+Pain shoots down my neck like an icy wire. I stumble two paces forward over the uneven stones, clutching the stinging welt behind my ear, and spin around with watering eyes.
 
-Kate stands three paces away, balancing a six-inch icicle between her fingers, her dark eyes narrowing in disgust.
+Kate stands three paces away, balancing a six-inch sliver of razor-sharp ice between her knuckles, her dark eyes narrowed in pure, unvarnished irritation.
 
-"I knew you couldn't breathe for thirty seconds without volunteering for a suicide run," Kate says coldly. "We settled this yesterday. We do not split the formation. We fight the guard together. Understood?"
+"I knew you couldn't breathe for thirty seconds without volunteering for a suicide run," Kate says coldly, her voice cutting through the wind. "We settled this yesterday. We do not split the formation. We fight the guard together. Understood?"
 
-"Understood," I mutter, rubbing the sore spot behind my ear.
+"Understood," I mutter, wincing as meltwater trickles down into my collar.
 
-The icicle in Kate's grip dissolves into fine mist. "Gontrok's field is flaring. He's close."
+The icicle in Kate's fingers dissolves into fine mist. "Gontrok's field is flaring. He's close."
 
 "He broke into a sprint," Melindra confirms, pointing down the northern avenue. "He hits our line first. Brace yourself, Hadrik."
 
-Kelrim looks between us, his ears drooping as he grips his staff. "One clarification before the melee begins... When you spoke earlier of slaying a god... that was rhetorical exaggeration, correct?"
+Kelrim looks between the rest of us, his ears drooping as he grips his wooden staff white-knuckled. "One clarification before the melee begins... When you spoke earlier of slaying a god... that was rhetorical exaggeration, correct?"
 
-We stare at the goblin in silence.
+We stare at the goblin in absolute silence.
 
-Kelrim's voice climbs an octave. "It was exaggeration, wasn't it?"
+Kelrim's voice climbs an octave, panic cracking the edges. "It was exaggeration, wasn't it?"
 
-A shrieking cackle erupts from the golden amulet at Flower's chest. "Rhetorical! The goblin thinks it was a metaphor! Keep him around as a pet—his face is magnificent! Ahahaha!"
+A shrieking cackle erupts from the golden amulet at Flower's chest, echoing off the stone facades. "Rhetorical! The goblin thinks it was a metaphor! Keep him around as a pet—his face is magnificent! Ahahaha!"
 
 choice("Continue", B3-Ch06b-Rematch, v_current_scene = B3-Ch06b-Rematch)

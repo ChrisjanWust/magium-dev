@@ -175,7 +175,7 @@ I pull out the transceiver, tune it to Daren's frequency, and tap the activation
 
 "You were right," I say, pulling my hands back with a sigh. "I don't have the touch for it. We're wasting time."
 
-"Okay, let’s get going," Leila writes, turning to lead the way into the corridor.
+"All right, let's get going," Leila writes, turning to lead the way into the corridor.
 
 }
 #if(v_magical_sense >= 2 && v_b3_ch7_massage != 0) {
@@ -212,7 +212,7 @@ TEXT:
 
 Static hums back. Nothing else.
 
-"Dead air," I say, snapping the transceiver shut and pocketing it. "We won't know their status until we reach the surface."
+"Dead air," I say, snapping the transceiver shut and pocketing it. "We won't know how they fared until we reach the surface."
 
 "And by out of here, do you mean inside that tower with all the people chained up in the basement?" Leila writes, casting a wary glance around the dark.
 
@@ -220,7 +220,7 @@ Static hums back. Nothing else.
 
 "Last time, we were able to get away from there because we had someone to teleport us out..." Leila writes. "This time, the rebels' teleporting engineer is no longer on our side, so the only way out of that tower will be through their heavily-guarded front door."
 
-"I know," I say. "We don't have good options. Besides, if we want to retrieve your father, that tower is our primary target anyway. Hitting it while they think we're dead or lost gives us the drop on them."
+"I know," I say. "We don't have good choices. Besides, if we want to retrieve your father, that tower is our primary target anyway. Hitting it while they think we're dead or lost gives us the drop on them."
 
 "My father?!" Leila writes, stopping in her tracks. "What do you mean? Why would he be in there?"
 
@@ -707,7 +707,7 @@ His feints accelerate into a blistering flurry. But with my advanced martial mas
 
 I sweep a low kick behind his knee and shove his shoulder, sending the off-balance giant crashing onto his back. As his arms flail out to break his fall, Leila drops from above, dagger points aligned straight with his pupils.
 
-Before steel can pierce flesh, an ear-splitting screech rips through the cavern air. A wave of paralytic resonance crashes over our nervous systems, locking our limbs rigid. Our weapons slip from numbed fingers, clattering onto the stone floor.
+Before steel can pierce flesh, an ear-splitting screech rips through the cavern air. A wave of paralytic resonance crashes through our nerves, locking our limbs rigid. Our weapons slip from numbed fingers, clattering onto the stone floor.
 
 Gontrok scrambles to his feet, clutching his throbbing head as he scans the shadows.
 
@@ -767,7 +767,7 @@ Without weapons that can penetrate his hide, our only viable path is an attritio
 
 After I slip three more violent hooks, Gontrok halts, eyeing me with sheer disdain from across the corridor.
 
-"What is this strategy? Scurrying around until I die of old age?" Gontrok spits. "Take this fight seriously, or your next mistake will be your last."
+"What kind of tactics are these? Scurrying around until I die of old age?" Gontrok spits. "Take this fight seriously, or your next mistake will be your last."
 
 "Maybe land a punch before delivering the lecture," I say, circling wide. "Your threats are losing their punch."
 
@@ -1134,7 +1134,7 @@ She delivers a sharp punch to my bicep.
 
 She lands a solid punch on my shoulder.
 
-"Is it okay if I interpret this as another one of your misguided attempts to lighten the mood?" she writes.
+"May I interpret this as another one of your misguided attempts to lighten the mood?" she writes.
 
 "It broke your panic, didn't it?" I point out. "You're glaring at me instead of shaking."
 
@@ -1217,33 +1217,37 @@ choice("Continue", B3-Ch07a-Honorable, v_current_scene = B3-Ch07a-Honorable)
 ID: B3-Ch07a-Honorable
 TEXT:
 
- Gontrok lunges with explosive speed, throwing a rapid flurry of heavy punches aimed to crush Eiden where he stands.
+ Gontrok lunges with explosive speed, the stone beneath his boots cracking under the sudden displacement of nine feet of muscle and sinew. Even maimed and half-crazed, the giant moves with lethal precision, throwing a rapid flurry of heavy punches aimed to crush Eiden where he stands.
 
-Eiden does not flinch. Slipping the massive fists with effortless, microscopic head movements—the exact evasive pattern he used against Daren on day one—he ducks beneath an overhand hook, snatches Gontrok's wrist, and twists the giant's arm behind his back. In a blur of motion, his fingertips strike three distinct pressure points along the elbow joint.
+Eiden does not flinch. He slips the massive fists with microscopic, effortless head movements—hands still resting loosely at his sides, eyes shut tight, the identical evasive routine he used to humiliate Daren on day one. He ducks beneath an overhand hook that would have caved in a horse's ribs, snatches Gontrok's right wrist, and twists the giant's arm behind his back. In a blur of motion, his fingertips strike three distinct pressure points along the elbow joint.
 
 Eiden plants his open palm against the outside of the joint and pushes.
 
-The forearm snaps backward with a sickening, wet crack, the bone splintering outward against the skin. Gontrok lets out a strangled howl of agony, staggering sideways as his ruined limb dangles limp.
+The forearm snaps backward with a sickening, wet crack, the splintered radius tearing through flesh. Gontrok lets out a strangled howl of agony, staggering sideways as the ruined limb dangles useless against his hip.
 
-"What did you do?!" Gontrok wheezes, sweat pouring into his eyes.
+"What did you do?!" Gontrok wheezes, sweat and rage blinding his eyes.
 
-"I granted you an honorable duel," Eiden says mildly, his eyes still closed. "Was that not your request?"
+"I granted you an honorable duel," Eiden says mildly, his voice entirely flat. "Was that not your request?"
 
-"Rot in hell, you sadistic monster!" Gontrok roars, driving his three-fingered left fist straight at Eiden's jaw.
+"Rot in hell, you sadistic monster!" Gontrok roars, throwing all of his remaining weight into a three-fingered left hook aimed straight at Eiden's jaw.
 
-Eiden catches the incoming knuckles in his palm. Without shifting his footing, he bends the giant's remaining fingers backward until the joints snap like dry twigs. As Gontrok shrieks again, Eiden places his other hand flat against the giant's forehead.
+Eiden catches the incoming knuckles in his palm without shifting his footing. Without opening his eyes, he bends the giant's remaining fingers backward until the joints snap like dry twigs. While Gontrok shrieks in pain, Eiden places his other hand flat against the center of the giant's forehead.
 
 The skull detonates.
 
-A spray of bone, brain matter, and blood coats the cavern walls in a violent red mist. Before the headless corpse can touch the stone, a flash of white-hot fire erupts from Eiden's fingers, consuming flesh, armor, and marrow in a roaring pyre. When the blaze dies three seconds later, only a thin dusting of grey ash settles over the floor.
+A concussive crack echoes through the corridor. A spray of bone fragments, brain matter, and blood coats the cavern walls in a violent crimson mist. Before the headless corpse can touch the stone, white-hot fire erupts from Eiden's palm, consuming armor, flesh, and marrow in a roaring, three-second pyre. When the blaze dies, only a thin dusting of gray ash settles over the scorched rock.
 
-"Now then," Eiden says, conjuring a stream of clean water to rinse the crimson flecks from his tunic. "Is anyone else seeking a duel?"
+The stench hits us instantly—vaporized blood, singed copper, burnt bone, and scorched stone rolling through the tunnel in a choking wave. Flakes of gray ash drift through the superheated air like greasy snow. Leila turns her face away, pressing a sleeve to her mouth to stifle a retch. Loyrang stands frozen, one hand clamped hard on his scimitar hilt, staring at the blackened grease stain where a nine-foot warrior stood three seconds ago.
 
-"No," Loyrang says smoothly, wiping a streak of gore from his own uniform. "You made your position entirely clear."
+My stomach twists into a tight, cold knot. This wasn't combat. It was a slaughter. Hadrik had spent days training for this rematch—carrying centuries of grief, the memory of his destroyed dwarf village, the unfinished reckoning between two warriors who knew what war cost. Hadrik wanted to settle Gontrok with his own hands, on his own terms. And Eiden just erased an entire life of debt in four seconds to make a rhetorical point about ancient rules.
+
+"Now then," Eiden says, conjuring a stream of clear water to rinse the crimson flecks from his sleepwear. "Is anyone else seeking a duel?"
+
+"No," Loyrang says, his voice unusually tight as he wipes a stray splatter of gore from his uniform. "You made your position entirely clear."
 
 "Good," Eiden says, fading into invisibility as he drifts toward the far tunnel. "I have business with the king of Ollendor. If you make good time, you may find the conversation enlightening. You still remember the route to the seredium tower, yes?"
 
-"Yes," I say, finding my voice. "We know the way."
+"Yes," I manage, the air in my throat tasting of ash and ozone. "We know the way."
 
 "Splendid. I will leave the transit doors unlocked. I look forward to your next encounter with the Overseer."
 
@@ -1251,9 +1255,9 @@ A spray of bone, brain matter, and blood coats the cavern walls in a violent red
 
 Silence meets the question. The air where he hovered is completely empty.
 
-"He's gone," I say, exhaling slowly. "Teleported ahead. Loyrang, are you still traveling with us?"
+"He's gone," I say, exhaling slowly through the haze. "Teleported ahead. Loyrang, are you still traveling with us?"
 
-"I think I'll pass," Loyrang says, sheathing one of his scimitars. "If that monster is waiting in the tower, I prefer putting several miles of solid bedrock between us."
+"I think I'll pass," Loyrang says, his scimitar clicking back into its sheath with a sharp snap. "If that monster is waiting in the tower, I prefer putting several miles of solid bedrock between us."
 
 "Fair enough," I say.
 
@@ -1279,7 +1283,7 @@ Loyrang turns and vanishes down a side tunnel. As we resume our pace toward the 
 
 "No idea," I say. "He might think retracing his steps to his initial drop point will trigger a return jump. Unless he knows how to disarm ward traps, he'll wander in circles for an hour and end up back at our heels."
 
-As we walk, my eyes keep flicking to the glowing blue formations along the walls. The vibrations have dampened since Eiden moved off, but a low, steady hum still thrums through the rock, proving he remains somewhere within the subterranean complex.
+As we walk, the taste of ash still clings to the roof of my mouth, and my eyes keep flicking to the glowing blue formations along the walls. The vibrations have dampened since Eiden moved off, but a low, steady hum still thrums through the rock, proving he remains somewhere within the subterranean complex.
 
 "You seem to be really worried about the crystals," Leila writes, catching my tense scanning. "Do you think there is any risk that they might do to us the same thing that they did to Gontrok?"
 
@@ -1307,7 +1311,7 @@ Loyrang slips into the gloom of an adjoining corridor. As we turn back toward th
 
 "No idea," I say. "He might think retracing his steps to his initial drop point will trigger a return jump. Unless he knows how to disarm ward traps, he'll wander in circles for an hour and end up back at our heels."
 
-As we walk, my eyes keep flicking to the glowing blue formations along the walls. The vibrations have dampened since Eiden moved off, but a low, steady hum still thrums through the rock, proving he remains somewhere within the subterranean complex.
+As we walk, the taste of ash still clings to the roof of my mouth, and my eyes keep flicking to the glowing blue formations along the walls. The vibrations have dampened since Eiden moved off, but a low, steady hum still thrums through the rock, proving he remains somewhere within the subterranean complex.
 
 "You seem to be really worried about the crystals," Leila writes, catching my tense scanning. "Do you think there is any risk that they might do to us the same thing that they did to Gontrok?"
 
@@ -1335,7 +1339,7 @@ Loyrang disappears down a shadowed cross-tunnel. As we resume our march toward t
 
 "No idea," I say. "He might think retracing his steps to his initial drop point will trigger a return jump. Unless he knows how to disarm ward traps, he'll wander in circles for an hour and end up back at our heels."
 
-As we walk, my eyes keep flicking to the glowing blue formations along the walls. The vibrations have dampened since Eiden moved off, but a low, steady hum still thrums through the rock, proving he remains somewhere within the subterranean complex.
+As we walk, the taste of ash still clings to the roof of my mouth, and my eyes keep flicking to the glowing blue formations along the walls. The vibrations have dampened since Eiden moved off, but a low, steady hum still thrums through the rock, proving he remains somewhere within the subterranean complex.
 
 "You seem to be really worried about the crystals," Leila writes, catching my tense scanning. "Do you think there is any risk that they might do to us the same thing that they did to Gontrok?"
 
@@ -1357,7 +1361,7 @@ TEXT:
 
 "But a lot of us still remembered them," Leila writes. "The two of us did, and so did Gontrok and even Eiden. Do you think this means that the crystals failed to erase the fingers properly from everyone's minds for some reason?"
 
-"The erasure isn't absolute across the board," I say. "Gontrok's mind is anchored to decades of physical memory. Stripping forty years of hand-eye coordination might have liquefied his brain. In Eiden's case, he's tied to the Magium directly—the crystals hummed the moment he stepped close. He wasn't surprised because he's seen reality edited before."
+"The erasure isn't absolute across the board," I say. "Gontrok's mind is anchored to decades of physical memory. Stripping forty years of martial reflexes might have liquefied his brain. In Eiden's case, he's tied to the Magium directly—the crystals hummed the moment he stepped close. He wasn't surprised because he's seen reality edited before."
 
 "But what about us?" Leila writes.
 
@@ -1520,7 +1524,7 @@ set(v_is_dead,0) if (v_b3_ch7_tyrant == 1 && v_aura_hardening >= 3 || v_b3_ch7_t
 
 The bolt is already loose. The steel tip never reaches him; midway across the room, the projectile vaporizes into white ash as an automated defense ward flares. A searing lance of concentrated flame erupts from a device at the king's hip, tearing across the room in a fraction of a second.
 
-The column of fire engulfs me entirely, burning through flesh and bone before my nervous system can register the heat.
+The column of fire engulfs me entirely, burning through flesh and bone before my mind can even register the heat.
 
 }
 #if(v_b3_ch7_tyrant == 1 && v_aura_hardening >= 3) {

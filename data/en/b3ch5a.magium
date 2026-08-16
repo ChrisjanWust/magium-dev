@@ -1,29 +1,29 @@
 ID: B3-Ch05a-Intro
 TEXT:
 
-"Ah, back at last," the king of the underground says, without looking up from the paper in his hands.
+"Ah, back at last," the king of the underground says, without looking up from the parchment pinned beneath his forearm.
 
-He stands near the entrance of the rebel base, skimming a runner's report with half an eye. Before I can answer, he drops a question that stops me cold.
+He stands near the entrance of the rebel redoubt, an oil lamp smoking at his elbow as he marks a courier's dispatch with a blunt charcoal pencil. The subterranean air carries the faint, acrid draft of surface fires and sulfur through the intake shafts. Before I can unhook my crossbow strap, he drops a question that stops the whole line cold.
 
 "I assume negotiations with the Overseer are concluded?"
 
-"I don't know what you mean," I say, keeping my voice level. "I thought our meeting with the Overseer was set for tomorrow."
+"I don't know what you mean," I say, keeping my voice flat and my weight balanced over my boots. "I thought our meeting with the machine was set for tomorrow morning."
 
-The king sighs, lowers the parchment, and fixes me with a tired stare.
+The king exhales slowly, sets the charcoal down on the rough timber table, and fixes me with a dull, bloodshot stare.
 
-"Listen to me," he says, rubbing at the bridge of his nose. "Things are grim enough without us wasting breath on theater. I will give it to you plain. I expected you to go behind my back from the moment we first spoke. That is why I had Breynan stick to you. An insurance policy, to make sure your private dealings did not end in disaster for this city."
+"Listen to me," he says, pressing the heels of his hands into his eyes. "Matters are grim enough on the surface without us wasting breath on theater. I will give it to you plain. I expected you to go behind my back from the moment we first spoke. That is why I had Breynan stick to your flank. An insurance policy, to make sure your private dealings did not end in disaster for this city."
 
-"Breynan," Kate says, her brow furrowing. "Did you—"
+"Breynan," Kate says, her green cloak stiffening as her fingers curl near her belt. "Did you—"
 
-"I didn't say a word, I swear it!" Breynan says quickly. "I haven't spoken to the king since we left!"
+"I didn't say a word, I swear it!" Breynan says quickly, holding his palms out. "I haven't spoken to the king since we left the gate!"
 
-"You misunderstand, Kate," the king says. "I gave Breynan no orders. He went of his own free will, not as my spy. What tipped my hand was you."
+"You misunderstand, Kate," the king says, waving a dismissive hand. "I gave Breynan no orders. He went of his own free will, not as my spy. What tipped my hand was you."
 
-"Me?" Kate says.
+"Me?" Kate asks, her jaw tightening.
 
-"You," the king replies. "From our first exchange, your eyes made your opinion of me entirely clear. That would hardly matter if the healer led your company. But he made it plain that you decide things by consensus, and my instincts told me you would never willingly join hands with my men. So at the end of that meeting, I forbade Breynan from speaking with the Overseer. I knew precisely how he would take the slight—and that if he saw you heading for the surface, he would follow."
+"You," the king replies. "From our first exchange, your eyes made your opinion of me entirely clear. That would hardly matter if the healer led your company. But he made it plain that you decide things by consensus, and my instincts told me you would never willingly join hands with my men. So at the end of that council, I forbade Breynan from speaking with the Overseer. I knew precisely how he would take the slight—and that if he saw you heading for the surface, he would follow."
 
-The memory clicks into place: the king glancing toward Kate at the close of our first council, a heartbeat before telling Breynan he was barred from the summit. The man read our move before we had even debated making it.
+The memory clicks into place: the king glancing toward Kate at the close of our first audience, a heartbeat before telling Breynan he was barred from the summit. The man had read our formation before we even reached the tunnels.
 
 choice("Continue", B3-Ch05a-Intro2, v_current_scene = B3-Ch05a-Intro2, v_checkpoint_rich = 0)
 
@@ -31,17 +31,17 @@ choice("Continue", B3-Ch05a-Intro2, v_current_scene = B3-Ch05a-Intro2, v_checkpo
 ID: B3-Ch05a-Intro2
 TEXT:
 
-"What kind of absurd gamble is that?" Melindra says. "You sidelined the one man who actually understands the Overseer on nothing more than a hunch? What if you guessed wrong? What if Daren talked us into waiting for morning and marching up with your soldiers?"
+"What kind of absurd gamble is that?" Melindra asks, leaning back against a timber post with her arms crossed over her leather vest. "You sidelined the one man who actually understands the Overseer on nothing more than a hunch? What if you guessed wrong? What if Daren talked us into waiting for morning and marching up with your soldiers?"
 
-The king gives a dry shrug.
+The king gives a dry, single-shouldered shrug.
 
-"Then I would have told Breynan I changed my mind and sent him along after all," he says. "Besides, it was hardly a blind guess. Every step you took afterward proved me right. You never set down your packs, even in the quarters we gave you, and the ice mage spent our second council broadcasting her contempt. By then I knew you would seek out the machine on your own. That was why I proposed an alliance of convenience rather than trust—one where either side is free to cut ties the second our interests diverge. You recall the terms, I trust?"
+"Then I would have told Breynan I changed my mind and sent him along after all," he says, tapping the dispatch pile with a stained knuckle. "Besides, it was hardly a blind guess. Every step you took afterward proved me right. You never set down your packs, even in the quarters we gave you, and the ice mage spent our second council broadcasting her contempt. By then I knew you would seek out the machine on your own. That was why I proposed an alliance of convenience rather than trust—one where either side is free to cut ties the second our interests diverge. You recall the terms, I trust?"
 
-"So you are saying it is your turn to strike from behind?" Illuna asks.
+"So you are saying it is your turn to strike from behind?" Illuna asks, standing rigid with her aura clamped down tight to mask the ache in her back.
 
 "Good heavens, no," the king says. "I have no quarrel with you. Breynan may question my judgment, but his loyalty to Ollendor is beyond dispute. If you had done anything to endanger our people, he would not be standing beside you in silence. That is enough for me. Your healer has spent every waking hour in the quarantine ward keeping my men alive. Treating you as enemies would be an insult to his work."
 
-"Does this mean you don't care what we discussed with the Overseer?" Kate asks.
+"Does this mean you don't care what we discussed with the Overseer?" Kate asks, her dark eyes unblinking.
 
 "Of course I care," the king says. "I intend to ask. You are simply under no obligation to answer. So—will you share the outcome of your summit, or keep it to yourselves?"
 
@@ -56,15 +56,15 @@ TEXT:
 #if(v_b3_ch5_negotiations == 2 && v_b3_ch4_billy != 7 && v_b3_ch4_billy != 8) {
 "Sure, we'll tell you. For a price."
 
-"A price?" The king pauses, weighing the offer. "To be blunt, I have no intention of emptying my coffers for stale intelligence. Either you struck a clandestine pact with the Overseer—in which case you will lie to my face—or you discussed ways to corner the king, all of which collapsed the moment he locked down the city. Still, I will offer ten gold coins upfront if you confirm or deny my assessment. What do you say?"
+"A price?" The king pauses, his thumb tracing the rim of a small leather pouch at his belt. "To be blunt, I have no intention of emptying my coffers for stale intelligence. Either you struck a clandestine pact with the Overseer—in which case you will lie to my face—or you discussed ways to corner the king, all of which collapsed the moment he locked down the city. Still, I will offer ten gold coins upfront if you confirm or deny my assessment. What do you say?"
 
 }
 #if(v_b3_ch4_billy == 7 && v_b3_ch5_negotiations == 2 || v_b3_ch4_billy == 8 && v_b3_ch5_negotiations == 2) {
 "Sure, we'll tell you. For a price."
 
-Kate and Breynan both flinch toward me, then catch themselves, schooling their expressions before they give anything away. The king keeps his eyes on me, oblivious to the exchange.
+Kate and Breynan both flinch toward me, their shoulders locking before they catch themselves and stare fixedly ahead. The king keeps his eyes on me, unbothered by the twitch in our ranks.
 
-"A price?" The king pauses, weighing the offer. "To be blunt, I have no intention of emptying my coffers for stale intelligence. Either you struck a clandestine pact with the Overseer—in which case you will lie to my face—or you discussed ways to corner the king, all of which collapsed the moment he locked down the city. Still, I will offer ten gold coins upfront if you confirm or deny my assessment. What do you say?"
+"A price?" The king pauses, his thumb tracing the rim of a small leather pouch at his belt. "To be blunt, I have no intention of emptying my coffers for stale intelligence. Either you struck a clandestine pact with the Overseer—in which case you will lie to my face—or you discussed ways to corner the king, all of which collapsed the moment he locked down the city. Still, I will offer ten gold coins upfront if you confirm or deny my assessment. What do you say?"
 
 }
 choice("Confirm that the information from the Overseer has become irrelevant.", B3-Ch05a-Contacting, v_current_scene = B3-Ch05a-Contacting, v_b3_ch5_negotiations = 3)
@@ -79,29 +79,29 @@ achievement("Opportunist",v_ac_b3_ch5_opportunist)
 #if(v_b3_ch5_negotiations == 1 && v_b3_ch4_billy != 7 && v_b3_ch4_billy != 8) {
 "I mean, the cat's out of the bag already, so I guess we might as well tell you."
 
-"I am listening," the king says.
+"I am listening," the king says, resting his forearms against the table.
 
-"Not much to tell," I say. "The Overseer pointed out that the king has been slipping out of the palace on regular circuits. We were supposed to shadow his scouts, track his movements, and lay an ambush along his route. But that was before he sealed the gates. Whatever schedule he was keeping is useless now."
+"Not much to tell," I say, shifting the pack off my sore shoulder. "The Overseer pointed out that the king has been slipping out of the palace on regular circuits. We were supposed to shadow his scouts, track his movements, and lay an ambush along his route. But that was before he sealed the outer gates. Whatever timetable he was keeping is useless now."
 
-"As I suspected," the king murmurs. "Even so, I appreciate the candor. Matters are difficult enough without having to second-guess our guests. Get some sleep, all of you. Tomorrow will demand everything we have. We speak again at dawn."
+"As I suspected," the king murmurs, blowing a breath through his mustache. "Even so, I appreciate the candor. Matters are difficult enough without having to second-guess our guests. Get some sleep, all of you. Tomorrow will demand everything we have. We speak again at dawn."
 
 }
 #if(v_b3_ch4_billy == 7 && v_b3_ch5_negotiations == 1 || v_b3_ch4_billy == 8 && v_b3_ch5_negotiations == 1) {
 "I mean, the cat's out of the bag already, so I guess we might as well tell you."
 
-Kate and Breynan snap their heads toward me for a fraction of a second, stiffening before they remember to hold still. The king doesn't notice, his attention fixed squarely on me.
+Kate and Breynan snap their heads toward me for a fraction of a second, their jaws tightening before they remember to hold still. The king doesn't notice, his attention fixed squarely on me.
 
-"I am listening," the king says.
+"I am listening," the king says, resting his forearms against the table.
 
-"Not much to tell," I say. "The Overseer pointed out that the king has been slipping out of the palace on regular circuits. We were supposed to shadow his scouts, track his movements, and lay an ambush along his route. But that was before he sealed the gates. Whatever schedule he was keeping is useless now."
+"Not much to tell," I say, shifting the pack off my sore shoulder. "The Overseer pointed out that the king has been slipping out of the palace on regular circuits. We were supposed to shadow his scouts, track his movements, and lay an ambush along his route. But that was before he sealed the outer gates. Whatever timetable he was keeping is useless now."
 
-"As I suspected," the king murmurs. "Even so, I appreciate the candor. Matters are difficult enough without having to second-guess our guests. Get some sleep, all of you. Tomorrow will demand everything we have. We speak again at dawn."
+"As I suspected," the king murmurs, blowing a breath through his mustache. "Even so, I appreciate the candor. Matters are difficult enough without having to second-guess our guests. Get some sleep, all of you. Tomorrow will demand everything we have. We speak again at dawn."
 
 }
 #if(v_b3_ch5_negotiations == 0) {
 "Of course not."
 
-The king shrugs.
+The king shrugs, picking up his charcoal pencil once more.
 
 "Suit yourself," he says. "It is not as though I cannot piece together the broad strokes on my own. Go get some rest. Tomorrow will be grueling enough. We speak in the morning."
 
@@ -111,7 +111,7 @@ The king shrugs.
 
 "Correct," the king says. "I have no use for expired plans. But I appreciate the honesty. Here is your coin."
 
-He counts ten gold pieces into my hand, and I drop them into my belt pouch.
+He counts ten heavy gold pieces into my palm. The metal is cold and nicked from circulation. I drop them into my belt pouch with a satisfying clink.
 
 "Now that business is settled," the king says, "go get some rest. Tomorrow will be grueling enough. We speak in the morning."
 
@@ -119,53 +119,53 @@ He counts ten gold pieces into my hand, and I drop them into my belt pouch.
 #if(v_b3_ch5_negotiations == 4) {
 "Ten gold coins isn't worth the breath it takes to answer," I say. "Keep your money."
 
-The king shrugs.
+The king shrugs, returning the pouch to his belt.
 
 "As you like," he says. "I see little point in turning down free coin, but I will not waste time haggling. Go get some rest. Tomorrow will be grueling enough. We speak in the morning."
 
 }
 #if(v_b3_ch4_billy == 7 && v_b3_ch5_negotiations != 0 && v_b3_ch5_negotiations != 4 || v_b3_ch4_billy == 8 && v_b3_ch5_negotiations != 0 && v_b3_ch5_negotiations != 4) {
-"Is there anything you need of me, Sire?" Breynan asks.
+"Is there anything you need of me, Sire?" Breynan asks, stepping toward the table.
 
 "You can start by taking half these reports," the king says, gesturing toward an aide holding a thick bundle of parchment. "Take from the bottom. Those should be clear enough even without an intimate knowledge of the city grid. We must relocate as many civilians as possible before sunrise, so prepare for a long night. We will be here until dawn."
 
 "Understood," Breynan says, drawing a sheet from the pile.
 
-We leave them to their work and turn down the tunnel toward our quarters. The waiting hall is crowded with displaced families, rebel runners steering groups toward whatever empty corner remains. Space is clearly running out; several escorts are already guiding refugees toward the mess hall instead of the barracks.
+We leave them to their work and turn down the tunnel toward our quarters. The waiting hall is crowded with displaced families, rebel runners steering weeping mothers and children toward whatever empty corner remains. Space is clearly running out; several escorts are already guiding refugees toward the mess hall instead of the barracks.
 
-"For a second back there, I thought you were about to mention our other arrangement with the Overseer," Kate whispers once we are out of earshot.
+"For a second back there, I thought you were about to mention our other arrangement with the Overseer," Kate whispers once we are past the sentry post.
 
-"Give me some credit," I mutter back. "I'm not that reckless."
+"Give me some credit," I mutter back, keeping my voice low against the rumble of the crowd. "I'm not that reckless."
 
 }
 #if(v_b3_ch4_billy != 7 && v_b3_ch4_billy != 8 || v_b3_ch5_negotiations == 0 || v_b3_ch5_negotiations == 4) {
-"Is there anything you need of me, Sire?" Breynan asks.
+"Is there anything you need of me, Sire?" Breynan asks, stepping toward the table.
 
 "You can start by taking half these reports," the king says, gesturing toward an aide holding a thick bundle of parchment. "Take from the bottom. Those should be clear enough even without an intimate knowledge of the city grid. We must relocate as many civilians as possible before sunrise, so prepare for a long night. We will be here until dawn."
 
 "Understood," Breynan says, drawing a sheet from the pile.
 
-We leave them to their work and turn down the tunnel toward our quarters. The waiting hall is crowded with displaced families, rebel runners steering groups toward whatever empty corner remains. Space is clearly running out; several escorts are already guiding refugees toward the mess hall instead of the barracks.
+We leave them to their work and turn down the tunnel toward our quarters. The waiting hall is crowded with displaced families, rebel runners steering weeping mothers and children toward whatever empty corner remains. Space is clearly running out; several escorts are already guiding refugees toward the mess hall instead of the barracks.
 
 }
 #if(v_ch11_saved_rose == 0) {
 "Should we contact Daren and Hadrik?" Leila writes, hovering glowing blue script in the air as we reach the corridor arch. "They may have been trying our transceivers while we were away."
 
-"Good idea," I say. "I'll raise them now."
+"Good idea," I say, pulling the brass device from my pocket. "I'll raise them now."
 
-I pull out my device and dial Daren first. I give him a quick, stripped-down summary—leaving out the machinery beneath the seredium tower—and assure him we made it back in one piece. He's been trying to reach us for over an hour. Once he agrees to meet us outside the infirmary, I dial Hadrik and repeat the brief account. He promises to meet us in ten minutes and cuts the connection.
+I turn the small dials and call Daren first. I give him a quick, stripped-down summary—leaving out the energy-harvesting machinery beneath the seredium tower—and assure him we made it back in one piece. He's been trying to reach us for over an hour between wards. Once he agrees to meet us outside the infirmary, I dial Hadrik and repeat the brief account. The dwarf promises to meet us in ten minutes and cuts the connection with a click.
 
-The transceiver is barely back in my pocket when Daren steps out of the quarantine tunnel, holding Arraka's amulet right against his chin like a speaking trumpet while shouting into it. Kelrim trails a few paces behind, padding along in silence as they head our way.
+The transceiver is barely back in my coat when Daren steps out of the quarantine tunnel, holding Arraka's gold amulet right against his chin like a speaking horn while shouting into it. Kelrim trails a few paces behind in his stained apothecary apron, padding along in silence as they head our way.
 
 }
 #if(v_ch11_saved_rose == 1) {
 "Should we contact Daren and Hadrik?" Leila writes, hovering glowing blue script in the air as we reach the corridor arch. "They may have been trying our transceivers while we were underground."
 
-"Good idea," I say. "And Rose too. I told her I'd call the moment we got back to base."
+"Good idea," I say, pulling the brass device from my pocket. "And Rose too. I told her I'd call the moment we got back to base."
 
-I pull out my device and dial Daren first. I give him a quick, stripped-down summary—leaving out the machinery beneath the seredium tower—and assure him we made it back in one piece. He's been trying to reach us for over an hour. Once he agrees to meet us outside the infirmary, I dial Hadrik and repeat the brief account. He promises to meet us in ten minutes and cuts the connection.
+I turn the small dials and call Daren first. I give him a quick, stripped-down summary—leaving out the energy-harvesting machinery beneath the seredium tower—and assure him we made it back in one piece. He's been trying to reach us for over an hour between wards. Once he agrees to meet us outside the infirmary, I dial Hadrik and repeat the brief account. The dwarf promises to meet us in ten minutes and cuts the connection with a click.
 
-The transceiver is barely back in my pocket when Daren steps out of the quarantine tunnel, holding Arraka's amulet right against his chin like a speaking trumpet while shouting into it. Kelrim trails a few paces behind, padding along in silence as they head our way.
+The transceiver is barely back in my coat when Daren steps out of the quarantine tunnel, holding Arraka's gold amulet right against his chin like a speaking horn while shouting into it. Kelrim trails a few paces behind in his stained apothecary apron, padding along in silence as they head our way.
 
 }
 choice("Continue", B3-Ch05a-Untangle, v_current_scene = B3-Ch05a-Untangle)
@@ -174,11 +174,11 @@ choice("Continue", B3-Ch05a-Untangle, v_current_scene = B3-Ch05a-Untangle)
 ID: B3-Ch05a-Untangle
 TEXT:
 
-"If you had explained it like that from the start, we wouldn't have wasted half the day on aura drills!" Daren shouts, holding the amulet level with his jaw.
+"If you had explained it like that from the start, we wouldn't have wasted half the day on aura drills!" Daren shouts, holding the heavy gold amulet level with his jaw as he stomps down the passage.
 
-"I did explain it, you thickheaded oaf," Arraka snarls from the gold casing. "I have told you every day since we crossed the border: untangle the currents with your mind. What part of that requires a translator?"
+"I did explain it, you thickheaded oaf," Arraka snarls from the gold casing, her voice metallic and harsh. "I have told you every day since we crossed the border: untangle the currents with your mind. What part of that requires a translator?"
 
-"The part where your instructions sound like gibberish!" Daren snaps. "How was I supposed to guess you meant actual knots? I was trying to redirect every stream one by one! You couldn't explain water to a drowning man!"
+"The part where your instructions sound like gibberish!" Daren snaps, wiping sweat from his forehead with the back of his steel gauntlet. "How was I supposed to guess you meant actual knots? I was trying to redirect every stream one by one! You couldn't explain water to a drowning man!"
 
 "Is that so?" Arraka sneers. "Then why did the goblin grasp it on the first try? One sentence, and he had it. What is your excuse, hero?"
 
@@ -186,7 +186,7 @@ TEXT:
 
 "I am an elf, you miserable clod! How many times do I have to say it?"
 
-"Should I take it you made progress on the quarantine cure?" Illuna asks as they reach us.
+"Should I take it you made progress on the quarantine cure?" Illuna asks as they reach our group, her face settling into its usual dry mask.
 
 #if(False) {
 "So, what you are saying is that it is now your turn to backstab us?" Illuna asks the king.
@@ -201,43 +201,43 @@ TEXT:
 #if(v_ch11_saved_rose == 1) {
 "Progress, yes," Arraka says. "Only because the little green one translated my words into something simple enough for a primate to digest. Daren finally understands what is rotting their cores. Now he just needs the reagents."
 
-"Reagents we don't have," Daren says, lowering the amulet. "The tools are simple enough, but Kelrim says the city's apothecaries are nearly picked clean. Rogue settlements don't see much trade, and the herbs we need don't grow in these plains. We will have to scour half the market stalls in Ollendor—which would be difficult even if we weren't wanted fugitives under curfew. If the guards are enforcing the lockdown, half those shops won't even unbolt their doors."
+"Reagents we don't have," Daren says, lowering the amulet with a heavy sigh. "The tools are simple enough, but Kelrim says the city's apothecaries are nearly picked clean. Rogue settlements don't see much caravan trade, and the herbs we need don't grow in these plains. We will have to scour half the market stalls in Ollendor—which would be difficult even if we weren't wanted fugitives under curfew. If the guards are enforcing the lockdown, half those shops won't even unbolt their shutters."
 
-"You could ask Rose," Kate suggests. "She knows the local flora. She might know common substitutes that ordinary herb sellers keep on hand, so you don't have to turn the whole market inside out."
+"You could ask Rose," Kate suggests, glancing at the transceiver in my hand. "She knows the local flora. She might know common substitutes that ordinary herb sellers keep on hand, so you don't have to turn the whole market inside out."
 
-Daren nods, considering it. "Good thought. I'll ask her later tonight."
+Daren nods, rubbing his chin where the helmet strap chafed. "Good thought. I'll ask her later tonight."
 
-"If you are going into the markets, I am coming with you," Kelrim says, stepping forward. "I buy my own supplies there. I know which back-alley vendors are likely to have stock left."
+"If you are going into the markets, I am coming with you," Kelrim says, stepping forward and adjusting the strap of his satchel. "I buy my own supplies there. I know which back-alley vendors are likely to have stock left."
 
 }
 #if(v_ch11_saved_rose == 0) {
 "Progress, yes," Arraka says. "Only because the little green one translated my words into something simple enough for a primate to digest. Daren finally understands what is rotting their cores. Now he just needs the reagents."
 
-"Reagents we don't have," Daren says, lowering the amulet. "The tools are simple enough, but Kelrim says the city's apothecaries are nearly picked clean. Rogue settlements don't see much trade, and the herbs we need don't grow in these plains. We will have to scour half the market stalls in Ollendor—which would be difficult even if we weren't wanted fugitives under curfew. If the guards are enforcing the lockdown, half those shops won't even unbolt their doors."
+"Reagents we don't have," Daren says, lowering the amulet with a heavy sigh. "The tools are simple enough, but Kelrim says the city's apothecaries are nearly picked clean. Rogue settlements don't see much caravan trade, and the herbs we need don't grow in these plains. We will have to scour half the market stalls in Ollendor—which would be difficult even if we weren't wanted fugitives under curfew. If the guards are enforcing the lockdown, half those shops won't even unbolt their shutters."
 
-"If you are going into the markets, I am coming with you," Kelrim says, stepping forward. "I buy my own supplies there. I know which back-alley vendors are likely to have stock left."
+"If you are going into the markets, I am coming with you," Kelrim says, stepping forward and adjusting the strap of his satchel. "I buy my own supplies there. I know which back-alley vendors are likely to have stock left."
 
 }
 #if(v_b3_ch2_goblins == 1) {
-"Are you sure, Kelrim?" Daren asks gently. "The contagion moves far slower in goblin blood. You could wait a week or two for the curfew to lift before risking the streets. There is no need to put yourself in front of royal guards."
+"Are you sure, Kelrim?" Daren asks gently, resting a gauntleted palm on the goblin's shoulder. "The contagion moves far slower in goblin blood. You could wait a week or two for the curfew to lift before risking the streets. There is no need to put yourself in front of royal guards."
 
-"And let the humans in those beds die while you search alone?" Kelrim's ears pin back. "No more innocent blood on this city's stones. Not while I can still walk. If I have breath in my lungs, I help."
+"And let the humans in those beds die while you search alone?" Kelrim's ears pin back against his scalp. "No more innocent blood on this city's stones. Not while I can still walk. If I have breath in my lungs, I help."
 
 The phrase catches in my throat. Innocent blood. He doesn't mean it as an accusation, but the memory of the goblin sentries we cut down outside the perimeter hits like cold water. The fact that he holds no grudge only makes the silence heavier. A glance at Daren and Kate shows the same tightening around their jaws. Daren swallows whatever protest he has left.
 
 "Then I'll watch your back," Daren says quietly. "I give you my word, Kelrim. Nothing touches you on the surface."
 
-"Thank you," Kelrim says. "If blood is drawn, my magic will be ready."
+"Thank you," Kelrim says, bowing his head slightly. "If blood is drawn, my magic will be ready."
 
 }
 #if(v_b3_ch2_goblins != 1) {
-"Are you sure, Kelrim?" Daren asks. "The contagion moves far slower in goblin blood. You could wait a week or two for the curfew to lift before risking the streets. There is no need to put yourself in front of royal guards."
+"Are you sure, Kelrim?" Daren asks, looking down at him. "The contagion moves far slower in goblin blood. You could wait a week or two for the curfew to lift before risking the streets. There is no need to put yourself in front of royal guards."
 
-"And let the humans in those beds die while you search alone?" Kelrim's ears pin back. "No more innocent blood on this city's stones. Not while I can still walk. If I have breath in my lungs, I help."
+"And let the humans in those beds die while you search alone?" Kelrim's ears pin back against his scalp. "No more innocent blood on this city's stones. Not while I can still walk. If I have breath in my lungs, I help."
 
 "If your mind is made up, I won't argue," Daren says. "Just stay behind my shield when we hit the surface. You never know what's waiting in the alleys."
 
-"I will be careful," Kelrim says. "Thank you. If blood is drawn, my magic will be ready."
+"I will be careful," Kelrim says, bowing his head slightly. "Thank you. If blood is drawn, my magic will be ready."
 
 }
 choice("Continue", B3-Ch05a-Adventure, v_current_scene = B3-Ch05a-Adventure)
@@ -252,23 +252,23 @@ TEXT:
 
 "Rest well," Kelrim says, bowing his head as we turn down the branch.
 
-"Petal— Illuna, I mean," Flower pipes up, her voice small. "Can I sleep a little longer? My head still feels heavy..."
+"Petal— Illuna, I mean," Flower pipes up, her voice small and muffled as she rubs at her eyes. "Can I sleep a little longer? My head still feels heavy..."
 
-"Go ahead," Illuna says.
+"Go ahead," Illuna says, her expression softening for a bare fraction of a second before hardening again.
 
-"Wake me if something happens," Flower murmurs.
+"Wake me if something happens," Flower murmurs, letting her chin drop against her chest.
 
-Leila's fingers trace glowing blue glyphs across the air between us. "Do you think she is shaken by what was beneath the tower?"
+Leila's fingers trace glowing blue glyphs across the dim air between us. "Do you think she is shaken by what was beneath the tower?"
 
-"Hard to look at that and not be," I murmur back, keeping my voice beneath Daren's hearing. "Though she was already half-asleep when Illuna pulled her up. Could just be—"
+"Hard to look at that harvesting rig and not be," I murmur back, keeping my voice beneath Daren's hearing. "Though she was already half-asleep when Illuna pulled her up. Could just be—"
 
 "Well, look who decided to show up!"
 
-Hadrik's booming voice echoes down the stone passage, his broad dwarf grin preceding him as he rounds the bend. "Off playing hero without me again? Keeping all the glory to yourselves, are you?"
+Hadrik's booming voice echoes down the stone passage, his broad dwarf grin preceding him as he rounds the bend with an axe slung across his leather-clad shoulder. "Off playing hero without me again? Keeping all the glory to yourselves, are you?"
 
 "Glory isn't the word I'd use," I say. "We'll lay it out in the room. Half the city is packing through these halls."
 
-"Quiet as a tomb back where we're sleeping," Hadrik says, falling into step beside us. "Though I suppose that's by design. The king tucked us into the farthest hole in the rock. Not keen on us fraternizing with the locals, I wager."
+"Quiet as a tomb back where we're sleeping," Hadrik says, falling into step beside us, his heavy boots thudding against the stone. "Though I suppose that's by design. The king tucked us into the farthest hole in the rock. Not keen on us fraternizing with the locals, I wager."
 
 "Suits us fine," Daren says. "Do we bear right here?"
 
@@ -276,7 +276,7 @@ Hadrik's booming voice echoes down the stone passage, his broad dwarf grin prece
 
 "Lead on, then," Daren says.
 
-As we reach the turning, Albert appears from the side tunnel, herding a cluster of frightened refugees toward a side hall. His eyes meet mine for a fraction of a second before he cuts his gaze away, staring straight ahead as though the passage were empty.
+As we reach the turning, Albert appears from the side tunnel, herding a cluster of frightened refugees toward a side hall with a grim, exhausted scowl. His eyes meet mine for a fraction of a second before he cuts his gaze away, staring straight ahead as though the passage were empty.
 
 choice("Call out to him and wish him a good evening.", B3-Ch05a-Evening, v_current_scene = B3-Ch05a-Evening)
 choice("Don't say anything to him.", B3-Ch05a-Anything, v_current_scene = B3-Ch05a-Anything)
@@ -289,75 +289,75 @@ TEXT:
 #if(v_ch11_saved_rose == 0) {
 "Good evening, Albert!" I call out. "Pleasant night for a stroll!"
 
-Albert narrows his eyes, gives a tight, reluctant nod, and keeps walking without breaking stride. We follow Hadrik past the archway and into the deeper tunnels.
+Albert narrows his eyes, gives a tight, reluctant nod, and keeps walking without breaking his rigid stride. We follow Hadrik past the archway and into the deeper tunnels where the stone turns damp and cold.
 
-The moment the heavy door seals behind us, we have Daren tend to Illuna. For all her iron composure, the puncture in her back from the teleporting guard is still bleeding through her tunic. Once the white glow finishes stitching muscle and skin, we wave Daren and Hadrik toward the bench.
+The moment the heavy timber door thuds shut behind us, Daren sets his shield down and tends to Illuna. For all her iron composure, the dark cloth of her tunic is soaked through with blood from where the lessathi assassin's dagger punched into her flank. Daren kneels in his scuffed plate, his gauntlets off, hands bathing the wound in a soft, steady white glow. Muscle and skin knit back together under the light while Illuna keeps her breathing measured and her eyes blank.
 
-When we finish laying out what we found beneath the seredium tower, the silence in the room splits three ways. Daren's jaw sets with grim, cold fury; Hadrik's face goes red with rage; and Arraka's amulet sits in utter, mocking indifference.
+Once the flesh seals and Daren wipes his palms, we wave him and Hadrik toward the rough bench. When we finish laying out what we found beneath the seredium tower—the chained men, the siphon conduits, the energy draining into the city grid—the silence in the room splits three ways. Daren's jaw sets with grim, white-knuckled fury; Hadrik's face darkens with pure rage; and Arraka's amulet rests on the wooden table in mocking indifference.
 
-"Those absolute bastards!" Hadrik roars, slamming a fist into his palm. "Where is this cursed tower? I will tear the machine off its mountings with my bare hands!"
+"Those absolute bastards!" Hadrik roars, slamming a thick fist into his palm with a crack that rattles the lanterns. "Where is this cursed tower? I will tear the machine off its mountings with my bare hands!"
 
 }
 #if(v_ch11_saved_rose == 1) {
 "Good evening, Albert!" I call out. "Pleasant night for a stroll!"
 
-Albert narrows his eyes, gives a tight, reluctant nod, and keeps walking without breaking stride. We follow Hadrik past the archway and into the deeper tunnels.
+Albert narrows his eyes, gives a tight, reluctant nod, and keeps walking without breaking his rigid stride. We follow Hadrik past the archway and into the deeper tunnels where the stone turns damp and cold.
 
-The moment the heavy door seals behind us, we wave Daren and Hadrik toward the bench. I pull the transceiver from my pocket and dial Rose so she can hear the report alongside the rest of us.
+The moment the heavy timber door thuds shut behind us, we wave Daren and Hadrik toward the rough bench. I pull the brass transceiver from my coat and dial Rose so she can hear the debrief alongside the rest of us.
 
-When we finish laying out what we found beneath the seredium tower, the silence in the room splits four ways. Daren's jaw sets with grim, cold fury; Hadrik's face goes red with rage; Rose stays utterly silent over the line; and Arraka's amulet sits in mocking indifference.
+When we finish laying out what we found beneath the seredium tower—the chained men, the siphon conduits, the energy draining into the city grid—the silence in the room splits four ways. Daren's jaw sets with grim, white-knuckled fury; Hadrik's face darkens with pure rage; Rose stays utterly silent over the hiss of the line; and Arraka's amulet rests on the wooden table in mocking indifference.
 
-"Those absolute bastards!" Hadrik roars, slamming a fist into his palm. "Where is this cursed tower? I will tear the machine off its mountings with my bare hands!"
+"Those absolute bastards!" Hadrik roars, slamming a thick fist into his palm with a crack that rattles the lanterns. "Where is this cursed tower? I will tear the machine off its mountings with my bare hands!"
 
 }
-"You can't smash the machine," Melindra says flatly. "It has to be powered down from the control station. Weren't you listening?"
+"You can't smash the machine," Melindra says flatly, leaning her shoulder against the doorframe. "It has to be powered down from the control station. Weren't you listening?"
 
-"Then I'll break every skull in the tower until someone points me to the levers!" Hadrik snaps. "Someone in there knows where it sits!"
+"Then I'll break every skull in the tower until someone points me to the levers!" Hadrik snaps, turning on her. "Someone in there knows where it sits!"
 
 "You won't break a thing, you lumbering clown," Arraka cackles from the amulet. "You'll be lucky to land one blow before the continent's ward catches your knuckles and hurls you back across the ocean."
 
-Hadrik growls, pacing the stone floor. "Then I'll dodge their guards and punch through every wall until I find the core! We cannot sit here! Why aren't the rest of you furious?"
+Hadrik growls, pacing the flagstones like a caged bear. "Then I'll dodge their guards and punch through every wall until I find the core! We cannot sit here! Why aren't the rest of you furious?"
 
 "Is that a rhetorical question, or do you want a list?" Arraka asks.
 
 "Calm down, Hadrik," Daren says, holding up a steady hand. "I am just as sickened as you are. But charging blind won't save them. Even if we breached that basement, there are three other towers in Ollendor doing the exact same thing. Settle one, and the entire royal garrison comes down on our heads. We cannot fight an entire army alone. If we want those people out, the throne has to fall. And to do that, we need allies. What was your read on the Overseer? Will it cooperate?"
 
 #if(v_b3_ch4_billy == 9) {
-"Doubtful," I say. "Billy Bob will probably pull its core the moment he comes around for selling him out. I doubt we'll see it again."
+"Doubtful," I say, leaning back against the cold stone. "Billy Bob will probably pull its core the moment he comes around for selling him out. I doubt we'll see it again."
 
 "To the abyss with the machine!" Hadrik says. "It's iron and wire. The rebels have the steel. Can we trust them to mount a raid?"
 
-"The rebels won't touch the towers," Kate says, leaning against the doorway. "Their king made that clear. He won't spend a single soldier on a rescue, even knowing innocent people are strapped to the drain. The only thing an alliance gets us is steel against the king on the surface. Nothing more."
+"The rebels won't touch the towers," Kate says, her arms folded tightly across her cloak. "Their king made that clear. He won't spend a single soldier on a rescue, even knowing innocent people are strapped to the drain. The only thing an alliance gets us is steel against the palace on the surface. Nothing more."
 
 "Here is a novel thought," Arraka sneers. "Stop begging help from every pathetic mortal in a ten-mile radius and solve your own messes. Do you think these gutter rebels will hold your hand when you face the God of Time? Will they stand beside you when my five-thousand-year-old self reaches down your throats and pulls your spines out through your teeth? When will you mongrels understand that this is not a game? Take your drills seriously, or die like the amateurs you are."
 
 }
 #if(v_b3_ch4_billy <= 6 && v_b3_ch4_billy != 0) {
-"Hard to say," I answer. "It seemed grateful enough that we took care of Billy Bob, and willing to trade favors. But its motives are its own. I wouldn't turn my back on it."
+"Hard to say," I answer, leaning back against the cold stone. "It seemed grateful enough that we took care of Billy Bob, and willing to trade favors. But its motives are its own. I wouldn't turn my back on it."
 
 "To the abyss with the machine!" Hadrik says. "It's iron and wire. The rebels have the steel. Can we trust them to mount a raid?"
 
-"The rebels won't touch the towers," Kate says, leaning against the doorway. "Their king made that clear. He won't spend a single soldier on a rescue, even knowing innocent people are strapped to the drain. The only thing an alliance gets us is steel against the king on the surface. Nothing more."
+"The rebels won't touch the towers," Kate says, her arms folded tightly across her cloak. "Their king made that clear. He won't spend a single soldier on a rescue, even knowing innocent people are strapped to the drain. The only thing an alliance gets us is steel against the palace on the surface. Nothing more."
 
 "Here is a novel thought," Arraka sneers. "Stop begging help from every pathetic mortal in a ten-mile radius and solve your own messes. Do you think these gutter rebels will hold your hand when you face the God of Time? Will they stand beside you when my five-thousand-year-old self reaches down your throats and pulls your spines out through your teeth? When will you mongrels understand that this is not a game? Take your drills seriously, or die like the amateurs you are."
 
 }
 #if(v_b3_ch4_billy == 7 || v_b3_ch4_billy == 8) {
-"Hard to tell," I say. "Depends on whether it keeps its word. At the very least, it wants the king dead just as badly as we do."
+"Hard to tell," I say, leaning back against the cold stone. "Depends on whether it keeps its word. At the very least, it wants the king dead just as badly as we do."
 
 "To the abyss with the machine!" Hadrik says. "It's iron and wire. The rebels have the steel. Can we trust them to mount a raid?"
 
-"The rebels won't touch the towers," Kate says, leaning against the doorway. "Their king made that clear. He won't spend a single soldier on a rescue, even knowing innocent people are strapped to the drain. The only thing an alliance gets us is steel against the king on the surface. Nothing more."
+"The rebels won't touch the towers," Kate says, her arms folded tightly across her cloak. "Their king made that clear. He won't spend a single soldier on a rescue, even knowing innocent people are strapped to the drain. The only thing an alliance gets us is steel against the palace on the surface. Nothing more."
 
 "Here is a novel thought," Arraka sneers. "Stop begging help from every pathetic mortal in a ten-mile radius and solve your own messes. Do you think these gutter rebels will hold your hand when you face the God of Time? Will they stand beside you when my five-thousand-year-old self reaches down your throats and pulls your spines out through your teeth? When will you mongrels understand that this is not a game? Take your drills seriously, or die like the amateurs you are."
 
 }
 #if(v_b3_ch4_billy == 0) {
-"Not a chance," I say. "If anything, it's going to be one of our worst headaches. We cannot afford to drop our guard around it."
+"Not a chance," I say, leaning back against the cold stone. "If anything, it's going to be one of our worst headaches. We cannot afford to drop our guard around it."
 
 "To the abyss with the machine!" Hadrik says. "It's iron and wire. The rebels have the steel. Can we trust them to mount a raid?"
 
-"The rebels won't touch the towers," Kate says, leaning against the doorway. "Their king made that clear. He won't spend a single soldier on a rescue, even knowing innocent people are strapped to the drain. The only thing an alliance gets us is steel against the king on the surface. Nothing more."
+"The rebels won't touch the towers," Kate says, her arms folded tightly across her cloak. "Their king made that clear. He won't spend a single soldier on a rescue, even knowing innocent people are strapped to the drain. The only thing an alliance gets us is steel against the palace on the surface. Nothing more."
 
 "Here is a novel thought," Arraka sneers. "Stop begging help from every pathetic mortal in a ten-mile radius and solve your own messes. Do you think these gutter rebels will hold your hand when you face the God of Time? Will they stand beside you when my five-thousand-year-old self reaches down your throats and pulls your spines out through your teeth? When will you mongrels understand that this is not a game? Take your drills seriously, or die like the amateurs you are."
 
@@ -369,73 +369,73 @@ ID: B3-Ch05a-Anything
 TEXT:
 
 #if(v_ch11_saved_rose == 0) {
-Since Albert clearly wants nothing to do with us, I keep my mouth shut and let him pass, following Hadrik deeper into the rock.
+Since Albert clearly wants nothing to do with us, I keep my mouth shut and let him pass, following Hadrik deeper into the rock where the stone turns damp and cold.
 
-The moment the heavy door seals behind us, we have Daren tend to Illuna. For all her iron composure, the puncture in her back from the teleporting guard is still bleeding through her tunic. Once the white glow finishes stitching muscle and skin, we wave Daren and Hadrik toward the bench.
+The moment the heavy timber door thuds shut behind us, Daren sets his shield down and tends to Illuna. For all her iron composure, the dark cloth of her tunic is soaked through with blood from where the lessathi assassin's dagger punched into her flank. Daren kneels in his scuffed plate, his gauntlets off, hands bathing the wound in a soft, steady white glow. Muscle and skin knit back together under the light while Illuna keeps her breathing measured and her eyes blank.
 
-When we finish laying out what we found beneath the seredium tower, the silence in the room splits three ways. Daren's jaw sets with grim, cold fury; Hadrik's face goes red with rage; and Arraka's amulet sits in utter, mocking indifference.
+Once the flesh seals and Daren wipes his palms, we wave him and Hadrik toward the rough bench. When we finish laying out what we found beneath the seredium tower—the chained men, the siphon conduits, the energy draining into the city grid—the silence in the room splits three ways. Daren's jaw sets with grim, white-knuckled fury; Hadrik's face darkens with pure rage; and Arraka's amulet rests on the wooden table in mocking indifference.
 
-"Those absolute bastards!" Hadrik roars, slamming a fist into his palm. "Where is this cursed tower? I will tear the machine off its mountings with my bare hands!"
+"Those absolute bastards!" Hadrik roars, slamming a thick fist into his palm with a crack that rattles the lanterns. "Where is this cursed tower? I will tear the machine off its mountings with my bare hands!"
 
 }
 #if(v_ch11_saved_rose == 1) {
-Since Albert clearly wants nothing to do with us, I keep my mouth shut and let him pass, following Hadrik deeper into the rock.
+Since Albert clearly wants nothing to do with us, I keep my mouth shut and let him pass, following Hadrik deeper into the rock where the stone turns damp and cold.
 
-The moment the heavy door seals behind us, we wave Daren and Hadrik toward the bench. I pull the transceiver from my pocket and dial Rose so she can hear the report alongside the rest of us.
+The moment the heavy timber door thuds shut behind us, we wave Daren and Hadrik toward the rough bench. I pull the brass transceiver from my coat and dial Rose so she can hear the debrief alongside the rest of us.
 
-When we finish laying out what we found beneath the seredium tower, the silence in the room splits four ways. Daren's jaw sets with grim, cold fury; Hadrik's face goes red with rage; Rose stays utterly silent over the line; and Arraka's amulet sits in mocking indifference.
+When we finish laying out what we found beneath the seredium tower—the chained men, the siphon conduits, the energy draining into the city grid—the silence in the room splits four ways. Daren's jaw sets with grim, white-knuckled fury; Hadrik's face darkens with pure rage; Rose stays utterly silent over the hiss of the line; and Arraka's amulet rests on the wooden table in mocking indifference.
 
-"Those absolute bastards!" Hadrik roars, slamming a fist into his palm. "Where is this cursed tower? I will tear the machine off its mountings with my bare hands!"
+"Those absolute bastards!" Hadrik roars, slamming a thick fist into his palm with a crack that rattles the lanterns. "Where is this cursed tower? I will tear the machine off its mountings with my bare hands!"
 
 }
-"You can't smash the machine," Melindra says flatly. "It has to be powered down from the control station. Weren't you listening?"
+"You can't smash the machine," Melindra says flatly, leaning her shoulder against the doorframe. "It has to be powered down from the control station. Weren't you listening?"
 
-"Then I'll break every skull in the tower until someone points me to the levers!" Hadrik snaps. "Someone in there knows where it sits!"
+"Then I'll break every skull in the tower until someone points me to the levers!" Hadrik snaps, turning on her. "Someone in there knows where it sits!"
 
 "You won't break a thing, you lumbering clown," Arraka cackles from the amulet. "You'll be lucky to land one blow before the continent's ward catches your knuckles and hurls you back across the ocean."
 
-Hadrik growls, pacing the stone floor. "Then I'll dodge their guards and punch through every wall until I find the core! We cannot sit here! Why aren't the rest of you furious?"
+Hadrik growls, pacing the flagstones like a caged bear. "Then I'll dodge their guards and punch through every wall until I find the core! We cannot sit here! Why aren't the rest of you furious?"
 
 "Is that a rhetorical question, or do you want a list?" Arraka asks.
 
 "Calm down, Hadrik," Daren says, holding up a steady hand. "I am just as sickened as you are. But charging blind won't save them. Even if we breached that basement, there are three other towers in Ollendor doing the exact same thing. Settle one, and the entire royal garrison comes down on our heads. We cannot fight an entire army alone. If we want those people out, the throne has to fall. And to do that, we need allies. What was your read on the Overseer? Will it cooperate?"
 
 #if(v_b3_ch4_billy == 9) {
-"Doubtful," I say. "Billy Bob will probably pull its core the moment he comes around for selling him out. I doubt we'll see it again."
+"Doubtful," I say, leaning back against the cold stone. "Billy Bob will probably pull its core the moment he comes around for selling him out. I doubt we'll see it again."
 
 "To the abyss with the machine!" Hadrik says. "It's iron and wire. The rebels have the steel. Can we trust them to mount a raid?"
 
-"The rebels won't touch the towers," Kate says, leaning against the doorway. "Their king made that clear. He won't spend a single soldier on a rescue, even knowing innocent people are strapped to the drain. The only thing an alliance gets us is steel against the king on the surface. Nothing more."
+"The rebels won't touch the towers," Kate says, her arms folded tightly across her cloak. "Their king made that clear. He won't spend a single soldier on a rescue, even knowing innocent people are strapped to the drain. The only thing an alliance gets us is steel against the palace on the surface. Nothing more."
 
 "Here is a novel thought," Arraka sneers. "Stop begging help from every pathetic mortal in a ten-mile radius and solve your own messes. Do you think these gutter rebels will hold your hand when you face the God of Time? Will they stand beside you when my five-thousand-year-old self reaches down your throats and pulls your spines out through your teeth? When will you mongrels understand that this is not a game? Take your drills seriously, or die like the amateurs you are."
 
 }
 #if(v_b3_ch4_billy <= 6 && v_b3_ch4_billy != 0) {
-"Hard to say," I answer. "It seemed grateful enough that we took care of Billy Bob, and willing to trade favors. But its motives are its own. I wouldn't turn my back on it."
+"Hard to say," I answer, leaning back against the cold stone. "It seemed grateful enough that we took care of Billy Bob, and willing to trade favors. But its motives are its own. I wouldn't turn my back on it."
 
 "To the abyss with the machine!" Hadrik says. "It's iron and wire. The rebels have the steel. Can we trust them to mount a raid?"
 
-"The rebels won't touch the towers," Kate says, leaning against the doorway. "Their king made that clear. He won't spend a single soldier on a rescue, even knowing innocent people are strapped to the drain. The only thing an alliance gets us is steel against the king on the surface. Nothing more."
+"The rebels won't touch the towers," Kate says, her arms folded tightly across her cloak. "Their king made that clear. He won't spend a single soldier on a rescue, even knowing innocent people are strapped to the drain. The only thing an alliance gets us is steel against the palace on the surface. Nothing more."
 
 "Here is a novel thought," Arraka sneers. "Stop begging help from every pathetic mortal in a ten-mile radius and solve your own messes. Do you think these gutter rebels will hold your hand when you face the God of Time? Will they stand beside you when my five-thousand-year-old self reaches down your throats and pulls your spines out through your teeth? When will you mongrels understand that this is not a game? Take your drills seriously, or die like the amateurs you are."
 
 }
 #if(v_b3_ch4_billy == 7 || v_b3_ch4_billy == 8) {
-"Hard to tell," I say. "Depends on whether it keeps its word. At the very least, it wants the king dead just as badly as we do."
+"Hard to tell," I say, leaning back against the cold stone. "Depends on whether it keeps its word. At the very least, it wants the king dead just as badly as we do."
 
 "To the abyss with the machine!" Hadrik says. "It's iron and wire. The rebels have the steel. Can we trust them to mount a raid?"
 
-"The rebels won't touch the towers," Kate says, leaning against the doorway. "Their king made that clear. He won't spend a single soldier on a rescue, even knowing innocent people are strapped to the drain. The only thing an alliance gets us is steel against the king on the surface. Nothing more."
+"The rebels won't touch the towers," Kate says, her arms folded tightly across her cloak. "Their king made that clear. He won't spend a single soldier on a rescue, even knowing innocent people are strapped to the drain. The only thing an alliance gets us is steel against the palace on the surface. Nothing more."
 
 "Here is a novel thought," Arraka sneers. "Stop begging help from every pathetic mortal in a ten-mile radius and solve your own messes. Do you think these gutter rebels will hold your hand when you face the God of Time? Will they stand beside you when my five-thousand-year-old self reaches down your throats and pulls your spines out through your teeth? When will you mongrels understand that this is not a game? Take your drills seriously, or die like the amateurs you are."
 
 }
 #if(v_b3_ch4_billy == 0) {
-"Not a chance," I say. "If anything, it's going to be one of our worst headaches. We cannot afford to drop our guard around it."
+"Not a chance," I say, leaning back against the cold stone. "If anything, it's going to be one of our worst headaches. We cannot afford to drop our guard around it."
 
 "To the abyss with the machine!" Hadrik says. "It's iron and wire. The rebels have the steel. Can we trust them to mount a raid?"
 
-"The rebels won't touch the towers," Kate says, leaning against the doorway. "Their king made that clear. He won't spend a single soldier on a rescue, even knowing innocent people are strapped to the drain. The only thing an alliance gets us is steel against the king on the surface. Nothing more."
+"The rebels won't touch the towers," Kate says, her arms folded tightly across her cloak. "Their king made that clear. He won't spend a single soldier on a rescue, even knowing innocent people are strapped to the drain. The only thing an alliance gets us is steel against the palace on the surface. Nothing more."
 
 "Here is a novel thought," Arraka sneers. "Stop begging help from every pathetic mortal in a ten-mile radius and solve your own messes. Do you think these gutter rebels will hold your hand when you face the God of Time? Will they stand beside you when my five-thousand-year-old self reaches down your throats and pulls your spines out through your teeth? When will you mongrels understand that this is not a game? Take your drills seriously, or die like the amateurs you are."
 
@@ -449,83 +449,83 @@ TEXT:
 #if(v_ch11_saved_rose == 0) {
 "What's wrong, Albert?" I call out. "Relegated to hallway guard? The underground's deadliest blade, playing nursemaid to refugees?"
 
-Albert glares daggers at me, saying nothing, and brushes past without slowing down.
+Albert glares daggers at me, saying nothing, his hand twitching near his hilt as he brushes past without slowing down.
 
-Hadrik chuckles. "You two really don't see eye to eye, do you?"
+Hadrik chuckles, his axe shifting on his shoulder. "You two really don't see eye to eye, do you?"
 
 "Occupational hazard," I say. "Never had much luck with assassins."
 
-The moment the heavy door seals behind us, we have Daren tend to Illuna. For all her iron composure, the puncture in her back from the teleporting guard is still bleeding through her tunic. Once the white glow finishes stitching muscle and skin, we wave Daren and Hadrik toward the bench.
+The moment the heavy timber door thuds shut behind us, Daren sets his shield down and tends to Illuna. For all her iron composure, the dark cloth of her tunic is soaked through with blood from where the lessathi assassin's dagger punched into her flank. Daren kneels in his scuffed plate, his gauntlets off, hands bathing the wound in a soft, steady white glow. Muscle and skin knit back together under the light while Illuna keeps her breathing measured and her eyes blank.
 
-When we finish laying out what we found beneath the seredium tower, the silence in the room splits three ways. Daren's jaw sets with grim, cold fury; Hadrik's face goes red with rage; and Arraka's amulet sits in utter, mocking indifference.
+Once the flesh seals and Daren wipes his palms, we wave him and Hadrik toward the rough bench. When we finish laying out what we found beneath the seredium tower—the chained men, the siphon conduits, the energy draining into the city grid—the silence in the room splits three ways. Daren's jaw sets with grim, white-knuckled fury; Hadrik's face darkens with pure rage; and Arraka's amulet rests on the wooden table in mocking indifference.
 
-"Those absolute bastards!" Hadrik roars, slamming a fist into his palm. "Where is this cursed tower? I will tear the machine off its mountings with my bare hands!"
+"Those absolute bastards!" Hadrik roars, slamming a thick fist into his palm with a crack that rattles the lanterns. "Where is this cursed tower? I will tear the machine off its mountings with my bare hands!"
 
 }
 #if(v_ch11_saved_rose == 1) {
 "What's wrong, Albert?" I call out. "Relegated to hallway guard? The underground's deadliest blade, playing nursemaid to refugees?"
 
-Albert glares daggers at me, saying nothing, and brushes past without slowing down.
+Albert glares daggers at me, saying nothing, his hand twitching near his hilt as he brushes past without slowing down.
 
-Hadrik chuckles. "You two really don't see eye to eye, do you?"
+Hadrik chuckles, his axe shifting on his shoulder. "You two really don't see eye to eye, do you?"
 
 "Occupational hazard," I say. "Never had much luck with assassins."
 
-The moment the heavy door seals behind us, we wave Daren and Hadrik toward the bench. I pull the transceiver from my pocket and dial Rose so she can hear the report alongside the rest of us.
+The moment the heavy timber door thuds shut behind us, we wave Daren and Hadrik toward the rough bench. I pull the brass transceiver from my coat and dial Rose so she can hear the debrief alongside the rest of us.
 
-When we finish laying out what we found beneath the seredium tower, the silence in the room splits four ways. Daren's jaw sets with grim, cold fury; Hadrik's face goes red with rage; Rose stays utterly silent over the line; and Arraka's amulet sits in mocking indifference.
+When we finish laying out what we found beneath the seredium tower—the chained men, the siphon conduits, the energy draining into the city grid—the silence in the room splits four ways. Daren's jaw sets with grim, white-knuckled fury; Hadrik's face darkens with pure rage; Rose stays utterly silent over the hiss of the line; and Arraka's amulet rests on the wooden table in mocking indifference.
 
-"Those absolute bastards!" Hadrik roars, slamming a fist into his palm. "Where is this cursed tower? I will tear the machine off its mountings with my bare hands!"
+"Those absolute bastards!" Hadrik roars, slamming a thick fist into his palm with a crack that rattles the lanterns. "Where is this cursed tower? I will tear the machine off its mountings with my bare hands!"
 
 }
-"You can't smash the machine," Melindra says flatly. "It has to be powered down from the control station. Weren't you listening?"
+"You can't smash the machine," Melindra says flatly, leaning her shoulder against the doorframe. "It has to be powered down from the control station. Weren't you listening?"
 
-"Then I'll break every skull in the tower until someone points me to the levers!" Hadrik snaps. "Someone in there knows where it sits!"
+"Then I'll break every skull in the tower until someone points me to the levers!" Hadrik snaps, turning on her. "Someone in there knows where it sits!"
 
 "You won't break a thing, you lumbering clown," Arraka cackles from the amulet. "You'll be lucky to land one blow before the continent's ward catches your knuckles and hurls you back across the ocean."
 
-Hadrik growls, pacing the stone floor. "Then I'll dodge their guards and punch through every wall until I find the core! We cannot sit here! Why aren't the rest of you furious?"
+Hadrik growls, pacing the flagstones like a caged bear. "Then I'll dodge their guards and punch through every wall until I find the core! We cannot sit here! Why aren't the rest of you furious?"
 
 "Is that a rhetorical question, or do you want a list?" Arraka asks.
 
 "Calm down, Hadrik," Daren says, holding up a steady hand. "I am just as sickened as you are. But charging blind won't save them. Even if we breached that basement, there are three other towers in Ollendor doing the exact same thing. Settle one, and the entire royal garrison comes down on our heads. We cannot fight an entire army alone. If we want those people out, the throne has to fall. And to do that, we need allies. What was your read on the Overseer? Will it cooperate?"
 
 #if(v_b3_ch4_billy == 9) {
-"Doubtful," I say. "Billy Bob will probably pull its core the moment he comes around for selling him out. I doubt we'll see it again."
+"Doubtful," I say, leaning back against the cold stone. "Billy Bob will probably pull its core the moment he comes around for selling him out. I doubt we'll see it again."
 
 "To the abyss with the machine!" Hadrik says. "It's iron and wire. The rebels have the steel. Can we trust them to mount a raid?"
 
-"The rebels won't touch the towers," Kate says, leaning against the doorway. "Their king made that clear. He won't spend a single soldier on a rescue, even knowing innocent people are strapped to the drain. The only thing an alliance gets us is steel against the king on the surface. Nothing more."
+"The rebels won't touch the towers," Kate says, her arms folded tightly across her cloak. "Their king made that clear. He won't spend a single soldier on a rescue, even knowing innocent people are strapped to the drain. The only thing an alliance gets us is steel against the palace on the surface. Nothing more."
 
 "Here is a novel thought," Arraka sneers. "Stop begging help from every pathetic mortal in a ten-mile radius and solve your own messes. Do you think these gutter rebels will hold your hand when you face the God of Time? Will they stand beside you when my five-thousand-year-old self reaches down your throats and pulls your spines out through your teeth? When will you mongrels understand that this is not a game? Take your drills seriously, or die like the amateurs you are."
 
 }
 #if(v_b3_ch4_billy <= 6 && v_b3_ch4_billy != 0) {
-"Hard to say," I answer. "It seemed grateful enough that we took care of Billy Bob, and willing to trade favors. But its motives are its own. I wouldn't turn my back on it."
+"Hard to say," I answer, leaning back against the cold stone. "It seemed grateful enough that we took care of Billy Bob, and willing to trade favors. But its motives are its own. I wouldn't turn my back on it."
 
 "To the abyss with the machine!" Hadrik says. "It's iron and wire. The rebels have the steel. Can we trust them to mount a raid?"
 
-"The rebels won't touch the towers," Kate says, leaning against the doorway. "Their king made that clear. He won't spend a single soldier on a rescue, even knowing innocent people are strapped to the drain. The only thing an alliance gets us is steel against the king on the surface. Nothing more."
+"The rebels won't touch the towers," Kate says, her arms folded tightly across her cloak. "Their king made that clear. He won't spend a single soldier on a rescue, even knowing innocent people are strapped to the drain. The only thing an alliance gets us is steel against the palace on the surface. Nothing more."
 
 "Here is a novel thought," Arraka sneers. "Stop begging help from every pathetic mortal in a ten-mile radius and solve your own messes. Do you think these gutter rebels will hold your hand when you face the God of Time? Will they stand beside you when my five-thousand-year-old self reaches down your throats and pulls your spines out through your teeth? When will you mongrels understand that this is not a game? Take your drills seriously, or die like the amateurs you are."
 
 }
 #if(v_b3_ch4_billy == 7 || v_b3_ch4_billy == 8) {
-"Hard to tell," I say. "Depends on whether it keeps its word. At the very least, it wants the king dead just as badly as we do."
+"Hard to tell," I say, leaning back against the cold stone. "Depends on whether it keeps its word. At the very least, it wants the king dead just as badly as we do."
 
 "To the abyss with the machine!" Hadrik says. "It's iron and wire. The rebels have the steel. Can we trust them to mount a raid?"
 
-"The rebels won't touch the towers," Kate says, leaning against the doorway. "Their king made that clear. He won't spend a single soldier on a rescue, even knowing innocent people are strapped to the drain. The only thing an alliance gets us is steel against the king on the surface. Nothing more."
+"The rebels won't touch the towers," Kate says, her arms folded tightly across her cloak. "Their king made that clear. He won't spend a single soldier on a rescue, even knowing innocent people are strapped to the drain. The only thing an alliance gets us is steel against the palace on the surface. Nothing more."
 
 "Here is a novel thought," Arraka sneers. "Stop begging help from every pathetic mortal in a ten-mile radius and solve your own messes. Do you think these gutter rebels will hold your hand when you face the God of Time? Will they stand beside you when my five-thousand-year-old self reaches down your throats and pulls your spines out through your teeth? When will you mongrels understand that this is not a game? Take your drills seriously, or die like the amateurs you are."
 
 }
 #if(v_b3_ch4_billy == 0) {
-"Not a chance," I say. "If anything, it's going to be one of our worst headaches. We cannot afford to drop our guard around it."
+"Not a chance," I say, leaning back against the cold stone. "If anything, it's going to be one of our worst headaches. We cannot afford to drop our guard around it."
 
 "To the abyss with the machine!" Hadrik says. "It's iron and wire. The rebels have the steel. Can we trust them to mount a raid?"
 
-"The rebels won't touch the towers," Kate says, leaning against the doorway. "Their king made that clear. He won't spend a single soldier on a rescue, even knowing innocent people are strapped to the drain. The only thing an alliance gets us is steel against the king on the surface. Nothing more."
+"The rebels won't touch the towers," Kate says, her arms folded tightly across her cloak. "Their king made that clear. He won't spend a single soldier on a rescue, even knowing innocent people are strapped to the drain. The only thing an alliance gets us is steel against the palace on the surface. Nothing more."
 
 "Here is a novel thought," Arraka sneers. "Stop begging help from every pathetic mortal in a ten-mile radius and solve your own messes. Do you think these gutter rebels will hold your hand when you face the God of Time? Will they stand beside you when my five-thousand-year-old self reaches down your throats and pulls your spines out through your teeth? When will you mongrels understand that this is not a game? Take your drills seriously, or die like the amateurs you are."
 
@@ -536,21 +536,21 @@ choice("Continue", B3-Ch05a-Initiative, v_current_scene = B3-Ch05a-Initiative)
 ID: B3-Ch05a-Initiative
 TEXT:
 
-"We HAVE been training!" Hadrik roars, his beard bristling. "Every single day since the altar! What more do you want from us, you dried-up old ghoul?"
+"We HAVE been training!" Hadrik roars, his beard bristling as he towers over the table. "Every single day since the altar! What more do you want from us, you dried-up old ghoul?"
 
-"I want initiative!" Arraka's voice rattles the metal casing. "I want you to break past your miserable limits instead of pacing inside them like tethered goats! You are aiming to slaughter a GOD! How do you expect to scratch divinity when two royal bodyguards leave you groveling in the dirt?"
+"I want initiative!" Arraka's voice rattles the metal casing, sending tremors through the wood. "I want you to break past your miserable limits instead of pacing inside them like tethered goats! You are aiming to slaughter a GOD! How do you expect to scratch divinity when two royal bodyguards leave you groveling in the dirt?"
 
-Kate leans her back against the rough rock, arms folded tight across her chest, staring down at the gold pendant. "You treat everything as a joke, Arraka. Everything except this. Why does killing the God of Time matter so much to you?"
+Kate leans her back against the rough rock, arms folded tight across her chest, staring down at the gold pendant with cold calculation. "You treat everything as a joke, Arraka. Everything except this. Why does killing the God of Time matter so much to you?"
 
-"Because it isn't a joke, you simpleton!" Arraka snaps, the laughter vanishing from her tone. "Do you have any concept of how many millennia I have waited to settle the score with those posturing parasites on the magical plane? Ripping them apart myself would be too gentle. But having them dismantled by a wandering troupe of mortals? That is the purest, foulest humiliation possible for a creature of pure ether. Barry-boy handed me that prize, and I have no intention of letting you squander it. We kill Selkram, or I tear you to pieces myself."
+"Because it isn't a joke, you simpleton!" Arraka snaps, the mocking shrillness vanishing into something dark and ancient. "Do you have any concept of how many millennia I have waited to settle the score with those posturing parasites on the magical plane? Ripping them apart myself would be too gentle. But having them dismantled by a wandering troupe of mortals? That is the purest, foulest humiliation possible for a creature of pure ether. Barry-boy handed me that prize, and I have no intention of letting you squander it. We kill Selkram, or I tear you to pieces myself."
 
-"While it is refreshing to hear you have a plan," Daren says dryly, "do you intend to offer useful instruction, or just scream insults until morning?"
+"While it is refreshing to hear you have a plan," Daren says dryly, resting his hand against his sword pommel, "do you intend to offer useful instruction, or just scream insults until morning?"
 
 "You want instruction?" Arraka snarls. "Fine. Dwarf! What was that pathetic display in the cavern today? Gontrok whispered two words and your spine turned to tallow! Is that all your warrior pride amounts to? Two words, and you regress into a drunken brawler? If I say them right now, will you crawl under the bed and weep? Dwarf village. Dwarf village. Dwarf village. Going to shed a tear, little giant?"
 
-"Arraka," Daren growls, stepping between the amulet and the dwarf, his hand dropping to his hilt. "One more word and I swear—"
+"Arraka," Daren growls, stepping between the amulet and the dwarf, his hand gripping his hilt. "One more word and I swear—"
 
-"No," Hadrik mutters, staring at the floor stones. "She's right. I let him get inside my head. If Barry hadn't stalled Gontrok while I was sprawled in the dirt, you'd all be corpses, and the blood would be on my hands. It won't happen twice."
+"No," Hadrik mutters, staring at the floor stones, his shoulders hunched. "She's right. I let him get inside my head. If Barry hadn't stalled Gontrok while I was sprawled in the dirt, you'd all be corpses, and the blood would be on my hands. It won't happen twice."
 
 "It had better not," Arraka says. "If we reach Selkram's throat and you freeze because a stray memory rattles your skull, I will gouge your eyes out and pull your head off your shoulders. And while we're on the subject, use the new forms you've been drilling at night! You spent three days practicing shifts and didn't use a single one when the hammer fell. Were you waiting for an engraved invitation?"
 
@@ -560,17 +560,17 @@ choice("Continue", B3-Ch05a-Icicles, v_current_scene = B3-Ch05a-Icicles)
 ID: B3-Ch05a-Icicles
 TEXT:
 
-"I didn't realize you were working on new techniques, Hadrik," Daren says. "You could have asked me to spar."
+"I didn't realize you were working on new techniques, Hadrik," Daren says, looking over at the dwarf. "You could have asked me to spar."
 
-"Your story about that scar got me thinking," Hadrik says, rubbing at the back of his neck. "Made me realize I've been coasting on brute strength and ignoring my blind spots. I started testing a few shifts to cover the gaps. They weren't polished enough to trust in a live melee today—which is how Gontrok caught me flat-footed—but I'll drill them until they're second nature tonight. No more excuses."
+"Your story about that forehead scar got me thinking," Hadrik says, scratching at the thick hair on the back of his neck. "Made me realize I've been coasting on brute strength and ignoring my blind spots. I started testing a few shifts to cover the gaps. They weren't polished enough to trust in a live melee today—which is how Gontrok caught me flat-footed—but I'll drill them until they're second nature tonight. No more excuses."
 
-"Splendid," Arraka says. "Now quiet down. I'm not finished handing out corrections. Kate! What is your aversion to freezing magic? Are you allergic to your own element? I have barely seen you cast a true freeze since we met, even though flash-freezing is the deadliest tool an elementalist possesses against other mages. It is always icicles with you. Drop the monotony and diversify."
+"Splendid," Arraka says from the table. "Now quiet down. I'm not finished handing out corrections. Kate! What is your aversion to freezing magic? Are you allergic to your own element? I have barely seen you cast a true freeze since we crossed paths, even though flash-freezing is the deadliest tool an elementalist possesses against other mages. It is always icicles with you. Drop the monotony and diversify."
 
-"Icicles are efficient," Kate says, her voice flat. "They carry range, mass, and velocity. Conjuring them high above the line makes them hard to read until it's too late. It works. I see no reason to discard what works."
+"Icicles are efficient," Kate says, her voice flat and cool as mountain water. "They carry range, mass, and velocity. Conjuring them high above the line makes them hard to track until it's too late. It works. I see no reason to discard what works."
 
-"Do not play coy with me," Arraka snaps. "I asked why you avoid the frost itself. Even when an ice beam would have ended a duel in a heartbeat, you default to physical spikes. That isn't efficiency. What are you hiding?"
+"Do not play coy with me," Arraka snaps. "I asked why you avoid the frost itself. Even when an ice beam would have ended a duel in a heartbeat, you default to physical spikes. That isn't lethal craft. What are you hiding?"
 
-Kate glares at the amulet, her jaw working before she answers.
+Kate glares down at the gold pendant, frost dusting the edge of her cuffs before she wills it back.
 
 "Control," she says quietly. "I have full command over conjured ice. A spike, a wall, a construct—I shape them, guide them, and disperse them when the fight is done. A freezing beam is different. Once the temperature drops and the flesh turns to frost, I cannot unfreeze them. I have no counter-spell. Icicles give me precision; freezing spells bloom across an area. If a companion steps into the path by mistake, the damage is permanent. I only use the frost when I am certain the lane is clear."
 
@@ -578,7 +578,7 @@ Kate glares at the amulet, her jaw working before she answers.
 
 "I've tried," Kate says through clenched teeth. "Dozens of times. It doesn't answer."
 
-"Then try harder!" Arraka snaps. "Or ask an elementalist who actually understands the art! You have an ethereal sleeping on the floor ten feet away. Do you have any idea how fast ethereals grasp magical flow? That child absorbs in an afternoon what takes human academics a decade to decipher. Ask her for a foundation."
+"Then try harder!" Arraka snaps. "Or ask an elementalist who actually understands the art! You have an ethereal sleeping on the blankets ten feet away. Do you have any idea how fast ethereals grasp magical flow? That child absorbs in an afternoon what takes human academics a decade to decipher. Ask her for a foundation."
 
 choice(""Do you think that Flower's ethereal knowledge extends also to ice magic?"", B3-Ch05a-Knowledge, v_current_scene = B3-Ch05a-Knowledge)
 choice(""Is Flower really that talented? How did she not become insanely strong by now?"", B3-Ch05a-Talented, v_current_scene = B3-Ch05a-Talented)
@@ -594,13 +594,13 @@ TEXT:
 
 "Will mastering the frost help against the God of Time?" I ask.
 
-"Not directly," Arraka says. "But it breaks Kate out of her predictable routines. She cannot rely on long-range artillery forever. Flower can supply fresh concepts—the brat has an annoying knack for improvisation when she isn't terrified. Now, the captain of the royal guard. That old butcher is a more immediate problem. Ideally I would drill all of you in countering his aura compression, but we don't have the hours. We may run into him again tomorrow. So the solution is simple: when he steps into the street, leave him to Daren."
+"Not directly," Arraka says. "But it breaks Kate out of her predictable habits. She cannot rely on long-range artillery forever. Flower can supply fresh concepts—the brat has an annoying knack for improvisation when she isn't terrified. Now, the captain of the royal guard. That old butcher is a more immediate problem. Ideally I would drill all of you in countering his aura compression, but we don't have the hours. We may run into him again tomorrow. So the solution is simple: when he steps into the street, leave him to Daren."
 
-"Me?" Daren blinks.
+"Me?" Daren blinks, startled.
 
 "Yes, you!" Arraka snaps. "You finally grasped how to untangle aura flows, didn't you? When he tries to drown you in his aura and pin you to the pavement, you unravel the weave. You slip right through the bind. It will be considerably harder against a seasoned killer than against dying patients, but that enchanted blade of yours cuts magical conduits. Cut the knots with the sword. You understand the principle, don't you?"
 
-Daren looks down at his gauntleted hand, flexing his fingers. "Yes... I believe I do."
+Daren looks down at his sword pommel, drawing an inch of enchanted steel to check the edge before clicking it home. "Yes... I believe I do."
 
 #if(v_ch11_saved_rose == 0) {
 "Good," Arraka says. "That is enough lecturing for one night. Go to sleep."
@@ -609,7 +609,7 @@ Daren looks down at his gauntleted hand, flexing his fingers. "Yes... I believe 
 #if(v_ch11_saved_rose == 1) {
 "Good," Arraka says. "That is enough lecturing for one night. Hmm... though while we are on the subject—Rose, are you still on the line?"
 
-Silence answers from the transceiver. Arraka raises her volume until the brass casing vibrates.
+Silence answers from the transceiver. Arraka raises her volume until the brass casing vibrates against the wood.
 
 "ROSE! Wake up!"
 
@@ -639,13 +639,13 @@ TEXT:
 
 "Will mastering the frost help against the God of Time?" I ask.
 
-"Not directly," Arraka says. "But it breaks Kate out of her predictable routines. She cannot rely on long-range artillery forever. Flower can supply fresh concepts—the brat has an annoying knack for improvisation when she isn't terrified. Now, the captain of the royal guard. That old butcher is a more immediate problem. Ideally I would drill all of you in countering his aura compression, but we don't have the hours. We may run into him again tomorrow. So the solution is simple: when he steps into the street, leave him to Daren."
+"Not directly," Arraka says. "But it breaks Kate out of her predictable habits. She cannot rely on long-range artillery forever. Flower can supply fresh concepts—the brat has an annoying knack for improvisation when she isn't terrified. Now, the captain of the royal guard. That old butcher is a more immediate problem. Ideally I would drill all of you in countering his aura compression, but we don't have the hours. We may run into him again tomorrow. So the solution is simple: when he steps into the street, leave him to Daren."
 
-"Me?" Daren blinks.
+"Me?" Daren blinks, startled.
 
 "Yes, you!" Arraka snaps. "You finally grasped how to untangle aura flows, didn't you? When he tries to drown you in his aura and pin you to the pavement, you unravel the weave. You slip right through the bind. It will be considerably harder against a seasoned killer than against dying patients, but that enchanted blade of yours cuts magical conduits. Cut the knots with the sword. You understand the principle, don't you?"
 
-Daren looks down at his gauntleted hand, flexing his fingers. "Yes... I believe I do."
+Daren looks down at his sword pommel, drawing an inch of enchanted steel to check the edge before clicking it home. "Yes... I believe I do."
 
 #if(v_ch11_saved_rose == 0) {
 "Good," Arraka says. "That is enough lecturing for one night. Go to sleep."
@@ -654,7 +654,7 @@ Daren looks down at his gauntleted hand, flexing his fingers. "Yes... I believe 
 #if(v_ch11_saved_rose == 1) {
 "Good," Arraka says. "That is enough lecturing for one night. Hmm... though while we are on the subject—Rose, are you still on the line?"
 
-Silence answers from the transceiver. Arraka raises her volume until the brass casing vibrates.
+Silence answers from the transceiver. Arraka raises her volume until the brass casing vibrates against the wood.
 
 "ROSE! Wake up!"
 
@@ -684,13 +684,13 @@ TEXT:
 
 "Will mastering the frost help against the God of Time?" I ask.
 
-"Not directly," Arraka says. "But it breaks Kate out of her predictable routines. She cannot rely on long-range artillery forever. Flower can supply fresh concepts—the brat has an annoying knack for improvisation when she isn't terrified. Now, the captain of the royal guard. That old butcher is a more immediate problem. Ideally I would drill all of you in countering his aura compression, but we don't have the hours. We may run into him again tomorrow. So the solution is simple: when he steps into the street, leave him to Daren."
+"Not directly," Arraka says. "But it breaks Kate out of her predictable habits. She cannot rely on long-range artillery forever. Flower can supply fresh concepts—the brat has an annoying knack for improvisation when she isn't terrified. Now, the captain of the royal guard. That old butcher is a more immediate problem. Ideally I would drill all of you in countering his aura compression, but we don't have the hours. We may run into him again tomorrow. So the solution is simple: when he steps into the street, leave him to Daren."
 
-"Me?" Daren blinks.
+"Me?" Daren blinks, startled.
 
 "Yes, you!" Arraka snaps. "You finally grasped how to untangle aura flows, didn't you? When he tries to drown you in his aura and pin you to the pavement, you unravel the weave. You slip right through the bind. It will be considerably harder against a seasoned killer than against dying patients, but that enchanted blade of yours cuts magical conduits. Cut the knots with the sword. You understand the principle, don't you?"
 
-Daren looks down at his gauntleted hand, flexing his fingers. "Yes... I believe I do."
+Daren looks down at his sword pommel, drawing an inch of enchanted steel to check the edge before clicking it home. "Yes... I believe I do."
 
 #if(v_ch11_saved_rose == 0) {
 "Good," Arraka says. "That is enough lecturing for one night. Go to sleep."
@@ -699,7 +699,7 @@ Daren looks down at his gauntleted hand, flexing his fingers. "Yes... I believe 
 #if(v_ch11_saved_rose == 1) {
 "Good," Arraka says. "That is enough lecturing for one night. Hmm... though while we are on the subject—Rose, are you still on the line?"
 
-Silence answers from the transceiver. Arraka raises her volume until the brass casing vibrates.
+Silence answers from the transceiver. Arraka raises her volume until the brass casing vibrates against the wood.
 
 "ROSE! Wake up!"
 
@@ -726,11 +726,11 @@ TEXT:
 #if(v_b3_ch4_billy == 0) {
 "Do not fret over it," Arraka says. "Grasping the intent is enough for now. Once the foundation settles, I will give you a proper method to test your wards. But the real trial arrives at the next ritual. By then you must be sharp enough to sever Selkram's first siphon on your reversal magic without alerting him. He will stumble, but he will write it off as a tremor in the link. Once you know your defense holds, drop the ward and let him draw the remainder. We cannot fight him yet; we preserve the trap until the third ceremony. By then, with luck, this rabble will be marginally less useless."
 
-"Is... that all you need of me?" Rose asks.
+"Is... that all you need of me?" Rose asks softly.
 
 "No," Arraka says. "I want clarity on your progress. I hear you caught a glimpse of the future and managed to hold time still long enough for these idiots to bypass a hall of traps. Can you decelerate time yet? What about rewinding it?"
 
-"Oh, heavens no," Rose says. "I cannot slow time, let alone reverse it. I only attempted the freeze because the mechanics seemed the most straightforward in my memory. Slowing time is far beyond me. As for rewinding... I couldn't command that consciously even while anchored to the Magium. I still don't know how it triggered when you breached the amulet. And the premonition arrived without warning. I did nothing to summon it."
+"Oh, heavens no," Rose says, her voice trembling slightly against the receiver. "I cannot slow time, let alone reverse it. I only attempted the freeze because the mechanics seemed the most straightforward in my memory. Slowing time is far beyond me. As for rewinding... I couldn't command that consciously even while anchored to the Magium. I still don't know how it triggered when you breached the amulet. And the premonition arrived without warning. I did nothing to summon it."
 
 "Premonitions are simply your senses adapting to temporal currents," Arraka says. "You will never trigger them on command. Normally they warn of threats to your own hide, not strangers. That your first instinct was shielding Illuna suggests you spend entirely too much energy fretting over others. Still—keep drilling. If you maintain this pace, you may prove more lethal than every warrior in this room. A god flails like a child when the seconds stop moving around him. Delicious irony for a deity of time."
 
@@ -746,17 +746,17 @@ TEXT:
 #if(v_b3_ch4_billy != 0) {
 "Do not fret over it," Arraka says. "Grasping the intent is enough for now. Once the foundation settles, I will give you a proper method to test your wards. But the real trial arrives at the next ritual. By then you must be sharp enough to sever Selkram's first siphon on your reversal magic without alerting him. He will stumble, but he will write it off as a tremor in the link. Once you know your defense holds, drop the ward and let him draw the remainder. We cannot fight him yet; we preserve the trap until the third ceremony. By then, with luck, this rabble will be marginally less useless."
 
-"Is... that all you need of me?" Rose asks.
+"Is... that all you need of me?" Rose asks softly.
 
 "No," Arraka says. "I want clarity on your progress. I hear you caught a premonition of Illuna's death earlier today. That doesn't happen unless your temporal channels are already stabilizing. Tell me exactly how far you have progressed."
 
 "Well..." Rose begins softly. "I managed to freeze time today after hours of focus, but only briefly. The strain is immense. Whenever I try to anchor the field, my head spins and my vision goes dark. I managed three short bursts, none lasting more than thirty seconds."
 
-"Thirty seconds?" Hadrik's eyes widen. "By the forge, that's magnificent!"
+"Thirty seconds?" Hadrik's eyes widen as he leans in. "By the forge, that's magnificent!"
 
 "So you can halt the flow on command," Arraka purrs, intrigued. "Unexpected. Can you decelerate the seconds, then? What about rewinding them?"
 
-"Oh, heavens no," Rose says. "I cannot slow time, let alone reverse it. I only attempted the freeze because the mechanics seemed the most straightforward in my memory. Slowing time is far beyond me. As for rewinding... I couldn't command that consciously even while anchored to the Magium. I still don't know how it triggered when you breached the amulet. And the premonition arrived without warning. I did nothing to summon it."
+"Oh, heavens no," Rose says, her voice trembling slightly against the receiver. "I cannot slow time, let alone reverse it. I only attempted the freeze because the mechanics seemed the most straightforward in my memory. Slowing time is far beyond me. As for rewinding... I couldn't command that consciously even while anchored to the Magium. I still don't know how it triggered when you breached the amulet. And the premonition arrived without warning. I did nothing to summon it."
 
 "Premonitions are simply your senses adapting to temporal currents," Arraka says. "You will never trigger them on command. Normally they warn of threats to your own hide, not strangers. That your first instinct was shielding Illuna suggests you spend entirely too much energy fretting over others. Still—keep drilling. If you maintain this pace, you may prove more lethal than every warrior in this room. A god flails like a child when the seconds stop moving around him. Delicious irony for a deity of time."
 
@@ -781,13 +781,13 @@ TEXT:
 
 Hadrik grins into his beard. "I know."
 
-"If you are finished with the wardenship, I will take the chain," Illuna says, stepping forward. "Unless you intend to spend the night in the infirmary."
+"If you are finished with the wardenship, I will take the chain," Illuna says, stepping forward with her palm open. "Unless you intend to spend the night in the infirmary."
 
-"No," Daren sighs, handing over the brass pendant. "I need rest. Take her."
+"No," Daren sighs, handing over the heavy gold chain. "I need rest. Take her."
 
-Illuna slips the heavy chain over her neck, settling the amulet against her tunic.
+Illuna slips the chain over her neck, letting the amulet settle cold against her tunic.
 
-"I need to be on the surface early," Daren says, unbuckling his gauntlets. "If we're fortunate, the apothecaries will unbar their shutters for an hour or two before the guard patrols tighten the cordon."
+"I need to be on the surface early," Daren says, unbuckling his pauldrons and setting the steel on the bench with a heavy clatter. "If we're fortunate, the apothecaries will unbar their shutters for an hour or two before the guard patrols tighten the cordon."
 
 choice(""Do you not have any spells that could heal these people without requiring herbs?"", B3-Ch05a-Herbs, v_current_scene = B3-Ch05a-Herbs)
 choice(""Why do you think the lockdown will get worse?"", B3-Ch05a-Worse, v_current_scene = B3-Ch05a-Worse)
@@ -799,29 +799,29 @@ TEXT:
 
 "Do you not have any spells that could heal these people without requiring herbs?"
 
-"No standard white magic touches this plague," Daren says, setting his armor aside. "I am trying to alter the resonance of an existing cure so it purges the contagion, but shaping the conduit requires specific catalysts. Without the reagents, the magic simply washes over them."
+"No standard white magic touches this plague," Daren says, setting his breastplate aside against the rock wall. "I am trying to alter the resonance of an existing cure so it purges the contagion, but shaping the conduit requires specific catalysts. Without the reagents, the magic simply washes over them."
 
-"One question," Melindra says, leaning against the doorframe. "When you say you're heading to the surface at dawn, did you mean alone?"
+"One question," Melindra says, pushing off the doorframe with her chin raised. "When you say you're heading to the surface at dawn, did you mean alone?"
 
 "Of course," Daren says. "I will not drag you into royal guard patrols for a burden I chose to shoulder. This is my responsibility."
 
 "The hell it is," Melindra snaps. "If today proved anything, it's that scattering across the map gets people killed. The streets are swarming with search parties. If you walk up those stairs, we all go. Right, Kate?"
 
-"She's right," Kate says, her arms still folded. "We cannot afford another divided line. Not under curfew."
+"She's right," Kate says, her arms still crossed over her cloak. "We cannot afford another divided line. Not under curfew."
 
 "Exactly," Melindra adds. "Besides, Illuna would probably strangle us in our sleep if she had to stage a second rescue in twenty-four hours."
 
-"That is accurate," Illuna says without looking up.
+"That is accurate," Illuna says without looking up from the blankets.
 
 Daren holds up his hands in surrender. "Fine, fine. We go together. Now get some sleep. Morning will come fast enough."
 
-"Illuna and I will take first watch," I say, stepping toward the tunnel entrance as the others start laying out bedrolls.
+"Illuna and I will take first watch," I say, stepping toward the tunnel entrance as the others start unrolling their bedding.
 
-Daren frowns. "First watch? Barry, we are behind fortified rebel lines."
+Daren frowns, glancing out into the corridor. "First watch? Barry, we are behind fortified rebel lines."
 
 "I agree with Barry," Illuna says coldly. "I have little faith in this underground king, and our isolation in this corner of the compound is hardly accidental. A sentry at the archway costs nothing."
 
-"Second watch is mine, then," Kate says. "A small return for the trouble I caused today."
+"Second watch is mine, then," Kate says, her voice level. "A small return for the trouble I caused today."
 
 Leila traces glowing blue letters in the dim air, smiling faintly: "I will take second watch with Kate."
 
@@ -838,33 +838,33 @@ TEXT:
 
 "Why do you think the lockdown will get worse?"
 
-"Because the entire curfew exists to smoke us out," Daren says. "What happens when a full day passes and the garrison has turned up nothing?"
+"Because the entire curfew exists to smoke us out," Daren says, setting his breastplate aside against the rock wall. "What happens when a full day passes and the garrison has turned up nothing?"
 
 "They can't keep the city shuttered indefinitely," I say. "People need food and trade, or the city starves."
 
 "The tyrant on that throne doesn't care if commoners starve," Daren replies grimly. "His palace vaults are stocked for years. In any case, I need to reach the markets the moment dawn breaks, so I am turning in. If there is nothing else—"
 
-"One question," Melindra says, leaning against the doorframe. "When you say you're heading to the surface at dawn, did you mean alone?"
+"One question," Melindra says, pushing off the doorframe with her chin raised. "When you say you're heading to the surface at dawn, did you mean alone?"
 
 "Of course," Daren says. "I will not drag you into royal guard patrols for a burden I chose to shoulder. This is my responsibility."
 
 "The hell it is," Melindra snaps. "If today proved anything, it's that scattering across the map gets people killed. The streets are swarming with search parties. If you walk up those stairs, we all go. Right, Kate?"
 
-"She's right," Kate says, her arms still folded. "We cannot afford another divided line. Not under curfew."
+"She's right," Kate says, her arms still crossed over her cloak. "We cannot afford another divided line. Not under curfew."
 
 "Exactly," Melindra adds. "Besides, Illuna would probably strangle us in our sleep if she had to stage a second rescue in twenty-four hours."
 
-"That is accurate," Illuna says without looking up.
+"That is accurate," Illuna says without looking up from the blankets.
 
 Daren holds up his hands in surrender. "Fine, fine. We go together. Now get some sleep. Morning will come fast enough."
 
-"Illuna and I will take first watch," I say, stepping toward the tunnel entrance as the others start laying out bedrolls.
+"Illuna and I will take first watch," I say, stepping toward the tunnel entrance as the others start unrolling their bedding.
 
-Daren frowns. "First watch? Barry, we are behind fortified rebel lines."
+Daren frowns, glancing out into the corridor. "First watch? Barry, we are behind fortified rebel lines."
 
 "I agree with Barry," Illuna says coldly. "I have little faith in this underground king, and our isolation in this corner of the compound is hardly accidental. A sentry at the archway costs nothing."
 
-"Second watch is mine, then," Kate says. "A small return for the trouble I caused today."
+"Second watch is mine, then," Kate says, her voice level. "A small return for the trouble I caused today."
 
 Leila traces glowing blue letters in the dim air, smiling faintly: "I will take second watch with Kate."
 
@@ -881,33 +881,33 @@ TEXT:
 
 "Here's hoping that the shopkeepers won't charge extra for being open during lockdown."
 
-"Let them charge whatever they like," Daren says. "Lives are hanging by a thread. I won't haggle over coin."
+"Let them charge whatever they like," Daren says, setting his breastplate aside against the rock wall. "Lives are hanging by a thread. I won't haggle over coin."
 
 "Admirable sentiment," Hadrik says, "but don't let the shopkeepers hear you say that, or they'll bleed your purse dry before you find the first leaf."
 
 "Point taken," Daren says. "In any case, I need to reach the markets the moment dawn breaks, so I am turning in. If there is nothing else—"
 
-"One question," Melindra says, leaning against the doorframe. "When you say you're heading to the surface at dawn, did you mean alone?"
+"One question," Melindra says, pushing off the doorframe with her chin raised. "When you say you're heading to the surface at dawn, did you mean alone?"
 
 "Of course," Daren says. "I will not drag you into royal guard patrols for a burden I chose to shoulder. This is my responsibility."
 
 "The hell it is," Melindra snaps. "If today proved anything, it's that scattering across the map gets people killed. The streets are swarming with search parties. If you walk up those stairs, we all go. Right, Kate?"
 
-"She's right," Kate says, her arms still folded. "We cannot afford another divided line. Not under curfew."
+"She's right," Kate says, her arms still crossed over her cloak. "We cannot afford another divided line. Not under curfew."
 
 "Exactly," Melindra adds. "Besides, Illuna would probably strangle us in our sleep if she had to stage a second rescue in twenty-four hours."
 
-"That is accurate," Illuna says without looking up.
+"That is accurate," Illuna says without looking up from the blankets.
 
 Daren holds up his hands in surrender. "Fine, fine. We go together. Now get some sleep. Morning will come fast enough."
 
-"Illuna and I will take first watch," I say, stepping toward the tunnel entrance as the others start laying out bedrolls.
+"Illuna and I will take first watch," I say, stepping toward the tunnel entrance as the others start unrolling their bedding.
 
-Daren frowns. "First watch? Barry, we are behind fortified rebel lines."
+Daren frowns, glancing out into the corridor. "First watch? Barry, we are behind fortified rebel lines."
 
 "I agree with Barry," Illuna says coldly. "I have little faith in this underground king, and our isolation in this corner of the compound is hardly accidental. A sentry at the archway costs nothing."
 
-"Second watch is mine, then," Kate says. "A small return for the trouble I caused today."
+"Second watch is mine, then," Kate says, her voice level. "A small return for the trouble I caused today."
 
 Leila traces glowing blue letters in the dim air, smiling faintly: "I will take second watch with Kate."
 
@@ -924,47 +924,47 @@ TEXT:
 
 "Barry, could you drop the volume and hold the receiver to your ear?" Rose whispers over the channel. "Just for a moment."
 
-"Done," I say, pressing the brass rim against my ear. "Go ahead."
+"Done," I say, dialing down the brass knob and pressing the cold rim against my ear. "Go ahead."
 
-"I know Flower and Illuna have been at each other's throats," Rose says gently. "Did you take this watch with Illuna to help them make peace?"
+"I know Flower and Illuna have been at each other's throats since yesterday," Rose says gently. "Did you volunteer for this watch with Illuna to help them make peace?"
 
-I glance toward Illuna. She sits with her back to the cavern wall, completely unbothered, gazing down the dark tunnel.
+I glance toward Illuna. She sits with her back against the damp cavern wall, completely unbothered, her eyes fixed on the dark corridor ahead.
 
 "Pretty much," I say.
 
-"I knew it," Rose says. "Mind if I stay on the line for a bit? I want to talk to her too, and she might actually listen if we approach her together."
+"I knew it," Rose says with a quiet breath. "Mind if I stay on the line for a bit? I want to talk to her too, and she might actually listen if we approach her together."
 
-"Be my guest," I say, and Illuna's head snaps toward me. "Just like old times."
+"Be my guest," I say, and Illuna's head snaps toward me at the change in tone. "Just like old times."
 
-"Wonderful," Rose says. "Give me two minutes. I promised Suzie a plate of honey biscuits."
+"Wonderful," Rose says. "Give me two minutes. I promised Suzie a plate of honey biscuits before bed."
 
-"Am I to understand Rose is joining our sentry duty?" Illuna asks as soon as I lower the device and restore the volume.
+"Am I to understand Rose is joining our sentry duty?" Illuna asks as soon as I lower the device and restore the volume dial.
 
-"Only for a little while," I say.
+"Only for a little while," I say, settling onto the stone floor across from her.
 
 "Splendid," Illuna says dryly. "Perhaps this time I will actually manage to eat."
 
 "Don't hold your breath," I tell her.
 
-We settle onto the stone floor at the first corridor junction—far enough from the heavy door that our voices won't wake the others, but close enough to watch the approach. We barely sit down before Melindra strolls out of the sleeping quarters, hands tucked into her pockets.
+We settle at the first corridor junction—far enough from the heavy timber door that our voices won't carry to the sleeping pallets, but positioned to watch the main approach. We barely take our seats before Melindra strolls past the archway, hands tucked lazily into her pockets.
 
-"Don't mind me!" she calls out breezily. "Just stretching my legs before turning in. Pretend I'm not here!"
+"Don't mind me!" she calls out breezily, not even glancing our way. "Just stretching my legs before turning in. Pretend I'm not here!"
 
-She gives an airy wave and vanishes down the left passage.
+She gives an airy wave and vanishes down the left passage into the dark.
 
-"I'm back," Rose announces through the speaker a minute later.
+"I'm back," Rose announces through the brass speaker a minute later.
 
-At the sound of Rose's voice, Illuna conjures a sandwich from thin air with a flick of her wrist and takes a slow, deliberate bite.
+At the sound of Rose's voice, Illuna weaves her fingers with a flick of her wrist. A fresh sandwich materializes in her palm out of thin air, and she takes a slow, deliberate bite.
 
 "You really conjured food," I say.
 
-"If we are staging a faithful reenactment of our past vigils, we should observe proper protocol," Illuna replies, chewing calmly.
+"If we are staging a faithful reenactment of our past vigils, we should observe proper custom," Illuna replies, chewing calmly.
 
-"Right," I say, glancing around the dark rock. "So... fascinating lichens on these walls, aren't they? Wonder how long they've been growing."
+"Right," I say, glancing around at the damp bedrock. "So... fascinating lichens on these walls, aren't they? Wonder how long they've been growing."
 
-Illuna stares at me. "Ye gods. You aren't actually using the same opening lines, are you? The reenactment was a jest. You don't have to recite old scripts."
+Illuna stares at me over the crust. "Ye gods. You aren't actually using the same opening lines, are you? The reenactment was a jest. You don't have to recite old scripts."
 
-"I changed it!" I say. "Last time I brought up the weather."
+"I changed it!" I say defensively. "Last time I brought up the weather."
 
 "Scintillating," Illuna says. "Well, if subterranean moss is your passion, Rose is an herbalist. She will gladly indulge you while I finish my meal."
 
@@ -977,61 +977,61 @@ TEXT:
 #if(v_ch11_saved_rose == 1) {
 "Actually, there was something else Barry and I wanted to discuss," Rose says gently over the speaker.
 
-"Naturally," Illuna sighs, taking another bite.
+"Naturally," Illuna sighs, taking another measured bite.
 
-"The real reason I asked for this shift," I say, "is that we need to finish the conversation about you and Flower."
+"The real reason I asked for this shift," I say, resting my elbows on my knees, "is that we need to finish the conversation about you and Flower."
 
-Illuna rolls her eyes. "Not this again. We settled that argument."
+Illuna rolls her eyes toward the cavern roof. "Not this again. We settled that argument."
 
 "We didn't settle anything," I say. "Flower wants you to acknowledge her as an adult. That's why she's putting on that stiff, serious act and calling you Illuna instead of Petal. She's desperate for you to recognize that twenty-nine years have passed. Why fight her on it? Why does it matter so much if she calls herself grown?"
 
-"Because she isn't grown!" Illuna snaps. "None of you treat her as an adult either. You've all called her a nine-year-old to her face!"
+"Because she isn't grown!" Illuna snaps, her voice sharpening. "None of you treat her as an adult either. You've all called her a nine-year-old to her face!"
 
 "That's teasing," I say. "You've lived in the same skin for twenty years and you're still bickering over it. Aren't you taking it a bit too far?"
 
-Illuna rests the sandwich in her lap, her blue eyes fixing me with an icy stare. "Let me understand you. You claim the rest of the company views Flower as a full-fledged woman of twenty-nine, and I am the sole person who sees the mind of a child? Rose, do you truly consider Flower an adult?"
+Illuna lowers the sandwich to her lap, her blue eyes fixing me with an icy, unforgiving stare. "Let me understand you. You claim the rest of the company views Flower as a full-fledged woman of twenty-nine, and I am the sole person who sees the mind of a child? Rose, do you truly consider Flower an adult?"
 
-"Well..." Rose hesitates. "It's difficult to treat her as an adult when she behaves exactly like my younger siblings. But it also feels cruel to dismiss her when being taken seriously means the world to her."
+"Well..." Rose hesitates over the line. "It's difficult to treat her as an adult when she behaves so much like my younger siblings. But it also feels cruel to dismiss her when being taken seriously means the world to her."
 
-"Look," I say. "Nobody is saying her mental development progressed past childhood. She's nine at heart, but she can still be brave and reliable when blood is on the floor. None of us expect her to turn into Kate overnight, but would it kill you to meet her halfway? Let her claim twenty-nine if it brings her peace. Where is the harm?"
+"Look," I say. "Nobody is saying her mental development progressed past childhood. She's nine at heart, but she can still be brave and reliable when the knives come out. None of us expect her to turn into Kate overnight, but would it kill you to meet her halfway? Let her claim twenty-nine if it brings her peace. Where is the harm?"
 
-"The harm is in the lie!" Illuna's voice rises, sharp and fierce. "Allowing her to hide inside a fantasy will only destroy her when the delusion breaks! The brutal truth is that she will never grow up. She lost that future the instant I invaded her body twenty years ago, and nothing in this world can undo what I broke. The only mercy I have left is keeping her tethered to reality before she drowns in make-believe!"
+"The harm is in the lie!" Illuna's voice rises, raw and fierce against the quiet tunnel. "Allowing her to hide inside a fantasy will only destroy her when the delusion breaks! The brutal truth is that she will never grow up. She lost that future the instant I invaded her body twenty years ago, and nothing in this world can undo what I broke. The only mercy I have left is keeping her tethered to reality before she drowns in make-believe!"
 
-I stare at her. "Wait a second... Is that what this is about? You're drowning in guilt?"
+I stare at her, the words hanging heavy between us. "Wait a second... Is that what this is about? You're drowning in guilt?"
 
-Illuna glares back, her jaw tight. "And what if I am?"
+Illuna glares back, her jaw clenched tight. "And what if I am?"
 
 }
 #if(v_ch11_saved_rose == 0) {
-We take our seats on the stone floor at the corridor junction—far enough from the doorway to keep our voices from carrying, but close enough to watch the approaches. We barely sit down before Melindra strolls out of the sleeping quarters, hands tucked into her pockets.
+We take our seats on the cold stone floor at the corridor junction—far enough from the timber door to keep our voices from carrying to the sleeping quarters, but positioned to watch the main approach. We barely sit down before Melindra strolls past the archway, hands tucked lazily into her pockets.
 
-"Don't mind me!" she calls out breezily. "Just stretching my legs before turning in. Pretend I'm not here!"
+"Don't mind me!" she calls out breezily, not even glancing our way. "Just stretching my legs before turning in. Pretend I'm not here!"
 
-She gives an airy wave and vanishes down the left passage.
+She gives an airy wave and vanishes down the left passage into the shadows.
 
-"Been a while since we shared a quiet watch," I say after the echoes fade.
+"Been a while since we shared a quiet watch," I say after her footsteps fade into the dark.
 
-"It has," Illuna replies evenly.
+"It has," Illuna replies evenly, gazing down the tunnel.
 
 "We ought to do it more often," I say. "Builds camaraderie. Solidifies team bonds."
 
-Illuna raises an eyebrow. "Do you intend to reach a point tonight, or should I conjure a book while you drone into the void?"
+Illuna raises an eyebrow, her gaze flat. "Do you intend to reach a point tonight, or should I conjure a book while you drone into the void?"
 
-"All right, all right," I say. "The real reason I volunteered is that we need to finish the conversation about you and Flower."
+"All right, all right," I say, leaning forward. "The real reason I volunteered is that we need to finish the conversation about you and Flower."
 
-Illuna sighs. "Not this again. We settled that argument."
+Illuna sighs, closing her eyes for a second. "Not this again. We settled that argument."
 
 "We didn't settle anything," I say. "Flower wants you to acknowledge her as an adult. That's why she's putting on that stiff, serious act and calling you Illuna instead of Petal. She's desperate for you to recognize that twenty-nine years have passed. Why fight her on it? Why does it matter so much if she calls herself grown?"
 
-"Because she isn't grown!" Illuna snaps. "None of you treat her as an adult either. You've all called her a nine-year-old to her face!"
+"Because she isn't grown!" Illuna snaps, turning on me. "None of you treat her as an adult either. You've all called her a nine-year-old to her face!"
 
 "That's teasing," I say. "You've lived in the same skin for twenty years and you're still bickering over it. Aren't you taking it a bit too far? Obviously her mental development froze at nine, but she can still be brave and dependable when the knives come out. Nobody expects her to become Kate, but would it kill you to meet her halfway? Let her claim twenty-nine if it brings her peace. Where is the harm?"
 
-"The harm is in the lie!" Illuna's voice rises, sharp and fierce. "Allowing her to hide inside a fantasy will only destroy her when the delusion breaks! The brutal truth is that she will never grow up. She lost that future the instant I invaded her body twenty years ago, and nothing in this world can undo what I broke. The only mercy I have left is keeping her tethered to reality before she drowns in make-believe!"
+"The harm is in the lie!" Illuna's voice rises, raw and fierce against the quiet tunnel. "Allowing her to hide inside a fantasy will only destroy her when the delusion breaks! The brutal truth is that she will never grow up. She lost that future the instant I invaded her body twenty years ago, and nothing in this world can undo what I broke. The only mercy I have left is keeping her tethered to reality before she drowns in make-believe!"
 
-I stare at her. "Wait a second... Is that what this is about? You're drowning in guilt?"
+I stare at her, the words hanging heavy between us. "Wait a second... Is that what this is about? You're drowning in guilt?"
 
-Illuna glares back, her jaw tight. "And what if I am?"
+Illuna glares back, her jaw clenched tight. "And what if I am?"
 
 }
 choice(""Well, then stop feeling guilty!"", B3-Ch05a-Oblivious, v_current_scene = B3-Ch05a-Oblivious, v_b3_ch5_guilty = 0)
@@ -1045,25 +1045,25 @@ TEXT:
 #if(v_b3_ch5_guilty == 0) {
 "Well, then stop feeling guilty!"
 
-Illuna's mouth twitches into a dry smirk. "Your bedside manner is truly awe-inspiring."
+Illuna's mouth twitches into a dry, humorless smirk. "Your bedside manner is truly awe-inspiring."
 
-"What's done is done," I say. "You can't let a twenty-year-old mistake drag you into the dirt every day of your life. Isn't it time to move past it?"
+"What's done is done," I say, spreading my hands. "You can't let a twenty-year-old mistake drag you into the dirt every day of your life. Isn't it time to move past it?"
 
 "Guilt or no guilt, I am protecting her from delusion," Illuna says flatly. "There is nothing to move past."
 
 "You sell her short," I tell her. "She acts like a child, but she isn't stupid. She knows exactly what happened to her body. She simply chooses joy. She finds whatever brightness is available and holds onto it. Given who she is, wouldn't it make more sense to meet her there? Maybe she wishes she could have grown like other girls, but she also loves being young. Why not treat her as a twenty-nine-year-old kid? Can't you grant her that much?"
 
-Illuna looks away into the dark tunnel, silent for a long moment. "I will... consider it."
+Illuna looks away into the dark tunnel, silent for a long moment as she considers the words. "I will... consider it."
 
 }
 #if(v_b3_ch5_guilty == 1) {
 "It doesn't seem to me like Flower is blaming you for what happened."
 
-"Of course she doesn't," Illuna says. "Because she refuses to acknowledge the reality of what our binding cost her. It is easy to forgive a crime you pretend never occurred."
+"Of course she doesn't," Illuna says, her voice quiet. "Because she refuses to acknowledge the reality of what our binding cost her. It is easy to forgive a crime you pretend never occurred."
 
 "You sell her short," I tell her. "She acts like a child, but she isn't stupid. She knows exactly what happened to her body. She simply chooses joy. She finds whatever brightness is available and holds onto it. Given who she is, wouldn't it make more sense to meet her there? Maybe she wishes she could have grown like other girls, but she also loves being young. Why not treat her as a twenty-nine-year-old kid? Can't you grant her that much?"
 
-Illuna looks away into the dark tunnel, silent for a long moment. "I will... consider it."
+Illuna looks away into the dark tunnel, silent for a long moment as she considers the words. "I will... consider it."
 
 }
 #if(v_b3_ch5_guilty == 2) {
@@ -1073,13 +1073,13 @@ Illuna looks away into the dark tunnel, silent for a long moment. "I will... con
 
 "You sell her short," I tell her. "She acts like a child, but she isn't stupid. She knows exactly what happened to her body. She simply chooses joy. She finds whatever brightness is available and holds onto it. Given who she is, wouldn't it make more sense to meet her there? Maybe she wishes she could have grown like other girls, but she also loves being young. Why not treat her as a twenty-nine-year-old kid? Can't you grant her that much?"
 
-Illuna looks away into the dark tunnel, silent for a long moment. "I will... consider it."
+Illuna looks away into the dark tunnel, silent for a long moment as she considers the words. "I will... consider it."
 
 }
 #if(v_ch11_saved_rose == 1) {
 "If it helps," Rose adds through the transceiver, "I agree with Barry. Flower isn't blind. She doesn't hide from truth; she just embraces what she has. I think you might be worrying too much, Illuna."
 
-"Perhaps," Illuna murmurs. "I will not rule it out."
+"Perhaps," Illuna murmurs, resting her chin on her hand. "I will not rule it out."
 
 "See?" I grin. "Actual progress."
 
@@ -1091,13 +1091,13 @@ Illuna looks away into the dark tunnel, silent for a long moment. "I will... con
 
 "Wait!" I say as the bright blue radiance in her eyes dims. "I thought the four of us could—and you're already gone."
 
-Rose lets out a quiet laugh on the speaker.
+Rose lets out a quiet laugh over the speaker.
 
 "I had forgotten how much I missed her stubbornness," Rose says softly. "I hope they find their way through this."
 
 "Me too," I say.
 
-Faint rustling carries over the line from Thilias, followed by Suzie's muffled voice in the distance.
+Faint rustling carries over the line from Thilias, followed by Suzie's muffled voice calling in the distance.
 
 "I'm coming, Suzie!" Rose calls out, then lowers her voice to the receiver. "Barry, I have to go. Suzie can't sleep without a story. Is it all right if I leave you here?"
 
@@ -1105,7 +1105,7 @@ Faint rustling carries over the line from Thilias, followed by Suzie's muffled v
 
 "Thank you," Rose says. "Good luck with Flower."
 
-The connection clicks shut. Across from me, the small body remains still, waiting for the switch to complete.
+The connection clicks shut. Across from me on the stone, the small body remains motionless, waiting for the switch to complete.
 
 }
 #if(v_ch11_saved_rose == 0) {
@@ -1128,21 +1128,21 @@ TEXT:
 
 set(v_ac_b3_ch5_days,1) if (v_ch11_saved_rose == 1)
 achievement("The good old days",v_ac_b3_ch5_days)
-While Illuna hands control over within their shared mind, the body sits cross-legged on the stone, eyes staring blankly into the shadows. When the focus returns, the irises shift to bright green, darting across the corridor in frantic confusion. Illuna clearly dumped her into the physical plane without an explanation.
+While Illuna hands control over within their shared mind, the body sits cross-legged on the stone, eyes staring blankly into the shadows. When the focus returns, the irises shift to bright emerald green, darting across the corridor in frantic confusion. Illuna clearly dumped her into the physical plane without an explanation.
 
-"Umm..." Flower says, blinking up at me. "Illuna said you wanted to talk to me?"
+"Umm..." Flower says, blinking up at me in the dim torchlight. "Illuna said you wanted to talk to me?"
 
 "Right. Yes. I wanted to talk about..."
 
 The sentence dies in my throat.
 
-"About the..." I try again, and hit a complete blank.
+"About the..." I try again, and hit a complete blank wall.
 
 I have no plan for this. I rarely talk to Flower alone, and bringing up something this delicate out of nowhere feels like walking into a trap with no disarm kit. Do I ease into it with small talk? Would she even open up to me the way Illuna did? How am I supposed to fix a twenty-year rift when I can't even assemble a sentence?
 
 "About..." I squeak.
 
-"Barry, are you all right?" Flower asks, leaning forward with wide, concerned eyes. "You're sweating a lot."
+"Barry, are you all right?" Flower asks, leaning forward with wide, concerned green eyes. "You're sweating a lot."
 
 "Fine! Totally fine," I say, dragging my sleeve across my dripping forehead. "Just... the weather. Very seasonal for this time of year underground, wouldn't you say?"
 
@@ -1150,9 +1150,9 @@ I have no plan for this. I rarely talk to Flower alone, and bringing up somethin
 
 Flower jumps. "Melindra?"
 
-"Melindra?" I repeat, gaping as she marches out from the shadows. "You were lurking there the entire time? I didn't feel a ripple of aura!"
+"Melindra?" I repeat, gaping as she marches out from the shadows with a disgusted shake of her head. "You were lurking there the entire time? I didn't feel a ripple of aura!"
 
-"Of course you didn't," Melindra says, tossing her ponytail. "I suppressed it completely, and stillwater signatures are nearly impossible to track as it is. You'd need senses twice as sharp as yours to catch me."
+"Of course you didn't," Melindra says, tossing her ponytail over her shoulder. "I suppressed it completely, and stillwater signatures are nearly impossible to track as it is. You'd need senses twice as sharp as yours to catch me."
 
 "What were you doing spying on us?" I demand. "You said you were taking a walk!"
 
@@ -1187,7 +1187,7 @@ Melindra tilts her head, studying her. "Flower... why do you want to be an adult
 
 "Hold that thought," Melindra says.
 
-She unslings her satchel, reaches deep inside, and pulls out several smooth stones, arranging them in a neat line on the dust between us.
+She unslings her leather satchel, reaches deep inside, and pulls out several smooth stones, arranging them in a neat line on the dust between us.
 
 }
 #if(v_b3_ch5_demeanor == 1) {
@@ -1205,7 +1205,7 @@ Melindra tilts her head, studying her. "Flower... why do you want to be an adult
 
 "Hold that thought," Melindra says.
 
-She unslings her satchel, reaches deep inside, and pulls out several smooth stones, arranging them in a neat line on the dust between us.
+She unslings her leather satchel, reaches deep inside, and pulls out several smooth stones, arranging them in a neat line on the dust between us.
 
 }
 #if(v_b3_ch5_demeanor == 2) {
@@ -1227,12 +1227,12 @@ Melindra tilts her head, studying her. "Flower... why do you want to be an adult
 
 "Hold that thought," Melindra says.
 
-She unslings her satchel, reaches deep inside, and pulls out several smooth stones, arranging them in a neat line on the dust between us.
+She unslings her leather satchel, reaches deep inside, and pulls out several smooth stones, arranging them in a neat line on the dust between us.
 
 }
 "Look at these," Melindra says, pointing down at the display. "These are the pride of my collection. My absolute favorites. What do you think of them, Flower?"
 
-"Oh, they're gorgeous!" Flower beams, her cold demeanor vanishing in an instant. "The banding on that grey one is incredible!"
+"Oh, they're gorgeous!" Flower beams, her cold demeanor vanishing in an instant as she leans over them. "The banding on that grey one is incredible!"
 
 "And you enjoy discussing the collection with me?" Melindra asks.
 
@@ -1246,7 +1246,7 @@ choice("Continue", B3-Ch05a-Childish, v_current_scene = B3-Ch05a-Childish)
 ID: B3-Ch05a-Childish
 TEXT:
 
-"Most people look at these stones and see gravel," Melindra says. "They dismiss collecting them as something childish."
+"Most people look at these stones and see gravel," Melindra says, rolling one of the rounded pebbles between her thumb and forefinger. "They dismiss collecting them as something childish."
 
 She glances over her shoulder at me with a sly grin.
 
@@ -1254,15 +1254,15 @@ She glances over her shoulder at me with a sly grin.
 
 "To be blunt? Yes," I say, leaning back against the wall. "It's an unusual fixation. They look like ordinary dirt to me."
 
-Flower's eyes widen. "People think gathering stones is childish? Then why do you keep doing it?"
+Flower's green eyes widen. "People think gathering stones is childish? Then why do you keep doing it?"
 
-"Because other people's opinions are worthless," Melindra says, sitting cross-legged across from her. "It is my collection, not theirs. If they want to sneer, let them."
+"Because other people's opinions are worthless," Melindra says, sitting cross-legged across from her on the rock. "It is my collection, not theirs. If they want to sneer, let them."
 
 "Doesn't it bother you when they call you a child?" Flower asks quietly.
 
 "A secret of adulthood," Melindra says, resting her chin in her hand, "is that you stop caring what label someone slaps on you. You are who you are. Twisting your nature to fit someone else's idea of your age is a fool's errand. If people want to call a good hobby childish, let them miss out."
 
-Flower looks down at the smooth pebbles, silent as she turns the thought over.
+Flower looks down at the smooth pebbles, silent as she turns the thought over in her hands.
 
 "You don't have to break yourself to earn approval," Melindra adds softly. "If you like who you are, stay that way. Making yourself miserable for someone else's nod isn't worth the cost."
 
@@ -1287,9 +1287,9 @@ TEXT:
 #if(v_ch11_saved_rose == 1) {
 "She truly said that?" Flower looks up at Melindra, hope lighting her green eyes.
 
-"Her exact words," Melindra says.
+"Her exact words," Melindra says, nodding firmly.
 
-"I... I thought she regretted being bound to me," Flower whispers, a small smile breaking through. "She always seems so exasperated with everything I do."
+"I... I thought she regretted being bound to me," Flower whispers, a small, tremulous smile breaking through. "She always seems so exasperated with everything I do."
 
 "Illuna is exasperated with the entire universe," I tell her. "It has nothing to do with you. She treats everyone like an inconvenience. Rose and I tried to have a quiet word with her ten minutes ago, and the second she found an opening, she abandoned the conversation and went to sleep. Look at your lap."
 
@@ -1301,24 +1301,24 @@ Flower blinks down at the half-eaten crust. "That explains the sandwich."
 #if(v_ch11_saved_rose == 0) {
 "She truly said that?" Flower looks up at Melindra, hope lighting her green eyes.
 
-"Her exact words," Melindra says.
+"Her exact words," Melindra says, nodding firmly.
 
-"I... I thought she regretted being bound to me," Flower whispers, a small smile breaking through. "She always seems so exasperated with everything I do."
+"I... I thought she regretted being bound to me," Flower whispers, a small, tremulous smile breaking through. "She always seems so exasperated with everything I do."
 
-"Illuna is exasperated with the entire universe," I tell her. "It has nothing to do with you. She treats everyone like an inconvenience. I tried talking about teamwork five minutes ago and she told me to hurry up or she'd conjure a book. You know how she is."
+"Illuna is exasperated with the entire universe," I tell her. "It has nothing to do with you. She treats everyone like an inconvenience. I tried talking about fighting together five minutes ago and she told me to hurry up or she'd conjure a book. You know how she is."
 
-"That does sound like Petal," Flower admits.
+"That does sound like Petal," Flower admits with a small chuckle.
 
 "Right," I say. "Her bark is just habit. Don't let it shake you."
 
 }
-"All right," Flower says, drawing a breath. "I'll try to stop fretting. But I need time to figure out... how I want to be. It's still tangled in my head."
+"All right," Flower says, drawing a breath and sitting up straighter. "I'll try to stop fretting. But I need time to figure out... how I want to be. It's still tangled in my head."
 
 "No rush," I say. "Sort it out in your own time. Just remember to fit in Arraka's drills when you have the energy. The God of Time won't drop dead on his own."
 
 Melindra glances around the cavern. "I'm shocked Arraka hasn't chimed in. Usually she leaps at any chance to grace us with her venom."
 
-"Arraka is asleep," Flower says, lifting the gold amulet to peer at the filigree. "Her aura settles into a slow pulse when she rests."
+"Arraka is asleep," Flower says, lifting the gold amulet to peer at the intricate filigree. "Her aura settles into a slow pulse when she rests."
 
 Melindra stares. "Arraka sleeps? Since when? I've never seen her take a nap in centuries."
 
@@ -1335,13 +1335,13 @@ TEXT:
 #if(v_b3_ch5_moustache == 0) {
 "What do you mean by near-immortality?"
 
-"Even if you destroy her host, she doesn't die," Flower explains. "Normal banshees perish if their possessed vessel is killed, but Arraka disperses lethal trauma across the souls she holds captive. If the vessel falls, her spirit simply drifts free to claim a new one. That's why Eiden and Eleya wove the ban barring her from humanoid vessels—to keep her contained."
+"Even if you destroy her host, she doesn't die," Flower explains, turning the pendant in her small fingers. "Normal banshees perish if their possessed vessel is killed, but Arraka disperses lethal trauma across the souls she holds captive. If the vessel falls, her spirit simply drifts free to claim a new one. That's why Eiden and Eleya wove the ban barring her from humanoid vessels—to keep her contained."
 
 "Except you," I say, "because your fusion with Illuna masks your humanity."
 
 "Right," Flower says.
 
-"Wait," I say, frowning. "Why couldn't she possess Tyrath? He's a monster, and he's absurdly powerful."
+"Wait," I say, frowning into the shadows. "Why couldn't she possess Tyrath? He's a monster, and he's absurdly powerful."
 
 "Raw strength doesn't give a banshee leverage," Flower says. "Soul resonance determines control, not the host's muscle. Even if Arraka breached Tyrath, she couldn't draw more power than an ordinary mage through his frame. Besides, dragons possess natural wards against mental subversion. The denser the spirit, the harder it is to override. Even with his guard down, she couldn't take him."
 
@@ -1359,13 +1359,13 @@ I groan. "Not the rocks again."
 #if(v_b3_ch5_moustache == 1) {
 "So, how do you wake her up if you need her while she's asleep? Do you spin her amulet?"
 
-"Usually we just rattle the chain until she starts swearing," Flower says. "Though spinning would certainly get her attention."
+"Usually we just rattle the chain until she starts swearing," Flower says, giggling. "Though spinning would certainly get her attention."
 
 }
 #if(v_b3_ch5_moustache == 2) {
 "Does this mean that we can draw a fake moustache on her amulet and she won’t notice?"
 
-"I actually did that once!" Flower giggles. "She was furious for three days."
+"I actually did that once!" Flower giggles, covering her mouth. "She was furious for three days."
 
 "Excellent," I say, pulling a charcoal stick from my pouch. "Let's see if her temper has improved."
 
@@ -1380,7 +1380,7 @@ I groan. "Not the rocks again."
 I groan. "Not the rocks again."
 
 }
-"Oh?" Melindra's eyes gleam with malicious delight. "Blind to the splendor of geology, are we, Barry? Then class is in session. Flower and I will spend the remainder of the night turning you into a connoisseur. By sunrise you will recite every mineral vein by heart."
+"Oh?" Melindra's eyes gleam with malicious delight. "Blind to the splendor of geology, are we, Barry? Then school has begun. Flower and I will spend the remainder of the night turning you into a connoisseur. By sunrise you will recite every mineral vein by heart."
 
 "You are too generous," I say. "Truly, don't trouble yourselves."
 

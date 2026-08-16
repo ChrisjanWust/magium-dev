@@ -841,7 +841,7 @@ Moments later, the head monitor steps to the edge of the platform and bellows th
 
 "Anyone is an improvement over the king," Hadrik says, "and Peter is an honest lad. Good on him."
 
-"Indeed," Daren agrees. "Of the available options, he is the best outcome."
+"Indeed," Daren agrees. "Of all our choices, he is the best outcome."
 
 "Let's hope he maintains that independence," Kate says quietly, "and doesn't take secret orders from the king once crowned."
 
@@ -951,7 +951,7 @@ TEXT:
 
 "Is that so?" Hadrik asks. "What were his orders, then?"
 
-"To dismantle your credibility," the king explains. "Albert was to circulate rumors of your collusion with the Overseer, eroding public trust in case you moved to sabotage the election. That protocol was contingent on active interference, which you wisely avoided."
+"To dismantle your credibility," the king explains. "Albert was to circulate rumors of your collusion with the Overseer, eroding public trust in case you moved to sabotage the election. That plan was contingent on active interference, which you wisely avoided."
 
 "What about the seredium towers?" Kate cuts in. "What happens to the mages trapped inside?"
 
@@ -961,31 +961,31 @@ TEXT:
 
 }
 #if(v_b3_ch8_king == 0) {
-"To dismantle your credibility," the king explains. "Albert was to circulate rumors of your collusion with the Overseer, eroding public trust in case you moved to sabotage the election. That protocol was contingent on active interference, which you wisely avoided."
+"To dismantle your credibility," the king explains. "Albert was to circulate rumors of your collusion with the Overseer, eroding public trust in case you moved to sabotage the election. That plan was contingent on active interference, which you wisely avoided."
 
 "What about the seredium towers?" Kate cuts in. "What happens to the mages trapped inside?"
 
-"That rests on Albert's discretion," the king says. "Though I expect he will implement our established strategy. We prioritize the kin of underground citizens first, then extract non-critical captives—children and the elderly—without destabilizing the municipal power grid. For the remainder, we accelerate research into synthetic energy alternatives to bring a swift end to their confinement."
+"That rests on Albert's discretion," the king says. "Though I expect he will follow our agreed plan. We will free the kin of underground citizens first, then rescue the most vulnerable captives—children and the elderly—without draining the city's power completely. For the remainder, we will hasten our research into magical energy alternatives to bring a swift end to their confinement."
 
 "I see," Kate says quietly.
 
 }
 #if(v_b3_ch8_king == 1) {
-"To dismantle your credibility," the king explains. "Albert was to circulate rumors of your collusion with the Overseer, eroding public trust in case you moved to sabotage the election. That protocol was contingent on active interference, which you wisely avoided."
+"To dismantle your credibility," the king explains. "Albert was to circulate rumors of your collusion with the Overseer, eroding public trust in case you moved to sabotage the election. That plan was contingent on active interference, which you wisely avoided."
 
 "What about the seredium towers?" Kate cuts in. "What happens to the mages trapped inside?"
 
-"That rests on Peter's discretion," the king says. "Though I expect he will implement our established strategy. We prioritize the kin of underground citizens first, then extract non-critical captives—children and the elderly—without destabilizing the municipal power grid. For the remainder, we accelerate research into synthetic energy alternatives to bring a swift end to their confinement."
+"That rests on Peter's discretion," the king says. "Though I expect he will follow our agreed plan. We will free the kin of underground citizens first, then rescue the most vulnerable captives—children and the elderly—without draining the city's power completely. For the remainder, we will hasten our research into magical energy alternatives to bring a swift end to their confinement."
 
 "I see," Kate says quietly.
 
 }
 #if(v_b3_ch8_king == 2 || v_b3_ch8_king == 3 || v_b3_ch8_king == 4) {
-"To dismantle your credibility," the king explains. "Albert was to circulate rumors of your collusion with the Overseer, eroding public trust in case you moved to sabotage the election. That protocol was contingent on active interference, which you wisely avoided."
+"To dismantle your credibility," the king explains. "Albert was to circulate rumors of your collusion with the Overseer, eroding public trust in case you moved to sabotage the election. That plan was contingent on active interference, which you wisely avoided."
 
 "What about the seredium towers?" Kate cuts in. "What happens to the mages trapped inside?"
 
-"Everything proceeds according to the blueprint I outlined," the king states. "We prioritize the kin of underground citizens first, then extract non-critical captives—children and the elderly—without destabilizing the municipal power grid. For the remainder, we accelerate research into synthetic energy alternatives to bring a swift end to their confinement."
+"Everything proceeds according to the blueprint I outlined," the king states. "We will free the kin of underground citizens first, then rescue the most vulnerable captives—children and the elderly—without draining the city's power completely. For the remainder, we will hasten our research into magical energy alternatives to bring a swift end to their confinement."
 
 "I see," Kate says quietly.
 
@@ -1097,7 +1097,7 @@ Kate steps forward, hesitation in her posture. "Kelrim... this may be sudden, bu
 
 "Free every last one," Kelrim says firmly. "Immediately. Their suffering ends now."
 
-"Have you discussed that with the underground king?" Kate asks. "His position was that releasing all prisoners at once would collapse the city's power grid, grounding every flying carriage and halting municipal machinery. He planned to extract only rebel relatives and leave the rest until an alternative source was engineered."
+"Have you discussed that with the underground king?" Kate asks. "His position was that releasing all prisoners at once would cut off the city's magical power, grounding every flying carriage and halting the city's machinery. He planned to free only rebel relatives and leave the rest until another power source was found."
 
 "Unacceptable," Kelrim says, shaking his head with sudden resolve. "Freedom cannot be rationed. If darkness falls on the streets, we shall navigate it together. I will confront the king at once!"
 
@@ -1105,9 +1105,9 @@ Kate steps forward, hesitation in her posture. "Kelrim... this may be sudden, bu
 
 "Thank you, Sir Horace," Kelrim says. "I place the negotiation in your capable hands."
 
-"Remember not to sever the chains by brute force!" Kate warns. "The feedback will kill them. The extraction mechanisms in the control room must be deactivated first."
+"Remember not to sever the chains by brute force!" Kate warns. "The backlash will kill them. The extraction mechanisms in the control room must be deactivated first."
 
-"Understood," Sir Horace nods. "Now, your majesty, our inaugural strategy council awaits. If you will accompany me."
+"Understood," Sir Horace nods. "Now, your majesty, our first war council awaits. If you will accompany me."
 
 "Lead on, Sir Horace," Kelrim says, offering us a quick bow. "Farewell, my friends. We shall speak again soon."
 
@@ -1117,7 +1117,7 @@ Kate steps forward, hesitation in her posture. "Kelrim... this may be sudden, bu
 
 }
 #if(v_b3_ch8_king != 5) {
-"Didn't the king explain that all prisoners will eventually be extracted?" Daren asks. "It is merely a question of logistics."
+"Didn't the king explain that all prisoners will eventually be freed?" Daren asks. "It is merely a matter of time and preparation."
 
 "And if they never find an alternate energy source?" Kate counters. "Do those mages rot in the machinery forever?"
 
@@ -1504,7 +1504,7 @@ Vision violently shatters. My consciousness ricochets between the earthen and et
 
 Another wave crashes over me. My soul rattles inside my skull, flipping between the dark stone corridor and the empty white cube hundreds of times a second.
 
-"What is causing this?" Kate asks, her grip tightening. "Is it physical pain, or magical feedback?"
+"What is causing this?" Kate asks, her grip tightening. "Is it physical pain, or magical backlash?"
 
 }
 choice("Agree to Melindra's proposition.", B3-Ch10a-Proposition, v_current_scene = B3-Ch10a-Proposition, v_b3_ch10_benefits = 1) if (v_b2_ch8_energizer == 1)
@@ -1560,7 +1560,7 @@ Vision violently shatters. My consciousness ricochets between the earthen and et
 
 Another wave crashes over me. My soul rattles inside my skull, flipping between the dark stone corridor and the empty white cube hundreds of times a second.
 
-"What is causing this?" Kate asks, her grip tightening. "Is it physical pain, or magical feedback?"
+"What is causing this?" Kate asks, her grip tightening. "Is it physical pain, or magical backlash?"
 
 choice("Tell Kate the truth about what's happening to me.", B3-Ch10a-Abyss, v_current_scene = B3-Ch10a-Abyss)
 choice("Tell Kate that it's just a normal headache and that she shouldn't worry about it.", B3-Ch10a-Headache, v_current_scene = B3-Ch10a-Headache)
@@ -2381,7 +2381,7 @@ A gentle pause settles between us—not awkward this time, but peaceful. We both
 
 choice("Tell Leila that there's no need to apologize because she didn't do anything inappropriate.", B3-Ch10a-Apologize, v_current_scene = B3-Ch10a-Apologize, v_b3_ch10_inappropriate = 0)
 choice("Tell Leila that even though it was a little out of the blue, it wasn't a problem.", B3-Ch10a-Apologize, v_current_scene = B3-Ch10a-Apologize, v_b3_ch10_inappropriate = 1)
-choice("Kiss Leila out of the blue as well, and then tell her that now we are even.", B3-Ch10a-Apologize, v_current_scene = B3-Ch10a-Apologize, v_b3_ch10_inappropriate = 2)
+choice("Lean in and kiss Leila, then tell her that now we are even.", B3-Ch10a-Apologize, v_current_scene = B3-Ch10a-Apologize, v_b3_ch10_inappropriate = 2)
 
 
 ID: B3-Ch10a-Apologize

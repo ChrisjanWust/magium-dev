@@ -319,7 +319,7 @@ TEXT:
 
 She leads us through two more crooked thoroughfares until the buildings fall back, opening into the wide stone expanse of Perrelion Plaza. The square is packed with hundreds of citizens standing shoulder to shoulder, their murmurs rising in a restless hum as though waiting for a performance.
 
-"Is there some kind of festival scheduled?" I ask in a low voice as we shoulder our way through the edge of the crowd.
+"Is there some festival underway?" I ask in a low voice as we shoulder our way through the edge of the crowd.
 
 "Could be," Daren says, scanning the perimeter. "Or an address from the municipal magistrates. Whatever the reason, it doesn't concern us. Keep your heads down and keep moving."
 
@@ -347,13 +347,13 @@ choice("Continue", B3-Ch02b-Crisis, v_current_scene = B3-Ch02b-Crisis, v_b3_ch2_
 ID: B3-Ch02b-Premonition
 TEXT:
 
-After walking a few more blocks, a low, collective hum drifts down from above. Overhead, dozens of brass spheres begin circling in a wide, slow orbit, their shadows flickering across the cobblestones. No matter our pace, the formation maintains a tight perimeter directly over our heads.
+After walking a few more blocks, a low, collective hum drifts down from above. Overhead, dozens of brass spheres begin circling in a wide, slow orbit, their shadows flickering across the uneven cobblestones. No matter our pace, the formation maintains a tight, whirring perimeter directly over our heads.
 
-"Melindra," Kate says, her eyes locked upward. "Is it standard for the droons to swarm like that?"
+"Melindra," Kate says, her eyes locked upward as she draws her cloak back. "Is it standard for the droons to swarm like that?"
 
-"No," Melindra says, her voice tightening. "I've never seen them flock in formation. They're preparing something, but I can't tell what."
+"No," Melindra says, her voice tightening as she tracks the rotors. "I've never seen them flock in formation. They're preparing something, but I can't tell what."
 
-"We haven't seen a guard since the gatehouse, and civilian traffic has cleared out entirely," Daren says, his hand resting on the hilt of his blade. "There's an ambush waiting ahead. You think these contraptions are coordinating it?"
+"We haven't seen a guard since the gatehouse, and civilian traffic has cleared out entirely," Daren says, his hand resting on the hilt of his blade. "There's an ambush waiting ahead. You think these contraptions are directing it?"
 
 "I don't know," Melindra replies. "They had no combat spells when I was here, but eight years is plenty of time for Billy Bob to install something nasty."
 
@@ -370,9 +370,9 @@ Kate nods, lifting her chin as twenty razor-tipped icicles form in the air above
 
 A sudden flash of foresight tears through my thoughts: the brass spheres bank and pivot with uncanny precision, evading the entire volley, then plunge downward with whining rotors to shower us in searing elemental beams.
 
-"Wait! Don't shoot!" I yell, stepping in front of Kate.
+"Wait! Don't shoot!" I yell, stepping in front of Kate with an outstretched palm.
 
-The icicles hover in place as Kate turns to me, her brow furrowing. "What is it?"
+The icicles hover in place as Kate turns to me, her brow furrowing with sharp irritation. "What is it?"
 
 "A premonition," I say, catching my breath. "The moment you fire, they evade every shard and dive on us with combat spells. If we take them down, we need a coordinated trap, not a single volley."
 
@@ -559,27 +559,27 @@ choice("Continue", B3-Ch02b-Ambush, v_current_scene = B3-Ch02b-Ambush)
 ID: B3-Ch02b-Ambush
 TEXT:
 
-"Well, well," Arraka's voice rasps from the golden amulet. "Look who's finally using magical sense to spot an ambush. Maybe those aura training sessions weren't a complete waste of time after all."
+"Well, well," Arraka's voice rasps from the golden amulet. "Look who's finally using magical sense to spot an ambush. Maybe those aura drills weren't a complete waste of time after all."
 
 "Some of our escape routes only have a pair of sentries posted," Melindra says. "We can overpower them in seconds."
 
-"And they'll shout into their transceivers and bring the whole garrison down on our heads," Daren counters.
+"And they'll shout into their transceivers and bring the whole garrison down on our heads," Daren counters, scanning the alleys.
 
 "Better than walking into a crossfire," Melindra says. "We invaded their city. Resistance comes with the territory."
 
 "Fair enough," Daren says. "The most direct route that avoids the main cordon. Lead on."
 
-"This way," Melindra says, slipping down a narrow, deserted alley. "Follow me."
+"This way," Melindra says, slipping down a narrow, deserted alley where damp laundry hangs between crooked timbers. "Follow me."
 
 Two sentries stand at the far end of the lane, one already reaching for a brass transceiver at his hip. We drop them before a single distress call goes out, stepping over them into the cross-street.
 
 The quiet doesn't last. Heavy boots pound the stone behind us as the primary ambush force rounds the corner, shouting orders as they close the distance.
 
-"What now?" Hadrik asks, cracking his knuckles. "Turn and smash?"
+"What now?" Hadrik asks, cracking his thick knuckles. "Turn and smash?"
 
 "No," Daren says. "We buy time. Flower, drop a fire wall across the full width of this street. Force them to double back."
 
-"On it," Flower says, her hands sweeping out as a roaring wall of crimson flames erupts across the avenue, cutting off the pursuit.
+"On it," Flower says, her hands sweeping out as a roaring wall of crimson flames erupts across the avenue, scorching the timber walls and cutting off the pursuit.
 
 "Keep moving!" Daren urges.
 
@@ -599,7 +599,7 @@ TEXT:
 
 She leads us through two more crooked thoroughfares until the buildings fall back, opening into the wide stone expanse of Perrelion Plaza. The square is packed with hundreds of citizens standing shoulder to shoulder, their murmurs rising in a restless hum as though waiting for a performance.
 
-"Is there some kind of festival scheduled?" I ask in a low voice as we shoulder our way through the edge of the crowd.
+"Is there some festival underway?" I ask in a low voice as we shoulder our way through the edge of the crowd.
 
 "Could be," Daren says, scanning the perimeter. "Or an address from the municipal magistrates. Whatever the reason, it doesn't concern us. Keep your heads down and keep moving."
 
@@ -824,13 +824,13 @@ ID: B3-Ch02b-Gontrok
 TEXT:
 
 #if(v_b3_ch2_hearing == 1) {
-"Gontrok..." Hadrik's voice drops, a dark, dangerous edge hardening behind his eyes.
+"Gontrok..." Hadrik's voice drops, the humor draining completely from his face.
 
-"You don't look thrilled to see me, Hadrik," Gontrok says, his broad chest rumbling with amusement. "What's the matter? Still nursing that ancient grudge over the dwarf village? Then again, you wouldn't be Hadrik if you didn't cling to every petty dispute for a hundred years."
+"You don't look thrilled to see me, Hadrik," Gontrok says, his broad chest rumbling with deep, mocking amusement. "What's the matter? Still nursing that ancient grudge over the dwarf village? Then again, you wouldn't be Hadrik if you didn't cling to every petty dispute for a hundred years."
 
-Gontrok roars with laughter. Hadrik's right fist closes, slow and deliberate, and the aura around his knuckles draws in so dense that the air above the cobblestones distorts like heat over a forge.
+Gontrok roars with laughter. Hadrik's right fist closes, slow and rigid, the knuckles going white as the aura around his thick arms draws in so dense that the air above the cobblestones shimmers like heat over forge coals. His jaw sets hard, but he says nothing.
 
-"You know this dwarf, recruit?" the captain asks, his tone sharp.
+"You know this dwarf, recruit?" the captain asks, his tone sharp as flint.
 
 "He's no dwarf, captain," Gontrok says. "He's a northern giant, same as me. The tournament organizers likely ordered him into dwarf form so he wouldn't terrify the locals, just like they made me take this human skin. Any giant traveling south has to learn compression shapeshifting or the civilized kingdoms slam their gates in our faces."
 
@@ -838,13 +838,13 @@ The voices click. These two are the captain and recruit from the alley argument.
 
 }
 #if(v_b3_ch2_hearing == 0) {
-"Gontrok..." Hadrik's voice drops, a dark, dangerous edge hardening behind his eyes.
+"Gontrok..." Hadrik's voice drops, the humor draining completely from his face.
 
-"You don't look thrilled to see me, Hadrik," Gontrok says, his broad chest rumbling with amusement. "What's the matter? Still nursing that ancient grudge over the dwarf village? Then again, you wouldn't be Hadrik if you didn't cling to every petty dispute for a hundred years."
+"You don't look thrilled to see me, Hadrik," Gontrok says, his broad chest rumbling with deep, mocking amusement. "What's the matter? Still nursing that ancient grudge over the dwarf village? Then again, you wouldn't be Hadrik if you didn't cling to every petty dispute for a hundred years."
 
-Gontrok roars with laughter. Hadrik's right fist closes, slow and deliberate, and the aura around his knuckles draws in so dense that the air above the cobblestones distorts like heat over a forge.
+Gontrok roars with laughter. Hadrik's right fist closes, slow and rigid, the knuckles going white as the aura around his thick arms draws in so dense that the air above the cobblestones shimmers like heat over forge coals. His jaw sets hard, but he says nothing.
 
-"You know this dwarf, recruit?" the captain asks, his tone sharp.
+"You know this dwarf, recruit?" the captain asks, his tone sharp as flint.
 
 "He's no dwarf, captain," Gontrok says. "He's a northern giant, same as me. The tournament organizers likely ordered him into dwarf form so he wouldn't terrify the locals, just like they made me take this human skin. Any giant traveling south has to learn compression shapeshifting or the civilized kingdoms slam their gates in our faces."
 
@@ -852,28 +852,28 @@ Gontrok roars with laughter. Hadrik's right fist closes, slow and deliberate, an
 #if(v_b3_ch2_goblins == 3 || v_b3_ch2_goblins == 4 || v_b3_ch2_infiltration == 3) {
 "I care nothing for giant customs, recruit," the captain says, his voice ice-cold. "What I demand to know is who authorized these outsiders past our gates. Name the citizen of Ollendor who supplied your party with the password."
 
-"We cannot disclose his name," Daren says firmly. "We gave our word."
+"We cannot disclose his name," Daren says firmly, stepping to the front with his heater shield raised. "We gave our word."
 
 "No secrets exist from the royal guard," the captain replies. "I ask one final time: who invited you?"
 
 Gontrok chuckles. "You know as well as I do nobody invited them, captain. They eavesdropped on a drunken farmer or bribed an outcast, then fed the sentries the same rehearsed lie."
 
-"If you refuse to identify your sponsor, you will be taken into custody," the captain tells us.
+"If you refuse to identify your sponsor, you will be taken into custody," the captain tells us, his eyes narrowing.
 
 "And if we decline?" Daren asks.
 
 "Summary execution," the captain says.
 
-"Now that's the order I've been waiting for!" Gontrok says, cracking his knuckles. "I've been itching to test Hadrik again for decades, and the gods won't offer a cleaner chance. Stand back, both of you! I'll break the lot of them myself!"
+"Now that's the order I've been waiting for!" Gontrok says, cracking his massive knuckles. "I've been itching to test Hadrik again for decades, and the gods won't offer a cleaner chance. Stand back, both of you! I'll break the lot of them myself!"
 
 }
 #if(v_b3_ch2_goblins != 3 && v_b3_ch2_goblins != 4 && v_b3_ch2_infiltration != 3) {
 "I care nothing for giant customs, recruit," the captain says, his voice ice-cold. "What I care about is why these criminals are walking our plaza unmolested. By the dispatch reports, this is the very band that smashed our gatehouse and breached the perimeter."
 
-"Then we execute them here and save the garrison the paperwork, captain," Gontrok says, cracking his knuckles. "I've been itching to test Hadrik again for decades, and the gods won't offer a cleaner chance. Stand back, both of you! I'll break the lot of them myself!"
+"Then we execute them here and save the garrison the paperwork, captain," Gontrok says, cracking his massive knuckles. "I've been itching to test Hadrik again for decades, and the gods won't offer a cleaner chance. Stand back, both of you! I'll break the lot of them myself!"
 
 }
-"Even if you hadn't ordered me back, I wouldn't draw steel," the golden-brown royal guard says. "His Majesty stationed us to secure the plaza during the ceremony, not pick street brawls with tournament travelers. If they broke municipal law, leave them to the watch. Why dirty our blades?"
+"Even if you hadn't ordered me back, I wouldn't draw steel," the golden-brown royal guard says smoothly. "His Majesty stationed us to secure the plaza during the ceremony, not pick street brawls with tournament travelers. If they broke municipal law, leave them to the watch. Why dirty our blades?"
 
 "Insubordination!" the captain snaps. "I command you to engage as a unit, or I'll see you in irons by sundown!"
 
@@ -889,7 +889,7 @@ choice("Continue", B3-Ch02b-Gontrok2, v_current_scene = B3-Ch02b-Gontrok2)
 ID: B3-Ch02b-Gontrok2
 TEXT:
 
-Gontrok digs his boots into the stone. The cobblestones explode in a spiderweb of crushed granite as he launches across the square, closing thirty paces in the blink of an eye. Hadrik leaps backward on instinct, but Gontrok is already inside his guard, driving a heavy left hook toward the ribs. Hadrik drops his elbow to absorb the strike—a feint. Gontrok's right hand snaps upward, iron fingers locking around Hadrik's skull, and slams his face into the pavement with ground-shaking violence. The impact gouges a crater into the street, rock shards whistling through the air like shrapnel.
+Gontrok digs his boots into the stone. The cobblestones explode in a spiderweb of crushed granite as he launches across the square, closing thirty paces in the blink of an eye. Hadrik leaps backward on instinct, but Gontrok is already inside his guard, driving a heavy left hook toward the ribs. Hadrik drops his elbow to absorb the strike—a feint. Gontrok's right hand snaps upward, iron fingers locking around Hadrik's skull, and slams his face into the pavement with ground-shaking violence. The impact gouges a deep crater into the street, rock shards whistling through the air like shrapnel.
 
 Without pausing for Hadrik to roll, Gontrok heaves him aloft by the hair, waits for the apex, and catches the dwarf mid-descent with a brutal side kick. The concussive blow launches Hadrik straight through the brick facade of the nearest building, tearing through wall after wall in a deafening cascade of collapsing masonry until he vanishes deep within the city blocks. Screaming civilians scatter in all directions, stampeding away from the plaza.
 
@@ -899,7 +899,7 @@ Flower ignites her fire jets, leaping upward to break the line of sight, but the
 
 Through it all, the dark-skinned guard leans casually against a shop pillar, arms crossed, watching the brawl with cold indifference. Gontrok turns slowly toward Daren and me, knuckles cracking. Hadrik hasn't reemerged from the rubble.
 
-"Stay behind me, Barry," Daren says, raising his shield.
+"Stay behind me, Barry," Daren says, raising his heater shield.
 
 "Well now!" Gontrok's grin widens. "The healer in armor. I've heard the eastern ballads. Let's see how those songs hold up against real northern iron."
 
@@ -918,7 +918,7 @@ Daren closes the distance, blade flashing. Gontrok slips the thrust and pivots i
 
 "You won't be needing that where you're headed," Gontrok says, kicking the sword across the cobblestones.
 
-Panic seizes my chest as I watch Daren slump against the cracked brickwork. He can't match this strength. Hadrik is buried ten houses away. Leila, Kate, and Flower are locked in a desperate struggle with the captain. I'm standing alone before a giant.
+Panic seizes my chest as I watch Daren slump against the cracked brickwork, gasping for air through fractured ribs. He can't match this strength. Hadrik is buried ten houses away. Leila, Kate, and Flower are locked in a desperate struggle with the captain. I'm standing alone before a giant.
 
 Neither my dagger nor my crossbow bolts can pierce giant hide. There has to be an angle. A loophole. Think, Barry. Why won't the shaking stop?!
 
@@ -928,7 +928,7 @@ Daren closes the distance, blade flashing. Gontrok slips the thrust and pivots i
 
 "You won't be needing that where you're headed," Gontrok says, kicking the sword across the cobblestones.
 
-Panic seizes my chest as I watch Daren slump against the cracked brickwork. He can't match this strength. Hadrik is buried ten houses away. Leila, Kate, and Flower are locked in a desperate struggle with the captain. I'm standing alone before a giant.
+Panic seizes my chest as I watch Daren slump against the cracked brickwork, gasping for air through fractured ribs. He can't match this strength. Hadrik is buried ten houses away. Leila, Kate, and Flower are locked in a desperate struggle with the captain. I'm standing alone before a giant.
 
 Neither my scimitar nor my crossbow bolts can pierce giant hide. There has to be an angle. A loophole. Think, Barry. Why won't the shaking stop?!
 
@@ -1081,29 +1081,29 @@ TEXT:
 set(v_ac_b3_ch2_serious,1)
 achievement("Time to get serious",v_ac_b3_ch2_serious)
 
-As Gontrok raises his boot over Daren, his eyes widen in sudden alarm. For the first time in the fight, his aura senses mortal peril.
+As Gontrok raises his heavy boot over Daren's chest, his eyes widen in sudden, sharp alarm. For the first time in the fight, his combat instincts register mortal danger.
 
-In less than a second, maxed speed and strength propel me across the dust. I scoop Daren's blade from the ground and drive the point straight at the giant's heart. Gontrok twists violently aside, the steel grazing his blue uniform, and clamps his left hand around my right forearm in an iron crush.
+In less than a heartbeat, enhanced speed and strength surge through my limbs, burning hot through my veins. I blur across the dust, scoop Daren's fallen blade from the stones, and drive the enchanted steel straight for the giant's heart. Gontrok twists violently aside, the edge slicing clean through his blue tunic, and his left hand clamps around my right forearm like an iron vise.
 
-"Attacking from behind isn't polite," Gontrok snarls, squeezing with enough force to splinter oak. "Let's ensure you never hold a blade again."
+"Attacking from behind isn't polite," Gontrok snarls, his grip tightening with enough crushing torque to splinter seasoned oak. "Let's ensure you never hold a blade again."
 
-The agony is blinding, but my maxed toughness keeps the bone from snapping. Gritting my teeth through the pain, I pivot on my right foot, whipping my left heel around in a brutal spinning mule kick straight into his solar plexus. The kinetic impact rips his grip free and blasts him twelve feet backward into the dirt.
+The agony is blinding. Tendons scream and muscle fibers tear along my forearm as the pneumatic pressure bears down, but my enhanced toughness keeps the radius from snapping like kindling. Blood drips hot from my nose from the sudden stat load. Gritting my teeth through the blinding pain, I pivot hard on my planted foot, whipping my left heel around in a brutal, full-torque spinning mule kick straight into his solar plexus. The concussive impact rips his grip free and blasts his massive frame twelve feet backward through the dust.
 
-I surge forward, driving Daren's sword downward, but Gontrok rolls across the stones, the tip missing his neck by an inch. He springs to his feet and lunges. I spin inside his reach, lunging again, forcing him to leap backward before pressing in with relentless fury.
+I surge forward instantly, bringing Daren's sword down in a two-handed cleave, but Gontrok rolls across the shattered cobblestones, the steel skimming inches past his collar. He springs to his feet with terrifying agility and lunges. I spin inside his reach, ducking a vicious backhand, and slash across his guard, forcing him to leap backward before pressing in with relentless, desperate precision.
 
-Realizing a static exchange favors his mass, I use my speed to circle him, feinting and cutting to keep him off balance. But Gontrok's reaction speed is astonishing; every dash is met with an instant counter. The ground fight stalemates, and I kick upward into the sky on Melindra's winds.
+A static slugfest favors his mass and reach, so I use my speed to circle him in tight, blurring arcs, feinting and cutting to keep him off balance. But Gontrok's reaction speed matches my enhanced reflexes; every dash meets an instantaneous counter-strike, stone chips whistling past my ears as his fists shatter the ground. Realizing the stalemate, I kick off the cobblestones and rocket thirty feet into the air on Melindra's wind currents.
 
-Gontrok sprouts his wyvern wings and shoots upward in pursuit.
+Gontrok looks up with a savage grin. Two massive, leathery wyvern wings erupt from his shoulder blades with a wet, sickening pop of shifting bone, and he launches upward in pursuit.
 
-Partial shapeshifting. What follows is a blistering dogfight above the rooftops. My aerial maneuvers and combat instincts keep Gontrok off balance, anticipating every dive and turn. Yet his thick hide and speed prevent a clean finishing strike.
+Partial shapeshifting. What follows is a blistering, high-speed dogfight above the tilted rooftops. My aerial maneuvers and combat instincts keep Gontrok off balance, corkscrewing through the air, stalling lift to bait his dives and slipping beneath his wing-arcs. Yet his reinforced hide and brute momentum prevent a clean finishing strike.
 
-As we descend near the square, the captain's invisible crushing force strikes like a dropped portcullis, smashing me into the cobblestones.
+As we bank low toward the square, an invisible, crushing weight drops out of the sky like a falling portcullis, smashing me flat into the cobblestones.
 
-Gontrok touches down beside me, retracting his wings with a dark scowl at his superior.
+Gontrok slams down beside me, retracting his wings with a dark, furious scowl as the leathery membrane sinks back into his skin.
 
-"Just what do you think you're doing, captain?..." Gontrok asks.
+"Just what do you think you're doing, captain?..." Gontrok growls, glaring toward the alleyway.
 
-I turn my head against the stone: Leila has been subdued, and the captain is holding the entire party flat against the ground under his crushing aura.
+I force my head to turn against the grinding stone: Leila lies pinned flat beside Kate and Flower, and the captain is holding the entire party down under his immense crushing aura.
 
 choice("Continue", B3-Ch02b-Concept, v_current_scene = B3-Ch02b-Concept)
 
@@ -1121,31 +1121,31 @@ Gontrok halts his boot, turning with a baffled scowl. "What are you babbling abo
 
 "Do you honestly expect anyone to believe such a pathetic lie--" Gontrok scoffs, but an invisible weight slams down with the force of an avalanche, smashing both of us flat against the cobblestones.
 
-Leila, Kate, and Flower are already pinned beside us, fighting for breath under the crushing field.
+Leila, Kate, and Flower are already pinned beside us, fighting for breath as the crushing field bears down like a collapsed stone vault.
 
-"What in the hell do you think you're doing, you old fossil?..." Gontrok strains against the downward pressure, teeth bared.
+"What in the hell do you think you're doing, you old fossil?..." Gontrok strains against the downward pressure, veins corded across his neck.
 
-"Silence!" the captain snaps, his palms shaking with effort. "It takes all my concentration to sustain this containment without parsing your treason. Loyrang, step over here and slit these intruders' throats. If I shift my stance, the containment collapses."
+"Silence!" the captain snaps, his outstretched palms trembling with the strain of channeling. "It takes all my concentration to sustain this containment without parsing your treason. Loyrang, step over here and slit these intruders' throats. If I shift my stance, the containment collapses."
 
-"I told you before," Loyrang replies from his pillar, arms still crossed. "Unless the king commands it, my steel stays sheathed."
+"I told you before," Loyrang replies from his pillar, arms still crossed in disdain. "Unless the king commands it, my steel stays sheathed."
 
 "You defy me as well?" the captain spits.
 
-"We aren't defying you, you senile idiot!" Gontrok roars. "The tournament geas prevents us from harming Varathian citizens! How could we possibly assassinate you?!"
+"We aren't defying you, you senile idiot!" Gontrok roars, spit flying from his bared teeth. "The tournament geas prevents us from harming Varathian citizens! How could we possibly assassinate you?!"
 
-"These intruders carry the tournament mark as well," the captain retorts. "It didn't prevent them from assaulting the watch."
+"These intruders carry the tournament mark as well," the captain retorts, sweat dripping down his weathered temples. "It didn't prevent them from assaulting the watch."
 
-"You know what?" Gontrok says, his voice dropping into a dangerous rumble. "Maybe you're right. Maybe the whole geas is a myth to keep us docile. Let's test the theory."
+"You know what?" Gontrok says, his voice dropping into a dangerous, guttural rumble. "Maybe you're right. Maybe the whole geas is a myth to keep us docile. Let's test the theory."
 
-Gontrok plants his palms against the stones. Veins bulge along his neck as his giant's strength battles the crushing field. The cobblestones crack beneath his hands as he heaves himself upright, step by agonizing step, his heavy boots sinking into the shattered stone under the immense downward pressure.
+Gontrok plants his massive palms against the stones. The granite cobblestones groan and fracture beneath his fingers as his giant's strength battles the crushing field. He heaves himself upright, step by agonizing step, his heavy boots sinking into the crushed stone under the immense downward pressure.
 
-"Watch me!" Gontrok bellows, advancing on the captain. "Geas or no geas, I'm going to cave your skull in, you paranoid old dog! I'll show you what happens when you cross a-- wait. Did you hear that?"
+"Watch me!" Gontrok bellows, advancing on the trembling captain. "Geas or no geas, I'm going to cave your skull in, you paranoid old dog! I'll show you what happens when you cross a-- wait. Did you hear that?"
 
-Gontrok snaps his head to the right, throwing his massive palms up in a cross-block.
+Gontrok snaps his head to the right, throwing his massive palms up in an instinctive cross-block.
 
-A split-second later, a brown-and-black blur tears through the air. Hadrik slams into Gontrok's palms like a siege engine. The shockwave of displaced air ripples across the plaza, and the kinetic blow blasts Gontrok straight through the stone wall of the nearest building.
+A split-second later, a brown-and-black blur tears out of the collapsed shopfront. Hadrik slams into Gontrok's palms like a runaway battering ram. The concussive shockwave ripples across the plaza, and the kinetic blow blasts Gontrok straight through the stone wall of the nearest building in an explosion of mortar and shattered brick.
 
-Hadrik stands in the crater, shaking out his bruised fists: "You put me out for a minute there, Gontrok... Good thing your loud mouth was around to wake me up!"
+Hadrik stands in the crater, shaking dust and blood from his thick fists: "You put me out for a minute there, Gontrok... Good thing your loud mouth was around to wake me up!"
 
 choice("Continue", B3-Ch02b-Frail, v_current_scene = B3-Ch02b-Frail)
 
@@ -1153,33 +1153,33 @@ choice("Continue", B3-Ch02b-Frail, v_current_scene = B3-Ch02b-Frail)
 ID: B3-Ch02b-Concept
 TEXT:
 
-"What does it look like?" the captain says, sweat beading on his forehead. "I've immobilized the intruders. Hurry up and finish this one off so we can execute the rest. I'd do it myself, but moving risks breaking my focus."
+"What does it look like?" the captain says, sweat beading thick on his forehead as his hands shake. "I've immobilized the intruders. Hurry up and finish this one off so we can execute the rest. I'd do it myself, but moving risks breaking my focus."
 
 "You sicken me," Gontrok sneers with open disgust. "I don't butcher defenseless opponents who can't raise a blade. That isn't how giants fight."
 
 "Please tell me you're joking..." the captain mutters. "Never mind. Loyrang, step forward and execute these criminals. This barbarian cannot be reasoned with."
 
-"I told you before," Loyrang replies from his pillar. "Unless the king commands it, my steel stays sheathed."
+"I told you before," Loyrang replies from his pillar, leaning back with cold detachment. "Unless the king commands it, my steel stays sheathed."
 
-"Incompetents!" the captain shouts. "Do neither of you grasp the basic duties of a royal guard?!"
+"Incompetents!" the captain shouts, his voice cracking with rage. "Do neither of you grasp the basic duties of a royal guard?!"
 
 "If you want their blood that badly, crawl over here and spill it yourself," Gontrok says. "I won't lift a finger for your pitiful-- wait. Did you hear that?"
 
 Gontrok snaps to his right, raising his palms in a cross-block.
 
-Hadrik crashes in like a cannonball, punching Gontrok's palms with explosive force. The shockwave ripples across the square, and the blow launches Gontrok straight through the wall of the nearest building.
+Hadrik crashes out of the rubble like a cannonball, punching Gontrok's guard with explosive force. The shockwave rattles the surrounding timber overhangs, and the blow launches Gontrok straight through the wall of the nearest building in a spray of brick and plaster.
 
-"Luckily, your captain's screeching was loud enough to wake the dead!" Hadrik roars, shaking out his bruised fists.
+"Luckily, your captain's screeching was loud enough to wake the dead!" Hadrik roars, shaking plaster from his beard.
 
-Gontrok pushes himself out of the rubble, brushing crushed mortar from his shoulders. "And here I thought you'd grown soft over the decades. Perhaps you can still give me a proper bout after all. Let's see what you've got, old friend."
+Gontrok heaves himself out of the collapsed masonry, brushing crushed mortar from his shoulders. "And here I thought you'd grown soft over the decades. Perhaps you can still give me a proper bout after all. Let's see what you've got, old friend."
 
-Gontrok charges, and the two giants clash in thunderous unarmed combat. Meanwhile, the captain realizes he is on his own. Drawing a narrow, silver-hilted dagger from his sleeve, he begins shuffling toward us with agonizing slowness, carefully maintaining the crushing aura field.
+Gontrok charges, and the two giants clash in thunderous unarmed combat, fists slamming like sledgehammers into stone. Meanwhile, the captain realizes he is on his own. Drawing a narrow, silver-hilted dagger from his sleeve, he begins shuffling toward us with agonizing slowness, his outstretched palm shaking as he fights to maintain the crushing aura field.
 
-We are completely pinned. Melindra cannot harm a local due to the tournament geas, and Daren's cracked ribs keep him from channeling white light to heal himself.
+We are completely pinned against the stone. Melindra cannot harm a local due to the tournament geas, and Daren's fractured ribs keep him from gathering enough focus to channel healing light.
 
-Arraka's voice shrieks from the golden amulet: "What is WRONG with you pathetic worms?! Is this what I've been coaching you for? To be butchered by a decrepit old man shuffling forward with a kitchen knife?! You were going to challenge the gods! How can you be so utterly useless?!"
+Arraka's voice shrieks from the golden amulet at Flower's chest: "What is WRONG with you pathetic worms?! Is this what I've been coaching you for? To be butchered by a decrepit old man shuffling forward with a kitchen knife?! You were going to challenge the gods! How can you be so utterly useless?!"
 
-"This decrepit old man is using the exact same crushing force as Eiden and the God of Time!" I shout back. "You expect us to treat him like an ordinary hedge wizard?!"
+"This decrepit old man is using the exact same crushing force as Eiden and the God of Time!" I shout back, my lungs burning against the cobblestones. "You expect us to treat him like an ordinary hedge wizard?!"
 
 choice("Continue", B3-Ch02b-Teleported, v_current_scene = B3-Ch02b-Teleported)
 
@@ -1189,13 +1189,13 @@ TEXT:
 
 Gontrok pushes himself out of the rubble, brushing crushed mortar from his shoulders. "And here I thought you'd grown soft over the decades. Perhaps you can still give me a proper bout after all. Let's see what you've got, old friend."
 
-Gontrok charges, and the two giants clash in thunderous unarmed combat. Meanwhile, the captain realizes he is on his own. Drawing a narrow, silver-hilted dagger from his sleeve, he begins shuffling toward us with agonizing slowness, carefully maintaining the crushing aura field.
+Gontrok charges, and the two giants clash in thunderous unarmed combat, fists slamming like sledgehammers into stone. Meanwhile, the captain realizes he is on his own. Drawing a narrow, silver-hilted dagger from his sleeve, he begins shuffling toward us with agonizing slowness, his outstretched palm shaking as he fights to maintain the crushing aura field.
 
-We are completely pinned. Melindra cannot harm a local due to the tournament geas, and Daren's cracked ribs keep him from channeling white light to heal himself.
+We are completely pinned against the stone. Melindra cannot harm a local due to the tournament geas, and Daren's fractured ribs keep him from gathering enough focus to channel healing light.
 
-Arraka's voice shrieks from the golden amulet: "What is WRONG with you pathetic worms?! Is this what I've been coaching you for? To be butchered by a decrepit old man shuffling forward with a kitchen knife?! You were going to challenge the gods! How can you be so utterly useless?!"
+Arraka's voice shrieks from the golden amulet at Flower's chest: "What is WRONG with you pathetic worms?! Is this what I've been coaching you for? To be butchered by a decrepit old man shuffling forward with a kitchen knife?! You were going to challenge the gods! How can you be so utterly useless?!"
 
-"This decrepit old man is using the exact same crushing force as Eiden and the God of Time!" I shout back. "You expect us to treat him like an ordinary hedge wizard?!"
+"This decrepit old man is using the exact same crushing force as Eiden and the God of Time!" I shout back, my lungs burning against the cobblestones. "You expect us to treat him like an ordinary hedge wizard?!"
 
 choice("Continue", B3-Ch02b-Teleported, v_current_scene = B3-Ch02b-Teleported)
 
@@ -1209,41 +1209,41 @@ A glowing crimson sphere of light ignites in mid-air six feet above our heads, p
 
 "There it is!" Arraka shrieks. "Sharpen your elements and shatter it! Now!"
 
-Kate channels instantly, hurling a razor-sharp ice cone straight through the glowing crimson orb. The red sphere shatters with a glassy ring, and the downward pressure slackens.
+Kate channels instantly, her dark eyes locking onto the crimson sphere as she hurls a razor-sharp ice cone straight through its core. The red sphere shatters with a glassy, crystalline ring, and the suffocating downward pressure abruptly slackens.
 
-Leila breaks free first, leaping forward with flashing daggers to drive the captain into defense.
+Leila breaks free first, leaping forward in a blur with flashing daggers to drive the captain into desperate defense.
 
-As the rest of us try to stand, the air thickens again, pinning us down.
+As the rest of us try to push up from the stone, the air thickens again, pinning our shoulders back to the pavement.
 
 "Damn it!" Arraka curses. "He formed a secondary focal point and he's moving it erratically. I can't anchor a targeting light! This would be trivial if you morons could perceive auras on your own! At least the mute girl is keeping his hands busy!"
 
-Leila presses the captain relentlessly, causing the suppression field to fluctuate erratically. Beside us, Hadrik and Gontrok exchange thunderous blows, the fight turning into a bloody, even brawl.
+Leila presses the captain relentlessly, her twin blades forcing him to divert his focus, causing the suppression field to shudder and fluctuate. Beside us, Hadrik and Gontrok exchange thunderous bare-knuckle blows, the brawl tearing through the street in a brutal deadlock.
 
-A sudden, deafening explosion echoes from the magical projection screen floating over the square.
+A sudden, deafening explosion echoes from the magical projection screen floating twenty feet over the square.
 
-"What was that?!" the king of Ollendor gasps in the projection, clutching his crown. "Where did that blast originate?!"
+"What was that?!" the king of Ollendor gasps in the projection, clutching his crown in panic. "Where did that blast originate?!"
 
 "It sounded like it came from inside the palace itself, your Majesty!" the high priest calls out.
 
-"By the gods!" the king cries. "This must be the grave crisis our Creator foresaw!"
+"By the gods!" the king cries, his face going pale. "This must be the grave crisis our Creator foresaw!"
 
-Eiden raises a hand. "Actually, this isn't--"
+Eiden raises a hand, his eyes still closed. "Actually, this isn't--"
 
-"Fear not, Creator!" the king cuts him off, pulling a brass cylinder from his pocket. "Ollendor shall demonstrate its might! I have the emergency recall device right here. One press, and every royal guard across the city is recalled to my side!"
+"Fear not, Creator!" the king cuts him off, pulling a brass cylinder from his velvet robes. "Ollendor shall demonstrate its might! I have the emergency recall device right here. One press, and every royal guard across the city is recalled to my side!"
 
 Gontrok's eyes widen. "No... He wouldn't!"
 
 "Cut the transmission!" the king shouts, slamming his thumb onto the trigger.
 
-Bright pillars of teleportation light envelope the three royal guards.
+Bright, blinding pillars of white teleportation light envelop the three royal guards.
 
-"Damn it!" Gontrok roars as the white glare consumes him. "You idiot king! I can't believe--"
+"Damn it!" Gontrok roars as the glare consumes him. "You idiot king! I can't believe--"
 
-The light flashes and snaps shut. All three guards vanish into thin air.
+The light snaps shut with a concussive pop of air. All three guards vanish into thin air.
 
-The crushing downward pressure dissolves instantly. As we push ourselves up from the cobblestones, Hadrik limps over, bruised and bleeding, his left cheek swollen purple.
+The crushing downward pressure dissolves completely. As we push ourselves up from the cracked cobblestones, Hadrik limps over, bruised and bleeding, his left cheek swollen purple and his eye shut tight.
 
-"So..." Hadrik mutters, wiping his split lip. "An explosion in the palace. Wonder what that was all about."
+"So..." Hadrik mutters, wiping his split lip with the back of his forearm. "An explosion in the palace. Wonder what that was all about."
 
 choice(""Maybe somebody else is also trying to assassinate the king."", B3-Ch02c-Assassinate, v_current_scene = B3-Ch02c-Assassinate)
 choice(""Maybe Eiden tried to mess with the king, to see how he'd react."", B3-Ch02c-Mess, v_current_scene = B3-Ch02c-Mess)

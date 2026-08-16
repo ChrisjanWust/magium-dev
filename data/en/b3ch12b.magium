@@ -1,23 +1,23 @@
 ID: B3-Ch12b-Distracting
 TEXT:
 
-Flower and Melindra's exchange over the transceiver stretches past fifteen minutes, and naturally I get dragged in as a fellow connoisseur of geological gravel. The moment the mineral debate starts, Daren and Kate drop their pace, letting half a dozen paces open between us so they can talk about anything else under the sun.
+Flower and Melindra's exchange over the transceiver stretches past fifteen minutes, and naturally I get dragged in as a fellow connoisseur of geological gravel. The moment the mineral debate starts, Daren and Kate drop their pace, letting half a dozen paces open between us on the pine-needle trail so they can talk about anything else under the sun.
 
 I could drop back too and leave Flower to it, but I lack the heart. Or I have developed an unhealthy tolerance for quartz analysis.
 
-"So," Kate cuts in from five paces back, "are we addressing the four mages heading straight toward us, or are we pretending they are part of the scenery?"
+"So," Kate cuts in from five paces back, her voice tightening with tactical focus, "are we addressing the four mages heading straight toward us, or are we pretending they are part of the scenery?"
 
-"Every party we felt over the past two days steered clear once they caught our auras," Daren says. "No reason to assume these four are different."
+"Every party we felt over the past two days steered clear once they caught our auras," Daren says, his hand resting lightly on his hilt. "No reason to assume these four are different."
 
-"They are," Kate says. "They felt us and adjusted their angle. They are intercepting. At this pace, we meet them in two minutes."
+"They are," Kate says, dark eyes fixed on the treeline. "They felt us and adjusted their angle. They are intercepting. At this pace, we meet them in two minutes."
 
-"Right, I am hanging up before I get you killed," Melindra's tinny voice crackles from the stone in Flower's palm. "Stay safe, Flower."
+"Right, I am hanging up before I get you killed," Melindra's tinny voice crackles from the transceiver stone in Flower's palm. "Stay safe, Flower."
 
-"You too, Melindra! Bye!" Flower snaps the connection shut.
+"You too, Melindra! Bye!" Flower snaps the connection shut and tucks the stone into her sash.
 
-"I can take to the air and scout them from above before we collide," I say, glancing at the others.
+"I can take to the air and scout them from above before we collide," I say, glancing back at Daren.
 
-"Barry," Daren says, holding up a hand. "I know you want to test the flight currents outside drills, but not here. You won't learn more from the canopy than our magical sense already tells us, and if they have long-range artillery, you are an open target in the sky. We stay together."
+"Barry," Daren says, holding up a steady hand. "I know you want to test the flight currents outside drills, but not here. You won't learn more from the canopy than our magical sense already tells us, and if they have long-range artillery, you are an open target in the sky. We stay together."
 
 choice("Insist on going to scout the mages.", B3-Ch12b-Scout, v_current_scene = B3-Ch12b-Scout, v_b3_ch12_scout = 1)
 choice("Agree with Daren and stay with the group.", B3-Ch12b-Necromancers, v_current_scene = B3-Ch12b-Necromancers, v_b3_ch12_scout = 0)
@@ -31,24 +31,24 @@ set(v_b3_ch12_scout,2) if (v_perception == 2)
 set(v_b3_ch12_scout,3) if (v_perception >= 3)
  
 
-"Yeah, but maybe I could tell what kind of mages they are from their clothes and their equipment," I say. "That could give us a little time to plan our actions against them. If you're worried that I'll get attacked, I'll try to keep as much distance as I can from them and be very aware of my surroundings. I'm sure it'll be fine."
+"Yeah, but maybe I could tell what kind of mages they are from their vestments and gear," I say. "That gives us a minute to plan our counters before the vanguard meets. If you're worried about an ambush, I'll keep my ceiling high and stay sharp on my surroundings. It'll be fine."
 
-"I could go with him!" Flower says. "Two heads are better than none!"
+"I could go with him!" Flower says, bouncing on her toes with a bright grin. "Two heads are better than none!"
 
-"That is not the correct expression..." Daren mutters, rubbing his brow. "And between the canopy and the distance, you'll see patches of cloth at best. But go. Just keep it short. If this is a fight, we meet it together, not in pieces."
+"That is not how the saying goes..." Daren mutters, rubbing his brow with a weary sigh. "And between the canopy and the distance, you'll see patches of cloth at best. But go. Just keep it short. If this is a fight, we meet it together, not in pieces."
 
-"Aye, aye, sir!" Flower says, kicking off the grass as twin plumes of fire erupt under her boots. "Let's go, Barry!"
+"Aye, aye, sir!" Flower says, kicking off the grass as twin plumes of bright flame erupt under her boots. "Let's go, Barry!"
 
-"Right behind you," I say, wrapping my air currents around my torso and lifting off after her.
+"Right behind you," I say, wrapping my air currents around my torso and lifting off after her into the canopy.
 
 #if(v_b3_ch11_red == 0) {
-The lift is jerky, wobbling beneath my ribs as I rise above the treetops. Two days of drills smoothed out the violent lurches from the underground base, but with only a single point in my magical stats, the currents fight my weight rather than glide. Melindra's wind work was second nature; mine still feels like balancing on a greased plank. Another point or two in power will fix the drag.
+The lift is jerky, wobbling beneath my ribs as I rise through the pine branches. Two days of drills smoothed out the violent lurches from the underground base, but with only a single point in my magical stats, the currents fight my body weight rather than glide. Melindra's wind work was second nature; mine still feels like balancing on a greased plank over a chasm. Another point or two in power will smooth the drag.
 
 "Over there!" Flower calls back, banking through the humid air above the canopy. "Straight ahead in the clearing!"
 
 "Keep your ceiling," I call over the rush of wind. "Basic projectile spells carry immense vertical range. We stay outside their direct arc."
 
-We level off high above the open patch of ground, keeping well out of range for anything short of a dedicated long-distance elementalist. I have no idea how sharp their vertical magical sense runs, but the answer comes fast.
+We level off high above the open patch of ground, keeping well out of range for anything short of a dedicated long-distance artillery caster. I have no idea how sharp their vertical magical sense runs, but the answer comes fast.
 
 "Hey, look, that guy is waving at us!" Flower says, waving both arms back down at the figures below. "Do you think they're friendly?"
 
@@ -60,37 +60,37 @@ The air takes my weight with clean, immediate lift. Even with a single point in 
 
 "Keep your ceiling," I call over the rush of wind. "Basic projectile spells carry immense vertical range. We stay outside their direct arc."
 
-We level off high above the open patch of ground, keeping well out of range for anything short of a dedicated long-distance elementalist. I have no idea how sharp their vertical magical sense runs, but the answer comes fast.
+We level off high above the open patch of ground, keeping well out of range for anything short of a dedicated long-distance artillery caster. I have no idea how sharp their vertical magical sense runs, but the answer comes fast.
 
 "Hey, look, that guy is waving at us!" Flower says, waving both arms back down at the figures below. "Do you think they're friendly?"
 
 }
 #if(v_perception < 2) {
-"Well, I'm most certainly not going down there to find out," I say. "Hmm... Aside from the fact that three of them are dressed in black and the fourth is dressed in green, I'm not really seeing anything out of the ordinary. What about you?"
+"Well, I'm certainly not dropping down to find out," I say, squinting through the glare. "Three of them are dressed in black robes and the fourth is in emerald green, but from this height I can't make out insignia. What about you?"
 
-"Uh... I see that they're not trying to attack us, so I guess that's good?..." Flower says.
+"Uh... I see that they're not shooting fireballs at us, so I guess that's good?..." Flower says.
 
-"They're standing dead center in a wide clearing with zero cover, waiting for us to walk into it," I say. "We head back before their good manners expire."
+"They're standing dead center in a wide clearing with zero cover, waiting for us to walk into it," I say. "We head back before their hospitality expires."
 
 "Agreed," Illuna's dry voice cuts through Flower's throat. "We have the layout. Lingering achieves nothing."
 
 }
 #if(v_perception == 2) {
-"Well, I'm most certainly not going down there to find out," I say. "Hmm... From the way they are dressed, it looks like three of them are followers of the God of Death, and one of them is a follower of the God of Fate, but aside from that, I'm not really seeing anything out of the ordinary. What about you?"
+"Well, I'm certainly not dropping down to find out," I say, squinting through the glare. "From the cut of their vestments, three are disciples of the God of Death, and the one in green with the circlet is a follower of Fate. Beyond that, nothing stands out. What about you?"
 
-"Uh... I see that they're not trying to attack us, so I guess that's good?..." Flower says.
+"Uh... I see that they're not shooting fireballs at us, so I guess that's good?..." Flower says.
 
-"They're standing dead center in a wide clearing with zero cover, waiting for us to walk into it," I say. "We head back before their good manners expire."
+"They're standing dead center in a wide clearing with zero cover, waiting for us to walk into it," I say. "We head back before their hospitality expires."
 
 "Agreed," Illuna's dry voice cuts through Flower's throat. "We have the layout. Lingering achieves nothing."
 
 }
 #if(v_perception >= 3) {
-"Well, I'm most certainly not going down there to find out," I say. "Hmm... From the way they are dressed, it looks like three of them are followers of the God of Death, and one of them is a follower of the God of Fate. Also, for a split second, I caught the illusionist burying something near the grass line before stepping back. What about you? Did you notice anything?"
+"Well, I'm certainly not dropping down to find out," I say, squinting through the glare. "Three disciples of the God of Death, and one follower of Fate in green robes. And for a split second, I caught the illusionist burying something in the turf near the tree line before stepping back. What about you? Notice anything else?"
 
-"Uh... I see that they're not trying to attack us, so I guess that's good?..." Flower says.
+"Uh... I see that they're not shooting fireballs at us, so I guess that's good?..." Flower says.
 
-"They're standing dead center in a wide clearing with zero cover, waiting for us to walk into it," I say. "We head back before their good manners expire."
+"They're standing dead center in a wide clearing with zero cover, waiting for us to walk into it," I say. "We head back before their hospitality expires."
 
 "Agreed," Illuna's dry voice cuts through Flower's throat. "We have the layout. Lingering achieves nothing."
 
@@ -110,7 +110,7 @@ We keep moving at a steady march. Over the next two minutes, the four approachin
 
 "Thoughts?" Daren asks, resting a hand on his pommel. "Are they looking for a duel, or looking to talk?"
 
-"Auras don't give motives," Kate says. "We don't even know if we've crossed paths before."
+"Auras don't give motives," Kate says, her eyes narrowed. "We don't even know if we've crossed paths before."
 
 "You haven't," Arraka's muffled voice cuts in from the amulet. "I would remember."
 
@@ -118,7 +118,7 @@ We keep moving at a steady march. Over the next two minutes, the four approachin
 
 "We could skirt around them," Diane suggests. "It adds half an hour to the trek, but we still make the sacred woods."
 
-"Not a chance!" Hadrik's voice booms through the trees. "I haven't had a proper brawl since Ollendor outside of Daren's gentle sparring sessions, and you want me to turn tail? If these four want a fight, they get one!"
+"Not a chance!" Hadrik's voice booms through the trees. "I haven't had a proper brawl since Ollendor outside of Daren's gentle sparring matches, and you want me to turn tail? If these four want a fight, they get one!"
 
 "Avoiding them is pointless anyway," Kate says. "We feel them, they feel us. If we skirt wide, they shadow our flank. Better to meet them head-on."
 
@@ -140,7 +140,7 @@ Daren rubs his chin, considering. "Waiting in the open without hostility. What d
 
 "We could skirt around them," Diane suggests. "It adds half an hour to the trek, but we still make the sacred woods."
 
-"Not a chance!" Hadrik's voice booms through the trees. "I haven't had a proper brawl since Ollendor outside of Daren's gentle sparring sessions, and you want me to turn tail? If these four want a fight, they get one!"
+"Not a chance!" Hadrik's voice booms through the trees. "I haven't had a proper brawl since Ollendor outside of Daren's gentle sparring matches, and you want me to turn tail? If these four want a fight, they get one!"
 
 "Avoiding them is pointless anyway," Kate says. "We feel them, they feel us. If we skirt wide, they shadow our flank. Better to meet them head-on."
 
@@ -172,7 +172,7 @@ Daren rubs his chin, considering. "Three Death followers and one Fate disciple. 
 #if(v_b3_ch12_scout == 2 || v_b3_ch12_scout == 3) {
 "We could skirt around them," Diane suggests. "It adds half an hour to the trek, but we still make the sacred woods."
 
-"Not a chance!" Hadrik's voice booms through the trees. "I haven't had a proper brawl since Ollendor outside of Daren's gentle sparring sessions, and you want me to turn tail? If these four want a fight, they get one!"
+"Not a chance!" Hadrik's voice booms through the trees. "I haven't had a proper brawl since Ollendor outside of Daren's gentle sparring matches, and you want me to turn tail? If these four want a fight, they get one!"
 
 "Avoiding them is pointless anyway," Kate says. "We feel them, they feel us. If we skirt wide, they shadow our flank. Better to meet them head-on."
 
@@ -195,7 +195,7 @@ The three in black burst into matching barks of laughter before the one in front
 
 "The only thing clear," the necromancer says, "is that your tiny minds cannot grasp the gulf between devout servants of our god and faithless wretches muttering incantations from parchment. But you amuse me. Hand over the little girl without a fight, and I let the rest of you walk away with your skin."
 
-"What?" Daren's brow furrows. "Why? What business do you have with Flower?"
+"What?" Daren's brow furrows in anger. "Why? What business do you have with Flower?"
 
 choice("Continue", B3-Ch12b-Hostage, v_current_scene = B3-Ch12b-Hostage)
 
@@ -203,7 +203,7 @@ choice("Continue", B3-Ch12b-Hostage, v_current_scene = B3-Ch12b-Hostage)
 ID: B3-Ch12b-Hostage
 TEXT:
 
-"The God of Death requires her as leverage against the stillwater called Eiden," the lead necromancer says. "Once we finish with her, if she still draws breath, we might toss her back to you."
+"The God of Death requires her as a hostage against the stillwater called Eiden," the lead necromancer says. "Once we finish with her, if she still draws breath, we might toss her back to you."
 
 "Why would your deity on the magical plane concern himself with an earthen stillwater?" Diane asks, stepping forward. "And why would Eiden care if Flower lives or dies? I wasn't aware they had any connection."
 
@@ -282,7 +282,7 @@ TEXT:
 
 "As if the God of Death bows to hail," the lead necromancer sneers, raising both arms to the sky. "Behold! Power none of you could ever hope to attain—the might of a true god!"
 
-The ground trembles. Around our perimeter, a hundred bleached skeletons tear their way through the sod, an aura of suffocating magnitude pouring off every single ribcage.
+The ground trembles violently. Around our perimeter, a hundred bleached skeletons tear their way through the sod, an aura of suffocating magnitude pouring off every single ribcage.
 
 Kate unleashes her volley instantly, sending the prepared icicles hurtling toward the four mages, but a skeleton steps into the path and throws up a shimmering barrier that deflects the entire spread.
 
@@ -529,9 +529,9 @@ TEXT:
 #if(v_b3_ch12_punches == 0) {
 "If you liked that throw, wait till you feel one of her punches!"
 
-"Glad to know you remember them so fondly, Barry," Kate says, cracking her knuckles with slow deliberation. "Step closer. I have plenty in reserve."
+"Glad to know you remember them so fondly, Barry," Kate says, cracking her knuckles with slow, deliberate precision. "Step closer. I have plenty in reserve."
 
-"Generous, but I'll pass for now," I say, taking half a step back.
+"Generous, but I'll pass for now," I say, taking half a step back onto the gravel.
 
 "No expiration date," Kate says. "Say something stupid, and you can claim your prize on the spot."
 
@@ -539,17 +539,17 @@ TEXT:
 #if(v_b3_ch12_punches == 1) {
 "Kate being shy? Are you sure you're talking about the same person?"
 
-"Oh, right," Diane says, shaking her head with a smile. "The Kate you saw in the God of Time's trial was her adult mind driving a child's body. You never saw her before the world forced her to grow up. She was the sweetest, most timid girl in the compound!"
+"Oh, right," Diane says, shaking her head with a laugh. "The Kate you saw in the God of Time's trial was her adult mind driving a child's body. You never saw her before the world forced her to grow up. She was the sweetest, most timid girl in the entire compound!"
 
-"Can we not dissect my childhood in public?" Kate mutters, looking away. "It's embarrassing."
+"Can we not dissect my childhood in public?" Kate mutters, looking away, her cheeks flushing slightly. "It's embarrassing."
 
-"Look at that—you can still blush behind the cold stare!" Diane laughs. "I like this Kate more and more."
+"Look at that—you can still blush behind the cold stare!" Diane laughs warmly. "I like this Kate more and more."
 
 }
 #if(v_b3_ch12_punches == 2) {
 "I don't understand how you thought you could beat Kate in hand-to-hand combat."
 
-"Aye, no joke," Hadrik says. "She tossed me during a sparring match once! Held back most of my weight, sure, but she used my own momentum to dump me on my backside. Incredible leverage."
+"Aye, no joke," Hadrik says. "She tossed me during a sparring match once! Held back most of my weight, sure, but she used my own momentum to dump me square on my backside. Incredible leverage."
 
 "It's a redirection discipline," Daren says, still pacing the burnt perimeter where the mages vanished. "Nolderan drilled me on the basics years ago. Uses an opponent's force against them. Didn't Kate mention an old martial master who took pity on her in the woods when her frost magic was still raw?"
 
@@ -557,22 +557,22 @@ TEXT:
 
 "You trained under an old master?" Diane asks, wide-eyed. "I'd love to meet him!"
 
-"Not possible," Kate says quietly. "He passed away from old age."
+"Not possible," Kate says quietly, looking down at her boots. "He passed away from old age."
 
-"I'm sorry, Kate," Diane says, her tone softening.
+"I'm sorry, Kate," Diane says, her tone softening with gentle sympathy.
 
 }
-"Can we hold this reunion on the road?" Arraka groans from the amulet. "The enemies fled five minutes ago. Why are we still standing in the dirt?"
+"Can we hold this reunion on the road?" Arraka groans from the amulet. "The enemies fled five minutes ago. Why are we still standing around in the dirt?"
 
 "I'm looking for the anchor," Daren says, kneeling near a patch of disturbed sod. "The illusionist triggered a handheld relay, which means the actual teleportation matrix remains buried somewhere in this clearing. We might salvage it."
 
 "Why would he leave a functional core behind?" Arraka scoffs. "It's a disposable market gadget. Even I know the design, and I despise mortal trinkets. You're wasting daylight."
 
-"A spent single-use teleporter can be rewired into an aura amplifier for twenty-four hours," Daren replies, not looking up. "A trick from my early apprentice days when supplies ran lean—"
+"A spent single-use teleporter can be rewired into an aura amplifier for twenty-four hours," Daren replies, his fingers sifting through the soil. "A trick from my early apprentice days when supplies ran lean—"
 
 "Ugh," Arraka groans louder. "Even if you want the scrap, the green lunatic wrapped the core in a lingering concealment weave. It survived his departure, which means it's one of Memphir's nastier knots. I'm not unraveling another layer for a toy, and you can't see through it alone. Your only option is digging up every square yard of turf with your bare hands. Feel like spending the afternoon with a shovel, Daren?"
 
-"Point taken," Daren sighs, standing up. "We move."
+"Point taken," Daren sighs, standing up and brushing the loam from his knees. "We move."
 
 "Music to my ears," Arraka purrs.
 
@@ -587,7 +587,7 @@ TEXT:
 
 I walk past the charred circle to a patch of untouched grass near the tree line and drop to one knee, digging into the turf with both hands.
 
-The topsoil yields instantly, loose and recently turned. After tossing aside a few handfuls of dirt, the concealing weave fractures. The phantom grass dissolves, revealing dark loam packed over a solid metallic frame.
+The topsoil yields instantly, loose and recently turned. After tossing aside a few handfuls of dirt, the concealing weave fractures with a faint pop. The phantom grass dissolves, revealing dark loam packed over a solid metallic frame.
 
 Daren drops beside me, scooping away the remaining dirt until we unearth a bronze sphere roughly the size of a melon, etched with intricate conduit channels. Daren's eyes light up.
 
@@ -874,7 +874,7 @@ We wait by the border markers as instructed. A few minutes later, golden radianc
 
 "My thanks," Leo says gravely.
 
-"We actually have the glowing pinecone in our possession," Hadrik marvels, ignoring the cat. "An actual tournament objective, finished ahead of schedule!"
+"We actually have the glowing pinecone in our possession," Hadrik marvels, ignoring the cat. "An actual tournament objective, finished ahead of time!"
 
 "Technically we have to deliver it, but yes," Daren says with a rare grin.
 
@@ -945,7 +945,7 @@ Sweat runs cold down my neck.
 "No idea," Hadrik says cheerfully. "Maybe Meridith recalled them underground?"
 
 }
-"My initial thought as well," Eiden says. "A tactical retreat seemed reasonable. But when none surfaced this morning, curiosity got the better of me. I spent a few hours flying invisibly over the valleys, scanning the terrain. And do you know what I spotted?"
+"My initial thought as well," Eiden says. "A quiet retreat seemed reasonable. But when none surfaced this morning, curiosity got the better of me. I spent a few hours flying invisibly over the valleys, scanning the terrain. And do you know what I spotted?"
 
 "...A lessathi?" Flower asks.
 
@@ -961,7 +961,7 @@ Sweat runs cold down my neck.
 
 "What?!" Kate's shout shatters the quiet, the rest of us frozen in disbelief.
 
-"Come now, Kate," Eiden sighs. "Diane is Meridith's second-in-command. Every word you traded with her on the road will be delivered to Meridith the moment she returns underground. Whatever you revealed about me over the past two days becomes tactical intelligence. I cannot permit that."
+"Come now, Kate," Eiden sighs. "Diane is Meridith's second-in-command. Every word you traded with her on the road will be delivered to Meridith the moment she returns underground. Whatever you revealed about me over the past two days becomes intelligence for my enemies. I cannot permit that."
 
 "What else could we possibly have told her that matters?" I demand.
 
@@ -1029,7 +1029,7 @@ TEXT:
 
 He sweeps his sword in a wide arc, the blade's edge shearing through the gravity field like silk, releasing the pressure instantly. We scramble to our feet.
 
-"Aura disruption..." Eiden's smile returns, sharp and intrigued. "So that is how you dismantled the Ollendor captain. Outstanding. Perhaps I should test you at twenty percent of my capacity? No... fifteen? Ten percent, perhaps?"
+"Aura disruption..." Eiden's smile returns, sharp and intrigued. "So that is how you dismantled the Ollendor captain. Outstanding. Perhaps I should test you at a third of my strength? No... a fifth? A tenth, perhaps?"
 
 "You love the sound of your own voice, don't you?" Hadrik grins, exploding off the stone in a blur.
 
@@ -1189,9 +1189,9 @@ Ahead of us, Daren and Hadrik have turned the highway into a disaster zone. Half
 
 When Flower draws near, Illuna conjures three water lances and hurls them downward. Eiden raises his right palm, flash-boiling the projectiles into steam with a torrent of white flame.
 
-"More guests?" Eiden smiles, raising an eyebrow. "Shall we move to fifteen percent, then?"
+"More guests?" Eiden smiles, raising an eyebrow. "Shall we move to a fifth, then?"
 
-"Fifteen percent?" Hadrik roars. "You arrogant little—"
+"A fifth?" Hadrik roars. "You arrogant little—"
 
 A wave of flame washes across the cobblestone. Daren locks his shield in front of Hadrik, while Illuna drops a roaring pillar of water to shield our climb.
 
@@ -1207,9 +1207,9 @@ Ahead of us, Daren and Hadrik have turned the highway into a disaster zone. Half
 
 When Flower draws near, Illuna conjures three water lances and hurls them downward. Eiden raises his right palm, flash-boiling the projectiles into steam with a torrent of white flame.
 
-"More guests?" Eiden smiles, raising an eyebrow. "Shall we move to fifteen percent, then?"
+"More guests?" Eiden smiles, raising an eyebrow. "Shall we move to a fifth, then?"
 
-"Fifteen percent?" Hadrik roars. "You arrogant little—"
+"A fifth?" Hadrik roars. "You arrogant little—"
 
 A wave of flame washes across the cobblestone. Daren locks his shield in front of Hadrik, while Illuna drops a roaring pillar of water to shield our climb.
 
@@ -1223,9 +1223,9 @@ Ahead of us, Daren and Hadrik have turned the highway into a disaster zone. Half
 
 When Flower draws near, Illuna conjures three water lances and hurls them downward. Eiden raises his right palm, flash-boiling the projectiles into steam with a torrent of white flame.
 
-"More guests?" Eiden smiles, raising an eyebrow. "Shall we move to fifteen percent, then?"
+"More guests?" Eiden smiles, raising an eyebrow. "Shall we move to a fifth, then?"
 
-"Fifteen percent?" Hadrik roars. "You arrogant little—"
+"A fifth?" Hadrik roars. "You arrogant little—"
 
 A wave of flame washes across the cobblestone. Daren locks his shield in front of Hadrik, while Illuna drops a roaring pillar of water to shield our climb.
 
@@ -1278,9 +1278,9 @@ Ahead of us, Daren and Hadrik have turned the highway into a disaster zone. Half
 }
 As Flower closes the distance, Illuna manifests three water lances and hurls them downward. Eiden raises his right palm, flash-boiling the projectiles into steam with a torrent of white flame.
 
-"More guests?" Eiden smiles, raising an eyebrow. "Shall we move to fifteen percent, then?"
+"More guests?" Eiden smiles, raising an eyebrow. "Shall we move to a fifth, then?"
 
-"Fifteen percent?" Hadrik roars. "You arrogant little—"
+"A fifth?" Hadrik roars. "You arrogant little—"
 
 A wave of flame washes across the cobblestone. Daren locks his shield in front of Hadrik, while Illuna drops a roaring pillar of water to shield our climb.
 
@@ -1345,9 +1345,9 @@ Ahead of us, Daren and Hadrik have turned the highway into a disaster zone. Half
 
 When Flower draws near, Illuna conjures three water lances and hurls them downward. Eiden raises his right palm, flash-boiling the projectiles into steam with a torrent of white flame.
 
-"More guests?" Eiden smiles, raising an eyebrow. "Shall we move to fifteen percent, then?"
+"More guests?" Eiden smiles, raising an eyebrow. "Shall we move to a fifth, then?"
 
-"Fifteen percent?" Hadrik roars. "You arrogant little—"
+"A fifth?" Hadrik roars. "You arrogant little—"
 
 A wave of flame washes across the cobblestone. Daren locks his shield in front of Hadrik, while Illuna drops a roaring pillar of water to shield our climb.
 
@@ -1363,9 +1363,9 @@ Ahead of us, Daren and Hadrik have turned the highway into a disaster zone. Half
 
 When Flower draws near, Illuna conjures three water lances and hurls them downward. Eiden raises his right palm, flash-boiling the projectiles into steam with a torrent of white flame.
 
-"More guests?" Eiden smiles, raising an eyebrow. "Shall we move to fifteen percent, then?"
+"More guests?" Eiden smiles, raising an eyebrow. "Shall we move to a fifth, then?"
 
-"Fifteen percent?" Hadrik roars. "You arrogant little—"
+"A fifth?" Hadrik roars. "You arrogant little—"
 
 A wave of flame washes across the cobblestone. Daren locks his shield in front of Hadrik, while Illuna drops a roaring pillar of water to shield our climb.
 
@@ -1379,9 +1379,9 @@ Ahead of us, Daren and Hadrik have turned the highway into a disaster zone. Half
 
 When Flower draws near, Illuna conjures three water lances and hurls them downward. Eiden raises his right palm, flash-boiling the projectiles into steam with a torrent of white flame.
 
-"More guests?" Eiden smiles, raising an eyebrow. "Shall we move to fifteen percent, then?"
+"More guests?" Eiden smiles, raising an eyebrow. "Shall we move to a fifth, then?"
 
-"Fifteen percent?" Hadrik roars. "You arrogant little—"
+"A fifth?" Hadrik roars. "You arrogant little—"
 
 A wave of flame washes across the cobblestone. Daren locks his shield in front of Hadrik, while Illuna drops a roaring pillar of water to shield our climb.
 
@@ -1459,7 +1459,7 @@ Defending is a losing proposition. I must force the offensive.
 choice("Restart game", Ch1-Intro1, v_current_scene = Ch1-Intro1, special:restart) if (v_b3_ch10_eiden == 0 && v_b3_ch12_hadrik == 0)
 choice("Load from last checkpoint", , v_chapter_save_counter = 5, special:checkpoint_load) if (v_b3_ch10_eiden == 0 && v_b3_ch12_hadrik == 0)
 choice("Load game", , , special:saves) if (v_b3_ch10_eiden == 0 && v_b3_ch12_hadrik == 0)
-choice("Tell Eiden that there is a drunken flying orangutan wearing a party hat behind him.", B3-Ch12b-Orangutan, v_current_scene = B3-Ch12b-Orangutan, v_b3_ch12_eiden = 0) if (v_b3_ch12_hadrik == 1 || v_b3_ch10_eiden != 0)
+choice("Shout that Azarius has dropped his concealment behind him.", B3-Ch12b-Orangutan, v_current_scene = B3-Ch12b-Orangutan, v_b3_ch12_eiden = 0) if (v_b3_ch12_hadrik == 1 || v_b3_ch10_eiden != 0)
 choice("Attack Eiden with my dagger.", B3-Ch12b-Dagger, v_current_scene = B3-Ch12b-Dagger, v_b3_ch12_eiden = 1) if (v_b3_ch12_hadrik == 1 || v_b3_ch10_eiden != 0)
 choice("Tell Illuna to cast her dish washing spell on Eiden.", B3-Ch12b-Washing, v_current_scene = B3-Ch12b-Washing, v_b3_ch12_eiden = 2) if (v_b3_ch12_hadrik == 1 || v_b3_ch10_eiden != 0)
 choice("Temporarily steal Eiden's energy with my stat device.", B3-Ch12b-Steal, v_current_scene = B3-Ch12b-Steal, v_b3_ch12_eiden = 3) if (v_b3_ch11_transferred == 1 && v_b3_ch12_hadrik == 1 || v_b3_ch11_transferred == 1 && v_b3_ch10_eiden != 0)
@@ -1471,37 +1471,37 @@ TEXT:
 set(v_is_dead,1) if (v_b3_ch12_hadrik == 0 && v_bluff == 4 || v_b3_ch12_hadrik == 0 && v_bluff < 4 || v_b3_ch12_hadrik == 1 && v_bluff < 4)
 set(v_is_dead,0) if (v_b3_ch12_hadrik == 1 && v_bluff == 4)
 #if(v_b3_ch12_hadrik == 0 && v_bluff < 4) {
-"Eiden, watch out!" I shout. "There's a drunken flying orangutan wearing a party hat behind you!"
+"Eiden, behind you!" I shout. "Azarius just dropped his concealment!"
 
-"Drunk and wearing a party hat?" Eiden asks, drifting in mid-air. "Oddly specific, wouldn't you say?"
+"Azarius?" Eiden asks, drifting in mid-air with his eyes closed. "The grand magister is far too fond of dramatic entrances to strike from the shadows unannounced. A rather crude deception, wouldn't you say?"
 
 "Aren't you going to check?" I ask.
 
-"Hardly," Eiden replies. "Though the concept inspires a delightful curse matrix. Behold!"
+"Hardly," Eiden replies. "And playing the grand magister's name as a cheap distraction is an insult to both of us. Allow me to demonstrate a proper greeting."
 
 }
 #if(v_b3_ch12_hadrik == 1 && v_bluff < 4) {
-"Eiden, watch out!" I shout. "There's a drunken flying orangutan wearing a party hat behind you!"
+"Eiden, behind you!" I shout. "Azarius just dropped his concealment!"
 
-"Drunk and wearing a party hat?" Eiden parries Hadrik's fist without looking. "Oddly specific, wouldn't you say?"
+"Azarius?" Eiden parries Hadrik's fist without looking. "The grand magister is far too fond of dramatic entrances to strike from the shadows unannounced. A rather crude deception, wouldn't you say?"
 
 "Aren't you going to check?" I ask.
 
-"Hardly," Eiden replies. "Though the concept inspires a delightful curse matrix. Behold!"
+"Hardly," Eiden replies. "And playing the grand magister's name as a cheap distraction is an insult to both of us. Allow me to demonstrate a proper greeting."
 
 }
 #if(v_b3_ch12_hadrik == 0 && v_bluff == 4) {
-"Eiden, watch out!" I shout. "There's a drunken flying orangutan wearing a party hat behind you!"
+"Eiden, behind you!" I shout. "Azarius just dropped his concealment!"
 
-"What?" Eiden actually glances over his shoulder, checking the empty air behind him. "Ah... I see. You leveled your Bluff stat. The inflection was remarkably convincing. But what was the objective? Shouldn't you have attacked while my back was turned?"
+"What?" Eiden actually glances over his shoulder, scanning the empty sky behind him. "Ah... I see. You leveled your Bluff stat. The inflection was remarkably convincing. But what was the objective? Shouldn't you have attacked while my back was turned?"
 
 "In hindsight, yes, that would have been smarter," I admit.
 
-"Well, not a total loss," Eiden smiles. "The imagery sparked an intriguing incantation. Behold!"
+"Well, not a total loss," Eiden smiles. "Though invoking Azarius to buy three seconds of life is a gamble that carries a price. Allow me to collect it."
 
 }
 #if(v_b3_ch12_hadrik == 1 && v_bluff == 4) {
-"Eiden, watch out!" I shout. "There's a drunken flying orangutan wearing a party hat behind you!"
+"Eiden, behind you!" I shout. "Azarius just dropped his concealment!"
 
 "What?" Eiden turns his head for a single heartbeat, checking the sky behind him.
 
@@ -1523,11 +1523,7 @@ Now.
 
 }
 #if(v_b3_ch12_hadrik == 0 || v_bluff < 4) {
-A massive ape materializes directly in front of my face, hovering on spectral currents with a paper party cone strapped to its skull and an ale bottle in its grip.
-
-"Could you make the illusion any more obvious?" I scoff. "As if you actually summoned—"
-
-The ape's massive leather arm lashes out. Before I can process the physical mass behind the blow, its fist closes around my skull, crushing bone to dust in a single squeeze.
+A localized pressure wave detonates directly in front of my chest, ripping the air from my lungs. Before I can raise an aura ward or bank away on the currents, Eiden's compressed gravity lance snaps through the center of my ribcage, obliterating flesh and bone in a single concussive rupture.
 
 }
 choice("Restart game", Ch1-Intro1, v_current_scene = Ch1-Intro1, special:restart) if (v_b3_ch12_hadrik == 0 && v_bluff == 4 || v_bluff < 4)
@@ -1567,7 +1563,7 @@ Eiden stares at the six-inch blade in silence. "You cannot be serious."
 
 "Draw your own conclusions," I say. "Here I come!"
 
-I rocket toward Eiden, slashing in sharp diagonals. He sways and glides around every thrust with effortless economy, his closed eyes radiating mild bewilderment. After half a dozen empty swings whistle through thin air, the brilliance of my strategy looks significantly dimmer.
+I rocket toward Eiden, slashing in sharp diagonals. He sways and glides around every thrust with effortless economy, his closed eyes radiating mild bewilderment. After half a dozen empty swings whistle through thin air, the brilliance of my plan looks significantly dimmer.
 
 "Is this the extent of the spectacle, Barry?" Eiden asks as I pull back to catch my breath. "Winded already? The legendary dagger has barely shown its pedigree. Allow me to offer an attack worthy of such an artifact."
 
@@ -1877,17 +1873,15 @@ The setup held. Every piece aligned.
 
 Only the final cut remains.
 
-I turn to Daren. He stands five paces from the ice block, sword gripped in both hands, his knuckles white.
+I turn to Daren. He stands five paces from the ice block, sword raised in both hands, his knuckles white, breath rattling in his throat.
 
 His boots don't move.
 
-The execution plan was drafted to destroy a soulless copy of Arraka. Daren would cleave an ethereal monster without blinking. But Eiden is a man he once idolized, a man he begged for mercy in Thilias, a man he still hopes to redeem.
+He is not paralyzed by fear—he is paralyzed by who he is. Daren is a healer and an idealist; for days he has clung to the conviction that the man who spared the slave girl in Thilias and said prove me wrong could still be pulled back from the dark. His enchanted blade can sever a mage's link to the magical plane with a shallow strike, stripping power without taking life. But through three feet of solid, opaque ice, a blow heavy enough to breach the frost will cleave the stillwater in two. To incapacitate without executing demands a butcher's calculation Daren cannot make in cold blood.
 
-Daren's blade can sever Eiden's connection to the magical plane with a single shallow cut, rendering him powerless without taking his life. But through three feet of solid ice, a strike with enough force to breach the frost risks slicing the stillwater in two. To incapacitate without executing requires surgical precision.
+He hesitates, searching for an angle of mercy—and in that fraction of a second, the opportunity dies.
 
-A single missed millimeter either kills Eiden on the spot or shatters the ice without severing the node, freeing him.
-
-"Daren?" Flower's voice trembles, watching him stand motionless over the ice, sweat dripping from his chin. "Is everything all right?"
+"Daren?" Flower's voice trembles, watching him frozen over the frost, sweat dripping from his chin. "Is everything all right?"
 
 "What are you waiting for, you idiot?!" Arraka screams from the amulet. "You have the Creator of Varathia helpless in ice! Cut him down before he—"
 
@@ -1922,44 +1916,46 @@ TEXT:
 
 "Leo, step back into the pines," Eiden says, glancing toward the leopard. "From this moment onward, I cannot guarantee your safety."
 
-"Understood," Leo murmurs, shrinking back into the brush.
+"Understood," Leo murmurs, ears pinned back as he shrinks into the deep shadows of the brush.
 
 "Now, then," Eiden turns back to our battered line. "Who goes first?"
 
 "Hah!" Hadrik grins, surging off the cobblestones. "The brawl I came for!"
 
-Hadrik lunges with a crushing hook. Eiden doesn't shift his stance; his hand shoots out in a blur, catches Hadrik by the brow, and drives his skull straight into the pavement with sickening concussive weight. The dwarf goes limp instantly.
+Hadrik lunges with a crushing hook. Eiden doesn't shift his stance; his hand shoots out in a blur, catches Hadrik by the brow, and drives his skull straight into the pavement with sickening concussive weight. The dwarf goes limp instantly, his heavy frame slumping motionless in the dust.
 
-Daren hurls his sword into a screaming spin. Eiden meets the flying steel with a concentrated torrent of white fire so dense that it overloads the weapon's elemental threshold in a heartbeat, detonating the matrix and blasting Daren backward into the ditch. Daren crashes into the brush, his tunic scorched and his limbs refusing to move.
+Daren hurls his sword into a screaming spin. Eiden meets the flying steel with a concentrated torrent of white fire so dense that it overloads the weapon's elemental threshold in a heartbeat, detonating the matrix and blasting Daren backward into the roadside ditch. Daren crashes into the gorse, his tunic scorched and his limbs refusing to obey.
 
-"LEAVE THEM ALONE!" Flower screams, her eyes blazing crimson, her aura igniting into raw flame.
+"LEAVE THEM ALONE!" Flower screams, her eyes blazing crimson, her aura igniting into raw, roaring flame.
 
-She unleashes a roaring pillar of fire directly at Eiden's chest, matching his own intensity. Eiden raises his palm, holding the inferno back with visible effort.
+She unleashes a towering pillar of fire directly at Eiden's chest, matching his own intensity with blinding fury. Eiden raises his palm, holding the inferno back with visible effort as the cobblestones beneath his boots melt into slag.
 
 "Flower, you're burning your lifeforce!" Illuna's voice screams through their shared throat. "Stop!"
 
 "I can't!" Flower gasps through the glare. "We're all that's left! I have to—"
 
-Eiden displaces behind her, the side of his palm striking the base of her neck. Flower and Illuna collapse together onto the turf.
+Eiden displaces behind her, the side of his palm striking the base of her neck with surgical precision. The flames extinguish in an instant. Flower and Illuna collapse together onto the scorched turf, silent and unmoving.
 
-Kate raises her scepter, her hands shaking, but her reserves are spent. The focus gem gutters out, and her knees buckle against the stone.
+Kate raises her scepter with shaking hands, but her reservoir is completely spent. The focus gem gutters out into dead silver, and her knees buckle hard against the stone.
 
-Daren claws his way upright on trembling forearms, spitting blood onto the gravel as Eiden's suffocating aura bears down.
+The silence that drops over the highway is absolute, broken only by the crackle of burning brush. In less than twenty seconds, every frontline pillar that carried us across three books lies broken and motionless on the road. Hadrik bleeding into the dust; Flower and Illuna limp; Kate gasping against the cobblestones; Daren pinned in the ditch.
 
-"Eiden..." Daren rasps, his chest heaving. "This isn't you. You don't want this. Why—why do this?!"
+Daren claws his way upright on trembling forearms, spitting dark blood onto the gravel as Eiden's suffocating aura bears down like a falling mountain.
+
+"Eiden..." Daren rasps, his chest heaving with agonizing effort. "This isn't you. You don't want this. Why—why do this?!"
 
 #if(v_b3_ch12_hesitant == 1) {
-"Seconds from execution, and you still plead," Eiden says, stepping closer with slow, measured strides. "Yesterday you told Barry you'd hesitate to take my life. How does a man shift perspective so completely in a handful of days? You, who charged me like a rabid dog at every crossroad? Did a shadow memory from the God of Time's trial soften your spine?"
+"Seconds from execution, and you still plead," Eiden says, stepping closer with slow, measured strides, his boots clicking on the cooling stone. "Yesterday you told Barry you'd hesitate to take my life. How does a man shift perspective so completely in a handful of days? You, who charged me like a rabid dog at every crossroad? Did a shadow memory from the God of Time's trial soften your spine?"
 
-"Because you told me to prove you wrong!" The words tear out of Daren's throat, raw and broken. Eiden's closed eyelids flinch. "I know you don't remember it here, but it was you! In Thilias—the slave girl—I knelt in the dirt and begged you for the power to save her! You gave it to me! You looked me in the eye and told me to prove you wrong!"
+"Because you told me to prove you wrong!" The words tear out of Daren's throat, raw, jagged, and broken. Eiden's closed eyelids flinch. "I know you don't remember it here, but it was you! In Thilias—the slave girl—I knelt in the dirt and begged you for the power to save her! You gave it to me! You looked me in the eye and told me to prove you wrong!"
 
 Eiden halts, the pieces locking together behind his closed eyes. "So that is what occurred..."
 
 }
 #if(v_b3_ch12_hesitant == 0) {
-"Seconds from execution, and you still plead," Eiden says, stepping closer with slow, measured strides. "How does a man shift perspective so completely in a handful of days? You, who charged me like a rabid dog at every crossroad? Did a shadow memory from the God of Time's trial soften your spine?"
+"Seconds from execution, and you still plead," Eiden says, stepping closer with slow, measured strides, his boots clicking on the cooling stone. "How does a man shift perspective so completely in a handful of days? You, who charged me like a rabid dog at every crossroad? Did a shadow memory from the God of Time's trial soften your spine?"
 
-"Because you told me to prove you wrong!" The words tear out of Daren's throat, raw and broken. Eiden's closed eyelids flinch. "I know you don't remember it here, but it was you! In Thilias—the slave girl—I knelt in the dirt and begged you for the power to save her! You gave it to me! You looked me in the eye and told me to prove you wrong!"
+"Because you told me to prove you wrong!" The words tear out of Daren's throat, raw, jagged, and broken. Eiden's closed eyelids flinch. "I know you don't remember it here, but it was you! In Thilias—the slave girl—I knelt in the dirt and begged you for the power to save her! You gave it to me! You looked me in the eye and told me to prove you wrong!"
 
 Eiden halts, the pieces locking together behind his closed eyes. "So that is what occurred..."
 
@@ -1972,15 +1968,15 @@ TEXT:
 
 "You never spoke those words in this timeline, but you carry them!" Daren gasps, fighting for air beneath the crushing pressure. "Deep down, you want someone to prove you were wrong to give up on humanity! Give us the chance! We can make a difference!"
 
-"Too late, Daren," Eiden says softly, the warmth gone from his voice.
+"Too late, Daren," Eiden says softly, every trace of warmth gone from his voice.
 
-"Why?!" Daren's voice cracks. "Why is it too late?!"
+"Why?!" Daren's voice cracks with desperation. "Why is it too late?!"
 
-"The blue crystals are awake," Eiden replies.
+"The blue crystals are awake," Eiden replies, the words dropping like lead weights.
 
 Daren stares up from the dirt, uncomprehending. "What does that have to do with—"
 
-"You think this island, this tournament, is the boundary of existence?" Eiden's voice drops to a lethal register. "If Meridith achieves her aim, it will unmake us all—this world and every realm tethered to it."
+"You think this island, this tournament, is the boundary of existence?" Eiden's voice drops to a lethal, chilling register. "If Meridith achieves her aim, it will unmake us all—this world and every realm tethered to it."
 
 "We didn't know," Daren strains against the road. "If you would just explain—"
 
@@ -1988,7 +1984,7 @@ Daren stares up from the dirt, uncomprehending. "What does that have to do with�
 
 "EIDEN!"
 
-Arraka's fury detonates from the amulet, the metal casing vibrating with terrifying resonance.
+Arraka's fury detonates from the amulet, the metal casing vibrating with terrifying, earth-shaking resonance.
 
 "Touch them, and I will scour the infinite void of the ether until I unearth your sanctuary! I will tear your soul from its anchor and torture it for eternity! I will turn your existence into an endless waking nightmare!"
 
@@ -2018,17 +2014,19 @@ TEXT:
 
 Eiden stands in the quiet, his aura settling into deadly focus. "Perhaps you are correct. Perhaps they could have killed me. All the more reason to eliminate them now, before the seeds take root. Farewell to your grand design, Arraka."
 
-"NO!" Arraka shrieks.
+"NO!" Arraka shrieks from the talisman, the copper disc burning against Flower's collarbone.
 
-I pull my dagger, bracing my boots against the stone for a final, hopeless stand.
+I draw my dagger with numb fingers, scraping my boots against the scorched stone for a final, hopeless stand.
 
 "I wouldn't advise that," a calm, resonant voice remarks from the roadside.
 
-Azarius stands ten paces away, hands folded within his voluminous gray robes, a polite smile on his weathered face.
+The air does not lighten; it grows instantly colder, the ambient mana thickening until my chest aches. A second presence steps out from the shadows of the pines—not a savior, but another apex predator stepping into the clearing.
 
-"I felt your scrying from the moment our duel began, Sage of the West," Eiden says, turning his head. "You are called wise, yet wisdom dictated staying hidden while I finished this business. What madness drove you to step into the open before my unleashed power? Do you truly believe you can defeat me?"
+Azarius stands ten paces away, hands folded neatly inside his voluminous gray robes, his weathered face entirely tranquil. His pale eyes fix on Eiden with the polite, unflinching detachment of a man examining an insect pinned to cork.
 
-"Heavens, no," Azarius chuckles softly. "I wouldn't dream of attempting it."
+"I felt your scrying from the moment our duel began, Sage of the West," Eiden says, turning his head slowly toward the newcomer. "You are called wise, yet wisdom dictated staying hidden while I finished this business. What madness drove you to step into the open before my unleashed power? Do you truly believe you can defeat me?"
+
+"Heavens, no," Azarius chuckles softly, the sound dry as parchment. "I wouldn't dream of attempting it."
 
 "Then how do you propose to stop me?"
 
@@ -2036,15 +2034,15 @@ Azarius stands ten paces away, hands folded within his voluminous gray robes, a 
 
 A sharp resonant chime echoes across the ether. Far across the western horizon, a massive strand of magical tapestry unweaves and dissolves into nothingness. Eiden's closed eyes flinch, his head snapping toward the distant fracture.
 
-"What did you..." Eiden whispers.
+"What did you..." Eiden whispers, his voice dropping into dangerous stillness.
 
 "I discovered your continental detection grid weeks ago," Azarius says smoothly. "A marvel of engineering. Knowing its importance to your operations, I altered the anchor matrices in secret while dampening my signature. As you just witnessed, a single gesture unravels a node and voids hours of delicate calibration. Rebuilding the weave requires starting from scratch. And more importantly—should you strike me down, my death will trigger an immediate cascading collapse of every detection spell across Varathia."
 
-Eiden's posture turns rigid, white-hot fury radiating from his frame.
+Eiden's posture turns rigid, white-hot fury radiating from his frame with enough intensity to singe the pine needles under his boots.
 
 "You dare blackmail me? You dare blackmail ME?"
 
-"Naturally," Azarius smiles. "Why wouldn't I?"
+"Naturally," Azarius smiles, serene and utterly remorseless. "Why wouldn't I?"
 
 choice("Continue", B3-Ch12b-Invitation4, v_current_scene = B3-Ch12b-Invitation4)
 
@@ -2076,9 +2074,9 @@ A heavy silence hangs between the two legends. Eiden weighs weeks of irreplaceab
 
 "AHAHAHAHA!" Arraka's laughter explodes from the amulet. "Serves you right, you pompous brat!"
 
-Eiden ignores her. He turns to where Daren and I stand among the scorched stones, his closed eyes resting on us for a long, quiet moment.
+Eiden ignores her. He turns to where Daren and I stand among the scorched stones, his closed eyes resting on us for a long, quiet moment. The breeze stirs the cooling ash between our boots.
 
-"Well, then," Eiden says softly. "I suppose you two might still get that chance to prove me wrong after all..."
+"Well, then," Eiden says softly, the words hanging in the stillness of the road. "I suppose you two might still get that chance to prove me wrong after all..."
 
 The space folds around him, and he vanishes without a trace.
 
@@ -2092,35 +2090,35 @@ ID: B3-Ch12b-Azarius
 TEXT:
 
 #if(v_b3_ch12_thank == 1) {
-"Thank you," I tell Azarius, letting out a long breath. "I thought we were done for."
+"Thank you," I tell Azarius, letting out a long, shuddering breath. "I thought we were finished."
 
-"No gratitude needed," Azarius smiles. "Always glad to assist fellow participants."
+"No gratitude needed," Azarius smiles mildly. "Always glad to assist fellow participants."
 
-"Gratitude is owed," Daren says, pushing himself up as white healing light washes over his burns. "You had everything to lose and nothing to gain by intervening. Only a man of your stature steps into that fire."
+"Gratitude is owed," Daren says, pushing himself up on trembling knees as white healing light washes over the raw burns across his chest. "You had everything to lose and nothing to gain by intervening. Only a man of your stature steps into that fire."
 
-"I am sorry for earlier," Leo says, padding out from the brush with ears lowered. "It was cowardly to watch from the trees while Eiden tore through you, but I had no means to alter the outcome."
+"I am sorry for earlier," Leo says, padding out from the brush with ears lowered in shame. "It was cowardly to watch from the trees while Eiden tore through you, but I had no means to alter the outcome."
 
-"We understand, Leo," Kate says, leaning on her scepter. "We were contracted as your bodyguards, not the reverse. This was our burden."
+"We understand, Leo," Kate says quietly, leaning heavily on her scepter as she helps Diane to her feet. "We were contracted as your bodyguards, not the reverse. This was our burden."
 
 "I am humbled by your grace," Leo dips his head.
 
-"Where is your apprentice?" Daren asks, glancing down the road. "Harry, was it? Are you still traveling together?"
+"Where is your apprentice?" Daren asks, glancing down the highway. "Harry, was it? Are you still traveling together?"
 
 }
 #if(v_b3_ch12_thank == 0) {
-"You know I had Eiden right where I wanted him, right?" I say, sheathing my dagger.
+"You know I had Eiden right where I wanted him, right?" I say, sheathing my dagger with hands that won't stop trembling.
 
-"Naturally," Azarius chuckles. "I saw the steel drawn and braced for the charge, but thought my method might save a little wear on the blade."
+"Naturally," Azarius chuckles softly. "I saw the steel drawn and braced for the charge, but thought my method might save a little wear on the blade."
 
-"Barry, show some respect," Daren mutters, white healing light mending the burns across his chest. "Azarius risked everything to stand between us and death. He deserves our deepest thanks."
+"Barry, show some respect," Daren mutters, white healing light mending the raw burns across his chest as he rises from the ditch. "Azarius risked everything to stand between us and death. He deserves our deepest thanks."
 
-"I am sorry for earlier," Leo says, padding out from the brush with ears lowered. "It was cowardly to watch from the trees while Eiden tore through you, but I had no means to alter the outcome."
+"I am sorry for earlier," Leo says, padding out from the brush with ears lowered in shame. "It was cowardly to watch from the trees while Eiden tore through you, but I had no means to alter the outcome."
 
-"We understand, Leo," Kate says, leaning on her scepter. "We were contracted as your bodyguards, not the reverse. This was our burden."
+"We understand, Leo," Kate says quietly, leaning heavily on her scepter as she helps Diane to her feet. "We were contracted as your bodyguards, not the reverse. This was our burden."
 
 "I am humbled by your grace," Leo dips his head.
 
-"Where is your apprentice?" Daren asks, glancing down the road. "Harry, was it? Are you still traveling together?"
+"Where is your apprentice?" Daren asks, glancing down the highway. "Harry, was it? Are you still traveling together?"
 
 }
 "Henry," Azarius corrects gently. "And yes, we travel together, though I left him behind before teleporting. The stakes were too lethal for a novice. He knows the route and will join us shortly."
@@ -2162,6 +2160,12 @@ Azarius smiles, serene and unfazed.
 "To dethrone the gods and take their place."
 
 "Aha-Ahahaha! Ahahahahahahaha!"
+
+The wild laughter echoes across the scorched highway, ringing off the broken pines and dying away into the vast, indifferent sky of Varathia. Daren and Kate exchange a long, stunned look, the gravity of what we just survived and what lies ahead settling heavily onto our shoulders. Hadrik slowly pushes himself upright from the dust, shaking the gravel from his black beard with a low, appreciative whistle.
+
+Azarius adjusts the folds of his gray robes, entirely untroubled, and gestures down the open cobblestone road toward the distant summits of Galamir.
+
+Three books of running, improvising, and bleeding for every inch of ground have brought us to this quiet, sunlit ridge: battered, alive, standing beside the strongest mortal mage in the world on a march to pull down the heavens.
 
 -----End of book 3-----
 

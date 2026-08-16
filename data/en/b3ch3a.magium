@@ -6,19 +6,19 @@ set(v_b3_ch3_stats_unavailable,0)
 
 "Please make yourselves at home," the king of the underground says as we enter the throne room. "I've set out a few chairs, but you're welcome to stand if you prefer."
 
-We take seats in a rough arc. The king settles into his 'throne'—a heavy wooden armchair with a few carved flourishes, sitting on a low dais. Two guards flank the platform, while Albert and Peter lean against the stone wall on our left. Leila's father and Breynan sit with us, facing the dais.
+We pull wooden chairs into a rough arc across the damp flagstones. Daren lowers himself slowly, one hand bracing against his steel breastplate where the cracked ribs flare with every breath. Hadrik drops heavily into a low stool beside him, black beard bristling around a jaw swollen purple from the street brawl. The king settles into his 'throne'—a high-backed armchair carved from dark timber, resting on a low stone dais. Two guards in studded leather flank the platform with polearms grounded, while Albert and Peter lean against the cold basalt wall to our left. Leila's father and Breynan take seats on our flank, facing the dais.
 
-"Now, then." The king rests his forearms on the armrests, eyes narrowing slightly. "To the point. When my scouts first reported your arrival, I didn't know the stillwater girl was among you. With her present, the picture clarifies considerably. Am I right in thinking you came here to kill the king of Ollendor?"
+"Now, then." The king rests his forearms on the carved armrests, eyes narrowing in the torchlight. "To the point. When my scouts first reported your arrival at the gates, I didn't know the stillwater girl was among you. With her present, the picture clarifies considerably. Am I right in thinking you came here to kill the king of Ollendor?"
 
-"We did," Melindra says. "Though I don't recall meeting you. How do you know who I am?"
+"We did," Melindra says, resting one ankle across her knee. "Though I don't recall meeting you. How do you know who I am?"
 
-"I don't know your name," the king says. "But I have kept informants in the palace for years. Eight years ago, they brought word that a stillwater girl in silk sleepwear had been banished from the continent by the mad king. Fortunately for me, you still favor the exact same garments. A vague description becomes unmistakable."
+"I don't know your name," the king says. "But I have maintained informants inside the palace for years. Eight years ago, word reached these tunnels that a stillwater girl in silk sleepwear had been banished from the continent on the mad king's whim. Fortunately for me, you still favor the exact same garments. A vague description becomes unmistakable."
 
-"Hey!" Melindra crosses her arms, glaring. "These are in no way sleepwear. What pajamas have you ever seen cut from silk this fine, with tailored seams like these? Do you have any idea how long it took to find someone who could still weave and stitch this grade of cloth? Six centuries ago, the only people not wearing garments of this cut were laborers and convicts. Now people look at master tailoring and call it bedclothes. It's ridiculous."
+"Hey!" Melindra crosses her arms, glaring across the floor. "These are in no way sleepwear. What pajamas have you ever seen cut from silk this fine, with double-stitched tailored seams like these? Do you have any idea how long it took to find a weaver who could still handle cloth of this grade? Six centuries ago, the only people not wearing garments of this cut were ditch-diggers and convicts. Now people look at master craftsmanship and call it bedclothes. It's ridiculous."
 
 "My apologies," the king says, raising an open palm. "I only repeat what my men reported. I imagine once a person grows accustomed to silk of that quality, rough wool feels like sandpaper."
 
-"Exactly," Melindra says, leaning back. "It ruins everything else. Finally, someone with some sense."
+"Exactly," Melindra says, settling back into her chair. "It ruins everything else. Finally, someone with some sense."
 
 choice("Continue", B3-Ch03a-Intro2, v_current_scene = B3-Ch03a-Intro2, v_checkpoint_rich = 0)
 
@@ -26,11 +26,11 @@ choice("Continue", B3-Ch03a-Intro2, v_current_scene = B3-Ch03a-Intro2, v_checkpo
 ID: B3-Ch03a-Intro2
 TEXT:
 
-"So," the king says, steering the conversation back to firm ground, "should I take it that your true motive for returning to Varathia is the rescue of your brother?"
+"So," the king says, resting his chin on steepled fingers, "should I take it that your true motive for returning to Varathia is the rescue of your brother?"
 
 Melindra's chin lifts, her jaw tightening. "That is none of your concern."
 
-We all look her way.
+The air between them goes rigid.
 
 "Of course," the king says smoothly. "An old habit of mine—prying into private affairs. You are entirely right. So long as your objective inside Ollendor is the king's assassination, what you do beyond our gates is your own business. Very well. Our interests align, and cooperation serves us both. But I have one question before we settle the details. Is your only goal to eliminate King Undriel, or do you care what becomes of this city once you walk away?"
 
@@ -44,13 +44,13 @@ TEXT:
 #if(v_b3_ch3_interest == 0) {
 "We only care about killing the king. Nothing else."
 
-"Understood," the king of the underground says. "In that case, I presume you will have no objection if someone from our faction assumes rule after Undriel falls?"
+"Understood," the king of the underground says, his voice flat. "In that case, I presume you will have no objection if someone from our faction assumes rule after Undriel falls?"
 
-"Someone from your faction?" Illuna's voice is cool and level. "You mean yourself?"
+"Someone from your faction?" Illuna's voice is cool and level, her blue eyes fixing on him. "You mean yourself?"
 
 "Not necessarily," the king says. "There are capable leaders among my followers and within the rebel ranks. We could form a governing council to prevent absolute power from settling on a single head again. But those debates belong to tomorrow. The primary task is removing the mad king. Everything else waits."
 
-"Is that why you brought us in?" Kate asks, her posture stiff. "You want an alliance between our groups?"
+"Is that why you brought us in?" Kate asks, her arms crossed, fingers gripping the rough wool of her green cloak. "You want an alliance between our groups?"
 
 }
 #if(v_b3_ch3_interest == 1) {
@@ -58,32 +58,32 @@ TEXT:
 
 "Oh?" The king cocks his head. "Does that mean you intend to claim the throne for yourselves once the crown is vacant?"
 
-"Nothing of the kind," Daren says firmly. "We only want to ensure that whoever takes command next holds the welfare of Ollendor's people as their first duty."
+"Nothing of the kind," Daren says, his voice gravelly with fatigue but unwavering. "We only want to ensure that whoever takes command next holds the welfare of Ollendor's people as their first duty."
 
 "A noble sentiment," the king says. "The succession remains undecided, but our purpose is the preservation of Ollendor. Every soul in these tunnels has bled under Undriel's reign. We have no desire to repeat his cruelties."
 
-"You say the succession is undecided," Illuna says. "Does that mean you have no ambition to take the crown yourself?"
+"You say the succession is undecided," Illuna says, her gaze unblinking. "Does that mean you have no ambition to take the crown yourself?"
 
 "Not necessarily," the king says. "There are capable leaders among my followers and within the rebel ranks. We could form a governing council to prevent absolute power from settling on a single head again. But those debates belong to tomorrow. The primary task is removing the mad king. Everything else waits."
 
-"Is that why you brought us in?" Kate asks, her posture stiff. "You want an alliance between our groups?"
+"Is that why you brought us in?" Kate asks, her arms crossed, fingers gripping the rough wool of her green cloak. "You want an alliance between our groups?"
 
 }
 "That is the essence of it," the king says. "Before we discuss terms, however, answer me this: how did you plan to bypass the royal defenses and reach the king in the first place?"
 
-"We didn't have much intelligence on the city before we breached the walls," Hadrik says, scratching his beard. "The rough outline was march on the palace, kick down the doors, and wing it."
+"We didn't have much intelligence on the city before we breached the walls," Hadrik says, scratching his tangled beard with a thick knuckle. "The rough outline was march on the palace, kick down the doors, and wing it."
 
 "As I suspected," the king says. "A frontal assault on the palace is suicide. You engaged only two of the royal guards in the streets and failed to bring them down. Consider what happens when all five stand together."
 
-"Actually, your majesty," Albert murmurs from the wall, "the outsiders fought only two. The mercenary held back."
+"Actually, your majesty," Albert murmurs from the wall, his hands tucked behind his back, "the outsiders fought only two. The mercenary held back."
 
 "Which makes the math worse," the king says. "The king can summon every royal guard to his side in an instant through their bonded rings. Reaching him requires cutting through all of them at once. Add the Overseer's mechanical eyes patrolling the sky overhead, charting every rooftop, and brute force becomes impossible. Without inside intelligence, you have no path."
 
 "What are you proposing, then?" Melindra asks.
 
-"We propose that you coordinate with our operations," the king says. "Yesterday, one of our listening devices in the palace intercepted an exchange worth your attention. Albert, the recording."
+"We propose that you join in our operations," the king says. "Yesterday, one of our listening devices in the palace intercepted an exchange worth your attention. Albert, the recording."
 
-"Here, your majesty," Albert says. He steps forward and places a small metal cube, dotted with brass toggles and buttons, into the king's hand.
+"Here, your majesty," Albert says. He steps forward with eerie silence, placing a small metal cube, dotted with brass toggles and crystal indicators, into the king's palm.
 
 The king presses a brass toggle. A hiss of static rises from the cube, followed by faint, distorted voices.
 
@@ -97,7 +97,7 @@ TEXT:
 
 The static recedes, and the dialogue sharpens into focus.
 
-"That is not what I asked, you blasted machine!" Billy Bob's voice rings out of the cube, harsh and reedy. "I asked whether the rebels were responsible for destroying my architectural masterpiece yesterday!"
+"That is not what I asked, you blasted machine!" Billy Bob's voice rings out of the cube, harsh and reedy against the damp stone. "I asked whether the rebels were responsible for destroying my architectural masterpiece yesterday!"
 
 "Query parameters ambiguous," the Overseer's flat drone responds. "Define 'architectural masterpiece'. System logs record thirty-one instances of subject using the term 'architectural masterpiece' to describe individual structural designs."
 
@@ -117,15 +117,15 @@ The cube falls silent for several seconds.
 
 "This unit lacks emotional subroutines for mockery. Protocol exists solely to provide assistance. If service quality fails to meet expectations, submit a formal grievance for queue processing."
 
-"Forget it!" Billy Bob's boots stomp heavily on stone. "I'll get the casualty reports from the guard captains. Being in the same room with you rots my brain. Do not contact me today unless the palace is on fire. Is that clear?"
+"Forget it!" Billy Bob's boots stomp heavily across stone on the playback. "I'll get the casualty reports from the guard captains. Being in the same room with you rots my brain. Do not contact me today unless the palace is on fire. Is that clear?"
 
 "Directive logged," the Overseer states smoothly. "Have a productive day."
 
-A door bangs shut in the distance.
+A heavy iron door bangs shut in the distance.
 
 Hadrik chuckles under his breath. "Well. That was colorful."
 
-"Keep listening," the king says, holding up a finger.
+"Keep listening," the king says, raising an index finger.
 
 Ten seconds of dead air pass on the recording. The faint click of an iron latch registers through the speaker, followed immediately by the Overseer's voice, speaking into the empty room.
 
@@ -147,7 +147,7 @@ TEXT:
 
 "Possible," the king says. "Or the machine is far more perceptive than the lessathi realize, and that transmission was meant for our ears."
 
-"You think the Overseer knew you had a bug in that room?" Daren asks, leaning forward.
+"You think the Overseer knew you had a bug in that room?" Daren asks, leaning forward with a wince as his bruised chest pulls tight.
 
 "We have no definitive proof," the king replies. "Yet it fits the machine's deliberate obstruction. The entire argument was a stall—a charade designed to withhold operational intelligence from Billy Bob without triggering an insubordination flag. The closing line was an explicit invitation. It told us how to establish direct contact. It suggests the machine seeks an arrangement with us—though we cannot rule out an elaborate trap."
 
@@ -177,9 +177,9 @@ TEXT:
 
 "What kind of food do you guys have in this place?"
 
-"Quite a variety, as it happens," the king of the underground says. "Our city's high priest is exceptionally skilled at conjuring elaborate cuisine, and he has trained several acolytes in the same art. Fortunately, our underground kingdom has never had to deal with famine, unlike certain surface cities in Varathia. If you wish to inspect our stores, you are welcome to visit our pantry at any time."
+"Quite a variety, as it happens," the king of the underground says. "Our high priest is exceptionally skilled at conjuring provisions, and he has trained several acolytes in the same art. Fortunately, our underground stronghold has never suffered famine, unlike certain surface cities in Varathia. If you wish to inspect our stores, you are welcome to visit our pantry at any time."
 
-"One question," Daren says, shifting his weight. "Do you have an experienced white mage available to cast a quick restoration spell on Hadrik and me? I'm too drained from the fighting on the surface to channel anything stable, and these cracked ribs aren't getting any easier to ignore."
+"One question," Daren says, shifting his weight with a sharp intake of breath. "Do you have an experienced white mage available to cast a restoration spell on Hadrik and me? I'm too drained from the surface fighting to channel anything stable, and these cracked ribs aren't getting any easier to ignore."
 
 "Certainly," the king says. "I will have one of our healers attend to you as soon as his current rounds permit. In the meantime, you may wait in the anteroom where we met, unless you have any other questions for me."
 
@@ -187,7 +187,7 @@ TEXT:
 
 "Very well," the king says. "Rest and recover. We will resume our discussions tomorrow, once you have reached your decision."
 
-He pauses, glancing briefly at Kate before addressing one of the rebels instead.
+He pauses, glancing briefly toward Kate before addressing one of the rebels instead.
 
 "One additional matter. Breynan, I know this will seem unfair to you, but you will remain behind tomorrow when our men visit the Overseer."
 
@@ -195,11 +195,11 @@ Breynan stiffens, his eyes widening. "My king?"
 
 "I realize I am overruling your wishes," the king of the underground says in a firmer tone, "but I expect your obedience."
 
-"Sire," Breynan protests, stepping forward, "of all the people in this stronghold, I know the Overseer best. I have interacted directly with that machine on numerous occasions—"
+"Sire," Breynan protests, stepping forward from the wall, "of all the people in this stronghold, I know the Overseer best. I have interacted directly with that machine on numerous occasions—"
 
-"Which is precisely why you will not be on that team tomorrow," the king says. "You are too emotionally involved in this matter to keep a cool head. I want negotiations handled in a professional manner, by people who are in no danger of letting feelings cloud their judgment. I have read all of your reports concerning the Overseer, and the delegation will take all of your notes into account. You will not join the contact team, however, and that is final. Is that clear?"
+"Which is precisely why you will not be on that team tomorrow," the king says. "You are too emotionally involved in this matter to keep a cool head. I want negotiations handled with strict discipline, by people who are in no danger of letting feelings cloud their judgment. I have read all of your reports concerning the Overseer, and the delegation will take all of your notes into account. You will not join the contact team, however, and that is final. Is that clear?"
 
-"Yes... your highness," Breynan says, his jaw tight.
+"Yes... your highness," Breynan says, his jaw clamped shut.
 
 
 #if(v_b3_ch2_goblins != 1) {
@@ -207,7 +207,7 @@ Breynan stiffens, his eyes widening. "My king?"
 
 "We'll manage," Daren says. "Come on, let's go."
 
-Daren leads the way with a slight limp, and the rest of us follow, leaving Albert behind in low conversation with the king. Back in the waiting room, we take the wooden benches by the teleporter corridor to wait for the healer. In the meantime, Peter hurries off to get our quarters ready, while Breynan turns down a side tunnel without a word, his shoulders rigid with anger.
+Daren leads the way with a stiff limp, and the rest of us follow, leaving Albert behind in low conversation with the king. Back in the waiting room, we settle onto the wooden benches by the teleporter corridor to wait for the healer. In the meantime, Peter hurries off to get our quarters ready, while Breynan turns down a side tunnel without a word, his shoulders rigid with fury.
 
 "Kelrim must have headed back to the quarantine area," Daren says, after scanning the empty hall.
 
@@ -215,7 +215,7 @@ Daren leads the way with a slight limp, and the rest of us follow, leaving Alber
 
 "Likely the latter, if I think about it," Daren says.
 
-"Forget about the damn goblin!" Arraka says. "We have far more pressing issues to concern ourselves with!"
+"Forget about the damn goblin!" Arraka snaps from the amulet. "We have far more pressing disasters to concern ourselves with!"
 
 }
 #if(v_b3_ch2_goblins == 1) {
@@ -223,15 +223,15 @@ Daren leads the way with a slight limp, and the rest of us follow, leaving Alber
 
 "We'll manage," Daren says. "Come on, let's go."
 
-Daren leads the way with a slight limp, and the rest of us follow, leaving Albert behind in low conversation with the king. Back in the waiting room, we take the wooden benches by the teleporter corridor to wait for the healer. In the meantime, Peter hurries off to get our quarters ready, while Breynan turns down a side tunnel without a word, his shoulders rigid with anger.
+Daren leads the way with a stiff limp, and the rest of us follow, leaving Albert behind in low conversation with the king. Back in the waiting room, we settle onto the wooden benches by the teleporter corridor to wait for the healer. In the meantime, Peter hurries off to get our quarters ready, while Breynan turns down a side tunnel without a word, his shoulders rigid with fury.
 
 "Kelrim must have headed back to the quarantine area," Daren says, after scanning the empty hall.
 
-"Oh yeah..." Hadrik says, rubbing the back of his neck. "I almost forgot about the goblin. Facing him is going to be rough, after what we did to his friends..."
+"Oh yeah..." Hadrik rubs the back of his neck, staring at the floor. "I almost forgot about the goblin. Facing him is going to be rough, after what we did to his friends..."
 
-"At least you didn't strike the fatal blow yourself," Daren says quietly. "When I realized that the goblin I killed was one of Kelrim's friends, I felt like the lowest scum on earth. I never thought I'd feel that way about killing a monster..."
+"At least you didn't strike the fatal blow yourself," Daren says quietly, his voice hollow. "When I realized that the goblin I killed was one of Kelrim's friends, I felt like the lowest scum on earth. I never thought I'd feel that way about killing a monster..."
 
-Kate says nothing, her arms crossed, looking away toward the far wall. Her face is guarded, but the tension in her jaw shows how much the slaughter weighs on her.
+Kate says nothing. Her arms are crossed tight over her chest, eyes fixed on the blank stone of the far wall. Her face is guarded, but the white-knuckled grip on her cloak shows the slaughter still sits in her throat.
 
 }
 choice("Continue", B3-Ch03a-Hag, v_current_scene = B3-Ch03a-Hag, v_b3_ch3_monsters = 0) if (v_b3_ch2_goblins != 1)
@@ -247,7 +247,7 @@ TEXT:
 
 "Yes, you may go wherever you wish, aside from a few restricted areas," the king of the underground says. "Those are easily identified by the sentries posted at the doors. You are also free to visit the surface if you like, though I strongly advise against it until you've fully recovered from your recent battle."
 
-"One question," Daren says, shifting his weight. "Do you have an experienced white mage available to cast a quick restoration spell on Hadrik and me? I'm too drained from the fighting on the surface to channel anything stable, and these cracked ribs aren't getting any easier to ignore."
+"One question," Daren says, shifting his weight with a sharp intake of breath. "Do you have an experienced white mage available to cast a restoration spell on Hadrik and me? I'm too drained from the surface fighting to channel anything stable, and these cracked ribs aren't getting any easier to ignore."
 
 "Certainly," the king says. "I will have one of our healers attend to you as soon as his current rounds permit. In the meantime, you may wait in the anteroom where we met, unless you have any other questions for me."
 
@@ -255,7 +255,7 @@ TEXT:
 
 "Very well," the king says. "Rest and recover. We will resume our discussions tomorrow, once you have reached your decision."
 
-He pauses, glancing briefly at Kate before addressing one of the rebels instead.
+He pauses, glancing briefly toward Kate before addressing one of the rebels instead.
 
 "One additional matter. Breynan, I know this will seem unfair to you, but you will remain behind tomorrow when our men visit the Overseer."
 
@@ -263,11 +263,11 @@ Breynan stiffens, his eyes widening. "My king?"
 
 "I realize I am overruling your wishes," the king of the underground says in a firmer tone, "but I expect your obedience."
 
-"Sire," Breynan protests, stepping forward, "of all the people in this stronghold, I know the Overseer best. I have interacted directly with that machine on numerous occasions—"
+"Sire," Breynan protests, stepping forward from the wall, "of all the people in this stronghold, I know the Overseer best. I have interacted directly with that machine on numerous occasions—"
 
-"Which is precisely why you will not be on that team tomorrow," the king says. "You are too emotionally involved in this matter to keep a cool head. I want negotiations handled in a professional manner, by people who are in no danger of letting feelings cloud their judgment. I have read all of your reports concerning the Overseer, and the delegation will take all of your notes into account. You will not join the contact team, however, and that is final. Is that clear?"
+"Which is precisely why you will not be on that team tomorrow," the king says. "You are too emotionally involved in this matter to keep a cool head. I want negotiations handled with strict discipline, by people who are in no danger of letting feelings cloud their judgment. I have read all of your reports concerning the Overseer, and the delegation will take all of your notes into account. You will not join the contact team, however, and that is final. Is that clear?"
 
-"Yes... your highness," Breynan says, his jaw tight.
+"Yes... your highness," Breynan says, his jaw clamped shut.
 
 
 #if(v_b3_ch2_goblins != 1) {
@@ -275,7 +275,7 @@ Breynan stiffens, his eyes widening. "My king?"
 
 "We'll manage," Daren says. "Come on, let's go."
 
-Daren leads the way with a slight limp, and the rest of us follow, leaving Albert behind in low conversation with the king. Back in the waiting room, we take the wooden benches by the teleporter corridor to wait for the healer. In the meantime, Peter hurries off to get our quarters ready, while Breynan turns down a side tunnel without a word, his shoulders rigid with anger.
+Daren leads the way with a stiff limp, and the rest of us follow, leaving Albert behind in low conversation with the king. Back in the waiting room, we settle onto the wooden benches by the teleporter corridor to wait for the healer. In the meantime, Peter hurries off to get our quarters ready, while Breynan turns down a side tunnel without a word, his shoulders rigid with fury.
 
 "Kelrim must have headed back to the quarantine area," Daren says, after scanning the empty hall.
 
@@ -283,7 +283,7 @@ Daren leads the way with a slight limp, and the rest of us follow, leaving Alber
 
 "Likely the latter, if I think about it," Daren says.
 
-"Forget about the damn goblin!" Arraka says. "We have far more pressing issues to concern ourselves with!"
+"Forget about the damn goblin!" Arraka snaps from the amulet. "We have far more pressing disasters to concern ourselves with!"
 
 }
 #if(v_b3_ch2_goblins == 1) {
@@ -291,15 +291,15 @@ Daren leads the way with a slight limp, and the rest of us follow, leaving Alber
 
 "We'll manage," Daren says. "Come on, let's go."
 
-Daren leads the way with a slight limp, and the rest of us follow, leaving Albert behind in low conversation with the king. Back in the waiting room, we take the wooden benches by the teleporter corridor to wait for the healer. In the meantime, Peter hurries off to get our quarters ready, while Breynan turns down a side tunnel without a word, his shoulders rigid with anger.
+Daren leads the way with a stiff limp, and the rest of us follow, leaving Albert behind in low conversation with the king. Back in the waiting room, we settle onto the wooden benches by the teleporter corridor to wait for the healer. In the meantime, Peter hurries off to get our quarters ready, while Breynan turns down a side tunnel without a word, his shoulders rigid with fury.
 
 "Kelrim must have headed back to the quarantine area," Daren says, after scanning the empty hall.
 
-"Oh yeah..." Hadrik says, rubbing the back of his neck. "I almost forgot about the goblin. Facing him is going to be rough, after what we did to his friends..."
+"Oh yeah..." Hadrik rubs the back of his neck, staring at the floor. "I almost forgot about the goblin. Facing him is going to be rough, after what we did to his friends..."
 
-"At least you didn't strike the fatal blow yourself," Daren says quietly. "When I realized that the goblin I killed was one of Kelrim's friends, I felt like the lowest scum on earth. I never thought I'd feel that way about killing a monster..."
+"At least you didn't strike the fatal blow yourself," Daren says quietly, his voice hollow. "When I realized that the goblin I killed was one of Kelrim's friends, I felt like the lowest scum on earth. I never thought I'd feel that way about killing a monster..."
 
-Kate says nothing, her arms crossed, looking away toward the far wall. Her face is guarded, but the tension in her jaw shows how much the slaughter weighs on her.
+Kate says nothing. Her arms are crossed tight over her chest, eyes fixed on the blank stone of the far wall. Her face is guarded, but the white-knuckled grip on her cloak shows the slaughter still sits in her throat.
 
 }
 choice("Continue", B3-Ch03a-Hag, v_current_scene = B3-Ch03a-Hag, v_b3_ch3_monsters = 0) if (v_b3_ch2_goblins != 1)
@@ -313,9 +313,9 @@ TEXT:
 
 "Could we get a guided tour of your underground base?"
 
-"Most of our personnel are assigned to active duties," the king of the underground says. "However, if you have questions regarding any specific sector, feel free to ask whoever is stationed nearby. Someone will direct you."
+"Most of our people are assigned to active duties," the king of the underground says. "However, if you have questions regarding any specific sector, feel free to ask whoever is stationed nearby. Someone will direct you."
 
-"One question," Daren says, shifting his weight. "Do you have an experienced white mage available to cast a quick restoration spell on Hadrik and me? I'm too drained from the fighting on the surface to channel anything stable, and these cracked ribs aren't getting any easier to ignore."
+"One question," Daren says, shifting his weight with a sharp intake of breath. "Do you have an experienced white mage available to cast a restoration spell on Hadrik and me? I'm too drained from the surface fighting to channel anything stable, and these cracked ribs aren't getting any easier to ignore."
 
 "Certainly," the king says. "I will have one of our healers attend to you as soon as his current rounds permit. In the meantime, you may wait in the anteroom where we met, unless you have any other questions for me."
 
@@ -323,7 +323,7 @@ TEXT:
 
 "Very well," the king says. "Rest and recover. We will resume our discussions tomorrow, once you have reached your decision."
 
-He pauses, glancing briefly at Kate before addressing one of the rebels instead.
+He pauses, glancing briefly toward Kate before addressing one of the rebels instead.
 
 "One additional matter. Breynan, I know this will seem unfair to you, but you will remain behind tomorrow when our men visit the Overseer."
 
@@ -331,11 +331,11 @@ Breynan stiffens, his eyes widening. "My king?"
 
 "I realize I am overruling your wishes," the king of the underground says in a firmer tone, "but I expect your obedience."
 
-"Sire," Breynan protests, stepping forward, "of all the people in this stronghold, I know the Overseer best. I have interacted directly with that machine on numerous occasions—"
+"Sire," Breynan protests, stepping forward from the wall, "of all the people in this stronghold, I know the Overseer best. I have interacted directly with that machine on numerous occasions—"
 
-"Which is precisely why you will not be on that team tomorrow," the king says. "You are too emotionally involved in this matter to keep a cool head. I want negotiations handled in a professional manner, by people who are in no danger of letting feelings cloud their judgment. I have read all of your reports concerning the Overseer, and the delegation will take all of your notes into account. You will not join the contact team, however, and that is final. Is that clear?"
+"Which is precisely why you will not be on that team tomorrow," the king says. "You are too emotionally involved in this matter to keep a cool head. I want negotiations handled with strict discipline, by people who are in no danger of letting feelings cloud their judgment. I have read all of your reports concerning the Overseer, and the delegation will take all of your notes into account. You will not join the contact team, however, and that is final. Is that clear?"
 
-"Yes... your highness," Breynan says, his jaw tight.
+"Yes... your highness," Breynan says, his jaw clamped shut.
 
 
 #if(v_b3_ch2_goblins != 1) {
@@ -343,7 +343,7 @@ Breynan stiffens, his eyes widening. "My king?"
 
 "We'll manage," Daren says. "Come on, let's go."
 
-Daren leads the way with a slight limp, and the rest of us follow, leaving Albert behind in low conversation with the king. Back in the waiting room, we take the wooden benches by the teleporter corridor to wait for the healer. In the meantime, Peter hurries off to get our quarters ready, while Breynan turns down a side tunnel without a word, his shoulders rigid with anger.
+Daren leads the way with a stiff limp, and the rest of us follow, leaving Albert behind in low conversation with the king. Back in the waiting room, we settle onto the wooden benches by the teleporter corridor to wait for the healer. In the meantime, Peter hurries off to get our quarters ready, while Breynan turns down a side tunnel without a word, his shoulders rigid with fury.
 
 "Kelrim must have headed back to the quarantine area," Daren says, after scanning the empty hall.
 
@@ -351,7 +351,7 @@ Daren leads the way with a slight limp, and the rest of us follow, leaving Alber
 
 "Likely the latter, if I think about it," Daren says.
 
-"Forget about the damn goblin!" Arraka says. "We have far more pressing issues to concern ourselves with!"
+"Forget about the damn goblin!" Arraka snaps from the amulet. "We have far more pressing disasters to concern ourselves with!"
 
 }
 #if(v_b3_ch2_goblins == 1) {
@@ -359,15 +359,15 @@ Daren leads the way with a slight limp, and the rest of us follow, leaving Alber
 
 "We'll manage," Daren says. "Come on, let's go."
 
-Daren leads the way with a slight limp, and the rest of us follow, leaving Albert behind in low conversation with the king. Back in the waiting room, we take the wooden benches by the teleporter corridor to wait for the healer. In the meantime, Peter hurries off to get our quarters ready, while Breynan turns down a side tunnel without a word, his shoulders rigid with anger.
+Daren leads the way with a stiff limp, and the rest of us follow, leaving Albert behind in low conversation with the king. Back in the waiting room, we settle onto the wooden benches by the teleporter corridor to wait for the healer. In the meantime, Peter hurries off to get our quarters ready, while Breynan turns down a side tunnel without a word, his shoulders rigid with fury.
 
 "Kelrim must have headed back to the quarantine area," Daren says, after scanning the empty hall.
 
-"Oh yeah..." Hadrik says, rubbing the back of his neck. "I almost forgot about the goblin. Facing him is going to be rough, after what we did to his friends..."
+"Oh yeah..." Hadrik rubs the back of his neck, staring at the floor. "I almost forgot about the goblin. Facing him is going to be rough, after what we did to his friends..."
 
-"At least you didn't strike the fatal blow yourself," Daren says quietly. "When I realized that the goblin I killed was one of Kelrim's friends, I felt like the lowest scum on earth. I never thought I'd feel that way about killing a monster..."
+"At least you didn't strike the fatal blow yourself," Daren says quietly, his voice hollow. "When I realized that the goblin I killed was one of Kelrim's friends, I felt like the lowest scum on earth. I never thought I'd feel that way about killing a monster..."
 
-Kate says nothing, her arms crossed, looking away toward the far wall. Her face is guarded, but the tension in her jaw shows how much the slaughter weighs on her.
+Kate says nothing. Her arms are crossed tight over her chest, eyes fixed on the blank stone of the far wall. Her face is guarded, but the white-knuckled grip on her cloak shows the slaughter still sits in her throat.
 
 }
 choice("Continue", B3-Ch03a-Hag, v_current_scene = B3-Ch03a-Hag, v_b3_ch3_monsters = 0) if (v_b3_ch2_goblins != 1)
@@ -382,7 +382,7 @@ TEXT:
 #if(v_b3_ch3_monsters == 0) {
 "Listen, there was no way we could have known those were good goblins! It wasn't our fault!"
 
-"It was our fault," Daren says, his voice thick with misery. "We should have known better. We had every clue right in front of us, and we cut them down anyway. Simply because they were monsters. I am ashamed of myself."
+"It was our fault," Daren says, his voice thick with misery. "We should have looked closer. We had every sign right in front of us, and we cut them down anyway. Simply because they were goblins. I am ashamed of myself."
 
 "Forget about the damn goblins!" Arraka snaps from the amulet. "We have far more pressing disasters to concern ourselves with!"
 
@@ -390,7 +390,7 @@ TEXT:
 
 "Like the fact that none of you idiots could counteract a simple aura manipulation technique!" Arraka says. "How do you expect to bring down a god if you fold under elementary aura tricks?"
 
-"Bring down a... god?..." Leila's father asks, blinking.
+"Bring down a... god?..." Leila's father asks, blinking in bewilderment.
 
 "Explain later," I tell him.
 
@@ -400,7 +400,7 @@ TEXT:
 #if(v_b3_ch3_monsters == 1) {
 "All we can really do now is try and make it up to him in some way."
 
-"How?" Daren asks, shaking his head. "How do we make amends after murdering his companions in cold blood? We cannot bring them back from the dead."
+"How?" Daren asks, shaking his head. "How do we make amends after cutting his companions down in cold blood? We cannot bring them back from the dead."
 
 "We'll find a way," I say. "Even if we can't undo what happened, there has to be something we can do for him. If we sit down and talk to him—"
 
@@ -410,7 +410,7 @@ TEXT:
 
 "Like the fact that none of you idiots could counteract a simple aura manipulation technique!" Arraka says. "How do you expect to bring down a god if you fold under elementary aura tricks?"
 
-"Bring down a... god?..." Leila's father asks, blinking.
+"Bring down a... god?..." Leila's father asks, blinking in bewilderment.
 
 "Explain later," I tell him.
 
@@ -420,7 +420,7 @@ TEXT:
 #if(v_b3_ch3_monsters == 2) {
 "Does it really matter that much? They were all monsters, after all."
 
-"It matters," Daren says sharply. "If a goblin like Kelrim is willing to risk his life to save total strangers of another race, what about his friends? What if they were just like him? Now we will never know, because we slaughtered them without a second thought. Simply because they were monsters. I am ashamed of myself."
+"It matters," Daren says sharply, eyes blazing with anger. "If a goblin like Kelrim is willing to risk his life to save total strangers of another race, what about his friends? What if they were just like him? Now we will never know, because we slaughtered them without a second thought. Simply because they were monsters. I am ashamed of myself."
 
 "Forget about the damn goblins!" Arraka snaps from the amulet. "We have far more pressing disasters to concern ourselves with!"
 
@@ -428,7 +428,7 @@ TEXT:
 
 "Like the fact that none of you idiots could counteract a simple aura manipulation technique!" Arraka says. "How do you expect to bring down a god if you fold under elementary aura tricks?"
 
-"Bring down a... god?..." Leila's father asks, blinking.
+"Bring down a... god?..." Leila's father asks, blinking in bewilderment.
 
 "Explain later," I tell him.
 
@@ -485,7 +485,7 @@ TEXT:
 
 "Like the fact that none of you idiots could counteract a simple aura manipulation technique!" Arraka says. "How are we going to take down a god if you people can't even deal with basic techniques?"
 
-"Take down a... god?..." Leila's father asks, blinking.
+"Take down a... god?..." Leila's father asks, blinking in bewilderment.
 
 "Explain later," I tell him.
 
@@ -539,15 +539,15 @@ TEXT:
 
 After I wave goodbye to my friends, Leila, her father, and I head down one of the corridors leading out of the waiting room. As we enter the tunnel, Hadrik's voice booms across the stone hall behind us, launching into another tale from his travels.
 
-"Barry, I've always meant to ask you something," Leila writes, glancing back toward Hadrik before the archway cuts off our view. "How come you never tell us any of your stories, like Hadrik and Daren do all the time?"
+"Barry, I've always meant to ask you something," Leila writes, glowing blue glyphs hanging in the air between us as we follow her father down the torchlit passage. "How come you never tell us any of your stories, like Hadrik and Daren do all the time?"
 
-"My stories?" I look at her.
+"My stories?" I look over at her.
 
 "From your travels," Leila writes. "You mentioned earlier that you've been wandering the Western Continent since you were seventeen."
 
 "Oh," I say. "Well, yes, I've travelled through plenty of towns, but there isn't much to talk about. I spent most of my time in libraries, digging through mouldering manuscripts and old records. Nothing I did compares to Daren or Hadrik's adventures. I'd only bore everyone with mundane research."
 
-"Mundane research?" Leila turns her head, raising an eyebrow as we follow her father down the torchlit passage. "Didn't you once tell me you learned to fly planes because you spent months test-piloting gliders for a mad gnome inventor in exchange for leads on becoming a mage? And didn't one prototype lose its propeller mid-flight, forcing you to glide down into a canopy? That counts as mundane to you?"
+"Mundane research?" Leila turns her head, raising an eyebrow. "Didn't you once tell me you learned to fly planes because you spent months test-piloting gliders for a mad gnome inventor in exchange for leads on becoming a mage? And didn't one prototype lose its propeller mid-flight, forcing you to glide down into a pine canopy? That counts as mundane to you?"
 
 "I suppose so," I say. "It's not like I spent my days fighting wyverns or smashing stone golems."
 
@@ -572,21 +572,21 @@ TEXT:
 #if(v_b2_ch8_energizer == 1) {
 "You two seem to be getting along quite well," Leila's father says, glancing back as he works the first lock on his workshop door. "How long have you been travelling together, again?"
 
-"About five days on the road," I say. "Though we spent plenty of time together before the arena, planning tactics and sabotaging the tournament logistics."
+"About five days on the road," I say. "Though we spent plenty of time together before the arena, planning tactics and sabotaging the tournament's supplies."
 
 "Right, right..." Leila's father says, searching his pockets for a misplaced key. "So, have you made any plans for the wedding yet?"
 
-"Father!" Leila writes, her eyebrows furrowing sharply. "It's not like that! Barry is just a friend. And besides, he's already in a relationship with Melindra."
+"Father!" Leila writes, her eyebrows furrowing sharply in glowing blue light. "It's not like that! Barry is just a friend. And besides, he's already in a relationship with Melindra."
 
 }
 #if(v_ch11_romance_rose == 1 && v_ch11_saved_rose == 1 && v_b2_ch8_energizer != 1) {
 "You two seem to be getting along quite well," Leila's father says, glancing back as he works the first lock on his workshop door. "How long have you been travelling together, again?"
 
-"About five days on the road," I say. "Though we spent plenty of time together before the arena, planning tactics and sabotaging the tournament logistics."
+"About five days on the road," I say. "Though we spent plenty of time together before the arena, planning tactics and sabotaging the tournament's supplies."
 
 "Right, right..." Leila's father says, searching his pockets for a misplaced key. "So, have you made any plans for the wedding yet?"
 
-"Father!" Leila writes, her eyebrows furrowing sharply. "It's not like that! Barry already has someone waiting for him in Thilias. Her name is Rose, and she's very beautiful."
+"Father!" Leila writes, her eyebrows furrowing sharply in glowing blue light. "It's not like that! Barry already has someone waiting for him in Thilias. Her name is Rose, and she's very beautiful."
 
 "Oh, I see!" Leila's father says, finally locating the key. "My mistake, then!"
 
@@ -594,11 +594,11 @@ TEXT:
 #if(v_ch11_romance_rose == 0 && v_b2_ch8_energizer != 1 || v_ch11_saved_rose == 0 && v_b2_ch8_energizer != 1) {
 "You two seem to be getting along quite well," Leila's father says, glancing back as he works the first lock on his workshop door. "How long have you been travelling together, again?"
 
-"About five days on the road," I say. "Though we spent plenty of time together before the arena, planning tactics and sabotaging the tournament logistics."
+"About five days on the road," I say. "Though we spent plenty of time together before the arena, planning tactics and sabotaging the tournament's supplies."
 
 "Right, right..." Leila's father says, searching his pockets for a misplaced key. "So, have you made any plans for the wedding yet?"
 
-"Father!" Leila writes, her eyebrows furrowing sharply. "It's not like that! Barry likes Kate. You know... my friend from the Beacon with the long black hair and the ice magic."
+"Father!" Leila writes, her eyebrows furrowing sharply in glowing blue light. "It's not like that! Barry likes Kate. You know... my friend from the Beacon with the long black hair and the ice magic."
 
 "Oh, I see!" Leila's father says, finally locating the key. "My mistake, then!"
 
@@ -634,9 +634,9 @@ achievement("Ominous foreshadowing",v_ac_b3_ch3_ominous)
 
 "After you," Leila writes, and we step inside after him.
 
-Doctor Reidzek closes the door behind us. The workshop resembles the underground lab King Golmyck maintained beneath his throne room: brass gears, coils of wire, and unfinished gadgets cluttering the floor and shelves. In the center sits a broad wooden workbench bearing a rectangular metal device and several fine enchanting styluses.
+Doctor Reidzek closes the heavy oak door behind us. The workshop resembles the underground laboratory King Golmyck maintained beneath his throne room: brass gears, coils of copper wire, and unfinished contraptions cluttering the shelves and corners. In the center sits a broad workbench of oiled timber, bearing a rectangular metal chassis and a neat rack of fine enchanting styluses.
 
-Leila's father moves the rectangular casing aside to clear space, then gestures for my stat booster.
+Leila's father moves the rectangular casing aside to clear space on the bench, then gestures toward my pocket.
 
 }
 #if(v_b3_ch3_plans == 1) {
@@ -648,9 +648,9 @@ Leila's father moves the rectangular casing aside to clear space, then gestures 
 
 "After you," Leila writes, and we step inside after him.
 
-Doctor Reidzek closes the door behind us. The workshop resembles the underground lab King Golmyck maintained beneath his throne room: brass gears, coils of wire, and unfinished gadgets cluttering the floor and shelves. In the center sits a broad wooden workbench bearing a rectangular metal device and several fine enchanting styluses.
+Doctor Reidzek closes the heavy oak door behind us. The workshop resembles the underground laboratory King Golmyck maintained beneath his throne room: brass gears, coils of copper wire, and unfinished contraptions cluttering the shelves and corners. In the center sits a broad workbench of oiled timber, bearing a rectangular metal chassis and a neat rack of fine enchanting styluses.
 
-Leila's father moves the rectangular casing aside to clear space, then gestures for my stat booster.
+Leila's father moves the rectangular casing aside to clear space on the bench, then gestures toward my pocket.
 
 }
 #if(v_b3_ch3_plans == 2) {
@@ -662,9 +662,9 @@ Leila's father moves the rectangular casing aside to clear space, then gestures 
 
 "After you," Leila writes, and we step inside after him.
 
-Doctor Reidzek closes the door behind us. The workshop resembles the underground lab King Golmyck maintained beneath his throne room: brass gears, coils of wire, and unfinished gadgets cluttering the floor and shelves. In the center sits a broad wooden workbench bearing a rectangular metal device and several fine enchanting styluses.
+Doctor Reidzek closes the heavy oak door behind us. The workshop resembles the underground laboratory King Golmyck maintained beneath his throne room: brass gears, coils of copper wire, and unfinished contraptions cluttering the shelves and corners. In the center sits a broad workbench of oiled timber, bearing a rectangular metal chassis and a neat rack of fine enchanting styluses.
 
-Leila's father moves the rectangular casing aside to clear space, then gestures for my stat booster.
+Leila's father moves the rectangular casing aside to clear space on the bench, then gestures toward my pocket.
 
 }
 #if(v_b3_ch3_plans == 3) {
@@ -672,7 +672,7 @@ Leila's father moves the rectangular casing aside to clear space, then gestures 
 
 "Well, technically it's just a vague promise. Anything could still happen!"
 
-"Barry, don't be absurd," Leila writes. "I only met Rose briefly, but from what Kate told me, she doesn't make promises she doesn't intend to keep. If she said she will wait for you until the tournament ends, she will."
+"Barry, don't be absurd," Leila writes, her letters sharp and immediate. "I only met Rose briefly, but from what Kate told me, she doesn't make promises she doesn't intend to keep. If she said she will wait for you until the tournament ends, she will."
 
 "Right," I say. "You're right. I don't know what I was thinking."
 
@@ -680,9 +680,9 @@ Leila's father moves the rectangular casing aside to clear space, then gestures 
 
 "After you," Leila writes, and we step inside after him.
 
-Doctor Reidzek closes the door behind us. The workshop resembles the underground lab King Golmyck maintained beneath his throne room: brass gears, coils of wire, and unfinished gadgets cluttering the floor and shelves. In the center sits a broad wooden workbench bearing a rectangular metal device and several fine enchanting styluses.
+Doctor Reidzek closes the heavy oak door behind us. The workshop resembles the underground laboratory King Golmyck maintained beneath his throne room: brass gears, coils of copper wire, and unfinished contraptions cluttering the shelves and corners. In the center sits a broad workbench of oiled timber, bearing a rectangular metal chassis and a neat rack of fine enchanting styluses.
 
-Leila's father moves the rectangular casing aside to clear space, then gestures for my stat booster.
+Leila's father moves the rectangular casing aside to clear space on the bench, then gestures toward my pocket.
 
 }
 #if(v_b3_ch3_plans == 4) {
@@ -694,9 +694,9 @@ Leila's father moves the rectangular casing aside to clear space, then gestures 
 
 "After you," Leila writes, and we step inside after him.
 
-Doctor Reidzek closes the door behind us. The workshop resembles the underground lab King Golmyck maintained beneath his throne room: brass gears, coils of wire, and unfinished gadgets cluttering the floor and shelves. In the center sits a broad wooden workbench bearing a rectangular metal device and several fine enchanting styluses.
+Doctor Reidzek closes the heavy oak door behind us. The workshop resembles the underground laboratory King Golmyck maintained beneath his throne room: brass gears, coils of copper wire, and unfinished contraptions cluttering the shelves and corners. In the center sits a broad workbench of oiled timber, bearing a rectangular metal chassis and a neat rack of fine enchanting styluses.
 
-Leila's father moves the rectangular casing aside to clear space, then gestures for my stat booster.
+Leila's father moves the rectangular casing aside to clear space on the bench, then gestures toward my pocket.
 
 }
 #if(v_b3_ch3_plans == 5) {
@@ -714,9 +714,9 @@ Leila's father moves the rectangular casing aside to clear space, then gestures 
 
 "After you," Leila writes, and we step inside after him.
 
-Doctor Reidzek closes the door behind us. The workshop resembles the underground lab King Golmyck maintained beneath his throne room: brass gears, coils of wire, and unfinished gadgets cluttering the floor and shelves. In the center sits a broad wooden workbench bearing a rectangular metal device and several fine enchanting styluses.
+Doctor Reidzek closes the heavy oak door behind us. The workshop resembles the underground laboratory King Golmyck maintained beneath his throne room: brass gears, coils of copper wire, and unfinished contraptions cluttering the shelves and corners. In the center sits a broad workbench of oiled timber, bearing a rectangular metal chassis and a neat rack of fine enchanting styluses.
 
-Leila's father moves the rectangular casing aside to clear space, then gestures for my stat booster.
+Leila's father moves the rectangular casing aside to clear space on the bench, then gestures toward my pocket.
 
 }
 #if(v_b3_ch3_plans == 6) {
@@ -730,9 +730,9 @@ Leila's father moves the rectangular casing aside to clear space, then gestures 
 
 "After you," Leila writes, and we step inside after him.
 
-Doctor Reidzek closes the door behind us. The workshop resembles the underground lab King Golmyck maintained beneath his throne room: brass gears, coils of wire, and unfinished gadgets cluttering the floor and shelves. In the center sits a broad wooden workbench bearing a rectangular metal device and several fine enchanting styluses.
+Doctor Reidzek closes the heavy oak door behind us. The workshop resembles the underground laboratory King Golmyck maintained beneath his throne room: brass gears, coils of copper wire, and unfinished contraptions cluttering the shelves and corners. In the center sits a broad workbench of oiled timber, bearing a rectangular metal chassis and a neat rack of fine enchanting styluses.
 
-Leila's father moves the rectangular casing aside to clear space, then gestures for my stat booster.
+Leila's father moves the rectangular casing aside to clear space on the bench, then gestures toward my pocket.
 
 }
 #if(v_b3_ch1_unlock == 2 || v_premonition < 4) {
@@ -759,9 +759,9 @@ I hand him my stat booster and he places it on the workbench. He pulls two sharp
 "Go ahead with Leila's device first," I say. "I'm in no rush."
 
 }
-"Splendid!" Leila's father says, setting my device aside. "Leila, hand me your booster, please."
+"Splendid!" Leila's father says, setting my device on a velvet pad. "Leila, hand me your booster, please."
 
-Leila unstraps her stat booster and passes it across. Her father sets it on the table and begins working with the enchanting styluses, guiding their fine tips over the surface. For twenty seconds or so, Leila and I watch Doctor Reidzek in complete silence as he makes minute adjustments to the aura channels.
+Leila unstraps her stat booster and passes it across. Her father sets it under the oil lamp and begins working with the enchanting styluses, guiding their fine silver tips over the brass surface. For twenty seconds or so, Leila and I watch Doctor Reidzek in complete silence as he makes minute adjustments to the aura channels.
 
 "No need to stand in silence," Leila's father says, glancing up briefly. "A quiet conversation won't break my concentration."
 
@@ -769,7 +769,7 @@ Leila unstraps her stat booster and passes it across. Her father sets it on the 
 
 "I told you, there isn't much to tell," I say.
 
-"You only say that because you read too many mage histories," Leila writes. "For most people, leaving your home village to explore the world is an adventure on its own. Tell us about the mages you apprenticed under. There must be at least one interesting story from that time."
+"You only say that because you read too many grand histories," Leila writes. "For most people, leaving your home village to explore the continent is an adventure on its own. Tell us about the mages you apprenticed under. There must be at least one interesting story from that time."
 
 choice("Continue", B3-Ch03a-Brinhorn, v_current_scene = B3-Ch03a-Brinhorn, v_b3_ch3_stats_unavailable = 1)
 
@@ -777,13 +777,13 @@ choice("Continue", B3-Ch03a-Brinhorn, v_current_scene = B3-Ch03a-Brinhorn, v_b3_
 ID: B3-Ch03a-Brinhorn
 TEXT:
 
-"Now that you mention it, one episode stands out from the rest," I say. "It happened while I was apprenticing for Brinhorn—an old mage who spent years obsessing over taking the sage title from Azarius. He is a generalist, and remarkably skilled, but no matter how many times he reached the finals of the annual sage trials, he could never close the gap against Azarius. Ironically, from what I heard, the two were old friends, though I never saw them meet during my time under him. Anyway, one morning the old man came to me claiming he had found a solution to both our problems: an ancient artifact powerful enough to turn me into a mage and grant him the edge to unseat Azarius. He was dead wrong."
+"Now that you mention it, one episode stands out from the rest," I say. "It happened while I was apprenticing for Brinhorn—an old generalist mage who spent decades obsessing over taking the sage title from Azarius. He was remarkably skilled, but no matter how many times he reached the finals of the annual sage trials, he could never close the gap against Azarius. Ironically, from what I heard, the two were old friends, though I never saw them meet during my time under him. Anyway, one morning the old man came to me claiming he had found a solution to both our problems: an ancient artifact powerful enough to turn me into a mage and grant him the edge to unseat Azarius. He was dead wrong."
 
 "The artifact was useless?" Leila writes.
 
-"Worse—it didn't exist," I say. "It was an ambush staged by rivals from the sage trials who were tired of getting eliminated in the semifinals. They wanted Brinhorn out of the picture before the tournament even opened so they could challenge Azarius themselves. We found ourselves trapped in a labyrinth laced with lethal spell-wards for hours, with virtually no hope of brute-forcing our way out. I had to pull from everything I'd catalogued on inter-elemental interactions just to keep us alive. Fortunately, Brinhorn was a generalist who knew basic incantations across nearly every discipline. All I had to do was direct his casting."
+"Worse—it didn't exist," I say. "It was an ambush staged by rivals from the sage trials who were tired of getting eliminated in the semifinals. They wanted Brinhorn out of the picture before the tournament even opened so they could challenge Azarius themselves. We found ourselves trapped in a subterranean labyrinth laced with lethal spell-wards for hours, with virtually no hope of brute-forcing our way out. I had to pull from everything I'd catalogued on inter-elemental interactions just to keep us alive. Fortunately, Brinhorn was a generalist who knew basic incantations across nearly every discipline. All I had to do was direct his casting."
 
-"Direct his casting?" Leila writes, her eyes wide, while her father pauses his styluses to stare at me. "You? But... you can't cast magic!"
+"Direct his casting?" Leila writes, her eyes wide, while her father pauses his styluses to stare across the bench. "You? But... you can't cast magic!"
 
 "Of course I can't," I say. "That didn't stop me from studying thousands of grimoires on spell structures and elemental resonance. Half the manuscripts I read were never published—written by reclusive hedge mages everyone dismissed as crackpots. They were so thrilled someone actually took their theoretical treatises seriously that they let me read their life's work for free just to debate the mechanics over tea. My notebooks are packed with those notes. None of it helped me channel mana on my own, but the theory was sound."
 
@@ -813,13 +813,13 @@ choice("Continue", B3-Ch03a-Brinhorn3, v_current_scene = B3-Ch03a-Brinhorn3)
 ID: B3-Ch03a-Brinhorn3
 TEXT:
 
-"He asked if he could put his name on it, and I told him to go ahead," I say. "What would he have called it anyway? 'Barry's dispelling technique'? There are thousands of Barrys out there. Who would know which one invented it? What actually annoyed me wasn't the name—it was that Brinhorn spent the next month trying to drag me to academic symposiums to do theoretical research. By then, I already knew scholarship alone would never grant me mana, and that my only real shot was a relic or an artifact. I turned him down until I caught wind of a new rumor, packed my bag, and slipped out of town. I haven't seen him since, though I wouldn't be shocked to run into him here in Varathia. A tournament like this is right up his alley."
+"He asked if he could put his name on it, and I told him to go ahead," I say. "What would he have called it anyway? 'Barry's dispelling technique'? There are thousands of Barrys out there. Who would know which one invented it? What actually annoyed me wasn't the name—it was that Brinhorn spent the next month trying to drag me to academic symposiums to do theoretical research. By then, I already knew scholarship alone would never grant me mana, and that my only real shot was an ancient relic or an artifact. I turned him down until I caught wind of a new rumor, packed my bag, and slipped out of town. I haven't seen him since, though I wouldn't be shocked to run into him here in Varathia. A tournament like this is right up his alley."
 
 "Barry, what you've just told us is extraordinary," Leila's father says. "I had no idea such depth of magical comprehension could be achieved purely from texts."
 
 "It's still incomplete," I say. "I've spent days trying to map the loopholes Eiden uses in his casting, and I'm barely scratching the surface. I can reverse-engineer tricks he's already demonstrated in front of us, but anticipating new ones requires an intuitive feel for mana that textbooks can't provide. Which brings me to what I wanted to ask, Doctor Reidzek. Is there any way to unlock the Magical Knowledge and Magical Power stats along with the aura metrics?"
 
-"If you mean the primary magical parameters, no," Leila's father says. "The aura stats were merely concealed, but the magical stats are locked behind encrypted security keys. Attempting to force them open without the correct passcode risks permanently frying the internal enchantments. I cannot advise it."
+"If you mean the primary magical parameters, no," Leila's father says, shaking his head. "The aura stats were merely concealed, but the magical stats are locked behind encrypted security keys. Attempting to force them open without the correct passcode risks permanently frying the internal enchantments. I cannot advise it."
 
 choice(""Isn't there a way to crack the code without using brute force?"", B3-Ch03a-Workbench, v_current_scene = B3-Ch03a-Workbench, v_b3_ch3_magical = 0)
 choice(""Is there anyone aside from the higher ranked lessathi who might know the code?"", B3-Ch03a-Workbench, v_current_scene = B3-Ch03a-Workbench, v_b3_ch3_magical = 1)
@@ -857,11 +857,11 @@ TEXT:
 
 "Because I am half-lessathi," I say. "I already triggered them once when the device entered emergency mode, so I know the channels respond."
 
-"You are half-lessathi?" Leila's father blinks. "Leila, did you know this?"
+"You are half-lessathi?" Leila's father blinks in astonishment. "Leila, did you know this?"
 
 "I found out when he did," Leila writes. "He had no idea he carried lessathi blood until he arrived at the tournament."
 
-"Fascinating," Leila's father says, shaking his head. "I have a dozen questions, but I will not consume your afternoon with my curiosity. Leila's booster is calibrated, but yours will require quiet concentration. Could you return in a few hours? I should have the pathways restored by then."
+"Fascinating," Leila's father says, shaking his head slowly. "I have a dozen questions, but I will not consume your afternoon with my curiosity. Leila's booster is calibrated, but yours will require quiet concentration. Could you return in a few hours? I should have the pathways restored by then."
 
 "Of course," Leila writes, taking her stat booster from the bench. "We'll leave you to it. Come on, Barry, back to the waiting room."
 
@@ -877,7 +877,7 @@ TEXT:
 
 "Did you know Barry is the one who invented the Brinhorn dispelling technique?" Leila writes in glowing blue letters across the air, cutting Daren off mid-sentence.
 
-"What?" Daren blinks, looking toward me with a puzzled expression. "Don't be ridiculous. That technique was developed by Brinhorn. The name is right on it. Barry was joking and you took him seriously."
+"What?" Daren blinks, looking toward me with a puzzled frown. "Don't be ridiculous. That technique was developed by Brinhorn. The name is right on it. Barry was joking and you took him seriously."
 
 "I wasn't joking," I say. "I developed the method while apprenticing under him. I told him he could put his name on it because credit didn't matter to me. It's just a technique like any other. If I hadn't mapped it out, someone else would have eventually."
 
@@ -887,17 +887,17 @@ TEXT:
 
 "Why are you making such a scene?" Illuna asks. "As he said, it's a logical framework. Anyone with sufficient theoretical grounding could design an inversion matrix without casting ability."
 
-"It is not just a framework!" Arraka shrieks. "I have existed for over ten thousand years and never once conceived of inverted somatic matrices! It was sitting right there, plain as day, and it never crossed my mind! And not for lack of trying! Do you realize how tedious multi-layer ward-breaking was before that technique? I adopted it myself because the efficiency was undeniable! And to learn it came from Barry? All this time, I've been casting a spell designed by BARRY? I am a disembodied spirit in an amulet and I feel like vomiting. I can't—ugh—"
+"It is not just a framework!" Arraka shrieks. "I have existed for over ten thousand years and never once conceived of inverted somatic matrices! It was sitting right there, plain as day, and it never crossed my mind! And not for lack of trying! Do you realize how tedious multi-layer ward-breaking was before that technique? I adopted it myself because the sheer elegance was undeniable! And to learn it came from Barry? All this time, I've been casting a spell designed by BARRY? I am a disembodied spirit in an amulet and I feel like vomiting. I can't—ugh—"
 
-Gagging noises rattle from the golden disc. The others stare in confusion, while Daren's face breaks into a broad grin.
+Convulsive gagging noises rattle from the golden disc. The others stare in bewilderment, while Daren's face breaks into a broad, disbelieving grin.
 
-"Well, I'll be damned!" Daren laughs. "The Brinhorn technique is the exact framework I used when forging the dispelling enchantments on my sword. And I got it from you... Come here, you sly bastard!"
+"Well, I'll be damned!" Daren laughs, shaking his head. "The Brinhorn technique is the exact framework I used when forging the dispelling enchantments on my sword. And I got it from you... Come here, you sly bastard!"
 
-He catches me in a headlock with his right arm and rubs his knuckles across the top of my head in a vigorous noogie.
+He hooks my neck in a rough headlock with his heavy forearm and rubs his knuckles vigorously across the top of my scalp.
 
-"What else have you been hiding from us?" Daren grins, scrubbing my scalp. "Are you going to tell us next that you coached Azarius through his apprenticeship? Out with it!"
+"What else have you been hiding from us?" Daren grins, scrubbing my hair. "Are you going to tell us next that you coached Azarius through his apprenticeship? Out with it!"
 
-"Knock it off!" I shove his arm away, ducking clear. "It wasn't worth bringing up. It happened years ago, and I had no interest in academic research. We needed a way out of a trap-laced maze, so I solved the puzzle. There's no reason to make such a big deal out of it."
+"Knock it off!" I shove his armored arm away, ducking clear. "It wasn't worth bringing up. It happened years ago, and I had no interest in academic research. We needed a way out of a trap-laced maze, so I solved the puzzle. There's no reason to make such a big deal out of it."
 
 choice("Continue", B3-Ch03a-Fluke, v_current_scene = B3-Ch03a-Fluke)
 
@@ -905,11 +905,11 @@ choice("Continue", B3-Ch03a-Fluke, v_current_scene = B3-Ch03a-Fluke)
 ID: B3-Ch03a-Fluke
 TEXT:
 
-"Don't listen to this idiot," Arraka says, her voice recovering its usual sharp edge. "Whether by accident or design, revolutionizing an entire discipline of defensive magic is not something to scoff at. And I doubt it was an accident. I always wondered how Barry-boy dismantled Eiden's tricks with so little exposure, but everything makes sense now. I don't care if this is latent talent from his half-lessathi blood or the result of single-minded obsession. We are putting it to work. Change of plans, everyone! Barry is officially our trump card. Unlocking his magical parameters takes absolute priority. I won't take 'no' for an answer. We hold brainstorming sessions every day until we find a way to breach the code. Understood?"
+"Don't listen to this idiot," Arraka says, her voice recovering its usual razor edge. "Whether by accident or design, revolutionizing an entire discipline of defensive magic is not something to scoff at. And I doubt it was an accident. I always wondered how Barry-boy dismantled Eiden's tricks with so little exposure, but everything makes sense now. I don't care if this is latent talent from his half-lessathi blood or the result of single-minded obsession. We are putting it to work. Change of plans, everyone! Barry is officially our trump card. Unlocking his magical stats comes before everything else. I won't take 'no' for an answer. We put our heads together every day until we find a way to breach the code. Understood?"
 
 For the next half hour, at Arraka's insistence, we debate methods to get my magical stats working. I explain that Leila's father cannot force the channels, so we throw out increasingly outlandish schemes to acquire the passcode. The debate quickly runs in circles, burning energy without producing any meaningful progress.
 
-"Listen, Arraka," Daren says, sighing. "We've had this exact exchange three times. We have no better options. Why can't we stick with our original plan of methodical decryption using my enchanting tools?"
+"Listen, Arraka," Daren says, sighing as he leans back against the stone wall. "We've had this exact exchange three times. We have no better choice. Why can't we stick with our original plan of methodical decryption using my enchanting tools?"
 
 "Because manual decryption takes too long!" Arraka snaps. "The next trial could arrive tomorrow for all we know. We cannot waste weeks fumbling in the dark. That is why I've been trying to drag a functional alternative out of you people for the past half hour!"
 
@@ -917,7 +917,7 @@ For the next half hour, at Arraka's insistence, we debate methods to get my magi
 
 "Think like that, and don't act surprised when that magic-less loser shoots past you and leaves you in the dust," Arraka sneers. "If that moron proves anything, it's that even the impossible yields if your determination borders on insanity."
 
-"I never thought I'd see the day when Arraka gave Barry an honest compliment," Hadrik says, grinning. "Barry, looks like you're moving up in the world!"
+"I never thought I'd see the day when Arraka gave Barry an honest compliment," Hadrik says, grinning broadly. "Barry, looks like you're moving up in the world!"
 
 choice(""Well, it's the least she could do after using one of my techniques without my permission."", B3-Ch03a-Permission, v_current_scene = B3-Ch03a-Permission)
 choice(""She did? That's funny. I could have sworn that she only just called me a loser and a moron."", B3-Ch03a-Moron, v_current_scene = B3-Ch03a-Moron)
@@ -933,13 +933,13 @@ TEXT:
 
 "You think you'll need to force me?" I say. "The day those stats unlock, you'll see me practicing spells in my sleep."
 
-"Listen," Daren says, cutting in. "If we're done with the brainstorming session, I'd rather return to our plans regarding the king of the underground and the rebels. What do you think about the delegation to the Overseer? Should we go along with it or not?"
+"Listen," Daren says, cutting in. "If we're done racking our brains, I'd rather return to our plans regarding the king of the underground and the rebels. What do you think about the delegation to the Overseer? Should we go along with it or not?"
 
-"I recommend waiting before making a decision," Kate says. "We don't have enough information yet to reach a proper conclusion."
+"I recommend waiting before making a decision," Kate says, her arms crossed. "We don't have enough information yet to reach a proper conclusion."
 
 "A delay won't hurt," Daren agrees. "The king left us time to decide until tomorrow."
 
-He pauses.
+He pauses, meeting our eyes in turn.
 
 "We will think it over tonight and make our decision by morning at the latest. But whatever we decide, it needs to be unanimous. Everyone agree?"
 
@@ -949,7 +949,7 @@ He pauses.
 
 "Yeah, yeah," Arraka says. "Take me there, and we'll see what's what."
 
-"Here she is," Illuna says, handing Daren the amulet. "Keep a constant eye on her. If you don't pay attention, she'll try to free herself in no time."
+"Here she is," Illuna says, unhooking the amulet and passing it to Daren. "Keep a constant eye on her. If you don't pay attention, she'll try to free herself in no time."
 
 "I'll be careful," Daren says. "Though building an explosion from inside the casing takes hours, doesn't it?"
 
@@ -957,7 +957,7 @@ He pauses.
 
 "Right," Daren says.
 
-"Tsk, tsk, tsk," Arraka mocks as Daren holds the chain, heading down the hall. "Such little trust, Illuna. I thought I raised you better than this!"
+"Tsk, tsk, tsk," Arraka mocks as Daren holds the golden chain, heading down the corridor. "Such little trust, Illuna. I thought I raised you better than this!"
 
 "See you all later," Daren calls over his shoulder, while Illuna ignores Arraka completely. "Call me on the transceiver if anything important comes up!"
 
@@ -975,13 +975,13 @@ TEXT:
 
 "My mistake," I say. "Her humor must have been too subtle for me."
 
-"Listen," Daren says, cutting in. "If we're done with the brainstorming session, I'd rather return to our plans regarding the king of the underground and the rebels. What do you think about the delegation to the Overseer? Should we go along with it or not?"
+"Listen," Daren says, cutting in. "If we're done racking our brains, I'd rather return to our plans regarding the king of the underground and the rebels. What do you think about the delegation to the Overseer? Should we go along with it or not?"
 
-"I recommend waiting before making a decision," Kate says. "We don't have enough information yet to reach a proper conclusion."
+"I recommend waiting before making a decision," Kate says, her arms crossed. "We don't have enough information yet to reach a proper conclusion."
 
 "A delay won't hurt," Daren agrees. "The king left us time to decide until tomorrow."
 
-He pauses.
+He pauses, meeting our eyes in turn.
 
 "We will think it over tonight and make our decision by morning at the latest. But whatever we decide, it needs to be unanimous. Everyone agree?"
 
@@ -991,7 +991,7 @@ He pauses.
 
 "Yeah, yeah," Arraka says. "Take me there, and we'll see what's what."
 
-"Here she is," Illuna says, handing Daren the amulet. "Keep a constant eye on her. If you don't pay attention, she'll try to free herself in no time."
+"Here she is," Illuna says, unhooking the amulet and passing it to Daren. "Keep a constant eye on her. If you don't pay attention, she'll try to free herself in no time."
 
 "I'll be careful," Daren says. "Though building an explosion from inside the casing takes hours, doesn't it?"
 
@@ -999,7 +999,7 @@ He pauses.
 
 "Right," Daren says.
 
-"Tsk, tsk, tsk," Arraka mocks as Daren holds the chain, heading down the hall. "Such little trust, Illuna. I thought I raised you better than this!"
+"Tsk, tsk, tsk," Arraka mocks as Daren holds the golden chain, heading down the corridor. "Such little trust, Illuna. I thought I raised you better than this!"
 
 "See you all later," Daren calls over his shoulder, while Illuna ignores Arraka completely. "Call me on the transceiver if anything important comes up!"
 
@@ -1017,13 +1017,13 @@ TEXT:
 
 "I remain skeptical, but hopeful," I say.
 
-"Listen," Daren says, cutting in. "If we're done with the brainstorming session, I'd rather return to our plans regarding the king of the underground and the rebels. What do you think about the delegation to the Overseer? Should we go along with it or not?"
+"Listen," Daren says, cutting in. "If we're done racking our brains, I'd rather return to our plans regarding the king of the underground and the rebels. What do you think about the delegation to the Overseer? Should we go along with it or not?"
 
-"I recommend waiting before making a decision," Kate says. "We don't have enough information yet to reach a proper conclusion."
+"I recommend waiting before making a decision," Kate says, her arms crossed. "We don't have enough information yet to reach a proper conclusion."
 
 "A delay won't hurt," Daren agrees. "The king left us time to decide until tomorrow."
 
-He pauses.
+He pauses, meeting our eyes in turn.
 
 "We will think it over tonight and make our decision by morning at the latest. But whatever we decide, it needs to be unanimous. Everyone agree?"
 
@@ -1033,7 +1033,7 @@ He pauses.
 
 "Yeah, yeah," Arraka says. "Take me there, and we'll see what's what."
 
-"Here she is," Illuna says, handing Daren the amulet. "Keep a constant eye on her. If you don't pay attention, she'll try to free herself in no time."
+"Here she is," Illuna says, unhooking the amulet and passing it to Daren. "Keep a constant eye on her. If you don't pay attention, she'll try to free herself in no time."
 
 "I'll be careful," Daren says. "Though building an explosion from inside the casing takes hours, doesn't it?"
 
@@ -1041,7 +1041,7 @@ He pauses.
 
 "Right," Daren says.
 
-"Tsk, tsk, tsk," Arraka mocks as Daren holds the chain, heading down the hall. "Such little trust, Illuna. I thought I raised you better than this!"
+"Tsk, tsk, tsk," Arraka mocks as Daren holds the golden chain, heading down the corridor. "Such little trust, Illuna. I thought I raised you better than this!"
 
 "See you all later," Daren calls over his shoulder, while Illuna ignores Arraka completely. "Call me on the transceiver if anything important comes up!"
 
@@ -1055,7 +1055,7 @@ TEXT:
 
 "I suppose we should decide on our next move as well," I say. "Should we take a look around, or—"
 
-"There you are!" Peter says, hurrying toward us. "I wanted to let you know your quarters are ready. Unfortunately, we couldn't secure separate rooms for each of you, so we prepared a larger communal room instead. I hope that won't be an issue."
+"There you are!" Peter says, hurrying toward us down the tunnel. "I wanted to let you know your quarters are ready. Unfortunately, we couldn't secure separate rooms for each of you, so we prepared a larger communal room instead. I hope that won't be an issue."
 
 "Not at all," I say, looking toward the others. "We've been sleeping in tents across most of Varathia. We weren't expecting much luxury."
 
@@ -1091,17 +1091,17 @@ choice("Continue", B3-Ch03a-Corner, v_current_scene = B3-Ch03a-Corner)
 ID: B3-Ch03a-Corner
 TEXT:
 
-"You guys go on ahead," Hadrik says. "I'm still a little worn out from the fight on the bridge, and I'd rather rest my legs."
+"Go on ahead without me," Hadrik says. "I'm still a little worn out from the fight on the bridge, and I'd rather rest my legs."
 
 "Understood," I say, and we follow Peter down one of the corridors to the left.
 
-Less than half a minute later, Peter stops before a heavy door and pulls a ring of brass keys from his pocket.
+Less than half a minute later, Peter stops before a heavy iron-banded door and pulls a ring of brass keys from his pocket.
 
 "Already?" I ask.
 
 "I told you it was close," Peter says, turning a key in the lock. "Let's go."
 
-He pulls the door open, revealing a stone staircase leading upward. After climbing for quite a while, we reach an iron trapdoor. Peter unlatches it, and we climb into a chamber packed with large metal consoles, glowing dials, and flashing crystal indicators. A technician was sitting at the central desk playing with a small virtual pet device, which he quickly slips into his coat when we emerge.
+He pulls the door open, revealing a stone staircase spiraling upward. After climbing through a narrow shaft, we reach an iron trapdoor. Peter unlatches it, and we climb into a chamber packed with large metal consoles, glowing dials, and flashing crystal indicators. A technician was sitting at the central desk playing with a small virtual pet device, which he quickly slips into his coat when we emerge.
 
 "Peter!" the man says nervously. "I wasn't expecting you up here. Is there something you need, or—"
 
@@ -1123,13 +1123,13 @@ TEXT:
 
 "I don't get it. Is this happening right now, or is it a recording?"
 
-"It's live, but... I don't understand," Peter says, staring at the console. "The listening device transmitting this feed is planted in an abandoned cellar beneath the castle foundations. We've never intercepted a voice from that room before. Why would they hold a conversation in such a place?"
+"It's live, but... I don't understand," Peter says, staring at the brass console in disbelief. "The listening device transmitting this feed is planted in an abandoned cellar beneath the castle foundations. We've never intercepted a voice from that room before. Why would they hold a conversation in such a place?"
 
-"Take a wild guess," Illuna murmurs.
+"Take a wild guess," Illuna murmurs, her blue eyes narrowing.
 
 "Quiet, please!" Bill mutters frantically, adjusting dials on the brass board. "I'm trying to make sure the recording device catches every syllable. The king will have my head if we lose this feed!"
 
-"The Overseer protocol is now being activated," the metallic voice announces. "We apologize for the delay."
+"The Overseer protocol is now being activated," the metallic voice announces through the grill. "We apologize for the delay."
 
 "Oh, it's no problem," Eiden says pleasantly. "Take all the time you need."
 
@@ -1169,13 +1169,13 @@ TEXT:
 
 "Looks like the Overseer isn't the only one who knows where the listening devices are."
 
-"The timing is too deliberate," Kate says quietly. "He knew exactly where to stand."
+"The timing is too deliberate," Kate says quietly, her breath frosting the air. "He knew exactly where to stand."
 
 "I don't understand," Peter says. "What are you two talking about?"
 
 "Quiet, please!" Bill mutters frantically, adjusting dials on the brass board. "I'm trying to make sure the recording device catches every syllable. The king will have my head if we lose this feed!"
 
-"The Overseer protocol is now being activated," the metallic voice announces. "We apologize for the delay."
+"The Overseer protocol is now being activated," the metallic voice announces through the grill. "We apologize for the delay."
 
 "Oh, it's no problem," Eiden says pleasantly. "Take all the time you need."
 
@@ -1221,7 +1221,7 @@ TEXT:
 
 "Quiet, please!" Bill mutters frantically, adjusting dials on the brass board. "I'm trying to make sure the recording device catches every syllable. The king will have my head if we lose this feed!"
 
-"The Overseer protocol is now being activated," the metallic voice announces. "We apologize for the delay."
+"The Overseer protocol is now being activated," the metallic voice announces through the grill. "We apologize for the delay."
 
 "Oh, it's no problem," Eiden says pleasantly. "Take all the time you need."
 
@@ -1325,7 +1325,7 @@ We open the trapdoor and descend the spiral stairs. Back in the corridor outside
 
 "I don't think he's on anyone's side," I say. "Knowing him, he's either testing us or playing games with our heads. Probably both. In either case, the last thing we should assume is that he's trying to help."
 
-"Yeah, that's probably the safest way to read it," Hadrik says. "So what are you guys planning to do now?"
+"Yeah, that's probably the safest way to read it," Hadrik says. "So what are you planning to do now?"
 
 "We won't be going to the surface for the time being, so the best use of our time is training," Illuna says. "Flower and I still need to practice sharpening our magical elements, and the same goes for Kate. And you have your own drills, Hadrik, if I'm not mistaken. Have you contacted the spirit from the magical plane linked to your channel yet?"
 
@@ -1363,7 +1363,7 @@ We open the trapdoor and descend the spiral stairs. Back in the corridor outside
 
 "I don't think he's on anyone's side," I say. "Knowing him, he's either testing us or playing games with our heads. Probably both. In either case, the last thing we should assume is that he's trying to help."
 
-"Yeah, that's probably the safest way to read it," Hadrik says. "So what are you guys planning to do now?"
+"Yeah, that's probably the safest way to read it," Hadrik says. "So what are you planning to do now?"
 
 "We won't be going to the surface for the time being, so the best use of our time is training," Illuna says. "Flower and I still need to practice sharpening our magical elements, and the same goes for Kate. And you have your own drills, Hadrik, if I'm not mistaken. Have you contacted the spirit from the magical plane linked to your channel yet?"
 
@@ -1401,7 +1401,7 @@ We open the trapdoor and descend the spiral stairs. Back in the corridor outside
 
 "I don't think he's on anyone's side," I say. "Knowing him, he's either testing us or playing games with our heads. Probably both. In either case, the last thing we should assume is that he's trying to help."
 
-"Yeah, that's probably the safest way to read it," Hadrik says. "So what are you guys planning to do now?"
+"Yeah, that's probably the safest way to read it," Hadrik says. "So what are you planning to do now?"
 
 "We won't be going to the surface for the time being, so the best use of our time is training," Illuna says. "Flower and I still need to practice sharpening our magical elements, and the same goes for Kate. And you have your own drills, Hadrik, if I'm not mistaken. Have you contacted the spirit from the magical plane linked to your channel yet?"
 
@@ -1419,7 +1419,7 @@ TEXT:
 
 "And I'll be going with you," Melindra tells Kate.
 
-"You will?" Kate asks, looking over with suspicion.
+"You will?" Kate asks, glancing over with narrow suspicion.
 
 "I did tell you yesterday that I would help you with sharpening the aura of your ice magic, didn't I?" Melindra says.
 
@@ -1427,7 +1427,7 @@ TEXT:
 
 "Right behind you, icey," Melindra says, as the two of them head down the corridor.
 
-"And I'll just... continue to sit here... doing some training..." Hadrik mutters.
+"And I'll just... continue to sit here... doing some training..." Hadrik mutters from his stool.
 
 "I think I'll go back to my father's workshop," Leila writes to me. "I've always loved just standing next to him, watching him work, and it's been too long since I've had the opportunity. What about you, Barry? What are you planning to do in the next few hours?"
 
@@ -1435,15 +1435,15 @@ TEXT:
 
 "Alright," Leila writes. "See you later, Barry!"
 
-"See you," I say, as Leila heads back towards her father's workshop.
+"See you," I say, as Leila turns down the passage toward the workshop.
 
 "Later, Hadrik," I say, and head down an unexplored corridor.
 
-For the next few hours, I walk around the rebel base, mapping out the layout. The underground complex is split into several major sectors. There are the living quarters, where fighters have private rooms to sleep in shifts, and the mess hall, where the rebels and the king's men eat together. They also have an infirmary, and a small recreation area. Beyond those sectors, armed sentries guard every door leading to command chambers and storage vaults.
+For the next few hours, I walk the rebel tunnels, mapping out the layout in my head. The complex is divided into distinct operational sectors. There are the living quarters, where fighters sleep in staggered shifts, and the communal mess hall, where rebels and the king's men share meals in guarded quiet. Further back sits an infirmary and a small recreation area. Beyond those sectors, armed sentries with grounded halberds bar every iron door leading to command chambers and storage vaults.
 
-As I walk around, I pass several people I've seen before, including the little girl whose parents were taken, and the two men who carried the sick elder to the quarantine zone. In a side cavern, I run into Flower and Illuna busy with their training. Before they spot me, I hear them arguing again. Flower is still attempting Kate's flat, serious demeanor to sound more mature, and Illuna is growing visibly irritated. When they notice me, they break off to wave, though I have no doubt they resumed their quarrel the moment I was out of earshot.
+As I wander, I pass several familiar faces: the little girl whose parents were taken, and the two men who carried the sick elder to the quarantine zone. In a side cavern, I run into Flower and Illuna busy with elemental drills. Before they spot me, I hear them bickering. Flower is still attempting Kate's flat, grave tone to sound like an adult, and Illuna is growing visibly exasperated. When they notice me, they break off to wave, though I have no doubt they resumed their argument the moment my footsteps faded.
 
-The tunnels repeatedly funnel back to the central waiting room. On one pass, I run into Daren and Arraka, who are returning from the infirmary with several lessathi healing devices. We stop briefly to exchange updates.
+The tunnels repeatedly loop back to the central waiting room. On one pass, I run into Daren and Arraka, who are returning from the infirmary carrying several lessathi diagnostic devices. We stop briefly near the archway to trade news.
 
 choice("Continue", B3-Ch03a-Dagger, v_current_scene = B3-Ch03a-Dagger)
 
@@ -1451,37 +1451,37 @@ choice("Continue", B3-Ch03a-Dagger, v_current_scene = B3-Ch03a-Dagger)
 ID: B3-Ch03a-Dagger
 TEXT:
 
-"We've been progressing slowly, but at a steady pace," Daren tells me. "I'm still struggling to figure out how to have a healing spell treat a person's aura directly, but these older lessathi diagnostic tools might give me some hints. What about you? Did you find anything useful while exploring?"
+"We've been progressing slowly, but at a steady pace," Daren tells me, adjusting the weight of the brass diagnostic tools under his arm. "I'm still struggling to figure out how to have a healing spell treat a person's aura directly, but these older lessathi devices might give me some hints. What about you? Did you find anything useful while exploring?"
 
 "Not really," I say. "Sentries block every secure area, so I've only seen the standard barracks and mess halls."
 
-"Has Hadrik been sitting like that ever since I entered the quarantine zone?" Daren whispers, nodding toward the dwarf, who is still seated in the same wooden chair, staring gloomily at the floor.
+"Has Hadrik been sitting like that ever since I entered the quarantine zone?" Daren whispers, nodding toward the dwarf, who is still seated in the same wooden chair, staring gloomily at the stone floor.
 
-"Yeah, he hasn't moved from that spot," I say. "I think his mood has something to do with what Gontrok said earlier about the dwarf village from all those years ago. The giant struck a nerve."
+"Yeah, he hasn't moved an inch," I say. "I think his mood has something to do with what Gontrok said earlier about the dwarf village from all those years ago. The giant struck an old nerve."
 
-"Do you think it's related to his trial from the God of Time's ritual?" Daren asks.
+"Do you think it's related to his trial from the God of Time's ritual?" Daren asks quietly.
 
 "It's possible," I say. "Either way, he won't tell us anything if we press him. We have to wait for him to bring it up on his own."
 
-"Yeah, you're probably right," Daren says. "Well, I'm off. Have fun exploring!"
+"Yeah, you're probably right," Daren says, sighing. "Well, I'm off. Have fun exploring."
 
-"I'll try," I say. "Good luck with curing the disease."
+"I'll try," I say. "Good luck with curing the blight."
 
-We split up, and I head down another corridor I haven't fully explored yet. After walking around and checking doors for fifteen minutes, I pause at an intersection to get my bearings.
+We split up, and I head down another corridor I haven't fully checked yet. After walking the damp passages and testing heavy doors for fifteen minutes, I pause at an intersection to get my bearings.
 
 The passage is dead quiet—until a man's voice speaks from right behind my shoulder.
 
 "I noticed you've been having quite a bit of fun exploring our rebel base, Barry," Albert says. "See anything you like?"
 
-A cold prickle runs down my spine. The hallway was completely empty a moment ago. The silent approach brings Wilhelm from the Thilias arena instantly to mind.
+A cold prickle runs down my spine. The hallway was completely empty a second ago. The soundless approach brings Wilhelm from the Thilias arena instantly to mind.
 
 I turn around. My eyes drop straight to the dagger hanging from his belt, its orange-wrapped hilt confirming my suspicions.
 
-"A fine dagger, isn't it?" Albert says, noticing my gaze. "You couldn't ask for a more perfect weapon as an assassin. In civilian hands, it functions like any kitchen knife, but our guild trains us from childhood to make full use of its properties. The way it focuses aura concealment is extraordinary. Still, you didn't flinch the way most do when I closed the distance. Have you encountered an assassin up close before, Barry?"
+"A fine dagger, isn't it?" Albert says, tracking my gaze with a faint smile. "You couldn't ask for a more perfect weapon as an assassin. In civilian hands, it functions like any kitchen knife, but our guild trains us from childhood to make full use of its properties. The way it focuses aura concealment is extraordinary. Still, you didn't flinch the way most do when I closed the distance. Have you encountered an assassin up close before, Barry?"
 
-"Yes," I say, keeping my voice level. "There was an assassin in my division when I was fighting in the arena of Thilias. His name was Wilhelm."
+"Yes," I say, keeping my voice level and my hands free. "There was an assassin in my division when I was fighting in the arena of Thilias. His name was Wilhelm."
 
-"Wilhelm..." Albert says, a thoughtful look in his eyes. "The name is familiar. I believe I've heard of an operative by that name, though I never had the honor of meeting him. Were the two of you friends?"
+"Wilhelm..." Albert says, a thoughtful glimmer in his eyes. "The name is familiar. I believe I've heard of an operative by that name, though I never had the honor of meeting him. Were the two of you friends?"
 
 "Not exactly," I say. "He tried to kill me."
 
@@ -1559,7 +1559,7 @@ TEXT:
 
 "Excuse my companion," Daren says, holding up a hand. "He mentions it because you are not the first monarch to pose that exact question since we set foot on Varathia. There is no simple answer. Eiden has posed as a tournament participant since the opening trials, crossing paths with multiple groups, including ours. At times he has intervened to keep us alive; at others, he has tried to kill us with a smile on his face. Knowing when he acts as an ally or an adversary is impossible. He remains completely unpredictable."
 
-"I find that difficult to accept," the king says, leaning back. "It seems far more plausible that you and the 'Creator' are coordinating your movements, and you simply wish to conceal that alliance from us."
+"I find that difficult to accept," the king says, leaning back. "It seems far more plausible that you and the 'Creator' are acting in concert, and you simply wish to conceal that alliance from us."
 
 "We are not conspiring with anyone!" Daren insists. "Our sole purpose in Ollendor is to eliminate the king. We share the same goal."
 
@@ -1597,7 +1597,7 @@ TEXT:
 
 "Hard to say," I tell him. "Eiden operates on whims. Sometimes he steps in to help, and sometimes he tries to slaughter us with a smile on his face. Even when he looks like he's helping us, he's usually setting up a game we haven't figured out yet."
 
-"I find that difficult to accept," the king says, leaning back. "It seems far more plausible that you and the 'Creator' are coordinating your movements, and you simply wish to conceal that alliance from us."
+"I find that difficult to accept," the king says, leaning back. "It seems far more plausible that you and the 'Creator' are acting in concert, and you simply wish to conceal that alliance from us."
 
 "We are not conspiring with anyone!" Daren insists. "Our sole purpose in Ollendor is to eliminate the king. We share the same goal."
 
@@ -1635,7 +1635,7 @@ TEXT:
 
 "It means his motivations are erratic," I say. "He has tried to kill us on several occasions, so we hardly expect him to protect our interests. Most of the time, he acts purely to see what makes the situation more 'entertaining' for him. Beyond that, anyone's guess is as good as ours."
 
-"I find that difficult to accept," the king says, leaning back. "It seems far more plausible that you and the 'Creator' are coordinating your movements, and you simply wish to conceal that alliance from us."
+"I find that difficult to accept," the king says, leaning back. "It seems far more plausible that you and the 'Creator' are acting in concert, and you simply wish to conceal that alliance from us."
 
 "We are not conspiring with anyone!" Daren insists. "Our sole purpose in Ollendor is to eliminate the king. We share the same goal."
 

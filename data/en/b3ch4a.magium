@@ -13,7 +13,9 @@ set(v_magical_sense_aux,0)
 #if(v_ch11_saved_rose == 1) {
  
 
-"Barry!" Rose's voice cuts in through bursts of static on the transceiver. "--happened-- everyone alright?--"
+ I haul myself up from the cold gravel, coughing against the sour burn of vomit in my throat. My stat booster sits heavy and dead in my coat, its glass screen dark.
+
+"Barry!" Rose's voice cuts in through bursts of static on the transceiver in my hand. "--happened-- everyone alright?--"
 
 "Rose, I'm barely catching every third word," I say into the casing. "Too much seredium in the rock. We're in one piece, but we don't have our bearings yet."
 
@@ -43,7 +45,9 @@ set(v_magical_sense_aux,0)
 #if(v_ch11_saved_rose == 0) {
  
 
-"What's wrong?" Kate's voice is taut as she hovers over Breynan, watching him kneel beside Illuna with hands glowing in faint, unsteady light. "Why isn't she waking up?"
+ I push up from the damp gravel on trembling hands, spitting sour bile onto the rock. My stat booster sits dead and cold in my coat pocket. Behind me, Breynan kneels over Illuna, his hands glowing with a faint, unsteady white light as blood pools around her torn tunic.
+
+"What's wrong?" Kate's voice is taut as she hovers over Breynan. "Why isn't she waking up?"
 
 "I'm a soldier, not a white mage," Breynan mutters, wiping sweat from his temple. "I can stitch a gash or close a shallow puncture, but a chest wound like this is far beyond my training. Let me keep my focus. Stabilizing her is taking everything I have."
 
@@ -79,7 +83,7 @@ ID: B3-Ch04a-Intro2
 TEXT:
 
 #if(v_ch11_saved_rose == 1) {
- "Arraka is half a city away with Daren, so you're our best option," I tell Illuna. "You've watched her dismantle wards for twenty years. You know the mechanics."
+ "Arraka is half a city away with Daren, so you're our best hope," I tell Illuna. "You've watched her dismantle wards for twenty years. You know the mechanics."
 
 "Watching a master unravel a spell and executing the inversion yourself are not the same thing," Illuna says.
 
@@ -499,7 +503,7 @@ The construct is invisible in the gloom, but the prickle of compressed magic bit
 
  "Dispelling is structure, not raw mass," Illuna says. "Her limitation in the vessel is capacity. She holds almost no reserve within the gold at any one second, so the only way she can cast anything destructive is to draw ambient energy through the metal seam for hours on end without a single lapse in focus. The knowledge never left her. That is why she can project solid-light targets, detailed illusions, and intricate dispelling arrays, yet cannot simply blast the amulet apart. A localized explosion requires three uninterrupted hours of gathering power. Disarming an elemental trap takes her thirty minutes."
 
-"Arraka is half a city away, so you're our best option," I tell Illuna. "You've watched her dismantle wards for twenty years. You know the mechanics."
+"Arraka is half a city away, so you're our best hope," I tell Illuna. "You've watched her dismantle wards for twenty years. You know the mechanics."
 
 "Watching a master unravel a spell and executing the inversion yourself are not the same thing," Illuna says.
 
@@ -647,7 +651,7 @@ When the threshold finally clears, we push down the corridor only to run straigh
 
  "Listen," I tell Breynan and Illuna, "the technique is predictable when one person drives it. With two people in the loop, the risk multiplies. If your flows fall out of rhythm for even half a second, the whole array detonates. We need another way through."
 
-"Breynan cannot hold the matrix alone and neither can I," Illuna says. "We either coordinate the casting or turn back."
+"Breynan cannot hold the matrix alone and neither can I," Illuna says. "We either cast in unison or turn back."
 
 "What about waking Flower?" I suggest. "The core of this construct is fire magic. That's her native element."
 
@@ -732,47 +736,45 @@ The bright blue light in her irises dims, fading to a warm, natural green.
 "I'm awake, I'm awake..." Flower mumbles, rubbing her eyes. "What's going on—wait, where are we? This doesn't look like the cellars at all! When did we leave the base?"
 
 }
- "Flower, we'll explain the situation to you later," I say. "For now, we need you to help us disarm this trap. It is made only of fire spells, so you should be able to do the dispelling naturally as long as you simply copy my movements and say the correct incantations. Can you help us?"
+ "Flower, we'll explain the situation later," I say. "Right now we need you to help us disarm this ward. It's built entirely on fire matrices, so you can dismantle it as long as you mirror my somatic movements and cadence. Can you do that?"
 
-"Uh... I think so..." Flower says, not looking very sure of herself.
+"I... think so," Flower says, her brow furrowing in uncertainty.
 
-"Alright," I say. "For starters, let's practice the movements. Just do what I'm doing and you'll be fine."
+"Let's practice the first inversion," I say. "Just mirror what I do."
 
-Flower nods anxiously and she places herself beside me, preparing to imitate my motions.
+Flower steps up beside me, her body stiff with tension.
 
-"Okay, so the first thing you're going to need to do is slightly bend your knees in order to make sure that the flow of energy remains stable," I say.
+"First, bend your knees slightly to stabilize your center of gravity and keep the channel steady," I say.
 
-"Bend my knees," Flower repeats after me. "Got it."
+"Bend knees," Flower repeats, sinking down. Her shins tremble against the strain.
 
-When Flower does what I said, her knees are both trembling. She looks even more anxious than before.
+"Are you alright?" I ask.
 
-"Is... umm... is everything alright?" I ask Flower.
+"Of course!" Flower says, her voice tight and high. "Why wouldn't I be? Just tell me what comes next!"
 
-"Of course!" Flower says, in a somewhat shaky voice. "Why would you need to ask? Just tell me what to do next!"
+"Left arm extended, palm facing down," I say. "Right arm tucked along your ribs, elbow bent at ninety degrees."
 
-"Right..." I say. "So, what you need to do now is put your left arm in front of you with the palm facing down, while keeping your right arm alongside your body with its elbow bent."
+ "Palm down, elbow tucked, got it!" Flower says, staring straight ahead at the rock wall without looking at my stance.
 
- "Palm facing down, elbow bent, got it!" Flower says, as she follows my instructions while looking straight ahead, without so much as even a glance in my direction.
+"Flower, you don't need to memorize the words," I tell her. "Look at my arms and copy the angles."
 
-"You don't need to memorize everything I say..." I tell her. "You can just look at what I'm doing and imitate my movements."
+"Right, sorry!" Flower turns her head, eyes wide with fierce concentration. "What's next?"
 
-"You're right, sorry!" Flower says, as she turns her head towards me and begins staring at my arms with an extremely focused look in her eyes. "So, what's next?"
+"Circular sweep with the left forearm while pivoting the right elbow outward."
 
-"Uh... now you need to do a circular motion with your left arm, while you rotate your right elbow so that it points to your right side."
+Flower tries to copy the motion, but her arms tangle and she ends up with both elbows jammed against her sides.
 
-When Flower tries to imitate me, she somehow gets the movements completely wrong and she ends up with her left elbow bent as well.
+"Flower, that's not—the left arm sweeps outward, not inward," I say.
 
-"Flower, that's not-- my arms didn't move like that," I say.
+"I'm sorry!" she gasps, panic creeping into her voice. "One more time! I'll get it!"
 
-"I'm sorry!" Flower says, in a panicky voice. "Can you do it again? I'll get it right this time!"
+"Let's reset from the baseline," I say.
 
-"I think it would be better to start off again from the beginning," I say.
+"Right..." Flower drops her hands, her shoulders locked rigid.
 
-"Okay..." Flower says, as she puts her arms back down, while all her body looks completely stiff.
+"Knees bent, left arm forward like this."
 
-"Right, so with both of your knees slightly bent, you first put the arm on your left side in front like this," I say.
-
-"Got it!" Flower says, as she tries to copy my movements again.
+"Got it!" Flower says, snapping her arm out.
 
 choice("Continue", B3-Ch04a-Coach, v_current_scene = B3-Ch04a-Coach)
 
@@ -780,15 +782,15 @@ choice("Continue", B3-Ch04a-Coach, v_current_scene = B3-Ch04a-Coach)
 ID: B3-Ch04a-Coach
 TEXT:
 
- "Flower, that's your right arm, not your left..." I say.
+ "Flower, that's your right arm..." I say.
 
-"Oh, you meant MY left side, not yours!" Flower says. "Sorry, I got confused there for a second."
+"Oh! You meant MY left!" Flower says. "Sorry, I got turned around!"
 
-"You do realize that we are both facing in the same direction, right?..." I say.
+"We're both facing the exact same wall," I say gently.
 
-"Hahaha, that's right!" Flower says, while laughing very nervously. "We ARE facing in the same direction. Silly me! Hahaha!"
+"Right, right!" Flower laughs, high and nervous. "Same direction! Silly me!"
 
-"Flower, you are locking your diaphragm," Illuna's voice cuts in as the bright blue flare returns to her eyes. "Four counts in, hold for two, release for four."
+"Flower, you are locking your diaphragm," Illuna's voice cuts in as bright blue light flares in her irises. "Four counts in, hold for two, release for four."
 
 "Petal!" Flower's voice floods with relief. "I mean—Illuna! Yes, the breathing. Doing it now."
 
@@ -798,31 +800,31 @@ The blue recedes. Flower closes her eyes, drawing a long, measured breath throug
 
 "Incredible," I mutter. "She reset in five seconds. Illuna, how did you do that?"
 
-"Flower has always struggled with direct instruction under stress," Illuna says as the blue resurfaces for a moment. "I guide her pacing from within her thoughts. You insisted on handling the coaching alone, so I remained quiet."
+"Flower has always struggled with direct verbal instruction under stress," Illuna says as the blue resurfaces for a moment. "I guide her pacing from within her thoughts. You insisted on handling the coaching alone, so I remained quiet."
 
- "I was really starting to panic when Illuna wouldn't say anything," Flower says. "I didn't realize that you two had a discussion about this before I woke up."
+ "I was really starting to panic when Illuna wouldn't say anything," Flower admits. "I didn't realize you two had an argument before I woke up."
 
-"So, Illuna's been acting as your own private coach inside your mind for the past twenty years, then?" I say.
+"So Illuna has been your private coach inside your head for twenty years?" I ask.
 
-"Well, not always, but she helps out a lot," Flower says. "And in return, I try to help her when she needs to talk to people. Like, I tell her what's okay to say and what's not, so that she doesn't upset anyone by mistake. She can be really blunt at times..."
+"Well, not always, but she helps a lot," Flower says. "And in return, I help her when she needs to talk to people. I tell her what's fine to say so she doesn't offend anyone by accident. She can be really blunt at times..."
 
-"Wow, I did not realize that you two were so dependent on each other," I say. "Sorry about that. I guess I shouldn't have insisted on teaching Flower the spells by myself."
+"I didn't realize how much you two lean on each other," I say. "Sorry. I shouldn't have insisted on teaching Flower alone."
 
-"Oh, right, the spell!" Flower says, and she executes the movements that she learned from me with fluid grace.
+"Oh, right, the spell!" Flower says, and she executes the movements with sudden, effortless grace.
 
-"Alright, so it was bent knees, left arm front, right elbow bent, then rotate the left arm and right elbow and... wait a second!" Flower pauses, eyes widening. "I recognize these movements! These are the same motions that I needed for an old spell of mine, except in reverse! So, if I'm not mistaken, the next moves should be something like this..."
+"Bent knees, left arm out, right elbow tucked, rotate the left forearm and... wait a second!" Flower freezes, eyes wide. "I recognize these movements! These are the motions for an old flame-burst of mine—just in reverse! So the next step should be..."
 
-She sweeps her hands through the exact movements needed for the spell I was about to teach her, without making a single mistake. Once she finishes, she looks to me for confirmation.
+She sweeps her hands through the exact inverse sequence without a single hesitation, then looks up at me for confirmation.
  
-"Was that the spell you were trying to teach me?" Flower asks.
+"Was that the matrix?"
 
-"That was exactly the matrix," I say.
+"Down to the last angle," I say.
 
-"I haven't used physical movements to cast this spell in over ten years," Flower says. "I just shape the flow of energy with my mind nowadays. But I'm surprised that you know one of my spells, Barry! I never wrote about it anywhere."
+"I haven't used physical gestures for that spell in ten years," Flower says. "I just shape the flow in my head. But how do you know one of my spells, Barry? I never wrote it down."
 
-"Flower, I already told you," Illuna says. "This spell was first invented long before you were born. You just discovered it instinctively due to your ethereal nature. Regardless, I'll take it from here. Flower should already know most of the spells required for this trap except maybe one or two. It will be faster if I just tell her which spells to use in reverse, than if you teach her the moves from scratch."
+"Flower, as I explained," Illuna says, blue light flashing briefly, "that weave was cataloged centuries before your birth. You simply discovered it through ethereal instinct. Regardless, I will take it from here. Flower already knows the base spells for this array. It will be faster if I feed her the inverse sequences directly."
 
-"Right, right," I say. "Go ahead, then."
+"Works for me," I say. "Take the lead."
 
 With Illuna feeding the inverse sequence to Flower's mind, Flower moves through the layers with effortless rhythm. I stay near the threshold, tracking the ward's aura for erratic spikes, but Flower keeps control of her flow until the end. As the final somatic concludes, the heat radiating from the doorway dissolves into cool cavern air.
 
@@ -835,31 +837,33 @@ TEXT:
 set(v_is_dead,1) if (v_ch11_saved_rose == 0)
 set(v_is_dead,0) if (v_ch11_saved_rose == 1)
 #if(v_ch11_saved_rose == 0) {
- "Fine," I say. "If you really think you can handle this without Flower's help, then I won't insist anymore. But I'm warning you... one small mistake and you may well blow us all to smithereens."
+ "Fine," I say. "If you really think you can handle this without Flower's help, I won't press it. But one slip in rhythm and this entire threshold detonates."
 
-"We'll be careful," Illuna says. "Breynan, let us begin by practicing our magical flow synchronization. Once we are comfortable enough with the basics, we can start practicing the actual spells."
+"We will be precise," Illuna says. "Breynan, let us begin with flow synchronization. Once the baseline cadence is stable, we move to the somatics."
 
-For the next half of an hour or so, Illuna and Breynan spend their time practicing their movements and their magic flows, under my direct guidance. Knowing what works best for the multi-step dispelling technique, I was able to give them a few pointers that sped up the process, and eventually the two of them became confident enough that they could pull off the technique without making any mistakes.
+For thirty minutes, Illuna and Breynan drill the sequence under my direction. The physical somatics help bridge the gap, and my coaching on multi-step inversions speeds up the layer transitions until both casters can mirror the timing cleanly.
 
-That being said, the amount of concentration required for the actual dispelling of such a complex spell is much greater than what you would need when you're just practicing, so I can't say that I'm not at least a little bit worried about how well they will pull this off. What worries me the most is the fact that Illuna still doesn't seem to have recovered from her injury, even if she doesn't let it show, so I'm not sure how capable she truly is to correctly perform her part of the dispelling technique. Hopefully she'll be cautious enough to cancel her technique in time, if she thinks she won't be able to handle it.
+Even so, executing a dual-caster inversion on an active explosive matrix is entirely different from practicing in cold air. Illuna's skin is still gray as ash, her breath shallow. She hides the pain from her chest puncture behind a rigid jaw, but when she channels, the blue light in her irises flickers. If her grip on the mana falters for a fraction of a second, the matrix will detonate.
 
- Once all their preparations are complete, Illuna and Breynan finally begin their synchronous dispelling technique, as the rest of us watch them with bated breath.
+ Once the rehearsals conclude, Illuna and Breynan step up to the humming doorway. We watch in tense silence from five paces back.
 
-For the first few spells, everything goes smoothly. Both Illuna and Breynan are executing their movements perfectly, and the trap is reacting exactly how it should. After their fourth spell, however, I can already see a change in Illuna's breathing. It's fine. Everything will be fine. As long as she keeps her concentration, she should be able to--
+For the first three spells, the inversion holds. Both casters execute their movements with synchronized precision, and the outer seals unravel into fading sparks. But as they begin the fourth layer, Illuna's breathing turns ragged. A spasm of pain wracks her chest; her fingers hitch mid-arc.
 
-I don't get the time to finish my train of thought, as a slight break in Illuna's concentration causes her to lose control over her magic flow, which immediately triggers the trap in front of her. None of us get the time to react and before we even know it, the explosion from the trap envelops us all, killing us in a matter of seconds.
+The channel fractures. The ward's core destabilizes in an instant.
+
+Before anyone can shout or raise a barrier, a blinding white firestorm erupts from the threshold, engulfing the corridor and incinerating us in a heartbeat.
 
 }
 #if(v_ch11_saved_rose == 1) {
- "Fine," I say. "If you really think you can handle this without Flower's help, then I won't insist anymore. But I'm warning you... one small mistake and you may well blow us all to smithereens."
+ "Fine," I say. "If you really think you can handle this without Flower's help, I won't press it. But one slip in rhythm and this entire threshold detonates."
 
-"We'll be careful," Illuna says. "Breynan, let us begin by practicing our magical flow synchronization. Once we are comfortable enough with the basics, we can start practicing the actual spells."
+"We will be precise," Illuna says. "Breynan, let us begin with flow synchronization. Once the baseline cadence is stable, we move to the somatics."
 
-For the next half of an hour or so, Illuna and Breynan spend their time practicing their movements and their magic flows, under my direct guidance. Knowing what works best for the multi-step dispelling technique, I was able to give them a few pointers that sped up the process, and eventually the two of them became confident enough that they could pull off the technique without making any mistakes.
+For thirty minutes, Illuna and Breynan drill the sequence under my direction. The physical somatics help bridge the gap, and my coaching on multi-step inversions speeds up the layer transitions until both casters can mirror the timing cleanly.
 
-That being said, the amount of concentration required for the actual dispelling of such a complex spell is much greater than what you would need when you're just practicing, so I can't say that I'm not at least a little bit worried about how well they will pull this off.
+Even so, executing a dual-caster inversion on an active explosive matrix is entirely different from practicing in cold air. With two unbonded casters channeling simultaneously, the margin for error is razor-thin.
 
-Once all their preparations are complete, Illuna and Breynan finally begin their synchronous dispelling technique, as the rest of us watch them with bated breath.
+Once the rehearsals conclude, Illuna and Breynan step up to the humming doorway. We watch in tense silence from five paces back.
 
 }
 choice("Restart game", Ch1-Intro1, v_current_scene = Ch1-Intro1, special:restart) if (v_ch11_saved_rose == 0)
@@ -1100,48 +1104,48 @@ The chains aren't just bindings. Magical current flows through the links in visi
 
 None of the suspended men react to our boots on the stone. Most hang motionless, lost to exhaustion. Every few moments, a sudden convulsion tears through one of the captives; he screams into the damp air for five agonizing seconds, then slumps back into the stupor as the current drains him.
 
- Towards the center of the room there are some tables made out of metal on which a few other people are lying on their backs, who seem somewhat more alive than the ones hanging from the ceiling, although not by much. These men also have chains tied to their wrists, but in their case the chains are linked directly to the metal container, not to the ceiling. As we're approaching them, Melindra stops to look at one of the chains that are holding the prisoners suspended from the ceiling.
+ Across the center aisle, low metal examination slabs hold several dozen men pinned flat on their backs. They show more signs of life than the suspended captives, but barely—chests rising in shallow, rattling gasps. Thick iron leads clamp around their wrists, running directly into the base of the spherical vessel instead of the ceiling conduits. Melindra stops beside the nearest row, her fingers hovering an inch above the links.
 
-"These chains..." Melindra says. "Something about them feels... familiar..."
+"These chains..." Melindra murmurs. "Something about the resonance feels... familiar..."
 
-While Melindra is still looking at the chains, one of the prisoners on the metal tables calls out to us in a feeble voice.
+While Melindra examines the metal, one of the men on the nearest slab turns his head with agonizing slowness.
 
-"Who are you?..." the man says. "I've never seen you here before. Are you the new cleaners?"
+"Who are you?..." he whispers, his throat raw. "I haven't seen your faces before. Are you the new cleaners?"
 
-"No," I say, as I get closer to him. "We don't work here. We stumbled into this place by accident."
+"No," I say, stepping closer to the slab. "We don't work here. We took a bad passage into the lower works."
 
-"You're... you're not with them?..." the man says. "Please, you have to help me! These people who trapped us here... they are using us like cattle. Milking us dry of our energy to feed this machine.  My boy and I, we did nothing wrong! We were just taken from our homes one night without being given any reason. I don't even know where they took him. And I don't know if anything happened to my wife and daughter after that. Please, I need to know if they are safe... I need to get out of here!"
+"You're... you're not with the guards?..." The man's fingers twitch against the cuffs. "Please... you have to help me! They took us like cattle. Bleeding our mana day and night to feed this monstrous tank. My son and I... we did nothing! Dragged from our beds in the lower quarter without a word of explanation. I don't know where they took the boy. I don't know if my wife and daughter are alive... Please, you have to break these cuffs! I need to find my family!"
 
 #if(v_b3_ch3_chains == 0) {
- "Did... this happen recently?" I ask him. "Is your daughter's name 'Alice', by any chance?"
+ "Did this happen recently?" I ask him. "Is your daughter's name Alice?"
 
-"Yes!" the man shouts, somewhat excitedly. "That's her name! You've met her? Is she safe?"
+"Yes!" the man cries, his voice cracking with desperate hope. "Alice! You know her? Is she safe?"
 
-"She is safe, for now," I say. "She's been looking for you."
+"She was alive when we left the lower wards," I say. "She was searching for you."
 
-"You have to take me to her!" the man says. "Please, you need to cut off these chains and set me free! I beg you!"
+"Take me to her!" he begs, thrashing against the metal. "Cut these chains! Set me free, I beg you!"
 
-Kate, Leila and I exchange a look and then I walk forward, in order to get closer to the chains that are tied to the man's wrists. The chains don't look very strong. I'm pretty confident that my enchanted dagger should be able to slice through these as through butter.
+Kate, Leila, and I exchange a grim look. I step up to the slab and draw my dagger from its sheath. The links look thin, worn down by friction. An enchanted blade will shear clean through them in one pass.
 
-I take my dagger out of its sheath and I hold it in my hand for a few seconds, considering my options, while the scream of a young boy echoes faintly in the distance.
+I hold the edge an inch above the iron cuff, weighing the cut, while the distant, piercing shriek of a young boy echoes from the far rafters.
 
 }
 #if(v_b3_ch3_chains == 1) {
- "Did... this happen recently?" I ask him. "Is your daughter's name 'Alice', by any chance?"
+ "Did this happen recently?" I ask him. "Is your daughter's name Alice?"
 
-"Yes!" the man shouts, somewhat excitedly. "That's her name! You've met her? Is she safe?"
+"Yes!" the man cries, his voice cracking with desperate hope. "Alice! You know her? Is she safe?"
 
-"She is safe, for now," I say. "She's been looking for you."
+"She was alive when we left the lower wards," I say. "She was searching for you."
 
-"You have to take me to her!" the man says. "Please, you need to cut off these chains and set me free! I beg you!"
+"Take me to her!" he begs, thrashing against the metal. "Cut these chains! Set me free, I beg you!"
 
-Kate, Leila and I exchange a look and then I walk forward, in order to get closer to the chains that are tied to the man's wrists. The chains don't look very strong. I'm pretty confident that my enchanted dagger should be able to slice through these as through butter.
+Kate, Leila, and I exchange a grim look. I step up to the slab and draw my dagger from its sheath. The links look thin, worn down by friction. An enchanted blade will shear clean through them in one pass.
 
-I take my dagger out of its sheath and I hold it in my hand for a few seconds, considering my options, while the scream of a young boy echoes faintly in the distance.
+I hold the edge an inch above the iron cuff, weighing the cut, while the distant, piercing shriek of a young boy echoes from the far rafters.
 
-That scream... I've heard that scream before. And the rattling sound of the chains as well. I've heard them both in that premonition! The one I saw right before giving Leila's father my stat device. But if this is true, then the next thing that should happen is--
+That scream... The rattle of iron links against stone. I've heard both before. In the premonition—the vision that hit right before handing Reidzek my stat device! If the memory is real, the next beat is—
 
-"Barry, wait! Don't do it!" I suddenly hear Melindra, shouting loudly in a panicked tone.
+"Barry, wait! Don't do it!" Melindra shouts in sudden panic.
 
 }
 choice("Cut the chains with my dagger and free Alice's father.", B3-Ch04a-Container, v_current_scene = B3-Ch04a-Container, v_b3_ch4_cut = 1) if (v_b3_ch3_chains == 0)
@@ -1166,7 +1170,7 @@ I stand frozen above the table, my hand locked around the dagger hilt.
 
 "What... what happened?" The words barely form in my throat. "Why did he stop?"
 
-"The alloy," Melindra says quietly, stepping to the table and lifting the severed chain. "It's a parasitic composite. If it remains bound to a living aura past the calibration window, it establishes a symbiotic graft. Forcing the connection apart tears the nervous system out with it. I should have recognized the resonance sooner."
+"The alloy," Melindra says quietly, stepping to the table and lifting the severed chain. "It's a parasitic composite. If it remains bound to a living aura past the calibration window, it establishes a symbiotic graft. Forcing the connection apart tears the nerves and flesh out with it. I should have recognized the resonance sooner."
 
 }
 #if(v_b3_ch3_chains == 1 && v_b3_ch4_cut == 1) {
@@ -1184,7 +1188,7 @@ I stand frozen above the table, my hand locked around the dagger hilt.
 
 "What... what happened?" The words barely form in my throat. "Why did he stop?"
 
-"The alloy," Melindra says quietly, stepping to the table and lifting the severed chain. "It's a parasitic composite. If it remains bound to a living aura past the calibration window, it establishes a symbiotic graft. Forcing the connection apart tears the nervous system out with it. I should have recognized the resonance sooner."
+"The alloy," Melindra says quietly, stepping to the table and lifting the severed chain. "It's a parasitic composite. If it remains bound to a living aura past the calibration window, it establishes a symbiotic graft. Forcing the connection apart tears the nerves and flesh out with it. I should have recognized the resonance sooner."
 
 }
 #if(v_b3_ch3_chains == 0 && v_b3_ch4_cut == 0) {
@@ -1269,25 +1273,23 @@ Beside me, Flower trembles so hard her teeth click. Kate's knuckles are white, h
 
 Just as the sound dies, a cold voice cuts through the stillness behind us.
 
-"Did you enjoy the spectacle, Barry?" Eiden says, with a grave tone in his voice.
+"Did you enjoy the spectacle, Barry?"
 
-I turn around quickly, but I don't see him anywhere. Of course he's hiding invisibly... Without Arraka we never had a chance to detect him, and he knows this. Has he just been standing there from the beginning?...
+I spin on my heel, dagger raised. The aisle behind us is completely empty. Without Arraka in the amulet, detecting a masked stillwater aura through this much seredium is impossible—and Eiden knows it. He has been standing in the shadows the entire time.
 
-"What's the matter?" Eiden says, with the same serious tone in his voice as before. "Didn't you say that you were going to save every person in Varathia despite your lack of powers? Well, I've given you the opportunity. What are you waiting for?"
+"What's the matter?" the disembodied voice continues, calm and conversational. "Didn't you say you were going to save every person in Varathia despite your lack of magic? Well, I've given you the opportunity. What are you waiting for?"
 
-Melindra gasps, whirling toward the empty space between two hanging lines.
+Melindra gasps, whirling toward the empty air between two hanging lines. "It was you! You're the one who led us here from the underground tunnels! That's why the resonance felt familiar—you were masking it so I couldn't recognize you from afar!"
 
-"It was you!" Melindra says loudly, while she points at Eiden. "You're the one who led us here from the underground tunnels! That's why your aura seemed so familiar. You were just masking it so I couldn't recognize you from afar!"
+"What will happen first, I wonder?" Eiden says, addressing me as though Melindra does not exist. "Will your resolve break when you finally understand what you've gotten yourself into? Or will you achieve the impossible, as you claimed? Regardless of the outcome, keep me entertained, Barry. Do not disappoint me."
 
-"What will happen first, I wonder?" Eiden continues to address me, while ignoring Melindra. "Will your resolve eventually break when you'll finally understand just what exactly you've gotten yourself into? Or will you be able to achieve the impossible, like you've claimed? Regardless of what happens, I hope you will continue to keep me entertained. Do not disappoint me."
+Melindra snarls, air whistling around her fists. "He's ignoring me again!"
 
-"I can't believe it!" Melindra says. "He's ignoring me again! Well, this time he won't get away with it!"
+She hurls a condensed shockwave of compressed wind straight into the empty walkway. The blast rattles the iron chains, swinging three unconscious captives back and forth in the gloom, but strikes nothing solid.
 
-She hurls a condensed blast of compressed air right next to where Eiden was standing invisibly, but all this manages to accomplish is to slightly rock back and forth a few of the prisoners that were hanging from the ceiling in the vicinity, without having any visible effects on Eiden himself.
+"Damn it!" Melindra spits. "He's already gone!"
 
-"Damn it!" Melindra says. "He's already gone!"
-
-"Yeah, he probably just teleported here to give his speech, and now he went back to watching us from afar," I say. "I swear I'm going to pay him back for this once I figure out all those magic loopholes of his..."
+"He teleported in to deliver his taunt," I say, my hand trembling against the dagger grip. "He's back to watching us from afar. One day I'll unravel every loophole in his magic, and I will repay this debt in full."
 
 "Forget about Eiden," Kate says. "We still don't know which way we need to go to find the exit. Or the control room..."
 
@@ -1373,7 +1375,7 @@ A sharp metallic click echoes from the horn, and the line goes dead.
 
 "I thought we agreed the master terminal came first," Kate says.
 
-"You and Barry agreed," Melindra shoots back. "Have either of you considered the logistics of moving several hundred emaciated captives past a perimeter army? Half of these people can barely draw breath, let alone run."
+"You and Barry agreed," Melindra shoots back. "Have either of you considered the sheer difficulty of moving several hundred emaciated captives past a perimeter army? Half of these people can barely draw breath, let alone run."
 
 }
 choice("Continue", B3-Ch04b-Assistance, v_current_scene = B3-Ch04b-Assistance)

@@ -4,29 +4,29 @@ TEXT:
 #if(v_b3_ch2_gontrok == 3) {
 "Maybe somebody else is also trying to assassinate the king."
 
-"That brings up a fair question," Hadrik says, wiping grit from his beard. "If the king is already a corpse by the time we corner him, does that void our oath with Melindra?"
+"That brings up a fair question," Hadrik says, wiping grit and dried blood from his beard. He squints out of his right eye, his left eyelid swollen completely shut and bruised a dark, mottled purple. "If the king is already a corpse by the time we corner him, does that void our oath with Melindra?"
 
-"Dead or breathing, as long as you help pry loose what he took from me, the agreement stands," Melindra says. "You have my word on that."
+"Dead or breathing, as long as you help pry loose what he took from me, the agreement stands," Melindra says, brushing stone dust from her sleeves. "You have my word on that."
 
-"We cannot linger here," Daren says. He drags his sword up from the flagstones, leaning heavily on the hilt before limping toward us. "The royal guards may be gone, but regular city patrols will flood this square any second. We need cover to rest and patch ourselves up."
+"We cannot linger here," Daren says. He drags his sword up from the cracked flagstones, his scarred knuckles white on the grip as he leans heavily on the hilt before limping toward us. "The royal guards may be gone, but regular city patrols will flood this square any second. We need cover to rest and patch ourselves up."
 
-"Brimstone and iron," Hadrik says, taking in Daren's ragged stance. "What hit you? You look like a collapsed watchtower."
+"Brimstone and iron," Hadrik says, tilting his head to gauge Daren's ragged posture with his good eye. "What hit you? You look like a collapsed watchtower."
 
-"Look who's talking," Daren mutters, halting beside us with a wince. "Catch your reflection in a puddle sometime. Your face is purple and swollen shut. I would weave a mend, but my reserves are empty. It took everything I had just to cast a recovery weave to stand upright."
+"Look who's talking," Daren mutters, halting beside us with a sharp wince as his cracked ribs hitch his breath. "Catch your reflection in a puddle sometime. Your cheek looks like a mashed turnip. I would weave a mend, but my reserves are empty. It took everything I had just to cast a recovery weave to stand upright."
 
-"Shelter is the priority," Kate says, her eyes sweeping the deserted plaza. "Standing in the open makes us targets. Finding a secure corner in unfamiliar enemy territory, however, is another matter."
+"Shelter comes first," Kate says, her cloak pulled tight across her chest as her dark eyes sweep the silent plaza. "Standing in the open makes us targets. Finding a secure corner in unfamiliar enemy territory, however, is another matter."
 
 "Perhaps we can offer some guidance," a man calls out.
 
-He steps out from one of the narrow alleys branching off the square, flanked by two armed youths in their mid-twenties. He looks fifty-odd, gray-bearded, wearing an oil-stained white lab coat and a calm, reassuring smile.
+He steps out from one of the narrow alleys branching off the square, flanked by two armed youths in their mid-twenties. He looks fifty-odd, gray-bearded, wearing an oil-stained white lab coat over working clothes and a calm, reassuring smile.
 
-"And who might you be, if you don't mind me--" Daren cuts off as Leila darts past him, sprinting straight for the newcomer.
+"And who might you be, if you don't mind me--" Daren cuts off as Leila darts past him, boots kicking up stone dust as she sprints straight for the newcomer.
 
 "Father!" Leila's glowing blue letters flare wide in the air before she throws her arms around his neck.
 
-"Leila, my dear girl... I feared the worst," the man says, pulling her tight.
+"Leila, my dear girl... I feared the worst," the man says, pulling her tight against his coat.
 
-"Father, these are my friends," Leila writes the moment she steps back, her hands flying. "They broke me out of the arena cells and escorted me across the continent."
+"Father, these are my friends," Leila writes the moment she steps back, her hands flying in swift, precise arcs. "They broke me out of the arena cells and escorted me across the continent."
 
 "I gathered as much," her father says, looking over at us with genuine relief. "I owe every one of you a debt for keeping my daughter safe, but proper introductions can wait until we are off these streets."
 
@@ -34,29 +34,29 @@ He steps out from one of the narrow alleys branching off the square, flanked by 
 #if(v_b3_ch2_gontrok != 3) {
 "Maybe somebody else is also trying to assassinate the king."
 
-"That brings up a fair question," Hadrik says, wiping grit from his beard. "If the king is already a corpse by the time we corner him, does that void our oath with Melindra?"
+"That brings up a fair question," Hadrik says, wiping grit and dried blood from his beard. He squints out of his right eye, his left eyelid swollen completely shut and bruised a dark, mottled purple. "If the king is already a corpse by the time we corner him, does that void our oath with Melindra?"
 
-"Dead or breathing, as long as you help pry loose what he took from me, the agreement stands," Melindra says. "You have my word on that."
+"Dead or breathing, as long as you help pry loose what he took from me, the agreement stands," Melindra says, brushing stone dust from her sleeves. "You have my word on that."
 
-"We cannot linger here," Daren says. He limps toward us, bending stiffly to scoop his sword from where I dropped it when the captain had me pinned. "The royal guards may be gone, but regular city patrols will flood this square any second. We need cover to rest and patch ourselves up."
+"We cannot linger here," Daren says. He limps toward us, bending stiffly to scoop his sword from where I dropped it when the captain had me pinned, his breath hissing through his teeth. "The royal guards may be gone, but regular city patrols will flood this square any second. We need cover to rest and patch ourselves up."
 
-"Brimstone and iron," Hadrik says, taking in Daren's ragged stance. "What hit you? You look like a collapsed watchtower."
+"Brimstone and iron," Hadrik says, tilting his head to gauge Daren's ragged posture with his good eye. "What hit you? You look like a collapsed watchtower."
 
-"Look who's talking," Daren mutters, halting beside us with a wince. "Catch your reflection in a puddle sometime. Your face is purple and swollen shut. I would weave a mend, but my reserves are empty. It took everything I had just to cast a recovery weave to stand upright."
+"Look who's talking," Daren mutters, halting beside us with a sharp wince as his cracked ribs hitch his breath. "Catch your reflection in a puddle sometime. Your cheek looks like a mashed turnip. I would weave a mend, but my reserves are empty. It took everything I had just to cast a recovery weave to stand upright."
 
-"Shelter is the priority," Kate says, her eyes sweeping the deserted plaza. "Standing in the open makes us targets. Finding a secure corner in unfamiliar enemy territory, however, is another matter."
+"Shelter comes first," Kate says, her cloak pulled tight across her chest as her dark eyes sweep the silent plaza. "Standing in the open makes us targets. Finding a secure corner in unfamiliar enemy territory, however, is another matter."
 
 "Perhaps we can offer some guidance," a man calls out.
 
-He steps out from one of the narrow alleys branching off the square, flanked by two armed youths in their mid-twenties. He looks fifty-odd, gray-bearded, wearing an oil-stained white lab coat and a calm, reassuring smile.
+He steps out from one of the narrow alleys branching off the square, flanked by two armed youths in their mid-twenties. He looks fifty-odd, gray-bearded, wearing an oil-stained white lab coat over working clothes and a calm, reassuring smile.
 
-"And who might you be, if you don't mind me--" Daren cuts off as Leila darts past him, sprinting straight for the newcomer.
+"And who might you be, if you don't mind me--" Daren cuts off as Leila darts past him, boots kicking up stone dust as she sprints straight for the newcomer.
 
 "Father!" Leila's glowing blue letters flare wide in the air before she throws her arms around his neck.
 
-"Leila, my dear girl... I feared the worst," the man says, pulling her tight.
+"Leila, my dear girl... I feared the worst," the man says, pulling her tight against his coat.
 
-"Father, these are my friends," Leila writes the moment she steps back, her hands flying. "They broke me out of the arena cells and escorted me across the continent."
+"Father, these are my friends," Leila writes the moment she steps back, her hands flying in swift, precise arcs. "They broke me out of the arena cells and escorted me across the continent."
 
 "I gathered as much," her father says, looking over at us with genuine relief. "I owe every one of you a debt for keeping my daughter safe, but proper introductions can wait until we are off these streets."
 
@@ -86,29 +86,29 @@ TEXT:
 #if(v_b3_ch2_gontrok == 3) {
 "Maybe Eiden tried to mess with the king, to see how he'd react."
 
-"I wouldn't put it past him," Hadrik grunts. "Though judging by that smug bastard's face on the screen, he looked just as startled as the rest of them."
+"I wouldn't put it past him," Hadrik grunts, spitting blood onto the gravel. "Though judging by that smug bastard's face on the screen, he looked just as startled as the rest of them."
 
 "We cannot linger here," Daren says. He drags his sword up from the flagstones, leaning heavily on the hilt before limping toward us. "The royal guards may be gone, but regular city patrols will flood this square any second. We need cover to rest and patch ourselves up."
 
-"Brimstone and iron," Hadrik says, taking in Daren's ragged stance. "What hit you? You look like a collapsed watchtower."
+"Brimstone and iron," Hadrik says, taking in Daren's ragged stance with his one open eye. "What hit you? You look like a collapsed watchtower."
 
-"Look who's talking," Daren mutters, halting beside us with a wince. "Catch your reflection in a puddle sometime. Your face is purple and swollen shut. I would weave a mend, but my reserves are empty. It took everything I had just to cast a recovery weave to stand upright."
+"Look who's talking," Daren mutters, halting beside us with a wince as his cracked ribs pull tight. "Catch your reflection in a puddle sometime. Your face is purple and swollen shut. I would weave a mend, but my reserves are empty. It took everything I had just to cast a recovery weave to stand upright."
 
-"Shelter is the priority," Kate says, her eyes sweeping the deserted plaza. "Standing in the open makes us targets. Finding a secure corner in unfamiliar enemy territory, however, is another matter."
+"Shelter comes first," Kate says, her dark eyes sweeping the deserted plaza. "Standing in the open makes us targets. Finding a secure corner in unfamiliar enemy territory, however, is another matter."
 
 }
 #if(v_b3_ch2_gontrok != 3) {
 "Maybe Eiden tried to mess with the king, to see how he'd react."
 
-"I wouldn't put it past him," Hadrik grunts. "Though judging by that smug bastard's face on the screen, he looked just as startled as the rest of them."
+"I wouldn't put it past him," Hadrik grunts, spitting blood onto the gravel. "Though judging by that smug bastard's face on the screen, he looked just as startled as the rest of them."
 
-"We cannot linger here," Daren says. He limps toward us, bending stiffly to scoop his sword from where I dropped it when the captain had me pinned. "The royal guards may be gone, but regular city patrols will flood this square any second. We need cover to rest and patch ourselves up."
+"We cannot linger here," Daren says. He limps toward us, bending stiffly to scoop his sword from where I dropped it when the captain had me pinned, his armor groaning. "The royal guards may be gone, but regular city patrols will flood this square any second. We need cover to rest and patch ourselves up."
 
-"Brimstone and iron," Hadrik says, taking in Daren's ragged stance. "What hit you? You look like a collapsed watchtower."
+"Brimstone and iron," Hadrik says, taking in Daren's ragged stance with his one open eye. "What hit you? You look like a collapsed watchtower."
 
-"Look who's talking," Daren mutters, halting beside us with a wince. "Catch your reflection in a puddle sometime. Your face is purple and swollen shut. I would weave a mend, but my reserves are empty. It took everything I had just to cast a recovery weave to stand upright."
+"Look who's talking," Daren mutters, halting beside us with a wince as his cracked ribs pull tight. "Catch your reflection in a puddle sometime. Your face is purple and swollen shut. I would weave a mend, but my reserves are empty. It took everything I had just to cast a recovery weave to stand upright."
 
-"Shelter is the priority," Kate says, her eyes sweeping the deserted plaza. "Standing in the open makes us targets. Finding a secure corner in unfamiliar enemy territory, however, is another matter."
+"Shelter comes first," Kate says, her dark eyes sweeping the deserted plaza. "Standing in the open makes us targets. Finding a secure corner in unfamiliar enemy territory, however, is another matter."
 
 }
 "Perhaps we can offer some guidance," a man calls out.
@@ -150,29 +150,29 @@ TEXT:
 #if(v_b3_ch2_gontrok == 3) {
 "Maybe it was just a defective device, and the king teleported the guards for nothing."
 
-"Ha!" Hadrik chuckles. "I'd pay good gold to see Gontrok's face when he realizes he was yanked away for a faulty wire."
+"Ha!" Hadrik chuckles, wincing as his split lip pulls against his swollen cheek. "I'd pay good gold to see Gontrok's face when he realizes he was yanked away for a faulty wire."
 
 "We cannot linger here," Daren says. He drags his sword up from the flagstones, leaning heavily on the hilt before limping toward us. "The royal guards may be gone, but regular city patrols will flood this square any second. We need cover to rest and patch ourselves up."
 
-"Brimstone and iron," Hadrik says, taking in Daren's ragged stance. "What hit you? You look like a collapsed watchtower."
+"Brimstone and iron," Hadrik says, taking in Daren's ragged stance with his good eye. "What hit you? You look like a collapsed watchtower."
 
 "Look who's talking," Daren mutters, halting beside us with a wince. "Catch your reflection in a puddle sometime. Your face is purple and swollen shut. I would weave a mend, but my reserves are empty. It took everything I had just to cast a recovery weave to stand upright."
 
-"Shelter is the priority," Kate says, her eyes sweeping the deserted plaza. "Standing in the open makes us targets. Finding a secure corner in unfamiliar enemy territory, however, is another matter."
+"Shelter comes first," Kate says, her eyes sweeping the deserted plaza. "Standing in the open makes us targets. Finding a secure corner in unfamiliar enemy territory, however, is another matter."
 
 }
 #if(v_b3_ch2_gontrok != 3) {
 "Maybe it was just a defective device, and the king teleported the guards for nothing."
 
-"Ha!" Hadrik chuckles. "I'd pay good gold to see Gontrok's face when he realizes he was yanked away for a faulty wire."
+"Ha!" Hadrik chuckles, wincing as his split lip pulls against his swollen cheek. "I'd pay good gold to see Gontrok's face when he realizes he was yanked away for a faulty wire."
 
-"We cannot linger here," Daren says. He limps toward us, bending stiffly to scoop his sword from where I dropped it when the captain had me pinned. "The royal guards may be gone, but regular city patrols will flood this square any second. We need cover to rest and patch ourselves up."
+"We cannot linger here," Daren says. He limps toward us, bending stiffly to scoop his sword from where I dropped it when the captain had me pinned, his breath hissing through his teeth. "The royal guards may be gone, but regular city patrols will flood this square any second. We need cover to rest and patch ourselves up."
 
-"Brimstone and iron," Hadrik says, taking in Daren's ragged stance. "What hit you? You look like a collapsed watchtower."
+"Brimstone and iron," Hadrik says, taking in Daren's ragged stance with his good eye. "What hit you? You look like a collapsed watchtower."
 
 "Look who's talking," Daren mutters, halting beside us with a wince. "Catch your reflection in a puddle sometime. Your face is purple and swollen shut. I would weave a mend, but my reserves are empty. It took everything I had just to cast a recovery weave to stand upright."
 
-"Shelter is the priority," Kate says, her eyes sweeping the deserted plaza. "Standing in the open makes us targets. Finding a secure corner in unfamiliar enemy territory, however, is another matter."
+"Shelter comes first," Kate says, her eyes sweeping the deserted plaza. "Standing in the open makes us targets. Finding a secure corner in unfamiliar enemy territory, however, is another matter."
 
 }
 "Perhaps we can offer some guidance," a man calls out.
@@ -551,7 +551,7 @@ TEXT:
 
 "Have your scouts infiltrated the towers to confirm if the girl's kin are inside?" Daren presses.
 
-"The perimeter is impenetrable without heavy casualties," Breynan says bluntly. "We cannot risk dozens of lives on a reconnaissance hunch, and staging a breakout would require a full regiment. Harsh as it sounds, our resources cannot be spent chasing a single family."
+"The perimeter is impenetrable without heavy casualties," Breynan says bluntly. "We cannot risk dozens of lives on a reconnaissance hunch, and staging a breakout would require a full regiment. Harsh as it sounds, our few blades cannot be spent chasing a single family."
 
 "And her mother?" Hadrik asks. "What became of her?"
 
@@ -577,7 +577,7 @@ Near the corridor entrance, two young fighters drag an older man toward a reinfo
 
 "Please..." the older man begs, digging his heels into the flagstones. "I still have two hours before the mark turns hot. At least let me say goodbye to my boy!"
 
-"Your boy is on patrol outside the perimeter, Jack," the youth says, keeping a tight grip on his collar. "He won't be back until sundown. You know the protocol."
+"Your boy is on patrol outside the perimeter, Jack," the youth says, keeping a tight grip on his collar. "He won't be back until sundown. You know the rules."
 
 "Two hours!" Jack pleads. "You cannot lock me in the dark like a dog!"
 
@@ -633,7 +633,7 @@ Near the corridor entrance, two young fighters drag an older man toward a reinfo
 
 "Please..." the older man begs, digging his heels into the flagstones. "I still have two hours before the mark turns hot. At least let me say goodbye to my boy!"
 
-"Your boy is on patrol outside the perimeter, Jack," the youth says, keeping a tight grip on his collar. "He won't be back until sundown. You know the protocol."
+"Your boy is on patrol outside the perimeter, Jack," the youth says, keeping a tight grip on his collar. "He won't be back until sundown. You know the rules."
 
 "Two hours!" Jack pleads. "You cannot lock me in the dark like a dog!"
 
@@ -759,35 +759,35 @@ set(v_ac_b3_ch2_reckless,1)
 achievement("Reckless",v_ac_b3_ch2_reckless)
 "Alright. Lead the way!" I say.
 
-"Two lunatics for the price of one," Desmond mutters, eyeing me with mild disbelief.
+"Two lunatics for the price of one," Desmond mutters, shaking his gray head with grim disbelief.
 
 "They don't call me 'Barry the Reckless' for nothing," I say. "See you on the other side."
 
-I follow Daren past the threshold. Desmond pulls the heavy door shut behind us, the clatter of iron deadbolts sealing us in.
+I follow Daren past the threshold. Desmond heaves the heavy iron door shut behind us, the heavy clatter of iron deadbolts sealing us into the shaft.
 
-We make our way down a narrow stone corridor illuminated by a pair of smoky torches. At the far end stands a second iron door, unlocked. Muffled voices filter through the seam, where the old man Jack is locked in an argument with other inmates.
+We make our way down a narrow, damp stone corridor illuminated by a pair of sputtering pitch torches. At the far end stands a second iron door, sitting unlatched. Muffled voices filter through the seam, where the old man Jack is locked in a raw argument with other inmates.
 
-"Pull yourself together, Jack," a voice snaps from beyond the door. "You've done nothing but wail since they hauled you through the hatch. We had to drag you clear of the corridor so the antechamber wouldn't hear your carry-on. Try to make use of your remaining good days. Pull up a stool. Take an ale. We have cards. We share the same bunk now--no point making the dark darker."
+"Pull yourself together, Jack," a tired voice snaps from beyond the timber. "You've done nothing but wail since they hauled you through the hatch. We had to drag you clear of the corridor so the antechamber wouldn't hear your carry-on. Try to make use of your remaining good days. Pull up a stool. Take an ale. We have cards. We share the same dark bunk now--no point making the dark darker."
 
 The argument cuts short as Daren and I push the door open and step into the cavernous sick ward.
 
-Near the entrance, Jack and three younger men sit around a scarred wooden table with clay mugs and a deck of cards. Beyond them, rows of iron cots stretch into the gloom, occupied by dozens of shivering, feverish patients coughing weakly or staring blankly at the bedrock ceiling. In the center aisle, a lone goblin in white mage robes moves between the beds, checking pulses and adjusting blankets, too absorbed in his rounds to notice our entrance.
+A draft smelling of stale vinegar, sweat, and dried chamomile washes over us. Near the entrance, Jack and three younger men sit around a scarred wooden trestle table littered with clay mugs and a deck of grease-stained, bent cards. Beyond them, rows of rusted iron cots stretch into the gloom, occupied by dozens of shivering, feverish patients coughing weakly into wool blankets or staring blankly at the rough bedrock ceiling. In the center aisle, a lone goblin in white mage robes moves between the beds, checking pulses and adjusting blankets, too absorbed in his rounds to notice our entrance.
 
 "A goblin?" Daren stops dead in his tracks, staring. "A goblin is tending these people?"
 
-The goblin halts at a nearby cot, raising his hands to channel a healing matrix over a feverish patient.
+The goblin halts at a nearby cot, lifting both hands to channel a healing matrix over a feverish patient.
 
-Daren winces. "No, no, no! That is not how you seat that weave! Here, let me assist."
+Daren winces, his healer instincts instantly taking over. "No, no, no! That is not how you seat that weave! Here, let me assist."
 
-Daren limps forward in a hurry.
+Daren limps forward in a hurry, ignoring the pain in his side.
 
-I close the distance behind him. Daren steadies the goblin's right wrist while pressing his left palm to the patient's chest. Tracking the mana flow with my aura sense, I feel Daren guide the turbulent stream, smoothing out the jagged ripples until the white light settles evenly across the patient's torso. Daren steps back, releasing the goblin's arm.
+I close the distance behind him. Daren steadies the goblin's right wrist while pressing his left palm to the sick man's chest. Tracking the mana flow with my aura sense, I feel Daren guide the turbulent stream, smoothing out the jagged ripples until the clean white light settles evenly across the patient's torso. Daren steps back, releasing the goblin's arm.
 
-"There," Daren says. "That stabilizes the flow. You should never force an advanced recovery matrix without locking the channel first--the rebound will tear your own aura apart."
+"There," Daren says, his breath slightly short. "That stabilizes the flow. You should never force an advanced recovery matrix without locking the secondary channel first--the rebound will tear your own aura apart."
 
-"My thanks for the instruction, kind stranger," the goblin says in remarkably fluent Common. "As you can see, I am merely a novice practitioner, but I offer what aid I can. I am Kelrim. A pleasure to make your acquaintance."
+"My thanks for the instruction, kind stranger," the goblin says in remarkably fluent, cultured Common. "As you can see, I am merely a novice practitioner, but I offer what aid I can. I am Kelrim. A pleasure to make your acquaintance."
 
-He extends a green hand. Daren shakes it after a brief hesitation.
+He extends a slender green hand. Daren shakes it after a brief, startled hesitation.
 
 "Daren," he says. "And this is Barry. Desmond at the door mentioned your name--called you a fool. What brings you into an active quarantine ward? Were you locked in with the infected?"
 
@@ -797,23 +797,23 @@ choice("Continue", B3-Ch02c-Healing, v_current_scene = B3-Ch02c-Healing)
 ID: B3-Ch02c-Healing
 TEXT:
 
-"Oh, I wasn't sick when I first came here," Kelrim says. "When I saw what was happening, I could not turn away. As long as there was a chance to ease their suffering or uncover a cure, I had to take it."
+"Oh, I wasn't sick when I first came here," Kelrim says, adjusting the hem of his white robe. "When I saw what was happening to these people, I could not turn away. As long as there was a chance to ease their suffering or uncover a cure, I had to take it."
 
-"Why risk your life for humans?" Daren asks, perplexed. "You are a goblin. What makes their survival your concern?"
+"Why risk your life for humans?" Daren asks, genuinely perplexed. "You are a goblin. What makes their survival your concern?"
 
-"I might ask the same of you, human named Daren," Kelrim replies evenly. "Why do you care? You are an outsider, and these patients are strangers. Why risk everything for them? Because we are healers. It is in our nature to preserve life, regardless of race or species. Was that not your purpose when you took up the white mantle? To make a difference?"
+"I might ask the same of you, human named Daren," Kelrim replies evenly, his large amber eyes meeting Daren's without flinching. "Why do you care? You are an outsider, and these patients are strangers. Why risk everything for them? Because we are healers. It is in our nature to preserve life, regardless of race or species. Was that not your purpose when you took up the white mantle? To make a difference?"
 
-"I..." Daren trails off, momentarily at a loss for words. "I suppose..."
+"I..." Daren trails off, momentarily at a loss for words, looking down at his armored hands. "I suppose..."
 
 Kelrim turns toward an adjacent cot, his eyes catching the bare skin at the base of Daren's skull.
 
-"By the gods!" Kelrim gasps, dropping his herbs. "Your neck--there are no marks! What are you doing in an active ward without the sickness? The spores will take root any second! Stand still--I will cast a ward!"
+"By the gods!" Kelrim gasps, nearly dropping his bundle of herbs. "Your neck--there are no marks! What are you doing in an active ward without the sickness? The spores will take root any second! Stand still--I will cast a ward!"
 
-Kelrim raises his hands. Bright white light envelopes Daren, a clean mana barrier wrapping tightly around his aura.
+Kelrim raises his hands in a swift, practiced gesture. Bright white light envelopes Daren, a clean mana barrier wrapping tightly around his aura like a translucent second skin.
 
 "And for your companion," Kelrim adds, immediately casting the identical white matrix over my chest. "Now leave, at once! This barrier degrades within an hour, and the channels can only sustain the weave once every few days. If you linger in this air, I cannot protect you!"
 
-"Set that aside," Daren says, inspecting the glowing residue around his forearms. "The ward you just cast--the structure felt familiar."
+"Set that aside for a moment," Daren says, inspecting the glowing residue humming around his gauntlets. "The ward you just cast--the structure felt familiar."
 
 "It is a modified derivation from the basic wards recorded in Advanced Theory of Magic, by Sage Azarius," Kelrim says.
 
@@ -827,15 +827,15 @@ choice("Continue", B3-Ch02c-Grim, v_current_scene = B3-Ch02c-Grim)
 ID: B3-Ch02c-Grim
 TEXT:
 
-"Yes, that is it, exactly!" Kelrim says. "I have spent two weeks in this ward trying to unravel the blight, but this temporary barrier is the furthest I have progressed. Fortunately, goblin physiology slows the incubation. I still have roughly two weeks before my own lesions turn contagious, so I intend to use every hour hunting a remedy."
+"Yes, that is it, exactly!" Kelrim says, nodding eagerly. "I have spent two weeks in this ward trying to unravel the blight, but this temporary barrier is the furthest I have progressed. Fortunately, goblin physiology slows the incubation. I still have roughly two weeks before my own lesions turn contagious, so I intend to use every hour hunting a remedy."
 
 "If the pathogen attacks the aura directly," Daren says, "I might isolate the distortion with direct contact and focused sense. Let me examine him."
 
-Daren rests his palm on the sick man's sternum, shutting his eyes to trace the mana flow. Thirty seconds pass in complete silence. When his eyes open, his face is grim as ash.
+Daren rests his calloused palm on the sick man's sternum, shutting his eyes to trace the inner mana flow. Half a minute passes in complete silence, broken only by the raspy breathing of the patients. When Daren's eyes open, his face is grim as ash.
 
-"Desmond was right," Daren breathes. "This IS impossible. Unless..."
+"Desmond was right," Daren breathes, pulling his hand back. "This IS impossible. The corruption isn't attacking the physical tissue—it's rotting the spirit link from within, inverting the aura's polarity. Standard counter-weaves can't touch it. Unless..."
 
-Daren straightens, removing his hand from the patient's chest.
+Daren straightens, wincing as his bruised ribs protest the movement.
 
 "Unless what?" Kelrim asks.
 
@@ -843,9 +843,9 @@ Daren straightens, removing his hand from the patient's chest.
 
 "Lead on," Kelrim nods.
 
-We retrace our steps down the torchlit corridor and rap on the heavy iron door.
+We retrace our steps down the torchlit corridor and rap firmly on the heavy iron door.
 
-Desmond unlocks the hatch and peers through. "Given up already, healer?"
+Desmond unlocks the hatch and peers through the slit. "Given up already, healer?"
 
 "Not yet," Daren says, leading us back into the antechamber where our companions wait near the wall.
 
@@ -853,9 +853,9 @@ Desmond unlocks the hatch and peers through. "Given up already, healer?"
 
 "This is Kelrim," Daren says. "A goblin white mage who has volunteered in the quarantine ward for the past two weeks. He cast a temporary ward on Barry and me that shielded us from the disease, and he helped me diagnose its true nature."
 
-"Daren partnering with a monster?" Hadrik's laugh rumbles. "Now there's a sight I never expected to see."
+"Daren partnering with a monster?" Hadrik's laugh rumbles, though his swollen eye squints with curious respect. "Now there's a sight I never expected to see."
 
-"The healer speaks the truth," Breynan says after inspecting the back of our necks. "That temporary ward held the rot at bay."
+"The healer speaks the truth," Breynan says after stepping forward and inspecting the clean skin at the nape of our necks. "That temporary ward held the rot at bay."
 
 choice("Continue", B3-Ch02c-Strangers, v_current_scene = B3-Ch02c-Strangers)
 
@@ -863,37 +863,39 @@ choice("Continue", B3-Ch02c-Strangers, v_current_scene = B3-Ch02c-Strangers)
 ID: B3-Ch02c-Strangers
 TEXT:
 
-"So, if you already managed to figure out the nature of the sickness, then why did you come back here?" Kate asks.
+"So, if you already managed to figure out the nature of the sickness, then why did you come back here?" Kate asks, her arms crossed beneath her cloak.
 
-"Because I cannot cure it alone," Daren says. "The blight warps the patient's aura from within, but my magical perception is too coarse to map the corruption or weave a counter-spell. That is why I returned."
+"Because I cannot cure it alone," Daren says, his voice gravelly with fatigue. "The blight warps the patient's aura from within, but my magical perception is too coarse to map the corruption or weave a counter-spell. That is why I returned."
 
-He steps in front of Illuna, drops to one knee on the cold stone, and bows his head.
+He turns toward Flower and Illuna. In the dim crystal light, Daren lowers himself slowly, the heavy steel of his grieves and knee-cops striking the cold flagstones with a dull, echoing clang. He goes down on one knee, rests his hands on his armored thigh, and bows his scarred forehead toward the stone.
 
-"Arraka, I need your help," Daren says, his voice steady despite the humiliation. "You are the only person I know who has a good enough magical sense to be able to understand how this disease works. I realize how pathetic this is, but I have nobody else to turn to and if I don't do anything, all those people will die. Please... will you help me?"
+"Arraka, I need your help," Daren says. The words are measured, but the effort behind them is palpable. "You are the only person I know who has a good enough magical sense to understand how this disease works. I realize how pathetic this is, but I have nobody else to turn to and if I don't do anything, all those people will die. Please... will you help me?"
 
-A heavy silence grips the room.
+A dead, heavy silence grips the chamber. No one moves. Kate stares at him in stunned stillness; Hadrik's hand freezes in his beard; Breynan and Reidzek look on in complete disbelief. For a proud knight of Daren's stature to bend his knee before the amulet is a surrender that costs him every shred of pride.
 
-"What on earth is this?" Arraka's voice crackles from the golden amulet. "Is groveling before your enemies to rescue stray peasants your latest routine?"
+From the golden amulet resting against Flower's chest, a low, rasping chuckle breaks the quiet, swelling into a cruel, delighted hiss.
 
-She pauses for a few seconds, during which Daren keeps his forehead bowed toward the floor.
+"What on earth is this?" Arraka's voice echoes off the seredium walls. "Is groveling before your enemies to rescue stray peasants your latest habit?"
 
-"Hmm..." Arraka murmurs. "You know what? I accept. I could not care less if those wretches rot where they lie, but if this drives you to hone your aura sight beyond that of a blind mule, it serves my purposes. Do not expect me to spoon-feed you the cure. You will weave the solution, not me. I will offer only vague hints to steer you in the right direction. And do not assume I will go easy on you because your life hangs in the balance. If you succumb to a petty fever, it merely proves you were never fit to face Selkram. Well, healer? Do you still want my counsel?"
+She pauses for several seconds, letting Daren remain bowed in the dust before everyone.
 
-"I do," Daren says, keeping his head down.
+"Hmm..." Arraka murmurs, savoring the moment. "You know what? I accept. I could not care less if those wretches rot where they lie, but if this drives you to hone your aura sight beyond that of a blind mule, it serves my purposes. Do not expect me to spoon-feed you the cure. You will weave the solution, not me. I will offer only vague hints to steer you in the right direction. And do not assume I will go easy on you because your life hangs in the balance. If you succumb to a petty fever, it merely proves you were never fit to face Selkram. Well, healer? Do you still want my counsel?"
+
+"I do," Daren says without lifting his head.
 
 "Then we have a deal," Arraka sneers. "Show me those sick patients of yours, and we can begin the dissection whenever you please."
 
-Kelrim steps forward as Daren rises. "Daren, are you certain? I cannot cast the ward a second time. If you re-enter the ward now, you will catch the disease for good."
+Kelrim steps forward as Daren pushes himself back to his feet with a stiff grunt. "Daren, are you certain? I cannot cast the ward a second time. If you re-enter the ward now, you will catch the disease for good."
 
-"I accepted that risk the moment I stepped past the sentry," Daren says. "Illuna, hand over the amulet."
+"I accepted that risk the moment I stepped past the sentry," Daren says, adjusting his sword belt. "Illuna, hand over the amulet."
 
-"Hold," Breynan intervenes. "Do not return to the ward just yet. The king of the underground should be arriving any minute now, and you will want to hear what he has to say. You will have ample time to attend to the sick once our meeting concludes."
+"Hold," Breynan intervenes, raising a calloused hand. "Do not return to the ward just yet. The king of the underground should be arriving any minute now, and you will want to hear what he has to say. You will have ample time to attend to the sick once our council concludes."
 
-"Very well," Daren sighs. "But let him make haste."
+"Very well," Daren exhales heavily, the weight of what he just did still hanging over him. "Let him make haste."
 
-"Aye, this king takes his sweet time," Hadrik grumbles. "Hopefully Albert didn't bump into any more old friends on the way, or we'll grow gray beards waiting."
+"Aye, this king takes his sweet time," Hadrik grumbles, shifting his stance. "Hopefully Albert didn't bump into any more old friends on the way, or we'll grow gray beards waiting."
 
-"There is no harm in the delay," Reidzek says gently. "It offers us a chance to converse. For instance, I imagine several of you have questions for our friend Kelrim here. It is not every day one encounters a goblin white mage within a human city."
+"There is no harm in the delay," Reidzek says gently, seeking to ease the tension in the room. "It offers us a chance to converse. For instance, I imagine several of you have questions for our friend Kelrim here. It is not every day one encounters a goblin white mage within a human city."
 
 choice(""I have to admit that I was wondering how Kelrim got to learn white magic."", B3-Ch02c-River, v_current_scene = B3-Ch02c-River, v_b3_ch2_question = 0)
 choice(""Now that you mention it, I am a bit curious to know how a goblin ended up in a human city."", B3-Ch02c-River, v_current_scene = B3-Ch02c-River, v_b3_ch2_question = 1)
@@ -934,33 +936,31 @@ He pauses briefly.
 
 }
 #if(v_b3_ch2_goblins == 1) {
-"Those goblins you mentioned..." Daren's voice falters, his posture stiffening. "Were they equipped in scavenged leather armor and notched blades? Was one noticeably older than the other two?"
+"Those goblins you mentioned..." Daren's voice falters, the color draining completely from his face. "Were they equipped in scavenged leather armor and notched blades? Was one noticeably older than the other two?"
 
-"Yes, exactly!" Kelrim says, leaning forward with sudden hope. "You encountered them?"
+"Yes, exactly!" Kelrim says, leaning forward with sudden, eager hope. "You encountered them?"
 
-"Yes, but..." Daren struggles for breath, the color draining from his face. "We... killed them. Every one of them. We mistook them for Tyrath's vanguard... Kelrim, forgive us. We did not know... We simply..."
+"Yes, but..." Daren struggles for breath, his hands trembling at his sides. "We... killed them. Every one of them. We mistook them for Tyrath's vanguard... Kelrim, forgive us. We did not know... We simply..."
 
-Kelrim stares at him in stunned disbelief, the words slowly sinking through his shock.
+Kelrim stares at him in stunned disbelief, the words slowly penetrating his shock.
 
 "My friends are... dead?" Kelrim whispers, his voice cracking. He gazes into empty air, as if the room and everyone in it had vanished.
 
-His knees buckle. He stumbles back a half-step and collapses heavily into a wooden chair, staring at the floor in hollow silence.
+His knees give out. He stumbles back a half-step and collapses heavily into a wooden chair, staring at the floor in hollow, shattered silence.
 
-Beside me, Kate's breathing turns ragged. Cold sweat beads along her hairline, her knuckles white as she glares fixedly at the flagstones, trembling violently.
+Beside me, Kate goes completely rigid. Her face turns to pale stone, her jaw clenched so tight the tendon in her neck stands out. Beneath the hem of her green cloak, her fists are white-knuckled, but her dark eyes remain cold, sharp, and locked unblinkingly on the floor. Hadrik looks down at his boots, unable to meet Kelrim's gaze.
 
-That's right... Kate struck down one of Kelrim's companions herself. Watching the goblin shatter under the news is tearing right through her defenses.
+"Kelrim..." Daren says softly, extending a hand before pulling it back, overwhelmed with shame. "I am so sorry..."
 
-"Kelrim..." Daren says softly, reaching out a trembling hand. "I am so sorry..."
+"No... do not apologize," Kelrim murmurs, his voice small and hollow in the cavern. "I do not blame you. They were goblins... Foreigners have no cause to hesitate before striking. In their place, another warband might have cut you down without a second thought... I understand how this land operates. But still... I need a moment..."
 
-"No... do not apologize," Kelrim murmurs, trying desperately to steady his voice, though his eyes look sunken and hollow. "I do not blame you. They were goblins... Foreigners have no cause to hesitate before striking. In their place, another warband might have cut you down without a second thought... I understand how this land operates. But still... I need a moment to collect myself..."
+Kate does not speak. Her breath comes shallow and fast through her nose, her entire posture wound tight as an overwound spring, shutting out the room.
 
-The goblin's quiet grief pushes Kate over the edge. Her eyes dart frantically around the chamber, her chest heaving as panic takes hold.
+"Kate," I murmur in an undertone, stepping half a pace closer.
 
-"Kate, look at me," I say, stepping directly into her line of sight. "Kate!"
+Her eyes flick to me, sharp as icicles. "I'm fine, Barry," she cuts in, her voice brittle as frozen glass. "Leave it."
 
-She lifts her gaze, pupils dilated in blind panic, unable to find words.
-
-As I try to pull her out of the spiral, a sudden movement makes Breynan whirl around. He recoils a half-step in surprise, coming face to face with a man in his mid-fifties clad in fine chainmail beneath a charcoal gray mantle.
+Before I can answer, a sudden movement makes Breynan whirl around. He recoils a half-step in surprise, coming face to face with a man in his mid-fifties clad in fine chainmail beneath a charcoal gray mantle.
 
 }
 #if(v_b3_ch1_password == 1 && v_b3_ch2_goblins == 0) {
@@ -1022,7 +1022,7 @@ TEXT:
 
 "No need to disrupt your conversation on my account," the newcomer says, holding up a gloved hand as we turn toward him. "Please, finish what you were discussing. I can wait."
 
-As we stand in awkward silence, Kate presses both palms against her temples, taking a slow, ragged breath to force her racing pulse under control.
+As we stand in tense silence, Kate draws her green cloak tighter across her shoulders, her jaw tight as she forces her breathing into a calm, steady rhythm.
 
 "Finished, then?" the man in the mantle asks, arching an eyebrow. "Good. In that case, accept my apologies for the delay. I was occupied with a sensitive council that could not be set aside, preventing me from receiving you upon arrival. As the fault is mine, I came to escort you personally."
 

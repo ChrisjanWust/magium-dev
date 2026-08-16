@@ -4,19 +4,19 @@ TEXT:
 set(v_b3_ch1_unlock,0)
  
 
-"Hey, Barry, are you done eating?" Daren says. "It's almost time for our daily strategy meeting with Arraka."
+"Hey, Barry, are you done eating?" Daren says. "It's almost time for our daily planning with Arraka."
 
 "Yeah, I'm done," I say, setting my tin plate on the dry grass and falling in step beside him. "Let's go."
 
-Three days have passed since the God of Time pulled us into his domain. Ollendor lies somewhere past the ridge line; Melindra swears we will see the outer gates by tomorrow before noon. The trail between here and the mountain pass has been quiet, foreign pine needles snapping under our boots, but nobody brings up the rituals. We talk around them. We pack the camp, count the rations, and pretend the world did not tilt on its axis seventy-two hours ago. Yet beneath the mundane chatter, the cracks are there. Selkram's trials left a mark on every single one of us.
+Three days have passed since the God of Time dragged us into his domain. Ollendor lies somewhere past the western ridge line; Melindra swears we will see the outer ramparts by tomorrow before noon. The trail between the mountain pass and the foothills has been quiet, foreign pine needles snapping under our boots, but nobody brings up the rituals. We talk around them. We pack the bedrolls, count the dried meat rations, and pretend the world did not tilt on its axis seventy-two hours ago. Yet beneath the mundane camp chatter, the strain is visible in every stiff shoulder and guarded glance. Selkram's trials left a mark on every single one of us.
 
-That quiet pressure is the only reason the others agreed to my proposal: letting Arraka coach us on how to kill a god. Daren balked at first, and Hadrik laughed it off as suicide, but in the end only Leila and Melindra stayed off the official roster. Leila is leaving us at Ollendor to reunite with her father, and Melindra's blood oath ends the moment the city's tyrant falls. Arraka's long-term schemes are not their problem.
+That quiet pressure is the only reason the others agreed to my proposal: letting Arraka drill us on how to kill a god. Daren balked at first, and Hadrik laughed it off as suicide, but in the end only Leila and Melindra stayed off the official roster. Leila plans to peel off at Ollendor to reunite with her father, and Melindra's blood oath ends the moment the city's tyrant dies. Arraka's long-term schemes are not their problem.
 
-"I still can't believe we're doing this," Daren mutters as we head up the slope toward the grassy knoll above camp. "A week ago, if you told me I'd take tutoring from that banshee, I would have laughed in your face."
+"I still can't believe we're doing this," Daren mutters, the iron plates of his armor clanking softly as we head up the slope toward the grassy knoll above camp. "A week ago, if you told me I'd take tutoring from that banshee, I would have laughed in your face."
 
-"We don't have a better hand to play," I say. "None of us has ever traded blows with a god. Arraka is the only one who fought them and lived to brag about it. Left to ourselves, we wouldn't even know what to aim at."
+"We don't have a better hand to play," I say. "None of us has ever traded blows with a god. Arraka is the only one who fought them and lived to brag about it. Left to ourselves, we wouldn't even know where to strike."
 
-"I know, I know," Daren says, adjusting the strap on his breastplate. "It still turns my stomach. Not so long ago she tried to kill us. In fact, she did kill us, before time rewound. Now she's running our morning drills? It's too neat. There's an angle in it."
+"I know, I know," Daren says, tugging at the leather strap of his breastplate where it chafes his collar. "It still turns my stomach. Not so long ago she butchered an army and tried to kill us. In fact, she did kill us, before time rewound. Now she's running our morning drills? It's too neat. There's an angle in it."
 
 "She has an ancient grudge against the entire pantheon," I say. "They exiled her from the magical plane. She wants them dead, and trapped in an amulet, we're the only weapon she can swing."
 
@@ -26,9 +26,9 @@ choice("Continue", B3-Ch01a-Intro2, v_current_scene = B3-Ch01a-Intro2, v_checkpo
 ID: B3-Ch01a-Intro2
 TEXT:
 
-"Maybe," Daren says. "I'm still taking every word with a handful of salt. She's just as likely leading us in circles for her own entertainment."
+"Maybe," Daren says, his hand resting on the pommel of his broadsword. "I'm still taking every word with a handful of salt. She's just as likely leading us in circles for her own entertainment."
 
-At the crest of the hill, the rest of the company is already assembled under the morning sun. Leila sits cross-legged on a boulder, and Melindra leans against a twisted trunk nearby, watching with idle amusement. Leila has spectated from the start, but this is Melindra's first time attending. Watching us fail to quit after two days must have finally piqued her curiosity.
+At the crest of the hill, the rest of the company is already assembled under the pale morning sun. Leila sits cross-legged on a flat granite boulder, silver hair catching the draft, while Melindra leans against the twisted trunk of a mountain pine, watching us with idle amusement. Leila has spectated from the start, but this is Melindra's first time attending. Watching us fail to break after two days of drills must have finally piqued her curiosity.
 
 "You're late!" Arraka's voice screeches from the golden amulet hanging against Flower's chest. "Twenty push-ups for tardiness! Cheat on the count and you'll spend the afternoon wearing a dunce hat in the briars!"
 
@@ -41,11 +41,11 @@ TEXT:
 
 "Fine, fine, I'll do the push-ups," I say.
 
-"Since when does Arraka give orders?" Daren snaps.
+"Since when does Arraka give orders?" Daren snaps, jaw tight.
 
-"Who cares?" I say, dropping to the dirt and knocking out the count. "It's just twenty reps. It beats standing around listening to her lecture us about punctuality."
+"Who cares?" I say, dropping to the dirt and knocking out the count as grit and dry needles dig into my palms. "It's just twenty push-ups in the grass. It beats standing around listening to her lecture us about punctuality."
 
-"It's the principle of the thing," Daren grumbles. "Besides, I'm not shedding eighty pounds of steel just to humor her circus act."
+"It's the principle of the thing," Daren grumbles, standing rigid while his scabbard taps against his greaves. "Besides, I'm not shedding eighty pounds of steel just to humor her circus act."
 
 "Is that so?" Arraka snaps from the amulet. "What if I decide your pathetic god-slaying crusade isn't worth my charity? I'm only here out of sheer boredom. Weren't you the ones on your knees, begging for a crumb of my wisdom?"
 
@@ -61,11 +61,11 @@ Ever since Illuna threatened to cast the amulet into the Magium, Arraka has trea
 
 "Let's start with Daren," Arraka says, her tone dripping with mockery. "Tell me, hero. Have you made contact with the spirit linked to your soul? Is the count still zero? Please say zero. I could use a laugh."
 
-"Maybe it wouldn't be zero if your instructions sounded like actual magic instead of nonsense," Daren shoots back. "'Untangle the flow of your aura until you can see it in your mind.' 'Picture the link as a long invisible string and give it a tug.' How is anyone supposed to work with that?"
+"Maybe it wouldn't be zero if your instructions sounded like actual magic instead of nonsense," Daren shoots back, crossing his armored forearms. "'Untangle the flow of your aura until you can see it in your mind.' 'Picture the link as a long invisible string and give it a tug.' How is anyone supposed to work with that?"
 
 "Only an oaf in tin plate could call my guidance nonsense!" Arraka snaps. "Do you have any idea how many mages would slaughter their own kin to have a mentor from the magical plane? Thousands of years of primordial lore, and you squander it because your brain refuses to grasp a basic metaphor!"
 
-"I tried," Daren says, jaw tightening. "None of it corresponds to anything I can feel."
+"I tried," Daren says, a vein pulsing at his temple. "None of it corresponds to anything I can feel."
 
 "Then try harder! Or ask an intelligent question for once. Where are you failing? The visualization? Is your magical sense too dull to separate the layers of your own energy? Can you even read someone's age from their aura? I have no idea how blind you earthen mortals truly are. Your senses are crude, but that is no excuse for total incompetence."
 
@@ -95,11 +95,11 @@ Ever since Illuna threatened to cast the amulet into the Magium, Arraka has trea
 
 "Let's start with Daren," Arraka says, her tone dripping with mockery. "Tell me, hero. Have you made contact with the spirit linked to your soul? Is the count still zero? Please say zero. I could use a laugh."
 
-"Maybe it wouldn't be zero if your instructions sounded like actual magic instead of nonsense," Daren shoots back. "'Untangle the flow of your aura until you can see it in your mind.' 'Picture the link as a long invisible string and give it a tug.' How is anyone supposed to work with that?"
+"Maybe it wouldn't be zero if your instructions sounded like actual magic instead of nonsense," Daren shoots back, crossing his armored forearms. "'Untangle the flow of your aura until you can see it in your mind.' 'Picture the link as a long invisible string and give it a tug.' How is anyone supposed to work with that?"
 
 "Only an oaf in tin plate could call my guidance nonsense!" Arraka snaps. "Do you have any idea how many mages would slaughter their own kin to have a mentor from the magical plane? Thousands of years of primordial lore, and you squander it because your brain refuses to grasp a basic metaphor!"
 
-"I tried," Daren says, jaw tightening. "None of it corresponds to anything I can feel."
+"I tried," Daren says, a vein pulsing at his temple. "None of it corresponds to anything I can feel."
 
 "Then try harder! Or ask an intelligent question for once. Where are you failing? The visualization? Is your magical sense too dull to separate the layers of your own energy? Can you even read someone's age from their aura? I have no idea how blind you earthen mortals truly are. Your senses are crude, but that is no excuse for total incompetence."
 
@@ -109,7 +109,7 @@ choice("Continue", B3-Ch01a-Swim, v_current_scene = B3-Ch01a-Swim)
 ID: B3-Ch01a-Swim
 TEXT:
 
-"We only know the basics, you old hag," Hadrik rumbles, crossing his thick arms. "We went over this yesterday."
+"We only know the basics, you old hag," Hadrik rumbles, crossing his thick arms over his leather vest. "We went over this yesterday."
 
 "What passes for 'basics' in this backwater?" Arraka asks. "Discerning age and race from an aura is child's play on the magical plane. Can you manage even that much?"
 
@@ -121,15 +121,15 @@ TEXT:
 
 "She's leading us on," Daren says. "It's another game to—wait."
 
-He steps toward Flower, his gaze locking onto the gold amulet.
+He takes a slow step toward Flower, his gaze locking onto the space just above the gold amulet.
 
 "Did you say a waterfall?" Daren asks, brow furrowing in concentration.
 
 "Right behind the veil," Arraka says. "Picture your focus stepping through the falling water. Reach out, grasp the spinning currents between your hands, and hold them still until the glyph settles into a number you can read."
 
-Hadrik lets out a booming laugh. "Hear that, Daren? She's telling you to take a swim!"
+Hadrik lets out a booming laugh that shakes his beard. "Hear that, Daren? She's telling you to take a swim!"
 
-Daren ignores him, eyes narrowed, staring fixedly at the space above the amulet.
+Daren ignores him, eyes narrowed, staring fixedly into the morning air above the amulet.
 
 "Daren?" Hadrik prompts.
 
@@ -143,35 +143,35 @@ choice("Continue", B3-Ch01a-Nine, v_current_scene = B3-Ch01a-Nine)
 ID: B3-Ch01a-Nine
 TEXT:
 
-Daren turns toward Kate, studying the air above her brow. For several seconds the clearing is completely still while he focuses.
+Daren turns toward Kate, studying the air above her brow. For several seconds the hilltop is completely still while he focuses, the morning wind rustling the dry grass around our boots.
 
 "Kate, you're twenty-two," he says. "Is that right?"
 
-"Yes," Kate says, her voice steady. "I never knew my parents, so I don't have an exact birth date, but that matches the estimate the Beacon gave me when they took me in."
+"Yes," Kate says, her voice steady and neutral. She keeps her hands tucked inside the folds of her dark green cloak. "I never knew my parents, so I don't have an exact birth date, but that matches the estimate the Beacon gave me when they took me in."
 
 Daren shifts his gaze to Leila. "And Leila, you're nineteen?"
 
-Leila nods once.
+Leila nods once, her expression calm.
 
 "Barry is twenty-eight, as he claimed, and Hadrik is..." Daren's voice trails off. His eyes widen as he stares above Hadrik's head. "Wait. Something is wrong here. Your aura reads over a century old. That can't be your real age."
 
-Hadrik's beard splits in a wide grin.
+Hadrik's black beard splits in a wide, rumbling grin.
 
 "The aura doesn't lie, Daren," Hadrik says. "Giants live far longer than humans. In this dwarf form I might pass for forty in human years, but I've walked this world a good deal longer."
 
-"Right," Daren says, rubbing his neck. "I keep forgetting you're wearing a disguise."
+"Right," Daren says, rubbing the back of his neck with an armored gauntlet. "I keep forgetting you're wearing a disguise."
 
-"What about me?" Flower asks, hopping forward with an eager smile. "What does mine say?"
+"What about me?" Flower asks, hopping forward with an eager smile, her red hair catching the sunlight. "What does mine say?"
 
 Daren turns his attention to the space above her red hair. His lips part, he hesitates, and then a strange look crosses his face.
 
 "Nine," Daren says gently. "It says you're nine years old."
 
-"No!" Flower stomps a bare foot, her face flushing with frustration. "That's wrong! It says twenty-nine! Petal, tell him!"
+"No!" Flower stomps a bare foot into the turf, her face flushing with frustration. "That's wrong! It says twenty-nine! Petal, tell him!"
 
 "The number above your head is nine," Illuna says from within, her tone flat.
 
-"There's a two right before the nine and you know it!" Flower insists. Daren tries and fails to hide a smirk. "I can feel the currents myself. It says twenty-nine! Why are you lying?"
+"There's a two right before the nine and you know it!" Flower insists. Daren tries and fails to hide a smirk behind his hand. "I can feel the currents myself. It says twenty-nine! Why are you lying?"
 
 choice(""I also can only see the number nine when I look above Flower's head."", B3-Ch01a-Age, v_current_scene = B3-Ch01a-Age, v_b3_ch1_age = 0)
 choice(""Stop teasing her, guys! Flower can be whatever age she wants to be."", B3-Ch01a-Age, v_current_scene = B3-Ch01a-Age, v_b3_ch1_age = 1)
@@ -185,11 +185,11 @@ TEXT:
 #if(v_b3_ch1_age == 0) {
 "I also can only see the number nine when I look above Flower's head."
 
-"You're lying!" Flower shouts. "You can't even read auras! Why won't anyone admit I'm twenty-nine?"
+"You're lying!" Flower shouts, pointing an accusing finger at my nose. "You don't even have aura sense! You're just taking his side because you think it's funny!"
 
-"Because you never act like an adult," Illuna says, taking control of the voice. "If you carried yourself with maturity, people might treat you accordingly. As far as I can see, you remain the exact same little girl I met all those years ago. Not a single thing has changed."
+"Because you give him every reason to," Illuna says, taking control of the voice. "If you carried yourself with an ounce of maturity, people might treat you accordingly. As far as I can see, you remain the exact same impulsive child I met all those years ago. Not a single thing has changed."
 
-"Fine!" Flower yells, snatching control back, her lower lip trembling into a pout. "If it bothers you so much, I'll stop. I'll be serious. I'll be mature, and I'll talk like a grown-up. Will that satisfy you... Illuna?"
+"Fine!" Flower yells, snatching control back, her lower lip trembling into a fierce pout. "If it bothers you so much, I'll stop. I'll be serious. I'll be mature, and I'll talk like a grown-up. Will that satisfy you... Illuna?"
 
 For a fraction of a second, the green in her eyes flashes bright sapphire. Illuna freezes in shock.
 
@@ -201,13 +201,13 @@ For a fraction of a second, the green in her eyes flashes bright sapphire. Illun
 
 "That's right!" Flower says, puffing out her chest.
 
-"After all," I add, "who among us didn't dream of being an adult back when we were kids?"
+"After all," I add with an innocent shrug, "who among us didn't dream of being an adult back when we were kids?"
 
-"I'm not a kid!" Flower shouts, her face burning red. "I'm twenty-nine years old! Why won't anyone believe me?"
+"I'm not playing pretend!" Flower shouts, her face burning crimson with humiliation. "I'm twenty-nine years old! Why won't anyone take me seriously?"
 
-"Because you never act like an adult," Illuna says, taking control of the voice. "If you carried yourself with maturity, people might treat you accordingly. As far as I can see, you remain the exact same little girl I met all those years ago. Not a single thing has changed."
+"Because an adult doesn't throw a temper tantrum when teased by mortals," Illuna says, taking control of the voice, her tone sharp and unyielding. "If you want them to respect your age, stop begging for their permission. You act like a child, so they treat you like one."
 
-"Fine!" Flower yells, snatching control back, her lower lip trembling into a pout. "If it bothers you so much, I'll stop. I'll be serious. I'll be mature, and I'll talk like a grown-up. Will that satisfy you... Illuna?"
+"Fine!" Flower yells, snatching control back, tears of frustration glistening on her eyelashes. "If it bothers you so much, I'll stop. I'll be serious. I'll be mature, and I'll talk like a grown-up. Will that satisfy you... Illuna?"
 
 For a fraction of a second, the green in her eyes flashes bright sapphire. Illuna freezes in shock.
 
@@ -217,15 +217,15 @@ For a fraction of a second, the green in her eyes flashes bright sapphire. Illun
 #if(v_b3_ch1_age == 2) {
 "Listen, regardless of what her aura says, I think we can all agree on what her real age is."
 
-"Yeah, it's—" Flower begins, but Daren, Illuna, and I cut in simultaneously.
+"Yeah, it's—" Flower begins, her eyes lighting up in hope, but Daren, Illuna, and I cut in simultaneously.
 
 "Nine years old," the three of us say together.
 
-"I am not nine!" Flower screams. "I'm twenty-nine! Why won't you listen?"
+"I am not nine!" Flower screams, her voice cracking as she stomps both feet into the turf. "You all ganged up on me! Every single one of you!"
 
-"Because you never act like an adult," Illuna says, taking control of the voice. "If you carried yourself with maturity, people might treat you accordingly. As far as I can see, you remain the exact same little girl I met all those years ago. Not a single thing has changed."
+"Nobody ganged up on you, Flower," Illuna says dryly from within. "You simply made the conclusion unanimous. If you showed even a shred of discipline, perhaps they wouldn't find it so effortless to mock you."
 
-"Fine!" Flower yells, snatching control back, her lower lip trembling into a pout. "If it bothers you so much, I'll stop. I'll be serious. I'll be mature, and I'll talk like a grown-up. Will that satisfy you... Illuna?"
+"Fine!" Flower yells, snatching control back, her fists clenching at her sides. "If it bothers you so much, I'll stop. I'll be serious. I'll be mature, and I'll talk like a grown-up. Will that satisfy you... Illuna?"
 
 For a fraction of a second, the green in her eyes flashes bright sapphire. Illuna freezes in shock.
 
@@ -235,11 +235,11 @@ For a fraction of a second, the green in her eyes flashes bright sapphire. Illun
 #if(v_b3_ch1_age == 3) {
 "Flower, why are you so fixated upon this number? We all know for how long you've lived."
 
-"Because everyone still treats me like a toddler!" Flower says. "Every single time anyone mentions how old I am, it's the exact same joke!"
+"Because everyone still treats me like a toddler!" Flower says, her defensive fury cracking to reveal raw hurt. "Every time anyone mentions how old I am, it's the exact same joke! I was there when the cities burned, I survived the dragon wars, and people still talk to me like I'm four feet tall!"
 
-"Because you never act like an adult," Illuna says, taking control of the voice. "If you carried yourself with maturity, people might treat you accordingly. As far as I can see, you remain the exact same little girl I met all those years ago. Not a single thing has changed."
+"Surviving the centuries means nothing if you refuse to grow with them," Illuna says, taking control of the voice, her tone cooler but not unkind. "Age isn't a badge you demand from others. It is the weight you carry without shouting. Until you learn that, you will remain nine to everyone who looks at you."
 
-"Fine!" Flower yells, snatching control back, her lower lip trembling into a pout. "If it bothers you so much, I'll stop. I'll be serious. I'll be mature, and I'll talk like a grown-up. Will that satisfy you... Illuna?"
+"Fine!" Flower yells, snatching control back, her chin trembling as she glares at the ground. "If it bothers you so much, I'll stop. I'll be serious. I'll be mature, and I'll talk like a grown-up. Will that satisfy you... Illuna?"
 
 For a fraction of a second, the green in her eyes flashes bright sapphire. Illuna freezes in shock.
 
@@ -250,7 +250,7 @@ For a fraction of a second, the green in her eyes flashes bright sapphire. Illun
 
 "You weren't—" Illuna begins, but Arraka's voice cuts through from the amulet.
 
-"Take your family drama to your own tent," Arraka snaps. "We didn't assemble here to listen to your 'ramblings', isn't that right, Illuna?"
+"Take your nursery squabbling to your own bedrolls," Arraka snaps. "We didn't assemble here to listen to your 'ramblings', isn't that right, Illuna?"
 
 "Very well," Illuna says, her expression darkening as she lets the cold mask settle over her features. "Continue the lesson."
 
@@ -262,13 +262,13 @@ choice("Continue", B3-Ch01a-Talented, v_current_scene = B3-Ch01a-Talented)
 ID: B3-Ch01a-Talented
 TEXT:
 
-Hadrik mutters what sounds like a dwarven curse into his beard. I glance toward the amulet.
+Hadrik mutters what sounds like a dwarven curse into his beard, his knuckles popping. I glance toward the amulet.
 
 "Should the rest of us practice reading auras too?" I ask.
 
-"No," Arraka says. "Unless you already command significant power, learning the fundamentals takes years. For you, it's a waste of breath. Kate has the strength for it, but her hours are better spent on her own drills. Illuna already knows the theory. Flower never formally studied, but being an ethereal lets her read certain signatures at a glance. And as for Leila... Leila knows more than the basics already. She reads lies directly off your aura. That's rare even among lessathi. She's operating on a completely different tier. Whether that comes from years of discipline or raw talent, I can't say."
+"No," Arraka says. "Unless you already command significant power, learning the fundamentals takes years. For you, it's a waste of breath. Kate has the strength for it, but her hours are better spent on her own drills. Illuna already knows the theory. Flower never formally studied, but being an ethereal lets her read certain signatures at a glance. And as for Leila... Leila knows more than the basics already. She reads lies directly off your aura. That's rare even among lessathi. She is operating on a plane of her own. Whether that comes from years of discipline or raw talent, I can't say."
 
-Leila raises a hand, and glowing blue script hangs in the air between us.
+Leila raises a hand, and glowing blue script hangs in the air between us, shimmering against the morning light.
 
 "I'm not that talented," she writes. "Most of the time I fail to catch people's bluffs. It's only easy reads, like Barry, where I can always tell."
 
@@ -292,9 +292,9 @@ choice("Continue", B3-Ch01a-Hidden, v_current_scene = B3-Ch01a-Hidden)
 ID: B3-Ch01a-Hidden
 TEXT:
 
-I pull the metal device from my pocket and hold it inches from the gold amulet.
+I pull the heavy metal device from my tunic pocket and hold it inches from the gold amulet.
 
-The clearing falls quiet for several seconds while Arraka inspects the glowing runes.
+The clearing falls quiet for several seconds while Arraka inspects the glowing runes humming across the casing.
 
 "Something is wrong here," she mutters. "It's not just Bluff. Magical Sense and Aura Hardening are missing as well. They haven't been removed... they're hidden. Masked behind a dormant layer. Six centuries ago, the lessathi I observed using these contraptions had those functions unlocked manually."
 
@@ -312,21 +312,21 @@ TEXT:
 #if(v_b3_ch1_unlock == 1) {
 "I'll take a look with Leila and Daren, and we'll see what we can find," I say.
 
-"Good," Arraka says. "Do it after the meeting. Don't pull Daren away while he's working on his aura drills. Daren and Hadrik making contact with their spirits is our top priority. Everything else waits."
+"Good," Arraka says. "Do it after we finish. Don't pull Daren away while he's working on his aura drills. Daren and Hadrik reaching their spirits comes before everything else. The rest waits."
 
-"Why is that so critical?" Melindra asks, leaning off her tree trunk. "How does talking to spirits help them fight the God of Time?"
+"Why is that so critical?" Melindra asks, pushing off the tree trunk and crossing her arms. "How does talking to spirits help them fight the God of Time?"
 
-"You missed the last two sessions," Arraka says. "Daren needs to contact his spirit to fix the ridiculous flaw in his casting: his complete inability to barrier physical attacks. The problem stems from a misaligned bond. If they realign the connection, he can ditch that clunky iron shell for proper lightweight leather. According to his old master, half of Daren's martial forms are locked away by the sheer weight of his armor. If he can use even a fraction of those techniques, our odds improve."
+"You missed the last two lessons," Arraka says. "Daren needs to reach his spirit to fix the ridiculous flaw in his casting: his complete inability to barrier physical attacks. The problem stems from a misaligned bond. If they realign the connection, he can ditch that clunky iron shell for proper lightweight leather. According to his old master, half of Daren's martial forms are locked away by the sheer weight of his armor. If he can use even a fraction of those techniques, our odds improve."
 
 }
 #if(v_b3_ch1_unlock == 0) {
 "I'd rather wait until we meet up with Leila's father, so he can have a look," I say.
 
-"Suit yourself," Arraka says. "Keep chipping away at the cipher for your magic stats, then. That carries less risk of bricking the device. Daren can assist when he finishes his drills, but don't interrupt him. Daren and Hadrik making contact with their spirits is our top priority. Everything else waits."
+"Suit yourself," Arraka says. "Keep chipping away at the cipher for your magic stats, then. That carries less risk of ruining the device. Daren can assist when he finishes his drills, but don't interrupt him. Daren and Hadrik reaching their spirits comes before everything else. The rest waits."
 
-"Why is that so critical?" Melindra asks, leaning off her tree trunk. "How does talking to spirits help them fight the God of Time?"
+"Why is that so critical?" Melindra asks, pushing off the tree trunk and crossing her arms. "How does talking to spirits help them fight the God of Time?"
 
-"You missed the last two sessions," Arraka says. "Daren needs to contact his spirit to fix the ridiculous flaw in his casting: his complete inability to barrier physical attacks. The problem stems from a misaligned bond. If they realign the connection, he can ditch that clunky iron shell for proper lightweight leather. According to his old master, half of Daren's martial forms are locked away by the sheer weight of his armor. If he can use even a fraction of those techniques, our odds improve."
+"You missed the last two lessons," Arraka says. "Daren needs to reach his spirit to fix the ridiculous flaw in his casting: his complete inability to barrier physical attacks. The problem stems from a misaligned bond. If they realign the connection, he can ditch that clunky iron shell for proper lightweight leather. According to his old master, half of Daren's martial forms are locked away by the sheer weight of his armor. If he can use even a fraction of those techniques, our odds improve."
 
 }
 #if(v_b3_ch1_unlock == 0 || v_b3_ch1_unlock == 1) {
@@ -369,9 +369,9 @@ TEXT:
 
 "It doesn't work from the outside," Arraka says. "If external help worked, I would have dragged your spirits down myself—I can see the tether lines clear as day. Enough stalling. Kate, report. Did you sharpen your ice enough to pierce the targets I set?"
 
-"No," Kate says. "The icicles pass straight through. I poured in as much magical power as I could muster, but nothing catches."
+"No," Kate says, her jaw setting firmly as a faint vapor of frost clings to her knuckles. "The icicles pass straight through. I poured in as much magical power as I could muster, but nothing catches."
 
-"Power isn't the metric," Arraka says. "Sharpness is. Those targets are woven from condensed energy, identical to the solid light that forms Selkram's body. To cut energy, you have to sharpen the aura wrapping your ice, not the physical frost. A sufficiently refined aura slices pure energy regardless of velocity or mass. Power alone is useless against him."
+"Power is not the measure," Arraka says. "Sharpness is. Those targets are woven from condensed energy, identical to the solid light that forms Selkram's body. To cut energy, you have to sharpen the aura wrapping your ice, not the physical frost. A sufficiently refined aura slices pure energy regardless of velocity or mass. Power alone is useless against him."
 
 choice("Continue", B3-Ch01a-Trembling, v_current_scene = B3-Ch01a-Trembling)
 
@@ -379,21 +379,21 @@ choice("Continue", B3-Ch01a-Trembling, v_current_scene = B3-Ch01a-Trembling)
 ID: B3-Ch01a-Trembling
 TEXT:
 
-Arraka falls quiet for a moment, letting the lesson sink in.
+Arraka falls quiet for a moment, letting the lesson hang in the cool morning air.
 
 "Remember," she adds, "those targets include physical matter to make them easier. Against Selkram himself, the density is pure light. Now, if Melindra joined the effort, things would move faster. Her wind blades are sharp enough to shred my targets right now. With a few days of my tutoring, she could sever solid light cleanly. What do you say, Melindra? Care to settle your score with the God of Time?"
 
-"I told you no," Melindra says. "I came out of curiosity, not to sign a death warrant. I don't share your suicidal ambitions."
+"I told you no," Melindra says, shaking her head. "I came out of curiosity, not to sign a death warrant. I don't share your suicidal ambitions."
 
-She pauses, looking at Kate.
+She pauses, her gaze drifting toward Kate's frost-chilled hands.
 
 "I could give Kate a few pointers on refining her edges, if she wants," Melindra adds.
 
-"Thank you," Kate says. "I'll take any help you're offering."
+"Thank you," Kate says, her voice measured and guarded. "I'll take any help you're offering."
 
 "You said aura sharpness is key," Hadrik says. "What about hardening? Can I hit Selkram with my fists if I pack enough density into my knuckles?"
 
-"In theory," Arraka says. "In practice, far less effective. Punch Kate's targets if you want to test it, but don't expect miracles. So: Barry and Leila are fiddling with gadgets, Flower is refining her flame, Illuna is practicing my old techniques, and Daren holds the only weapon on this continent capable of cutting a god—while unable to stop a thrown pebble without eighty pounds of iron plate. I love it! This troupe is so hopelessly outmatched that if you actually kill Selkram, it will go down as the greatest humiliation in the history of both planes. The look on his face in his final moments... I tremble just imagining it!"
+"In theory," Arraka says. "In practice, far less effective. Punch Kate's targets if you want to test it, but don't expect miracles. So: Barry and Leila are tinkering with lessathi contraptions, Flower is refining her flame, Illuna is practicing my old techniques, and Daren holds the only weapon on this continent capable of cutting a god—while unable to stop a thrown pebble without eighty pounds of iron plate. I love it! This troupe is so hopelessly outmatched that if you actually kill Selkram, it will go down as the greatest humiliation in the history of both planes. The look on his face in his final moments... I tremble just imagining it!"
 
 choice(""Yeah, I have to admit that it would be pretty funny."", B3-Ch01a-Admit, v_current_scene = B3-Ch01a-Admit)
 choice(""How about we get on with the meeting and drop the insults, for a change?"", B3-Ch01a-Insults, v_current_scene = B3-Ch01a-Insults)
@@ -407,9 +407,9 @@ TEXT:
 
 "And the beauty of it," Arraka says, "is that he'll never suspect you. Your sheer mediocrity is our greatest camouflage! If nobody slips up, we can dismantle his plans right under his nose."
 
-"Is this really the grand design?" Melindra asks. "A handful of morning drills to bring down a god?"
+"Is this really the grand design?" Melindra asks, raising a doubtful eyebrow. "A handful of morning drills to bring down a god?"
 
-Arraka laughs, a sharp, echoing rasp.
+Arraka laughs, a sharp, echoing rasp that sends a shiver down the back of my neck.
 
 "This is only the foundation," she says. "In the weeks ahead, I will teach these fools every flaw, quirk, and blind spot Selkram possesses. I will hand them every trick I learned across millennia of warfare. And since we must inevitably endure at least one more ritual before we can strike openly, I will teach them how to wipe that arrogant smirk off my past self's face once and for all. I'll show that buffoon what happens when she rejects my guidance and tries to leash me. Eradicated by a traveling circus—a fitting end."
 
@@ -421,7 +421,7 @@ Arraka laughs, a sharp, echoing rasp.
 
 "Those vulnerabilities are five thousand years out of date," Arraka says. "I solved them long ago. Besides, if we fight again, I'd rather have a real contest than turn you to cinder in two seconds. An effortless massacre is dreadfully boring."
 
-"We're drifting," Illuna cuts in. "Arraka, what was the coordination plan you mentioned on the road?"
+"We're drifting," Illuna cuts in, her tone slicing through the banter. "Arraka, what was the battle plan you mentioned on the road?"
 
 "Right!" Arraka says. "We need absolute emotional discipline during the next ritual so Selkram gains no energy. But our efforts are meaningless if the other groups who received the prophecy feed him instead. The Sage of the West and his student were among them. Some of you met Azarius—do we have a way to reach him? A transceiver from Daren's stash?"
 
@@ -433,11 +433,11 @@ TEXT:
 
 "How about we get on with the meeting and drop the insults, for a change?" I say.
 
-"Did I wound your delicate pride?" Arraka mocks. "Should I try gentler terms? Simpletons? Dunderheads? Nitwits? Pick whatever comforts you. I wouldn't want you feeling unappreciated."
+"Did I wound your delicate pride?" Arraka mocks from the amulet. "Should I try gentler terms? Simpletons? Dunderheads? Nitwits? Pick whatever comforts you. I wouldn't want you feeling unappreciated."
 
-"Is this really the grand design?" Melindra asks. "A handful of morning drills to bring down a god?"
+"Is this really the grand design?" Melindra asks, tapping a finger against her chin. "A handful of morning drills to bring down a god?"
 
-Arraka laughs, a sharp, echoing rasp.
+Arraka laughs, a sharp, echoing rasp that rattles the brass casing.
 
 "This is only the foundation," she says. "In the weeks ahead, I will teach these fools every flaw, quirk, and blind spot Selkram possesses. I will hand them every trick I learned across millennia of warfare. And since we must inevitably endure at least one more ritual before we can strike openly, I will teach them how to wipe that arrogant smirk off my past self's face once and for all. I'll show that buffoon what happens when she rejects my guidance and tries to leash me. Eradicated by a traveling circus—a fitting end."
 
@@ -449,7 +449,7 @@ Arraka laughs, a sharp, echoing rasp.
 
 "Those vulnerabilities are five thousand years out of date," Arraka says. "I solved them long ago. Besides, if we fight again, I'd rather have a real contest than turn you to cinder in two seconds. An effortless massacre is dreadfully boring."
 
-"We're drifting," Illuna cuts in. "Arraka, what was the coordination plan you mentioned on the road?"
+"We're drifting," Illuna cuts in, her tone slicing through the banter. "Arraka, what was the battle plan you mentioned on the road?"
 
 "Right!" Arraka says. "We need absolute emotional discipline during the next ritual so Selkram gains no energy. But our efforts are meaningless if the other groups who received the prophecy feed him instead. The Sage of the West and his student were among them. Some of you met Azarius—do we have a way to reach him? A transceiver from Daren's stash?"
 
@@ -461,11 +461,11 @@ TEXT:
 
 "Is this the real reason why you accepted to help us? To humiliate the God of Time?" I say.
 
-"Of course!" Arraka says. "Slaying Selkram through a pack of mortals is exquisite revenge against his arrogance. And if the plan fails, the chaos might crack this amulet and let me finish him myself. Either way, I win."
+"Of course!" Arraka says, her voice ringing with vicious delight. "Slaying Selkram through a pack of mortals is exquisite revenge against his arrogance. And if the plan fails, the chaos might crack this amulet and let me finish him myself. Either way, I win."
 
-"Is this really the grand design?" Melindra asks. "A handful of morning drills to bring down a god?"
+"Is this really the grand design?" Melindra asks, watching the amulet with narrowed eyes. "A handful of morning drills to bring down a god?"
 
-Arraka laughs, a sharp, echoing rasp.
+Arraka laughs, a sharp, echoing rasp that carries over the pines.
 
 "This is only the foundation," she says. "In the weeks ahead, I will teach these fools every flaw, quirk, and blind spot Selkram possesses. I will hand them every trick I learned across millennia of warfare. And since we must inevitably endure at least one more ritual before we can strike openly, I will teach them how to wipe that arrogant smirk off my past self's face once and for all. I'll show that buffoon what happens when she rejects my guidance and tries to leash me. Eradicated by a traveling circus—a fitting end."
 
@@ -477,7 +477,7 @@ Arraka laughs, a sharp, echoing rasp.
 
 "Those vulnerabilities are five thousand years out of date," Arraka says. "I solved them long ago. Besides, if we fight again, I'd rather have a real contest than turn you to cinder in two seconds. An effortless massacre is dreadfully boring."
 
-"We're drifting," Illuna cuts in. "Arraka, what was the coordination plan you mentioned on the road?"
+"We're drifting," Illuna cuts in, her tone slicing through the banter. "Arraka, what was the battle plan you mentioned on the road?"
 
 "Right!" Arraka says. "We need absolute emotional discipline during the next ritual so Selkram gains no energy. But our efforts are meaningless if the other groups who received the prophecy feed him instead. The Sage of the West and his student were among them. Some of you met Azarius—do we have a way to reach him? A transceiver from Daren's stash?"
 
@@ -494,7 +494,7 @@ TEXT:
 #if(v_ch11_saved_rose == 1) {
 "Rose told us she only remembered reaching Azarius and his student," I say. "Everything after that was a blur."
 
-"She needs to dig deeper!" Arraka snaps. "She's our only scout. Starving Selkram of emotional energy isn't enough; we have to force him to burn reserves sustaining the ritual space. If the other captives don't push back in unison, the strategy fails. And what about the time-reversal block? Is she constructing a mental wall to keep Selkram from siphoning her power?"
+"She needs to dig deeper!" Arraka snaps. "She's our only scout. Starving Selkram of emotional energy isn't enough; we have to force him to burn reserves sustaining the ritual space. If the other captives don't push back in unison, the plan falls apart. And what about the time-reversal block? Is she constructing a mental wall to keep Selkram from siphoning her power?"
 
 "Rose hasn't managed to activate her time abilities reliably since disconnecting from the Magium," I say. "She's been struggling with it for three days."
 
@@ -506,17 +506,17 @@ TEXT:
 
 }
 #if(v_ch11_saved_rose == 0) {
-"The revenant told us she only remembered reaching Azarius and his student," I say. "Everything after that was a blur."
+"The revenant told us she only remembered reaching Azarius and his student," I say. The memory of her hollow voice, drained of everything that once made Rose warm, leaves a sour chill in my throat. "Everything after that was a blur."
 
-"She needs to dig deeper!" Arraka snaps. "She's our only scout. Starving Selkram of emotional energy isn't enough; we have to force him to burn reserves sustaining the ritual space. If the other captives don't push back in unison, the strategy fails. Have you reached her through the transceiver?"
+"She needs to dig deeper!" Arraka snaps. "She's our only scout. Starving Selkram of emotional energy isn't enough; we have to force him to burn his own power sustaining the ritual space. If the other captives don't push back in unison, the plan falls apart. Have you reached her through the transceiver?"
 
-"Her channel has been silent since the ritual," I say. "She opens the link when she chooses, not the other way around."
+"Her channel has been dead since the ritual," I say. "She opens the link from Death's domain when she chooses, not the other way around."
 
-"Damnation," Arraka growls. "If Selkram steals her time-reversal power again, fighting him is futile. What good is a wound if he rewinds the blow?"
+"Damnation," Arraka growls. "If Selkram siphons her time-reversal again, fighting him is futile. What good is a lethal blow if he simply rewinds the wound?"
 
-"We'll see her in the next ritual," I say. "We can explain the defense then."
+"We'll see her when the next ritual begins," I say. "We can explain the defense then."
 
-"A mental barrier of that scale takes days to weave," Arraka says. "Springing it on her mid-ritual is cutting it perilously close."
+"A mental barrier of that magnitude takes days of deliberate construction," Arraka says. "Springing it on her mid-ritual is cutting it perilously close."
 
 }
 choice("Continue", B3-Ch01a-Winner, v_current_scene = B3-Ch01a-Winner)
@@ -531,19 +531,19 @@ TEXT:
 
 "Don't paint me as the villain, Illuna," Arraka says. "We're all partners here! It's been centuries since I drafted a grand campaign against the pantheon. The work would move faster without so much dead weight dragging behind me, but one works with what is available."
 
-"Hey!" Hadrik rumbles. "One of those dead weights is going to win this entire tournament!"
+"Hey!" Hadrik rumbles, stepping forward and clapping a heavy hand against my shoulder. "One of those dead weights is going to win this entire tournament!"
 
-He turns toward me with a wide grin.
+He turns toward me with a wide, toothy grin.
 
 "Isn't that right, Barry?"
 
-"What?... Oh. Yeah. Of course!" I say, the hesitation plain in my voice.
+"What?... Oh. Yeah. Of course!" I say, forcing the words out a beat too late.
 
-Kate's eyes narrow, locking onto me.
+Kate's dark eyes narrow instantly, locking onto my face with sharp scrutiny.
 
-"Right," Arraka says dryly. "The champion." She lets the sarcasm linger. "We'll cover Selkram's combat habits later. Priority one is reaching our spirit contacts. Hadrik, Daren, over here. The rest of you, dismissed. We have work to do."
+"Right," Arraka says dryly from the amulet. "The champion." She lets the sarcasm linger in the cool air. "We'll cover Selkram's combat habits later. First order of business is reaching our spirit guides. Hadrik, Daren, over here. The rest of you, dismissed. We have work to do."
 
-As the group disperses, I turn to head down the slope, but Kate steps directly into my path, her expression dead serious.
+As the group disperses, I turn to head down the slope, but Kate steps directly into my path, her dark green cloak sweeping the grass as she blocks the trail.
 
 choice("Try to walk past her", B3-Ch01a-Ordinary, v_current_scene = B3-Ch01a-Ordinary, v_b3_ch1_kate1 = 0)
 choice("Ask her if she can move aside", B3-Ch01a-Ordinary, v_current_scene = B3-Ch01a-Ordinary, v_b3_ch1_kate1 = 1)
@@ -554,56 +554,56 @@ ID: B3-Ch01a-Ordinary
 TEXT:
 
 #if(v_b3_ch1_kate1 == 0) {
-I step to the left. Kate mirrors my footwork, blocking the trail. I step to the right; she cuts me off again.
+I step to the left. Kate mirrors my footwork with practiced ease, planting her boots in the dry turf. I step to the right; she cuts me off again, arms folded beneath her cloak.
 
 "Are you going to let me pass?" I ask.
 
-"No," Kate says.
+"No," Kate says, her voice flat and unyielding.
 
 "Care to explain why?"
 
-She holds my gaze in silence for several seconds before speaking.
+She holds my gaze in silence for several seconds before speaking, the morning breeze whipping stray strands of dark hair across her cheek.
 
 "Why did you hesitate when Hadrik called you the winner of the tournament?" Kate asks.
 
-"He caught me off guard," I say, gathering my thoughts. "I was running through Arraka's drills in my head. Is pausing before an answer really worth an interrogation?"
+"He caught me off guard," I say, trying to sidestep the question. "I was running through Arraka's drills in my head. Is pausing before an answer really worth an interrogation?"
 
 }
 #if(v_b3_ch1_kate1 == 1) {
 "Could you move aside so I can head down?" I ask.
 
-"No," Kate says.
+"No," Kate says, planting her boots firmly in the turf and crossing her arms beneath her cloak.
 
 "Is there a reason?"
 
-She holds my gaze in silence for several seconds before speaking.
+She holds my gaze in silence for several seconds before speaking, the morning breeze whipping stray strands of dark hair across her cheek.
 
 "Why did you hesitate when Hadrik called you the winner of the tournament?" Kate asks.
 
-"He caught me off guard," I say, gathering my thoughts. "I was running through Arraka's drills in my head. Is pausing before an answer really worth an interrogation?"
+"He caught me off guard," I say, trying to sidestep the question. "I was running through Arraka's drills in my head. Is pausing before an answer really worth an interrogation?"
 
 }
 #if(v_b3_ch1_kate1 == 2) {
 "Listen, if you want to confess your feelings for me, this might not be the best place," I say.
 
-"Your sense of humor survived, at least," Kate says. "That's something. It shows parts of you are still intact. It's the parts that changed that concern me."
+"Your mouth still works, at least," Kate says, not blinking. "That's something. It shows parts of you are still intact. It's the parts that changed that concern me."
 
 "Nothing changed," I say, keeping my voice light. "Same person as always."
 
 "Then why did you hesitate when Hadrik called you the winner of the tournament?" Kate asks.
 
-"He caught me off guard," I say, gathering my thoughts. "I was running through Arraka's drills in my head. Is pausing before an answer really worth an interrogation?"
+"He caught me off guard," I say, trying to sidestep the question. "I was running through Arraka's drills in my head. Is pausing before an answer really worth an interrogation?"
 
 }
-"It isn't just one pause," Kate says. "You've been off balance since the rituals. You put on the nonchalant act so the others won't question you, but the performance is paper-thin. You used to have this... stubborn blindness to impossible odds. Not courage, not fearlessness. Something weirder. Your mind refused to register the concept of mortal danger. But now you see it. You understand what death actually looks like, and it's eating you alive."
+"It isn't just one pause," Kate says, her dark eyes cutting straight through me. "You've been off balance for three days. You put on the nonchalant act so the others won't question you, but the performance is paper-thin. You used to have this... stubborn blindness to impossible odds. Not courage, not fearlessness. Something weirder. Your mind refused to register the concept of mortal danger. But now you see it. You understand what death actually looks like, and it's eating you alive."
 
-She frowns, studying my eyes.
+She frowns, studying my face with cold, sharp precision.
 
 "Are we going to talk about it, or are you going to keep pretending nothing happened?"
 
-"You see right through me, don't you?" I let out a slow breath. "Fine. There's no point lying if you've already pieced it together. Let's walk over to those boulders. I'll tell you."
+"You see right through me, don't you?" I let out a slow breath, my shoulders slumping. "Fine. There's no point lying if you've already pieced it together. Let's walk over to those boulders. I'll tell you."
 
-We move toward two grey rocks near the edge of the knoll, well out of earshot of Daren, Hadrik, and the amulet. We lean back against the rough stone. Kate crosses her arms, waiting.
+We move toward two grey granite rocks near the edge of the knoll, well out of earshot of Daren, Hadrik, and the amulet. We lean back against the rough, sun-warmed stone. Kate crosses her arms, waiting in silence.
 
 choice("Continue", B3-Ch01a-Achieve, v_current_scene = B3-Ch01a-Achieve)
 
@@ -618,7 +618,7 @@ TEXT:
 
 "The memory was a lie," I say. "I learned the truth in Selkram's trial when he forced me to relive that night. I didn't arrive too late. I stood right there in the doorway, watching them die. My knees locked. The breath caught in my throat, and I froze in terror. I only moved when she turned on my younger brother—that was when I grabbed the pitchfork. I buried that memory so deep I forgot it happened. The only reason it surfaced is because I had to recreate every step to break out of the ritual."
 
-Kate's expression softens with genuine concern.
+Kate's guarded expression softens with a flicker of quiet understanding.
 
 }
 #if(v_ch7_tap == 1) {
@@ -628,10 +628,10 @@ Kate's expression softens with genuine concern.
 
 "The memory was a lie," I say. "I learned the truth in Selkram's trial when he forced me to relive that night. I didn't arrive too late. I stood right there in the doorway, watching them die. My knees locked. The breath caught in my throat, and I froze in terror. I only moved when she turned on my younger brother—that was when I grabbed the pitchfork. I buried that memory so deep I forgot it happened. The only reason it surfaced is because I had to recreate every step to break out of the ritual."
 
-Kate's expression softens with genuine concern.
+Kate's guarded expression softens with a flicker of quiet understanding.
 
 }
-"It went deeper than buried memories," I say, staring out over the pine canopy below. "The shame of freezing broke something in how I think. I cut survival instincts out of my choices entirely so I'd never freeze again. But now that the truth is back in the open, I can't look at my own plans the same way. Every time I make a call, I wonder if it's sound judgment or just that broken recklessness talking."
+"It went deeper than buried memories," I say, staring out over the pine canopy rolling down into the valley. "The shame of freezing broke something in how I think. I cut survival instincts out of my choices entirely so I'd never freeze again. But now that the truth is back in the open, I can't look at my own plans the same way. Every time I make a call, I wonder if it's sound judgment or just that broken recklessness talking."
 
 "Is that why you hesitated with Hadrik?" Kate asks. "You're questioning why you entered the tournament?"
 
@@ -653,7 +653,7 @@ TEXT:
 
 "Maybe," I say. "But I thought it was a spell forge, not an existential void. Just thinking about stepping back into that expanse makes my skin crawl."
 
-"Then don't step into it," Kate says. "The answer is sitting in your pocket. Use the stat device. Unlock the magic stats, and you won't need to touch the Magium at all."
+"Then don't step into it," Kate says, her tone crisp and matter-of-fact. "The answer is sitting in your pocket. Use the stat device. Unlock the magic stats, and you won't need to touch the Magium at all."
 
 "That only lasts while I'm surrounded by mages to charge the battery," I say. "Once the tournament ends, the energy drains to zero."
 
@@ -661,13 +661,13 @@ TEXT:
 
 "I... you're right!" I push off the boulder, the fog in my mind clearing all at once. "Why didn't I see that? I don't need to manipulate the void—I only need the blueprint. With lessathi blood and enough practice, I could build a self-sustaining device. That's brilliant!"
 
-Kate raises an eyebrow, leaning back against the rock.
+Kate raises an eyebrow, leaning back against the rock with her arms crossed.
 
 "So your will to win is back?"
 
 "Completely," I say.
 
-"Good," Kate says. "Focus on the road ahead instead of drowning in your own head. Watching you mope around camp was getting exhausting."
+"Good," Kate says, pulling her cloak tighter against the mountain wind. "Focus on the road ahead instead of drowning in your own head. Watching you mope around camp was getting exhausting."
 
 choice(""Why, Kate, I didn't know you cared!"", B3-Ch01a-Overexerting, v_current_scene = B3-Ch01a-Overexerting, v_b3_ch1_kate2 = 0)
 choice(""Was I really looking that depressed?"", B3-Ch01a-Overexerting, v_current_scene = B3-Ch01a-Overexerting, v_b3_ch1_kate2 = 1)
@@ -680,7 +680,7 @@ TEXT:
 #if(v_b3_ch1_kate2 == 0) {
 "Why, Kate, I didn't know you cared!" I say.
 
-"Don't be an idiot," Kate says. "Of course I care. Now let's head down. Leila is waiting to work on your device."
+"Don't flatter yourself," Kate says, her glare sharpening. "A useless strategist gets us all killed. Now let's head down. Leila is waiting to work on your device."
 
 "Hold on," I say. "What about your own ritual?"
 
@@ -688,13 +688,13 @@ TEXT:
 
 "How are you holding up?" I ask. "You keep your guard up so high nobody can read you. I want to know how you're doing."
 
-Kate looks away, her guarded posture easing slightly.
+Kate looks away, her guarded posture tightening before easing slightly.
 
 }
 #if(v_b3_ch1_kate2 == 1) {
 "Was I really looking that depressed?" I say.
 
-"I lost count of how many times you stared blankly into the trees," Kate says. "It wasn't subtle. Now let's head down. Leila is waiting to work on your device."
+"I lost count of how many times you stared blankly into the trees this morning," Kate says. "It wasn't subtle. Now let's head down. Leila is waiting to work on your device."
 
 "Hold on," I say. "What about your own ritual?"
 
@@ -702,13 +702,13 @@ Kate looks away, her guarded posture easing slightly.
 
 "How are you holding up?" I ask. "You keep your guard up so high nobody can read you. I want to know how you're doing."
 
-Kate looks away, her guarded posture easing slightly.
+Kate looks away, her guarded posture tightening before easing slightly.
 
 }
 #if(v_b3_ch1_kate2 == 2) {
 "Wait a minute. Is this your way of saying that you were worried about me?" I say.
 
-"I'm offering practical advice because you needed it," Kate says, looking aside. "Nothing more. Now let's head down. Leila is waiting to work on your device."
+"I'm offering practical advice because we need you functional," Kate says, looking aside. "Nothing more. Now let's head down. Leila is waiting to work on your device."
 
 "Hold on," I say. "What about your own ritual?"
 
@@ -716,18 +716,18 @@ Kate looks away, her guarded posture easing slightly.
 
 "How are you holding up?" I ask. "You keep your guard up so high nobody can read you. I want to know how you're doing."
 
-Kate looks away, her guarded posture easing slightly.
+Kate looks away, her guarded posture tightening before easing slightly.
 
 }
 As the rigid set of her shoulders relaxes, the exhaustion in her face becomes unmistakable—dark shadows beneath her eyes, the strain of sleepless nights catching up to her.
 
-"I've had trouble sleeping," she mutters, keeping her gaze on the valley. "Nothing severe. Three days have passed; I've mostly worked through it."
+"I've had trouble sleeping," she mutters, keeping her gaze fixed on the valley below. "Nothing severe. Three days have passed; I've mostly worked through it."
 
 "You don't look like you've worked through it," I say. "You look like you've spent seventy-two hours fighting griffins single-handed."
 
-Kate scowls, crossing her arms tighter.
+Kate scowls, crossing her arms tighter against her chest.
 
-"This is why I keep my guard up," she says. "Nobody needs my baggage when everyone is carrying their own."
+"This is why I keep my guard up," she says. "Nobody needs my burdens when everyone is carrying their own."
 
 choice(""But I want to worry about you!"", B3-Ch01a-Approached, v_current_scene = B3-Ch01a-Approached, v_b3_ch1_kate3 = 0)
 choice(""Well, if you're sure you can handle it, then I won't press the issue any further."", B3-Ch01a-Approached, v_current_scene = B3-Ch01a-Approached, v_b3_ch1_kate3 = 1)
@@ -739,9 +739,9 @@ TEXT:
 #if(v_b3_ch1_kate3 == 0) {
 "But I want to worry about you!" I say.
 
-Kate blinks, caught off balance by the blunt declaration. Then she looks down at the dry grass, a faint flush rising to her cheeks.
+Kate blinks, caught completely off balance by the blunt declaration. For a moment the defensive edge leaves her eyes, and a faint flush rises to her pale cheeks. She looks down at the dry grass, shifting her footing.
 
-"If you insist on fretting," she mumbles, "maybe I'll hide it slightly less when it's just the two of us." She looks back up, meeting my eyes. "For now, drop it. It's something I need to settle on my own."
+"If you insist on fretting," she mumbles, "maybe I'll hide it slightly less when it's just the two of us." She looks back up, meeting my eyes with her usual firmness. "For now, drop it. It's something I need to settle on my own."
 
 "Fair enough," I say. "I won't push."
 
@@ -750,6 +750,8 @@ Kate blinks, caught off balance by the blunt declaration. Then she looks down at
 }
 #if(v_b3_ch1_kate3 == 1) {
 "Well, if you're sure you can handle it, then I won't press the issue any further," I say.
+
+Kate lets out a quiet breath, the tension in her shoulders staying locked.
 
 "Thank you," Kate says. "Let's get back to camp. Leila has been waiting long enough."
 
@@ -770,7 +772,7 @@ Leila shakes her head.
 
 "Yeah," I say. "It helped a lot."
 
-"Good," she writes. "I wasn't sure if you'd be willing to discuss the trials. Everyone has been walking on eggshells. Traumatic memories are difficult to share, but keeping them locked inside only makes them heavier."
+"Good," she writes. "I wasn't sure if you'd be willing to discuss the trials. Everyone has been walking on eggshells. What we lived through is difficult to speak aloud, but keeping those horrors locked inside only makes them heavier."
 
 "Like how you shared yours the morning after the prophecy?"
 
@@ -785,15 +787,15 @@ choice("Continue", B3-Ch01a-Complicated, v_current_scene = B3-Ch01a-Complicated)
 ID: B3-Ch01a-Mechanisms
 TEXT:
 
-"We're still a collection of strangers who met two weeks ago," I say, gazing into the shadows between the pines. "People don't want to dump their burdens on others, and nobody wants to look fragile. If we ever talk about what the trials did to us, it will take time."
+"We're still a collection of strangers who met two weeks ago," I say, gazing into the long shadows stretching between the pines. "People don't want to dump their burdens on others, and nobody wants to look fragile. If we ever talk about what the trials did to us, it will take time."
 
-"You're right," Leila writes. "Trust doesn't happen overnight... In any case, we should examine your device. Perhaps we can make some progress before turning in."
+"You're right," Leila writes, the blue light fading as she lowers her hand. "Trust doesn't happen overnight... In any case, we should examine your device. Perhaps we can make some progress before turning in."
 
-For the next two hours, Leila and I work on the stat booster beneath the trees. We start with the fine enchanting picks Daren lent us two days ago. When Daren finishes his drills on the knoll and comes down to camp, we ask for his heavier tools—the delicate picks were meant for deciphering script, not breaking into concealed registers.
+For the next two hours, Leila and I work on the stat booster beneath the trees. We start with the fine enchanting picks Daren lent us two days ago, scraping away residue and tracing the hairline conduits beneath the casing. When Daren finishes his drills on the knoll and comes down to camp, we ask for his heavier tools—the delicate picks were meant for deciphering script, not breaking into concealed registers.
 
 With Daren's enchanting expertise and Leila's understanding of lessathi engineering, we eventually locate the dormant menu Arraka described. But unlocking the hidden stats presents a steep risk.
 
-"No matter how I look at it, we only have one option," Daren says, holding two thin steel styluses whose tips glow pale yellow as he probes the energy lattice around the casing. "We either force the seal or leave it alone. The problem is security. If the lessathi built an intrusion ward, forcing the register will trigger an emergency lockdown. It could lock out your standard stats until someone deactivates the failsafe. Fiddling further without proper schematics might brick the device entirely. It might be wiser to wait for Leila's father."
+"No matter how I look at it, we have only one choice," Daren says, holding two thin steel styluses whose tips glow pale yellow as he probes the energy lattice around the casing. "We either force the seal or leave it alone. The problem is security. If the lessathi built an intrusion ward, forcing the register will trigger an emergency lockdown. It could lock out your standard stats until someone deactivates the failsafe. Fiddling further without proper schematics might ruin the device entirely. It might be wiser to wait for Leila's father."
 
 choice("Leave the stat device as it is", B3-Ch01a-Crossbow, v_current_scene = B3-Ch01a-Crossbow, v_b3_ch1_unlock = 1)
 choice("Try to forcefully unlock the hidden stats.", B3-Ch01a-Crossbow, v_current_scene = B3-Ch01a-Crossbow, v_b3_ch1_unlock = 2)
@@ -807,27 +809,27 @@ achievement("No regrets",v_ac_b3_ch1_regrets)
 #if(v_b3_ch1_unlock == 1) {
 "Yeah, we shouldn't risk it," I say. "We'll continue in Ollendor."
 
-"Sensible," Daren says, setting the tools down on the stump. "In that case, are you ready for first watch? The camp is turning in."
+"Sensible," Daren says, wiping the tips of his styluses with an oiled cloth and setting them into his leather tool roll. "In that case, are you ready for first watch? The camp is turning in."
 
 "Let me grab my crossbow from my tent and I'll meet you."
 
 }
 #if(v_b3_ch1_unlock == 2) {
-"I doubt they would brick an entire unit over a few auxiliary stats," I say. "It isn't like the magical stats that require a cipher. Force the seal and let's see what happens."
+"I doubt they would ruin an entire unit over a few auxiliary stats," I say. "It isn't like the magical stats that require a cipher. Force the seal and let's see what happens."
 
-"It's your device," Daren says reluctantly. "I hope your instincts hold."
+"It's your device," Daren says reluctantly, brow furrowed. "I hope your instincts hold."
 
-He aligns the steel picks above the housing and brings both tips down against the contact nodes.
+He aligns the steel picks above the housing and brings both tips down firmly against the contact nodes.
 
-A sharp spark crackles across the metal. The display flashes harsh crimson: 'Warning: Security Breach. Device locked for user safety. Manual reset required by authorized personnel.'
+A sharp spark crackles across the metal, followed by the acrid smell of scorched insulation. The display flashes harsh crimson: 'Warning: Security Breach. Device locked for user safety. Manual reset required by authorized personnel.'
 
-Daren looks up from the red glare.
+Daren looks up from the red glare, shaking his head.
 
-"You can't say I didn't warn you. If we push any further, we risk frying the internal array. We have to wait for Reidzek in Ollendor. With luck, he knows how to clear the lockout. Until then, you'll have to manage without stat boosts."
+"You can't say I didn't warn you. If we push any further, we risk destroying the internal arrays. We have to wait for Reidzek in Ollendor. With luck, he knows how to clear the lockout. Until then, you'll have to manage without stat boosts."
 
 "I'll manage," I say, pocketing the glowing brick. "Nothing I haven't done before."
 
-"First watch," Daren says, gathering his kit. "The others are already asleep."
+"First watch," Daren says, rolling up his tool kit. "The others are already asleep."
 
 "Let me grab my crossbow from my tent and I'll meet you."
 
@@ -838,7 +840,7 @@ choice("Continue", B3-Ch01a-Oversee, v_current_scene = B3-Ch01a-Oversee)
 ID: B3-Ch01a-Complicated
 TEXT:
 
-We spend the next two hours working on the stat booster, trying to crack the cipher for the two magical stats. For the first half hour Leila and I work alone with the basic picks Daren gave us. Once Daren comes down from the hill, he joins in, lending his enchanting sense to the effort. Unfortunately, even combined with Leila's workshop training, the cipher remains completely opaque.
+We spend the next two hours working on the stat booster beneath the darkening pines, trying to crack the cipher for the two magical stats. For the first half hour Leila and I work alone with the basic picks Daren gave us, squinting at the micro-etched circuits. Once Daren comes down from the hill, he joins in, lending his enchanting sense to the effort. Unfortunately, even combined with Leila's workshop training, the cipher remains completely opaque.
 
 "We should stop for tonight," Daren says, rotating a spiked steel ring through the air above the screen to disperse the residual charge. "Cracking a security cipher of this complexity isn't a job for a few hours on a tree stump. At this rate, we're guessing in the dark. In any case, we have first watch. The camp is turning in."
 
@@ -850,9 +852,9 @@ choice("Continue", B3-Ch01a-Oversee, v_current_scene = B3-Ch01a-Oversee)
 ID: B3-Ch01a-Oversee
 TEXT:
 
-I bid Leila good night and duck into my tent to fetch my crossbow and quiver. Stepping back into the cool night air, I head toward the base of the hill where Daren is waiting. He sits on a low outcrop that gives a clear view of the clearing and the trail beyond, close enough to reach the tents in seconds if something stirs.
+I bid Leila good night and duck into my tent to fetch my crossbow and quiver. Stepping back into the cool night air, I head toward the base of the hill where Daren is waiting. He sits on a low rock outcrop that gives a clear view of the clearing and the trail beyond, close enough to reach the tents in seconds if something stirs in the dark.
 
-"Hold on, Barry," Daren says the moment I step up. "Stand right there for a second. Don't move."
+"Hold on, Barry," Daren says the moment I step up, his armored silhouette stark against the starlit ridge. "Stand right there for a second. Don't move."
 
 "What is it?" I ask, freezing mid-step with the crossbow in hand.
 
@@ -860,7 +862,7 @@ Daren narrows his eyes, staring intently at the air around my shoulders.
 
 "Turn around," he says.
 
-"Okay..." I turn slowly on my heel.
+"All right..." I turn slowly on my heel.
 
 "Hmm," Daren mutters after several silent seconds. "Turn again, but stay in profile."
 
@@ -872,9 +874,9 @@ choice(""Want me to do a little dance too, while I'm at it?"", B3-Ch01a-Dance, v
 ID: B3-Ch01a-Backwards
 TEXT:
 
-I turn sideways, giving him a clear view of my profile against the dark hillside. Ten seconds pass in complete silence.
+I turn sideways, giving him a clear view of my profile against the dark hillside. Ten seconds pass in complete silence while the cold wind sighs through the branches above us.
 
-"Face me again," Daren mutters, leaning forward on his elbows. "Take two paces forward. No, wait—back up. Walk backward slowly until I tell you to halt."
+"Face me again," Daren mutters, leaning forward on his armored elbows. "Take two paces forward. No, wait—back up. Walk backward slowly until I tell you to halt."
 
 "Are you going to explain what we're doing," I ask, turning to face him, "or am I running drills until dawn?"
 
@@ -920,7 +922,7 @@ TEXT:
 
 "Right, right," Daren says, catching himself with an embarrassed clearing of his throat. "I should have explained."
 
-He pauses, looking slightly self-conscious.
+He pauses, looking slightly self-conscious under the starlight.
 
 "I'm trying to see if I can detect your lessathi blood from your aura flow," Daren says. "Arraka walked me through the principles earlier, but something isn't clicking."
 
@@ -964,7 +966,7 @@ TEXT:
 
 "Right, right," Daren says, catching himself with an embarrassed clearing of his throat. "I should have explained."
 
-He pauses, looking slightly self-conscious.
+He pauses, looking slightly self-conscious under the starlight.
 
 "I'm trying to see if I can detect your lessathi blood from your aura flow," Daren says. "Arraka walked me through the principles earlier, but something isn't clicking."
 
@@ -1000,21 +1002,21 @@ choice("Continue", B3-Ch01a-Humanity, v_current_scene = B3-Ch01a-Humanity)
 ID: B3-Ch01a-Humanity
 TEXT:
 
-"I'm not convinced Eiden's only motive was humiliating you," I say.
+"I'm not convinced Eiden's only motive was humiliating you," I say, leaning my weight against the rock.
 
-"What other reason could he have?" Daren asks.
+"What other reason could he have?" Daren asks, his voice sharp against the night stillness.
 
 "Maybe at first," I say. "But when you dropped to your knees and offered to do anything he asked, he didn't demand a price. He gave you the power and told you to 'prove him wrong'."
 
-"You saw that..." Daren looks away, a grimace of embarrassment crossing his face. "When I offered to kneel, I expected him to twist the knife. Instead he handed over the magic without asking for a thing. What did that mean?"
+"You saw that..." Daren looks away, a grimace of embarrassment crossing his face before hardening into a scowl. "When I offered to kneel, I expected him to twist the knife. Instead he handed over the magic without asking for a thing. What did that mean?"
 
 "Your first argument with him," I say. "In Thilias, you told him there was still good worth fighting for, and that you would right the world's wrongs if you refused to give up. That started the feud. When you threw yourself at his feet to save a single slave girl, it rattled him. He wants you to prove there is still hope for humanity—that he made a mistake giving up on mortals."
 
-"No," Daren says, shaking his head. "Eiden shed his humanity centuries ago. He sees mortals as insects. He told us as much himself. He isn't having second thoughts now."
+"No," Daren says, shaking his head with firm conviction. "Eiden shed his humanity centuries ago. He sees mortals as insects. He told us as much himself. He isn't having second thoughts now."
 
 "Are you sure?" I ask. "Look at how he reacted when I vowed to save every city in Varathia. Deep down, he wants to be proven wrong, but he's too far gone to turn back. He's daring us to achieve what he abandoned."
 
-"I'd almost forgotten your speech about saving the continent single-handed," Daren says with a weary sigh. "Winning the tournament, killing Selkram, rescuing every city—you have quite the calendar, Barry."
+"I'd almost forgotten your speech about saving the continent single-handed," Daren says with a weary sigh. "Winning the tournament, killing Selkram, rescuing every city—you have set yourself quite the itinerary, Barry."
 
 "All in a day's work," I say, forcing confidence into my grin.
 
@@ -1035,7 +1037,7 @@ TEXT:
 #if(v_b3_ch1_cities == 0) {
 "You're right. We already have enough things to worry about as it is," I say.
 
-"Once we claim the Magium, setting the cities right will be straightforward," Daren says. "If these troubles festered for centuries, they can wait a few more weeks."
+"Once we claim the Magium, setting the cities right will be straightforward," Daren says, the rigid tension in his shoulders easing. "If these troubles festered for centuries, they can wait a few more weeks."
 
 "Leaving the cities aside, are you done using me as a target dummy? My legs are going stiff."
 
@@ -1049,7 +1051,7 @@ After another ten minutes of squinting at my aura, Daren gives up for the night,
 #if(v_b3_ch1_cities == 1) {
 "I haven't changed my mind. I still want to save the cities before the tournament ends," I say.
 
-"Suit yourself," Daren says. "I'm only saying you have alternatives if the load gets heavy."
+"Suit yourself," Daren says, looking at me with a mix of worry and grudging respect. "Just don't let your stubbornness outpace your sword arm. If you take on the whole continent, make sure you survive the first step."
 
 "Leaving the cities aside, are you done using me as a target dummy? My legs are going stiff."
 
@@ -1063,7 +1065,7 @@ After another ten minutes of squinting at my aura, Daren gives up for the night,
 #if(v_b3_ch1_cities == 2) {
 "Actually, I never really wanted to save those cities in the first place," I say.
 
-"Whatever you say, Barry," Daren says. "It's wiser to focus on immediate goals. Scattering our attention is never a good idea."
+"Whatever you say, Barry," Daren says with a dry shake of his head. "It's wiser to focus on immediate survival than grand gestures you only made to provoke a stillwater."
 
 "Leaving the cities aside, are you done using me as a target dummy? My legs are going stiff."
 
@@ -1083,7 +1085,7 @@ Morning arrives with crisp mountain air and the smell of toasted travel bread co
 
 We barely clear the first ridge before Daren starts firing technical aura questions at Arraka. Stunned by the unprompted interrogation, the rest of the line slows to listen. Arraka ignores him for three paces before snapping.
 
-"Have you lost your mind?" Arraka screeches from the amulet. "Drills aren't until dusk! Why are you pestering me now?"
+"Have you lost your mind?" Arraka screeches from the amulet. "The morning lesson is over! Why are you pestering me on the trail?"
 
 }
 #if(v_ch11_saved_rose == 1) {
@@ -1095,7 +1097,7 @@ Morning arrives with crisp mountain air and the smell of toasted travel bread co
 
 We barely clear the first ridge before Daren starts firing technical aura questions at Arraka. Stunned by the unprompted interrogation, the rest of the line slows to listen. Arraka ignores him for three paces before snapping.
 
-"Have you lost your mind?" Arraka screeches from the amulet. "Drills aren't until dusk! Why are you pestering me now?"
+"Have you lost your mind?" Arraka screeches from the amulet. "The morning lesson is over! Why are you pestering me on the trail?"
 
 }
 "Because your instructions make no sense!" Daren says, throwing up his hands. "How am I supposed to isolate the lessathi flow line in Barry's aura when a thousand identical threads are shifting at once?"
@@ -1124,7 +1126,7 @@ TEXT:
 
 "The clown girl has a point," Arraka says. "Illuna tutoring Daren on lessathi auras saves my ears from his questions. And we have a genuine lessathi on hand, so he has no shortage of practice material."
 
-"Test subject?" Leila writes, mild apprehension in her expression.
+"Test subject?" Leila writes, mild apprehension in her expression as the glowing blue letters float between us.
 
 "He only needs to read your aura," I tell her. "You just stand still and turn around. At worst, you get slightly dizzy."
 
@@ -1151,19 +1153,21 @@ set(v_b3_ch1_password,0) if (v_perception == 4 && v_ancient_languages < 4 || v_b
 set(v_b3_ch1_password,1) if (v_ancient_languages == 4 && v_perception == 4 && v_b3_ch1_unlock != 2)
 achievement("Password acquired",v_ac_b3_ch1_password)
 #if(v_b3_ch1_unlock == 2 || v_perception < 4) {
-While Melindra shows Flower her polished river stones, Daren gathers the rest of us to review our infiltration strategy.
+While Melindra shows Flower her polished river stones, Daren gathers the rest of us to review our infiltration plan.
 
 "Everyone remembers the plan once we reach Ollendor?" Daren asks.
 
-"We've gone over it five times," Hadrik grunts. "If the perimeter is light, we slip through unseen. If the gate is barred, we smash the hinges. Simple enough."
+"We've gone over it five times," Hadrik grunts, adjusting his battleaxe. "If the perimeter is light, we slip through unseen. If the gate is barred, we smash the hinges. Simple enough."
 
 }
 #if(v_perception == 4 && v_ancient_languages < 4 && v_b3_ch1_unlock != 2) {
-While Melindra shows Flower her polished river stones, Daren gathers the rest of us to review our infiltration strategy.
+While Melindra pulls a smooth, slate-grey river stone from her pouch to show Flower, faint hairline grooves along its curved edge catch my eye. I squint at the markings, but without specialized linguistic deciphering, they look like nothing more than natural weathering.
+
+While Melindra passes the stone to Flower, Daren gathers the rest of us to review our infiltration plan.
 
 "Everyone remembers the plan once we reach Ollendor?" Daren asks.
 
-"We've gone over it five times," Hadrik grunts. "If the perimeter is light, we slip through unseen. If the gate is barred, we smash the hinges. Simple enough."
+"We've gone over it five times," Hadrik grunts, adjusting his battleaxe. "If the perimeter is light, we slip through unseen. If the gate is barred, we smash the hinges. Simple enough."
 
 }
 #if(v_ancient_languages == 4 && v_perception == 4 && v_b3_ch1_unlock != 2) {
@@ -1171,11 +1175,11 @@ As Melindra pulls a smooth, slate-grey stone from her satchel to show Flower, fi
 
 The phrase means little on its own, but tucked away in my memory, it might prove useful.
 
-While Melindra puts the stone back, Daren gathers the rest of us to review our infiltration strategy.
+While Melindra puts the stone back, Daren gathers the rest of us to review our infiltration plan.
 
 "Everyone remembers the plan once we reach Ollendor?" Daren asks.
 
-"We've gone over it five times," Hadrik grunts. "If the perimeter is light, we slip through unseen. If the gate is barred, we smash the hinges. Simple enough."
+"We've gone over it five times," Hadrik grunts, adjusting his battleaxe. "If the perimeter is light, we slip through unseen. If the gate is barred, we smash the hinges. Simple enough."
 
 }
 #if(v_ancient_languages == 4 && v_perception == 4 || v_perception == 4 && v_ancient_languages < 4 || v_b3_ch1_unlock == 2 || v_perception < 4) {
@@ -1183,7 +1187,7 @@ Melindra turns on her heel, arching an eyebrow. "You drafted an infiltration pla
 
 "We asked you three times yesterday," Daren says. "You brushed us off. We couldn't wait until we were standing under the ramparts to start planning."
 
-"Why not?" Melindra asks, looking genuinely baffled. "Wouldn't it make more sense to look at the defenses before inventing a strategy?"
+"Why not?" Melindra asks, looking genuinely baffled. "Wouldn't it make more sense to look at the defenses before hatching a plan?"
 
 "We have a general sense of what to expect," Daren says. "We breached Thilias. Ollendor can't be fundamentally different."
 
