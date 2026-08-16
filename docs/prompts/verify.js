@@ -179,7 +179,6 @@ function lockCheck(expected, managedAll, managedThisBook) {
         const p = line.slice(3).trim().replace(/^"|"$/g, "");
 
         if (p.startsWith("data/fr/")) { out.push({ kind: "FORBIDDEN_LOCALE", detail: p }); continue; }
-        if (/^data\/en\/ch\d/.test(p)) { out.push({ kind: "BOOK1_MODIFIED", detail: p }); continue; }
         if (p.startsWith("src/") || p.startsWith("scripts/") || p.startsWith("templates/") ||
             p.startsWith("public/") || p === "package.json") {
             out.push({ kind: "CODE_MODIFIED", detail: p }); continue;
@@ -193,9 +192,9 @@ function lockCheck(expected, managedAll, managedThisBook) {
 
         if (!allSet.has(p)) {                                 // owned by nobody — genuine breach
             out.push({ kind: "OUT_OF_LOCK_WRITE", detail: p });
-        } else if (!bookSet.has(p)) {                         // the other book's master, running concurrently
+        } else if (!bookSet.has(p)) {                          // another book's master, concurrent
             info.push({ kind: "CONCURRENT_OTHER_BOOK", detail: p });
-        } else if (STRICT) {                                  // sibling unit in this book
+        } else if (STRICT) {                                   // sibling unit in this book
             out.push({ kind: "OUT_OF_LOCK_WRITE", detail: p });
         } else {
             info.push({ kind: "CONCURRENT_SIBLING_UNIT", detail: p });

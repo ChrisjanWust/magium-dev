@@ -223,9 +223,9 @@ may run concurrently. Verified at build time.
 
 /* ----------------------------------------------------------------- compose */
 
-const read = (f) => {
+const read = (f, optional) => {
     const p = path.join(PROMPTS, f);
-    if (!fs.existsSync(p)) { fail(`missing fragment: ${f}`); return ""; }
+    if (!fs.existsSync(p)) { if (!optional) fail(`missing fragment: ${f}`); return ""; }
     return fs.readFileSync(p, "utf8").trimEnd();
 };
 
@@ -253,13 +253,20 @@ function main() {
             owner[f] = u.meta.unit;
         }
     }
-    const inScope = corpus.files.filter((f) => /^b[23]ch/.test(f));
+    const inScope = corpus.files.filter((f) => /^(ch|b[23]ch)/.test(f));
     for (const f of inScope) {
         if (!owner[f]) fail(`UNASSIGNED: '${f}' is in scope but no unit owns it`);
     }
     for (const f of Object.keys(owner)) {
         if (!corpus.stats[f]) fail(`GHOST: unit owns '${f}' which does not exist`);
-        if (/^ch/.test(f)) fail(`OUT OF SCOPE: '${f}' is Book 1 (committed) and must not be assigned`);
+    }
+    /* a unit's declared book must match its filenames */
+    for (const u of units) {
+        for (const f of u.meta.files) {
+            const b = /^b2ch/.test(f) ? "2" : /^b3ch/.test(f) ? "3" : /^ch/.test(f) ? "1" : "?";
+            if (b !== String(u.meta.book))
+                fail(`BOOK MISMATCH: unit ${u.meta.unit} declares book ${u.meta.book} but owns '${f}' (book ${b})`);
+        }
     }
 
     const master = read("_master.md");
@@ -281,17 +288,18 @@ function main() {
         });
     }
 
-    for (const book of ["2", "3"]) {
-        const specific = read(`book${book}-master.md`);
+    for (const book of ["1", "2", "3"]) {
+        const specific = read(`book${book}-master.md`, true);
         if (!specific) continue;
         /* Resolve command-literal placeholders so a book-master cannot copy an
          * unsubstituted token into a shell command. Report-template tokens
          * (<n>, <unit-id>, <message>) are intentionally left for the agent. */
+        const glob = book === "1" ? "data/en/ch*.magium" : `data/en/b${book}ch*.magium`;
         const resolve = (s) => s
+            .replace(/--book <1\|2\|3>/g, `--book ${book}`)
             .replace(/--book <2\|3>/g, `--book ${book}`)
-            .replace(/verify\.js --book <2\|3>/g, `verify.js --book ${book}`)
             .replace(/build\/<book>-ledger\.md/g, `build/book${book}-ledger.md`)
-            .replace(/<book-glob>/g, `data/en/b${book}ch*.magium`);
+            .replace(/<book-glob>/g, glob);
         outputs.push({
             name: `book${book}-master.prompt.md`,
             body: [
@@ -328,19 +336,19 @@ function main() {
         })
         .join("\n");
 
-    const b2 = units.filter((u) => String(u.meta.book) === "2").length;
-    const b3 = units.filter((u) => String(u.meta.book) === "3").length;
+    const perBook = ["1", "2", "3"]
+        .map((b) => ({ b, n: units.filter((u) => String(u.meta.book) === b).length }))
+        .filter((x) => x.n);
 
     console.log(`Built ${outputs.length} prompts -> docs/prompts/build/\n`);
     console.log(manifest);
-    console.log(`\nBook 2: ${b2} writer units   Book 3: ${b3} writer units`);
-    console.log(`Files under management: ${Object.keys(owner).length} (all of data/en/b[23]ch*.magium)`);
+    console.log("\n" + perBook.map((x) => `Book ${x.b}: ${x.n} writer units`).join("   "));
+    console.log(`Files under management: ${Object.keys(owner).length}`);
     console.log(`\nAcceptance gate (book-masters run this per unit and per book):`);
     console.log(`  node docs/prompts/verify.js --unit <unit-id>`);
     console.log(`  node docs/prompts/verify.js --book <2|3>`);
     console.log(`\nOperator: launch book-masters with`);
-    console.log(`  docs/prompts/build/book2-master.prompt.md`);
-    console.log(`  docs/prompts/build/book3-master.prompt.md`);
+    for (const x of perBook) console.log(`  docs/prompts/build/book${x.b}-master.prompt.md`);
 }
 
 main();
