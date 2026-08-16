@@ -21,19 +21,19 @@ choice("Continue", B2-Ch07a-Intro2, v_current_scene = B2-Ch07a-Intro2, v_checkpo
 ID: B2-Ch07a-Intro2
 TEXT:
 
- "Aren't you the one who told me your greatest weakness a few minutes after we met?" I ask him, while raising an eyebrow.
+ "Aren't you the one who volunteered your greatest vulnerability five minutes after we shook hands?" I ask, looking up from the page.
 
-"That is entirely different!" Daren says. "Anyone could tell that my shield spell is weak against enchanted weapons after seeing me fight for a while!"
+"That is entirely different!" Daren snaps. "Any veteran swordsman would deduce that my barrier struggles against enchanted steel after watching me fight for two rounds!"
 
-"Wait, you were weak against enchanted weapons?" Hadrik says.
+"Wait, you struggle against enchanted weapons?" Hadrik asks, blinking.
 
-"Ugh..." Daren says.
+Daren lets out a low, pained groan.
 
-"No, I'm serious," Hadrik says. "I never noticed. But why enchanted weapons specifically? Shouldn't the shield spell automatically defend you from most types of damage? What, are you cursed or something? And besides, why would it even matter? The shield spell is just a spell that they teach to beginner mages. Nobody really uses it in actual combat. It consumes too much energy, and it barely absorbs enough damage to prevent you from dying, most of the time. Protections against specific types of damage should be much more effective. Not that I really bothered to learn any of those, what with my very durable giant skin and all."
+"No, truly," Hadrik rumbles, leaning forward. "I never caught that. Why enchanted steel specifically? Shouldn't a standard shield weave turn aside most blows? Are you cursed? And why rely on a basic shield at all? Beginner casters lean on shields because they lack control, but the weave bleeds energy and barely softens a killing blow. Dedicated protection matrices against blunt impact or piercing force work far better. Not that I ever bothered studying warding geometry, what with giant hide turning aside iron on its own."
 
-"White mages have advanced versions of the shield spell," Daren says. "They are a lot more cost effective. And I'm not weak against enchanted weapons specifically. I'm vulnerable against all types of physical damage. Remember when the captain from the ogre fort hit me with a club and threw me into a wall? I've tried many kinds of protection spells against physical damage, but none of them seem to work for me. The only one that kind of works is the shield spell, but it's barely even working against regular weapons, let alone enchanted ones. Enchanting my armor to be as durable as possible was the only way I found to give me some measure of protection against these types of attacks."
+"White mages use advanced variations of the shield weave," Daren says, stiffening. "They are vastly more efficient. And the flaw is not confined to enchanted steel. My aura resists physical trauma protections across the board. Remember the ogre captain hurling me into the fortress wall with his club? I have tested dozens of physical protection formulas, but none take hold in my aura. The advanced shield weave is the sole construct that offers even marginal defense against physical impacts, and it barely holds against mundane steel, let alone enchanted blades. Enchanting my plate armor to maximum durability was the only way I found to survive on the battlefield."
 
-"Huh," Hadrik says. "That's odd. Do you suppose it could have anything to do with the spirit from the magical plane that Arraka said you are linked with? Like, maybe the spirit is allergic to earth matter, or something? Barry, what do you think?"
+"Huh," Hadrik muses, scratching his beard. "Strange. Do you suppose it connects to the spirit on the magical plane Arraka mentioned? Like your spirit has some aversion to earthen matter? Barry, what's your read?"
 
 choice(""I'd say that's certainly a possibility."", B2-Ch07a-Possibility, v_current_scene = B2-Ch07a-Possibility)
 choice(""I'd be more inclined to think that he linked himself to the spirit incorrectly."", B2-Ch07a-Incorrectly, v_current_scene = B2-Ch07a-Incorrectly)
@@ -45,33 +45,33 @@ TEXT:
 
  "I'd say that's certainly a possibility."
 
-"Well," Daren says, "if it ever turns out that I went through all this trouble just because of some spirit's allergies, I know I'm going to get really pissed. I'm probably better off not knowing."
+"Well," Daren mutters, rubbing his scarred temple, "if it turns out I have spent fifteen years compensating with plate armor because some otherworldly spirit has an aversion to dirt, I will be thoroughly furious. I am better off in ignorance."
 
-"That armor of yours is probably better than a shield spell in most cases anyway," I say. "It doesn't eat away at your energy, and you don't need to worry about it conflicting with all of your other-- Hold on... did you just imply earlier that you are actually using a shield spell right now?"
+"The armor serves you better than a shield weave in most melees anyway," I say, running a finger down the column. "It costs no aura to maintain, and you don't have to balance it against your other—wait. Did you just say you are running an advanced shield weave right now?"
 
-"Well, yeah," Daren says. "It's the only protection spell I've got that offers me some measure of defense against physical attacks. I'd have to be a fool not to use it."
+"Of course," Daren says. "It is the only spell in my repertoire that blunts physical blows. I would be a fool to leave it down."
 
-"Then why didn't you write it on this paper?!" I say. "Didn't I tell you to write all the protection spells that you had cast on yourself on our second day of the tournament, without exceptions?"
+"Then why isn't it on this parchment?!" I demand, tapping the graphite against the sheet. "Didn't I tell you to record every defensive enchantment active on our second day on the island, without exception?"
 
-"I already told you on our first day that I was using a shield spell," Daren says. "And besides, why would it even matter? What does the shield spell have to do with conflicts between protection spells?"
+"I told you on our first morning that I keep a shield weave active," Daren says. "And why would it matter? What does a physical shield construct have to do with conflicting sleep wards?"
 
-"It has everything to do with them!" I say. "What the hell, man? Haven't you read any of the books in the 'Advanced Theory of Magic' series, written by Azarius?"
+"It has everything to do with them!" I say. "Have you never cracked a single volume of Azarius's 'Advanced Theory of Magic'?"
 
-"Hey," Daren says, "some of us didn't spend the entirety of our lives nerding it up in libraries. Everything that I've learned about magic, I've learned from my teachers."
+"Some of us did not spend our youth buried in academy archives," Daren shoots back. "Everything I know of the craft was passed down by master enchanters."
 
-"Well, in that case, your teachers are all a bunch of idiots!" I say.
+"Then your masters skipped foundational harmonics!" I tell him.
 
-"You take that back!" Daren says. "My white magic teacher was an ex-sage. Do you have any idea how hard it is to become a sage when you only specialize in white magic, without any sort of combat training?"
+"You take that back!" Daren bristles. "My white-magic mentor was an ex-sage! Do you have any conception of the mastery required to claim a sage title through white magic alone, without a scrap of combat casting?"
 
-"Not hard enough, apparently," I tell him.
+"Not enough to teach harmonic resonance, apparently," I say.
 
-"Gods be damned!" Daren says. "Do you have no respect at all for the work it takes to--"
+"Gods above!" Daren raises his hands. "Do you possess no respect whatsoever for the discipline it takes to—"
 
-"What's going on here?" Kate asks us, as she and Leila approach us with shopping bags in hand. "What are you two arguing about again?"
+"What is happening here?" Kate asks, stepping into the shade of the stall with Leila at her side, bundles of linen and leather in hand. "What are you two arguing about now?"
 
-"Barry refuses to acknowledge the effort required to--" Daren begins, but I cut him off.
+"Barry refuses to acknowledge the mastery required to—" Daren begins, but I cut across him.
 
-"Never mind that!" I say. "Daren, can you tell me which kind of shield spell you are using, exactly? Is it the newer one that gives an advantage against physical attacks?"
+"Never mind that! Daren, which shield weave are you using? Is it the third-edition matrix tailored against physical impact?"
 
 choice("Continue", B2-Ch07a-Overload, v_current_scene = B2-Ch07a-Overload)
 
@@ -81,33 +81,33 @@ TEXT:
 
  "I'd be more inclined to think that he linked himself to the spirit incorrectly."
 
-"Yeah," Daren says. "Easy for you to say. You're not a mage. And the only way you've cast magic so far was through that trinket of yours. Even after hearing Arraka's explanation, I still don't have any idea how to see this connection between me and my spirit. I've tried every way I could think of to analyze my magical aura for traces of a link to the magical plane, but I don't even know what to look for."
+"Easy to say from the ground," Daren says, crossing his arms. "You aren't a caster. Every spark of magic you have channeled came through that mechanical booster. Even with Arraka's lecture in mind, I have no idea how to perceive that bridge to the magical plane. I have examined my aura currents for hours and found no distinct conduit."
 
-"That armor of yours is probably better than a shield spell in most cases anyway," I say. "It doesn't eat away at your energy, and you don't need to worry about it conflicting with all of your other-- Hold on... did you just imply earlier that you are actually using a shield spell right now?"
+"The armor serves you better than a shield weave in most melees anyway," I say, running a finger down the column. "It costs no aura to maintain, and you don't have to balance it against your other—wait. Did you just say you are running an advanced shield weave right now?"
 
-"Well, yeah," Daren says. "It's the only protection spell I've got that offers me some measure of defense against physical attacks. I'd have to be a fool not to use it."
+"Of course," Daren says. "It is the only spell in my repertoire that blunts physical blows. I would be a fool to leave it down."
 
-"Then why didn't you write it on this paper?!" I say. "Didn't I tell you to write all the protection spells that you had cast on yourself on our second day of the tournament, without exceptions?"
+"Then why isn't it on this parchment?!" I demand, tapping the graphite against the sheet. "Didn't I tell you to record every defensive enchantment active on our second day on the island, without exception?"
 
-"I already told you on our first day that I was using a shield spell," Daren says. "And besides, why would it even matter? What does the shield spell have to do with conflicts between protection spells?"
+"I told you on our first morning that I keep a shield weave active," Daren says. "And why would it matter? What does a physical shield construct have to do with conflicting sleep wards?"
 
-"It has everything to do with them!" I say. "What the hell, man? Haven't you read any of the books in the 'Advanced Theory of Magic' series, written by Azarius?"
+"It has everything to do with them!" I say. "Have you never cracked a single volume of Azarius's 'Advanced Theory of Magic'?"
 
-"Hey," Daren says, "some of us didn't spend the entirety of our lives nerding it up in libraries. Everything that I've learned about magic, I've learned from my teachers."
+"Some of us did not spend our youth buried in academy archives," Daren shoots back. "Everything I know of the craft was passed down by master enchanters."
 
-"Well, in that case, your teachers are all a bunch of idiots!" I say.
+"Then your masters skipped foundational harmonics!" I tell him.
 
-"You take that back!" Daren says. "My white magic teacher was an ex-sage. Do you have any idea how hard it is to become a sage when you only specialize in white magic, without any sort of combat training?"
+"You take that back!" Daren bristles. "My white-magic mentor was an ex-sage! Do you have any conception of the mastery required to claim a sage title through white magic alone, without a scrap of combat casting?"
 
-"Not hard enough, apparently," I tell him.
+"Not enough to teach harmonic resonance, apparently," I say.
 
-"Gods be damned!" Daren says. "Do you have no respect at all for the work it takes to--"
+"Gods above!" Daren raises his hands. "Do you possess no respect whatsoever for the discipline it takes to—"
 
-"What's going on here?" Kate asks us, as she and Leila approach us with shopping bags in hand. "What are you two arguing about again?"
+"What is happening here?" Kate asks, stepping into the shade of the stall with Leila at her side, bundles of linen and leather in hand. "What are you two arguing about now?"
 
-"Barry refuses to acknowledge the effort required to--" Daren begins, but I cut him off.
+"Barry refuses to acknowledge the mastery required to—" Daren begins, but I cut across him.
 
-"Never mind that!" I say. "Daren, can you tell me which kind of shield spell you are using, exactly? Is it the newer one that gives an advantage against physical attacks?"
+"Never mind that! Daren, which shield weave are you using? Is it the third-edition matrix tailored against physical impact?"
 
 choice("Continue", B2-Ch07a-Overload, v_current_scene = B2-Ch07a-Overload)
 
@@ -117,33 +117,33 @@ TEXT:
 
  "I don't think it's related. He probably just got born this way."
 
-"Yeah," Daren says. "I'm all for pinning the blame on some vague non-corporeal entity that I've never met before, but realistically speaking, Barry is probably right. I've already accustomed myself long ago to the idea that I won't ever be able to cast decent protection against physical damage, so it doesn't really bother me as much as it used to, anymore."
+"Realistically, Barry is right," Daren says, letting his hands fall. "I am all for blaming an unseen ethereal entity across the planes, but the truth is simpler. I accepted years ago that my aura rejects physical warding. It doesn't trouble me as it once did."
 
-"That armor of yours is probably better than a shield spell in most cases anyway," I say. "It doesn't eat away at your energy, and you don't need to worry about it conflicting with all of your other-- Hold on... did you just imply earlier that you are actually using a shield spell right now?"
+"The armor serves you better than a shield weave in most melees anyway," I say, running a finger down the column. "It costs no aura to maintain, and you don't have to balance it against your other—wait. Did you just say you are running an advanced shield weave right now?"
 
-"Well, yeah," Daren says. "It's the only protection spell I've got that offers me some measure of defense against physical attacks. I'd have to be a fool not to use it."
+"Of course," Daren says. "It is the only spell in my repertoire that blunts physical blows. I would be a fool to leave it down."
 
-"Then why didn't you write it on this paper?!" I say. "Didn't I tell you to write all the protection spells that you had cast on yourself on our second day of the tournament, without exceptions?"
+"Then why isn't it on this parchment?!" I demand, tapping the graphite against the sheet. "Didn't I tell you to record every defensive enchantment active on our second day on the island, without exception?"
 
-"I already told you on our first day that I was using a shield spell," Daren says. "And besides, why would it even matter? What does the shield spell have to do with conflicts between protection spells?"
+"I told you on our first morning that I keep a shield weave active," Daren says. "And why would it matter? What does a physical shield construct have to do with conflicting sleep wards?"
 
-"It has everything to do with them!" I say. "What the hell, man? Haven't you read any of the books in the 'Advanced Theory of Magic' series, written by Azarius?"
+"It has everything to do with them!" I say. "Have you never cracked a single volume of Azarius's 'Advanced Theory of Magic'?"
 
-"Hey," Daren says, "some of us didn't spend the entirety of our lives nerding it up in libraries. Everything that I've learned about magic, I've learned from my teachers."
+"Some of us did not spend our youth buried in academy archives," Daren shoots back. "Everything I know of the craft was passed down by master enchanters."
 
-"Well, in that case, your teachers are all a bunch of idiots!" I say.
+"Then your masters skipped foundational harmonics!" I tell him.
 
-"You take that back!" Daren says. "My white magic teacher was an ex-sage. Do you have any idea how hard it is to become a sage when you only specialize in white magic, without any sort of combat training?"
+"You take that back!" Daren bristles. "My white-magic mentor was an ex-sage! Do you have any conception of the mastery required to claim a sage title through white magic alone, without a scrap of combat casting?"
 
-"Not hard enough, apparently," I tell him.
+"Not enough to teach harmonic resonance, apparently," I say.
 
-"Gods be damned!" Daren says. "Do you have no respect at all for the work it takes to--"
+"Gods above!" Daren raises his hands. "Do you possess no respect whatsoever for the discipline it takes to—"
 
-"What's going on here?" Kate asks us, as she and Leila approach us with shopping bags in hand. "What are you two arguing about again?"
+"What is happening here?" Kate asks, stepping into the shade of the stall with Leila at her side, bundles of linen and leather in hand. "What are you two arguing about now?"
 
-"Barry refuses to acknowledge the effort required to--" Daren begins, but I cut him off.
+"Barry refuses to acknowledge the mastery required to—" Daren begins, but I cut across him.
 
-"Never mind that!" I say. "Daren, can you tell me which kind of shield spell you are using, exactly? Is it the newer one that gives an advantage against physical attacks?"
+"Never mind that! Daren, which shield weave are you using? Is it the third-edition matrix tailored against physical impact?"
 
 choice("Continue", B2-Ch07a-Overload, v_current_scene = B2-Ch07a-Overload)
 
@@ -151,37 +151,33 @@ choice("Continue", B2-Ch07a-Overload, v_current_scene = B2-Ch07a-Overload)
 ID: B2-Ch07a-Overload
 TEXT:
 
- "What?..." Daren says. "Oh... Yeah, yeah, that's the one..."
+ "What?..." Daren blinks. "Yes, the third-edition matrix..."
 
-"What's Barry doing?" Kate asks the others, when she sees me flipping my notebook's pages frantically.
+"What is Barry doing?" Kate asks, watching me flip through the notebook pages.
 
-"He says he found out how Eiden managed to put Daren to sleep, despite his protections," Hadrik says. "Apparently, it's because of protection overload, and now he's trying to find the two protection spells that are conflicting with each other."
+"He found how Eiden bypassed Daren's protections," Hadrik explains, leaning back against the stall timber. "Ward overload. Two defensive matrices interfering with each other and tearing a hole in the perimeter. Now Barry is hunting for the clash."
 
-"Protection overload?" Kate says. "That does sound like something Daren would do..."
+"Ward overload?" Kate says, a faint smirk touching her lips. "That sounds entirely like Daren."
 
-"I found it!" I say. "The sleep protection from Daren's shield spell has an almost identical aura flow to one of his individual sleep protection spells. Look at these two diagrams!"
+"Found it!" I turn the notebook toward them, graphite diagrams catching the sunlight. "The sleep-dampening harmonic built into your third-edition shield matches the frequency of your standalone sleep ward almost line for line. Look at the flow vectors."
 
-I show them my notebook, flipping between the two diagrams so they can see the resemblance.
+Daren squints at the open page, head tilted. "Are you certain that isn't just your abysmal handwriting? If your diagrams resemble your notes, I wouldn't trust them to map a garden path."
 
-"Are you sure that's not just because you suck at drawing?" Daren says. "If your ugly handwriting is anything to go by, I'm not sure how much I would trust your ability to accurately copy a diagram from a book."
+I stare at him. "Fine. Let's run a live test. Who knows a sleep weave?"
 
-I frown at Daren.
+"I know a sleep spell," Illuna's dry voice speaks through Flower. "It requires physical contact and a few seconds of focus, but it will suffice."
 
-"Well, why don't we have a test, then?" I say. "Does anyone here know any sleep spells?"
+"Excellent," I say. "Here are the diagrams. Aim the weave directly into the harmonic intersection where the two frequencies cross."
 
-"I know a sleep spell," Illuna says. "It takes a while to cast, and I need to touch him while I do it, but it should be more than enough for what we need."
+"I understand how ward resonance works," Illuna says. She glances once at the page and walks toward Daren.
 
-"Perfect!" I say. "Here are the diagrams. You need to make sure to time your sleep spell just right, and to aim it at the exact point where the two aura flows intersect."
+"This should be amusing," Daren mutters, squaring his shoulders.
 
-"Yes, I know how it works," Illuna says. She takes one quick look at the diagrams and heads toward Daren.
+Illuna presses her palm against Daren's right arm, eyes closing as she tracks the aura currents.
 
-"Oh, this should be good," Daren says.
+"See?" Daren says after five seconds of stillness. "I told you there was no clash to expoi—"
 
-Once Illuna reaches Daren, she places the palm of her hand on his right arm and closes her eyes, visualizing the flows of the auras.
-
-"See?" Daren says, after about five seconds of waiting for Illuna to cast her spell. "I told you that you're wasting your time by--"
-
-Daren does not get to finish what he was saying. His eyes roll to the back of his head, and he falls to the ground like a log.
+Daren's eyes roll back into his skull. His knees buckle, and he hits the packed dirt like a felled timber.
 
 choice("Continue", B2-Ch07a-Oaf, v_current_scene = B2-Ch07a-Oaf)
 
@@ -189,33 +185,33 @@ choice("Continue", B2-Ch07a-Oaf, v_current_scene = B2-Ch07a-Oaf)
 ID: B2-Ch07a-Oaf
 TEXT:
 
- "That settles it," Illuna says. "The oaf was using conflicting protection spells."
+ "That settles it," Illuna says, stepping back. "The oaf was running conflicting ward matrices."
 
-"Well, what do you know!" Hadrik says. "Barry was right. I think someone should wake Daren up, though. That does not look like a comfortable position to be sleeping in."
+"Well, look at that," Hadrik chuckles, resting his elbows on his knees. "Barry had the right of it. Someone ought to wake him, though. Face down in the dust cannot be good for his armor."
 
 "Allow me," Illuna says.
 
-She conjures a bucket's worth of water above Daren's head and immediately drops it on his face.
+A shimmer of blue light gathers above Daren's head, materializing a bucket's worth of frigid water that drops squarely onto his face.
 
-"What the--" Daren says, scrambling up from the ground and coughing water out of his lungs. "How did I end up on the ground?"
+"What in the—" Daren scrambles upright, spitting grit and coughing water from his throat. "How did I end up on the ground?"
 
-"Take a wild guess," Kate says.
+"Take a guess," Kate says dryly.
 
-"No..." Daren says. "It can't be..."
+"No..." Daren stares at his wet gauntlets. "It can't be..."
 
-"Well, Daren," I say. "I guess this means that you will now officially be losing your last bit of protection against physical damage. Welcome to the club!"
+"Well, Daren," I say, closing the notebook with a snap. "Welcome to the ranks of those without physical protection magic. We have jackets."
 
-"No!" Daren says. "I'm not letting go of the shield! I've worked too hard to learn it! I'd rather give up that other protection spell than stop using the shield."
+"No!" Daren protests, wiping muddy water from his forehead scar. "I am not dropping the shield! It took two years to master that matrix. I'll surrender the standalone sleep ward before I give up the shield."
 
-"Suit yourself," I say. "The sleep protection from your shield is a little weaker than the individual one, though."
+"Suit yourself," I say. "The sleep harmonic in the shield is slightly less resilient than a dedicated ward, but it leaves no gap."
 
-"I don't care!" Daren says.
+"I don't care," Daren insists, wringing out his cloak. "The shield stays."
 
-"Well, as long as you make sure that there are no more conflicts..." I say.
+"As long as the frequencies don't cross," I say.
 
-I wait a beat.
+I pause, looking around the circle.
 
-"So, I guess that now I am the only one left without proper protection against sleep spells, then..." I say.
+"Which leaves me as the only one here without a shred of sleep resistance..."
 
 choice("Continue", B2-Ch07a-Dizziness, v_current_scene = B2-Ch07a-Dizziness)
 
@@ -223,27 +219,29 @@ choice("Continue", B2-Ch07a-Dizziness, v_current_scene = B2-Ch07a-Dizziness)
 ID: B2-Ch07a-Dizziness
 TEXT:
 
- "Well, technically, I don't have any magical protection against them, either," Hadrik says. "Giants are naturally immune to sleep spells."
+ "Technically, I carry no magical protection either," Hadrik says. "Giants are naturally immune to sleep spells."
 
-"Lessathi are also immune to sleep spells," Kate says.
+"Full lessathi are immune as well," Kate adds.
 
 "They are?" I say. "What about half-lessathi?"
 
-"No idea," Kate says. "Maybe you are only half immune."
+"No idea," Kate says. "Perhaps your resistance is halved."
 
-"Half immune?" I say. "How would that even work? Hey, Illuna, could you try putting me to sleep too, so we can see what happens?"
+"Halved?" I look at Illuna. "Can you test a sleep weave on me? Let's see what happens."
 
-Illuna sighs and approaches me, touching my arm with her right hand, just like she did with Daren. A few seconds later, a violent dizziness hits me, and everything around me turns blurry.
+Illuna sighs, steps forward, and presses her fingers against my forearm.
 
-"Damn it!" I say, the world spinning wildly around me. "I may as well be put to sleep for all the difference this would make in a fight. I can't even tell up from down anymore. What's happening right now? Am I still standing up?"
+Three seconds pass. Then the cobblestones lurch violently beneath my boots. The sky tilts forty-five degrees, colors smearing into a sickening blur. Nausea slams through my gut, and my balance vanishes entirely.
 
-"Nah," Hadrik says. "You're sitting with your arse on the ground, grabbing your head with both hands."
+"Damn it!" I gasp, hands clamping onto my temples as the world spins like a tavern wheel. "Might as well be asleep for all the good this does in a fight. I can't tell up from down. Am I still standing?"
 
-My mind clears, and as I raise my head, I see Illuna standing in front of me, with her hand on my forehead.
+"Not even close," Hadrik's voice rumbles from somewhere above. "You're flat on your backside in the dirt holding your skull."
 
-"What did you do?" I ask her.
+A cool hand touches my forehead. The spinning slows, the nausea receding like water draining from a basin. I blink, and Illuna stands over me, withdrawing her hand.
 
-"I cast a spell to cure your dizziness," Illuna says, taking her hand off my forehead. "I also have a 'protection from dizziness' spell that I can cast on you, if you want. Given your partial immunity to sleep spells, protection from dizziness should help you both against sleep spells and against spells that attempt to disorient you. There is also a downside, however. While you have this spell cast on yourself, you will be a lot more vulnerable to suggestion magic, since the clarity of your thoughts will make it easier for someone to magically insert ideas into your brain. If I cast the protection spell on you now, it should last you for a few weeks, but there would be no problem in recasting it every day or so, to be safe."
+"What was that?" I ask, catching my breath.
+
+"A counter-weave for the vertigo," Illuna says. "I can cast a ward against dizziness over you if you wish. Given your partial resistance, preventing disorientation should neutralize sleep weaves and balance-disruption spells alike. There is a trade-off, however. The ward clarifies mental focus, which leaves you significantly more vulnerable to suggestion magic. The weave lasts several weeks, though recasting every few days guarantees stability."
 
 choice(""Alright then. Go ahead and cast the spell!"", B2-Ch07a-Adjustments, v_current_scene = B2-Ch07a-Adjustments, v_b2_ch7_dizziness = 0)
 choice(""I'll pass. I really don't like the idea of being vulnerable against suggestion magic."", B2-Ch07a-Adjustments, v_current_scene = B2-Ch07a-Adjustments, v_b2_ch7_dizziness = 1)
@@ -255,38 +253,38 @@ TEXT:
 #if(v_b2_ch7_dizziness == 0) {
  "Alright then. Go ahead and cast the spell!"
 
-Illuna nods and recites an incantation, pointing both palms toward me. A pale light wraps around me for a few seconds, fading as quickly as it came.
+Illuna nods, weaving a short vocal cadence as she raises both palms. A pale, cool radiance washes over my shoulders for a heartbeat before dissolving into my skin.
 
-"It's done," Illuna says.
+"Done," Illuna says.
 
-"Great," I say, getting up from the ground. "Of course, it would have been even greater if our team's white mage could actually cast any sort of protection spells on anyone but himself. You know, kind of like what every other white mage in existence is capable of doing?"
+"Excellent," I say, dusting off my trousers as I stand. "It would be even better if our party's white mage could cast protective wards on anyone other than himself. You know, the foundational function of every white mage in existence?"
 
-"Give me a break!" Daren says. "I already told you. Learning the versions of the spells that can only be cast on myself was easier. I was never planning to work in a team during my travels, so it seemed like a waste of time to learn the more advanced versions of the spells if I'd never get the chance to use them. The barrier that I can cast with my shield has always been more than enough to protect civilians from harm during monster attacks. And it's not like I can just make a few adjustments and change the spells I already know so they can be cast on other people. I'd have to learn entirely different spells for this to work, and we've got no time for that. Just let it go, already."
+"Give me peace!" Daren groans, shaking his head. "I told you. Self-only matrices required half the study time. I never planned to travel in a company, so mastering team-wide ward dispersal seemed pointless when my solo barrier was more than enough to shelter civilians from monster attacks. I cannot simply tweak the formulas on the fly—I would need to drill entirely new incantations from scratch, and we have no time for an academy semester. Drop it."
 
-"Hey, I'm just saying," I say. "If you had actually decided to specialize in only one type of magic like everyone else instead of going for both enchantment and white magic, this wouldn't have been a problem."
+"I'm only saying," I tell him, "if you hadn't split your focus between enchantment and white magic, this wouldn't be an issue."
 
 }
 #if(v_b2_ch7_dizziness == 1) {
  "I'll pass. I really don't like the idea of being vulnerable against suggestion magic."
 
-"Suit yourself," Illuna says.
+"Suit yourself," Illuna says, lowering her hands.
 
-"It's too bad that we don't have anyone in our team who could cast these types of spells without any drawbacks," I say, getting up from the ground. "Oh, I'm sorry, I should have been more specific. It's too bad that we don't have anyone who could cast these spells without drawbacks... on anyone but himself. You know, kind of like what every other white mage in existence is capable of doing?"
+"Pity we lack a white mage who can cast clean protections without drawbacks," I say, getting to my feet and dusting off my trousers. "Or rather, a white mage who can cast them on anyone besides his own frame. You know, the standard purpose of the discipline?"
 
-"Give me a break!" Daren says. "I already told you. Learning the versions of the spells that can only be cast on myself was easier. I was never planning to work in a team during my travels, so it seemed like a waste of time to learn the more advanced versions of the spells if I'd never get the chance to use them. The barrier that I can cast with my shield has always been more than enough to protect civilians from harm during monster attacks. And it's not like I can just make a few adjustments and change the spells I already know so they can be cast on other people. I'd have to learn entirely different spells for this to work, and we've got no time for that. Just let it go, already."
+"Give me peace!" Daren groans, shaking his head. "I told you. Self-only matrices required half the study time. I never planned to travel in a company, so mastering team-wide ward dispersal seemed pointless when my solo barrier was more than enough to shelter civilians from monster attacks. I cannot simply tweak the formulas on the fly—I would need to drill entirely new incantations from scratch, and we have no time for an academy semester. Drop it."
 
-"Hey, I'm just saying," I say. "If you had actually decided to specialize in only one type of magic like everyone else instead of going for both enchantment and white magic, this wouldn't have been a problem."
+"I'm only saying," I tell him, "if you hadn't split your focus between enchantment and white magic, this wouldn't be an issue."
 
 }
- "Drop it," Daren says.
+ "Drop it," Daren says firmly.
 
-"Fine, fine," I say. "I guess we're all done here, then? Should we get moving?"
+"Fine, fine," I say. "Are we finished here? Should we move?"
 
-"Hold on," Kate says. "Leila still needs to get her new backpack enchanted. We can't just walk with these bags in our hands all the way to the palace."
+"One moment," Kate says, holding up a leather rucksack. "Leila's pack needs an enchantment for weight reduction. We aren't hauling these bundles by hand across Thilias."
 
-"Alright," Daren says. "Give me the backpack. I'll enchant it right away."
+"Right," Daren says, taking the bag. "Give it here. A basic lightening weave takes two minutes."
 
-As soon as Daren finishes with the backpack and Leila packs her clothes inside, we leave the market area and make our way toward the castle of Thilias once more. As we walk, we tell Kate and Leila everything that happened with Eiden while they were shopping. I also take this opportunity to give everyone more details about my private discussion with Eiden during his time freezing spell.
+While Daren sketches the glyphs into the leather and Leila packs her spare clothes, we clear out of the bazaar and make our way toward the palace district. As we walk, we brief Kate and Leila on Eiden's arrival and the terms of the private conversation during the frozen seconds.
 
 choice("Continue", B2-Ch07a-Clashing, v_current_scene = B2-Ch07a-Clashing)
 
@@ -294,21 +292,21 @@ choice("Continue", B2-Ch07a-Clashing, v_current_scene = B2-Ch07a-Clashing)
 ID: B2-Ch07a-Clashing
 TEXT:
 
- "Eiden said he'd give you the power to stop the calamity threatening to destroy the cities?..." Daren says. "That doesn't make any sense. Didn't he tell us that he would be destroying the cities himself?"
+ "Eiden promised to grant you power to avert the calamity?" Daren frowns, glancing back at me as we climb the palace avenue. "That makes no sense. He told us to our faces that he would destroy the cities himself."
 
-"That's not what he said," I say. "His exact words were that the calamity would happen as a direct result of his own actions."
+"That wasn't his phrasing," I say. "His exact words were that the destruction would happen as a direct consequence of his actions."
 
-"Isn't that kind of the same thing, though?" Hadrik says.
+"Isn't that splitting hairs?" Hadrik asks, chewing on a dried strip of salted beef.
 
-"Not really," I say. "The way he phrased it, it didn't seem like the destruction of the cities would be his main purpose. More like a side effect of whatever he's planning to do. Let's say, for example, that Eiden knows for a fact that he will be forced to fight Tyrath personally before the end of this tournament. If the dragon is to be believed, then such a fight would completely raze the continent, which would most likely erase all of Varathia's cities from the map."
+"Not at all," I say. "The destruction isn't his goal—it's collateral damage from whatever he intends to execute. Suppose Eiden knows he will be forced to battle Tyrath before the tournament wraps up. If the dragon's threats hold any truth, an all-out clash between a stillwater and an ancient dragon would tear the continent apart and flatten every city in Varathia."
 
-"Damn," Daren says. "You might be right. With the dragon declaring war against all of the cities, and Eiden announcing his return as the 'Creator', I wouldn't be too surprised if the two leaders of the armies ended up clashing before the end of the tournament."
+"Damn," Daren mutters, jaw tightening. "You might have the right of it. With Tyrath declaring war on the settlements and Eiden declaring himself the Creator, a clash between the two leaders before the final trials is almost inevitable."
 
-"That's not all," I say. "Eiden specifically told us that this calamity would only happen 'shortly' before the end of the tournament. This means that he is expecting the tournament to play a part in triggering this calamity, somehow."
+"There's more," I add. "Eiden specified the catastrophe would occur shortly before the tournament concludes. That means he expects the tournament itself to trigger the confrontation."
 
-"Maybe the dragon will be waiting for most of the tournament participants to die out before he begins his attack?" Hadrik says.
+"Perhaps the dragon is waiting for contestants to thin out before unleashing his horde?" Hadrik suggests.
 
-"That's definitely possible," I say. "I'm guessing that the cities of Varathia already have their own defenses against Tyrath's armies, and he's also got the animals to worry about. It would be a pretty bad idea for him to unleash his armies now, when there are mages wandering around the continent, capable of slaughtering hundreds of monsters without much effort."
+"Very likely," I say. "The cities have their own garrisons, and the beasts in the wilderness won't welcome dragon-kin either. Tyrath gains nothing by launching an assault while hundreds of foreign mages are wandering the roads, capable of butchering whole raiding parties."
 
 choice("Continue", B2-Ch07a-Defeatist, v_current_scene = B2-Ch07a-Defeatist)
 
@@ -316,22 +314,22 @@ choice("Continue", B2-Ch07a-Defeatist, v_current_scene = B2-Ch07a-Defeatist)
 ID: B2-Ch07a-Defeatist
 TEXT:
 
- "We should let the king know about this," Daren says. "He might want to do some preparations, in case these events really come to pass."
+ "We should alert the king," Daren says. "He may want to begin fortifications, in case the worst comes to pass."
 
-"Yeah," I say. "Although, I'm not sure if he could actually do anything to protect this city even if he knew about this stuff in advance. A few flying machines and some mages aren't exactly going to be a lot of help in breaking up the fight between a stillwater and a dragon."
+"Perhaps," I say. "Though I doubt stone ramparts and a handful of aerial craft will turn the tide if a stillwater and a dragon start leveling mountains."
 
-I sigh before continuing.
+I let out a breath, looking up at the high castle spires.
 
-"I don't know why I'm getting the feeling that we're going to have to deal with that dragon in one way or another, if we want there to be any organizers left alive to hand us the prize at the end of the tournament."
+"I have a feeling we'll be dealing with that dragon ourselves if we want any judges left breathing to award the prize at the finish."
 
-"Ooh," Daren says. "And are you going to defeat the dragon by yourself too, just like you said you'd save all the cities? You've got a busy schedule ahead of you, I'll tell you that!"
+"Listen to you," Daren grins, clapping a heavy gauntlet onto my shoulder. "Are you planning to slay the dragon single-handed too, alongside saving every city on the map? You've got a full road ahead of you, I'll tell you that!"
 
-"Shut up," I say. "I know I can't do it all by myself. I only said that on the spur of the moment, because Eiden was pissing me off with his defeatist attitude. Luckily, I've got a friend who's a well-known legendary mage that might be able to lend me a hand, if things get too rough. He can't cast a proper shield spell to save his life, and he sucks at magical theory, but at least he's decent enough with a sword and shield."
+"Shut up," I mutter. "I spoke on impulse because Eiden's posturing got under my skin. Fortunately, I happen to travel with a legendary white mage who might lend a hand if the fire gets too hot. His warding theory is atrocious and his shield needs work, but he knows which end of a broadsword cuts."
 
-"Hey, now, is that any way to ask someone for a favor?" Daren says, with a grin. "Where's the head bow? Where's the pleading tone in your voice? Remember, you're speaking with one of the most renowned heroes in the world, here."
+"Is that how you petition a renowned champion for aid?" Daren's grin widens. "Where is the bow of respect? Where is the humble pleading? Remember, you are addressing one of the great protectors of the continent."
 
 choice("Bow my head and ask for help.", B2-Ch07a-Bow, v_current_scene = B2-Ch07a-Bow)
-choice(""Fine, I'll do it all by myself, then."", B2-Ch07a-Myself, v_current_scene = B2-Ch07a-Myself)
+choice(""If the price of your help is theater, I'll keep the cities and skip the bow."", B2-Ch07a-Myself, v_current_scene = B2-Ch07a-Myself)
 choice(""Hey, you're the hero, not me. Isn't saving cities supposed to be your job?"", B2-Ch07a-Job, v_current_scene = B2-Ch07a-Job)
 choice(""You know what? On second thought, screw the cities."", B2-Ch07a-Screw, v_current_scene = B2-Ch07a-Screw)
 
@@ -339,23 +337,23 @@ choice(""You know what? On second thought, screw the cities."", B2-Ch07a-Screw, 
 ID: B2-Ch07a-Bow
 TEXT:
 
- I bow my head, and ask Daren again, in a more serious tone.
+ I bow my head, offering a theatrical dip of the chin.
 
-"Please, Daren," I say. "Will you help me?"
+"Please, Master Daren," I say, pitching my voice in mock solemnity. "Will you grant me your aid?"
 
-"Whoa, whoa, whoa..." Daren says. "I was joking, Barry! It was a joke. I thought you'd have been familiar with my sense of humor by now. Listen, if saving the cities of Varathia is really that important to you, then we'll see what we can do."
+"Whoa, whoa," Daren laughs, waving his hands. "I was jesting, Barry! You know my humor by now. If preserving Varathia's cities matters that much to you, we will see it done."
 
-"In either case," Kate says, "we shouldn't rely too much on Eiden's promise to give Barry powers if he succeeds in his task. The terms of their agreement are much too vague, and Eiden could very well change his mind at any moment."
+"In any case," Kate says, her voice cutting cool and sharp, "we shouldn't place too much faith in Eiden's offer of power. The conditions are deliberately vague, and Eiden breaks whim on a coin toss."
 
-"I agree," Daren says. "However, given the vague information we have about this so-called calamity, the only way we can be certain that it doesn't happen is by taking care of both Eiden and the dragon, and that is... definitely not going to be an easy task."
+"Agreed," Daren nods. "Given how little we know of the calamity, the only certain prevention is neutralizing both Eiden and the dragon—and neither will go down quietly."
 
-"Don't worry," I say. "I know what kind of tricks Eiden's using now. I'm sure I'll have them all figured out in no time. I haven't been studying magic all my life for nothing!"
+"Don't worry," I say, tapping my notebook. "I'm cataloging Eiden's loopholes. I'll have the rest unraveled in time. I didn't spend twenty years studying magical mechanics for nothing."
 
-"Hah!" Arraka says. "Now there's something I would love to see: Eiden getting beaten by his own tricks."
+"Hah!" Arraka's muffled laugh echoes from the golden casing. "Now that is a spectacle I'd pay to watch: Eiden undone by his own parlor tricks."
 
-"Let's not be too hasty," Daren says. "Barry only figured out two of his tricks so far. I'm guessing Eiden would know hundreds of them after his long life as a stillwater. Anyway, I'd say we've talked enough about Eiden. Let's pick up our pace. We've spent quite a bit of time in that marketplace, so we'd better hurry up if we don't want to leave the king waiting."
+"Let's not get ahead of ourselves," Daren cautions. "Barry deduced two mechanical flaws. A six-century stillwater likely commands hundreds. But we have reached the palace gates. Let's finish our business with the crown."
 
-It takes us about another hour to reach the front gate of the king's palace. The king's servant waits for us at the entrance, and as soon as we come within hearing range, he announces that Golmyck is waiting inside. In the throne room, the gnome is down on all fours with a wrench in hand, adjusting the height of his throne.
+We pass through the outer portcullis into the palace courtyard. The king's servant waits at the entrance, bowing respectfully before leading us into the throne room. Golmyck is on his knees behind the dais, spanner in hand, adjusting the bronze pneumatic pistons beneath the throne.
 
 choice("Continue", B2-Ch07a-Intervene, v_current_scene = B2-Ch07a-Intervene)
 
@@ -363,25 +361,25 @@ choice("Continue", B2-Ch07a-Intervene, v_current_scene = B2-Ch07a-Intervene)
 ID: B2-Ch07a-Myself
 TEXT:
 
- "Fine, I'll do it all by myself, then."
+ "If the price of your help is theater, I'll keep the cities and skip the bow."
 
-"Come on, don't be like that!" Daren says. "You know I was only joking. Still, you might want to reevaluate your goals a bit, here. Because I'm pretty sure that messing around in the cities is going to put you behind the other participants of the tournament, who are focusing only on the objectives."
+"Come now, don't be sour!" Daren chuckles. "You know I was only teasing. Still, you might want to balance your priorities. Getting tangled in city politics is going to cost us time while the other contestants march straight toward the trials."
 
-"I'll find a way to make it work," I say.
+"I'll manage both," I tell him.
 
-"Of course you will," Daren says sarcastically.
+"Naturally you will," Daren says with dry sarcasm.
 
-"In either case," Kate says, "we shouldn't rely too much on Eiden's promise to give Barry powers if he succeeds in his task. The terms of their agreement are much too vague, and Eiden could very well change his mind at any moment."
+"In any case," Kate says, her voice cutting cool and sharp, "we shouldn't place too much faith in Eiden's offer of power. The conditions are deliberately vague, and Eiden breaks whim on a coin toss."
 
-"I agree," Daren says. "However, given the vague information we have about this so-called calamity, the only way we can be certain that it doesn't happen is by taking care of both Eiden and the dragon, and that is... definitely not going to be an easy task."
+"Agreed," Daren nods. "Given how little we know of the calamity, the only certain prevention is neutralizing both Eiden and the dragon—and neither will go down quietly."
 
-"Don't worry," I say. "I know what kind of tricks Eiden's using now. I'm sure I'll have them all figured out in no time. I haven't been studying magic all my life for nothing!"
+"Don't worry," I say, tapping my notebook. "I'm cataloging Eiden's loopholes. I'll have the rest unraveled in time. I didn't spend twenty years studying magical mechanics for nothing."
 
-"Hah!" Arraka says. "Now there's something I would love to see: Eiden getting beaten by his own tricks."
+"Hah!" Arraka's muffled laugh echoes from the golden casing. "Now that is a spectacle I'd pay to watch: Eiden undone by his own parlor tricks."
 
-"Let's not be too hasty," Daren says. "Barry only figured out two of his tricks so far. I'm guessing Eiden would know hundreds of them after his long life as a stillwater. Anyway, I'd say we've talked enough about Eiden. Let's pick up our pace. We've spent quite a bit of time in that marketplace, so we'd better hurry up if we don't want to leave the king waiting."
+"Let's not get ahead of ourselves," Daren cautions. "Barry deduced two mechanical flaws. A six-century stillwater likely commands hundreds. But we have reached the palace gates. Let's finish our business with the crown."
 
-It takes us about another hour to reach the front gate of the king's palace. The king's servant waits for us at the entrance, and as soon as we come within hearing range, he announces that Golmyck is waiting inside. In the throne room, the gnome is down on all fours with a wrench in hand, adjusting the height of his throne.
+We pass through the outer portcullis into the palace courtyard. The king's servant waits at the entrance, bowing respectfully before leading us into the throne room. Golmyck is on his knees behind the dais, spanner in hand, adjusting the bronze pneumatic pistons beneath the throne.
 
 choice("Continue", B2-Ch07a-Intervene, v_current_scene = B2-Ch07a-Intervene)
 
@@ -391,19 +389,19 @@ TEXT:
 
  "Hey, you're the hero, not me. Isn't saving cities supposed to be your job?"
 
-"Sure," Daren says. "But the whole idea I had when I came here was to focus on the actual tournament, so I could do a better job as a hero once I've won the Magium, remember? Still, I get what you're saying. The situation in these lands is much worse than I thought it would be, and from what I understand, Thilias should be one of the better cities in Varathia. Something definitely needs to be done."
+"Normally, yes," Daren says. "Though my goal in crossing the ocean was to secure the Magium so I could protect people on a far greater scale. Still, I hear you. The corruption here runs deeper than I imagined, and Thilias is supposedly the most civilized realm on the island. Something has to change."
 
-"In either case," Kate says, "we shouldn't rely too much on Eiden's promise to give Barry powers if he succeeds in his task. The terms of their agreement are much too vague, and Eiden could very well change his mind at any moment."
+"In any case," Kate says, her voice cutting cool and sharp, "we shouldn't place too much faith in Eiden's offer of power. The conditions are deliberately vague, and Eiden breaks whim on a coin toss."
 
-"I agree," Daren says. "However, given the vague information we have about this so-called calamity, the only way we can be certain that it doesn't happen is by taking care of both Eiden and the dragon, and that is... definitely not going to be an easy task."
+"Agreed," Daren nods. "Given how little we know of the calamity, the only certain prevention is neutralizing both Eiden and the dragon—and neither will go down quietly."
 
-"Don't worry," I say. "I know what kind of tricks Eiden's using now. I'm sure I'll have them all figured out in no time. I haven't been studying magic all my life for nothing!"
+"Don't worry," I say, tapping my notebook. "I'm cataloging Eiden's loopholes. I'll have the rest unraveled in time. I didn't spend twenty years studying magical mechanics for nothing."
 
-"Hah!" Arraka says. "Now there's something I would love to see: Eiden getting beaten by his own tricks."
+"Hah!" Arraka's muffled laugh echoes from the golden casing. "Now that is a spectacle I'd pay to watch: Eiden undone by his own parlor tricks."
 
-"Let's not be too hasty," Daren says. "Barry only figured out two of his tricks so far. I'm guessing Eiden would know hundreds of them after his long life as a stillwater. Anyway, I'd say we've talked enough about Eiden. Let's pick up our pace. We've spent quite a bit of time in that marketplace, so we'd better hurry up if we don't want to leave the king waiting."
+"Let's not get ahead of ourselves," Daren cautions. "Barry deduced two mechanical flaws. A six-century stillwater likely commands hundreds. But we have reached the palace gates. Let's finish our business with the crown."
 
-It takes us about another hour to reach the front gate of the king's palace. The king's servant waits for us at the entrance, and as soon as we come within hearing range, he announces that Golmyck is waiting inside. In the throne room, the gnome is down on all fours with a wrench in hand, adjusting the height of his throne.
+We pass through the outer portcullis into the palace courtyard. The king's servant waits at the entrance, bowing respectfully before leading us into the throne room. Golmyck is on his knees behind the dais, spanner in hand, adjusting the bronze pneumatic pistons beneath the throne.
 
 choice("Continue", B2-Ch07a-Intervene, v_current_scene = B2-Ch07a-Intervene)
 
@@ -413,19 +411,19 @@ TEXT:
 
  "You know what? On second thought, screw the cities."
 
-"Hey, you're the one who made that deal with Eiden, not me," Daren says. "If you want to bail out on it, then it's your choice."
+"You struck the bargain with Eiden, not me," Daren says with a smirk. "If you want to walk away from your own wager, that is your prerogative."
 
-"In either case," Kate says, "we shouldn't rely too much on Eiden's promise to give Barry powers if he succeeds in his task. The terms of their agreement are much too vague, and Eiden could very well change his mind at any moment."
+"In any case," Kate says, her voice cutting cool and sharp, "we shouldn't place too much faith in Eiden's offer of power. The conditions are deliberately vague, and Eiden breaks whim on a coin toss."
 
-"I agree," Daren says. "However, given the vague information we have about this so-called calamity, the only way we can be certain that it doesn't happen is by taking care of both Eiden and the dragon, and that is... definitely not going to be an easy task."
+"Agreed," Daren nods. "Given how little we know of the calamity, the only certain prevention is neutralizing both Eiden and the dragon—and neither will go down quietly."
 
-"Don't worry," I say. "I know what kind of tricks Eiden's using now. I'm sure I'll have them all figured out in no time. I haven't been studying magic all my life for nothing!"
+"Don't worry," I say, tapping my notebook. "I'm cataloging Eiden's loopholes. I'll have the rest unraveled in time. I didn't spend twenty years studying magical mechanics for nothing."
 
-"Hah!" Arraka says. "Now there's something I would love to see: Eiden getting beaten by his own tricks."
+"Hah!" Arraka's muffled laugh echoes from the golden casing. "Now that is a spectacle I'd pay to watch: Eiden undone by his own parlor tricks."
 
-"Let's not be too hasty," Daren says. "Barry only figured out two of his tricks so far. I'm guessing Eiden would know hundreds of them after his long life as a stillwater. Anyway, I'd say we've talked enough about Eiden. Let's pick up our pace. We've spent quite a bit of time in that marketplace, so we'd better hurry up if we don't want to leave the king waiting."
+"Let's not get ahead of ourselves," Daren cautions. "Barry deduced two mechanical flaws. A six-century stillwater likely commands hundreds. But we have reached the palace gates. Let's finish our business with the crown."
 
-It takes us about another hour to reach the front gate of the king's palace. The king's servant waits for us at the entrance, and as soon as we come within hearing range, he announces that Golmyck is waiting inside. In the throne room, the gnome is down on all fours with a wrench in hand, adjusting the height of his throne.
+We pass through the outer portcullis into the palace courtyard. The king's servant waits at the entrance, bowing respectfully before leading us into the throne room. Golmyck is on his knees behind the dais, spanner in hand, adjusting the bronze pneumatic pistons beneath the throne.
 
 choice("Continue", B2-Ch07a-Intervene, v_current_scene = B2-Ch07a-Intervene)
 
@@ -846,7 +844,7 @@ The gnome unlatches a stone trapdoor in the corner, and a folding brass ladder e
 
 "Look, their meeting has started!" Flower whispers, pointing at the glowing green dots shifting inside the vault on Arraka's hologram.
 
-"A few minutes ahead of schedule," Daren observes, watching the map. "We will still reach them before they conclude. The final corridor is just ahead. These empty passages make me uneasy, though. It feels uncomfortably like a trap."
+"A few minutes early," Daren observes, watching the map. "We will still reach them before they conclude. The final corridor is just ahead. These empty passages make me uneasy, though. It feels uncomfortably like a trap."
 
 "Don't borrow trouble, Daren," Hadrik says. "The king confirmed the lessathi know nothing of his trapdoor. It makes sense they wouldn't post sentries in these abandoned branches. Perhaps they have guards at their vault door to settle your nerves."
 
@@ -856,7 +854,7 @@ The gnome unlatches a stone trapdoor in the corner, and a folding brass ladder e
 
 "Look, their meeting has started!" Flower whispers, pointing at the glowing green dots shifting inside the vault on Arraka's hologram.
 
-"A few minutes ahead of schedule," Daren observes, watching the map. "We will still reach them before they conclude. The final corridor is just ahead, and then—"
+"A few minutes early," Daren observes, watching the map. "We will still reach them before they conclude. The final corridor is just ahead, and then—"
 
 He halts, staring at the hologram with narrowed eyes.
 

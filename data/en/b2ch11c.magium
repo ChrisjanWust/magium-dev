@@ -109,7 +109,7 @@ She shuts her eyes and breathes in deep. The clearing goes dead quiet to give he
 
 "Yes, I'm certain of it," Rose says. "Why?"
 
-"Ahahahahaha!" Arraka's laughter erupts from the amulet, shrill and harsh. "You're telling me these chumps are the highest-priority actors for the prophecy? Pack your bags, everyone! This continent is doomed!"
+"Ahahahahaha!" Arraka's laughter erupts from the amulet, shrill and harsh. "You're telling me these chumps are the foremost actors for the prophecy? Pack your bags, everyone! This continent is doomed!"
 
 "What is she talking about?" Daren asks Melindra over Arraka's shrieks. "Why would we be first? Are there other groups getting this prophecy?"
 
@@ -143,7 +143,7 @@ Leila stands well apart from the rest of us at the clearing's edge. She hasn't u
 
 Her trial must have hit just as hard as Kate's. She grew up in the Beacon too, which means her loop probably dragged her through the same nightmare. Kate has years of built-up armor to weather that kind of trauma, but Leila carries hers raw.
 
-I walk over to her. "Leila, are you alright?"
+I walk over to her. "Leila, are you all right?"
 
 She starts at my voice, looking up in surprise. She's far too used to fading into the background.
 
@@ -434,7 +434,7 @@ TEXT:
 
 "No," I say. "I don't know any override codes for the device. I didn't know they existed."
 
-"I see," the revenant says. "I had hoped your research into lessathi devices would have uncovered the sequence. Had you entered it prior to the freeze, your hearing boost would have held for the duration of the stasis. As it stands, we must rely on our secondary option. Does anyone in this group possess acute magical senses?"
+"I see," the revenant says. "I had hoped your research into lessathi devices would have uncovered the sequence. Had you entered it prior to the freeze, your hearing boost would have held for the duration of the stasis. As it stands, we must rely on our second course. Does anyone in this group possess acute magical senses?"
 
 }
 #if(v_b2_ch10_activate == 0 && v_b2_ch6_stat == 1 && v_b2_ch9_channel == 1) {
@@ -446,13 +446,13 @@ TEXT:
 
 "So time hadn't frozen yet when you called?"
 
-"No," she says. "A series of uncontrolled localized freezes hit me just before the trance locked in, warning me that the continental freeze was seconds away. The same precursor occurred before my previous transmission, though that was only an initial pulse. That is why I instructed you to keep the channel open so I could cue the code at the exact threshold. Since that opportunity passed, we must pivot to our secondary option. Does anyone in this group possess acute magical senses?"
+"No," she says. "A series of uncontrolled localized freezes hit me just before the trance locked in, warning me that the continental freeze was seconds away. The same precursor occurred before my previous transmission, though that was only an initial pulse. That is why I instructed you to keep the channel open so I could cue the code at the exact threshold. Since that opportunity passed, we must pivot to our second course. Does anyone in this group possess acute magical senses?"
 
 As soon as she finishes, all eyes turn to Arraka's amulet.
 
 "Arraka, will you--" Illuna begins.
 
-"Yeah, yeah, I've got it," Arraka grumbles. "What's the drill?"
+"Yeah, yeah, understood," Arraka grumbles. "What's the drill?"
 
 "You need to position yourself as close as possible to the point where the God of Time first manifested," the revenant says.
 
@@ -474,7 +474,7 @@ She streaks upward to the elevation where Selkram hovered and halts, hovering on
 
 "Arraka, will you--" Illuna begins.
 
-"Yeah, yeah, I've got it," Arraka grumbles. "What's the drill?"
+"Yeah, yeah, understood," Arraka grumbles. "What's the drill?"
 
 "You need to position yourself as close as possible to the point where the God of Time first manifested," the revenant says.
 
@@ -527,13 +527,13 @@ TEXT:
 
 "No," I say. "Four is my current stat ceiling, and I haven't maxed Hearing yet."
 
-"If your baseline ceiling is four," the revenant says, "the only way to surpass it is by applying the code on top of four existing points. The device will not allow you to allocate additional points past the cap manually. We must proceed with the secondary approach. Does anyone in this group possess acute magical senses?"
+"If your baseline ceiling is four," the revenant says, "the only way to surpass it is by applying the code on top of four existing points. The device will not allow you to allocate additional points past the cap manually. We must proceed with our second course. Does anyone in this group possess acute magical senses?"
 
 All eyes turn to Arraka's amulet.
 
 "Arraka, will you--" Illuna begins.
 
-"Yeah, yeah, I've got it," Arraka grumbles. "What's the drill?"
+"Yeah, yeah, understood," Arraka grumbles. "What's the drill?"
 
 "You need to position yourself as close as possible to the point where the God of Time first manifested," the revenant says.
 
@@ -613,7 +613,7 @@ TEXT:
 
 "Yes, I am certain of it," the revenant says. "Why?"
 
-"Ahahahahaha!" Arraka howls with laughter. "You're telling me these chumps are the highest-priority actors on the continent? Pack your bags, everyone! We're doomed!"
+"Ahahahahaha!" Arraka howls with laughter. "You're telling me these chumps are the foremost actors on the continent? Pack your bags, everyone! We're doomed!"
 
 "What is she shrieking about?" Daren asks Melindra over the din. "Why would we be first? Are other groups receiving this prophecy?"
 
@@ -678,7 +678,7 @@ Leila stands well apart from the rest of us at the clearing's edge. She hasn't u
 Her trial must have hit just as hard as Kate's. She grew up in the Beacon too, which means her loop probably dragged her through the same nightmare. Kate has years of built-up armor to weather that kind of trauma, but Leila carries hers raw.
 
 }
- I walk over to her. "Leila, are you alright?"
+ I walk over to her. "Leila, are you all right?"
 
 She starts at my voice, looking up in surprise. She's far too used to fading into the background.
 
@@ -1210,7 +1210,7 @@ Hrelezar sits back down, scowling. Ezzeloff turns to one of the robed women.
 
 "As I stated, Chairman Ezzeloff," the woman says, "the phenomenon is unprecedented. Yesterday, our magical power vanished completely. Only female casters are affected, but even our highest-tier combat wizards have been reduced to commoners overnight. No stimulant or focal ritual restores the flow. Without a remedy, half our elite divisions are useless in the coming battle."
 
-"A grim reality," Ezzeloff says. "Restoring their magic must remain our highest priority."
+"A grim reality," Ezzeloff says. "Restoring their magic must remain our foremost priority."
 
 "Keep dreaming, councilman," Arraka's voice crackles from the amulet. "Your women are never casting another spell."
 
@@ -1225,8 +1225,8 @@ Hrelezar sits back down, scowling. Ezzeloff turns to one of the robed women.
 "Spare me your venom and answer clearly," Tyrath says. "Why have you come? Why were you battling the Arraka of our era? Did you travel back to avert a catastrophe, or did you stumble here by chance?"
 
 choice(""Actually, we were sent here against our own will."", B2-Ch11c-Against, v_current_scene = B2-Ch11c-Against)
-choice(""We came here to save you all from this great threat!"", B2-Ch11c-Threat, v_current_scene = B2-Ch11c-Threat)
-choice(""Sorry, we only came here on vacation."", B2-Ch11c-Vacation, v_current_scene = B2-Ch11c-Vacation)
+choice(""We're from after this war. You lose people. Ask what failed, not why we look heroic."", B2-Ch11c-Threat, v_current_scene = B2-Ch11c-Threat)
+choice(""If this were planned, we wouldn't have arrived already on fire. We were thrown here."", B2-Ch11c-Vacation, v_current_scene = B2-Ch11c-Vacation)
 
 
 ID: B2-Ch11c-Against
@@ -1281,7 +1281,7 @@ choice("Continue", B2-Ch11c-Forehead, v_current_scene = B2-Ch11c-Forehead) if (v
 ID: B2-Ch11c-Threat
 TEXT:
 
- "We came here to save you all from this great threat!"
+ "We're from after this war. You lose people. Ask what failed, not why we look heroic."
 
 "Bold words from mortals I pulled from the jaws of incineration," Tyrath rumbles. "Provide actionable intelligence from the future rather than hollow bravado."
 
@@ -1318,7 +1318,7 @@ choice("Continue", B2-Ch11c-Forehead, v_current_scene = B2-Ch11c-Forehead) if (v
 ID: B2-Ch11c-Vacation
 TEXT:
 
- "Sorry, we only came here on vacation."
+ "If this were planned, we wouldn't have arrived already on fire. We were thrown here."
 
 "Doubtful," Tyrath rumbles. "Your arrival coincides too cleanly with catastrophe. Regardless of your motives, whatever foresight you carry is an asset."
 
@@ -1452,7 +1452,7 @@ We push ourselves up from the dirt in silence, brushing the soil from our clothe
 
 My transceiver clicks in my pocket. Rose's voice comes through, warm and worried.
 
-"Is everyone alright? Did anything happen after I left?"
+"Is everyone all right? Did anything happen after I left?"
 
 "We're fine," I say, tapping the transceiver. "From our perspective, it's only been a few seconds. Do you remember the walk?"
 
@@ -1509,7 +1509,7 @@ They stop talking as I approach, watching me.
 
 Silence settles over the clearing.
 
-"You want to know how to kill a god?" Arraka asks, her tone completely flat, as if processing the words one by one.
+"You want to know how to kill a god?" Arraka asks, her tone completely flat, as if weighing the words one by one.
 
 She waits for a few seconds, looking for the punchline, waiting for me to blink or crack a grin.
 

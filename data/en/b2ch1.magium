@@ -67,7 +67,7 @@ The gnome jabs a switch on his console. The transmission cuts with a sharp crack
 
 "Gods above, no!" Rose draws back, horrified. "Enslave a horse to drag a wagon? That is as cruel as the hunts! Besides, the beasts fled the city decades ago when the hunting started. They live under the golden fox's protection now."
 
-"Right, right," Daren rubs the back of his neck, grimacing. "The animals speak here. My mistake. Let us move, then. Maintain a steady march and we will make the deadline."
+"Right, right," Daren rubs the back of his neck, grimacing. "The animals speak here. My mistake. Let us move, then. Maintain a steady march and we will make the appointed hour."
 
 choice("Continue", B2-Ch01a-Spin, v_current_scene = B2-Ch01a-Spin)
 
@@ -612,7 +612,7 @@ The next half hour passes in shared memories of Rose. We recount our days on the
 
 Beneath the theatrical bravado, Enrique carries the loss harder than he lets on. Yet whenever he speaks of Rose, his smile softens into genuine affection, and even Kate lets out a quiet laugh once or twice as the stories unfold.
 
-With our deadline creeping closer, we excuse ourselves to collect our packs from the guest quarters. As we shoulder our gear in the courtyard, Enrique gestures us aside, away from the children.
+With our appointed hour creeping closer, we excuse ourselves to collect our packs from the guest quarters. As we shoulder our gear in the courtyard, Enrique gestures us aside, away from the children.
 
 "There is one matter I could not raise before Kevin and Suzie," Enrique says quietly, the easy smile gone. "You returned without Rose's body. I drew my own conclusions, but I must ask. How did she die?"
 
@@ -765,7 +765,7 @@ He recovers instantly, stepping forward to clasp my shoulder with theatrical war
 
 "My apologies, friend! I should know better than to judge by outward appearances alone. If Rose has granted you her favor, I trust her instincts implicitly. I wish you both long years of joy together!"
 
-"All right, all right, you have given your blessing!" Rose's face burns crimson as she grabs my sleeve and drags me toward the gate. "Barry needs to reach the castle before the deadline. The king of Thilias is waiting."
+"All right, all right, you have given your blessing!" Rose's face burns crimson as she grabs my sleeve and drags me toward the gate. "Barry needs to reach the castle before the appointed hour. The king of Thilias is waiting."
 
 "Ah, the decree from the screens!" Enrique says, clapping his hands together. "Golmyck was speaking of your company in that closing summons?"
 
@@ -1142,7 +1142,7 @@ He turns his gaze down the dais toward us.
 "Speak, travelers," the gnome king says. "What justification do you offer for the slaying of the Earl of Ollendor?"
 
 choice(""The guy was asking for it."", B2-Ch01a-Asking, v_current_scene = B2-Ch01a-Asking)
-choice(""We didn't kill him! We're innocent!"", B2-Ch01a-Innocent, v_current_scene = B2-Ch01a-Innocent)
+choice(""None of us struck the blow your dispatches name. Check the witness list again."", B2-Ch01a-Innocent, v_current_scene = B2-Ch01a-Innocent)
 choice(""We killed him because he placed absolutely no value on human life."", B2-Ch01a-Value, v_current_scene = B2-Ch01a-Value)
 
 
@@ -1296,7 +1296,7 @@ TEXT:
 set(v_ac_b2_ch1_breed,1) if (v_b2_ch1_spin == 0)
 achievement("Half-breed",v_ac_b2_ch1_breed)
 #if(v_b2_ch1_spin == 0 && v_ch11_kill_noble == 1 && v_ch11_saved_slave != 3) {
-"We didn't kill him! We're innocent!"
+"None of us struck the blow your dispatches name. Check the witness list again."
 
 "Indeed?" Golmyck strokes his chin, eyebrows raised. "That is peculiar. Official dispatches name you specifically as the one who ran the Earl of Ollendor through. You ought to know by now how difficult it is to conceal secrets in Thilias. Why offer such a transparent falsehood?"
 
@@ -1330,7 +1330,7 @@ We spin around. Eiden materializes in the center of the crimson runner and strid
 
 }
 #if(v_b2_ch1_spin == 1 && v_ch11_kill_noble == 1 && v_ch11_saved_slave != 3) {
-"We didn't kill him! We're innocent!"
+"None of us struck the blow your dispatches name. Check the witness list again."
 
 "Indeed?" Golmyck strokes his chin, eyebrows raised. "That is peculiar. Official dispatches name you specifically as the one who ran the Earl of Ollendor through. You ought to know by now how difficult it is to conceal secrets in Thilias. Why offer such a transparent falsehood?"
 
@@ -1360,7 +1360,7 @@ Eiden looks toward me, his eyes shut, an amused smile playing across his feature
 
 }
 #if(v_b2_ch1_spin == 0 && v_ch11_saved_slave == 3) {
-"We didn't kill him! We're innocent!"
+"None of us struck the blow your dispatches name. Check the witness list again."
 
 "Indeed?" Golmyck strokes his chin. "You ought to know by now how difficult it is to conceal information in my city. Are you certain you wish to open this hearing with a falsehood?"
 
@@ -1394,7 +1394,7 @@ We spin around. Eiden materializes in the center of the crimson runner and strid
 
 }
 #if(v_b2_ch1_spin == 1 && v_ch11_saved_slave == 3) {
-"We didn't kill him! We're innocent!"
+"None of us struck the blow your dispatches name. Check the witness list again."
 
 "Indeed?" Golmyck strokes his chin. "You ought to know by now how difficult it is to conceal information in my city. Are you certain you wish to open this hearing with a falsehood?"
 
@@ -1424,7 +1424,7 @@ Eiden looks toward me, his eyes shut, an amused smile playing across his feature
 
 }
 #if(v_b2_ch1_spin == 0 && v_ch11_kill_noble == 0 && v_ch11_saved_slave != 3) {
-"We didn't kill him! We're innocent!"
+"None of us struck the blow your dispatches name. Check the witness list again."
 
 "Innocent, you say?" Golmyck strokes his beard. "Our reports noted that a third party was present during the altercation in the street. Are you claiming this other individual struck the fatal blow?"
 
@@ -1470,7 +1470,7 @@ We spin around. Eiden materializes in the center of the crimson runner and strid
 
 }
 #if(v_b2_ch1_spin == 1 && v_ch11_kill_noble == 0 && v_ch11_saved_slave != 3) {
-"We didn't kill him! We're innocent!"
+"None of us struck the blow your dispatches name. Check the witness list again."
 
 "Innocent, you say?" Golmyck strokes his beard. "Our reports noted that a third party was present during the altercation in the street. Are you claiming this other individual struck the fatal blow?"
 
@@ -1781,7 +1781,7 @@ TEXT:
 
 "Who keeps you under surveillance?" Hadrik asks. "The other monarchs?"
 
-"In a manner of speaking," Golmyck says. "A lessathi enclave operates within our walls. They maintain alliances with the other regional kings while pursuing their own agenda. Their network of informants and assassins rivals my own, and their mandate is to ensure no ruler takes initiatives that threaten their vision for Varathia. If I signed an emancipation decree tomorrow, an assassin's needle would find my neck before the wax cooled."
+"In a manner of speaking," Golmyck says. "A lessathi enclave operates within our walls. They maintain alliances with the other regional kings while pursuing their own designs. Their network of informants and assassins rivals my own, and their mandate is to ensure no ruler takes initiatives that threaten their vision for Varathia. If I signed an emancipation decree tomorrow, an assassin's needle would find my neck before the wax cooled."
 
 "So you surrender the field?" Daren asks, his voice tight.
 

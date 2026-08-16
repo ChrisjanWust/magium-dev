@@ -29,7 +29,7 @@ Inseparable. That sheds a different light on Eiden's fury back when I asked if h
 
 "You don't think he could?" Daren asks.
 
-"Not a prayer," Arraka says. "Tyrath wouldn't last five minutes against Eiden cutting loose. Remember that aura spike in the arena? When I said he was finally breaking a sweat? I wasn't exaggerating. Eiden's deeper than he shows. I fought him in the Still Winter. Raw power alone, he matches the dragon blow for blow. Add in his loopholes and misdirections? He'd turn Tyrath into a rug before the dragon finished drawing breath."
+"Not a prayer," Arraka says. "Tyrath wouldn't last five minutes against Eiden cutting loose. Eiden didn't even bother showing up in the flesh to claim that arena—he just whispered from the sky and let the lizard choke on his own ego. Eiden's deeper than he shows. I fought him in the Still Winter. Raw power alone, he matches the dragon blow for blow. Add in his loopholes and misdirections? He'd turn Tyrath into a rug before the dragon finished drawing breath."
 
 choice(""If he really is that powerful, then why didn't he just kill Tyrath until now?"", B2-Ch09b-Reveal, v_current_scene = B2-Ch09b-Reveal, v_b2_ch9_tyrath = 0)
 choice(""Why does it sound to me like you're making up excuses for losing in the still winter?"", B2-Ch09b-Reveal, v_current_scene = B2-Ch09b-Reveal, v_b2_ch9_tyrath = 1)
@@ -978,7 +978,7 @@ He lays down a matching honor card and flips his face-down play. The revealed ca
 
 "Better luck on the next hand, Barry!" Hadrik chuckles, gathering the deck.
 
-"Whatever," I mutter, taking another stiff pull from the ale.
+"As you like," I mutter, taking another stiff pull from the ale.
 
 He shuffles and deals out the new round.
 
@@ -996,7 +996,7 @@ He lays down a matching honor card and flips his face-down play. The revealed ca
 
 "Better luck on the next hand, Barry!" Hadrik chuckles, gathering the deck.
 
-"Whatever," I say.
+"As you like," I say.
 
 He shuffles and deals out the new round.
 

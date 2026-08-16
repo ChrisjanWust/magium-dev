@@ -832,7 +832,7 @@ We move toward the cobras, which coil and raise their flared hoods.
 
 "Keep moving laterally," I tell Bruce. "They spit in a straight line and need two seconds to lock on. Don't give them a static target."
 
-"Got it," Bruce says.
+"Understood," Bruce says.
 
 "Take the left one," I say, sprinting for the right.
 
@@ -880,7 +880,7 @@ TEXT:
 
 "One more thing," I add as she turns. "The manticore above will probably dive the moment a trampler drops. It saw its partner die when it came after me, so it won't pick me again. Watch the sky and take it down on the entry dive, or we'll be chasing it all day."
 
-"Got it," she writes, and sprints for the tramplers.
+"Understood," she writes, and sprints for the tramplers.
 
 choice("Continue", B2-Ch04b-Cobras, v_current_scene = B2-Ch04b-Cobras)
 
@@ -911,7 +911,7 @@ We jog toward the cobras, hurling stones and shouting to pull their focus. Once 
 
 Those two seconds stretch thin. The cobras coil, throats swelling, and unleash twin streams of venom. We dive in opposite directions. The acid splashes square across the marauders' faces, sizzling through chitin. As the beasts thrash in pain, we dart in and sink our blades through their skulls.
 
-Right on schedule, the remaining manticore folds its wings in a steep dive for Leila. She holds still until the shadow sweeps over her, then pivots and delivers a clean upward slash through its chest. The beast crashes hard, and she finishes it with a swift strike to the neck. We back away from the cobras while their glands regenerate.
+True to the hour, the remaining manticore folds its wings in a steep dive for Leila. She holds still until the shadow sweeps over her, then pivots and delivers a clean upward slash through its chest. The beast crashes hard, and she finishes it with a swift strike to the neck. We back away from the cobras while their glands regenerate.
 
 Only the cobras and tramplers remain. The snakes are coiling for another volley, while the tramplers line up their charge across open sand.
 
@@ -939,7 +939,7 @@ We jog toward the cobras, hurling stones and shouting to pull their focus. Once 
 
 Those two seconds stretch thin. The cobras coil, throats swelling, and unleash twin streams of venom. We dive in opposite directions. The acid splashes square across the marauders' faces, sizzling through chitin. As the beasts thrash in pain, we dart in and sink our blades through their skulls.
 
-Right on schedule, the remaining manticore folds its wings in a steep dive for Leila. She holds still until the shadow sweeps over her, then pivots and delivers a clean upward slash through its chest. The beast crashes hard, and she finishes it with a swift strike to the neck. We back away from the cobras while their glands regenerate.
+True to the hour, the remaining manticore folds its wings in a steep dive for Leila. She holds still until the shadow sweeps over her, then pivots and delivers a clean upward slash through its chest. The beast crashes hard, and she finishes it with a swift strike to the neck. We back away from the cobras while their glands regenerate.
 
 Only the cobras and tramplers remain. The snakes are coiling for another volley, while the tramplers line up their charge across open sand.
 
@@ -1398,15 +1398,15 @@ TEXT:
 
  By the time we regroup with the rest of the division, both marauders lie dead in the sand. The second manticore kept its distance while the group held formation, wary after watching its partner fall. That leaves two tramplers and two cobras. We need a coordinated push before the beasts reset their footing.
 
-"Hey, Leila," I say. "Could you go and kill those tramplers over there? With your level of strength, I'm sure that you'll be able to cut through their tough hides without much trouble."
+"Leila," I say, keeping my voice low. "Can you take the tramplers? Your strength will punch through their hides before they build momentum."
 
-"By herself?" Bruce asks, in a loud voice. "Are you insane? Why would we not attack them in a group, like we did with these scorpions?"
+"By herself?" Bruce barks, staring at me. "Are you insane? Why not hit them as a unit like the scorpions?"
 
-"Because I want her to bait that manticore in the sky, while she's at it," I say. "Even if I were to go and attack them, the manticore wouldn't come after me, after what I did to its friend, and neither of you would have enough strength to be able to pass through the tramplers' armor."
+"Because she needs to bait the manticore above," I say. "The flyer won't dive on me after what happened to its partner, and neither of you has the weapon strength to crack trampler plate before they trample you flat."
 
-"I'll do it," Leila writes. "You deal with the cobras in the meantime."
+"I'll handle them," blue letters form in front of Leila. "Deal with the cobras in the meantime."
 
-"Okay," I say. "You remember what the tramplers' weakness is, right?" I ask her.
+"All right," I say. "You remember what the tramplers' weakness is, right?"
 
 "Yes, I remember," Leila writes, and then she turns away, heading for the tramplers.
 
@@ -1428,7 +1428,7 @@ TEXT:
 
 "Well... yes, but--" he begins, but I cut him off.
 
-"Then you've got nothing to worry about," I say. "Those beasts will be nothing more than a warm-up exercise for her. Let's get going. I promised her that we'd deal with the giant cobras while she kills the other creatures."
+"Then stop fretting," I say. "Those beasts will be nothing more than a warm-up exercise for her. Let's get moving. I promised her that we'd deal with the giant cobras while she kills the other creatures."
 
 "Fine," Bruce says. "We'll go kill the cobras, then."
 
@@ -1468,7 +1468,7 @@ TEXT:
 
 "Nobody was counting on any of you to begin with," Bruce says. "Come on, stillwater. There are two cobras, so there's one for each of us."
 
-"Sure, whatever," I say, and then we both go on our way.
+"As you like," I say, and then we both go on our way.
 
 As we get closer to the giant cobras, the two creatures stop in their tracks, and they prepare to attack us.
 
@@ -1484,7 +1484,7 @@ Interesting. The mage has been dodging melee all match. He hasn't triggered his 
 
 "Nobody was counting on any of you to begin with," Bruce says. "Come on, stillwater. There are two cobras, so there's one for each of us."
 
-"Sure, whatever," I say, and then we both go on our way.
+"As you like," I say, and then we both go on our way.
 
 As we get closer to the giant cobras, the two creatures stop in their tracks, and they prepare to attack us.
 
@@ -1500,7 +1500,7 @@ As we get closer to the giant cobras, the two creatures stop in their tracks, an
 
 "Nobody was counting on any of you to begin with," Bruce says. "Come on, stillwater. There are two cobras, so there's one for each of us."
 
-"Sure, whatever," I say, and then we both go on our way.
+"As you like," I say, and then we both go on our way.
 
 As we get closer to the giant cobras, the two creatures stop in their tracks, and they prepare to attack us.
 
@@ -1518,7 +1518,7 @@ Interesting. The mage has been dodging melee all match. He hasn't triggered his 
 
 "Nobody was counting on any of you to begin with," Bruce says. "Come on, stillwater. There are two cobras, so there's one for each of us."
 
-"Sure, whatever," I say, and then we both go on our way.
+"As you like," I say, and then we both go on our way.
 
 As we get closer to the giant cobras, the two creatures stop in their tracks, and they prepare to attack us.
 
@@ -2041,7 +2041,7 @@ TEXT:
 
 "No..." Kate says. "I have no objections."
 
-"Very well!" the owner says. "Now, if you all don't mind, I would appreciate it if you cleared the fighting area as soon as possible. The next division's fight is about to start."
+"Very well!" the owner says. "Now, if you all don't mind, I would appreciate it if you cleared the fighting area as soon as possible. The next fight will begin shortly."
 
 As the owner turns to leave, Kate and the others also head towards their respective division areas, while the warriors of the sixth division are preparing to enter the battlefield.
 
@@ -2074,6 +2074,7 @@ The crowds are going wild again, just like they did after Hadrik's first fight, 
 "Huh," I tell Leila. "Well... damn."
 
 choice("Next chapter", B2-Ch05a-Intro, v_next_chapter_crash = 1, v_current_scene = B2-Ch05a-Intro, v_chapter_save_counter = 5, v_checkpoint_rich = 1, special:checkpoint_save)
+
 
 
 ID: B2-Ch04b-Credits

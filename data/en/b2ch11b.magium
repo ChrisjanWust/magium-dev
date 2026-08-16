@@ -9,13 +9,13 @@ Diane taps the band of cold metal locked around her throat—thick, dull serediu
 
 "No!" Kate catches herself before the shout carries down the corridor, dropping her voice to a harsh, urgent whisper. "You always do that! You always try to put your friends' needs before your own. I'm not going to let you do that now! We can all escape together. You, me, Leila, your brother--"
 
-"I'm not sure how much Jason would agree with this plan," Diane says. "You know how he is. He never trusts anyone. Especially if they're lessathi. He was like this even before we knew about the test of loyalty. He barely even exchanges any words with the high-ranked lessathi that we are sent to escort on a regular basis. The only one he gets along with is that woman... Meridith. Their second in command. I don't know what he sees in her. He always tells me how she's different from the other high-ranked lessathi, but for me, they're all the same. They all know what's happening here. They're not blind. They're all to blame."
+"I'm not sure how much Jason would agree with this plan," Diane says. "You know how he is. He never trusts anyone. Especially if they're lessathi. He was like this even before we knew about the test of loyalty. He barely even exchanges words with the high-ranked lessathi we're sent to escort. The only one he gets along with is that woman... Meridith. Their second-in-command. I don't know what he sees in her. He always tells me she's different from the others, but they're all the same to me. They all know what's happening here. They aren't blind. They're all to blame."
 
-"Diane, listen to me!" Kate says. "That caretaker is very skilled at tinkering with magical devices. I'm sure that he could find a way to free you of your collars. I will talk to him about this with the first opportunity, but you need to find a way to convince your brother to come with us. Can you do that?"
+"Diane, listen to me!" Kate says. "That caretaker is skilled at dismantling enchantments. I'm sure he could find a way to free you of your collars. I'll talk to him the first chance I get, but you have to convince your brother to come with us. Can you do that?"
 
-"You're asking a lot of me, Kate..." Diane says. "If I tell Jason your story about how you came from the future, he'll think I'm insane. I'm not even sure how much I believe what you're saying. I mean... are you sure that it couldn't have been a hallucination of some sort? They've been feeding us really poorly, lately, and--"
+"You're asking a lot of me, Kate..." Diane says. "If I tell Jason your story about coming from the future, he'll think I've lost my mind. I'm not even sure how much I believe it myself. Are you certain it wasn't a hallucination? They've barely fed us this week, and--"
 
-"No!" Kate grips Diane's arm. "It's real! In a year from now, they're going to shut down the Beacon, due to lack of funds, and then they're going to throw all of us rejects in the jungle to fend for ourselves. I wasn't able to save even one of them... I can't let that happen again! I need to find a way to convince everyone. Just promise me that you'll try to talk to your brother. You don't need to tell him that I'm from the future. Just try to find a way to get through to him. Somehow..."
+"No!" Kate grips Diane's arm. "It's real! A year from now, they're going to shut down the Beacon for lack of funds, and then they'll throw every reject into the jungle to fend for ourselves. I wasn't able to save a single one... I can't let that happen again! I need to find a way to convince everyone. Just promise me you'll try to talk to your brother. You don't have to say I'm from the future. Just find a way to get through to him. Somehow..."
 
 "I'll... try..." Diane says, looking down at the stone floor.
 
@@ -27,7 +27,7 @@ Kate slips out of the cell. In the empty air beside me, Arraka's voice rattles i
 
 "Oh," Arraka says, "it's just some uninteresting stuff about her talking with the caretaker, and him confirming that it's possible to take off the collars. It's a waste of time."
 
-choice(""But I want to see it!"", B2-Ch11b-Skip1, v_current_scene = B2-Ch11b-Skip1, v_b2_ch11_skip1 = 0)
+choice(""Skip it and I lose the collar details. Show me the caretaker conversation."", B2-Ch11b-Skip1, v_current_scene = B2-Ch11b-Skip1, v_b2_ch11_skip1 = 0)
 choice(""I suppose it would be better to skip it, then."", B2-Ch11b-Skip1, v_current_scene = B2-Ch11b-Skip1, v_b2_ch11_skip1 = 1)
 choice(""Could you show me Diane's discussion with her brother, instead, then?"", B2-Ch11b-Skip1, v_current_scene = B2-Ch11b-Skip1, v_b2_ch11_skip1 = 2)
 
@@ -36,9 +36,9 @@ ID: B2-Ch11b-Skip1
 TEXT:
 
 #if(v_b2_ch11_skip1 == 0) {
- "But I want to see it!"
+ "Skip it and I lose the collar details. Show me the caretaker conversation."
 
-"Fine, whatever..." Arraka mutters. "Don't say I didn't warn you, though."
+"As you like..." Arraka mutters. "Don't say I didn't warn you, though."
 
 The corridor dissolves and snaps into another cramped holding cell—Kate's room. Kate stands alone near the barred window, speaking in low tones with someone hidden outside against the stone wall. I can't see his face, but the grease-stained cuffs and quiet, measured voice match the lessathi Leila calls her father.
 
@@ -66,23 +66,23 @@ Footsteps recede down the gravel path outside.
 
 The room remains the same, but the light shifts. Diane stands near the rough wooden bunk, talking with a blond teenager in threadbare rags. Jason. He isn't broad or particularly tall, but his posture carries a hard, calculated edge that doesn't belong to a boy his age—shoulders square, chin up, cold focus in his eyes. A shock collar encircles his throat, matching his sister's.
 
-"Diane," Jason says, folding his arms. "I've told you many times before that you should take everything Kate tells you with a grain of salt. I know that she is your best friend, but that girl is way too trusting for her own good. When you put so much trust into people, it hurts that much more when you inevitably get betrayed. Mark my words, one day, she will get betrayed so badly, that she will never want to trust anyone ever again, and when that happens, you won't be able to tell me that I didn't warn you..."
+"Diane," Jason says, folding his arms. "I've told you to take what Kate says with a grain of salt. I know she's your best friend, but she trusts too easily. Put that much faith in people and it cuts deeper when the knife turns. Mark my words—one day she'll get betrayed so hard she won't ever trust a living soul again. When that happens, don't tell me I didn't warn you."
 
-"So, you're saying, what... that she should be more like you?" Diane says. "Ever since I've known you, you've never trusted anyone other than yourself. How is that any better?"
+"So what are you saying?" Diane asks. "That she should be more like you? Ever since I've known you, you've never trusted anyone other than yourself. How is that any better?"
 
-"Hey, don't say things like that..." Jason says, his voice dropping. "You know that I've always trusted you. Even if the whole world betrays us, you and I will still continue to stay true to each other, until the very end. That's the promise we made, right before we were first assigned as elite bodyguards to the lessathi, three years ago. You still remember that promise, right?"
+"Hey, don't say that," Jason says, his voice dropping low. "You know I've always trusted you. Even if the whole world turns on us, you and I stay true to each other until the end. That was our promise before they assigned us as bodyguards three years ago. You still remember that, right?"
 
-"Of course I do!" Diane says. "But do YOU still remember it? I've been telling you for years that Meridith is bad news, and that you should keep your distance from her, but you never listen! Why is it that you are so willing to put your trust in her, when you've never trusted anyone in your life?"
+"Of course I do!" Diane says. "Do you? I've told you for years that Meridith is bad news and you should keep your distance, but you never listen! Why put your trust in her when you've never trusted anyone else?"
 
-"I never said I trust her!" Jason says. "She's just... a means to an end. That's all there is to it. And besides, she's not like the other lessathi. She has the potential to change things for the better. All she needs is a little push in the right direction. There are already many lessathi who support her. I'd even go as far as saying that there are more who currently support her, than the ones who support the great leader, Heksol. It's not by coincidence, that she managed to become second in command. When she first started off, she was only a lowly secretary to Heksol, but she's been climbing her way up the ranks for twenty years, and she's made many friends during that time. I'm telling you, there will be a great change coming soon, in the lessathi world, and I want to be right at the heart of it, when it happens!"
+"I never said I trusted her," Jason says. "She's a means to an end. But she isn't like the other lessathi. She has the potential to change things for the better—she just needs a push in the right direction. Plenty of lessathi already back her. More than support Heksol, if you count the ranks. She didn't become second-in-command by accident. Twenty years ago she was a clerk under Heksol, and she climbed every rung herself. Change is coming to the lessathi order, Diane, and I intend to be standing at the center of it."
 
-"You know I don't like it when you talk like this..." Diane says, shaking her head. "I thought that our goal was to escape this place. Why would we care about the lessathi world, and how they change for the better? Let them rot, for all I care! I only want to be free of this nightmare, so we can live the rest of our lives in peace together. All three of us."
+"I hate it when you talk like that," Diane says, shaking her head. "I thought our goal was to escape. Why should we care about lessathi politics? Let them rot. I want out of this nightmare so we can live in peace. All three of us."
 
-"And we will!" Jason says. "What I'm doing is for the sake of all of us. Kate included. You'll understand when you're older."
+"And we will," Jason says. "What I'm doing is for all of us—Kate included. You'll understand when you're older."
 
-"You always say this!" Diane says. "What about Kate's plan, regarding the lessathi caretaker? Are you at least going to consider it?"
+"You always say that!" Diane says. "What about Kate's plan with the lessathi caretaker? Are you at least going to consider it?"
 
-"I'll... think about it," Jason says, glancing toward the door. "Anyway, I need to get going. If I stay too long, the guards will suspect something. Take care!"
+"I'll... think about it," Jason says, glancing toward the door. "I need to get moving. If I stay too long, the guards will suspect something. Take care."
 
 "Well, that was moderately illuminating," Arraka says. "Now let's get back to the stuff that's actually relevant to this ritual."
 
@@ -95,25 +95,25 @@ TEXT:
 
 The air folds, and we materialize in another stone cell where Kate is speaking with a girl of about fifteen with light brown hair. She wears the same tattered gray rags as Kate and Diane, but her hair is combed neat, and her posture is composed and deliberate. She carries an easy smile and a warm, charismatic cadence that instantly draws people in.
 
-"Please," Kate says. "You are the only one who can help me. The other orphans never listen to me, but I'm sure they'll listen to you! You've always had a way with words, and everyone trusts your judgment. You're almost like a leader, of sorts."
+"Please," Kate says. "You are the only one who can help me. The other orphans never listen to me, but they listen to you. You've always had a way with words, and everyone trusts your judgment. You're like a leader to them."
 
-"You flatter me, Kate!" the girl says, her smile tightening. "But this isn't an easy task you are asking of me. Do you not remember what happened the last time when we decided to trust one of the caretakers? The lessathi chose to kill only one of us, back then, in order to set an example, but that could have been any one of us. They had no reason to choose Benjamin, out of all of us. He didn't stand out in any way. He didn't even say a word. But they simply kept beating him and beating him in front of us, and they just wouldn't stop. Even after he was dead, they still wouldn't stop. If we try to escape again, and they catch us, I don't think that they will settle for killing only one person, anymore. This time, they're going to kill all of us, and they're not going to show us any mercy..."
+"You flatter me, Kate," the girl says, her smile tightening at the edges. "But you're asking something impossible. Do you remember what happened the last time we trusted a caretaker? The lessathi killed only one of us to make an example, but it could have been anyone. They chose Benjamin for no reason at all. He didn't stand out. He never said a word. But they kept beating him against the flagstones in front of the whole assembly and wouldn't stop—even after he stopped breathing, the boots kept landing. If we try to escape again and get caught, they won't settle for one corpse. They'll slaughter all of us."
 
-"They're going to try to kill us anyway!" Kate says. "We're both rejects. When they'll finally be done experimenting on us, they'll throw us in a jungle, and they'll leave us for dead."
+"They're going to kill us anyway!" Kate says. "We're rejects, Olivia. The moment they finish experimenting on us, they'll dump us in the jungle to starve."
 
-"We can't stay rejects forever!" the girl says, though her eyes dart away. "Maybe one day we'll be like your friend, Diane, and her brother, and we'll get to escort important lessathi around instead of being experimented on, over and over. If we haven't died from the experiments for such a long time, then there has to still be a chance!"
+"We won't stay rejects forever," the girl says, though her eyes dart away. "Maybe one day we'll be like Diane and Jason—escorting officials instead of strapped to stone slabs day after day. If we've survived the trials this long, there has to be a way through."
 
-"It's not going to happen, Olivia," Kate says. "We can't just keep waiting for things to get better. We need to take matters into our own hands. Please, trust me on this! Following the caretaker's plan is our only true chance of escaping this hellhole. He's not going to betray us like the one before. We can still make it out of here alive, but I need your help!"
+"It isn't going to happen, Olivia," Kate says. "We can't keep waiting for things to get better. We have to take matters into our own hands. Please, trust me on this. Following the caretaker's plan is our only true chance of escaping this place alive. He won't betray us like the one before. We can make it out, but I need your help."
 
 Olivia falls silent, the uncertainty on her face hardening into steady resolve.
 
-"I understand, Kate," Olivia says softly. "You know that I've always been your friend. If you are willing to put so much trust into this man, then I will believe in you, and your judgment. I will try to convince as many people as I can, but I can't promise you anything. I'll tell you later how things went."
+"I understand, Kate," Olivia says softly. "You know I've always been your friend. If you're willing to put this much faith in that man, then I believe in your judgment. I'll try to convince as many as I can, but I can't promise anything. I'll let you know how it goes."
 
-"Thank you so much!" Kate says, relief easing the tension in her face. "I will also talk to Diane and tell her what you said. We'll talk more when you have something new to tell me. See you later!"
+"Thank you so much!" Kate says, relief easing the tension in her face. "I'll talk to Diane and tell her what you said. We'll speak as soon as you have news. See you soon!"
 
-"Goodbye!" Olivia says, offering that pleasant smile again as Kate turns and exits the room.
+"Goodbye," Olivia says, offering that pleasant smile again as Kate turns and exits the room.
 
-"Okay, this next part's going to be really good," Arraka cackles. "Get ready!"
+"All right, this next part's going to be really good," Arraka cackles. "Get ready!"
 
 The stone walls stretch and dissolve, dropping us into a cavernous underground hallway. Around a hundred orphans stand in rigid, silent ranks, facing several men in dark blue robes near the platform. One lessathi is down on his knees in the center of the flagstones, a heavy hood hiding his bowed head.
 
@@ -293,7 +293,7 @@ The world drains of color again, the rapid flicker intensifying until the void t
 
 "So you admit that you were an idiot, then?" Illuna says, flat and merciless.
 
-"Yes!" Arraka shrieks. "Yes, I admit it! Are you happy now? I was an idiot to try and challenge the Magium in its own territory. All of my thousands of years of knowledge are nearly useless, when faced with this world of contradictions and absurdities. Now let's calm ourselves down, and finish doing what we originally came here to do. I no longer want to spend any more time in here than is absolutely necessary."
+"Yes!" Arraka shrieks. "Yes, I admit it! Are you happy now? I was an idiot to challenge the Magium in its own territory. All my thousands of years of knowledge are nearly useless when faced with this world of contradictions and absurdities. Now let's calm down and finish what we came here to do. I have zero desire to stay in here a heartbeat longer than necessary."
 
 choice(""Then how about bringing us to the actual start of the lessathi meeting?"", B2-Ch11b-Individual, v_current_scene = B2-Ch11b-Individual, v_b2_ch11_skip2 = 0)
 choice(""Can we just skip directly to the important parts, then?"", B2-Ch11b-Individual, v_current_scene = B2-Ch11b-Individual, v_b2_ch11_skip2 = 1)
@@ -575,7 +575,7 @@ ID: B2-Ch11b-Convincing
 TEXT:
 
 #if(v_b2_ch11_skip2 == 0) {
- "Ah!" Arraka says. "I think I get it now. What she needs to do to complete the ritual is to no longer intervene, and to let that caretaker rescue only the children that he got to save in the original timeline. That's going to take her a while to figure out, I guess... Alright, let's move on to the next scene."
+ "Ah!" Arraka says. "I think I get it now. What she needs to do to complete the ritual is to no longer intervene, and to let that caretaker rescue only the children that he got to save in the original timeline. That's going to take her a while to figure out, I guess... All right, let's move on to the next scene."
 
 We materialize in Diane's cell, where Kate is pleading once more with her friend, trying to prove she carries memories from the future and that they can escape the Beacon together.
 
@@ -595,7 +595,7 @@ Every time the loop resets, Kate provides precise predictions of coming events t
 
 }
 #if(v_b2_ch11_skip2 == 1) {
- "Ah!" Arraka says. "I think I get it now. What she needs to do to complete the ritual is to no longer intervene, and to let that caretaker rescue only the children that he got to save in the original timeline. That's going to take her a while to figure out, I guess... Alright, let's see if we can make this a little quicker, then."
+ "Ah!" Arraka says. "I think I get it now. What she needs to do to complete the ritual is to no longer intervene, and to let that caretaker rescue only the children that he got to save in the original timeline. That's going to take her a while to figure out, I guess... All right, let's see if we can make this a little quicker, then."
 
  She accelerates the flow, key events flashing past in rapid succession to sketch the wider pattern.
 
@@ -661,7 +661,7 @@ Arraka falls completely silent. After several seconds of dead quiet, Illuna cont
 
 "You know that I can do it," she says. "You're the one who taught me everything I know, after all..."
 
-"Alright, you win!" Arraka mutters, panic surfacing in her voice. "I'll shut my mouth, okay? It was just a little gloating, that's all... You don't have to get so upset over it!"
+"All right, you win!" Arraka mutters, panic surfacing in her voice. "I'll shut my mouth, all right? It was just a little gloating, that's all... You don't have to get so upset over it!"
 
 "Arraka sounding scared?" Hadrik says with a grin, though his eyes remain tense and guarded. "Now, that's something you don't see every day!"
 
@@ -691,7 +691,7 @@ The scenery dissolves, and we materialize in Thilias, in an empty alleyway withi
 
 For twenty seconds, only the sound of Rose's ragged weeping breaks the quiet. Then Arraka speaks.
 
-"Okay, so this ritual is a little different from the others," Arraka says. "Instead of forcing her to recreate only one event from her past, she actually needs to repeat more of them, in succession. Basically, she has to willingly ignore all of the slaves that have ever asked her for help, just like she's done in the past, except now she's also being forced to witness what happens with those slaves, after she refuses to help them. Some of them have been brutally murdered by their masters, some of them have been left to die of hunger, others have been tortured non-stop for weeks, until they went crazy. All sorts of stuff. I don't think this ritual of hers will end until she gets to see the fate of every single one of the slaves she's ever ignored during her lifetime."
+"This ritual runs on a different design," Arraka says. "Instead of reenacting a single turning point, she is being dragged through a chain of them. Every slave who ever begged her for aid, she must turn away again—and then Selkram forces her to watch the aftermath. Some were beaten to death in courtyards. Some starved in cellars. Others were tortured for weeks until their minds broke. The loop won't release her until she has witnessed the destruction of every soul she ever walked past."
 
 choice(""That's terrible..."", B2-Ch11b-Terrible, v_current_scene = B2-Ch11b-Terrible)
 choice(""Seems fair."", B2-Ch11b-Fair, v_current_scene = B2-Ch11b-Fair)
@@ -703,7 +703,7 @@ TEXT:
 
  "That's terrible..."
 
-"You think so?" Arraka says. "Because as far as rituals go, this one seems pretty light, to me. I mean, take Flower's ritual, for example. She was given the illusion that she could save all of her friends from Olmnar, when it wasn't even her fault that she couldn't save them the first time. Now, that's real cruelty! This ritual, on the other hand, just forces Rose to see the direct consequences of her actions. It's not like she didn't know these things would happen, when she made her choices. She just chose to not really think about it, because it was more comfortable for her that way."
+"You think so?" Arraka says. "Because as far as rituals go, this one seems pretty light to me. Take Flower's ritual, for example. She was given the illusion that she could save all her friends from Olmnar, when it wasn't even her fault that she couldn't save them the first time. Now, that's real cruelty! This ritual, on the other hand, just forces Rose to see the direct consequences of her actions. It's not like she didn't know these things would happen when she made her choices. She just chose not to think about it, because it was more comfortable for her that way."
 
 "Even so..." I say. "This ritual is still going a bit too far."
 
@@ -735,7 +735,7 @@ TEXT:
 
  "Seems fair."
 
-"I know, right?" Arraka says. "This ritual barely even compares to some of the others. I mean, take Illuna's ritual, for example. It's not like it was her fault that she needed to kill all those animals in the sacred forest. That all happened because of me. And yet, the ritual still forced her to repeat that massacre all over again, and to watch her friends die in front of her eyes. Now, that's real cruelty! This ritual, on the other hand, just forces Rose to see the direct consequences of her actions. It's not like she didn't know these things would happen, when she made her choices. She just chose to not really think about it, because it was more comfortable for her that way."
+"I know, right?" Arraka says. "This ritual barely even compares to some of the others. Take Illuna's ritual, for example. It's not like it was her fault that she needed to kill all those animals in the sacred forest. That all happened because of me. And yet, the ritual still forced her to repeat that massacre all over again, and to watch her friends die before her eyes. Now, that's real cruelty! This ritual, on the other hand, just forces Rose to see the direct consequences of her actions. It's not like she didn't know these things would happen when she made her choices. She just chose not to think about it, because it was more comfortable for her that way."
 
 Illuna's right hand closes into a tight fist at the mention of the massacre, but she remains silent.
 
@@ -765,11 +765,11 @@ TEXT:
 
  "What about the cases where nothing really bad happened to the slaves afterwards?"
 
-"I'm pretty sure that those are just being skipped," Arraka says. "It wouldn't make for much of a show if they didn't cut out the boring parts, now would it?"
+"I'm pretty sure those are just skipped," Arraka says. "It wouldn't make for much of a show if they didn't cut out the dull parts, now would it?"
 
-"But what if she forgets what she said to these slaves?" I say. "Would the ritual just keep going on forever?"
+"What if she forgets what she said to those slaves?" I ask. "Would the ritual just loop forever?"
 
-"Nah," Arraka says. "This ritual has access to her memories, so it knows exactly what she remembers and what she doesn't. If it's something deeply buried in her subconscious that she doesn't want to remember, then she will probably be forced to remember it, but if it's just a matter of no longer knowing the exact words she used, it probably won't make that much of a difference. After all, this ritual's purpose is to maximize her amount of suffering, not to annoy the hell out of her."
+"Nah," Arraka says. "This ritual has access to her memories, so it knows what she recalls and what she doesn't. If it's something deeply buried in her subconscious that she tried to forget, she'll be forced to remember it. But if it's just a matter of not knowing the exact wording, it won't matter. The ritual's goal is to maximize suffering, not to run a trivia test."
 
 "I suppose that makes sense," I say.
 
@@ -841,7 +841,7 @@ choice("Continue", B2-Ch11b-Reunion, v_current_scene = B2-Ch11b-Reunion)
 ID: B2-Ch11b-Reunion
 TEXT:
 
- "Right, I think I might finally be getting somewhere with our escape plan," Arraka says. "Just give me a few seconds and I'll--"
+ "Right, I think I might finally be getting somewhere with our extraction thread," Arraka says. "Just give me a few seconds and I'll--"
 
 "Barry? Illuna?..."
 
@@ -849,29 +849,29 @@ Rose turns toward us, her spectral eyes locking directly onto ours.
 
 "You can see us?" I ask, taken aback.
 
-"She is spending half of her ritual in her semi-transparent form," Arraka mutters. "She's practically in the same world as us, now. Aaaanyway, I'm sorry to interrupt your reunion, but our way out is finally clear, and I don't plan to waste this opportunity. You'd better get yourselves ready for some strong nausea, because our comfort will be the very last thing on my mind while we escape this place."
+"She is spending half of her ritual in her semi-transparent form," Arraka mutters. "She's practically in the same plane as us right now. Aaaanyway, I'm sorry to interrupt your reunion, but our way out is finally clear, and I don't plan to waste this opportunity. Get ready for some severe nausea, because our comfort will be the very last thing on my mind while we escape."
 
 A sharp headache spikes through my temples.
 
 Reality snaps back in a blinding pulse.
 
-We return to our regular, non-transparent bodies beneath the frozen trees of the Varathian forest, standing in the clearing where our rituals started, next to all of our friends. Time remains locked still. Melindra, Leila and Hadrik watch us, while Daren, Kate and Rose stare blankly in front of them, with bright, glowy eyes.
+We return to our physical bodies beneath the frozen trees of the Varathian forest, standing in the clearing where the trials began. Time remains locked still. Melindra, Leila, and Hadrik stand nearby, watching us, while Daren, Kate, and Rose stare blankly ahead, their eyes glowing with bright yellow light.
 
-"We made it..." Arraka says, sounding both surprised and relieved at the same time. "We made it! We got out of there alive. Hahahahahaha! Take that, Magium, you son of a bitch!"
+"We made it..." Arraka's voice crackles from the amulet, sounding both surprised and relieved. "We made it! We got out of there alive. Hahahahahaha! Take that, Magium, you son of a bitch!"
 
 "Could you maybe avoid taunting the Magium when we are still technically standing right on its doorstep?" Illuna snaps.
 
 "Relax!" Arraka says. "Everything is under control. I got us out of there alive, didn't I? And besides, I wasn't even insulting it. I was giving it a compliment, by treating it as if it were an actual person."
 
-"You are acting as if you've already forgotten what can happen when you ignore my warnings..." Illuna says, in a serious tone. "Would you perhaps like me to give you a small reminder by transporting us back into the world we just escaped from?"
+"You are acting as if you've already forgotten what can happen when you ignore my warnings..." Illuna says, her tone dropping to ice. "Would you perhaps like me to give you a small reminder by transporting us back into the world we just escaped from?"
 
 Arraka falls completely silent. After several seconds of dead quiet, Illuna continues.
 
 "You know that I can do it," she says. "You're the one who taught me everything I know, after all..."
 
-"Alright, you win!" Arraka says, in a somewhat panicked tone. "I'll shut my mouth, okay? It was just a little gloating, that's all... You don't have to get so upset over it!"
+"All right, you win!" Arraka mutters, panic surfacing in her voice. "I'll shut my mouth, all right? It was just a little gloating, that's all... You don't have to get so upset over it!"
 
-"Arraka sounding scared?" Hadrik says, with a grin, although I can see from the uneasy look in his eyes that he is still affected by whatever happened to him in his ritual. "Now, that's something you don't see every day!"
+"Arraka sounding scared?" Hadrik says with a grin, though his eyes remain tense and guarded. "Now, that's something you don't see every day!"
 
 choice(""If you think she's scared now, then you should have seen her earlier..."", B2-Ch11b-Scared, v_current_scene = B2-Ch11b-Scared)
 choice(""Trust me, if you'd have gone through what we just did, you'd be panicking like that too."", B2-Ch11b-Panicking, v_current_scene = B2-Ch11b-Panicking)
@@ -883,46 +883,46 @@ TEXT:
 
  "If you think she's scared now, then you should have seen her earlier..."
 
-"Well, I'll be damned..." Hadrik says. "Now I'm starting to regret that I wasn't there with you guys in your ritual. Mine was boring, in comparison."
+"Well, I'll be damned..." Hadrik says. "Now I'm starting to regret that I wasn't there with you lot in your ritual. Mine was boring in comparison."
 
 "Actually it wasn't our ritual, it was--" I start to say, but Arraka drowns out my voice.
 
 "Oh, your ritual was boring, you say!" Arraka says loudly. "Are you sure you're not trying to hide something? Because the way I remember your ritual, it was anything but boring..."
 
-"What do you know about my ritual?..." Hadrik says, as he regains the uneasiness from before in his eyes.
+"What do you know about my ritual?..." Hadrik says, the tension instantly returning to his eyes.
 
-"More than you think, dwarf," Arraka says. "And I'm not talking only about your trial from the God of Time. I've looked through some of your memories too, since they were pretty much out in the open, when you were trapped in there. I saw some very interesting things, while I was looking through the memories that were related to your ritual. Want me to tell you what I found out?"
+"More than you think, dwarf," Arraka says. "And I'm not talking only about your trial from the God of Time. I glanced through your memories too while you were locked in stasis. I saw some very interesting things connected to that trial. Want me to share them with the group?"
 
-"You're bluffing," Hadrik says, as I see him starting to sweat a little. "You're just trying to bait me into giving the information away myself. How stupid do you think I am?"
+"You're bluffing," Hadrik says, a bead of sweat forming on his brow. "You're trying to bait me into giving it away myself."
 
-"Well, I don't know, dwarf..." Arraka says. "How stupid are you?"
+"Well, dwarf..." Arraka purrs. "Am I?"
 
-For the next few seconds, the two of them remain completely silent, as Hadrik watches Arraka's amulet intensely, while a few more drops of sweat form on his forehead.
+For several seconds neither of them moves, Hadrik glaring fixedly at the gold amulet while another drop of sweat traces his forehead.
 
-"But seriously, though, I was only joking," Arraka cackles suddenly. "I have absolutely no idea what was going on in your ritual. The only reason why I said all that was because you pissed me off, and I wanted to make you sweat like a pig. Who's the one panicking now, eh? Aha- Ahahahahahaha!"
+"Just joking!" Arraka cackles suddenly. "I have no idea what went on in your ritual. I only said it because you annoyed me and I wanted to make you sweat. Who's the one panicking now, eh? Ahahahahaha!"
 
-"Blasted old hag..." Hadrik says, as he relaxes a little.
+"Blasted old hag..." Hadrik mutters, letting out a slow breath.
 
-"So, you really didn't get to see Hadrik's ritual, then?" I ask Arraka.
+"So you really didn't see Hadrik's ritual?" I ask Arraka.
 
 #if(v_ch11_saved_slave != 3) {
-"Nah," Arraka says. "There were just too many of them for me to have time to see them all. Well, anyway, it's pretty obvious that his ritual wasn't all sunshine and rainbows either, but I guess we're just going to have to wait until he feels like telling us about it, if we want to find out what it was. Personally, I don't mind all that much. It's not like we don't have anything better to do at this point than to listen to his sob story, you know what I'm saying?"
+"No," Arraka says. "Too many memory streams firing at once to track them all. It's obvious his run wasn't pleasant, but we'll have to wait until he feels like talking. Personally, I don't care. We have better things to do than listen to his complaints."
 
-Not long after we finish our conversation, Daren's eyes lose their bright yellow color, as he finally exits his trance as well. From the look on his face, I can easily tell that he's pretty upset.
+Before we can answer, the yellow light drains from Daren's eyes as he finally pulls out of his trance. The tension in his jaw and the hollow look in his eyes make it clear how badly the trial shook him.
 
-"Oh, look, the healer is out!" Arraka says. "How's it going, Daren? Had fun in your ritual?"
+"Oh, look, the healer is back!" Arraka says. "Have fun in there, Daren?"
 
-Daren chooses to completely ignore Arraka's question, and he turns to me, instead.
+Daren ignores her completely, turning straight to me.
 
 }
 #if(v_ch11_saved_slave == 3) {
-"Nah," Arraka says. "There were just too many of them for me to have time to see them all. Well, anyway, it's pretty obvious that his ritual wasn't all sunshine and rainbows either, but I guess we're just going to have to wait until he feels like telling us about it, if we want to find out what it was. Personally, I don't mind all that much. It's not like we don't have anything better to do at this point than to listen to his sob story, you know what I'm saying?"
+"No," Arraka says. "Too many memory streams firing at once to track them all. It's obvious his run wasn't pleasant, but we'll have to wait until he feels like talking. Personally, I don't care. We have better things to do than listen to his complaints."
 
-Not long after we finish our conversation, Daren's eyes lose their bright yellow color, as he finally exits his trance as well. The look that he has now on his face is darker than it's ever been before. And I'm not surprised. From his perspective, it was probably only a few moments ago that he had to willingly let the slave girl die in front of his eyes, so he could complete his trial.
+Before we can answer, the yellow light drains from Daren's eyes as he finally pulls out of his trance. The expression on his face is darker than I've ever seen it. Having to stand by and watch the slave girl butchered to satisfy the ritual's win condition has hollowed him out.
 
-"Oh, look, the healer is out!" Arraka says. "How's it going, Daren? Had fun in your ritual?"
+"Oh, look, the healer is back!" Arraka says. "Have fun in there, Daren?"
 
-Daren chooses to completely ignore Arraka's question, and he turns to me, instead.
+Daren ignores her completely, turning straight to me.
 
 }
 choice("Continue", B2-Ch11b-Fatigue, v_current_scene = B2-Ch11b-Fatigue)
@@ -931,46 +931,46 @@ choice("Continue", B2-Ch11b-Fatigue, v_current_scene = B2-Ch11b-Fatigue)
 ID: B2-Ch11b-Panicking
 TEXT:
 
- "Trust me, if you'd have gone through what we just did, you'd be panicking like that too."
+ "Trust me, if you'd gone through what we just did, you'd be panicking too."
 
-"Well, you know me, Barry," Hadrik says. "Even if I'm scared out of my wits, I still could never pass up a good challenge!"
+"Well, you know me, Barry," Hadrik says. "Even when I'm sweating, I never turn down a good fight!"
 
-"Is that so?" Arraka says. "In that case you must have absolutely loved your ritual! Because from what I saw, to say that your trial was a challenge would be quite an understatement."
+"Is that so?" Arraka says. "In that case you must have loved your ritual! Because from what I saw, calling your trial a challenge would be quite an understatement."
 
-"What do you know about my ritual?..." Hadrik says, as he regains the uneasiness from before in his eyes.
+"What do you know about my ritual?..." Hadrik says, the tension instantly returning to his eyes.
 
-"More than you think, dwarf," Arraka says. "And I'm not talking only about your trial from the God of Time. I've looked through some of your memories too, since they were pretty much out in the open, when you were trapped in there. I saw some very interesting things, while I was looking through the memories that were related to your ritual. Want me to tell you what I found out?"
+"More than you think, dwarf," Arraka says. "And I'm not talking only about your trial from the God of Time. I glanced through your memories too while you were locked in stasis. I saw some very interesting things connected to that trial. Want me to share them with the group?"
 
-"You're bluffing," Hadrik says, as I see him starting to sweat a little. "You're just trying to bait me into giving the information away myself. How stupid do you think I am?"
+"You're bluffing," Hadrik says, a bead of sweat forming on his brow. "You're trying to bait me into giving it away myself."
 
-"Well, I don't know, dwarf..." Arraka says. "How stupid are you?"
+"Well, dwarf..." Arraka purrs. "Am I?"
 
-For the next few seconds, the two of them remain completely silent, as Hadrik watches Arraka's amulet intensely, while a few more drops of sweat form on his forehead.
+For several seconds neither of them moves, Hadrik glaring fixedly at the gold amulet while another drop of sweat traces his forehead.
 
-"But seriously, though, I was only joking," Arraka cackles suddenly. "I have absolutely no idea what was going on in your ritual. The only reason why I said all that was because you pissed me off, and I wanted to make you sweat like a pig. Who's the one panicking now, eh? Aha- Ahahahahahaha!"
+"Just joking!" Arraka cackles suddenly. "I have no idea what went on in your ritual. I only said it because you annoyed me and I wanted to make you sweat. Who's the one panicking now, eh? Ahahahahaha!"
 
-"Blasted old hag..." Hadrik says, as he relaxes a little.
+"Blasted old hag..." Hadrik mutters, letting out a slow breath.
 
-"So, you really didn't get to see Hadrik's ritual, then?" I ask Arraka.
+"So you really didn't see Hadrik's ritual?" I ask Arraka.
 
 #if(v_ch11_saved_slave != 3) {
-"Nah," Arraka says. "There were just too many of them for me to have time to see them all. Well, anyway, it's pretty obvious that his ritual wasn't all sunshine and rainbows either, but I guess we're just going to have to wait until he feels like telling us about it, if we want to find out what it was. Personally, I don't mind all that much. It's not like we don't have anything better to do at this point than to listen to his sob story, you know what I'm saying?"
+"No," Arraka says. "Too many memory streams firing at once to track them all. It's obvious his run wasn't pleasant, but we'll have to wait until he feels like talking. Personally, I don't care. We have better things to do than listen to his complaints."
 
-Not long after we finish our conversation, Daren's eyes lose their bright yellow color, as he finally exits his trance as well. From the look on his face, I can easily tell that he's pretty upset.
+Before we can answer, the yellow light drains from Daren's eyes as he finally pulls out of his trance. The tension in his jaw and the hollow look in his eyes make it clear how badly the trial shook him.
 
-"Oh, look, the healer is out!" Arraka says. "How's it going, Daren? Had fun in your ritual?"
+"Oh, look, the healer is back!" Arraka says. "Have fun in there, Daren?"
 
-Daren chooses to completely ignore Arraka's question, and he turns to me, instead.
+Daren ignores her completely, turning straight to me.
 
 }
 #if(v_ch11_saved_slave == 3) {
-"Nah," Arraka says. "There were just too many of them for me to have time to see them all. Well, anyway, it's pretty obvious that his ritual wasn't all sunshine and rainbows either, but I guess we're just going to have to wait until he feels like telling us about it, if we want to find out what it was. Personally, I don't mind all that much. It's not like we don't have anything better to do at this point than to listen to his sob story, you know what I'm saying?"
+"No," Arraka says. "Too many memory streams firing at once to track them all. It's obvious his run wasn't pleasant, but we'll have to wait until he feels like talking. Personally, I don't care. We have better things to do than listen to his complaints."
 
-Not long after we finish our conversation, Daren's eyes lose their bright yellow color, as he finally exits his trance as well. The look that he has now on his face is darker than it's ever been before. And I'm not surprised. From his perspective, it was probably only a few moments ago that he had to willingly let the slave girl die in front of his eyes, so he could complete his trial.
+Before we can answer, the yellow light drains from Daren's eyes as he finally pulls out of his trance. The expression on his face is darker than I've ever seen it. Having to stand by and watch the slave girl butchered to satisfy the ritual's win condition has hollowed him out.
 
-"Oh, look, the healer is out!" Arraka says. "How's it going, Daren? Had fun in your ritual?"
+"Oh, look, the healer is back!" Arraka says. "Have fun in there, Daren?"
 
-Daren chooses to completely ignore Arraka's question, and he turns to me, instead.
+Daren ignores her completely, turning straight to me.
 
 }
 choice("Continue", B2-Ch11b-Fatigue, v_current_scene = B2-Ch11b-Fatigue)
@@ -979,46 +979,46 @@ choice("Continue", B2-Ch11b-Fatigue, v_current_scene = B2-Ch11b-Fatigue)
 ID: B2-Ch11b-Uneasy
 TEXT:
 
- "Actually, you have a pretty uneasy look too. Did something happen during your ritual?"
+ "Actually, you look pretty shaken yourself. Did something happen during your ritual?"
 
-"Well, the only thing that happened during my ritual was that there were not enough battles," Hadrik says. "I was expecting more of a challenge, you know? That's why it was sort of a letdown."
+"The only problem with my ritual was that there weren't enough battles," Hadrik says. "I was expecting a real fight, you know? It was a letdown."
 
-"Oh, you were expecting more of a challenge, dwarf?" Arraka says. "That's funny, because that's not the way it seemed to me, from what I saw during your ritual."
+"Oh, you were expecting a real fight, dwarf?" Arraka says. "That's funny, because that's not how it looked from what I saw."
 
-"What do you know about my ritual?..." Hadrik says, as he regains the uneasiness from before in his eyes.
+"What do you know about my ritual?..." Hadrik says, the tension instantly returning to his eyes.
 
-"More than you think, dwarf," Arraka says. "And I'm not talking only about your trial from the God of Time. I've looked through some of your memories too, since they were pretty much out in the open, when you were trapped in there. I saw some very interesting things, while I was looking through the memories that were related to your ritual. Want me to tell you what I found out?"
+"More than you think, dwarf," Arraka says. "And I'm not talking only about your trial from the God of Time. I glanced through your memories too while you were locked in stasis. I saw some very interesting things connected to that trial. Want me to share them with the group?"
 
-"You're bluffing," Hadrik says, as I see him starting to sweat a little. "You're just trying to bait me into giving the information away myself. How stupid do you think I am?"
+"You're bluffing," Hadrik says, a bead of sweat forming on his brow. "You're trying to bait me into giving it away myself."
 
-"Well, I don't know, dwarf..." Arraka says. "How stupid are you?"
+"Well, dwarf..." Arraka purrs. "Am I?"
 
-For the next few seconds, the two of them remain completely silent, as Hadrik watches Arraka's amulet intensely, while a few more drops of sweat form on his forehead.
+For several seconds neither of them moves, Hadrik glaring fixedly at the gold amulet while another drop of sweat traces his forehead.
 
-"But seriously, though, I was only joking," Arraka cackles suddenly. "I have absolutely no idea what was going on in your ritual. The only reason why I said all that was because you pissed me off, and I wanted to make you sweat like a pig. Who's the one panicking now, eh? Aha- Ahahahahahaha!"
+"Just joking!" Arraka cackles suddenly. "I have no idea what went on in your ritual. I only said it because you annoyed me and I wanted to make you sweat. Who's the one panicking now, eh? Ahahahahaha!"
 
-"Blasted old hag..." Hadrik says, as he relaxes a little.
+"Blasted old hag..." Hadrik mutters, letting out a slow breath.
 
-"So, you really didn't get to see Hadrik's ritual, then?" I ask Arraka.
+"So you really didn't see Hadrik's ritual?" I ask Arraka.
 
 #if(v_ch11_saved_slave != 3) {
-"Nah," Arraka says. "There were just too many of them for me to have time to see them all. Well, anyway, it's pretty obvious that his ritual wasn't all sunshine and rainbows either, but I guess we're just going to have to wait until he feels like telling us about it, if we want to find out what it was. Personally, I don't mind all that much. It's not like we don't have anything better to do at this point than to listen to his sob story, you know what I'm saying?"
+"No," Arraka says. "Too many memory streams firing at once to track them all. It's obvious his run wasn't pleasant, but we'll have to wait until he feels like talking. Personally, I don't care. We have better things to do than listen to his complaints."
 
-Not long after we finish our conversation, Daren's eyes lose their bright yellow color, as he finally exits his trance as well. From the look on his face, I can easily tell that he's pretty upset.
+Before we can answer, the yellow light drains from Daren's eyes as he finally pulls out of his trance. The tension in his jaw and the hollow look in his eyes make it clear how badly the trial shook him.
 
-"Oh, look, the healer is out!" Arraka says. "How's it going, Daren? Had fun in your ritual?"
+"Oh, look, the healer is back!" Arraka says. "Have fun in there, Daren?"
 
-Daren chooses to completely ignore Arraka's question, and he turns to me, instead.
+Daren ignores her completely, turning straight to me.
 
 }
 #if(v_ch11_saved_slave == 3) {
-"Nah," Arraka says. "There were just too many of them for me to have time to see them all. Well, anyway, it's pretty obvious that his ritual wasn't all sunshine and rainbows either, but I guess we're just going to have to wait until he feels like telling us about it, if we want to find out what it was. Personally, I don't mind all that much. It's not like we don't have anything better to do at this point than to listen to his sob story, you know what I'm saying?"
+"No," Arraka says. "Too many memory streams firing at once to track them all. It's obvious his run wasn't pleasant, but we'll have to wait until he feels like talking. Personally, I don't care. We have better things to do than listen to his complaints."
 
-Not long after we finish our conversation, Daren's eyes lose their bright yellow color, as he finally exits his trance as well. The look that he has now on his face is darker than it's ever been before. And I'm not surprised. From his perspective, it was probably only a few moments ago that he had to willingly let the slave girl die in front of his eyes, so he could complete his trial.
+Before we can answer, the yellow light drains from Daren's eyes as he finally pulls out of his trance. The expression on his face is darker than I've ever seen it. Having to stand by and watch the slave girl butchered to satisfy the ritual's win condition has hollowed him out.
 
-"Oh, look, the healer is out!" Arraka says. "How's it going, Daren? Had fun in your ritual?"
+"Oh, look, the healer is back!" Arraka says. "Have fun in there, Daren?"
 
-Daren chooses to completely ignore Arraka's question, and he turns to me, instead.
+Daren ignores her completely, turning straight to me.
 
 }
 choice("Continue", B2-Ch11b-Fatigue, v_current_scene = B2-Ch11b-Fatigue)
@@ -1030,59 +1030,59 @@ TEXT:
 #if(v_ch11_saved_rose == 1) {
  "How many are still inside their rituals?" Daren asks me. "Only Kate and Rose?"
 
-"Yeah, only Kate and Rose," I say. "You can tell from the glowy eyes. I think that we need to wait for everyone to be done with the first stage, before we can pass on to the next one."
+"Just Kate and Rose," I say. "You can tell by the yellow light. We have to wait for everyone to clear the first stage before the next one triggers."
 
-"I can't say that I'm looking forward to it," Daren says. "Where is the God of Time? Is he still watching us?"
+"I can't say I'm looking forward to it," Daren says. "Where is the God of Time? Is he watching us?"
 
-"No, he went back to the magical plane," I say. "He'll come back again at the end of the ritual, according to Arraka."
+"No, he returned to the magical plane," I say. "He'll only manifest again at the end of the ritual, according to Arraka."
 
-While Daren and I are talking, the yellow light fades from Kate's eyes as she pulls out of her trance. The grief and exhaustion on her face are wrenching to watch—not just sorrow and regret, but the hollow resignation in her eyes that shows just how deep the trial cut into her. Realizing she is no longer alone, Kate instantly pulls up a mask of dull, extreme fatigue.
+While Daren and I talk, the yellow light drains from Kate's eyes as she pulls out of her trance. The grief and exhaustion on her face are wrenching to watch—not just sorrow and regret, but the hollow resignation showing just how deep the trial cut into her. Realizing she is no longer alone, Kate instantly pulls up a mask of dull, extreme fatigue.
 
-"Is everyone else already done with their ritual?" Kate asks, her voice flat. "And where is the God of Time? I thought he was supposed to oversee these trials until their very end."
+"Is everyone else finished?" Kate asks, her voice flat. "Where is the God of Time? I thought he was supposed to oversee these trials."
 
-"We're all done with our rituals, except for Rose," Daren says. "The God of Time apparently went back to the magical plane, and he'll only come back at the end."
+"The first stage is done," Daren says. "The God of Time went back to the magical plane and will only return at the conclusion."
 
-"If that's true, then maybe we can make some plan against him," Kate says, looking between us. "Maybe we can find a way to sabotage his ritual while he's not here to keep an eye on us..."
+"If that's true, maybe we can move against him," Kate says, looking between us. "Maybe we can find a way to sabotage the ritual while he isn't watching..."
 
-"You can't sabotage the rituals..." Melindra says from the edge of the clearing. "Eiden has tried and failed in the past. If he couldn't do it, then how could we?"
+"You can't sabotage the rituals," Melindra says from the edge of the clearing. "Eiden tried and failed in the past. If he couldn't crack them, how could we?"
 
-"Eiden isn't all-knowing," Daren says. "Just because he failed, it doesn't mean that we won't succeed."
+"Eiden isn't all-knowing," Daren says. "Just because he failed doesn't mean we will."
 
-"Oh?" Melindra crosses her arms. "Then how do you propose to start this 'sabotage'?"
+"Oh?" Melindra crosses her arms. "And how do you propose to begin this 'sabotage'?"
 
 "We'll... figure something out..." Daren mutters.
 
 "If you say so," Melindra says.
 
-The light fades from Rose's eyes as she finishes her ritual as well. She stands rigid, staring blankly ahead without taking notice of us, her face pale and completely horrified.
+The light fades from Rose's eyes as she finishes her ritual as well. She stands rigid, staring blankly ahead without acknowledging us, her face pale and completely horrified.
 
-"Rose..." Daren says, stepping toward her with deep concern. "Are you alright?"
+"Rose..." Daren says, stepping toward her with deep concern. "Are you all right?"
 
-Rose gives no sign of having heard him, and she keeps staring in front of her, without saying a word.
+Rose gives no sign of having heard him, staring into empty space in absolute silence.
 
 }
 #if(v_ch11_saved_rose == 0) {
  "How many are still inside their rituals?" Daren asks me. "Only Kate?"
 
-"Yeah, only Kate," I say. "You can tell from the glowy eyes. I think that we need to wait for everyone to be done with the first stage, before we can pass on to the next one."
+"Just Kate," I say. "You can tell by the yellow light. We have to wait for everyone to clear the first stage before the next one triggers."
 
-"I can't say that I'm looking forward to it," Daren says. "Where is the God of Time? Is he still watching us?"
+"I can't say I'm looking forward to it," Daren says. "Where is the God of Time? Is he watching us?"
 
-"No, he went back to the magical plane," I say. "He'll come back again at the end of the ritual, according to Arraka."
+"No, he returned to the magical plane," I say. "He'll only manifest again at the end of the ritual, according to Arraka."
 
-While Daren and I are talking, the yellow light fades from Kate's eyes as she pulls out of her trance. The grief and exhaustion on her face are wrenching to watch—not just sorrow and regret, but the hollow resignation in her eyes that shows just how deep the trial cut into her. Realizing she is no longer alone, Kate instantly pulls up a mask of dull, extreme fatigue.
+While Daren and I talk, the yellow light drains from Kate's eyes as she pulls out of her trance. The grief and exhaustion on her face are wrenching to watch—not just sorrow and regret, but the hollow resignation showing just how deep the trial cut into her. Realizing she is no longer alone, Kate instantly pulls up a mask of dull, extreme fatigue.
 
-"Is everyone else already done with their ritual?" Kate asks, her voice flat. "And where is the God of Time? I thought he was supposed to oversee these trials until their very end."
+"Is everyone else finished?" Kate asks, her voice flat. "Where is the God of Time? I thought he was supposed to oversee these trials."
 
-"The first stage of the ritual is done, and now we're waiting for the second," Daren says. "The God of Time apparently went back to the magical plane, and he'll only come back at the end."
+"The first stage is done, and now we wait for the second," Daren says. "The God of Time went back to the magical plane and will only return at the conclusion."
 
-"If that's true, then maybe we can make some plan against him," Kate says, looking between us. "Maybe we can find a way to sabotage his ritual while he's not here to keep an eye on us..."
+"If that's true, maybe we can move against him," Kate says, looking between us. "Maybe we can find a way to sabotage the ritual while he isn't watching..."
 
-"You can't sabotage the rituals..." Melindra says from the edge of the clearing. "Eiden has tried and failed in the past. If he couldn't do it, then how could we?"
+"You can't sabotage the rituals," Melindra says from the edge of the clearing. "Eiden tried and failed in the past. If he couldn't crack them, how could we?"
 
-"Eiden isn't all-knowing," Daren says. "Just because he failed, it doesn't mean that we won't succeed."
+"Eiden isn't all-knowing," Daren says. "Just because he failed doesn't mean we will."
 
-"Oh?" Melindra crosses her arms. "Then how do you propose to start this 'sabotage'?"
+"Oh?" Melindra crosses her arms. "And how do you propose to begin this 'sabotage'?"
 
 "We'll... figure something out..." Daren mutters.
 
@@ -1090,11 +1090,11 @@ While Daren and I are talking, the yellow light fades from Kate's eyes as she pu
 
 "If you're looking to sabotage the ritual, then I might be able to offer some assistance," Rose's voice cuts in quietly.
 
-We'd all been ignoring the revenant until this point, but now every head snaps toward her at the perimeter.
+We had all been ignoring the revenant until this point, but now every head snaps toward her at the perimeter.
 
-"And why would we want any help from you, revenant?" Daren says, disgust hardening his voice.
+"And why would we want help from you, revenant?" Daren says, disgust hardening his voice.
 
-"Because this ritual is as much a problem for me as it is for you," the revenant says calmly. "...And also because as much as I've tried to avoid it, there are traces of your friend Rose within me that will always be a part of who I am. At the very least, I know that Rose would have wanted us to work together, despite our differences, since nothing would have been more important to her in this situation than to make sure that you are safe."
+"Because this ritual is as much a problem for me as it is for you," the revenant says calmly. "...And also because as much as I've tried to avoid it, traces of your friend Rose within me will always be a part of who I am. At the very least, I know Rose would have wanted us to work together, despite our differences, since nothing would have been more important to her than ensuring you are safe."
 
 }
 choice("Continue", B2-Ch11c-Herbalist, v_current_scene = B2-Ch11c-Herbalist) if (v_ch11_saved_rose == 1)

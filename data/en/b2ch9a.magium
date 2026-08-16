@@ -62,7 +62,7 @@ Two arms wrap around my bicep from behind. Melindra presses into my side, restin
 
 "Wait," I say, raising a hand. "I know how it looks, but--"
 
-"Cool off, ice mage, nothing happened," Melindra says, crawling through the flap and stretching her arms above her head. "He gave me a patch of floor. That is the whole story."
+"Settle yourself, ice mage, nothing happened," Melindra says, crawling through the flap and stretching her arms above her head. "He gave me a patch of floor. That is the whole story."
 
 "And why would he need to do that?" Kate asks.
 
@@ -167,7 +167,7 @@ TEXT:
 
 "Oh?" Her brow arches. "About what?"
 
-"Whatever. It feels like ages since we had a quiet conversation."
+"As you like. It feels like ages since we had a quiet conversation."
 
 }
 #if(v_b2_ch9_dog == 1) {
@@ -183,7 +183,7 @@ TEXT:
 
 "Oh?" Her brow arches. "About what?"
 
-"Whatever. It feels like ages since we had a quiet conversation."
+"As you like. It feels like ages since we had a quiet conversation."
 
 }
 #if(v_b2_ch9_dog == 2) {
@@ -191,7 +191,7 @@ TEXT:
 
 "Oh?" Her brow arches. "About what?"
 
-"Whatever. It feels like ages since we had a quiet conversation."
+"As you like. It feels like ages since we had a quiet conversation."
 
 }
 #if(v_ch11_saved_rose == 0) {
@@ -493,7 +493,7 @@ Leila and Flower follow them, though Flower casts one troubled glance over her s
 
 Her eyes are completely clear. She isn't mocking me now--she genuinely cannot see why anyone would object.
 
-choice(""Okay, maybe it was a little funny, but that's beside the point!"", B2-Ch09a-Amusing, v_current_scene = B2-Ch09a-Amusing, v_b2_ch9_amused = 1)
+choice(""All right, maybe it was a little funny, but that's beside the point!"", B2-Ch09a-Amusing, v_current_scene = B2-Ch09a-Amusing, v_b2_ch9_amused = 1)
 choice(""No, I did not find their reactions to be amusing at all!"", B2-Ch09a-Amusing, v_current_scene = B2-Ch09a-Amusing, v_b2_ch9_amused = 0)
 
 
@@ -501,7 +501,7 @@ ID: B2-Ch09a-Amusing
 TEXT:
 
 #if(v_b2_ch9_amused == 1) {
- "Okay, maybe it was a little funny, but that's beside the point!"
+ "All right, maybe it was a little funny, but that's beside the point!"
 
 "How is it beside the point?" Melindra asks. "You have to enjoy the moment, Barry. Little sparks make life bearable. So your friends got ruffled. They'll survive. Well, most of them. The ice mage will probably hold a grudge, but I wasn't the one who slept with her enemy after finding out she fancied you."
 
@@ -604,7 +604,7 @@ Melindra waves toward the river, where Flower is juggling sparks over the water.
 
 "I was perfectly calm!"
 
-"No," Illuna's voice cuts in, colder, as the eyes shift to bright blue. "The lie was obvious without reading your aura. You cannot bluff under stress."
+"No," Illuna's voice cuts in, colder, as the eyes shift to bright blue. "The lie was obvious without reading your aura. You cannot bluff when pressed."
 
 "Melindra!" Arraka's voice rattles from the golden amulet. "Tell me--when you said all night, did you use an energizer on him?"
 
@@ -1579,7 +1579,7 @@ Melindra's jaw tightens.
 
 "Good. Let me read."
 
-"Whatever," she grumbles.
+"As you like," she grumbles.
 
 }
 #if(v_b2_ch9_apologize == 0 && v_ch6_secure == 1) {
@@ -1595,7 +1595,7 @@ Melindra's jaw tightens.
 
 "Good. Let me read."
 
-"Whatever," she grumbles.
+"As you like," she grumbles.
 
 }
 She leaves me to my notes and wanders toward Flower.

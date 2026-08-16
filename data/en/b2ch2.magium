@@ -476,7 +476,7 @@ The man with the ponytail halts a polite distance away and inclines his head.
 #if(v_combat_technique < 2 && v_reflexes < 2 && v_strength < 2 && v_toughness < 2) {
 I try to duck, but my feet lag behind my eyes. The fist catches me square across the jaw, sending me crashing hard against the flagstones. The vaulted ceiling spins in sickening circles. By the time I drag myself upright, another inmate has Bruce locked in a rear choke, hauling the big man backward.
 
-"Cool off, Bruce," the newcomer says evenly. "We need every warm body we can get before the gate lifts."
+"Settle yourself, Bruce," the newcomer says evenly. "We need every warm body we can get before the gate lifts."
 
 "Get off me," Bruce snarls, wrenching free with a violent twist.
 
@@ -486,7 +486,7 @@ He glares down at me with pure disdain.
 
 He turns and stomps toward his quarters. Looking at the man who stepped in, I find someone roughly my age with his dark hair drawn into a neat ponytail, offering a calm, courteous smile that carries an uncomfortable trace of Eiden's detachment.
 
-"Pay him no mind," he says, gesturing toward the retreating brute. "Bruce is rattled by the sudden schedule change. He will settle by morning. May I have your name?"
+"Pay him no mind," he says, gesturing toward the retreating brute. "Bruce is rattled by the sudden change of the hour. He will settle by morning. May I have your name?"
 
 }
 choice(""Well, we are part of the same team."", B2-Ch02a-Team, v_current_scene = B2-Ch02a-Team) if (v_strength >= 2 || v_toughness >= 2)
@@ -1082,8 +1082,8 @@ Thank you, Leila writes. I wanted to compare the draw rate between our units. Yo
 
 }
 choice(""I wanted to save them for an emergency."", B2-Ch02a-Emergency, v_current_scene = B2-Ch02a-Emergency) if (v_available_points == 19)
-choice(""I wanted to see how long I could last on my own!"", B2-Ch02a-Last, v_current_scene = B2-Ch02a-Last) if (v_available_points == 19)
-choice(""It's because I'm aiming to complete the 'Average Joe' achievement."", B2-Ch02a-Average, v_ac_b2_ch2_wall = 1, v_current_scene = B2-Ch02a-Average) if (v_available_points == 19)
+choice(""If I spend them at the first scare, I never learn what the unaugmented limit actually is."", B2-Ch02a-Last, v_current_scene = B2-Ch02a-Last) if (v_available_points == 19)
+choice(""It's a Western control trial. Zero allocations. I wanted a clean unaugmented baseline."", B2-Ch02a-Average, v_ac_b2_ch2_wall = 1, v_current_scene = B2-Ch02a-Average) if (v_available_points == 19)
 choice("Continue", B2-Ch02a-Backup, v_current_scene = B2-Ch02a-Backup) if (v_available_points != 19)
 
 
@@ -1104,7 +1104,7 @@ choice("Continue", B2-Ch02a-Backup, v_current_scene = B2-Ch02a-Backup)
 ID: B2-Ch02a-Last
 TEXT:
 
-"I wanted to see how long I could last on my own!"
+"If I spend them at the first scare, I never learn what the unaugmented limit actually is."
 
 How you survived this far without allocated stats is a mystery, Leila writes. But I hope you reconsider before the iron gates rise. We need every advantage available if we intend to walk out.
 
@@ -1119,9 +1119,9 @@ ID: B2-Ch02a-Average
 TEXT:
 
 achievement("Fourth wall breaker",v_ac_b2_ch2_wall)
-"It's because I'm aiming to complete the 'Average Joe' achievement."
+"It's a Western control trial. Zero allocations. I wanted a clean unaugmented baseline."
 
-Complete the... what? Leila writes, tilting her head.
+A... control trial? Leila writes, tilting her head.
 
 "Sorry," I say quickly. "I meant I am saving them for an emergency."
 
@@ -1149,14 +1149,14 @@ She pauses, eyes narrowing slightly.
 
 Unless you had no idea how powerful the hardware truly was, and planned to bluff your way through as a stillwater from start to finish, treating the booster as a mere backup.
 
-choice(""What do you mean? Of course I knew that the device works better for lessathi!"", B2-Ch02a-Better, v_current_scene = B2-Ch02a-Better)
+choice(""I had a working theory. I did not have a lessathi textbook."", B2-Ch02a-Better, v_current_scene = B2-Ch02a-Better)
 choice(""Actually, to be honest, before coming here, I didn't even know I was a lessathi."", B2-Ch02a-Honest, v_current_scene = B2-Ch02a-Honest)
 
 
 ID: B2-Ch02a-Better
 TEXT:
 
-"What do you mean? Of course I knew that the device works better for lessathi!"
+"I had a working theory. I did not have a lessathi textbook."
 
 Leila's shoulders shake in a silent laugh, her palm flying up to cover her mouth.
 

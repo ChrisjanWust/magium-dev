@@ -33,13 +33,13 @@ Illuna gives me a brief, evaluating glance.
 
 "Barry is trustworthy enough," she says. "I know little about the girl, but she has no reason to oppose our objective. She is a gladiator fighting for survival."
 
-"Hold on," I say, stepping between them. "If we are discussing trust, what about him? How much do you trust this guy? He has the look of a street hustler running three-card monte on the main thoroughfare of Bagelberry."
+"Hold on," I say, stepping between them. "If we are discussing trust, what about him? How much do you trust this guy? He has the look of a dice-sharp working the alley corners of Bagelberry."
 
 The goblin barks a sharp laugh.
 
 "I like him," the goblin says. "No polished manners, no flattery. Straight to the point."
 
-"To answer your question, Barry," Illuna says evenly, "I do not trust him at all. Nor does he trust me. But we both understand that betrayal carries zero profit. His intelligence on monster factions is invaluable, and in exchange, I occasionally eliminate his rivals or assist in covert incursions like this one."
+"To answer your question, Barry," Illuna says evenly, "I do not trust him at all. Nor does he trust me. But we both understand that betrayal carries no profit. His intelligence on monster factions is invaluable, and in exchange, I occasionally eliminate his rivals or assist in covert incursions like this one."
 
 "And what exactly is this covert incursion?" I ask.
 
@@ -65,7 +65,7 @@ The goblin chuckles again, unoffended.
 
 choice(""Who said that I escaped?"", B2-Ch03a-Escaped, v_current_scene = B2-Ch03a-Escaped)
 choice(""The ones who fought Tyrath before sound like a bunch of weaklings."", B2-Ch03a-Weaklings, v_current_scene = B2-Ch03a-Weaklings)
-choice(""Do I seriously look like I'd need to run away from the likes of Tyrath?"", B2-Ch03a-Seriously, v_current_scene = B2-Ch03a-Seriously)
+choice(""I didn't run. I survived. Your veterans already paid to learn the difference."", B2-Ch03a-Seriously, v_current_scene = B2-Ch03a-Seriously)
 
 
 ID: B2-Ch03a-Escaped
@@ -131,7 +131,7 @@ choice("Continue", B2-Ch03a-Half, v_current_scene = B2-Ch03a-Half)
 ID: B2-Ch03a-Seriously
 TEXT:
 
-"Do I seriously look like I'd need to run away from the likes of Tyrath?"
+"I didn't run. I survived. Your veterans already paid to learn the difference."
 
 "I doubt you want an honest answer to that," Fyron says, though his sharp eyes narrow. "Yet your tone carries conviction. Are you claiming you defeated the dragon king alone?"
 
@@ -165,7 +165,7 @@ TEXT:
 
 Leila snaps her head toward Illuna, eyes wide, tracking her with sudden, intense focus. It is the sharpest reaction she has shown since we entered the caverns.
 
-"Half-lessathi," I repeat, processing the thought.
+"Half-lessathi," I repeat, turning the thought.
 
 "It is the only coherent explanation," Fyron says. "No other bloodline carries that physical structure. And with human lineage mixed in, channeling magical stats becomes theoretically possible."
 
@@ -212,8 +212,8 @@ Did you say the spirit in that amulet is named Arraka?
 I have... heard accounts, yes...
 
 choice(""What exactly have you heard about her?"", B2-Ch03a-Eyesight, v_current_scene = B2-Ch03a-Eyesight, v_b2_ch3_spin = 1)
-choice(""Did you hear that she'll grant you three wishes if you spin her by the chain?"", B2-Ch03a-Eyesight, v_current_scene = B2-Ch03a-Eyesight, v_b2_ch3_spin = 2)
-choice(""Did you hear that she gets sick if you spin her by the chain? Let me show you!"", B2-Ch03a-Eyesight, v_current_scene = B2-Ch03a-Eyesight, v_b2_ch3_spin = 3)
+choice(""Did the accounts mention the chain? Spin it and she stops being useful for a few seconds."", B2-Ch03a-Eyesight, v_current_scene = B2-Ch03a-Eyesight, v_b2_ch3_spin = 2)
+choice(""Spinning the chain nauseates her. If you need proof she is the same Arraka, watch."", B2-Ch03a-Eyesight, v_current_scene = B2-Ch03a-Eyesight, v_b2_ch3_spin = 3)
 
 
 ID: B2-Ch03a-Eyesight
@@ -241,9 +241,9 @@ I know she is a powerful, malevolent entity from the Still Winter, Leila writes.
 "I don't have eyes, you idiot! I perceive ambient magical residue. To my sense, her drawings were just scattered energy particles drifting in the dark. Now that I know they form glyphs, I can parse them."
 }
 #if(v_b2_ch3_spin == 2) {
-"Did you hear that she'll grant you three wishes if you spin her by the chain?"
+"Did the accounts mention the chain? Spin it and she stops being useful for a few seconds."
 
-No... Leila writes, brow furrowing. The chronicles do not describe her as a benevolent spirit...
+No... Leila writes, brow furrowing. The chronicles do not mention that vulnerability...
 
 "Who in the hells are you two talking to?" Arraka snaps from the pendant. "Have you both lost your minds?"
 
@@ -260,7 +260,7 @@ No... Leila writes, brow furrowing. The chronicles do not describe her as a bene
 "I don't have eyes, you idiot! I perceive ambient magical residue. To my sense, her drawings were just scattered energy particles drifting in the dark. Now that I know they form glyphs, I can parse them."
 }
 #if(v_b2_ch3_spin == 3) {
-"Did you hear that she gets sick if you spin her by the chain? Let me show you!"
+"Spinning the chain nauseates her. If you need proof she is the same Arraka, watch."
 
 I take the chain from Illuna and whip the amulet into a frantic blur. Illuna lets out a long sigh.
 
@@ -809,7 +809,7 @@ TEXT:
 
 Leila remains silent, offering no objections.
 
-"Very well, then," Fyron says. "We will pursue the blood trail. However, our first priority should be the mapping of this maze. Arraka, I understand that you have the ability to generate holograms?"
+"Very well, then," Fyron says. "We will pursue the blood trail. However, our first concern should be the mapping of this maze. Arraka, I understand that you have the ability to generate holograms?"
 
 "Yeah," Arraka says. "But I can't make a map of this place if my magical sense can't pass through the walls."
 
@@ -845,7 +845,7 @@ TEXT:
 
 Leila remains silent, offering no objections, though she watches the dark blood trail with a slight frown.
 
-"Very well, then," Fyron says. "We will not pursue the blood trail. If we're going to begin exploring the other paths, then our first priority should be the mapping of this maze. Arraka, I understand that you have the ability to generate holograms?"
+"Very well, then," Fyron says. "We will not pursue the blood trail. If we're going to begin exploring the other paths, then our first concern should be the mapping of this maze. Arraka, I understand that you have the ability to generate holograms?"
 
 "Yeah," Arraka says. "But I can't make a map of this place if my magical sense can't pass through the walls."
 
@@ -1098,7 +1098,7 @@ When we reach the corridor, we find out that the troll was not lying. The walls 
 
 "The fake walls and the misdirection," the troll says, "are meant to keep intruders inside the maze long enough for our captain to come and finish them off. They're not expecting you to find your way to the minotaur, so his cell will likely only have a few guards posted in front of it. You shouldn't have much trouble freeing the minotaur, but I'm not sure how you're planning to get out alive afterwards."
 
-"Oh, you don't need to worry about that," Fyron says. "We have our escape route covered. We also have room for one more passenger, if you feel like handing in your resignation."
+"Oh, you don't need to worry about that," Fyron says. "We have our escape route covered. We also have room for one more passenger, if you feel like abandoning your post for good."
 
 "I... might just take you up on that offer," the troll says.
 
@@ -1325,7 +1325,7 @@ He turns to Illuna.
 
 Illuna nods, and the goblin turns toward the minotaur.
 
-"Once you are on the surface, Illuna won't be able to help you," Fyron says. "Everyone in this city knows your face from the arena, so she can't be seen fighting alongside you, unless she wants to get a criminal record. Don't wait for us. As soon as you are out of the caverns, make a rush towards the city gates, smash right through them, and don't stop until you reach the Mertram woods. We will meet you there."
+"Once you are on the surface, Illuna won't be able to help you," Fyron says. "Everyone in this city knows your face from the arena, so she can't be seen fighting alongside you, unless she wants the city guard hunting her across Thilias. Don't wait for us. As soon as you are out of the caverns, make a rush towards the city gates, smash right through them, and don't stop until you reach the Mertram woods. We will meet you there."
 
 "I will be waiting," the minotaur says.
 
@@ -1613,7 +1613,7 @@ The speaker steps into view: a stout man with short black hair and a goatee, dre
 
 "I refuse!" Velgos says, baring his teeth at his master. "They are responsible for the deaths of many of my comrades. I am not going to let them go."
 
-"I'm not telling you to let them go," the owner says. "I am only asking you to postpone your fight with them until the second round of the arena event. The minotaur is gone, and you are the only warrior we have who is on par with him, combat-wise. I will pay you handsomely if you join the fights in the arena, and you will also have your chance to avenge your fallen comrades, since these two will be participating in the fights. Wouldn't that be a better alternative for you than to lose your job needlessly because you lacked patience?"
+"I'm not telling you to let them go," the owner says. "I am only asking you to postpone your fight with them until the second round of the arena event. The minotaur is gone, and you are the only warrior we have who is on par with him, combat-wise. I will pay you handsomely if you join the fights in the arena, and you will also have your chance to avenge your fallen comrades, since these two will be participating in the fights. Wouldn't that be a better alternative for you than forfeiting your post needlessly because you lacked patience?"
 
 The troll grumbles, but yields the argument.
 
@@ -1668,7 +1668,7 @@ TEXT:
 
 "Oh..." I say, not knowing quite how to respond.
 
-"Like I said, you are the stars of the show," the owner says. "I've even had one of the high ranking lessathi tell me that I would lose my job if I didn't confiscate the lessathi girl's device. But why would I? I've already decided that this is to be the crowning moment of my career. I do not care what happens afterwards. All I want is for this one show to be perfect. And you are both going to help me achieve my dream."
+"Like I said, you are the stars of the show," the owner says. "I've even had one of the high ranking lessathi tell me that I would forfeit my post if I didn't confiscate the lessathi girl's device. But why would I? I've already decided that this is to be the crowning spectacle of my life's work. I do not care what happens afterwards. All I want is for this one show to be perfect. And you are both going to help me achieve my dream."
 
 We emerge from the tunnel, finding ourselves back in a familiar chamber with the wooden cabin in front of us and the subterranean lake beyond.
 
@@ -1682,7 +1682,7 @@ We emerge from the tunnel, finding ourselves back in a familiar chamber with the
 
 "Oh..." I say, not knowing quite how to respond.
 
-"Like I said, you are the stars of the show," the owner says. "I've even had one of the high ranking lessathi tell me that I would lose my job if I didn't confiscate your devices. But why would I? I've already decided that this is to be the crowning moment of my career. I do not care what happens afterwards. All I want is for this one show to be perfect. And you are both going to help me achieve my dream."
+"Like I said, you are the stars of the show," the owner says. "I've even had one of the high ranking lessathi tell me that I would forfeit my post if I didn't confiscate your devices. But why would I? I've already decided that this is to be the crowning spectacle of my life's work. I do not care what happens afterwards. All I want is for this one show to be perfect. And you are both going to help me achieve my dream."
 
 We emerge from the tunnel, finding ourselves back in a familiar chamber with the wooden cabin in front of us and the subterranean lake beyond.
 
@@ -1701,7 +1701,7 @@ I kick up to the surface, swimming quickly back to the shore. Leila wades into t
 
 From the lakeshore below, the owner calls out his final words.
 
-"Remember that I have very high expectations from you!" the owner shouts. "Make sure that you do not let me down."
+"Remember that I have very high expectations of you!" the owner shouts. "Make sure that you do not let me down."
 
 choice("Next chapter", B2-Ch04a-Intro, v_next_chapter_crash = 1, v_current_scene = B2-Ch04a-Intro, v_chapter_save_counter = 5, v_checkpoint_rich = 1, special:checkpoint_save)
 

@@ -65,7 +65,7 @@ Still, credit where it is due. Surrender. Simple, brilliant, and right in plain 
 
 The crowd is still roaring with laughter when the iron gate below the royal box grinds open. The ambassador of Ollendor strides out onto the sand, his fine silk robes fluttering, his face twisted in fury.
 
-"What is the meaning of this insolence?" the ambassador shrieks. The laughter in the stands sputters out. "Why are you standing there? This is a duel to the death! Surrender is not an option!"
+"What is the meaning of this insolence?" the ambassador shrieks. The laughter in the stands sputters out. "Why are you standing there? This is a duel to the death! Surrender is not a path!"
 
 "Well," Daren says, folding his arms with an easy smirk. "What are you going to do about it?"
 
@@ -73,19 +73,19 @@ The ambassador turns purple. His glare snaps to me.
 
 "You there!" he points a trembling finger. "Peasant! Your adversary has cast aside his steel. Strike him down this instant, or face the full penalty of the crown!"
 
-choice(""Who are you calling a peasant? Peasant!"", B2-Ch05b-Peasant, v_current_scene = B2-Ch05b-Peasant)
-choice(""Are you okay? Your face is all red. Maybe we should call a doctor."", B2-Ch05b-Doctor, v_current_scene = B2-Ch05b-Doctor)
+choice(""If I'm the peasant, explain why the crown's man just walked onto someone else's execution to give orders."", B2-Ch05b-Peasant, v_current_scene = B2-Ch05b-Peasant)
+choice(""Sit down before you rupture something the crown still needs. The stands can wait."", B2-Ch05b-Doctor, v_current_scene = B2-Ch05b-Doctor)
 choice("Finish off Daren", B2-Ch05b-Finish, v_current_scene = B2-Ch05b-Finish)
 
 
 ID: B2-Ch05b-Peasant
 TEXT:
 
- "Who are you calling a peasant? Peasant!"
+ "If I'm the peasant, explain why the crown's man just walked onto someone else's execution to give orders."
 
 I throw my voice straight toward the upper tiers so every spectator can catch the words.
 
-"I am no peasant, you lowborn mongrel!" the ambassador shrieks. "You are the peasant!"
+"I speak for Ollendor, you lowborn mongrel!" the ambassador shrieks. "You are the peasant!"
 
 "No, you are the peasant!" I shoot back.
 
@@ -113,7 +113,7 @@ choice("Continue", B2-Ch05b-Shunned, v_current_scene = B2-Ch05b-Shunned)
 ID: B2-Ch05b-Doctor
 TEXT:
 
- "Are you okay? Your face is all red. Maybe we should call a doctor."
+ "Sit down before you rupture something the crown still needs. The stands can wait."
 
 I project my voice directly up toward the crowded stone rows.
 
@@ -227,7 +227,7 @@ In a single fluid motion, he whips his broadsword across the air with terrifying
 
 Daren lets out a small, disappointed breath and jogs over to yank his blade from the ground.
 
-With the ambassador gone, the official brings our match to a close, declaring me the victor by forfeit. I turn back toward the division holding cells, but the announcer calls out from his rail. He informs me that my schedule included an immediate death duel against a fighter from the sixth division, but adds that as a recognized undesirable, I hold the legal right to decline all duels until the final penalty melee.
+With the ambassador gone, the official brings our match to a close, declaring me the victor by forfeit. I turn back toward the division holding cells, but the announcer calls out from his rail. He informs me that the tournament card listed an immediate death duel against a fighter from the sixth division, but adds that as a recognized undesirable, I hold the legal right to decline all duels until the final penalty melee.
 
 choice("Refuse the duel", B2-Ch05b-Refuse, v_current_scene = B2-Ch05b-Refuse, v_b2_ch5_spare = 0)
 choice("Accept the duel", B2-Ch05b-Accept, v_current_scene = B2-Ch05b-Accept)
@@ -503,7 +503,7 @@ The gladiator closes the distance and plants his boots a dozen feet away, sizing
 
 The horn sounds. The man lunges forward, hoisting the heavy battleaxe high for an overhead cleave.
 
-I hold my ground, tracking the weapon's trajectory, waiting for the right opening to strike.
+I hold my ground, tracking the arc of his swings, waiting for the right opening to strike.
 
 Dodging a two-handed battleaxe wielded by a seasoned pit fighter demands total focus. The wide swings whistle past my face, churning the sand, each blow carrying enough weight to shear through a wooden post. The long curve of the scimitar lets me deflect the closest strikes while slipping past his reach.
 
@@ -517,7 +517,7 @@ The gladiator closes the distance and plants his boots a dozen feet away, sizing
 
 The horn sounds. The man lunges forward, hoisting the heavy battleaxe high for an overhead cleave.
 
-I hold my ground, tracking the weapon's trajectory, waiting for the right opening to strike.
+I hold my ground, tracking the arc of his swings, waiting for the right opening to strike.
 
 Dodging a two-handed battleaxe wielded by a seasoned pit fighter demands total focus. The wide swings whistle past my face, churning the sand, each blow carrying enough weight to shear through a wooden post. My heightened reflexes keep me a fraction of an inch ahead of every whistling edge.
 
@@ -531,7 +531,7 @@ The gladiator closes the distance and plants his boots a dozen feet away, sizing
 
 The horn sounds. The man lunges forward, hoisting the heavy battleaxe high for an overhead cleave.
 
-I hold my ground, tracking the weapon's trajectory, waiting for the right opening to strike.
+I hold my ground, tracking the arc of his swings, waiting for the right opening to strike.
 
 Dodging a two-handed battleaxe wielded by a seasoned pit fighter demands total focus.
 
@@ -545,7 +545,7 @@ The gladiator closes the distance and plants his boots a dozen feet away, sizing
 
 The horn sounds. The man lunges forward, hoisting the heavy battleaxe high for an overhead cleave.
 
-I hold my ground, tracking the weapon's trajectory, waiting for the right opening to strike.
+I hold my ground, tracking the arc of his swings, waiting for the right opening to strike.
 
 Dodging a two-handed battleaxe wielded by a seasoned pit fighter demands total focus. The wide swings whistle past my face, churning the sand, each blow carrying enough weight to shear through a wooden post. My heightened reflexes keep me a fraction of an inch ahead of every whistling edge.
 
@@ -638,7 +638,7 @@ choice("Continue", B2-Ch05b-Undesirables, v_current_scene = B2-Ch05b-Undesirable
 ID: B2-Ch05b-Refuse
 TEXT:
 
- I take full advantage of my undesirable status and refuse the duel. There is no sense in burning stamina before the final melee. Every ounce of energy I save right now goes toward surviving whatever meat grinder they have planned for the end.
+ I take full advantage of my undesirable brand and refuse the duel. There is no sense in burning stamina before the final melee. Every ounce of energy I save right now goes toward surviving whatever meat grinder they have planned for the end.
 
 I inform the announcer of my refusal and turn back to my cell. The iron portcullis grinds shut behind me, and I settle against the cold masonry to watch the remaining duels.
 
@@ -808,7 +808,7 @@ The stands erupt into chaos. Thousands of citizens surge toward the stone vomito
 
 The announcer leans over his rail toward our line on the sand.
 
-"Gladiators," he calls down hurriedly. "Under the statutes of Thilias, a city-wide state of emergency conscripts all arena fighters into the royal garrison until the crisis passes. You are now crown assets."
+"Gladiators," he calls down hurriedly. "Under the statutes of Thilias, a city-wide state of emergency conscripts all arena fighters into the royal garrison until the crisis passes. You are now under crown command."
 
 choice(""Like hell, we will! That wasn't the deal!"", B2-Ch05b-Deal, v_current_scene = B2-Ch05b-Deal)
 choice(""What is the emergency?"", B2-Ch05b-Emergency, v_current_scene = B2-Ch05b-Emergency)
@@ -1087,7 +1087,7 @@ Near the service tunnel, a short, broad-shouldered gnome in royal regalia is scr
 
 His sharp eyes snap toward our group on the sand.
 
-"You there! Conscripts!" Golmyck points a finger. "Do any of you know how to handle gnomish flight controls? Or can anyone lead a target from a moving chassis? I need crew right now!"
+"You there! Conscripts!" Golmyck points a finger. "Do any of you know how to handle gnomish flight controls? Or can anyone lead a target from a moving cockpit? I need crew right now!"
 
 choice("Offer to pilot the aircraft", B2-Ch05b-Trapped, v_current_scene = B2-Ch05b-Trapped, v_b2_ch5_pilot = 1)
 choice("Offer to man the guns", B2-Ch05b-Trapped, v_current_scene = B2-Ch05b-Trapped, v_b2_ch5_pilot = 0)
@@ -1107,7 +1107,7 @@ TEXT:
 
 He taps the center column.
 
-"Control stick manages pitch and bank. Rudder pedals below are strictly for fine trim—do not kick the pedals to turn, or you will roll the chassis. Bank with the stick."
+"Control stick manages pitch and bank. Rudder pedals below are strictly for fine trim—do not kick the pedals to turn, or you will roll the craft. Bank with the stick."
 
 "Understood."
 
@@ -1175,7 +1175,7 @@ Golmyck signals the wind mage on the sand. The elementalist channels a turbine s
 
 I pull back on the collective lever. The gyrocopter shudders, lifts from the arena floor, and climbs into the sky.
 
-"You mentioned the guns are only a distraction!" I shout over the engine noise. "What is the actual win condition?"
+"You mentioned the guns are only a distraction!" I shout over the engine noise. "How do we actually bring him down?"
 
 "We are not here to shoot him down!" Golmyck yells back. "Our objective is to maneuver directly above the dragon and deploy the snare!"
 
@@ -1191,7 +1191,7 @@ I pull back on the collective lever. The gyrocopter shudders, lifts from the are
 
 Golmyck pulls back on the collective lever. The gyrocopter shudders, lifts from the arena floor, and climbs into the sky.
 
-"You mentioned the guns are only a distraction!" I shout over the engine noise. "What is the actual win condition?"
+"You mentioned the guns are only a distraction!" I shout over the engine noise. "How do we actually bring him down?"
 
 "We are not here to shoot him down!" Golmyck yells back. "Our objective is to maneuver directly above the dragon and deploy the snare!"
 
@@ -1293,7 +1293,7 @@ I traverse the turret and open fire, but Tyrath reads the barrel alignment, bank
 
 "Can we outrun him?" I shout.
 
-"Negative!" Golmyck yells back.
+"Not a chance!" Golmyck yells back.
 
 Golmyck wrenches the stick, but Tyrath swoops down with terrifying speed. His massive talons punch through the canopy, crushing me before I can pull the trigger again.
 
@@ -1353,7 +1353,7 @@ set(v_is_dead,1) if (v_combat_technique < 2)
 
 "Understood!" Golmyck calls back, locking the control column.
 
-I grip the traverse handles, tracking the dragon's flight path. Factoring in our airspeed and the gyrocopter's vibration, I lead the target and squeeze the trigger.
+I grip the traverse handles, tracking the dragon's flight path. Accounting for our airspeed and the shudder of the airframe, I lead the target and squeeze the trigger.
 
 Six acid-coated rounds hammer into the membrane of Tyrath's right wing. The caustic splash burns through scales and tissue, making the dragon shriek in pain and break his pursuit.
 
@@ -1371,7 +1371,7 @@ Tyrath inhales a full lungful of water. His eyes bulge. He thrashes violently, c
 
 "Now!" Golmyck shouts. "I am positioning us directly above him! When I give the signal, pull the release lever on your right to drop the snare! Do you see it?"
 
-"Got it!" I call back. "Awaiting your mark!"
+"Understood!" I call back. "Awaiting your mark!"
 
 The dragon thrashes in mid-air, clawing at the water sphere engulfing his head.
 
@@ -1395,7 +1395,7 @@ Golmyck dives to evade the fire, but with full wing speed, the dragon overtakes 
 
 "Can we outrun him?" I yell.
 
-"Negative!"
+"Not a chance!"
 
 Tyrath swoops out of the sun, his massive rear talons smashing through the cockpit canopy and crushing me instantly.
 
@@ -1457,31 +1457,21 @@ choice("Continue", B2-Ch05b-Serious, v_current_scene = B2-Ch05b-Serious)
 ID: B2-Ch05b-Serious
 TEXT:
 
- "I cannot permit that, king of all dragons," a calm voice drifts through the sky.
+ Tyrath draws his fiery aura inward, incandescent magma rippling across his chest as he begins to weave the incantation to incinerate the city.
 
-Eiden floats in the open air directly in front of the blazing dragon, hands resting casually in his pockets, his eyes closed, his expression serene.
+The air across the coliseum warps in the blinding heat, but before the incantation can ignite, the dragon's molten frame violently shudders.
 
-"Eiden..." Tyrath growls, his magma-coated jaw tightening.
+A concussive plume of scalding steam and caustic, sulfurous vapor blasts from the deep punctures in his chest and shoulders. The water from Illuna's drowning sphere, trapped and flash-boiled deep in his respiratory tract, violently clashes against the acid-etched wounds in his hide. A sickening hiss echoes across the arena as the bright magma along his flanks darkens into brittle, smoking obsidian.
 
-"Had you remained in your lesser form," Eiden says mildly, "I might have continued to overlook your breach of our accord. But leveling an entire city forces my hand."
+He burned the last of his immediate mana pool on three emergency teleports and the sudden shift into primordial form. Maintaining a shroud that burns like a small star while channeling a city-leveling blast is cannibalizing his own core.
 
-"What accord?" Tyrath sneers.
+"Go on, oversized lizard!" Arraka's mocking cackle shrieks from the amulet below, dripping with pure spite. "Channel that continent-cracker! You burned through your immediate reservoir escaping a dwarf's cable trick, and your lungs are drenched in boiled water and caustic acid! Let's see if you manage to glass the city before your own chest cavity collapses from the thermal backlash!"
 
-"The pact you, I, and the golden fox sealed centuries ago," Eiden replies. "Have you forgotten its terms? None of the three signatories may directly assault the followers of another. A clash between any two of us carries the certainty of shattering this entire island, an outcome none of us desire. Every dispute between us is to be resolved through intermediaries."
+Tyrath's golden slit pupils flare with murderous hatred, but the incantation falters. The molten plating around his jaw fissures and cools to blackened rock as his depleted core struggles against the strain.
 
-"That pact died with our parity," Tyrath spits. "We signed when our strength stood equal. Ever since you abandoned this continent, you have withered into a hollow shell. Without your cowardly tricks, I would have ground your bones to powder a century ago. You are no threat, stillwater. The pact is void."
+"What's the matter?" Arraka taunts him relentlessly. "Did the great 'King of Dragons' forget basic arcane backlash? Drop an unshielded primordial eruption right now and you'll vaporize your own vanguard in the foothills and leave yourself an empty husk on the sand! You don't have the reserves to survive your own blast!"
 
-"Is it?" Eiden's polite smile widens. "Then let us ratify a new one."
-
-The atmosphere hardens into solid iron.
-
-The sheer weight of Eiden's unleashed aura crushes down on our chests, making the air thick and difficult to breathe. An invisible tremor ripples through the sky, the blue heavens shivering as if on the verge of shattering under the pressure.
-
-"Well, well," Arraka's voice drifts from the pendant below. "Eiden finally decides to get a little serious."
-
-"A little?" Illuna cries out from the shared throat.
-
-"We never titled our original agreement," Eiden tells the dragon, "but we might name this one 'The Pact of the Creator's Return.' What do you say, old friend? Does your word suffice, or shall I fetch parchment?"
+The dragon hovers, his fiery aura flickering violently against the sudden drain. The combined assault—Kate's ice lances, Hadrik's impacts, Illuna's drowning trap, and the gyrocopter's acid fire—has stripped away the exact margin of power he needed to level Thilias.
 
 choice("Continue", B2-Ch05b-Rejoice, v_current_scene = B2-Ch05b-Rejoice)
 
@@ -1489,37 +1479,35 @@ choice("Continue", B2-Ch05b-Rejoice, v_current_scene = B2-Ch05b-Rejoice)
 ID: B2-Ch05b-Rejoice
 TEXT:
 
- Tyrath hovers in silence, his slit golden eyes fixed on the stillwater, measuring the crushing weight of the aura before him.
+ Tyrath hovers in the sulfurous air, his slit golden eyes sweeping over the ruined sand, measuring the cost of his failing reserves.
 
-"Perhaps I miscalculated," Tyrath says at last, his voice tight. "Your wanderings have not dulled your edge quite as much as I believed."
+"You have bought your lives by seconds, insects," Tyrath rumbles, his voice grinding like cooling tectonic plates. "I will not waste another spark of my breath on a ruined ring. But do not mistake this for survival. If I may not burn these cities with my own fire today, my dragon hordes will finish the work. I will unleash every legion across the northern peaks. I will not rest until every human settlement on Varathia is reduced to ash, whether it takes weeks or centuries. The next time our paths cross, everything you cling to will be rubble."
 
-He pauses, smoke coiling from his nostrils.
+The dragon beats his colossal, smoking wings, climbing steeply into the upper cloud layer and streaking away toward the northern mountains.
 
-"I have no desire to destroy this continent in an open war with you, stillwater. I will honor the accord. But my intent stands. If I may not burn these cities with my own fire, my dragon hordes will do the work. I will not rest until every human settlement is reduced to ash, whether it takes weeks or centuries. The next time our paths cross, everything you once built will be rubble. Remember my words."
+The silence that falls over the arena is deafening. The air hangs heavy with sulfur, steam, and the stench of scorched sand.
 
-As Tyrath wheels to leave, Eiden raises a hand.
+High in the empty blue sky where the dragon vanished, a faint ripple passes through the air—not a physical descent, but a presence, like a light breeze carrying a quiet voice across the coliseum.
 
-"One detail," Eiden adds, his smile perfectly pleasant. "The mages competing in the tournament are temporarily classified as my followers under the accord. They are our guests. You will not harm a single one before the tournament concludes—unless they strike first, of course."
+"Well, well," the disembodied voice muses, calm, melodic, and impossibly clear. "How terribly dramatic."
 
-"Hmph," Tyrath grunts. "I shall remember."
+Arraka snorts from the amulet below. "Took your sweet time noticing the racket, didn't you, brat?"
 
-The dragon beats his colossal wings, climbing into the upper cloud layer and streaking away toward the northern mountains.
+"I was enjoying the performance," the unseen voice replies, airy and amused. "Though I suppose this complicates the trials. If the dragon king is mobilizing his hordes, the tournament organizers will have to delay the trials. And to keep things orderly... all mages registered in the tournament are temporarily classified as my followers under our ancient accord. A necessary formality to keep the dragon from devouring the contestants before the final rounds."
 
-"Farewell, king of dragons," Eiden murmurs.
+A pause, then the disembodied voice carries clearly down to the frozen royal guardsmen lining the balustrades, their faces white as parchment.
+
+"What are you standing there for? Go on, spread the word across the kingdom! Rejoice, for your Creator has returned!"
+
+The presence evaporates from the sky like morning mist, leaving only the whistling wind.
 
 "Eiden!" a girl's voice rings out from the deserted spectator seats. "Hey, Eiden, can you hear me?"
 
-I look toward the stone benches. A teenage girl in loose clothing stands alone in the middle tier, waving her arms and yelling toward the sky.
+I look toward the stone benches. A teenage girl in loose clothing stands alone in the middle tier, waving her arms and yelling toward the empty sky.
 
-"Damn it!" she shouts. "Don't you dare ignore me!"
+"Damn it!" she shouts, stomping her foot in irritation. "Don't you dare ignore me!"
 
-Eiden gives a lazy flick of his fingers in her general direction. The sound of her voice cuts out entirely—an effortless silencing ward. The girl keeps shouting, oblivious that no sound leaves her lips.
-
-Eiden turns toward the royal guardsmen frozen along the balustrades, their faces pale as parchment. His smile broadens.
-
-"What are you standing there for?" Eiden calls down to the soldiers. "Go on, spread the word across the kingdom! Rejoice, for your Creator has returned!"
-
-He vanishes into thin air.
+Her voice echoes against the silent stone tiers, completely unanswered.
 
 "I believe it is time we returned to solid ground, Barry," Golmyck says from behind me. "Our duty here is finished."
 
@@ -1629,7 +1617,7 @@ TEXT:
 
 "Excuse me? Sir?" the girl tries again.
 
-"Don't be a killjoy, Daren!" Hadrik interjects with a laugh. "The organizers set no deadline for the initial trials. They won't disqualify us if we don't start hunting pine cones this very second."
+"Don't be a killjoy, Daren!" Hadrik interjects with a laugh. "The organizers set no appointed hour for the initial trials. They won't disqualify us if we don't start hunting pine cones this very second."
 
 "Hadrik, you are the last person who should speak on strategy!" Daren snaps. "You care nothing for the Magium—you just want an excuse to dodge the pine cone hunt!"
 

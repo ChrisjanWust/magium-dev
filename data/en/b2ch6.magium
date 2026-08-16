@@ -13,7 +13,7 @@ Muffled cursing rattles inside the metal casing, but nobody pays it any mind. Wi
 
 "Hold on a second," Hadrik cuts in. "You're a stillwater?"
 
-"Well, yes," Melindra says, blinking. "I thought that part was fairly obvious. Arraka literally just said--"
+"Well, yes," Melindra says, blinking. "I thought that part was fairly obvious. Arraka only just said--"
 
 "How did you become one?" Hadrik asks. "Were you born like that? Can women be born as stillwaters?"
 
@@ -267,7 +267,7 @@ TEXT:
 
 "I don't know about the rest of you," I say, "but I'm looking forward to causing some chaos in the ambassador's homeland. A little payback for the arena feels long overdue. Besides, Ollendor is going to be Leila's new home. We might as well clean up the neighborhood before she settles in."
 
-Leila blinks, startled. Her eyes widen as the realization hits her: she doesn't have to part ways with us now that the arena games are finished.
+Leila blinks, startled. Her hands freeze in the air as the meaning lands: she doesn't have to part ways with us now that the arena games are finished.
 
 "You are coming with us to Ollendor, right?" I ask her.
 
@@ -514,7 +514,7 @@ After a tense silence, she sighs and shoves the device back into my hands, scowl
 
 "Three left, three right, two left, four right, then left-right-left-right," she says. "You must complete the whole pattern within five seconds or the override resets."
 
-"Three left, three right, two left, four right, left-right-left-right," I repeat. "Got it. Thanks."
+"Three left, three right, two left, four right, left-right-left-right," I repeat. "Understood. Thanks."
 
 "Don't mention it," Melindra says.
 
@@ -550,7 +550,7 @@ After a tense silence, she sighs and shoves the device back into my hands, scowl
 
 "Three left, three right, two left, four right, then left-right-left-right," she says. "You must complete the whole pattern within five seconds or the override resets."
 
-"Three left, three right, two left, four right, left-right-left-right," I repeat. "Got it. Thanks."
+"Three left, three right, two left, four right, left-right-left-right," I repeat. "Understood. Thanks."
 
 "Don't mention it," Melindra says.
 
@@ -938,7 +938,7 @@ Leila turns, glowing blue letters drifting before her. "Yes?..."
 
 "I have a message for you from Eiden," I say.
 
-"Eiden?" Leila writes, tilting her head. "The stillwater who challenged the dragon in the arena?"
+"Eiden?" Leila writes, tilting her head. "The stillwater who spoke over the arena?"
 
 "That's him," I say. "He says to remember the Still Winter."
 
@@ -956,7 +956,7 @@ Leila turns back to her, and Kate begins explaining who Eiden is and why the phr
 
 "Damn it, Barry!" Daren hisses under his breath. "Can you take that message seriously for once? We were nearly killed the last time Eiden brought it up."
 
-"Relax," I whisper back. "That contract expired. I was supposed to deliver his words to the first lessathi I encountered. Those were Diane's associates in the forest. Eiden almost crushed us because I broke the deadline. The fact that he let it slide proves he never actually cared about the delivery. If he truly wanted the message spread, he could have teleported straight to them and spoken it himself--he recognized their presence from miles away. He's probably forgotten the whole thing by now."
+"Relax," I whisper back. "That contract expired. I was supposed to deliver his words to the first lessathi I encountered. Those were Diane's associates in the forest. Eiden almost crushed us because I broke the appointed hour. The fact that he let it slide proves he never actually cared about the delivery. If he truly wanted the message spread, he could have teleported straight to them and spoken it himself--he recognized their presence from miles away. He's probably forgotten the whole thing by now."
 
 "I hope you're right," Daren mutters.
 
@@ -1019,7 +1019,7 @@ I scan the rest of the ranged inventory, but the other models are either overpri
 #if(v_b2_ch5_scimitar == 2 && v_ch10_gems == 0 && v_ch3_treasure == 0) {
 I am looking for a repeating crossbow with a magazine capacity of at least five bolts, matching the cadence of my old weapon.
 
-Two models on the display rack stand out immediately, both far superior to my worn piece. The expensive piece costs nearly the entire seventy gold coins I just made from selling the scimitar, while the secondary option costs roughly a third of that.
+Two models on the display rack stand out immediately, both far superior to my worn piece. The expensive piece costs nearly the entire seventy gold coins I just made from selling the scimitar, while the second course costs roughly a third of that.
 
 The premium model holds seven bolts in its internal magazine, boasting reinforced steel limbs for greater draw weight, extended range, and tighter accuracy. The cheaper model fires six bolts and improves on my old gear in every respect, but lacks the polished mechanism of the seven-shot piece.
 
@@ -1062,7 +1062,7 @@ Flower's eyes flash vivid blue. Illuna takes the front, staring at me in deadpan
 
 }
 #if(v_b2_ch6_crossbow == 1) {
-I purchase the seven-shot repeating crossbow. Since it serves as my sole ranged option in a fight, cutting corners on quality is a mistake.
+I purchase the seven-shot repeating crossbow. Since it serves as my sole weapon at range in a fight, cutting corners on quality is a mistake.
 
 Once the transactions are settled and the new weapon is stowed in my pack, Daren and I step back into the street. I remember an essential supply I still need, tell Daren to head ahead to the fountain, and duck into the apothecary shop across the lane.
 
@@ -1089,7 +1089,7 @@ choice("Continue", B2-Ch06a-Complex, v_current_scene = B2-Ch06a-Complex)
 ID: B2-Ch06a-Complex
 TEXT:
 
-"Hadrik," Daren sighs, "I understand your loyalty to Talmak because you share dwarven blood, but that is simply not how high-tier spellcraft operates. Raw power alone does not guarantee victory in a duel. Versatility decides the outcome. Azarius is a master generalist; his repertoire spans nearly every school, which makes his offense impossible to predict. Specialists are always at a disadvantage against generalists. That is precisely why I trained in both enchantment and white magic. Confining yourself to a single discipline narrows your tactical options against veteran casters."
+"Hadrik," Daren sighs, "I understand your loyalty to Talmak because you share dwarven blood, but that is simply not how high-tier spellcraft operates. Raw power alone does not guarantee victory in a duel. Versatility decides the outcome. Azarius is a master generalist; his repertoire spans nearly every school, which makes his offense impossible to predict. Specialists are always at a disadvantage against generalists. That is precisely why I trained in both enchantment and white magic. Confining yourself to a single discipline narrows your courses in battle against veteran casters."
 
 "Come off it!" Hadrik waves a thick hand. "Talmak isn't limited to tossing boulders. You saw him at the sage exhibition last year. He hurled lightning bolts and threw up force barriers with the best of them!"
 

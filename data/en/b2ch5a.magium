@@ -675,7 +675,7 @@ I am not fast enough to dance through their reach, but my stat booster is packed
 
 Wood cracks against enchanted steel. The shock travels down my arms, but my footing holds. I release the dagger with my right hand, seize the iron banding of the club with both fists, and wrench the weapon straight out of the ogre's grip. 
 
-Before he can process the empty hands, I bring the heavy timber down on his crown with all the power in my back. His skull shatters like dry clay. I pivot on my heel and swing the stolen log in a flat arc at the second ogre. With equal reach, his sluggish windup is a fatal liability. My swing connects across his jaw before his own stroke clears his shoulder, sending him crashing onto his side in the dirt. 
+Before he can register his empty hands, I bring the heavy timber down on his crown with all the power in my back. His skull shatters like dry clay. I pivot on my heel and swing the stolen log in a flat arc at the second ogre. With equal reach, his sluggish windup is a fatal liability. My swing connects across his jaw before his own stroke clears his shoulder, sending him crashing onto his side in the dirt. 
 
 I drop the splintered club and retrieve my knife from the sand. A heavy log works against blunt brutes, but Velgos's enchanted scimitars would shear through timber in one stroke.
 
@@ -744,13 +744,13 @@ TEXT:
 #if(v_b2_ch5_first_cut == 0 && v_b2_ch5_negotiate == 2) {
  Velgos catches sight of me across the sand, yellow eyes flaring with fresh fury. Leila exploits the momentary lapse, closing the distance in a low skid to shear his head from his shoulders once again. Her sandal crushes the fallen skull into the sand.
 
-From the neck stump, gray tissue bubbles and stretches into a new head, but the process lags noticeably. The skin knits unevenly, leaving raw patches of exposed muscle and a crooked jawline.
+From the neck stump, gray tissue bubbles and stretches into a new head, but the reconstruction lags noticeably. The skin knits unevenly, leaving raw patches of exposed muscle and a crooked jawline.
 
 As the troll stumbles to his feet, Leila and Bruce close in from both flanks, driving him backward with relentless pressure.
 
 "Gods above!" the fire mage cries, waving his hands in exasperation. "Stop cutting off his head! It isn't working!"
 
-"On the contrary!" I call back. "Taking the head is the only thing that works! You saw how long he took to regrow it the second time. Even troll biology has limits. The body burns reserves every time it rebuilds complex tissue. One or two more decapitations and his system crashes!"
+"On the contrary!" I call back. "Taking the head is the only thing that works! You saw how long he took to regrow it the second time. Even troll biology has limits. The body burns reserves every time it rebuilds complex tissue. One or two more decapitations and his regeneration will collapse!"
 
 Across the sand, Velgos is losing ground. Bruce draws his high guard while Leila threatens the unarmored shoulder; the moment the troll commits to a swing at Bruce, Leila's blade flashes toward his neck.
 
@@ -758,7 +758,7 @@ Across the sand, Velgos is losing ground. Bruce draws his high guard while Leila
 #if(v_b2_ch5_first_cut == 1 && v_b2_ch5_negotiate == 2) {
  "Gods above!" the fire mage cries, waving his hands in exasperation. "Stop cutting off his head! It isn't working!"
 
-"On the contrary!" I call back. "Taking the head is the only thing that works! You saw how long he took to regrow it the second time. Even troll biology has limits. The body burns reserves every time it rebuilds complex tissue. One or two more decapitations and his system crashes!"
+"On the contrary!" I call back. "Taking the head is the only thing that works! You saw how long he took to regrow it the second time. Even troll biology has limits. The body burns reserves every time it rebuilds complex tissue. One or two more decapitations and his regeneration will collapse!"
 
 Across the sand, Velgos locks eyes with me, snarling as his scimitars weave a desperate defensive pattern.
 
@@ -772,7 +772,7 @@ As soon as the head forms, Leila, Bruce, and the two ogres surround the troll, p
 
 "Gods above!" the fire mage cries, waving his hands in exasperation. "Stop cutting off his head! It isn't working!"
 
-"On the contrary!" I call back. "Taking the head is the only thing that works! You saw how long he took to regrow it the second time. Even troll biology has limits. The body burns reserves every time it rebuilds complex tissue. One or two more decapitations and his system crashes!"
+"On the contrary!" I call back. "Taking the head is the only thing that works! You saw how long he took to regrow it the second time. Even troll biology has limits. The body burns reserves every time it rebuilds complex tissue. One or two more decapitations and his regeneration will collapse!"
 
 Velgos is completely overwhelmed. He has never fought four heavy melee combatants at once, and his parries are ragged and late.
 
@@ -780,7 +780,7 @@ Velgos is completely overwhelmed. He has never fought four heavy melee combatant
 #if(v_b2_ch5_first_cut == 1 && v_b2_ch5_negotiate == 1) {
  "Gods above!" the fire mage cries, waving his hands in exasperation. "Stop cutting off his head! It isn't working!"
 
-"On the contrary!" I call back. "Taking the head is the only thing that works! You saw how long he took to regrow it the second time. Even troll biology has limits. The body burns reserves every time it rebuilds complex tissue. One or two more decapitations and his system crashes!"
+"On the contrary!" I call back. "Taking the head is the only thing that works! You saw how long he took to regrow it the second time. Even troll biology has limits. The body burns reserves every time it rebuilds complex tissue. One or two more decapitations and his regeneration will collapse!"
 
 The two ogres slam into the center, iron-banded logs driving Velgos backward as he snarls in disbelief at their betrayal.
 
@@ -895,7 +895,7 @@ The moment his eyes open, Leila is back on him, keeping his scimitars locked in 
 
 "Gods above!" the fire mage cries, waving his hands in exasperation. "Stop cutting off his head! It isn't working!"
 
-"On the contrary!" I call back. "Taking the head is the only thing that works! You saw how long he took to regrow it the second time. Even troll biology has limits. The body burns reserves every time it rebuilds complex tissue. One or two more decapitations and his system crashes!"
+"On the contrary!" I call back. "Taking the head is the only thing that works! You saw how long he took to regrow it the second time. Even troll biology has limits. The body burns reserves every time it rebuilds complex tissue. One or two more decapitations and his regeneration will collapse!"
 
 Across the sand, Wilhelm stalks the periphery like a shadow, repeatedly slipping into Velgos's blind spots. The troll cannot commit to an attack against the assassin; every time his eyes leave Leila, her enchanted dagger seeks his throat.
 
@@ -963,7 +963,7 @@ The moment his eyes open, Leila is back on him, keeping his scimitars locked in 
 
 "Gods above!" the fire mage cries, waving his hands in exasperation. "Stop cutting off his head! It isn't working!"
 
-"On the contrary!" I call back. "Taking the head is the only thing that works! You saw how long he took to regrow it the second time. Even troll biology has limits. The body burns reserves every time it rebuilds complex tissue. One or two more decapitations and his system crashes!"
+"On the contrary!" I call back. "Taking the head is the only thing that works! You saw how long he took to regrow it the second time. Even troll biology has limits. The body burns reserves every time it rebuilds complex tissue. One or two more decapitations and his regeneration will collapse!"
 
 Across the sand, Leila and Velgos circle each other in a tight, lethal stalemate. Neither has a clean opening; every strike is parried or dodged by a hair's breadth.
 
@@ -1053,7 +1053,7 @@ TEXT:
 
 I sprint for the center, and the mage scrambles to keep pace. Presenting a zero-risk opening is the only way to get him moving. He has been frozen in terror since the horn blew, but he doesn't want to look like a coward in front of the crowd.
 
-I conveniently left out one critical detail. Even with his head severed, a troll's nervous system carries enough residual reflex to swing a blade during the first second of decapitation. That is why I have no intention of stabbing Velgos myself. The mage can take the glory—and the return stroke.
+I conveniently left out one critical detail. Even with his head severed, a troll's dying frame carries enough violent reflex to swing a blade during the first second after decapitation. That is why I have no intention of stabbing Velgos myself. The mage can take the glory—and the return stroke.
 
 We reach the troll's blind side while Leila keeps his scimitars occupied. I flash a nod to the mage, and we both charge his exposed back.
 
@@ -1145,7 +1145,7 @@ TEXT:
 
 I sprint for the center, and the mage scrambles to keep pace. Presenting a zero-risk opening is the only way to get him moving. He has been frozen in terror since the horn blew, but he doesn't want to look like a coward in front of the crowd.
 
-I conveniently left out one critical detail. Even with his head severed, a troll's nervous system carries enough residual reflex to swing a blade during the first second of decapitation. That is why I have no intention of stabbing Velgos myself. The mage can take the glory—and the return stroke.
+I conveniently left out one critical detail. Even with his head severed, a troll's dying frame carries enough violent reflex to swing a blade during the first second after decapitation. That is why I have no intention of stabbing Velgos myself. The mage can take the glory—and the return stroke.
 
 We reach the troll's blind side while Leila keeps his scimitars occupied. I flash a nod to the mage, and we both charge his exposed back.
 
@@ -1439,9 +1439,9 @@ Almost immediately, furious shouting carries through the wood from the hallway. 
 
 "What do you mean, smoothly?" the ambassador shrieks. "Are you mocking me, Venard?"
 
-"Not at all, Ambassador," Venard's smooth, cultured voice replies. "The tournament proceedings have followed standard operational protocol at every stage."
+"Not at all, Ambassador," Venard's smooth, cultured voice replies. "The tournament proceedings have followed established arena custom at every stage."
 
-"Standard protocol? The killers of the Earl of Ollendor are still breathing, and you call that standard protocol?"
+"Established custom? The killers of the Earl of Ollendor are still breathing, and you call that established custom?"
 
 "I assure you," Venard says mildly, "our guests have received no special favors in the arena. Quite the contrary. If you harbor concerns regarding the matchups, you remain entirely free to consult the staging committee to adjust the final card. As always, the embassy maintains final authority over tournament scheduling."
 

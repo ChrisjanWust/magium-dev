@@ -245,7 +245,7 @@ TEXT:
 
 "The rumors are true," Nolderan says with a dry chuckle. "Losing a sage title so quickly, and so brutally, ruined my standing as an instructor. Potential students assumed I was washed up and took their coin to other enchanting and martial masters. The Southern Continent has no shortage of academies. When the commissions dried up, I took my swords where people were willing to pay. Mercenary clients don't care about your reputation in high society. They only care whether you finish the job. It isn't glorious work, but it keeps bread on the table."
 
-"I'm sorry," Daren says, looking down. "I had no idea things were so difficult. I should have stayed in contact."
+"I'm sorry," Daren says, looking down. "I had no idea things were so difficult. I should have sent word."
 
 "Save your guilt," Nolderan says. "A warrior's life has its peaks and valleys. This tournament offers a path back to where I was. That's why we're all here, isn't it? To take hold of our own fate?"
 
@@ -351,7 +351,7 @@ TEXT:
 #if(v_b2_ch10_toast == 1 && v_b2_ch9_drink == 1) {
 Nolderan sprints across the turf toward an orc locked in combat with Daren. In full stride, the ex-sage launches into a horizontal leap, twisting mid-air to slam both boots square into the monster's spine. The orc stumbles forward off-balance as Nolderan hits the grass on his shoulder. Daren drives his broadsword down through the warrior's collar before the brute can turn. Nolderan rolls clear of a counter-swing from a second orc, springs to his feet, and fakes a wide overhead slash with his left blade. As the orc jerks his shield up to intercept, Nolderan's right sword whips around in a low arc, shearing clean through the warrior's neck.
 
-The haze of dwarven ale is still buzzing in the back of my skull, but standing idle isn't an option.
+The haze of dwarven ale is still buzzing in the back of my skull, but standing idle is not a path.
 
 I bring my crossbow up, centering the sights on one of the warriors pressing Leila on the right flank.
 
@@ -439,7 +439,7 @@ set(v_is_dead,0) if (v_b2_ch10_toast == 0 && v_reflexes >= 1 || v_b2_ch9_drink =
 #if(v_b2_ch10_toast == 1 && v_b2_ch5_scimitar == 0 && v_b2_ch9_drink == 1) {
 Nolderan sprints across the turf toward an orc locked in combat with Daren. In full stride, the ex-sage launches into a horizontal leap, twisting mid-air to slam both boots square into the monster's spine. The orc stumbles forward off-balance as Nolderan hits the grass on his shoulder. Daren drives his broadsword down through the warrior's collar before the brute can turn. Nolderan rolls clear of a counter-swing from a second orc, springs to his feet, and fakes a wide overhead slash with his left blade. As the orc jerks his shield up to intercept, Nolderan's right sword whips around in a low arc, shearing clean through the warrior's neck.
 
-The haze of dwarven ale is still buzzing in the back of my skull, but standing idle isn't an option.
+The haze of dwarven ale is still buzzing in the back of my skull, but standing idle is not a path.
 
 I draw my dagger and sprint toward the flank where Leila is fighting.
 
@@ -449,7 +449,7 @@ The nearest orc spots my approach, locking his shield forward to catch my thrust
 #if(v_b2_ch10_toast == 1 && v_b2_ch9_drink == 1 && v_b2_ch5_scimitar != 0) {
 Nolderan sprints across the turf toward an orc locked in combat with Daren. In full stride, the ex-sage launches into a horizontal leap, twisting mid-air to slam both boots square into the monster's spine. The orc stumbles forward off-balance as Nolderan hits the grass on his shoulder. Daren drives his broadsword down through the warrior's collar before the brute can turn. Nolderan rolls clear of a counter-swing from a second orc, springs to his feet, and fakes a wide overhead slash with his left blade. As the orc jerks his shield up to intercept, Nolderan's right sword whips around in a low arc, shearing clean through the warrior's neck.
 
-The haze of dwarven ale is still buzzing in the back of my skull, but standing idle isn't an option.
+The haze of dwarven ale is still buzzing in the back of my skull, but standing idle is not a path.
 
 I draw my scimitar and sprint toward the flank where Leila is fighting.
 
@@ -544,7 +544,7 @@ choice("Shoot the mammoth with the crossbow", B2-Ch10a-Shoot, v_current_scene = 
 ID: B2-Ch10a-Suggest
 TEXT:
 
-"It's testing our reaction," I say in a low voice. "In the wild, standard procedure with a northern mammoth is to yield ground slowly without breaking eye contact. If the summoning compulsion leaves it any instincts, it might let us back away. Step back slowly."
+"It's testing our reaction," I say in a low voice. "In the wild, the standard rule with a northern mammoth is to yield ground slowly without breaking eye contact. If the summoning compulsion leaves it any instincts, it might let us back away. Step back slowly."
 
 "You're the bookworm," Hadrik grunts. "Everyone ease back."
 
@@ -608,7 +608,7 @@ TEXT:
 
 The main vulnerability sits on the underside of the trunk, right at the base where it meets the jaw. Unlike standard elephants, red-eyed mammoths draw air through twin breathing slits tucked under the root of the trunk. There's no armored plate there, only soft mucous membrane. A deep blade thrust into that pocket will collapse the creature's airway. The catch is reaching the base of the trunk without getting flattened by thirty feet of thrashing muscle.
 
-The eyes are an option, but the heavy brow ridge and thick, leathery lids make piercing them from the front nearly impossible once the beast closes its guard.
+The eyes are a target, but the heavy brow ridge and thick, leathery lids make piercing them from the front nearly impossible once the beast closes its guard.
 
 I shove the notebook into my pocket and run back out into the clearing. The mammoth is swinging its trunk in wide arcs, keeping Hadrik airborne while Daren, Nolderan, and Leila hack fruitlessly at the armored hide around its ankles. Hadrik leaps from a fresh crater, throws a punch, and crashes into the turf a third time.
 

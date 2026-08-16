@@ -144,9 +144,9 @@ TEXT:
 
 "Boy, are you out of your mind?" Nolderan shouts. "Are you telling me that you are still holding on to your foolish ideals from back when you were still my pupil? When will you finally grow up and accept reality?"
 
-"Grow up?..." Daren takes a step forward, plate armor grinding. "And then what? Become Talmak's lapdog, like you did? What happened to you? What happened to the master I knew, who was a proud man that was happy and content with teaching people martial arts and enchanting for a living? What happened to that man who would never bend his knee to anyone, regardless of their social status, or their strength?"
+"Grow up?..." Daren takes a step forward, plate armor grinding. "And then what? Become Talmak's lapdog, like you did? What happened to you? What happened to the master I knew, who was a proud man that was happy and content with teaching people martial arts and enchanting for a living? What happened to that man who would never bend his knee to anyone, regardless of their rank or their strength?"
 
-"That man died long ago," Nolderan says, his voice dropping flat and bitter. "He died after I lost my sage status, and after everyone abandoned me, forcing me to take up work as a mercenary. But this time it's different. I'm no longer just working for scraps. If we succeed, here, I could finally turn my life around. And so could you, if you wouldn't keep stubbornly holding on to those childish ideals that you've had ever since I first met you!"
+"That man died long ago," Nolderan says, his voice dropping flat and bitter. "He died after I lost my sage title, and after everyone abandoned me, forcing me to take up work as a mercenary. But this time it's different. I'm no longer just working for scraps. If we succeed, here, I could finally turn my life around. And so could you, if you wouldn't keep stubbornly holding on to those childish ideals that you've had ever since I first met you!"
 
 "It seems that my old master truly is dead..." Daren says, shaking his head. "But my ideals are not. I am sorry to say that I will be refusing your offer once more, Sage of the North."
 
@@ -158,7 +158,7 @@ TEXT:
 
 choice(""Yeah, Daren, you should quit the tournament. Less competition for me, that way."", B2-Ch10b-Compete, v_current_scene = B2-Ch10b-Compete, v_b2_ch10_advisor = 0)
 choice(""Daren's servant? Do you have any idea how many times I saved this guy's neck?"", B2-Ch10b-Compete, v_current_scene = B2-Ch10b-Compete, v_b2_ch10_advisor = 1)
-choice(""Did anyone ever tell you that your dwarf henchmen look more intimidating than you?"", B2-Ch10b-Compete, v_current_scene = B2-Ch10b-Compete, v_b2_ch10_advisor = 2)
+choice(""You asked the wrong man to talk him down. I'm here for the Magium. So is he."", B2-Ch10b-Compete, v_current_scene = B2-Ch10b-Compete, v_b2_ch10_advisor = 2)
 
 
 ID: B2-Ch10b-Compete
@@ -197,9 +197,9 @@ Talmak's head jerks between me and Daren, reading the lack of hesitation on eith
 
 }
 #if(v_b2_ch10_advisor == 2) {
- "Did anyone ever tell you that your dwarf henchmen look more intimidating than you?"
+ "You asked the wrong man to talk him down. I'm here for the Magium. So is he."
 
-"What are you, some sort of clown?..." Talmak sneers. "Daren, if you're going to bring your personal jester to a tournament like this, then at least dress him accordingly. That way, people would know not to talk to him."
+"You? Competing for the Magium?..." Talmak sneers, looking me up and down with utter contempt. "You have no magical power whatsoever. Daren, what kind of delusion have you dragged along with you?"
 
 "Hey, you can ignore me all you want, but that won't make the truth go away," I say.
 
@@ -333,7 +333,7 @@ Melindra holds her breath, eyes watering against the dust, and gives a sharp nod
 
 "No doubt," she wheezes, rubbing her eyes. "Still felt like ten years in a rock grinder. Glad to see you got the message, at least."
 
-"Got it eventually," I say. "A little more detail wouldn't have hurt."
+"Understood eventually," I say. "A little more detail wouldn't have hurt."
 
 "I couldn't risk it," Melindra says. "Aura-readers in that squad would have caught a lie in half a heartbeat. I needed genuine panic on your faces for the bluff to hold."
 
@@ -383,7 +383,7 @@ Melindra holds her breath, eyes watering against the dust, and gives a sharp nod
 
 "Right, right," she wheezes, rubbing her eyes. "Glad to see you got the message, at least."
 
-"Got it eventually," I say. "A little more detail wouldn't have hurt."
+"Understood eventually," I say. "A little more detail wouldn't have hurt."
 
 "I couldn't risk it," Melindra says. "Aura-readers in that squad would have caught a lie in half a heartbeat. I needed genuine panic on your faces for the bluff to hold."
 
@@ -1651,7 +1651,7 @@ The forest goes completely still. The canopy breeze dies mid-rustle. All birdson
 
 Hadrik breaks the silence with a dry chuckle.
 
-"So, I've been wondering about something for a while... maybe you guys can clear it up for me," Hadrik says. "Does the time look frozen to anyone else? Or is it just me?..."
+"So, I've been wondering about something for a while... maybe you lot can clear it up for me," Hadrik says. "Does the time look frozen to anyone else? Or is it just me?..."
 
 }
 #if(v_ch4_spared_dave == 1) {
@@ -1667,7 +1667,7 @@ The forest goes completely still. The canopy breeze dies mid-rustle. All birdson
 
 Hadrik breaks the silence with a dry chuckle.
 
-"So, I've been wondering about something for a while... maybe you guys can clear it up for me," Hadrik says. "Does the time look frozen to anyone else? Or is it just me?..."
+"So, I've been wondering about something for a while... maybe you lot can clear it up for me," Hadrik says. "Does the time look frozen to anyone else? Or is it just me?..."
 
 }
 choice("Next chapter", B2-Ch11a-Intro, v_next_chapter_crash = 1, v_current_scene = B2-Ch11a-Intro, v_chapter_save_counter = 5, v_checkpoint_rich = 1, special:checkpoint_save)
@@ -1719,7 +1719,7 @@ The forest goes completely still. The canopy breeze dies mid-rustle. All birdson
 
 Hadrik breaks the silence with a dry chuckle.
 
-"So, I've been wondering about something for a while... maybe you guys can clear it up for me," Hadrik says. "Does the time look frozen to anyone else? Or is it just me?..."
+"So, I've been wondering about something for a while... maybe you lot can clear it up for me," Hadrik says. "Does the time look frozen to anyone else? Or is it just me?..."
 
 }
 #if(v_ch4_spared_dave == 1) {
@@ -1735,7 +1735,7 @@ The forest goes completely still. The canopy breeze dies mid-rustle. All birdson
 
 Hadrik breaks the silence with a dry chuckle.
 
-"So, I've been wondering about something for a while... maybe you guys can clear it up for me," Hadrik says. "Does the time look frozen to anyone else? Or is it just me?..."
+"So, I've been wondering about something for a while... maybe you lot can clear it up for me," Hadrik says. "Does the time look frozen to anyone else? Or is it just me?..."
 
 }
 choice("Next chapter", B2-Ch11a-Intro, v_next_chapter_crash = 1, v_current_scene = B2-Ch11a-Intro, v_chapter_save_counter = 5, v_checkpoint_rich = 1, special:checkpoint_save)
@@ -1763,7 +1763,7 @@ The forest goes completely still. The canopy breeze dies mid-rustle. All birdson
 
 Hadrik breaks the silence with a dry chuckle.
 
-"So, I've been wondering about something for a while... maybe you guys can clear it up for me," Hadrik says. "Does the time look frozen to anyone else? Or is it just me?..."
+"So, I've been wondering about something for a while... maybe you lot can clear it up for me," Hadrik says. "Does the time look frozen to anyone else? Or is it just me?..."
 
 }
 #if(v_ch4_spared_dave == 1) {
@@ -1779,7 +1779,7 @@ The forest goes completely still. The canopy breeze dies mid-rustle. All birdson
 
 Hadrik breaks the silence with a dry chuckle.
 
-"So, I've been wondering about something for a while... maybe you guys can clear it up for me," Hadrik says. "Does the time look frozen to anyone else? Or is it just me?..."
+"So, I've been wondering about something for a while... maybe you lot can clear it up for me," Hadrik says. "Does the time look frozen to anyone else? Or is it just me?..."
 
 }
 choice("Next chapter", B2-Ch11a-Intro, v_next_chapter_crash = 1, v_current_scene = B2-Ch11a-Intro, v_chapter_save_counter = 5, v_checkpoint_rich = 1, special:checkpoint_save)

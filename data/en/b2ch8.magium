@@ -1,7 +1,7 @@
 ID: B2-Ch08a-Intro
 TEXT:
 
-"There you are!" Melindra calls out the moment we draw within earshot. Her silk clothes ruffle in the morning draft, hair tied up in that high ponytail. "Right on schedule. Tell me, are we all ready for an adventure?"
+"There you are!" Melindra calls out the moment we draw within earshot. Her silk clothes ruffle in the morning draft, hair tied up in that high ponytail. "True to the hour. Tell me, are we all ready for an adventure?"
 
 "If by adventure you mean rotting in line for an hour, certainly," Daren says, nodding toward Thilias's northern gate.
 
@@ -180,7 +180,7 @@ Melindra halts, knitting her brows and pressing her lips into a hard, childish s
 
 "Fine," Melindra mutters, her scowl deepening.
 
-choice(""Whatever."", B2-Ch08a-Whatever, v_current_scene = B2-Ch08a-Whatever, v_b2_ch8_tornado = 0)
+choice(""As you like."", B2-Ch08a-Whatever, v_current_scene = B2-Ch08a-Whatever, v_b2_ch8_tornado = 0)
 choice(""What if we only ask her to demonstrate her powers, without fighting us?"", B2-Ch08a-Tornado, v_current_scene = B2-Ch08a-Tornado, v_b2_ch8_tornado = 1)
 
 
@@ -247,7 +247,7 @@ choice("Continue", B2-Ch08a-Trailing, v_current_scene = B2-Ch08a-Trailing)
 ID: B2-Ch08a-Whatever
 TEXT:
 
-"Whatever," I say.
+"As you like," I say.
 
 "Excellent," Daren says, clapping his hands together. "Let us move out. Melindra, lead the way."
 
@@ -1001,7 +1001,7 @@ TEXT:
 
 "They were organized," I say, stepping over broken branches. "Not ordinary wandering beasts. Leila, you identified them as dragon elites?"
 
-"Yes," Leila writes, the blue light fading as we walk. "Tyrath deploys these units exclusively for high-priority targets. He cannot hunt you personally under the non-interference pact with Eiden, so he stationed squads along the city's perimeter roads to intercept your departure."
+"Yes," Leila writes, the blue light fading as we walk. "Tyrath deploys these units exclusively for first-marked targets. He cannot hunt you personally under the non-interference pact with Eiden, so he stationed squads along the city's perimeter roads to intercept your departure."
 
 choice(""Do all of the elite groups have the same team composition?"", B2-Ch08a-Composition, v_current_scene = B2-Ch08a-Composition)
 choice(""Does Tyrath have any teams that are stronger than these elite squads?"", B2-Ch08a-Stronger, v_current_scene = B2-Ch08a-Stronger)
@@ -1722,7 +1722,7 @@ She murmurs a swift incantation under her breath. Instantly, the nocturnal choru
 
 "Right," I say, exhaling. "You bypassed our sentry. Now explain why you broke into my tent at midnight. What could possibly not wait until sunrise?"
 
-"A minor logistical oversight," Melindra says smoothly. "When I unpacked my provisions this evening, I realized I left my canvas in Thilias."
+"A minor oversight when packing," Melindra says smoothly. "When I unpacked my provisions this evening, I realized I left my canvas in Thilias."
 
 "You forgot your tent?" I stare at her. "Why not ask Daren or Hadrik for a spare ground-sheet?"
 
@@ -1927,7 +1927,7 @@ choice("Next chapter", B2-Ch09a-Intro, v_next_chapter_crash = 1, v_current_scene
 ID: B2-Ch08a-Sleepy
 TEXT:
 
-"Okay, fine, you win!" I say. "But you'd better be out of here before the others wake up."
+"All right, fine, you win!" I say. "But you'd better be out of here before the others wake up."
 
 "Do not fret," Melindra says, tucking her legs beneath the spare blanket. "I am an early riser. I will be gone before the birds stir."
 

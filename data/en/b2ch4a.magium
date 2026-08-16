@@ -147,19 +147,19 @@ I can tell it's her and not Illuna from the breathless rush.
 
 "Well, technically," Flower says, "what she said was that if you couldn't survive a minor scrape after entering the tournament, you deserved whatever happened to you. But she didn't mean it!"
 
-choice(""Oh yeah? Well, you tell her that her blue eyes make her look fat."", B2-Ch04a-Fat, v_current_scene = B2-Ch04a-Fat)
-choice(""It's okay. I know she means well!"", B2-Ch04a-Means, v_current_scene = B2-Ch04a-Means)
+choice(""Tell Petal the next time she writes me off as dead, she can skip the concern."", B2-Ch04a-Fat, v_current_scene = B2-Ch04a-Fat)
+choice(""It's all right. I know she means well!"", B2-Ch04a-Means, v_current_scene = B2-Ch04a-Means)
 choice(""What about Arraka? Was she not worried about me?"", B2-Ch04a-Worried, v_current_scene = B2-Ch04a-Worried)
 
 
 ID: B2-Ch04a-Fat
 TEXT:
 
-"Oh yeah? Well, you tell her that her blue eyes make her look fat."
+"Tell Petal the next time she writes me off as dead, she can skip the concern."
 
 "I can hear every word, Barry," Illuna's voice cuts in, flat and frigid.
 
-"Wait—do her blue eyes really make me look fat?" Flower pipes up.
+"Wait—was that supposed to be concern?" Flower pipes up.
 
 "Hey, mortal!" Arraka's voice shrills through, cutting Flower off. "One thing's been nagging at me since the tunnels. How in the hell did you talk that troll into letting you walk? The moment his aura moved on you, I thought you were paste."
 
@@ -195,7 +195,7 @@ choice("Continue", B2-Ch04a-Change, v_current_scene = B2-Ch04a-Change)
 ID: B2-Ch04a-Means
 TEXT:
 
-"It's okay. I know she means well!"
+"It's all right. I know she means well!"
 
 "Hey, mortal!" Arraka's voice shrills through, cutting in. "One thing's been nagging at me since the tunnels. How in the hell did you talk that troll into letting you walk? The moment his aura moved on you, I thought you were paste."
 
@@ -1429,7 +1429,7 @@ Minutes before the next division is called, Leila returns from the lockers, clut
 
 "Sentry stopped me in the corridor," blue script forms. "Had to fetch a signed clearance pass before he'd let me through."
 
-"No problem. Got everything?"
+"Gladly. Got everything?"
 
 "All I could locate," Leila writes. "Anatomy charts, behavioral patterns, weak points."
 
@@ -1445,7 +1445,7 @@ Minutes before the next division is called, Leila returns from the lockers, clut
 
 "Sentry stopped me in the corridor," blue script forms. "Had to fetch a signed clearance pass before he'd let me through."
 
-"No problem. Got everything?"
+"Gladly. Got everything?"
 
 "All I could locate," Leila writes. "Anatomy charts, behavioral patterns, weak points."
 
